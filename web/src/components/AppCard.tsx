@@ -9,6 +9,32 @@ interface AppCardProps {
   platform: 'iOS' | 'Android';
 }
 
+function StarRating({ score, max = 5 }: { score: number; max?: number }) {
+  return (
+    <span className="text-yellow-500">
+      {'★'.repeat(score)}
+      {'☆'.repeat(max - score)}
+    </span>
+  );
+}
+
+function DifficultyBadge({ level }: { level: number }) {
+  const colors = [
+    'bg-green-100 text-green-800',
+    'bg-lime-100 text-lime-800',
+    'bg-yellow-100 text-yellow-800',
+    'bg-orange-100 text-orange-800',
+    'bg-red-100 text-red-800',
+  ];
+  const labels = ['매우쉬움', '쉬움', '보통', '어려움', '매우어려움'];
+
+  return (
+    <span className={`text-xs px-2 py-0.5 rounded-full ${colors[level - 1]}`}>
+      {labels[level - 1]}
+    </span>
+  );
+}
+
 export default function AppCard({ app, platform }: AppCardProps) {
   const [imgError, setImgError] = useState(false);
 
@@ -77,31 +103,64 @@ export default function AppCard({ app, platform }: AppCardProps) {
 
         {/* Core Idea */}
         <div className="mt-4 p-3 bg-zinc-50 dark:bg-zinc-700 rounded-lg">
-          <p className="text-sm font-medium text-zinc-600 dark:text-zinc-300">
-            핵심 아이디어
-          </p>
-          <p className="text-zinc-900 dark:text-white mt-1">
+          <p className="text-zinc-900 dark:text-white font-medium">
             {app.핵심아이디어}
           </p>
         </div>
 
-        {/* Details - Always visible */}
-        <div className="mt-3 space-y-3 text-sm">
-          <div>
-            <p className="font-medium text-zinc-600 dark:text-zinc-300">해결하는 문제</p>
-            <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.해결하는문제}</p>
+        {/* Score System */}
+        <div className="mt-4 p-3 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-lg">
+          <div className="grid grid-cols-2 gap-2 text-sm">
+            <div className="flex justify-between items-center">
+              <span className="text-zinc-600 dark:text-zinc-400">아이디어</span>
+              <StarRating score={app.점수?.아이디어 || 0} />
+            </div>
+            <div className="flex justify-between items-center">
+              <span className="text-zinc-600 dark:text-zinc-400">실현가능성</span>
+              <StarRating score={app.점수?.실현가능성 || 0} />
+            </div>
+            <div className="flex justify-between items-center">
+              <span className="text-zinc-600 dark:text-zinc-400">시장성</span>
+              <StarRating score={app.점수?.시장성 || 0} />
+            </div>
+            <div className="flex justify-between items-center">
+              <span className="text-zinc-600 dark:text-zinc-400 font-medium">종합</span>
+              <span className="font-bold text-orange-600 dark:text-orange-400">
+                {app.점수?.종합 || 0}/10
+              </span>
+            </div>
           </div>
-          <div>
-            <p className="font-medium text-zinc-600 dark:text-zinc-300">왜 좋은 아이디어인가</p>
-            <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.왜좋은아이디어인가}</p>
+        </div>
+
+        {/* Tags */}
+        {app.태그 && app.태그.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            {app.태그.map((tag, idx) => (
+              <span
+                key={idx}
+                className="text-xs px-2 py-1 bg-zinc-100 dark:bg-zinc-700 text-zinc-600 dark:text-zinc-300 rounded-full"
+              >
+                #{tag}
+              </span>
+            ))}
           </div>
-          <div>
-            <p className="font-medium text-zinc-600 dark:text-zinc-300">개발자 참고 포인트</p>
-            <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.개발자참고포인트}</p>
-          </div>
-          <div>
-            <p className="font-medium text-zinc-600 dark:text-zinc-300">수익화 가능성</p>
-            <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.수익화가능성}</p>
+        )}
+
+        {/* Development Info */}
+        <div className="mt-4 p-3 bg-zinc-50 dark:bg-zinc-700 rounded-lg">
+          <div className="grid grid-cols-1 gap-2 text-sm">
+            <div className="flex justify-between items-center">
+              <span className="text-zinc-500 dark:text-zinc-400">예상 개발 기간</span>
+              <span className="font-medium text-zinc-800 dark:text-zinc-200">{app.예상개발기간}</span>
+            </div>
+            <div className="flex justify-between items-center">
+              <span className="text-zinc-500 dark:text-zinc-400">예상 비용</span>
+              <span className="font-medium text-zinc-800 dark:text-zinc-200">{app.예상비용}</span>
+            </div>
+            <div className="flex justify-between items-center">
+              <span className="text-zinc-500 dark:text-zinc-400">난이도</span>
+              {app.난이도 && <DifficultyBadge level={app.난이도} />}
+            </div>
           </div>
         </div>
       </div>

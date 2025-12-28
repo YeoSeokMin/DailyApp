@@ -1,3 +1,10 @@
+export interface AppScore {
+  아이디어: number;
+  실현가능성: number;
+  시장성: number;
+  종합: number;
+}
+
 export interface AppInfo {
   순위: number;
   앱이름: string;
@@ -6,10 +13,11 @@ export interface AppInfo {
   아이콘: string;
   앱링크: string;
   핵심아이디어: string;
-  해결하는문제: string;
-  왜좋은아이디어인가: string;
-  개발자참고포인트: string;
-  수익화가능성: string;
+  점수: AppScore;
+  태그: string[];
+  예상개발기간: string;
+  예상비용: string;
+  난이도: number;
 }
 
 export interface DailyReport {

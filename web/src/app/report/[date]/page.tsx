@@ -118,10 +118,7 @@ export default async function ReportPage({ params }: ReportPageProps) {
       <footer className="bg-white dark:bg-zinc-800 border-t border-zinc-200 dark:border-zinc-700">
         <div className="max-w-7xl mx-auto px-4 py-6 text-center">
           <p className="text-sm text-zinc-500 dark:text-zinc-400">
-            신규 앱 중 아이디어가 좋은 앱을 AI가 매일 선별합니다
-          </p>
-          <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-2">
-            Powered by Claude AI
+            매일 아침, 숨겨진 보석 앱을 발굴합니다
           </p>
         </div>
       </footer>
