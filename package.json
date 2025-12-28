@@ -1,0 +1,30 @@
+{
+  "name": "app-idea-reporter",
+  "version": "1.0.0",
+  "description": "iOS/Android 앱스토어에서 아이디어 좋은 앱을 수집하여 리포트하는 시스템",
+  "main": "scripts/collect.js",
+  "scripts": {
+    "collect": "node scripts/collect.js",
+    "analyze": "node scripts/analyze.js",
+    "save": "node scripts/save-report.js",
+    "kakao": "node scripts/send-kakao.js",
+    "run": "bash scripts/run.sh"
+  },
+  "keywords": [
+    "app",
+    "idea",
+    "reporter",
+    "appstore",
+    "playstore"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "app-store-scraper": "^0.18.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.1.2",
+    "dotenv": "^16.3.0",
+    "google-play-scraper": "^9.1.0",
+    "puppeteer-core": "^24.34.0"
+  }
+}

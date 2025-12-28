@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Output files (임시 파일)
+output/collected_apps.json
+output/report.json
+output/temp_prompt.txt
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Next.js
+.next/
+out/
+web/.next/
+web/out/
+web/node_modules/
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Claude
+.claude/
