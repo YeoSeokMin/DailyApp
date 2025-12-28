@@ -10,7 +10,6 @@ interface AppCardProps {
 }
 
 export default function AppCard({ app, platform }: AppCardProps) {
-  const [expanded, setExpanded] = useState(false);
   const [imgError, setImgError] = useState(false);
 
   const platformColor = platform === 'iOS'
@@ -86,42 +85,25 @@ export default function AppCard({ app, platform }: AppCardProps) {
           </p>
         </div>
 
-        {/* Expandable Details */}
-        <button
-          onClick={() => setExpanded(!expanded)}
-          className="mt-3 text-sm text-zinc-500 dark:text-zinc-400 hover:text-zinc-700 dark:hover:text-zinc-200 flex items-center gap-1"
-        >
-          {expanded ? '접기' : '자세히 보기'}
-          <svg
-            className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`}
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
-        </button>
-
-        {expanded && (
-          <div className="mt-3 space-y-3 text-sm">
-            <div>
-              <p className="font-medium text-zinc-600 dark:text-zinc-300">해결하는 문제</p>
-              <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.해결하는문제}</p>
-            </div>
-            <div>
-              <p className="font-medium text-zinc-600 dark:text-zinc-300">왜 좋은 아이디어인가</p>
-              <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.왜좋은아이디어인가}</p>
-            </div>
-            <div>
-              <p className="font-medium text-zinc-600 dark:text-zinc-300">개발자 참고 포인트</p>
-              <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.개발자참고포인트}</p>
-            </div>
-            <div>
-              <p className="font-medium text-zinc-600 dark:text-zinc-300">수익화 가능성</p>
-              <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.수익화가능성}</p>
-            </div>
+        {/* Details - Always visible */}
+        <div className="mt-3 space-y-3 text-sm">
+          <div>
+            <p className="font-medium text-zinc-600 dark:text-zinc-300">해결하는 문제</p>
+            <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.해결하는문제}</p>
           </div>
-        )}
+          <div>
+            <p className="font-medium text-zinc-600 dark:text-zinc-300">왜 좋은 아이디어인가</p>
+            <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.왜좋은아이디어인가}</p>
+          </div>
+          <div>
+            <p className="font-medium text-zinc-600 dark:text-zinc-300">개발자 참고 포인트</p>
+            <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.개발자참고포인트}</p>
+          </div>
+          <div>
+            <p className="font-medium text-zinc-600 dark:text-zinc-300">수익화 가능성</p>
+            <p className="text-zinc-800 dark:text-zinc-200 mt-1">{app.수익화가능성}</p>
+          </div>
+        </div>
       </div>
     </div>
   );
