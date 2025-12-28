@@ -80,7 +80,7 @@ export default function Home() {
                 iOS TOP {report.iOS.length}
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
               {report.iOS.map((app) => (
                 <AppCard key={app.순위} app={app} platform="iOS" />
               ))}
@@ -101,7 +101,7 @@ export default function Home() {
                 Android TOP {report.Android.length}
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
               {report.Android.map((app) => (
                 <AppCard key={app.순위} app={app} platform="Android" />
               ))}
