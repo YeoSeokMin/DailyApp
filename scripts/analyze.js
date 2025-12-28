@@ -1,116 +1,179 @@
 /**
  * analyze.js
  *
- * 역할: Claude CLI를 사용하여 수집된 앱 분석 & TOP 10 선별
- * 입력: output/collected_apps.json
- * 출력: output/report.json
+ * 역할: Claude로 수집된 앱 분석 & TOP 5 선별
+ * - ANTHROPIC_API_KEY가 있으면 API 사용 (GitHub Actions용)
+ * - 없으면 Claude CLI 사용 (로컬용)
  */
 
-const { execSync } = require('child_process');
+require('dotenv').config();
+
+const { spawn } = require('child_process');
 const fs = require('fs').promises;
 const path = require('path');
 
+const MAX_APPS_PER_PLATFORM = 30;
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+
+/**
+ * 앱 데이터 정리
+ */
+function cleanAppData(apps, limit) {
+  return apps.slice(0, limit).map(app => ({
+    name: app.name,
+    developer: app.developer || '',
+    category: app.category || '',
+    icon: app.icon || '',
+    url: app.url || ''
+  }));
+}
+
+/**
+ * Anthropic API로 분석 (GitHub Actions용)
+ */
+async function analyzeWithAPI(prompt) {
+  const Anthropic = require('@anthropic-ai/sdk');
+  const client = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
+
+  console.log('  🌐 Anthropic API 호출 중...');
+
+  const response = await client.messages.create({
+    model: 'claude-sonnet-4-20250514',
+    max_tokens: 8000,
+    messages: [{ role: 'user', content: prompt }]
+  });
+
+  return response.content[0].text;
+}
+
+/**
+ * Claude CLI로 분석 (로컬용)
+ */
+function analyzeWithCLI(prompt) {
+  return new Promise((resolve, reject) => {
+    console.log('  ⏳ Claude CLI 응답 대기 중...');
+
+    const claude = spawn('claude', ['--print'], {
+      shell: true,
+      stdio: ['pipe', 'pipe', 'pipe']
+    });
+
+    let stdout = '';
+    let stderr = '';
+
+    claude.stdout.on('data', data => stdout += data.toString());
+    claude.stderr.on('data', data => stderr += data.toString());
+
+    claude.on('close', code => {
+      if (code === 0) {
+        console.log('  ✅ Claude 응답 수신 완료');
+        resolve(stdout);
+      } else {
+        reject(new Error(`Claude 종료 코드 ${code}: ${stderr}`));
+      }
+    });
+
+    claude.on('error', reject);
+    claude.stdin.write(prompt);
+    claude.stdin.end();
+
+    setTimeout(() => {
+      claude.kill();
+      reject(new Error('타임아웃: 5분 초과'));
+    }, 5 * 60 * 1000);
+  });
+}
+
+/**
+ * JSON 추출
+ */
+function extractJSON(text) {
+  let jsonStr = text.trim();
+  jsonStr = jsonStr.replace(/```json\n?/g, '').replace(/```\n?/g, '');
+
+  const startIdx = jsonStr.indexOf('{');
+  const endIdx = jsonStr.lastIndexOf('}');
+
+  if (startIdx === -1 || endIdx === -1) {
+    throw new Error('JSON을 찾을 수 없습니다');
+  }
+
+  return JSON.parse(jsonStr.substring(startIdx, endIdx + 1));
+}
+
 async function main() {
-  console.log('🤖 Claude AI 분석 시작...');
+  console.log('');
+  console.log('🤖 앱 아이디어 분석 시작');
+  console.log('═'.repeat(50));
 
   const projectDir = path.join(__dirname, '..');
   const inputPath = path.join(projectDir, 'output', 'collected_apps.json');
   const outputPath = path.join(projectDir, 'output', 'report.json');
   const promptPath = path.join(__dirname, 'prompt.txt');
 
-  // 1. 프롬프트 읽기
+  // 1. 프롬프트 로드
+  console.log('📝 프롬프트 로드 중...');
   const promptTemplate = await fs.readFile(promptPath, 'utf-8');
 
-  // 2. 수집된 앱 데이터 읽기
-  const appData = await fs.readFile(inputPath, 'utf-8');
+  // 2. 앱 데이터 로드
+  console.log('📱 앱 데이터 로드 중...');
+  const rawData = await fs.readFile(inputPath, 'utf-8');
+  const appData = JSON.parse(rawData);
 
-  // 3. 전체 프롬프트 구성
-  const fullPrompt = promptTemplate + '\n' + appData;
+  const iosApps = cleanAppData(appData.iOS앱 || [], MAX_APPS_PER_PLATFORM);
+  const androidApps = cleanAppData(appData.Android앱 || [], MAX_APPS_PER_PLATFORM);
 
-  // 4. 임시 파일에 프롬프트 저장 (긴 프롬프트 처리)
-  const tempPromptPath = path.join(projectDir, 'output', 'temp_prompt.txt');
-  await fs.writeFile(tempPromptPath, fullPrompt, 'utf-8');
+  console.log(`   iOS: ${iosApps.length}개 / Android: ${androidApps.length}개`);
 
-  console.log('📝 프롬프트 준비 완료');
-  console.log(`   - 수집된 iOS 앱: ${JSON.parse(appData).iOS앱?.length || 0}개`);
-  console.log(`   - 수집된 Android 앱: ${JSON.parse(appData).Android앱?.length || 0}개`);
+  // 3. 프롬프트 구성
+  const cleanedData = {
+    날짜: appData.날짜,
+    iOS앱: iosApps,
+    Android앱: androidApps
+  };
+
+  const fullPrompt = promptTemplate + '\n' + JSON.stringify(cleanedData, null, 2);
+  console.log(`   프롬프트: ${(fullPrompt.length / 1024).toFixed(1)}KB`);
   console.log('');
-  console.log('⏳ Claude 분석 중... (1-2분 소요)');
+
+  // 4. 분석 실행
+  console.log('🧠 Claude 분석 중...');
+  console.log(`   모드: ${ANTHROPIC_API_KEY ? 'API' : 'CLI'}`);
 
   try {
-    // 5. Claude CLI 실행 (Windows/Unix 호환)
-    const isWindows = process.platform === 'win32';
-    const command = isWindows
-      ? `type "${tempPromptPath}" | claude --print`
-      : `cat "${tempPromptPath}" | claude --print`;
+    const result = ANTHROPIC_API_KEY
+      ? await analyzeWithAPI(fullPrompt)
+      : await analyzeWithCLI(fullPrompt);
 
-    const result = execSync(command, {
-      encoding: 'utf-8',
-      maxBuffer: 10 * 1024 * 1024, // 10MB
-      timeout: 5 * 60 * 1000, // 5분 타임아웃
-      shell: true
-    });
-
-    // 6. JSON 파싱 시도
+    // 5. JSON 파싱
+    console.log('📊 결과 파싱 중...');
     let report;
+
     try {
-      // JSON 부분만 추출 (앞뒤 불필요한 텍스트 제거)
-      let jsonStr = result.trim();
-
-      // 마크다운 코드블록 제거
-      if (jsonStr.includes('```json')) {
-        jsonStr = jsonStr.replace(/```json\n?/g, '').replace(/```\n?/g, '');
-      } else if (jsonStr.includes('```')) {
-        jsonStr = jsonStr.replace(/```\n?/g, '');
-      }
-
-      // JSON 시작/끝 찾기
-      const startIdx = jsonStr.indexOf('{');
-      const endIdx = jsonStr.lastIndexOf('}');
-      if (startIdx !== -1 && endIdx !== -1) {
-        jsonStr = jsonStr.substring(startIdx, endIdx + 1);
-      }
-
-      report = JSON.parse(jsonStr);
-      console.log('✅ JSON 파싱 성공');
+      report = extractJSON(result);
+      console.log('  ✅ JSON 파싱 성공');
     } catch (parseError) {
-      console.error('⚠️ JSON 파싱 실패, 원본 저장');
+      console.error('  ⚠️ JSON 파싱 실패:', parseError.message);
       report = { raw: result, error: parseError.message };
     }
 
-    // 7. 결과 저장
+    // 6. 저장
     await fs.writeFile(outputPath, JSON.stringify(report, null, 2), 'utf-8');
-
-    // 8. 임시 파일 삭제
-    await fs.unlink(tempPromptPath).catch(() => {});
 
     console.log('');
     console.log('═'.repeat(50));
     console.log('✅ 분석 완료!');
-    if (report.iOS) {
-      console.log(`   - iOS TOP ${report.iOS.length}개 선별`);
-    }
-    if (report.Android) {
-      console.log(`   - Android TOP ${report.Android.length}개 선별`);
-    }
-    console.log(`   - 저장: ${outputPath}`);
+    if (report.ios) console.log(`   iOS: ${report.ios.length}개`);
+    if (report.android) console.log(`   Android: ${report.android.length}개`);
     console.log('═'.repeat(50));
 
   } catch (error) {
-    console.error('❌ Claude CLI 실행 실패:', error.message);
-
-    // 에러 상세 정보 출력
-    console.log('');
-    console.log('💡 수동으로 실행하려면:');
-    console.log(`   claude --print < "${tempPromptPath}"`);
-    console.log('');
-    console.log('   또는 Claude Code에서 직접 분석을 요청하세요.');
-
+    console.error('❌ 분석 실패:', error.message);
     process.exit(1);
   }
 }
 
-main().catch(error => {
-  console.error('❌ 분석 실패:', error);
+main().catch(err => {
+  console.error('❌ 오류:', err);
   process.exit(1);
 });

@@ -10,7 +10,9 @@ const fs = require('fs').promises;
 const path = require('path');
 
 async function main() {
-  console.log('💾 리포트 저장 시작...');
+  console.log('');
+  console.log('💾 리포트 저장');
+  console.log('═'.repeat(50));
 
   const projectDir = path.join(__dirname, '..');
   const reportPath = path.join(projectDir, 'output', 'report.json');
@@ -25,28 +27,35 @@ async function main() {
     process.exit(1);
   }
 
-  // 2. 날짜 추출 (리포트에서 또는 오늘 날짜)
-  const today = new Date();
-  const dateStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+  // 2. 유효한 리포트인지 확인
+  if (report.raw || report.error) {
+    console.error('❌ 유효하지 않은 리포트입니다.');
+    console.error('   analyze.js를 다시 실행해주세요.');
+    process.exit(1);
+  }
 
-  // 3. 출력 디렉토리 확인/생성
+  // 3. 날짜 추출 (리포트에서 또는 오늘 날짜)
+  const today = new Date();
+  const dateStr = report.date ||
+    `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+
+  // 4. 출력 디렉토리 확인/생성
   const outputDir = path.join(projectDir, 'web', 'data', 'reports');
   await fs.mkdir(outputDir, { recursive: true });
 
-  // 4. 날짜별 파일로 저장
+  // 5. 날짜별 파일로 저장
   const outputPath = path.join(outputDir, `${dateStr}.json`);
   await fs.writeFile(outputPath, JSON.stringify(report, null, 2), 'utf-8');
 
-  console.log('');
-  console.log('═'.repeat(50));
-  console.log('✅ 리포트 저장 완료!');
-  console.log(`   - 날짜: ${dateStr}`);
-  console.log(`   - 저장: ${outputPath}`);
-  if (report.iOS) {
-    console.log(`   - iOS: ${report.iOS.length}개 앱`);
+  console.log('✅ 저장 완료!');
+  console.log(`   날짜: ${dateStr}`);
+  console.log(`   파일: web/data/reports/${dateStr}.json`);
+
+  if (report.ios) {
+    console.log(`   iOS: ${report.ios.length}개 앱`);
   }
-  if (report.Android) {
-    console.log(`   - Android: ${report.Android.length}개 앱`);
+  if (report.android) {
+    console.log(`   Android: ${report.android.length}개 앱`);
   }
   console.log('═'.repeat(50));
 }

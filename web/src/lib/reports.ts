@@ -10,7 +10,7 @@ export function getAvailableDates(): string[] {
     return files
       .filter(file => file.endsWith('.json'))
       .map(file => file.replace('.json', ''))
-      .sort((a, b) => b.localeCompare(a)); // 최신순 정렬
+      .sort((a, b) => b.localeCompare(a));
   } catch {
     return [];
   }

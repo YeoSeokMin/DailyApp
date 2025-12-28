@@ -46,28 +46,65 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 py-8">
-        {/* Date & Insight */}
+        {/* Date & Daily Insight */}
         <div className="mb-8">
           <h2 className="text-xl font-semibold text-zinc-800 dark:text-white">
-            {report.날짜}
+            {report.date}
           </h2>
-          {report.트렌드인사이트 && (
-            <div className="mt-4 p-4 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl border border-purple-100 dark:border-purple-800">
-              <h3 className="font-medium text-purple-800 dark:text-purple-300 flex items-center gap-2">
+          {report.daily_insight && (
+            <div className="mt-4 p-5 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl border border-purple-100 dark:border-purple-800">
+              <h3 className="font-medium text-purple-800 dark:text-purple-300 flex items-center gap-2 mb-4">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
-                트렌드 인사이트
+                오늘의 인사이트
               </h3>
-              <p className="mt-2 text-zinc-700 dark:text-zinc-300 text-sm leading-relaxed">
-                {report.트렌드인사이트}
+
+              {/* Trend Summary */}
+              <p className="text-zinc-800 dark:text-zinc-200 font-medium mb-4">
+                {report.daily_insight.trend_summary}
               </p>
+
+              {/* Trend Details */}
+              {report.daily_insight.trend_details && report.daily_insight.trend_details.length > 0 && (
+                <ul className="space-y-2 mb-4">
+                  {report.daily_insight.trend_details.map((detail, idx) => (
+                    <li key={idx} className="text-sm text-zinc-700 dark:text-zinc-300 flex items-start gap-2">
+                      <span className="text-purple-500 mt-1">•</span>
+                      <span>{detail}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {/* Hot Categories */}
+              {report.daily_insight.hot_categories && report.daily_insight.hot_categories.length > 0 && (
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {report.daily_insight.hot_categories.map((cat, idx) => (
+                    <span key={idx} className="text-xs px-3 py-1 bg-purple-100 dark:bg-purple-800 text-purple-700 dark:text-purple-200 rounded-full">
+                      {cat}
+                    </span>
+                  ))}
+                </div>
+              )}
+
+              {/* Opportunity & Action */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+                <div className="p-3 bg-white/50 dark:bg-zinc-800/50 rounded-lg">
+                  <p className="text-xs text-purple-600 dark:text-purple-400 font-medium mb-1">기회 영역</p>
+                  <p className="text-sm text-zinc-700 dark:text-zinc-300">{report.daily_insight.opportunity}</p>
+                </div>
+                <div className="p-3 bg-white/50 dark:bg-zinc-800/50 rounded-lg">
+                  <p className="text-xs text-purple-600 dark:text-purple-400 font-medium mb-1">오늘의 액션</p>
+                  <p className="text-sm text-zinc-700 dark:text-zinc-300">{report.daily_insight.action_item}</p>
+                </div>
+              </div>
             </div>
           )}
         </div>
 
         {/* iOS Section */}
-        {report.iOS && report.iOS.length > 0 && (
+        {report.ios && report.ios.length > 0 && (
           <section className="mb-12">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
@@ -77,19 +114,19 @@ export default function Home() {
                 </svg>
               </div>
               <h2 className="text-xl font-bold text-zinc-800 dark:text-white">
-                iOS TOP {report.iOS.length}
+                iOS TOP {report.ios.length}
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
-              {report.iOS.map((app) => (
-                <AppCard key={app.순위} app={app} platform="iOS" />
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+              {report.ios.map((app) => (
+                <AppCard key={app.rank} app={app} platform="iOS" />
               ))}
             </div>
           </section>
         )}
 
         {/* Android Section */}
-        {report.Android && report.Android.length > 0 && (
+        {report.android && report.android.length > 0 && (
           <section className="mb-12">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
@@ -98,12 +135,12 @@ export default function Home() {
                 </svg>
               </div>
               <h2 className="text-xl font-bold text-zinc-800 dark:text-white">
-                Android TOP {report.Android.length}
+                Android TOP {report.android.length}
               </h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
-              {report.Android.map((app) => (
-                <AppCard key={app.순위} app={app} platform="Android" />
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+              {report.android.map((app) => (
+                <AppCard key={app.rank} app={app} platform="Android" />
               ))}
             </div>
           </section>

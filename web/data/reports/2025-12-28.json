@@ -1,503 +1,651 @@
 {
-  "날짜": "2025년 12월 28일",
-  "iOS": [
+  "date": "2025-12-28",
+  "ios": [
     {
-      "순위": 1,
-      "앱이름": "지하철 지연알림",
-      "개발자": "Cheolmin Ryu",
-      "카테고리": "라이프스타일",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/0e/ce/5b0ece67-32ee-a090-7c7f-814fb1f4e4f5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/%EC%A7%80%ED%95%98%EC%B2%A0-%EC%A7%80%EC%97%B0%EC%95%8C%EB%A6%BC/id6756803666?uo=2",
-      "핵심아이디어": "지하철 지연 실시간 푸시 알림 서비스",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 5,
-        "시장성": 4,
-        "종합": 8.5
+      "rank": 1,
+      "name": "지하철 지연알림",
+      "developer": "Cheolmin Ryu",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/0e/ce/5b0ece67-32ee-a090-7c7f-814fb1f4e4f5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%A7%80%ED%95%98%EC%B2%A0-%EC%A7%80%EC%97%B0%EC%95%8C%EB%A6%BC/id6756803666",
+      "idea_summary": "지하철 지연 발생시 실시간 푸시 알림 서비스",
+      "analysis": {
+        "problem": "출퇴근시 지하철 지연으로 인한 예상치 못한 지각, 실시간 정보 확인 어려움",
+        "solution": "지하철 노선별 지연 정보를 실시간 모니터링하여 사용자에게 푸시 알림 제공",
+        "target_user": "지하철 출퇴근 직장인, 학생, 정시 도착이 중요한 사용자",
+        "unique_point": "지연 발생 '전' 알림으로 대안 경로 확보 시간 제공"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "무료",
-        "광고형",
-        "API의존",
-        "대중시장"
+      "market": {
+        "competitors": [
+          "카카오맵",
+          "네이버지도",
+          "지하철종결자"
+        ],
+        "timing_reason": "대중교통 이용률 증가, 실시간 정보에 대한 니즈 급증",
+        "growth_potential": "전국 지하철 확대, 버스 등 타 교통수단 연계 가능"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(광고제거, 다중노선), 광고",
+        "pricing_suggestion": "기본 무료 + 월 1,900원 프리미엄",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "500-800",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "Push Notification",
+          "공공데이터API",
+          "백엔드서버"
+        ],
+        "key_features": [
+          "노선별 지연 모니터링",
+          "푸시 알림",
+          "즐겨찾기 노선",
+          "지연 이력"
+        ],
+        "clone_tip": "공공데이터포털의 지하철 실시간 API 활용, Firebase FCM으로 푸시 구현"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#공공API활용",
+        "#구독모델"
       ],
-      "예상개발기간": "1개월",
-      "예상비용": "100-500만원",
-      "난이도": 2
+      "verdict": "실용적 니즈 해결, 공공API로 빠른 개발 가능한 실속형 앱"
     },
     {
-      "순위": 2,
-      "앱이름": "CelebCam: 유명인과 함께 셀카 찍기",
-      "개발자": "Orhan Berke Bac",
-      "카테고리": "사진 및 비디오",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/06/94/2106949c-7ed5-1e0e-d7c5-21acba2fa1fa/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/celebcam-%EC%9C%A0%EB%AA%85%EC%9D%B8%EA%B3%BC-%ED%95%A8%EA%BB%98-%EC%85%80%EC%B9%B4-%EC%B0%8D%EA%B8%B0/id6756125482?uo=2",
-      "핵심아이디어": "AI로 유명인과 함께 찍은 듯한 셀카 생성",
-      "점수": {
-        "아이디어": 5,
-        "실현가능성": 4,
-        "시장성": 4,
-        "종합": 8.3
+      "rank": 2,
+      "name": "올클수강신청",
+      "developer": "Dong Jin Lee",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/3e/08/c23e0836-bf32-9526-9424-f39d3c5f38ea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%98%AC%ED%81%B4%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD/id6756949105",
+      "idea_summary": "대학 수강신청 연습 및 매크로 타이밍 훈련 앱",
+      "analysis": {
+        "problem": "대학생들의 수강신청 실패 스트레스, 클릭 타이밍 훈련 필요",
+        "solution": "실제 수강신청 환경을 시뮬레이션하여 연습 기회 제공",
+        "target_user": "대학생, 특히 인기 강좌 수강신청이 필요한 학생",
+        "unique_point": "게이미피케이션으로 수강신청을 게임처럼 연습"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "구독형",
-        "AI활용",
-        "대중시장",
-        "SNS연동"
+      "market": {
+        "competitors": [
+          "없음 (니치 시장)"
+        ],
+        "timing_reason": "매 학기 반복되는 수강신청 시즌, 지속적 수요",
+        "growth_potential": "콘서트 티켓팅 연습 등 확장 가능"
+      },
+      "business": {
+        "monetization": "인앱광고, 프리미엄 모드(무제한 연습)",
+        "pricing_suggestion": "무료 + 광고제거 3,900원 일회성",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월",
+        "estimated_cost": "200-400",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "타이머",
+          "로컬저장소"
+        ],
+        "key_features": [
+          "수강신청 시뮬레이터",
+          "클릭 속도 측정",
+          "랭킹 시스템",
+          "학교별 UI 모방"
+        ],
+        "clone_tip": "서버 없이 로컬에서 동작 가능, 간단한 타이머+UI로 MVP 빠르게 제작"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#니치마켓",
+        "#시즌성",
+        "#B2C"
       ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
+      "verdict": "독특한 니치 시장, 개발 간단하고 시즌마다 바이럴 가능성 높음"
     },
     {
-      "순위": 3,
-      "앱이름": "슬림앨범-중복사진 정리",
-      "개발자": "sangsu lee",
-      "카테고리": "사진 및 비디오",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/a1/b3/bca1b3fe-d40d-da15-935a-b7c9762eeaf3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/%EC%8A%AC%EB%A6%BC%EC%95%A8%EB%B2%94-%EC%A4%91%EB%B3%B5%EC%82%AC%EC%A7%84-%EC%A0%95%EB%A6%AC/id6756868188?uo=2",
-      "핵심아이디어": "AI 기반 중복/유사 사진 자동 탐지 및 정리",
-      "점수": {
-        "아이디어": 3,
-        "실현가능성": 5,
-        "시장성": 5,
-        "종합": 8.2
+      "rank": 3,
+      "name": "당번표(Duty Table)",
+      "developer": "youngjin kwon",
+      "category": "소셜 네트워킹",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/db/c9/1adbc9c5-d584-ea9c-428a-5f894e4f177b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%8B%B9%EB%B2%88%ED%91%9C-duty-table/id6756906392",
+      "idea_summary": "그룹 내 당번/순번 자동 배정 및 알림 서비스",
+      "analysis": {
+        "problem": "동아리, 가족, 직장 내 청소/설거지 등 당번 관리의 번거로움과 분쟁",
+        "solution": "자동으로 공정하게 순번 배정, 알림으로 리마인드",
+        "target_user": "자취생 공동생활, 동아리, 소규모 팀, 가족",
+        "unique_point": "공정성 알고리즘으로 분쟁 방지, 히스토리 투명 공개"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "일회성결제",
-        "AI활용",
-        "대중시장"
+      "market": {
+        "competitors": [
+          "밴드",
+          "카카오톡 공지"
+        ],
+        "timing_reason": "1인가구 증가에 따른 공유주거 트렌드",
+        "growth_potential": "팀 업무 분배, 육아 당번 등으로 확장"
+      },
+      "business": {
+        "monetization": "프리미엄 그룹(10명 이상), 광고",
+        "pricing_suggestion": "기본 무료 + 월 1,500원 프리미엄",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "400-600",
+        "tech_stack": [
+          "Swift/Flutter",
+          "Firebase",
+          "Push Notification",
+          "CloudKit"
+        ],
+        "key_features": [
+          "그룹 생성",
+          "순번 자동 배정",
+          "푸시 알림",
+          "히스토리"
+        ],
+        "clone_tip": "Firebase로 실시간 동기화, 간단한 라운드로빈 알고리즘으로 순번 배정"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#그룹앱",
+        "#생활밀착형"
       ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
+      "verdict": "일상 속 작은 불편 해결, 바이럴 잠재력 있는 그룹 유틸리티"
     },
     {
-      "순위": 4,
-      "앱이름": "FixOrFloat: Mortgage Optimiser",
-      "개발자": "DAOx",
-      "카테고리": "금융",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/13/48/1f134817-9055-c709-9dae-7879e170a66c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/fixorfloat-mortgage-optimiser/id6756836174?uo=2",
-      "핵심아이디어": "고정금리 vs 변동금리 최적 선택 시뮬레이터",
-      "점수": {
-        "아이디어": 5,
-        "실현가능성": 4,
-        "시장성": 4,
-        "종합": 8.2
+      "rank": 4,
+      "name": "Jokely: Stand-up Comedy",
+      "developer": "Mikhail Aizinov",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/f7/62/0ef762fb-e5bb-921a-3790-d10a34b796ef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/jokely-stand-up-comedy/id6744562322",
+      "idea_summary": "AI 기반 스탠드업 코미디 대본 작성 도우미",
+      "analysis": {
+        "problem": "스탠드업 코미디언의 새로운 소재 발굴과 대본 작성의 어려움",
+        "solution": "AI가 주제 기반으로 농담 아이디어와 대본 구조 제안",
+        "target_user": "아마추어 코미디언, 유튜버, MC, 발표자",
+        "unique_point": "코미디 특화 AI로 타이밍, 펀치라인 구조까지 제안"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "구독형",
-        "틈새시장"
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "일반 글쓰기 앱"
+        ],
+        "timing_reason": "숏폼 콘텐츠 붐으로 유머 콘텐츠 수요 폭발",
+        "growth_potential": "영상 콘텐츠 스크립트, 팟캐스트 대본으로 확장"
+      },
+      "business": {
+        "monetization": "구독제, 크레딧 기반 사용량 과금",
+        "pricing_suggestion": "주 10개 무료 + 월 4,900원 무제한",
+        "revenue_potential": "중상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "500-800",
+        "tech_stack": [
+          "Swift/React Native",
+          "OpenAI API",
+          "Firebase"
+        ],
+        "key_features": [
+          "주제 입력",
+          "농담 생성",
+          "대본 구조화",
+          "저장/편집"
+        ],
+        "clone_tip": "OpenAI API에 코미디 특화 프롬프트 엔지니어링으로 차별화"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AI활용",
+        "#크리에이터도구",
+        "#구독모델",
+        "#글로벌가능"
       ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
+      "verdict": "독특한 버티컬 AI 앱, 크리에이터 이코노미 트렌드에 부합"
     },
     {
-      "순위": 5,
-      "앱이름": "Aviato: Jet Lag & Sleep Coach",
-      "개발자": "Aster Hills LLC",
-      "카테고리": "생산성",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/07/e1/a207e170-2f92-1f4f-a8a9-6e63d9788b4e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/aviato-jet-lag-sleep-coach/id6755438884?uo=2",
-      "핵심아이디어": "시차적응 맞춤형 수면 스케줄 코칭",
-      "점수": {
-        "아이디어": 5,
-        "실현가능성": 4,
-        "시장성": 4,
-        "종합": 8.1
+      "rank": 5,
+      "name": "FixOrFloat: Mortgage Optimiser",
+      "developer": "DAOx",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/13/48/1f134817-9055-c709-9dae-7879e170a66c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/fixorfloat-mortgage-optimiser/id6756836174",
+      "idea_summary": "고정금리 vs 변동금리 주택담보대출 최적화 비교",
+      "analysis": {
+        "problem": "주담대 금리 선택의 어려움, 전문 지식 없이 최적 결정 불가",
+        "solution": "개인 상황과 금리 전망을 반영한 최적 금리 타입 추천",
+        "target_user": "주택 구매자, 대출 갈아타기 고려자, 재테크 관심자",
+        "unique_point": "시뮬레이션으로 장기 이자 비용 차이를 시각화"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "구독형",
-        "AI활용",
-        "틈새시장"
-      ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
-    },
-    {
-      "순위": 6,
-      "앱이름": "Couplify for Couples",
-      "개발자": "Rabia Zeynep Cetin",
-      "카테고리": "라이프스타일",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/f4/ab/3ff4abbb-ed02-9bb7-902c-239b52f21df1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/couplify-for-couples/id6756703529?uo=2",
-      "핵심아이디어": "커플 전용 일정/기념일/소통 통합 앱",
-      "점수": {
-        "아이디어": 3,
-        "실현가능성": 5,
-        "시장성": 4,
-        "종합": 7.8
+      "market": {
+        "competitors": [
+          "은행 앱 내 계산기",
+          "부동산 앱"
+        ],
+        "timing_reason": "금리 변동성 증가로 의사결정 도구 필요성 급증",
+        "growth_potential": "전세대출, 신용대출 등 다른 금융상품으로 확장"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "구독형",
-        "대중시장",
-        "SNS연동"
-      ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
-    },
-    {
-      "순위": 7,
-      "앱이름": "Jokely: Stand-up Comedy",
-      "개발자": "Mikhail Aizinov",
-      "카테고리": "생산성",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/f7/62/0ef762fb-e5bb-921a-3790-d10a34b796ef/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/jokely-stand-up-comedy/id6744562322?uo=2",
-      "핵심아이디어": "AI 기반 스탠드업 코미디 대본 작성 도우미",
-      "점수": {
-        "아이디어": 5,
-        "실현가능성": 4,
-        "시장성": 3,
-        "종합": 7.7
+      "business": {
+        "monetization": "프리미엄 분석, 금융사 제휴 수수료",
+        "pricing_suggestion": "기본 무료 + 상세 분석 4,900원",
+        "revenue_potential": "중상"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "구독형",
-        "AI활용",
-        "틈새시장"
-      ],
-      "예상개발기간": "1개월",
-      "예상비용": "100-500만원",
-      "난이도": 2
-    },
-    {
-      "순위": 8,
-      "앱이름": "Festy Festival Tracker",
-      "개발자": "Nick Holroyd",
-      "카테고리": "음악",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/42/2f/77422ff2-2d67-7e2a-77aa-a34059490d70/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/festy-festival-tracker/id6756035525?uo=2",
-      "핵심아이디어": "음악 페스티벌 일정/라인업 추적 및 알림",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 4,
-        "시장성": 3,
-        "종합": 7.5
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "600-1000",
+        "tech_stack": [
+          "Swift/Flutter",
+          "금융계산로직",
+          "차트라이브러리"
+        ],
+        "key_features": [
+          "금리 입력",
+          "시뮬레이션",
+          "비교 차트",
+          "금리 알림"
+        ],
+        "clone_tip": "복잡한 금융 계산은 엑셀 검증 후 코드화, 한국 금리 데이터 API 연동"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "광고형",
-        "틈새시장",
-        "오프라인연계"
-      ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
-    },
-    {
-      "순위": 9,
-      "앱이름": "당번표(Duty Table)",
-      "개발자": "youngjin kwon",
-      "카테고리": "소셜 네트워킹",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/db/c9/1adbc9c5-d584-ea9c-428a-5f894e4f177b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/%EB%8B%B9%EB%B2%88%ED%91%9C-duty-table/id6756906392?uo=2",
-      "핵심아이디어": "그룹 내 당번/역할 자동 배정 및 관리",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 5,
-        "시장성": 3,
-        "종합": 7.5
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.9
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "무료",
-        "광고형",
-        "틈새시장"
+      "tags": [
+        "#핀테크",
+        "#B2C",
+        "#계산기앱",
+        "#고가치타겟"
       ],
-      "예상개발기간": "1개월",
-      "예상비용": "100만원미만",
-      "난이도": 2
-    },
-    {
-      "순위": 10,
-      "앱이름": "Seahorse Anchor Alarm",
-      "개발자": "Appz4 Kft.",
-      "카테고리": "내비게이션",
-      "아이콘": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/47/29/2a472920-3136-db33-dfa8-b877d0da798b/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
-      "앱링크": "https://apps.apple.com/kr/app/seahorse-anchor-alarm/id6744746963?uo=2",
-      "핵심아이디어": "보트 정박 시 닻 이탈 감지 알람",
-      "점수": {
-        "아이디어": 5,
-        "실현가능성": 4,
-        "시장성": 2,
-        "종합": 7.2
-      },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "일회성결제",
-        "틈새시장",
-        "하드웨어연동"
-      ],
-      "예상개발기간": "1개월",
-      "예상비용": "100-500만원",
-      "난이도": 2
+      "verdict": "고관여 의사결정 도구, 금리 불확실성 시대 실용적 니즈 해결"
     }
   ],
-  "Android": [
+  "android": [
     {
-      "순위": 1,
-      "앱이름": "I Am Bird",
-      "개발자": "Estoty",
-      "카테고리": "롤플레잉",
-      "아이콘": "https://play-lh.googleusercontent.com/q3gcuUArxSsMMV5BTF1pNObbObMxs5JwQP-6d-m_sTYrF5K4ANwuIjPISQvP702WK_tUYOhWYmyN2iEPyaJ98g",
-      "앱링크": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmBird&hl=ko&gl=kr",
-      "핵심아이디어": "새가 되어 도시에서 혼란을 일으키는 시뮬",
-      "점수": {
-        "아이디어": 5,
-        "실현가능성": 4,
-        "시장성": 4,
-        "종합": 8.5
+      "rank": 1,
+      "name": "Pokellector: Pokemon Cards",
+      "developer": "Pokellector",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/3yiZs-LWk4Gu3NJphFohM_7Avj_xUZNckGE2cIen-Ah9nwdh44epfTHHnaBXonY8a68",
+      "app_url": "https://play.google.com/store/apps/details?id=air.com.pokellector.mobile&hl=ko&gl=kr",
+      "idea_summary": "포켓몬 카드 컬렉션 관리 및 시세 추적 앱",
+      "analysis": {
+        "problem": "포켓몬 카드 수집가의 보유 카드 관리, 시세 파악 어려움",
+        "solution": "카드 DB 제공, 보유 카드 체크, 시세 정보 연동",
+        "target_user": "포켓몬 카드 수집가, 트레이더, 덕후",
+        "unique_point": "방대한 카드 DB와 커뮤니티 시세 정보 통합"
       },
-      "태그": [
-        "팀필요",
-        "B2C",
-        "광고형",
-        "대중시장"
+      "market": {
+        "competitors": [
+          "TCGplayer",
+          "Cardmarket"
+        ],
+        "timing_reason": "포켓몬 카드 가치 급등, 투자 자산으로 인식 확대",
+        "growth_potential": "원피스, 유희왕 등 다른 TCG로 확장 가능"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(시세 알림), 광고, 제휴 판매",
+        "pricing_suggestion": "기본 무료 + 월 3,900원 프리미엄",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "800-1200",
+        "tech_stack": [
+          "Kotlin/Flutter",
+          "SQLite/Room",
+          "이미지 스캐너",
+          "REST API"
+        ],
+        "key_features": [
+          "카드 DB 검색",
+          "보유 목록 관리",
+          "시세 추적",
+          "위시리스트"
+        ],
+        "clone_tip": "공식 카드 DB API 또는 크롤링으로 데이터 확보, 바코드 스캔 기능 추가"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#덕후비즈니스",
+        "#컬렉터앱",
+        "#구독모델",
+        "#글로벌"
       ],
-      "예상개발기간": "3-6개월",
-      "예상비용": "1000-3000만원",
-      "난이도": 4
+      "verdict": "열정적 팬덤 타겟, 다른 TCG로 확장 가능한 플랫폼 잠재력"
     },
     {
-      "순위": 2,
-      "앱이름": "WorldView 360 – Live Maps",
-      "개발자": "LUXORA",
-      "카테고리": "지도/내비게이션",
-      "아이콘": "https://play-lh.googleusercontent.com/_mizNv5-QEMxa8XE0U3NYqGedEeyfhX27Nm1FNRZ7hnu4inZiRQc4sjL8TGsBj4WDisM8Wtj6TnyBSaGpd-OCg",
-      "앱링크": "https://play.google.com/store/apps/details?id=com.worldview.live.map&hl=ko&gl=kr",
-      "핵심아이디어": "위성+360도+공공카메라 통합 세계탐험",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 3,
-        "시장성": 4,
-        "종합": 7.8
+      "rank": 2,
+      "name": "I Am Bird",
+      "developer": "Estoty",
+      "category": "롤플레잉",
+      "icon": "https://play-lh.googleusercontent.com/q3gcuUArxSsMMV5BTF1pNObbObMxs5JwQP-6d-m_sTYrF5K4ANwuIjPISQvP702WK_tUYOhWYmyN2iEPyaJ98g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmBird&hl=ko&gl=kr",
+      "idea_summary": "새가 되어 자연을 탐험하는 힐링 시뮬레이션 게임",
+      "analysis": {
+        "problem": "도시 생활의 스트레스, 자연과 단절된 현대인의 힐링 니즈",
+        "solution": "새의 시점으로 자유롭게 비행하며 자연을 탐험하는 경험 제공",
+        "target_user": "힐링 게임 선호자, 자연 애호가, 캐주얼 게이머",
+        "unique_point": "새 시점의 독특한 비행 시뮬레이션 + 힐링 요소"
       },
-      "태그": [
-        "팀필요",
-        "B2C",
-        "광고형",
-        "API의존",
-        "대중시장"
+      "market": {
+        "competitors": [
+          "Stray (고양이)",
+          "언타이틀드 구스 게임"
+        ],
+        "timing_reason": "힐링/ASMR 콘텐츠 수요 증가, 동물 시뮬레이션 인기",
+        "growth_potential": "다른 동물 시뮬레이터 시리즈화 가능"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 인앱구매(새 종류, 맵 확장)",
+        "pricing_suggestion": "무료+광고 또는 4,900원 프리미엄",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월",
+        "estimated_cost": "1000-2000",
+        "tech_stack": [
+          "Unity",
+          "3D 모델링",
+          "물리엔진",
+          "사운드디자인"
+        ],
+        "key_features": [
+          "비행 물리",
+          "자연환경 탐험",
+          "다양한 새 종류",
+          "퀘스트"
+        ],
+        "clone_tip": "Unity Asset Store의 비행 시스템 활용, 로우폴리 아트로 최적화"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#힐링게임",
+        "#시뮬레이터",
+        "#인디게임",
+        "#글로벌"
       ],
-      "예상개발기간": "3-6개월",
-      "예상비용": "1000-3000만원",
-      "난이도": 4
+      "verdict": "독특한 컨셉의 힐링 게임, 유튜브/틱톡 바이럴 잠재력 높음"
     },
     {
-      "순위": 3,
-      "앱이름": "playus: Daily Battles",
-      "개발자": "Dapps Pte. Ltd.",
-      "카테고리": "캐주얼",
-      "아이콘": "https://play-lh.googleusercontent.com/nbIZjcTmvfmoTSBs_1iIh6C4-VdPRvzR4PbeUwcS-5-Syl35p3H8V3axWHOVmrKUhnGTcZ9rIU1dSweEXDIGUok",
-      "앱링크": "https://play.google.com/store/apps/details?id=club.playus&hl=ko&gl=kr",
-      "핵심아이디어": "친구와 일일 미니게임 대결 플랫폼",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 4,
-        "시장성": 4,
-        "종합": 7.8
+      "rank": 3,
+      "name": "playus: Daily Battles",
+      "developer": "Dapps Pte. Ltd.",
+      "category": "캐주얼",
+      "icon": "https://play-lh.googleusercontent.com/nbIZjcTmvfmoTSBs_1iIh6C4-VdPRvzR4PbeUwcS-5-Syl35p3H8V3axWHOVmrKUhnGTcZ9rIU1dSweEXDIGUok",
+      "app_url": "https://play.google.com/store/apps/details?id=club.playus&hl=ko&gl=kr",
+      "idea_summary": "매일 새로운 미니게임 배틀로 친구와 경쟁",
+      "analysis": {
+        "problem": "친구와 함께할 간단한 게임 부재, 긴 게임 세션 시간 부담",
+        "solution": "매일 새로운 미니게임으로 짧은 시간 친구와 경쟁",
+        "target_user": "친구와 게임 즐기는 10-30대, 캐주얼 게이머",
+        "unique_point": "데일리 미션 형태로 매일 새로운 게임 제공"
       },
-      "태그": [
-        "팀필요",
-        "B2C",
-        "광고형",
-        "대중시장",
-        "SNS연동"
+      "market": {
+        "competitors": [
+          "Wordle",
+          "뉴욕타임즈 게임즈"
+        ],
+        "timing_reason": "데일리 챌린지 게임 트렌드, 숏폼 콘텐츠 소비 습관",
+        "growth_potential": "e스포츠화, 시즌제 리그 운영 가능"
+      },
+      "business": {
+        "monetization": "광고, 시즌패스, 아이템 판매",
+        "pricing_suggestion": "무료+광고 + 시즌패스 9,900원",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "800-1500",
+        "tech_stack": [
+          "Unity/React Native",
+          "실시간멀티플레이",
+          "Firebase",
+          "랭킹시스템"
+        ],
+        "key_features": [
+          "데일리 미니게임",
+          "친구 대전",
+          "랭킹",
+          "리워드"
+        ],
+        "clone_tip": "Photon 또는 Firebase Realtime DB로 멀티플레이 구현, 미니게임 모듈화"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#소셜게임",
+        "#데일리챌린지",
+        "#멀티플레이",
+        "#바이럴"
       ],
-      "예상개발기간": "3-6개월",
-      "예상비용": "1000-3000만원",
-      "난이도": 4
+      "verdict": "Wordle 성공 공식 + 소셜 요소, 바이럴 성장 가능성 높음"
     },
     {
-      "순위": 4,
-      "앱이름": "y2k: 2000s photo editor",
-      "개발자": "Abel Thomas Noble",
-      "카테고리": "사진",
-      "아이콘": "https://play-lh.googleusercontent.com/V9qasly582QPeiNwzscfZPsAi1k14pv8SMwLfh3VNZIko11BzhMsSO9MBKjCWBf2xhbiL2YEMmiFjowYXUpkPQ",
-      "앱링크": "https://play.google.com/store/apps/details?id=com.abel.y2k&hl=ko&gl=kr",
-      "핵심아이디어": "2000년대 디지털카메라 감성 레트로 필터",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 5,
-        "시장성": 4,
-        "종합": 8.2
+      "rank": 4,
+      "name": "Givers Map",
+      "developer": "ilabo",
+      "category": "라이프스타일",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=info.ilabo.ggrma",
+      "idea_summary": "주변 기부/나눔 장소를 지도에서 찾는 서비스",
+      "analysis": {
+        "problem": "기부하고 싶어도 어디서 할 수 있는지 정보 부족",
+        "solution": "주변 기부 센터, 나눔 장터, 기부 박스 위치를 지도로 제공",
+        "target_user": "기부 관심자, 미니멀리스트, ESG 관심 기업",
+        "unique_point": "기부 장소 특화 지도 + 기부 히스토리 관리"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "일회성결제",
-        "대중시장",
-        "SNS연동"
+      "market": {
+        "competitors": [
+          "아름다운가게 앱",
+          "굿윌스토어"
+        ],
+        "timing_reason": "ESG 트렌드, MZ세대 가치소비 확산",
+        "growth_potential": "기업 CSR 연계, 기부금 영수증 발급 서비스 확장"
+      },
+      "business": {
+        "monetization": "기부 단체 등록비, 기업 제휴, 프리미엄 기능",
+        "pricing_suggestion": "개인 무료 + 단체 월 5만원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "500-800",
+        "tech_stack": [
+          "Kotlin/Flutter",
+          "Google Maps API",
+          "Firebase",
+          "크라우드소싱"
+        ],
+        "key_features": [
+          "기부 장소 지도",
+          "카테고리 필터",
+          "기부 기록",
+          "나눔 요청"
+        ],
+        "clone_tip": "Google Maps API + 크라우드소싱으로 데이터 확보, 초기 주요 도시 집중"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#소셜임팩트",
+        "#지도앱",
+        "#ESG",
+        "#B2B2C"
       ],
-      "예상개발기간": "1개월",
-      "예상비용": "100-500만원",
-      "난이도": 2
+      "verdict": "사회적 가치와 비즈니스 결합, CSR 예산 타겟 B2B 확장 가능"
     },
     {
-      "순위": 5,
-      "앱이름": "Brain Teaser: Tricky Puzzle",
-      "개발자": "The Face Shop",
-      "카테고리": "퍼즐",
-      "아이콘": "https://play-lh.googleusercontent.com/K0RG7O67EMgMc5Wkt9REb-49DeToVMcpVA2wq5DCaWwgBg7qIM5_5oHy10iy3ISm5Z2QjT-fk6K3NLVDQr6WeJ0",
-      "앱링크": "https://play.google.com/store/apps/details?id=com.brain.teaser.tricky.puzzle.annoying.prankster&hl=ko&gl=kr",
-      "핵심아이디어": "반전 있는 트릭 퍼즐과 장난 요소 결합",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 5,
-        "시장성": 4,
-        "종합": 8
+      "rank": 5,
+      "name": "Day R Premium",
+      "developer": "Rmind Games",
+      "category": "롤플레잉",
+      "icon": "https://play-lh.googleusercontent.com/d97BKYoC_gmD-4MdkVlMRFi5KOfrFNPPtJzNjg6qOXpg9B-5_vSIDAmz_UOWVvBpVso",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gm_shaber.dayrpremium&hl=ko&gl=kr",
+      "idea_summary": "핵전쟁 후 소련 생존 시뮬레이션 RPG",
+      "analysis": {
+        "problem": "단조로운 모바일 RPG, 깊이 있는 서바이벌 게임 부재",
+        "solution": "현실적 생존 시스템과 광활한 오픈월드 탐험 제공",
+        "target_user": "하드코어 RPG 팬, 서바이벌 게임 애호가",
+        "unique_point": "소련 포스트 아포칼립스 세계관, 깊은 크래프팅 시스템"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "광고형",
-        "대중시장"
-      ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
-    },
-    {
-      "순위": 6,
-      "앱이름": "탈출 게임 1914 ~지베르니 정원에서 탈출~",
-      "개발자": "Jammsworks Inc.",
-      "카테고리": "퍼즐",
-      "아이콘": "https://play-lh.googleusercontent.com/ktIvLGdkgHICHH6owBteLQitSHc0qatsqnLwctJQgeiFLf6WzoNxzrpjTAqZVEDzy6L4MEa7k674-p-zyO6d",
-      "앱링크": "https://play.google.com/store/apps/details?id=org.unity.jamms.monet&hl=ko&gl=kr",
-      "핵심아이디어": "역사적 예술작품 배경 방탈출 퍼즐",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 4,
-        "시장성": 3,
-        "종합": 7.5
+      "market": {
+        "competitors": [
+          "This War of Mine",
+          "Project Zomboid"
+        ],
+        "timing_reason": "서바이벌 장르 꾸준한 인기, 독특한 세계관 수요",
+        "growth_potential": "멀티플레이 모드, 모드 커뮤니티 확장"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "일회성결제",
-        "틈새시장"
-      ],
-      "예상개발기간": "3-6개월",
-      "예상비용": "1000-3000만원",
-      "난이도": 4
-    },
-    {
-      "순위": 7,
-      "앱이름": "Pokellector: Pokemon Cards",
-      "개발자": "Pokellector",
-      "카테고리": "도구",
-      "아이콘": "https://play-lh.googleusercontent.com/3yiZs-LWk4Gu3NJphFohM_7Avj_xUZNckGE2cIen-Ah9nwdh44epfTHHnaBXonY8a68",
-      "앱링크": "https://play.google.com/store/apps/details?id=air.com.pokellector.mobile&hl=ko&gl=kr",
-      "핵심아이디어": "포켓몬 TCG 카드 컬렉션 관리 및 트래킹",
-      "점수": {
-        "아이디어": 3,
-        "실현가능성": 4,
-        "시장성": 4,
-        "종합": 7.3
+      "business": {
+        "monetization": "유료 앱, DLC, 인앱구매",
+        "pricing_suggestion": "5,900원 프리미엄 + DLC 각 2,900원",
+        "revenue_potential": "중상"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "광고형",
-        "틈새시장"
-      ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
-    },
-    {
-      "순위": 8,
-      "앱이름": "Flickin 3D - Soccer Stars",
-      "개발자": "kenan.app",
-      "카테고리": "스포츠",
-      "아이콘": "https://play-lh.googleusercontent.com/DPr8YvDgiMQ8qGQutWtvji-5sUMKPYRXbeAgoNOb_DOdnIlehjJeg9rHwWd-melugEM",
-      "앱링크": "https://play.google.com/store/apps/details?id=com.nrg.legendfootball&hl=ko&gl=kr",
-      "핵심아이디어": "3D 손가락 튕기기 축구 대전 게임",
-      "점수": {
-        "아이디어": 3,
-        "실현가능성": 4,
-        "시장성": 4,
-        "종합": 7.2
+      "dev_insight": {
+        "estimated_period": "6-12개월",
+        "estimated_cost": "2000-5000",
+        "tech_stack": [
+          "Unity",
+          "턴제시스템",
+          "인벤토리시스템",
+          "맵에디터"
+        ],
+        "key_features": [
+          "오픈월드 탐험",
+          "크래프팅",
+          "턴제 전투",
+          "스토리 퀘스트"
+        ],
+        "clone_tip": "턴제로 기술 복잡도 낮춤, 픽셀아트로 에셋 비용 절감 가능"
       },
-      "태그": [
-        "1인개발가능",
-        "B2C",
-        "광고형",
-        "대중시장",
-        "SNS연동"
-      ],
-      "예상개발기간": "2-3개월",
-      "예상비용": "500-1000만원",
-      "난이도": 3
-    },
-    {
-      "순위": 9,
-      "앱이름": "Day R Premium",
-      "개발자": "Rmind Games",
-      "카테고리": "롤플레잉",
-      "아이콘": "https://play-lh.googleusercontent.com/d97BKYoC_gmD-4MdkVlMRFi5KOfrFNPPtJzNjg6qOXpg9B-5_vSIDAmz_UOWVvBpVso",
-      "앱링크": "https://play.google.com/store/apps/details?id=com.gm_shaber.dayrpremium&hl=ko&gl=kr",
-      "핵심아이디어": "핵전쟁 후 러시아 배경 생존 시뮬레이션",
-      "점수": {
-        "아이디어": 4,
-        "실현가능성": 3,
-        "시장성": 4,
-        "종합": 7.2
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.4
       },
-      "태그": [
-        "팀필요",
-        "B2C",
-        "일회성결제",
-        "틈새시장"
+      "tags": [
+        "#프리미엄게임",
+        "#서바이벌RPG",
+        "#인디게임",
+        "#글로벌"
       ],
-      "예상개발기간": "6개월이상",
-      "예상비용": "3000만원이상",
-      "난이도": 5
-    },
-    {
-      "순위": 10,
-      "앱이름": "Super Car Soccer Arena TV",
-      "개발자": "Mayaavi Games Studio LLP",
-      "카테고리": "스포츠",
-      "아이콘": "https://play-lh.googleusercontent.com/18XrQKvDD3J6a6yQIgT2pucDCH030r9rwwixSIvFb2Yw2JjAvYnuyDKFqUGVmHoK2kqMqE_qJ6LxYxv59jbwz_w",
-      "앱링크": "https://play.google.com/store/apps/details?id=com.mayaavigames.supercarsoccerarenatv&hl=ko&gl=kr",
-      "핵심아이디어": "자동차로 축구하는 로켓리그 스타일 게임",
-      "점수": {
-        "아이디어": 3,
-        "실현가능성": 4,
-        "시장성": 3,
-        "종합": 6.8
-      },
-      "태그": [
-        "팀필요",
-        "B2C",
-        "광고형",
-        "대중시장"
-      ],
-      "예상개발기간": "3-6개월",
-      "예상비용": "1000-3000만원",
-      "난이도": 4
+      "verdict": "니치하지만 충성도 높은 팬층, 유료 모델로 안정적 수익 가능"
     }
   ],
-  "트렌드인사이트": "AI 기반 이미지 생성/편집 앱과 레트로 감성 카메라 앱이 주목받고 있으며, 틈새시장을 공략하는 실용 유틸리티(지하철 지연, 대출 계산)가 차별화 전략으로 부상 중"
+  "daily_insight": {
+    "trend_summary": "실용적 생활 유틸리티와 틈새 시장을 겨냥한 앱들이 눈에 띈다. 특히 공공데이터 API를 활용한 교통/생활 정보 앱과 특정 취미 커뮤니티를 타겟으로 한 컬렉터 앱이 주목할 만하다.",
+    "trend_details": [
+      "공공데이터 API 활용 생활밀착형 앱 증가 (지하철 지연, 당번표)",
+      "버티컬 AI 앱 등장 (코미디 대본 등 특화 분야)",
+      "컬렉터/덕후 타겟 관리 도구 수요 증가",
+      "금융 의사결정 도구 니즈 상승"
+    ],
+    "hot_categories": [
+      "라이프스타일",
+      "금융",
+      "교육",
+      "도구"
+    ],
+    "opportunity": "공공데이터 API + 푸시알림 조합의 실시간 정보 앱은 개발 난이도 대비 실용성이 높아 인디 개발자에게 좋은 기회",
+    "action_item": "공공데이터포털에서 실시간 제공되는 API 목록을 검토하고, 아직 앱으로 잘 서비스되지 않는 데이터를 찾아보자"
+  }
 }
