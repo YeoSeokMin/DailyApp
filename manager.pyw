@@ -332,6 +332,7 @@ class DailyAppManager:
                 ("npm run collect", "앱 데이터 수집"),
                 ("npm run analyze", "Claude AI 분석"),
                 ("npm run save", "리포트 저장"),
+                ("git add web/data/reports/*.json && git commit -m \"Daily report\" && git push origin main", "GitHub 업로드"),
                 ("npm run kakao:send", "카카오톡 전송")
             ]
 
