@@ -403,18 +403,42 @@ class DailyAppManager:
             self.log("중지 요청됨...", "warn")
 
     def enable_schedule(self):
-        """자동실행 켜기"""
+        """자동실행 켜기 (없으면 생성)"""
         try:
+            # 먼저 기존 스케줄 활성화 시도
             result = subprocess.run(
                 ['schtasks', '/change', '/tn', 'DailyAppReport', '/enable'],
                 capture_output=True,
                 text=True,
                 creationflags=subprocess.CREATE_NO_WINDOW
             )
+
             if result.returncode == 0:
                 self.log("자동실행 켜짐 (매일 09:00)", "success")
             else:
-                self.log("스케줄이 등록되지 않음. 관리.bat 실행 필요", "error")
+                # 스케줄이 없으면 새로 생성
+                self.log("스케줄 생성 중...", "info")
+                bat_path = os.path.join(PROJECT_DIR, "daily.bat")
+
+                create_result = subprocess.run(
+                    [
+                        'schtasks', '/create',
+                        '/tn', 'DailyAppReport',
+                        '/tr', bat_path,
+                        '/sc', 'daily',
+                        '/st', '09:00',
+                        '/f'
+                    ],
+                    capture_output=True,
+                    text=True,
+                    creationflags=subprocess.CREATE_NO_WINDOW
+                )
+
+                if create_result.returncode == 0:
+                    self.log("스케줄 생성 완료!", "success")
+                    self.log("자동실행 켜짐 (매일 09:00)", "success")
+                else:
+                    self.log(f"스케줄 생성 실패: {create_result.stderr}", "error")
         except Exception as e:
             self.log(f"오류: {str(e)}", "error")
         self.update_status()
