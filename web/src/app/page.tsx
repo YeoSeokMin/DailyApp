@@ -1,5 +1,7 @@
 import AppCard from '@/components/AppCard';
 import DateSelector from '@/components/DateSelector';
+import AdSidebar from '@/components/AdSidebar';
+import MobileAdSlot from '@/components/MobileAdSlot';
 import { getLatestReport, getAvailableDates } from '@/lib/reports';
 
 // 60초마다 재검증 (ISR)
@@ -30,7 +32,7 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-900">
       {/* Header */}
       <header className="bg-white dark:bg-zinc-800 shadow-sm sticky top-0 z-10">
-        <div className="max-w-7xl mx-auto px-4 py-4">
+        <div className="max-w-[1600px] mx-auto px-4 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <div>
               <h1 className="text-2xl font-bold text-zinc-900 dark:text-white">
@@ -47,112 +49,127 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 py-8">
-        {/* Date & Daily Insight */}
-        <div className="mb-8">
-          <h2 className="text-xl font-semibold text-zinc-800 dark:text-white">
-            {report.date}
-          </h2>
-          {report.daily_insight && (
-            <div className="mt-4 p-5 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl border border-purple-100 dark:border-purple-800">
-              <h3 className="font-medium text-purple-800 dark:text-purple-300 flex items-center gap-2 mb-4">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-                오늘의 인사이트
-              </h3>
+      {/* Main Layout with Ads */}
+      <div className="max-w-[1600px] mx-auto px-4 py-8 flex gap-6">
+        {/* Left Sidebar Ads */}
+        <AdSidebar position="left" />
 
-              {/* Trend Summary */}
-              <p className="text-zinc-800 dark:text-zinc-200 font-medium mb-4">
-                {report.daily_insight.trend_summary}
-              </p>
+        {/* Main Content */}
+        <main className="flex-1 max-w-5xl mx-auto">
+          {/* Date & Daily Insight */}
+          <div className="mb-8">
+            <h2 className="text-xl font-semibold text-zinc-800 dark:text-white">
+              {report.date}
+            </h2>
+            {report.daily_insight && (
+              <div className="mt-4 p-5 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl border border-purple-100 dark:border-purple-800">
+                <h3 className="font-medium text-purple-800 dark:text-purple-300 flex items-center gap-2 mb-4">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  오늘의 인사이트
+                </h3>
 
-              {/* Trend Details */}
-              {report.daily_insight.trend_details && report.daily_insight.trend_details.length > 0 && (
-                <ul className="space-y-2 mb-4">
-                  {report.daily_insight.trend_details.map((detail, idx) => (
-                    <li key={idx} className="text-sm text-zinc-700 dark:text-zinc-300 flex items-start gap-2">
-                      <span className="text-purple-500 mt-1">•</span>
-                      <span>{detail}</span>
-                    </li>
-                  ))}
-                </ul>
-              )}
+                {/* Trend Summary */}
+                <p className="text-zinc-800 dark:text-zinc-200 font-medium mb-4">
+                  {report.daily_insight.trend_summary}
+                </p>
 
-              {/* Hot Categories */}
-              {report.daily_insight.hot_categories && report.daily_insight.hot_categories.length > 0 && (
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {report.daily_insight.hot_categories.map((cat, idx) => (
-                    <span key={idx} className="text-xs px-3 py-1 bg-purple-100 dark:bg-purple-800 text-purple-700 dark:text-purple-200 rounded-full">
-                      {cat}
-                    </span>
-                  ))}
-                </div>
-              )}
+                {/* Trend Details */}
+                {report.daily_insight.trend_details && report.daily_insight.trend_details.length > 0 && (
+                  <ul className="space-y-2 mb-4">
+                    {report.daily_insight.trend_details.map((detail, idx) => (
+                      <li key={idx} className="text-sm text-zinc-700 dark:text-zinc-300 flex items-start gap-2">
+                        <span className="text-purple-500 mt-1">•</span>
+                        <span>{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
 
-              {/* Opportunity & Action */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
-                <div className="p-3 bg-white/50 dark:bg-zinc-800/50 rounded-lg">
-                  <p className="text-xs text-purple-600 dark:text-purple-400 font-medium mb-1">기회 영역</p>
-                  <p className="text-sm text-zinc-700 dark:text-zinc-300">{report.daily_insight.opportunity}</p>
-                </div>
-                <div className="p-3 bg-white/50 dark:bg-zinc-800/50 rounded-lg">
-                  <p className="text-xs text-purple-600 dark:text-purple-400 font-medium mb-1">오늘의 액션</p>
-                  <p className="text-sm text-zinc-700 dark:text-zinc-300">{report.daily_insight.action_item}</p>
+                {/* Hot Categories */}
+                {report.daily_insight.hot_categories && report.daily_insight.hot_categories.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {report.daily_insight.hot_categories.map((cat, idx) => (
+                      <span key={idx} className="text-xs px-3 py-1 bg-purple-100 dark:bg-purple-800 text-purple-700 dark:text-purple-200 rounded-full">
+                        {cat}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
+                {/* Opportunity & Action */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+                  <div className="p-3 bg-white/50 dark:bg-zinc-800/50 rounded-lg">
+                    <p className="text-xs text-purple-600 dark:text-purple-400 font-medium mb-1">기회 영역</p>
+                    <p className="text-sm text-zinc-700 dark:text-zinc-300">{report.daily_insight.opportunity}</p>
+                  </div>
+                  <div className="p-3 bg-white/50 dark:bg-zinc-800/50 rounded-lg">
+                    <p className="text-xs text-purple-600 dark:text-purple-400 font-medium mb-1">오늘의 액션</p>
+                    <p className="text-sm text-zinc-700 dark:text-zinc-300">{report.daily_insight.action_item}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
+          </div>
+
+          {/* Mobile Ad Slot 1 */}
+          <MobileAdSlot slotId="left1" />
+
+          {/* iOS Section */}
+          {report.ios && report.ios.length > 0 && (
+            <section className="mb-12">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83z"/>
+                    <path d="M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                  </svg>
+                </div>
+                <h2 className="text-xl font-bold text-zinc-800 dark:text-white">
+                  iOS TOP {report.ios.length}
+                </h2>
+              </div>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+                {report.ios.map((app) => (
+                  <AppCard key={app.rank} app={app} platform="iOS" />
+                ))}
+              </div>
+            </section>
           )}
-        </div>
 
-        {/* iOS Section */}
-        {report.ios && report.ios.length > 0 && (
-          <section className="mb-12">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83z"/>
-                  <path d="M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
-                </svg>
-              </div>
-              <h2 className="text-xl font-bold text-zinc-800 dark:text-white">
-                iOS TOP {report.ios.length}
-              </h2>
-            </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-              {report.ios.map((app) => (
-                <AppCard key={app.rank} app={app} platform="iOS" />
-              ))}
-            </div>
-          </section>
-        )}
+          {/* Mobile Ad Slot 2 */}
+          <MobileAdSlot slotId="right1" />
 
-        {/* Android Section */}
-        {report.android && report.android.length > 0 && (
-          <section className="mb-12">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M17.523 15.34c-.5 0-.909-.312-.909-.697s.409-.697.91-.697c.5 0 .908.312.908.697s-.408.697-.909.697zm-11.046 0c-.5 0-.909-.312-.909-.697s.409-.697.91-.697c.5 0 .908.312.908.697s-.408.697-.909.697zm11.402-5.77l1.994-3.455a.415.415 0 00-.151-.566.416.416 0 00-.567.151l-2.018 3.497A12.24 12.24 0 0012 8.465a12.24 12.24 0 00-5.137.732L4.845 5.7a.416.416 0 00-.567-.151.415.415 0 00-.151.566l1.994 3.455C2.63 11.467 0 14.95 0 19h24c0-4.05-2.63-7.533-6.121-9.43z"/>
-                </svg>
+          {/* Android Section */}
+          {report.android && report.android.length > 0 && (
+            <section className="mb-12">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.523 15.34c-.5 0-.909-.312-.909-.697s.409-.697.91-.697c.5 0 .908.312.908.697s-.408.697-.909.697zm-11.046 0c-.5 0-.909-.312-.909-.697s.409-.697.91-.697c.5 0 .908.312.908.697s-.408.697-.909.697zm11.402-5.77l1.994-3.455a.415.415 0 00-.151-.566.416.416 0 00-.567.151l-2.018 3.497A12.24 12.24 0 0012 8.465a12.24 12.24 0 00-5.137.732L4.845 5.7a.416.416 0 00-.567-.151.415.415 0 00-.151.566l1.994 3.455C2.63 11.467 0 14.95 0 19h24c0-4.05-2.63-7.533-6.121-9.43z"/>
+                  </svg>
+                </div>
+                <h2 className="text-xl font-bold text-zinc-800 dark:text-white">
+                  Android TOP {report.android.length}
+                </h2>
               </div>
-              <h2 className="text-xl font-bold text-zinc-800 dark:text-white">
-                Android TOP {report.android.length}
-              </h2>
-            </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-              {report.android.map((app) => (
-                <AppCard key={app.rank} app={app} platform="Android" />
-              ))}
-            </div>
-          </section>
-        )}
-      </main>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+                {report.android.map((app) => (
+                  <AppCard key={app.rank} app={app} platform="Android" />
+                ))}
+              </div>
+            </section>
+          )}
+        </main>
+
+        {/* Right Sidebar Ads */}
+        <AdSidebar position="right" />
+      </div>
 
       {/* Footer */}
       <footer className="bg-white dark:bg-zinc-800 border-t border-zinc-200 dark:border-zinc-700">
-        <div className="max-w-7xl mx-auto px-4 py-6 text-center">
+        <div className="max-w-[1600px] mx-auto px-4 py-6 text-center">
           <p className="text-sm text-zinc-500 dark:text-zinc-400">
             매일 아침, 숨겨진 보석 앱을 발굴합니다
           </p>
