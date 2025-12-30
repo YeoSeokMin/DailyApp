@@ -113,8 +113,9 @@ export default function Home() {
             )}
           </div>
 
-          {/* Mobile Ad Slot 1 */}
+          {/* Mobile Ad Slots 1-2 */}
           <MobileAdSlot slotId="left1" />
+          <MobileAdSlot slotId="left2" />
 
           {/* iOS Section */}
           {report.ios && report.ios.length > 0 && (
@@ -138,8 +139,9 @@ export default function Home() {
             </section>
           )}
 
-          {/* Mobile Ad Slot 2 */}
+          {/* Mobile Ad Slots 3-4 */}
           <MobileAdSlot slotId="right1" />
+          <MobileAdSlot slotId="right2" />
 
           {/* Android Section */}
           {report.android && report.android.length > 0 && (

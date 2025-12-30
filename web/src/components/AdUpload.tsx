@@ -11,6 +11,7 @@ interface AdUploadProps {
 export default function AdUpload({ slotId, onSuccess, onClose }: AdUploadProps) {
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
+  const [linkUrl, setLinkUrl] = useState('');
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -51,6 +52,9 @@ export default function AdUpload({ slotId, onSuccess, onClose }: AdUploadProps) 
       const formData = new FormData();
       formData.append('image', file);
       formData.append('slotId', slotId);
+      if (linkUrl.trim()) {
+        formData.append('linkUrl', linkUrl.trim());
+      }
 
       const res = await fetch('/api/ad/upload', {
         method: 'POST',
@@ -73,7 +77,7 @@ export default function AdUpload({ slotId, onSuccess, onClose }: AdUploadProps) 
 
   return (
     <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4">
-      <div className="bg-white dark:bg-zinc-800 rounded-2xl p-6 max-w-md w-full shadow-2xl">
+      <div className="bg-white dark:bg-zinc-800 rounded-2xl p-6 max-w-md w-full shadow-2xl max-h-[90vh] overflow-y-auto">
         {/* 헤더 */}
         <div className="text-center mb-6">
           <div className="text-4xl mb-2">🎉</div>
@@ -81,7 +85,7 @@ export default function AdUpload({ slotId, onSuccess, onClose }: AdUploadProps) 
             축하합니다!
           </h2>
           <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
-            광고 이미지를 업로드하세요
+            광고 이미지와 링크를 등록하세요
           </p>
         </div>
 
@@ -98,7 +102,7 @@ export default function AdUpload({ slotId, onSuccess, onClose }: AdUploadProps) 
             <img
               src={preview}
               alt="미리보기"
-              className="max-h-48 mx-auto rounded-lg"
+              className="max-h-48 mx-auto rounded-lg object-contain"
             />
           ) : (
             <div>
@@ -121,10 +125,27 @@ export default function AdUpload({ slotId, onSuccess, onClose }: AdUploadProps) 
           className="hidden"
         />
 
-        {/* 권장 사이즈 안내 */}
+        {/* 링크 입력 */}
+        <div className="mt-4">
+          <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">
+            링크 (선택사항)
+          </label>
+          <input
+            type="text"
+            value={linkUrl}
+            onChange={(e) => setLinkUrl(e.target.value)}
+            placeholder="instagram.com/username"
+            className="w-full px-4 py-3 rounded-lg border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-700 text-zinc-900 dark:text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+          />
+          <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-1">
+            광고 클릭 시 이동할 URL (인스타, 홈페이지 등)
+          </p>
+        </div>
+
+        {/* 안내 */}
         <div className="mt-4 p-3 bg-zinc-100 dark:bg-zinc-700/50 rounded-lg">
           <p className="text-xs text-zinc-500 dark:text-zinc-400">
-            💡 권장 사이즈: 300 x 250px (세로형 배너)
+            💡 어떤 비율의 이미지도 OK! 자동으로 최적화됩니다.
           </p>
         </div>
 

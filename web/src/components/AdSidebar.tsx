@@ -61,11 +61,13 @@ export default function AdSidebar({ position }: AdSidebarProps) {
       <AdSlot
         slotId={slotId1}
         imageUrl={slots.slot1?.imageUrl || null}
+        linkUrl={slots.slot1?.linkUrl || null}
         position={position}
       />
       <AdSlot
         slotId={slotId2}
         imageUrl={slots.slot2?.imageUrl || null}
+        linkUrl={slots.slot2?.linkUrl || null}
         position={position}
       />
     </div>

@@ -92,7 +92,7 @@ export default function AdRoulette({ slotId, onWin, onClose }: AdRouletteProps) 
                   }}
                 >
                   <span className="absolute top-4 left-1/2 -translate-x-1/2 text-white text-xs font-bold">
-                    {i === 0 ? '🎉' : '✕'}
+                    {i === 0 ? '당첨' : '✕'}
                   </span>
                 </div>
               ))}

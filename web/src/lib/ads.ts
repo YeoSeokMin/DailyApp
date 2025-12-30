@@ -12,10 +12,10 @@ const ATTEMPTS_PREFIX = 'ad:attempts:';
 // 기본 슬롯 데이터
 const DEFAULT_SLOTS: AdData = {
   slots: {
-    left1: { id: 'left1', imageUrl: null, uploadedAt: null, ipHash: null },
-    left2: { id: 'left2', imageUrl: null, uploadedAt: null, ipHash: null },
-    right1: { id: 'right1', imageUrl: null, uploadedAt: null, ipHash: null },
-    right2: { id: 'right2', imageUrl: null, uploadedAt: null, ipHash: null }
+    left1: { id: 'left1', imageUrl: null, linkUrl: null, uploadedAt: null, ipHash: null },
+    left2: { id: 'left2', imageUrl: null, linkUrl: null, uploadedAt: null, ipHash: null },
+    right1: { id: 'right1', imageUrl: null, linkUrl: null, uploadedAt: null, ipHash: null },
+    right2: { id: 'right2', imageUrl: null, linkUrl: null, uploadedAt: null, ipHash: null }
   },
   lastUpdated: new Date().toISOString()
 };
@@ -120,7 +120,7 @@ export async function spin(ipHash: string, slotId: string): Promise<SpinResult> 
 }
 
 // 광고 이미지 업데이트
-export async function updateAdSlot(slotId: string, imageUrl: string, ipHash: string): Promise<boolean> {
+export async function updateAdSlot(slotId: string, imageUrl: string, linkUrl: string | null, ipHash: string): Promise<boolean> {
   try {
     const data = await getAdSlots();
     const slot = data.slots[slotId as keyof typeof data.slots];
@@ -128,6 +128,7 @@ export async function updateAdSlot(slotId: string, imageUrl: string, ipHash: str
     if (!slot) return false;
 
     slot.imageUrl = imageUrl;
+    slot.linkUrl = linkUrl;
     slot.uploadedAt = new Date().toISOString();
     slot.ipHash = ipHash;
 

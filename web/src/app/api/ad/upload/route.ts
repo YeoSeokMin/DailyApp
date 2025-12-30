@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
     const formData = await request.formData();
     const file = formData.get('image') as File | null;
     const slotId = formData.get('slotId') as string | null;
+    const linkUrl = formData.get('linkUrl') as string | null;
 
     // 검증
     if (!file || !slotId) {
@@ -51,6 +52,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // 링크 URL 검증 (있는 경우)
+    let validLinkUrl: string | null = null;
+    if (linkUrl && linkUrl.trim()) {
+      let url = linkUrl.trim();
+      // http/https가 없으면 https 추가
+      if (!url.startsWith('http://') && !url.startsWith('https://')) {
+        url = 'https://' + url;
+      }
+      validLinkUrl = url;
+    }
+
     const clientIp = getClientIp(request);
     const ipHash = hashIp(clientIp);
 
@@ -73,7 +85,7 @@ export async function POST(request: NextRequest) {
     });
 
     // 광고 슬롯 업데이트
-    const updated = await updateAdSlot(slotId, blob.url, ipHash);
+    const updated = await updateAdSlot(slotId, blob.url, validLinkUrl, ipHash);
 
     if (!updated) {
       return NextResponse.json(
@@ -86,7 +98,8 @@ export async function POST(request: NextRequest) {
       success: true,
       message: '광고가 등록되었습니다!',
       slotId,
-      imageUrl: blob.url
+      imageUrl: blob.url,
+      linkUrl: validLinkUrl
     });
 
   } catch (error) {

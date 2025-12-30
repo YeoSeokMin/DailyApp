@@ -14,6 +14,8 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
   const [showRoulette, setShowRoulette] = useState(false);
   const [showUpload, setShowUpload] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [toast, setToast] = useState<string | null>(null);
+  const [checking, setChecking] = useState(false);
 
   useEffect(() => {
     const fetchSlot = async () => {
@@ -34,6 +36,41 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
     fetchSlot();
   }, [slotId]);
 
+  const showToast = (message: string) => {
+    setToast(message);
+    setTimeout(() => setToast(null), 2000);
+  };
+
+  const handleClick = async () => {
+    if (checking) return;
+    setChecking(true);
+
+    try {
+      const res = await fetch('/api/ad/spin');
+      const data = await res.json();
+
+      if (data.success && data.availableSlots) {
+        if (data.availableSlots.includes(slotId)) {
+          setShowRoulette(true);
+        } else {
+          showToast('이 슬롯은 오늘 이미 도전했습니다!');
+        }
+      } else {
+        setShowRoulette(true);
+      }
+    } catch {
+      setShowRoulette(true);
+    } finally {
+      setChecking(false);
+    }
+  };
+
+  const handleImageClick = () => {
+    if (slot?.linkUrl) {
+      window.open(slot.linkUrl, '_blank', 'noopener,noreferrer');
+    }
+  };
+
   const handleWin = () => {
     setShowRoulette(false);
     setShowUpload(true);
@@ -52,34 +89,50 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
 
   return (
     <>
+      {/* 토스트 메시지 */}
+      {toast && (
+        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 px-4 py-2 bg-zinc-800 text-white text-sm rounded-lg shadow-lg">
+          {toast}
+        </div>
+      )}
+
       <div className="xl:hidden w-full bg-zinc-100 dark:bg-zinc-800 rounded-xl overflow-hidden shadow border border-zinc-200 dark:border-zinc-700 my-4">
         {slot?.imageUrl ? (
-          // 광고 이미지 표시
           <div className="relative h-[100px] group">
-            <img
-              src={slot.imageUrl}
-              alt="광고"
-              className="w-full h-full object-cover"
-            />
+            {/* 광고 이미지 - 클릭 시 링크 이동 */}
+            <div
+              onClick={handleImageClick}
+              className={`w-full h-full ${slot.linkUrl ? 'cursor-pointer' : ''}`}
+            >
+              <img
+                src={slot.imageUrl}
+                alt="광고"
+                className="w-full h-full object-contain bg-zinc-200 dark:bg-zinc-700"
+              />
+            </div>
             <button
-              onClick={() => setShowRoulette(true)}
-              className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 active:opacity-100 transition-opacity flex items-center justify-center"
+              onClick={(e) => {
+                e.stopPropagation();
+                handleClick();
+              }}
+              disabled={checking}
+              className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 active:opacity-100 transition-opacity flex items-center justify-center disabled:opacity-50"
             >
               <span className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-sm font-medium rounded-lg">
-                🎰 이 자리 도전하기
+                {checking ? '확인중...' : '🎰 이 자리 도전하기'}
               </span>
             </button>
-            <div className="absolute top-2 left-2 px-2 py-0.5 bg-black/50 text-white text-xs rounded">
+            <div className="absolute top-2 left-2 px-2 py-0.5 bg-black/50 text-white text-xs rounded pointer-events-none">
               AD
             </div>
           </div>
         ) : (
-          // 빈 슬롯
           <button
-            onClick={() => setShowRoulette(true)}
-            className="w-full h-[100px] flex items-center justify-center gap-4 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
+            onClick={handleClick}
+            disabled={checking}
+            className="w-full h-[100px] flex items-center justify-center gap-4 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors disabled:opacity-50"
           >
-            <span className="text-3xl">🎰</span>
+            <span className="text-3xl">{checking ? '⏳' : '🎰'}</span>
             <div className="text-left">
               <p className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
                 무료 광고 등록
@@ -89,13 +142,12 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
               </p>
             </div>
             <span className="px-3 py-1.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs font-medium rounded-full">
-              도전 →
+              {checking ? '확인중...' : '도전'}
             </span>
           </button>
         )}
       </div>
 
-      {/* 룰렛 모달 */}
       {showRoulette && (
         <AdRoulette
           slotId={slotId}
@@ -104,7 +156,6 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
         />
       )}
 
-      {/* 업로드 모달 */}
       {showUpload && (
         <AdUpload
           slotId={slotId}
