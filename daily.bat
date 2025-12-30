@@ -10,4 +10,10 @@ git add web/data/reports/*.json
 git commit -m "Daily report %date%"
 git push origin main
 
+echo.
+echo Deploying to Vercel...
+cd web
+vercel --prod --yes
+cd ..
+
 call npm run kakao:send
