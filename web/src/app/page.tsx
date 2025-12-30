@@ -2,6 +2,9 @@ import AppCard from '@/components/AppCard';
 import DateSelector from '@/components/DateSelector';
 import { getLatestReport, getAvailableDates } from '@/lib/reports';
 
+// 60초마다 재검증 (ISR)
+export const revalidate = 60;
+
 export default function Home() {
   const data = getLatestReport();
   const availableDates = getAvailableDates();

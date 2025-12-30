@@ -3,6 +3,10 @@ import DateSelector from '@/components/DateSelector';
 import { getReport, getAvailableDates } from '@/lib/reports';
 import { notFound, redirect } from 'next/navigation';
 
+// 60초마다 재검증 (ISR)
+export const revalidate = 60;
+export const dynamicParams = true;
+
 interface ReportPageProps {
   params: Promise<{ date: string }>;
 }
