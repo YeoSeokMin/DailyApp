@@ -1,0 +1,532 @@
+{
+  "date": "2025-12-30",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "CelebCam: 유명인과 함께 셀카 찍기",
+      "developer": "Orhan Berke Bac",
+      "category": "사진 및 비디오",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/06/94/2106949c-7ed5-1e0e-d7c5-21acba2fa1fa/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/celebcam-%EC%9C%A0%EB%AA%85%EC%9D%B8%EA%B3%BC-%ED%95%A8%EA%BB%98-%EC%85%80%EC%B9%B4-%EC%B0%8D%EA%B8%B0/id6756125482",
+      "idea_summary": "AI로 유명인과 가짜 셀카를 생성하는 엔터테인먼트 앱",
+      "analysis": {
+        "problem": "팬들이 좋아하는 유명인과 함께 사진을 찍고 싶지만 현실적으로 불가능",
+        "solution": "AI 이미지 합성 기술로 유명인과 함께 찍은 것 같은 셀카 생성",
+        "target_user": "10-30대 연예인 팬, SNS 활동이 활발한 사용자",
+        "unique_point": "셀카 특화 AI 합성으로 자연스러운 결과물 제공"
+      },
+      "market": {
+        "competitors": [
+          "FaceApp",
+          "Reface",
+          "MyHeritage"
+        ],
+        "timing_reason": "AI 이미지 생성 기술 대중화, SNS 공유 문화 활성화",
+        "growth_potential": "바이럴 마케팅 가능성 높음, K-pop 팬덤 시장 확대"
+      },
+      "business": {
+        "monetization": "프리미엄 유명인 팩, 구독 모델, 광고",
+        "pricing_suggestion": "기본 무료 + 월 4,900원 구독 또는 셀럽팩 2,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "500-1000",
+        "tech_stack": [
+          "Swift/Kotlin",
+          "Stable Diffusion API",
+          "Face Detection API",
+          "Firebase"
+        ],
+        "key_features": [
+          "얼굴 인식",
+          "AI 이미지 합성",
+          "갤러리 저장",
+          "SNS 공유"
+        ],
+        "clone_tip": "Replicate API나 Stability AI 사용으로 빠른 MVP 구축 가능"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI",
+        "#바이럴"
+      ],
+      "verdict": "SNS 바이럴 잠재력 높음, AI API 활용으로 빠른 개발 가능"
+    },
+    {
+      "rank": 2,
+      "name": "올클수강신청",
+      "developer": "Dong Jin Lee",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/3e/08/c23e0836-bf32-9526-9424-f39d3c5f38ea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%98%AC%ED%81%B4%EC%88%98%EA%B0%95%EC%8B%A0%EC%B2%AD/id6756949105",
+      "idea_summary": "대학 수강신청 자동화/연습 도우미 앱",
+      "analysis": {
+        "problem": "대학생들의 수강신청 실패로 인한 스트레스와 학점 이수 문제",
+        "solution": "수강신청 연습 시뮬레이터 및 자동화 도구 제공",
+        "target_user": "대학생, 특히 인기 과목 수강을 원하는 학생",
+        "unique_point": "한국 대학 시스템 특화, 실전 연습 환경 제공"
+      },
+      "market": {
+        "competitors": [
+          "에브리타임",
+          "각 대학 자체 앱"
+        ],
+        "timing_reason": "매 학기 반복되는 수강신청 시즌, 대학생 앱 사용 증가",
+        "growth_potential": "한국 대학생 250만명 대상, 시즌성 있지만 충성도 높음"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독, 광고, 대학별 커스텀 버전",
+        "pricing_suggestion": "기본 무료 + 학기당 9,900원 프리미엄",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월",
+        "estimated_cost": "200-400",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "MongoDB",
+          "Push Notification"
+        ],
+        "key_features": [
+          "타이머 연습",
+          "버튼 클릭 속도 테스트",
+          "알림 기능",
+          "대학별 설정"
+        ],
+        "clone_tip": "핵심은 UX와 타이밍, 대학생 커뮤니티 마케팅 필수"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓",
+        "#시즌성"
+      ],
+      "verdict": "한국 대학생 타겟 니치앱, 개발 난이도 낮고 수요 확실"
+    },
+    {
+      "rank": 3,
+      "name": "SprayPanel",
+      "developer": "yusuke sugimoto",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/fb/4c/bdfb4c94-19ce-892f-4bba-419026f70132/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/spraypanel/id6756579121",
+      "idea_summary": "스프레이로 패널을 칠하는 캐주얼 퍼즐 게임",
+      "analysis": {
+        "problem": "짧은 시간에 즐길 수 있는 창의적 캐주얼 게임 부족",
+        "solution": "스프레이 페인팅 메커닉을 활용한 직관적 퍼즐 게임",
+        "target_user": "캐주얼 게이머, 퍼즐 게임 애호가",
+        "unique_point": "스프레이 물리 시뮬레이션과 색상 혼합 메커닉"
+      },
+      "market": {
+        "competitors": [
+          "I Love Hue",
+          "Blendoku",
+          "색칠 게임들"
+        ],
+        "timing_reason": "하이퍼캐주얼 게임 시장 지속 성장",
+        "growth_potential": "글로벌 캐주얼 게임 시장, 광고 수익 모델"
+      },
+      "business": {
+        "monetization": "리워드 광고, 인앱 구매 (힌트, 스킨)",
+        "pricing_suggestion": "F2P + 광고 제거 4,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월",
+        "estimated_cost": "150-300",
+        "tech_stack": [
+          "Unity",
+          "C#",
+          "AdMob",
+          "Firebase Analytics"
+        ],
+        "key_features": [
+          "스프레이 물리",
+          "레벨 에디터",
+          "색상 혼합",
+          "리더보드"
+        ],
+        "clone_tip": "Unity 파티클 시스템 활용, 레벨 디자인이 핵심"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#하이퍼캐주얼",
+        "#글로벌"
+      ],
+      "verdict": "심플한 메커닉으로 글로벌 진출 가능한 캐주얼 게임"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "OutageWatch",
+      "developer": "NarmerGames",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/outagewatch-icon",
+      "app_url": "https://play.google.com/store/apps/details?id=com.outagewatch",
+      "idea_summary": "커뮤니티 기반 유틸리티(전기/수도/인터넷) 장애 리포트 앱",
+      "analysis": {
+        "problem": "정전, 단수, 인터넷 장애 시 원인과 복구 시간을 알 수 없는 불편함",
+        "solution": "사용자들이 실시간으로 장애를 신고하고 지도에서 현황 확인",
+        "target_user": "도시 거주자, 재택근무자, 소상공인",
+        "unique_point": "크라우드소싱 기반 실시간 유틸리티 모니터링"
+      },
+      "market": {
+        "competitors": [
+          "DownDetector",
+          "각 통신사/전력회사 앱"
+        ],
+        "timing_reason": "기후변화로 인한 자연재해 증가, 원격근무 확산",
+        "growth_potential": "글로벌 확장 가능, 보험사/유틸리티 회사 B2B 기회"
+      },
+      "business": {
+        "monetization": "프리미엄 알림, B2B API 제공, 광고",
+        "pricing_suggestion": "무료 + 월 2,900원 프리미엄 알림",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "300-600",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Google Maps API",
+          "FCM"
+        ],
+        "key_features": [
+          "지도 기반 UI",
+          "실시간 리포팅",
+          "푸시 알림",
+          "지역 필터"
+        ],
+        "clone_tip": "초기 데이터 확보가 핵심, 특정 지역 집중 런칭 추천"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#B2B가능",
+        "#크라우드소싱"
+      ],
+      "verdict": "실용성 높은 유틸리티 앱, B2B 확장 잠재력 우수"
+    },
+    {
+      "rank": 2,
+      "name": "I Am Bird",
+      "developer": "Estoty",
+      "category": "롤플레잉",
+      "icon": "https://play-lh.googleusercontent.com/q3gcuUArxSsMMV5BTF1pNObbObMxs5JwQP-6d-m_sTYrF5K4ANwuIjPISQvP702WK_tUYOhWYmyN2iEPyaJ98g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmBird",
+      "idea_summary": "도시 비둘기가 되어 장난치는 샌드박스 시뮬레이션",
+      "analysis": {
+        "problem": "일상의 스트레스 해소를 위한 재미있고 독특한 게임 부족",
+        "solution": "비둘기 시점에서 도시를 탐험하며 장난치는 유머러스한 게임플레이",
+        "target_user": "캐주얼 게이머, 유머 콘텐츠 애호가, 스트레스 해소 목적",
+        "unique_point": "동물 시점 시뮬레이션 시리즈화 (Cat, Bird, Monkey 등)"
+      },
+      "market": {
+        "competitors": [
+          "Untitled Goose Game",
+          "Goat Simulator"
+        ],
+        "timing_reason": "유머/밈 게임 인기, 숏폼 콘텐츠 시대",
+        "growth_potential": "88만 다운로드 달성, 시리즈 확장으로 브랜드화 가능"
+      },
+      "business": {
+        "monetization": "광고, 스킨/맵 인앱구매",
+        "pricing_suggestion": "F2P + 광고제거 5,900원",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "500-1000",
+        "tech_stack": [
+          "Unity",
+          "C#",
+          "AdMob",
+          "Ragdoll Physics"
+        ],
+        "key_features": [
+          "오픈월드",
+          "NPC 상호작용",
+          "물리 기반 장난",
+          "미션 시스템"
+        ],
+        "clone_tip": "유머 요소가 핵심, SNS 바이럴 영상 마케팅 필수"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 2,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#인디성공사례",
+        "#B2C",
+        "#바이럴",
+        "#시리즈화"
+      ],
+      "verdict": "검증된 컨셉, 동물 시리즈로 확장 가능한 프랜차이즈 모델"
+    },
+    {
+      "rank": 3,
+      "name": "Pet On Screen - Shimeji Kawaii",
+      "developer": "Tokii Apps",
+      "category": "맞춤 설정",
+      "icon": "https://play-lh.googleusercontent.com/shimeji-icon",
+      "app_url": "https://play.google.com/store/apps/details?id=com.shimeji.kawaii.desktop.screen.pet",
+      "idea_summary": "화면 위를 돌아다니는 귀여운 가상 펫 위젯",
+      "analysis": {
+        "problem": "스마트폰 사용 중 감성적 즐거움과 개인화 욕구",
+        "solution": "화면 위를 걸어다니는 인터랙티브 캐릭터 위젯",
+        "target_user": "10-20대 여성, 귀여운 것을 좋아하는 사용자",
+        "unique_point": "시스템 오버레이로 모든 앱 위에서 작동"
+      },
+      "market": {
+        "competitors": [
+          "Desktop Goose",
+          "Shimeji PC 버전"
+        ],
+        "timing_reason": "캐릭터 IP 성장, 개인화 트렌드",
+        "growth_potential": "1만+ 다운로드, 캐릭터 IP 협업 기회"
+      },
+      "business": {
+        "monetization": "캐릭터팩 판매, 광고, 브랜드 콜라보",
+        "pricing_suggestion": "무료 + 캐릭터팩 1,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월",
+        "estimated_cost": "200-400",
+        "tech_stack": [
+          "Android Overlay Service",
+          "Kotlin",
+          "Lottie Animation"
+        ],
+        "key_features": [
+          "시스템 오버레이",
+          "터치 인터랙션",
+          "다양한 캐릭터",
+          "설정 커스텀"
+        ],
+        "clone_tip": "Android Overlay 권한 처리가 핵심, 귀여운 캐릭터 디자인 중요"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#캐릭터IP",
+        "#위젯"
+      ],
+      "verdict": "귀여움 컨셉으로 니치 시장 공략, IP 협업 확장 가능"
+    },
+    {
+      "rank": 4,
+      "name": "Gaflow: Penangkal Anxiety",
+      "developer": "Alghaffar On",
+      "category": "건강 및 피트니스",
+      "icon": "https://play-lh.googleusercontent.com/gaflow-icon",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gaflow.calmind",
+      "idea_summary": "인도네시아 타겟 불안감 해소 멘탈 케어 앱",
+      "analysis": {
+        "problem": "빠른 현대 사회에서 증가하는 불안감과 정신건강 문제",
+        "solution": "로컬라이즈된 불안감 관리 도구 및 콘텐츠 제공",
+        "target_user": "인도네시아 20-40대, 스트레스가 많은 직장인",
+        "unique_point": "동남아 로컬 시장 특화, 현지 언어 콘텐츠"
+      },
+      "market": {
+        "competitors": [
+          "Calm",
+          "Headspace",
+          "Riliv"
+        ],
+        "timing_reason": "포스트 코로나 정신건강 인식 증가, 동남아 디지털 성장",
+        "growth_potential": "인도네시아 2.7억 인구, 멘탈헬스 시장 성장"
+      },
+      "business": {
+        "monetization": "프리미엄 콘텐츠 구독, B2B 기업복지",
+        "pricing_suggestion": "무료 + 월 29,000IDR(약 2,400원) 프리미엄",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "300-500",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Audio Player",
+          "Local Notifications"
+        ],
+        "key_features": [
+          "호흡 운동",
+          "명상 오디오",
+          "무드 트래커",
+          "저널링"
+        ],
+        "clone_tip": "로컬라이제이션이 핵심, 현지 인플루언서 마케팅 추천"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#로컬시장",
+        "#헬스케어"
+      ],
+      "verdict": "동남아 로컬 시장 공략 좋은 예시, 지역 특화 전략 유효"
+    },
+    {
+      "rank": 5,
+      "name": "AI Voice Lab - Record & Create",
+      "developer": "G.H.I",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/ai-voice-lab-icon",
+      "app_url": "https://play.google.com/store/apps/details?id=com.randeelubowitz.wernerbogan.terencekilback.geneeyuss",
+      "idea_summary": "AI 실시간 음성 변조 및 생성 앱",
+      "analysis": {
+        "problem": "콘텐츠 제작 시 다양한 음성이 필요하지만 성우 비용 부담",
+        "solution": "원탭 녹음과 실시간 AI 음성 변환으로 다양한 목소리 생성",
+        "target_user": "콘텐츠 크리에이터, TikTok/릴스 제작자, 게이머",
+        "unique_point": "실시간 음성 변환, 다양한 프리셋 (귀여움, 우아함, 저음 등)"
+      },
+      "market": {
+        "competitors": [
+          "Voicemod",
+          "Voice Changer",
+          "ElevenLabs"
+        ],
+        "timing_reason": "숏폼 콘텐츠 폭발, AI 음성 기술 발전",
+        "growth_potential": "유럽 차트 진입, 글로벌 크리에이터 시장 확대"
+      },
+      "business": {
+        "monetization": "프리미엄 음성팩 구독, 광고",
+        "pricing_suggestion": "무료 + 월 4,900원 프리미엄",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "400-800",
+        "tech_stack": [
+          "Kotlin",
+          "TensorFlow Lite",
+          "Audio Processing",
+          "Voice Cloning API"
+        ],
+        "key_features": [
+          "실시간 변환",
+          "녹음 기능",
+          "다양한 프리셋",
+          "내보내기"
+        ],
+        "clone_tip": "오픈소스 음성 변환 모델 활용, 레이턴시 최소화 중요"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI",
+        "#크리에이터"
+      ],
+      "verdict": "숏폼 크리에이터 수요 높음, AI 기술 활용 트렌디한 앱"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 활용 엔터테인먼트 앱과 커뮤니티 기반 유틸리티 앱이 주목받고 있다. 로컬 시장 특화 앱과 동물 시뮬레이션 게임이 성공 사례로 떠오르고 있다.",
+    "trend_details": [
+      "AI 이미지/음성 생성 앱의 대중화 - 기술 장벽 낮아지며 인디 개발자도 진입 가능",
+      "크라우드소싱 기반 실시간 정보 공유 앱 증가",
+      "동물 시점 시뮬레이션 게임의 시리즈화 전략 성공",
+      "동남아 등 신흥 시장 타겟 로컬라이즈 앱 기회",
+      "화면 커스터마이징/위젯 앱의 지속적 인기"
+    ],
+    "hot_categories": [
+      "AI/엔터테인먼트",
+      "유틸리티/도구",
+      "캐주얼 게임",
+      "멘탈헬스"
+    ],
+    "opportunity": "AI API를 활용한 콘텐츠 생성 앱은 개발 비용 대비 높은 바이럴 잠재력 보유. 특정 지역/언어 특화 앱으로 블루오션 시장 공략 가능",
+    "action_item": "Replicate, Stability AI 등 AI API 테스트 및 프로토타입 제작 시도"
+  }
+}
