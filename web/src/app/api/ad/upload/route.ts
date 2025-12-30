@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { hashIp, updateAdSlot, hasAttemptedToday } from '@/lib/ads';
-import fs from 'fs';
-import path from 'path';
+import { put } from '@vercel/blob';
 
 // IP 주소 추출
 function getClientIp(request: NextRequest): string {
@@ -27,7 +26,6 @@ export async function POST(request: NextRequest) {
     const formData = await request.formData();
     const file = formData.get('image') as File | null;
     const slotId = formData.get('slotId') as string | null;
-    const winToken = formData.get('winToken') as string | null;
 
     // 검증
     if (!file || !slotId) {
@@ -56,38 +54,28 @@ export async function POST(request: NextRequest) {
     const clientIp = getClientIp(request);
     const ipHash = hashIp(clientIp);
 
-    // 당첨 토큰 검증 (간단한 검증 - 실제로는 더 복잡한 토큰 시스템 필요)
-    // 여기서는 오늘 시도한 기록이 있는지로 간단히 검증
-    if (!hasAttemptedToday(ipHash, slotId)) {
+    // 당첨 검증 - 오늘 시도한 기록이 있어야 함
+    if (!(await hasAttemptedToday(ipHash, slotId))) {
       return NextResponse.json(
         { success: false, message: '먼저 룰렛에 당첨되어야 합니다.' },
         { status: 403 }
       );
     }
 
-    // 이미지를 public/ads 폴더에 저장
-    const adsDir = path.join(process.cwd(), 'public', 'ads');
-    if (!fs.existsSync(adsDir)) {
-      fs.mkdirSync(adsDir, { recursive: true });
-    }
-
     // 파일명 생성
     const ext = file.name.split('.').pop() || 'jpg';
-    const filename = `${slotId}-${Date.now()}.${ext}`;
-    const filepath = path.join(adsDir, filename);
+    const filename = `ads/${slotId}-${Date.now()}.${ext}`;
 
-    // 파일 저장
-    const bytes = await file.arrayBuffer();
-    const buffer = Buffer.from(bytes);
-    fs.writeFileSync(filepath, buffer);
+    // Vercel Blob에 업로드
+    const blob = await put(filename, file, {
+      access: 'public',
+      addRandomSuffix: false
+    });
 
     // 광고 슬롯 업데이트
-    const imageUrl = `/ads/${filename}`;
-    const updated = updateAdSlot(slotId, imageUrl, ipHash);
+    const updated = await updateAdSlot(slotId, blob.url, ipHash);
 
     if (!updated) {
-      // 실패시 파일 삭제
-      fs.unlinkSync(filepath);
       return NextResponse.json(
         { success: false, message: '광고 업데이트에 실패했습니다.' },
         { status: 500 }
@@ -96,9 +84,9 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      message: '🎉 광고가 등록되었습니다!',
+      message: '광고가 등록되었습니다!',
       slotId,
-      imageUrl
+      imageUrl: blob.url
     });
 
   } catch (error) {

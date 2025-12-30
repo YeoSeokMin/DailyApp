@@ -3,7 +3,7 @@ import { getAdSlots } from '@/lib/ads';
 
 export async function GET() {
   try {
-    const data = getAdSlots();
+    const data = await getAdSlots();
     return NextResponse.json({
       success: true,
       slots: data.slots,

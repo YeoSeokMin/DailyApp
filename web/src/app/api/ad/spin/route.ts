@@ -33,7 +33,7 @@ export async function POST(request: NextRequest) {
     const clientIp = getClientIp(request);
     const ipHash = hashIp(clientIp);
 
-    const result = spin(ipHash, slotId);
+    const result = await spin(ipHash, slotId);
 
     return NextResponse.json(result);
   } catch (error) {
@@ -50,7 +50,7 @@ export async function GET(request: NextRequest) {
   try {
     const clientIp = getClientIp(request);
     const ipHash = hashIp(clientIp);
-    const availableSlots = getAvailableSlots(ipHash);
+    const availableSlots = await getAvailableSlots(ipHash);
 
     return NextResponse.json({
       success: true,

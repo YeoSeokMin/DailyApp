@@ -1,14 +1,24 @@
 import { AdData, AdSlot, SpinResult } from '@/types/ad';
 import crypto from 'crypto';
-import fs from 'fs';
-import path from 'path';
-
-const ADS_DIR = path.join(process.cwd(), 'data', 'ads');
-const SLOTS_FILE = path.join(ADS_DIR, 'slots.json');
-const ATTEMPTS_FILE = path.join(ADS_DIR, 'attempts.json');
+import { kv } from '@vercel/kv';
 
 // 당첨 확률 0.1% (1/1000)
 const WIN_PROBABILITY = 0.001;
+
+// KV 키
+const SLOTS_KEY = 'ad:slots';
+const ATTEMPTS_PREFIX = 'ad:attempts:';
+
+// 기본 슬롯 데이터
+const DEFAULT_SLOTS: AdData = {
+  slots: {
+    left1: { id: 'left1', imageUrl: null, uploadedAt: null, ipHash: null },
+    left2: { id: 'left2', imageUrl: null, uploadedAt: null, ipHash: null },
+    right1: { id: 'right1', imageUrl: null, uploadedAt: null, ipHash: null },
+    right2: { id: 'right2', imageUrl: null, uploadedAt: null, ipHash: null }
+  },
+  lastUpdated: new Date().toISOString()
+};
 
 // IP 해시 생성 (개인정보 보호)
 export function hashIp(ip: string): string {
@@ -21,92 +31,46 @@ export function getToday(): string {
 }
 
 // 광고 슬롯 데이터 읽기
-export function getAdSlots(): AdData {
+export async function getAdSlots(): Promise<AdData> {
   try {
-    const data = fs.readFileSync(SLOTS_FILE, 'utf-8');
-    return JSON.parse(data);
+    const data = await kv.get<AdData>(SLOTS_KEY);
+    return data || DEFAULT_SLOTS;
   } catch {
-    return {
-      slots: {
-        left1: { id: 'left1', imageUrl: null, uploadedAt: null, ipHash: null },
-        left2: { id: 'left2', imageUrl: null, uploadedAt: null, ipHash: null },
-        right1: { id: 'right1', imageUrl: null, uploadedAt: null, ipHash: null },
-        right2: { id: 'right2', imageUrl: null, uploadedAt: null, ipHash: null }
-      },
-      lastUpdated: new Date().toISOString()
-    };
+    return DEFAULT_SLOTS;
   }
 }
 
 // 광고 슬롯 데이터 저장
-export function saveAdSlots(data: AdData): void {
+export async function saveAdSlots(data: AdData): Promise<void> {
   data.lastUpdated = new Date().toISOString();
-  fs.writeFileSync(SLOTS_FILE, JSON.stringify(data, null, 2), 'utf-8');
-}
-
-// IP 시도 기록 읽기
-function getAttempts(): Record<string, string[]> {
-  try {
-    const data = fs.readFileSync(ATTEMPTS_FILE, 'utf-8');
-    return JSON.parse(data).attempts || {};
-  } catch {
-    return {};
-  }
-}
-
-// IP 시도 기록 저장
-function saveAttempts(attempts: Record<string, string[]>): void {
-  fs.writeFileSync(ATTEMPTS_FILE, JSON.stringify({ attempts }, null, 2), 'utf-8');
+  await kv.set(SLOTS_KEY, data);
 }
 
 // 오늘 이 IP가 특정 슬롯에 시도했는지 확인
-export function hasAttemptedToday(ipHash: string, slotId: string): boolean {
-  const attempts = getAttempts();
-  const key = `${ipHash}:${getToday()}`;
-  return attempts[key]?.includes(slotId) || false;
+export async function hasAttemptedToday(ipHash: string, slotId: string): Promise<boolean> {
+  const key = `${ATTEMPTS_PREFIX}${ipHash}:${getToday()}`;
+  const attempts = await kv.smembers(key);
+  return attempts?.includes(slotId) || false;
 }
 
 // 오늘 이 IP가 시도 가능한 슬롯 목록
-export function getAvailableSlots(ipHash: string): string[] {
-  const attempts = getAttempts();
-  const key = `${ipHash}:${getToday()}`;
-  const attemptedSlots = attempts[key] || [];
+export async function getAvailableSlots(ipHash: string): Promise<string[]> {
+  const key = `${ATTEMPTS_PREFIX}${ipHash}:${getToday()}`;
+  const attemptedSlots = await kv.smembers(key) || [];
   const allSlots = ['left1', 'left2', 'right1', 'right2'];
   return allSlots.filter(slot => !attemptedSlots.includes(slot));
 }
 
 // 시도 기록 추가
-export function recordAttempt(ipHash: string, slotId: string): void {
-  const attempts = getAttempts();
-  const key = `${ipHash}:${getToday()}`;
-
-  if (!attempts[key]) {
-    attempts[key] = [];
-  }
-
-  if (!attempts[key].includes(slotId)) {
-    attempts[key].push(slotId);
-  }
-
-  // 오래된 기록 정리 (7일 이전)
-  const today = new Date();
-  const cleanedAttempts: Record<string, string[]> = {};
-
-  for (const [k, v] of Object.entries(attempts)) {
-    const dateStr = k.split(':')[1];
-    const date = new Date(dateStr);
-    const diffDays = (today.getTime() - date.getTime()) / (1000 * 60 * 60 * 24);
-
-    if (diffDays <= 7) {
-      cleanedAttempts[k] = v;
-    }
-  }
-
-  saveAttempts(cleanedAttempts);
+export async function recordAttempt(ipHash: string, slotId: string): Promise<void> {
+  const key = `${ATTEMPTS_PREFIX}${ipHash}:${getToday()}`;
+  await kv.sadd(key, slotId);
+  // 24시간 후 자동 만료
+  await kv.expire(key, 86400);
 }
 
 // 룰렛 돌리기
-export function spin(ipHash: string, slotId: string): SpinResult {
+export async function spin(ipHash: string, slotId: string): Promise<SpinResult> {
   // 유효한 슬롯인지 확인
   const validSlots = ['left1', 'left2', 'right1', 'right2'];
   if (!validSlots.includes(slotId)) {
@@ -119,8 +83,8 @@ export function spin(ipHash: string, slotId: string): SpinResult {
   }
 
   // 오늘 이미 시도했는지 확인
-  if (hasAttemptedToday(ipHash, slotId)) {
-    const available = getAvailableSlots(ipHash);
+  if (await hasAttemptedToday(ipHash, slotId)) {
+    const available = await getAvailableSlots(ipHash);
     return {
       success: false,
       won: false,
@@ -131,11 +95,11 @@ export function spin(ipHash: string, slotId: string): SpinResult {
   }
 
   // 시도 기록
-  recordAttempt(ipHash, slotId);
+  await recordAttempt(ipHash, slotId);
 
   // 0.1% 확률로 당첨
   const won = Math.random() < WIN_PROBABILITY;
-  const available = getAvailableSlots(ipHash);
+  const available = await getAvailableSlots(ipHash);
 
   if (won) {
     return {
@@ -156,9 +120,9 @@ export function spin(ipHash: string, slotId: string): SpinResult {
 }
 
 // 광고 이미지 업데이트
-export function updateAdSlot(slotId: string, imageUrl: string, ipHash: string): boolean {
+export async function updateAdSlot(slotId: string, imageUrl: string, ipHash: string): Promise<boolean> {
   try {
-    const data = getAdSlots();
+    const data = await getAdSlots();
     const slot = data.slots[slotId as keyof typeof data.slots];
 
     if (!slot) return false;
@@ -167,7 +131,7 @@ export function updateAdSlot(slotId: string, imageUrl: string, ipHash: string): 
     slot.uploadedAt = new Date().toISOString();
     slot.ipHash = ipHash;
 
-    saveAdSlots(data);
+    await saveAdSlots(data);
     return true;
   } catch {
     return false;
