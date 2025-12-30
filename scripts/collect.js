@@ -17,8 +17,8 @@ const fs = require('fs').promises;
 const path = require('path');
 
 // 신규 앱 기준
-const NEW_APP_DAYS_IOS = 3;      // iOS: 최근 3일 이내
-const NEW_APP_DAYS_ANDROID = 7;  // Android: 최근 7일 이내 (데이터 부족으로 확장)
+const NEW_APP_DAYS_IOS = 7;      // iOS: 최근 7일 이내
+const NEW_APP_DAYS_ANDROID = 7;  // Android: 최근 7일 이내
 
 // 카테고리 영문 → 한글 변환
 const CATEGORY_KO = {
@@ -278,7 +278,7 @@ async function collectAndroid() {
  */
 async function main() {
   console.log('🚀 앱 데이터 수집 시작 - ' + new Date().toLocaleString('ko-KR'));
-  console.log(`📅 기준: iOS ${NEW_APP_DAYS_IOS}일 / Android ${NEW_APP_DAYS_ANDROID}일 이내 출시`);
+  console.log(`📅 기준: iOS/Android 모두 최근 ${NEW_APP_DAYS_IOS}일 이내 출시`);
   console.log('');
 
   // 출력 디렉토리 확인
