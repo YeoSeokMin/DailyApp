@@ -329,21 +329,31 @@ class DailyAppManager:
             self.current_process = None
 
             steps = [
-                ("npm run collect", "앱 데이터 수집"),
-                ("npm run analyze", "Claude AI 분석"),
-                ("npm run save", "리포트 저장"),
-                ("git add web/data/reports/*.json && git commit -m \"Daily report\" && git push origin main", "GitHub 업로드"),
-                ("cd web && vercel --prod --yes", "Vercel 배포"),
-                ("npm run kakao:send", "카카오톡 전송")
+                ("npm run collect", "앱 데이터 수집", "iOS/Android 신규 앱 스크래핑"),
+                ("npm run analyze", "Claude AI 분석", "TOP 5 선정 및 아이디어 분석"),
+                ("npm run save", "리포트 저장", "JSON 파일 생성"),
+                ("git add web/data/reports/*.json && git commit -m \"Daily report\" && git push origin main", "GitHub 업로드", "리포트 파일 푸시"),
+                ("cd web && vercel --prod --yes", "Vercel 배포", "웹사이트 업데이트"),
+                ("npm run kakao:send", "카카오톡 전송", "요약 메시지 발송")
             ]
 
+            total_steps = len(steps)
+            start_time = time.time()
+
             try:
-                for i, (cmd, desc) in enumerate(steps):
+                self.log("━" * 45, "info")
+                self.log("🚀 자동화 파이프라인 시작", "info")
+                self.log("━" * 45, "info")
+
+                for i, (cmd, desc, detail) in enumerate(steps):
                     if not self.is_running:
-                        self.log("사용자에 의해 중지됨", "warn")
+                        self.log("⚠️ 사용자에 의해 중지됨", "warn")
                         break
 
-                    self.log(f"[{i+1}/{len(steps)}] {desc} 시작...", "info")
+                    step_start = time.time()
+                    self.log("", "info")
+                    self.log(f"▶ [{i+1}/{total_steps}] {desc}", "info")
+                    self.log(f"  └ {detail}", "info")
 
                     process = subprocess.Popen(
                         cmd,
@@ -361,31 +371,45 @@ class DailyAppManager:
                     # 실시간 출력
                     for line in iter(process.stdout.readline, ''):
                         if line.strip():
-                            # 이모지와 특수문자 포함된 라인 처리
                             clean_line = line.strip()
-                            if clean_line.startswith(('✅', '✓')):
-                                self.log(f"  {clean_line}", "success")
-                            elif clean_line.startswith(('❌', '✗')):
-                                self.log(f"  {clean_line}", "error")
-                            elif clean_line.startswith(('⚠', '⏳', '🔄')):
-                                self.log(f"  {clean_line}", "warn")
-                            else:
-                                self.log(f"  {clean_line}", "info")
+                            # 중요 정보만 표시
+                            if any(key in clean_line for key in ['✅', '✓', '완료', 'success', 'Complete']):
+                                self.log(f"    ✅ {clean_line}", "success")
+                            elif any(key in clean_line for key in ['❌', '✗', '실패', 'error', 'Error', 'fail']):
+                                self.log(f"    ❌ {clean_line}", "error")
+                            elif any(key in clean_line for key in ['⚠', '경고', 'warn', 'Warning']):
+                                self.log(f"    ⚠️ {clean_line}", "warn")
+                            elif any(key in clean_line for key in ['iOS:', 'Android:', '개 ', '선정', 'KB', '수집', '분석', '저장', '전송', '배포', 'Production:', 'Aliased:']):
+                                self.log(f"    📊 {clean_line}", "info")
+                            elif any(key in clean_line for key in ['⏳', '중...', 'ing...', '대기']):
+                                self.log(f"    ⏳ {clean_line}", "warn")
 
                     process.wait()
+                    step_time = time.time() - step_start
 
                     if process.returncode != 0:
-                        self.log(f"[{i+1}/{len(steps)}] {desc} 실패 (코드: {process.returncode})", "error")
+                        self.log(f"  ❌ 실패 (코드: {process.returncode}, {step_time:.1f}초)", "error")
                         raise Exception(f"{desc} 실패")
 
-                    self.log(f"[{i+1}/{len(steps)}] {desc} 완료", "success")
+                    self.log(f"  ✅ 완료 ({step_time:.1f}초)", "success")
 
                 if self.is_running:
-                    self.log("━" * 40, "info")
-                    self.log("모든 작업 완료! 카카오톡을 확인하세요.", "success")
+                    total_time = time.time() - start_time
+                    self.log("", "info")
+                    self.log("━" * 45, "info")
+                    self.log("🎉 모든 작업 완료!", "success")
+                    self.log(f"  총 소요 시간: {total_time/60:.1f}분", "info")
+                    self.log("  📱 카카오톡을 확인하세요", "info")
+                    self.log("  🌐 웹사이트가 업데이트되었습니다", "info")
+                    self.log("━" * 45, "info")
 
             except Exception as e:
-                self.log(f"오류 발생: {str(e)}", "error")
+                total_time = time.time() - start_time
+                self.log("", "info")
+                self.log("━" * 45, "info")
+                self.log(f"❌ 오류 발생: {str(e)}", "error")
+                self.log(f"  소요 시간: {total_time/60:.1f}분", "info")
+                self.log("━" * 45, "info")
             finally:
                 self.root.after(0, lambda: self.set_running(False))
                 self.current_process = None
