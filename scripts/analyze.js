@@ -52,11 +52,10 @@ async function getRecentAppNames(reportsDir, days) {
 }
 
 /**
- * 앱 데이터 정리 (중복 제거 포함)
+ * 앱 데이터 정리
  */
-function cleanAppData(apps, limit, excludeNames = new Set()) {
+function cleanAppData(apps, limit) {
   return apps
-    .filter(app => !excludeNames.has(app.name.toLowerCase()))
     .slice(0, limit)
     .map(app => ({
       name: app.name,
@@ -155,24 +154,26 @@ async function main() {
   console.log('📝 프롬프트 로드 중...');
   const promptTemplate = await fs.readFile(promptPath, 'utf-8');
 
-  // 2. 최근 리포트에서 중복 앱 목록 가져오기
-  console.log('🔍 중복 앱 필터링 중...');
+  // 2. 최근 리포트에서 이미 선정된 앱 목록 가져오기
+  console.log('🔍 이전 선정 앱 확인 중...');
   const excludeNames = await getRecentAppNames(reportsDir, EXCLUDE_DAYS);
-  console.log(`   최근 ${EXCLUDE_DAYS}일간 선정된 앱: ${excludeNames.size}개 제외`);
+  const excludeList = Array.from(excludeNames);
+  console.log(`   최근 ${EXCLUDE_DAYS}일간 선정된 앱: ${excludeNames.size}개`);
 
-  // 3. 앱 데이터 로드 (중복 제외)
+  // 3. 앱 데이터 로드
   console.log('📱 앱 데이터 로드 중...');
   const rawData = await fs.readFile(inputPath, 'utf-8');
   const appData = JSON.parse(rawData);
 
-  const iosApps = cleanAppData(appData.iOS앱 || [], MAX_APPS_PER_PLATFORM, excludeNames);
-  const androidApps = cleanAppData(appData.Android앱 || [], MAX_APPS_PER_PLATFORM, excludeNames);
+  const iosApps = cleanAppData(appData.iOS앱 || [], MAX_APPS_PER_PLATFORM);
+  const androidApps = cleanAppData(appData.Android앱 || [], MAX_APPS_PER_PLATFORM);
 
   console.log(`   iOS: ${iosApps.length}개 / Android: ${androidApps.length}개`);
 
-  // 4. 프롬프트 구성
+  // 4. 프롬프트 구성 (제외 목록 포함)
   const cleanedData = {
     날짜: appData.날짜,
+    제외할_앱: excludeList.length > 0 ? excludeList : [],
     iOS앱: iosApps,
     Android앱: androidApps
   };
