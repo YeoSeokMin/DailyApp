@@ -13,19 +13,58 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const MAX_APPS_PER_PLATFORM = 30;
+const EXCLUDE_DAYS = 7; // 최근 7일간 리포트에 나온 앱 제외
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
 /**
- * 앱 데이터 정리
+ * 최근 리포트에서 이미 선정된 앱 이름 가져오기
  */
-function cleanAppData(apps, limit) {
-  return apps.slice(0, limit).map(app => ({
-    name: app.name,
-    developer: app.developer || '',
-    category: app.category || '',
-    icon: app.icon || '',
-    url: app.url || ''
-  }));
+async function getRecentAppNames(reportsDir, days) {
+  const appNames = new Set();
+
+  try {
+    const files = await fs.readdir(reportsDir);
+    const jsonFiles = files
+      .filter(f => f.endsWith('.json'))
+      .sort((a, b) => b.localeCompare(a))
+      .slice(0, days);
+
+    for (const file of jsonFiles) {
+      try {
+        const content = await fs.readFile(path.join(reportsDir, file), 'utf-8');
+        const report = JSON.parse(content);
+
+        if (report.ios) {
+          report.ios.forEach(app => appNames.add(app.name.toLowerCase()));
+        }
+        if (report.android) {
+          report.android.forEach(app => appNames.add(app.name.toLowerCase()));
+        }
+      } catch (e) {
+        // 파일 읽기 실패 시 무시
+      }
+    }
+  } catch (e) {
+    // 디렉토리 없으면 무시
+  }
+
+  return appNames;
+}
+
+/**
+ * 앱 데이터 정리 (중복 제거 포함)
+ */
+function cleanAppData(apps, limit, excludeNames = new Set()) {
+  return apps
+    .filter(app => !excludeNames.has(app.name.toLowerCase()))
+    .slice(0, limit)
+    .map(app => ({
+      name: app.name,
+      developer: app.developer || '',
+      category: app.category || '',
+      icon: app.icon || '',
+      url: app.url || ''
+    }));
 }
 
 /**
@@ -110,22 +149,28 @@ async function main() {
   const inputPath = path.join(projectDir, 'output', 'collected_apps.json');
   const outputPath = path.join(projectDir, 'output', 'report.json');
   const promptPath = path.join(__dirname, 'prompt.txt');
+  const reportsDir = path.join(projectDir, 'web', 'data', 'reports');
 
   // 1. 프롬프트 로드
   console.log('📝 프롬프트 로드 중...');
   const promptTemplate = await fs.readFile(promptPath, 'utf-8');
 
-  // 2. 앱 데이터 로드
+  // 2. 최근 리포트에서 중복 앱 목록 가져오기
+  console.log('🔍 중복 앱 필터링 중...');
+  const excludeNames = await getRecentAppNames(reportsDir, EXCLUDE_DAYS);
+  console.log(`   최근 ${EXCLUDE_DAYS}일간 선정된 앱: ${excludeNames.size}개 제외`);
+
+  // 3. 앱 데이터 로드 (중복 제외)
   console.log('📱 앱 데이터 로드 중...');
   const rawData = await fs.readFile(inputPath, 'utf-8');
   const appData = JSON.parse(rawData);
 
-  const iosApps = cleanAppData(appData.iOS앱 || [], MAX_APPS_PER_PLATFORM);
-  const androidApps = cleanAppData(appData.Android앱 || [], MAX_APPS_PER_PLATFORM);
+  const iosApps = cleanAppData(appData.iOS앱 || [], MAX_APPS_PER_PLATFORM, excludeNames);
+  const androidApps = cleanAppData(appData.Android앱 || [], MAX_APPS_PER_PLATFORM, excludeNames);
 
   console.log(`   iOS: ${iosApps.length}개 / Android: ${androidApps.length}개`);
 
-  // 3. 프롬프트 구성
+  // 4. 프롬프트 구성
   const cleanedData = {
     날짜: appData.날짜,
     iOS앱: iosApps,
@@ -136,7 +181,7 @@ async function main() {
   console.log(`   프롬프트: ${(fullPrompt.length / 1024).toFixed(1)}KB`);
   console.log('');
 
-  // 4. 분석 실행
+  // 5. 분석 실행
   console.log('🧠 Claude 분석 중...');
   console.log(`   모드: ${ANTHROPIC_API_KEY ? 'API' : 'CLI'}`);
 
@@ -145,7 +190,7 @@ async function main() {
       ? await analyzeWithAPI(fullPrompt)
       : await analyzeWithCLI(fullPrompt);
 
-    // 5. JSON 파싱
+    // 6. JSON 파싱
     console.log('📊 결과 파싱 중...');
     let report;
 
@@ -157,7 +202,7 @@ async function main() {
       report = { raw: result, error: parseError.message };
     }
 
-    // 6. 저장
+    // 7. 저장
     await fs.writeFile(outputPath, JSON.stringify(report, null, 2), 'utf-8');
 
     console.log('');
