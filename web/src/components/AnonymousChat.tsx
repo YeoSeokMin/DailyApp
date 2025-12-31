@@ -182,19 +182,22 @@ export default function AnonymousChat() {
             첫 번째 메시지를 남겨보세요!
           </p>
         ) : (
-          messages.map((msg) => (
-            <div key={msg.id} className="flex gap-2 text-sm">
-              <span className="font-medium text-blue-600 dark:text-blue-400 shrink-0">
-                {msg.nickname}
-              </span>
-              <span className="text-zinc-700 dark:text-zinc-300 break-all flex-1">
-                {msg.message}
-              </span>
-              <span className="text-xs text-zinc-400 dark:text-zinc-500 shrink-0">
-                {formatTime(msg.timestamp)}
-              </span>
-            </div>
-          ))
+          messages.map((msg) => {
+            const isOwn = msg.nickname === nickname;
+            return (
+              <div key={msg.id} className={`flex gap-2 text-sm ${isOwn ? 'bg-blue-50 dark:bg-blue-900/20 -mx-1 px-1 rounded' : ''}`}>
+                <span className={`font-medium shrink-0 ${isOwn ? 'text-green-600 dark:text-green-400' : 'text-blue-600 dark:text-blue-400'}`}>
+                  {msg.nickname}
+                </span>
+                <span className="text-zinc-700 dark:text-zinc-300 break-all flex-1">
+                  {msg.message}
+                </span>
+                <span className="text-xs text-zinc-400 dark:text-zinc-500 shrink-0">
+                  {formatTime(msg.timestamp)}
+                </span>
+              </div>
+            );
+          })
         )}
       </div>
 
@@ -209,10 +212,7 @@ export default function AnonymousChat() {
       )}
 
       {/* 입력 폼 */}
-      <form onSubmit={handleSubmit} className="flex gap-1.5 items-center">
-        <span className="px-2 py-1 text-xs rounded bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-300 font-medium shrink-0 max-w-[80px] truncate">
-          {nickname || '...'}
-        </span>
+      <form onSubmit={handleSubmit} className="flex gap-2 items-center">
         <input
           type="text"
           value={input}
@@ -224,9 +224,9 @@ export default function AnonymousChat() {
         <button
           type="submit"
           disabled={!input.trim() || sending}
-          className="p-2 text-xl disabled:opacity-40 disabled:cursor-not-allowed transition-opacity"
+          className="w-8 h-8 flex items-center justify-center rounded-lg bg-blue-500 text-white disabled:bg-zinc-300 dark:disabled:bg-zinc-600 disabled:cursor-not-allowed transition-colors"
         >
-          {sending ? '⏳' : '📤'}
+          <span className="text-lg font-bold">{sending ? '·' : '↑'}</span>
         </button>
       </form>
     </div>
