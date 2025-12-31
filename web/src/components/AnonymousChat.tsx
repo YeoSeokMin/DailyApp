@@ -113,7 +113,7 @@ export default function AnonymousChat() {
     };
   }, [fetchMessages]);
 
-  // 초기 로드 시에만 스크롤
+  // 초기 로드 시 스크롤
   useEffect(() => {
     if (messages.length > 0 && !initialLoaded) {
       scrollToBottom();
@@ -121,6 +121,13 @@ export default function AnonymousChat() {
       setIsAtBottom(true);
     }
   }, [messages, initialLoaded]);
+
+  // 새 메시지 올 때 스크롤이 맨 아래면 자동 스크롤
+  useEffect(() => {
+    if (initialLoaded && isAtBottom && messages.length > 0) {
+      setTimeout(scrollToBottom, 50);
+    }
+  }, [messages.length, isAtBottom, initialLoaded]);
 
   // 메시지 전송
   const handleSubmit = async (e: React.FormEvent) => {
