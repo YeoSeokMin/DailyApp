@@ -75,10 +75,12 @@ export default function AnonymousChat() {
     const pusherKey = process.env.NEXT_PUBLIC_PUSHER_KEY;
     const pusherCluster = process.env.NEXT_PUBLIC_PUSHER_CLUSTER || 'ap3';
 
+    // 백업 폴링 (Pusher 연결 실패 시에도 동작)
+    const pollInterval = setInterval(fetchMessages, 5000);
+
     if (!pusherKey) {
-      console.warn('Pusher key not configured, falling back to polling');
-      const interval = setInterval(fetchMessages, 3000);
-      return () => clearInterval(interval);
+      console.warn('Pusher key not configured');
+      return () => clearInterval(pollInterval);
     }
 
     const pusher = new Pusher(pusherKey, {
@@ -88,10 +90,23 @@ export default function AnonymousChat() {
     const channel = pusher.subscribe('chat');
 
     channel.bind('new-message', (newMessage: ChatMessage) => {
-      setMessages(prev => [...prev, newMessage]);
+      setMessages(prev => {
+        // 중복 방지
+        if (prev.some(m => m.id === newMessage.id)) return prev;
+        return [...prev, newMessage];
+      });
+    });
+
+    pusher.connection.bind('connected', () => {
+      console.log('Pusher connected');
+    });
+
+    pusher.connection.bind('error', (err: Error) => {
+      console.error('Pusher error:', err);
     });
 
     return () => {
+      clearInterval(pollInterval);
       channel.unbind_all();
       pusher.unsubscribe('chat');
       pusher.disconnect();
@@ -194,24 +209,24 @@ export default function AnonymousChat() {
       )}
 
       {/* 입력 폼 */}
-      <form onSubmit={handleSubmit} className="flex gap-2">
-        <span className="px-3 py-2 text-sm rounded-lg bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-medium shrink-0">
+      <form onSubmit={handleSubmit} className="flex gap-1.5 items-center">
+        <span className="px-2 py-1 text-xs rounded bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-300 font-medium shrink-0 max-w-[80px] truncate">
           {nickname || '...'}
         </span>
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="메시지를 입력하세요..."
+          placeholder="메시지 입력..."
           maxLength={200}
-          className="flex-1 px-3 py-2 text-sm rounded-lg border border-blue-200 dark:border-blue-700 bg-white dark:bg-zinc-700 text-zinc-900 dark:text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 min-w-0 px-3 py-2 text-sm rounded-lg border border-blue-200 dark:border-blue-700 bg-white dark:bg-zinc-700 text-zinc-900 dark:text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button
           type="submit"
           disabled={!input.trim() || sending}
-          className="px-4 py-2 bg-blue-500 text-white text-sm font-medium rounded-lg hover:bg-blue-600 disabled:bg-zinc-300 dark:disabled:bg-zinc-600 disabled:cursor-not-allowed transition-colors"
+          className="p-2 text-xl disabled:opacity-40 disabled:cursor-not-allowed transition-opacity"
         >
-          {sending ? '...' : '전송'}
+          {sending ? '⏳' : '📤'}
         </button>
       </form>
     </div>
