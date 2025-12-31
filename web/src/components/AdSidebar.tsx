@@ -46,7 +46,7 @@ export default function AdSidebar({ position }: AdSidebarProps) {
 
   if (loading) {
     return (
-      <div className="hidden xl:flex flex-col gap-4 sticky top-24">
+      <div className="hidden xl:flex flex-col gap-4 sticky top-24 self-start">
         <div className="w-[160px] h-[300px] bg-zinc-200 dark:bg-zinc-800 rounded-xl animate-pulse" />
         <div className="w-[160px] h-[300px] bg-zinc-200 dark:bg-zinc-800 rounded-xl animate-pulse" />
       </div>
@@ -57,7 +57,7 @@ export default function AdSidebar({ position }: AdSidebarProps) {
   const slotId2 = position === 'left' ? 'left2' : 'right2';
 
   return (
-    <div className="hidden xl:flex flex-col gap-4 sticky top-24">
+    <div className="hidden xl:flex flex-col gap-4 sticky top-24 self-start">
       <AdSlot
         slotId={slotId1}
         imageUrl={slots.slot1?.imageUrl || null}

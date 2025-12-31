@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { kv } from '@vercel/kv';
+import { getPusher, CHAT_CHANNEL, CHAT_EVENT } from '@/lib/pusher';
 
 const CHAT_KEY = 'chat:messages';
 const MAX_MESSAGES = 50;
@@ -60,6 +61,14 @@ export async function POST(request: NextRequest) {
 
     // 최대 개수 유지
     await kv.ltrim(CHAT_KEY, 0, MAX_MESSAGES - 1);
+
+    // Pusher로 실시간 전송
+    try {
+      const pusher = getPusher();
+      await pusher.trigger(CHAT_CHANNEL, CHAT_EVENT, chatMessage);
+    } catch (pusherError) {
+      console.error('Pusher trigger error:', pusherError);
+    }
 
     return NextResponse.json({
       success: true,

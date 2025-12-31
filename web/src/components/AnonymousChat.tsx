@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
+import Pusher from 'pusher-js';
 
 interface ChatMessage {
   id: string;
@@ -9,42 +10,107 @@ interface ChatMessage {
   timestamp: number;
 }
 
+// 랜덤 닉네임 생성
+const ADJECTIVES = ['행복한', '귀여운', '용감한', '똑똑한', '재빠른', '신비한', '멋진', '따뜻한', '시원한', '달콤한'];
+const NOUNS = ['고양이', '강아지', '토끼', '여우', '판다', '코알라', '펭귄', '다람쥐', '햄스터', '물개'];
+
+function generateNickname(): string {
+  const adj = ADJECTIVES[Math.floor(Math.random() * ADJECTIVES.length)];
+  const noun = NOUNS[Math.floor(Math.random() * NOUNS.length)];
+  const num = Math.floor(Math.random() * 100);
+  return `${adj}${noun}${num}`;
+}
+
 export default function AnonymousChat() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [nickname, setNickname] = useState('');
   const [input, setInput] = useState('');
   const [sending, setSending] = useState(false);
-  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const [isAtBottom, setIsAtBottom] = useState(false);
+  const [initialLoaded, setInitialLoaded] = useState(false);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
 
-  // 메시지 가져오기
-  const fetchMessages = async () => {
+  // 메시지 가져오기 (초기 로드용)
+  const fetchMessages = useCallback(async () => {
     try {
       const res = await fetch('/api/chat');
       const data = await res.json();
       if (data.success) {
-        setMessages(data.messages.reverse());
+        const newMessages = data.messages.reverse();
+        setMessages(newMessages);
       }
     } catch (error) {
       console.error('Failed to fetch messages:', error);
     }
-  };
-
-  // 초기 로드 및 폴링
-  useEffect(() => {
-    fetchMessages();
-    const interval = setInterval(fetchMessages, 3000); // 3초마다 새로고침
-    return () => clearInterval(interval);
   }, []);
 
-  // 새 메시지 시 스크롤
+  // 스크롤 위치 확인
+  const handleScroll = () => {
+    const container = messagesContainerRef.current;
+    if (container) {
+      const { scrollTop, scrollHeight, clientHeight } = container;
+      setIsAtBottom(scrollHeight - scrollTop - clientHeight < 30);
+    }
+  };
+
+  // 맨 아래로 스크롤
+  const scrollToBottom = () => {
+    const container = messagesContainerRef.current;
+    if (container) {
+      container.scrollTop = container.scrollHeight;
+    }
+  };
+
+  // 클라이언트에서만 닉네임 생성
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages]);
+    setNickname(generateNickname());
+  }, []);
+
+  // 초기 로드 + Pusher 구독
+  useEffect(() => {
+    // 초기 메시지 로드
+    fetchMessages();
+
+    // Pusher 연결
+    const pusherKey = process.env.NEXT_PUBLIC_PUSHER_KEY;
+    const pusherCluster = process.env.NEXT_PUBLIC_PUSHER_CLUSTER || 'ap3';
+
+    if (!pusherKey) {
+      console.warn('Pusher key not configured, falling back to polling');
+      const interval = setInterval(fetchMessages, 3000);
+      return () => clearInterval(interval);
+    }
+
+    const pusher = new Pusher(pusherKey, {
+      cluster: pusherCluster,
+    });
+
+    const channel = pusher.subscribe('chat');
+
+    channel.bind('new-message', (newMessage: ChatMessage) => {
+      setMessages(prev => [...prev, newMessage]);
+    });
+
+    return () => {
+      channel.unbind_all();
+      pusher.unsubscribe('chat');
+      pusher.disconnect();
+    };
+  }, [fetchMessages]);
+
+  // 초기 로드 시에만 스크롤
+  useEffect(() => {
+    if (messages.length > 0 && !initialLoaded) {
+      scrollToBottom();
+      setInitialLoaded(true);
+      setIsAtBottom(true);
+    }
+  }, [messages, initialLoaded]);
 
   // 메시지 전송
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!input.trim() || sending) return;
+    if (!input.trim() || sending || !nickname) return;
 
     setSending(true);
     try {
@@ -52,7 +118,7 @@ export default function AnonymousChat() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          nickname: nickname.trim() || '익명',
+          nickname: nickname,
           message: input.trim()
         })
       });
@@ -60,7 +126,8 @@ export default function AnonymousChat() {
       const data = await res.json();
       if (data.success) {
         setInput('');
-        fetchMessages();
+        await fetchMessages();
+        scrollToBottom();
       }
     } catch (error) {
       console.error('Failed to send message:', error);
@@ -82,13 +149,19 @@ export default function AnonymousChat() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
         </svg>
         익명 채팅방
-        <span className="text-xs text-blue-500 dark:text-blue-400 font-normal ml-auto">
-          실시간 대화
+        <span className="flex items-center gap-1 text-xs text-green-500 font-normal ml-auto">
+          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+          실시간
         </span>
       </h3>
 
       {/* 메시지 목록 */}
-      <div className="h-[200px] overflow-y-auto bg-white/50 dark:bg-zinc-800/50 rounded-lg p-3 mb-3 space-y-2">
+      <div
+        ref={messagesContainerRef}
+        onScroll={handleScroll}
+        className="h-[200px] overflow-y-auto bg-white/50 dark:bg-zinc-800/50 rounded-lg p-3 mb-3 space-y-2 scrollbar-hide"
+        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+      >
         {messages.length === 0 ? (
           <p className="text-center text-zinc-400 dark:text-zinc-500 text-sm py-8">
             첫 번째 메시지를 남겨보세요!
@@ -99,28 +172,32 @@ export default function AnonymousChat() {
               <span className="font-medium text-blue-600 dark:text-blue-400 shrink-0">
                 {msg.nickname}
               </span>
-              <span className="text-zinc-700 dark:text-zinc-300 break-all">
+              <span className="text-zinc-700 dark:text-zinc-300 break-all flex-1">
                 {msg.message}
               </span>
-              <span className="text-xs text-zinc-400 dark:text-zinc-500 shrink-0 ml-auto">
+              <span className="text-xs text-zinc-400 dark:text-zinc-500 shrink-0">
                 {formatTime(msg.timestamp)}
               </span>
             </div>
           ))
         )}
-        <div ref={messagesEndRef} />
       </div>
+
+      {/* 새 메시지 알림 (스크롤이 위에 있을 때) */}
+      {!isAtBottom && messages.length > 0 && (
+        <button
+          onClick={scrollToBottom}
+          className="w-full mb-2 py-1 text-xs text-blue-600 dark:text-blue-400 bg-blue-100 dark:bg-blue-900/30 rounded hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors"
+        >
+          ↓ 새 메시지 보기
+        </button>
+      )}
 
       {/* 입력 폼 */}
       <form onSubmit={handleSubmit} className="flex gap-2">
-        <input
-          type="text"
-          value={nickname}
-          onChange={(e) => setNickname(e.target.value)}
-          placeholder="닉네임"
-          maxLength={10}
-          className="w-20 px-3 py-2 text-sm rounded-lg border border-blue-200 dark:border-blue-700 bg-white dark:bg-zinc-700 text-zinc-900 dark:text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
+        <span className="px-3 py-2 text-sm rounded-lg bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-medium shrink-0">
+          {nickname || '...'}
+        </span>
         <input
           type="text"
           value={input}
