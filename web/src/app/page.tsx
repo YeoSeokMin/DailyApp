@@ -2,6 +2,7 @@ import AppCard from '@/components/AppCard';
 import DateSelector from '@/components/DateSelector';
 import AdSidebar from '@/components/AdSidebar';
 import MobileAdSlot from '@/components/MobileAdSlot';
+import AnonymousChat from '@/components/AnonymousChat';
 import { getLatestReport, getAvailableDates } from '@/lib/reports';
 
 // 60초마다 재검증 (ISR)
@@ -58,9 +59,16 @@ export default function Home() {
         <main className="flex-1 max-w-5xl mx-auto">
           {/* Date & Daily Insight */}
           <div className="mb-8">
-            <h2 className="text-xl font-semibold text-zinc-800 dark:text-white">
+            <h2 className="text-xl font-semibold text-zinc-800 dark:text-white mb-4">
               {report.date}
             </h2>
+
+            {/* 익명 채팅방 */}
+            <div className="mb-4">
+              <AnonymousChat />
+            </div>
+
+            {/* 오늘의 인사이트 */}
             {report.daily_insight && (
               <div className="mt-4 p-5 bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-xl border border-purple-100 dark:border-purple-800">
                 <h3 className="font-medium text-purple-800 dark:text-purple-300 flex items-center gap-2 mb-4">
