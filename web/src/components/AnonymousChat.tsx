@@ -127,7 +127,7 @@ export default function AnonymousChat() {
       if (data.success) {
         setInput('');
         await fetchMessages();
-        scrollToBottom();
+        setTimeout(scrollToBottom, 100);
       }
     } catch (error) {
       console.error('Failed to send message:', error);
