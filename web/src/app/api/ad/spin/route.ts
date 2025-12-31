@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { hashIp, spin, getAvailableSlots } from '@/lib/ads';
+import { hashIp, spin, getAvailableSlots, getWinnerState } from '@/lib/ads';
 
 // IP 주소 추출
 function getClientIp(request: NextRequest): string {
@@ -45,17 +45,19 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// 사용 가능한 슬롯 확인 (GET)
+// 사용 가능한 슬롯 및 당첨 상태 확인 (GET)
 export async function GET(request: NextRequest) {
   try {
     const clientIp = getClientIp(request);
     const ipHash = hashIp(clientIp);
     const availableSlots = await getAvailableSlots(ipHash);
+    const winnerSlot = await getWinnerState(ipHash);
 
     return NextResponse.json({
       success: true,
       availableSlots,
-      remainingTries: availableSlots.length
+      remainingTries: availableSlots.length,
+      winnerSlot // null이면 당첨된 슬롯 없음, 있으면 당첨된 슬롯 ID
     });
   } catch (error) {
     console.error('Get slots error:', error);

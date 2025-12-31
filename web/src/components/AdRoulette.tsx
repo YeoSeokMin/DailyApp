@@ -6,13 +6,15 @@ interface AdRouletteProps {
   slotId: string;
   onWin: () => void;
   onClose: () => void;
+  onLaterUpload?: () => void; // 나중에 업로드 콜백
 }
 
-export default function AdRoulette({ slotId, onWin, onClose }: AdRouletteProps) {
+export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: AdRouletteProps) {
   const [isSpinning, setIsSpinning] = useState(false);
-  const [result, setResult] = useState<'pending' | 'win' | 'lose'>('pending');
+  const [result, setResult] = useState<'pending' | 'win' | 'lose' | 'existing'>('pending');
   const [message, setMessage] = useState('');
   const [rotation, setRotation] = useState(0);
+  const [existingWinSlot, setExistingWinSlot] = useState<string | null>(null);
   const spinRef = useRef<HTMLDivElement>(null);
 
   const handleSpin = async () => {
@@ -38,7 +40,12 @@ export default function AdRoulette({ slotId, onWin, onClose }: AdRouletteProps) 
       // 애니메이션 대기 (3초)
       await new Promise(resolve => setTimeout(resolve, 3000));
 
-      if (data.won) {
+      if (data.existingWinSlot) {
+        // 이미 당첨된 슬롯이 있음
+        setResult('existing');
+        setExistingWinSlot(data.existingWinSlot);
+        setMessage(`이미 당첨된 슬롯(${data.existingWinSlot})이 있습니다!`);
+      } else if (data.won) {
         setResult('win');
         setMessage('🎉 축하합니다! 당첨되었습니다!');
         setTimeout(() => onWin(), 1500);
@@ -52,6 +59,13 @@ export default function AdRoulette({ slotId, onWin, onClose }: AdRouletteProps) 
     } finally {
       setIsSpinning(false);
     }
+  };
+
+  const handleLaterUpload = () => {
+    if (onLaterUpload) {
+      onLaterUpload();
+    }
+    onClose();
   };
 
   return (
@@ -118,23 +132,49 @@ export default function AdRoulette({ slotId, onWin, onClose }: AdRouletteProps) 
 
         {/* 버튼 */}
         <div className="flex gap-3">
-          <button
-            onClick={onClose}
-            className="flex-1 py-3 px-4 bg-zinc-200 dark:bg-zinc-700 text-zinc-700 dark:text-zinc-300 rounded-lg font-medium hover:bg-zinc-300 dark:hover:bg-zinc-600 transition-colors"
-          >
-            닫기
-          </button>
-          <button
-            onClick={handleSpin}
-            disabled={isSpinning || result === 'win'}
-            className={`flex-1 py-3 px-4 rounded-lg font-medium transition-all ${
-              isSpinning || result === 'win'
-                ? 'bg-zinc-300 dark:bg-zinc-600 text-zinc-500 cursor-not-allowed'
-                : 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:from-purple-600 hover:to-pink-600 shadow-lg hover:shadow-xl'
-            }`}
-          >
-            {isSpinning ? '돌리는 중...' : result === 'win' ? '당첨!' : '돌리기'}
-          </button>
+          {result === 'win' ? (
+            <>
+              <button
+                onClick={handleLaterUpload}
+                className="flex-1 py-3 px-4 bg-zinc-200 dark:bg-zinc-700 text-zinc-700 dark:text-zinc-300 rounded-lg font-medium hover:bg-zinc-300 dark:hover:bg-zinc-600 transition-colors"
+              >
+                나중에 업로드
+              </button>
+              <button
+                onClick={onWin}
+                className="flex-1 py-3 px-4 bg-gradient-to-r from-green-500 to-emerald-500 text-white rounded-lg font-medium hover:from-green-600 hover:to-emerald-600 shadow-lg"
+              >
+                지금 업로드
+              </button>
+            </>
+          ) : result === 'existing' ? (
+            <button
+              onClick={onClose}
+              className="flex-1 py-3 px-4 bg-blue-500 text-white rounded-lg font-medium hover:bg-blue-600 transition-colors"
+            >
+              확인 (당첨 슬롯으로 이동)
+            </button>
+          ) : (
+            <>
+              <button
+                onClick={onClose}
+                className="flex-1 py-3 px-4 bg-zinc-200 dark:bg-zinc-700 text-zinc-700 dark:text-zinc-300 rounded-lg font-medium hover:bg-zinc-300 dark:hover:bg-zinc-600 transition-colors"
+              >
+                닫기
+              </button>
+              <button
+                onClick={handleSpin}
+                disabled={isSpinning}
+                className={`flex-1 py-3 px-4 rounded-lg font-medium transition-all ${
+                  isSpinning
+                    ? 'bg-zinc-300 dark:bg-zinc-600 text-zinc-500 cursor-not-allowed'
+                    : 'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:from-purple-600 hover:to-pink-600 shadow-lg hover:shadow-xl'
+                }`}
+              >
+                {isSpinning ? '돌리는 중...' : '돌리기'}
+              </button>
+            </>
+          )}
         </div>
       </div>
     </div>

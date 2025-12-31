@@ -31,6 +31,8 @@ export interface SpinResult {
   message: string;
   canRetry: boolean;
   remainingSlots?: string[];
+  existingWinSlot?: string;  // 이미 당첨된 슬롯 ID
+  wonSlotId?: string;        // 방금 당첨된 슬롯 ID
 }
 
 // 업로드 결과

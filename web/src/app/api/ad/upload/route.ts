@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { hashIp, updateAdSlot, hasAttemptedToday } from '@/lib/ads';
+import { hashIp, updateAdSlot, getWinnerState, clearWinnerState } from '@/lib/ads';
 import { put } from '@vercel/blob';
 
 // IP 주소 추출
@@ -66,10 +66,11 @@ export async function POST(request: NextRequest) {
     const clientIp = getClientIp(request);
     const ipHash = hashIp(clientIp);
 
-    // 당첨 검증 - 오늘 시도한 기록이 있어야 함
-    if (!(await hasAttemptedToday(ipHash, slotId))) {
+    // 당첨 검증 - 당첨된 슬롯이 있어야 함
+    const winnerSlot = await getWinnerState(ipHash);
+    if (!winnerSlot || winnerSlot !== slotId) {
       return NextResponse.json(
-        { success: false, message: '먼저 룰렛에 당첨되어야 합니다.' },
+        { success: false, message: '해당 슬롯에 당첨되지 않았습니다.' },
         { status: 403 }
       );
     }
@@ -93,6 +94,9 @@ export async function POST(request: NextRequest) {
         { status: 500 }
       );
     }
+
+    // 당첨 상태 삭제 (업로드 완료)
+    await clearWinnerState(ipHash);
 
     return NextResponse.json({
       success: true,

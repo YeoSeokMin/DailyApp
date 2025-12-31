@@ -38,7 +38,7 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
 
   const showToast = (message: string) => {
     setToast(message);
-    setTimeout(() => setToast(null), 2000);
+    setTimeout(() => setToast(null), 3000);
   };
 
   const handleClick = async () => {
@@ -49,8 +49,17 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
       const res = await fetch('/api/ad/spin');
       const data = await res.json();
 
-      if (data.success && data.availableSlots) {
-        if (data.availableSlots.includes(slotId)) {
+      if (data.success) {
+        // 이미 당첨된 슬롯이 있는지 확인
+        if (data.winnerSlot) {
+          if (data.winnerSlot === slotId) {
+            // 이 슬롯이 당첨된 슬롯이면 바로 업로드
+            setShowUpload(true);
+          } else {
+            // 다른 슬롯이 당첨된 경우
+            showToast(`이미 당첨된 슬롯(${data.winnerSlot})이 있습니다! 먼저 업로드해주세요.`);
+          }
+        } else if (data.availableSlots?.includes(slotId)) {
           setShowRoulette(true);
         } else {
           showToast('이 슬롯은 오늘 이미 도전했습니다!');
