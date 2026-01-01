@@ -35,13 +35,16 @@ export default function Home() {
       <header className="bg-white dark:bg-zinc-800 shadow-sm sticky top-0 z-10">
         <div className="max-w-[1600px] mx-auto px-4 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <div>
-              <h1 className="text-2xl font-bold text-zinc-900 dark:text-white">
-                오늘의 앱 아이디어
-              </h1>
-              <p className="text-sm text-zinc-500 dark:text-zinc-400">
-                매일 발굴하는 숨겨진 보석 앱들
-              </p>
+            <div className="flex items-center gap-3">
+              <img src="/favicon.ico" alt="" className="w-10 h-10" />
+              <div>
+                <h1 className="text-2xl font-bold text-zinc-900 dark:text-white">
+                  오늘의 앱 아이디어
+                </h1>
+                <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                  매일 발굴하는 숨겨진 보석 앱들
+                </p>
+              </div>
             </div>
             <div className="flex items-center gap-2">
               <DateSelector dates={availableDates} currentDate={date} />
