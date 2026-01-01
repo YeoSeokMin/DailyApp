@@ -3,607 +3,46 @@
   "ios": [
     {
       "rank": 1,
-      "name": "Tiris",
-      "developer": "Juno Seong",
-      "category": "생산성",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/a2/6a/95a26ac1-2a6b-1ddc-930f-e6edda964962/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/tiris/id6755020977?uo=2",
-      "idea_summary": "테트리스 + 시간관리 결합한 생산성 도구",
+      "name": "Stock Predictor AI",
+      "developer": "Saravanan Murugesan",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/4d/30/214d3057-19c9-0b5d-9342-eb6113e3e607/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/stock-predictor-ai/id6756808897",
+      "idea_summary": "AI로 주식 예측 시뮬레이션 제공",
       "analysis": {
-        "problem": "시간 관리가 지루하고 동기부여가 어려움",
-        "solution": "게이미피케이션으로 시간 블록을 테트리스처럼 관리",
-        "target_user": "MZ세대 직장인, 학생",
-        "unique_point": "시간관리를 게임처럼 재미있게 만든 독창적 접근"
+        "problem": "개인 투자자가 기술적 분석을 쉽게 하기 어려움",
+        "solution": "AI 모델로 주가 패턴 분석 및 예측 시나리오 제공",
+        "target_user": "주식 초보자, 개인 투자자",
+        "unique_point": "복잡한 기술적 분석을 AI가 자동화하여 접근성 향상"
       },
       "market": {
         "competitors": [
-          "Todoist",
-          "Forest",
-          "Structured"
+          "TradingView",
+          "야후 파이낸스"
         ],
-        "timing_reason": "번아웃 시대, 재미있는 생산성 도구 수요 증가",
-        "growth_potential": "게이미피케이션 생산성 앱 트렌드와 맞물려 성장 가능"
+        "timing_reason": "AI 투자 도구 관심 증가, 개인투자자 급증",
+        "growth_potential": "금융 AI 시장 연간 20% 이상 성장 전망"
       },
       "business": {
-        "monetization": "프리미엄 구독 (테마, 통계 기능)",
-        "pricing_suggestion": "월 3,900원 / 연 29,000원",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월",
-        "estimated_cost": "500-800",
-        "tech_stack": [
-          "Swift",
-          "SwiftUI",
-          "CoreData"
-        ],
-        "key_features": [
-          "테트리스 UI",
-          "시간 블록 관리",
-          "통계 대시보드"
-        ],
-        "clone_tip": "테트리스 물리엔진보다 시각적 표현에 집중, 드래그&드롭 시간블록"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#게이미피케이션"
-      ],
-      "verdict": "시간관리를 게임화한 참신한 아이디어, 바이럴 가능성 높음"
-    },
-    {
-      "rank": 2,
-      "name": "Pickle Ai: Pickleball Coach GO",
-      "developer": "Peter Marpaung",
-      "category": "스포츠",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/e9/82/4ce98290-8614-7ae6-7505-b472277a8e36/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/pickle-ai-pickleball-coach-go/id6756892870?uo=2",
-      "idea_summary": "AI 기반 피클볼 코칭 앱",
-      "analysis": {
-        "problem": "피클볼 인기 급상승 but 코치 부족",
-        "solution": "AI로 자세 분석, 개인화된 코칭 제공",
-        "target_user": "피클볼 입문자, 아마추어 선수",
-        "unique_point": "급성장 스포츠에 AI 코칭 최초 적용"
-      },
-      "market": {
-        "competitors": [
-          "SwingVision",
-          "HomeCourt"
-        ],
-        "timing_reason": "피클볼이 미국에서 가장 빠르게 성장하는 스포츠",
-        "growth_potential": "피클볼 시장 폭발적 성장과 함께 동반 성장"
-      },
-      "business": {
-        "monetization": "월 구독 + 프리미엄 분석",
-        "pricing_suggestion": "월 9,900원 / 연 79,000원",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월",
-        "estimated_cost": "1500-2500",
-        "tech_stack": [
-          "Swift",
-          "Vision Framework",
-          "CoreML",
-          "TensorFlow Lite"
-        ],
-        "key_features": [
-          "자세 분석",
-          "스윙 추적",
-          "개인화 피드백",
-          "훈련 계획"
-        ],
-        "clone_tip": "기존 포즈 추정 모델 활용, 피클볼 특화 데이터셋 구축이 핵심"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 2,
-        "market_size": 4,
-        "competition": 4,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 8.2
-      },
-      "tags": [
-        "#AI",
-        "#스포츠테크",
-        "#트렌드"
-      ],
-      "verdict": "타이밍이 완벽한 니치 스포츠 AI 코칭, 선점 효과 기대"
-    },
-    {
-      "rank": 3,
-      "name": "Present: Screen Time Manager",
-      "developer": "Andrew Sverdrup",
-      "category": "생산성",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/20/60/f92060d0-afe2-d682-09fa-e1293140f34c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/present-screen-time-manager/id6756831787?uo=2",
-      "idea_summary": "'현재'에 집중하게 하는 스크린타임 관리",
-      "analysis": {
-        "problem": "스마트폰 중독, 현재 순간에 집중 못함",
-        "solution": "마인드풀니스 접근으로 스크린타임 인식 개선",
-        "target_user": "디지털 디톡스를 원하는 직장인, 학생",
-        "unique_point": "단순 차단이 아닌 인식 변화 유도 접근"
-      },
-      "market": {
-        "competitors": [
-          "Screen Time",
-          "Opal",
-          "One Sec"
-        ],
-        "timing_reason": "스마트폰 중독 사회 문제화, 웰빙 트렌드",
-        "growth_potential": "디지털 웰빙 시장 연 20% 성장"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 (고급 분석, 가족 기능)",
-        "pricing_suggestion": "월 4,900원 / 연 39,000원",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월",
-        "estimated_cost": "600-1000",
-        "tech_stack": [
-          "Swift",
-          "ScreenTime API",
-          "WidgetKit"
-        ],
-        "key_features": [
-          "스크린타임 트래킹",
-          "마인드풀 알림",
-          "일일 리포트"
-        ],
-        "clone_tip": "iOS ScreenTime API 활용, 차별화는 UX와 동기부여 메시지"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 4,
-        "market_size": 5,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 3,
-        "overall": 7.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#웰빙",
-        "#디지털디톡스"
-      ],
-      "verdict": "필요성 높은 시장, 브랜딩과 UX로 차별화 필요"
-    },
-    {
-      "rank": 4,
-      "name": "ThreadPulse",
-      "developer": "YOURFULLSTACK, LLC",
-      "category": "생산성",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/0f/d6/7f0fd65c-e1fb-4e53-217c-e535db32b1c6/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/threadpulse/id6757008431?uo=2",
-      "idea_summary": "Threads/X 콘텐츠 성과 분석 도구",
-      "analysis": {
-        "problem": "SNS 크리에이터들의 성과 분석 도구 부재",
-        "solution": "스레드/X 게시물 성과 실시간 추적 및 인사이트",
-        "target_user": "SNS 크리에이터, 마케터, 인플루언서",
-        "unique_point": "Threads 특화 분석 도구 (경쟁 적음)"
-      },
-      "market": {
-        "competitors": [
-          "Hootsuite",
-          "Buffer",
-          "Sprout Social"
-        ],
-        "timing_reason": "Threads 사용자 급증, 분석 도구 수요 증가",
-        "growth_potential": "크리에이터 이코노미 성장과 함께 확대"
-      },
-      "business": {
-        "monetization": "프로 구독 (상세 분석, 경쟁사 비교)",
-        "pricing_suggestion": "월 9,900원 / 연 89,000원",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월",
-        "estimated_cost": "500-800",
-        "tech_stack": [
-          "Swift",
-          "REST API",
-          "Charts",
-          "CloudKit"
-        ],
-        "key_features": [
-          "게시물 성과 추적",
-          "최적 게시 시간",
-          "팔로워 분석"
-        ],
-        "clone_tip": "공개 API 활용, 시각화 차별화로 경쟁력 확보"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 7.9
-      },
-      "tags": [
-        "#B2B",
-        "#크리에이터도구",
-        "#SaaS"
-      ],
-      "verdict": "Threads 성장과 함께 수요 증가, 빠른 진입이 관건"
-    },
-    {
-      "rank": 5,
-      "name": "Echo Letters",
-      "developer": "ReachUp",
-      "category": "게임",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/83/5b/cc835b36-a5da-87c2-8833-29807ff6531e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/echo-letters/id6756981207?uo=2",
-      "idea_summary": "청각 기억력 기반 단어 퍼즐 게임",
-      "analysis": {
-        "problem": "단순 시각 기반 단어 게임의 한계",
-        "solution": "청각과 기억력을 결합한 새로운 단어 게임",
-        "target_user": "단어 게임 팬, 두뇌 훈련 원하는 사용자",
-        "unique_point": "청각 기억력이라는 새로운 게임 메커니즘"
-      },
-      "market": {
-        "competitors": [
-          "Wordle",
-          "Spelling Bee",
-          "Word Connect"
-        ],
-        "timing_reason": "Wordle 이후 단어 게임 인기 지속",
-        "growth_potential": "캐주얼 게임 시장에서 꾸준한 수요"
-      },
-      "business": {
-        "monetization": "광고 + 광고 제거 IAP",
-        "pricing_suggestion": "광고 제거 6,500원 1회 결제",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "1-2개월",
-        "estimated_cost": "300-500",
-        "tech_stack": [
-          "Swift",
-          "AVFoundation",
-          "GameKit"
-        ],
-        "key_features": [
-          "음성 재생",
-          "기억력 테스트",
-          "레벨 시스템",
-          "리더보드"
-        ],
-        "clone_tip": "TTS 활용으로 음성 구현, 난이도 밸런싱이 핵심"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 3,
-        "timing": 3,
-        "tech_difficulty": 5,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 7.2
-      },
-      "tags": [
-        "#1인개발가능",
-        "#캐주얼게임",
-        "#교육"
-      ],
-      "verdict": "청각 요소가 독특, 바이럴 포인트 있는 심플 게임"
-    }
-  ],
-  "android": [
-    {
-      "rank": 1,
-      "name": "Rubato Piano Drills Creator",
-      "developer": "Major 9th Media",
-      "category": "음악",
-      "icon": "https://play-lh.googleusercontent.com/rubato-piano",
-      "app_url": "https://play.google.com/store/apps/details?id=com.major9thmedia.rpdcreator",
-      "idea_summary": "맞춤형 피아노 연습곡 자동 생성기",
-      "analysis": {
-        "problem": "피아노 연습곡이 천편일률적, 맞춤화 부족",
-        "solution": "사용자 수준에 맞는 연습 드릴 자동 생성",
-        "target_user": "피아노 독학생, 취미 연주자, 피아노 선생님",
-        "unique_point": "연습곡을 자동 생성하는 창작 도구 개념"
-      },
-      "market": {
-        "competitors": [
-          "Simply Piano",
-          "Flowkey",
-          "Piano Marvel"
-        ],
-        "timing_reason": "홈 레슨 트렌드, AI 교육 도구 관심 증가",
-        "growth_potential": "온라인 음악 교육 시장 성장세"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 (무제한 생성, 고급 패턴)",
-        "pricing_suggestion": "월 7,900원 / 연 59,000원",
+        "monetization": "프리미엄 구독, 고급 예측 모델",
+        "pricing_suggestion": "월 9,900원 프리미엄, 무료 기본 분석",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "3-4개월",
         "estimated_cost": "800-1200",
         "tech_stack": [
-          "Kotlin",
-          "MIDI Library",
-          "Room DB",
-          "Jetpack Compose"
+          "Swift",
+          "Core ML",
+          "금융 API",
+          "차트 라이브러리"
         ],
         "key_features": [
-          "드릴 생성기",
-          "난이도 조절",
-          "MIDI 출력",
-          "연습 기록"
+          "주가 차트 시각화",
+          "AI 예측 모델",
+          "알림 기능"
         ],
-        "clone_tip": "음악 이론 알고리즘이 핵심, MIDI.js 등 라이브러리 활용"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 3,
-        "competition": 4,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7.8
-      },
-      "tags": [
-        "#음악테크",
-        "#교육",
-        "#크리에이터도구"
-      ],
-      "verdict": "피아노 학습 틈새시장 공략, 음악 전문성 필요"
-    },
-    {
-      "rank": 2,
-      "name": "Sonnet: JSON Viewer & Editor",
-      "developer": "Machado Dev",
-      "category": "개발자도구",
-      "icon": "https://play-lh.googleusercontent.com/sonnet-json",
-      "app_url": "https://play.google.com/store/apps/details?id=dev.machado001.json",
-      "idea_summary": "모바일 개발자용 JSON 편집기",
-      "analysis": {
-        "problem": "모바일에서 JSON 확인/편집이 어려움",
-        "solution": "개발자 친화적 모바일 JSON 뷰어/에디터",
-        "target_user": "모바일 개발자, 백엔드 개발자, API 테스터",
-        "unique_point": "개발자 도구를 모바일로 가져온 실용성"
-      },
-      "market": {
-        "competitors": [
-          "JSON Viewer",
-          "Jayson"
-        ],
-        "timing_reason": "원격 근무 증가, 모바일 개발 환경 필요성",
-        "growth_potential": "개발자 유틸리티 앱 꾸준한 수요"
-      },
-      "business": {
-        "monetization": "프로 버전 (대용량, 동기화 기능)",
-        "pricing_suggestion": "일회성 9,900원",
-        "revenue_potential": "하"
-      },
-      "dev_insight": {
-        "estimated_period": "1-2개월",
-        "estimated_cost": "200-400",
-        "tech_stack": [
-          "Kotlin",
-          "JSON Parser",
-          "Syntax Highlighting"
-        ],
-        "key_features": [
-          "JSON 파싱",
-          "트리 뷰",
-          "편집 기능",
-          "공유"
-        ],
-        "clone_tip": "오픈소스 JSON 파서 활용, UX가 차별화 포인트"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 4,
-        "timing": 3,
-        "tech_difficulty": 5,
-        "market_size": 2,
-        "competition": 3,
-        "profitability": 2,
-        "scalability": 2,
-        "overall": 6.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#개발자도구",
-        "#유틸리티"
-      ],
-      "verdict": "니치 시장이지만 만들기 쉽고 포트폴리오로 좋음"
-    },
-    {
-      "rank": 3,
-      "name": "Mental Feelings Tracker",
-      "developer": "Fysh",
-      "category": "건강",
-      "icon": "https://play-lh.googleusercontent.com/mental-feelings",
-      "app_url": "https://play.google.com/store/apps/details?id=com.fysh.mental.feelings.fitness",
-      "idea_summary": "감정 변화 추적 및 패턴 분석 앱",
-      "analysis": {
-        "problem": "자신의 감정 패턴을 객관적으로 파악하기 어려움",
-        "solution": "일일 감정 기록과 패턴 시각화 제공",
-        "target_user": "정신 건강에 관심 있는 현대인, 명상 실천자",
-        "unique_point": "감정과 피트니스를 연결한 통합적 접근"
-      },
-      "market": {
-        "competitors": [
-          "Daylio",
-          "Moodfit",
-          "Bearable"
-        ],
-        "timing_reason": "정신 건강 인식 증가, 셀프케어 트렌드",
-        "growth_potential": "멘탈 헬스 앱 시장 연 15% 성장"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 (상세 분석, AI 인사이트)",
-        "pricing_suggestion": "월 5,900원 / 연 49,000원",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월",
-        "estimated_cost": "500-800",
-        "tech_stack": [
-          "Kotlin",
-          "Room",
-          "MPAndroidChart",
-          "WorkManager"
-        ],
-        "key_features": [
-          "감정 로깅",
-          "차트 분석",
-          "알림 리마인더",
-          "내보내기"
-        ],
-        "clone_tip": "심플한 UX가 핵심, 차트 라이브러리로 빠른 구현"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 5,
-        "market_size": 4,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 3,
-        "overall": 7.6
-      },
-      "tags": [
-        "#1인개발가능",
-        "#멘탈헬스",
-        "#웰빙"
-      ],
-      "verdict": "경쟁 치열하지만 시장 크고, 차별화 UX로 승부"
-    },
-    {
-      "rank": 4,
-      "name": "MyBovine.ai",
-      "developer": "Vanix",
-      "category": "농업",
-      "icon": "https://play-lh.googleusercontent.com/mybovine",
-      "app_url": "https://play.google.com/store/apps/details?id=com.vanix.cattle.vanix_cattle",
-      "idea_summary": "AI 기반 소 건강 관리 및 목장 운영 도구",
-      "analysis": {
-        "problem": "축산 농가의 소 개체 관리와 건강 모니터링 어려움",
-        "solution": "AI로 소 개체 인식, 건강 상태 추적, 농장 관리",
-        "target_user": "축산 농가, 목장 운영자",
-        "unique_point": "축산업 특화 AI 솔루션 (틈새시장)"
-      },
-      "market": {
-        "competitors": [
-          "CattleMax",
-          "Herdwatch"
-        ],
-        "timing_reason": "스마트팜, 애그테크 투자 증가",
-        "growth_potential": "농업 테크 시장 급성장 중"
-      },
-      "business": {
-        "monetization": "월 구독 (농장 규모별 가격)",
-        "pricing_suggestion": "월 19,000원 ~ 99,000원 (규모별)",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월",
-        "estimated_cost": "1500-2500",
-        "tech_stack": [
-          "Kotlin",
-          "TensorFlow Lite",
-          "Firebase",
-          "Google Maps API"
-        ],
-        "key_features": [
-          "소 개체 인식",
-          "건강 기록",
-          "번식 관리",
-          "재고 추적"
-        ],
-        "clone_tip": "도메인 지식이 핵심, 현장 파트너십으로 데이터 확보"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 2,
-        "market_size": 3,
-        "competition": 5,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 7.7
-      },
-      "tags": [
-        "#B2B",
-        "#AI",
-        "#애그테크"
-      ],
-      "verdict": "블루오션 틈새시장, 도메인 전문성 있으면 유망"
-    },
-    {
-      "rank": 5,
-      "name": "Tradevisor: Mera Market Advisor",
-      "developer": "Tradevisor",
-      "category": "금융",
-      "icon": "https://play-lh.googleusercontent.com/tradevisor",
-      "app_url": "https://play.google.com/store/apps/details?id=com.tradevisor.app",
-      "idea_summary": "AI 기반 개인 투자 어드바이저",
-      "analysis": {
-        "problem": "개인 투자자의 시장 분석 및 의사결정 어려움",
-        "solution": "AI가 시장 분석하고 맞춤형 투자 조언 제공",
-        "target_user": "개인 투자자, 주식 초보자",
-        "unique_point": "'내 투자 어드바이저' 컨셉의 개인화"
-      },
-      "market": {
-        "competitors": [
-          "Yahoo Finance",
-          "Seeking Alpha",
-          "토스증권"
-        ],
-        "timing_reason": "개인 투자 열풍, AI 투자 도구 관심 증가",
-        "growth_potential": "핀테크 시장 지속 성장"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 (실시간 알림, 심층 분석)",
-        "pricing_suggestion": "월 14,900원 / 연 129,000원",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "3-5개월",
-        "estimated_cost": "1000-2000",
-        "tech_stack": [
-          "Kotlin",
-          "Python/FastAPI",
-          "yfinance",
-          "OpenAI API"
-        ],
-        "key_features": [
-          "시장 분석",
-          "AI 조언",
-          "포트폴리오 추적",
-          "알림"
-        ],
-        "clone_tip": "공개 금융 API + LLM 조합, 면책조항 필수"
+        "clone_tip": "기존 금융 API 활용, 간단한 ML 모델로 시작 권장"
       },
       "scores": {
         "novelty": 3,
@@ -617,28 +56,566 @@
         "overall": 7.5
       },
       "tags": [
-        "#핀테크",
         "#AI",
-        "#B2C"
+        "#핀테크",
+        "#구독형"
       ],
-      "verdict": "시장 크지만 경쟁 치열, 규제 리스크 주의 필요"
+      "verdict": "AI 트렌드와 개인투자 열풍에 맞는 타이밍 좋은 앱"
+    },
+    {
+      "rank": 2,
+      "name": "Chick Budget Log",
+      "developer": "Olha Marko",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/41/3f/50413f41-3d78-f5ec-e96e-1dca2f76dbb9/AppIcon-1x_U007ephone-0-1-85-220-0.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/chick-budget-log/id6756940837",
+      "idea_summary": "귀여운 캐릭터로 가계부 작성 동기부여",
+      "analysis": {
+        "problem": "가계부 작성이 지루하고 지속하기 어려움",
+        "solution": "귀여운 병아리 캐릭터와 게이미피케이션으로 재미 요소 추가",
+        "target_user": "MZ세대, 가계부 입문자",
+        "unique_point": "감성적 UI와 캐릭터 육성 요소 결합"
+      },
+      "market": {
+        "competitors": [
+          "뱅크샐러드",
+          "후잉가계부",
+          "편한가계부"
+        ],
+        "timing_reason": "경제 불확실성으로 재테크 관심 증가",
+        "growth_potential": "캐릭터 굿즈, IP 확장 가능성"
+      },
+      "business": {
+        "monetization": "프리미엄 테마, 캐릭터 스킨 판매",
+        "pricing_suggestion": "기본 무료, 테마팩 3,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "400-600",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Lottie 애니메이션"
+        ],
+        "key_features": [
+          "지출 기록",
+          "캐릭터 반응",
+          "통계 대시보드"
+        ],
+        "clone_tip": "캐릭터 디자인이 핵심, 일러스트레이터 협업 권장"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#캐릭터IP",
+        "#게이미피케이션"
+      ],
+      "verdict": "귀여운 캐릭터로 지루한 가계부를 재밌게 만든 차별화 전략"
+    },
+    {
+      "rank": 3,
+      "name": "Physics Go",
+      "developer": "Salwa Nawal",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/5e/7d/5c5e7d7f-328c-3a5c-7f6a-3b6a3c192a05/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/physics-go/id6757174439",
+      "idea_summary": "AR로 물리 법칙 시각화 학습",
+      "analysis": {
+        "problem": "물리 개념이 추상적이라 이해하기 어려움",
+        "solution": "AR로 실제 환경에서 물리 법칙 시뮬레이션",
+        "target_user": "중고등학생, 물리 교사",
+        "unique_point": "교과서 개념을 현실 공간에서 체험"
+      },
+      "market": {
+        "competitors": [
+          "PhET Simulations",
+          "Brilliant"
+        ],
+        "timing_reason": "에듀테크 시장 성장, AR 기기 보급 확대",
+        "growth_potential": "교육 기관 B2B 확장 가능"
+      },
+      "business": {
+        "monetization": "과목별 팩 구매, 학교 라이선스",
+        "pricing_suggestion": "단원별 2,900원, 전체 14,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월",
+        "estimated_cost": "1000-1500",
+        "tech_stack": [
+          "ARKit",
+          "SceneKit",
+          "Swift"
+        ],
+        "key_features": [
+          "AR 물리 시뮬레이션",
+          "인터랙티브 실험",
+          "개념 설명"
+        ],
+        "clone_tip": "핵심 물리 개념 5-10개로 MVP 시작"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#AR",
+        "#에듀테크",
+        "#B2B가능"
+      ],
+      "verdict": "AR 기술로 교육의 혁신을 시도한 참신한 접근"
+    },
+    {
+      "rank": 4,
+      "name": "Wipy · Ai Cleaner App",
+      "developer": "W.S.D.T WORLD SERIES OF TRADING LTD",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/3d/f4/2d3df4f1-3581-619c-0e34-4c1a5e364b6c/WipyIcon1-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/wipy-ai-cleaner-app/id6756783746",
+      "idea_summary": "AI로 중복/유사 사진 자동 정리",
+      "analysis": {
+        "problem": "스마트폰 저장공간 부족, 사진 정리 번거로움",
+        "solution": "AI가 중복, 흐린 사진, 스크린샷 자동 분류 및 삭제 제안",
+        "target_user": "사진 많이 찍는 일반 사용자",
+        "unique_point": "단순 중복 체크 넘어 AI 품질 분석"
+      },
+      "market": {
+        "competitors": [
+          "Gemini Photos",
+          "CleanMyPhone"
+        ],
+        "timing_reason": "스마트폰 저장공간 관리 수요 지속",
+        "growth_potential": "연간 반복 구독 수익 모델"
+      },
+      "business": {
+        "monetization": "프리미엄 구독",
+        "pricing_suggestion": "월 4,900원, 연 39,000원",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "500-800",
+        "tech_stack": [
+          "Vision Framework",
+          "Core ML",
+          "Photos Framework"
+        ],
+        "key_features": [
+          "중복 사진 감지",
+          "품질 분석",
+          "일괄 삭제"
+        ],
+        "clone_tip": "Apple Vision API 활용하면 ML 모델 직접 훈련 불필요"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#유틸리티",
+        "#구독형"
+      ],
+      "verdict": "명확한 문제 해결, 높은 필요성으로 수익화 용이"
+    },
+    {
+      "rank": 5,
+      "name": "M&M Fence Quote",
+      "developer": "Oliver Niga",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/25/fc/3525fcf4-24a6-5754-c321-e707cfade424/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/m-m-fence-quote/id6756985192",
+      "idea_summary": "울타리 시공 견적을 즉시 계산",
+      "analysis": {
+        "problem": "울타리 시공 견적 받기가 번거롭고 시간 소요",
+        "solution": "면적, 재료 선택으로 즉시 견적 산출",
+        "target_user": "주택 소유자, 소규모 시공업자",
+        "unique_point": "특정 니치 시장 타겟 버티컬 솔루션"
+      },
+      "market": {
+        "competitors": [
+          "직접 견적 문의"
+        ],
+        "timing_reason": "주택 리모델링 시장 성장",
+        "growth_potential": "다른 시공 분야로 확장 가능"
+      },
+      "business": {
+        "monetization": "시공업체 리드 연결 수수료",
+        "pricing_suggestion": "무료 앱, 리드당 수수료",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월",
+        "estimated_cost": "200-400",
+        "tech_stack": [
+          "Swift",
+          "계산 로직",
+          "간단한 UI"
+        ],
+        "key_features": [
+          "면적 계산",
+          "재료별 단가",
+          "견적서 PDF 출력"
+        ],
+        "clone_tip": "한국 시장은 인테리어/시공 견적으로 응용 가능"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#니치마켓",
+        "#B2B"
+      ],
+      "verdict": "좁지만 경쟁 없는 니치 시장 공략의 좋은 예시"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "AI Vocabulary Builder - Vokab",
+      "developer": "Vokab",
+      "category": "교육",
+      "icon": "https://play-lh.googleusercontent.com/ai-vocab-icon",
+      "app_url": "https://play.google.com/store/apps/details?id=pro.vokab.vocabulary.builder",
+      "idea_summary": "AI가 맥락 기반 맞춤 단어 학습 제공",
+      "analysis": {
+        "problem": "단어 암기가 지루하고 실제 활용이 어려움",
+        "solution": "AI가 사용자 수준 파악 후 맥락 있는 문장으로 단어 학습",
+        "target_user": "영어 학습자, 시험 준비생",
+        "unique_point": "단순 암기 아닌 AI 맥락 학습"
+      },
+      "market": {
+        "competitors": [
+          "Quizlet",
+          "Anki",
+          "Memrise"
+        ],
+        "timing_reason": "AI 학습 도구 관심 급증",
+        "growth_potential": "다국어 확장, B2B 교육기관 연계"
+      },
+      "business": {
+        "monetization": "프리미엄 구독",
+        "pricing_suggestion": "월 6,900원, 연 49,000원",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "600-900",
+        "tech_stack": [
+          "Kotlin",
+          "OpenAI API",
+          "Room DB"
+        ],
+        "key_features": [
+          "AI 문장 생성",
+          "복습 알고리즘",
+          "진도 추적"
+        ],
+        "clone_tip": "GPT API로 맥락 문장 생성, 간격 반복 알고리즘 적용"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#AI",
+        "#에듀테크",
+        "#구독형"
+      ],
+      "verdict": "AI 시대에 맞는 단어 학습 혁신, 높은 성장 잠재력"
+    },
+    {
+      "rank": 2,
+      "name": "NoChargingWhenScreenOn",
+      "developer": "Shadoware",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/no-charging-icon",
+      "app_url": "https://play.google.com/store/apps/details?id=org.shadoware.nomorebattery",
+      "idea_summary": "화면 켜져 있으면 충전 자동 중단",
+      "analysis": {
+        "problem": "충전 중 사용으로 배터리 수명 단축",
+        "solution": "화면 ON 감지 시 충전 제어로 배터리 보호",
+        "target_user": "스마트폰 헤비유저, 배터리 관리 의식 있는 사용자",
+        "unique_point": "단순하지만 아무도 안 만든 기능"
+      },
+      "market": {
+        "competitors": [
+          "AccuBattery"
+        ],
+        "timing_reason": "스마트폰 교체 주기 길어지며 배터리 관리 중요성 증가",
+        "growth_potential": "배터리 관리 종합 앱으로 확장"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄 버전",
+        "pricing_suggestion": "무료+광고, 광고제거 3,900원",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3주",
+        "estimated_cost": "50-100",
+        "tech_stack": [
+          "Kotlin",
+          "BroadcastReceiver",
+          "시스템 API"
+        ],
+        "key_features": [
+          "화면 상태 감지",
+          "충전 제어",
+          "알림"
+        ],
+        "clone_tip": "Android 시스템 API 이해 필요, 루팅 없이 가능 범위 확인"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#유틸리티",
+        "#마이크로앱"
+      ],
+      "verdict": "한 가지 기능에 집중한 마이크로앱의 좋은 예시"
+    },
+    {
+      "rank": 3,
+      "name": "Laguna Watch Face",
+      "developer": "Watch Face Studio",
+      "category": "맞춤 설정",
+      "icon": "https://play-lh.googleusercontent.com/laguna-watch-icon",
+      "app_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.lagoon.wear.os",
+      "idea_summary": "프리미엄 디자인 Wear OS 워치페이스",
+      "analysis": {
+        "problem": "기본 워치페이스가 단조로움",
+        "solution": "고급스러운 커스텀 워치페이스 제공",
+        "target_user": "갤럭시워치/Wear OS 사용자",
+        "unique_point": "디자인 차별화로 프리미엄 가치"
+      },
+      "market": {
+        "competitors": [
+          "Facer",
+          "WatchMaker"
+        ],
+        "timing_reason": "웨어러블 시장 지속 성장",
+        "growth_potential": "시리즈 출시로 반복 수익"
+      },
+      "business": {
+        "monetization": "유료 판매",
+        "pricing_suggestion": "개당 2,900-4,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2주",
+        "estimated_cost": "50-100",
+        "tech_stack": [
+          "Watch Face Studio",
+          "디자인 툴"
+        ],
+        "key_features": [
+          "커스텀 컴플리케이션",
+          "다양한 스타일"
+        ],
+        "clone_tip": "삼성 Watch Face Studio 무료 툴 활용"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#디자인",
+        "#웨어러블"
+      ],
+      "verdict": "코딩 없이 디자인만으로 수익화 가능한 모델"
+    },
+    {
+      "rank": 4,
+      "name": "Smart RokuTV Remote Control",
+      "developer": "Remote Control Team",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/roku-remote-icon",
+      "app_url": "https://play.google.com/store/apps/details?id=com.remotecontrol.rokutv.smart",
+      "idea_summary": "스마트폰을 Roku TV 리모컨으로",
+      "analysis": {
+        "problem": "TV 리모컨 분실, 배터리 방전",
+        "solution": "스마트폰 앱으로 Roku TV 제어",
+        "target_user": "Roku TV 사용자",
+        "unique_point": "특정 디바이스 타겟 버티컬"
+      },
+      "market": {
+        "competitors": [
+          "공식 Roku 앱"
+        ],
+        "timing_reason": "스마트TV 보급률 증가",
+        "growth_potential": "다른 스마트TV 브랜드로 확장"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄 기능",
+        "pricing_suggestion": "무료+광고, 프리미엄 4,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월",
+        "estimated_cost": "200-300",
+        "tech_stack": [
+          "Kotlin",
+          "네트워크 프로토콜",
+          "IR 제어"
+        ],
+        "key_features": [
+          "TV 검색",
+          "리모컨 UI",
+          "음성 제어"
+        ],
+        "clone_tip": "Roku ECP 프로토콜 문서 참고, 삼성/LG TV로 확장"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#IoT",
+        "#유틸리티"
+      ],
+      "verdict": "특정 디바이스 사용자 타겟의 실용적 유틸리티"
+    },
+    {
+      "rank": 5,
+      "name": "Silly Fun Smile Live Wallpaper",
+      "developer": "Fusion Flow Tech",
+      "category": "맞춤 설정",
+      "icon": "https://play-lh.googleusercontent.com/PbgBuwchdc6FbHbjOTOnRrRNBYIVP8aX7oYN-IU9SgFOzNJormQ74MyN9EaEY588CDBQsz6XpgHEaccbPyCrHw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.silly.fun.smile.live.wallpaper",
+      "idea_summary": "인터랙티브 캐릭터 라이브 배경화면",
+      "analysis": {
+        "problem": "정적인 배경화면이 지루함",
+        "solution": "터치에 반응하는 귀여운 캐릭터 라이브 월페이퍼",
+        "target_user": "10-20대, 캐릭터 좋아하는 사용자",
+        "unique_point": "인터랙티브 반응 요소"
+      },
+      "market": {
+        "competitors": [
+          "FLAVOR Live Wallpapers"
+        ],
+        "timing_reason": "개인화 트렌드 지속",
+        "growth_potential": "캐릭터 시리즈, 시즌별 테마"
+      },
+      "business": {
+        "monetization": "유료 판매, 인앱 테마",
+        "pricing_suggestion": "기본 무료, 테마 1,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4주",
+        "estimated_cost": "100-200",
+        "tech_stack": [
+          "Kotlin",
+          "OpenGL/Canvas",
+          "Live Wallpaper API"
+        ],
+        "key_features": [
+          "터치 반응",
+          "애니메이션",
+          "배터리 최적화"
+        ],
+        "clone_tip": "Lottie 애니메이션 활용, 배터리 소모 최적화 중요"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#캐릭터",
+        "#개인화"
+      ],
+      "verdict": "저비용으로 시작할 수 있는 캐릭터 콘텐츠 비즈니스"
     }
   ],
   "daily_insight": {
-    "trend_summary": "2026년 새해 첫날, AI 기반 개인화 도구와 틈새 스포츠/취미 앱이 두드러집니다. 특히 피클볼, 피아노 같은 특정 영역에 AI를 적용한 버티컬 앱들이 주목받고 있습니다.",
+    "trend_summary": "AI 기반 개인화 서비스와 마이크로 유틸리티 앱이 인기. 복잡한 기능보다 한 가지를 잘 해결하는 앱이 주목받음.",
     "trend_details": [
-      "AI + 버티컬(특정 분야) 조합의 앱들이 급증",
-      "디지털 웰빙, 멘탈헬스 관련 앱 꾸준한 인기",
-      "Threads 등 신흥 SNS 관련 도구 수요 증가",
-      "스마트팜, 애그테크 등 전통 산업 디지털화 앱 등장"
+      "AI 활용 학습/분석 도구 증가",
+      "단일 기능 마이크로앱 트렌드",
+      "웨어러블 커스터마이징 시장 성장",
+      "버티컬 니치 시장 공략 앱 등장"
     ],
     "hot_categories": [
-      "AI 코칭",
-      "생산성",
-      "멘탈헬스",
-      "핀테크"
+      "AI 유틸리티",
+      "교육",
+      "금융",
+      "개인화"
     ],
-    "opportunity": "특정 스포츠/취미에 AI를 적용한 코칭앱 - 피클볼 외에도 패들테니스, 골프 퍼팅 등 확장 가능",
-    "action_item": "급성장 중인 니치 스포츠(피클볼, 패들테니스)를 조사하고, 해당 커뮤니티의 페인포인트를 파악해보세요"
+    "opportunity": "AI API를 활용한 기존 서비스 개선 - 단어장, 가계부, 사진정리 등 전통 앱에 AI 레이어 추가",
+    "action_item": "OpenAI/Claude API로 기존 아이디어에 AI 기능 추가하는 MVP 기획해보기"
   }
 }
