@@ -17,7 +17,7 @@ export default function DateSelector({ dates, currentDate }: DateSelectorProps) 
 
   return (
     <select
-      className="px-3 py-2 rounded-lg bg-zinc-100 dark:bg-zinc-700 text-zinc-800 dark:text-zinc-200 text-sm cursor-pointer"
+      className="text-sm cursor-pointer px-3 py-2 pixel-input"
       defaultValue={currentDate}
       onChange={handleChange}
     >

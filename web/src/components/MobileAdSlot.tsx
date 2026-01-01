@@ -50,13 +50,10 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
       const data = await res.json();
 
       if (data.success) {
-        // 이미 당첨된 슬롯이 있는지 확인
         if (data.winnerSlot) {
           if (data.winnerSlot === slotId) {
-            // 이 슬롯이 당첨된 슬롯이면 바로 업로드
             setShowUpload(true);
           } else {
-            // 다른 슬롯이 당첨된 경우
             showToast(`이미 당첨된 슬롯(${data.winnerSlot})이 있습니다! 먼저 업로드해주세요.`);
           }
         } else if (data.availableSlots?.includes(slotId)) {
@@ -92,23 +89,21 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
 
   if (loading) {
     return (
-      <div className="xl:hidden w-full h-[100px] bg-zinc-200 dark:bg-zinc-800 rounded-xl animate-pulse my-4" />
+      <div className="xl:hidden w-full h-[100px] my-4 pixel-box animate-pulse" style={{ background: 'var(--pixel-highlight)' }} />
     );
   }
 
   return (
     <>
-      {/* 토스트 메시지 */}
       {toast && (
-        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 px-4 py-2 bg-zinc-800 text-white text-sm rounded-lg shadow-lg">
+        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-50 pixel-box px-4 py-2 text-sm">
           {toast}
         </div>
       )}
 
-      <div className="xl:hidden w-full bg-zinc-100 dark:bg-zinc-800 rounded-xl overflow-hidden shadow border border-zinc-200 dark:border-zinc-700 my-4">
+      <div className="xl:hidden pixel-box w-full overflow-hidden my-4">
         {slot?.imageUrl ? (
-          <div className="relative h-[100px] group">
-            {/* 광고 이미지 - 클릭 시 링크 이동 */}
+          <div className="relative h-[100px]" style={{ background: 'var(--pixel-highlight)' }}>
             <div
               onClick={handleImageClick}
               className={`w-full h-full ${slot.linkUrl ? 'cursor-pointer' : ''}`}
@@ -116,8 +111,12 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
               <img
                 src={slot.imageUrl}
                 alt="광고"
-                className="w-full h-full object-contain bg-zinc-200 dark:bg-zinc-700"
+                className="w-full h-full object-contain"
+                style={{ background: 'var(--pixel-highlight)' }}
               />
+            </div>
+            <div className="absolute top-2 left-2 px-2 py-0.5 pixel-badge text-white text-xs" style={{ background: 'var(--pixel-border)' }}>
+              AD
             </div>
             <button
               onClick={(e) => {
@@ -125,32 +124,30 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
                 handleClick();
               }}
               disabled={checking}
-              className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 active:opacity-100 transition-opacity flex items-center justify-center disabled:opacity-50"
+              className="absolute top-2 right-2 w-8 h-8 pixel-btn flex items-center justify-center text-lg"
+              style={{ background: 'var(--pixel-insight)' }}
+              title="이 자리 도전하기"
             >
-              <span className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-sm font-medium rounded-lg">
-                {checking ? '확인중...' : '🎰 이 자리 도전하기'}
-              </span>
+              {checking ? '⏳' : '🎰'}
             </button>
-            <div className="absolute top-2 left-2 px-2 py-0.5 bg-black/50 text-white text-xs rounded pointer-events-none">
-              AD
-            </div>
           </div>
         ) : (
           <button
             onClick={handleClick}
             disabled={checking}
-            className="w-full h-[100px] flex items-center justify-center gap-4 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors disabled:opacity-50"
+            className="w-full h-[100px] flex items-center justify-center gap-4 hover:opacity-80 transition-opacity"
+            style={{ background: 'var(--pixel-card)' }}
           >
             <span className="text-3xl">{checking ? '⏳' : '🎰'}</span>
             <div className="text-left">
-              <p className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
+              <p className="text-sm font-bold" style={{ color: 'var(--foreground)' }}>
                 무료 광고 등록
               </p>
-              <p className="text-xs text-zinc-500 dark:text-zinc-400">
+              <p className="text-xs" style={{ color: 'var(--foreground)', opacity: 0.6 }}>
                 룰렛 당첨시 광고 게재!
               </p>
             </div>
-            <span className="px-3 py-1.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-xs font-medium rounded-full">
+            <span className="px-3 py-1 pixel-btn text-xs font-bold" style={{ background: 'var(--pixel-insight)' }}>
               {checking ? '확인중...' : '도전'}
             </span>
           </button>

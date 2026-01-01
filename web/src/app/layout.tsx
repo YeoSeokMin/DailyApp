@@ -17,13 +17,41 @@ export const metadata: Metadata = {
   description: "매일 발굴하는 숨겨진 보석 앱들 - iOS & Android 신규 앱 중 아이디어가 좋은 TOP 10",
 };
 
+// 픽셀 폰트 (제목용)
+const pixelFontUrl = "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/DungGeunMo.woff";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
+    <html lang="ko" suppressHydrationWarning>
+      <head>
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            @font-face {
+              font-family: 'DungGeunMo';
+              src: url('${pixelFontUrl}') format('woff');
+              font-weight: normal;
+              font-style: normal;
+            }
+          `
+        }} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var stored = localStorage.getItem('theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                if (stored === 'dark' || (!stored && prefersDark)) {
+                  document.documentElement.classList.add('dark');
+                }
+              })();
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

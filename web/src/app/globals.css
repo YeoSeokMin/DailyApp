@@ -1,8 +1,22 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 레트로 픽셀 색상 팔레트 */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f0e6d3;
+  --foreground: #3d3d3d;
+  --pixel-primary: #5b8c5a;
+  --pixel-secondary: #8b4513;
+  --pixel-accent: #d4a574;
+  --pixel-border: #3d3d3d;
+  --pixel-shadow: #2a2a2a;
+  --pixel-highlight: #fff8e7;
+  --pixel-card: #fff8e7;
+  --pixel-ios: #4a7c9b;
+  --pixel-android: #5b8c5a;
+  --pixel-chat: #6b8e9f;
+  --pixel-insight: #9b6b8c;
 }
 
 @theme inline {
@@ -12,19 +26,213 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #1a1a2e;
+  --foreground: #e8e8e8;
+  --pixel-primary: #6bc96b;
+  --pixel-secondary: #d4a574;
+  --pixel-accent: #f0c674;
+  --pixel-border: #4a4a6a;
+  --pixel-shadow: #0d0d1a;
+  --pixel-highlight: #2a2a4e;
+  --pixel-card: #252545;
+  --pixel-ios: #6ba3d4;
+  --pixel-android: #6bc96b;
+  --pixel-chat: #7bb8d4;
+  --pixel-insight: #d49bd4;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'DungGeunMo', monospace;
+  image-rendering: pixelated;
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* 픽셀 폰트 */
+@layer utilities {
+  .font-pixel {
+    font-family: 'DungGeunMo', monospace;
+  }
+}
+
+/* 픽셀 박스 스타일 */
+.pixel-box {
+  background: var(--pixel-card);
+  border: 4px solid var(--pixel-border);
+  box-shadow:
+    4px 4px 0 var(--pixel-shadow),
+    inset -2px -2px 0 rgba(0,0,0,0.1),
+    inset 2px 2px 0 rgba(255,255,255,0.3);
+  image-rendering: pixelated;
+}
+
+.pixel-box-inset {
+  background: var(--pixel-highlight);
+  border: 3px solid var(--pixel-border);
+  box-shadow:
+    inset 2px 2px 0 rgba(0,0,0,0.15),
+    inset -2px -2px 0 rgba(255,255,255,0.2);
+}
+
+/* 픽셀 버튼 */
+.pixel-btn {
+  background: var(--pixel-primary);
+  color: white;
+  border: 3px solid var(--pixel-border);
+  box-shadow:
+    3px 3px 0 var(--pixel-shadow),
+    inset -2px -2px 0 rgba(0,0,0,0.2),
+    inset 2px 2px 0 rgba(255,255,255,0.3);
+  font-family: 'DungGeunMo', monospace;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.pixel-btn:hover {
+  transform: translate(1px, 1px);
+  box-shadow:
+    2px 2px 0 var(--pixel-shadow),
+    inset -2px -2px 0 rgba(0,0,0,0.2),
+    inset 2px 2px 0 rgba(255,255,255,0.3);
+}
+
+.pixel-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow:
+    0px 0px 0 var(--pixel-shadow),
+    inset -2px -2px 0 rgba(0,0,0,0.2),
+    inset 2px 2px 0 rgba(255,255,255,0.3);
+}
+
+.pixel-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 픽셀 입력 필드 */
+.pixel-input {
+  background: var(--pixel-highlight);
+  border: 3px solid var(--pixel-border);
+  box-shadow: inset 2px 2px 0 rgba(0,0,0,0.1);
+  font-family: 'DungGeunMo', monospace;
+}
+
+.pixel-input:focus {
+  outline: none;
+  border-color: var(--pixel-primary);
+  box-shadow: inset 2px 2px 0 rgba(0,0,0,0.1), 0 0 0 2px var(--pixel-primary);
+}
+
+/* 픽셀 헤더 */
+.pixel-header {
+  background: var(--pixel-card);
+  border-bottom: 4px solid var(--pixel-border);
+  box-shadow: 0 4px 0 var(--pixel-shadow);
+}
+
+/* 픽셀 카드 헤더 (iOS/Android) */
+.pixel-card-header-ios {
+  background: var(--pixel-ios);
+  border-bottom: 3px solid var(--pixel-border);
+}
+
+.pixel-card-header-android {
+  background: var(--pixel-android);
+  border-bottom: 3px solid var(--pixel-border);
+}
+
+/* 픽셀 뱃지 */
+.pixel-badge {
+  border: 2px solid var(--pixel-border);
+  box-shadow: 2px 2px 0 var(--pixel-shadow);
+  font-family: 'DungGeunMo', monospace;
+}
+
+/* 픽셀 태그 */
+.pixel-tag {
+  background: var(--pixel-accent);
+  color: var(--pixel-border);
+  border: 2px solid var(--pixel-border);
+  box-shadow: 1px 1px 0 var(--pixel-shadow);
+  font-family: 'DungGeunMo', monospace;
+}
+
+/* 섹션 별 색상 */
+.pixel-section-insight {
+  background: #f5e6f0;
+  border: 3px solid #9b6b8c;
+}
+.dark .pixel-section-insight {
+  background: #3d2a3d;
+  border-color: #d49bd4;
+}
+
+.pixel-section-chat {
+  background: #e6f0f5;
+  border: 3px solid #4a7c9b;
+}
+.dark .pixel-section-chat {
+  background: #2a3d45;
+  border-color: #7bb8d4;
+}
+
+.pixel-section-market {
+  background: #e6f0f5;
+  border: 3px solid #4a7c9b;
+}
+.dark .pixel-section-market {
+  background: #2a3a45;
+  border-color: #6ba3d4;
+}
+
+.pixel-section-business {
+  background: #e8f5e6;
+  border: 3px solid #5b8c5a;
+}
+.dark .pixel-section-business {
+  background: #2a452a;
+  border-color: #6bc96b;
+}
+
+.pixel-section-score {
+  background: #f5f0e6;
+  border: 3px solid #8b7355;
+}
+.dark .pixel-section-score {
+  background: #3d3525;
+  border-color: #d4b896;
+}
+
+/* 픽셀 점수 바 */
+.pixel-score-bar {
+  height: 8px;
+  background: var(--pixel-highlight);
+  border: 2px solid var(--pixel-border);
+}
+
+.pixel-score-bar-fill {
+  height: 100%;
+  background: linear-gradient(to right, #f0c674, #de935f);
+  image-rendering: pixelated;
+}
+
+/* 픽셀 별 */
+.pixel-star {
+  color: #f0c674;
+  text-shadow: 1px 1px 0 #8b7355;
+}
+
+/* 스크롤바 숨기기 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }

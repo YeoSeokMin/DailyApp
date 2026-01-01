@@ -165,14 +165,12 @@ export default function AnonymousChat() {
   };
 
   return (
-    <div className="p-5 bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-xl border border-blue-100 dark:border-blue-800">
-      <h3 className="font-medium text-blue-800 dark:text-blue-300 flex items-center gap-2 mb-4">
-        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-        </svg>
+    <div className="p-4 pixel-section-chat pixel-box">
+      <h3 className="font-bold flex items-center gap-2 mb-4" style={{ color: 'var(--pixel-chat)' }}>
+        <span>💬</span>
         익명 채팅방
-        <span className="flex items-center gap-1 text-xs text-green-500 font-normal ml-auto">
-          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+        <span className="flex items-center gap-1 text-xs font-normal ml-auto" style={{ color: 'var(--pixel-android)' }}>
+          <span className="w-2 h-2 animate-pulse" style={{ background: 'var(--pixel-android)' }}></span>
           실시간
         </span>
       </h3>
@@ -181,25 +179,32 @@ export default function AnonymousChat() {
       <div
         ref={messagesContainerRef}
         onScroll={handleScroll}
-        className="h-[200px] overflow-y-auto bg-white/50 dark:bg-zinc-800/50 rounded-lg p-3 mb-3 space-y-2 scrollbar-hide"
+        className="pixel-box-inset h-[200px] overflow-y-auto p-3 mb-3 space-y-2 scrollbar-hide"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
       >
         {messages.length === 0 ? (
-          <p className="text-center text-zinc-400 dark:text-zinc-500 text-sm py-8">
+          <p className="text-center text-sm py-8" style={{ color: 'var(--foreground)', opacity: 0.5 }}>
             첫 번째 메시지를 남겨보세요!
           </p>
         ) : (
           messages.map((msg) => {
             const isOwn = msg.nickname === nickname;
             return (
-              <div key={msg.id} className={`flex gap-2 text-sm ${isOwn ? 'bg-blue-50 dark:bg-blue-900/20 -mx-1 px-1 rounded' : ''}`}>
-                <span className={`font-medium shrink-0 ${isOwn ? 'text-green-600 dark:text-green-400' : 'text-blue-600 dark:text-blue-400'}`}>
+              <div
+                key={msg.id}
+                className={`flex gap-2 text-sm ${isOwn ? 'pixel-box-inset -mx-1 px-2 py-1' : ''}`}
+                style={isOwn ? { background: 'var(--pixel-highlight)' } : {}}
+              >
+                <span
+                  className="font-bold shrink-0"
+                  style={{ color: isOwn ? 'var(--pixel-android)' : 'var(--pixel-ios)' }}
+                >
                   {msg.nickname}
                 </span>
-                <span className="text-zinc-700 dark:text-zinc-300 break-all flex-1">
+                <span className="break-all flex-1" style={{ color: 'var(--foreground)' }}>
                   {msg.message}
                 </span>
-                <span className="text-xs text-zinc-400 dark:text-zinc-500 shrink-0">
+                <span className="text-xs shrink-0" style={{ color: 'var(--foreground)', opacity: 0.5 }}>
                   {formatTime(msg.timestamp)}
                 </span>
               </div>
@@ -212,9 +217,10 @@ export default function AnonymousChat() {
       {!isAtBottom && messages.length > 0 && (
         <button
           onClick={scrollToBottom}
-          className="w-full mb-2 py-1 text-xs text-blue-600 dark:text-blue-400 bg-blue-100 dark:bg-blue-900/30 rounded hover:bg-blue-200 dark:hover:bg-blue-900/50 transition-colors"
+          className="w-full mb-2 py-1 text-xs pixel-btn"
+          style={{ background: 'var(--pixel-chat)' }}
         >
-          ↓ 새 메시지 보기
+          ▼ 새 메시지 보기
         </button>
       )}
 
@@ -226,14 +232,14 @@ export default function AnonymousChat() {
           onChange={(e) => setInput(e.target.value)}
           placeholder="메시지 입력..."
           maxLength={200}
-          className="flex-1 min-w-0 px-3 py-2 text-sm rounded-lg border border-blue-200 dark:border-blue-700 bg-white dark:bg-zinc-700 text-zinc-900 dark:text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 min-w-0 text-sm px-3 py-2 pixel-input"
         />
         <button
           type="submit"
           disabled={!input.trim() || sending}
-          className="w-8 h-8 flex items-center justify-center rounded-lg bg-blue-500 text-white disabled:bg-zinc-300 dark:disabled:bg-zinc-600 disabled:cursor-not-allowed transition-colors"
+          className="px-4 py-2 pixel-btn font-bold"
         >
-          <span className="text-lg font-bold">{sending ? '·' : '↑'}</span>
+          {sending ? '...' : '전송'}
         </button>
       </form>
     </div>
