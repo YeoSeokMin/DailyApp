@@ -1,0 +1,662 @@
+{
+  "date": "2026-01-04",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "PixSwipe: Photo Delete Swipe",
+      "developer": "Keyur Kyada",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/ea/27/e3ea273b-d502-40e4-66d7-bda5dbc0e221/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pixswipe-photo-delete-swipe/id6756674897?uo=2",
+      "idea_summary": "틴더식 스와이프로 사진 빠르게 정리",
+      "analysis": {
+        "problem": "수천 장의 사진 중 불필요한 것을 일일이 선택해 삭제하는 번거로움",
+        "solution": "좌우 스와이프로 직관적이고 빠르게 사진 삭제/보관 결정",
+        "target_user": "사진이 많이 쌓인 스마트폰 사용자, 저장공간 부족한 사람",
+        "unique_point": "틴더 UX를 사진 정리에 적용한 게이미피케이션 접근"
+      },
+      "market": {
+        "competitors": [
+          "Gemini Photos",
+          "CleanMyMac",
+          "Google Photos"
+        ],
+        "timing_reason": "고화질 사진/영상으로 저장공간 부족 문제 심화",
+        "growth_potential": "스마트폰 사용자 대부분이 잠재 고객, 반복 사용 유도 가능"
+      },
+      "business": {
+        "monetization": "프리미엄(무제한 스와이프), 광고 제거",
+        "pricing_suggestion": "기본 무료 + 월 2,900원 프리미엄",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3주",
+        "estimated_cost": "300-500",
+        "tech_stack": [
+          "Swift",
+          "PhotoKit",
+          "UIKit/SwiftUI"
+        ],
+        "key_features": [
+          "스와이프 UI",
+          "사진 접근 권한",
+          "일괄 삭제",
+          "중복 감지"
+        ],
+        "clone_tip": "PhotoKit API 마스터가 핵심. 스와이프 애니메이션에 집중"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#저장공간"
+      ],
+      "verdict": "검증된 UX 패턴을 새 영역에 적용한 똑똑한 앱"
+    },
+    {
+      "rank": 2,
+      "name": "잠잘시각(Time2sleep): 앱 잠금, 차단, 수면",
+      "developer": "sangwook park",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/63/69/576369a8-2ce9-6834-2e6f-564ab6c3bc37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%9E%A0%EC%9E%98%EC%8B%9C%EA%B0%81-time2sleep-%EC%95%B1-%EC%9E%A0%EA%B8%88-%EC%B0%A8%EB%8B%A8-%EC%88%98%EB%A9%B4/id6755358579?uo=2",
+      "idea_summary": "수면 시간에 맞춰 앱을 자동 차단",
+      "analysis": {
+        "problem": "밤에 스마트폰 때문에 수면 부족, 의지력만으론 해결 안됨",
+        "solution": "설정한 취침 시간에 자동으로 앱 접근 차단",
+        "target_user": "스마트폰 중독 자각자, 수면 개선 원하는 직장인/학생",
+        "unique_point": "수면 건강과 디지털 웰빙을 연결한 명확한 포지셔닝"
+      },
+      "market": {
+        "competitors": [
+          "Screen Time",
+          "Forest",
+          "One Sec"
+        ],
+        "timing_reason": "디지털 디톡스, 수면 건강 관심 급증",
+        "growth_potential": "웰빙 트렌드와 맞물려 지속 성장 가능"
+      },
+      "business": {
+        "monetization": "프리미엄 기능(상세 통계, 가족 관리)",
+        "pricing_suggestion": "무료 기본 + 월 3,900원 또는 연 29,000원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4주",
+        "estimated_cost": "400-600",
+        "tech_stack": [
+          "Swift",
+          "Screen Time API",
+          "WidgetKit",
+          "Local Notification"
+        ],
+        "key_features": [
+          "시간대별 앱 차단",
+          "수면 통계",
+          "알림 시스템",
+          "위젯"
+        ],
+        "clone_tip": "Screen Time API 활용이 핵심. iOS 제한 우회 불가하므로 정책 준수 필수"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#디지털웰빙",
+        "#수면"
+      ],
+      "verdict": "수면+디톡스 니치 조합으로 차별화된 한국 인디앱"
+    },
+    {
+      "rank": 3,
+      "name": "이미지를 엑셀 파일로 변환",
+      "developer": "ESPRESSO TECH",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/e2/7b/03e27b43-453f-9c73-fc0d-6eead8233daf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%97%91%EC%85%80-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%B3%80%ED%99%98-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%91%EC%85%80-%EB%B3%80%ED%99%98/id6756563000?uo=2",
+      "idea_summary": "표 사진 찍으면 바로 엑셀로 변환",
+      "analysis": {
+        "problem": "종이 문서나 이미지의 표를 수작업으로 엑셀에 입력하는 시간 낭비",
+        "solution": "OCR+AI로 이미지 속 표를 자동 인식해 엑셀 파일로 변환",
+        "target_user": "회계사, 사무직, 학생, 데이터 입력이 필요한 모든 사람",
+        "unique_point": "표 구조 인식에 특화된 단일 목적 앱"
+      },
+      "market": {
+        "competitors": [
+          "Microsoft Lens",
+          "Adobe Scan",
+          "Google Lens"
+        ],
+        "timing_reason": "AI OCR 기술 성숙, 모바일 업무 처리 증가",
+        "growth_potential": "B2B 확장 시 기업 라이선스 가능"
+      },
+      "business": {
+        "monetization": "건당 과금 또는 월정액 구독",
+        "pricing_suggestion": "5회 무료 + 월 4,900원 무제한",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6주",
+        "estimated_cost": "600-1000",
+        "tech_stack": [
+          "Swift",
+          "Vision Framework",
+          "Core ML",
+          "OpenAI API",
+          "xlsx 라이브러리"
+        ],
+        "key_features": [
+          "표 OCR",
+          "셀 구조 인식",
+          "엑셀 내보내기",
+          "편집 기능"
+        ],
+        "clone_tip": "Vision 프레임워크 + GPT-4 Vision 조합으로 정확도 향상 가능"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B가능",
+        "#AI",
+        "#생산성"
+      ],
+      "verdict": "실용적 문제 해결, AI 시대 필수 유틸리티"
+    },
+    {
+      "rank": 4,
+      "name": "拼豆图纸-拼豆助手 (비즈공예 도안)",
+      "developer": "坤 杨",
+      "category": "그래픽 및 디자인",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/82/3a/d7823a1b-da39-dbc5-4c3b-699ef3212673/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%E6%8B%BC%E8%B1%86%E5%9B%BE%E7%BA%B8-%E6%8B%BC%E8%B1%86%E5%8A%A9%E6%89%8B/id6757139642?uo=2",
+      "idea_summary": "사진을 비즈공예 도안으로 자동 변환",
+      "analysis": {
+        "problem": "비즈공예 도안을 직접 그리기 어렵고 원하는 디자인 찾기 힘듦",
+        "solution": "사진/이미지를 업로드하면 픽셀아트 형태의 비즈 도안으로 변환",
+        "target_user": "비즈공예 취미인, DIY 크래프터, 어린이 학부모",
+        "unique_point": "니치 취미 시장에 특화된 이미지 변환 도구"
+      },
+      "market": {
+        "competitors": [
+          "Bead Studio",
+          "Perler Bead"
+        ],
+        "timing_reason": "핸드메이드, DIY 취미 시장 성장세",
+        "growth_potential": "글로벌 크래프트 시장 진출 가능"
+      },
+      "business": {
+        "monetization": "프리미엄 도안, 광고, 재료 쇼핑몰 제휴",
+        "pricing_suggestion": "기본 무료 + 고급 기능 월 2,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3주",
+        "estimated_cost": "300-500",
+        "tech_stack": [
+          "Swift/Flutter",
+          "이미지 처리",
+          "색상 팔레트 매칭"
+        ],
+        "key_features": [
+          "이미지→픽셀 변환",
+          "색상 팔레트 선택",
+          "도안 저장/공유",
+          "재료 계산"
+        ],
+        "clone_tip": "이미지 픽셀화 알고리즘이 핵심. 비즈 색상 DB 구축 필요"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓",
+        "#취미"
+      ],
+      "verdict": "블루오션 니치 시장, 열성 팬층 확보 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Leave+ (휴가 관리)",
+      "developer": "PRABAKARAN RAVICHANDRAN",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/db/09/2cdb091d-0ce7-c621-5b36-6d75f5dec494/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/leave/id6757073561?uo=2",
+      "idea_summary": "개인 휴가/연차 잔여일수 스마트 관리",
+      "analysis": {
+        "problem": "연차/휴가 잔여일, 사용 내역 파악이 어려움",
+        "solution": "심플한 UI로 휴가 일수 입력, 사용, 잔여 관리",
+        "target_user": "직장인, 프리랜서, HR 담당자",
+        "unique_point": "복잡한 HR 시스템 없이 개인이 직접 관리하는 가벼운 앱"
+      },
+      "market": {
+        "competitors": [
+          "Timetastic",
+          "회사 자체 HR 시스템"
+        ],
+        "timing_reason": "워라밸 중시, 휴가 사용 권장 문화 확산",
+        "growth_potential": "소규모 기업 B2B 확장 가능"
+      },
+      "business": {
+        "monetization": "프리미엄 기능(다중 휴가 유형, 팀 공유)",
+        "pricing_suggestion": "기본 무료 + 프로 버전 월 1,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2주",
+        "estimated_cost": "150-300",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "Core Data",
+          "CloudKit",
+          "WidgetKit"
+        ],
+        "key_features": [
+          "휴가 유형별 관리",
+          "잔여일 계산",
+          "캘린더 연동",
+          "위젯"
+        ],
+        "clone_tip": "심플함이 핵심. 오버엔지니어링 금지, MVP로 빠르게 출시"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#B2B가능",
+        "#생산성"
+      ],
+      "verdict": "간단하지만 누구나 필요한 실용 앱, 빠른 개발 가능"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "MindSet (습관 트래커)",
+      "developer": "Timur",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/placeholder",
+      "app_url": "https://play.google.com/store/apps/details?id=com.timur.habbittracker",
+      "idea_summary": "마인드셋 중심의 습관 형성 앱",
+      "analysis": {
+        "problem": "습관 앱이 많지만 단순 체크리스트에 그쳐 동기부여 부족",
+        "solution": "마인드셋/사고방식 변화에 초점을 맞춘 습관 트래킹",
+        "target_user": "자기계발에 관심 있는 20-40대",
+        "unique_point": "습관 행동보다 마인드셋 변화에 집중하는 차별화된 접근"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Streaks",
+          "Loop Habit Tracker"
+        ],
+        "timing_reason": "멘탈 헬스, 마인드풀니스 트렌드 지속",
+        "growth_potential": "코칭/컨텐츠 확장으로 LTV 증가 가능"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 코칭 컨텐츠",
+        "pricing_suggestion": "기본 무료 + 월 4,900원 프리미엄",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4주",
+        "estimated_cost": "400-600",
+        "tech_stack": [
+          "Kotlin",
+          "Room DB",
+          "WorkManager",
+          "Material Design 3"
+        ],
+        "key_features": [
+          "습관 트래킹",
+          "마인드셋 저널",
+          "리마인더",
+          "통계 대시보드"
+        ],
+        "clone_tip": "심리학 기반 UX 설계가 차별점. 행동경제학 원리 적용 권장"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#자기계발",
+        "#멘탈헬스"
+      ],
+      "verdict": "레드오션 습관앱에서 마인드셋으로 차별화 시도"
+    },
+    {
+      "rank": 2,
+      "name": "Avee Music Player (Pro)",
+      "developer": "Daaw Aww",
+      "category": "음악/오디오",
+      "icon": "https://play-lh.googleusercontent.com/_RhT-gzpBNQ2CGzy5NyCta_9pVGvAMmH9gyPeqRdPpmqr9JyjMMPmDD25Q6dYG5v6A",
+      "app_url": "https://play.google.com/store/apps/details?id=com.daaw.avee&hl=ko&gl=kr",
+      "idea_summary": "오디오 비주얼라이저가 핵심인 음악 플레이어",
+      "analysis": {
+        "problem": "음악 재생 시 시각적 재미가 없음, SNS용 음악 영상 제작 어려움",
+        "solution": "화려한 오디오 비주얼라이저 + 영상 내보내기 기능",
+        "target_user": "유튜브 음악 채널 운영자, 음악 애호가, 콘텐츠 크리에이터",
+        "unique_point": "비주얼라이저 영상 내보내기로 콘텐츠 제작 도구 역할"
+      },
+      "market": {
+        "competitors": [
+          "Poweramp",
+          "AIMP",
+          "Musicolet"
+        ],
+        "timing_reason": "숏폼 콘텐츠 시대, 음악 영상 수요 증가",
+        "growth_potential": "크리에이터 이코노미와 시너지"
+      },
+      "business": {
+        "monetization": "프로 버전 일회성 구매, 비주얼라이저 팩 판매",
+        "pricing_suggestion": "무료 + 프로 버전 9,900원 일회성",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8주",
+        "estimated_cost": "800-1200",
+        "tech_stack": [
+          "Kotlin",
+          "OpenGL ES",
+          "MediaCodec",
+          "FFmpeg"
+        ],
+        "key_features": [
+          "오디오 비주얼라이저",
+          "영상 내보내기",
+          "이퀄라이저",
+          "테마"
+        ],
+        "clone_tip": "OpenGL 비주얼라이저 개발이 핵심 난이도. 오픈소스 참고 권장"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.3
+      },
+      "tags": [
+        "#중급개발자",
+        "#B2C",
+        "#크리에이터",
+        "#음악"
+      ],
+      "verdict": "기술적 진입장벽이 있지만 크리에이터 시장 공략 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Crack IT Jobs",
+      "developer": "CrackITJobs",
+      "category": "교육/취업",
+      "icon": "https://play-lh.googleusercontent.com/placeholder",
+      "app_url": "https://play.google.com/store/apps/details?id=com.crackitjobs.app",
+      "idea_summary": "IT 취업 면접 준비 올인원 플랫폼",
+      "analysis": {
+        "problem": "IT 면접 준비 자료가 분산되어 있고 체계적 학습 어려움",
+        "solution": "코딩 테스트, 기술 면접, 행동 면접 등 통합 준비 플랫폼",
+        "target_user": "IT 취업준비생, 이직 준비 개발자",
+        "unique_point": "IT 취업에 특화된 버티컬 면접 준비 앱"
+      },
+      "market": {
+        "competitors": [
+          "LeetCode",
+          "프로그래머스",
+          "Interview Cake"
+        ],
+        "timing_reason": "IT 인력 수요 지속, 면접 경쟁 심화",
+        "growth_potential": "B2B 기업 교육, 부트캠프 제휴 가능"
+      },
+      "business": {
+        "monetization": "구독형 프리미엄, 기업 제휴",
+        "pricing_suggestion": "무료 기본 + 월 9,900원 프리미엄",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8주",
+        "estimated_cost": "800-1500",
+        "tech_stack": [
+          "Kotlin/Flutter",
+          "Firebase",
+          "코드 에디터",
+          "REST API"
+        ],
+        "key_features": [
+          "문제 은행",
+          "모의 면접",
+          "진도 관리",
+          "커뮤니티"
+        ],
+        "clone_tip": "컨텐츠 퀄리티가 핵심. 현직자 인터뷰 등 차별화된 컨텐츠 확보"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크",
+        "#취업"
+      ],
+      "verdict": "IT 취업 니치 시장, 컨텐츠가 경쟁력의 핵심"
+    },
+    {
+      "rank": 4,
+      "name": "Yoyar - Sport News",
+      "developer": "Streamer Zaw Gyi",
+      "category": "스포츠",
+      "icon": "https://play-lh.googleusercontent.com/MZe1SKQMPmjwLGcXJE_y_rm7KfivJVAPWkW3huqbI7IXiQAVqif9DnvwwXW_3XZyUlEutUEN6U1SISH1NQOXHQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.yoyar.app&hl=ko&gl=kr",
+      "idea_summary": "미얀마 현지화 스포츠 뉴스 큐레이션",
+      "analysis": {
+        "problem": "글로벌 스포츠 뉴스가 현지 언어/관심사에 맞지 않음",
+        "solution": "특정 지역/언어에 맞춘 스포츠 뉴스 큐레이션",
+        "target_user": "미얀마 스포츠 팬, 동남아 축구 팬",
+        "unique_point": "언더서브드 마켓 공략, 지역 특화 전략"
+      },
+      "market": {
+        "competitors": [
+          "ESPN",
+          "OneFootball",
+          "현지 뉴스앱"
+        ],
+        "timing_reason": "동남아 모바일 인터넷 보급 확대",
+        "growth_potential": "다른 신흥국으로 지역 확장 가능"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄 콘텐츠",
+        "pricing_suggestion": "광고 기반 무료 + 광고제거 월 1,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4주",
+        "estimated_cost": "400-600",
+        "tech_stack": [
+          "Kotlin/Flutter",
+          "RSS/API 통합",
+          "Firebase",
+          "AdMob"
+        ],
+        "key_features": [
+          "뉴스 피드",
+          "팀/리그 팔로우",
+          "푸시 알림",
+          "북마크"
+        ],
+        "clone_tip": "뉴스 소스 확보와 현지화가 핵심. 해당 지역 파트너십 필요"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#지역특화",
+        "#스포츠"
+      ],
+      "verdict": "글로벌 틈새시장 공략 전략의 좋은 예시"
+    },
+    {
+      "rank": 5,
+      "name": "Nine Work for Intune",
+      "developer": "9Folders",
+      "category": "비즈니스",
+      "icon": "https://play-lh.googleusercontent.com/placeholder",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ninefolders.hd3.work.intune",
+      "idea_summary": "MS Intune 연동 기업용 이메일 클라이언트",
+      "analysis": {
+        "problem": "기업 MDM 환경에서 사용 가능한 이메일 앱 선택지 제한",
+        "solution": "Microsoft Intune MAM과 완벽 호환되는 이메일 앱",
+        "target_user": "Intune 도입 기업의 임직원",
+        "unique_point": "엔터프라이즈 보안 정책 완벽 지원"
+      },
+      "market": {
+        "competitors": [
+          "Outlook",
+          "Gmail",
+          "기본 메일앱"
+        ],
+        "timing_reason": "원격근무 확대로 MDM/MAM 도입 기업 증가",
+        "growth_potential": "기업 라이선스 판매로 안정적 수익"
+      },
+      "business": {
+        "monetization": "B2B 라이선스, 기업 볼륨 구매",
+        "pricing_suggestion": "사용자당 연 $24-48",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12주+",
+        "estimated_cost": "3000-5000",
+        "tech_stack": [
+          "Kotlin",
+          "Intune SDK",
+          "Exchange ActiveSync",
+          "보안 인증"
+        ],
+        "key_features": [
+          "Intune 정책 지원",
+          "이메일/캘린더/연락처",
+          "보안 컨테이너",
+          "원격 삭제"
+        ],
+        "clone_tip": "엔터프라이즈 앱은 진입장벽 높지만 일단 진입 시 경쟁 적음"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 1,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#팀개발권장",
+        "#B2B",
+        "#엔터프라이즈",
+        "#보안"
+      ],
+      "verdict": "B2B 고수익 모델, 기술 난이도 높지만 경쟁 적음"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "사진 정리, 수면/디지털 웰빙, OCR 생산성 도구가 iOS에서 강세. 안드로이드는 습관/자기계발과 지역 특화 앱이 눈에 띔.",
+    "trend_details": [
+      "스와이프 UI를 활용한 빠른 의사결정 UX가 다양한 영역으로 확장 중",
+      "디지털 웰빙과 수면 건강을 연결하는 앱들이 지속적으로 등장",
+      "AI/OCR 기술을 활용한 단일 목적 생산성 앱의 강세",
+      "니치 취미(비즈공예 등) 시장을 노린 특화 앱 등장",
+      "언더서브드 마켓(신흥국, 특정 언어권) 공략 앱 증가"
+    ],
+    "hot_categories": [
+      "생산성",
+      "디지털 웰빙",
+      "AI/OCR",
+      "니치 취미"
+    ],
+    "opportunity": "검증된 UX 패턴(스와이프, 게이미피케이션)을 새로운 문제 영역에 적용하거나, AI/OCR을 활용한 단일 목적 유틸리티 개발",
+    "action_item": "내 주변에서 반복적으로 하는 지루한 작업을 찾고, 스와이프나 AI로 단순화할 수 있는지 검토해보기"
+  }
+}
