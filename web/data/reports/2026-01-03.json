@@ -1,0 +1,663 @@
+{
+  "date": "2026-01-03",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "잠잘시각(Time2sleep)",
+      "developer": "sangwook park",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/63/69/576369a8-2ce9-6834-2e6f-564ab6c3bc37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%9E%A0%EC%9E%98%EC%8B%9C%EA%B0%81-time2sleep-%EC%95%B1-%EC%9E%A0%EA%B8%88-%EC%B0%A8%EB%8B%A8-%EC%88%98%EB%A9%B4/id6755358579?uo=2",
+      "idea_summary": "수면 시간에 앱을 자동 차단하는 디지털 웰빙 앱",
+      "analysis": {
+        "problem": "밤늦게 스마트폰 사용으로 수면 부족과 불규칙한 수면 패턴 발생",
+        "solution": "설정된 수면 시간에 특정 앱을 자동으로 잠금/차단하여 강제 수면 유도",
+        "target_user": "스마트폰 중독 우려가 있는 10-30대, 수면 개선을 원하는 직장인",
+        "unique_point": "수면에 특화된 앱 차단으로 기존 스크린타임보다 목적이 명확"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "스크린타임",
+          "디지털웰빙"
+        ],
+        "timing_reason": "디지털 디톡스 트렌드 지속, Z세대 수면 문제 사회 이슈화",
+        "growth_potential": "디지털 웰빙 시장 연 15% 성장, 글로벌 확장 가능"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(고급 차단 기능), 일회성 구매",
+        "pricing_suggestion": "월 3,900원 또는 평생이용권 29,000원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6주",
+        "estimated_cost": "300-500",
+        "tech_stack": [
+          "Swift",
+          "Screen Time API",
+          "Background Tasks",
+          "Local Notifications"
+        ],
+        "key_features": [
+          "수면 시간 설정",
+          "앱별 차단 설정",
+          "통계 대시보드",
+          "알림 기능"
+        ],
+        "clone_tip": "iOS Screen Time API 활용이 핵심, MDM 프로파일 없이 제한적 구현 가능"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#디지털웰빙",
+        "#구독모델"
+      ],
+      "verdict": "수면 특화 앱 차단은 명확한 니즈, iOS API 제약 극복이 관건"
+    },
+    {
+      "rank": 2,
+      "name": "拼豆图纸 (펄러비즈 도안)",
+      "developer": "坤 杨",
+      "category": "그래픽 및 디자인",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/82/3a/d7823a1b-da39-dbc5-4c3b-699ef3212673/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%E6%8B%BC%E8%B1%86%E5%9B%BE%E7%BA%B8-%E6%8B%BC%E8%B1%86%E5%8A%A9%E6%89%8B/id6757139642?uo=2",
+      "idea_summary": "사진을 펄러비즈 도안으로 자동 변환하는 취미 앱",
+      "analysis": {
+        "problem": "펄러비즈 도안을 직접 그리기 어렵고 원하는 이미지를 찾기 힘듦",
+        "solution": "이미지를 업로드하면 픽셀화하여 펄러비즈 도안과 필요한 비즈 색상/개수 제공",
+        "target_user": "펄러비즈 취미가, DIY 공예 애호가, 키덜트",
+        "unique_point": "단순 픽셀화가 아닌 실제 비즈 색상 매칭과 수량 계산 제공"
+      },
+      "market": {
+        "competitors": [
+          "Bead Studio",
+          "Perler Design"
+        ],
+        "timing_reason": "핸드메이드/DIY 취미 붐, 키덜트 문화 확산",
+        "growth_potential": "글로벌 DIY 크래프트 시장 성장세, 니치하지만 충성도 높은 시장"
+      },
+      "business": {
+        "monetization": "프리미엄 기능(고해상도, 다양한 비즈 브랜드), 인앱 광고",
+        "pricing_suggestion": "기본 무료 + 프로버전 9,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4주",
+        "estimated_cost": "200-300",
+        "tech_stack": [
+          "Swift/Flutter",
+          "Core Image",
+          "Color Quantization Algorithm"
+        ],
+        "key_features": [
+          "이미지 픽셀화",
+          "비즈 색상 매칭",
+          "수량 계산",
+          "도안 저장/공유"
+        ],
+        "clone_tip": "색상 양자화 알고리즘이 핵심, 실제 비즈 색상 팔레트 DB 구축 필요"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#취미",
+        "#니치마켓"
+      ],
+      "verdict": "취미 시장 타겟 명확, 기술 난이도 낮고 충성 고객 확보 가능"
+    },
+    {
+      "rank": 3,
+      "name": "이미지를 엑셀 파일로 변환",
+      "developer": "ESPRESSO TECH",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/e2/7b/03e27b43-453f-9c73-fc0d-6eead8233daf/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%97%91%EC%85%80-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%B3%80%ED%99%98-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%91%EC%85%80-%EB%B3%80%ED%99%98/id6756563000?uo=2",
+      "idea_summary": "표 이미지를 OCR로 인식해 엑셀 파일로 변환",
+      "analysis": {
+        "problem": "종이 문서나 스캔된 표를 엑셀로 옮기는 수작업이 번거로움",
+        "solution": "사진 촬영만으로 표 구조를 인식하여 편집 가능한 엑셀 파일로 자동 변환",
+        "target_user": "사무직 직장인, 학생, 회계/경리 담당자",
+        "unique_point": "범용 OCR이 아닌 표 구조 인식에 특화"
+      },
+      "market": {
+        "competitors": [
+          "Microsoft Lens",
+          "Adobe Scan",
+          "CamScanner"
+        ],
+        "timing_reason": "AI OCR 기술 발전으로 정확도 향상, 페이퍼리스 트렌드",
+        "growth_potential": "업무 자동화 수요 증가, B2B 확장 가능"
+      },
+      "business": {
+        "monetization": "월 구독제, 변환 횟수 제한 후 결제",
+        "pricing_suggestion": "월 4,900원 또는 건당 500원",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8주",
+        "estimated_cost": "500-800",
+        "tech_stack": [
+          "Vision Framework",
+          "Core ML",
+          "OpenAI API",
+          "XLSX 라이브러리"
+        ],
+        "key_features": [
+          "표 영역 자동 감지",
+          "셀 구조 인식",
+          "엑셀 내보내기",
+          "편집 기능"
+        ],
+        "clone_tip": "Apple Vision + GPT-4V 조합으로 빠른 구현 가능, 정확도가 핵심 경쟁력"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#B2B가능",
+        "#AI활용",
+        "#생산성"
+      ],
+      "verdict": "실용성 최고, AI API 활용하면 빠른 개발 가능하나 경쟁 치열"
+    },
+    {
+      "rank": 4,
+      "name": "Taipei Meter (北錶)",
+      "developer": "Mr. Chi Technology Co., Ltd.",
+      "category": "내비게이션",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/46/0f/ba460fa3-f933-0e29-0167-9bde4136d734/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/taipei-meter-%E5%8C%97%E9%8C%B6/id6757011937?uo=2",
+      "idea_summary": "택시 승객용 실시간 예상 요금 미터기 앱",
+      "analysis": {
+        "problem": "택시 이용 시 요금이 얼마나 나올지 모르는 불안감과 바가지 우려",
+        "solution": "GPS 기반으로 실시간 택시 요금을 승객 폰에서 직접 계산하여 표시",
+        "target_user": "택시 이용 승객, 해외 여행객, 바가지 우려 승객",
+        "unique_point": "택시 미터기를 승객이 직접 확인, 기사 미터기와 비교 가능"
+      },
+      "market": {
+        "competitors": [
+          "카카오T",
+          "우버"
+        ],
+        "timing_reason": "여행 수요 회복, 해외에서 택시 바가지 이슈 지속",
+        "growth_potential": "각 도시별 로컬라이징으로 글로벌 확장 가능"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄(다국가 지원)",
+        "pricing_suggestion": "무료 + 프리미엄 월 2,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4주",
+        "estimated_cost": "200-300",
+        "tech_stack": [
+          "Swift",
+          "Core Location",
+          "MapKit",
+          "Local DB"
+        ],
+        "key_features": [
+          "실시간 요금 계산",
+          "할증 시간대 반영",
+          "경로 기록",
+          "요금표 DB"
+        ],
+        "clone_tip": "각 도시별 택시 요금 체계 DB가 핵심, 공공데이터 활용 가능"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행",
+        "#로컬서비스"
+      ],
+      "verdict": "여행자 니즈 명확, 도시별 확장으로 글로벌 시장 공략 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Leave+",
+      "developer": "PRABAKARAN RAVICHANDRAN",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2c/db/09/2cdb091d-0ce7-c621-5b36-6d75f5dec494/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/leave/id6757073561?uo=2",
+      "idea_summary": "개인용 휴가/연차 관리 트래커 앱",
+      "analysis": {
+        "problem": "남은 연차, 사용한 휴가를 개인이 직접 관리하기 어려움",
+        "solution": "연차/병가/휴가를 카테고리별로 기록하고 남은 일수를 시각화",
+        "target_user": "직장인, 프리랜서, HR 담당자",
+        "unique_point": "회사 시스템과 별개로 개인이 직접 관리하는 심플한 접근"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "엑셀 수기관리"
+        ],
+        "timing_reason": "워라밸 중시 문화, 연차 사용 촉진 정책 확대",
+        "growth_potential": "글로벌 공통 니즈, 팀/조직용 B2B 확장 가능"
+      },
+      "business": {
+        "monetization": "프리미엄 기능(다중 계정, 통계), 일회성 구매",
+        "pricing_suggestion": "기본 무료 + 프로 6,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3주",
+        "estimated_cost": "100-200",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "WidgetKit",
+          "Charts"
+        ],
+        "key_features": [
+          "휴가 유형별 관리",
+          "남은 일수 계산",
+          "캘린더 연동",
+          "위젯"
+        ],
+        "clone_tip": "UI/UX가 핵심 차별점, 위젯과 알림으로 편의성 극대화"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#B2B가능",
+        "#생산성",
+        "#심플"
+      ],
+      "verdict": "개발 쉽고 보편적 니즈, UI 차별화와 위젯 활용이 관건"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "ROUTE4ME 경로 최적화",
+      "developer": "Route4Me, Inc",
+      "category": "지도/내비게이션",
+      "icon": "https://play-lh.googleusercontent.com/V3npXxa15XNvI-vwBOcwT7mTJbq7L9_SmVq16Bd5Ez7pqDhhSuLdPRrWOcBtEzYjWNQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.route4me.routeoptimizer&hl=ko&gl=kr",
+      "idea_summary": "다중 경유지 배송 경로를 AI로 최적화하는 앱",
+      "analysis": {
+        "problem": "배달/영업/서비스 기사가 여러 곳을 방문할 때 최적 경로를 모름",
+        "solution": "다수의 주소를 입력하면 AI가 시간/거리 최적화된 경로를 계산",
+        "target_user": "배달 기사, 영업사원, 현장 서비스 기사, 소규모 물류업체",
+        "unique_point": "단순 네비게이션이 아닌 다중 경유지 순서 최적화에 특화"
+      },
+      "market": {
+        "competitors": [
+          "네이버지도",
+          "카카오맵",
+          "구글맵"
+        ],
+        "timing_reason": "라스트마일 배송 급증, 1인 배송업 증가",
+        "growth_potential": "물류/배송 시장 지속 성장, B2B SaaS 확장 가능"
+      },
+      "business": {
+        "monetization": "구독제(경로 수/기능별), B2B 라이선스",
+        "pricing_suggestion": "월 9,900원~29,900원 (경로 수 기준)",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12주",
+        "estimated_cost": "800-1500",
+        "tech_stack": [
+          "Kotlin",
+          "Google Maps API",
+          "OR-Tools",
+          "Firebase"
+        ],
+        "key_features": [
+          "다중 경유지 입력",
+          "경로 최적화",
+          "실시간 네비게이션",
+          "경로 공유"
+        ],
+        "clone_tip": "Google OR-Tools나 오픈소스 TSP 알고리즘 활용, 지도 API 비용 관리 중요"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#B2B가능",
+        "#B2C",
+        "#물류",
+        "#SaaS",
+        "#구독모델"
+      ],
+      "verdict": "배송 경로 최적화는 확실한 수요, 알고리즘 구현이 진입장벽"
+    },
+    {
+      "rank": 2,
+      "name": "GFX Tool Pro - Game Launcher",
+      "developer": "rukamkesh",
+      "category": "도구",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.rukamkesh.gfxgamelauncher",
+      "idea_summary": "모바일 게임 그래픽 설정을 강제 조정하는 유틸리티",
+      "analysis": {
+        "problem": "저사양 폰에서 게임이 버벅이거나 설정 옵션이 제한됨",
+        "solution": "게임 설정 파일을 수정하여 그래픽 품질/프레임을 강제 조정",
+        "target_user": "저사양 안드로이드 폰 게이머, PUBG/프리파이어 유저",
+        "unique_point": "게임 내 숨겨진 설정까지 접근하여 최적화 가능"
+      },
+      "market": {
+        "competitors": [
+          "GLTools",
+          "Game Booster"
+        ],
+        "timing_reason": "모바일 게임 시장 성장, 저가폰 사용자 많은 신흥국 수요",
+        "growth_potential": "인도/동남아/남미 등 저가폰 시장 타겟 가능"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄 버전",
+        "pricing_suggestion": "무료+광고, 프로버전 4,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6주",
+        "estimated_cost": "300-500",
+        "tech_stack": [
+          "Kotlin",
+          "Root Access",
+          "SharedPreferences 수정",
+          "ADB 기능"
+        ],
+        "key_features": [
+          "게임별 프로필",
+          "해상도 변경",
+          "FPS 제한 해제",
+          "메모리 최적화"
+        ],
+        "clone_tip": "게임별 설정 파일 경로와 파라미터 DB 구축이 핵심"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임",
+        "#유틸리티",
+        "#신흥국"
+      ],
+      "verdict": "신흥국 게이머 타겟으로 광고 수익화, 게임 업데이트 대응이 관건"
+    },
+    {
+      "rank": 3,
+      "name": "Ball Blast Mania",
+      "developer": "Batuhan Bakay",
+      "category": "캐주얼",
+      "icon": "https://play-lh.googleusercontent.com/5UQlQIxuFOLeZnVZoh7RblVCrjfa4cvB7qKGJlfKWSJM7VvkRrnXnXkuIRBJC7Lnn12kFuH8qjouXQo36U500w",
+      "app_url": "https://play.google.com/store/apps/details?id=com.mobiroller.ball&hl=ko&gl=kr",
+      "idea_summary": "대포로 공을 쏴서 터뜨리는 하이퍼캐주얼 게임",
+      "analysis": {
+        "problem": "짧은 시간에 즐길 수 있는 중독성 있는 간단한 게임 부재",
+        "solution": "원터치 조작으로 떨어지는 공을 쏴서 터뜨리는 심플한 게임성",
+        "target_user": "캐주얼 게이머, 시간때우기용 게임 유저",
+        "unique_point": "심플하면서 중독성 있는 물리 기반 게임플레이"
+      },
+      "market": {
+        "competitors": [
+          "Ball Blast",
+          "Cannon Shot"
+        ],
+        "timing_reason": "하이퍼캐주얼 게임 시장 여전히 활발",
+        "growth_potential": "광고 수익 모델로 빠른 수익화 가능"
+      },
+      "business": {
+        "monetization": "인터스티셜/리워드 광고, 광고 제거 구매",
+        "pricing_suggestion": "무료+광고, 광고제거 3,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3주",
+        "estimated_cost": "100-200",
+        "tech_stack": [
+          "Unity",
+          "C#",
+          "AdMob",
+          "Physics2D"
+        ],
+        "key_features": [
+          "물리 기반 볼 분열",
+          "무기 업그레이드",
+          "스테이지 시스템",
+          "리더보드"
+        ],
+        "clone_tip": "Unity 물리엔진 활용, 밸런싱과 중독성 있는 피드백이 핵심"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#하이퍼캐주얼",
+        "#광고수익"
+      ],
+      "verdict": "개발 쉽고 빠른 출시 가능, 마케팅이 성패 좌우"
+    },
+    {
+      "rank": 4,
+      "name": "BANA THE BARBER",
+      "developer": "barberly",
+      "category": "비즈니스",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=mobi.barberly.banathebarber",
+      "idea_summary": "개인 바버샵/미용실 예약 관리 화이트라벨 앱",
+      "analysis": {
+        "problem": "소규모 미용실이 자체 예약 앱을 만들기 어려움",
+        "solution": "미용실 이름으로 커스텀된 예약 앱을 즉시 생성해주는 화이트라벨 솔루션",
+        "target_user": "개인 바버샵/미용실 사장님, 1인 미용사",
+        "unique_point": "일반 예약 플랫폼이 아닌 내 샵 전용 브랜딩 앱 제공"
+      },
+      "market": {
+        "competitors": [
+          "네이버예약",
+          "카카오예약",
+          "Booksy"
+        ],
+        "timing_reason": "소상공인 디지털 전환 가속, 개인 브랜딩 중요성 증가",
+        "growth_potential": "미용실 외 다른 예약 업종으로 확장 가능"
+      },
+      "business": {
+        "monetization": "월 구독료, 앱 생성 수수료",
+        "pricing_suggestion": "월 19,900원 (앱 호스팅+관리)",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10주",
+        "estimated_cost": "600-1000",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "White-label 아키텍처",
+          "Push Notification"
+        ],
+        "key_features": [
+          "예약 관리",
+          "고객 DB",
+          "푸시 알림",
+          "브랜딩 커스텀"
+        ],
+        "clone_tip": "화이트라벨 앱 빌드 자동화가 핵심, 업종별 템플릿 확장 전략"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2B",
+        "#SaaS",
+        "#화이트라벨",
+        "#구독모델",
+        "#확장성"
+      ],
+      "verdict": "화이트라벨 예약 앱은 반복 수익 가능, 자동화 시스템 구축이 핵심"
+    },
+    {
+      "rank": 5,
+      "name": "Video Downloader",
+      "developer": "",
+      "category": "도구",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.sd.videodownloader.videoplayer.videosave.allvideodownloader",
+      "idea_summary": "SNS 영상을 오프라인 저장하는 만능 다운로더",
+      "analysis": {
+        "problem": "인스타/틱톡/유튜브 영상을 오프라인에서 보고 싶을 때 저장 불가",
+        "solution": "URL 붙여넣기로 다양한 플랫폼 영상을 다운로드",
+        "target_user": "SNS 헤비유저, 영상 수집가, 오프라인 시청자",
+        "unique_point": "다양한 플랫폼 통합 지원"
+      },
+      "market": {
+        "competitors": [
+          "SnapTube",
+          "VidMate",
+          "InsTake"
+        ],
+        "timing_reason": "숏폼 콘텐츠 폭발적 증가, 오프라인 저장 수요 지속",
+        "growth_potential": "지속적 수요 있으나 플랫폼 정책 리스크 존재"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄(고화질/광고제거)",
+        "pricing_suggestion": "무료+광고, 프로 4,900원",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6주",
+        "estimated_cost": "300-500",
+        "tech_stack": [
+          "Kotlin",
+          "WebView",
+          "FFmpeg",
+          "yt-dlp"
+        ],
+        "key_features": [
+          "URL 파싱",
+          "화질 선택",
+          "배치 다운로드",
+          "파일 관리"
+        ],
+        "clone_tip": "yt-dlp 라이브러리 활용, 플랫폼 API 변경에 빠른 대응 필요"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#광고수익"
+      ],
+      "verdict": "수요는 확실하나 경쟁 과열, 플랫폼 정책 리스크 주의"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "디지털 웰빙과 생산성 도구가 강세를 보이며, 특히 수면/집중력 관련 앱이 눈에 띈다. 취미/DIY 시장과 소상공인 디지털화 도구에서 틈새 기회가 포착된다.",
+    "trend_details": [
+      "수면/집중력 관리 앱 수요 지속",
+      "이미지-데이터 변환 AI 도구 증가",
+      "화이트라벨 B2B SaaS 모델 확산",
+      "니치 취미 시장(펄러비즈 등) 앱 등장"
+    ],
+    "hot_categories": [
+      "생산성",
+      "디지털웰빙",
+      "B2B SaaS",
+      "AI 유틸리티"
+    ],
+    "opportunity": "OCR/AI 기반 문서 변환 도구와 소상공인용 화이트라벨 앱 시장에서 1인 개발자 진입 기회 존재",
+    "action_item": "이미지→엑셀 변환 앱 클론을 GPT-4V API 활용하여 3주 내 MVP 출시 검토"
+  }
+}
