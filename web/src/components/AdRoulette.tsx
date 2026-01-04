@@ -69,7 +69,7 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-[9999] p-4" style={{ background: 'rgba(0,0,0,0.95)' }}>
+    <div className="fixed inset-0 flex items-center justify-center z-[9999] p-4" style={{ background: '#000', isolation: 'isolate' }}>
       <div className="pixel-box max-w-sm w-full p-6">
         {/* 헤더 */}
         <div className="text-center mb-6">
