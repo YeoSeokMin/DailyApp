@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 
 interface AdRouletteProps {
   slotId: string;
@@ -15,7 +16,13 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
   const [message, setMessage] = useState('');
   const [rotation, setRotation] = useState(0);
   const [existingWinSlot, setExistingWinSlot] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
   const spinRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setMounted(true);
+    return () => setMounted(false);
+  }, []);
 
   const handleSpin = async () => {
     if (isSpinning) return;
@@ -68,8 +75,16 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
     onClose();
   };
 
-  return (
-    <div className="fixed inset-0 flex items-center justify-center z-[9999] p-4" style={{ background: '#000', isolation: 'isolate' }}>
+  if (!mounted) return null;
+
+  const modalContent = (
+    <div
+      className="fixed inset-0 flex items-center justify-center p-4"
+      style={{
+        background: 'rgba(0, 0, 0, 0.85)',
+        zIndex: 99999,
+      }}
+    >
       <div className="pixel-box max-w-sm w-full p-6">
         {/* 헤더 */}
         <div className="text-center mb-6">
@@ -85,7 +100,7 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
         <div className="flex justify-center mb-6">
           <div className="relative">
             {/* 화살표 포인터 (고정) */}
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-20">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2" style={{ zIndex: 20 }}>
               <div
                 className="w-0 h-0 border-l-[14px] border-r-[14px] border-t-[24px] border-l-transparent border-r-transparent"
                 style={{
@@ -98,9 +113,10 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
             {/* 룰렛 휠 (회전) */}
             <div
               ref={spinRef}
-              className="w-52 h-52 rounded-full relative transition-transform duration-[3000ms] ease-out overflow-hidden"
+              className="w-52 h-52 rounded-full relative overflow-hidden"
               style={{
                 transform: `rotate(${rotation}deg)`,
+                transition: 'transform 3000ms ease-out',
                 border: '5px solid var(--pixel-border)',
                 boxShadow: '4px 4px 0 var(--pixel-shadow)'
               }}
@@ -233,4 +249,6 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
       </div>
     </div>
   );
+
+  return createPortal(modalContent, document.body);
 }
