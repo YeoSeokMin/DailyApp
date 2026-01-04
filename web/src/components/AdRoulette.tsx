@@ -69,7 +69,7 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-50 p-4" style={{ background: 'rgba(0,0,0,0.8)' }}>
+    <div className="fixed inset-0 flex items-center justify-center z-[9999] p-4" style={{ background: 'rgba(0,0,0,0.95)' }}>
       <div className="pixel-box max-w-sm w-full p-6">
         {/* 헤더 */}
         <div className="text-center mb-6">
@@ -84,39 +84,79 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
         {/* 룰렛 */}
         <div className="flex justify-center mb-6">
           <div className="relative">
-            <div className="absolute -top-2 left-1/2 -translate-x-1/2 z-10">
-              <div className="w-0 h-0 border-l-[12px] border-r-[12px] border-t-[20px] border-l-transparent border-r-transparent" style={{ borderTopColor: 'var(--pixel-secondary)' }} />
+            {/* 화살표 포인터 (고정) */}
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-20">
+              <div
+                className="w-0 h-0 border-l-[14px] border-r-[14px] border-t-[24px] border-l-transparent border-r-transparent"
+                style={{
+                  borderTopColor: '#ff4444',
+                  filter: 'drop-shadow(2px 2px 0 rgba(0,0,0,0.3))'
+                }}
+              />
             </div>
 
+            {/* 룰렛 휠 (회전) */}
             <div
               ref={spinRef}
-              className="w-48 h-48 relative overflow-hidden transition-transform duration-[3000ms] ease-out"
+              className="w-52 h-52 rounded-full relative transition-transform duration-[3000ms] ease-out overflow-hidden"
               style={{
                 transform: `rotate(${rotation}deg)`,
-                border: '4px solid var(--pixel-border)',
+                border: '5px solid var(--pixel-border)',
                 boxShadow: '4px 4px 0 var(--pixel-shadow)'
               }}
             >
-              {[...Array(12)].map((_, i) => (
-                <div
-                  key={i}
-                  className="absolute w-1/2 h-1/2 origin-bottom-right"
-                  style={{
-                    transform: `rotate(${i * 30}deg)`,
-                    backgroundColor: i === 0 ? 'var(--pixel-android)' : i % 2 === 0 ? 'var(--pixel-ios)' : 'var(--pixel-insight)'
-                  }}
-                >
-                  <span className="absolute top-4 left-1/2 -translate-x-1/2 text-white text-xs font-bold font-pixel">
-                    {i === 0 ? '당첨' : '✕'}
-                  </span>
-                </div>
-              ))}
+              {/* SVG 기반 파이 섹션 */}
+              <svg viewBox="0 0 100 100" className="w-full h-full">
+                {[...Array(12)].map((_, i) => {
+                  const angle = 30;
+                  const startAngle = i * angle - 90;
+                  const endAngle = startAngle + angle;
+                  const startRad = (startAngle * Math.PI) / 180;
+                  const endRad = (endAngle * Math.PI) / 180;
+                  const x1 = 50 + 50 * Math.cos(startRad);
+                  const y1 = 50 + 50 * Math.sin(startRad);
+                  const x2 = 50 + 50 * Math.cos(endRad);
+                  const y2 = 50 + 50 * Math.sin(endRad);
+                  const midAngle = startAngle + angle / 2;
+                  const midRad = (midAngle * Math.PI) / 180;
+                  const textX = 50 + 32 * Math.cos(midRad);
+                  const textY = 50 + 32 * Math.sin(midRad);
 
+                  const fill = i === 0 ? '#34A853' : i % 2 === 0 ? '#333' : '#6366f1';
+
+                  return (
+                    <g key={i}>
+                      <path
+                        d={`M 50 50 L ${x1} ${y1} A 50 50 0 0 1 ${x2} ${y2} Z`}
+                        fill={fill}
+                        stroke="#1a1a2e"
+                        strokeWidth="0.5"
+                      />
+                      {i === 0 && (
+                        <text
+                          x={textX}
+                          y={textY}
+                          fill="white"
+                          fontSize="6"
+                          fontWeight="bold"
+                          textAnchor="middle"
+                          dominantBaseline="middle"
+                          transform={`rotate(${midAngle + 90}, ${textX}, ${textY})`}
+                        >
+                          당첨!
+                        </text>
+                      )}
+                    </g>
+                  );
+                })}
+              </svg>
+
+              {/* 중앙 버튼 */}
               <div
-                className="absolute inset-0 m-auto w-12 h-12 flex items-center justify-center"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full flex items-center justify-center"
                 style={{
                   background: 'var(--pixel-card)',
-                  border: '3px solid var(--pixel-border)',
+                  border: '4px solid var(--pixel-border)',
                   boxShadow: '2px 2px 0 var(--pixel-shadow)'
                 }}
               >

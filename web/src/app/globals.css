@@ -45,7 +45,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'DungGeunMo', monospace;
+  font-family: 'NeoDunggeunmoPro-Regular', 'neodgm', monospace;
   image-rendering: pixelated;
 }
 
@@ -56,7 +56,7 @@ body {
 /* 픽셀 폰트 */
 @layer utilities {
   .font-pixel {
-    font-family: 'DungGeunMo', monospace;
+    font-family: 'NeoDunggeunmoPro-Regular', 'neodgm', monospace;
   }
 }
 
@@ -88,7 +88,7 @@ body {
     3px 3px 0 var(--pixel-shadow),
     inset -2px -2px 0 rgba(0,0,0,0.2),
     inset 2px 2px 0 rgba(255,255,255,0.3);
-  font-family: 'DungGeunMo', monospace;
+  font-family: 'NeoDunggeunmoPro-Regular', 'neodgm', monospace;
   transition: all 0.1s;
   cursor: pointer;
 }
@@ -120,7 +120,7 @@ body {
   background: var(--pixel-highlight);
   border: 3px solid var(--pixel-border);
   box-shadow: inset 2px 2px 0 rgba(0,0,0,0.1);
-  font-family: 'DungGeunMo', monospace;
+  font-family: 'NeoDunggeunmoPro-Regular', 'neodgm', monospace;
 }
 
 .pixel-input:focus {
@@ -151,7 +151,7 @@ body {
 .pixel-badge {
   border: 2px solid var(--pixel-border);
   box-shadow: 2px 2px 0 var(--pixel-shadow);
-  font-family: 'DungGeunMo', monospace;
+  font-family: 'NeoDunggeunmoPro-Regular', 'neodgm', monospace;
 }
 
 /* 픽셀 태그 */
@@ -160,7 +160,7 @@ body {
   color: var(--pixel-border);
   border: 2px solid var(--pixel-border);
   box-shadow: 1px 1px 0 var(--pixel-shadow);
-  font-family: 'DungGeunMo', monospace;
+  font-family: 'NeoDunggeunmoPro-Regular', 'neodgm', monospace;
 }
 
 /* 섹션 별 색상 */
