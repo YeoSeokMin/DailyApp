@@ -29,6 +29,54 @@ export async function GET() {
   }
 }
 
+// 메시지 삭제 (관리자용)
+export async function DELETE(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const messageId = searchParams.get('id');
+    const adminKey = searchParams.get('key');
+
+    // 관리자 키 검증
+    if (adminKey !== process.env.ADMIN_KEY) {
+      return NextResponse.json(
+        { success: false, message: '권한이 없습니다.' },
+        { status: 403 }
+      );
+    }
+
+    if (!messageId) {
+      return NextResponse.json(
+        { success: false, message: '메시지 ID가 필요합니다.' },
+        { status: 400 }
+      );
+    }
+
+    // 모든 메시지 조회
+    const messages = await kv.lrange<ChatMessage>(CHAT_KEY, 0, -1);
+
+    // 해당 메시지 찾아서 삭제
+    const targetMessage = messages?.find(m => m.id === messageId);
+    if (targetMessage) {
+      await kv.lrem(CHAT_KEY, 1, targetMessage);
+      return NextResponse.json({
+        success: true,
+        message: '삭제되었습니다.'
+      });
+    }
+
+    return NextResponse.json(
+      { success: false, message: '메시지를 찾을 수 없습니다.' },
+      { status: 404 }
+    );
+  } catch (error) {
+    console.error('Chat DELETE error:', error);
+    return NextResponse.json(
+      { success: false, message: '서버 오류가 발생했습니다.' },
+      { status: 500 }
+    );
+  }
+}
+
 // 메시지 전송
 export async function POST(request: NextRequest) {
   try {
