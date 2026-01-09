@@ -42,12 +42,23 @@
   --pixel-insight: #d49bd4;
 }
 
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Galmuri11', monospace;
   font-size: 14px;
   image-rendering: pixelated;
+}
+
+/* Galmuri 볼드체 굵기 조절 */
+strong, b, .font-bold, [class*="font-bold"] {
+  font-weight: 500;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
