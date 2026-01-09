@@ -56,27 +56,24 @@ html, body {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Galmuri11', monospace;
-  font-size: 14px;
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
   image-rendering: pixelated;
   word-break: break-word;
   overflow-wrap: break-word;
-}
-
-/* Galmuri 볼드체 굵기 조절 */
-strong, b, .font-bold, [class*="font-bold"] {
-  font-weight: 500;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
 
-/* 픽셀 폰트 */
+/* 픽셀 폰트 (제목용) */
 @layer utilities {
   .font-pixel {
     font-family: 'Galmuri11', monospace;
-  font-size: 14px;
+    font-size: 1em;
+    letter-spacing: -0.02em;
   }
 }
 
@@ -108,8 +105,7 @@ strong, b, .font-bold, [class*="font-bold"] {
     3px 3px 0 var(--pixel-shadow),
     inset -2px -2px 0 rgba(0,0,0,0.2),
     inset 2px 2px 0 rgba(255,255,255,0.3);
-  font-family: 'Galmuri11', monospace;
-  font-size: 14px;
+  font-weight: 600;
   transition: all 0.1s;
   cursor: pointer;
 }
@@ -141,8 +137,6 @@ strong, b, .font-bold, [class*="font-bold"] {
   background: var(--pixel-highlight);
   border: 3px solid var(--pixel-border);
   box-shadow: inset 2px 2px 0 rgba(0,0,0,0.1);
-  font-family: 'Galmuri11', monospace;
-  font-size: 14px;
 }
 
 .pixel-input:focus {
@@ -174,8 +168,6 @@ strong, b, .font-bold, [class*="font-bold"] {
 .pixel-badge {
   border: 2px solid var(--pixel-border);
   box-shadow: 2px 2px 0 var(--pixel-shadow);
-  font-family: 'Galmuri11', monospace;
-  font-size: 14px;
 }
 
 /* 픽셀 태그 */
@@ -184,8 +176,7 @@ strong, b, .font-bold, [class*="font-bold"] {
   color: var(--pixel-border);
   border: 2px solid var(--pixel-border);
   box-shadow: 1px 1px 0 var(--pixel-shadow);
-  font-family: 'Galmuri11', monospace;
-  font-size: 14px;
+  font-weight: 500;
 }
 
 /* 섹션 별 색상 */
