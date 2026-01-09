@@ -27,7 +27,7 @@ export default function RootLayout({
       <head>
         <link
           rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/neodgm@1.531/style.css"
+          href="https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css"
         />
         <script
           dangerouslySetInnerHTML={{
