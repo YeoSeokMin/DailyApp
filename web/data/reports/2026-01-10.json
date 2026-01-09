@@ -1,0 +1,659 @@
+{
+  "date": "2026-01-10",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "TodoLog",
+      "developer": "JONG HA PARK",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/9c/18/139c18c4-aae5-85c0-f871-b72bf2b2ed4d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/todolog/id6756988909?uo=2",
+      "idea_summary": "할일과 일기를 하나로 통합한 생산성 앱",
+      "analysis": {
+        "problem": "할일 관리와 일기 작성을 별도 앱에서 관리하는 번거로움",
+        "solution": "할일 완료 시 자동으로 일기 형태로 기록되는 통합 시스템",
+        "target_user": "자기계발에 관심있는 20-40대 직장인, 학생",
+        "unique_point": "할일 완료가 곧 일기가 되는 자동 로깅 컨셉"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "Day One",
+          "Notion"
+        ],
+        "timing_reason": "셀프케어, 자기기록 트렌드 지속 성장",
+        "growth_potential": "생산성+웰빙 결합 시장 확대 중"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (클라우드 동기화, 통계)",
+        "pricing_suggestion": "월 $2.99~$4.99 구독제",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "500-800",
+        "tech_stack": [
+          "SwiftUI",
+          "CoreData",
+          "CloudKit"
+        ],
+        "key_features": [
+          "할일 CRUD",
+          "캘린더 뷰",
+          "자동 일기 변환",
+          "통계 대시보드"
+        ],
+        "clone_tip": "할일 완료 시 타임스탬프와 메모를 일기 형태로 자동 변환하는 로직이 핵심"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#습관"
+      ],
+      "verdict": "할일+일기 결합으로 차별화, 한국 개발자 앱으로 레퍼런스 용이"
+    },
+    {
+      "rank": 2,
+      "name": "True Epub",
+      "developer": "Byung-woo Hwang",
+      "category": "도서",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/80/82/388082fa-9c57-921c-9230-70288e2a9402/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/true-epub/id6757480952?uo=2",
+      "idea_summary": "EPUB 원본 그대로 렌더링하는 전자책 리더",
+      "analysis": {
+        "problem": "기존 리더가 EPUB 스타일을 무시하고 자체 렌더링해서 원본 디자인 훼손",
+        "solution": "EPUB 파일의 CSS, 레이아웃을 100% 존중하는 진정한 EPUB 리더",
+        "target_user": "전자책 제작자, 디자이너, EPUB 포맷 원본 감상 원하는 독서가",
+        "unique_point": "원본 충실도에 집중한 니치 포지셔닝"
+      },
+      "market": {
+        "competitors": [
+          "Apple Books",
+          "Kindle",
+          "교보문고"
+        ],
+        "timing_reason": "인디 출판, 셀프 퍼블리싱 시장 성장",
+        "growth_potential": "니치하지만 충성도 높은 사용자층"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 인앱 프로 기능",
+        "pricing_suggestion": "일회성 $4.99~$9.99",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "800-1200",
+        "tech_stack": [
+          "Swift",
+          "WKWebView",
+          "EPUB 파싱 라이브러리"
+        ],
+        "key_features": [
+          "EPUB 파싱",
+          "원본 CSS 렌더링",
+          "책장 관리",
+          "읽기 진행률"
+        ],
+        "clone_tip": "핵심은 EPUB 내장 CSS를 그대로 WebView에 적용하는 것"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓",
+        "#전자책"
+      ],
+      "verdict": "EPUB 원본 렌더링이라는 명확한 USP, 전문가 타겟 니치 앱"
+    },
+    {
+      "rank": 3,
+      "name": "LineWords: Picture Word Puzzle",
+      "developer": "Fabrizio Billeci",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/ac/2e/1aac2e4f-bd7c-1a89-4071-ec9483844aa2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/linewords-picture-word-puzzle/id6757529663?uo=2",
+      "idea_summary": "그림 힌트로 선 긋기 단어 퍼즐",
+      "analysis": {
+        "problem": "기존 단어 퍼즐의 단조로움, 시각적 재미 부족",
+        "solution": "그림 힌트와 선 긋기 메커니즘을 결합한 새로운 단어 퍼즐",
+        "target_user": "퍼즐 게임 애호가, 영어 학습자, 가벼운 두뇌 운동 원하는 사람",
+        "unique_point": "그림+선긋기+단어의 3요소 결합"
+      },
+      "market": {
+        "competitors": [
+          "Wordle",
+          "4 Pics 1 Word",
+          "Word Connect"
+        ],
+        "timing_reason": "워들 이후 단어 퍼즐 재부흥",
+        "growth_potential": "캐주얼 퍼즐 시장 꾸준한 수요"
+      },
+      "business": {
+        "monetization": "광고 + 힌트 인앱구매 + 광고제거 구매",
+        "pricing_suggestion": "광고제거 $2.99, 힌트팩 $0.99~$4.99",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "600-1000",
+        "tech_stack": [
+          "Unity",
+          "Firebase",
+          "AdMob"
+        ],
+        "key_features": [
+          "선긋기 인터랙션",
+          "레벨 시스템",
+          "힌트 기능",
+          "일일 챌린지"
+        ],
+        "clone_tip": "터치 드래그로 글자 연결하는 UI가 핵심, 레벨 데이터 대량 생성 도구 필요"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#캐주얼게임",
+        "#광고수익"
+      ],
+      "verdict": "검증된 단어 퍼즐에 새로운 메커니즘 추가, 광고 수익화 용이"
+    },
+    {
+      "rank": 4,
+      "name": "KinStep",
+      "developer": "Khanh Ly Do Thi",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/b3/cf/1cb3cf39-9e0e-acc0-aa25-0a7123577f49/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/kinstep/id6757519658?uo=2",
+      "idea_summary": "가족 구성원 걸음 수 공유 및 경쟁 앱",
+      "analysis": {
+        "problem": "개인 걸음 수 트래킹의 동기부여 한계, 가족 건강 관리 어려움",
+        "solution": "가족 간 걸음 수 실시간 공유, 랭킹, 챌린지 기능",
+        "target_user": "건강에 관심있는 가족, 떨어져 사는 부모와 자녀",
+        "unique_point": "걸음 수를 가족 유대 도구로 활용"
+      },
+      "market": {
+        "competitors": [
+          "애플 건강",
+          "삼성 헬스",
+          "Strava"
+        ],
+        "timing_reason": "코로나 이후 가족 건강 관심 증가, 고령화로 부모 건강 모니터링 수요",
+        "growth_potential": "가족 헬스케어 시장 성장 중"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (확장된 가족 그룹, 상세 통계)",
+        "pricing_suggestion": "월 $1.99~$3.99 가족 구독",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "600-900",
+        "tech_stack": [
+          "SwiftUI",
+          "HealthKit",
+          "CloudKit",
+          "Push Notification"
+        ],
+        "key_features": [
+          "HealthKit 연동",
+          "가족 그룹",
+          "실시간 랭킹",
+          "주간 리포트"
+        ],
+        "clone_tip": "HealthKit 권한과 백그라운드 동기화가 핵심, 초대 링크 시스템 구현"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#가족"
+      ],
+      "verdict": "걸음 수+가족 연결 조합으로 감성적 가치 창출, 고령화 시대 적합"
+    },
+    {
+      "rank": 5,
+      "name": "Lyqd",
+      "developer": "Kevin Lam",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/27/cb/5927cb69-65cc-3499-17c5-6a337d7b2bad/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/lyqd/id6757514445?uo=2",
+      "idea_summary": "유동 자산(현금성) 실시간 추적 앱",
+      "analysis": {
+        "problem": "여러 계좌에 흩어진 유동 자산 파악이 어려움",
+        "solution": "현금, 예금, MMF 등 유동 자산만 집중 추적하는 단순한 앱",
+        "target_user": "재테크 관심자, 비상금 관리자, 프리랜서",
+        "unique_point": "복잡한 자산관리 앱과 달리 유동성에만 집중"
+      },
+      "market": {
+        "competitors": [
+          "뱅크샐러드",
+          "토스",
+          "Mint"
+        ],
+        "timing_reason": "금리 상승기에 예금/MMF 관심 증가",
+        "growth_potential": "간편 금융 앱 수요 지속"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 (다중 계좌, 알림)",
+        "pricing_suggestion": "월 $1.99 또는 일회성 $9.99",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월",
+        "estimated_cost": "300-500",
+        "tech_stack": [
+          "SwiftUI",
+          "CoreData",
+          "Charts"
+        ],
+        "key_features": [
+          "계좌별 잔액 입력",
+          "유동성 총합 대시보드",
+          "추이 그래프",
+          "목표 설정"
+        ],
+        "clone_tip": "API 연동 없이 수동 입력 방식으로 MVP 빠르게 출시 가능"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#금융",
+        "#미니멀"
+      ],
+      "verdict": "복잡한 자산관리의 반대편, 유동성 하나에 집중한 단순함이 강점"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Unsub - Subscription Farewell",
+      "developer": "PSNV",
+      "category": "금융/유틸리티",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.psnv.unsub",
+      "idea_summary": "구독 서비스 해지 도우미 앱",
+      "analysis": {
+        "problem": "수많은 구독 서비스 관리와 해지 절차의 복잡함",
+        "solution": "구독 현황 파악, 해지 가이드, 비용 절감 분석 제공",
+        "target_user": "다수의 구독 서비스 이용자, 지출 관리 원하는 사람",
+        "unique_point": "구독 해지에 특화된 포지셔닝"
+      },
+      "market": {
+        "competitors": [
+          "Truebill",
+          "Bobby",
+          "Subscriptions"
+        ],
+        "timing_reason": "구독 경제 폭발적 성장으로 구독 피로도 증가",
+        "growth_potential": "구독 관리 시장 급성장 중"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (자동 감지, 해지 대행)",
+        "pricing_suggestion": "월 $2.99~$4.99",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "500-800",
+        "tech_stack": [
+          "Kotlin",
+          "Room DB",
+          "WorkManager",
+          "Material Design"
+        ],
+        "key_features": [
+          "구독 수동/자동 등록",
+          "해지 가이드",
+          "비용 분석",
+          "갱신 알림"
+        ],
+        "clone_tip": "SMS/이메일 파싱으로 구독 자동 감지하면 차별화, MVP는 수동 등록으로"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#구독관리",
+        "#절약"
+      ],
+      "verdict": "구독 피로 시대의 명확한 페인포인트 해결, 수익화 모델도 검증됨"
+    },
+    {
+      "rank": 2,
+      "name": "Pill Time",
+      "developer": "PSNV",
+      "category": "건강",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.psnv.pilltime",
+      "idea_summary": "심플한 약 복용 알림 및 추적 앱",
+      "analysis": {
+        "problem": "약 복용 시간을 자주 잊음, 기존 앱들이 너무 복잡",
+        "solution": "핵심 기능만 담은 미니멀한 약 복용 리마인더",
+        "target_user": "만성질환자, 영양제 복용자, 고령자 돌봄 가족",
+        "unique_point": "불필요한 기능 제거한 극단적 단순함"
+      },
+      "market": {
+        "competitors": [
+          "Medisafe",
+          "Round Health",
+          "MyTherapy"
+        ],
+        "timing_reason": "건강 관리 앱 수요 지속 증가",
+        "growth_potential": "고령화로 장기적 성장 보장"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 (가족 공유, 무제한 약)",
+        "pricing_suggestion": "월 $1.99 또는 광고제거 $4.99",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월",
+        "estimated_cost": "300-500",
+        "tech_stack": [
+          "Kotlin",
+          "AlarmManager",
+          "Room DB",
+          "Notification"
+        ],
+        "key_features": [
+          "약 등록",
+          "시간 알림",
+          "복용 기록",
+          "재고 관리"
+        ],
+        "clone_tip": "정확한 알림이 핵심, Doze 모드 대응 필수, 위젯 추가하면 차별화"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#알림"
+      ],
+      "verdict": "레드오션이지만 단순함으로 승부, 고령화 시대 꾸준한 수요"
+    },
+    {
+      "rank": 3,
+      "name": "Input2Touch: Remap & Control",
+      "developer": "Xalies",
+      "category": "유틸리티",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.xalies.input2touch",
+      "idea_summary": "외부 입력장치를 터치 제스처로 매핑",
+      "analysis": {
+        "problem": "게임패드, 키보드 등 외부 입력을 터치 전용 앱에서 사용 불가",
+        "solution": "물리 버튼을 화면 터치 좌표로 매핑하는 리매퍼",
+        "target_user": "모바일 게이머, 접근성 필요 사용자, 파워유저",
+        "unique_point": "터치 전용 앱도 외부 컨트롤러로 조작 가능"
+      },
+      "market": {
+        "competitors": [
+          "Octopus",
+          "Panda Gamepad",
+          "Mantis"
+        ],
+        "timing_reason": "모바일 게임 e스포츠화, 컨트롤러 지원 수요",
+        "growth_potential": "모바일 게임 시장 지속 성장"
+      },
+      "business": {
+        "monetization": "유료 앱 + 프로 기능",
+        "pricing_suggestion": "일회성 $4.99~$7.99",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "800-1200",
+        "tech_stack": [
+          "Kotlin",
+          "Accessibility Service",
+          "InputDevice API"
+        ],
+        "key_features": [
+          "입력 매핑 UI",
+          "터치 시뮬레이션",
+          "프로필 저장",
+          "게임별 프리셋"
+        ],
+        "clone_tip": "Accessibility Service 활용이 핵심, 일부 기기/OS 호환성 테스트 중요"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게이밍",
+        "#유틸리티"
+      ],
+      "verdict": "모바일 게이머 니치 타겟, 기술적 챌린지 있지만 충성 사용자 확보 가능"
+    },
+    {
+      "rank": 4,
+      "name": "Noghteha - Mesh Messenger",
+      "developer": "FilterShekanha",
+      "category": "커뮤니케이션",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.filtershekanha.noghteha",
+      "idea_summary": "인터넷 없이 블루투스 메시로 통신하는 메신저",
+      "analysis": {
+        "problem": "인터넷 없는 환경에서 통신 불가 (재난, 오지, 검열)",
+        "solution": "블루투스 메시 네트워크로 오프라인 P2P 메시징",
+        "target_user": "등산객, 재난 대비자, 인터넷 검열 국가 거주자, 이벤트 참가자",
+        "unique_point": "완전 오프라인 통신, 중계 노드 역할"
+      },
+      "market": {
+        "competitors": [
+          "Bridgefy",
+          "Briar",
+          "Signal"
+        ],
+        "timing_reason": "재난 증가, 프라이버시 관심 고조",
+        "growth_potential": "니치하지만 특수 상황 필수 앱"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 (그룹 확장, 파일 전송)",
+        "pricing_suggestion": "일회성 $2.99~$4.99",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월",
+        "estimated_cost": "1500-2500",
+        "tech_stack": [
+          "Kotlin",
+          "Bluetooth LE",
+          "Mesh Networking",
+          "암호화"
+        ],
+        "key_features": [
+          "BLE 메시 통신",
+          "메시지 중계",
+          "E2E 암호화",
+          "오프라인 저장"
+        ],
+        "clone_tip": "BLE 메시 프로토콜 구현이 핵심, 오픈소스 라이브러리 활용 권장"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.4
+      },
+      "tags": [
+        "#기술챌린지",
+        "#B2C",
+        "#오프라인",
+        "#프라이버시"
+      ],
+      "verdict": "기술적으로 흥미로운 프로젝트, 특수 상황에서 생명줄 역할 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Manga AI - AI Comic Generator",
+      "developer": "Anime Studio",
+      "category": "엔터테인먼트",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=anime.manga.chibi.comics",
+      "idea_summary": "AI로 나만의 만화/웹툰 생성",
+      "analysis": {
+        "problem": "그림 실력 없이 만화 제작 불가",
+        "solution": "AI 이미지 생성으로 텍스트만으로 만화 컷 생성",
+        "target_user": "웹툰 지망생, SNS 콘텐츠 제작자, 취미 창작자",
+        "unique_point": "만화 특화 AI 생성 + 패널 레이아웃 지원"
+      },
+      "market": {
+        "competitors": [
+          "Midjourney",
+          "DALL-E",
+          "Canva"
+        ],
+        "timing_reason": "생성 AI 대중화, 웹툰 문화 글로벌 확산",
+        "growth_potential": "AI 창작 도구 시장 폭발적 성장"
+      },
+      "business": {
+        "monetization": "크레딧 기반 인앱구매 + 구독",
+        "pricing_suggestion": "월 $4.99~$9.99 구독 또는 크레딧팩",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "1000-2000",
+        "tech_stack": [
+          "Kotlin",
+          "Stable Diffusion API",
+          "Firebase",
+          "Canvas"
+        ],
+        "key_features": [
+          "프롬프트 입력",
+          "스타일 선택",
+          "패널 레이아웃",
+          "말풍선 편집"
+        ],
+        "clone_tip": "Stable Diffusion API 연동이 핵심, 만화 특화 LoRA 모델 활용"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#AI",
+        "#B2C",
+        "#창작도구",
+        "#웹툰"
+      ],
+      "verdict": "AI 붐과 웹툰 문화 교차점, API 비용 관리가 수익성 핵심"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "구독 피로와 AI 창작 도구가 오늘의 핵심 트렌드입니다. 가족 건강 모니터링과 미니멀 금융 앱도 눈에 띄는 방향성입니다.",
+    "trend_details": [
+      "구독 관리/해지 도구 수요 증가",
+      "AI 기반 콘텐츠 생성 앱 다양화",
+      "가족 단위 건강 추적 앱 등장",
+      "기능 축소형 미니멀 앱 선호"
+    ],
+    "hot_categories": [
+      "구독관리",
+      "AI창작",
+      "가족헬스케어",
+      "단어퍼즐"
+    ],
+    "opportunity": "복잡한 앱의 단일 기능만 떼어내 극단적으로 단순화한 앱 (예: 유동자산만, 구독해지만)",
+    "action_item": "기존 복합 앱에서 가장 많이 쓰이는 단일 기능을 파악하고, 그것만 완벽하게 해결하는 미니 앱 기획하기"
+  }
+}
