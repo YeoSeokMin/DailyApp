@@ -142,6 +142,7 @@ strong, b, .font-bold, [class*="font-bold"] {
 
 /* 픽셀 헤더 */
 .pixel-header {
+  width: 100%;
   background: var(--pixel-card);
   border-bottom: 4px solid var(--pixel-border);
   box-shadow: 0 4px 0 var(--pixel-shadow);

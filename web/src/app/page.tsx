@@ -33,13 +33,13 @@ export default function Home() {
   return (
     <div className="min-h-screen" style={{ background: 'var(--background)' }}>
       {/* Header */}
-      <header className="pixel-header sticky top-0 z-10">
+      <header className="pixel-header sticky top-0 z-10 w-full">
         <div className="max-w-[1600px] mx-auto px-4 py-4">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <div className="flex items-center gap-3">
               <img src="/favicon.ico" alt="" className="w-10 h-10" style={{ imageRendering: 'pixelated' }} />
               <div>
-                <h1 className="text-2xl font-bold font-pixel" style={{ color: 'var(--foreground)' }}>
+                <h1 className="text-xl sm:text-2xl font-bold font-pixel" style={{ color: 'var(--foreground)' }}>
                   오늘의 앱 아이디어
                 </h1>
                 <p className="text-sm" style={{ color: 'var(--foreground)', opacity: 0.7 }}>
