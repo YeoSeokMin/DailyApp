@@ -37,8 +37,7 @@ export async function DELETE(request: NextRequest) {
     const adminKey = searchParams.get('key');
 
     // 관리자 키 검증
-    const ADMIN_SECRET = process.env.ADMIN_KEY || 'REMOVED_SECRET';
-    if (adminKey !== ADMIN_SECRET) {
+    if (!process.env.ADMIN_KEY || adminKey !== process.env.ADMIN_KEY) {
       return NextResponse.json(
         { success: false, message: '권한이 없습니다.' },
         { status: 403 }
