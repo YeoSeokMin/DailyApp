@@ -31,7 +31,7 @@ export default function Home() {
   const { report, date } = data;
 
   return (
-    <div className="min-h-screen" style={{ background: 'var(--background)' }}>
+    <div className="min-h-screen w-full" style={{ background: 'var(--background)' }}>
       {/* Header */}
       <header className="pixel-header sticky top-0 z-10 w-full">
         <div className="max-w-[1600px] mx-auto px-4 py-4">
