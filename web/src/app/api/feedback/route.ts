@@ -19,7 +19,10 @@ interface Feedback {
 
 interface FeedbackData {
   feedbacks: Feedback[];
-  stats: Record<string, number>;
+  stats: {
+    total?: number;
+    byCategory?: Record<string, number>;
+  };
   lastUpdated: string | null;
 }
 
