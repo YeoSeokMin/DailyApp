@@ -52,6 +52,7 @@ export interface AppInfo {
   scores: AppScores;
   tags: string[];
   verdict: string;
+  deep_report_id?: string | null;  // 심층 분석 리포트 ID
 }
 
 export interface DailyInsight {

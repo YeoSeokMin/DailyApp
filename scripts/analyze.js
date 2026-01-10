@@ -4,6 +4,8 @@
  * 역할: Claude로 수집된 앱 분석 & TOP 5 선별
  * - ANTHROPIC_API_KEY가 있으면 API 사용 (GitHub Actions용)
  * - 없으면 Claude CLI 사용 (로컬용)
+ * - 품질 점수 체크 & 자동 재시도
+ * - 트렌드 자동 감지
  */
 
 require('dotenv').config();
@@ -12,9 +14,37 @@ const { spawn } = require('child_process');
 const fs = require('fs').promises;
 const path = require('path');
 
+// 새 모듈 로드 (옵션)
+let qualityScorer = null;
+let trendDetector = null;
+let promptBuilder = null;
+let analyzeDeep = null;
+try {
+  qualityScorer = require('./qualityScorer');
+  trendDetector = require('./trendDetector');
+  promptBuilder = require('../prompts/promptBuilder');
+  analyzeDeep = require('./analyzeDeep');
+} catch (e) {
+  // 모듈 없으면 무시
+  console.log('  ⚠️ 일부 모듈 로드 실패:', e.message);
+}
+
 const MAX_APPS_PER_PLATFORM = 30;
 const EXCLUDE_DAYS = 7; // 최근 7일간 리포트에 나온 앱 제외
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+
+// 품질 설정
+const QUALITY_CONFIG = {
+  enabled: true,          // 품질 체크 활성화
+  minScore: 4,            // 최소 품질 점수 (10점 만점) - 낮춤
+  maxRetries: 1           // 최대 재시도 횟수 - 1회로 줄임
+};
+
+// 심층 분석 설정
+const DEEP_ANALYSIS_CONFIG = {
+  enabled: true,          // 심층 분석 활성화
+  maxApps: 5              // 플랫폼별 심층 분석 앱 수 (상위 N개)
+};
 
 /**
  * 최근 리포트에서 이미 선정된 앱 이름 가져오기
@@ -117,8 +147,8 @@ function analyzeWithCLI(prompt) {
 
     setTimeout(() => {
       claude.kill();
-      reject(new Error('타임아웃: 5분 초과'));
-    }, 5 * 60 * 1000);
+      reject(new Error('타임아웃: 10분 초과'));
+    }, 10 * 60 * 1000);
   });
 }
 
@@ -150,9 +180,16 @@ async function main() {
   const promptPath = path.join(__dirname, 'prompt.txt');
   const reportsDir = path.join(projectDir, 'web', 'data', 'reports');
 
-  // 1. 프롬프트 로드
+  // 1. 프롬프트 로드 (동적 빌더 또는 기본 파일)
   console.log('📝 프롬프트 로드 중...');
-  const promptTemplate = await fs.readFile(promptPath, 'utf-8');
+  let promptTemplate;
+  if (promptBuilder) {
+    console.log('   🔧 Dynamic Prompt Builder 사용');
+    promptTemplate = promptBuilder.presets.daily();
+  } else {
+    console.log('   📄 기본 prompt.txt 사용');
+    promptTemplate = await fs.readFile(promptPath, 'utf-8');
+  }
 
   // 2. 최근 리포트에서 이미 선정된 앱 목록 가져오기
   console.log('🔍 이전 선정 앱 확인 중...');
@@ -178,40 +215,138 @@ async function main() {
     Android앱: androidApps
   };
 
-  const fullPrompt = promptTemplate + '\n' + JSON.stringify(cleanedData, null, 2);
+  let fullPrompt = promptTemplate + '\n' + JSON.stringify(cleanedData, null, 2);
   console.log(`   프롬프트: ${(fullPrompt.length / 1024).toFixed(1)}KB`);
   console.log('');
 
-  // 5. 분석 실행
+  // 5. 분석 실행 (품질 체크 & 재시도 포함)
   console.log('🧠 Claude 분석 중...');
   console.log(`   모드: ${ANTHROPIC_API_KEY ? 'API' : 'CLI'}`);
 
+  let report = null;
+  let quality = null;
+  let attempts = 0;
+  const maxAttempts = QUALITY_CONFIG.enabled ? QUALITY_CONFIG.maxRetries + 1 : 1;
+
   try {
-    const result = ANTHROPIC_API_KEY
-      ? await analyzeWithAPI(fullPrompt)
-      : await analyzeWithCLI(fullPrompt);
+    while (attempts < maxAttempts) {
+      attempts++;
+      console.log(`   시도 ${attempts}/${maxAttempts}`);
 
-    // 6. JSON 파싱
-    console.log('📊 결과 파싱 중...');
-    let report;
+      const result = ANTHROPIC_API_KEY
+        ? await analyzeWithAPI(fullPrompt)
+        : await analyzeWithCLI(fullPrompt);
 
-    try {
-      report = extractJSON(result);
-      console.log('  ✅ JSON 파싱 성공');
-    } catch (parseError) {
-      console.error('  ⚠️ JSON 파싱 실패:', parseError.message);
-      report = { raw: result, error: parseError.message };
+      // 6. JSON 파싱
+      console.log('📊 결과 파싱 중...');
+
+      try {
+        report = extractJSON(result);
+        console.log('  ✅ JSON 파싱 성공');
+      } catch (parseError) {
+        console.error('  ⚠️ JSON 파싱 실패:', parseError.message);
+        if (attempts < maxAttempts) {
+          console.log('  🔄 재시도...');
+          continue;
+        }
+        report = { raw: result, error: parseError.message };
+        break;
+      }
+
+      // 7. 품질 체크 (모듈 있을 때만)
+      if (qualityScorer && QUALITY_CONFIG.enabled) {
+        quality = qualityScorer.scoreAnalysis(JSON.stringify(report));
+        console.log(`📈 품질 점수: ${quality.totalScore}/10 (${quality.grade})`);
+
+        if (quality.totalScore >= QUALITY_CONFIG.minScore) {
+          console.log('  ✅ 품질 기준 충족');
+          break;
+        } else if (attempts < maxAttempts) {
+          console.log(`  ⚠️ 품질 미달 (${quality.totalScore} < ${QUALITY_CONFIG.minScore})`);
+          console.log('  🔄 재시도...');
+
+          // 이슈 피드백을 프롬프트에 추가
+          if (quality.issues.length > 0) {
+            const feedback = quality.issues.map(i => `- ${i.message}`).join('\n');
+            fullPrompt += `\n\n[이전 분석 피드백 - 개선 필요]\n${feedback}\n`;
+          }
+        }
+      } else {
+        break; // 품질 체크 없으면 바로 종료
+      }
     }
 
-    // 7. 저장
+    // 8. 저장
     await fs.writeFile(outputPath, JSON.stringify(report, null, 2), 'utf-8');
 
     console.log('');
     console.log('═'.repeat(50));
-    console.log('✅ 분석 완료!');
+    console.log('✅ 기본 분석 완료!');
     if (report.ios) console.log(`   iOS: ${report.ios.length}개`);
     if (report.android) console.log(`   Android: ${report.android.length}개`);
+    if (quality) console.log(`   품질: ${quality.totalScore}/10 (${quality.grade})`);
+    console.log(`   시도: ${attempts}회`);
     console.log('═'.repeat(50));
+
+    // 9. 심층 분석 (모듈 있을 때만)
+    if (analyzeDeep && DEEP_ANALYSIS_CONFIG.enabled) {
+      console.log('');
+      console.log('🔬 심층 분석 시작...');
+      console.log('─'.repeat(50));
+
+      try {
+        // iOS 앱 심층 분석 (상위 N개)
+        if (report.ios && report.ios.length > 0) {
+          console.log('\n📱 iOS 심층 분석');
+          const iosTopApps = report.ios.slice(0, DEEP_ANALYSIS_CONFIG.maxApps);
+          const iosWithDeep = await analyzeDeep.analyzeAllDeep(iosTopApps, 'ios');
+
+          // deep_report_id 업데이트
+          report.ios = report.ios.map((app, idx) => {
+            if (idx < iosWithDeep.length) {
+              return { ...app, deep_report_id: iosWithDeep[idx].deep_report_id };
+            }
+            return app;
+          });
+        }
+
+        // Android 앱 심층 분석 (상위 N개)
+        if (report.android && report.android.length > 0) {
+          console.log('\n📱 Android 심층 분석');
+          const androidTopApps = report.android.slice(0, DEEP_ANALYSIS_CONFIG.maxApps);
+          const androidWithDeep = await analyzeDeep.analyzeAllDeep(androidTopApps, 'android');
+
+          // deep_report_id 업데이트
+          report.android = report.android.map((app, idx) => {
+            if (idx < androidWithDeep.length) {
+              return { ...app, deep_report_id: androidWithDeep[idx].deep_report_id };
+            }
+            return app;
+          });
+        }
+
+        // 업데이트된 리포트 저장
+        await fs.writeFile(outputPath, JSON.stringify(report, null, 2), 'utf-8');
+        console.log('\n✅ 심층 분석 완료! 리포트 업데이트됨');
+      } catch (deepError) {
+        console.log('  ⚠️ 심층 분석 스킵:', deepError.message);
+      }
+    }
+
+    // 10. 트렌드 감지 (모듈 있을 때만)
+    if (trendDetector) {
+      console.log('');
+      console.log('📊 트렌드 분석 중...');
+      try {
+        const trends = await trendDetector.detectTrends(7);
+        if (trends && trends.insight) {
+          console.log(`   이번 주 테마: ${trends.insight.weekly_theme || 'N/A'}`);
+          console.log(`   ${trends.insight.trend_summary || ''}`);
+        }
+      } catch (trendError) {
+        console.log('  ⚠️ 트렌드 분석 스킵:', trendError.message);
+      }
+    }
 
   } catch (error) {
     console.error('❌ 분석 실패:', error.message);

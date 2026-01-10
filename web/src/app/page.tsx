@@ -4,6 +4,7 @@ import AdSidebar from '@/components/AdSidebar';
 import MobileAdSlot from '@/components/MobileAdSlot';
 import AnonymousChat from '@/components/AnonymousChat';
 import ThemeToggle from '@/components/ThemeToggle';
+import TrendSection from '@/components/TrendSection';
 import { getLatestReport, getAvailableDates } from '@/lib/reports';
 
 // 60초마다 재검증 (ISR)
@@ -72,6 +73,9 @@ export default function Home() {
             <div className="mb-4">
               <AnonymousChat />
             </div>
+
+            {/* 주간 트렌드 */}
+            <TrendSection />
 
             {/* 오늘의 인사이트 */}
             {report.daily_insight && (

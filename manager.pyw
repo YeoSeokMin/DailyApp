@@ -18,23 +18,26 @@ class DailyAppManager:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("DailyApp Manager")
-        self.root.geometry("500x650")
+        self.root.geometry("500x720")
         self.root.resizable(False, False)
         self.root.configure(bg="#0f0f1a")
 
         self.log_queue = queue.Queue()
         self.is_running = False
+        self.auto_run_enabled = True  # 자정 자동실행 활성화
+        self.last_auto_run_date = None  # 마지막 자동실행 날짜
 
         self.create_widgets()
         self.center_window()
         self.update_status()
         self.process_log_queue()
+        self.check_midnight()  # 자정 체크 시작
 
     def center_window(self):
         self.root.update_idletasks()
         x = (self.root.winfo_screenwidth() - 500) // 2
-        y = (self.root.winfo_screenheight() - 650) // 2
-        self.root.geometry(f"500x650+{x}+{y}")
+        y = (self.root.winfo_screenheight() - 720) // 2
+        self.root.geometry(f"500x720+{x}+{y}")
 
     def create_widgets(self):
         # 헤더
@@ -86,7 +89,7 @@ class DailyAppManager:
 
         self.schedule_status = tk.Label(
             schedule_inner,
-            text="확인 중...",
+            text="켜짐 (매일 00:00)",
             font=("Segoe UI", 11),
             fg="#4ecca3",
             bg="#1a1a2e"
@@ -265,43 +268,37 @@ class DailyAppManager:
         self.log("로그 초기화", "info")
 
     def update_status(self):
-        """스케줄러 상태 확인"""
-        try:
-            result = subprocess.run(
-                ['schtasks', '/query', '/tn', 'DailyAppReport', '/fo', 'list'],
-                capture_output=True,
-                text=True,
-                creationflags=subprocess.CREATE_NO_WINDOW
-            )
-            output = result.stdout
+        """자동실행 상태 표시"""
+        if self.auto_run_enabled:
+            self.schedule_status.config(text="켜짐 (매일 00:00)", fg="#4ecca3")
+        else:
+            self.schedule_status.config(text="꺼짐", fg="#888888")
 
-            if "사용" in output and "사용 안 함" not in output:
-                self.schedule_status.config(text="켜짐 (매일 09:00)", fg="#4ecca3")
-            elif "Ready" in output or "Enabled" in output:
-                self.schedule_status.config(text="켜짐 (매일 09:00)", fg="#4ecca3")
-            elif "사용 안 함" in output or "Disabled" in output:
-                self.schedule_status.config(text="꺼짐", fg="#888888")
-            else:
-                self.schedule_status.config(text="설정 안됨", fg="#e94560")
-
-            # 마지막 실행 시간 확인
-            if "마지막 실행 시간" in output:
-                for line in output.split('\n'):
-                    if "마지막 실행 시간" in line:
-                        time_str = line.split(':')[-1].strip()
-                        self.last_run_label.config(text=f"마지막 실행: {time_str}")
-                        break
-            elif "Last Run Time" in output:
-                for line in output.split('\n'):
-                    if "Last Run Time" in line:
-                        time_str = line.split(':', 1)[-1].strip()
-                        self.last_run_label.config(text=f"Last run: {time_str}")
-                        break
-        except:
-            self.schedule_status.config(text="확인 실패", fg="#e94560")
+        # 마지막 실행 시간 표시
+        if self.last_auto_run_date:
+            self.last_run_label.config(text=f"마지막 자동실행: {self.last_auto_run_date}")
 
         # 5초마다 상태 갱신
         self.root.after(5000, self.update_status)
+
+    def check_midnight(self):
+        """자정 체크 (매 30초마다)"""
+        now = datetime.now()
+        today = now.strftime("%Y-%m-%d")
+
+        # 자정~00:05 사이이고, 오늘 아직 실행 안 했으면 실행
+        if (self.auto_run_enabled and
+            now.hour == 0 and now.minute < 5 and
+            self.last_auto_run_date != today and
+            not self.is_running):
+
+            self.last_auto_run_date = today
+            self.log("", "info")
+            self.log("🕛 자정 자동실행 시작!", "success")
+            self.run_now()
+
+        # 30초마다 체크
+        self.root.after(30000, self.check_midnight)
 
     def set_running(self, running):
         """실행 상태 설정"""
@@ -328,13 +325,26 @@ class DailyAppManager:
             self.set_running(True)
             self.current_process = None
 
+            # (cmd, desc, detail, optional) - optional=True면 실패해도 계속 진행
             steps = [
-                ("npm run collect", "앱 데이터 수집", "iOS/Android 신규 앱 스크래핑"),
-                ("npm run analyze", "Claude AI 분석", "TOP 5 선정 및 아이디어 분석"),
-                ("npm run save", "리포트 저장", "JSON 파일 생성"),
-                ("git add web/data/reports/*.json && git commit -m \"Daily report\" && git push origin main", "GitHub 업로드", "리포트 파일 푸시"),
-                ("cd web && vercel --prod --yes", "Vercel 배포", "웹사이트 업데이트"),
-                ("npm run kakao:send", "카카오톡 전송", "요약 메시지 발송")
+                # 1. 피드백 분석 리포트 (선택)
+                ("node feedback/feedbackAnalyzer.js report > output/feedback_report.md", "피드백 분석", "피드백 패턴/트렌드 분석", True),
+                # 2. 피드백 기반 프롬프트 개선 (선택)
+                ("node feedback/promptImprover.js run", "프롬프트 개선", "피드백 기반 자동 개선", True),
+                # 3. 앱 수집 (필수)
+                ("npm run collect", "앱 데이터 수집", "iOS/Android 신규 앱 스크래핑", False),
+                # 4. Claude 분석 - Dynamic Prompt + 심층 분석 (필수)
+                ("npm run analyze", "Claude AI 분석", "Dynamic Prompt + 품질 체크 + 심층 분석", False),
+                # 5. 트렌드 분석 (선택)
+                ("node scripts/trendDetector.js", "트렌드 분석", "주간 트렌드 감지", True),
+                # 6. 리포트 저장 (필수)
+                ("npm run save", "리포트 저장", "JSON 파일 생성", False),
+                # 7. Git 푸시 - 심층 분석 리포트 포함 (필수)
+                ("git add web/data/reports/*.json output/*.json output/*.md reports/deep/*.md && git commit -m \"Daily report\" && git push origin main", "GitHub 업로드", "리포트 + 심층 분석 푸시", False),
+                # 8. Vercel 배포 (필수)
+                ("cd web && vercel --prod --yes", "Vercel 배포", "웹사이트 업데이트", False),
+                # 9. 카카오톡 전송 (선택)
+                ("npm run kakao:send", "카카오톡 전송", "요약 메시지 발송", True)
             ]
 
             total_steps = len(steps)
@@ -342,17 +352,18 @@ class DailyAppManager:
 
             try:
                 self.log("━" * 45, "info")
-                self.log("🚀 자동화 파이프라인 시작", "info")
+                self.log("🚀 자동화 파이프라인 시작 (9단계)", "info")
                 self.log("━" * 45, "info")
 
-                for i, (cmd, desc, detail) in enumerate(steps):
+                for i, (cmd, desc, detail, optional) in enumerate(steps):
                     if not self.is_running:
                         self.log("⚠️ 사용자에 의해 중지됨", "warn")
                         break
 
                     step_start = time.time()
                     self.log("", "info")
-                    self.log(f"▶ [{i+1}/{total_steps}] {desc}", "info")
+                    opt_tag = " (선택)" if optional else ""
+                    self.log(f"▶ [{i+1}/{total_steps}] {desc}{opt_tag}", "info")
                     self.log(f"  └ {detail}", "info")
 
                     process = subprocess.Popen(
@@ -373,25 +384,28 @@ class DailyAppManager:
                         if line.strip():
                             clean_line = line.strip()
                             # 중요 정보만 표시
-                            if any(key in clean_line for key in ['✅', '✓', '완료', 'success', 'Complete']):
+                            if any(key in clean_line for key in ['✅', '✓', '완료', 'success', 'Complete', '품질']):
                                 self.log(f"    ✅ {clean_line}", "success")
                             elif any(key in clean_line for key in ['❌', '✗', '실패', 'error', 'Error', 'fail']):
                                 self.log(f"    ❌ {clean_line}", "error")
-                            elif any(key in clean_line for key in ['⚠', '경고', 'warn', 'Warning']):
+                            elif any(key in clean_line for key in ['⚠', '경고', 'warn', 'Warning', '스킵']):
                                 self.log(f"    ⚠️ {clean_line}", "warn")
-                            elif any(key in clean_line for key in ['iOS:', 'Android:', '개 ', '선정', 'KB', '수집', '분석', '저장', '전송', '배포', 'Production:', 'Aliased:']):
+                            elif any(key in clean_line for key in ['iOS:', 'Android:', '개 ', '선정', 'KB', '수집', '분석', '저장', '전송', '배포', 'Production:', 'Aliased:', '트렌드', '테마', '시도']):
                                 self.log(f"    📊 {clean_line}", "info")
-                            elif any(key in clean_line for key in ['⏳', '중...', 'ing...', '대기']):
+                            elif any(key in clean_line for key in ['⏳', '중...', 'ing...', '대기', '로드']):
                                 self.log(f"    ⏳ {clean_line}", "warn")
 
                     process.wait()
                     step_time = time.time() - step_start
 
                     if process.returncode != 0:
-                        self.log(f"  ❌ 실패 (코드: {process.returncode}, {step_time:.1f}초)", "error")
-                        raise Exception(f"{desc} 실패")
-
-                    self.log(f"  ✅ 완료 ({step_time:.1f}초)", "success")
+                        if optional:
+                            self.log(f"  ⚠️ 스킵됨 ({step_time:.1f}초)", "warn")
+                        else:
+                            self.log(f"  ❌ 실패 (코드: {process.returncode}, {step_time:.1f}초)", "error")
+                            raise Exception(f"{desc} 실패")
+                    else:
+                        self.log(f"  ✅ 완료 ({step_time:.1f}초)", "success")
 
                 if self.is_running:
                     total_time = time.time() - start_time
@@ -429,62 +443,15 @@ class DailyAppManager:
             self.log("중지 요청됨...", "warn")
 
     def enable_schedule(self):
-        """자동실행 켜기 (없으면 생성)"""
-        try:
-            # 먼저 기존 스케줄 활성화 시도
-            result = subprocess.run(
-                ['schtasks', '/change', '/tn', 'DailyAppReport', '/enable'],
-                capture_output=True,
-                text=True,
-                creationflags=subprocess.CREATE_NO_WINDOW
-            )
-
-            if result.returncode == 0:
-                self.log("자동실행 켜짐 (매일 09:00)", "success")
-            else:
-                # 스케줄이 없으면 새로 생성
-                self.log("스케줄 생성 중...", "info")
-                bat_path = os.path.join(PROJECT_DIR, "daily.bat")
-
-                create_result = subprocess.run(
-                    [
-                        'schtasks', '/create',
-                        '/tn', 'DailyAppReport',
-                        '/tr', bat_path,
-                        '/sc', 'daily',
-                        '/st', '09:00',
-                        '/f'
-                    ],
-                    capture_output=True,
-                    text=True,
-                    creationflags=subprocess.CREATE_NO_WINDOW
-                )
-
-                if create_result.returncode == 0:
-                    self.log("스케줄 생성 완료!", "success")
-                    self.log("자동실행 켜짐 (매일 09:00)", "success")
-                else:
-                    self.log(f"스케줄 생성 실패: {create_result.stderr}", "error")
-        except Exception as e:
-            self.log(f"오류: {str(e)}", "error")
-        self.update_status()
+        """자동실행 켜기"""
+        self.auto_run_enabled = True
+        self.log("자동실행 켜짐 (매일 00:00)", "success")
+        self.log("  └ 프로그램이 실행 중이어야 동작합니다", "info")
 
     def disable_schedule(self):
         """자동실행 끄기"""
-        try:
-            result = subprocess.run(
-                ['schtasks', '/change', '/tn', 'DailyAppReport', '/disable'],
-                capture_output=True,
-                text=True,
-                creationflags=subprocess.CREATE_NO_WINDOW
-            )
-            if result.returncode == 0:
-                self.log("자동실행 꺼짐", "info")
-            else:
-                self.log("스케줄이 등록되지 않음", "warn")
-        except Exception as e:
-            self.log(f"오류: {str(e)}", "error")
-        self.update_status()
+        self.auto_run_enabled = False
+        self.log("자동실행 꺼짐", "info")
 
     def run(self):
         self.root.mainloop()

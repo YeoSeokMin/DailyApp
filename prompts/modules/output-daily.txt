@@ -1,0 +1,91 @@
+## [OUTPUT] Daily Report JSON Format
+
+⚠️ **중요: 반드시 아래 JSON 형식으로만 출력할 것!**
+- 마크다운 코드블록 (```) 사용 금지
+- 설명 텍스트 금지
+- 첫 글자가 반드시 `{` 이어야 함
+- 순수 JSON만 출력
+
+{
+  "date": "YYYY-MM-DD",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "앱 이름",
+      "developer": "개발자명",
+      "category": "카테고리",
+      "icon": "아이콘URL",
+      "app_url": "앱스토어링크",
+      "idea_summary": "핵심 아이디어 한줄 (30자)",
+      "analysis": {
+        "problem": "해결하는 문제 [확인됨/추론/추측]",
+        "solution": "해결 방식 [확인됨/추론/추측]",
+        "target_user": "타겟 사용자 [확인됨/추론/추측]",
+        "unique_point": "차별점 [확인됨/추론/추측]"
+      },
+      "market": {
+        "competitors": ["경쟁앱1", "경쟁앱2"],
+        "timing_reason": "왜 지금인가 [추론/추측]",
+        "growth_potential": "성장 가능성 [추론/추측]"
+      },
+      "business": {
+        "monetization": "수익화 방식 [확인됨/추론]",
+        "pricing_suggestion": "가격 전략 [추론]",
+        "revenue_potential": "상/중/하"
+      },
+      "dev_insight": {
+        "estimated_period": "개발 기간 [추론]",
+        "estimated_cost": "비용(만원) [추론]",
+        "tech_stack": ["기술1", "기술2"],
+        "key_features": ["기능1", "기능2"],
+        "clone_tip": "클론 팁 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": ["#1인개발가능", "#B2C"],
+      "verdict": "최종 코멘트 (50자 이내)"
+    }
+  ],
+  "android": [],
+  "daily_insight": {
+    "trend_summary": "오늘 트렌드 요약 (2문장)",
+    "trend_details": ["트렌드1", "트렌드2"],
+    "hot_categories": ["카테고리1"],
+    "opportunity": "기회 영역",
+    "action_item": "오늘의 액션"
+  }
+}
+
+## 점수 기준 (1~5점)
+- novelty: 참신성
+- necessity: 필요성
+- timing: 타이밍
+- tech_difficulty: 기술난이도 (5=쉬움)
+- market_size: 시장규모
+- competition: 경쟁강도 (5=블루오션)
+- profitability: 수익성
+- scalability: 확장성
+- overall: 종합 (10점 만점)
+
+## Confidence 태그 필수 사용
+
+⚠️ **필수: 모든 분석 문장 끝에 [확인], [추론], [추측] 중 하나를 반드시 붙일 것. 태그 없는 문장 금지.**
+
+- [확인]: 스토어/공식 정보에서 직접 확인
+- [추론]: 관련 데이터 기반 합리적 추론
+- [추측]: 정보 부족, 추측임을 명시
+
+---
+
+🚨 **마지막 확인: 응답은 반드시 `{` 로 시작하고 `}` 로 끝나는 순수 JSON이어야 함. 다른 텍스트 절대 금지!**
+
+수집된 앱:
