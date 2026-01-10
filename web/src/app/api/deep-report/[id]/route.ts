@@ -18,8 +18,8 @@ export async function GET(
       );
     }
 
-    // 리포트 경로
-    const reportsDir = path.join(process.cwd(), '..', 'reports', 'deep');
+    // 리포트 경로 (web/data/deep-reports 폴더)
+    const reportsDir = path.join(process.cwd(), 'data', 'deep-reports');
     const filePath = path.join(reportsDir, `${id}.md`);
 
     // 파일 읽기

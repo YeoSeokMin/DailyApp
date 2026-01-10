@@ -19,6 +19,7 @@ const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
 // 디렉토리 설정
 const DEEP_REPORTS_DIR = path.join(__dirname, '..', 'reports', 'deep');
+const WEB_REPORTS_DIR = path.join(__dirname, '..', 'web', 'data', 'deep-reports');
 const PROMPT_DEEP_PATH = path.join(__dirname, 'prompt-deep.txt');
 
 /**
@@ -208,6 +209,10 @@ async function analyzeAllDeep(apps, platform) {
 
       // 즉시 저장 (실패해도 이미 저장된 건 유지)
       await fs.writeFile(deepPath, report, 'utf8');
+      // 웹 폴더에도 저장 (Vercel 배포용)
+      const webPath = path.join(WEB_REPORTS_DIR, `${appId}.md`);
+      await fs.mkdir(WEB_REPORTS_DIR, { recursive: true });
+      await fs.writeFile(webPath, report, 'utf8');
       console.log(`   ✅ 저장 완료: ${path.basename(deepPath)}`);
       successCount++;
 
@@ -252,8 +257,12 @@ async function analyzeOne(appName, platform = 'ios') {
 
   try {
     await fs.mkdir(DEEP_REPORTS_DIR, { recursive: true });
+    await fs.mkdir(WEB_REPORTS_DIR, { recursive: true });
     const report = await analyzeDeep(app, platform);
     await fs.writeFile(deepPath, report, 'utf8');
+    // 웹 폴더에도 저장
+    const webPath = path.join(WEB_REPORTS_DIR, `${appId}.md`);
+    await fs.writeFile(webPath, report, 'utf8');
     console.log(`\n✅ 심층 분석 완료: ${deepPath}`);
     return { appId, path: deepPath };
   } catch (error) {
