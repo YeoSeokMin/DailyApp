@@ -1,10 +1,25 @@
 {
-  "generatedAt": "2026-01-10T21:09:50.738Z",
+  "generatedAt": "2026-01-11T16:45:50.916Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "캐주얼",
+      "currentCount": 5,
+      "previousCount": 1,
+      "changePercent": 400,
+      "changeDirection": "up",
+      "apps": [
+        "Bejeweled Classic",
+        "Idle Miner: Ore Empire",
+        "Star Pop Mania",
+        "Run Giant Run!",
+        "Runaway Jester 2"
+      ],
+      "avgScore": 6.5
+    },
     {
       "category": "도구",
       "currentCount": 3,
@@ -19,38 +34,62 @@
       "avgScore": 6.866666666666667
     },
     {
-      "category": "생산성",
-      "currentCount": 12,
-      "previousCount": 6,
+      "category": "교육",
+      "currentCount": 8,
+      "previousCount": 4,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "autoCloud",
-        "Kosmogram Cina",
-        "Comodoro",
-        "BottleneckMultiMax",
-        "Scan to Text OCR - Ocrly",
-        "UnityPlanAI",
-        "プレゼン時計 (프레젠테이션 시계)",
-        "Simple Calendar - Task Tracker",
-        "PixSwipe: Photo Delete Swipe",
-        "잠잘시각(Time2sleep): 앱 잠금, 차단, 수면",
-        "이미지를 엑셀 파일로 변환",
-        "MindSet (습관 트래커)"
+        "Piccadilly Connect",
+        "MLSEsk",
+        "DMV Test Practice Pro",
+        "Edlevo Elev",
+        "Way to Wisdom",
+        "Natlh-sri (Tolowa Our Stories)",
+        "지구 지킴이: 일상 챌린지",
+        "クレーン・デリック運転士-試験対策"
       ],
-      "avgScore": 7.3
+      "avgScore": 6.375
     },
     {
-      "category": "비즈니스",
+      "category": "쇼핑",
       "currentCount": 2,
-      "previousCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Mega Gym",
-        "Nine Work for Intune"
+        "Earthly Pets Co",
+        "Mom Bloom"
       ],
-      "avgScore": 7.25
+      "avgScore": 6.55
+    },
+    {
+      "category": "퍼즐",
+      "currentCount": 7,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Tap Shift: Arrow Escape Puzzle",
+        "Tap Shift: Arrow Escape Puzzle",
+        "DownRight: Block Puzzle Game",
+        "ねこっぽ - にほんごを学べるパズル",
+        "Tap Shift: Arrow Escape Puzzle",
+        "brain games 2021",
+        "Drop Jewel・Block Master Blast"
+      ],
+      "avgScore": 6.585714285714286
+    },
+    {
+      "category": "카드",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Warhammer Horus Heresy Legions"
+      ],
+      "avgScore": 5
     },
     {
       "category": "커뮤니케이션",
@@ -98,22 +137,6 @@
       "avgScore": 6.4
     },
     {
-      "category": "퍼즐",
-      "currentCount": 6,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Tap Shift: Arrow Escape Puzzle",
-        "DownRight: Block Puzzle Game",
-        "ねこっぽ - にほんごを学べるパズル",
-        "Tap Shift: Arrow Escape Puzzle",
-        "brain games 2021",
-        "Drop Jewel・Block Master Blast"
-      ],
-      "avgScore": 6.716666666666666
-    },
-    {
       "category": "사진/뷰티",
       "currentCount": 1,
       "previousCount": 0,
@@ -147,31 +170,6 @@
       "avgScore": 5.4
     },
     {
-      "category": "쇼핑",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Mom Bloom"
-      ],
-      "avgScore": 7.6
-    },
-    {
-      "category": "캐주얼",
-      "currentCount": 4,
-      "previousCount": 2,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Idle Miner: Ore Empire",
-        "Star Pop Mania",
-        "Run Giant Run!",
-        "Runaway Jester 2"
-      ],
-      "avgScore": 6.75
-    },
-    {
       "category": "출산/육아",
       "currentCount": 1,
       "previousCount": 0,
@@ -181,30 +179,6 @@
         "전화번호 위치 추적기"
       ],
       "avgScore": 7.2
-    },
-    {
-      "category": "음악/오디오",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Radio Me - Internet FM Player",
-        "Avee Music Player (Pro)"
-      ],
-      "avgScore": 6.75
-    },
-    {
-      "category": "그래픽 및 디자인",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Ornamenter",
-        "拼豆图纸-拼豆助手 (비즈공예 도안)"
-      ],
-      "avgScore": 7.25
     },
     {
       "category": "개인화",
@@ -251,101 +225,61 @@
       "avgScore": 6.5
     },
     {
-      "category": "스포츠",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "금융",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Yamaha Factory Racing",
-        "Yoyar - Sport News"
+        "Assuranci",
+        "Tawi Loans Finder",
+        "DailyBudget - 하루 예산 플래너"
       ],
-      "avgScore": 7.2
-    },
-    {
-      "category": "교육/취업",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Crack IT Jobs"
-      ],
-      "avgScore": 7.6
-    },
-    {
-      "category": "교육",
-      "currentCount": 6,
-      "previousCount": 5,
-      "changePercent": 20,
-      "changeDirection": "up",
-      "apps": [
-        "DMV Test Practice Pro",
-        "Edlevo Elev",
-        "Way to Wisdom",
-        "Natlh-sri (Tolowa Our Stories)",
-        "지구 지킴이: 일상 챌린지",
-        "クレーン・デリック運転士-試験対策"
-      ],
-      "avgScore": 6.783333333333332
+      "avgScore": 7.533333333333334
     }
   ],
   "decliningCategories": [
     {
-      "category": "유틸리티",
-      "currentCount": 9,
-      "previousCount": 11,
-      "changePercent": -18,
-      "changeDirection": "down",
-      "apps": [
-        "Feel Sense:Ritual",
-        "Set7 Safe",
-        "amps kw calculator",
-        "Car Tracker Premium",
-        "Africa Mobile Codes",
-        "Wagabond Pets",
-        "TV Remote: Smart Control",
-        "JBS SCANNER",
-        "QuickPick – Coin Flip & Dice"
-      ],
-      "avgScore": 6.955555555555555
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 4,
+      "category": "생산성",
+      "currentCount": 8,
       "previousCount": 9,
-      "changePercent": -56,
+      "changePercent": -11,
       "changeDirection": "down",
       "apps": [
-        "Aquarium Tank Tracker: AquaLog",
-        "JokesChief",
-        "Marketecture Live",
-        "Leave+ (휴가 관리)"
+        "autoCloud",
+        "Kosmogram Cina",
+        "Comodoro",
+        "BottleneckMultiMax",
+        "Scan to Text OCR - Ocrly",
+        "UnityPlanAI",
+        "プレゼン時計 (프레젠테이션 시계)",
+        "Simple Calendar - Task Tracker"
       ],
-      "avgScore": 7.35
-    },
-    {
-      "category": "엔터테인먼트",
-      "currentCount": 2,
-      "previousCount": 5,
-      "changePercent": -60,
-      "changeDirection": "down",
-      "apps": [
-        "Rezona: AI Game Maker",
-        "Falling Filter Challenge"
-      ],
-      "avgScore": 7.9
+      "avgScore": 6.925
     },
     {
       "category": "소셜 네트워킹",
       "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
+      "previousCount": 2,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
         "WhatsToolbox"
       ],
       "avgScore": 7.5
+    },
+    {
+      "category": "라이프스타일",
+      "currentCount": 3,
+      "previousCount": 8,
+      "changePercent": -62,
+      "changeDirection": "down",
+      "apps": [
+        "Aquarium Tank Tracker: AquaLog",
+        "JokesChief",
+        "Marketecture Live"
+      ],
+      "avgScore": 7.233333333333333
     },
     {
       "category": "건강 및 피트니스",
@@ -361,6 +295,32 @@
   ],
   "stableCategories": [
     {
+      "category": "비즈니스",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "GÜIRI Comercios",
+        "Mega Gym"
+      ],
+      "avgScore": 6.1
+    },
+    {
+      "category": "엔터테인먼트",
+      "currentCount": 4,
+      "previousCount": 4,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Rezona: AI Game Maker",
+        "Falling Filter Challenge",
+        "Rezona: AI Game Maker",
+        "Falling Filter Challenge"
+      ],
+      "avgScore": 7.325
+    },
+    {
       "category": "참고",
       "currentCount": 1,
       "previousCount": 1,
@@ -370,19 +330,6 @@
         "ScriptureDaily"
       ],
       "avgScore": 6.2
-    },
-    {
-      "category": "금융",
-      "currentCount": 3,
-      "previousCount": 3,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Assuranci",
-        "Tawi Loans Finder",
-        "DailyBudget - 하루 예산 플래너"
-      ],
-      "avgScore": 7.533333333333334
     },
     {
       "category": "게임",
@@ -399,6 +346,28 @@
       "avgScore": 7.3500000000000005
     },
     {
+      "category": "음악/오디오",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Radio Me - Internet FM Player"
+      ],
+      "avgScore": 6.2
+    },
+    {
+      "category": "그래픽 및 디자인",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Ornamenter"
+      ],
+      "avgScore": 7
+    },
+    {
       "category": "음식 및 음료",
       "currentCount": 1,
       "previousCount": 1,
@@ -408,14 +377,47 @@
         "Pink Cactus Tea"
       ],
       "avgScore": 7.6
+    },
+    {
+      "category": "스포츠",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Yamaha Factory Racing"
+      ],
+      "avgScore": 7.2
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 10,
+      "previousCount": 11,
+      "changePercent": -9,
+      "changeDirection": "stable",
+      "apps": [
+        "Rizon BMS",
+        "Feel Sense:Ritual",
+        "Set7 Safe",
+        "amps kw calculator",
+        "Car Tracker Premium",
+        "Africa Mobile Codes",
+        "Wagabond Pets",
+        "TV Remote: Smart Control",
+        "JBS SCANNER",
+        "QuickPick – Coin Flip & Dice"
+      ],
+      "avgScore": 6.76
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 60,
+      "count": 54,
       "apps": [
+        "MLSEsk",
+        "Tap Shift: Arrow Escape Puzzle",
         "ScriptureDaily",
         "autoCloud",
         "Feel Sense:Ritual",
@@ -426,7 +428,6 @@
         "Comodoro",
         "Block Merge",
         "Photo Metadata Viewer App",
-        "Tap Shift: Arrow Escape Puzzle",
         "ShoppyList",
         "Baby Face - Watch Patterns",
         "BottleneckMultiMax",
@@ -466,21 +467,13 @@
         "クレーン・デリック運転士-試験対策",
         "QuickPick – Coin Flip & Dice",
         "brain games 2021",
-        "iCamera : Camera for îphøne 14",
-        "PixSwipe: Photo Delete Swipe",
-        "잠잘시각(Time2sleep): 앱 잠금, 차단, 수면",
-        "이미지를 엑셀 파일로 변환",
-        "拼豆图纸-拼豆助手 (비즈공예 도안)",
-        "Leave+ (휴가 관리)",
-        "MindSet (습관 트래커)",
-        "Crack IT Jobs",
-        "Yoyar - Sport News"
+        "iCamera : Camera for îphøne 14"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 58,
+      "count": 50,
       "apps": [
         "ScriptureDaily",
         "autoCloud",
@@ -530,15 +523,7 @@
         "Metro Palermo",
         "Image Converter - PNG JPG JPEG",
         "クレーン・デリック運転士-試験対策",
-        "QuickPick – Coin Flip & Dice",
-        "PixSwipe: Photo Delete Swipe",
-        "잠잘시각(Time2sleep): 앱 잠금, 차단, 수면",
-        "拼豆图纸-拼豆助手 (비즈공예 도안)",
-        "Leave+ (휴가 관리)",
-        "MindSet (습관 트래커)",
-        "Avee Music Player (Pro)",
-        "Crack IT Jobs",
-        "Yoyar - Sport News"
+        "QuickPick – Coin Flip & Dice"
       ]
     },
     {
@@ -546,10 +531,10 @@
       "category": "ai",
       "count": 18,
       "apps": [
+        "Rezona: AI Game Maker",
         "ScriptureDaily",
         "Assuranci",
         "Spam Blocker: Call and SMS",
-        "Rezona: AI Game Maker",
         "PRO Hair Edit",
         "ShoppyList",
         "UnityPlanAI",
@@ -557,14 +542,33 @@
         "DailyBudget - 하루 예산 플래너",
         "Taipei Meter (北錶)",
         "JokesChief",
-        "brain games 2021",
-        "이미지를 엑셀 파일로 변환"
+        "brain games 2021"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 17,
+      "apps": [
+        "Earthly Pets Co",
+        "Rizon BMS",
+        "Tap Shift: Arrow Escape Puzzle",
+        "Falling Filter Challenge",
+        "Warhammer Horus Heresy Legions",
+        "Car Tracker Premium",
+        "Star Pop Mania",
+        "Nightmares Labyrinth Escape",
+        "Aquarium Tank Tracker: AquaLog",
+        "Simple Calendar - Task Tracker",
+        "Wear 4D+ for Android",
+        "TV Remote: Smart Control",
+        "Marketecture Live"
       ]
     },
     {
       "keyword": "유틸리티",
       "category": "tag",
-      "count": 15,
+      "count": 14,
       "apps": [
         "autoCloud",
         "Set7 Safe",
@@ -579,39 +583,35 @@
         "Taipei Meter (北錶)",
         "TV Remote: Smart Control",
         "Image Converter - PNG JPG JPEG",
-        "JBS SCANNER",
-        "PixSwipe: Photo Delete Swipe"
+        "JBS SCANNER"
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 12,
-      "apps": [
-        "Tap Shift: Arrow Escape Puzzle",
-        "Car Tracker Premium",
-        "Star Pop Mania",
-        "Nightmares Labyrinth Escape",
-        "Aquarium Tank Tracker: AquaLog",
-        "Simple Calendar - Task Tracker",
-        "Wear 4D+ for Android",
-        "TV Remote: Smart Control",
-        "Marketecture Live",
-        "Yoyar - Sport News"
-      ]
-    },
-    {
-      "keyword": "생산성",
-      "category": "productivity",
+      "keyword": "B2B",
+      "category": "tag",
       "count": 8,
       "apps": [
-        "Comodoro",
-        "UnityPlanAI",
-        "Simple Calendar - Task Tracker",
-        "Bluetooth NumPad",
-        "Image Converter - PNG JPG JPEG",
-        "이미지를 엑셀 파일로 변환",
-        "Leave+ (휴가 관리)"
+        "Piccadilly Connect",
+        "Rizon BMS",
+        "GÜIRI Comercios",
+        "Edlevo Elev",
+        "Mega Gym",
+        "Yamaha Factory Racing",
+        "Marketecture Live",
+        "JBS SCANNER"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 8,
+      "apps": [
+        "MLSEsk",
+        "Falling Filter Challenge",
+        "Way to Wisdom",
+        "Baby Face - Watch Patterns",
+        "Yamaha Factory Racing",
+        "B Stream"
       ]
     },
     {
@@ -619,39 +619,62 @@
       "category": "tag",
       "count": 7,
       "apps": [
+        "MLSEsk",
         "ScriptureDaily",
         "Kosmogram Cina",
         "BottleneckMultiMax",
         "Aquarium Tank Tracker: AquaLog",
         "Ornamenter",
-        "クレーン・デリック運転士-試験対策",
-        "拼豆图纸-拼豆助手 (비즈공예 도안)"
+        "クレーン・デリック運転士-試験対策"
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 7,
-      "apps": [
-        "Way to Wisdom",
-        "Baby Face - Watch Patterns",
-        "Falling Filter Challenge",
-        "Yamaha Factory Racing",
-        "B Stream",
-        "Avee Music Player (Pro)"
-      ]
-    },
-    {
-      "keyword": "B2B",
+      "keyword": "SaaS",
       "category": "tag",
       "count": 6,
       "apps": [
-        "Edlevo Elev",
+        "Piccadilly Connect",
+        "GÜIRI Comercios",
         "Mega Gym",
-        "Yamaha Factory Racing",
-        "Marketecture Live",
-        "JBS SCANNER",
-        "Nine Work for Intune"
+        "UnityPlanAI",
+        "Pink Cactus Tea",
+        "Marketecture Live"
+      ]
+    },
+    {
+      "keyword": "하이퍼캐주얼",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "Tap Shift: Arrow Escape Puzzle",
+        "Block Merge",
+        "Star Pop Mania",
+        "Run Giant Run!",
+        "Tiles In Hole: Black Hole"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "productivity",
+      "count": 6,
+      "apps": [
+        "Comodoro",
+        "UnityPlanAI",
+        "Simple Calendar - Task Tracker",
+        "Bluetooth NumPad",
+        "Image Converter - PNG JPG JPEG"
+      ]
+    },
+    {
+      "keyword": "게임",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "Rezona: AI Game Maker",
+        "DownRight: Block Puzzle Game",
+        "ねこっぽ - にほんごを学べるパズル",
+        "brain games 2021",
+        "Drop Jewel・Block Master Blast"
       ]
     },
     {
@@ -679,25 +702,33 @@
       ]
     },
     {
-      "keyword": "하이퍼캐주얼",
+      "keyword": "에듀테크",
       "category": "tag",
-      "count": 5,
+      "count": 4,
       "apps": [
-        "Block Merge",
-        "Star Pop Mania",
-        "Run Giant Run!",
-        "Tiles In Hole: Black Hole",
-        "Tap Shift: Arrow Escape Puzzle"
+        "Piccadilly Connect",
+        "MLSEsk",
+        "Wear 4D+ for Android",
+        "ねこっぽ - にほんごを学べるパズル"
       ]
     },
     {
-      "keyword": "크리에이터",
-      "category": "tag",
-      "count": 5,
+      "keyword": "노코드",
+      "category": "productivity",
+      "count": 4,
       "apps": [
-        "Rezona: AI Game Maker",
-        "Ornamenter",
-        "Avee Music Player (Pro)"
+        "Rezona: AI Game Maker"
+      ]
+    },
+    {
+      "keyword": "매칭",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "Bejeweled Classic",
+        "Dico - Video Chat & Meet",
+        "Marketecture Live",
+        "Drop Jewel・Block Master Blast"
       ]
     },
     {
@@ -712,63 +743,22 @@
       ]
     },
     {
-      "keyword": "SaaS",
-      "category": "tag",
-      "count": 4,
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 3,
       "apps": [
-        "Mega Gym",
-        "UnityPlanAI",
-        "Pink Cactus Tea",
-        "Marketecture Live"
+        "Piccadilly Connect",
+        "autoCloud",
+        "Aquarium Tank Tracker: AquaLog"
       ]
     },
     {
-      "keyword": "게임",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "DownRight: Block Puzzle Game",
-        "ねこっぽ - にほんごを学べるパズル",
-        "brain games 2021",
-        "Drop Jewel・Block Master Blast"
-      ]
-    },
-    {
-      "keyword": "웰니스",
+      "keyword": "광고수익",
       "category": "tag",
       "count": 3,
       "apps": [
-        "Feel Sense:Ritual",
-        "Way to Wisdom",
-        "Daily I Am Affirmations – Lima"
-      ]
-    },
-    {
-      "keyword": "보안",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Set7 Safe",
-        "Spam Blocker: Call and SMS",
-        "Nine Work for Intune"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 3,
-      "apps": [
-        "Dico - Video Chat & Meet",
-        "JokesChief"
-      ]
-    },
-    {
-      "keyword": "매칭",
-      "category": "social",
-      "count": 3,
-      "apps": [
-        "Dico - Video Chat & Meet",
-        "Marketecture Live",
+        "Tap Shift: Arrow Escape Puzzle",
+        "Tiles In Hole: Black Hole",
         "Drop Jewel・Block Master Blast"
       ]
     }
@@ -776,39 +766,39 @@
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 40,
-        "percent": 50,
+        "count": 37,
+        "percent": 46,
         "examples": [
-          "DMV Test Practice Pro",
-          "Assuranci",
-          "BottleneckMultiMax"
+          "Rizon BMS",
+          "Rezona: AI Game Maker",
+          "Tap Shift: Arrow Escape Puzzle"
         ]
       },
       "freemium": {
         "count": 62,
         "percent": 78,
         "examples": [
-          "ScriptureDaily",
-          "autoCloud",
-          "Feel Sense:Ritual"
+          "MLSEsk",
+          "Earthly Pets Co",
+          "Rizon BMS"
         ]
       },
       "subscription": {
-        "count": 34,
-        "percent": 43,
+        "count": 36,
+        "percent": 45,
         "examples": [
-          "ScriptureDaily",
-          "autoCloud",
-          "Feel Sense:Ritual"
+          "Piccadilly Connect",
+          "MLSEsk",
+          "Earthly Pets Co"
         ]
       },
       "onetime": {
-        "count": 26,
-        "percent": 33,
+        "count": 27,
+        "percent": 34,
         "examples": [
-          "DMV Test Practice Pro",
-          "Set7 Safe",
-          "Comodoro"
+          "MLSEsk",
+          "Rizon BMS",
+          "Warhammer Horus Heresy Legions"
         ]
       },
       "unknown": {
@@ -822,9 +812,9 @@
       "count": 62,
       "percent": 78,
       "examples": [
-        "ScriptureDaily",
-        "autoCloud",
-        "Feel Sense:Ritual"
+        "MLSEsk",
+        "Earthly Pets Co",
+        "Rizon BMS"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -833,26 +823,38 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 18,
-        "percent": 23,
+        "count": 20,
+        "percent": 25,
         "apps": [
+          "MLSEsk",
+          "Rezona: AI Game Maker",
+          "Falling Filter Challenge",
           "ScriptureDaily",
-          "Assuranci",
-          "Set7 Safe",
-          "Spam Blocker: Call and SMS",
-          "Dico - Video Chat & Meet"
+          "Assuranci"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 15,
-        "percent": 19,
+        "count": 19,
+        "percent": 24,
         "apps": [
-          "autoCloud",
-          "Feel Sense:Ritual",
-          "Mega Gym",
+          "Earthly Pets Co",
+          "Rizon BMS",
           "Tap Shift: Arrow Escape Puzzle",
-          "Car Tracker Premium"
+          "Falling Filter Challenge",
+          "Warhammer Horus Heresy Legions"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 9,
+        "apps": [
+          "Piccadilly Connect",
+          "Rezona: AI Game Maker",
+          "autoCloud",
+          "Rezona: AI Game Maker",
+          "UnityPlanAI"
         ]
       },
       {
@@ -860,11 +862,11 @@
         "count": 6,
         "percent": 8,
         "apps": [
+          "Bejeweled Classic",
           "Dico - Video Chat & Meet",
           "Baby Face - Watch Patterns",
           "Yamaha Factory Racing",
-          "Marketecture Live",
-          "Drop Jewel・Block Master Blast"
+          "Marketecture Live"
         ]
       },
       {
@@ -872,41 +874,20 @@
         "count": 6,
         "percent": 8,
         "apps": [
+          "MLSEsk",
           "Way to Wisdom",
           "Photo Metadata Viewer App",
           "Dico - Video Chat & Meet",
-          "Ornamenter",
-          "B Stream"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 5,
-        "percent": 6,
-        "apps": [
-          "autoCloud",
-          "Rezona: AI Game Maker",
-          "UnityPlanAI",
-          "Aquarium Tank Tracker: AquaLog",
-          "JBS SCANNER"
+          "Ornamenter"
         ]
       },
       {
         "tech": "subscription",
-        "count": 3,
-        "percent": 4,
+        "count": 2,
+        "percent": 3,
         "apps": [
           "UnityPlanAI",
-          "Pink Cactus Tea",
-          "PixSwipe: Photo Delete Swipe"
-        ]
-      },
-      {
-        "tech": "health",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "잠잘시각(Time2sleep): 앱 잠금, 차단, 수면"
+          "Pink Cactus Tea"
         ]
       },
       {
@@ -920,39 +901,39 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 18,
-      "percent": 23,
+      "count": 20,
+      "percent": 25,
       "apps": [
+        "MLSEsk",
+        "Rezona: AI Game Maker",
+        "Falling Filter Challenge",
         "ScriptureDaily",
-        "Assuranci",
-        "Set7 Safe",
-        "Spam Blocker: Call and SMS",
-        "Dico - Video Chat & Meet"
+        "Assuranci"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 18,
-        "percent": 23,
+        "count": 20,
+        "percent": 25,
         "apps": [
+          "MLSEsk",
+          "Rezona: AI Game Maker",
+          "Falling Filter Challenge",
           "ScriptureDaily",
-          "Assuranci",
-          "Set7 Safe",
-          "Spam Blocker: Call and SMS",
-          "Dico - Video Chat & Meet"
+          "Assuranci"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 15,
-        "percent": 19,
+        "count": 19,
+        "percent": 24,
         "apps": [
-          "autoCloud",
-          "Feel Sense:Ritual",
-          "Mega Gym",
+          "Earthly Pets Co",
+          "Rizon BMS",
           "Tap Shift: Arrow Escape Puzzle",
-          "Car Tracker Premium"
+          "Falling Filter Challenge",
+          "Warhammer Horus Heresy Legions"
         ]
       }
     ]
@@ -967,10 +948,17 @@
     },
     {
       "type": "rising_category",
-      "title": "비즈니스 카테고리 급부상",
+      "title": "쇼핑 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "비즈니스"
+      "category": "쇼핑"
+    },
+    {
+      "type": "rising_category",
+      "title": "카드 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "카드"
     },
     {
       "type": "rising_category",
@@ -1023,38 +1011,10 @@
     },
     {
       "type": "rising_category",
-      "title": "쇼핑 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "쇼핑"
-    },
-    {
-      "type": "rising_category",
-      "title": "캐주얼 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "캐주얼"
-    },
-    {
-      "type": "rising_category",
       "title": "출산/육아 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "출산/육아"
-    },
-    {
-      "type": "rising_category",
-      "title": "음악/오디오 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "음악/오디오"
-    },
-    {
-      "type": "rising_category",
-      "title": "그래픽 및 디자인 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "그래픽 및 디자인"
     },
     {
       "type": "rising_category",
@@ -1086,36 +1046,29 @@
     },
     {
       "type": "rising_category",
-      "title": "스포츠 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "금융 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "스포츠"
-    },
-    {
-      "type": "rising_category",
-      "title": "교육/취업 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "교육/취업"
+      "category": "금융"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "23%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "25%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "도구 카테고리가 200% 급상승. ai 기술 적용 앱이 증가 중.",
+    "trend_summary": "캐주얼 카테고리가 400% 급상승. ai 기술 적용 앱이 증가 중.",
     "trend_details": [
-      "도구 카테고리 관심 급증",
+      "캐주얼 카테고리 관심 급증",
       "'1인개발가능' 키워드 인기",
       "ai 기술 트렌드 지속"
     ],
     "hot_categories": [
-      "도구",
-      "생산성"
+      "캐주얼",
+      "도구"
     ],
     "opportunity": "200% 증가했지만 앱 수가 적어 진입 기회",
     "action_item": "AI 기능을 기존 앱에 통합하여 차별화",

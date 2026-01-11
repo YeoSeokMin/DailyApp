@@ -1,0 +1,679 @@
+{
+  "date": "2026-01-12",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "TodoLog",
+      "developer": "JONG HA PARK",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/9c/18/139c18c4-aae5-85c0-f871-b72bf2b2ed4d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/todolog/id6756988909",
+      "idea_summary": "할일 완료 시 터트리는 감성 투두리스트",
+      "analysis": {
+        "problem": "기존 할일 앱은 완료의 쾌감이 부족함 [추론]",
+        "solution": "할일 완료 시 터트리는 시각적 피드백 제공 [추론]",
+        "target_user": "감성적 UX를 선호하는 MZ세대 [추론]",
+        "unique_point": "완료 시 버블 터뜨리기 인터랙션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "부풀",
+          "원모어",
+          "Things 3"
+        ],
+        "timing_reason": "번아웃 시대, 작은 성취감을 주는 앱 수요 증가 [추론]",
+        "growth_potential": "감성 투두 니치 시장에서 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마/효과 IAP 예상 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 테마팩 3,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "UIKit/SwiftUI",
+          "Core Data",
+          "Lottie Animation"
+        ],
+        "key_features": [
+          "할일 CRUD",
+          "터뜨리기 애니메이션",
+          "알림",
+          "위젯"
+        ],
+        "clone_tip": "Lottie로 터뜨리기 효과, Core Data로 로컬 저장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#감성앱",
+        "#한국개발자"
+      ],
+      "verdict": "한국 개발자의 감성 투두앱, UX 차별화가 핵심",
+      "deep_report_id": "ios-todolog-1768147994590"
+    },
+    {
+      "rank": 2,
+      "name": "LineWords: Picture Word Puzzle",
+      "developer": "Fabrizio Billeci",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/ac/2e/1aac2e4f-bd7c-1a89-4071-ec9483844aa2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/linewords-picture-word-puzzle/id6757529663",
+      "idea_summary": "사진과 단어를 연결하는 퍼즐 게임",
+      "analysis": {
+        "problem": "단순 단어 퍼즐의 지루함 [추론]",
+        "solution": "이미지와 단어를 연결하는 새로운 퍼즐 방식 [추론]",
+        "target_user": "퍼즐/단어 게임을 즐기는 캐주얼 게이머 [추론]",
+        "unique_point": "시각적 힌트와 단어 조합의 융합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Wordle",
+          "4 Pics 1 Word",
+          "Wordscapes",
+          "Picture Word Puzzle"
+        ],
+        "timing_reason": "숏폼 시대 짧은 세션 퍼즐 게임 인기 지속 [추론]",
+        "growth_potential": "다국어 확장으로 글로벌 시장 공략 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 힌트 IAP [추론]",
+        "pricing_suggestion": "무료 + 광고제거 4,900원, 힌트팩 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "C#",
+          "Firebase",
+          "AdMob"
+        ],
+        "key_features": [
+          "이미지-단어 매칭",
+          "레벨 시스템",
+          "힌트",
+          "다국어 지원"
+        ],
+        "clone_tip": "Unity로 퍼즐 로직 구현, 레벨 데이터는 JSON으로 관리 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#캐주얼게임",
+        "#글로벌"
+      ],
+      "verdict": "검증된 단어퍼즐 장르, 콘텐츠 양이 승부",
+      "deep_report_id": "ios-linewords-picture-word-puzzle-1768148252654"
+    },
+    {
+      "rank": 3,
+      "name": "True Epub",
+      "developer": "Byung-woo Hwang",
+      "category": "도서",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/80/82/388082fa-9c57-921c-9230-70288e2a9402/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/true-epub/id6757480952",
+      "idea_summary": "EPUB 전자책 전용 리더기",
+      "analysis": {
+        "problem": "기존 리더기의 EPUB 렌더링 품질 문제 [추론]",
+        "solution": "EPUB 포맷에 특화된 고품질 리더 제공 [추론]",
+        "target_user": "전자책 헤비 유저, EPUB 파일 소장자 [추론]",
+        "unique_point": "EPUB 표준 완벽 지원, 깔끔한 렌더링 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Apple Books",
+          "PocketBook",
+          "Yomu",
+          "Bluefire Reader"
+        ],
+        "timing_reason": "DRM-free 전자책 수요 증가, 개인 라이브러리 관리 니즈 [추론]",
+        "growth_potential": "PDF/MOBI 지원 확장 시 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 프리미엄 기능 IAP [추론]",
+        "pricing_suggestion": "기본 무료 + 프로 버전 9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000-3500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WebKit",
+          "EPUB Parser",
+          "Core Data"
+        ],
+        "key_features": [
+          "EPUB 파싱",
+          "목차 탐색",
+          "책갈피",
+          "하이라이트",
+          "야간모드"
+        ],
+        "clone_tip": "오픈소스 EPUB 파서 활용, WebKit으로 렌더링 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#한국개발자"
+      ],
+      "verdict": "한국 개발자의 틈새 리더앱, 품질 차별화 필요",
+      "deep_report_id": "ios-true-epub-1768148373560"
+    },
+    {
+      "rank": 4,
+      "name": "KinStep",
+      "developer": "Khanh Ly Do Thi",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/b3/cf/1cb3cf39-9e0e-acc0-aa25-0a7123577f49/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/kinstep/id6757519658",
+      "idea_summary": "가족/친척과 걸음수 공유 앱",
+      "analysis": {
+        "problem": "혼자 걷기 동기부여 부족 [추론]",
+        "solution": "가족 간 걸음수 공유로 함께 건강 관리 [추론]",
+        "target_user": "가족 건강을 챙기는 30-50대 [추론]",
+        "unique_point": "가족(Kin) 중심 소셜 헬스 트래킹 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Stepz",
+          "StepsApp",
+          "Apple Health",
+          "Pacer"
+        ],
+        "timing_reason": "고령화 사회, 가족 건강 모니터링 니즈 증가 [추론]",
+        "growth_potential": "가족 커뮤니티 기능 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델 또는 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료 + 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Firebase",
+          "CloudKit"
+        ],
+        "key_features": [
+          "걸음수 트래킹",
+          "가족 그룹",
+          "실시간 동기화",
+          "랭킹"
+        ],
+        "clone_tip": "HealthKit 연동, Firebase로 실시간 동기화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#가족앱"
+      ],
+      "verdict": "가족 중심 헬스앱, 차별화된 소셜 요소가 핵심",
+      "deep_report_id": "ios-kinstep-1768148598386"
+    },
+    {
+      "rank": 5,
+      "name": "Raudhatul Mahabbah",
+      "developer": "NUDHARI ABDULREHMAN HAMID",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/67/3c/75673c74-b4ab-b602-9f48-0b2bf7b37a3d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/raudhatul-mahabbah/id6756413746",
+      "idea_summary": "금요일 살라왓 기도 카운터 앱",
+      "analysis": {
+        "problem": "무슬림의 주간 살라왓 기도 횟수 추적 어려움 [확인]",
+        "solution": "금요일 살라왓 기도 카운팅 및 커뮤니티 공유 [확인]",
+        "target_user": "전 세계 무슬림 신자 [확인]",
+        "unique_point": "집단적 기도 참여와 달성 현황 공유 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Muslim Pro",
+          "Athan",
+          "Quran Majeed"
+        ],
+        "timing_reason": "종교 디지털화 트렌드, 커뮤니티 기반 신앙생활 [추론]",
+        "growth_potential": "무슬림 인구 20억, 거대한 잠재 시장 [추론]"
+      },
+      "business": {
+        "monetization": "기부 기반 또는 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료 + 선택적 기부 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "Swift/Kotlin",
+          "Firebase",
+          "Push Notification"
+        ],
+        "key_features": [
+          "카운터",
+          "주간 목표",
+          "커뮤니티 집계",
+          "알림"
+        ],
+        "clone_tip": "간단한 카운터 + Firebase 실시간 DB로 집계 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#종교앱",
+        "#글로벌"
+      ],
+      "verdict": "무슬림 특화 니치앱, 신앙 커뮤니티 활용 잠재력",
+      "deep_report_id": "ios-raudhatul-mahabbah-1768148716499"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Eye Break Reminder",
+      "developer": "Levwome Team",
+      "category": "건강",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.eyebreakreminder.levwometeam",
+      "idea_summary": "20-20-20 규칙 눈 휴식 알림 앱",
+      "analysis": {
+        "problem": "장시간 스크린 사용으로 인한 눈 피로 [확인]",
+        "solution": "20분마다 20초간 20피트 밖 응시 알림 [확인]",
+        "target_user": "직장인, 학생, 게이머 등 장시간 스크린 사용자 [추론]",
+        "unique_point": "20-20-20 규칙 전문 앱, 간단한 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Eye Reliever",
+          "Blinkzilla",
+          "20-20-20 Reminder"
+        ],
+        "timing_reason": "재택근무/온라인 학습 증가로 눈 건강 관심 급증 [추론]",
+        "growth_potential": "눈 건강 종합 케어 앱으로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 + 광고제거 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "AlarmManager",
+          "Foreground Service",
+          "Room DB"
+        ],
+        "key_features": [
+          "타이머",
+          "알림",
+          "통계",
+          "눈 운동 가이드"
+        ],
+        "clone_tip": "AlarmManager로 정기 알림, 간단한 통계 화면 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#간단구현"
+      ],
+      "verdict": "필수 건강앱, 간단 구현 가능하나 경쟁 치열",
+      "deep_report_id": "android-eye-break-reminder-1768148898609"
+    },
+    {
+      "rank": 2,
+      "name": "Ultra-Simple Diet App CalMemo",
+      "developer": "AnnKoromochi",
+      "category": "건강/피트니스",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.annkoromochi.calmemo",
+      "idea_summary": "초간단 칼로리 메모 다이어트 앱",
+      "analysis": {
+        "problem": "복잡한 칼로리 계산 앱의 피로감 [추론]",
+        "solution": "극도로 단순화된 칼로리 기록 방식 [추론]",
+        "target_user": "다이어트 중인 모든 연령대, 특히 간편함 선호자 [추론]",
+        "unique_point": "Ultra-Simple이라는 이름처럼 극단적 단순함 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "다이어트신",
+          "FatSecret",
+          "MyFitnessPal",
+          "Yazio"
+        ],
+        "timing_reason": "앱 피로감 시대, 미니멀 앱 선호 트렌드 [추론]",
+        "growth_potential": "일본/한국 시장 타겟팅 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 [추론]",
+        "pricing_suggestion": "무료 + 광고제거 3,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room DB",
+          "MPAndroidChart",
+          "DataStore"
+        ],
+        "key_features": [
+          "칼로리 입력",
+          "일별 기록",
+          "그래프",
+          "목표 설정"
+        ],
+        "clone_tip": "Room으로 로컬 저장, 차트 라이브러리로 시각화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#미니멀"
+      ],
+      "verdict": "미니멀 다이어트앱, 단순함이 USP",
+      "deep_report_id": "android-ultra-simple-diet-app-calmemo-1768149102245"
+    },
+    {
+      "rank": 3,
+      "name": "Seat Up: Logic Puzzle",
+      "developer": "정보 없음",
+      "category": "퍼즐 게임",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seatup.puzzle",
+      "idea_summary": "좌석 배치 논리 퍼즐 게임",
+      "analysis": {
+        "problem": "새로운 캐주얼 퍼즐 게임에 대한 수요 [추론]",
+        "solution": "캐릭터를 올바른 좌석에 배치하는 논리 퍼즐 [확인]",
+        "target_user": "퍼즐 게임 애호가, 짧은 시간 게임 유저 [추론]",
+        "unique_point": "좌석 배치라는 직관적이고 재미있는 컨셉 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "That's My Seat",
+          "Is This Seat Taken?",
+          "Seat Master"
+        ],
+        "timing_reason": "숏폼 콘텐츠 시대, 짧은 세션 퍼즐 인기 [추론]",
+        "growth_potential": "레벨 추가로 장기 운영 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 힌트 IAP [추론]",
+        "pricing_suggestion": "무료 + 광고제거 4,900원 [추론]",
+        "revenue_potential": "중상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "1000-2000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "C#",
+          "AdMob",
+          "Firebase"
+        ],
+        "key_features": [
+          "좌석 배치 퍼즐",
+          "다양한 캐릭터",
+          "레벨 시스템",
+          "힌트"
+        ],
+        "clone_tip": "Unity로 드래그앤드롭 구현, 레벨 데이터 JSON 관리 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#캐주얼게임",
+        "#글로벌"
+      ],
+      "verdict": "인기 장르 변형, That's My Seat 등 경쟁작 다수",
+      "deep_report_id": "android-seat-up-logic-puzzle-1768149303717"
+    },
+    {
+      "rank": 4,
+      "name": "LiveMic: Bluetooth Mic Speaker",
+      "developer": "GV Productions",
+      "category": "음악/오디오",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gv.microphone.amplifier.live.mic.speaker",
+      "idea_summary": "스마트폰을 블루투스 마이크로 변환",
+      "analysis": {
+        "problem": "마이크 없이 스피커 출력 필요한 상황 [확인]",
+        "solution": "스마트폰 마이크를 블루투스 스피커로 전송 [확인]",
+        "target_user": "행사 진행자, 교사, 가라오케 애호가 [추론]",
+        "unique_point": "별도 장비 없이 스마트폰만으로 마이크 기능 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Live Mic to Bluetooth Speaker",
+          "AGB Live Mic"
+        ],
+        "timing_reason": "무선 블루투스 스피커 보급 확대 [추론]",
+        "growth_potential": "이퀄라이저, 이펙트 추가로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 기능 [확인]",
+        "pricing_suggestion": "무료 + 프리미엄 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "AudioRecord",
+          "Bluetooth A2DP",
+          "AudioTrack"
+        ],
+        "key_features": [
+          "마이크 입력",
+          "블루투스 출력",
+          "이퀄라이저",
+          "에코 방지"
+        ],
+        "clone_tip": "AudioRecord로 입력, Bluetooth 프로파일로 출력 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#오디오"
+      ],
+      "verdict": "실용적 유틸리티, 오디오 레이턴시 최적화가 관건",
+      "deep_report_id": "android-livemic-bluetooth-mic-speaker-1768149508279"
+    },
+    {
+      "rank": 5,
+      "name": "제작왕 김포지 VIP",
+      "developer": "Cat Lab",
+      "category": "롤플레잉",
+      "icon": "https://play-lh.googleusercontent.com/0PMoKOX7ictOwd2_IUskR5QJ6Gw6SmbMhM-rGGQ-weavfHuJ3cnlN8y74MlAQ1iSrXc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.catlab.blacksmithvip&hl=ko&gl=kr",
+      "idea_summary": "대장장이 경영 오프라인 도트 RPG",
+      "analysis": {
+        "problem": "온라인 게임의 데이터/배터리 소모 문제 [추론]",
+        "solution": "오프라인으로 즐기는 도트 그래픽 경영 RPG [확인]",
+        "target_user": "레트로 도트 게임, 방치형 게임 선호 유저 [추론]",
+        "unique_point": "VIP 버전으로 광고 제거, 보석/골드 지급 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Shop Titans",
+          "Weapon Shop Fantasy",
+          "성장상점"
+        ],
+        "timing_reason": "오프라인 게임, 방치형 게임 꾸준한 인기 [추론]",
+        "growth_potential": "시리즈화, IP 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 VIP 판매 + IAP [확인]",
+        "pricing_suggestion": "VIP 4,900원 + 추가 IAP [확인]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "C#",
+          "SQLite",
+          "도트 에셋"
+        ],
+        "key_features": [
+          "대장장이 시뮬레이션",
+          "용사 고용",
+          "왕국 이벤트",
+          "오프라인 진행"
+        ],
+        "clone_tip": "Unity 2D로 도트 구현, 오프라인 시간 계산 로직 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.4
+      },
+      "tags": [
+        "#한국개발자",
+        "#B2C",
+        "#인디게임",
+        "#도트그래픽"
+      ],
+      "verdict": "구글 인디페스 선정작, 한국 인디 성공 사례",
+      "deep_report_id": "android-제작왕-김포지-vip-1768149650755"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "헬스케어 앱(눈 휴식, 다이어트, 걸음수)과 미니멀 유틸리티 앱이 눈에 띈다. 복잡함보다 단순함을 추구하는 앱들이 신규 출시되고 있다.",
+    "trend_details": [
+      "20-20-20 규칙 등 눈 건강 앱 지속 등장",
+      "가족 중심 소셜 기능 결합 헬스앱 증가",
+      "미니멀/Ultra-Simple 컨셉 앱 트렌드",
+      "좌석 배치 논리 퍼즐 장르 인기",
+      "오프라인 플레이 가능 게임 선호 지속"
+    ],
+    "hot_categories": [
+      "헬스케어",
+      "캐주얼 퍼즐",
+      "유틸리티",
+      "종교앱"
+    ],
+    "opportunity": "눈 건강, 디지털 디톡스 관련 앱 시장이 성장 중이며, 간단한 구현으로 진입 가능한 분야이다. 가족/커뮤니티 연결 기능을 추가한 헬스앱도 차별화 포인트가 될 수 있다.",
+    "action_item": "20-20-20 눈 휴식 알림 앱을 1-2개월 내 MVP로 출시해보자. AlarmManager와 간단한 UI로 빠른 구현이 가능하며, 재택근무자 타겟 마케팅으로 초기 유저 확보를 노릴 수 있다."
+  }
+}
