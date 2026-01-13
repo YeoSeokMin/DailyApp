@@ -11,6 +11,8 @@ import threading
 import queue
 import time
 from datetime import datetime
+import urllib.request
+import json
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -18,7 +20,7 @@ class DailyAppManager:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("DailyApp Manager")
-        self.root.geometry("500x720")
+        self.root.geometry("500x780")
         self.root.resizable(False, False)
         self.root.configure(bg="#0f0f1a")
 
@@ -36,8 +38,8 @@ class DailyAppManager:
     def center_window(self):
         self.root.update_idletasks()
         x = (self.root.winfo_screenwidth() - 500) // 2
-        y = (self.root.winfo_screenheight() - 720) // 2
-        self.root.geometry(f"500x720+{x}+{y}")
+        y = (self.root.winfo_screenheight() - 780) // 2
+        self.root.geometry(f"500x780+{x}+{y}")
 
     def create_widgets(self):
         # 헤더
@@ -170,6 +172,21 @@ class DailyAppManager:
             **btn_style
         )
         btn_disable.pack(side="right", expand=True, fill="x", padx=(5, 0))
+
+        # 버튼 행 3 - 광고 관리
+        row3 = tk.Frame(btn_frame, bg="#0f0f1a")
+        row3.pack(fill="x", pady=5)
+
+        btn_reset_ads = tk.Button(
+            row3,
+            text="🗑  광고 슬롯 초기화",
+            bg="#ff6b6b",
+            fg="white",
+            activebackground="#ee5a5a",
+            command=self.reset_ads,
+            **btn_style
+        )
+        btn_reset_ads.pack(expand=True, fill="x")
 
         # 로그 영역
         log_frame = tk.Frame(self.root, bg="#0f0f1a")
@@ -452,6 +469,34 @@ class DailyAppManager:
         """자동실행 끄기"""
         self.auto_run_enabled = False
         self.log("자동실행 꺼짐", "info")
+
+    def reset_ads(self):
+        """광고 슬롯 초기화"""
+        def task():
+            self.log("", "info")
+            self.log("🗑 광고 슬롯 초기화 시작...", "info")
+
+            try:
+                # API URL (배포된 사이트)
+                url = "https://dailyapp.vercel.app/api/ad/slots"
+
+                req = urllib.request.Request(url, method='DELETE')
+                req.add_header('Content-Type', 'application/json')
+
+                with urllib.request.urlopen(req, timeout=10) as response:
+                    result = json.loads(response.read().decode('utf-8'))
+
+                    if result.get('success'):
+                        self.log("✅ 모든 광고 슬롯이 초기화되었습니다!", "success")
+                    else:
+                        self.log(f"❌ 초기화 실패: {result.get('message', '알 수 없는 오류')}", "error")
+
+            except urllib.error.URLError as e:
+                self.log(f"❌ 네트워크 오류: {str(e)}", "error")
+            except Exception as e:
+                self.log(f"❌ 오류 발생: {str(e)}", "error")
+
+        threading.Thread(target=task, daemon=True).start()
 
     def run(self):
         self.root.mainloop()

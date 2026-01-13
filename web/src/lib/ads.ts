@@ -217,3 +217,8 @@ export async function getWinnerHistory(): Promise<WinnerRecord[]> {
   const history = await kv.lrange<WinnerRecord>(WINNER_HISTORY_KEY, 0, 99);
   return history || [];
 }
+
+// 모든 광고 슬롯 초기화
+export async function resetAllSlots(): Promise<void> {
+  await kv.set(SLOTS_KEY, DEFAULT_SLOTS);
+}
