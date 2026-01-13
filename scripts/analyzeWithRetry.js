@@ -7,6 +7,8 @@
  * - 점진적 품질 향상
  */
 
+require('dotenv').config();
+
 const Anthropic = require('@anthropic-ai/sdk');
 const fs = require('fs').promises;
 const path = require('path');

@@ -9,6 +9,8 @@
  * - AI 인사이트 생성
  */
 
+require('dotenv').config();
+
 const fs = require('fs').promises;
 const path = require('path');
 const Anthropic = require('@anthropic-ai/sdk');
