@@ -1,0 +1,2246 @@
+{
+  "date": "2026-01-13",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Coin Identifier Value Finder",
+      "developer": "Kiryl Nazarau",
+      "category": "참고",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/c1/97/7fc197a2-65c7-8eba-485a-abf5ece1a65c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/coin-identifier-value-finder/id6757428708",
+      "idea_summary": "AI로 동전 사진 찍어 가치 확인",
+      "analysis": {
+        "problem": "수집가들이 동전 가치를 쉽게 알기 어려움 [추론]",
+        "solution": "카메라로 동전 촬영 시 AI가 종류와 시세를 분석 [추론]",
+        "target_user": "동전 수집가, 골동품 딜러, 일반 호기심 유저 [추론]",
+        "unique_point": "전문가 없이 즉시 동전 가치 감정 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CoinSnap",
+          "Coinoscope",
+          "PCGS Photograde"
+        ],
+        "timing_reason": "AI 이미지 인식 기술 발전과 빈티지/수집 트렌드 성장 [추론]",
+        "growth_potential": "글로벌 동전 수집 시장 규모 증가, 신흥국 중산층 확대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 스캔당 과금 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 $4.99 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Vision Framework",
+          "Core ML",
+          "동전 DB API"
+        ],
+        "key_features": [
+          "카메라 동전 인식",
+          "AI 분류",
+          "시세 조회",
+          "컬렉션 관리"
+        ],
+        "clone_tip": "Numista API 연동으로 동전 DB 구축, Vision 프레임워크 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용",
+        "#니치마켓"
+      ],
+      "verdict": "AI 이미지 인식 활용한 틈새시장 공략, 수집가 커뮤니티 마케팅 필수",
+      "deep_report_id": "ios-coin-identifier-value-finder-1768263360045"
+    },
+    {
+      "rank": 2,
+      "name": "GPS Fields & Land Area Measure",
+      "developer": "Jaydeep Dhameliya",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/19/1d/fe/191dfe63-59bf-2be6-23e2-72b282c0ec86/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gps-fields-land-area-measure/id1402037943",
+      "idea_summary": "GPS로 토지/농지 면적 정밀 측정",
+      "analysis": {
+        "problem": "농업인/부동산 관계자가 토지 면적을 정확히 측정하기 어려움 [추론]",
+        "solution": "GPS 기반으로 걸어서 경계를 표시하면 자동 면적 계산 [추론]",
+        "target_user": "농업인, 부동산 중개인, 측량사, 토지 소유자 [추론]",
+        "unique_point": "전문 측량 장비 없이 스마트폰만으로 정밀 측정 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Geo Measure",
+          "Planimeter",
+          "Land Calculator"
+        ],
+        "timing_reason": "스마트 농업 확산과 GPS 정밀도 향상 [추론]",
+        "growth_potential": "AgTech 시장 성장과 토지 관리 디지털화 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "무료 기본 + 연간 $29.99 프로 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Location",
+          "MapKit",
+          "위성지도 API"
+        ],
+        "key_features": [
+          "GPS 경계 추적",
+          "면적 자동 계산",
+          "지도 오버레이",
+          "데이터 저장/공유"
+        ],
+        "clone_tip": "Core Location 고정밀 모드와 폴리곤 면적 계산 알고리즘 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "실용성 높은 툴, 농업/부동산 B2B 영업으로 확장 가능",
+      "deep_report_id": "ios-gps-fields-land-area-measure-1768263604772"
+    },
+    {
+      "rank": 3,
+      "name": "Buck: Expense Tracker & Budget",
+      "developer": "Muneeb Rana",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/f2/21/def2210f-3898-7c71-09f1-5dc6f5ca6e67/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/buck-expense-tracker-budget/id6755629366",
+      "idea_summary": "심플한 지출 추적 및 예산 관리 앱",
+      "analysis": {
+        "problem": "복잡한 가계부 앱에 지쳐 포기하는 사용자 많음 [추론]",
+        "solution": "최소한의 입력으로 지출 기록, 직관적 예산 시각화 [추론]",
+        "target_user": "MZ세대, 재정 관리 초보자, 미니멀리스트 [추론]",
+        "unique_point": "과도한 기능 없이 핵심 지출 관리에만 집중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Mint",
+          "YNAB",
+          "뱅크샐러드",
+          "토스"
+        ],
+        "timing_reason": "경기 불확실성으로 개인 재정 관리 관심 증가 [추론]",
+        "growth_potential": "금융 리터러시 향상 트렌드, 구독 경제 관리 니즈 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (고급 분석, 무제한 카테고리) [추론]",
+        "pricing_suggestion": "무료 기본 + 월 $2.99 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "빠른 지출 입력",
+          "카테고리 분류",
+          "예산 설정",
+          "그래프 시각화"
+        ],
+        "clone_tip": "SwiftUI로 심플한 UX 구현, 위젯 지원으로 접근성 향상 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#레드오션",
+        "#미니멀"
+      ],
+      "verdict": "레드오션이지만 차별화된 UX로 틈새 공략 가능",
+      "deep_report_id": "ios-buck-expense-tracker-budget-1768263793539"
+    },
+    {
+      "rank": 4,
+      "name": "Gatherly - Simple RSS Reader",
+      "developer": "Sean Park",
+      "category": "뉴스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/92/c8/b592c8a0-ed76-c259-b824-72ae93fa0321/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gatherly-simple-rss-reader/id6756641122",
+      "idea_summary": "심플하고 깔끔한 RSS 뉴스 리더",
+      "analysis": {
+        "problem": "알고리즘 피드 대신 직접 큐레이션한 콘텐츠 소비 니즈 [추론]",
+        "solution": "RSS 피드 구독으로 원하는 소스만 모아보기 [추론]",
+        "target_user": "개발자, 블로거, 정보 큐레이터, 알고리즘 거부자 [추론]",
+        "unique_point": "미니멀 디자인과 빠른 로딩 속도 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Feedly",
+          "Reeder",
+          "NetNewsWire",
+          "Inoreader"
+        ],
+        "timing_reason": "SNS 알고리즘 피로감 증가, 디지털 미니멀리즘 트렌드 [추론]",
+        "growth_potential": "틈새 시장이지만 충성 유저 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 기본 + $4.99 일회성 프로 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1.5-2개월 [추론]",
+        "estimated_cost": "1000-2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "FeedKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "RSS 피드 파싱",
+          "카테고리 관리",
+          "오프라인 읽기",
+          "동기화"
+        ],
+        "clone_tip": "FeedKit 라이브러리로 RSS 파싱, iCloud 동기화 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓",
+        "#미니멀"
+      ],
+      "verdict": "작은 시장이지만 개발자 커뮤니티 타겟 시 충성도 높음",
+      "deep_report_id": "ios-gatherly-simple-rss-reader-1768264052038"
+    },
+    {
+      "rank": 5,
+      "name": "Vaayu | Ваайю",
+      "developer": "Ekaterina Terenteva",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/84/6b/09846be1-d125-9f89-f98f-537ea69516a5/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/vaayu-%D0%B2%D0%B0%D0%B0%D0%B9%D1%8E/id6757157108",
+      "idea_summary": "호흡 운동 및 명상 가이드 앱",
+      "analysis": {
+        "problem": "스트레스 관리와 정신 건강 케어 필요성 증가 [추론]",
+        "solution": "다양한 호흡 기법과 가이드 명상 제공 [추론]",
+        "target_user": "직장인, 스트레스 관리 필요자, 요가/명상 입문자 [추론]",
+        "unique_point": "러시아어권 사용자 타겟, 간결한 호흡 가이드 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Calm",
+          "Headspace",
+          "Breathwrk",
+          "마보"
+        ],
+        "timing_reason": "팬데믹 이후 정신 건강 관심 지속, 웰니스 시장 성장 [추론]",
+        "growth_potential": "웰니스 시장 지속 성장, 기업 복지 연계 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 $7.99 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "2000-3500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "HealthKit",
+          "애니메이션"
+        ],
+        "key_features": [
+          "호흡 가이드 애니메이션",
+          "세션 타이머",
+          "진행 추적",
+          "알림"
+        ],
+        "clone_tip": "호흡 패턴 시각화 애니메이션과 HealthKit 연동 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웰니스",
+        "#구독모델"
+      ],
+      "verdict": "레드오션 명상 앱 시장, 특정 언어권/문화권 집중 전략 필요",
+      "deep_report_id": "ios-vaayu-1768264181841"
+    },
+    {
+      "rank": 6,
+      "name": "人生电量 (인생전량)",
+      "developer": "玉庭 何",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/96/4d/7e964d27-b11a-7407-303c-6e35a115cbc3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%E4%BA%BA%E7%94%9F%E7%94%B5%E9%87%8F/id6757535711",
+      "idea_summary": "남은 인생을 배터리 잔량으로 시각화",
+      "analysis": {
+        "problem": "시간의 유한함을 체감하기 어려움 [추론]",
+        "solution": "예상 수명 기준 남은 인생을 배터리 %로 표시 [추론]",
+        "target_user": "자기계발 관심자, 시간 관리 의식 있는 20-40대 [추론]",
+        "unique_point": "직관적인 배터리 메타포로 삶의 유한함 시각화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Life Calendar",
+          "Motivation",
+          "Days Counter"
+        ],
+        "timing_reason": "YOLO/카르페디엠 트렌드, 삶의 의미 추구 증가 [추론]",
+        "growth_potential": "바이럴 가능성 높음, 위젯으로 일상 노출 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마/위젯 [추론]",
+        "pricing_suggestion": "$1.99 일회성 또는 광고 제거 $0.99 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3주 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WidgetKit",
+          "SwiftUI"
+        ],
+        "key_features": [
+          "생년월일 입력",
+          "배터리 시각화",
+          "위젯",
+          "일일 알림"
+        ],
+        "clone_tip": "WidgetKit으로 홈화면 위젯 구현, 감성적 UI 디자인 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#바이럴가능",
+        "#위젯"
+      ],
+      "verdict": "개발 난이도 낮고 바이럴 가능성 높은 감성 앱"
+    },
+    {
+      "rank": 7,
+      "name": "Nope Moments",
+      "developer": "CALLUM BATES",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/a1/46/3aa146d7-6b32-a96a-3d5d-56bfce44775a/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/nope-moments/id6757606495",
+      "idea_summary": "거절/No 경험을 기록하고 추적하는 앱",
+      "analysis": {
+        "problem": "거절을 두려워해 도전을 회피하는 심리 [추론]",
+        "solution": "거절 경험을 게이미피케이션으로 긍정적으로 전환 [추론]",
+        "target_user": "영업직, 창업가, 자기계발 관심자, 거절 공포증 극복 희망자 [추론]",
+        "unique_point": "거절을 성취로 리프레이밍하는 심리적 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Rejection Therapy",
+          "Habit trackers"
+        ],
+        "timing_reason": "자기계발/성장마인드셋 트렌드 지속 [추론]",
+        "growth_potential": "영업/세일즈 커뮤니티 타겟 마케팅 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능 [추론]",
+        "pricing_suggestion": "무료 기본 + $3.99 프로 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4주 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "거절 기록",
+          "통계 대시보드",
+          "목표 설정",
+          "성취 배지"
+        ],
+        "clone_tip": "게이미피케이션 요소와 동기부여 메시지 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#자기계발",
+        "#니치마켓"
+      ],
+      "verdict": "참신한 컨셉, 영업직/창업가 커뮤니티 집중 마케팅 필요"
+    },
+    {
+      "rank": 8,
+      "name": "PDF & HTML Merger",
+      "developer": "DEMIR DEMIREL",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/6a/ef/a56aef50-cd66-e9b8-a333-84f8c2d5abcf/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pdf-html-merger/id6757129794",
+      "idea_summary": "PDF와 HTML 파일 병합 도구",
+      "analysis": {
+        "problem": "여러 문서 포맷을 하나로 합치는 작업의 번거로움 [추론]",
+        "solution": "드래그앤드롭으로 PDF/HTML 파일 간편 병합 [추론]",
+        "target_user": "사무직, 학생, 문서 작업이 많은 프리랜서 [추론]",
+        "unique_point": "HTML도 PDF로 변환하여 병합 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "PDF Expert",
+          "Smallpdf"
+        ],
+        "timing_reason": "원격 근무 정착으로 문서 작업 도구 수요 지속 [추론]",
+        "growth_potential": "B2B 시장 진출 가능, 기업용 라이선스 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 구독 [추론]",
+        "pricing_suggestion": "$4.99 일회성 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "PDFKit",
+          "WebKit",
+          "Files API"
+        ],
+        "key_features": [
+          "PDF 병합",
+          "HTML→PDF 변환",
+          "페이지 순서 조정",
+          "파일 공유"
+        ],
+        "clone_tip": "PDFKit과 WebKit 조합으로 변환 엔진 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#B2B",
+        "#유틸리티"
+      ],
+      "verdict": "실용적이지만 경쟁 치열, 특화 기능으로 차별화 필요"
+    },
+    {
+      "rank": 9,
+      "name": "Tenantry",
+      "developer": "Volodymyr Abramov",
+      "category": "비즈니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/ab/56/bdab562a-c0ef-cf29-0dc7-146e94d500c5/AppIcon-1x_U007ephone-0-11-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tenantry/id6757605940",
+      "idea_summary": "임대인/임차인 관리 올인원 솔루션",
+      "analysis": {
+        "problem": "소규모 임대업자의 세입자 관리, 월세 추적 어려움 [추론]",
+        "solution": "세입자 정보, 계약, 월세 수납을 한 앱에서 관리 [추론]",
+        "target_user": "소규모 임대업자, 원룸/오피스텔 다주택자 [추론]",
+        "unique_point": "개인 임대업자 특화, 복잡한 부동산 SW보다 간편 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "직방 임대관리",
+          "부동산 관리 솔루션",
+          "엑셀"
+        ],
+        "timing_reason": "임대업 세금 강화로 체계적 관리 필요성 증가 [추론]",
+        "growth_potential": "프롭테크 시장 성장, 임대업 디지털화 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독 또는 물건 수 기반 과금 [추론]",
+        "pricing_suggestion": "5물건 무료 + 월 $9.99 무제한 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "2500-4000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "CloudKit",
+          "알림"
+        ],
+        "key_features": [
+          "세입자 DB",
+          "계약 관리",
+          "월세 추적",
+          "알림/리마인더"
+        ],
+        "clone_tip": "임대차 계약 템플릿과 월세 자동 알림 기능 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#프롭테크",
+        "#SaaS"
+      ],
+      "verdict": "소규모 임대업자 타겟 틈새시장, 한국 현지화 시 기회"
+    },
+    {
+      "rank": 10,
+      "name": "Map Verse",
+      "developer": "Tunahan Oguz",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/19/7e/74197e85-c509-5a74-2d2b-ab678c5f8594/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/map-verse/id6756554280",
+      "idea_summary": "방문한 나라/도시를 시각화하는 여행 지도",
+      "analysis": {
+        "problem": "여행 기록을 체계적으로 남기고 공유하기 어려움 [추론]",
+        "solution": "방문 국가/도시를 지도에 표시하고 통계 제공 [추론]",
+        "target_user": "여행 애호가, 디지털 노마드, SNS 활동가 [추론]",
+        "unique_point": "시각적 여행 이력서, SNS 공유 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Visited",
+          "been",
+          "Travel Mapper"
+        ],
+        "timing_reason": "팬데믹 이후 여행 재개, 여행 기록 공유 트렌드 [추론]",
+        "growth_potential": "여행 커뮤니티와 인플루언서 마케팅 연계 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마/통계 [추론]",
+        "pricing_suggestion": "무료 기본 + $3.99 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1.5-2개월 [추론]",
+        "estimated_cost": "1000-2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "MapKit",
+          "Core Data",
+          "Share Extension"
+        ],
+        "key_features": [
+          "지도 시각화",
+          "방문 국가 체크",
+          "통계 대시보드",
+          "이미지 공유"
+        ],
+        "clone_tip": "인스타그램용 세로형 이미지 생성 기능 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행",
+        "#SNS공유"
+      ],
+      "verdict": "경쟁 많은 카테고리, SNS 바이럴 마케팅이 관건"
+    },
+    {
+      "rank": 11,
+      "name": "Quiet Mirror",
+      "developer": "Lucas Young",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/32/82/9b32829d-4e14-8a8b-9ca7-926592dbf39a/QuietMirror-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/quiet-mirror/id6757656706",
+      "idea_summary": "광고/UI 없는 순수 거울 앱",
+      "analysis": {
+        "problem": "카메라 앱 UI가 거슬리고 광고 거울 앱이 불편 [추론]",
+        "solution": "전면 카메라를 깔끔한 전체화면 거울로 활용 [추론]",
+        "target_user": "외출 전 확인, 화장/면도 시 필요한 모든 사용자 [추론]",
+        "unique_point": "광고 없음, UI 최소화, 즉시 실행 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Mirror",
+          "거울 앱",
+          "기본 카메라"
+        ],
+        "timing_reason": "심플함에 대한 니즈, 광고 피로감 증가 [추론]",
+        "growth_potential": "제한적, 유료 전환 필요 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 팁 기능 [추론]",
+        "pricing_suggestion": "$0.99-1.99 일회성 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1주 [추론]",
+        "estimated_cost": "100-200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "전면 카메라 미러링",
+          "플래시 조명",
+          "줌"
+        ],
+        "clone_tip": "AVCaptureSession으로 간단 구현, 앱 아이콘 디자인 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 1,
+        "necessity": 3,
+        "timing": 2,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 1,
+        "scalability": 1,
+        "overall": 4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#초간단",
+        "#미니멀"
+      ],
+      "verdict": "극도로 단순한 앱, 학습용 프로젝트로 적합"
+    },
+    {
+      "rank": 12,
+      "name": "AIPlateMate",
+      "developer": "Elevatech LLC",
+      "category": "음식 및 음료",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/b3/e1/94b3e1d1-2fb0-b7e8-ece6-6419f8407734/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aiplatemate/id6757365341",
+      "idea_summary": "AI가 음식 사진으로 영양소 분석",
+      "analysis": {
+        "problem": "음식 칼로리/영양소를 일일이 검색하고 입력하기 번거로움 [추론]",
+        "solution": "음식 사진 촬영만으로 AI가 자동 영양 분석 [추론]",
+        "target_user": "다이어터, 건강 관리자, 운동인 [추론]",
+        "unique_point": "수동 입력 없이 사진 한 장으로 칼로리 추적 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Lose It!",
+          "Foodvisor",
+          "다노"
+        ],
+        "timing_reason": "AI 이미지 인식 발전, 건강 트렌드 지속 [추론]",
+        "growth_potential": "헬스케어 시장 성장, 웨어러블 연동 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 3회/일 + 월 $6.99 무제한 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "4000-6000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Vision",
+          "Core ML",
+          "HealthKit",
+          "음식 DB API"
+        ],
+        "key_features": [
+          "음식 이미지 인식",
+          "영양소 계산",
+          "일일 추적",
+          "목표 설정"
+        ],
+        "clone_tip": "음식 인식 ML 모델 학습 또는 Clarifai/Google Vision API 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#헬스케어",
+        "#구독모델"
+      ],
+      "verdict": "AI 기술력이 관건, 음식 DB 정확도가 성패 좌우"
+    },
+    {
+      "rank": 13,
+      "name": "Brushmate: Form & Fiber",
+      "developer": "MATS STORLY",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/2f/ed/a22fed19-c861-91e5-f56e-01bc65c92f1b/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/brushmate-form-fiber/id6757431790",
+      "idea_summary": "그림/디자인 브러시 관리 및 공유 도구",
+      "analysis": {
+        "problem": "디지털 아티스트가 브러시 설정을 관리하고 공유하기 어려움 [추론]",
+        "solution": "브러시 라이브러리 관리 및 커뮤니티 공유 플랫폼 [추론]",
+        "target_user": "디지털 아티스트, 일러스트레이터, Procreate 사용자 [추론]",
+        "unique_point": "브러시 전문 관리 도구, 크리에이터 커뮤니티 연계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Procreate 내장 관리",
+          "Gumroad 브러시 판매"
+        ],
+        "timing_reason": "디지털 아트 인구 증가, iPad 보급 확대 [추론]",
+        "growth_potential": "크리에이터 이코노미 성장, 브러시 마켓플레이스 확장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 + 마켓플레이스 수수료 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 $4.99 프로 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "2500-4000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Files API",
+          "CloudKit",
+          "소셜 기능"
+        ],
+        "key_features": [
+          "브러시 파일 관리",
+          "태그/검색",
+          "클라우드 백업",
+          "공유"
+        ],
+        "clone_tip": "Procreate 브러시 파일 포맷 지원이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#크리에이터",
+        "#니치마켓"
+      ],
+      "verdict": "디지털 아티스트 틈새시장, 커뮤니티 구축이 성공 열쇠"
+    },
+    {
+      "rank": 14,
+      "name": "ProsoPlate",
+      "developer": "Smaga Bakery Ltd",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/ac/8e/f7ac8e5b-32af-ed30-ce22-81ac03bd0c37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/prosoplate/id6739646576",
+      "idea_summary": "프로소 밀레 기반 건강 식단 앱",
+      "analysis": {
+        "problem": "건강한 곡물 식단을 계획하고 레시피 찾기 어려움 [추론]",
+        "solution": "프로소 밀레(기장) 중심 레시피 및 영양 정보 제공 [추론]",
+        "target_user": "글루텐프리 식단자, 건강식 관심자, 채식주의자 [추론]",
+        "unique_point": "특정 슈퍼푸드(밀레) 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Yummly",
+          "Tasty",
+          "건강 레시피 앱"
+        ],
+        "timing_reason": "슈퍼푸드 트렌드, 글루텐프리 식단 인기 [추론]",
+        "growth_potential": "밀레 시장 성장, 건강식 트렌드 지속 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 레시피 + 식재료 구매 연계 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 $3.99 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1.5-2개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "레시피 API"
+        ],
+        "key_features": [
+          "레시피 브라우징",
+          "영양 정보",
+          "즐겨찾기",
+          "식단 계획"
+        ],
+        "clone_tip": "레시피 콘텐츠 확보가 핵심, 커뮤니티 레시피 공유 고려 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓",
+        "#건강"
+      ],
+      "verdict": "극히 좁은 니치, 밀레 커뮤니티 타겟팅 필수"
+    },
+    {
+      "rank": 15,
+      "name": "YAIIU",
+      "developer": "CHUN HAN CHENG",
+      "category": "사진 및 비디오",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/03/ee/2103eec6-9bcc-6705-8009-1e3601ae7c4d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/yaiiu/id6757139615",
+      "idea_summary": "AI 기반 사진/비디오 편집 도구",
+      "analysis": {
+        "problem": "전문적인 사진/영상 편집 기술 없이 고급 효과 적용 어려움 [추론]",
+        "solution": "AI가 자동으로 사진/영상 보정 및 효과 적용 [추론]",
+        "target_user": "SNS 사용자, 콘텐츠 크리에이터, 일반 사용자 [추론]",
+        "unique_point": "원터치 AI 편집으로 전문가급 결과물 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Remini",
+          "VSCO",
+          "Snapseed",
+          "CapCut"
+        ],
+        "timing_reason": "생성형 AI 보편화, 콘텐츠 창작 민주화 [추론]",
+        "growth_potential": "AI 사진 편집 시장 급성장 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧/구독 기반 [추론]",
+        "pricing_suggestion": "무료 5회 + 월 $4.99 무제한 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "4000-7000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "Vision",
+          "Metal",
+          "AI API"
+        ],
+        "key_features": [
+          "자동 보정",
+          "AI 필터",
+          "배경 제거",
+          "업스케일링"
+        ],
+        "clone_tip": "Replicate/Stability AI 등 외부 API 활용으로 개발 속도 향상 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#사진편집",
+        "#레드오션"
+      ],
+      "verdict": "치열한 경쟁, 독특한 AI 기능 차별화가 필수"
+    },
+    {
+      "rank": 16,
+      "name": "Avira Travel",
+      "developer": "TRINITY TECH BILGISAYAR LIMITED SIRKETI",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/4f/a2/534fa2b1-7f28-7e81-e29d-608ce41630bd/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/avira-travel/id6752533732",
+      "idea_summary": "AI 여행 계획 및 예약 어시스턴트",
+      "analysis": {
+        "problem": "여행 계획 수립에 많은 시간과 노력 소요 [추론]",
+        "solution": "AI가 맞춤형 여행 일정과 추천 제공 [추론]",
+        "target_user": "여행 계획 초보자, 바쁜 직장인, 가족 여행객 [추론]",
+        "unique_point": "AI 기반 개인화 여행 플래닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TripIt",
+          "Wanderlog",
+          "Google Travel",
+          "마이리얼트립"
+        ],
+        "timing_reason": "여행 수요 회복, AI 어시스턴트 보편화 [추론]",
+        "growth_potential": "AI 여행 시장 성장, 예약 연계 수익화 [추론]"
+      },
+      "business": {
+        "monetization": "예약 수수료 + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 기본 + 예약 수수료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "6000-10000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "LLM API",
+          "여행 API",
+          "지도"
+        ],
+        "key_features": [
+          "AI 일정 생성",
+          "숙소/항공 검색",
+          "지도 연동",
+          "예약"
+        ],
+        "clone_tip": "OpenAI API + Amadeus/Booking API 연동으로 MVP 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#여행",
+        "#플랫폼"
+      ],
+      "verdict": "대형 플레이어 경쟁, 특정 여행 스타일 특화로 차별화"
+    },
+    {
+      "rank": 17,
+      "name": "جاوب صح (정답 맞히기)",
+      "developer": "sayyaf Alqahtani",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/1b/40/921b4006-fdf4-1bb7-054f-dcf4db37f576/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%D8%AC%D8%A7%D9%88%D8%A8-%D8%B5%D8%AD/id6751123356",
+      "idea_summary": "아랍어 퀴즈/트리비아 게임",
+      "analysis": {
+        "problem": "아랍어권 사용자를 위한 재미있는 교육 콘텐츠 부족 [추론]",
+        "solution": "다양한 주제의 퀴즈 게임으로 학습과 재미 결합 [추론]",
+        "target_user": "아랍어권 청소년, 가족, 교육 관심자 [추론]",
+        "unique_point": "아랍어 현지화 퀴즈 콘텐츠 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Trivia Crack",
+          "QuizUp",
+          "지역 퀴즈 앱"
+        ],
+        "timing_reason": "MENA 지역 스마트폰 보급률 증가 [추론]",
+        "growth_potential": "아랍어권 시장 성장, 광고 수익 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 광고 제거 IAP [추론]",
+        "pricing_suggestion": "무료 + $2.99 광고 제거 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1.5-2개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "GameKit",
+          "AdMob",
+          "Firebase"
+        ],
+        "key_features": [
+          "퀴즈 게임플레이",
+          "카테고리별 문제",
+          "리더보드",
+          "멀티플레이어"
+        ],
+        "clone_tip": "퀴즈 문제 DB 확보와 지속적인 콘텐츠 업데이트가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임",
+        "#지역특화"
+      ],
+      "verdict": "아랍어권 타겟 틈새시장, 현지 문화 이해 필수"
+    },
+    {
+      "rank": 18,
+      "name": "MotorBlaster",
+      "developer": "Bayrak EKMEN",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/b5/b1/6fb5b161-a923-86ba-5870-7ca9ecebadc5/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/motorblaster/id6757684667",
+      "idea_summary": "모터사이클 레이싱 슈팅 게임",
+      "analysis": {
+        "problem": "모바일에서 즐기는 아케이드 액션 게임 니즈 [추론]",
+        "solution": "오토바이 레이싱과 슈팅 결합한 아케이드 게임 [추론]",
+        "target_user": "캐주얼 게이머, 액션 게임 팬, 10-30대 [추론]",
+        "unique_point": "레이싱+슈팅 하이브리드 장르 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Road Rash류",
+          "무수한 레이싱 게임"
+        ],
+        "timing_reason": "하이퍼캐주얼 게임 시장 지속 [추론]",
+        "growth_potential": "바이럴 가능성 있으나 경쟁 치열 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + IAP (차량/무기) [추론]",
+        "pricing_suggestion": "무료 + 광고 보상 + IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "C#",
+          "AdMob",
+          "IAP"
+        ],
+        "key_features": [
+          "레이싱 물리",
+          "슈팅 시스템",
+          "업그레이드",
+          "스테이지"
+        ],
+        "clone_tip": "Unity 에셋 활용으로 개발 기간 단축 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 5.8
+      },
+      "tags": [
+        "#게임",
+        "#B2C",
+        "#아케이드",
+        "#Unity"
+      ],
+      "verdict": "경쟁 치열한 모바일 게임 시장, 독특한 게임성 필요"
+    },
+    {
+      "rank": 19,
+      "name": "Blast Fortress - PVP",
+      "developer": "Kiwert",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/ec/25/49ec256c-750d-1e38-7e31-ea2d0ac95d0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/blast-fortress-pvp/id6757302270",
+      "idea_summary": "실시간 PVP 기지 공략 게임",
+      "analysis": {
+        "problem": "전략적이면서 빠른 PVP 경험 니즈 [추론]",
+        "solution": "실시간 멀티플레이어 기지 공격/방어 전투 [추론]",
+        "target_user": "전략 게임 팬, 경쟁 게이머, 클래시오브클랜 유저 [추론]",
+        "unique_point": "실시간 PVP 포커스의 빠른 게임플레이 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Clash Royale",
+          "Boom Beach",
+          "각종 전략 게임"
+        ],
+        "timing_reason": "모바일 e스포츠 성장, PVP 게임 인기 [추론]",
+        "growth_potential": "e스포츠화 가능, 글로벌 시장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "IAP (유닛/스킨/패스) + 광고 [추론]",
+        "pricing_suggestion": "무료 + 배틀패스 월 $4.99 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "1억원 이상 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Photon/Mirror",
+          "서버 인프라",
+          "매치메이킹"
+        ],
+        "key_features": [
+          "실시간 멀티플레이",
+          "기지 건설",
+          "유닛 시스템",
+          "랭킹"
+        ],
+        "clone_tip": "서버 인프라와 매치메이킹이 핵심, 1인 개발 어려움 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 6.2
+      },
+      "tags": [
+        "#팀필요",
+        "#B2C",
+        "#게임",
+        "#PVP"
+      ],
+      "verdict": "고수익 잠재력이지만 개발 난이도와 경쟁 극심"
+    },
+    {
+      "rank": 20,
+      "name": "Baby Music Pads",
+      "developer": "Poyan Karimi",
+      "category": "음악",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/75/89/887589d3-b581-036a-6063-6479eda52ea7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/baby-music-pads/id6757447289",
+      "idea_summary": "아기/유아용 터치 음악 놀이 앱",
+      "analysis": {
+        "problem": "영유아를 안전하게 즐겁게 해줄 콘텐츠 필요 [추론]",
+        "solution": "화면 터치로 다양한 소리와 음악이 나오는 인터랙티브 앱 [추론]",
+        "target_user": "0-5세 영유아의 부모 [추론]",
+        "unique_point": "심플하고 안전한 유아용 UI [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Baby Piano",
+          "Kids Music",
+          "유아 교육 앱"
+        ],
+        "timing_reason": "디지털 네이티브 세대 양육, 교육앱 시장 성장 [추론]",
+        "growth_potential": "에듀테크 시장 성장, 부모 지출 의향 높음 [추론]"
+      },
+      "business": {
+        "monetization": "광고 없는 유료 또는 프리미엄 콘텐츠 [추론]",
+        "pricing_suggestion": "무료 기본 + $2.99 풀버전 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-1.5개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "SpriteKit"
+        ],
+        "key_features": [
+          "터치 반응 소리",
+          "다양한 악기/동물 소리",
+          "시각 효과",
+          "부모 잠금"
+        ],
+        "clone_tip": "고품질 사운드 리소스 확보, COPPA 준수 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#키즈",
+        "#에듀테크"
+      ],
+      "verdict": "단순하지만 꾸준한 수요, 광고 없는 프리미엄 전략 권장"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Screw Puzzle: Unscrew & Solve",
+      "developer": "GBX Studios",
+      "category": "퍼즐",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gbxstudios.screwpuzzles",
+      "idea_summary": "나사 풀기 물리 퍼즐 게임",
+      "analysis": {
+        "problem": "간단하면서도 중독성 있는 퍼즐 게임 니즈 [추론]",
+        "solution": "나사를 순서대로 풀어 구조물 해체하는 물리 퍼즐 [추론]",
+        "target_user": "캐주얼 게이머, 퍼즐 게임 팬, 전 연령대 [추론]",
+        "unique_point": "나사 풀기라는 독특한 메커닉 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Wood Nuts & Bolts",
+          "각종 물리 퍼즐 게임"
+        ],
+        "timing_reason": "하이퍼캐주얼 퍼즐 게임 트렌드 지속 [추론]",
+        "growth_potential": "바이럴 잠재력 높음, 광고 수익 우수 [추론]"
+      },
+      "business": {
+        "monetization": "광고 (리워드/전면) + 광고 제거 IAP [추론]",
+        "pricing_suggestion": "무료 + $3.99 광고 제거 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "2000-3500만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "2D 물리엔진",
+          "AdMob"
+        ],
+        "key_features": [
+          "물리 시뮬레이션",
+          "레벨 디자인",
+          "힌트 시스템",
+          "광고 연동"
+        ],
+        "clone_tip": "Unity 2D 물리엔진으로 나사/볼트 시뮬레이션 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#하이퍼캐주얼",
+        "#Unity"
+      ],
+      "verdict": "트렌드 맞춤형 하이퍼캐주얼, 빠른 출시와 마케팅이 관건",
+      "deep_report_id": "android-screw-puzzle-unscrew-solve-1768264388971"
+    },
+    {
+      "rank": 2,
+      "name": "Morph",
+      "developer": "Solo",
+      "category": "유틸리티",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.solo.morph",
+      "idea_summary": "앱 아이콘/UI 커스터마이징 도구",
+      "analysis": {
+        "problem": "안드로이드 기본 UI가 지루하고 개성 표현 어려움 [추론]",
+        "solution": "앱 아이콘, 위젯, 테마를 자유롭게 커스터마이징 [추론]",
+        "target_user": "커스터마이징 매니아, Z세대, 디자인 관심자 [추론]",
+        "unique_point": "손쉬운 아이콘 팩/테마 적용 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nova Launcher",
+          "KWGT",
+          "아이콘 팩 앱들"
+        ],
+        "timing_reason": "개인화 트렌드, 안드로이드 커스터마이징 문화 [추론]",
+        "growth_potential": "안드로이드 유저 기반 지속, 프리미엄 테마 수익화 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마/아이콘 팩 판매 [추론]",
+        "pricing_suggestion": "무료 기본 + 테마별 $1.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "2000-3500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Launcher API",
+          "Widget",
+          "디자인 리소스"
+        ],
+        "key_features": [
+          "아이콘 변경",
+          "위젯 생성",
+          "테마 적용",
+          "백업/복원"
+        ],
+        "clone_tip": "고품질 아이콘 팩 확보가 핵심, 디자이너 협업 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#커스터마이징",
+        "#Android전용"
+      ],
+      "verdict": "안드로이드 특화 시장, 디자인 리소스 확보가 성공 열쇠",
+      "deep_report_id": "android-morph-1768264604057"
+    },
+    {
+      "rank": 3,
+      "name": "Perfect Parking",
+      "developer": "Kouta Games",
+      "category": "캐주얼",
+      "icon": "https://play-lh.googleusercontent.com/oOnxlwvfoOqws9p5HutW9WzZpxBG0ukR10AOaYW9wU8NJmGBEhFD8Y_0UPZUot--7BEgPuq6THEwQAy4II0E8Q",
+      "app_url": "https://play.google.com/store/apps/details?id=pp.perfect.parking&hl=ko&gl=kr",
+      "idea_summary": "주차 퍼즐/시뮬레이션 게임",
+      "analysis": {
+        "problem": "간단하면서도 만족감 있는 캐주얼 게임 니즈 [추론]",
+        "solution": "차량을 정해진 자리에 주차하는 퍼즐 게임 [추론]",
+        "target_user": "캐주얼 게이머, 퍼즐 게임 팬, 전 연령대 [추론]",
+        "unique_point": "직관적인 주차 메커닉과 물리 기반 게임플레이 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Parking Jam",
+          "Car Out",
+          "주차 게임류"
+        ],
+        "timing_reason": "하이퍼캐주얼 퍼즐 게임 지속 인기 [추론]",
+        "growth_potential": "간단한 메커닉으로 글로벌 어필 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + IAP (힌트/스킵) [추론]",
+        "pricing_suggestion": "무료 + 광고 보상 + $2.99 광고 제거 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "2D/3D 물리",
+          "AdMob"
+        ],
+        "key_features": [
+          "주차 시뮬레이션",
+          "레벨 시스템",
+          "힌트",
+          "스타 점수"
+        ],
+        "clone_tip": "레벨 디자인이 핵심, 난이도 곡선 조절 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#하이퍼캐주얼",
+        "#퍼즐"
+      ],
+      "verdict": "검증된 장르, 독특한 레벨 디자인으로 차별화 필요",
+      "deep_report_id": "android-perfect-parking-1768264858637"
+    },
+    {
+      "rank": 4,
+      "name": "축구 스타로드",
+      "developer": "Babuyo Games",
+      "category": "스포츠",
+      "icon": "https://play-lh.googleusercontent.com/9pv-xKOTAKGjIUtVfqQLIcco8awbHWu8L1UjRv-12Kts7_IFFQYCGQCdxcOkwmJTIMVT",
+      "app_url": "https://play.google.com/store/apps/details?id=com.babuyo.footy.career.and.ww&hl=ko&gl=kr",
+      "idea_summary": "축구 선수 커리어 시뮬레이션 게임",
+      "analysis": {
+        "problem": "축구 팬들이 선수 커리어를 직접 체험하고 싶은 니즈 [추론]",
+        "solution": "신인에서 스타까지 성장하는 축구 커리어 시뮬레이션 [추론]",
+        "target_user": "축구 팬, 스포츠 게임 팬, 10-30대 남성 [추론]",
+        "unique_point": "한국어 현지화된 축구 커리어 게임 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "FIFA Mobile",
+          "eFootball",
+          "Football Manager Mobile"
+        ],
+        "timing_reason": "축구 인기 지속, 월드컵/리그 시즌과 연계 [추론]",
+        "growth_potential": "한국 축구 팬덤 기반, K리그 연계 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + IAP (아이템/선수) [추론]",
+        "pricing_suggestion": "무료 + IAP 패키지 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "5000-8000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "시뮬레이션 로직",
+          "데이터베이스"
+        ],
+        "key_features": [
+          "선수 성장",
+          "경기 시뮬레이션",
+          "이적 시장",
+          "리그 시스템"
+        ],
+        "clone_tip": "축구 시뮬레이션 엔진과 밸런싱이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#B2C",
+        "#게임",
+        "#스포츠",
+        "#한국시장"
+      ],
+      "verdict": "축구 팬덤 타겟, 한국 시장 현지화 강점",
+      "deep_report_id": "android-축구-스타로드-1768265113146"
+    },
+    {
+      "rank": 5,
+      "name": "Survival Rally",
+      "developer": "Studio Berserk 3D",
+      "category": "캐주얼",
+      "icon": "https://play-lh.googleusercontent.com/VnojMTbYPIIglanPwlDiTqXK-z9Lt7n1TGIQUDvu8b4ZWa0wJdeHjJ32mGVkiruEmd9--gyclGpRf1XZG4ZtUw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.studioberserk.survivalrally&hl=ko&gl=kr",
+      "idea_summary": "서바이벌 요소 결합 랠리 레이싱 게임",
+      "analysis": {
+        "problem": "단순 레이싱을 넘어선 긴장감 있는 게임 경험 니즈 [추론]",
+        "solution": "레이싱에 생존/서바이벌 요소를 결합한 게임 [추론]",
+        "target_user": "레이싱 게임 팬, 서바이벌 게임 팬, 10-30대 [추론]",
+        "unique_point": "레이싱+서바이벌 장르 믹스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Road Fighters",
+          "Death Race류",
+          "레이싱 게임"
+        ],
+        "timing_reason": "장르 믹스 게임 트렌드 [추론]",
+        "growth_potential": "독특한 컨셉으로 바이럴 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + IAP (차량/업그레이드) [추론]",
+        "pricing_suggestion": "무료 + 광고 보상 + IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Unity 3D",
+          "물리엔진",
+          "AdMob"
+        ],
+        "key_features": [
+          "랠리 레이싱",
+          "서바이벌 메커닉",
+          "차량 커스텀",
+          "스테이지"
+        ],
+        "clone_tip": "Unity 3D 레이싱 템플릿 활용, 서바이벌 요소 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#B2C",
+        "#게임",
+        "#레이싱",
+        "#Unity"
+      ],
+      "verdict": "장르 믹스로 차별화, 게임플레이 재미가 핵심",
+      "deep_report_id": "android-survival-rally-1768265366736"
+    },
+    {
+      "rank": 6,
+      "name": "The Witcher - Fan Quiz",
+      "developer": "Haust Peak",
+      "category": "퀴즈",
+      "icon": "https://play-lh.googleusercontent.com/51VWQye1Qe6_xWnD4p7IIqAYFKVHq-EbGt5EJA-RdVVNffnsbm8GSACFJzJj0pIdlHB0Eclsx9xOIrBbQ48",
+      "app_url": "https://play.google.com/store/apps/details?id=com.haustpeak.witcher.quiz&hl=ko&gl=kr",
+      "idea_summary": "위쳐 시리즈 팬 퀴즈 게임",
+      "analysis": {
+        "problem": "위쳐 팬들이 지식을 테스트하고 즐길 콘텐츠 부족 [추론]",
+        "solution": "위쳐 게임/드라마 기반 퀴즈 게임 [추론]",
+        "target_user": "위쳐 시리즈 팬, 게임/드라마 시청자 [추론]",
+        "unique_point": "특정 IP 팬덤 타겟 퀴즈 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "각종 팬 퀴즈 앱",
+          "Trivia Crack"
+        ],
+        "timing_reason": "위쳐 드라마 시즌 공개와 연계 가능 [추론]",
+        "growth_potential": "위쳐 팬덤 규모에 의존 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 광고 제거 IAP [추론]",
+        "pricing_suggestion": "무료 + $1.99 광고 제거 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4주 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Flutter",
+          "Firebase",
+          "AdMob"
+        ],
+        "key_features": [
+          "퀴즈 게임플레이",
+          "난이도별 문제",
+          "점수 시스템"
+        ],
+        "clone_tip": "퀴즈 콘텐츠 확보가 핵심, 저작권 주의 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 4.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#팬덤",
+        "#니치마켓"
+      ],
+      "verdict": "극히 좁은 니치, IP 저작권 이슈 확인 필요"
+    },
+    {
+      "rank": 7,
+      "name": "Football Kick Soccer Games",
+      "developer": "VVista",
+      "category": "스포츠",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.vvista.soccer.all.stars",
+      "idea_summary": "프리킥/슈팅 축구 미니게임",
+      "analysis": {
+        "problem": "간단히 즐기는 축구 게임 니즈 [추론]",
+        "solution": "프리킥, 페널티킥 등 슈팅 위주 미니게임 [추론]",
+        "target_user": "축구 팬, 캐주얼 게이머, 전 연령대 [추론]",
+        "unique_point": "핵심 슈팅만 추출한 간편한 게임플레이 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Score Hero",
+          "Flick Kick",
+          "축구 슈팅 게임류"
+        ],
+        "timing_reason": "축구 리그 시즌과 연계, 상시 수요 [추론]",
+        "growth_potential": "글로벌 축구 팬덤 기반 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + IAP (공/유니폼) [추론]",
+        "pricing_suggestion": "무료 + 광고 보상 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Unity 3D",
+          "물리엔진",
+          "AdMob"
+        ],
+        "key_features": [
+          "슈팅 물리",
+          "다양한 챌린지",
+          "커스텀",
+          "리더보드"
+        ],
+        "clone_tip": "슈팅 궤적 물리와 터치 컨트롤 최적화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 5.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#스포츠",
+        "#캐주얼"
+      ],
+      "verdict": "포화된 시장, 독특한 게임모드로 차별화 필요"
+    },
+    {
+      "rank": 8,
+      "name": "MyHÖRMANN",
+      "developer": "HÖRMANN",
+      "category": "라이프스타일",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hoermann.myhoermann.android",
+      "idea_summary": "HÖRMANN 도어/게이트 스마트 컨트롤",
+      "analysis": {
+        "problem": "차고문/게이트를 원격으로 제어하기 어려움 [추론]",
+        "solution": "스마트폰으로 HÖRMANN 제품 원격 제어 [추론]",
+        "target_user": "HÖRMANN 제품 사용자, 스마트홈 관심자 [추론]",
+        "unique_point": "HÖRMANN 브랜드 전용 공식 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "각 제조사 앱",
+          "범용 스마트홈 앱"
+        ],
+        "timing_reason": "스마트홈 시장 성장, IoT 보편화 [추론]",
+        "growth_potential": "HÖRMANN 제품 판매와 연동 [추론]"
+      },
+      "business": {
+        "monetization": "무료 (하드웨어 판매 연계) [확인]",
+        "pricing_suggestion": "무료 [확인]",
+        "revenue_potential": "하 (앱 자체)"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "4000-6000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Bluetooth/WiFi",
+          "IoT 프로토콜"
+        ],
+        "key_features": [
+          "원격 개폐",
+          "상태 모니터링",
+          "알림",
+          "다중 디바이스"
+        ],
+        "clone_tip": "하드웨어 연동 필수, 일반 개발자 클론 어려움 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#B2B",
+        "#IoT",
+        "#스마트홈",
+        "#브랜드앱"
+      ],
+      "verdict": "브랜드 전용 앱, 일반 개발자 참고용"
+    },
+    {
+      "rank": 9,
+      "name": "School Rage: Student Prank",
+      "developer": "Mirai",
+      "category": "시뮬레이션",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.mirai.schoolrage.student.prank.teacher.prankster",
+      "idea_summary": "학교 장난치기 시뮬레이션 게임",
+      "analysis": {
+        "problem": "재미있는 학교 테마 캐주얼 게임 니즈 [추론]",
+        "solution": "학교에서 장난치는 시뮬레이션 게임 [추론]",
+        "target_user": "10대 청소년, 캐주얼 게이머 [추론]",
+        "unique_point": "학교 장난이라는 친숙한 테마 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Scary Teacher",
+          "Bad Kids",
+          "학교 시뮬류"
+        ],
+        "timing_reason": "Scary Teacher류 장르 인기 지속 [추론]",
+        "growth_potential": "청소년 타겟 바이럴 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + IAP [추론]",
+        "pricing_suggestion": "무료 + 광고 보상 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Unity 3D",
+          "AI 행동",
+          "애니메이션"
+        ],
+        "key_features": [
+          "미션 기반 게임플레이",
+          "스텔스 요소",
+          "다양한 장난",
+          "레벨"
+        ],
+        "clone_tip": "Scary Teacher 스타일 참고, 3D 캐릭터/환경 에셋 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#B2C",
+        "#게임",
+        "#시뮬레이션",
+        "#청소년"
+      ],
+      "verdict": "검증된 장르 클론, 콘텐츠 양과 품질이 관건"
+    },
+    {
+      "rank": 10,
+      "name": "헬로벨 HelloBell for Galaxy Watch",
+      "developer": "HelloFactory",
+      "category": "Wear OS",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.co.hellofactory.hellobell.galaxywatch",
+      "idea_summary": "Galaxy Watch 알림/벨소리 앱",
+      "analysis": {
+        "problem": "Galaxy Watch 기본 알림음이 단조로움 [추론]",
+        "solution": "다양한 알림음과 진동 패턴 커스터마이징 [추론]",
+        "target_user": "Galaxy Watch 사용자, 알림 커스텀 원하는 유저 [추론]",
+        "unique_point": "Galaxy Watch 전용 알림 커스터마이징 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기본 Watch 설정",
+          "기타 Watch 앱"
+        ],
+        "timing_reason": "Galaxy Watch 판매 증가, Wear OS 생태계 성장 [추론]",
+        "growth_potential": "삼성 워치 사용자 기반 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 벨소리 팩 [추론]",
+        "pricing_suggestion": "무료 기본 + $1.99 프리미엄 팩 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-1.5개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Wear OS SDK",
+          "Tizen (구버전)"
+        ],
+        "key_features": [
+          "벨소리 변경",
+          "진동 패턴",
+          "알림 관리"
+        ],
+        "clone_tip": "Wear OS/Tizen 개발 경험 필요, 워치 테스트 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웨어러블",
+        "#삼성"
+      ],
+      "verdict": "좁은 시장이지만 경쟁 적음, 워치 개발 경험 필요"
+    },
+    {
+      "rank": 11,
+      "name": "HANSWATCH Milurne",
+      "developer": "HANSWATCH",
+      "category": "워치페이스",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hanswatch.milurne",
+      "idea_summary": "프리미엄 디자인 워치페이스",
+      "analysis": {
+        "problem": "기본 워치페이스가 지루함 [추론]",
+        "solution": "고급스러운 디자인의 프리미엄 워치페이스 제공 [추론]",
+        "target_user": "Galaxy Watch 사용자, 디자인 중시 유저 [추론]",
+        "unique_point": "브랜드화된 프리미엄 워치페이스 컬렉션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "수많은 워치페이스 앱",
+          "Facer"
+        ],
+        "timing_reason": "웨어러블 시장 성장, 개인화 트렌드 [추론]",
+        "growth_potential": "워치페이스 시장 지속, 브랜드 구축 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 워치페이스 판매 [추론]",
+        "pricing_suggestion": "$0.99-2.99 개당 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3주/개 [추론]",
+        "estimated_cost": "300-500만원/다수 [추론]",
+        "tech_stack": [
+          "Watch Face Studio",
+          "Wear OS"
+        ],
+        "key_features": [
+          "커스텀 컴플리케이션",
+          "디자인",
+          "AOD 지원"
+        ],
+        "clone_tip": "Watch Face Studio로 비교적 쉽게 제작, 디자인 역량 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 4.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웨어러블",
+        "#디자인"
+      ],
+      "verdict": "진입장벽 낮지만 경쟁 극심, 디자인 차별화 필수"
+    },
+    {
+      "rank": 12,
+      "name": "Stalker Task Force",
+      "developer": "Stalker Radar",
+      "category": "도구",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.stalkerradar.stalkertaskforce",
+      "idea_summary": "속도 측정 레이더 연동 앱",
+      "analysis": {
+        "problem": "속도 측정 레이더 데이터를 효율적으로 관리하기 어려움 [추론]",
+        "solution": "Stalker 레이더와 연동하여 속도 측정 데이터 관리 [추론]",
+        "target_user": "경찰, 스포츠 코치, 속도 측정 필요 업체 [추론]",
+        "unique_point": "Stalker 레이더 브랜드 공식 연동 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "각 레이더 제조사 앱"
+        ],
+        "timing_reason": "스포츠 분석/법집행 디지털화 [추론]",
+        "growth_potential": "B2B 니치 시장 [추론]"
+      },
+      "business": {
+        "monetization": "무료 (하드웨어 판매 연계) [추론]",
+        "pricing_suggestion": "무료 [추론]",
+        "revenue_potential": "하 (앱 자체)"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "3000-4000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Bluetooth",
+          "데이터 분석"
+        ],
+        "key_features": [
+          "레이더 연결",
+          "속도 기록",
+          "통계",
+          "내보내기"
+        ],
+        "clone_tip": "하드웨어 연동 필수, 일반 개발자 클론 불가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 4.5
+      },
+      "tags": [
+        "#B2B",
+        "#IoT",
+        "#전문장비",
+        "#브랜드앱"
+      ],
+      "verdict": "브랜드 전용 앱, 일반 개발자 참고용"
+    },
+    {
+      "rank": 13,
+      "name": "Supra Splitter for Georgians",
+      "developer": "Brave Digital",
+      "category": "도구",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bravedigital.supra",
+      "idea_summary": "조지아 전통 식사비 정산 앱",
+      "analysis": {
+        "problem": "단체 식사 후 비용 정산이 복잡함 [추론]",
+        "solution": "조지아 전통 연회(수프라) 문화에 맞춘 정산 앱 [추론]",
+        "target_user": "조지아 사용자, 단체 식사 자주 하는 그룹 [추론]",
+        "unique_point": "조지아 문화 특화 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Splitwise",
+          "토스",
+          "각종 정산 앱"
+        ],
+        "timing_reason": "디지털 정산 보편화 [추론]",
+        "growth_potential": "조지아 시장 한정 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 또는 광고 [추론]",
+        "pricing_suggestion": "무료 기본 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-1.5개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Flutter",
+          "Firebase"
+        ],
+        "key_features": [
+          "비용 입력",
+          "인원 배분",
+          "결과 공유"
+        ],
+        "clone_tip": "Splitwise 기능 참고, 현지 문화 반영 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 1,
+        "competition": 4,
+        "profitability": 1,
+        "scalability": 2,
+        "overall": 4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#지역특화",
+        "#유틸리티"
+      ],
+      "verdict": "극히 좁은 지역 시장, 해당 지역 거주자 적합"
+    },
+    {
+      "rank": 14,
+      "name": "청년미래적금 신청 안내서",
+      "developer": "Adflow",
+      "category": "금융",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.adflow.futuresavings",
+      "idea_summary": "청년미래적금 가입 가이드 앱",
+      "analysis": {
+        "problem": "정부 금융 정책 정보 접근과 신청 절차가 복잡함 [추론]",
+        "solution": "청년미래적금 자격 확인, 신청 방법 안내 [추론]",
+        "target_user": "19-34세 한국 청년, 재테크 관심자 [추론]",
+        "unique_point": "특정 정책 상품 특화 정보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "정부24",
+          "금융사 앱",
+          "각종 정보 앱"
+        ],
+        "timing_reason": "청년미래적금 출시/갱신 시점과 연계 [추론]",
+        "growth_potential": "정책 변경 시 수요 변동 [추론]"
+      },
+      "business": {
+        "monetization": "광고 [추론]",
+        "pricing_suggestion": "무료 + 광고 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3주 [추론]",
+        "estimated_cost": "200-400만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Flutter",
+          "AdMob"
+        ],
+        "key_features": [
+          "자격 확인",
+          "신청 가이드",
+          "FAQ",
+          "알림"
+        ],
+        "clone_tip": "정보성 앱, 콘텐츠 정확성과 업데이트가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#정보앱",
+        "#한국시장"
+      ],
+      "verdict": "시의성 있는 정보 앱, 정책 변경 리스크 있음"
+    },
+    {
+      "rank": 15,
+      "name": "OmDemand",
+      "developer": "Softinator",
+      "category": "비즈니스",
+      "icon": "",
+      "app_url": "https://play.google.com/store/apps/details?id=com.softinator.omdemand",
+      "idea_summary": "온디맨드 서비스 플랫폼",
+      "analysis": {
+        "problem": "다양한 서비스를 한 곳에서 찾고 요청하기 어려움 [추론]",
+        "solution": "온디맨드 방식으로 다양한 서비스 연결 [추론]",
+        "target_user": "서비스 이용자, 서비스 제공자 [추론]",
+        "unique_point": "통합 온디맨드 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "숨고",
+          "크몽",
+          "배민 등 각종 플랫폼"
+        ],
+        "timing_reason": "긱 이코노미 성장, 온디맨드 서비스 보편화 [추론]",
+        "growth_potential": "플랫폼 비즈니스 잠재력 높음 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료 [추론]",
+        "pricing_suggestion": "무료 가입 + 거래 수수료 10-20% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "1억원 이상 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "백엔드 서버",
+          "결제 시스템",
+          "매칭 알고리즘"
+        ],
+        "key_features": [
+          "서비스 등록",
+          "검색/매칭",
+          "결제",
+          "리뷰"
+        ],
+        "clone_tip": "1인 개발 어려움, 팀 필요, 초기 유저/공급자 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 6
+      },
+      "tags": [
+        "#팀필요",
+        "#B2C",
+        "#플랫폼",
+        "#긱이코노미"
+      ],
+      "verdict": "대형 플레이어와 경쟁, 특화 버티컬로 시작 권장"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 활용 앱과 하이퍼캐주얼 게임이 주류를 이루며, 특정 니치 시장을 타겟으로 한 유틸리티 앱들이 눈에 띈다. 웨어러블(Galaxy Watch) 생태계 앱과 지역/언어 특화 앱도 다수 등장했다.",
+    "trend_details": [
+      "AI 이미지 인식 앱 (동전 감정, 음식 영양 분석) 증가",
+      "하이퍼캐주얼 퍼즐 게임 (나사 풀기, 주차) 지속 인기",
+      "Galaxy Watch 워치페이스/유틸리티 앱 생태계 확대",
+      "지역/언어 특화 앱 (아랍어 퀴즈, 조지아 정산 앱)",
+      "삶의 유한함 시각화 등 감성/동기부여 앱 트렌드"
+    ],
+    "hot_categories": [
+      "AI/ML 활용 앱",
+      "하이퍼캐주얼 게임",
+      "웨어러블 앱",
+      "건강/피트니스"
+    ],
+    "opportunity": "AI 이미지 인식을 활용한 니치 감정/분석 앱 (동전, 식물, 곤충 등)이 상대적으로 블루오션. Galaxy Watch 생태계도 아직 기회 있음.",
+    "action_item": "Vision/Core ML 또는 외부 AI API를 활용한 '사진으로 OO 분석' 앱 아이디어 브레인스토밍 권장"
+  }
+}
