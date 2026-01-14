@@ -485,6 +485,21 @@ function DeepAnalysisModal({
   );
 }
 
+// 국가 플래그 컴포넌트
+function CountryFlag({ country }: { country?: string }) {
+  const flags: Record<string, { flag: string; name: string }> = {
+    'kr': { flag: '🇰🇷', name: '한국' },
+    'us': { flag: '🇺🇸', name: '미국' },
+    'jp': { flag: '🇯🇵', name: '일본' }
+  };
+  const info = flags[country || 'kr'] || flags['kr'];
+  return (
+    <span title={info.name} className="text-sm">
+      {info.flag}
+    </span>
+  );
+}
+
 export default function AppCard({ app, platform }: AppCardProps) {
   const [imgError, setImgError] = useState(false);
   const [showDeepModal, setShowDeepModal] = useState(false);
@@ -534,6 +549,7 @@ export default function AppCard({ app, platform }: AppCardProps) {
       <div className={`${headerClass} px-4 py-3 flex items-center justify-between`}>
         <div className="flex items-center gap-3">
           <span className="text-white font-bold text-xl font-pixel">#{app.rank}</span>
+          <CountryFlag country={app.country} />
           <span className="text-white/90 font-bold text-lg truncate font-pixel">{app.name}</span>
         </div>
         <div className="flex items-center gap-3">

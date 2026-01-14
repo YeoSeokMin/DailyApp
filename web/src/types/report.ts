@@ -42,6 +42,7 @@ export interface AppInfo {
   name: string;
   developer: string;
   category: string;
+  country?: string;  // 국가 코드 (kr, us, jp)
   icon: string;
   app_url: string;
   idea_summary: string;

@@ -20,6 +20,13 @@ const path = require('path');
 const NEW_APP_DAYS_IOS = 7;      // iOS: 최근 7일 이내
 const NEW_APP_DAYS_ANDROID = 7;  // Android: 최근 7일 이내
 
+// 지원 국가
+const COUNTRIES = [
+  { code: 'kr', name: '한국', lang: 'ko' },
+  { code: 'us', name: '미국', lang: 'en' },
+  { code: 'jp', name: '일본', lang: 'ja' }
+];
+
 // 카테고리 영문 → 한글 변환
 const CATEGORY_KO = {
   // iOS 카테고리
@@ -118,18 +125,16 @@ function isNewApp(releaseDate, days) {
 }
 
 /**
- * iOS 앱스토어에서 신규 앱 수집 (app-store-scraper)
+ * iOS 앱스토어에서 신규 앱 수집 (app-store-scraper) - 단일 국가
  */
-async function collectIOS() {
-  console.log('🍎 iOS 신규 앱 수집 시작... (최근 ' + NEW_APP_DAYS_IOS + '일 이내)');
+async function collectIOSByCountry(country) {
   const allApps = new Map();
   let totalScanned = 0;
 
   try {
-    // NEW_FREE_IOS 컬렉션에서 최대 200개 수집
     const apps = await store.list({
       collection: store.collection.NEW_FREE_IOS,
-      country: 'kr',
+      country: country.code,
       num: 200
     });
 
@@ -144,17 +149,37 @@ async function collectIOS() {
           category: translateCategory(app.primaryGenre || app.genre || ''),
           url: app.url,
           releaseDate: formatDateKO(app.released),
-          description: app.description || ''
+          description: app.description || '',
+          country: country.code
         });
       }
     }
   } catch (error) {
-    console.error('  ❌ iOS 수집 실패:', error.message);
+    console.error(`  ❌ iOS(${country.name}) 수집 실패:`, error.message);
   }
 
-  const apps = Array.from(allApps.values());
-  console.log(`  ✅ iOS: ${totalScanned}개 스캔 → ${apps.length}개 신규 앱 발견`);
-  return apps;
+  return Array.from(allApps.values());
+}
+
+/**
+ * iOS 앱스토어에서 신규 앱 수집 - 다국가
+ */
+async function collectIOS() {
+  console.log('🍎 iOS 신규 앱 수집 시작... (최근 ' + NEW_APP_DAYS_IOS + '일 이내)');
+  const result = {};
+  let totalApps = 0;
+
+  for (const country of COUNTRIES) {
+    console.log(`  📍 ${country.name}(${country.code.toUpperCase()}) 수집 중...`);
+    const apps = await collectIOSByCountry(country);
+    result[country.code] = apps;
+    totalApps += apps.length;
+    console.log(`     → ${apps.length}개 발견`);
+    await sleep(500); // API 레이트 리밋 방지
+  }
+
+  console.log(`  ✅ iOS 총: ${totalApps}개 신규 앱`);
+  return result;
 }
 
 /**
@@ -196,46 +221,22 @@ async function scrapeAppBrain(url) {
 }
 
 /**
- * Google 플레이스토어에서 신규 앱 수집 (AppBrain 스크래핑 + google-play-scraper 상세정보)
+ * Google 플레이스토어에서 신규 앱 수집 - 단일 국가
  */
-async function collectAndroid() {
-  console.log('🤖 Android 신규 앱 수집 시작... (AppBrain 스크래핑)');
-  const allApps = new Map();
+async function collectAndroidByCountry(country, appList) {
+  const apps = [];
 
-  try {
-    // 1. AppBrain에서 신규 앱 목록 스크래핑
-    const sources = [
-      { url: 'https://www.appbrain.com/apps/latest/', name: '최신 앱' },
-      { url: 'https://www.appbrain.com/apps/hot/new', name: '핫한 신규 앱' }
-    ];
+  for (const [appId, app] of appList) {
+    try {
+      const detail = await gplay.app({
+        appId: appId,
+        lang: country.lang,
+        country: country.code
+      });
 
-    const appList = new Map();
-    for (const source of sources) {
-      try {
-        console.log(`  📋 ${source.name} 수집 중...`);
-        const apps = await scrapeAppBrain(source.url);
-        apps.forEach(app => {
-          if (!appList.has(app.id)) appList.set(app.id, app);
-        });
-        await sleep(500);
-      } catch (e) {
-        console.error(`  ❌ ${source.name} 실패:`, e.message);
-      }
-    }
-
-    console.log(`  📋 ${appList.size}개 앱 발견, 상세 정보 조회 중...`);
-
-    // 2. google-play-scraper로 상세 정보 보강
-    let count = 0;
-    for (const [appId, app] of appList) {
-      try {
-        const detail = await gplay.app({
-          appId: appId,
-          lang: 'ko',
-          country: 'kr'
-        });
-
-        allApps.set(appId, {
+      // 해당 국가에서 사용 가능한 앱만 추가
+      if (detail && detail.title) {
+        apps.push({
           id: appId,
           name: detail.title || app.name,
           developer: detail.developer || '',
@@ -244,33 +245,61 @@ async function collectAndroid() {
           url: detail.url || `https://play.google.com/store/apps/details?id=${appId}`,
           releaseDate: formatDateKO(detail.released || ''),
           score: detail.score || 0,
-          description: detail.summary || ''
-        });
-
-        count++;
-        await sleep(100);
-      } catch (err) {
-        // 상세 조회 실패 시 기본 정보만 저장
-        allApps.set(appId, {
-          id: appId,
-          name: app.name,
-          developer: '',
-          icon: '',
-          category: '',
-          url: `https://play.google.com/store/apps/details?id=${appId}`,
-          releaseDate: '',
-          score: 0,
-          description: ''
+          description: detail.summary || '',
+          country: country.code
         });
       }
+      await sleep(50);
+    } catch (err) {
+      // 해당 국가에서 사용 불가한 앱은 스킵
     }
-  } catch (error) {
-    console.error('  ❌ Android 수집 실패:', error.message);
   }
 
-  const apps = Array.from(allApps.values());
-  console.log(`  ✅ Android: ${apps.length}개 신규 앱 수집 완료`);
   return apps;
+}
+
+/**
+ * Google 플레이스토어에서 신규 앱 수집 (AppBrain 스크래핑 + google-play-scraper 상세정보)
+ */
+async function collectAndroid() {
+  console.log('🤖 Android 신규 앱 수집 시작... (AppBrain 스크래핑)');
+
+  // 1. AppBrain에서 글로벌 신규 앱 목록 스크래핑
+  const sources = [
+    { url: 'https://www.appbrain.com/apps/latest/', name: '최신 앱' },
+    { url: 'https://www.appbrain.com/apps/hot/new', name: '핫한 신규 앱' }
+  ];
+
+  const appList = new Map();
+  for (const source of sources) {
+    try {
+      console.log(`  📋 ${source.name} 수집 중...`);
+      const apps = await scrapeAppBrain(source.url);
+      apps.forEach(app => {
+        if (!appList.has(app.id)) appList.set(app.id, app);
+      });
+      await sleep(500);
+    } catch (e) {
+      console.error(`  ❌ ${source.name} 실패:`, e.message);
+    }
+  }
+
+  console.log(`  📋 ${appList.size}개 앱 발견`);
+
+  // 2. 국가별로 상세 정보 조회
+  const result = {};
+  let totalApps = 0;
+
+  for (const country of COUNTRIES) {
+    console.log(`  📍 ${country.name}(${country.code.toUpperCase()}) 상세 조회 중...`);
+    const apps = await collectAndroidByCountry(country, appList);
+    result[country.code] = apps;
+    totalApps += apps.length;
+    console.log(`     → ${apps.length}개 확인`);
+  }
+
+  console.log(`  ✅ Android 총: ${totalApps}개 신규 앱`);
+  return result;
 }
 
 /**
@@ -279,6 +308,7 @@ async function collectAndroid() {
 async function main() {
   console.log('🚀 앱 데이터 수집 시작 - ' + new Date().toLocaleString('ko-KR'));
   console.log(`📅 기준: iOS/Android 모두 최근 ${NEW_APP_DAYS_IOS}일 이내 출시`);
+  console.log(`🌍 대상 국가: ${COUNTRIES.map(c => c.name).join(', ')}`);
   console.log('');
 
   // 출력 디렉토리 확인
@@ -289,14 +319,23 @@ async function main() {
   const iosApps = await collectIOS();
   const androidApps = await collectAndroid();
 
-  // 결과 저장
+  // 국가별 통계 계산
+  const iosTotal = Object.values(iosApps).flat().length;
+  const androidTotal = Object.values(androidApps).flat().length;
+
+  // 기존 형식 호환을 위해 한국 앱을 기본으로 설정
   const today = new Date();
   const result = {
     수집일시: getKSTString(),
     날짜: `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${today.getDate()}일`,
     수집기준: { iOS: `최근 ${NEW_APP_DAYS_IOS}일`, Android: `최근 ${NEW_APP_DAYS_ANDROID}일` },
-    iOS앱: iosApps,
-    Android앱: androidApps
+    지원국가: COUNTRIES.map(c => c.code),
+    // 기존 호환용 (한국 앱)
+    iOS앱: iosApps.kr || [],
+    Android앱: androidApps.kr || [],
+    // 다국가 데이터
+    iOS앱_다국가: iosApps,
+    Android앱_다국가: androidApps
   };
 
   const outputPath = path.join(outputDir, 'collected_apps.json');
@@ -305,8 +344,8 @@ async function main() {
   console.log('');
   console.log('═'.repeat(50));
   console.log(`✅ 수집 완료!`);
-  console.log(`   - iOS: ${iosApps.length}개 신규 앱`);
-  console.log(`   - Android: ${androidApps.length}개 신규 앱`);
+  console.log(`   - iOS: ${iosTotal}개 (KR:${(iosApps.kr||[]).length} / US:${(iosApps.us||[]).length} / JP:${(iosApps.jp||[]).length})`);
+  console.log(`   - Android: ${androidTotal}개 (KR:${(androidApps.kr||[]).length} / US:${(androidApps.us||[]).length} / JP:${(androidApps.jp||[]).length})`);
   console.log(`   - 저장: ${outputPath}`);
   console.log('═'.repeat(50));
 }

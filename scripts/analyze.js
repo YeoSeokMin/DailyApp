@@ -92,7 +92,8 @@ function cleanAppData(apps, limit) {
       developer: app.developer || '',
       category: app.category || '',
       icon: app.icon || '',
-      url: app.url || ''
+      url: app.url || '',
+      country: app.country || 'kr' // 국가 정보 유지
     }));
 }
 
@@ -153,20 +154,97 @@ function analyzeWithCLI(prompt) {
 }
 
 /**
- * JSON 추출
+ * JSON 추출 (robust 버전)
+ * - 중괄호 균형을 맞춰서 완전한 JSON 객체 추출
+ * - 여러 시작점에서 시도하여 유효한 JSON 찾기
  */
 function extractJSON(text) {
   let jsonStr = text.trim();
+
+  // 마크다운 코드블록 제거
   jsonStr = jsonStr.replace(/```json\n?/g, '').replace(/```\n?/g, '');
 
-  const startIdx = jsonStr.indexOf('{');
-  const endIdx = jsonStr.lastIndexOf('}');
-
-  if (startIdx === -1 || endIdx === -1) {
-    throw new Error('JSON을 찾을 수 없습니다');
+  // 모든 { 위치 찾기
+  const startPositions = [];
+  for (let i = 0; i < jsonStr.length; i++) {
+    if (jsonStr[i] === '{') {
+      startPositions.push(i);
+    }
   }
 
-  return JSON.parse(jsonStr.substring(startIdx, endIdx + 1));
+  if (startPositions.length === 0) {
+    throw new Error('JSON을 찾을 수 없습니다 (시작 괄호 없음)');
+  }
+
+  // 각 시작점에서 균형 잡힌 JSON 추출 시도
+  for (const startIdx of startPositions) {
+    let depth = 0;
+    let endIdx = -1;
+    let inString = false;
+    let escaped = false;
+
+    for (let i = startIdx; i < jsonStr.length; i++) {
+      const char = jsonStr[i];
+
+      if (escaped) {
+        escaped = false;
+        continue;
+      }
+
+      if (char === '\\' && inString) {
+        escaped = true;
+        continue;
+      }
+
+      if (char === '"' && !escaped) {
+        inString = !inString;
+        continue;
+      }
+
+      if (!inString) {
+        if (char === '{') depth++;
+        else if (char === '}') {
+          depth--;
+          if (depth === 0) {
+            endIdx = i;
+            break;
+          }
+        }
+      }
+    }
+
+    if (endIdx !== -1) {
+      const candidate = jsonStr.substring(startIdx, endIdx + 1);
+      try {
+        const parsed = JSON.parse(candidate);
+        // 유효한 리포트인지 확인 (ios 또는 android 필드 존재)
+        if (parsed.ios || parsed.android || parsed.date) {
+          console.log(`  ✅ JSON 추출 성공 (위치: ${startIdx}-${endIdx})`);
+          return parsed;
+        }
+      } catch (e) {
+        // 이 시작점에서 실패, 다음 시도
+        continue;
+      }
+    }
+  }
+
+  // 마지막 시도: 단순히 첫 { 와 마지막 } 사이
+  const firstBrace = jsonStr.indexOf('{');
+  const lastBrace = jsonStr.lastIndexOf('}');
+
+  if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+    const fallback = jsonStr.substring(firstBrace, lastBrace + 1);
+    try {
+      return JSON.parse(fallback);
+    } catch (e) {
+      // 저장하기 전에 raw 텍스트 길이 로깅
+      console.log(`  ⚠️ 원본 응답 길이: ${text.length}자`);
+      console.log(`  ⚠️ 응답 미리보기: ${text.substring(0, 200)}...`);
+    }
+  }
+
+  throw new Error('JSON을 찾을 수 없습니다');
 }
 
 async function main() {
@@ -197,13 +275,41 @@ async function main() {
   const excludeList = Array.from(excludeNames);
   console.log(`   최근 ${EXCLUDE_DAYS}일간 선정된 앱: ${excludeNames.size}개`);
 
-  // 3. 앱 데이터 로드
+  // 3. 앱 데이터 로드 (다국가 지원)
   console.log('📱 앱 데이터 로드 중...');
   const rawData = await fs.readFile(inputPath, 'utf-8');
   const appData = JSON.parse(rawData);
 
-  const iosApps = cleanAppData(appData.iOS앱 || [], MAX_APPS_PER_PLATFORM);
-  const androidApps = cleanAppData(appData.Android앱 || [], MAX_APPS_PER_PLATFORM);
+  // 다국가 데이터가 있으면 합치기
+  let allIosApps = [];
+  let allAndroidApps = [];
+
+  if (appData.iOS앱_다국가) {
+    // 다국가 데이터: 모든 국가 앱 합치기
+    const countries = ['kr', 'us', 'jp'];
+    for (const country of countries) {
+      const apps = appData.iOS앱_다국가[country] || [];
+      apps.forEach(app => {
+        app.country = country; // 국가 정보 추가
+        allIosApps.push(app);
+      });
+    }
+    for (const country of countries) {
+      const apps = appData.Android앱_다국가[country] || [];
+      apps.forEach(app => {
+        app.country = country;
+        allAndroidApps.push(app);
+      });
+    }
+    console.log(`   🌍 다국가 데이터 감지`);
+  } else {
+    // 기존 단일 국가 데이터
+    allIosApps = appData.iOS앱 || [];
+    allAndroidApps = appData.Android앱 || [];
+  }
+
+  const iosApps = cleanAppData(allIosApps, MAX_APPS_PER_PLATFORM);
+  const androidApps = cleanAppData(allAndroidApps, MAX_APPS_PER_PLATFORM);
 
   console.log(`   iOS: ${iosApps.length}개 / Android: ${androidApps.length}개`);
 
