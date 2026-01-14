@@ -287,9 +287,9 @@ function DeepAnalysisModal({
         const text = line.slice(3);
         const id = text.replace(/\s+/g, '-').toLowerCase();
         result.push(
-          <h2 key={idx} id={id} className="text-xl font-bold mt-8 mb-3 pb-2 border-b flex items-center gap-2" style={{ color: 'var(--foreground)', borderColor: 'rgba(255,255,255,0.1)' }}>
-            <span className="w-1 h-6 rounded" style={{ background: 'var(--pixel-ios)' }} />
-            <RenderText text={text} />
+          <h2 key={idx} id={id} className="text-lg md:text-xl font-bold mt-8 mb-3 pb-2 border-b flex items-start gap-2" style={{ color: 'var(--foreground)', borderColor: 'rgba(255,255,255,0.1)', wordBreak: 'keep-all' }}>
+            <span className="w-1 h-6 rounded flex-shrink-0 mt-0.5" style={{ background: 'var(--pixel-ios)' }} />
+            <span><RenderText text={text} /></span>
           </h2>
         );
         return;
@@ -299,9 +299,9 @@ function DeepAnalysisModal({
       if (line.startsWith('### ')) {
         const text = line.slice(4);
         result.push(
-          <h3 key={idx} className="text-lg font-bold mt-5 mb-2 flex items-center gap-2" style={{ color: 'var(--foreground)', opacity: 0.95 }}>
-            <span style={{ color: 'var(--pixel-ios)' }}>▸</span>
-            <RenderText text={text} />
+          <h3 key={idx} className="text-base md:text-lg font-bold mt-5 mb-2 flex items-start gap-2" style={{ color: 'var(--foreground)', opacity: 0.95, wordBreak: 'keep-all' }}>
+            <span className="flex-shrink-0" style={{ color: 'var(--pixel-ios)' }}>▸</span>
+            <span><RenderText text={text} /></span>
           </h3>
         );
         return;
@@ -426,13 +426,14 @@ function DeepAnalysisModal({
                           document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth' });
                           setActiveSection(item.id);
                         }}
-                        className="block pl-3 pr-2 py-2 rounded-r-lg text-sm transition-all duration-300 hover:bg-white/5"
+                        className="block pl-3 pr-2 py-2 rounded-r-lg text-sm transition-all duration-300 hover:bg-white/5 whitespace-nowrap overflow-hidden text-ellipsis"
                         style={{
                           color: isActive ? 'var(--pixel-ios)' : 'var(--foreground)',
                           opacity: isActive ? 1 : 0.6,
                           fontWeight: isActive ? 600 : 400,
                           background: isActive ? 'rgba(59, 130, 246, 0.1)' : 'transparent'
                         }}
+                        title={item.text}
                       >
                         {item.text}
                       </a>
@@ -445,7 +446,7 @@ function DeepAnalysisModal({
 
           {/* 콘텐츠 */}
           <div className="flex-1 overflow-y-auto">
-            <div className="max-w-3xl mx-auto px-4 md:px-8 py-6 md:py-8">
+            <div className="max-w-3xl mx-auto px-4 md:px-8 py-6 md:py-8" style={{ wordBreak: 'keep-all' }}>
               {isLoading ? (
                 <div className="flex items-center justify-center h-64">
                   <div className="text-center">
@@ -546,16 +547,16 @@ export default function AppCard({ app, platform }: AppCardProps) {
   return (
     <div className="pixel-box overflow-hidden hover:translate-y-[-2px] transition-transform">
       {/* Header */}
-      <div className={`${headerClass} px-4 py-3 flex items-center justify-between`}>
-        <div className="flex items-center gap-3">
-          <span className="text-white font-bold text-xl font-pixel">#{app.rank}</span>
+      <div className={`${headerClass} px-3 md:px-4 py-2 md:py-3 flex items-center justify-between gap-2`}>
+        <div className="flex items-center gap-2 min-w-0 flex-1">
+          <span className="text-white font-bold text-base md:text-xl font-pixel flex-shrink-0">#{app.rank}</span>
           <CountryFlag country={app.country} />
-          <span className="text-white/90 font-bold text-lg truncate font-pixel">{app.name}</span>
+          <span className="text-white/90 font-bold text-sm md:text-lg truncate font-pixel">{app.name}</span>
         </div>
-        <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2">
-            <span className="text-white font-bold text-lg font-pixel">{app.scores?.overall || 0}</span>
-            <span className="text-white/70 text-sm">/10</span>
+        <div className="flex items-center gap-2 flex-shrink-0">
+          <div className="flex items-center gap-1">
+            <span className="text-white font-bold text-base md:text-lg font-pixel">{app.scores?.overall || 0}</span>
+            <span className="text-white/70 text-xs md:text-sm">/10</span>
           </div>
           <FeedbackButton appName={app.name} />
         </div>
