@@ -391,6 +391,12 @@ function detectOpportunities(changes, techTrends, pricingTrends) {
  * AI 인사이트 생성
  */
 async function generateTrendInsight(trends, analyses) {
+  // API 키가 없으면 폴백 사용
+  if (!process.env.ANTHROPIC_API_KEY) {
+    console.log('  ⚠️ ANTHROPIC_API_KEY 없음, 규칙 기반 인사이트 사용');
+    return generateFallbackInsight(trends);
+  }
+
   const anthropic = new Anthropic({
     apiKey: process.env.ANTHROPIC_API_KEY
   });
