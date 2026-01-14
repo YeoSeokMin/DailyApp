@@ -13,6 +13,7 @@ require('dotenv').config();
 
 const fs = require('fs').promises;
 const path = require('path');
+const { spawn } = require('child_process');
 const Anthropic = require('@anthropic-ai/sdk');
 
 const REPORTS_DIR = path.join(__dirname, '../web/data/reports');
@@ -388,19 +389,45 @@ function detectOpportunities(changes, techTrends, pricingTrends) {
 }
 
 /**
+ * CLI로 Claude 호출
+ */
+function callClaudeCLI(prompt) {
+  return new Promise((resolve, reject) => {
+    const claude = spawn('claude', ['--print'], {
+      shell: true,
+      stdio: ['pipe', 'pipe', 'pipe']
+    });
+
+    let stdout = '';
+    let stderr = '';
+
+    claude.stdout.on('data', data => stdout += data.toString());
+    claude.stderr.on('data', data => stderr += data.toString());
+
+    claude.on('close', code => {
+      if (code === 0) {
+        resolve(stdout);
+      } else {
+        reject(new Error(`Claude CLI 실패: ${stderr}`));
+      }
+    });
+
+    claude.on('error', reject);
+    claude.stdin.write(prompt);
+    claude.stdin.end();
+
+    // 3분 타임아웃
+    setTimeout(() => {
+      claude.kill();
+      reject(new Error('CLI 타임아웃'));
+    }, 180000);
+  });
+}
+
+/**
  * AI 인사이트 생성
  */
 async function generateTrendInsight(trends, analyses) {
-  // API 키가 없으면 폴백 사용
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.log('  ⚠️ ANTHROPIC_API_KEY 없음, 규칙 기반 인사이트 사용');
-    return generateFallbackInsight(trends);
-  }
-
-  const anthropic = new Anthropic({
-    apiKey: process.env.ANTHROPIC_API_KEY
-  });
-
   const prompt = `
 다음 앱 트렌드 데이터를 분석해서 인디 개발자를 위한 인사이트를 생성해주세요.
 
@@ -443,13 +470,25 @@ ${trends.opportunities.map(o => `- ${o.title}: ${o.description}`).join('\n')}
 JSON만 출력하세요.`;
 
   try {
-    const response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-20250514',
-      max_tokens: 1000,
-      messages: [{ role: 'user', content: prompt }]
-    });
+    let text;
 
-    const text = response.content[0].text;
+    if (process.env.ANTHROPIC_API_KEY) {
+      // API 모드
+      const anthropic = new Anthropic({
+        apiKey: process.env.ANTHROPIC_API_KEY
+      });
+      const response = await anthropic.messages.create({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1000,
+        messages: [{ role: 'user', content: prompt }]
+      });
+      text = response.content[0].text;
+    } else {
+      // CLI 모드
+      console.log('  📟 CLI 모드로 인사이트 생성 중...');
+      text = await callClaudeCLI(prompt);
+    }
+
     const jsonMatch = text.match(/\{[\s\S]*\}/);
 
     if (jsonMatch) {
