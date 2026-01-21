@@ -1,0 +1,386 @@
+{
+  "date": "2026-01-21",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Let's Get Greedy",
+      "developer": "Middleton Technologies",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/65/ae/8d65aec0-0fac-6ab2-1677-f49d6e042985/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/lets-get-greedy/id6757991419?uo=2",
+      "idea_summary": "자원 경쟁 게임으로 욕심을 테스트 [추론]",
+      "analysis": {
+        "problem": "지루한 시간을 재미있게 보내고 싶은 욕구 [추론]",
+        "solution": "플레이어 간 자원 경쟁 시스템으로 몰입감 제공 [추론]",
+        "target_user": "캐주얼 게임을 즐기는 10-30대 [추론]",
+        "unique_point": "욕심이라는 인간 본성을 게임화한 콘셉트 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Among Us",
+          "Fall Guys"
+        ],
+        "timing_reason": "소셜 게임 트렌드와 경쟁 심리 활용 [추론]",
+        "growth_potential": "바이럴 확산 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "무료 다운로드 + 광고 + IAP [추론]",
+        "pricing_suggestion": "무료 베이스, 스킨/아이템 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Firebase",
+          "Photon"
+        ],
+        "key_features": [
+          "멀티플레이어",
+          "자원관리",
+          "리더보드"
+        ],
+        "clone_tip": "욕심 메커니즘과 밸런싱이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜게임"
+      ],
+      "verdict": "독특한 콘셉트지만 차별화 강화 필요",
+      "deep_report_id": "ios-let-s-get-greedy-1768967348976"
+    },
+    {
+      "rank": 2,
+      "name": "Solv: Fitness Intelligence",
+      "developer": "Charan A",
+      "category": "건강/피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/ae/9b/6cae9b7f-7604-8daa-a344-ee5c32aa3a40/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/solv-fitness-intelligence/id6757993477?uo=2",
+      "idea_summary": "AI 기반 개인 맞춤 피트니스 분석 [추론]",
+      "analysis": {
+        "problem": "개인별 최적화된 운동 계획 부족 [추론]",
+        "solution": "AI가 개인 데이터를 분석해 맞춤 운동 제공 [추론]",
+        "target_user": "운동에 관심 있는 20-40대 직장인 [추론]",
+        "unique_point": "인텔리전스 기반 개인화 운동 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Nike Training"
+        ],
+        "timing_reason": "헬스케어 AI 기술 발전과 맞춤화 트렌드 [추론]",
+        "growth_potential": "구독 모델로 안정적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 9,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1,500-2,500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "TensorFlow",
+          "HealthKit"
+        ],
+        "key_features": [
+          "AI분석",
+          "개인화",
+          "데이터시각화"
+        ],
+        "clone_tip": "AI 모델 품질이 성공 좌우 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI활용",
+        "#구독모델",
+        "#B2C"
+      ],
+      "verdict": "AI 헬스케어 트렌드에 부합하는 유망 아이템"
+    },
+    {
+      "rank": 3,
+      "name": "AR Drawing: Trace to Sketch",
+      "developer": "App Dexter Limited",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/24/f6/6724f6c6-c0ca-7e70-1d17-da5047763819/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ar-drawing-trace-to-sketch/id6756338032?uo=2",
+      "idea_summary": "AR로 실물을 따라 그리는 스케치 앱 [확인]",
+      "analysis": {
+        "problem": "그림 실력 부족으로 스케치가 어려운 문제 [추론]",
+        "solution": "AR 기술로 실물을 투영해 따라 그리기 가능 [추론]",
+        "target_user": "그림에 관심 있는 학생, 취미생 [추론]",
+        "unique_point": "AR 기술을 활용한 스케치 보조 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Procreate",
+          "Adobe Fresco"
+        ],
+        "timing_reason": "AR 기술 대중화와 창작 도구 트렌드 [추론]",
+        "growth_potential": "교육용 시장 진출 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "앱 구매 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "3,300원 유료앱 + IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1,200만원 [추론]",
+        "tech_stack": [
+          "ARKit",
+          "Swift",
+          "Metal"
+        ],
+        "key_features": [
+          "AR트래킹",
+          "드로잉도구",
+          "레이어시스템"
+        ],
+        "clone_tip": "AR 정확도와 사용성이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AR기술",
+        "#창작도구",
+        "#교육"
+      ],
+      "verdict": "기술적 참신함은 좋으나 틈새 시장"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Canva: AI Photo & Video Editor",
+      "developer": "Canva",
+      "category": "사진/동영상 편집",
+      "icon": "https://play-lh.googleusercontent.com/3aWGqSf3T_p3F6wc8FFvcZcnjWlxpZdNaqFVEvPwQ1gTOPkVoZwq6cYvfK9eCkwCXbRY",
+      "app_url": "https://play.google.com/store/apps/details?id=com.canva.editor",
+      "idea_summary": "AI 기반 올인원 디자인 편집 플랫폼 [확인]",
+      "analysis": {
+        "problem": "전문적 디자인 지식 없이도 퀄리티 높은 콘텐츠 제작 필요 [확인]",
+        "solution": "AI와 템플릿으로 쉽고 빠른 디자인 제작 [확인]",
+        "target_user": "소상공인, 마케터, 일반 사용자 [확인]",
+        "unique_point": "직관적 UI와 AI 기능의 완벽한 결합 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Creative",
+          "PicsArt"
+        ],
+        "timing_reason": "콘텐츠 마케팅 중요성 증가와 AI 기술 발전 [확인]",
+        "growth_potential": "글로벌 확장 지속 중, 기업용 시장 성장 [확인]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 엔터프라이즈 [확인]",
+        "pricing_suggestion": "월 12,000원 Pro 구독 [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "5,000-8,000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "AI/ML",
+          "Cloud"
+        ],
+        "key_features": [
+          "AI편집",
+          "템플릿",
+          "협업기능"
+        ],
+        "clone_tip": "AI 모델과 템플릿 품질이 경쟁력 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.8
+      },
+      "tags": [
+        "#AI편집",
+        "#구독모델",
+        "#B2B2C"
+      ],
+      "verdict": "검증된 비즈니스 모델, 시장 선도 앱",
+      "deep_report_id": "android-canva-ai-photo-video-editor-1768967421086"
+    },
+    {
+      "rank": 2,
+      "name": "WePlay - 파티게임",
+      "developer": "WEJOY Pte. Ltd.",
+      "category": "게임",
+      "icon": "https://play-lh.googleusercontent.com/CrAo5Uc_dw6sXWc2kV8KmUJfgwwmUsToNGr2K16GAx33vJCjGN_QQ_NxhAGkMK5FpFAFOnktnRSHpUBYh21V",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.kr",
+      "idea_summary": "모바일 기반 소셜 파티게임 플랫폼 [확인]",
+      "analysis": {
+        "problem": "오프라인 모임에서 재미있는 게임 부족 [추론]",
+        "solution": "다양한 파티게임을 모바일로 편리하게 제공 [추론]",
+        "target_user": "20-30대 친구 모임, 회식 문화 [추론]",
+        "unique_point": "한국 문화에 맞는 로컬라이제이션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Jackbox Games",
+          "Kahoot"
+        ],
+        "timing_reason": "코로나 이후 하이브리드 모임 증가 [추론]",
+        "growth_potential": "한국 파티 문화와 잘 맞음 [추론]"
+      },
+      "business": {
+        "monetization": "무료 + 광고 + 프리미엄 게임팩 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1,000-1,500만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Firebase",
+          "WebSocket"
+        ],
+        "key_features": [
+          "멀티플레이",
+          "게임다양성",
+          "음성채팅"
+        ],
+        "clone_tip": "게임 밸런스와 한국 취향 반영 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#소셜게임",
+        "#파티",
+        "#로컬라이제이션"
+      ],
+      "verdict": "틈새 시장이지만 한국 문화 특화 가능성"
+    },
+    {
+      "rank": 3,
+      "name": "AI Video - AI Video Generator",
+      "developer": "HubX",
+      "category": "동영상 제작",
+      "icon": "https://play-lh.googleusercontent.com/S1HnLd2oSmYrKB0S9s2_kiT1uq1Wnl0KzbGq6JHrCdfkYFI4azPPSrBGJ5Xm47OQ9Q",
+      "app_url": "https://play.google.com/store/apps/details?id=ai.video.generator",
+      "idea_summary": "AI로 자동 생성하는 동영상 제작 도구 [추론]",
+      "analysis": {
+        "problem": "동영상 제작 전문 지식과 시간 부족 [추론]",
+        "solution": "AI가 텍스트나 이미지로 동영상 자동 생성 [추론]",
+        "target_user": "콘텐츠 크리에이터, 마케터, SNS 사용자 [추론]",
+        "unique_point": "AI 기반 자동화된 동영상 생성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "RunwayML",
+          "InVideo",
+          "Pictory"
+        ],
+        "timing_reason": "숏폼 콘텐츠 급성장과 AI 영상 기술 발전 [추론]",
+        "growth_potential": "크리에이터 이코노미 성장에 따른 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 크레딧 시스템 [추론]",
+        "pricing_suggestion": "월 19,900원 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3,000-5,000만원 [추론]",
+        "tech_stack": [
+          "AI/ML",
+          "FFmpeg",
+          "Cloud GPU"
+        ],
+        "key_features": [
+          "AI생성",
+          "템플릿",
+          "자동편집"
+        ],
+        "clone_tip": "AI 모델 품질과 렌더링 속도가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#AI동영상",
+        "#크리에이터",
+        "#구독모델"
+      ],
+      "verdict": "AI 동영상 시장의 핵심 트렌드, 기술 격차 주의"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 창작 도구가 대세로 부상하며, AR/VR 기술을 활용한 새로운 사용자 경험이 주목받고 있다. 특히 개인화와 자동화가 핵심 키워드다.",
+    "trend_details": [
+      "AI 편집/생성 도구 급성장",
+      "AR 기술의 실용적 활용",
+      "피트니스 AI 개인화",
+      "소셜 게임 플랫폼 다양화"
+    ],
+    "hot_categories": [
+      "AI 도구",
+      "건강/피트니스",
+      "창작 도구"
+    ],
+    "opportunity": "AI와 AR을 결합한 창작 도구나 개인 맞춤형 서비스",
+    "action_item": "AI 기반 개인화 서비스 아이디어 구체화하기"
+  }
+}
