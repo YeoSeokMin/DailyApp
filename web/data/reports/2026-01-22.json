@@ -1,0 +1,655 @@
+{
+  "date": "2026-01-22",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "PsychDiary - Your AI Diary",
+      "developer": "DataFortress.cloud GmbH",
+      "category": "Healthcare/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/e9/f5/bde9f558-005a-e685-7222-4d00e5ac1d16/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/psychdiary-your-ai-diary/id6755875457?uo=2",
+      "idea_summary": "AI 기반 심리 건강 추적 다이어리",
+      "analysis": {
+        "problem": "개인의 정신 건강 상태를 지속적으로 모니터링하고 관리하기 어려운 문제 [추론]",
+        "solution": "AI 기반 일기 작성과 감정 분석을 통한 심리 상태 추적 및 인사이트 제공 [추론]",
+        "target_user": "정신 건강에 관심 있는 개인, 자기 성찰을 원하는 사용자 [추론]",
+        "unique_point": "AI가 일기 내용을 분석하여 감정 패턴과 심리 상태 변화를 추적 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Daylio",
+          "Moodpath",
+          "Sanvello"
+        ],
+        "timing_reason": "정신 건강에 대한 관심 증가와 AI 기술의 발전이 맞물린 시점 [추론]",
+        "growth_potential": "웰빙 트렌드와 개인화된 건강 관리 수요 증가로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 고급 AI 분석 기능 제공 [추론]",
+        "pricing_suggestion": "월 4,900원, 연간 39,000원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3,000-4,000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OpenAI API",
+          "Firebase",
+          "ML 감정분석"
+        ],
+        "key_features": [
+          "AI 일기 분석",
+          "감정 추적",
+          "인사이트 리포트",
+          "개인화 추천"
+        ],
+        "clone_tip": "감정 분석 API 활용하여 MVP 구현 후 점진적 AI 모델 고도화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용"
+      ],
+      "verdict": "정신 건강 관리의 개인화된 AI 솔루션으로 높은 잠재력",
+      "deep_report_id": "ios-psychdiary-your-ai-diary-1769010605221"
+    },
+    {
+      "rank": 2,
+      "name": "ScreenShot Builder",
+      "developer": "Seiya.k",
+      "category": "Development Tools",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/f3/76/f9f3763f-6020-5fbc-db6b-bfaed6ec7856/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/screenshot-builder/id6757955735?uo=2",
+      "idea_summary": "앱스토어용 스크린샷 자동 생성 도구",
+      "analysis": {
+        "problem": "앱스토어 스크린샷 제작에 많은 시간과 디자인 스킬이 필요한 문제 [추론]",
+        "solution": "템플릿과 자동화 기능으로 전문적인 스크린샷을 쉽게 생성 [추론]",
+        "target_user": "인디 개발자, 스타트업, 앱 마케터 [추론]",
+        "unique_point": "앱스토어 가이드라인에 맞는 자동 템플릿 생성 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "App Store Connect",
+          "Screenshots",
+          "MockDrop"
+        ],
+        "timing_reason": "앱 개발자 증가와 마케팅 중요성 부각 [추론]",
+        "growth_potential": "개발자 도구 시장의 틈새 영역으로 성장 잠재력 있음 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 구독 모델 [추론]",
+        "pricing_suggestion": "일회성 15,000원 또는 월 2,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1,500-2,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Graphics",
+          "CloudKit"
+        ],
+        "key_features": [
+          "템플릿 라이브러리",
+          "자동 리사이징",
+          "텍스트 오버레이",
+          "배치 처리"
+        ],
+        "clone_tip": "기본 템플릿 몇 개로 시작하여 사용자 피드백으로 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#개발자도구"
+      ],
+      "verdict": "틈새 시장이지만 명확한 니즈를 가진 유용한 도구"
+    },
+    {
+      "rank": 3,
+      "name": "Alive - セーフティスイッチ・安否確認",
+      "developer": "Daiwa Mirai, K.K.",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/d6/5a/23d65a4b-e927-545f-ebe9-be0f03892a68/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/alive-%E3%82%BB%E3%83%BC%E3%83%95%E3%83%86%E3%82%A3%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81-%E5%AE%89%E5%90%A6%E7%A2%BA%E8%AA%8D/id6757731920?uo=2",
+      "idea_summary": "자동 안부 확인 및 응급 상황 알림",
+      "analysis": {
+        "problem": "홀로 사는 고령자나 위험 직업 종사자의 안전 상태를 확인하기 어려운 문제 [추론]",
+        "solution": "정기적인 체크인과 자동 응급 신호 발송으로 안전 모니터링 [추론]",
+        "target_user": "고령자, 독거 생활자, 위험 직업 종사자와 그 가족 [추론]",
+        "unique_point": "데드맨 스위치 방식의 자동 안전 확인 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Life360",
+          "Find My",
+          "응급안전신고앱"
+        ],
+        "timing_reason": "고령화 사회와 1인 가구 증가로 안전 솔루션 수요 증가 [추론]",
+        "growth_potential": "사회적 필요성이 높아 지속적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독 모델과 가족 플랜 제공 [추론]",
+        "pricing_suggestion": "개인 월 2,900원, 가족 월 7,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "2,000-2,500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Push Notification",
+          "GPS",
+          "Emergency API"
+        ],
+        "key_features": [
+          "자동 체크인",
+          "응급 신호",
+          "가족 알림",
+          "위치 추적"
+        ],
+        "clone_tip": "간단한 체크인 기능부터 시작하여 점진적으로 자동화 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사회문제해결"
+      ],
+      "verdict": "사회적 가치와 수익성을 모두 갖춘 필수 안전 서비스"
+    },
+    {
+      "rank": 4,
+      "name": "HomeStyle AI - Interior Design",
+      "developer": "riza erdi karakus",
+      "category": "Graphics & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/39/a1/3139a1e4-a737-2ec8-e70d-13832502edf5/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/homestyle-ai-interior-design/id6757861994?uo=2",
+      "idea_summary": "AI 기반 인테리어 디자인 시뮬레이션",
+      "analysis": {
+        "problem": "인테리어 디자인 비용이 높고 결과를 미리 확인하기 어려운 문제 [추론]",
+        "solution": "AI로 사진 기반 인테리어 디자인 시뮬레이션 및 추천 제공 [추론]",
+        "target_user": "인테리어에 관심 있는 일반 소비자, 부동산 관련 업종 [추론]",
+        "unique_point": "실제 공간 사진을 AI로 변환하여 다양한 스타일 적용 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Houzz",
+          "IKEA Place",
+          "Homestyler"
+        ],
+        "timing_reason": "AI 이미지 생성 기술 발전과 홈 인테리어 관심 증가 [추론]",
+        "growth_potential": "부동산 시장과 연계하여 큰 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능과 고해상도 렌더링 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 7,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "3,500-4,500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Stable Diffusion",
+          "Computer Vision",
+          "ARKit"
+        ],
+        "key_features": [
+          "AI 스타일 변환",
+          "가구 추천",
+          "색상 팔레트",
+          "3D 시뮬레이션"
+        ],
+        "clone_tip": "기존 AI 이미지 API 활용하여 빠른 MVP 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용"
+      ],
+      "verdict": "AI 트렌드와 인테리어 시장을 결합한 유망 아이템"
+    },
+    {
+      "rank": 5,
+      "name": "리카 (Rika) - 1:1 한일 언어 교류",
+      "developer": "jiwoong han",
+      "category": "Social Networking",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/65/ff/8e65ff09-c690-2951-9bcb-8baa71549f10/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/%EB%A6%AC%EC%B9%B4-rika-1-1-%ED%95%9C%EC%9D%BC-%EC%96%B8%EC%96%B4-%EA%B5%90%EB%A5%98/id6757911330?uo=2",
+      "idea_summary": "한일 1:1 언어교환 매칭 플랫폼",
+      "analysis": {
+        "problem": "언어 교환 파트너를 찾고 지속적으로 학습하기 어려운 문제 [추론]",
+        "solution": "한국어-일본어 학습자 간 1:1 매칭과 구조화된 언어 교환 시스템 [추론]",
+        "target_user": "일본어 학습 한국인, 한국어 학습 일본인 [확인]",
+        "unique_point": "한일 특화된 언어교환과 문화 교류 통합 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "HelloTalk",
+          "Tandem",
+          "HiNative"
+        ],
+        "timing_reason": "한일 문화 교류 활성화와 언어 학습 앱 시장 성장 [추론]",
+        "growth_potential": "한일 양국의 언어 학습 수요로 안정적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 매칭과 고급 학습 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2,500-3,000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Socket.io",
+          "Firebase",
+          "Translation API"
+        ],
+        "key_features": [
+          "1:1 매칭",
+          "채팅 번역",
+          "학습 진도 추적",
+          "문화 콘텐츠"
+        ],
+        "clone_tip": "기본 매칭 시스템부터 구현 후 학습 기능 순차 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육"
+      ],
+      "verdict": "틈새 시장이지만 명확한 타겟과 지속적 수요 확보"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Free Talk Stickers - Personal Stickers",
+      "developer": "Personal Sticker Meme Developer",
+      "category": "Sticker",
+      "icon": "https://play-lh.googleusercontent.com/R9AmDyDoJUsa1fQW2hpK_ze_Vqt9_tjOYW4YHQbifYEaR71JiZs9kr4P32bygcvdDg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.memeandsticker.personal",
+      "idea_summary": "개인화된 스티커 및 밈 생성 도구",
+      "analysis": {
+        "problem": "개성 있는 스티커나 밈을 만들기 위해 복잡한 도구가 필요한 문제 [추론]",
+        "solution": "간단한 조작으로 개인 맞춤형 스티커와 밈을 쉽게 제작 [추론]",
+        "target_user": "소셜미디어 활성 사용자, 젊은 세대, 크리에이터 [추론]",
+        "unique_point": "개인 사진을 활용한 맞춤형 스티커 자동 생성 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Bitmoji",
+          "Zmoji",
+          "PicsArt"
+        ],
+        "timing_reason": "개인 브랜딩과 SNS 표현 욕구 증가 트렌드 [추론]",
+        "growth_potential": "Z세대 중심의 소셜 커뮤니케이션 도구로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 템플릿과 고급 편집 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1,500-2,000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Computer Vision",
+          "ML Kit",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 얼굴 인식",
+          "템플릿 라이브러리",
+          "배경 제거",
+          "실시간 편집"
+        ],
+        "clone_tip": "기본 템플릿과 얼굴 합성 기능으로 MVP 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜"
+      ],
+      "verdict": "개인 표현 욕구와 소셜 트렌드를 결합한 강력한 아이템",
+      "deep_report_id": "android-free-talk-stickers-personal-stickers-1769010659486"
+    },
+    {
+      "rank": 2,
+      "name": "Learn English, Spanish: Learna",
+      "developer": "Deep Flow Apps",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/n18sxvJzqj8VtYO6jug0Lz8tpjm-cE0zAjhzikxh-4LY7TMA-IygCCMeksFzy1G8FKy_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.codeway.aitutor",
+      "idea_summary": "AI 개인 맞춤형 언어 학습 튜터",
+      "analysis": {
+        "problem": "획일적인 언어 학습 방식으로 개인 수준에 맞는 학습이 어려운 문제 [추론]",
+        "solution": "AI가 학습자 수준을 분석하여 개인화된 커리큘럼과 피드백 제공 [추론]",
+        "target_user": "언어 학습자, 직장인, 학생 [추론]",
+        "unique_point": "실시간 AI 튜터링과 개인 진도에 따른 적응형 학습 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Babbel",
+          "Busuu"
+        ],
+        "timing_reason": "AI 기술 발전과 개인화 교육 트렌드 확산 [추론]",
+        "growth_potential": "글로벌 언어 학습 시장의 지속적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 튜터링과 무제한 학습 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 9,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3,000-4,000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "NLP API",
+          "Speech Recognition",
+          "ML 추천시스템"
+        ],
+        "key_features": [
+          "AI 레벨 테스트",
+          "적응형 문제",
+          "발음 교정",
+          "대화형 튜터"
+        ],
+        "clone_tip": "기존 언어 API 활용하여 기본 기능 구현 후 AI 개인화 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용",
+        "#교육"
+      ],
+      "verdict": "AI 개인화 학습의 대표주자로 높은 성장 잠재력"
+    },
+    {
+      "rank": 3,
+      "name": "Cleanup: Phone Storage Cleaner",
+      "developer": "Deep Flow Apps",
+      "category": "Utility",
+      "icon": "https://play-lh.googleusercontent.com/ch_hRY59cDYlQrI-Utveqytsnu3rsMbhWeZWnX8AFLj4nW-CqA0BGl8EFxkk4Lz8DzEorfag343uFRgVPWCQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.storage.androidcleaner",
+      "idea_summary": "스마트 폰 저장공간 최적화 도구",
+      "analysis": {
+        "problem": "스마트폰 저장공간 부족과 불필요한 파일 관리의 복잡성 [추론]",
+        "solution": "AI 기반 파일 분석으로 안전하고 효과적인 저장공간 정리 [추론]",
+        "target_user": "일반 스마트폰 사용자, 특히 저장공간 부족에 시달리는 사용자 [추론]",
+        "unique_point": "중요 파일 보호하면서 불필요한 파일만 선별 삭제하는 스마트 알고리즘 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CCleaner",
+          "Files by Google",
+          "Clean Master"
+        ],
+        "timing_reason": "스마트폰 데이터 사용량 증가와 저장공간 최적화 필요성 증대 [추론]",
+        "growth_potential": "모든 스마트폰 사용자가 대상이므로 큰 시장 규모 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능과 광고 없는 버전 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 1,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1,500-2,000만원 [추론]",
+        "tech_stack": [
+          "Android Native",
+          "ML Kit",
+          "File System API",
+          "Analytics"
+        ],
+        "key_features": [
+          "스마트 스캔",
+          "안전 삭제",
+          "중복 파일 탐지",
+          "사용 패턴 분석"
+        ],
+        "clone_tip": "안드로이드 기본 API로 파일 스캔 기능부터 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "필수적인 스마트폰 관리 도구로 안정적 수익 모델"
+    },
+    {
+      "rank": 4,
+      "name": "Scrolla: Fun Reels, No Stress",
+      "developer": "TEYRON LTD",
+      "category": "Video",
+      "icon": "https://play-lh.googleusercontent.com/7Apih0MnEe-Cpi8yRIQR2jMPZFKDNVoAHtmYoQyR5U_6sJYbRnT3vfvyxCT5IE0aziE",
+      "app_url": "https://play.google.com/store/apps/details?id=me.scrolla",
+      "idea_summary": "스트레스 없는 재미있는 숏폼 영상 플랫폼",
+      "analysis": {
+        "problem": "기존 숏폼 영상 플랫폼의 중독성과 스트레스 유발 문제 [추론]",
+        "solution": "건전하고 즐거운 콘텐츠만 큐레이션하여 스트레스 없는 시청 환경 제공 [추론]",
+        "target_user": "건전한 엔터테인먼트를 원하는 사용자, 가족 단위 사용자 [추론]",
+        "unique_point": "포지티브 콘텐츠 필터링과 웰빙 중심 알고리즘 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "Instagram Reels",
+          "YouTube Shorts"
+        ],
+        "timing_reason": "소셜미디어 피로감과 디지털 웰빙에 대한 관심 증가 [추론]",
+        "growth_potential": "기존 플랫폼의 대안으로서 틈새 시장 형성 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 모델과 프리미엄 무광고 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "4,000-5,000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Video Streaming",
+          "ML 콘텐츠 필터",
+          "추천 알고리즘"
+        ],
+        "key_features": [
+          "콘텐츠 필터링",
+          "웰빙 알고리즘",
+          "시청 시간 제한",
+          "가족 모드"
+        ],
+        "clone_tip": "기존 영상 플랫폼 API 활용하여 필터링 기능 중심으로 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웰빙"
+      ],
+      "verdict": "디지털 웰빙 트렌드와 맞는 차별화된 영상 플랫폼"
+    },
+    {
+      "rank": 5,
+      "name": "Max Browser - Fast & Easy",
+      "developer": "devBroodyy",
+      "category": "Browser",
+      "icon": "https://play-lh.googleusercontent.com/2xc7Nz90YBByAXk3U3if4STKJmjjOxnBQBy0vkgOwIAz03OnqOASwX9ChYQ3xoLveVfB1gr5bggLGhEU5SG9vA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.web.devbroodyy.max.browser",
+      "idea_summary": "초고속 경량 웹 브라우저",
+      "analysis": {
+        "problem": "기존 브라우저들의 무거움과 복잡한 기능으로 인한 속도 저하 [추론]",
+        "solution": "핵심 기능에 집중한 초경량 고속 브라우저 [추론]",
+        "target_user": "브라우징 속도를 중시하는 사용자, 저사양 기기 사용자 [추론]",
+        "unique_point": "최소한의 리소스로 최대한의 브라우징 속도 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Chrome",
+          "Firefox",
+          "Opera"
+        ],
+        "timing_reason": "모바일 기기 성능 한계와 배터리 효율성 중요성 증가 [추론]",
+        "growth_potential": "틈새 시장이지만 특정 사용자층에게는 강한 니즈 [추론]"
+      },
+      "business": {
+        "monetization": "최소한의 광고와 프리미엄 기능 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 1,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "2,000-2,500만원 [추론]",
+        "tech_stack": [
+          "WebView",
+          "Android Native",
+          "최적화 엔진"
+        ],
+        "key_features": [
+          "고속 렌더링",
+          "메모리 최적화",
+          "배터리 절약",
+          "미니멀 UI"
+        ],
+        "clone_tip": "Android WebView 최적화와 캐싱 시스템 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "틈새 시장이지만 기술적 도전과 학습에 좋은 프로젝트"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 개인화 서비스와 디지털 웰빙 솔루션이 주요 트렌드로 부상하고 있습니다. 사용자들은 더 스마트하면서도 건강한 디지털 라이프를 추구하고 있습니다.",
+    "trend_details": [
+      "AI 기반 개인화 서비스 확산",
+      "정신건강 및 웰빙 앱 증가",
+      "창작 도구의 AI 접목",
+      "틈새 시장 특화 솔루션",
+      "1인 개발자 친화적 아이디어"
+    ],
+    "hot_categories": [
+      "AI/ML",
+      "Health & Wellness",
+      "Creative Tools"
+    ],
+    "opportunity": "AI 기술을 활용한 개인화된 웰빙 솔루션과 창작 도구 영역에서 큰 기회",
+    "action_item": "AI API를 활용한 간단한 개인화 기능부터 시작하여 점진적 확장"
+  }
+}
