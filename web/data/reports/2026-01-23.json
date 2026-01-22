@@ -1,0 +1,645 @@
+{
+  "date": "2026-01-23",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Only 5 Mins! - 何かを始める5分前",
+      "developer": "NEUDESIGNLAB, LLC",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/5c/d8/7e5cd8e4-3b51-9b64-8796-eb6fec45cbe0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/only-5-mins-%E4%BD%95%E3%81%8B%E3%82%92%E5%A7%8B%E3%82%81%E3%82%8B5%E5%88%86%E5%89%8D/id6757480749?uo=2",
+      "idea_summary": "5분만으로 새로운 일을 시작하게 도와주는 앱",
+      "analysis": {
+        "problem": "미루는 습관과 시작의 어려움 해결 [추론]",
+        "solution": "5분 타이머를 통한 최소 시작 단위 제공 [추론]",
+        "target_user": "미루기 습관이 있는 직장인, 학생 [추론]",
+        "unique_point": "시작만 하면 된다는 심리적 부담 경감 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Pomodoro Timer",
+          "Todoist"
+        ],
+        "timing_reason": "재택근무 증가로 자기관리 앱 수요 증가 [추론]",
+        "growth_potential": "생산성 앱 시장 확장과 함께 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 모델 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 2,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "Core Data",
+          "UserNotifications"
+        ],
+        "key_features": [
+          "5분 타이머",
+          "습관 추적",
+          "동기부여 메시지"
+        ],
+        "clone_tip": "타이머 + 심리학적 접근 조합이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "시작 심리학을 활용한 독창적인 접근",
+      "deep_report_id": "ios-only-5-mins-5-1769094524815"
+    },
+    {
+      "rank": 2,
+      "name": "Saymo: Voice, Map & Emotions",
+      "developer": "VIMO Lab OU",
+      "category": "Social Networking",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/7f/9a/fd7f9a26-27d7-0899-ad5b-b8d2335940d2/Saymo_Ios-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/saymo-voice-map-emotions/id6757522687?uo=2",
+      "idea_summary": "음성과 위치, 감정을 결합한 소셜 플랫폼",
+      "analysis": {
+        "problem": "텍스트 기반 SNS의 감정 전달 한계 [추론]",
+        "solution": "음성 메시지와 위치, 감정 상태 통합 [확인]",
+        "target_user": "진정성 있는 소통을 원하는 젊은층 [추론]",
+        "unique_point": "음성-위치-감정의 3차원 소통 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Clubhouse",
+          "BeReal",
+          "Zenly"
+        ],
+        "timing_reason": "음성 SNS 트렌드와 위치 기반 서비스 결합 [추론]",
+        "growth_potential": "틈새 시장에서 차별화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 + 광고 모델 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 3,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "600-1000만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "MapKit",
+          "AVFoundation",
+          "WebRTC"
+        ],
+        "key_features": [
+          "음성 녹음",
+          "지도 연동",
+          "감정 태그"
+        ],
+        "clone_tip": "음성 품질과 실시간 처리가 기술적 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#소셜",
+        "#음성",
+        "#위치기반"
+      ],
+      "verdict": "혁신적이지만 사용자 확보가 관건"
+    },
+    {
+      "rank": 3,
+      "name": "PracticePathg",
+      "developer": "Willard Jenks",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ab/8e/22/ab8e2221-e447-5118-ecdb-7dc98af5c335/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/practicepathg/id6758048157?uo=2",
+      "idea_summary": "체계적인 연습 경로 추적 및 개선 도구",
+      "analysis": {
+        "problem": "효율적인 스킬 연습 방법 부족 [추론]",
+        "solution": "연습 경로 시각화와 진도 추적 [추론]",
+        "target_user": "악기, 언어, 스포츠 학습자 [추론]",
+        "unique_point": "연습의 체계적 접근과 경로 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Strava",
+          "Duolingo"
+        ],
+        "timing_reason": "자기계발과 스킬업 트렌드 확산 [추론]",
+        "growth_potential": "교육 테크 시장과 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 4,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "400-700만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "Charts",
+          "CloudKit"
+        ],
+        "key_features": [
+          "진도 추적",
+          "통계 분석",
+          "목표 설정"
+        ],
+        "clone_tip": "데이터 시각화와 사용자 동기부여가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#교육",
+        "#생산성"
+      ],
+      "verdict": "실용적이며 시장성 있는 접근"
+    },
+    {
+      "rank": 4,
+      "name": "Pixel Pace",
+      "developer": "Akram Fuad Mahmoud",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/81/85/ec818573-b383-398d-94fa-8fd469d43b50/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pixel-pace/id6757730027?uo=2",
+      "idea_summary": "픽셀 아트 스타일의 러닝 추적 앱",
+      "analysis": {
+        "problem": "지루한 피트니스 앱 인터페이스 [추론]",
+        "solution": "게임적 요소와 픽셀 아트 디자인 결합 [추론]",
+        "target_user": "게임을 좋아하는 젊은 러너들 [추론]",
+        "unique_point": "레트로 게임 감성의 피트니스 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nike Run Club",
+          "Strava",
+          "Zombies Run"
+        ],
+        "timing_reason": "게이미피케이션과 레트로 트렌드 결합 [추론]",
+        "growth_potential": "틈새 시장에서 차별화 전략 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 테마 판매 [추론]",
+        "pricing_suggestion": "무료 광고 + 테마팩 1,000원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "200-400만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "HealthKit",
+          "Core Location",
+          "SpriteKit"
+        ],
+        "key_features": [
+          "픽셀 아트 UI",
+          "러닝 추적",
+          "achievement 시스템"
+        ],
+        "clone_tip": "디자인이 핵심 차별화 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#게이미피케이션",
+        "#피트니스"
+      ],
+      "verdict": "디자인 차별화로 틈새 공략"
+    },
+    {
+      "rank": 5,
+      "name": "리카 (Rika) - 1:1 한일 언어 교류",
+      "developer": "jiwoong han",
+      "category": "Social Networking",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/65/ff/8e65ff09-c690-2951-9bcb-8baa71549f10/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/%EB%A6%AC%EC%B9%B4-rika-1-1-%ED%95%9C%EC%9D%BC-%EC%96%B8%EC%96%B4-%EA%B5%90%EB%A5%98/id6757911330?uo=2",
+      "idea_summary": "1:1 한일 언어교환 매칭 플랫폼",
+      "analysis": {
+        "problem": "언어교환 파트너 찾기의 어려움 [추론]",
+        "solution": "한일 특화 1:1 매칭 시스템 [확인]",
+        "target_user": "일본어 학습하는 한국인, 한국어 학습하는 일본인 [확인]",
+        "unique_point": "한일 양국 특화 언어교환 플랫폼 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "HelloTalk",
+          "Tandem",
+          "HiNative"
+        ],
+        "timing_reason": "한일 관계 개선과 언어학습 수요 증가 [추론]",
+        "growth_potential": "명확한 타겟 시장으로 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 매칭 + 번역 기능 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 5,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Firebase",
+          "WebRTC",
+          "번역 API"
+        ],
+        "key_features": [
+          "매칭 알고리즘",
+          "1:1 채팅",
+          "번역 지원"
+        ],
+        "clone_tip": "양국 사용자 확보와 매칭 품질이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#언어교환",
+        "#한일",
+        "#교육"
+      ],
+      "verdict": "명확한 타겟과 현실적 비즈니스 모델"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
+      "developer": "(주)인피니그루",
+      "category": "Utility",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "AI 기반 실시간 사기 탐지 및 예방 앱",
+      "analysis": {
+        "problem": "증가하는 보이스피싱과 온라인 사기 [확인]",
+        "solution": "실시간 사기 패턴 분석 및 경고 시스템 [추론]",
+        "target_user": "사기에 취약한 중장년층과 일반 사용자 [추론]",
+        "unique_point": "실시간 탐지와 예방 중심의 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "후후",
+          "TrueCaller",
+          "Whoscall"
+        ],
+        "timing_reason": "디지털 사기 급증으로 보안 의식 높아짐 [추론]",
+        "growth_potential": "사회적 필요성 높아 정부 지원 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 보안 기능 + B2B 라이선스 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 3,000원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "TensorFlow Lite",
+          "Room DB",
+          "Firebase ML"
+        ],
+        "key_features": [
+          "실시간 분석",
+          "패턴 인식",
+          "경고 시스템"
+        ],
+        "clone_tip": "사기 데이터베이스 구축이 핵심 경쟁력 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 9
+      },
+      "tags": [
+        "#보안",
+        "#AI",
+        "#사회적가치"
+      ],
+      "verdict": "사회적 가치와 수익성을 동시에 만족",
+      "deep_report_id": "android-시티즌코난-보이스피싱-스미싱-피싱아이즈-사기예방-1769094589868"
+    },
+    {
+      "rank": 2,
+      "name": "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
+      "developer": "Gravity Ltd",
+      "category": "Health & Fitness",
+      "icon": "https://play-lh.googleusercontent.com/0vWR05__gGrE_eTRSYh500J9kcNRlVkU2kNK9by3mOw1fWnc9zOEfezuFyjL_PDK3g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tracerofficial",
+      "idea_summary": "걷기와 건강관리로 실제 현금을 버는 앱",
+      "analysis": {
+        "problem": "운동 동기부여 부족과 부수입 필요성 [추론]",
+        "solution": "건강활동을 현금 보상과 연결 [추론]",
+        "target_user": "건강과 부수입에 관심있는 일반 사용자 [추론]",
+        "unique_point": "운동과 수익 창출의 직접적 연결 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "돈이돼지",
+          "캐시워크"
+        ],
+        "timing_reason": "건강 관심 증가와 부수입 트렌드 결합 [추론]",
+        "growth_potential": "리워드 모델 지속가능성이 관건 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익 + 제휴 마케팅 [추론]",
+        "pricing_suggestion": "무료 + 프리미엄 리워드 옵션 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google Fit API",
+          "결제 시스템",
+          "Firebase"
+        ],
+        "key_features": [
+          "걸음 추적",
+          "리워드 시스템",
+          "현금 출금"
+        ],
+        "clone_tip": "지속가능한 리워드 모델 설계가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#건강",
+        "#리워드",
+        "#부수입"
+      ],
+      "verdict": "검증된 모델이지만 수익성 확보 필요"
+    },
+    {
+      "rank": 3,
+      "name": "무료톡스티커 - Personal Stickers",
+      "developer": "Personal Sticker Meme Developer",
+      "category": "Communication",
+      "icon": "https://play-lh.googleusercontent.com/R9AmDyDoJUsa1fQW2hpK_ze_Vqt9_tjOYW4YHQbifYEaR71JiZs9kr4P32bygcvdDg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.memeandsticker.personal",
+      "idea_summary": "개인 맞춤형 스티커 제작 및 공유 플랫폼",
+      "analysis": {
+        "problem": "개성있는 스티커 부족과 제작의 어려움 [추론]",
+        "solution": "간편한 개인 스티커 제작 도구 제공 [추론]",
+        "target_user": "개성 표현을 좋아하는 젊은층 [추론]",
+        "unique_point": "개인화된 스티커 제작과 공유 생태계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "LINE Creators Studio",
+          "Bitmoji",
+          "WhatsApp Stickers"
+        ],
+        "timing_reason": "개인 브랜딩과 창작자 경제 확산 [추론]",
+        "growth_potential": "창작자 플랫폼으로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "스티커 판매 수수료 + 프리미엄 도구 [추론]",
+        "pricing_suggestion": "무료 기본 + 창작도구 월 2,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Canvas API",
+          "Firebase Storage",
+          "결제 API"
+        ],
+        "key_features": [
+          "스티커 에디터",
+          "마켓플레이스",
+          "공유 기능"
+        ],
+        "clone_tip": "직관적인 에디터와 소셜 기능이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#창작도구",
+        "#소셜",
+        "#마켓플레이스"
+      ],
+      "verdict": "창작자 경제 트렌드에 부합하는 아이디어"
+    },
+    {
+      "rank": 4,
+      "name": "PowerPDF: Read, Sign, Convert",
+      "developer": "Shenzhen Youyunxiu Technology",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/PrmqfbT6E4wcMRH3019c0b9u9bjuciP1EJnY9d_1UlNFb4FowCE9THGVssu67Ks5MQqiftR7gqdLekRAgloJ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.powerpdf.readsignconvert",
+      "idea_summary": "PDF 읽기, 서명, 변환 올인원 솔루션",
+      "analysis": {
+        "problem": "모바일에서 PDF 작업의 불편함 [추론]",
+        "solution": "읽기, 편집, 서명, 변환 통합 기능 [확인]",
+        "target_user": "업무용 문서를 다루는 직장인, 학생 [추론]",
+        "unique_point": "모바일 최적화된 PDF 올인원 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS PDF",
+          "PDF Expert"
+        ],
+        "timing_reason": "원격근무 확산으로 모바일 문서 작업 증가 [추론]",
+        "growth_potential": "비즈니스 시장에서 안정적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 5,000원 프로 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDFBox",
+          "디지털 서명 라이브러리",
+          "OCR"
+        ],
+        "key_features": [
+          "PDF 뷰어",
+          "주석 기능",
+          "전자서명",
+          "포맷 변환"
+        ],
+        "clone_tip": "PDF 엔진 최적화와 UX가 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#비즈니스",
+        "#생산성"
+      ],
+      "verdict": "검증된 시장의 실용적 솔루션"
+    },
+    {
+      "rank": 5,
+      "name": "Wander Weather",
+      "developer": "Leapora Tech",
+      "category": "Weather",
+      "icon": "https://play-lh.googleusercontent.com/m3WikNS2lHZTgEBn9bgWXtqSqJCjyXaEp6wLR_UVzpYWoZgPj3wqxLmBIq5Q443ymVjl8JLFSTmwoIsaEc4E918",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wanderweather.wanweforecast",
+      "idea_summary": "여행자 특화 날씨 예보 및 계획 도구",
+      "analysis": {
+        "problem": "여행지 날씨 정보의 부정확성과 부족함 [추론]",
+        "solution": "여행 특화 상세 날씨 정보와 추천 [추론]",
+        "target_user": "자주 여행하는 사람들과 아웃도어 활동가 [추론]",
+        "unique_point": "여행과 액티비티 중심의 날씨 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "AccuWeather",
+          "Weather Underground",
+          "Dark Sky"
+        ],
+        "timing_reason": "포스트 코로나 여행 수요 폭증 [추론]",
+        "growth_potential": "여행업계와 제휴로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 예보 + 여행업체 제휴 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 3,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Weather API",
+          "Google Maps",
+          "Machine Learning"
+        ],
+        "key_features": [
+          "상세 예보",
+          "액티비티 추천",
+          "여행 계획"
+        ],
+        "clone_tip": "정확한 데이터와 여행 맥락 제공이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#여행",
+        "#날씨",
+        "#라이프스타일"
+      ],
+      "verdict": "여행 트렌드와 함께 성장 가능한 틈새"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인화 서비스와 사회적 문제 해결 앱이 주요 트렌드로 부상하고 있으며, 건강과 수익을 결합한 리워드 모델도 지속 확산되고 있다 [추론]",
+    "trend_details": [
+      "AI 보안 및 사기 예방 솔루션",
+      "5분 법칙 등 심리학 기반 생산성 도구",
+      "음성-위치-감정 통합 소셜 플랫폼",
+      "여행 특화 맞춤형 서비스"
+    ],
+    "hot_categories": [
+      "보안/유틸리티",
+      "생산성/라이프스타일",
+      "건강/피트니스"
+    ],
+    "opportunity": "사회적 문제 해결과 개인의 일상 개선을 동시에 만족하는 앱",
+    "action_item": "AI 기술을 활용한 개인화 서비스 아이디어 발굴"
+  }
+}

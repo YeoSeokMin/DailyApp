@@ -1,23 +1,25 @@
 {
-  "generatedAt": "2026-01-21T15:57:26.828Z",
+  "generatedAt": "2026-01-22T15:16:09.781Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "건강 및 피트니스",
-      "currentCount": 4,
+      "category": "도구",
+      "currentCount": 6,
       "previousCount": 1,
-      "changePercent": 300,
+      "changePercent": 500,
       "changeDirection": "up",
       "apps": [
-        "Xenon - 피트니스 기록 및 지도",
-        "Metanoia Meditations",
-        "ProsoPlate",
-        "Vaayu | Ваайю"
+        "AVDown: Video Downloader",
+        "삭제된 사진 복구, 파일 복구, 모두 복구",
+        "파일 및 사진 복구",
+        "사진 및 비디오 복구, 완전 복구",
+        "PDF Reader – PDF 리더기",
+        "It's Pee Time Home Screen"
       ],
-      "avgScore": 5.45
+      "avgScore": 5.75
     },
     {
       "category": "게임",
@@ -41,31 +43,104 @@
       "avgScore": 6.090909090909091
     },
     {
-      "category": "생산성",
-      "currentCount": 17,
-      "previousCount": 8,
-      "changePercent": 113,
+      "category": "Lifestyle",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "AR Drawing: Trace to Sketch",
-        "Settings Studio",
-        "Gemmy AI: 채팅 & 어시스턴트",
-        "메모 - 메모 및 목록 작성용 메모장",
-        "모든 파일 뷰어",
-        "KLING AI: AI 이미지 및 동영상 메이커",
-        "Grok AI",
-        "문서뷰어: HWP, Docx, PDF, Xlsx한글어로",
-        "PDF 리더 & 한글 뷰어 - HWP 파일 열기",
-        "CleanTrackk",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "OhmCalc Master",
-        "人生电量 (인생 배터리)",
-        "Nope Moments",
-        "GPS Fields & Land Area Measure",
-        "Nope Moments",
-        "人生电量 (인생 배터리)"
+        "Pawly - Pet Diary"
       ],
-      "avgScore": 5.7176470588235295
+      "avgScore": 7.4
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Lighter Simulator"
+      ],
+      "avgScore": 6
+    },
+    {
+      "category": "Food & Beverage",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Food Safety Manager"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Business",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Jewelry Identifier by Photo AI"
+      ],
+      "avgScore": 8.4
+    },
+    {
+      "category": "Photo & Video",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "ReaCam – Screen Reactions"
+      ],
+      "avgScore": 7.2
+    },
+    {
+      "category": "Translation",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AI Translator All Languages",
+        "Voice Translator All Languages"
+      ],
+      "avgScore": 7.75
+    },
+    {
+      "category": "Video Creation",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AI Video Maker With Music"
+      ],
+      "avgScore": 8.4
+    },
+    {
+      "category": "Image Editing",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "PhotoVerse AI Photo Editor"
+      ],
+      "avgScore": 7.1
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Photo Recovery Deleted Photos"
+      ],
+      "avgScore": 6.6
     },
     {
       "category": "사진/동영상 편집",
@@ -114,23 +189,6 @@
       "avgScore": 6.25
     },
     {
-      "category": "도구",
-      "currentCount": 7,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "AVDown: Video Downloader",
-        "삭제된 사진 복구, 파일 복구, 모두 복구",
-        "파일 및 사진 복구",
-        "사진 및 비디오 복구, 완전 복구",
-        "PDF Reader – PDF 리더기",
-        "It's Pee Time Home Screen",
-        "It's Pee Time Home Screen"
-      ],
-      "avgScore": 5.714285714285714
-    },
-    {
       "category": "정보",
       "currentCount": 1,
       "previousCount": 0,
@@ -164,108 +222,75 @@
       "avgScore": 5
     },
     {
-      "category": "뉴스",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "생산성",
+      "currentCount": 14,
+      "previousCount": 9,
+      "changePercent": 56,
       "changeDirection": "up",
       "apps": [
-        "Gatherly - Simple RSS Reader"
+        "AR Drawing: Trace to Sketch",
+        "Settings Studio",
+        "Gemmy AI: 채팅 & 어시스턴트",
+        "메모 - 메모 및 목록 작성용 메모장",
+        "모든 파일 뷰어",
+        "KLING AI: AI 이미지 및 동영상 메이커",
+        "Grok AI",
+        "문서뷰어: HWP, Docx, PDF, Xlsx한글어로",
+        "PDF 리더 & 한글 뷰어 - HWP 파일 열기",
+        "CleanTrackk",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "OhmCalc Master",
+        "人生电量 (인생 배터리)",
+        "Nope Moments"
       ],
-      "avgScore": 5.5
+      "avgScore": 5.621428571428572
     },
     {
-      "category": "레이싱",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "건강 및 피트니스",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "CarRage: Speed Zone",
-        "Last Ride: Motor Speed"
+        "Xenon - 피트니스 기록 및 지도",
+        "Metanoia Meditations",
+        "ProsoPlate"
       ],
-      "avgScore": 5.65
+      "avgScore": 5.1000000000000005
     },
     {
-      "category": "시뮬레이션",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "금융",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Merge Cats: Road Trip"
+        "monimo (모니모, 삼성금융네트웍스)",
+        "Panora Global",
+        "디지털온누리"
       ],
-      "avgScore": 6
-    },
-    {
-      "category": "어드벤처",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Tempest Bastion - Placement RPG"
-      ],
-      "avgScore": 6.5
-    },
-    {
-      "category": "RPG",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "ALCHEMIST"
-      ],
-      "avgScore": 6.2
-    },
-    {
-      "category": "카지노",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Slot Fortune Cash"
-      ],
-      "avgScore": 5.5
-    },
-    {
-      "category": "비즈니스",
-      "currentCount": 5,
-      "previousCount": 3,
-      "changePercent": 67,
-      "changeDirection": "up",
-      "apps": [
-        "Bookreen Mobile",
-        "SPAR International Events",
-        "Tenantry",
-        "Aya",
-        "Tenantry"
-      ],
-      "avgScore": 6.9799999999999995
+      "avgScore": 6.533333333333334
     }
   ],
   "decliningCategories": [
     {
       "category": "엔터테인먼트",
-      "currentCount": 4,
+      "currentCount": 3,
       "previousCount": 5,
-      "changePercent": -20,
+      "changePercent": -40,
       "changeDirection": "down",
       "apps": [
         "Tier List Maker - TierMaker",
         "NetShort - 인기 드라마 및 TV 프로그램",
-        "MadJokers Quizle",
-        "Say The Word On Beat Challenge"
+        "MadJokers Quizle"
       ],
-      "avgScore": 6.45
+      "avgScore": 6.266666666666667
     },
     {
       "category": "유틸리티",
-      "currentCount": 8,
-      "previousCount": 11,
-      "changePercent": -27,
+      "currentCount": 7,
+      "previousCount": 12,
+      "changePercent": -42,
       "changeDirection": "down",
       "apps": [
         "Count Objects Camera",
@@ -274,10 +299,32 @@
         "ESA Alben",
         "ImageMoodPalette",
         "Prteitneslo",
-        "PDF & HTML Merger",
         "PDF & HTML Merger"
       ],
-      "avgScore": 5.5375
+      "avgScore": 5.5
+    },
+    {
+      "category": "여행",
+      "currentCount": 2,
+      "previousCount": 4,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Map Verse",
+        "Avira Travel"
+      ],
+      "avgScore": 7.25
+    },
+    {
+      "category": "라이프스타일",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Quiet Mirror"
+      ],
+      "avgScore": 4.2
     },
     {
       "category": "쇼핑",
@@ -292,22 +339,10 @@
       "avgScore": 6.4
     },
     {
-      "category": "퍼즐",
-      "currentCount": 2,
-      "previousCount": 5,
-      "changePercent": -60,
-      "changeDirection": "down",
-      "apps": [
-        "성 직소 퍼즐 게임",
-        "Candy Andy: Match 3 Puzzle Fun"
-      ],
-      "avgScore": 5.25
-    },
-    {
       "category": "교육",
       "currentCount": 2,
-      "previousCount": 7,
-      "changePercent": -71,
+      "previousCount": 6,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
         "RoadRules 4-in-1",
@@ -316,13 +351,13 @@
       "avgScore": 5.75
     },
     {
-      "category": "캐주얼",
+      "category": "퍼즐",
       "currentCount": 1,
       "previousCount": 5,
       "changePercent": -80,
       "changeDirection": "down",
       "apps": [
-        "Mahjong Match: Tile Puzzle"
+        "성 직소 퍼즐 게임"
       ],
       "avgScore": 5
     }
@@ -352,42 +387,18 @@
       "avgScore": 5.85
     },
     {
-      "category": "금융",
-      "currentCount": 3,
-      "previousCount": 3,
+      "category": "비즈니스",
+      "currentCount": 4,
+      "previousCount": 4,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "monimo (모니모, 삼성금융네트웍스)",
-        "Panora Global",
-        "디지털온누리"
+        "Bookreen Mobile",
+        "SPAR International Events",
+        "Tenantry",
+        "Aya"
       ],
-      "avgScore": 6.533333333333334
-    },
-    {
-      "category": "여행",
-      "currentCount": 3,
-      "previousCount": 3,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Map Verse",
-        "Avira Travel",
-        "Map Verse"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Quiet Mirror",
-        "Quiet Mirror"
-      ],
-      "avgScore": 4.1
+      "avgScore": 6.975
     },
     {
       "category": "아케이드",
@@ -399,25 +410,22 @@
         "1.000.000 Click Button"
       ],
       "avgScore": 5.2
-    },
-    {
-      "category": "참고",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Coin Identifier Value Finder"
-      ],
-      "avgScore": 6.8
     }
   ],
   "hotKeywords": [
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 70,
+      "count": 60,
       "apps": [
+        "Pawly - Pet Diary",
+        "Lighter Simulator",
+        "Jewelry Identifier by Photo AI",
+        "AI Translator All Languages",
+        "AI Video Maker With Music",
+        "PhotoVerse AI Photo Editor",
+        "Voice Translator All Languages",
+        "Photo Recovery Deleted Photos",
         "Let's Get Greedy",
         "Solv: Fitness Intelligence",
         "RoadRules 4-in-1",
@@ -469,26 +477,18 @@
         "1.000.000 Click Button",
         "It's Pee Time Home Screen",
         "Sentinels: Learn to Play",
-        "성 직소 퍼즐 게임",
-        "Coin Identifier Value Finder",
-        "Gatherly - Simple RSS Reader",
-        "Vaayu | Ваайю",
-        "Candy Andy: Match 3 Puzzle Fun",
-        "CarRage: Speed Zone",
-        "Merge Cats: Road Trip",
-        "Say The Word On Beat Challenge",
-        "Tempest Bastion - Placement RPG",
-        "Mahjong Match: Tile Puzzle",
-        "Last Ride: Motor Speed",
-        "ALCHEMIST",
-        "Slot Fortune Cash"
+        "성 직소 퍼즐 게임"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 51,
+      "count": 41,
       "apps": [
+        "Pawly - Pet Diary",
+        "Lighter Simulator",
+        "Food Safety Manager",
+        "ReaCam – Screen Reactions",
         "Let's Get Greedy",
         "RoadRules 4-in-1",
         "Tier List Maker - TierMaker",
@@ -525,21 +525,18 @@
         "ProsoPlate",
         "1.000.000 Click Button",
         "It's Pee Time Home Screen",
-        "성 직소 퍼즐 게임",
-        "Coin Identifier Value Finder",
-        "GPS Fields & Land Area Measure",
-        "Gatherly - Simple RSS Reader",
-        "Vaayu | Ваайю",
-        "Say The Word On Beat Challenge",
-        "Mahjong Match: Tile Puzzle",
-        "Last Ride: Motor Speed"
+        "성 직소 퍼즐 게임"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 22,
+      "count": 25,
       "apps": [
+        "Jewelry Identifier by Photo AI",
+        "AI Translator All Languages",
+        "AI Video Maker With Music",
+        "PhotoVerse AI Photo Editor",
         "Solv: Fitness Intelligence",
         "Canva: AI Photo & Video Editor",
         "AI Video - AI Video Generator",
@@ -553,8 +550,7 @@
         "네이버플러스 스토어",
         "ImageMoodPalette",
         "YAIIU",
-        "Avira Travel",
-        "Coin Identifier Value Finder"
+        "Avira Travel"
       ]
     },
     {
@@ -562,6 +558,7 @@
       "category": "tag",
       "count": 16,
       "apps": [
+        "Photo Recovery Deleted Photos",
         "Count Objects Camera",
         "Settings Studio",
         "첫화면날씨 - 날씨 미세먼지 날씨위젯",
@@ -580,25 +577,39 @@
       ]
     },
     {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 9,
+      "apps": [
+        "ReaCam – Screen Reactions",
+        "AI Video Maker With Music",
+        "Photo Recovery Deleted Photos",
+        "AI Video - AI Video Generator",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "AVDown: Video Downloader",
+        "KLING AI: AI 이미지 및 동영상 메이커",
+        "Grok AI",
+        "파일 및 사진 복구"
+      ]
+    },
+    {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 10,
+      "count": 8,
       "apps": [
+        "ReaCam – Screen Reactions",
         "Canva: AI Photo & Video Editor",
         "Metanoia Meditations",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "Grok AI",
         "Exchange Manager Simulator",
-        "MadJokers Quizle",
-        "Gatherly - Simple RSS Reader",
-        "Say The Word On Beat Challenge",
-        "ALCHEMIST"
+        "MadJokers Quizle"
       ]
     },
     {
       "keyword": "광고수익",
       "category": "tag",
-      "count": 10,
+      "count": 7,
       "apps": [
         "삭제된 사진 복구, 파일 복구, 모두 복구",
         "문서뷰어: HWP, Docx, PDF, Xlsx한글어로",
@@ -606,64 +617,31 @@
         "Weather Trip",
         "Stack Perfect: Precision Tower",
         "파일 및 사진 복구",
-        "사진 및 비디오 복구, 완전 복구",
-        "Candy Andy: Match 3 Puzzle Fun",
-        "CarRage: Speed Zone",
-        "Last Ride: Motor Speed"
-      ]
-    },
-    {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 7,
-      "apps": [
-        "AR Drawing: Trace to Sketch",
-        "SPAR International Events",
-        "Sentinels: Learn to Play",
-        "GPS Fields & Land Area Measure",
-        "Gatherly - Simple RSS Reader",
-        "CarRage: Speed Zone",
-        "Slot Fortune Cash"
+        "사진 및 비디오 복구, 완전 복구"
       ]
     },
     {
       "keyword": "소셜",
       "category": "social",
-      "count": 7,
+      "count": 6,
       "apps": [
         "WePlay - 파티게임",
         "Xenon - 피트니스 기록 및 지도",
         "Proud Diaspo Face",
-        "Map Verse",
-        "Slot Fortune Cash"
-      ]
-    },
-    {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 7,
-      "apps": [
-        "AI Video - AI Video Generator",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "AVDown: Video Downloader",
-        "KLING AI: AI 이미지 및 동영상 메이커",
-        "Grok AI",
-        "파일 및 사진 복구",
-        "Say The Word On Beat Challenge"
+        "Map Verse"
       ]
     },
     {
       "keyword": "레드오션",
       "category": "tag",
-      "count": 7,
+      "count": 6,
       "apps": [
         "Xenon - 피트니스 기록 및 지도",
         "Income-Expense-Tracker",
         "메모 - 메모 및 목록 작성용 메모장",
         "모든 파일 뷰어",
         "Quiet Mirror",
-        "YAIIU",
-        "Candy Andy: Match 3 Puzzle Fun"
+        "YAIIU"
       ]
     },
     {
@@ -680,6 +658,41 @@
       ]
     },
     {
+      "keyword": "AI활용",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "Jewelry Identifier by Photo AI",
+        "AI Translator All Languages",
+        "AI Video Maker With Music",
+        "PhotoVerse AI Photo Editor",
+        "Solv: Fitness Intelligence"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "ReaCam – Screen Reactions",
+        "AI Video Maker With Music",
+        "AI Video - AI Video Generator",
+        "ImageMoodPalette"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "AI Video Maker With Music",
+        "PhotoVerse AI Photo Editor",
+        "Canva: AI Photo & Video Editor",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "YAIIU"
+      ]
+    },
+    {
       "keyword": "한국특화",
       "category": "tag",
       "count": 5,
@@ -689,18 +702,6 @@
         "문서뷰어: HWP, Docx, PDF, Xlsx한글어로",
         "PDF 리더 & 한글 뷰어 - HWP 파일 열기",
         "PDF Reader – PDF 리더기"
-      ]
-    },
-    {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 5,
-      "apps": [
-        "Settings Studio",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "SPAR International Events",
-        "파일 및 사진 복구",
-        "Quiet Mirror"
       ]
     },
     {
@@ -716,15 +717,36 @@
       ]
     },
     {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 4,
+      "apps": [
+        "Pawly - Pet Diary",
+        "AR Drawing: Trace to Sketch",
+        "SPAR International Events",
+        "Sentinels: Learn to Play"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 4,
+      "apps": [
+        "Pawly - Pet Diary",
+        "CleanTrackk",
+        "SPAR International Events",
+        "Avira Travel"
+      ]
+    },
+    {
       "keyword": "B2B",
       "category": "tag",
-      "count": 5,
+      "count": 4,
       "apps": [
+        "Food Safety Manager",
         "Bookreen Mobile",
         "SPAR International Events",
-        "Aya",
-        "GPS Fields & Land Area Measure",
-        "Tenantry"
+        "Aya"
       ]
     },
     {
@@ -738,86 +760,53 @@
       ]
     },
     {
-      "keyword": "바이럴",
-      "category": "tag",
+      "keyword": "프로",
+      "category": "subscription",
       "count": 4,
       "apps": [
-        "Tier List Maker - TierMaker",
-        "1.000.000 Click Button",
-        "人生电量 (인생 배터리)",
-        "Say The Word On Beat Challenge"
-      ]
-    },
-    {
-      "keyword": "투자",
-      "category": "fintech",
-      "count": 4,
-      "apps": [
+        "Settings Studio",
         "NetShort - 인기 드라마 및 TV 프로그램",
-        "Grok AI",
-        "monimo (모니모, 삼성금융네트웍스)",
-        "Panora Global"
-      ]
-    },
-    {
-      "keyword": "하이퍼캐주얼",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Adventures of Slime",
-        "Stack Perfect: Precision Tower",
-        "1.000.000 Click Button",
-        "CarRage: Speed Zone"
-      ]
-    },
-    {
-      "keyword": "게임",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Bitcoin Shredder",
-        "Candy Andy: Match 3 Puzzle Fun",
-        "CarRage: Speed Zone",
-        "Merge Cats: Road Trip"
+        "SPAR International Events",
+        "파일 및 사진 복구"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 61,
-        "percent": 66,
+        "count": 60,
+        "percent": 73,
         "examples": [
-          "Let's Get Greedy",
-          "WePlay - 파티게임",
-          "RoadRules 4-in-1"
+          "Pawly - Pet Diary",
+          "Lighter Simulator",
+          "Jewelry Identifier by Photo AI"
         ]
       },
       "freemium": {
-        "count": 70,
-        "percent": 76,
+        "count": 63,
+        "percent": 77,
         "examples": [
-          "Let's Get Greedy",
-          "Solv: Fitness Intelligence",
-          "AR Drawing: Trace to Sketch"
+          "Pawly - Pet Diary",
+          "Lighter Simulator",
+          "Jewelry Identifier by Photo AI"
         ]
       },
       "subscription": {
-        "count": 30,
-        "percent": 33,
+        "count": 28,
+        "percent": 34,
         "examples": [
-          "Solv: Fitness Intelligence",
-          "Canva: AI Photo & Video Editor",
-          "AI Video - AI Video Generator"
+          "Pawly - Pet Diary",
+          "Food Safety Manager",
+          "AI Translator All Languages"
         ]
       },
       "onetime": {
-        "count": 21,
-        "percent": 23,
+        "count": 11,
+        "percent": 13,
         "examples": [
+          "Lighter Simulator",
           "AR Drawing: Trace to Sketch",
-          "RoadRules 4-in-1",
-          "Tier List Maker - TierMaker"
+          "RoadRules 4-in-1"
         ]
       },
       "unknown": {
@@ -828,12 +817,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 70,
-      "percent": 76,
+      "count": 63,
+      "percent": 77,
       "examples": [
-        "Let's Get Greedy",
-        "Solv: Fitness Intelligence",
-        "AR Drawing: Trace to Sketch"
+        "Pawly - Pet Diary",
+        "Lighter Simulator",
+        "Jewelry Identifier by Photo AI"
       ]
     },
     "insight": "프리미엄 모델 대세. 무료 사용자 → 유료 전환 퍼널 설계가 핵심."
@@ -842,44 +831,44 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 20,
-        "percent": 22,
+        "count": 22,
+        "percent": 27,
         "apps": [
-          "Solv: Fitness Intelligence",
-          "Canva: AI Photo & Video Editor",
-          "AI Video - AI Video Generator",
-          "AI 조류 식별: Bird Ace",
-          "Count Objects Camera"
-        ]
-      },
-      {
-        "tech": "ar_vr",
-        "count": 13,
-        "percent": 14,
-        "apps": [
-          "AR Drawing: Trace to Sketch",
-          "Tier List Maker - TierMaker",
-          "Income-Expense-Tracker",
-          "PDF 리더 & 한글 뷰어 - HWP 파일 열기",
-          "SPAR International Events"
+          "Jewelry Identifier by Photo AI",
+          "AI Translator All Languages",
+          "AI Video Maker With Music",
+          "PhotoVerse AI Photo Editor",
+          "Solv: Fitness Intelligence"
         ]
       },
       {
         "tech": "creator",
-        "count": 13,
-        "percent": 14,
+        "count": 15,
+        "percent": 18,
         "apps": [
-          "Canva: AI Photo & Video Editor",
-          "AI Video - AI Video Generator",
-          "Metanoia Meditations",
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "AVDown: Video Downloader"
+          "ReaCam – Screen Reactions",
+          "AI Video Maker With Music",
+          "PhotoVerse AI Photo Editor",
+          "Photo Recovery Deleted Photos",
+          "Canva: AI Photo & Video Editor"
+        ]
+      },
+      {
+        "tech": "ar_vr",
+        "count": 10,
+        "percent": 12,
+        "apps": [
+          "Pawly - Pet Diary",
+          "AI Translator All Languages",
+          "AR Drawing: Trace to Sketch",
+          "Tier List Maker - TierMaker",
+          "Income-Expense-Tracker"
         ]
       },
       {
         "tech": "social",
-        "count": 7,
-        "percent": 8,
+        "count": 5,
+        "percent": 6,
         "apps": [
           "WePlay - 파티게임",
           "카풀링",
@@ -889,32 +878,41 @@
         ]
       },
       {
+        "tech": "productivity",
+        "count": 4,
+        "percent": 5,
+        "apps": [
+          "Pawly - Pet Diary",
+          "AI Video Maker With Music",
+          "SPAR International Events",
+          "Avira Travel"
+        ]
+      },
+      {
         "tech": "subscription",
-        "count": 6,
-        "percent": 7,
+        "count": 4,
+        "percent": 5,
         "apps": [
           "Settings Studio",
           "NetShort - 인기 드라마 및 TV 프로그램",
           "네이버플러스 스토어",
-          "Tenantry",
-          "Gatherly - Simple RSS Reader"
+          "Tenantry"
         ]
       },
       {
         "tech": "health",
-        "count": 4,
+        "count": 3,
         "percent": 4,
         "apps": [
           "Solv: Fitness Intelligence",
           "Metanoia Meditations",
-          "ProsoPlate",
-          "Vaayu | Ваайю"
+          "ProsoPlate"
         ]
       },
       {
         "tech": "fintech",
         "count": 3,
-        "percent": 3,
+        "percent": 4,
         "apps": [
           "NetShort - 인기 드라마 및 TV 프로그램",
           "Grok AI",
@@ -929,64 +927,55 @@
           "Bitcoin Shredder",
           "디지털온누리"
         ]
-      },
-      {
-        "tech": "productivity",
-        "count": 2,
-        "percent": 2,
-        "apps": [
-          "SPAR International Events",
-          "Avira Travel"
-        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 20,
-      "percent": 22,
+      "count": 22,
+      "percent": 27,
       "apps": [
-        "Solv: Fitness Intelligence",
-        "Canva: AI Photo & Video Editor",
-        "AI Video - AI Video Generator",
-        "AI 조류 식별: Bird Ace",
-        "Count Objects Camera"
+        "Jewelry Identifier by Photo AI",
+        "AI Translator All Languages",
+        "AI Video Maker With Music",
+        "PhotoVerse AI Photo Editor",
+        "Solv: Fitness Intelligence"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 20,
-        "percent": 22,
+        "count": 22,
+        "percent": 27,
         "apps": [
-          "Solv: Fitness Intelligence",
-          "Canva: AI Photo & Video Editor",
-          "AI Video - AI Video Generator",
-          "AI 조류 식별: Bird Ace",
-          "Count Objects Camera"
-        ]
-      },
-      {
-        "tech": "ar_vr",
-        "count": 13,
-        "percent": 14,
-        "apps": [
-          "AR Drawing: Trace to Sketch",
-          "Tier List Maker - TierMaker",
-          "Income-Expense-Tracker",
-          "PDF 리더 & 한글 뷰어 - HWP 파일 열기",
-          "SPAR International Events"
+          "Jewelry Identifier by Photo AI",
+          "AI Translator All Languages",
+          "AI Video Maker With Music",
+          "PhotoVerse AI Photo Editor",
+          "Solv: Fitness Intelligence"
         ]
       },
       {
         "tech": "creator",
-        "count": 13,
-        "percent": 14,
+        "count": 15,
+        "percent": 18,
         "apps": [
-          "Canva: AI Photo & Video Editor",
-          "AI Video - AI Video Generator",
-          "Metanoia Meditations",
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "AVDown: Video Downloader"
+          "ReaCam – Screen Reactions",
+          "AI Video Maker With Music",
+          "PhotoVerse AI Photo Editor",
+          "Photo Recovery Deleted Photos",
+          "Canva: AI Photo & Video Editor"
+        ]
+      },
+      {
+        "tech": "ar_vr",
+        "count": 10,
+        "percent": 12,
+        "apps": [
+          "Pawly - Pet Diary",
+          "AI Translator All Languages",
+          "AR Drawing: Trace to Sketch",
+          "Tier List Maker - TierMaker",
+          "Income-Expense-Tracker"
         ]
       }
     ]
@@ -994,10 +983,66 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "건강 및 피트니스 카테고리 급부상",
-      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Lifestyle 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "건강 및 피트니스"
+      "category": "Lifestyle"
+    },
+    {
+      "type": "rising_category",
+      "title": "Entertainment 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Entertainment"
+    },
+    {
+      "type": "rising_category",
+      "title": "Food & Beverage 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Food & Beverage"
+    },
+    {
+      "type": "rising_category",
+      "title": "Business 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Business"
+    },
+    {
+      "type": "rising_category",
+      "title": "Photo & Video 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Photo & Video"
+    },
+    {
+      "type": "rising_category",
+      "title": "Translation 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Translation"
+    },
+    {
+      "type": "rising_category",
+      "title": "Video Creation 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Video Creation"
+    },
+    {
+      "type": "rising_category",
+      "title": "Image Editing 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Image Editing"
+    },
+    {
+      "type": "rising_category",
+      "title": "Utilities 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Utilities"
     },
     {
       "type": "rising_category",
@@ -1050,69 +1095,39 @@
     },
     {
       "type": "rising_category",
-      "title": "뉴스 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "건강 및 피트니스 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "뉴스"
+      "category": "건강 및 피트니스"
     },
     {
       "type": "rising_category",
-      "title": "레이싱 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "금융 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "레이싱"
-    },
-    {
-      "type": "rising_category",
-      "title": "시뮬레이션 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "시뮬레이션"
-    },
-    {
-      "type": "rising_category",
-      "title": "어드벤처 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "어드벤처"
-    },
-    {
-      "type": "rising_category",
-      "title": "RPG 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "RPG"
-    },
-    {
-      "type": "rising_category",
-      "title": "카지노 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "카지노"
+      "category": "금융"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "22%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "27%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "건강 및 피트니스 카테고리가 300% 급상승하며 가장 뜨거운 시장으로 부상했고, 생산성(+113%)과 게임(+120%) 분야도 지속 성장세를 보이고 있습니다. AI 기능 통합이 22%의 앱에서 확인되며 차별화 핵심 요소로 자리잡고 있습니다.",
+    "trend_summary": "도구 카테고리가 500% 급상승하며 유틸리티 앱에 대한 수요가 폭발적으로 증가하고 있습니다. AI 기능을 탑재한 앱이 27%에 달하며, B2C와 1인 개발 가능한 앱들이 주요 트렌드로 부상했습니다.",
     "trend_details": [
-      "건강 및 피트니스 카테고리 300% 급상승으로 가장 높은 성장률 기록",
-      "생산성 앱이 17개로 가장 많은 수를 차지하며 113% 성장",
-      "AI 기능이 22%의 앱에 통합되어 필수 차별화 요소로 부상",
-      "Freemium 모델이 76%로 가장 선호되는 수익화 전략",
-      "1인 개발 가능한 B2C 앱이 주요 트렌드로 확인"
+      "도구/유틸리티 카테고리 500% 급상승으로 실용성 있는 앱 수요 폭증",
+      "AI 통합이 필수 트렌드가 되어 27%의 앱이 AI 기능 포함",
+      "B2C 모델과 1인 개발 가능한 앱이 시장에서 각광받는 중"
     ],
     "hot_categories": [
-      "건강 및 피트니스",
-      "생산성"
+      "도구/유틸리티",
+      "AI 통합 앱"
     ],
-    "opportunity": "건강 및 피트니스 카테고리는 300% 급상승했지만 앱 수가 4개로 적어 AI 기능을 결합한 피트니스 앱 개발이 가장 유망한 진입 기회입니다.",
-    "action_item": "AI 기반 개인 맞춤형 운동 추천 또는 건강 관리 앱을 Freemium 모델로 개발하여 급성장하는 건강 및 피트니스 시장에 진입하세요.",
-    "weekly_theme": "AI 헬스케어"
+    "opportunity": "Lifestyle, Entertainment, Food & Beverage 카테고리는 100% 성장했지만 경쟁이 적어 블루오션 진입 기회가 있습니다.",
+    "action_item": "기존 유틸리티 아이디어에 AI 기능을 접목한 도구 앱을 개발하여 급성장하는 시장에 진입하세요.",
+    "weekly_theme": "AI 유틸리티"
   }
 }
