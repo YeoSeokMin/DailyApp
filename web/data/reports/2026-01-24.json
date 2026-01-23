@@ -1,0 +1,660 @@
+{
+  "date": "2026-01-24",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Nimbi - Family Chore Tracker",
+      "developer": "Luis Rodriguez",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/e7/1e/a0e71e09-17e5-5e08-6954-beb750a75c38/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/nimbi-family-chore-tracker/id6747768677?uo=2",
+      "idea_summary": "가족 구성원의 집안일을 게임화하여 관리하는 협업 도구",
+      "analysis": {
+        "problem": "가족 간 집안일 분담이 불명확하고 지속적인 관리가 어려운 문제 [추론]",
+        "solution": "집안일을 시각화하고 게임화 요소로 가족 구성원의 참여를 유도 [추론]",
+        "target_user": "맞벌이 부부와 청소년 자녀가 있는 가정, 체계적 집안일 관리를 원하는 가족 [추론]",
+        "unique_point": "가족 협업에 특화된 게임화 시스템과 보상 메커니즘 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Cozi",
+          "Tody",
+          "FamilyWall"
+        ],
+        "timing_reason": "맞벌이 가정 증가와 가사 분담 평등화 트렌드 확산 [추론]",
+        "growth_potential": "가족 생산성 앱 시장 성장과 협업 도구 수요 증가로 안정적 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 무제한 가족 구성원과 고급 분석 기능 제공 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Push Notifications",
+          "Calendar API"
+        ],
+        "key_features": [
+          "할일 배정",
+          "진행 추적",
+          "포인트 시스템",
+          "가족 캘린더"
+        ],
+        "clone_tip": "간단한 할일 관리부터 시작하여 게임화 요소를 점진적 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#가족협업",
+        "#생산성",
+        "#게임화"
+      ],
+      "verdict": "실용적 가족 도구로 꾸준한 사용성과 구독 전환 기대",
+      "deep_report_id": "ios-nimbi-family-chore-tracker-1769180943940"
+    },
+    {
+      "rank": 2,
+      "name": "BabyCare: Baby Tracker Log",
+      "developer": "Semih Senvardar",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/fc/dc/96fcdc13-6a70-0657-73a0-4d8281cd04fb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/babycare-baby-tracker-log/id6756528955?uo=2",
+      "idea_summary": "신생아 케어 정보를 체계적으로 기록하고 분석하는 앱",
+      "analysis": {
+        "problem": "초보 부모가 아기 돌봄 패턴을 파악하고 기록하기 어려운 문제 [추론]",
+        "solution": "수유, 수면, 기저귀 등 아기 돌봄 데이터를 쉽게 기록하고 패턴 분석 제공 [추론]",
+        "target_user": "신생아 부모, 특히 첫 아이를 키우는 초보 부모와 의료진 [추론]",
+        "unique_point": "간편한 기록 방식과 의료진과 공유 가능한 데이터 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Baby Tracker",
+          "Glow Baby",
+          "Feed Baby"
+        ],
+        "timing_reason": "저출산 시대 프리미엄 육아 서비스 수요와 디지털 헬스케어 확산 [추론]",
+        "growth_potential": "육아 앱 시장의 프리미엄화와 데이터 기반 육아 트렌드로 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 리포트와 의료진 공유 기능, 육아용품 제휴 마케팅 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 5,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-8개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core Data",
+          "Charts Framework"
+        ],
+        "key_features": [
+          "원터치 기록",
+          "패턴 분석",
+          "성장 차트",
+          "의료진 공유"
+        ],
+        "clone_tip": "기본 기록 기능부터 시작하여 AI 분석과 개인화 조언 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#육아",
+        "#헬스케어",
+        "#데이터분석"
+      ],
+      "verdict": "필수적인 육아 도구로 높은 사용자 충성도와 수익성 기대"
+    },
+    {
+      "rank": 3,
+      "name": "Chamo: Venezuelan Dictionary",
+      "developer": "Jackson Rigg",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/9e/3c/0a9e3c4c-197c-305a-c932-f0b6f4195dc1/AppIcon-esVe-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/chamo-venezuelan-dictionary/id6757779690?uo=2",
+      "idea_summary": "베네수엘라 현지 슬랭과 문화 표현을 배우는 특화 사전",
+      "analysis": {
+        "problem": "베네수엘라 현지 표현과 슬랭을 학습할 전문 자료의 부족 [추론]",
+        "solution": "현지인이 직접 제작한 베네수엘라 문화와 언어 특화 학습 도구 제공 [추론]",
+        "target_user": "베네수엘라 여행자, 현지 거주 예정자, 라틴 아메리카 문화 학습자 [추론]",
+        "unique_point": "특정 국가 현지 언어에 특화된 니치 마켓 전문 사전 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Translate",
+          "SpanishDict",
+          "Duolingo"
+        ],
+        "timing_reason": "라틴 아메리카 여행 재개와 현지 문화 학습 관심 증가 [추론]",
+        "growth_potential": "니치 시장이지만 충성도 높은 사용자층으로 안정적 수익 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 발음 가이드와 문화 해설, 온라인 레슨 연결 서비스 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "SQLite",
+          "Audio API",
+          "Cloud Storage"
+        ],
+        "key_features": [
+          "사전 검색",
+          "발음 가이드",
+          "문화 설명",
+          "즐겨찾기"
+        ],
+        "clone_tip": "다른 국가별 특화 언어 사전으로 확장 가능한 플랫폼 모델 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#언어학습",
+        "#니치마켓",
+        "#문화교육"
+      ],
+      "verdict": "소규모 니치 시장 타겟으로 다국가 확장 전략 필요"
+    },
+    {
+      "rank": 4,
+      "name": "Bedroom Design AI Planner",
+      "developer": "Nila Rahmawati",
+      "category": "Graphics & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/76/5a/e1765a1e-b0e4-f974-aa8c-3975824a7c37/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/bedroom-design-ai-planner/id6757398264?uo=2",
+      "idea_summary": "AI 기술로 침실 인테리어를 설계하고 시뮬레이션하는 앱",
+      "analysis": {
+        "problem": "일반인이 전문적인 인테리어 설계를 하기 어렵고 비용이 부담되는 문제 [추론]",
+        "solution": "AI를 활용해 사용자 취향과 공간에 맞는 침실 인테리어 디자인 자동 생성 [추론]",
+        "target_user": "새 집 이사자, 방 꾸미기에 관심 있는 2030 세대, DIY 인테리어 애호가 [추론]",
+        "unique_point": "침실에 특화된 AI 디자인과 실제 구매 가능한 가구 연동 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Planner 5D",
+          "RoomSketcher",
+          "IKEA Place"
+        ],
+        "timing_reason": "AI 기술 대중화와 홈 인테리어 관심 증가, 온라인 가구 시장 성장 [추론]",
+        "growth_potential": "인테리어 앱 시장과 AI 디자인 도구 성장으로 높은 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 디자인과 가구 쇼핑 제휴 수수료, 전문가 상담 서비스 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 7,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "ARKit",
+          "3D Rendering",
+          "E-commerce API"
+        ],
+        "key_features": [
+          "AI 디자인 생성",
+          "3D 미리보기",
+          "가구 쇼핑",
+          "AR 체험"
+        ],
+        "clone_tip": "기본 방 배치 도구부터 시작하여 AI 모델과 가구 데이터베이스 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#AI",
+        "#인테리어",
+        "#E커머스"
+      ],
+      "verdict": "AI 트렌드와 인테리어 시장 결합으로 성장 가능성 높음"
+    },
+    {
+      "rank": 5,
+      "name": "ActivityTimer",
+      "developer": "Tham Thi Then",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/42/1e/44421e93-f1fe-f66c-0fd6-b66709eafe91/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/activitytimer/id6757897428?uo=2",
+      "idea_summary": "다양한 활동별 시간을 추적하고 분석하는 타이머 앱",
+      "analysis": {
+        "problem": "일상 활동들의 시간 분배를 정확히 파악하고 관리하기 어려운 문제 [추론]",
+        "solution": "활동별 분류된 타이머로 시간 사용 패턴을 시각화하고 생산성 향상 도움 [추론]",
+        "target_user": "시간 관리를 체계적으로 하고 싶은 직장인과 학생, 프리랜서 [추론]",
+        "unique_point": "단순한 타이머를 넘어 활동 분석과 습관 개선 인사이트 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Toggl",
+          "RescueTime",
+          "Forest"
+        ],
+        "timing_reason": "원격근무 확산과 개인 생산성 관리 도구 수요 증가 [추론]",
+        "growth_potential": "생산성 앱 시장 성장과 시간 관리 의식 증가로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 리포트와 팀 협업 기능, 생산성 코칭 서비스 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts",
+          "Local Notifications"
+        ],
+        "key_features": [
+          "활동별 타이머",
+          "통계 대시보드",
+          "목표 설정",
+          "습관 추적"
+        ],
+        "clone_tip": "기본 타이머부터 시작하여 AI 기반 패턴 분석과 조언 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#생산성",
+        "#시간관리",
+        "#습관추적"
+      ],
+      "verdict": "간단하지만 실용적인 도구로 꾸준한 사용자 확보 가능"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Money Work - Earn Money Through Health Management",
+      "developer": "Gravity Ltd",
+      "category": "Health & Fitness",
+      "icon": "https://play-lh.googleusercontent.com/0vWR05__gGrE_eTRSYh500J9kcNRlVkU2kNK9by3mOw1fWnc9zOEfezuFyjL_PDK3g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tracerofficial",
+      "idea_summary": "건강 관리 활동으로 실제 돈을 벌 수 있는 리워드 헬스케어 앱",
+      "analysis": {
+        "problem": "건강 관리의 동기 부족과 지속성 문제, 운동 습관 형성의 어려움 [추론]",
+        "solution": "걷기, 운동, 수면 등 건강 활동에 금전적 보상을 제공하여 지속적 동기 부여 [추론]",
+        "target_user": "건강 관리 동기가 부족한 일반인과 부가 수입을 원하는 사용자 [추론]",
+        "unique_point": "건강 관리와 수익 창출을 결합한 혁신적 인센티브 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "Achievement",
+          "StepBet"
+        ],
+        "timing_reason": "건강 의식 증가와 리워드 앱 트렌드, 웰니스 테크 시장 성장 [추론]",
+        "growth_potential": "헬스케어와 리워드 경제 융합으로 매우 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익 분배, 기업 헬스케어 파트너십, 건강 데이터 분석 서비스 [추론]",
+        "pricing_suggestion": "무료 기본 서비스, 프리미엄 분석 월 4,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-15개월 [추론]",
+        "estimated_cost": "4000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Google Fit API",
+          "Payment Gateway",
+          "ML Analytics"
+        ],
+        "key_features": [
+          "활동 추적",
+          "보상 계산",
+          "결제 시스템",
+          "건강 분석"
+        ],
+        "clone_tip": "기본 걸음수 추적부터 시작하여 다양한 건강 지표와 파트너십 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.6
+      },
+      "tags": [
+        "#헬스테크",
+        "#리워드경제",
+        "#동기부여"
+      ],
+      "verdict": "건강과 수익 결합 모델로 혁신적이고 높은 성장 잠재력",
+      "deep_report_id": "android-money-work-earn-money-through-health-management-1769181000020"
+    },
+    {
+      "rank": 2,
+      "name": "HayDealer - Certified Used Cars",
+      "developer": "HeyDealer",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/lIH4tf6ZVKZyiXf-EQ4EU8GBXiTE4n6lIF_d2TbZYPmszuhYln3Wa8AVCMKt3BLOpSjl",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.perfectree.heydealer",
+      "idea_summary": "엄격한 인증을 통한 신뢰할 수 있는 중고차 거래 플랫폼",
+      "analysis": {
+        "problem": "중고차 시장의 신뢰성 부족과 사기 거래 위험성 문제 [추론]",
+        "solution": "전문 인증 시스템으로 검증된 중고차만 등록하여 안전한 거래 환경 제공 [추론]",
+        "target_user": "신뢰할 수 있는 중고차를 찾는 구매자와 투명한 판매를 원하는 딜러 [추론]",
+        "unique_point": "엄격한 품질 인증과 투명한 차량 이력으로 신뢰성 확보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "엔카",
+          "SK엔카",
+          "직방"
+        ],
+        "timing_reason": "중고차 시장 성장과 온라인 거래 플랫폼 선호도 증가 [추론]",
+        "growth_potential": "중고차 시장 확대와 신뢰성 있는 플랫폼 수요로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "거래 중개 수수료와 인증 서비스 수수료, 광고 및 프리미엄 등록 [추론]",
+        "pricing_suggestion": "판매자 수수료 3-5%, 인증비 10만원, 프리미엄 등록 5만원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3500만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Node.js",
+          "PostgreSQL",
+          "Payment API",
+          "Map API"
+        ],
+        "key_features": [
+          "차량 검색",
+          "인증 시스템",
+          "거래 관리",
+          "리뷰 시스템"
+        ],
+        "clone_tip": "지역별 소규모 시작하여 인증 네트워크와 파트너십 확대 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#중고거래",
+        "#신뢰성",
+        "#고수익"
+      ],
+      "verdict": "신뢰 기반 차별화로 중고차 시장에서 성공 가능성 높음"
+    },
+    {
+      "rank": 3,
+      "name": "Citizen Conan - Anti-Fraud",
+      "developer": "(주)인피니그루",
+      "category": "Tools",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "보이스피싱과 스미싱을 탐지하고 차단하는 사기 방지 보안 앱",
+      "analysis": {
+        "problem": "지속적으로 증가하는 전화 및 문자 사기 피해와 개인정보 유출 문제 [확인]",
+        "solution": "AI 기술과 사용자 신고 데이터를 활용한 실시간 사기 탐지 및 차단 [추론]",
+        "target_user": "사기 전화에 취약한 중장년층과 개인정보보호를 중시하는 모든 스마트폰 사용자 [추론]",
+        "unique_point": "탐정 컨셉과 게임화 요소로 재미있게 만든 보안 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "후후",
+          "T전화",
+          "콜라"
+        ],
+        "timing_reason": "디지털 사기 급증과 개인정보보호 의식 강화 시점 [확인]",
+        "growth_potential": "사기 피해 증가와 보안 의식 향상으로 지속적 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 보안 기능 구독과 기업 보안 솔루션, 광고 수익 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3,900원, 기업용 월 19,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2800만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "Machine Learning",
+          "Firebase",
+          "Telephony API"
+        ],
+        "key_features": [
+          "실시간 탐지",
+          "자동 차단",
+          "신고 시스템",
+          "통계 분석"
+        ],
+        "clone_tip": "기본 번호 차단부터 시작하여 AI 모델과 사기 데이터베이스 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.3
+      },
+      "tags": [
+        "#보안",
+        "#사회문제해결",
+        "#AI"
+      ],
+      "verdict": "사회적 필요성과 수익성을 갖춘 의미 있는 보안 솔루션"
+    },
+    {
+      "rank": 4,
+      "name": "File & Photo Recovery",
+      "developer": "SolaraSoft",
+      "category": "Tools",
+      "icon": "https://play-lh.googleusercontent.com/6dUzEcqQFfji9Yhv9CyhqB2IhoGRGysJ1PBBIdF3feA5yzDtpR42mcWcC8XxxkQS1g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.solara.filerecovery",
+      "idea_summary": "삭제된 파일과 사진을 복구하는 데이터 복원 도구",
+      "analysis": {
+        "problem": "실수로 삭제한 중요 파일이나 추억의 사진을 되찾기 어려운 문제 [추론]",
+        "solution": "고급 스캐닝 알고리즘으로 삭제된 데이터를 찾아 복구하는 전문 도구 제공 [추론]",
+        "target_user": "중요 파일을 실수로 삭제한 일반 사용자와 데이터 복구가 필요한 사람들 [추론]",
+        "unique_point": "모바일에서 직접 사용 가능한 간편한 데이터 복구 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DiskDigger",
+          "Dumpster",
+          "GT Recovery"
+        ],
+        "timing_reason": "스마트폰 데이터 중요성 증가와 클라우드 백업 부족한 사용자층 존재 [추론]",
+        "growth_potential": "데이터 복구 서비스 수요는 지속되지만 제한적인 시장 규모 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 복구 기능과 전문 복구 서비스, 광고 수익 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 복구 9,900원, 전문 서비스 39,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-10개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "Android NDK",
+          "File System APIs",
+          "Storage APIs",
+          "Native C++"
+        ],
+        "key_features": [
+          "딥 스캐닝",
+          "미리보기",
+          "선택적 복구",
+          "클라우드 백업"
+        ],
+        "clone_tip": "기본 휴지통 복구부터 시작하여 고급 스캐닝 알고리즘 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.9
+      },
+      "tags": [
+        "#데이터복구",
+        "#유틸리티",
+        "#긴급서비스"
+      ],
+      "verdict": "필요할 때 찾는 유틸리티로 안정적이지만 제한적 성장"
+    },
+    {
+      "rank": 5,
+      "name": "KLING AI: Image & Video Maker",
+      "developer": "Lohas Games Pte. Ltd.",
+      "category": "Photography",
+      "icon": "https://play-lh.googleusercontent.com/JOfjXqsShK8j1aGBc1xlHBnatoRKRwLsGuoFZUAvKksaEPvK71eLwSg4FbKlky9Es-s",
+      "app_url": "https://play.google.com/store/apps/details?id=kling.ai.video.chat",
+      "idea_summary": "AI 기술로 이미지와 동영상을 자동 생성하고 편집하는 크리에이터 도구",
+      "analysis": {
+        "problem": "콘텐츠 제작에 전문 지식과 시간이 많이 필요하고 비용이 부담되는 문제 [추론]",
+        "solution": "AI를 활용해 텍스트나 간단한 입력만으로 고품질 이미지와 영상 자동 생성 [추론]",
+        "target_user": "소셜미디어 크리에이터, 마케터, 디자인 초보자, 개인 브랜더 [추론]",
+        "unique_point": "이미지와 영상을 모두 생성할 수 있는 올인원 AI 창작 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Midjourney",
+          "DALL-E",
+          "Runway ML"
+        ],
+        "timing_reason": "AI 콘텐츠 생성 기술 대중화와 크리에이터 이코노미 확산 [추론]",
+        "growth_potential": "AI 기술 발전과 콘텐츠 제작 수요 폭증으로 매우 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧 기반 사용량 과금과 프리미엄 구독, 상업적 이용 라이선스 [추론]",
+        "pricing_suggestion": "기본 무료 체험, 프리미엄 월 14,900원, 프로 월 39,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "8000만원 [추론]",
+        "tech_stack": [
+          "Python",
+          "TensorFlow",
+          "React Native",
+          "Cloud GPU",
+          "API Gateway"
+        ],
+        "key_features": [
+          "AI 이미지 생성",
+          "AI 영상 제작",
+          "템플릿",
+          "소셜 공유"
+        ],
+        "clone_tip": "기존 AI 모델 API 활용부터 시작하여 자체 모델과 특화 기능 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#AI",
+        "#콘텐츠제작",
+        "#크리에이터도구"
+      ],
+      "verdict": "AI 콘텐츠 생성 트렌드의 핵심으로 높은 성장 잠재력"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술이 일상 도구에 본격 적용되기 시작했으며, 건강과 수익을 결합한 새로운 비즈니스 모델과 신뢰성 기반 플랫폼이 주목받고 있다",
+    "trend_details": [
+      "AI 개인화 서비스 대중화",
+      "헬스케어 리워드 모델 확산",
+      "신뢰성 기반 마켓플레이스",
+      "가족 협업 도구 수요",
+      "니치 시장 특화 전략"
+    ],
+    "hot_categories": [
+      "AI 응용 서비스",
+      "헬스테크",
+      "가족 생산성",
+      "보안 솔루션"
+    ],
+    "opportunity": "AI 기술과 전통 산업의 융합, 신뢰성을 핵심으로 한 플랫폼 비즈니스",
+    "action_item": "AI 기반 개인화 서비스와 리워드 이코노미 결합 모델 프로토타입 개발"
+  }
+}

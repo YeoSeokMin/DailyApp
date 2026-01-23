@@ -1,31 +1,15 @@
 {
-  "generatedAt": "2026-01-22T15:16:09.781Z",
+  "generatedAt": "2026-01-23T15:15:13.234Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "도구",
-      "currentCount": 6,
-      "previousCount": 1,
-      "changePercent": 500,
-      "changeDirection": "up",
-      "apps": [
-        "AVDown: Video Downloader",
-        "삭제된 사진 복구, 파일 복구, 모두 복구",
-        "파일 및 사진 복구",
-        "사진 및 비디오 복구, 완전 복구",
-        "PDF Reader – PDF 리더기",
-        "It's Pee Time Home Screen"
-      ],
-      "avgScore": 5.75
-    },
-    {
       "category": "게임",
       "currentCount": 11,
-      "previousCount": 5,
-      "changePercent": 120,
+      "previousCount": 2,
+      "changePercent": 450,
       "changeDirection": "up",
       "apps": [
         "Let's Get Greedy",
@@ -43,15 +27,100 @@
       "avgScore": 6.090909090909091
     },
     {
-      "category": "Lifestyle",
+      "category": "도구",
+      "currentCount": 5,
+      "previousCount": 2,
+      "changePercent": 150,
+      "changeDirection": "up",
+      "apps": [
+        "AVDown: Video Downloader",
+        "삭제된 사진 복구, 파일 복구, 모두 복구",
+        "파일 및 사진 복구",
+        "사진 및 비디오 복구, 완전 복구",
+        "PDF Reader – PDF 리더기"
+      ],
+      "avgScore": 5.8
+    },
+    {
+      "category": "Finance",
       "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "Alveon: Expense & Income Track"
+      ],
+      "avgScore": 8
+    },
+    {
+      "category": "Health/Fitness",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Gainr: AI Personal Trainer",
+        "FormaFit: Workout & Cal Scan"
+      ],
+      "avgScore": 8.05
+    },
+    {
+      "category": "Utility",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Kolr - Color Palette Generator"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 3,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Habit Tracker - HabitHub",
+        "AI Video - AI Video Generator",
+        "Testerup: Make Money Fast"
+      ],
+      "avgScore": 7.466666666666668
+    },
+    {
+      "category": "Lifestyle",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "KashKick: Get paid to have fun",
         "Pawly - Pet Diary"
       ],
       "avgScore": 7.4
+    },
+    {
+      "category": "Personalization",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Easy Homescreen"
+      ],
+      "avgScore": 5.9
+    },
+    {
+      "category": "Media & Video",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AI Video Maker With Music"
+      ],
+      "avgScore": 8
     },
     {
       "category": "Entertainment",
@@ -200,32 +269,23 @@
       "avgScore": 4
     },
     {
-      "category": "사진 및 비디오",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "금융",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "YAIIU"
+        "monimo (모니모, 삼성금융네트웍스)",
+        "Panora Global",
+        "디지털온누리"
       ],
-      "avgScore": 5.8
-    },
-    {
-      "category": "보드게임",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Sentinels: Learn to Play"
-      ],
-      "avgScore": 5
+      "avgScore": 6.533333333333334
     },
     {
       "category": "생산성",
-      "currentCount": 14,
-      "previousCount": 9,
-      "changePercent": 56,
+      "currentCount": 12,
+      "previousCount": 10,
+      "changePercent": 20,
       "changeDirection": "up",
       "apps": [
         "AR Drawing: Trace to Sketch",
@@ -239,37 +299,9 @@
         "PDF 리더 & 한글 뷰어 - HWP 파일 열기",
         "CleanTrackk",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "OhmCalc Master",
-        "人生电量 (인생 배터리)",
-        "Nope Moments"
+        "OhmCalc Master"
       ],
-      "avgScore": 5.621428571428572
-    },
-    {
-      "category": "건강 및 피트니스",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "Xenon - 피트니스 기록 및 지도",
-        "Metanoia Meditations",
-        "ProsoPlate"
-      ],
-      "avgScore": 5.1000000000000005
-    },
-    {
-      "category": "금융",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "monimo (모니모, 삼성금융네트웍스)",
-        "Panora Global",
-        "디지털온누리"
-      ],
-      "avgScore": 6.533333333333334
+      "avgScore": 5.45
     }
   ],
   "decliningCategories": [
@@ -288,9 +320,9 @@
     },
     {
       "category": "유틸리티",
-      "currentCount": 7,
+      "currentCount": 6,
       "previousCount": 12,
-      "changePercent": -42,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
         "Count Objects Camera",
@@ -298,33 +330,21 @@
         "레티: 추천서",
         "ESA Alben",
         "ImageMoodPalette",
-        "Prteitneslo",
-        "PDF & HTML Merger"
+        "Prteitneslo"
       ],
       "avgScore": 5.5
     },
     {
-      "category": "여행",
+      "category": "교육",
       "currentCount": 2,
-      "previousCount": 4,
-      "changePercent": -50,
+      "previousCount": 5,
+      "changePercent": -60,
       "changeDirection": "down",
       "apps": [
-        "Map Verse",
-        "Avira Travel"
+        "RoadRules 4-in-1",
+        "AI 조류 식별: Bird Ace"
       ],
-      "avgScore": 7.25
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Quiet Mirror"
-      ],
-      "avgScore": 4.2
+      "avgScore": 5.75
     },
     {
       "category": "쇼핑",
@@ -339,27 +359,16 @@
       "avgScore": 6.4
     },
     {
-      "category": "교육",
+      "category": "비즈니스",
       "currentCount": 2,
       "previousCount": 6,
       "changePercent": -67,
       "changeDirection": "down",
       "apps": [
-        "RoadRules 4-in-1",
-        "AI 조류 식별: Bird Ace"
+        "Bookreen Mobile",
+        "SPAR International Events"
       ],
-      "avgScore": 5.75
-    },
-    {
-      "category": "퍼즐",
-      "currentCount": 1,
-      "previousCount": 5,
-      "changePercent": -80,
-      "changeDirection": "down",
-      "apps": [
-        "성 직소 퍼즐 게임"
-      ],
-      "avgScore": 5
+      "avgScore": 7.1
     }
   ],
   "stableCategories": [
@@ -375,6 +384,18 @@
       "avgScore": 8.5
     },
     {
+      "category": "건강 및 피트니스",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Xenon - 피트니스 기록 및 지도",
+        "Metanoia Meditations"
+      ],
+      "avgScore": 4.25
+    },
+    {
       "category": "음식 및 음료",
       "currentCount": 2,
       "previousCount": 2,
@@ -385,44 +406,26 @@
         "Cafe Express"
       ],
       "avgScore": 5.85
-    },
-    {
-      "category": "비즈니스",
-      "currentCount": 4,
-      "previousCount": 4,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Bookreen Mobile",
-        "SPAR International Events",
-        "Tenantry",
-        "Aya"
-      ],
-      "avgScore": 6.975
-    },
-    {
-      "category": "아케이드",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "1.000.000 Click Button"
-      ],
-      "avgScore": 5.2
     }
   ],
   "hotKeywords": [
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 60,
+      "count": 55,
       "apps": [
+        "Alveon: Expense & Income Track",
+        "Gainr: AI Personal Trainer",
+        "FormaFit: Workout & Cal Scan",
+        "Habit Tracker - HabitHub",
+        "AI Video - AI Video Generator",
+        "KashKick: Get paid to have fun",
+        "Easy Homescreen",
+        "AI Video Maker With Music",
         "Pawly - Pet Diary",
         "Lighter Simulator",
         "Jewelry Identifier by Photo AI",
         "AI Translator All Languages",
-        "AI Video Maker With Music",
         "PhotoVerse AI Photo Editor",
         "Voice Translator All Languages",
         "Photo Recovery Deleted Photos",
@@ -464,27 +467,17 @@
         "Pocka",
         "파일 및 사진 복구",
         "사진 및 비디오 복구, 완전 복구",
-        "PDF Reader – PDF 리더기",
-        "人生电量 (인생 배터리)",
-        "Tenantry",
-        "Map Verse",
-        "Quiet Mirror",
-        "Nope Moments",
-        "PDF & HTML Merger",
-        "ProsoPlate",
-        "YAIIU",
-        "Avira Travel",
-        "1.000.000 Click Button",
-        "It's Pee Time Home Screen",
-        "Sentinels: Learn to Play",
-        "성 직소 퍼즐 게임"
+        "PDF Reader – PDF 리더기"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 41,
+      "count": 34,
       "apps": [
+        "Alveon: Expense & Income Track",
+        "Kolr - Color Palette Generator",
+        "Habit Tracker - HabitHub",
         "Pawly - Pet Diary",
         "Lighter Simulator",
         "Food Safety Manager",
@@ -515,31 +508,24 @@
         "MadJokers Quizle",
         "파일 및 사진 복구",
         "사진 및 비디오 복구, 완전 복구",
-        "PDF Reader – PDF 리더기",
-        "人生电量 (인생 배터리)",
-        "Tenantry",
-        "Map Verse",
-        "Quiet Mirror",
-        "Nope Moments",
-        "PDF & HTML Merger",
-        "ProsoPlate",
-        "1.000.000 Click Button",
-        "It's Pee Time Home Screen",
-        "성 직소 퍼즐 게임"
+        "PDF Reader – PDF 리더기"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 25,
+      "count": 26,
       "apps": [
+        "Gainr: AI Personal Trainer",
+        "Kolr - Color Palette Generator",
+        "AI Video - AI Video Generator",
+        "KashKick: Get paid to have fun",
+        "AI Video Maker With Music",
         "Jewelry Identifier by Photo AI",
         "AI Translator All Languages",
-        "AI Video Maker With Music",
         "PhotoVerse AI Photo Editor",
         "Solv: Fitness Intelligence",
         "Canva: AI Photo & Video Editor",
-        "AI Video - AI Video Generator",
         "AI 조류 식별: Bird Ace",
         "Count Objects Camera",
         "레티: 추천서",
@@ -548,15 +534,13 @@
         "KLING AI: AI 이미지 및 동영상 메이커",
         "Grok AI",
         "네이버플러스 스토어",
-        "ImageMoodPalette",
-        "YAIIU",
-        "Avira Travel"
+        "ImageMoodPalette"
       ]
     },
     {
       "keyword": "유틸리티",
       "category": "tag",
-      "count": 16,
+      "count": 14,
       "apps": [
         "Photo Recovery Deleted Photos",
         "Count Objects Camera",
@@ -571,20 +555,18 @@
         "OhmCalc Master",
         "파일 및 사진 복구",
         "사진 및 비디오 복구, 완전 복구",
-        "PDF Reader – PDF 리더기",
-        "Quiet Mirror",
-        "PDF & HTML Merger"
+        "PDF Reader – PDF 리더기"
       ]
     },
     {
       "keyword": "영상",
       "category": "creator",
-      "count": 9,
+      "count": 11,
       "apps": [
-        "ReaCam – Screen Reactions",
-        "AI Video Maker With Music",
-        "Photo Recovery Deleted Photos",
         "AI Video - AI Video Generator",
+        "AI Video Maker With Music",
+        "ReaCam – Screen Reactions",
+        "Photo Recovery Deleted Photos",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "AVDown: Video Downloader",
         "KLING AI: AI 이미지 및 동영상 메이커",
@@ -595,8 +577,10 @@
     {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 8,
+      "count": 10,
       "apps": [
+        "AI Video - AI Video Generator",
+        "AI Video Maker With Music",
         "ReaCam – Screen Reactions",
         "Canva: AI Photo & Video Editor",
         "Metanoia Meditations",
@@ -604,6 +588,21 @@
         "Grok AI",
         "Exchange Manager Simulator",
         "MadJokers Quizle"
+      ]
+    },
+    {
+      "keyword": "AI활용",
+      "category": "tag",
+      "count": 9,
+      "apps": [
+        "Gainr: AI Personal Trainer",
+        "FormaFit: Workout & Cal Scan",
+        "AI Video - AI Video Generator",
+        "AI Video Maker With Music",
+        "Jewelry Identifier by Photo AI",
+        "AI Translator All Languages",
+        "PhotoVerse AI Photo Editor",
+        "Solv: Fitness Intelligence"
       ]
     },
     {
@@ -621,27 +620,16 @@
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
+      "keyword": "프로",
+      "category": "subscription",
       "count": 6,
       "apps": [
-        "WePlay - 파티게임",
-        "Xenon - 피트니스 기록 및 지도",
-        "Proud Diaspo Face",
-        "Map Verse"
-      ]
-    },
-    {
-      "keyword": "레드오션",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "Xenon - 피트니스 기록 및 지도",
-        "Income-Expense-Tracker",
-        "메모 - 메모 및 목록 작성용 메모장",
-        "모든 파일 뷰어",
-        "Quiet Mirror",
-        "YAIIU"
+        "Gainr: AI Personal Trainer",
+        "Kolr - Color Palette Generator",
+        "Settings Studio",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "SPAR International Events",
+        "파일 및 사진 복구"
       ]
     },
     {
@@ -658,15 +646,49 @@
       ]
     },
     {
-      "keyword": "AI활용",
+      "keyword": "헬스케어",
+      "category": "health",
+      "count": 5,
+      "apps": [
+        "Gainr: AI Personal Trainer",
+        "FormaFit: Workout & Cal Scan",
+        "Solv: Fitness Intelligence",
+        "Xenon - 피트니스 기록 및 지도"
+      ]
+    },
+    {
+      "keyword": "B2B",
       "category": "tag",
       "count": 5,
       "apps": [
-        "Jewelry Identifier by Photo AI",
-        "AI Translator All Languages",
+        "Kolr - Color Palette Generator",
+        "Testerup: Make Money Fast",
+        "Food Safety Manager",
+        "Bookreen Mobile",
+        "SPAR International Events"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 5,
+      "apps": [
+        "Habit Tracker - HabitHub",
+        "WePlay - 파티게임",
+        "Xenon - 피트니스 기록 및 지도",
+        "Proud Diaspo Face"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "AI Video - AI Video Generator",
         "AI Video Maker With Music",
         "PhotoVerse AI Photo Editor",
-        "Solv: Fitness Intelligence"
+        "Canva: AI Photo & Video Editor",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
@@ -678,18 +700,6 @@
         "AI Video Maker With Music",
         "AI Video - AI Video Generator",
         "ImageMoodPalette"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 5,
-      "apps": [
-        "AI Video Maker With Music",
-        "PhotoVerse AI Photo Editor",
-        "Canva: AI Photo & Video Editor",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "YAIIU"
       ]
     },
     {
@@ -705,124 +715,100 @@
       ]
     },
     {
-      "keyword": "니치",
+      "keyword": "레드오션",
       "category": "tag",
-      "count": 5,
+      "count": 4,
       "apps": [
-        "Settings Studio",
-        "레티: 추천서",
+        "Xenon - 피트니스 기록 및 지도",
+        "Income-Expense-Tracker",
+        "메모 - 메모 및 목록 작성용 메모장",
+        "모든 파일 뷰어"
+      ]
+    },
+    {
+      "keyword": "투자",
+      "category": "fintech",
+      "count": 4,
+      "apps": [
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Grok AI",
+        "monimo (모니모, 삼성금융네트웍스)",
+        "Panora Global"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Habit Tracker - HabitHub",
         "CleanTrackk",
-        "Nope Moments",
-        "ProsoPlate"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 4,
+      "count": 3,
       "apps": [
         "Pawly - Pet Diary",
         "AR Drawing: Trace to Sketch",
-        "SPAR International Events",
-        "Sentinels: Learn to Play"
-      ]
-    },
-    {
-      "keyword": "일정",
-      "category": "productivity",
-      "count": 4,
-      "apps": [
-        "Pawly - Pet Diary",
-        "CleanTrackk",
-        "SPAR International Events",
-        "Avira Travel"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Food Safety Manager",
-        "Bookreen Mobile",
-        "SPAR International Events",
-        "Aya"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "health",
-      "count": 4,
-      "apps": [
-        "Solv: Fitness Intelligence",
-        "Xenon - 피트니스 기록 및 지도",
-        "ProsoPlate"
-      ]
-    },
-    {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 4,
-      "apps": [
-        "Settings Studio",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "SPAR International Events",
-        "파일 및 사진 복구"
+        "SPAR International Events"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 60,
-        "percent": 73,
+        "count": 49,
+        "percent": 63,
         "examples": [
+          "KashKick: Get paid to have fun",
           "Pawly - Pet Diary",
-          "Lighter Simulator",
-          "Jewelry Identifier by Photo AI"
+          "Lighter Simulator"
         ]
       },
       "freemium": {
-        "count": 63,
-        "percent": 77,
+        "count": 58,
+        "percent": 74,
         "examples": [
-          "Pawly - Pet Diary",
-          "Lighter Simulator",
-          "Jewelry Identifier by Photo AI"
+          "Alveon: Expense & Income Track",
+          "Gainr: AI Personal Trainer",
+          "FormaFit: Workout & Cal Scan"
         ]
       },
       "subscription": {
-        "count": 28,
-        "percent": 34,
+        "count": 26,
+        "percent": 33,
         "examples": [
-          "Pawly - Pet Diary",
-          "Food Safety Manager",
-          "AI Translator All Languages"
+          "Alveon: Expense & Income Track",
+          "Gainr: AI Personal Trainer",
+          "FormaFit: Workout & Cal Scan"
         ]
       },
       "onetime": {
-        "count": 11,
+        "count": 10,
         "percent": 13,
         "examples": [
+          "Kolr - Color Palette Generator",
           "Lighter Simulator",
-          "AR Drawing: Trace to Sketch",
-          "RoadRules 4-in-1"
+          "AR Drawing: Trace to Sketch"
         ]
       },
       "unknown": {
-        "count": 2,
-        "percent": 2,
+        "count": 3,
+        "percent": 4,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 63,
-      "percent": 77,
+      "count": 58,
+      "percent": 74,
       "examples": [
-        "Pawly - Pet Diary",
-        "Lighter Simulator",
-        "Jewelry Identifier by Photo AI"
+        "Alveon: Expense & Income Track",
+        "Gainr: AI Personal Trainer",
+        "FormaFit: Workout & Cal Scan"
       ]
     },
     "insight": "프리미엄 모델 대세. 무료 사용자 → 유료 전환 퍼널 설계가 핵심."
@@ -831,72 +817,62 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 22,
-        "percent": 27,
+        "count": 23,
+        "percent": 29,
         "apps": [
-          "Jewelry Identifier by Photo AI",
-          "AI Translator All Languages",
+          "Gainr: AI Personal Trainer",
+          "AI Video - AI Video Generator",
+          "KashKick: Get paid to have fun",
           "AI Video Maker With Music",
-          "PhotoVerse AI Photo Editor",
-          "Solv: Fitness Intelligence"
+          "Jewelry Identifier by Photo AI"
         ]
       },
       {
         "tech": "creator",
-        "count": 15,
-        "percent": 18,
+        "count": 16,
+        "percent": 21,
         "apps": [
+          "AI Video - AI Video Generator",
+          "AI Video Maker With Music",
           "ReaCam – Screen Reactions",
           "AI Video Maker With Music",
-          "PhotoVerse AI Photo Editor",
-          "Photo Recovery Deleted Photos",
-          "Canva: AI Photo & Video Editor"
+          "PhotoVerse AI Photo Editor"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 10,
-        "percent": 12,
+        "count": 8,
+        "percent": 10,
         "apps": [
+          "Alveon: Expense & Income Track",
           "Pawly - Pet Diary",
           "AI Translator All Languages",
           "AR Drawing: Trace to Sketch",
-          "Tier List Maker - TierMaker",
-          "Income-Expense-Tracker"
+          "Tier List Maker - TierMaker"
         ]
       },
       {
         "tech": "social",
-        "count": 5,
-        "percent": 6,
+        "count": 6,
+        "percent": 8,
         "apps": [
+          "AI Video Maker With Music",
           "WePlay - 파티게임",
           "카풀링",
           "땡겨요",
-          "Proud Diaspo Face",
-          "SPAR International Events"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 4,
-        "percent": 5,
-        "apps": [
-          "Pawly - Pet Diary",
-          "AI Video Maker With Music",
-          "SPAR International Events",
-          "Avira Travel"
+          "Proud Diaspo Face"
         ]
       },
       {
         "tech": "subscription",
-        "count": 4,
-        "percent": 5,
+        "count": 5,
+        "percent": 6,
         "apps": [
+          "Gainr: AI Personal Trainer",
+          "Kolr - Color Palette Generator",
           "Settings Studio",
           "NetShort - 인기 드라마 및 TV 프로그램",
-          "네이버플러스 스토어",
-          "Tenantry"
+          "네이버플러스 스토어"
         ]
       },
       {
@@ -904,9 +880,9 @@
         "count": 3,
         "percent": 4,
         "apps": [
+          "Gainr: AI Personal Trainer",
           "Solv: Fitness Intelligence",
-          "Metanoia Meditations",
-          "ProsoPlate"
+          "Metanoia Meditations"
         ]
       },
       {
@@ -920,9 +896,19 @@
         ]
       },
       {
+        "tech": "productivity",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "Pawly - Pet Diary",
+          "AI Video Maker With Music",
+          "SPAR International Events"
+        ]
+      },
+      {
         "tech": "blockchain",
         "count": 2,
-        "percent": 2,
+        "percent": 3,
         "apps": [
           "Bitcoin Shredder",
           "디지털온누리"
@@ -931,51 +917,51 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 22,
-      "percent": 27,
+      "count": 23,
+      "percent": 29,
       "apps": [
-        "Jewelry Identifier by Photo AI",
-        "AI Translator All Languages",
+        "Gainr: AI Personal Trainer",
+        "AI Video - AI Video Generator",
+        "KashKick: Get paid to have fun",
         "AI Video Maker With Music",
-        "PhotoVerse AI Photo Editor",
-        "Solv: Fitness Intelligence"
+        "Jewelry Identifier by Photo AI"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 22,
-        "percent": 27,
+        "count": 23,
+        "percent": 29,
         "apps": [
-          "Jewelry Identifier by Photo AI",
-          "AI Translator All Languages",
+          "Gainr: AI Personal Trainer",
+          "AI Video - AI Video Generator",
+          "KashKick: Get paid to have fun",
           "AI Video Maker With Music",
-          "PhotoVerse AI Photo Editor",
-          "Solv: Fitness Intelligence"
+          "Jewelry Identifier by Photo AI"
         ]
       },
       {
         "tech": "creator",
-        "count": 15,
-        "percent": 18,
+        "count": 16,
+        "percent": 21,
         "apps": [
+          "AI Video - AI Video Generator",
+          "AI Video Maker With Music",
           "ReaCam – Screen Reactions",
           "AI Video Maker With Music",
-          "PhotoVerse AI Photo Editor",
-          "Photo Recovery Deleted Photos",
-          "Canva: AI Photo & Video Editor"
+          "PhotoVerse AI Photo Editor"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 10,
-        "percent": 12,
+        "count": 8,
+        "percent": 10,
         "apps": [
+          "Alveon: Expense & Income Track",
           "Pawly - Pet Diary",
           "AI Translator All Languages",
           "AR Drawing: Trace to Sketch",
-          "Tier List Maker - TierMaker",
-          "Income-Expense-Tracker"
+          "Tier List Maker - TierMaker"
         ]
       }
     ]
@@ -983,10 +969,52 @@
   "opportunities": [
     {
       "type": "rising_category",
+      "title": "Finance 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Finance"
+    },
+    {
+      "type": "rising_category",
+      "title": "Health/Fitness 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Health/Fitness"
+    },
+    {
+      "type": "rising_category",
+      "title": "Utility 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Utility"
+    },
+    {
+      "type": "rising_category",
+      "title": "Productivity 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Productivity"
+    },
+    {
+      "type": "rising_category",
       "title": "Lifestyle 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Lifestyle"
+    },
+    {
+      "type": "rising_category",
+      "title": "Personalization 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Personalization"
+    },
+    {
+      "type": "rising_category",
+      "title": "Media & Video 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Media & Video"
     },
     {
       "type": "rising_category",
@@ -1081,27 +1109,6 @@
     },
     {
       "type": "rising_category",
-      "title": "사진 및 비디오 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "사진 및 비디오"
-    },
-    {
-      "type": "rising_category",
-      "title": "보드게임 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "보드게임"
-    },
-    {
-      "type": "rising_category",
-      "title": "건강 및 피트니스 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "건강 및 피트니스"
-    },
-    {
-      "type": "rising_category",
       "title": "금융 카테고리 급부상",
       "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1110,24 +1117,27 @@
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "27%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "29%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "도구 카테고리가 500% 급상승하며 유틸리티 앱에 대한 수요가 폭발적으로 증가하고 있습니다. AI 기능을 탑재한 앱이 27%에 달하며, B2C와 1인 개발 가능한 앱들이 주요 트렌드로 부상했습니다.",
+    "trend_summary": "게임 카테고리가 +450%로 폭발적 성장을 보이며, AI 기능 통합(29%)과 B2C 모델(55회)이 핵심 트렌드로 부상했습니다. 다양한 카테고리에서 100% 성장을 보이지만 앱 수가 적어 진입 장벽이 낮은 블루오션 기회가 많습니다.",
     "trend_details": [
-      "도구/유틸리티 카테고리 500% 급상승으로 실용성 있는 앱 수요 폭증",
-      "AI 통합이 필수 트렌드가 되어 27%의 앱이 AI 기능 포함",
-      "B2C 모델과 1인 개발 가능한 앱이 시장에서 각광받는 중"
+      "게임 카테고리 급상승(+450%)으로 인디 게임 개발 황금기",
+      "AI 통합 앱 29%로 AI 미적용 영역에서 차별화 기회",
+      "Finance, Health/Fitness, Utility 등 +100% 성장하지만 앱 수 적은 블루오션 카테고리들",
+      "Freemium 모델 74% 채택으로 무료 진입 후 유료 전환 전략 필수"
     ],
     "hot_categories": [
-      "도구/유틸리티",
-      "AI 통합 앱"
+      "게임",
+      "도구",
+      "Finance",
+      "Health/Fitness"
     ],
-    "opportunity": "Lifestyle, Entertainment, Food & Beverage 카테고리는 100% 성장했지만 경쟁이 적어 블루오션 진입 기회가 있습니다.",
-    "action_item": "기존 유틸리티 아이디어에 AI 기능을 접목한 도구 앱을 개발하여 급성장하는 시장에 진입하세요.",
-    "weekly_theme": "AI 유틸리티"
+    "opportunity": "Finance, Health/Fitness, Utility 등 100% 성장했지만 경쟁자가 적은 카테고리에서 AI 기능을 통합한 B2C 앱 개발이 가장 유망합니다.",
+    "action_item": "Finance나 Health/Fitness 분야에서 간단한 AI 기능을 포함한 freemium 모델의 유틸리티 앱을 개발하세요.",
+    "weekly_theme": "AI 블루오션"
   }
 }
