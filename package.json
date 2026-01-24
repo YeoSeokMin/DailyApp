@@ -9,7 +9,8 @@
     "save": "node scripts/save-report.js",
     "kakao:auth": "node scripts/kakao-auth.js",
     "kakao:send": "node scripts/send-kakao.js",
-    "daily": "npm run collect && npm run analyze && npm run save && npm run kakao:send"
+    "daily": "npm run collect && npm run analyze && npm run save && npm run kakao:send",
+    "unpin-repos": "node scripts/unpin-github-repos.js"
   },
   "keywords": [
     "app",
