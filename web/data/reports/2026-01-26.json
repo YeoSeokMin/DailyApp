@@ -1,0 +1,648 @@
+{
+  "date": "2026-01-26",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Babbl: Kid Quotes and Memories",
+      "developer": "Ryan Clare",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/6f/95/126f95c3-8775-71e3-fadf-2fb6ae96dd74/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/babbl-kid-quotes-and-memories/id6757442463?uo=2",
+      "idea_summary": "아이의 재미있는 말들을 기록하는 부모용 앱",
+      "analysis": {
+        "problem": "부모들이 아이의 귀여운 말들을 체계적으로 기록하고 보관하기 어려움 [추론]",
+        "solution": "아이의 말을 쉽게 기록하고 날짜별로 정리하여 추억으로 보관하는 기능 제공 [추론]",
+        "target_user": "자녀를 둔 부모, 특히 3-10세 아이를 키우는 가정 [추론]",
+        "unique_point": "아이의 말에 특화된 기록 앱으로 추억 보관에 집중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Journey",
+          "일반 육아 다이어리 앱"
+        ],
+        "timing_reason": "디지털 네이티브 부모 세대의 등장과 추억 보관 니즈 증가 [추론]",
+        "growth_potential": "글로벌 육아 시장 성장과 함께 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 (무제한 기록, 백업 기능) [추론]",
+        "pricing_suggestion": "월 2,900원, 연간 29,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CloudKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "음성-텍스트 변환",
+          "날짜별 정리",
+          "검색 기능",
+          "백업/동기화"
+        ],
+        "clone_tip": "UI/UX를 심플하게 하여 빠른 기록이 가능하도록 설계 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#육아"
+      ],
+      "verdict": "틈새시장이지만 강한 니즈가 있는 아이디어",
+      "deep_report_id": "ios-babbl-kid-quotes-and-memories-1769353567271"
+    },
+    {
+      "rank": 2,
+      "name": "Product Recolor AI Studio",
+      "developer": "Imad Attif",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/fb/44/6ffb442a-4eb5-ac6a-61ec-96dc41328d63/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/product-recolor-ai-studio/id6758169256?uo=2",
+      "idea_summary": "AI로 상품 색상을 변경해주는 이커머스용 도구",
+      "analysis": {
+        "problem": "온라인 쇼핑몰에서 상품의 다양한 색상 옵션을 보여주기 위해 매번 새로 촬영해야 하는 비용 부담 [추론]",
+        "solution": "AI 기술로 기존 상품 이미지의 색상을 자동으로 변경하여 다양한 옵션 이미지 생성 [추론]",
+        "target_user": "소상공인, 온라인 쇼핑몰 운영자, 이커머스 마케터 [추론]",
+        "unique_point": "상품 이미지에 특화된 AI 리컬러링 기술 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Photoshop",
+          "Canva",
+          "일반 AI 이미지 편집 앱"
+        ],
+        "timing_reason": "AI 기술 발전과 이커머스 시장 성장이 맞물린 시점 [추론]",
+        "growth_potential": "이커머스 시장 성장과 함께 B2B 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧 기반 과금 또는 월 구독 모델 [추론]",
+        "pricing_suggestion": "크레딧당 500원, 월 구독 19,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1,500만원 [추론]",
+        "tech_stack": [
+          "AI/ML 모델",
+          "iOS Core ML",
+          "Vision 프레임워크"
+        ],
+        "key_features": [
+          "AI 색상 변경",
+          "배치 처리",
+          "고화질 출력",
+          "API 연동"
+        ],
+        "clone_tip": "기존 AI 모델을 활용하여 MVP부터 시작하고 점진적 개선 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#B2B",
+        "#AI",
+        "#이커머스"
+      ],
+      "verdict": "명확한 B2B 니즈가 있는 수익성 높은 아이디어"
+    },
+    {
+      "rank": 3,
+      "name": "Flash AI: Photo to Flashcard",
+      "developer": "Duy Nguyen",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/53/35/d253351d-9a82-7c1c-5c2f-780236060d71/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/flash-ai-photo-to-flashcard/id6755168592?uo=2",
+      "idea_summary": "사진을 찍으면 AI가 자동으로 플래시카드를 만들어주는 학습 앱",
+      "analysis": {
+        "problem": "학습자들이 교재나 노트를 플래시카드로 만드는 과정이 번거롭고 시간이 오래 걸림 [추론]",
+        "solution": "사진 촬영만으로 AI가 자동으로 핵심 내용을 추출하여 플래시카드 생성 [추론]",
+        "target_user": "학생, 자격증 준비생, 언어 학습자 [추론]",
+        "unique_point": "사진에서 텍스트 추출 후 자동 플래시카드 생성하는 AI 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Anki",
+          "Quizlet",
+          "Memrise"
+        ],
+        "timing_reason": "AI OCR 기술 발전과 개인화 학습 트렌드 확산 [추론]",
+        "growth_potential": "글로벌 에듀테크 시장 성장과 함께 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 (AI 기능, 무제한 카드 생성) [추론]",
+        "pricing_suggestion": "월 4,900원, 연간 49,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1,200만원 [추론]",
+        "tech_stack": [
+          "Vision API",
+          "AI/ML",
+          "Core Data",
+          "Swift"
+        ],
+        "key_features": [
+          "OCR",
+          "AI 텍스트 요약",
+          "플래시카드 생성",
+          "학습 진도 관리"
+        ],
+        "clone_tip": "Google Vision API 등 기존 서비스를 활용하여 빠른 프로토타입 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#AI",
+        "#에듀테크"
+      ],
+      "verdict": "학습 시장의 확실한 니즈를 해결하는 혁신적 아이디어"
+    },
+    {
+      "rank": 4,
+      "name": "ScrollFit Push Up Time Blocker",
+      "developer": "Raukin LLC",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/da/92/42da9235-0faa-ea09-c433-ded67d632505/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/scrollfit-push-up-time-blocker/id6757958485?uo=2",
+      "idea_summary": "스마트폰 과사용을 운동으로 해결하는 디지털 디톡스 앱",
+      "analysis": {
+        "problem": "스마트폰 과사용으로 인한 건강 문제와 집중력 저하 [확인]",
+        "solution": "앱 사용 시간을 제한하고 대신 간단한 운동을 유도하여 건강한 습관 형성 [추론]",
+        "target_user": "스마트폰 중독을 고민하는 직장인, 학생, 건강 관리에 관심 있는 사람 [추론]",
+        "unique_point": "디지털 웰빙과 피트니스를 결합한 독특한 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Freedom",
+          "Cold Turkey"
+        ],
+        "timing_reason": "스마트폰 중독 문제 인식 증가와 웰빙 트렌드 확산 [추론]",
+        "growth_potential": "디지털 웰빙 시장 성장과 함께 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 (고급 운동 프로그램, 상세 분석) [추론]",
+        "pricing_suggestion": "월 3,900원, 연간 39,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "1,000만원 [추론]",
+        "tech_stack": [
+          "iOS Screen Time API",
+          "HealthKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "앱 사용 시간 모니터링",
+          "운동 타이머",
+          "진행률 추적",
+          "습관 분석"
+        ],
+        "clone_tip": "iOS Screen Time API를 활용하여 기본 기능부터 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#웰빙",
+        "#피트니스"
+      ],
+      "verdict": "독창적인 문제해결 접근법이 돋보이는 아이디어"
+    },
+    {
+      "rank": 5,
+      "name": "Focus Cat: Task Timer & Goal",
+      "developer": "CHING-HAO FAN",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/d8/86/08d8863e-149b-0c2d-1f67-181e436bdc62/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/focus-cat-task-timer-goal/id6757985336?uo=2",
+      "idea_summary": "고양이 캐릭터와 함께하는 감정적 연결형 생산성 앱",
+      "analysis": {
+        "problem": "기존 생산성 앱들이 차가운 기능 위주라 지속 사용이 어려움 [추론]",
+        "solution": "귀여운 고양이 캐릭터를 통해 감정적 동기부여를 제공하는 타이머 앱 [추론]",
+        "target_user": "동물을 좋아하는 젊은 여성층, 재택근무자, 학생 [추론]",
+        "unique_point": "게이미피케이션과 감정적 연결을 결합한 생산성 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Be Focused",
+          "Toggl"
+        ],
+        "timing_reason": "재택근무 증가와 개인 생산성 관리 니즈 증대 [추론]",
+        "growth_potential": "캐릭터 굿즈, 테마 확장 등 부가 수익 창출 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 캐릭터 테마 인앱구매 [추론]",
+        "pricing_suggestion": "월 2,900원, 테마당 1,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "UserNotifications"
+        ],
+        "key_features": [
+          "포모도로 타이머",
+          "목표 설정",
+          "캐릭터 육성",
+          "통계 분석"
+        ],
+        "clone_tip": "매력적인 캐릭터 디자인이 핵심, UI/UX에 집중 투자 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#게이미피케이션",
+        "#생산성"
+      ],
+      "verdict": "감정적 어필이 강한 니치 마켓 타겟 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Citizen Conan - Anti-Fraud App",
+      "developer": "(주)인피니그루",
+      "category": "Security",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "AI 기반 실시간 피싱/스미싱 탐지 보안 앱",
+      "analysis": {
+        "problem": "증가하는 보이스피싱, 스미싱 등 온라인 사기로 인한 피해 급증 [확인]",
+        "solution": "AI 기술로 실시간 의심스러운 통화나 문자를 탐지하고 경고 알림 제공 [추론]",
+        "target_user": "중장년층, 온라인 금융 이용자, 보안에 관심 높은 사용자 [추론]",
+        "unique_point": "한국 사기 패턴에 특화된 AI 탐지 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "후후",
+          "와이파이",
+          "일반 보안 앱"
+        ],
+        "timing_reason": "코로나19 이후 비대면 거래 증가와 사기 피해 급증 [확인]",
+        "growth_potential": "고령화 사회 진입과 디지털 격차로 인한 수요 지속 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 + B2B 라이센싱 [추론]",
+        "pricing_suggestion": "월 4,900원, 연간 49,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2,000만원 [추론]",
+        "tech_stack": [
+          "Android TelecomManager",
+          "AI/ML",
+          "실시간 음성 분석"
+        ],
+        "key_features": [
+          "실시간 통화 분석",
+          "문자 스캔",
+          "사기 DB 업데이트",
+          "신고 기능"
+        ],
+        "clone_tip": "기존 AI 모델 활용하고 한국형 사기 패턴 학습 데이터 수집이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#보안",
+        "#AI",
+        "#한국특화"
+      ],
+      "verdict": "사회적 필요성이 높은 매우 실용적인 아이디어",
+      "deep_report_id": "android-citizen-conan-anti-fraud-app-1769353621194"
+    },
+    {
+      "rank": 2,
+      "name": "Talk English",
+      "developer": "EpopSoft Inc.",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/U0vfhbJT50NqwRy2VGGaTQaf3LcpQqKwSd2bqz2lW_4Z4i-Ticfqr9RK7rmQMIAJ8T4",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.epopsoft.word",
+      "idea_summary": "AI와 실제 대화하며 영어 스피킹을 연습하는 앱",
+      "analysis": {
+        "problem": "영어 회화 연습 기회 부족과 원어민 대화 상대 찾기의 어려움 [확인]",
+        "solution": "AI 대화 상대와 다양한 상황별 영어 회화를 연습하고 즉시 피드백 제공 [추론]",
+        "target_user": "영어 학습자, 직장인, 학생, 해외 진출 준비자 [추론]",
+        "unique_point": "실시간 발음 교정과 자연스러운 AI 대화 상대 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "듀오링고",
+          "캠블리",
+          "스픽"
+        ],
+        "timing_reason": "AI 음성인식 기술 발전과 개인화 학습 수요 증가 [추론]",
+        "growth_potential": "글로벌 언어학습 시장 지속 성장으로 확장성 매우 높음 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델 + 추가 대화 크레딧 판매 [추론]",
+        "pricing_suggestion": "월 9,900원, 연간 99,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1,800만원 [추론]",
+        "tech_stack": [
+          "Speech Recognition API",
+          "TTS",
+          "LLM API",
+          "Android"
+        ],
+        "key_features": [
+          "AI 대화",
+          "발음 평가",
+          "상황별 시나리오",
+          "학습 진도 추적"
+        ],
+        "clone_tip": "OpenAI API와 Google Speech API 조합으로 MVP 빠르게 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.4
+      },
+      "tags": [
+        "#AI",
+        "#에듀테크",
+        "#글로벌"
+      ],
+      "verdict": "AI 시대의 언어학습 혁신을 선도하는 아이디어"
+    },
+    {
+      "rank": 3,
+      "name": "Easy Home Screen",
+      "developer": "Homescreen Apps",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "시니어용 초간단 홈 화면 런처",
+      "analysis": {
+        "problem": "고령자들이 복잡한 스마트폰 인터페이스 사용에 어려움을 겪음 [확인]",
+        "solution": "큰 글자, 단순한 레이아웃으로 필수 기능만 제공하는 시니어 친화적 런처 [추론]",
+        "target_user": "65세 이상 고령자, 스마트폰 초보자, 시각 장애인 [추론]",
+        "unique_point": "극도로 단순화된 UI와 음성 안내 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Simple Launcher",
+          "Senior Safety Phone"
+        ],
+        "timing_reason": "고령화 사회 진입과 디지털 격차 해소 필요성 증대 [확인]",
+        "growth_potential": "전 세계 고령화 트렌드로 지속적인 시장 확대 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 + 가족 관리 서비스 구독 [추론]",
+        "pricing_suggestion": "월 2,900원 (가족 플랜 4,900원) [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Android Launcher",
+          "TTS",
+          "접근성 API"
+        ],
+        "key_features": [
+          "초간단 UI",
+          "음성 안내",
+          "긴급 연락",
+          "원격 관리"
+        ],
+        "clone_tip": "사용성 테스트를 실제 시니어들과 반복 진행하는 것이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#시니어",
+        "#접근성",
+        "#사회적가치"
+      ],
+      "verdict": "사회적 필요성과 수익성을 모두 갖춘 의미있는 아이디어"
+    },
+    {
+      "rank": 4,
+      "name": "MigoReels Short & Dramas",
+      "developer": "Intelligence Stream",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/1kdZH2FxxFTD9A70bHVQcW6qLNwjsqOjWSQP4cYDJ_RYtLs5FqgWGil9QMLAWdIUzCE",
+      "app_url": "https://play.google.com/store/apps/details?id=com.short.migovideo",
+      "idea_summary": "숏폼 드라마에 특화된 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "바쁜 현대인들이 긴 드라마를 시청할 시간 부족과 몰입도 저하 [추론]",
+        "solution": "5-15분 분량의 숏폼 드라마만 제공하여 빠른 소비가 가능한 콘텐츠 플랫폼 [추론]",
+        "target_user": "MZ세대, 바쁜 직장인, 대중교통 이용자 [추론]",
+        "unique_point": "숏폼에 특화된 드라마 콘텐츠와 개인화 추천 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "YouTube Shorts",
+          "넷플릭스"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 트렌드와 모바일 우선 시청 환경 확산 [추론]",
+        "growth_potential": "글로벌 OTT 시장 성장과 숏폼 드라마 장르 개척 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "구독료 + 광고 수익 + 프리미엄 콘텐츠 [추론]",
+        "pricing_suggestion": "월 7,900원 (광고 제거), 무료 (광고 포함) [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3,000만원 [추론]",
+        "tech_stack": [
+          "Android ExoPlayer",
+          "CDN",
+          "추천 알고리즘",
+          "Video Streaming"
+        ],
+        "key_features": [
+          "동영상 스트리밍",
+          "개인화 추천",
+          "댓글 시스템",
+          "다운로드"
+        ],
+        "clone_tip": "콘텐츠 확보가 가장 중요한 요소, 초기엔 크리에이터 파트너십 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#OTT",
+        "#숏폼",
+        "#콘텐츠"
+      ],
+      "verdict": "트렌드를 잘 읽은 아이디어이나 초기 투자 부담 큼"
+    },
+    {
+      "rank": 5,
+      "name": "Voice Translator",
+      "developer": "PHAM DAI TRANG",
+      "category": "Translation",
+      "icon": "https://play-lh.googleusercontent.com/DO0-5DK6br9viSSilHm_8L4Mrhyz_ZFrR4vLLx9JJrG9F0fnbn07bANrVWDjhHCaLkbG",
+      "app_url": "https://play.google.com/store/apps/details?id=com.free.translate.all.language.translator.camera",
+      "idea_summary": "실시간 음성 대화 번역 앱",
+      "analysis": {
+        "problem": "해외여행이나 외국인과의 대화에서 언어 장벽으로 인한 소통 어려움 [확인]",
+        "solution": "실시간으로 음성을 인식하고 즉시 번역하여 자연스러운 대화 지원 [추론]",
+        "target_user": "해외여행자, 외국인 관광객, 다국적 기업 직원, 언어학습자 [추론]",
+        "unique_point": "실시간 양방향 음성 번역과 오프라인 지원 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "구글 번역",
+          "파파고",
+          "iTranslate"
+        ],
+        "timing_reason": "코로나19 완화 후 해외여행 재개와 글로벌화 가속화 [추론]",
+        "growth_potential": "관광업 회복과 다문화 사회 진입으로 수요 지속 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (오프라인 번역, 무제한 사용) [추론]",
+        "pricing_suggestion": "월 3,900원, 연간 39,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1,200만원 [추론]",
+        "tech_stack": [
+          "Speech Recognition",
+          "Translation API",
+          "TTS",
+          "오프라인 ML"
+        ],
+        "key_features": [
+          "실시간 음성번역",
+          "텍스트번역",
+          "카메라번역",
+          "대화기록"
+        ],
+        "clone_tip": "Google Translation API 활용하여 빠른 MVP 구축 후 차별화 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#글로벌",
+        "#AI",
+        "#여행"
+      ],
+      "verdict": "검증된 수요가 있는 실용적 아이디어"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술을 활용한 개인화된 문제 해결 앱들이 주목받고 있으며, 특히 보안과 교육 분야에서 혁신적인 접근법이 등장하고 있다 [추론]. 또한 시니어층과 같은 특정 타겟을 위한 접근성 개선 앱들의 사회적 가치가 높아지고 있다 [추론].",
+    "trend_details": [
+      "AI 기반 실시간 분석 서비스 확산",
+      "시니어 친화적 UI/UX 설계 중요성 증대",
+      "숏폼 콘텐츠 소비 패턴의 일상화",
+      "개인화된 학습 도구의 진화"
+    ],
+    "hot_categories": [
+      "Security",
+      "Education",
+      "Productivity"
+    ],
+    "opportunity": "AI 기술과 사회적 문제 해결을 결합한 앱 개발",
+    "action_item": "타겟 사용자의 실제 페인포인트를 해결하는 간단하지만 효과적인 솔루션 개발에 집중할 것"
+  }
+}
