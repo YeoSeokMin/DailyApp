@@ -3,655 +3,656 @@
   "ios": [
     {
       "rank": 1,
-      "name": "AI-Website Builder",
-      "developer": "Lombard Vo",
-      "category": "Business",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/78/2e/b6782eea-ae5d-2b27-d689-690bdeeeeeb0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/ai-website-builder/id6757941738?uo=2",
-      "idea_summary": "AI로 웹사이트를 자동 생성해주는 앱",
+      "name": "Decidy - Decision Maker",
+      "developer": "原 田",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/31/06/3d/31063db3-9949-66ff-e6ab-143f6e982d1a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/decidy-%E9%80%89%E6%8B%A9%E5%9B%B0%E9%9A%BE%E7%97%87%E6%95%91%E6%98%9F/id6758129564?uo=2",
+      "idea_summary": "선택 장애를 위한 의사결정 도우미",
       "analysis": {
-        "problem": "비개발자도 쉽게 웹사이트를 만들고 싶어하는 니즈 [추론]",
-        "solution": "AI를 활용해 자동으로 웹사이트를 생성하고 편집할 수 있는 기능 제공 [추론]",
-        "target_user": "소상공인, 1인 사업자, 비개발자 웹사이트 제작 희망자 [추론]",
-        "unique_point": "모바일에서 AI로 웹사이트를 직접 제작할 수 있는 편의성 [추론]"
+        "problem": "일상에서 작은 선택부터 중요한 결정까지 내리기 어려워하는 선택 장애 해결 [추론]",
+        "solution": "다양한 의사결정 기법과 랜덤 선택, 가중치 부여 등의 방법 제공 [추측]",
+        "target_user": "선택 장애가 있는 10-30대 젊은 층, 우유부단한 성격의 사용자 [추론]",
+        "unique_point": "단순한 랜덤 선택이 아닌 체계적인 의사결정 프로세스 제공 [추측]"
       },
       "market": {
         "competitors": [
-          "Wix",
-          "Squarespace",
-          "WordPress"
+          "Wheel Decide",
+          "Decision Maker"
         ],
-        "timing_reason": "노코드 트렌드와 AI 기술 발전으로 시장 확대 시점 [추론]",
-        "growth_potential": "중소기업 디지털화 가속으로 높은 성장 가능성 [추론]"
+        "timing_reason": "개인의 선택권이 많아지면서 결정 피로도가 증가하는 시대적 배경 [추론]",
+        "growth_potential": "틈새시장이지만 특정 사용자층에게 필수적인 앱으로 자리잡을 가능성 [추측]"
       },
       "business": {
-        "monetization": "프리미엄 구독, 고급 템플릿 판매 [추론]",
-        "pricing_suggestion": "월 9,900원 기본, 월 19,900원 프로 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "5000-8000만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "AI API",
-          "웹 렌더링",
-          "클라우드 스토리지"
-        ],
-        "key_features": [
-          "AI 웹사이트 생성",
-          "드래그앤드롭 편집",
-          "템플릿 라이브러리",
-          "도메인 연결"
-        ],
-        "clone_tip": "GPT API와 웹 빌더 프레임워크를 조합하여 MVP 제작 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 5,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2B",
-        "#AI"
-      ],
-      "verdict": "노코드 시장의 AI 혁신, 높은 수익성 기대",
-      "deep_report_id": "ios-ai-website-builder-1769526564556"
-    },
-    {
-      "rank": 2,
-      "name": "Farm AI – Farming Intelligence",
-      "developer": "Ayman Sabri",
-      "category": "Productivity",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/d3/d7/96d3d72c-0ad0-b185-8fe6-a9c188e04b26/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/farm-ai-farming-intelligence/id6758107678?uo=2",
-      "idea_summary": "AI로 농업 생산성을 분석하고 개선",
-      "analysis": {
-        "problem": "농업 생산성 향상과 과학적 농업 관리 필요 [추론]",
-        "solution": "AI를 활용한 작물 상태 분석, 병해충 예측, 수확량 최적화 [추론]",
-        "target_user": "스마트팜 운영자, 농업인, 농업 관련 기업 [추론]",
-        "unique_point": "농업 전문 AI 분석과 모바일 접근성 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Plantix",
-          "PictureThis",
-          "농업기술센터 앱"
-        ],
-        "timing_reason": "스마트팜 확산과 농업 디지털화 정책 지원 시점 [추론]",
-        "growth_potential": "글로벌 농업 기술 시장 성장으로 높은 잠재력 [추론]"
-      },
-      "business": {
-        "monetization": "월 구독, 농장별 프리미엄 서비스 [추론]",
-        "pricing_suggestion": "월 29,900원 개인, 월 99,000원 농장용 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "8-12개월 [추론]",
-        "estimated_cost": "1억-1억5천만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "머신러닝",
-          "이미지 인식",
-          "농업 데이터베이스"
-        ],
-        "key_features": [
-          "작물 상태 분석",
-          "병해충 진단",
-          "수확 예측",
-          "날씨 연동"
-        ],
-        "clone_tip": "농업 데이터셋과 컴퓨터 비전 모델 활용 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 2,
-        "market_size": 4,
-        "competition": 4,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 8.5
-      },
-      "tags": [
-        "#B2B",
-        "#AI",
-        "#IoT"
-      ],
-      "verdict": "농업 디지털 혁신의 핵심, 정부 지원 가능성"
-    },
-    {
-      "rank": 3,
-      "name": "Homely AI - Interior Design",
-      "developer": "Kmaster Limited",
-      "category": "Graphic & Design",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/a6/31/2ca631f4-0105-a4e9-67f2-81153043961f/AppIcon-0-0-1x_U007ephone-0-0-0-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/homely-ai-interior-design/id6757994164?uo=2",
-      "idea_summary": "AI로 인테리어 디자인 자동 생성",
-      "analysis": {
-        "problem": "인테리어 디자인 비용 부담과 전문가 접근성 한계 [추론]",
-        "solution": "AI를 활용한 개인 맞춤형 인테리어 디자인 자동 생성 [추론]",
-        "target_user": "신혼부부, 이사 준비자, 인테리어 관심층 [추론]",
-        "unique_point": "실제 공간 사진을 AI로 리모델링 시뮬레이션 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "오늘의집",
-          "Houzz",
-          "IKEA Place"
-        ],
-        "timing_reason": "집콕 문화와 홈 인테리어 관심 증가 시점 [추론]",
-        "growth_potential": "부동산 시장과 연계한 지속적 성장 가능성 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 디자인, 가구 제휴 수수료 [추론]",
-        "pricing_suggestion": "월 14,900원 프리미엄 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "3000-5000만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "AR Kit",
-          "AI 이미지 생성",
-          "3D 렌더링"
-        ],
-        "key_features": [
-          "공간 스캔",
-          "AI 디자인 생성",
-          "가구 배치",
-          "AR 미리보기"
-        ],
-        "clone_tip": "Stable Diffusion과 AR 기술을 조합한 인테리어 생성 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 5,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 8.3
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#AI"
-      ],
-      "verdict": "인테리어 시장의 AI 혁신, 제휴 수익성 높음"
-    },
-    {
-      "rank": 4,
-      "name": "Brewsta",
-      "developer": "Whizbang",
-      "category": "Food & Beverage",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/3f/33/853f33f4-f798-c5c5-f73b-642b410702d7/AppIcon-1x_U007ephone-0-1-85-220-0.jpeg/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/brewsta/id6757011278?uo=2",
-      "idea_summary": "맥주 양조 레시피 관리와 커뮤니티",
-      "analysis": {
-        "problem": "홈브루잉 애호가들의 레시피 관리와 정보 공유 니즈 [추론]",
-        "solution": "맥주 양조 레시피 생성, 관리, 공유 플랫폼 제공 [추론]",
-        "target_user": "홈브루잉 애호가, 맥주 제조업체, 양조 학습자 [추론]",
-        "unique_point": "전문적인 양조 계산과 커뮤니티 결합 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "BeerSmith",
-          "홈브루잉 커뮤니티",
-          "양조 블로그"
-        ],
-        "timing_reason": "수제맥주 문화 확산과 DIY 트렌드 [추론]",
-        "growth_potential": "틈새 시장이지만 충성도 높은 사용자층 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 레시피, 장비 제휴 수수료 [추론]",
-        "pricing_suggestion": "월 9,900원 프리미엄 [추론]",
+        "monetization": "프리미엄 기능(고급 의사결정 도구) 유료화 또는 광고 수익 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "2000-3000만원 [추론]",
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
         "tech_stack": [
-          "Swift",
+          "Swift/SwiftUI",
           "Core Data",
-          "커뮤니티 기능",
-          "계산 엔진"
+          "UserNotifications"
         ],
         "key_features": [
-          "레시피 생성",
-          "양조 계산",
-          "일지 관리",
-          "커뮤니티"
+          "랜덤 선택기",
+          "가중치 설정",
+          "결정 히스토리",
+          "카테고리별 관리"
         ],
-        "clone_tip": "양조학 알고리즘과 소셜 기능을 결합한 니치 앱 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 2,
-        "competition": 5,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 7.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#니치마켓",
-        "#커뮤니티"
-      ],
-      "verdict": "작지만 충성도 높은 틈새시장, 안정적 수익"
-    },
-    {
-      "rank": 5,
-      "name": "Are you Okay?",
-      "developer": "orhun ipek",
-      "category": "Lifestyle",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/57/b3/4d57b3f6-b390-f54c-3009-75b599171dd2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/are-you-okay/id6757956026?uo=2",
-      "idea_summary": "AI 기반 정신건강 체크와 케어 서비스",
-      "analysis": {
-        "problem": "정신건강 관리의 접근성과 지속적 모니터링 어려움 [추론]",
-        "solution": "일상 대화를 통한 AI 정신건강 체크와 맞춤 케어 제공 [추론]",
-        "target_user": "정신건강 관심층, 스트레스 관리 필요자, 상담 접근 어려운 사람 [추론]",
-        "unique_point": "일상 언어 패턴 분석으로 정신건강 상태 진단 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Headspace",
-          "Calm",
-          "마음챙김 앱들"
-        ],
-        "timing_reason": "코로나19 이후 정신건강 관심 급증과 AI 상담 기술 발전 [추론]",
-        "growth_potential": "정신건강 시장 확대와 원격 케어 니즈 증가 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 상담, 개인 맞춤 케어 프로그램 [추론]",
-        "pricing_suggestion": "월 19,900원 프리미엄 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "4000-6000만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "NLP",
-          "감정 분석 AI",
-          "보안 암호화"
-        ],
-        "key_features": [
-          "일상 대화 분석",
-          "기분 추적",
-          "맞춤 조언",
-          "응급 연결"
-        ],
-        "clone_tip": "감정 분석 ML 모델과 챗봇 기술 활용 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 5,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8.6
-      },
-      "tags": [
-        "#1인개발가능",
-        "#헬스케어",
-        "#AI"
-      ],
-      "verdict": "정신건강 케어의 새로운 접근, 사회적 가치 높음"
-    }
-  ],
-  "android": [
-    {
-      "rank": 1,
-      "name": "PixVerse: AI Video Generator",
-      "developer": "PixVerse",
-      "category": "Video Editor",
-      "icon": "https://play-lh.googleusercontent.com/aKY08CU0iQwU8CKTI03Tw7ssbSX_jrHf5GG-3Ky3Y-Yg_5OBszT2RyWI4n237snlGFNQ",
-      "app_url": "https://play.google.com/store/apps/details?id=com.pixverseai.pixverse",
-      "idea_summary": "AI로 텍스트를 영상으로 자동 변환",
-      "analysis": {
-        "problem": "영상 제작의 높은 진입장벽과 시간 비용 [추론]",
-        "solution": "텍스트 프롬프트만으로 AI가 자동 영상 생성 [확인]",
-        "target_user": "콘텐츠 크리에이터, 마케터, 소셜미디어 운영자 [추론]",
-        "unique_point": "텍스트-투-비디오 생성의 모바일 최적화 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Runway",
-          "Pika Labs",
-          "Stable Video"
-        ],
-        "timing_reason": "생성형 AI 기술 발전과 숏폼 콘텐츠 수요 증가 [추론]",
-        "growth_potential": "크리에이터 이코노미 성장으로 높은 잠재력 [추론]"
-      },
-      "business": {
-        "monetization": "크레딧 기반 과금, 프리미엄 구독 [추론]",
-        "pricing_suggestion": "월 19,900원 프리미엄, 크레딧별 과금 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "10-12개월 [추론]",
-        "estimated_cost": "2억-3억원 [추론]",
-        "tech_stack": [
-          "Android",
-          "AI Video API",
-          "클라우드 GPU",
-          "FFmpeg"
-        ],
-        "key_features": [
-          "텍스트-영상 변환",
-          "스타일 선택",
-          "편집 도구",
-          "내보내기"
-        ],
-        "clone_tip": "기존 AI 비디오 API를 활용한 모바일 인터페이스 구축 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 2,
-        "market_size": 5,
-        "competition": 3,
-        "profitability": 5,
-        "scalability": 5,
-        "overall": 9.1
-      },
-      "tags": [
-        "#AI",
-        "#크리에이터",
-        "#B2C"
-      ],
-      "verdict": "AI 영상 생성의 대중화, 높은 수익성 기대",
-      "deep_report_id": "android-pixverse-ai-video-generator-1769526634256"
-    },
-    {
-      "rank": 2,
-      "name": "Grok - AI Generator",
-      "developer": "xAI",
-      "category": "Productivity",
-      "icon": "https://play-lh.googleusercontent.com/dQRKhi30KpzG3gww3TdVLzyIAVuOAWylnAcgnEUxqfpm2A8dEt2sgApVvtKAy-DO8aI",
-      "app_url": "https://play.google.com/store/apps/details?id=ai.x.grok",
-      "idea_summary": "실시간 정보 기반 AI 챗봇 서비스",
-      "analysis": {
-        "problem": "기존 AI 챗봇의 정보 시차와 실시간성 부족 [추론]",
-        "solution": "X(트위터) 연동으로 실시간 정보 기반 AI 응답 제공 [확인]",
-        "target_user": "실시간 정보 필요자, X 사용자, 정보 분석가 [추론]",
-        "unique_point": "소셜미디어 실시간 데이터 활용한 최신 정보 제공 [확인]"
-      },
-      "market": {
-        "competitors": [
-          "ChatGPT",
-          "Claude",
-          "Gemini"
-        ],
-        "timing_reason": "AI 챗봇 시장 성숙화와 차별화 필요 시점 [추론]",
-        "growth_potential": "실시간성이라는 독특한 포지션으로 틈새 확보 가능 [추론]"
-      },
-      "business": {
-        "monetization": "구독 모델, X Premium 연동 [추론]",
-        "pricing_suggestion": "월 16달러 (X Premium 포함) [확인]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "12개월 이상 [추론]",
-        "estimated_cost": "5억원 이상 [추론]",
-        "tech_stack": [
-          "Android",
-          "대화형 AI",
-          "실시간 데이터",
-          "소셜 API"
-        ],
-        "key_features": [
-          "실시간 정보 조회",
-          "AI 대화",
-          "트렌드 분석",
-          "소셜 연동"
-        ],
-        "clone_tip": "소규모로는 뉴스 API + GPT 조합으로 실시간 정보 봇 제작 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 1,
-        "market_size": 5,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 7.9
-      },
-      "tags": [
-        "#AI",
-        "#실시간",
-        "#소셜"
-      ],
-      "verdict": "실시간성으로 차별화, 개발 난이도 높음"
-    },
-    {
-      "rank": 3,
-      "name": "MoneyWork - Health & Finance",
-      "developer": "Gravity Ltd",
-      "category": "Health & Fitness",
-      "icon": "https://play-lh.googleusercontent.com/0vWR05__gGrE_eTRSYh500J9kcNRlVkU2kNK9by3mOw1fWnc9zOEfezuFyjL_PDK3g",
-      "app_url": "https://play.google.com/store/apps/details?id=com.tracerofficial",
-      "idea_summary": "걷기로 돈을 버는 헬스&파이낸스 융합",
-      "analysis": {
-        "problem": "운동 동기 부족과 부수입 창출 니즈 [추론]",
-        "solution": "걸음 수를 기반으로 리워드를 제공하는 게임화 시스템 [확인]",
-        "target_user": "건강 관리자, 부수입 관심층, 운동 동기 필요자 [추론]",
-        "unique_point": "건강과 수익을 동시에 추구하는 이중 가치 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Sweatcoin",
-          "스텝업",
-          "캐시워크"
-        ],
-        "timing_reason": "건강 의식 증가와 리워드 앱 트렌드 [추론]",
-        "growth_potential": "헬스케어와 핀테크 융합 트렌드로 성장 가능성 [추론]"
-      },
-      "business": {
-        "monetization": "광고 수익, 파트너 제휴 수수료 [추론]",
-        "pricing_suggestion": "무료 + 광고 모델 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "3000-5000만원 [추론]",
-        "tech_stack": [
-          "Android",
-          "헬스 센서",
-          "리워드 시스템",
-          "결제 API"
-        ],
-        "key_features": [
-          "걸음 수 측정",
-          "리워드 적립",
-          "현금 환전",
-          "챌린지"
-        ],
-        "clone_tip": "Google Fit API + 리워드 시스템으로 간단 구현 가능 [추론]"
+        "clone_tip": "의사결정 알고리즘과 직관적인 UI가 핵심, 사용자 데이터 분석 기능 추가 시 차별화 가능 [추론]"
       },
       "scores": {
         "novelty": 3,
         "necessity": 4,
         "timing": 4,
         "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "선택 장애라는 특정 니즈를 타겟한 실용적 앱",
+      "deep_report_id": "ios-decidy-decision-maker-1769558771944"
+    },
+    {
+      "rank": 2,
+      "name": "Cat Tower",
+      "developer": "Taesung Kim",
+      "category": "Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/2f/21/192f21e2-5f34-4c1e-8dba-f7336cd9882d/AppIcon-0-0-1x_U007emarketing-0-8-0-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%83%A5%ED%83%80%EC%9B%8C/id6758080019?uo=2",
+      "idea_summary": "고양이 테마 타워 쌓기 게임",
+      "analysis": {
+        "problem": "단순하면서도 중독성 있는 캐주얼 게임에 대한 수요 [추론]",
+        "solution": "귀여운 고양이 캐릭터를 활용한 타워 디펜스 또는 스택 게임 [추측]",
+        "target_user": "고양이를 좋아하는 10-40대, 캐주얼 게임 애호가 [추론]",
+        "unique_point": "고양이라는 보편적으로 사랑받는 소재와 간단한 게임성의 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Stack",
+          "고양이와 박스들",
+          "Cat Condo"
+        ],
+        "timing_reason": "반려동물 인구 증가와 고양이 콘텐츠 인기 상승 [추론]",
+        "growth_potential": "캐릭터 IP화 가능성과 다양한 스핀오프 게임 개발 가능 [추측]"
+      },
+      "business": {
+        "monetization": "인앱 구매(캐릭터, 아이템), 광고 시청 보상 [추론]",
+        "pricing_suggestion": "무료 다운로드, 인앱 구매 1,100-5,500원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SpriteKit",
+          "GameCenter"
+        ],
+        "key_features": [
+          "물리 엔진",
+          "캐릭터 시스템",
+          "레벨 진행",
+          "업적 시스템"
+        ],
+        "clone_tip": "게임 물리 엔진과 캐릭터 애니메이션이 핵심, 소셜 기능 추가로 바이럴 효과 노려볼 만함 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
         "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임",
+        "#캐주얼"
+      ],
+      "verdict": "고양이 테마로 차별화된 간단한 캐주얼 게임"
+    },
+    {
+      "rank": 3,
+      "name": "ValueGrid",
+      "developer": "ROLDAN ACOSTA",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/3b/9a/6a3b9a94-172d-88ca-c207-231f6ec65c47/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/valuegrid/id6758262834?uo=2",
+      "idea_summary": "가치 기반 작업 우선순위 매트릭스",
+      "analysis": {
+        "problem": "중요도와 긴급도를 고려한 체계적인 작업 우선순위 설정의 어려움 [추론]",
+        "solution": "아이젠하워 매트릭스 기반의 시각적 작업 관리 도구 [추측]",
+        "target_user": "업무 효율성을 추구하는 직장인, 학생, 프리랜서 [추론]",
+        "unique_point": "단순한 할일 관리가 아닌 가치 기반 우선순위 시각화 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "Todoist",
+          "Priority Matrix"
+        ],
+        "timing_reason": "원격근무 확산으로 개인 생산성 관리의 중요성 증대 [추론]",
+        "growth_potential": "기업 고객 대상 B2B 확장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(고급 분석, 팀 기능) [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "매트릭스 뷰",
+          "드래그앤드롭",
+          "통계 분석",
+          "동기화"
+        ],
+        "clone_tip": "직관적인 드래그앤드롭 UI와 실시간 우선순위 재계산이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#비즈니스"
+      ],
+      "verdict": "가치 기반 우선순위 설정이라는 차별화된 접근"
+    },
+    {
+      "rank": 4,
+      "name": "MoonPhase App",
+      "developer": "ASUNCION MELVIN",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/6d/75/0a6d75c8-690a-9889-aac2-5e08eecf1ea2/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/moonphase-app/id6758292316?uo=2",
+      "idea_summary": "달의 위상과 관련 정보 제공 앱",
+      "analysis": {
+        "problem": "천체 관측, 원예, 조석 등에 필요한 달의 위상 정보 접근 불편 [추론]",
+        "solution": "정확한 달의 위상 정보와 관련 데이터를 직관적으로 제공 [추측]",
+        "target_user": "천체 관측 애호가, 원예인, 낚시꾼, 점성술 관심자 [추론]",
+        "unique_point": "단순한 달력이 아닌 위상별 상세 정보와 실용적 활용 팁 제공 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Moon Phase Calendar",
+          "Lunar Calendar",
+          "Star Walk"
+        ],
+        "timing_reason": "자연회귀 트렌드와 천체 관측 취미 증가 [추론]",
+        "growth_potential": "틈새 시장이지만 충성도 높은 사용자층 확보 가능 [추측]"
+      },
+      "business": {
+        "monetization": "광고 수익 또는 프리미엄 기능(상세 예측, 알림) 유료화 [추론]",
+        "pricing_suggestion": "무료 + 프리미엄 1회 구매 2,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Location",
+          "EventKit"
+        ],
+        "key_features": [
+          "달 위상 계산",
+          "위치 기반 정보",
+          "알림 시스템",
+          "캘린더 연동"
+        ],
+        "clone_tip": "정확한 천문학적 계산 알고리즘과 아름다운 UI 디자인이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#천체"
+      ],
+      "verdict": "틈새 시장 타겟의 실용적 천체 정보 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Opalite - Color Studio",
+      "developer": "Nicholas Molargik",
+      "category": "Graphics & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/dc/57/fedc57d0-7021-560d-fa97-d0ddc68123a7/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/opalite-color-studio/id6755093664?uo=2",
+      "idea_summary": "아티스트를 위한 컬러 팔레트 도구",
+      "analysis": {
+        "problem": "디지털 아트 작업 시 색상 조합과 팔레트 관리의 복잡함 [추론]",
+        "solution": "직관적인 색상 선택, 팔레트 생성, 조화로운 색상 추천 기능 [추측]",
+        "target_user": "디지털 아티스트, 그래픽 디자이너, UI/UX 디자이너 [추론]",
+        "unique_point": "전문적인 색상 이론 기반의 지능형 팔레트 생성 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Color",
+          "Coolors",
+          "Paletton"
+        ],
+        "timing_reason": "NFT 아트와 디지털 콘텐츠 제작 붐으로 디자인 도구 수요 증가 [추론]",
+        "growth_potential": "전문 디자이너 커뮤니티로 확산 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(고급 팔레트, 내보내기 기능) [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Graphics",
+          "Vision"
+        ],
+        "key_features": [
+          "색상 피커",
+          "팔레트 생성기",
+          "색상 조화 알고리즘",
+          "내보내기"
+        ],
+        "clone_tip": "색상 이론과 시각적 조화를 구현하는 알고리즘이 핵심, 사진에서 팔레트 추출 기능 추가하면 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#디자인",
+        "#전문도구"
+      ],
+      "verdict": "전문 디자이너를 위한 색상 관리 전문 도구"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "UpScrolled",
+      "developer": "UpScrolled",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/FAwa27yDVCctM4GSBq3H2nngQWixJeBQOdCBdasUgQ7P1ew7ROku7jgzcpsrD8-ZODZE",
+      "app_url": "https://play.google.com/store/apps/details?id=com.upscrolled.app",
+      "idea_summary": "스크롤 기반 엔터테인먼트 콘텐츠",
+      "analysis": {
+        "problem": "기존 소셜미디어의 알고리즘 피로와 중독성 있는 스크롤링에 대한 건전한 대안 필요 [추론]",
+        "solution": "큐레이션된 양질의 콘텐츠를 스크롤 방식으로 제공하되 시간 제한 등 건전한 사용 유도 [추측]",
+        "target_user": "소셜미디어 피로를 느끼는 20-30대, 건전한 콘텐츠 소비를 원하는 사용자 [추론]",
+        "unique_point": "무분별한 스크롤링이 아닌 의미있는 콘텐츠 발견에 초점 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "Instagram Reels",
+          "YouTube Shorts"
+        ],
+        "timing_reason": "소셜미디어 중독과 정보 과부하에 대한 사회적 반성 시기 [추론]",
+        "growth_potential": "건전한 콘텐츠 소비 트렌드에 맞춰 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "구독 모델과 광고, 콘텐츠 제작자 수익 분배 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "ExoPlayer",
+          "ML Kit"
+        ],
+        "key_features": [
+          "콘텐츠 큐레이션",
+          "스크롤 UI",
+          "시간 관리",
+          "개인화 추천"
+        ],
+        "clone_tip": "콘텐츠 추천 알고리즘과 사용 시간 제한 기능이 차별점, 창작자 도구도 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
         "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#스타트업급",
+        "#B2C",
+        "#소셜",
+        "#콘텐츠"
+      ],
+      "verdict": "건전한 콘텐츠 소비라는 시의적절한 접근",
+      "deep_report_id": "android-upscrolled-1769558819567"
+    },
+    {
+      "rank": 2,
+      "name": "Voice Translator - Language Translation, Photo Translation",
+      "developer": "PHAM DAI TRANG",
+      "category": "Translation",
+      "icon": "https://play-lh.googleusercontent.com/DO0-5DK6br9viSSilHm_8L4Mrhyz_ZFrR4vLLx9JJrG9F0fnbn07bANrVWDjhHCaLkbG",
+      "app_url": "https://play.google.com/store/apps/details?id=com.free.translate.all.language.translator.camera",
+      "idea_summary": "음성과 사진 다중 번역 통합 앱",
+      "analysis": {
+        "problem": "여행이나 업무에서 다양한 형태의 콘텐츠(음성, 텍스트, 이미지)를 실시간 번역할 필요 [확인]",
+        "solution": "음성 인식, 카메라 OCR, 텍스트 번역을 하나의 앱에서 통합 제공 [추론]",
+        "target_user": "해외여행객, 외국어 학습자, 다국적 기업 직장인 [추론]",
+        "unique_point": "다양한 입력 방식을 하나의 앱에서 통합 처리하는 올인원 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Translate",
+          "Papago",
+          "Microsoft Translator"
+        ],
+        "timing_reason": "코로나 이후 해외여행 재개와 글로벌 원격근무 확산 [추론]",
+        "growth_potential": "AI 번역 기술 발전으로 정확도 향상 시 시장 확대 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(무제한 번역, 오프라인 모드, 고급 기능) [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ML Kit Translation",
+          "CameraX",
+          "Speech-to-Text"
+        ],
+        "key_features": [
+          "실시간 음성 번역",
+          "OCR 번역",
+          "오프라인 모드",
+          "대화 모드"
+        ],
+        "clone_tip": "각 번역 엔진의 최적화와 사용자 경험 통합이 핵심, 특정 언어 쌍에 특화하면 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI",
+        "#글로벌"
+      ],
+      "verdict": "실용적 필요를 충족하는 통합 번역 솔루션"
+    },
+    {
+      "rank": 3,
+      "name": "Round - Challenge to Shop for Free",
+      "developer": "라운드(RROUND)",
+      "category": "Challenge",
+      "icon": "https://play-lh.googleusercontent.com/Hw-JfRJRkQc6YzTeYU9FPZpPS5HZySor88tQASIYwl51UgHpDixZDN7Ztm2Fa_CVSTY",
+      "app_url": "https://play.google.com/store/apps/details?id=io.balso",
+      "idea_summary": "챌린지 완주로 무료 쇼핑 기회 제공",
+      "analysis": {
+        "problem": "건전한 소비 습관 형성과 동기부여의 어려움, 쇼핑 부담 [추론]",
+        "solution": "일정한 챌린지(운동, 독서 등) 완수 시 포인트나 상품 제공하는 리워드 시스템 [추측]",
+        "target_user": "자기계발을 원하지만 동기부여가 부족한 20-30대, 알뜰 소비를 추구하는 소비자 [추론]",
+        "unique_point": "단순 할인이 아닌 자기개발과 쇼핑을 연결한 게임화된 소비 모델 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "캐시슬라이드",
+          "돈버는퀴즈",
+          "리워드 앱들"
+        ],
+        "timing_reason": "건전한 소비와 자기계발 트렌드, 경제적 부담 증가로 리워드 앱 관심 상승 [추론]",
+        "growth_potential": "브랜드 파트너십 확대와 챌린지 다양화로 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "브랜드 협찬, 광고 수익, 거래 수수료 [추론]",
+        "pricing_suggestion": "무료 사용, 브랜드 협찬으로 수익 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "Payment SDK",
+          "HealthConnect"
+        ],
+        "key_features": [
+          "챌린지 시스템",
+          "진행도 추적",
+          "리워드 관리",
+          "파트너 연동"
+        ],
+        "clone_tip": "사용자 참여도를 높이는 게임화와 신뢰할 수 있는 리워드 시스템이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임화",
+        "#리워드"
+      ],
+      "verdict": "자기계발과 쇼핑을 연결한 혁신적 모델"
+    },
+    {
+      "rank": 4,
+      "name": "WordBit English (formerly WordBit Lockscreen)",
+      "developer": "WordBit",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/YUrFfRgNjDpAbH9en6f4aBoWpFL0A3zNVVRh9dGVJARYiS-wIUDtZWlUhCMGdf8_siI",
+      "app_url": "https://play.google.com/store/apps/details?id=net.wordbit.enkr",
+      "idea_summary": "잠금화면 활용 영어 학습 앱",
+      "analysis": {
+        "problem": "별도 학습 시간 확보 어려움, 지속적인 영어 학습 동기 부족 [추론]",
+        "solution": "스마트폰 잠금 해제 시점을 활용해 자연스럽게 영어 단어나 문장 노출 [확인]",
+        "target_user": "바쁜 직장인, 학생, 틈틈이 영어를 공부하고 싶은 모든 연령층 [추론]",
+        "unique_point": "기존 습관(폰 잠금 해제)에 학습을 자연스럽게 통합한 참신한 접근 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "토익 단어",
+          "영단어 암기 앱들"
+        ],
+        "timing_reason": "모바일 학습 트렌드와 마이크로 러닝 선호 증가 [추론]",
+        "growth_potential": "다른 언어로 확장 가능, 개인화 학습으로 발전 여지 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(광고 제거, 고급 콘텐츠, 통계) [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room Database",
+          "WorkManager",
+          "Notification"
+        ],
+        "key_features": [
+          "잠금화면 위젯",
+          "학습 진도 관리",
+          "단어 반복 알고리즘",
+          "발음 기능"
+        ],
+        "clone_tip": "잠금화면 커스터마이징과 학습 효과 측정이 핵심, 개인화된 학습 패턴 분석 추가하면 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 4,
         "profitability": 3,
         "scalability": 4,
         "overall": 8
       },
       "tags": [
         "#1인개발가능",
-        "#헬스케어",
-        "#리워드"
+        "#B2C",
+        "#교육",
+        "#마이크로러닝"
       ],
-      "verdict": "검증된 모델, 안정적 수익 구조"
+      "verdict": "일상 습관에 자연스럽게 통합된 혁신적 학습법"
     },
     {
-      "rank": 4,
-      "name": "Smart PDF Reader & Viewer",
-      "developer": "Olasmg Digital",
-      "category": "Productivity",
-      "icon": "https://play-lh.googleusercontent.com/FobSlTpVPTwk7_s1gWyytRcuAwOmn_bdZ8LVekOMrPnsB9E6lG68Gvqa0tY-xrRzAwwAhQ4dtGZtAcWJ0lzLcA",
-      "app_url": "https://play.google.com/store/apps/details?id=com.smartpdf.viewer",
-      "idea_summary": "AI 기능이 추가된 스마트 PDF 리더",
+      "rank": 5,
+      "name": "Easy Home Screen",
+      "developer": "Homescreen Apps",
+      "category": "Home Screen Customization",
+      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "간편한 홈 화면 커스터마이징 도구",
       "analysis": {
-        "problem": "기본 PDF 뷰어의 기능 한계와 생산성 부족 [추론]",
-        "solution": "AI 요약, 번역, 주석 등 스마트 기능이 추가된 PDF 리더 [추론]",
-        "target_user": "학생, 직장인, 연구자, 문서 작업자 [추론]",
-        "unique_point": "AI 기반 문서 분석과 생산성 도구 통합 [추론]"
+        "problem": "복잡한 안드로이드 런처 설정으로 인한 사용자 불편함, 시니어층 접근성 부족 [추론]",
+        "solution": "직관적이고 단순한 인터페이스로 홈 화면 꾸미기와 위젯 배치 간편화 [추측]",
+        "target_user": "기술에 익숙하지 않은 시니어층, 단순함을 선호하는 사용자 [추론]",
+        "unique_point": "복잡한 커스터마이징 대신 실용성과 접근성에 집중한 런처 [추측]"
       },
       "market": {
         "competitors": [
-          "Adobe Reader",
-          "Foxit",
-          "WPS Office"
+          "Nova Launcher",
+          "Microsoft Launcher",
+          "Action Launcher"
         ],
-        "timing_reason": "AI 통합 생산성 도구 트렌드와 원격 업무 증가 [추론]",
-        "growth_potential": "문서 작업의 AI 혁신으로 차별화 가능 [추론]"
+        "timing_reason": "시니어 스마트폰 사용자 증가와 디지털 접근성에 대한 관심 확산 [추론]",
+        "growth_potential": "시니어 시장 확대와 접근성 중요성 증가로 성장 가능 [추측]"
       },
       "business": {
-        "monetization": "프리미엄 AI 기능, 클라우드 스토리지 [추론]",
-        "pricing_suggestion": "월 9,900원 프리미엄 [추론]",
+        "monetization": "프리미엄 버전(추가 테마, 기능), 광고 수익 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 1회 구매 3,900원 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "5-7개월 [추론]",
-        "estimated_cost": "4000-6000만원 [추론]",
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
         "tech_stack": [
-          "Android",
-          "PDF 라이브러리",
-          "OCR",
-          "AI API"
+          "Kotlin",
+          "LiveData",
+          "RecyclerView",
+          "Shared Preferences"
         ],
         "key_features": [
-          "AI 요약",
-          "번역",
-          "주석",
-          "검색",
-          "클라우드 동기화"
+          "간편 위젯 배치",
+          "대용량 아이콘",
+          "음성 검색",
+          "SOS 기능"
         ],
-        "clone_tip": "PDFBox + OpenAI API로 기본 스마트 기능 구현 [추론]"
+        "clone_tip": "접근성 기능(큰 폰트, 음성 지원)과 단순한 UI가 핵심, 가족 연결 기능 추가하면 차별화 [추론]"
       },
       "scores": {
         "novelty": 3,
         "necessity": 4,
         "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 5,
-        "competition": 2,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
         "profitability": 3,
-        "scalability": 4,
-        "overall": 8.1
+        "scalability": 3,
+        "overall": 7
       },
       "tags": [
         "#1인개발가능",
-        "#생산성",
-        "#AI"
+        "#B2C",
+        "#접근성",
+        "#시니어"
       ],
-      "verdict": "생산성 도구의 AI 진화, 안정적 시장"
-    },
-    {
-      "rank": 5,
-      "name": "KLING AI: Image & Video Maker",
-      "developer": "Lohas Games Pte. Ltd.",
-      "category": "Photo & Video",
-      "icon": "https://play-lh.googleusercontent.com/JOfjXqsShK8j1aGBc1xlHBnatoRKRwLsGuoFZUAvKksaEPvK71eLwSg4FbKlky9Es-s",
-      "app_url": "https://play.google.com/store/apps/details?id=kling.ai.video.chat",
-      "idea_summary": "AI로 이미지와 영상을 동시 생성",
-      "analysis": {
-        "problem": "이미지와 영상 제작의 복잡성과 높은 제작 비용 [추론]",
-        "solution": "하나의 앱에서 AI 이미지와 영상을 모두 생성할 수 있는 통합 플랫폼 [추론]",
-        "target_user": "콘텐츠 크리에이터, 소셜미디어 마케터, 디자이너 [추론]",
-        "unique_point": "이미지-영상 통합 생성과 한국어 지원 [추측]"
-      },
-      "market": {
-        "competitors": [
-          "Midjourney",
-          "DALL-E",
-          "Canva"
-        ],
-        "timing_reason": "멀티모달 AI 기술 발전과 콘텐츠 수요 폭증 [추론]",
-        "growth_potential": "아시아 시장 특화로 높은 성장 잠재력 [추론]"
-      },
-      "business": {
-        "monetization": "크레딧 기반, 프리미엄 구독 [추론]",
-        "pricing_suggestion": "월 14,900원 프리미엄 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "8-10개월 [추론]",
-        "estimated_cost": "1억-1억5천만원 [추론]",
-        "tech_stack": [
-          "Android",
-          "이미지 생성 AI",
-          "비디오 AI",
-          "클라우드"
-        ],
-        "key_features": [
-          "AI 이미지 생성",
-          "AI 영상 생성",
-          "편집 도구",
-          "템플릿"
-        ],
-        "clone_tip": "Stability AI와 Runway API를 조합한 통합 플랫폼 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 2,
-        "market_size": 5,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8.7
-      },
-      "tags": [
-        "#AI",
-        "#크리에이터",
-        "#멀티모달"
-      ],
-      "verdict": "멀티모달 AI의 통합 플랫폼, 고성장 기대"
+      "verdict": "시니어층을 위한 접근성 중심 런처 솔루션"
     }
   ],
   "daily_insight": {
-    "trend_summary": "AI 기술이 모든 산업으로 확산되며 생산성과 창작 도구의 혁신이 가속화되고 있습니다 [추론]. 특히 노코드, 농업, 인테리어, 콘텐츠 제작 분야에서 AI 통합 솔루션이 주목받고 있습니다 [추론].",
+    "trend_summary": "개인 생산성과 건전한 디지털 소비에 대한 관심이 증가하면서, 기존 습관에 자연스럽게 통합되는 마이크로 솔루션들이 주목받고 있다 [추론]. 특히 AI 기술을 활용한 개인화된 도구들과 접근성을 고려한 포용적 디자인이 트렌드로 부상하고 있다 [추론].",
     "trend_details": [
-      "AI 웹사이트 빌더의 노코드 혁신",
-      "농업 분야의 스마트팜 AI 도입",
-      "인테리어 디자인의 AI 자동화",
-      "텍스트-투-비디오 생성 기술 대중화",
-      "헬스케어와 핀테크 융합 서비스"
+      "습관 통합형 학습 도구",
+      "건전한 콘텐츠 소비 플랫폼",
+      "접근성 중심 UI/UX",
+      "가치 기반 생산성 도구"
     ],
     "hot_categories": [
-      "AI 생산성 도구",
-      "스마트 농업",
-      "크리에이터 이코노미"
+      "생산성",
+      "교육",
+      "접근성"
     ],
-    "opportunity": "AI API를 활용한 니치 시장 특화 솔루션으로 1인 개발자도 충분히 경쟁력 확보 가능",
-    "action_item": "기존 산업의 AI 혁신 기회를 찾아 MVP 제작 후 시장 검증 진행"
+    "opportunity": "기존 디지털 서비스의 부작용에 대한 대안으로 건전하고 의미있는 사용자 경험을 제공하는 앱들이 기회를 얻고 있음",
+    "action_item": "일상의 자연스러운 터치포인트에 가치 있는 기능을 통합하는 마이크로 솔루션 아이디어 발굴"
   }
 }
