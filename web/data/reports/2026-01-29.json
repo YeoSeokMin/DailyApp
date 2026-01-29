@@ -1,0 +1,633 @@
+{
+  "date": "2026-01-29",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "MeetingBurn 会議コスト可視化タイマー",
+      "developer": "Takumi Kinjo",
+      "category": "Business",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/c0/c0/5ec0c04f-21cd-9f75-292b-bf8f3a958a80/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/meetingburn-%E4%BC%9A%E8%AD%B0%E3%82%B3%E3%82%B9%E3%83%88%E5%8F%AF%E8%A6%96%E5%8C%96%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC/id6758034253?uo=2",
+      "idea_summary": "회의 비용을 시간별로 실시간 계산해주는 타이머",
+      "analysis": {
+        "problem": "회의 시간과 참석자 비용이 불투명해 비효율적 회의가 만연 [추론]",
+        "solution": "참석자 시급을 입력하면 회의 진행시간에 따른 실시간 비용 계산 [확인]",
+        "target_user": "기업 팀장, 프로젝트 매니저, 스타트업 창업자 [추론]",
+        "unique_point": "회의 비용을 실시간으로 시각화해 시간 의식 개선 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Toggl",
+          "RescueTime"
+        ],
+        "timing_reason": "원격근무 증가로 회의 효율성에 대한 관심 급증 [추론]",
+        "growth_potential": "기업들의 생산성 향상 니즈 증가로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 (고급 분석, 팀 기능) [추론]",
+        "pricing_suggestion": "월 990원 기본, 팀 플랜 월 4900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "300만원",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "Core Data",
+          "Push Notifications"
+        ],
+        "key_features": [
+          "실시간 비용 계산",
+          "참석자 관리",
+          "회의 통계"
+        ],
+        "clone_tip": "간단한 계산 로직과 깔끔한 UI가 핵심, MVP로 시작 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "간단하지만 명확한 가치 제안으로 틈새시장 공략 가능",
+      "deep_report_id": "ios-meetingburn-1769645157245"
+    },
+    {
+      "rank": 2,
+      "name": "VivaDicta - Speech to Text",
+      "developer": "Anton Novoselov",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/ec/f8/6eecf83c-87dc-25dc-607b-66f8a16c6d08/AppIcon3-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/vivadicta-speech-to-text/id6758147238?uo=2",
+      "idea_summary": "실시간 음성을 텍스트로 변환하는 생산성 도구",
+      "analysis": {
+        "problem": "회의, 강의, 인터뷰 등에서 실시간 필기의 어려움 [확인]",
+        "solution": "고정밀 음성인식으로 실시간 텍스트 변환 및 편집 기능 [추론]",
+        "target_user": "기자, 학생, 연구원, 회의 참석자 [추론]",
+        "unique_point": "실시간 편집과 다국어 지원으로 정확도 향상 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "Dragon",
+          "Google Voice Typing"
+        ],
+        "timing_reason": "AI 음성인식 기술 발달과 원격근무 확산 [추론]",
+        "growth_potential": "음성 인터페이스 시장 확대로 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델 (무제한 녹음, 클라우드 저장) [추론]",
+        "pricing_suggestion": "월 4900원, 연 49000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월",
+        "estimated_cost": "800만원",
+        "tech_stack": [
+          "Speech Framework",
+          "Natural Language",
+          "CloudKit"
+        ],
+        "key_features": [
+          "실시간 STT",
+          "텍스트 편집",
+          "다국어 지원"
+        ],
+        "clone_tip": "iOS Speech Framework 활용하면 기본 기능 구현 쉬움 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용"
+      ],
+      "verdict": "기존 솔루션 대비 특별함은 부족하나 안정적 수요 존재"
+    },
+    {
+      "rank": 3,
+      "name": "Sleepwizard",
+      "developer": "JOSEPH PETEUL",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/b1/6b/a0b16b4d-9126-7f69-23da-dd64ec8cba78/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/sleepwizard/id6758224463?uo=2",
+      "idea_summary": "수면 품질 개선을 위한 맞춤형 솔루션 제공",
+      "analysis": {
+        "problem": "현대인들의 수면 부족과 수면 질 저하 문제 [확인]",
+        "solution": "개인별 수면 패턴 분석과 맞춤형 개선 방법 제시 [추측]",
+        "target_user": "수면 장애를 겪는 직장인, 학생, 중년층 [추론]",
+        "unique_point": "AI 기반 개인별 맞춤 수면 코칭 제공 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Sleep Cycle",
+          "Calm",
+          "Headspace"
+        ],
+        "timing_reason": "코로나 이후 건강 관리 의식 증가와 수면의 중요성 부각 [추론]",
+        "growth_potential": "웰니스 시장 성장과 수면 문제 증가로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (맞춤 코칭, 고급 분석) [추론]",
+        "pricing_suggestion": "월 7900원, 연 79000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월",
+        "estimated_cost": "1000만원",
+        "tech_stack": [
+          "HealthKit",
+          "Core ML",
+          "UserNotifications"
+        ],
+        "key_features": [
+          "수면 추적",
+          "패턴 분석",
+          "맞춤 코칭"
+        ],
+        "clone_tip": "HealthKit 연동과 기본 알고리즘부터 시작해 점진적 고도화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "경쟁이 치열하지만 개인화된 접근으로 차별화 가능"
+    },
+    {
+      "rank": 4,
+      "name": "ReceiptStorage",
+      "developer": "Gauravkumar Gandhi",
+      "category": "Finance",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/0e/b9/5f0eb9bd-75b0-874a-5973-97d166915d87/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/receiptstorage/id6749923857?uo=2",
+      "idea_summary": "영수증을 디지털로 저장하고 관리하는 앱",
+      "analysis": {
+        "problem": "종이 영수증 분실과 가계부 관리의 번거로움 [확인]",
+        "solution": "사진 촬영으로 영수증 디지털화 및 카테고리별 관리 [추론]",
+        "target_user": "가계부를 쓰는 주부, 프리랜서, 소상공인 [추론]",
+        "unique_point": "OCR 기반 자동 정보 추출과 세무 관리 기능 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "가계부 앱들",
+          "Expensify",
+          "Receipt Bank"
+        ],
+        "timing_reason": "디지털 전환 가속화와 개인 재정 관리 관심 증가 [추론]",
+        "growth_potential": "중소기업과 개인사업자 타겟으로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (무제한 저장, 세무 리포트) [추론]",
+        "pricing_suggestion": "월 2900원, 연 29000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "500만원",
+        "tech_stack": [
+          "Vision Framework",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "OCR 스캔",
+          "카테고리 분류",
+          "리포트 생성"
+        ],
+        "clone_tip": "iOS Vision Framework로 OCR 구현이 비교적 쉬움 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "실용적이지만 차별화 포인트 부족으로 마케팅이 관건"
+    },
+    {
+      "rank": 5,
+      "name": "WentThere Routes",
+      "developer": "LEAH BLYTHE",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/bf/77/79bf7770-e87c-9518-13e1-6b88f441cab1/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/wentthere-routes/id6758295829?uo=2",
+      "idea_summary": "모험과 여행을 위한 개인 맞춤 루트 플래너",
+      "analysis": {
+        "problem": "획일적인 여행 코스로 인한 특별함 부족과 개인 취향 미반영 [추론]",
+        "solution": "사용자 선호도 기반 맞춤형 여행 루트 생성 및 추천 [추측]",
+        "target_user": "개인 여행객, 백패커, 모험을 좋아하는 젊은층 [추론]",
+        "unique_point": "AI 기반 개인화된 루트 생성과 현지 숨은 명소 발굴 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Google Maps",
+          "TripAdvisor",
+          "Komoot"
+        ],
+        "timing_reason": "코로나 이후 개인 여행 선호도 증가와 맞춤형 서비스 트렌드 [추론]",
+        "growth_potential": "여행 업계 회복과 개인화 트렌드로 성장 가능성 있음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (오프라인 지도, 고급 루트) [추론]",
+        "pricing_suggestion": "월 4900원, 연 39000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월",
+        "estimated_cost": "700만원",
+        "tech_stack": [
+          "MapKit",
+          "Core Location",
+          "Core ML"
+        ],
+        "key_features": [
+          "루트 생성",
+          "맞춤 추천",
+          "오프라인 지도"
+        ],
+        "clone_tip": "MapKit과 기본 알고리즘으로 MVP 제작 후 AI 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행"
+      ],
+      "verdict": "틈새시장이지만 차별화된 기능으로 충성도 높은 유저 확보 가능"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "머니워크 - 돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
+      "developer": "Gravity Ltd",
+      "category": "Health & Finance",
+      "icon": "https://play-lh.googleusercontent.com/0vWR05__gGrE_eTRSYh500J9kcNRlVkU2kNK9by3mOw1fWnc9zOEfezuFyjL_PDK3g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tracerofficial",
+      "idea_summary": "걷기 운동으로 실제 현금을 벌 수 있는 헬스케어 앱",
+      "analysis": {
+        "problem": "운동 동기 부족과 즉각적인 보상 시스템 부재 [확인]",
+        "solution": "걸음 수에 따른 포인트 적립과 현금 출금 시스템 [확인]",
+        "target_user": "운동 동기가 부족한 직장인, 주부, 학생 [추론]",
+        "unique_point": "실제 현금 지급으로 운동 동기 부여하는 리워드 모델 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "캐시워크",
+          "돈이돼지",
+          "워크온"
+        ],
+        "timing_reason": "건강 관리 트렌드와 부수입 추구 문화 확산 [추론]",
+        "growth_potential": "헬스케어와 핀테크 결합으로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익 기반 리워드 지급 모델 [추론]",
+        "pricing_suggestion": "무료 앱, 광고 및 제휴 수익으로 운영 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월",
+        "estimated_cost": "1500만원",
+        "tech_stack": [
+          "Google Fit API",
+          "Firebase",
+          "결제 시스템"
+        ],
+        "key_features": [
+          "걸음 추적",
+          "리워드 시스템",
+          "현금 출금"
+        ],
+        "clone_tip": "Google Fit API로 걸음 측정, 광고 파트너십이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스테크"
+      ],
+      "verdict": "검증된 비즈니스 모델로 마케팅과 파트너십이 성공 열쇠",
+      "deep_report_id": "android-머니워크-돈버는-건강관리-걷기로-용돈벌기-현금인출-1769645212021"
+    },
+    {
+      "rank": 2,
+      "name": "Big Keyboard: Easy Homescreen",
+      "developer": "SwipeTap Apps",
+      "category": "Keyboard",
+      "icon": "https://play-lh.googleusercontent.com/6Br-oi4POY7x94Z8Gzo0EO9Yy83HywOCuWSLUyxdD5NJOm8lq0kVc6VSxqfo6NCiJw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bigkeyboardeasylauncher.biggerkeybuttonandroidlauncherapp",
+      "idea_summary": "시니어를 위한 큰 키보드와 쉬운 홈화면",
+      "analysis": {
+        "problem": "고령자와 시력 약자의 스마트폰 사용 어려움 [확인]",
+        "solution": "큰 키보드와 단순화된 인터페이스로 접근성 향상 [확인]",
+        "target_user": "60세 이상 시니어, 시력 약자, 스마트폰 초보자 [추론]",
+        "unique_point": "키보드와 런처를 통합한 올인원 접근성 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Simple Launcher",
+          "Big Launcher",
+          "Senior Safety Phone"
+        ],
+        "timing_reason": "인구 고령화와 디지털 격차 해소 필요성 증대 [추론]",
+        "growth_potential": "고령화 사회 진입으로 꾸준한 수요 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 프리미엄 기능 [추론]",
+        "pricing_suggestion": "5900원 일회성 구매 또는 월 1900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "400만원",
+        "tech_stack": [
+          "Android Custom Keyboard",
+          "Launcher API"
+        ],
+        "key_features": [
+          "큰 키보드",
+          "단순 UI",
+          "음성 입력"
+        ],
+        "clone_tip": "안드로이드 접근성 API 활용하여 간단하게 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#접근성"
+      ],
+      "verdict": "사회적 가치와 안정적 수요를 가진 틈새시장 앱"
+    },
+    {
+      "rank": 3,
+      "name": "ScanNow Home",
+      "developer": "Homescreen Apps",
+      "category": "Scanner",
+      "icon": "https://play-lh.googleusercontent.com/YhuQiZE7wBkrHEB1An7YzYbMR-U_1o7HrZtG5bU4t0v_1NKZSDQlsxpTVLoNfyTEnzuX",
+      "app_url": "https://play.google.com/store/apps/details?id=com.eet.scan.launcher",
+      "idea_summary": "홈화면에서 바로 문서를 스캔할 수 있는 앱",
+      "analysis": {
+        "problem": "문서 스캔을 위해 여러 앱을 거쳐야 하는 번거로움 [추론]",
+        "solution": "홈화면 위젯으로 원터치 스캔 기능 제공 [추측]",
+        "target_user": "사무직 직장인, 학생, 프리랜서 [추론]",
+        "unique_point": "홈화면 통합으로 빠른 접근성과 즉시 스캔 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "CamScanner",
+          "Adobe Scan",
+          "Microsoft Office Lens"
+        ],
+        "timing_reason": "재택근무 증가로 모바일 문서 스캔 수요 급증 [추론]",
+        "growth_potential": "디지털 문서화 트렌드로 꾸준한 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (고화질 스캔, 클라우드 저장) [추론]",
+        "pricing_suggestion": "월 2900원, 연 24900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "500만원",
+        "tech_stack": [
+          "Camera API",
+          "Widget",
+          "ML Kit"
+        ],
+        "key_features": [
+          "원터치 스캔",
+          "홈화면 위젯",
+          "자동 보정"
+        ],
+        "clone_tip": "Google ML Kit의 문서 스캐너 API 활용하면 쉽게 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "간단한 아이디어지만 접근성 개선으로 차별화 가능"
+    },
+    {
+      "rank": 4,
+      "name": "PDF Reader Pro",
+      "developer": "TANIATECH",
+      "category": "Document Viewer",
+      "icon": "https://play-lh.googleusercontent.com/oNyfcQGRTwNGxrRL7QZQvipYBtzVAY84Yocq2OAvJHBXFBErBddUQjnIZgLXvOi8HNJzRtkXohSGtVi8mDDvvQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pdf.viewer.reader.editor.pro",
+      "idea_summary": "전문가용 PDF 리더 및 편집기",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집과 주석 기능의 제한적 지원 [확인]",
+        "solution": "고급 편집 기능과 주석, 서명 등 전문 기능 제공 [추론]",
+        "target_user": "변호사, 회계사, 연구원, 학생 [추론]",
+        "unique_point": "모바일 환경에 최적화된 전문가급 PDF 도구 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "Foxit PDF",
+          "Xodo"
+        ],
+        "timing_reason": "원격근무와 모바일 오피스 환경 확산 [추론]",
+        "growth_potential": "문서 중심 업무 증가로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 구독 모델 [추론]",
+        "pricing_suggestion": "9900원 일회성 또는 월 3900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월",
+        "estimated_cost": "1000만원",
+        "tech_stack": [
+          "PDFBox",
+          "Custom UI",
+          "File System"
+        ],
+        "key_features": [
+          "PDF 편집",
+          "주석",
+          "전자서명"
+        ],
+        "clone_tip": "기존 PDF 라이브러리 활용하여 UI/UX에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "검증된 시장이지만 차별화 요소 부족으로 경쟁 치열"
+    },
+    {
+      "rank": 5,
+      "name": "돈이돼지 - 만보기 앱테크, 돈버는앱, 현금인출, 캐시",
+      "developer": "Bitbyte Corp.",
+      "category": "Health & Finance",
+      "icon": "https://play-lh.googleusercontent.com/th0SMKVt0FCNEda49AB_55SJ9bF1IG585HxjbcEXrid7yasuZ9CLYvn8UnJrHID6m7Db",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.bitbyte.moneypig",
+      "idea_summary": "걷기와 미션으로 현금을 벌 수 있는 앱테크",
+      "analysis": {
+        "problem": "운동 동기 부족과 용돈벌이에 대한 니즈 [확인]",
+        "solution": "걸음 수 측정과 다양한 미션으로 포인트 적립 후 현금화 [확인]",
+        "target_user": "부수입을 원하는 대학생, 주부, 직장인 [추론]",
+        "unique_point": "다양한 미션과 게임 요소로 지속적 참여 유도 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "캐시워크",
+          "머니워크",
+          "워크온"
+        ],
+        "timing_reason": "경제적 어려움과 부수입 문화 확산 [추론]",
+        "growth_potential": "앱테크 시장 성숙으로 차별화된 서비스 필요 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 제휴 마케팅 [추론]",
+        "pricing_suggestion": "무료 앱, 광고 기반 수익 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월",
+        "estimated_cost": "800만원",
+        "tech_stack": [
+          "Google Fit",
+          "AdMob",
+          "Firebase"
+        ],
+        "key_features": [
+          "만보기",
+          "미션",
+          "포인트 시스템"
+        ],
+        "clone_tip": "기존 성공 모델 참고하여 차별화된 미션 시스템 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#앱테크"
+      ],
+      "verdict": "포화된 시장이지만 독특한 게임화 요소로 차별화 가능"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "개인화된 생산성 도구와 헬스테크 융합 서비스가 주요 트렌드로 부상하고 있음. 특히 접근성과 즉시성을 강조한 앱들이 주목받고 있음 [추론]",
+    "trend_details": [
+      "비즈니스 생산성을 위한 시각화 도구 등장",
+      "건강과 금융 서비스의 융합 가속화",
+      "시니어 친화적 접근성 앱 증가",
+      "원터치 기능을 강조한 편의성 앱 확산"
+    ],
+    "hot_categories": [
+      "Business Productivity",
+      "Health & Finance",
+      "Accessibility Tools"
+    ],
+    "opportunity": "간단하지만 명확한 문제 해결에 집중한 틈새시장 앱들이 성공 가능성 높음",
+    "action_item": "기존 복잡한 앱들의 핵심 기능만 추출한 심플한 대안 앱 개발 검토"
+  }
+}
