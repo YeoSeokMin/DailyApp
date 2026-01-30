@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-29T03:07:15.664Z",
+  "generatedAt": "2026-01-30T01:36:55.940Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -7,41 +7,29 @@
   "risingCategories": [
     {
       "category": "Entertainment",
-      "currentCount": 5,
+      "currentCount": 6,
       "previousCount": 1,
-      "changePercent": 400,
+      "changePercent": 500,
       "changeDirection": "up",
       "apps": [
-        "WentThere Routes",
+        "UpScrolled",
+        "Vigloo 비글루 - 숏드라마",
         "Decidy - Decision Maker",
         "UpScrolled",
         "MigoReels Short & Dramas",
         "Scrolla: fun reels, no stress"
       ],
-      "avgScore": 7.32
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 4,
-      "previousCount": 1,
-      "changePercent": 300,
-      "changeDirection": "up",
-      "apps": [
-        "oshinote - 推し活管理",
-        "Babbl: Kid Quotes and Memories",
-        "Nimbi - Family Chore Tracker",
-        "KashKick: Get paid to have fun"
-      ],
-      "avgScore": 7.875
+      "avgScore": 7.233333333333333
     },
     {
       "category": "Productivity",
-      "currentCount": 14,
-      "previousCount": 0,
-      "changePercent": 100,
+      "currentCount": 12,
+      "previousCount": 3,
+      "changePercent": 300,
       "changeDirection": "up",
       "apps": [
-        "VivaDicta - Speech to Text",
+        "지갑관리 - 지출관리 앱 (支票貓 Cheque Kitty)",
+        "Rightime - 单手掌控的极简待办",
         "ValueGrid",
         "Habit Thermostat",
         "ScrollFit Push Up Time Blocker",
@@ -51,12 +39,24 @@
         "Focus: Goal Tracker",
         "Focus: Goal Tracker",
         "VideoTranslatorAI",
-        "ReadAloud AI",
-        "Habit Tracker - HabitHub",
-        "AI Video - AI Video Generator",
-        "Testerup: Make Money Fast"
+        "ReadAloud AI"
       ],
-      "avgScore": 7.685714285714285
+      "avgScore": 7.633333333333334
+    },
+    {
+      "category": "Lifestyle",
+      "currentCount": 5,
+      "previousCount": 2,
+      "changePercent": 150,
+      "changeDirection": "up",
+      "apps": [
+        "FunDad: Activity Planner",
+        "One Habit Tracker",
+        "oshinote - 推し活管理",
+        "Babbl: Kid Quotes and Memories",
+        "Nimbi - Family Chore Tracker"
+      ],
+      "avgScore": 7.56
     },
     {
       "category": "Health & Fitness",
@@ -65,41 +65,71 @@
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Sleepwizard",
+        "루트레일",
         "PsychDiary - Your AI Diary",
         "Money Work - Earn Money Through Health",
         "Eye Break Reminder"
       ],
-      "avgScore": 7.999999999999999
+      "avgScore": 8.05
     },
     {
-      "category": "Finance",
-      "currentCount": 3,
+      "category": "Graphics & Design",
+      "currentCount": 2,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "ReceiptStorage",
-        "Alveon: Expense Income Track",
-        "Alveon: Expense & Income Track"
+        "Auto Pro - AI Car Mod",
+        "Opalite - Color Studio"
       ],
-      "avgScore": 7.666666666666667
+      "avgScore": 6.8
     },
     {
-      "category": "Health & Finance",
-      "currentCount": 3,
+      "category": "Shopping",
+      "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "머니워크 - 돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
-        "돈이돼지 - 만보기 앱테크, 돈버는앱, 현금인출, 캐시",
-        "MoneyWork - Earn Money through Health Management"
+        "Round - Challenge Shopping"
       ],
-      "avgScore": 7.733333333333333
+      "avgScore": 8.8
     },
     {
-      "category": "Keyboard",
+      "category": "Automobiles",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "HeyDealer - Certified Used Cars"
+      ],
+      "avgScore": 8.2
+    },
+    {
+      "category": "Food & Dining",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CatchTable"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "Military Benefits",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Boohoon Market"
+      ],
+      "avgScore": 6.8
+    },
+    {
+      "category": "Accessibility",
       "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
@@ -110,60 +140,62 @@
       "avgScore": 7.6
     },
     {
-      "category": "Scanner",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "ScanNow Home"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Document Viewer",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "PDF Reader Pro"
-      ],
-      "avgScore": 6.5
-    },
-    {
       "category": "Game",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Cat Tower"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Utility",
       "currentCount": 2,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "MoonPhase App",
-        "Kolr - Color Palette Generator"
+        "Don't Look Rabbit! Stealth Run",
+        "Cat Tower"
       ],
-      "avgScore": 6.25
+      "avgScore": 7.25
     },
     {
-      "category": "Graphics & Design",
+      "category": "Finance",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "ReceiptStorage",
+        "Alveon: Expense Income Track"
+      ],
+      "avgScore": 8
+    },
+    {
+      "category": "Photo/Video",
       "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Opalite - Color Studio"
+        "Clear Pano"
       ],
       "avgScore": 6.8
+    },
+    {
+      "category": "Launcher",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Weather Now Launcher - Radar",
+        "Easy Homescreen"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "Restaurant",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CatchTable"
+      ],
+      "avgScore": 8
     },
     {
       "category": "Challenge",
@@ -227,6 +259,17 @@
       "avgScore": 7.25
     },
     {
+      "category": "Health & Finance",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "MoneyWork - Earn Money through Health Management"
+      ],
+      "avgScore": 8.5
+    },
+    {
       "category": "Travel & Weather",
       "currentCount": 1,
       "previousCount": 0,
@@ -259,18 +302,6 @@
         "Citizen Conan - Anti-Fraud App"
       ],
       "avgScore": 8.15
-    },
-    {
-      "category": "Personalization",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Big Keyboard: Easy Homescreen",
-        "Easy Homescreen"
-      ],
-      "avgScore": 7.05
     },
     {
       "category": "Tools",
@@ -306,43 +337,32 @@
         "Weather Now Launcher - Radar"
       ],
       "avgScore": 7
-    },
-    {
-      "category": "Health/Fitness",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Gainr: AI Personal Trainer",
-        "FormaFit: Workout & Cal Scan"
-      ],
-      "avgScore": 8.05
-    },
-    {
-      "category": "Media & Video",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "AI Video Maker With Music"
-      ],
-      "avgScore": 8
     }
   ],
-  "decliningCategories": [],
+  "decliningCategories": [
+    {
+      "category": "Health/Fitness",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Goodflow: Fix Brain Rot"
+      ],
+      "avgScore": 8.8
+    }
+  ],
   "stableCategories": [
     {
-      "category": "Business",
+      "category": "Utility",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "MeetingBurn 会議コスト可視化タイマー"
+        "MoonPhase App"
       ],
-      "avgScore": 8.6
+      "avgScore": 5.5
     },
     {
       "category": "Translation",
@@ -377,27 +397,47 @@
         "Product Recolor AI Studio"
       ],
       "avgScore": 8.1
+    },
+    {
+      "category": "Personalization",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Big Keyboard: Easy Homescreen"
+      ],
+      "avgScore": 8.2
     }
   ],
   "hotKeywords": [
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 47,
+      "count": 49,
       "apps": [
-        "VivaDicta - Speech to Text",
-        "Sleepwizard",
-        "ReceiptStorage",
-        "WentThere Routes",
-        "머니워크 - 돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
+        "지갑관리 - 지출관리 앱 (支票貓 Cheque Kitty)",
+        "루트레일",
+        "FunDad: Activity Planner",
+        "One Habit Tracker",
+        "Auto Pro - AI Car Mod",
+        "Round - Challenge Shopping",
+        "HeyDealer - Certified Used Cars",
+        "Boohoon Market",
         "Big Keyboard: Easy Homescreen",
-        "ScanNow Home",
-        "돈이돼지 - 만보기 앱테크, 돈버는앱, 현금인출, 캐시",
+        "Don't Look Rabbit! Stealth Run",
+        "ReceiptStorage",
+        "Rightime - 单手掌控的极简待办",
+        "Clear Pano",
+        "Goodflow: Fix Brain Rot",
+        "Weather Now Launcher - Radar",
+        "Easy Homescreen",
+        "UpScrolled",
+        "Vigloo 비글루 - 숏드라마",
         "Decidy - Decision Maker",
         "Cat Tower",
         "ValueGrid",
         "MoonPhase App",
-        "UpScrolled",
         "Voice Translator - Language Translation, Photo Translation",
         "Round - Challenge to Shop for Free",
         "WordBit English (formerly WordBit Lockscreen)",
@@ -421,32 +461,30 @@
         "Money Work - Earn Money Through Health",
         "Learn English, Spanish: Learna",
         "AI Translator All Languages",
-        "Eye Break Reminder",
-        "Alveon: Expense & Income Track",
-        "Gainr: AI Personal Trainer",
-        "FormaFit: Workout & Cal Scan",
-        "Habit Tracker - HabitHub",
-        "AI Video - AI Video Generator",
-        "KashKick: Get paid to have fun",
-        "Easy Homescreen",
-        "AI Video Maker With Music"
+        "Eye Break Reminder"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 42,
+      "count": 45,
       "apps": [
-        "MeetingBurn 会議コスト可視化タイマー",
-        "VivaDicta - Speech to Text",
-        "Sleepwizard",
-        "ReceiptStorage",
-        "WentThere Routes",
-        "머니워크 - 돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
+        "지갑관리 - 지출관리 앱 (支票貓 Cheque Kitty)",
+        "루트레일",
+        "FunDad: Activity Planner",
+        "One Habit Tracker",
+        "Auto Pro - AI Car Mod",
+        "Round - Challenge Shopping",
+        "HeyDealer - Certified Used Cars",
+        "CatchTable",
+        "Boohoon Market",
         "Big Keyboard: Easy Homescreen",
-        "ScanNow Home",
-        "PDF Reader Pro",
-        "돈이돼지 - 만보기 앱테크, 돈버는앱, 현금인출, 캐시",
+        "Don't Look Rabbit! Stealth Run",
+        "ReceiptStorage",
+        "Rightime - 单手掌控的极简待办",
+        "Goodflow: Fix Brain Rot",
+        "Weather Now Launcher - Radar",
+        "Easy Homescreen",
         "Decidy - Decision Maker",
         "Cat Tower",
         "ValueGrid",
@@ -473,19 +511,16 @@
         "Nimbi - Family Chore Tracker",
         "Focus: Goal Tracker",
         "Money Work - Earn Money Through Health",
-        "Eye Break Reminder",
-        "Alveon: Expense & Income Track",
-        "Kolr - Color Palette Generator",
-        "Habit Tracker - HabitHub"
+        "Eye Break Reminder"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 34,
+      "count": 30,
       "apps": [
-        "Sleepwizard",
-        "WentThere Routes",
+        "Auto Pro - AI Car Mod",
+        "Goodflow: Fix Brain Rot",
         "Voice Translator - Language Translation, Photo Translation",
         "StarScan - Scan Sports Card",
         "MushroomScan: Photo Identifier",
@@ -503,21 +538,20 @@
         "VideoTranslatorAI",
         "ReadAloud AI",
         "Daily Stretching & Flexibility",
-        "Open Browser - Smart & Safe",
-        "Gainr: AI Personal Trainer",
-        "Kolr - Color Palette Generator",
-        "AI Video - AI Video Generator",
-        "KashKick: Get paid to have fun",
-        "AI Video Maker With Music"
+        "Open Browser - Smart & Safe"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 13,
+      "count": 17,
       "apps": [
-        "Sleepwizard",
+        "Auto Pro - AI Car Mod",
+        "HeyDealer - Certified Used Cars",
+        "Boohoon Market",
         "Big Keyboard: Easy Homescreen",
+        "Clear Pano",
+        "Weather Now Launcher - Radar",
         "StarScan - Scan Sports Card",
         "MoneyWork - Earn Money through Health Management",
         "Flash AI: Photo to Flashcard",
@@ -525,113 +559,55 @@
         "Money Work - Earn Money Through Health",
         "Learn English, Spanish: Learna",
         "ZAG – Share Progress",
-        "Weather Now Launcher - Radar",
         "Open Browser - Smart & Safe"
-      ]
-    },
-    {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 11,
-      "apps": [
-        "MeetingBurn 会議コスト可視化タイマー",
-        "VivaDicta - Speech to Text",
-        "ScanNow Home",
-        "PDF Reader Pro",
-        "Decidy - Decision Maker",
-        "ValueGrid",
-        "Habit Thermostat",
-        "Focus Cat: Task Timer & Goal",
-        "Only 5 Mins!",
-        "Habit Tracker - HabitHub"
       ]
     },
     {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 10,
+      "count": 9,
       "apps": [
+        "Vigloo 비글루 - 숏드라마",
         "UpScrolled",
         "Voice Translator - Language Translation, Photo Translation",
         "PixVerse: AI Video Generator",
         "MigoReels Short & Dramas",
         "VideoTranslatorAI",
-        "Scrolla: fun reels, no stress",
-        "AI Video - AI Video Generator",
-        "AI Video Maker With Music"
+        "Scrolla: fun reels, no stress"
       ]
     },
     {
-      "keyword": "AI활용",
+      "keyword": "생산성",
       "category": "tag",
-      "count": 9,
+      "count": 7,
       "apps": [
-        "VivaDicta - Speech to Text",
-        "PsychDiary - Your AI Diary",
-        "Alveon: Expense Income Track",
-        "Learn English, Spanish: Learna",
-        "AI Translator All Languages",
-        "Gainr: AI Personal Trainer",
-        "FormaFit: Workout & Cal Scan",
-        "AI Video - AI Video Generator",
-        "AI Video Maker With Music"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "MeetingBurn 会議コスト可視化タイマー",
-        "PDF Reader Pro",
-        "Opalite - Color Studio",
-        "Product Recolor AI Studio",
-        "Kolr - Color Palette Generator",
-        "Testerup: Make Money Fast"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "Sleepwizard",
-        "머니워크 - 돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
-        "Daily Stretching & Flexibility",
-        "Gainr: AI Personal Trainer",
-        "FormaFit: Workout & Cal Scan"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "UpScrolled",
-        "ZAG – Share Progress",
-        "Scrolla: fun reels, no stress",
-        "Habit Tracker - HabitHub"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "VivaDicta - Speech to Text",
-        "PDF Reader Pro",
-        "PixVerse: AI Video Generator",
-        "AI Video - AI Video Generator"
+        "Rightime - 单手掌控的极简待办",
+        "Decidy - Decision Maker",
+        "ValueGrid",
+        "Habit Thermostat",
+        "Focus Cat: Task Timer & Goal",
+        "Only 5 Mins!"
       ]
     },
     {
       "keyword": "접근성",
       "category": "tag",
-      "count": 4,
+      "count": 5,
       "apps": [
         "Big Keyboard: Easy Homescreen",
+        "Easy Homescreen",
         "Easy Home Screen",
         "ReadAloud AI"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "UpScrolled",
+        "ZAG – Share Progress",
+        "Scrolla: fun reels, no stress"
       ]
     },
     {
@@ -646,34 +622,44 @@
       ]
     },
     {
-      "keyword": "영상",
-      "category": "creator",
+      "keyword": "AI활용",
+      "category": "tag",
       "count": 4,
       "apps": [
-        "PixVerse: AI Video Generator",
-        "VideoTranslatorAI",
-        "AI Video - AI Video Generator",
-        "AI Video Maker With Music"
+        "PsychDiary - Your AI Diary",
+        "Alveon: Expense Income Track",
+        "Learn English, Spanish: Learna",
+        "AI Translator All Languages"
       ]
     },
     {
-      "keyword": "여행",
+      "keyword": "유틸리티",
       "category": "tag",
       "count": 3,
       "apps": [
-        "WentThere Routes",
-        "Weather Trip",
-        "Voice Translator"
+        "Weather Now Launcher - Radar",
+        "MoonPhase App",
+        "File Recovery - Photo Recovery"
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
+      "keyword": "영상",
+      "category": "creator",
       "count": 3,
       "apps": [
-        "Decidy - Decision Maker",
-        "Gainr: AI Personal Trainer",
-        "Kolr - Color Palette Generator"
+        "UpScrolled",
+        "PixVerse: AI Video Generator",
+        "VideoTranslatorAI"
+      ]
+    },
+    {
+      "keyword": "스트리밍",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "UpScrolled",
+        "Vigloo 비글루 - 숏드라마",
+        "MigoReels Short & Dramas"
       ]
     },
     {
@@ -707,51 +693,77 @@
       ]
     },
     {
-      "keyword": "핀테크",
+      "keyword": "안전",
       "category": "tag",
       "count": 2,
       "apps": [
-        "ReceiptStorage",
-        "Alveon: Expense Income Track"
+        "루트레일",
+        "MushroomScan: Photo Identifier"
+      ]
+    },
+    {
+      "keyword": "육아",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "FunDad: Activity Planner",
+        "Babbl: Kid Quotes and Memories"
+      ]
+    },
+    {
+      "keyword": "게임화",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Round - Challenge Shopping",
+        "Round - Challenge to Shop for Free"
+      ]
+    },
+    {
+      "keyword": "B2B2C",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "CatchTable"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 18,
-        "percent": 26,
+        "count": 25,
+        "percent": 36,
         "examples": [
-          "머니워크 - 돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
-          "돈이돼지 - 만보기 앱테크, 돈버는앱, 현금인출, 캐시",
-          "Decidy - Decision Maker"
-        ]
-      },
-      "freemium": {
-        "count": 55,
-        "percent": 79,
-        "examples": [
-          "MeetingBurn 会議コスト可視化タイマー",
-          "Sleepwizard",
+          "Round - Challenge Shopping",
+          "Don't Look Rabbit! Stealth Run",
           "ReceiptStorage"
         ]
       },
-      "subscription": {
-        "count": 40,
-        "percent": 57,
+      "freemium": {
+        "count": 54,
+        "percent": 77,
         "examples": [
-          "MeetingBurn 会議コスト可視化タイマー",
-          "VivaDicta - Speech to Text",
-          "Sleepwizard"
+          "지갑관리 - 지출관리 앱 (支票貓 Cheque Kitty)",
+          "루트레일",
+          "FunDad: Activity Planner"
+        ]
+      },
+      "subscription": {
+        "count": 38,
+        "percent": 54,
+        "examples": [
+          "지갑관리 - 지출관리 앱 (支票貓 Cheque Kitty)",
+          "루트레일",
+          "FunDad: Activity Planner"
         ]
       },
       "onetime": {
-        "count": 11,
-        "percent": 16,
+        "count": 13,
+        "percent": 19,
         "examples": [
+          "One Habit Tracker",
           "Big Keyboard: Easy Homescreen",
-          "PDF Reader Pro",
-          "Decidy - Decision Maker"
+          "Clear Pano"
         ]
       },
       "unknown": {
@@ -762,12 +774,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 55,
-      "percent": 79,
+      "count": 54,
+      "percent": 77,
       "examples": [
-        "MeetingBurn 会議コスト可視化タイマー",
-        "Sleepwizard",
-        "ReceiptStorage"
+        "지갑관리 - 지출관리 앱 (支票貓 Cheque Kitty)",
+        "루트레일",
+        "FunDad: Activity Planner"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -776,71 +788,50 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 29,
-        "percent": 41,
+        "count": 24,
+        "percent": 34,
         "apps": [
-          "Sleepwizard",
-          "WentThere Routes",
-          "ScanNow Home",
+          "Auto Pro - AI Car Mod",
+          "Goodflow: Fix Brain Rot",
           "UpScrolled",
-          "Voice Translator - Language Translation, Photo Translation"
+          "Voice Translator - Language Translation, Photo Translation",
+          "MushroomScan: Photo Identifier"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 17,
-        "percent": 24,
+        "count": 22,
+        "percent": 31,
         "apps": [
-          "Sleepwizard",
+          "Auto Pro - AI Car Mod",
+          "HeyDealer - Certified Used Cars",
+          "Boohoon Market",
           "Big Keyboard: Easy Homescreen",
-          "Easy Home Screen",
-          "StarScan - Scan Sports Card",
-          "MoneyWork - Earn Money through Health Management"
+          "Clear Pano"
         ]
       },
       {
         "tech": "creator",
-        "count": 9,
-        "percent": 13,
+        "count": 8,
+        "percent": 11,
         "apps": [
-          "VivaDicta - Speech to Text",
-          "PDF Reader Pro",
+          "Clear Pano",
           "UpScrolled",
-          "PixVerse: AI Video Generator",
-          "MigoReels Short & Dramas"
+          "Vigloo 비글루 - 숏드라마",
+          "UpScrolled",
+          "PixVerse: AI Video Generator"
         ]
       },
       {
         "tech": "productivity",
-        "count": 6,
-        "percent": 9,
+        "count": 5,
+        "percent": 7,
         "apps": [
-          "VivaDicta - Speech to Text",
           "Round - Challenge to Shop for Free",
           "oshinote - 推し活管理",
           "Weather Trip",
-          "Focus Cat: Task Timer & Goal"
-        ]
-      },
-      {
-        "tech": "health",
-        "count": 4,
-        "percent": 6,
-        "apps": [
-          "Sleepwizard",
-          "머니워크 - 돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
-          "PsychDiary - Your AI Diary",
-          "Gainr: AI Personal Trainer"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "ZAG – Share Progress",
-          "Scrolla: fun reels, no stress",
-          "AI Video Maker With Music"
+          "Focus Cat: Task Timer & Goal",
+          "Nimbi - Family Chore Tracker"
         ]
       },
       {
@@ -853,62 +844,59 @@
         ]
       },
       {
-        "tech": "subscription",
+        "tech": "social",
         "count": 2,
         "percent": 3,
         "apps": [
-          "Gainr: AI Personal Trainer",
-          "Kolr - Color Palette Generator"
+          "ZAG – Share Progress",
+          "Scrolla: fun reels, no stress"
+        ]
+      },
+      {
+        "tech": "health",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "PsychDiary - Your AI Diary"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "Goodflow: Fix Brain Rot"
         ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 29,
-      "percent": 41,
+      "count": 24,
+      "percent": 34,
       "apps": [
-        "Sleepwizard",
-        "WentThere Routes",
-        "ScanNow Home",
+        "Auto Pro - AI Car Mod",
+        "Goodflow: Fix Brain Rot",
         "UpScrolled",
-        "Voice Translator - Language Translation, Photo Translation"
+        "Voice Translator - Language Translation, Photo Translation",
+        "MushroomScan: Photo Identifier"
       ]
     },
     "emerging": [
       {
-        "tech": "ar_vr",
-        "count": 17,
-        "percent": 24,
-        "apps": [
-          "Sleepwizard",
-          "Big Keyboard: Easy Homescreen",
-          "Easy Home Screen",
-          "StarScan - Scan Sports Card",
-          "MoneyWork - Earn Money through Health Management"
-        ]
-      },
-      {
         "tech": "creator",
-        "count": 9,
-        "percent": 13,
+        "count": 8,
+        "percent": 11,
         "apps": [
-          "VivaDicta - Speech to Text",
-          "PDF Reader Pro",
+          "Clear Pano",
           "UpScrolled",
-          "PixVerse: AI Video Generator",
-          "MigoReels Short & Dramas"
+          "Vigloo 비글루 - 숏드라마",
+          "UpScrolled",
+          "PixVerse: AI Video Generator"
         ]
       }
     ]
   },
   "opportunities": [
-    {
-      "type": "rising_category",
-      "title": "Lifestyle 카테고리 급부상",
-      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Lifestyle"
-    },
     {
       "type": "rising_category",
       "title": "Health & Fitness 카테고리 급부상",
@@ -918,38 +906,45 @@
     },
     {
       "type": "rising_category",
-      "title": "Finance 카테고리 급부상",
+      "title": "Graphics & Design 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Finance"
+      "category": "Graphics & Design"
     },
     {
       "type": "rising_category",
-      "title": "Health & Finance 카테고리 급부상",
+      "title": "Shopping 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Health & Finance"
+      "category": "Shopping"
     },
     {
       "type": "rising_category",
-      "title": "Keyboard 카테고리 급부상",
+      "title": "Automobiles 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Keyboard"
+      "category": "Automobiles"
     },
     {
       "type": "rising_category",
-      "title": "Scanner 카테고리 급부상",
+      "title": "Food & Dining 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Scanner"
+      "category": "Food & Dining"
     },
     {
       "type": "rising_category",
-      "title": "Document Viewer 카테고리 급부상",
+      "title": "Military Benefits 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Document Viewer"
+      "category": "Military Benefits"
+    },
+    {
+      "type": "rising_category",
+      "title": "Accessibility 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Accessibility"
     },
     {
       "type": "rising_category",
@@ -960,17 +955,31 @@
     },
     {
       "type": "rising_category",
-      "title": "Utility 카테고리 급부상",
+      "title": "Finance 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Utility"
+      "category": "Finance"
     },
     {
       "type": "rising_category",
-      "title": "Graphics & Design 카테고리 급부상",
+      "title": "Photo/Video 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Graphics & Design"
+      "category": "Photo/Video"
+    },
+    {
+      "type": "rising_category",
+      "title": "Launcher 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Launcher"
+    },
+    {
+      "type": "rising_category",
+      "title": "Restaurant 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Restaurant"
     },
     {
       "type": "rising_category",
@@ -1002,6 +1011,13 @@
     },
     {
       "type": "rising_category",
+      "title": "Health & Finance 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Health & Finance"
+    },
+    {
+      "type": "rising_category",
       "title": "Travel & Weather 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1020,13 +1036,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Security"
-    },
-    {
-      "type": "rising_category",
-      "title": "Personalization 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Personalization"
     },
     {
       "type": "rising_category",
@@ -1050,41 +1059,26 @@
       "category": "Weather"
     },
     {
-      "type": "rising_category",
-      "title": "Health/Fitness 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health/Fitness"
-    },
-    {
-      "type": "rising_category",
-      "title": "Media & Video 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Media & Video"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "41%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI 기능이 41%의 앱에 통합되며 필수 기능으로 자리잡고 있고, Entertainment(+400%)와 Lifestyle(+300%) 카테고리가 급성장하고 있습니다. Freemium 모델(79%)이 주류이며 1인 개발자도 충분히 진입 가능한 시장이 형성되고 있습니다.",
+    "trend_summary": "AI 통합이 34%의 앱에서 확산되며 표준이 되고 있고, Entertainment와 Productivity 카테고리가 각각 500%, 300% 급성장하고 있습니다. Freemium 모델(77%)이 주도적이며 구독 모델(54%)도 강세를 보이고 있습니다.",
     "trend_details": [
-      "AI 기능 통합이 앱의 기본 요소로 정착",
-      "Entertainment와 Lifestyle 카테고리 폭발적 성장",
-      "Freemium 수익 모델 압도적 선호",
-      "1인 개발자 친화적 시장 환경 조성"
+      "AI 기능이 앱의 1/3에서 채택되어 필수 요소로 자리잡음",
+      "Entertainment 카테고리가 500% 급성장하며 콘텐츠 소비 트렌드 반영",
+      "Freemium + 구독 하이브리드 모델이 수익화의 새로운 표준으로 등장"
     ],
     "hot_categories": [
       "Entertainment",
-      "Lifestyle"
+      "Productivity"
     ],
-    "opportunity": "Entertainment와 Lifestyle 카테고리에서 AI 기능을 활용한 개인화된 콘텐츠 서비스 개발이 가장 유망합니다.",
-    "action_item": "급성장 중인 Lifestyle 카테고리에서 AI 개인화 기능을 포함한 Freemium 앱을 개발하세요.",
-    "weekly_theme": "AI 라이프스타일"
+    "opportunity": "Health & Fitness, Graphics & Design 등 100% 성장했지만 앱 수가 적은 카테고리에서 AI 기능을 통합한 차별화된 앱 개발이 가장 유망합니다.",
+    "action_item": "접근성(Accessibility) 카테고리에 AI 음성인식이나 이미지 설명 기능을 결합한 1인 개발 가능한 앱을 기획해보세요.",
+    "weekly_theme": "AI 접근성"
   }
 }
