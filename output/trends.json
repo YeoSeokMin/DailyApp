@@ -1,47 +1,123 @@
 {
-  "generatedAt": "2026-01-30T15:16:21.774Z",
+  "generatedAt": "2026-01-31T15:13:45.134Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Entertainment",
+      "category": "Education",
       "currentCount": 6,
       "previousCount": 1,
       "changePercent": 500,
+      "changeDirection": "up",
+      "apps": [
+        "Lango - Any Language, Anywhere",
+        "WordBit English (formerly WordBit Lockscreen)",
+        "MushroomScan: Photo Identifier",
+        "Flash AI: Photo to Flashcard",
+        "Talk English",
+        "Learn English, Spanish: Learna"
+      ],
+      "avgScore": 8.033333333333333
+    },
+    {
+      "category": "Finance",
+      "currentCount": 3,
+      "previousCount": 1,
+      "changePercent": 200,
+      "changeDirection": "up",
+      "apps": [
+        "Freecash: Earn Money",
+        "ReceiptStorage",
+        "Alveon: Expense Income Track"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 5,
+      "previousCount": 2,
+      "changePercent": 150,
       "changeDirection": "up",
       "apps": [
         "UpScrolled",
         "Vigloo 비글루 - 숏드라마",
         "Decidy - Decision Maker",
         "UpScrolled",
-        "MigoReels Short & Dramas",
-        "Scrolla: fun reels, no stress"
+        "MigoReels Short & Dramas"
       ],
-      "avgScore": 7.233333333333333
+      "avgScore": 7.32
     },
     {
-      "category": "Productivity",
-      "currentCount": 12,
-      "previousCount": 3,
-      "changePercent": 300,
+      "category": "Lifestyle",
+      "currentCount": 4,
+      "previousCount": 2,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Modo: The Expense Tracker",
-        "Rightime - 单手掌控的极简待办",
-        "ValueGrid",
-        "Habit Thermostat",
-        "ScrollFit Push Up Time Blocker",
-        "Focus Cat: Task Timer & Goal",
-        "Easy Home Screen",
-        "Only 5 Mins!",
-        "Focus: Goal Tracker",
-        "Focus: Goal Tracker",
-        "VideoTranslatorAI",
-        "ReadAloud AI"
+        "Birthday Button",
+        "oshinote - 推し活管理",
+        "Babbl: Kid Quotes and Memories",
+        "Nimbi - Family Chore Tracker"
       ],
-      "avgScore": 7.650000000000001
+      "avgScore": 7.574999999999999
+    },
+    {
+      "category": "Photo/Video",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Pet Al: Photo & Video Editor",
+        "Clear Pano"
+      ],
+      "avgScore": 7.3
+    },
+    {
+      "category": "Auto & Vehicles",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "HeiDealer - 중고차 인증 매매"
+      ],
+      "avgScore": 8
+    },
+    {
+      "category": "Food & Drink",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Too Good To Go"
+      ],
+      "avgScore": 8.5
+    },
+    {
+      "category": "Casual",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Playful Rewards: Play & Earn"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Video Players & Editors",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AI Video - AI Video Generator"
+      ],
+      "avgScore": 8.5
     },
     {
       "category": "Health & Fitness",
@@ -138,29 +214,6 @@
       "avgScore": 8.6
     },
     {
-      "category": "Finance",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "ReceiptStorage",
-        "Alveon: Expense Income Track"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Photo/Video",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Clear Pano"
-      ],
-      "avgScore": 6.8
-    },
-    {
       "category": "Launcher",
       "currentCount": 2,
       "previousCount": 0,
@@ -206,22 +259,6 @@
       "avgScore": 7.8
     },
     {
-      "category": "Education",
-      "currentCount": 6,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "WordBit English (formerly WordBit Lockscreen)",
-        "MushroomScan: Photo Identifier",
-        "Flash AI: Photo to Flashcard",
-        "Talk English",
-        "Learn English, Spanish: Learna",
-        "Learn English, Spanish: Learna"
-      ],
-      "avgScore": 7.983333333333332
-    },
-    {
       "category": "Home Screen Customization",
       "currentCount": 1,
       "previousCount": 0,
@@ -242,18 +279,6 @@
         "StarScan - Scan Sports Card"
       ],
       "avgScore": 7.8
-    },
-    {
-      "category": "Healthcare/Fitness",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "お菓子我慢ウォッチ",
-        "Daily Stretching & Flexibility"
-      ],
-      "avgScore": 7.25
     },
     {
       "category": "Health & Finance",
@@ -301,52 +326,25 @@
       "avgScore": 8.15
     },
     {
-      "category": "Tools",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Productivity",
+      "currentCount": 11,
+      "previousCount": 6,
+      "changePercent": 83,
       "changeDirection": "up",
       "apps": [
-        "AI Translator All Languages",
-        "Open Browser - Smart & Safe",
-        "File Recovery - Photo Recovery"
+        "支票貓 Cheque Kitty",
+        "HabitLoop - Habit Tracker",
+        "Modo: The Expense Tracker",
+        "Rightime - 单手掌控的极简待办",
+        "ValueGrid",
+        "Habit Thermostat",
+        "ScrollFit Push Up Time Blocker",
+        "Focus Cat: Task Timer & Goal",
+        "Easy Home Screen",
+        "Only 5 Mins!",
+        "Focus: Goal Tracker"
       ],
-      "avgScore": 6.966666666666666
-    },
-    {
-      "category": "Social Networking",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "ZAG – Share Progress"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "Weather",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Weather Now Launcher - Radar"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "oshinote - 推し活管理",
-        "Babbl: Kid Quotes and Memories",
-        "Nimbi - Family Chore Tracker"
-      ],
-      "avgScore": 8.033333333333333
+      "avgScore": 7.581818181818182
     }
   ],
   "decliningCategories": [
@@ -360,6 +358,17 @@
         "Goodflow: Fix Brain Rot"
       ],
       "avgScore": 8.8
+    },
+    {
+      "category": "Tools",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "AI Translator All Languages"
+      ],
+      "avgScore": 7.4
     }
   ],
   "stableCategories": [
@@ -398,6 +407,17 @@
       "avgScore": 7.65
     },
     {
+      "category": "Healthcare/Fitness",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "お菓子我慢ウォッチ"
+      ],
+      "avgScore": 7.5
+    },
+    {
       "category": "Video Creation",
       "currentCount": 1,
       "previousCount": 1,
@@ -424,8 +444,18 @@
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 49,
+      "count": 58,
       "apps": [
+        "支票貓 Cheque Kitty",
+        "Birthday Button",
+        "Lango - Any Language, Anywhere",
+        "HabitLoop - Habit Tracker",
+        "Pet Al: Photo & Video Editor",
+        "HeiDealer - 중고차 인증 매매",
+        "Too Good To Go",
+        "Freecash: Earn Money",
+        "Playful Rewards: Play & Earn",
+        "AI Video - AI Video Generator",
         "Sleepwizard",
         "Remover BG - Background Eraser",
         "Word Invaders: Daily Word Game",
@@ -476,8 +506,14 @@
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 45,
+      "count": 50,
       "apps": [
+        "支票貓 Cheque Kitty",
+        "Birthday Button",
+        "Lango - Any Language, Anywhere",
+        "HabitLoop - Habit Tracker",
+        "Pet Al: Photo & Video Editor",
+        "Freecash: Earn Money",
         "MeetingBurn 会議コスト可視化タイマー",
         "Sleepwizard",
         "Remover BG - Background Eraser",
@@ -526,8 +562,10 @@
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 34,
+      "count": 30,
       "apps": [
+        "Pet Al: Photo & Video Editor",
+        "AI Video - AI Video Generator",
         "Sleepwizard",
         "Remover BG - Background Eraser",
         "Word Invaders: Daily Word Game",
@@ -546,18 +584,16 @@
         "PsychDiary - Your AI Diary",
         "Alveon: Expense Income Track",
         "Learn English, Spanish: Learna",
-        "AI Translator All Languages",
-        "VideoTranslatorAI",
-        "ReadAloud AI",
-        "Daily Stretching & Flexibility",
-        "Open Browser - Smart & Safe"
+        "AI Translator All Languages"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 15,
+      "count": 13,
       "apps": [
+        "Freecash: Earn Money",
+        "Playful Rewards: Play & Earn",
         "Sleepwizard",
         "Weather Now Launcher - Radar",
         "Clear Pano",
@@ -567,30 +603,16 @@
         "PsychDiary - Your AI Diary",
         "Money Work - Earn Money Through Health",
         "Big Keyboard: Easy Homescreen",
-        "Learn English, Spanish: Learna",
-        "ZAG – Share Progress",
-        "Open Browser - Smart & Safe"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 9,
-      "apps": [
-        "Vigloo 비글루 - 숏드라마",
-        "UpScrolled",
-        "Voice Translator - Language Translation, Photo Translation",
-        "PixVerse: AI Video Generator",
-        "MigoReels Short & Dramas",
-        "VideoTranslatorAI",
-        "Scrolla: fun reels, no stress"
+        "Learn English, Spanish: Learna"
       ]
     },
     {
       "keyword": "생산성",
       "category": "tag",
-      "count": 8,
+      "count": 10,
       "apps": [
+        "HabitLoop - Habit Tracker",
+        "Playful Rewards: Play & Earn",
         "MeetingBurn 会議コスト可視化タイマー",
         "Rightime - 单手掌控的极简待办",
         "Decidy - Decision Maker",
@@ -601,55 +623,51 @@
       ]
     },
     {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 8,
+      "apps": [
+        "Birthday Button",
+        "Vigloo 비글루 - 숏드라마",
+        "UpScrolled",
+        "Voice Translator - Language Translation, Photo Translation",
+        "PixVerse: AI Video Generator",
+        "MigoReels Short & Dramas"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "Pet Al: Photo & Video Editor",
+        "AI Video - AI Video Generator",
+        "Remover BG - Background Eraser",
+        "Clear Pano",
+        "PixVerse: AI Video Generator"
+      ]
+    },
+    {
       "keyword": "영상",
       "category": "creator",
-      "count": 4,
+      "count": 5,
       "apps": [
+        "Pet Al: Photo & Video Editor",
+        "AI Video - AI Video Generator",
         "KLING AI: AI Image & Video Maker",
         "UpScrolled",
-        "PixVerse: AI Video Generator",
-        "VideoTranslatorAI"
+        "PixVerse: AI Video Generator"
       ]
     },
     {
-      "keyword": "유틸리티",
+      "keyword": "팀개발권장",
       "category": "tag",
       "count": 4,
       "apps": [
-        "Weather Now Launcher - Radar",
-        "MoonPhase App",
-        "File Recovery - Photo Recovery"
-      ]
-    },
-    {
-      "keyword": "접근성",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Easy Homescreen",
-        "Easy Home Screen",
-        "ReadAloud AI"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 4,
-      "apps": [
-        "UpScrolled",
-        "ZAG – Share Progress",
-        "Scrolla: fun reels, no stress"
-      ]
-    },
-    {
-      "keyword": "글로벌",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Voice Translator - Language Translation, Photo Translation",
-        "Talk English",
-        "Voice Translator",
-        "VideoTranslatorAI"
+        "HeiDealer - 중고차 인증 매매",
+        "Too Good To Go",
+        "Playful Rewards: Play & Earn",
+        "AI Video - AI Video Generator"
       ]
     },
     {
@@ -664,6 +682,26 @@
       ]
     },
     {
+      "keyword": "교육",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Lango - Any Language, Anywhere",
+        "WordBit English",
+        "WordBit English (formerly WordBit Lockscreen)"
+      ]
+    },
+    {
+      "keyword": "핀테크",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "HeiDealer - 중고차 인증 매매",
+        "ReceiptStorage",
+        "Alveon: Expense Income Track"
+      ]
+    },
+    {
       "keyword": "B2B",
       "category": "tag",
       "count": 3,
@@ -674,23 +712,21 @@
       ]
     },
     {
-      "keyword": "헬스케어",
+      "keyword": "유틸리티",
       "category": "tag",
       "count": 3,
       "apps": [
-        "Sleepwizard",
-        "Goodflow: Fix Brain Rot",
-        "Daily Stretching & Flexibility"
+        "Weather Now Launcher - Radar",
+        "MoonPhase App"
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
+      "keyword": "접근성",
+      "category": "tag",
       "count": 3,
       "apps": [
-        "Remover BG - Background Eraser",
-        "Clear Pano",
-        "PixVerse: AI Video Generator"
+        "Easy Homescreen",
+        "Easy Home Screen"
       ]
     },
     {
@@ -704,6 +740,16 @@
       ]
     },
     {
+      "keyword": "글로벌",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Voice Translator - Language Translation, Photo Translation",
+        "Talk English",
+        "Voice Translator"
+      ]
+    },
+    {
       "keyword": "일정",
       "category": "productivity",
       "count": 3,
@@ -711,16 +757,6 @@
         "Round - Challenge to Shop for Free",
         "oshinote - 推し活管理",
         "Weather Trip"
-      ]
-    },
-    {
-      "keyword": "보안",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Citizen Conan - Prevent Voice Phishing",
-        "Citizen Conan - Anti-Fraud App",
-        "Open Browser - Smart & Safe"
       ]
     },
     {
@@ -734,12 +770,12 @@
       ]
     },
     {
-      "keyword": "게임",
+      "keyword": "크리에이터",
       "category": "tag",
       "count": 2,
       "apps": [
-        "Word Invaders: Daily Word Game",
-        "Cat Tower"
+        "AI Video - AI Video Generator",
+        "PixVerse: AI Video Generator"
       ]
     }
   ],
@@ -749,52 +785,52 @@
         "count": 27,
         "percent": 39,
         "examples": [
+          "Birthday Button",
           "MeetingBurn 会議コスト可視化タイマー",
-          "Word Invaders: Daily Word Game",
-          "Round - 400K Challenges for Free Shopping"
+          "Word Invaders: Daily Word Game"
         ]
       },
       "freemium": {
-        "count": 56,
-        "percent": 80,
+        "count": 54,
+        "percent": 77,
         "examples": [
-          "MeetingBurn 会議コスト可視化タイマー",
-          "Sleepwizard",
-          "Remover BG - Background Eraser"
+          "支票貓 Cheque Kitty",
+          "Birthday Button",
+          "Lango - Any Language, Anywhere"
         ]
       },
       "subscription": {
-        "count": 40,
-        "percent": 57,
+        "count": 43,
+        "percent": 61,
         "examples": [
-          "MeetingBurn 会議コスト可視化タイマー",
-          "Sleepwizard",
-          "Remover BG - Background Eraser"
+          "支票貓 Cheque Kitty",
+          "Lango - Any Language, Anywhere",
+          "HabitLoop - Habit Tracker"
         ]
       },
       "onetime": {
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "examples": [
+          "支票貓 Cheque Kitty",
           "Clear Pano",
-          "Easy Homescreen",
-          "Vigloo 비글루 - 숏드라마"
+          "Easy Homescreen"
         ]
       },
       "unknown": {
-        "count": 1,
-        "percent": 1,
+        "count": 4,
+        "percent": 6,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 56,
-      "percent": 80,
+      "count": 54,
+      "percent": 77,
       "examples": [
-        "MeetingBurn 会議コスト可視化タイマー",
-        "Sleepwizard",
-        "Remover BG - Background Eraser"
+        "支票貓 Cheque Kitty",
+        "Birthday Button",
+        "Lango - Any Language, Anywhere"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -803,14 +839,14 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 27,
-        "percent": 39,
+        "count": 24,
+        "percent": 34,
         "apps": [
+          "Lango - Any Language, Anywhere",
+          "Pet Al: Photo & Video Editor",
+          "AI Video - AI Video Generator",
           "Sleepwizard",
-          "Remover BG - Background Eraser",
-          "Word Invaders: Daily Word Game",
-          "KLING AI: AI Image & Video Maker",
-          "Goodflow: Fix Brain Rot"
+          "Remover BG - Background Eraser"
         ]
       },
       {
@@ -818,35 +854,35 @@
         "count": 21,
         "percent": 30,
         "apps": [
-          "Sleepwizard",
-          "Modo: The Expense Tracker",
-          "Weather Now Launcher - Radar",
-          "Clear Pano",
-          "Goodflow: Fix Brain Rot"
+          "HabitLoop - Habit Tracker",
+          "HeiDealer - 중고차 인증 매매",
+          "Freecash: Earn Money",
+          "Playful Rewards: Play & Earn",
+          "Sleepwizard"
         ]
       },
       {
         "tech": "creator",
-        "count": 9,
-        "percent": 13,
+        "count": 10,
+        "percent": 14,
         "apps": [
+          "Birthday Button",
+          "Pet Al: Photo & Video Editor",
+          "AI Video - AI Video Generator",
           "KLING AI: AI Image & Video Maker",
-          "Clear Pano",
-          "UpScrolled",
-          "Vigloo 비글루 - 숏드라마",
-          "UpScrolled"
+          "Clear Pano"
         ]
       },
       {
         "tech": "productivity",
-        "count": 5,
-        "percent": 7,
+        "count": 6,
+        "percent": 9,
         "apps": [
+          "AI Video - AI Video Generator",
           "Round - Challenge to Shop for Free",
           "oshinote - 推し活管理",
           "Weather Trip",
-          "Focus Cat: Task Timer & Goal",
-          "Nimbi - Family Chore Tracker"
+          "Focus Cat: Task Timer & Goal"
         ]
       },
       {
@@ -868,15 +904,6 @@
         ]
       },
       {
-        "tech": "social",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "ZAG – Share Progress",
-          "Scrolla: fun reels, no stress"
-        ]
-      },
-      {
         "tech": "subscription",
         "count": 1,
         "percent": 1,
@@ -887,32 +914,81 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 27,
-      "percent": 39,
+      "count": 24,
+      "percent": 34,
       "apps": [
+        "Lango - Any Language, Anywhere",
+        "Pet Al: Photo & Video Editor",
+        "AI Video - AI Video Generator",
         "Sleepwizard",
-        "Remover BG - Background Eraser",
-        "Word Invaders: Daily Word Game",
-        "KLING AI: AI Image & Video Maker",
-        "Goodflow: Fix Brain Rot"
+        "Remover BG - Background Eraser"
       ]
     },
     "emerging": [
       {
         "tech": "creator",
-        "count": 9,
-        "percent": 13,
+        "count": 10,
+        "percent": 14,
         "apps": [
+          "Birthday Button",
+          "Pet Al: Photo & Video Editor",
+          "AI Video - AI Video Generator",
           "KLING AI: AI Image & Video Maker",
-          "Clear Pano",
-          "UpScrolled",
-          "Vigloo 비글루 - 숏드라마",
-          "UpScrolled"
+          "Clear Pano"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Finance 카테고리 급부상",
+      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Finance"
+    },
+    {
+      "type": "rising_category",
+      "title": "Lifestyle 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Lifestyle"
+    },
+    {
+      "type": "rising_category",
+      "title": "Photo/Video 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Photo/Video"
+    },
+    {
+      "type": "rising_category",
+      "title": "Auto & Vehicles 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Auto & Vehicles"
+    },
+    {
+      "type": "rising_category",
+      "title": "Food & Drink 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Food & Drink"
+    },
+    {
+      "type": "rising_category",
+      "title": "Casual 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Casual"
+    },
+    {
+      "type": "rising_category",
+      "title": "Video Players & Editors 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Video Players & Editors"
+    },
     {
       "type": "rising_category",
       "title": "Health & Fitness 카테고리 급부상",
@@ -971,20 +1047,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Finance 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Finance"
-    },
-    {
-      "type": "rising_category",
-      "title": "Photo/Video 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Photo/Video"
-    },
-    {
-      "type": "rising_category",
       "title": "Launcher 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1027,13 +1089,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Healthcare/Fitness 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Healthcare/Fitness"
-    },
-    {
-      "type": "rising_category",
       "title": "Health & Finance 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1061,54 +1116,26 @@
       "category": "Security"
     },
     {
-      "type": "rising_category",
-      "title": "Tools 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Tools"
-    },
-    {
-      "type": "rising_category",
-      "title": "Social Networking 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social Networking"
-    },
-    {
-      "type": "rising_category",
-      "title": "Weather 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Weather"
-    },
-    {
-      "type": "rising_category",
-      "title": "Lifestyle 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Lifestyle"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "39%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Entertainment와 Productivity 카테고리가 각각 500%, 300% 급상승하며 시장을 주도하고 있습니다. AI 기능을 탑재한 앱이 39%에 달하며, 1인 개발이 가능한 B2C 모델이 주류를 이루고 있습니다.",
+    "trend_summary": "Education 카테고리가 500% 급증하며 가장 뜨거운 영역으로 부상했고, AI 기능이 전체 앱의 34%에 통합되어 필수 요소가 되고 있습니다. Freemium 모델(77%)과 구독 모델(61%)이 주류를 이루며, B2C와 1인개발 가능한 앱들이 시장을 주도하고 있습니다.",
     "trend_details": [
-      "AI 통합이 필수가 되어 39%의 앱이 AI 기능 포함",
-      "Freemium 모델이 80%로 가장 선호되는 수익화 전략",
-      "Health & Fitness, Photo & Video, Game 카테고리가 100% 성장하며 새로운 기회 창출"
+      "Education 앱 급성장(500%) - 학습 앱 개발 골든타임",
+      "AI 기능 필수화 - 34% 앱이 AI 통합, 차별화 요소에서 기본 요소로 전환",
+      "Freemium+구독 모델 우세 - 77% Freemium, 61% 구독으로 수익화 패턴 명확화"
     ],
     "hot_categories": [
-      "Entertainment",
-      "Productivity"
+      "Education",
+      "Finance"
     ],
-    "opportunity": "Health & Fitness와 Photo & Video 카테고리는 100% 성장했지만 앱 수가 적어 AI 기능을 결합한 차별화된 앱으로 진입하기 최적의 시기입니다.",
-    "action_item": "건강 관리나 사진/비디오 편집에 AI 기능을 접목한 Freemium 모델 앱을 1인 개발로 시작하세요.",
-    "weekly_theme": "AI 건강케어"
+    "opportunity": "Finance 카테고리는 200% 성장했지만 앱 수가 적어(3개) AI를 활용한 개인 금융관리 앱 개발이 가장 유망합니다.",
+    "action_item": "AI 기반 교육용 앱을 Freemium 모델로 개발하되, Finance나 Lifestyle 영역에서 틈새 시장을 노려보세요.",
+    "weekly_theme": "AI 교육혁신"
   }
 }
