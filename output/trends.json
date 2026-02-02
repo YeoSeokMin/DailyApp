@@ -1,41 +1,37 @@
 {
-  "generatedAt": "2026-02-01T15:13:49.383Z",
+  "generatedAt": "2026-02-02T15:13:14.749Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Education",
-      "currentCount": 7,
-      "previousCount": 2,
-      "changePercent": 250,
+      "category": "Utility",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Lexicon - Learn words daily",
-        "Learn English, Spanish: Learna",
-        "Lango - Any Language, Anywhere",
-        "WordBit English (formerly WordBit Lockscreen)",
-        "MushroomScan: Photo Identifier",
-        "Flash AI: Photo to Flashcard",
-        "Talk English"
+        "ZeroNoise",
+        "MoonPhase App"
       ],
-      "avgScore": 8.1
+      "avgScore": 6.25
     },
     {
       "category": "Entertainment",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
+      "currentCount": 6,
+      "previousCount": 3,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "UpScrolled",
         "UpScrolled",
         "Vigloo 비글루 - 숏드라마",
         "Decidy - Decision Maker",
-        "UpScrolled",
-        "MigoReels Short & Dramas"
+        "UpScrolled"
       ],
-      "avgScore": 7.32
+      "avgScore": 7.400000000000001
     },
     {
       "category": "Reference",
@@ -72,16 +68,15 @@
     },
     {
       "category": "Security",
-      "currentCount": 3,
-      "previousCount": 0,
+      "currentCount": 2,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
         "V3 Mobile Plus",
-        "Citizen Conan - Prevent Voice Phishing",
-        "Citizen Conan - Anti-Fraud App"
+        "Citizen Conan - Prevent Voice Phishing"
       ],
-      "avgScore": 7.7
+      "avgScore": 7.3
     },
     {
       "category": "Photo/Video",
@@ -138,18 +133,6 @@
         "AI Video - AI Video Generator"
       ],
       "avgScore": 8.5
-    },
-    {
-      "category": "Photo & Video",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Remover BG - Background Eraser",
-        "Product Recolor AI Studio"
-      ],
-      "avgScore": 7.75
     },
     {
       "category": "Game",
@@ -320,53 +303,48 @@
       "avgScore": 8
     },
     {
-      "category": "Productivity",
-      "currentCount": 11,
-      "previousCount": 8,
-      "changePercent": 38,
+      "category": "Education",
+      "currentCount": 6,
+      "previousCount": 4,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "NextRound - Interview AI",
-        "문서 판독기 2026: PDF, Doc, Xls 열기",
-        "支票貓 Cheque Kitty",
-        "HabitLoop - Habit Tracker",
-        "Modo: The Expense Tracker",
-        "Rightime - 单手掌控的极简待办",
-        "ValueGrid",
-        "Habit Thermostat",
-        "ScrollFit Push Up Time Blocker",
-        "Focus Cat: Task Timer & Goal",
-        "Easy Home Screen"
+        "StudySnap AI – Quizzes",
+        "Lexicon - Learn words daily",
+        "Learn English, Spanish: Learna",
+        "Lango - Any Language, Anywhere",
+        "WordBit English (formerly WordBit Lockscreen)",
+        "MushroomScan: Photo Identifier"
       ],
-      "avgScore": 7.463636363636363
+      "avgScore": 8.116666666666667
     },
     {
-      "category": "Lifestyle",
-      "currentCount": 4,
-      "previousCount": 3,
-      "changePercent": 33,
+      "category": "Finance",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "しずくAI - 30秒で肌を変える",
-        "Birthday Button",
-        "oshinote - 推し活管理",
-        "Babbl: Kid Quotes and Memories"
+        "TradeAtlas: Chart AI Analysis",
+        "Freecash: Earn Money",
+        "ReceiptStorage"
       ],
-      "avgScore": 7.475
+      "avgScore": 7.5
     }
   ],
   "decliningCategories": [
     {
-      "category": "Health & Fitness",
-      "currentCount": 2,
-      "previousCount": 3,
-      "changePercent": -33,
+      "category": "Lifestyle",
+      "currentCount": 3,
+      "previousCount": 4,
+      "changePercent": -25,
       "changeDirection": "down",
       "apps": [
-        "ErgoLife",
-        "Sleepwizard"
+        "しずくAI - 30秒で肌を変える",
+        "Birthday Button",
+        "oshinote - 推し活管理"
       ],
-      "avgScore": 8.25
+      "avgScore": 7.466666666666666
     },
     {
       "category": "Health/Fitness",
@@ -378,20 +356,65 @@
         "Goodflow: Fix Brain Rot"
       ],
       "avgScore": 8.8
+    },
+    {
+      "category": "Translation",
+      "currentCount": 1,
+      "previousCount": 3,
+      "changePercent": -67,
+      "changeDirection": "down",
+      "apps": [
+        "Voice Translator - Language Translation, Photo Translation"
+      ],
+      "avgScore": 7.5
     }
   ],
   "stableCategories": [
     {
-      "category": "Finance",
+      "category": "Photo & Video",
       "currentCount": 2,
       "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Freecash: Earn Money",
-        "ReceiptStorage"
+        "Add Reverb to Video: Echofy",
+        "Remover BG - Background Eraser"
       ],
-      "avgScore": 7.25
+      "avgScore": 7.300000000000001
+    },
+    {
+      "category": "Health & Fitness",
+      "currentCount": 3,
+      "previousCount": 3,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Ingreda",
+        "ErgoLife",
+        "Sleepwizard"
+      ],
+      "avgScore": 8.1
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 11,
+      "previousCount": 11,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Clean Sweep Toolkit",
+        "Easy Homescreen",
+        "PDF Swift Viewer",
+        "NextRound - Interview AI",
+        "문서 판독기 2026: PDF, Doc, Xls 열기",
+        "支票貓 Cheque Kitty",
+        "HabitLoop - Habit Tracker",
+        "Modo: The Expense Tracker",
+        "Rightime - 单手掌控的极简待办",
+        "ValueGrid",
+        "Habit Thermostat"
+      ],
+      "avgScore": 7.363636363636362
     },
     {
       "category": "Business",
@@ -403,29 +426,6 @@
         "MeetingBurn 会議コスト可視化タイマー"
       ],
       "avgScore": 8
-    },
-    {
-      "category": "Utility",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "MoonPhase App"
-      ],
-      "avgScore": 5.5
-    },
-    {
-      "category": "Translation",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Voice Translator - Language Translation, Photo Translation",
-        "Voice Translator"
-      ],
-      "avgScore": 7.65
     },
     {
       "category": "Healthcare/Fitness",
@@ -454,8 +454,18 @@
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 57,
+      "count": 66,
       "apps": [
+        "StudySnap AI – Quizzes",
+        "Add Reverb to Video: Echofy",
+        "TradeAtlas: Chart AI Analysis",
+        "Ingreda",
+        "ZeroNoise",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "Clean Sweep Toolkit",
+        "Easy Homescreen",
+        "UpScrolled",
+        "PDF Swift Viewer",
         "ErgoLife",
         "Lexicon - Learn words daily",
         "しずくAI - 30秒で肌を変える",
@@ -463,7 +473,6 @@
         "Haki TCG Card Scanner",
         "Learn English, Spanish: Learna",
         "문서 판독기 2026: PDF, Doc, Xls 열기",
-        "Easy Homescreen",
         "스탬프・가와이이 강아지 Sticker",
         "支票貓 Cheque Kitty",
         "Birthday Button",
@@ -482,7 +491,6 @@
         "Round - 400K Challenges for Free Shopping",
         "KLING AI: AI Image & Video Maker",
         "Weather Now Launcher - Radar",
-        "UpScrolled",
         "WordBit English",
         "Don't Look Rabbit! Stealth Run",
         "ReceiptStorage",
@@ -507,15 +515,24 @@
         "PixVerse: AI Video Generator",
         "Weather Trip",
         "Round - 4 Million Challenging Zero-Cost Shopping",
-        "Citizen Conan - Prevent Voice Phishing",
-        "Babbl: Kid Quotes and Memories"
+        "Citizen Conan - Prevent Voice Phishing"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 53,
+      "count": 59,
       "apps": [
+        "StudySnap AI – Quizzes",
+        "Add Reverb to Video: Echofy",
+        "TradeAtlas: Chart AI Analysis",
+        "Ingreda",
+        "ZeroNoise",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "Clean Sweep Toolkit",
+        "Easy Homescreen",
+        "UpScrolled",
+        "PDF Swift Viewer",
         "ErgoLife",
         "Lexicon - Learn words daily",
         "しずくAI - 30秒で肌を変える",
@@ -523,7 +540,6 @@
         "Haki TCG Card Scanner",
         "Learn English, Spanish: Learna",
         "문서 판독기 2026: PDF, Doc, Xls 열기",
-        "Easy Homescreen",
         "스탬프・가와이이 강아지 Sticker",
         "支票貓 Cheque Kitty",
         "Birthday Button",
@@ -539,7 +555,6 @@
         "Round - 400K Challenges for Free Shopping",
         "KLING AI: AI Image & Video Maker",
         "Weather Now Launcher - Radar",
-        "UpScrolled",
         "WordBit English",
         "Don't Look Rabbit! Stealth Run",
         "ReceiptStorage",
@@ -562,18 +577,17 @@
         "MoneyWork - Earn Money through Health Management",
         "Weather Trip",
         "Round - 4 Million Challenging Zero-Cost Shopping",
-        "Citizen Conan - Prevent Voice Phishing",
-        "Babbl: Kid Quotes and Memories",
-        "Flash AI: Photo to Flashcard",
-        "ScrollFit Push Up Time Blocker",
-        "Focus Cat: Task Timer & Goal"
+        "Citizen Conan - Prevent Voice Phishing"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 31,
+      "count": 25,
       "apps": [
+        "StudySnap AI – Quizzes",
+        "TradeAtlas: Chart AI Analysis",
+        "Clean Sweep Toolkit",
         "ErgoLife",
         "Lexicon - Learn words daily",
         "しずくAI - 30秒で肌を変える",
@@ -590,12 +604,7 @@
         "StarScan - Scan Sports Card",
         "MushroomScan: Photo Identifier",
         "PixVerse: AI Video Generator",
-        "Citizen Conan - Prevent Voice Phishing",
-        "Product Recolor AI Studio",
-        "Flash AI: Photo to Flashcard",
-        "Citizen Conan - Anti-Fraud App",
-        "Talk English",
-        "Voice Translator"
+        "Citizen Conan - Prevent Voice Phishing"
       ]
     },
     {
@@ -603,6 +612,7 @@
       "category": "ar_vr",
       "count": 12,
       "apps": [
+        "TradeAtlas: Chart AI Analysis",
         "Lexicon - Learn words daily",
         "Haki TCG Card Scanner",
         "Learn English, Spanish: Learna",
@@ -612,8 +622,7 @@
         "Weather Now Launcher - Radar",
         "Clear Pano",
         "StarScan - Scan Sports Card",
-        "MoneyWork - Earn Money through Health Management",
-        "Flash AI: Photo to Flashcard"
+        "MoneyWork - Earn Money through Health Management"
       ]
     },
     {
@@ -621,6 +630,8 @@
       "category": "tag",
       "count": 10,
       "apps": [
+        "ZeroNoise",
+        "PDF Swift Viewer",
         "문서 판독기 2026: PDF, Doc, Xls 열기",
         "HabitLoop - Habit Tracker",
         "Playful Rewards: Play & Earn",
@@ -628,28 +639,15 @@
         "Rightime - 单手掌控的极简待办",
         "Decidy - Decision Maker",
         "ValueGrid",
-        "Habit Thermostat",
-        "Focus Cat: Task Timer & Goal"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 8,
-      "apps": [
-        "Birthday Button",
-        "Vigloo 비글루 - 숏드라마",
-        "UpScrolled",
-        "Voice Translator - Language Translation, Photo Translation",
-        "PixVerse: AI Video Generator",
-        "MigoReels Short & Dramas"
+        "Habit Thermostat"
       ]
     },
     {
       "keyword": "편집",
       "category": "creator",
-      "count": 6,
+      "count": 7,
       "apps": [
+        "Add Reverb to Video: Echofy",
         "문서 판독기 2026: PDF, Doc, Xls 열기",
         "Pet Al: Photo & Video Editor",
         "AI Video - AI Video Generator",
@@ -661,13 +659,48 @@
     {
       "keyword": "영상",
       "category": "creator",
-      "count": 5,
+      "count": 7,
       "apps": [
+        "Add Reverb to Video: Echofy",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
         "Pet Al: Photo & Video Editor",
         "AI Video - AI Video Generator",
         "KLING AI: AI Image & Video Maker",
         "UpScrolled",
         "PixVerse: AI Video Generator"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 7,
+      "apps": [
+        "UpScrolled",
+        "Birthday Button",
+        "Vigloo 비글루 - 숏드라마",
+        "Voice Translator - Language Translation, Photo Translation",
+        "PixVerse: AI Video Generator"
+      ]
+    },
+    {
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Ingreda",
+        "ErgoLife",
+        "Sleepwizard",
+        "Goodflow: Fix Brain Rot"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Clean Sweep Toolkit",
+        "Weather Now Launcher - Radar",
+        "MoonPhase App"
       ]
     },
     {
@@ -682,17 +715,6 @@
       ]
     },
     {
-      "keyword": "에듀테크",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "NextRound - Interview AI",
-        "Learn English, Spanish: Learna",
-        "Flash AI: Photo to Flashcard",
-        "Talk English"
-      ]
-    },
-    {
       "keyword": "팀개발권장",
       "category": "tag",
       "count": 4,
@@ -704,60 +726,13 @@
       ]
     },
     {
-      "keyword": "헬스케어",
+      "keyword": "핀테크",
       "category": "tag",
       "count": 3,
       "apps": [
-        "ErgoLife",
-        "Sleepwizard",
-        "Goodflow: Fix Brain Rot"
-      ]
-    },
-    {
-      "keyword": "시니어",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Easy Homescreen",
-        "Easy Home Screen"
-      ]
-    },
-    {
-      "keyword": "보안",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "V3 Mobile Plus",
-        "Citizen Conan - Prevent Voice Phishing",
-        "Citizen Conan - Anti-Fraud App"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "MeetingBurn 会議コスト可視化タイマー",
-        "Opalite - Color Studio",
-        "Product Recolor AI Studio"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Weather Now Launcher - Radar",
-        "MoonPhase App"
-      ]
-    },
-    {
-      "keyword": "접근성",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Easy Homescreen",
-        "Easy Home Screen"
+        "TradeAtlas: Chart AI Analysis",
+        "HeiDealer - 중고차 인증 매매",
+        "ReceiptStorage"
       ]
     },
     {
@@ -765,19 +740,17 @@
       "category": "creator",
       "count": 3,
       "apps": [
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
         "UpScrolled",
-        "Vigloo 비글루 - 숏드라마",
-        "MigoReels Short & Dramas"
+        "Vigloo 비글루 - 숏드라마"
       ]
     },
     {
-      "keyword": "글로벌",
-      "category": "tag",
+      "keyword": "소셜",
+      "category": "social",
       "count": 3,
       "apps": [
-        "Voice Translator - Language Translation, Photo Translation",
-        "Talk English",
-        "Voice Translator"
+        "UpScrolled"
       ]
     },
     {
@@ -789,44 +762,80 @@
         "oshinote - 推し活管理",
         "Weather Trip"
       ]
+    },
+    {
+      "keyword": "에듀테크",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "NextRound - Interview AI",
+        "Learn English, Spanish: Learna"
+      ]
+    },
+    {
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Haki TCG Card Scanner",
+        "StarScan - Scan Sports Card"
+      ]
+    },
+    {
+      "keyword": "시니어",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Easy Homescreen",
+        "Easy Home Screen"
+      ]
+    },
+    {
+      "keyword": "B2B2C",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "V3 Mobile Plus",
+        "CatchTable"
+      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 27,
-        "percent": 39,
+        "count": 28,
+        "percent": 40,
         "examples": [
-          "문서 판독기 2026: PDF, Doc, Xls 열기",
-          "Birthday Button",
-          "MeetingBurn 会議コスト可視化タイマー"
+          "Add Reverb to Video: Echofy",
+          "PDF Swift Viewer",
+          "문서 판독기 2026: PDF, Doc, Xls 열기"
         ]
       },
       "freemium": {
         "count": 52,
         "percent": 74,
         "examples": [
-          "ErgoLife",
-          "Lexicon - Learn words daily",
-          "しずくAI - 30秒で肌を変える"
+          "StudySnap AI – Quizzes",
+          "Add Reverb to Video: Echofy",
+          "TradeAtlas: Chart AI Analysis"
         ]
       },
       "subscription": {
-        "count": 41,
-        "percent": 59,
+        "count": 39,
+        "percent": 56,
         "examples": [
-          "ErgoLife",
-          "Lexicon - Learn words daily",
-          "NextRound - Interview AI"
+          "StudySnap AI – Quizzes",
+          "TradeAtlas: Chart AI Analysis",
+          "Ingreda"
         ]
       },
       "onetime": {
-        "count": 12,
-        "percent": 17,
+        "count": 14,
+        "percent": 20,
         "examples": [
-          "Easy Homescreen",
-          "支票貓 Cheque Kitty",
-          "Clear Pano"
+          "Add Reverb to Video: Echofy",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "PDF Swift Viewer"
         ]
       },
       "unknown": {
@@ -840,9 +849,9 @@
       "count": 52,
       "percent": 74,
       "examples": [
-        "ErgoLife",
-        "Lexicon - Learn words daily",
-        "しずくAI - 30秒で肌を変える"
+        "StudySnap AI – Quizzes",
+        "Add Reverb to Video: Echofy",
+        "TradeAtlas: Chart AI Analysis"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -854,47 +863,46 @@
         "count": 24,
         "percent": 34,
         "apps": [
-          "ErgoLife",
-          "Lexicon - Learn words daily",
-          "しずくAI - 30秒で肌を変える",
-          "NextRound - Interview AI",
-          "Learn English, Spanish: Learna"
+          "StudySnap AI – Quizzes",
+          "TradeAtlas: Chart AI Analysis",
+          "Ingreda",
+          "Clean Sweep Toolkit",
+          "UpScrolled"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 22,
-        "percent": 31,
+        "count": 23,
+        "percent": 33,
         "apps": [
+          "Add Reverb to Video: Echofy",
+          "TradeAtlas: Chart AI Analysis",
           "ErgoLife",
           "Lexicon - Learn words daily",
-          "しずくAI - 30秒で肌を変える",
-          "Haki TCG Card Scanner",
-          "Learn English, Spanish: Learna"
+          "しずくAI - 30秒で肌を変える"
         ]
       },
       {
         "tech": "creator",
-        "count": 10,
-        "percent": 14,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "Add Reverb to Video: Echofy",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "UpScrolled",
           "Birthday Button",
-          "Pet Al: Photo & Video Editor",
-          "AI Video - AI Video Generator",
-          "KLING AI: AI Image & Video Maker",
-          "Clear Pano"
+          "Pet Al: Photo & Video Editor"
         ]
       },
       {
         "tech": "productivity",
-        "count": 5,
-        "percent": 7,
+        "count": 4,
+        "percent": 6,
         "apps": [
           "AI Video - AI Video Generator",
           "Round - Challenge to Shop for Free",
           "oshinote - 推し活管理",
-          "Weather Trip",
-          "Focus Cat: Task Timer & Goal"
+          "Weather Trip"
         ]
       },
       {
@@ -919,7 +927,15 @@
         "count": 1,
         "percent": 1,
         "apps": [
-          "MigoReels Short & Dramas"
+          "TradeAtlas: Chart AI Analysis"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "UpScrolled"
         ]
       }
     ],
@@ -928,29 +944,36 @@
       "count": 24,
       "percent": 34,
       "apps": [
-        "ErgoLife",
-        "Lexicon - Learn words daily",
-        "しずくAI - 30秒で肌を変える",
-        "NextRound - Interview AI",
-        "Learn English, Spanish: Learna"
+        "StudySnap AI – Quizzes",
+        "TradeAtlas: Chart AI Analysis",
+        "Ingreda",
+        "Clean Sweep Toolkit",
+        "UpScrolled"
       ]
     },
     "emerging": [
       {
         "tech": "creator",
-        "count": 10,
-        "percent": 14,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "Add Reverb to Video: Echofy",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "UpScrolled",
           "Birthday Button",
-          "Pet Al: Photo & Video Editor",
-          "AI Video - AI Video Generator",
-          "KLING AI: AI Image & Video Maker",
-          "Clear Pano"
+          "Pet Al: Photo & Video Editor"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Utility 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Utility"
+    },
     {
       "type": "rising_category",
       "title": "Reference 카테고리 급부상",
@@ -1013,13 +1036,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Video Players & Editors"
-    },
-    {
-      "type": "rising_category",
-      "title": "Photo & Video 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Photo & Video"
     },
     {
       "type": "rising_category",
@@ -1128,10 +1144,10 @@
     },
     {
       "type": "rising_category",
-      "title": "Lifestyle 카테고리 급부상",
-      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Finance 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Lifestyle"
+      "category": "Finance"
     },
     {
       "type": "tech_trend",
@@ -1142,18 +1158,18 @@
     }
   ],
   "insight": {
-    "trend_summary": "Education 카테고리가 250% 급상승. ai 기술 적용 앱이 증가 중.",
+    "trend_summary": "AI 기능(34%)과 AR/VR 기술(33%)이 앱 시장을 주도하고 있으며, 1인 개발 가능한 B2C 앱들이 강세를 보이고 있습니다. 대부분 카테고리가 100% 성장률을 보이며 시장 확장기에 진입했습니다.",
     "trend_details": [
-      "Education 카테고리 관심 급증",
-      "'B2C' 키워드 인기",
-      "ai 기술 트렌드 지속"
+      "AI 통합이 핵심 차별화 요소로 부상 (전체 앱의 34%)",
+      "Freemium(74%) + Subscription(56%) 모델이 주류 수익화 전략",
+      "1인 개발자 친화적인 B2C 유틸리티 앱들의 급성장"
     ],
     "hot_categories": [
-      "Education",
+      "Utility",
       "Entertainment"
     ],
-    "opportunity": "100% 증가했지만 앱 수가 적어 진입 기회",
-    "action_item": "AI 기능을 기존 앱에 통합하여 차별화",
-    "weekly_theme": "B2C"
+    "opportunity": "AI 기능이 없는 Utility/Reference 카테고리에서 AI를 접목한 간단한 도구 앱 개발이 가장 유망합니다.",
+    "action_item": "기존 유틸리티 앱에 간단한 AI 기능(텍스트 요약, 번역, 분류)을 추가하여 차별화된 freemium 앱을 출시하세요.",
+    "weekly_theme": "AI 유틸리티"
   }
 }
