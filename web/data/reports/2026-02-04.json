@@ -1,0 +1,635 @@
+{
+  "date": "2026-02-04",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "ZeroConnect",
+      "developer": "Vault Management",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/79/d5/9f79d540-d2af-4b95-d4ae-2f4e90ea3563/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/zeroconnect/id6758057137?uo=2",
+      "idea_summary": "인터넷 차단으로 집중력 향상",
+      "analysis": {
+        "problem": "스마트폰 중독과 집중력 저하 문제 [추론]",
+        "solution": "인터넷 연결을 의도적으로 차단하는 방식 [확인]",
+        "target_user": "집중력이 필요한 학생과 직장인 [추론]",
+        "unique_point": "완전한 인터넷 차단을 통한 극단적 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Freedom",
+          "Cold Turkey",
+          "Focus"
+        ],
+        "timing_reason": "코로나 이후 디지털 디톡스 트렌드 증가 [추론]",
+        "growth_potential": "집중력 앱 시장 확대 추세 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 5,000원 구독제 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Network Control API"
+        ],
+        "key_features": [
+          "인터넷 차단",
+          "타이머 설정"
+        ],
+        "clone_tip": "iOS Network Extension 활용 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#집중력"
+      ],
+      "verdict": "단순하지만 효과적인 디지털 디톡스 앱",
+      "deep_report_id": "ios-zeroconnect-1770131122732"
+    },
+    {
+      "rank": 2,
+      "name": "Said Me",
+      "developer": "DARKHORSEONE LIMITED",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/7c/7d/877c7dee-ecea-4dcd-5f0a-8108492d96f1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/said-me/id6757917267?uo=2",
+      "idea_summary": "음성 패턴 분석으로 말하기 개선",
+      "analysis": {
+        "problem": "말하기 습관과 패턴을 모르는 문제 [추론]",
+        "solution": "음성을 기록하고 분석하여 피드백 제공 [추론]",
+        "target_user": "프레젠테이션과 면접 준비자 [추론]",
+        "unique_point": "개인 음성 패턴의 정량적 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Orai",
+          "VirtualSpeech",
+          "Speeko"
+        ],
+        "timing_reason": "AI 음성인식 기술 성숙화 [추론]",
+        "growth_potential": "커뮤니케이션 스킬 향상 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능 유료화 [추론]",
+        "pricing_suggestion": "월 10,000원 구독제 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "Core Audio",
+          "Speech Framework",
+          "ML Kit"
+        ],
+        "key_features": [
+          "음성 녹음",
+          "패턴 분석",
+          "피드백"
+        ],
+        "clone_tip": "음성 분석 알고리즘이 핵심 기술 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#자기계발"
+      ],
+      "verdict": "참신한 접근의 스피치 개선 도구"
+    },
+    {
+      "rank": 3,
+      "name": "MyAquarium",
+      "developer": "AvidAqua, LLC",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/28/9c/43289cbd-7ddd-77b9-b020-676199875963/MyAquarium.iOS-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/myaquarium/id6744203832?uo=2",
+      "idea_summary": "가상 수족관으로 힐링과 휴식 제공",
+      "analysis": {
+        "problem": "스트레스와 불안감 해소를 위한 휴식 필요 [추론]",
+        "solution": "아름다운 가상 수족관 환경 제공 [확인]",
+        "target_user": "스트레스를 받는 직장인과 학생 [추론]",
+        "unique_point": "수족관이라는 특화된 테마 선택 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Neko Atsume",
+          "Zen Koi",
+          "Pocket Aquarium"
+        ],
+        "timing_reason": "코로나 이후 정신건강 관심 증가 [추론]",
+        "growth_potential": "힐링 앱 시장 성장 지속 [추론]"
+      },
+      "business": {
+        "monetization": "물고기 구매, 장식 아이템 판매 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 아이템 1,000-5,000원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "ARKit",
+          "3D Graphics"
+        ],
+        "key_features": [
+          "3D 수족관",
+          "물고기 관리",
+          "커스터마이징"
+        ],
+        "clone_tip": "3D 그래픽과 애니메이션 품질이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#힐링"
+      ],
+      "verdict": "틈새시장 타겟의 힐링 컨텐츠"
+    },
+    {
+      "rank": 4,
+      "name": "RizzCam – Profile Wingman",
+      "developer": "Akihiro Kokubo",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/fe/f8/1afef85a-57d0-f573-9ae1-32f41db0de47/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/rizzcam-profile-wingman/id6757990331?uo=2",
+      "idea_summary": "데이팅 프로필 사진 촬영 가이드",
+      "analysis": {
+        "problem": "데이팅 앱용 매력적인 프로필 사진 촬영 어려움 [추론]",
+        "solution": "최적의 각도와 조명을 실시간 가이드 [추론]",
+        "target_user": "데이팅 앱 사용자들 [확인]",
+        "unique_point": "데이팅에 특화된 사진 촬영 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "FaceTune",
+          "Beauty Camera"
+        ],
+        "timing_reason": "온라인 데이팅 플랫폼 사용 증가 [추론]",
+        "growth_potential": "데이팅 시장과 연동된 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 필터와 편집 기능 [추론]",
+        "pricing_suggestion": "월 5,000원 또는 일회성 10,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "AVFoundation",
+          "Core Image",
+          "Vision Framework"
+        ],
+        "key_features": [
+          "실시간 가이드",
+          "자동 촬영",
+          "편집 도구"
+        ],
+        "clone_tip": "얼굴 인식과 구도 분석 알고리즘 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#데이팅"
+      ],
+      "verdict": "틈새 명확한 데이팅 보조 도구"
+    },
+    {
+      "rank": 5,
+      "name": "Sahur",
+      "developer": "MERT GOLCU",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/45/70/9445707c-78d6-c4d1-beaa-3187ae022a33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/sahur/id6758377255?uo=2",
+      "idea_summary": "이슬람 새벽식사 시간 알림 앱",
+      "analysis": {
+        "problem": "라마단 기간 새벽 식사 시간 놓치는 문제 [추론]",
+        "solution": "지역별 새벽 시간에 맞춘 알림 시스템 [추론]",
+        "target_user": "전 세계 무슬림 커뮤니티 [확인]",
+        "unique_point": "종교적 니즈에 특화된 실용적 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Muslim Pro",
+          "Athan Pro",
+          "Prayer Now"
+        ],
+        "timing_reason": "글로벌 무슬림 인구 증가와 디지털화 [추론]",
+        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3,000원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "200만원 [추론]",
+        "tech_stack": [
+          "Core Location",
+          "UserNotifications",
+          "Calendar"
+        ],
+        "key_features": [
+          "위치기반 시간 계산",
+          "스마트 알림"
+        ],
+        "clone_tip": "정확한 이슬람 시간 계산 라이브러리 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#종교"
+      ],
+      "verdict": "특정 종교 커뮤니티 대상 실용 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "컬처패스",
+      "developer": "Mybi",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/nj4hs4qHmQJpXjJbVM6Q9pJ5yIdVEzK02Tmcr9EPj94Uw6-_6bnCAi7LgAZL_cfagZGjSaej9BL9KigHlkzXow",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ezl.culturepassapp",
+      "idea_summary": "문화행사 통합 예약 플랫폼",
+      "analysis": {
+        "problem": "문화행사 정보 분산과 예약 복잡성 [추론]",
+        "solution": "다양한 문화행사를 한 곳에서 예약 가능 [추론]",
+        "target_user": "문화 활동에 관심 많은 2-30대 [추론]",
+        "unique_point": "문화행사 전문 통합 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "인터파크 티켓",
+          "YES24 티켓",
+          "티켓링크"
+        ],
+        "timing_reason": "코로나 회복 후 문화활동 수요 폭증 [추론]",
+        "growth_potential": "문화산업 성장과 함께 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "예약 수수료, 광고, 제휴 수익 [추론]",
+        "pricing_suggestion": "예약당 5-10% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Firebase",
+          "Payment API",
+          "Location API"
+        ],
+        "key_features": [
+          "행사 검색",
+          "예약 시스템",
+          "결제"
+        ],
+        "clone_tip": "다양한 예약 시스템과의 API 연동 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#문화",
+        "#예약"
+      ],
+      "verdict": "한국 문화시장 특화 플랫폼",
+      "deep_report_id": "android-컬처패스-1770131172786"
+    },
+    {
+      "rank": 2,
+      "name": "캐치테이블",
+      "developer": "주식회사 와드",
+      "category": "Restaurant Reservations",
+      "icon": "https://play-lh.googleusercontent.com/Cpc1omIHIzV9kGE2LjnYHNbXoyue74OX0j_uwuw-f6cJpi0edzNrBjNDmQb5iz4Y302_",
+      "app_url": "https://play.google.com/store/apps/details?id=co.kr.catchtable.android.catchtable_app",
+      "idea_summary": "레스토랑 실시간 예약 플랫폼",
+      "analysis": {
+        "problem": "인기 레스토랑 예약의 어려움과 대기시간 [추론]",
+        "solution": "실시간 테이블 현황과 간편 예약 시스템 [추론]",
+        "target_user": "외식을 자주 하는 도시 거주자 [추론]",
+        "unique_point": "실시간 테이블 상태 확인 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "테이블매니저",
+          "딜리버리킹",
+          "요기요"
+        ],
+        "timing_reason": "외식 산업 디지털 전환 가속화 [추론]",
+        "growth_potential": "O2O 플랫폼 시장 성장 지속 [추론]"
+      },
+      "business": {
+        "monetization": "레스토랑 수수료, 광고, 프리미엄 서비스 [추론]",
+        "pricing_suggestion": "예약당 1,000-3,000원 또는 월정액 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Real-time Database",
+          "Payment",
+          "Push Notification"
+        ],
+        "key_features": [
+          "실시간 예약",
+          "대기열 관리",
+          "리뷰"
+        ],
+        "clone_tip": "레스토랑 POS 시스템과의 연동이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2B2C",
+        "#외식",
+        "#예약"
+      ],
+      "verdict": "검증된 비즈니스 모델의 O2O 플랫폼"
+    },
+    {
+      "rank": 3,
+      "name": "GPS 포토: 지오태그 카메라",
+      "developer": "Toolbox Pro",
+      "category": "Photo & Video",
+      "icon": "https://play-lh.googleusercontent.com/m2YBNM38zyfIBelPhOYNR9c_SoyaD8qgTGN5_ykNbSS22v62PnJd1C3IoL8AQPHItO4IoYpqs4ChtsQE50GU",
+      "app_url": "https://play.google.com/store/apps/details?id=com.toolbox.gpsphoto",
+      "idea_summary": "위치정보가 포함된 사진 촬영",
+      "analysis": {
+        "problem": "나중에 사진 촬영 장소를 기억하지 못하는 문제 [추론]",
+        "solution": "사진에 정확한 GPS 좌표와 주소 정보 삽입 [추론]",
+        "target_user": "여행자, 등산객, 업무용 사진 촬영자 [추론]",
+        "unique_point": "지오태그 특화 카메라 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Camera GPS",
+          "Timestamp Camera",
+          "GPS Camera"
+        ],
+        "timing_reason": "여행 회복과 위치 기반 서비스 발전 [추론]",
+        "growth_potential": "틈새시장이지만 실용성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 광고 제거 [추론]",
+        "pricing_suggestion": "일회성 5,000원 또는 월 2,000원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "Camera2 API",
+          "Location API",
+          "EXIF",
+          "Maps API"
+        ],
+        "key_features": [
+          "GPS 태깅",
+          "주소 변환",
+          "사진 관리"
+        ],
+        "clone_tip": "정확한 위치 정보 처리와 개인정보 보호 고려 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사진"
+      ],
+      "verdict": "실용적이지만 니치한 도구 앱"
+    },
+    {
+      "rank": 4,
+      "name": "헤이딜러 - 인증중고차, 내차팔기",
+      "developer": "HeyDealer",
+      "category": "Car Sales",
+      "icon": "https://play-lh.googleusercontent.com/lIH4tf6ZVKZyiXf-EQ4EU8GBXiTE4n6lIF_d2TbZYPmszuhYln3Wa8AVCMKt3BLOpSjl",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.perfectree.heydealer",
+      "idea_summary": "인증 중고차 거래 플랫폼",
+      "analysis": {
+        "problem": "중고차 거래의 신뢰성과 투명성 부족 [추론]",
+        "solution": "전문 인증을 통한 신뢰할 수 있는 중고차 플랫폼 [추론]",
+        "target_user": "중고차 구매/판매를 고려하는 운전자 [확인]",
+        "unique_point": "인증 시스템을 통한 신뢰성 확보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "KB차차차",
+          "SK엔카",
+          "우리카"
+        ],
+        "timing_reason": "중고차 시장 확대와 디지털화 진행 [추론]",
+        "growth_potential": "중고차 시장 성장과 함께 확장 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료, 딜러 수수료, 광고 [추론]",
+        "pricing_suggestion": "거래가의 3-5% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "AI/ML",
+          "Payment",
+          "Database"
+        ],
+        "key_features": [
+          "차량 검수",
+          "가격 산정",
+          "거래 중개"
+        ],
+        "clone_tip": "차량 상태 평가 시스템과 법적 검토 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2B2C",
+        "#자동차",
+        "#거래"
+      ],
+      "verdict": "고부가가치 중고차 거래 플랫폼"
+    },
+    {
+      "rank": 5,
+      "name": "WePlay - 파티게임",
+      "developer": "WEJOY Pte. Ltd.",
+      "category": "Gaming",
+      "icon": "https://play-lh.googleusercontent.com/CrAo5Uc_dw6sXWc2kV8KmUJfgwwmUsToNGr2K16GAx33vJCjGN_QQ_NxhAGkMK5FpFAFOnktnRSHpUBYh21V",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.kr",
+      "idea_summary": "온라인 파티 게임 플랫폼",
+      "analysis": {
+        "problem": "원거리에서 친구들과 함께 즐길 게임 부족 [추론]",
+        "solution": "다양한 파티 게임을 온라인으로 함께 플레이 [추론]",
+        "target_user": "친구들과 소통하려는 10-20대 [추론]",
+        "unique_point": "파티 게임 전문 온라인 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Discord",
+          "Houseparty",
+          "Among Us"
+        ],
+        "timing_reason": "원격 사회화 트렌드와 모바일 게임 성장 [추론]",
+        "growth_potential": "소셜 게임 시장 확대 지속 [추론]"
+      },
+      "business": {
+        "monetization": "게임 내 아이템, 프리미엄 게임, 광고 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 5,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Multiplayer Networking",
+          "Voice Chat"
+        ],
+        "key_features": [
+          "실시간 멀티플레이",
+          "음성 채팅",
+          "다양한 미니게임"
+        ],
+        "clone_tip": "안정적인 실시간 멀티플레이어 시스템 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#소셜게임",
+        "#B2C",
+        "#친구"
+      ],
+      "verdict": "소셜 게임 트렌드에 맞는 파티 플랫폼"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "집중력과 정신건강 관련 앱들이 급증하고 있으며, 특정 종교나 문화에 특화된 니치 앱들도 주목받고 있다. 한국에서는 O2O 플랫폼과 실생활 밀착형 서비스들이 계속 성장하고 있다.",
+    "trend_details": [
+      "디지털 디톡스와 집중력 향상 앱 증가",
+      "종교/문화 특화 서비스 다양화",
+      "한국 O2O 플랫폼 지속 성장"
+    ],
+    "hot_categories": [
+      "Utility",
+      "Lifestyle",
+      "Entertainment"
+    ],
+    "opportunity": "개인 맞춤형 집중력 관리와 문화 특화 서비스",
+    "action_item": "집중력 앱과 문화 플랫폼 트렌드 심화 분석"
+  }
+}
