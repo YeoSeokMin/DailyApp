@@ -1,0 +1,662 @@
+{
+  "date": "2026-02-05",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Convoxa: AI Voice Memo & Transcription",
+      "developer": "Karam Al-Askar",
+      "category": "Efficiency",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/e2/e0/cce2e075-06b5-1d4e-b965-7b7fad36c482/Icon-0-1x_U007ephone-0-0-0-1-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/convoxa-ai%E3%83%9C%E3%82%A4%E3%82%B9%E3%83%A1%E3%83%A2-%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93%E3%81%97/id6755150446?uo=2",
+      "idea_summary": "AI 음성 메모를 실시간 텍스트로 변환하는 도구",
+      "analysis": {
+        "problem": "음성 메모의 검색과 정리가 어려운 문제 [확인]",
+        "solution": "AI 음성 인식으로 실시간 텍스트 변환 및 요약 [확인]",
+        "target_user": "바쁜 직장인, 학생, 기자, 연구자 [추론]",
+        "unique_point": "실시간 전사와 AI 요약 기능 결합 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "Rev Voice Recorder",
+          "Whisper Transcription"
+        ],
+        "timing_reason": "원격근무 증가로 음성 메모 니즈 급증 [추론]",
+        "growth_potential": "AI 전사 기술 발전으로 정확도 향상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 (무제한 전사, 고급 AI 기능) [추론]",
+        "pricing_suggestion": "월 9.99달러 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "Whisper AI",
+          "React Native",
+          "Firebase",
+          "Core Audio"
+        ],
+        "key_features": [
+          "실시간 전사",
+          "AI 요약",
+          "검색",
+          "태그 분류"
+        ],
+        "clone_tip": "OpenAI Whisper API 활용하여 초기 개발 단축 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용"
+      ],
+      "verdict": "음성 전사 시장의 성장성과 기술 접근성이 우수함",
+      "deep_report_id": "ios-convoxa-ai-voice-memo-transcription-1770218054656"
+    },
+    {
+      "rank": 2,
+      "name": "Pingy - The Reminder Tool",
+      "developer": "Dion Jones",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/33/53/dc335312-7969-4468-f319-082f428d5ea3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pingy-the-reminder-tool/id6757796629?uo=2",
+      "idea_summary": "위치와 시간 기반 스마트 리마인더 도구",
+      "analysis": {
+        "problem": "기존 리마인더의 단순함과 맥락 부족 [추론]",
+        "solution": "위치, 시간, 상황 조합한 스마트 알림 [추론]",
+        "target_user": "건망증이 있는 직장인, 학생, 노인층 [추론]",
+        "unique_point": "다양한 트리거 조건을 조합한 맞춤형 알림 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Apple Reminders",
+          "Google Tasks",
+          "Any.do"
+        ],
+        "timing_reason": "스마트폰 센서 활용 앱 트렌드 [추론]",
+        "growth_potential": "고령화 사회의 메모리 보조 도구 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 (무제한 알림, 고급 설정) [추론]",
+        "pricing_suggestion": "월 4.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreLocation",
+          "UserNotifications",
+          "CoreData"
+        ],
+        "key_features": [
+          "위치 알림",
+          "시간 알림",
+          "조건부 알림",
+          "반복 설정"
+        ],
+        "clone_tip": "네이티브 iOS 기능 활용으로 개발 복잡도 낮음 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#위치기반"
+      ],
+      "verdict": "간단하지만 유용한 기능으로 틈새시장 공략 가능"
+    },
+    {
+      "rank": 3,
+      "name": "MenuCal AI",
+      "developer": "DAE KYOO KIM",
+      "category": "Food & Beverage",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/76/1d/ef/761def47-1e25-7085-1be0-2dd02231d237/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/menucal-ai/id6758024128?uo=2",
+      "idea_summary": "메뉴 사진으로 칼로리를 자동 계산하는 AI 앱",
+      "analysis": {
+        "problem": "외식 시 정확한 칼로리 계산의 어려움 [확인]",
+        "solution": "사진 인식 AI로 메뉴 칼로리 자동 계산 [확인]",
+        "target_user": "다이어터, 당뇨 환자, 건강 관리자 [추론]",
+        "unique_point": "메뉴판 OCR과 칼로리 데이터베이스 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Lose It!",
+          "FoodNoms"
+        ],
+        "timing_reason": "건강 의식 증가와 AI 기술 발전 [추론]",
+        "growth_potential": "글로벌 다이어트 시장 확장 중 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (고급 분석, 영양소 추적) [추론]",
+        "pricing_suggestion": "월 6.99달러 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "4000만원 [추론]",
+        "tech_stack": [
+          "Vision API",
+          "Core ML",
+          "Firebase",
+          "SwiftUI"
+        ],
+        "key_features": [
+          "메뉴 OCR",
+          "칼로리 계산",
+          "영양성분 분석",
+          "기록 저장"
+        ],
+        "clone_tip": "Google Vision API와 영양성분 DB 조합으로 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용",
+        "#헬스케어"
+      ],
+      "verdict": "헬스케어 트렌드와 AI 기술이 만나는 유망 영역"
+    },
+    {
+      "rank": 4,
+      "name": "ARalone",
+      "developer": "Jakub Drozd",
+      "category": "Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/14/97/ff1497e0-44d1-280b-3d5f-78cb46147de3/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aralone/id6758215432?uo=2",
+      "idea_summary": "혼자서도 즐기는 AR 기반 게임 경험",
+      "analysis": {
+        "problem": "AR 게임의 복잡성과 멀티플레이어 의존성 [추론]",
+        "solution": "혼자서 즐기는 단순하고 직관적인 AR 게임 [추론]",
+        "target_user": "AR 기술에 관심있는 게이머, 10-30대 [추론]",
+        "unique_point": "솔로 플레이에 최적화된 AR 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Pokémon GO",
+          "Minecraft Earth",
+          "ARise"
+        ],
+        "timing_reason": "Apple Vision Pro 출시로 AR 관심 증가 [추론]",
+        "growth_potential": "AR 하드웨어 대중화로 시장 확장 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 + IAP (새로운 AR 콘텐츠) [추론]",
+        "pricing_suggestion": "3.99달러 + IAP 0.99-4.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
+        "tech_stack": [
+          "ARKit",
+          "Unity",
+          "Metal",
+          "SceneKit"
+        ],
+        "key_features": [
+          "평면 감지",
+          "오브젝트 배치",
+          "제스처 인식",
+          "공간 매핑"
+        ],
+        "clone_tip": "ARKit 템플릿 활용하여 프로토타입 빠른 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AR",
+        "#게임"
+      ],
+      "verdict": "AR 시장 초기 단계에서 틈새 시장 포지셔닝"
+    },
+    {
+      "rank": 5,
+      "name": "HakoJournal - Sensory Daily Diary",
+      "developer": "Yoshihiko Uchida",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/f4/c4/faf4c4dd-c6e5-7ce4-a936-095ff6c3cf72/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/hakojournal-%EA%B0%90%EC%84%B1-%EB%8D%B0%EC%9D%BC%EB%A6%AC-%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC/id6758366764?uo=2",
+      "idea_summary": "감정과 감각을 기록하는 새로운 형태의 다이어리",
+      "analysis": {
+        "problem": "기존 다이어리의 텍스트 중심 한계와 감정 표현 부족 [추론]",
+        "solution": "시각, 청각, 촉각 요소를 포함한 멀티감각 기록 [추론]",
+        "target_user": "감성적인 20-40대 여성, 예술가, 학생 [추론]",
+        "unique_point": "감각 데이터를 활용한 감정 기록 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Journey",
+          "Reflectly"
+        ],
+        "timing_reason": "멘탈헬스 관심 증가와 개인화 트렌드 [추론]",
+        "growth_potential": "웰빙과 자기계발 시장 확장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (고급 템플릿, 분석 기능) [추론]",
+        "pricing_suggestion": "월 4.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "CoreData",
+          "AVFoundation",
+          "Photos Framework"
+        ],
+        "key_features": [
+          "감정 태깅",
+          "미디어 첨부",
+          "기분 분석",
+          "패턴 인사이트"
+        ],
+        "clone_tip": "기존 다이어리 앱에 감각 요소 추가로 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웰빙"
+      ],
+      "verdict": "감정 기록 시장에서 독특한 접근으로 차별화 가능"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "시티즌코난 - Prevent Scams",
+      "developer": "(주)인피니그루",
+      "category": "Security",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "AI로 보이스피싱과 스미싱을 실시간 차단",
+      "analysis": {
+        "problem": "증가하는 보이스피싱과 스미싱 피해 [확인]",
+        "solution": "AI 패턴 인식으로 실시간 사기 탐지 및 차단 [확인]",
+        "target_user": "고령자, 사기 취약층, 보안 의식이 높은 사용자 [추론]",
+        "unique_point": "한국 특화 사기 패턴 학습과 실시간 차단 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TrueCaller",
+          "RoboKiller",
+          "Should I Answer"
+        ],
+        "timing_reason": "디지털 사기 급증으로 보안 앱 수요 증가 [확인]",
+        "growth_potential": "전 세계적인 사기 전화 문제로 글로벌 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (고급 차단, 상세 분석) [추론]",
+        "pricing_suggestion": "월 4900원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "5000만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "Machine Learning",
+          "Firebase",
+          "TensorFlow Lite"
+        ],
+        "key_features": [
+          "실시간 통화 분석",
+          "SMS 필터링",
+          "사기 패턴 학습",
+          "신고 시스템"
+        ],
+        "clone_tip": "지역별 사기 패턴 데이터 수집이 핵심 차별화 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용",
+        "#보안"
+      ],
+      "verdict": "사회적 필요성과 수익성을 모두 갖춘 최고 등급",
+      "deep_report_id": "android-시티즌코난-prevent-scams-1770218109100"
+    },
+    {
+      "rank": 2,
+      "name": "Headealer - Used Cars",
+      "developer": "HeyDealer",
+      "category": "Automobiles",
+      "icon": "https://play-lh.googleusercontent.com/lIH4tf6ZVKZyiXf-EQ4EU8GBXiTE4n6lIF_d2TbZYPmszuhYln3Wa8AVCMKt3BLOpSjl",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.perfectree.heydealer",
+      "idea_summary": "중고차 매매에서 인증과 투명성을 제공하는 플랫폼",
+      "analysis": {
+        "problem": "중고차 거래의 신뢰성과 투명성 부족 [확인]",
+        "solution": "인증 시스템과 투명한 거래 프로세스 제공 [확인]",
+        "target_user": "중고차 구매자, 판매자, 딜러 [확인]",
+        "unique_point": "한국 중고차 시장 특화 인증 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "KB차차차",
+          "SK엔카",
+          "카봄"
+        ],
+        "timing_reason": "중고차 시장 성장과 디지털 전환 가속 [추론]",
+        "growth_potential": "중고차 온라인 거래 증가 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료 + 딜러 구독 + 광고 [추론]",
+        "pricing_suggestion": "거래당 1-3% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-15개월 [추론]",
+        "estimated_cost": "8000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "MongoDB",
+          "Payment Gateway"
+        ],
+        "key_features": [
+          "차량 인증",
+          "가격 평가",
+          "거래 매칭",
+          "결제 시스템"
+        ],
+        "clone_tip": "지역별 중고차 시장 데이터와 인증 시스템 구축 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#팀개발권장",
+        "#B2B2C",
+        "#마켓플레이스"
+      ],
+      "verdict": "큰 시장과 높은 수익성을 가진 도전적 프로젝트"
+    },
+    {
+      "rank": 3,
+      "name": "GPS Photo: GeoTag Camera",
+      "developer": "Toolbox Pro",
+      "category": "Photography",
+      "icon": "https://play-lh.googleusercontent.com/m2YBNM38zyfIBelPhOYNR9c_SoyaD8qgTGN5_ykNbSS22v62PnJd1C3IoL8AQPHItO4IoYpqs4ChtsQE50GU",
+      "app_url": "https://play.google.com/store/apps/details?id=com.toolbox.gpsphoto",
+      "idea_summary": "사진에 정확한 위치 정보를 자동 추가하는 카메라",
+      "analysis": {
+        "problem": "사진의 정확한 촬영 위치 기록과 관리의 어려움 [추론]",
+        "solution": "GPS 데이터를 사진에 자동 임베딩하고 시각화 [확인]",
+        "target_user": "여행자, 부동산 관계자, 연구자, 사진작가 [추론]",
+        "unique_point": "정밀한 GPS 좌표와 사진 메타데이터 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Camera GPS",
+          "Photo Mechanic",
+          "Timestamp Camera"
+        ],
+        "timing_reason": "여행 재개와 위치 기반 서비스 증가 [추론]",
+        "growth_potential": "프라이버시 강화로 위치 기록 앱 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 앱 (고급 기능, 배치 처리) [추론]",
+        "pricing_suggestion": "2.99달러 + IAP 0.99-4.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1800만원 [추론]",
+        "tech_stack": [
+          "Android Camera2 API",
+          "GPS API",
+          "ExifInterface",
+          "Google Maps"
+        ],
+        "key_features": [
+          "GPS 임베딩",
+          "지도 표시",
+          "배치 처리",
+          "메타데이터 편집"
+        ],
+        "clone_tip": "Android 기본 카메라 API와 GPS 조합으로 간단 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#위치기반"
+      ],
+      "verdict": "니치 시장이지만 명확한 가치 제안을 가진 앱"
+    },
+    {
+      "rank": 4,
+      "name": "WePlay - Party Games",
+      "developer": "WEJOY Pte. Ltd.",
+      "category": "Games",
+      "icon": "https://play-lh.googleusercontent.com/CrAo5Uc_dw6sXWc2kV8KmUJfgwwmUsToNGr2K16GAx33vJCjGN_QQ_NxhAGkMK5FpFAFOnktnRSHpUBYh21V",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.kr",
+      "idea_summary": "친구들과 함께 즐기는 파티 게임 모음",
+      "analysis": {
+        "problem": "오프라인 모임에서 재미있는 활동 부족 [추론]",
+        "solution": "스마트폰을 활용한 다양한 파티 게임 제공 [확인]",
+        "target_user": "10-30대 친구 모임, 회식 문화, 파티 호스트 [추론]",
+        "unique_point": "한국 모임 문화에 특화된 게임 콘텐츠 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Houseparty",
+          "Kahoot",
+          "Heads Up!"
+        ],
+        "timing_reason": "코로나 이후 대면 모임 재개와 엔터테인먼트 수요 [추론]",
+        "growth_potential": "글로벌 파티 게임 시장 확장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "무료앱 + IAP (추가 게임팩, 커스텀 콘텐츠) [추론]",
+        "pricing_suggestion": "게임팩 0.99-2.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Photon Network",
+          "Firebase",
+          "Android SDK"
+        ],
+        "key_features": [
+          "멀티플레이어",
+          "게임 라이브러리",
+          "커스텀 게임",
+          "채팅"
+        ],
+        "clone_tip": "기존 파티 게임을 디지털화하여 빠른 콘텐츠 확보 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜",
+        "#게임"
+      ],
+      "verdict": "사회적 연결 욕구를 충족하는 엔터테인먼트 앱"
+    },
+    {
+      "rank": 5,
+      "name": "WordBit English Learning",
+      "developer": "WordBit",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/YUrFfRgNjDpAbH9en6f4aBoWpFL0A3zNVVRh9dGVJARYiS-wIUDtZWlUhCMGdf8_siI",
+      "app_url": "https://play.google.com/store/apps/details?id=net.wordbit.enkr",
+      "idea_summary": "잠금화면을 활용한 영어 단어 학습 앱",
+      "analysis": {
+        "problem": "영어 학습 시간 확보의 어려움과 지속성 부족 [추론]",
+        "solution": "잠금화면 활용으로 자연스러운 반복 학습 [확인]",
+        "target_user": "영어 학습자, 직장인, 학생 [추론]",
+        "unique_point": "잠금화면을 학습 도구로 활용하는 참신한 접근 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Memrise",
+          "Anki"
+        ],
+        "timing_reason": "마이크로 러닝과 습관 형성 트렌드 [추론]",
+        "growth_potential": "전 세계 영어 학습 시장 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (광고 제거, 고급 기능) [추론]",
+        "pricing_suggestion": "월 3.99달러 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2200만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "Room Database",
+          "WorkManager",
+          "Material Design"
+        ],
+        "key_features": [
+          "잠금화면 위젯",
+          "단어 데이터베이스",
+          "진행도 추적",
+          "반복 알고리즘"
+        ],
+        "clone_tip": "Android 잠금화면 API 활용하여 핵심 기능 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#습관형성"
+      ],
+      "verdict": "혁신적인 학습 방식으로 높은 차별화 가능성"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술을 활용한 일상 문제 해결 앱들이 주목받고 있으며, 보안과 프라이버시 강화 솔루션의 수요가 급증하고 있다 [추론]. 특히 음성 인식, 이미지 분석 등 AI 기술의 접근성이 높아지면서 1인 개발자도 고도화된 기능을 구현할 수 있게 되었다 [추론].",
+    "trend_details": [
+      "AI 음성 전사 기술의 일상화",
+      "보이스피싱 등 디지털 사기 대응 솔루션 급증",
+      "잠금화면 등 유휴 시간 활용 학습법",
+      "감각적 기록과 웰빙 앱 융합",
+      "AR 기술의 접근성 향상"
+    ],
+    "hot_categories": [
+      "보안/프라이버시",
+      "AI 도구",
+      "헬스케어",
+      "마이크로 러닝"
+    ],
+    "opportunity": "한국 특화 문제 해결 (보이스피싱 방지, 음식 칼로리 계산) 및 글로벌 확장 가능한 솔루션",
+    "action_item": "AI API 활용한 빠른 프로토타이핑으로 시장 검증 후 고도화 전략 수립"
+  }
+}
