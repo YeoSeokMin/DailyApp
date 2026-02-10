@@ -3,239 +3,299 @@
   "ios": [
     {
       "rank": 1,
-      "name": "Ernie: Stop Impulse Buys",
-      "developer": "Luis Roberto Rampolla Martinez",
-      "category": "Finance",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/f7/ba/8cf7ba4e-8f88-509b-346b-20f10e22bf67/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/ernie-stop-impulse-buys/id6758636335",
-      "idea_summary": "충동구매 방지 AI 어시스턴트",
+      "name": "Japanese Flow: 2700+ Vocab",
+      "developer": "Zakaria Ferzazi",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/1e/89/0b1e89ce-c77e-48c6-aade-46881f732880/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/japanese-flow-2700-vocab/id6758732033?uo=2",
+      "idea_summary": "플로우 기법으로 일본어 단어 학습",
       "analysis": {
-        "problem": "온라인 쇼핑에서 충동구매로 인한 가계부담 증가 [확인]",
-        "solution": "구매 전 AI가 진정한 필요성을 질문하고 판단 도움 제공 [추론]",
-        "target_user": "온라인 쇼핑 빈도가 높은 20-40대 직장인 [추론]",
-        "unique_point": "구매 욕구를 억제하는 AI 코칭 시스템 [추론]"
+        "problem": "일본어 단어 암기가 지루하고 효과적이지 않음 [추론]",
+        "solution": "플로우 상태 유도로 자연스러운 단어 학습 제공 [추론]",
+        "target_user": "일본어 학습자, 특히 초중급자 [추론]",
+        "unique_point": "플로우 기법을 언어 학습에 적용한 접근 [추론]"
       },
       "market": {
         "competitors": [
-          "YNAB",
-          "Mint",
-          "개인가계부 앱들"
+          "Duolingo",
+          "Anki",
+          "Memrise"
         ],
-        "timing_reason": "경제불황으로 가계 지출 관리 니즈 급증 [추론]",
-        "growth_potential": "핀테크와 AI 융합 트렌드로 성장 가능성 높음 [추론]"
+        "timing_reason": "일본 문화 콘텐츠 인기로 일본어 학습 수요 증가 [추론]",
+        "growth_potential": "아시아 시장에서 높은 성장 가능성 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 구독 모델로 고급 AI 기능 제공 [추론]",
-        "pricing_suggestion": "월 4,900원 구독 또는 연 49,000원 [추론]",
+        "monetization": "프리미엄 구독, 광고 모델 [추론]",
+        "pricing_suggestion": "월 9,900원 구독 모델 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "1,500만원 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
         "tech_stack": [
           "React Native",
-          "OpenAI API",
-          "Firebase"
-        ],
-        "key_features": [
-          "AI 구매상담",
-          "지출분석",
-          "목표설정"
-        ],
-        "clone_tip": "OpenAI GPT API로 구매 질문 시스템 구현 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 4,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 8.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#AI"
-      ],
-      "verdict": "충동구매 방지라는 명확한 문제 해결",
-      "deep_report_id": "ios-ernie-stop-impulse-buys-1770649529597"
-    },
-    {
-      "rank": 2,
-      "name": "CarePing",
-      "developer": "Pascal Markus Wattler",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/a9/4e/65a94ec0-d592-e6be-0448-3c2a09371d78/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/jp/app/careping/id6758221479",
-      "idea_summary": "건강 데이터 통합 모니터링",
-      "analysis": {
-        "problem": "흩어진 건강 데이터를 일관성 있게 관리하기 어려움 [추론]",
-        "solution": "여러 소스의 건강 데이터를 통합하여 트렌드 분석 [추론]",
-        "target_user": "건강에 관심 많은 30-50대 중장년층 [추론]",
-        "unique_point": "단순 기록이 아닌 패턴 분석과 예측 알림 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "삼성헬스",
-          "애플 헬스",
-          "핏빗"
-        ],
-        "timing_reason": "고령화 사회와 예방의학 관심 증가 [추론]",
-        "growth_potential": "헬스테크 시장 확장으로 성장 기대 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 분석 기능과 개인화 서비스 구독 [추론]",
-        "pricing_suggestion": "월 9,900원 프리미엄 플랜 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "2,000만원 [추론]",
-        "tech_stack": [
-          "Flutter",
-          "HealthKit",
           "Firebase",
-          "ML모델"
+          "Node.js"
         ],
         "key_features": [
-          "데이터통합",
-          "패턴분석",
-          "알림시스템"
+          "단어카드 시스템",
+          "진도 추적",
+          "반복 학습 알고리즘"
         ],
-        "clone_tip": "HealthKit 연동부터 시작해 단계적 기능 확장 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 5,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8.2
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#헬스테크"
-      ],
-      "verdict": "건강 데이터 통합이라는 실용적 니즈"
-    },
-    {
-      "rank": 3,
-      "name": "PalmFit: 振動フィットネス",
-      "developer": "Ethisham Niazi",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/45/5e/5a455e8d-fb8f-59ac-ce7a-1d47d23c0579/PalmFitIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/jp/app/palmfit-%E6%8C%AF%E5%8B%95%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9/id6758296065",
-      "idea_summary": "진동을 활용한 피트니스 운동",
-      "analysis": {
-        "problem": "제한된 공간에서 효과적인 운동 방법 부족 [추론]",
-        "solution": "스마트폰 진동 기능을 활용한 운동 가이드 제공 [확인]",
-        "target_user": "홈트레이닝을 선호하는 20-30대 직장인 [추론]",
-        "unique_point": "기존 디바이스 활용으로 별도 장비 불필요 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Nike Training",
-          "7분운동",
-          "홈트 앱들"
-        ],
-        "timing_reason": "홈피트니스 트렌드와 웨어러블 기기 확산 [추론]",
-        "growth_potential": "독특한 접근법으로 틈새 시장 공략 가능 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 운동 프로그램과 개인 트레이닝 [추론]",
-        "pricing_suggestion": "월 6,900원 또는 연 59,000원 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "800만원 [추론]",
-        "tech_stack": [
-          "React Native",
-          "진동API",
-          "운동감지"
-        ],
-        "key_features": [
-          "진동패턴",
-          "운동가이드",
-          "진행추적"
-        ],
-        "clone_tip": "기본 진동 패턴부터 시작해 운동 프로그램 추가 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 3,
-        "competition": 4,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 7.4
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#유니크"
-      ],
-      "verdict": "진동 피트니스라는 참신한 아이디어"
-    },
-    {
-      "rank": 4,
-      "name": "Coffee Maps",
-      "developer": "Marcos Plaza Garcia",
-      "category": "Navigation",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/b7/f0/89b7f025-2ed9-c946-494b-74daebcf3a81/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/coffee-maps/id6751766210",
-      "idea_summary": "커피전문 위치 기반 지도 서비스",
-      "analysis": {
-        "problem": "커피숍 찾기에 특화된 지도 서비스 부족 [추론]",
-        "solution": "커피숍만을 위한 전용 지도와 상세 정보 제공 [추론]",
-        "target_user": "커피 애호가와 디지털 노마드 [추론]",
-        "unique_point": "커피숍에 특화된 필터링과 리뷰 시스템 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "구글맵",
-          "네이버맵",
-          "포스퀘어"
-        ],
-        "timing_reason": "커피 문화 확산과 재택근무 증가 [추론]",
-        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 [추론]"
-      },
-      "business": {
-        "monetization": "커피숍 광고와 프리미엄 기능 구독 [추론]",
-        "pricing_suggestion": "월 2,900원 프리미엄 플랜 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "1,200만원 [추론]",
-        "tech_stack": [
-          "React Native",
-          "Google Maps API",
-          "Firebase"
-        ],
-        "key_features": [
-          "커피숍검색",
-          "리뷰시스템",
-          "즐겨찾기"
-        ],
-        "clone_tip": "Google Places API로 커피숍 데이터 수집부터 [추론]"
+        "clone_tip": "spaced repetition 알고리즘과 UI/UX에 집중 [추론]"
       },
       "scores": {
         "novelty": 4,
         "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육"
+      ],
+      "verdict": "언어 학습의 새로운 접근법으로 차별화 가능",
+      "deep_report_id": "ios-japanese-flow-2700-vocab-1770681924222"
+    },
+    {
+      "rank": 2,
+      "name": "Hearing Aid Sound Amplifier",
+      "developer": "Inverse.AI",
+      "category": "Healthcare/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/6a/af/9c6aafc2-6fc8-b719-3452-f377d0124f94/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/hearing-aid-sound-amplifier/id6758660459?uo=2",
+      "idea_summary": "스마트폰을 보청기로 활용하는 앱",
+      "analysis": {
+        "problem": "고가의 보청기 구매 부담과 접근성 문제 [확인]",
+        "solution": "스마트폰과 이어폰으로 저렴한 보청 보조 제공 [확인]",
+        "target_user": "경도 난청자, 고령자, 보청기 구매 전 체험자 [추론]",
+        "unique_point": "AI 기반 실시간 음향 조절 기술 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Live Listen",
+          "Sound Amplifier",
+          "Petralex"
+        ],
+        "timing_reason": "고령화 사회 진입으로 난청 인구 증가 [확인]",
+        "growth_potential": "글로벌 고령화로 시장 확대 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독, 일회성 구매 [추론]",
+        "pricing_suggestion": "기본 무료, 고급 기능 월 4,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Core Audio",
+          "Swift",
+          "DSP"
+        ],
+        "key_features": [
+          "실시간 음향 증폭",
+          "주파수 조절",
+          "노이즈 제거"
+        ],
+        "clone_tip": "오디오 처리 기술과 의료기기 규제 고려 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "사회적 가치와 수익성을 동시에 만족하는 앱"
+    },
+    {
+      "rank": 3,
+      "name": "ChatAggregator - AI Chat Hub",
+      "developer": "turbochat.ai",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/a9/0d/1aa90d5d-d4c0-1944-249f-11f828d3af07/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/chataggregator-ai-chat-hub/id6757996802?uo=2",
+      "idea_summary": "여러 AI 챗봇을 하나의 인터페이스로 통합",
+      "analysis": {
+        "problem": "여러 AI 서비스를 개별적으로 사용하는 번거로움 [추론]",
+        "solution": "ChatGPT, Claude, Gemini 등을 통합 인터페이스로 제공 [추론]",
+        "target_user": "AI 파워유저, 개발자, 연구자 [추론]",
+        "unique_point": "다중 AI 모델 비교 및 통합 사용 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Poe",
+          "OpenRouter",
+          "AI Chat"
+        ],
+        "timing_reason": "AI 챗봇 다양화로 통합 솔루션 필요성 증가 [추론]",
+        "growth_potential": "AI 도구 사용자 증가로 고성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델, API 사용량 기반 과금 [추론]",
+        "pricing_suggestion": "월 19,900원 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "API Gateway"
+        ],
+        "key_features": [
+          "멀티 AI 연동",
+          "대화 기록 관리",
+          "모델별 비교"
+        ],
+        "clone_tip": "각 AI API 연동과 비용 최적화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#AI도구"
+      ],
+      "verdict": "AI 시대의 필수 도구로 자리잡을 가능성 높음"
+    },
+    {
+      "rank": 4,
+      "name": "Portfolio Tracker: X-Ray",
+      "developer": "Rinalds Domanovs",
+      "category": "Finance",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/65/67/2265677d-5a82-4f9b-97c1-1033537a5aa0/X-Ray-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/portfolio-tracker-x-ray/id6757894447?uo=2",
+      "idea_summary": "투자 포트폴리오의 심층 분석과 시각화",
+      "analysis": {
+        "problem": "복잡한 투자 포트폴리오를 한눈에 파악하기 어려움 [추론]",
+        "solution": "X-Ray 기법으로 포트폴리오 구성요소 투명하게 분석 [추론]",
+        "target_user": "개인 투자자, 자산관리 관심층 [추론]",
+        "unique_point": "포트폴리오 내부 구조를 투명하게 보여주는 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Personal Capital",
+          "Mint",
+          "YNAB"
+        ],
+        "timing_reason": "개인 투자 증가로 포트폴리오 관리 도구 수요 상승 [추론]",
+        "growth_potential": "핀테크 성장과 함께 시장 확대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 광고, 제휴 수수료 [추론]",
+        "pricing_suggestion": "월 14,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts Framework"
+        ],
+        "key_features": [
+          "실시간 데이터 연동",
+          "시각화",
+          "알림 시스템"
+        ],
+        "clone_tip": "금융 데이터 API 연동과 보안이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
         "timing": 4,
         "tech_difficulty": 3,
-        "market_size": 3,
-        "competition": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "투자 트렌드와 맞는 실용적인 도구"
+    },
+    {
+      "rank": 5,
+      "name": "Peace - Breathe, relax, calm",
+      "developer": "Daniel Garduno",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/bf/55/06bf5548-ce07-551b-2795-bb0cfcafddd3/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/peace-breathe-relax-calm/id6758351591?uo=2",
+      "idea_summary": "호흡 기반 명상과 이완 앱",
+      "analysis": {
+        "problem": "현대인의 스트레스와 정신건강 관리 어려움 [확인]",
+        "solution": "호흡법 중심의 간단한 명상과 이완 프로그램 [추론]",
+        "target_user": "스트레스 받는 직장인, 학생, 수면 문제가 있는 사람 [추론]",
+        "unique_point": "호흡에 특화된 단순하고 효과적인 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Calm",
+          "Headspace",
+          "Insight Timer"
+        ],
+        "timing_reason": "코로나 이후 정신건강 관심 증가 [확인]",
+        "growth_potential": "웰빙 트렌드로 지속 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델, 프리미엄 콘텐츠 [추론]",
+        "pricing_suggestion": "월 7,900원 구독 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400-700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Core Animation"
+        ],
+        "key_features": [
+          "호흡 가이드",
+          "진행률 추적",
+          "알림 시스템"
+        ],
+        "clone_tip": "사용자 경험과 콘텐츠 품질이 차별화 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
         "profitability": 3,
         "scalability": 4,
         "overall": 7
@@ -243,186 +303,61 @@
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#니치"
-      ],
-      "verdict": "커피 특화 지도라는 명확한 포지셔닝"
-    },
-    {
-      "rank": 5,
-      "name": "Nice Noise",
-      "developer": "elliot Hasse",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/3f/95/833f952a-5358-2827-96ec-68c3e9d3283b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/nice-noise/id6758789746",
-      "idea_summary": "소음을 활용한 사운드 테라피",
-      "analysis": {
-        "problem": "스트레스와 불면으로 인한 수면의 질 저하 [추론]",
-        "solution": "개인화된 화이트노이즈와 자연음으로 힐링 제공 [추론]",
-        "target_user": "불면증 있는 도시 직장인과 학생 [추론]",
-        "unique_point": "개인 맞춤형 사운드 믹싱과 AI 추천 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Calm",
-          "Headspace",
-          "백색소음앱들"
-        ],
-        "timing_reason": "정신건강과 웰빙에 대한 관심 증가 [추론]",
-        "growth_potential": "멘탈헬스 시장 확장으로 성장 기대 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 사운드팩과 무광고 구독 [추론]",
-        "pricing_suggestion": "월 4,900원 또는 연 39,000원 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "1,000만원 [추론]",
-        "tech_stack": [
-          "Flutter",
-          "오디오라이브러리",
-          "Firebase"
-        ],
-        "key_features": [
-          "사운드믹싱",
-          "타이머기능",
-          "수면추적"
-        ],
-        "clone_tip": "기본 화이트노이즈부터 시작해 점진적 확장 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 5,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 7.5
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
         "#웰빙"
       ],
-      "verdict": "사운드 테라피 분야의 실용적 솔루션"
+      "verdict": "레드오션이지만 니치 접근으로 차별화 가능"
     }
   ],
   "android": [
     {
       "rank": 1,
-      "name": "싹다잡아",
-      "developer": "PillSang Co., Ltd.",
-      "category": "Security",
-      "icon": "https://play-lh.googleusercontent.com/_Bpd9gaBWsO-dJvTP2tbeTgG2nHMB0TEQBGGiCedqWFkzxv9kqcIVI5tqSq8833sYr4",
-      "app_url": "https://play.google.com/store/apps/details?id=com.ps.wb",
-      "idea_summary": "통합 사기 방지 보안 솔루션",
+      "name": "Clean Sweep Toolkit",
+      "developer": "Pixelapps Studio",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/5VD-TeoxeMxyX0jYZ_MBksbIOuo5eiiF-wZripoiIJE0Ghz8ups-vqMY7YZ53Nnr7IpRibUlHhch7B8RTpThcQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.clean.sweep.toolarp",
+      "idea_summary": "청소와 유지보수 작업을 위한 올인원 도구",
       "analysis": {
-        "problem": "다양한 형태의 전화 사기가 증가하여 피해 급증 [확인]",
-        "solution": "AI 기반 실시간 사기 전화/문자 탐지 및 차단 [추론]",
-        "target_user": "사기 피해에 취약한 중장년층과 일반 사용자 [추론]",
-        "unique_point": "다종 사기 수법을 통합 차단하는 올인원 솔루션 [추론]"
+        "problem": "집안 청소와 유지보수를 위한 체계적인 가이드 부족 [추론]",
+        "solution": "청소 체크리스트, 스케줄링, 도구 가이드 통합 제공 [추론]",
+        "target_user": "주부, 1인 가구, 청소 서비스 업체 [추론]",
+        "unique_point": "청소를 게임화하고 체계화한 접근 [추론]"
       },
       "market": {
         "competitors": [
-          "후후",
-          "True Caller",
-          "T전화"
+          "Tody",
+          "Sweepy",
+          "FlyLady"
         ],
-        "timing_reason": "보이스피싱 등 전화사기 급증으로 정부 대책 강화 [확인]",
-        "growth_potential": "사회 문제 해결로 정부 지원과 시장 확장 기대 [추론]"
+        "timing_reason": "1인 가구 증가와 홈케어 관심 증가 [추론]",
+        "growth_potential": "라이프스타일 앱 시장 확대로 성장 가능 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 보안 기능과 기업 라이센스 [추론]",
-        "pricing_suggestion": "월 3,900원 또는 연 29,000원 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "5-6개월 [추론]",
-        "estimated_cost": "3,000만원 [추론]",
-        "tech_stack": [
-          "Android",
-          "ML모델",
-          "전화API",
-          "SMS인터셉터"
-        ],
-        "key_features": [
-          "실시간차단",
-          "사기패턴학습",
-          "신고시스템"
-        ],
-        "clone_tip": "기본 번호 차단부터 시작해 ML 모델 단계적 적용 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 4,
-        "market_size": 5,
-        "competition": 3,
-        "profitability": 5,
-        "scalability": 5,
-        "overall": 9.2
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#사회문제해결"
-      ],
-      "verdict": "사회적 문제 해결하는 필수 보안앱",
-      "deep_report_id": "android-싹다잡아-1770649580988"
-    },
-    {
-      "rank": 2,
-      "name": "캐시는내차지",
-      "developer": "트리거스",
-      "category": "Finance",
-      "icon": "https://play-lh.googleusercontent.com/occXIoPMG6TzEcXaZ3wGme_GTbZrLcNCHGtS575KVb1jmIkeO8fCgwnKI7vpvbXCfqAAX1VpPQFAX096l5KVXpM",
-      "app_url": "https://play.google.com/store/apps/details?id=com.triggers.cashmycharge",
-      "idea_summary": "폰 충전으로 돈 버는 리워드 앱",
-      "analysis": {
-        "problem": "일상 행위로 부수입을 얻고 싶은 니즈 [추론]",
-        "solution": "스마트폰 충전이라는 필수 행위에 리워드 연결 [확인]",
-        "target_user": "용돈벌이에 관심 있는 20-30대 젊은층 [추론]",
-        "unique_point": "충전이라는 일상 루틴을 수익화한 독특한 모델 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "캐시슬라이드",
-          "애드몹",
-          "리워드앱들"
-        ],
-        "timing_reason": "경기침체로 부수입에 대한 관심 증가 [추론]",
-        "growth_potential": "참신한 아이디어로 초기 화제성 기대 [추론]"
-      },
-      "business": {
-        "monetization": "광고 수익과 파트너십을 통한 리워드 제공 [추론]",
-        "pricing_suggestion": "무료 모델에서 프리미엄 리워드 옵션 [추론]",
+        "monetization": "광고, 프리미엄 기능, 제품 추천 커미션 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "1,500만원 [추론]",
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
         "tech_stack": [
-          "Android",
-          "배터리API",
-          "광고SDK",
-          "결제시스템"
+          "Flutter",
+          "Firebase",
+          "Local Notifications"
         ],
         "key_features": [
-          "충전감지",
-          "리워드적립",
-          "현금출금"
+          "체크리스트",
+          "알림 스케줄",
+          "진행률 추적"
         ],
-        "clone_tip": "배터리 상태 모니터링 API부터 시작 [추론]"
+        "clone_tip": "사용자 습관 형성에 집중한 UX 설계 [추론]"
       },
       "scores": {
-        "novelty": 5,
-        "necessity": 3,
+        "novelty": 3,
+        "necessity": 4,
         "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
         "competition": 4,
         "profitability": 3,
         "scalability": 4,
@@ -431,176 +366,116 @@
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#유니크"
+        "#라이프스타일"
       ],
-      "verdict": "충전을 수익화한 참신한 비즈니스 모델"
+      "verdict": "틈새 시장이지만 명확한 니즈가 있는 앱",
+      "deep_report_id": "android-clean-sweep-toolkit-1770681975880"
     },
     {
-      "rank": 3,
-      "name": "Document Reader - PDF Create",
-      "developer": "Resourceful Dev",
-      "category": "Productivity",
-      "icon": "https://play-lh.googleusercontent.com/ABJf7PeAcYwcypN3YZ0BRsDJk3pXT4u-jxfaczJJQ4qOe5qtZuRVZpTOuTfd2a5WMjeZSF9_LKA4bW58OpAO_EU",
-      "app_url": "https://play.google.com/store/apps/details?id=com.reader.pdf.viewer.alldocument.new",
-      "idea_summary": "문서 읽기와 PDF 생성 통합 앱",
+      "rank": 2,
+      "name": "Open Browser - Smart & Safe",
+      "developer": "AdPulse INC",
+      "category": "Browser",
+      "icon": "https://play-lh.googleusercontent.com/aZLun56y8q5EclO3cw-b8pS_ThQVf4JxzsUcIkGFuaptWZtwFkm7hBq7FV-9I4wTqCAiYE3CW0OCD574dThb75c",
+      "app_url": "https://play.google.com/store/apps/details?id=com.open.web.ai.browser",
+      "idea_summary": "AI 기반 스마트하고 안전한 웹 브라우저",
       "analysis": {
-        "problem": "모바일에서 문서 작업의 번거로움과 기능 제한 [추론]",
-        "solution": "읽기와 생성을 하나로 통합한 올인원 문서 앱 [추론]",
-        "target_user": "모바일로 업무하는 직장인과 학생 [추론]",
-        "unique_point": "단순 뷰어가 아닌 생성까지 가능한 통합 솔루션 [추론]"
+        "problem": "기존 브라우저의 보안성과 사용자 경험 한계 [추론]",
+        "solution": "AI 기반 위험 사이트 차단과 스마트 기능 제공 [추론]",
+        "target_user": "개인정보 보호 중시 사용자, 보안 의식 높은 사용자 [추론]",
+        "unique_point": "AI 기반 실시간 보안 분석과 사용자 맞춤 기능 [추론]"
       },
       "market": {
         "competitors": [
-          "Adobe Acrobat",
-          "WPS Office",
-          "Polaris Office"
+          "Brave",
+          "DuckDuckGo",
+          "Firefox Focus"
         ],
-        "timing_reason": "모바일 퍼스트 업무 환경으로 전환 [추론]",
-        "growth_potential": "리모트워크 확산으로 모바일 오피스 니즈 증가 [추론]"
+        "timing_reason": "개인정보 보호 의식 증가와 AI 기술 발전 [추론]",
+        "growth_potential": "프라이버시 중심 브라우저 시장 성장 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 기능과 클라우드 스토리지 구독 [추론]",
-        "pricing_suggestion": "월 6,900원 또는 연 59,000원 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "2,500만원 [추론]",
-        "tech_stack": [
-          "Android",
-          "PDF라이브러리",
-          "OCR",
-          "클라우드"
-        ],
-        "key_features": [
-          "PDF생성",
-          "문서편집",
-          "OCR스캔"
-        ],
-        "clone_tip": "기본 PDF 뷰어부터 시작해 편집 기능 추가 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 4,
-        "market_size": 5,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8.2
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2B",
-        "#생산성"
-      ],
-      "verdict": "모바일 문서 작업의 필수 도구"
-    },
-    {
-      "rank": 4,
-      "name": "ENEOS공식앱",
-      "developer": "ENEOS株式会社",
-      "category": "Automotive",
-      "icon": "https://play-lh.googleusercontent.com/leWMHzLL12TUH0MnEbKN6M7_XlekdayRPSSgMra37vp-CiL0XZ8dS2gK_IZ1xJ90q-I",
-      "app_url": "https://play.google.com/store/apps/details?id=com.eneos.ssapp",
-      "idea_summary": "종합 카라이프 관리 플랫폼",
-      "analysis": {
-        "problem": "자동차 관련 서비스가 분산되어 관리 불편 [추론]",
-        "solution": "주유부터 정비까지 모든 카라이프를 한 앱에서 [확인]",
-        "target_user": "자차를 보유한 모든 운전자 [추론]",
-        "unique_point": "주유소 기반 종합 자동차 서비스 플랫폼 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "오피넷",
-          "마이카",
-          "자동차 브랜드 앱들"
-        ],
-        "timing_reason": "전기차 확산과 디지털 서비스 전환 [추론]",
-        "growth_potential": "자동차 산업 디지털화로 시장 확장 [추론]"
-      },
-      "business": {
-        "monetization": "서비스 수수료와 제휴 마케팅 [추론]",
-        "pricing_suggestion": "무료 기본에 프리미엄 서비스 추가 [추론]",
-        "revenue_potential": "상"
+        "monetization": "광고 차단 해제, 프리미엄 기능, 검색 파트너십 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 7,900원 [추론]",
+        "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "5,000만원 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
         "tech_stack": [
-          "Android",
-          "지도API",
-          "결제시스템",
-          "IoT연동"
+          "Chromium",
+          "Kotlin",
+          "Machine Learning"
         ],
         "key_features": [
-          "주유소찾기",
-          "정비예약",
-          "포인트관리"
+          "AI 보안 스캔",
+          "광고 차단",
+          "프라이버시 보호"
         ],
-        "clone_tip": "기본 지도 기반 주유소 찾기부터 시작 [추론]"
+        "clone_tip": "브라우저 엔진 커스터마이징과 보안 기술이 핵심 [추론]"
       },
       "scores": {
-        "novelty": 3,
+        "novelty": 4,
         "necessity": 4,
         "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
         "competition": 3,
-        "profitability": 5,
+        "profitability": 3,
         "scalability": 4,
-        "overall": 8
+        "overall": 7
       },
       "tags": [
-        "#복잡도높음",
+        "#팀개발권장",
         "#B2C",
-        "#플랫폼"
+        "#보안"
       ],
-      "verdict": "자동차 라이프의 원스톱 솔루션"
+      "verdict": "기술 난이도가 높지만 차별화 포인트 명확"
     },
     {
-      "rank": 5,
-      "name": "모바일 건강보험증",
-      "developer": "국민건강보험공단",
-      "category": "Healthcare",
-      "icon": "https://play-lh.googleusercontent.com/zjXgJuwEQqGGmwaSLeXXU4aQKT01vPUB11iFVJtmhNrVxsPpdlvrx7D-_B0w1sbfGQ",
-      "app_url": "https://play.google.com/store/apps/details?id=kr.or.nhiq",
-      "idea_summary": "디지털 건강보험증 서비스",
+      "rank": 3,
+      "name": "Pillyze - AI Diet Coach",
+      "developer": "Pillyze Inc.",
+      "category": "Health & Fitness",
+      "icon": "https://play-lh.googleusercontent.com/bA-W3-BC0Jg6YGPdt3VY_b4spBgXJao2-myV7LVKS-y3uwgUUoW7OWP2B8ybUSHEx0E",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pillyze.health",
+      "idea_summary": "AI 기반 식단, 운동, 혈당 관리 코치",
       "analysis": {
-        "problem": "물리적 보험증 분실 위험과 휴대 불편함 [확인]",
-        "solution": "스마트폰으로 보험증 기능을 완전 대체 [확인]",
-        "target_user": "건강보험 가입자 전체 국민 [확인]",
-        "unique_point": "정부 공인 디지털 신분증 서비스 [확인]"
+        "problem": "개인맞춤형 건강관리의 복잡성과 전문성 부족 [확인]",
+        "solution": "AI가 개인 데이터를 분석해 맞춤형 건강 코칭 제공 [추론]",
+        "target_user": "당뇨병 환자, 다이어트 중인 사람, 건강관리 관심층 [추론]",
+        "unique_point": "혈당 데이터까지 통합한 종합 건강관리 [추론]"
       },
       "market": {
         "competitors": [
-          "민간 디지털 지갑 앱들",
-          "정부24"
+          "MyFitnessPal",
+          "Glucose Buddy",
+          "Fooducate"
         ],
-        "timing_reason": "디지털 정부 정책과 비대면 서비스 확산 [확인]",
-        "growth_potential": "정부 주도로 확산 속도 빠를 것 [추론]"
+        "timing_reason": "당뇨 인구 증가와 개인맞춤 헬스케어 트렌드 [추론]",
+        "growth_potential": "디지털 헬스케어 시장 급성장 예상 [추론]"
       },
       "business": {
-        "monetization": "정부 서비스로 수익보다는 공공성 목적 [확인]",
-        "pricing_suggestion": "완전 무료 공공 서비스 [확인]",
-        "revenue_potential": "해당없음"
+        "monetization": "구독 모델, 건강 제품 제휴, 의료기관 연계 [추론]",
+        "pricing_suggestion": "월 19,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "8-12개월 [추론]",
-        "estimated_cost": "1억원+ [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
         "tech_stack": [
-          "Android",
-          "보안인증",
-          "블록체인",
-          "생체인증"
+          "Python",
+          "TensorFlow",
+          "React Native",
+          "Firebase"
         ],
         "key_features": [
-          "디지털인증",
-          "QR코드",
-          "병원연동"
+          "AI 분석",
+          "혈당 추적",
+          "식단 추천",
+          "운동 계획"
         ],
-        "clone_tip": "보안 요구사항이 매우 높아 개인 개발 어려움 [추론]"
+        "clone_tip": "의료 데이터 처리와 AI 모델 구축이 핵심 [추론]"
       },
       "scores": {
         "novelty": 4,
@@ -608,35 +483,159 @@
         "timing": 5,
         "tech_difficulty": 2,
         "market_size": 5,
-        "competition": 5,
-        "profitability": 1,
+        "competition": 3,
+        "profitability": 5,
         "scalability": 5,
-        "overall": 8
+        "overall": 8.5
       },
       "tags": [
-        "#정부서비스",
+        "#팀개발권장",
         "#B2C",
-        "#필수앱"
+        "#헬스케어"
       ],
-      "verdict": "디지털 정부의 핵심 인프라 서비스"
+      "verdict": "의료 트렌드를 앞선 고가치 서비스"
+    },
+    {
+      "rank": 4,
+      "name": "Smart PDF Reader & Viewer",
+      "developer": "Olasmg Digital",
+      "category": "Document Management",
+      "icon": "https://play-lh.googleusercontent.com/FobSlTpVPTwk7_s1gWyytRcuAwOmn_bdZ8LVekOMrPnsB9E6lG68Gvqa0tY-xrRzAwwAhQ4dtGZtAcWJ0lzLcA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.smartpdf.viewer",
+      "idea_summary": "AI 기반 스마트 PDF 읽기 도구",
+      "analysis": {
+        "problem": "기존 PDF 리더의 단순 기능과 사용자 경험 한계 [추론]",
+        "solution": "AI로 PDF 내용 요약, 검색, 번역 등 스마트 기능 제공 [추론]",
+        "target_user": "학생, 연구자, 직장인, 문서 업무 종사자 [추론]",
+        "unique_point": "AI 기반 문서 분석과 요약 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "Xodo",
+          "PDF Expert"
+        ],
+        "timing_reason": "원격근무 확산으로 문서 관리 도구 수요 증가 [추론]",
+        "growth_potential": "디지털 문서 증가로 시장 확대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 기업용 라이센스, 광고 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "600-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDF.js",
+          "ML Kit",
+          "OCR"
+        ],
+        "key_features": [
+          "AI 요약",
+          "스마트 검색",
+          "자동 번역",
+          "주석 기능"
+        ],
+        "clone_tip": "PDF 렌더링과 AI 기능 통합이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "AI 시대에 맞는 필수 생산성 도구"
+    },
+    {
+      "rank": 5,
+      "name": "HeyDealer - Used Car Marketplace",
+      "developer": "HeyDealer",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/lIH4tf6ZVKZyiXf-EQ4EU8GBXiTE4n6lIF_d2TbZYPmszuhYln3Wa8AVCMKt3BLOpSjl",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.perfectree.heydealer",
+      "idea_summary": "AI 기반 중고차 시세 분석 마켓플레이스",
+      "analysis": {
+        "problem": "중고차 시세 정보 불투명성과 거래 신뢰성 문제 [확인]",
+        "solution": "AI 기반 정확한 시세 예측과 투명한 거래 플랫폼 [추론]",
+        "target_user": "중고차 구매자, 판매자, 딜러 [추론]",
+        "unique_point": "AI 시세 예측과 거래 투명성 확보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "카카오모빌리티",
+          "엔카",
+          "KB차차차"
+        ],
+        "timing_reason": "중고차 시장 확대와 디지털 거래 선호 증가 [추론]",
+        "growth_potential": "중고차 시장 성장과 함께 플랫폼 시장 확대 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료, 광고, 프리미엄 서비스 [추론]",
+        "pricing_suggestion": "거래당 2-3% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "Machine Learning",
+          "Database"
+        ],
+        "key_features": [
+          "AI 시세 분석",
+          "매물 등록",
+          "거래 중개",
+          "평가 시스템"
+        ],
+        "clone_tip": "데이터 수집과 AI 모델링, 신뢰 시스템 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#팀개발권장",
+        "#B2C",
+        "#커머스"
+      ],
+      "verdict": "한국 중고차 시장의 디지털 혁신 기회"
     }
   ],
   "daily_insight": {
-    "trend_summary": "AI를 활용한 개인화 서비스와 사회 문제 해결 앱이 주목받고 있음. 특히 보안, 건강관리, 금융관리 분야에서 실용적 솔루션이 증가하고 있음.",
+    "trend_summary": "AI 통합과 개인화된 건강관리가 주요 트렌드로 부상하고 있습니다. 사용자의 일상 문제를 AI로 해결하는 실용적 앱들이 증가하고 있습니다.",
     "trend_details": [
-      "AI 기반 개인 맞춤 서비스",
-      "사기방지 보안앱 급증",
-      "일상 루틴 수익화 모델",
-      "모바일 퍼스트 생산성 도구",
-      "디지털 정부 서비스 확산"
+      "AI 기반 개인맞춤 서비스",
+      "헬스케어 디지털화",
+      "생산성 도구의 스마트화",
+      "프라이버시 중심 서비스"
     ],
     "hot_categories": [
-      "보안",
-      "헬스테크",
-      "핀테크",
-      "생산성"
+      "Healthcare",
+      "AI Tools",
+      "Productivity"
     ],
-    "opportunity": "일상의 작은 불편함을 AI로 해결하는 마이크로 솔루션",
-    "action_item": "충동구매 방지나 사기 차단같은 명확한 문제 해결 앱 아이디어 발굴"
+    "opportunity": "AI를 활용한 전문 영역의 대중화 서비스",
+    "action_item": "개인화 AI 서비스 아이디어 발굴 및 프로토타입 제작"
   }
 }
