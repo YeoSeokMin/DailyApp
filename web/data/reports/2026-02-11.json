@@ -1,0 +1,638 @@
+{
+  "date": "2026-02-11",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Oneira - Dream Journal",
+      "developer": "NAZIM EMRE SAVKLI",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/b3/6c/c4b36cd8-99a1-caa5-2e3f-13f3742c77ec/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/oneira-dream-journal/id6757983762?uo=2",
+      "idea_summary": "꿈을 기록하고 AI로 분석하는 드림 저널",
+      "analysis": {
+        "problem": "꿈의 패턴과 의미를 파악하기 어려움 [추론]",
+        "solution": "꿈 기록, 분석, 패턴 인식 기능 제공 [추론]",
+        "target_user": "자기계발, 심리학에 관심있는 20-40대 [추론]",
+        "unique_point": "꿈 전용 저널링과 AI 분석 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Journey Journal",
+          "Reflectly"
+        ],
+        "timing_reason": "멘탈헬스와 자기이해 트렌드 상승 [추론]",
+        "growth_potential": "니치하지만 충성도 높은 사용자층 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 2,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "CoreData",
+          "CloudKit"
+        ],
+        "key_features": [
+          "꿈 기록",
+          "태그/분류",
+          "통계/분석"
+        ],
+        "clone_tip": "심플한 UI와 개인정보 보호 강조 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓"
+      ],
+      "verdict": "독특한 아이디어지만 시장 규모 제한적",
+      "deep_report_id": "ios-oneira-dream-journal-1770735936893"
+    },
+    {
+      "rank": 2,
+      "name": "Cal Shift — Shift Calendar",
+      "developer": "Zhihao Yang",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/4d/60/444d6056-b899-1fae-036b-f9bbf316a874/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/cal-shift-shift-calendar/id6758676304?uo=2",
+      "idea_summary": "교대근무자를 위한 전용 캘린더",
+      "analysis": {
+        "problem": "교대근무 스케줄 관리의 복잡성 [확인]",
+        "solution": "교대근무 패턴 등록, 일정 관리 [추론]",
+        "target_user": "간병사, 공장직, 의료진 등 교대근무자 [확인]",
+        "unique_point": "교대근무 특화 기능과 패턴 자동화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Shift Worker",
+          "Work Shift Calendar",
+          "My Shift Planner"
+        ],
+        "timing_reason": "교대근무 증가와 워라밸 중시 [추론]",
+        "growth_potential": "안정적인 니치 시장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "월 3,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "EventKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "패턴 등록",
+          "알림",
+          "통계"
+        ],
+        "clone_tip": "직관적인 패턴 설정 UI가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#실용성"
+      ],
+      "verdict": "명확한 타겟과 실용성으로 안정적 수익 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Habit Swipe",
+      "developer": "robert dagostino",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/cb/2a/37cb2a06-a2c4-8c0e-e27c-5617fc4d73eb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/habit-swipe/id6751956380?uo=2",
+      "idea_summary": "스와이프로 간단히 습관을 체크하는 앱",
+      "analysis": {
+        "problem": "복잡한 습관 트래커의 사용 부담감 [추론]",
+        "solution": "스와이프 제스처로 초간단 습관 체크 [추론]",
+        "target_user": "습관 형성을 원하는 20-40대 [추론]",
+        "unique_point": "스와이프 UX로 마찰 최소화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Streaks",
+          "Way of Life"
+        ],
+        "timing_reason": "신년 결심과 자기계발 트렌드 [추론]",
+        "growth_potential": "UX 차별화로 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 [추론]",
+        "pricing_suggestion": "월 2,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "200-400만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "WidgetKit"
+        ],
+        "key_features": [
+          "스와이프 체크",
+          "통계",
+          "위젯"
+        ],
+        "clone_tip": "매끄러운 스와이프 애니메이션이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#UX혁신"
+      ],
+      "verdict": "간단한 UX로 차별화된 습관 트래커"
+    },
+    {
+      "rank": 4,
+      "name": "Kapito - Net Worth Tracker",
+      "developer": "Yi Bin Pow",
+      "category": "Finance",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/7f/14/1b7f1488-846d-faa0-c74f-287b17681f3d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/kapito-net-worth-tracker/id6757801866?uo=2",
+      "idea_summary": "개인 순자산 추적 및 분석 도구",
+      "analysis": {
+        "problem": "자산과 부채를 통합 관리하기 어려움 [추론]",
+        "solution": "순자산 계산, 추세 분석, 목표 설정 [추론]",
+        "target_user": "자산 관리에 관심있는 25-45세 [추론]",
+        "unique_point": "순자산 중심의 자산 관리 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Personal Capital",
+          "Mint",
+          "YNAB"
+        ],
+        "timing_reason": "개인 금융 관리 의식 증가 [추론]",
+        "growth_potential": "프리미엄 사용자 확보 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 [추론]",
+        "pricing_suggestion": "월 5,000원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "자산등록",
+          "차트분석",
+          "목표설정"
+        ],
+        "clone_tip": "데이터 보안과 시각화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#금융"
+      ],
+      "verdict": "높은 필요성과 수익성을 가진 금융 앱"
+    },
+    {
+      "rank": 5,
+      "name": "ZM Work Time Track",
+      "developer": "Maksym Zdaniekin",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/5b/80/1d5b8060-30ba-9ec2-0369-07460817e236/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/zm-work-time-track/id6758224459?uo=2",
+      "idea_summary": "업무 시간 추적 및 생산성 관리",
+      "analysis": {
+        "problem": "프리랜서, 원격근무자의 시간 관리 어려움 [추론]",
+        "solution": "시간 추적, 프로젝트별 관리, 리포트 [추론]",
+        "target_user": "프리랜서, 원격근무자, 컨설턴트 [추론]",
+        "unique_point": "간편한 시간 추적과 정확한 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Toggl",
+          "RescueTime",
+          "Clockify"
+        ],
+        "timing_reason": "원격근무 증가와 생산성 관리 필요 [추론]",
+        "growth_potential": "B2B 확장 가능성 높음 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "월 4,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400-700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Timer"
+        ],
+        "key_features": [
+          "시간추적",
+          "프로젝트관리",
+          "리포트"
+        ],
+        "clone_tip": "정확한 시간 측정과 직관적 UI [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "검증된 니즈의 시간 추적 앱, 경쟁 치열"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Katsby(캐츠비) - 리워드형 금융 학습 서비스",
+      "developer": "KIRA & Company Inc",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/X8dglI7WaEXxUJ9kVjygADZiC4KBlKvYrnKNPCutsPkUH9SLPxDNGSXtTlqMTs5uKWJ8nQPCf6fijvz2uRo4",
+      "app_url": "https://play.google.com/store/apps/details?id=com.katsby.android",
+      "idea_summary": "게임화된 금융 교육으로 리워드 제공",
+      "analysis": {
+        "problem": "지루한 금융 교육과 낮은 참여도 [추론]",
+        "solution": "퀴즈, 미션으로 학습하며 리워드 획득 [추론]",
+        "target_user": "금융 지식이 부족한 20-30대 [추론]",
+        "unique_point": "교육과 리워드의 결합으로 동기부여 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "토스",
+          "뱅크샐러드",
+          "핀트"
+        ],
+        "timing_reason": "금융 교육 의무화와 MZ세대 타겟 [추론]",
+        "growth_potential": "정부 지원과 함께 급성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "금융사 제휴, 광고, 프리미엄 [추론]",
+        "pricing_suggestion": "무료 기본 + 제휴 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "Firebase",
+          "게임화"
+        ],
+        "key_features": [
+          "퀴즈시스템",
+          "리워드",
+          "진도관리"
+        ],
+        "clone_tip": "금융 콘텐츠 정확성과 재미 균형 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 9
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#핀테크"
+      ],
+      "verdict": "높은 사회적 가치와 수익성을 가진 에듀테크",
+      "deep_report_id": "android-katsby-캐츠비-리워드형-금융-학습-서비스-1770735987110"
+    },
+    {
+      "rank": 2,
+      "name": "싹다잡아 - 피싱, 스미싱, 큐싱, 보이스피싱 차단",
+      "developer": "PillSang Co., Ltd.",
+      "category": "Tools",
+      "icon": "https://play-lh.googleusercontent.com/_Bpd9gaBWsO-dJvTP2tbeTgG2nHMB0TEQBGGiCedqWFkzxv9kqcIVI5tqSq8833sYr4",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ps.wb",
+      "idea_summary": "각종 사기 전화와 문자를 차단하는 보안앱",
+      "analysis": {
+        "problem": "증가하는 전화 사기와 스미싱 피해 [확인]",
+        "solution": "실시간 사기 번호 차단, 위험 알림 [추론]",
+        "target_user": "사기 피해 우려하는 전 연령층 [확인]",
+        "unique_point": "한국 특화 사기 유형 대응 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "후후",
+          "T전화",
+          "컬러링"
+        ],
+        "timing_reason": "사기 범죄 증가와 사회적 관심 [확인]",
+        "growth_potential": "정부 정책과 연계로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 기업 라이선스 [추론]",
+        "pricing_suggestion": "월 3,000원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "전화차단API",
+          "ML"
+        ],
+        "key_features": [
+          "번호차단",
+          "사기DB",
+          "실시간알림"
+        ],
+        "clone_tip": "정확한 사기 판별과 낮은 오탐이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#보안",
+        "#사회공헌"
+      ],
+      "verdict": "높은 사회적 필요성으로 안정적 성장 가능"
+    },
+    {
+      "rank": 3,
+      "name": "EdgeAura",
+      "developer": "Zachary Holt",
+      "category": "Personalization",
+      "icon": "https://play-lh.googleusercontent.com/ADvRfzeqhSe-s46eco-qq7HmET-Q8n2ndmlPOvbg36mmrJhDBVovB8NarqPLKJ_3TxauHv6XCbj07FsymEO6",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wallpaper.edge.aura",
+      "idea_summary": "화면 가장자리에 특별한 효과를 주는 앱",
+      "analysis": {
+        "problem": "단조로운 스마트폰 화면 디자인 [추론]",
+        "solution": "가장자리 발광, 애니메이션 효과 제공 [추론]",
+        "target_user": "개성 있는 폰 꾸미기 좋아하는 10-20대 [추론]",
+        "unique_point": "엣지 스크린 활용한 독특한 시각효과 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Edge Lighting",
+          "Always On Edge",
+          "Edge Screen"
+        ],
+        "timing_reason": "개인화와 커스터마이징 트렌드 [추론]",
+        "growth_potential": "틈새시장이지만 충성도 높음 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마, 광고 [추론]",
+        "pricing_suggestion": "무료+프리미엄 2,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-600만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "OpenGL",
+          "애니메이션"
+        ],
+        "key_features": [
+          "엣지효과",
+          "커스텀테마",
+          "배터리최적화"
+        ],
+        "clone_tip": "부드러운 애니메이션과 배터리 효율성 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#커스터마이징"
+      ],
+      "verdict": "참신하지만 필요성 낮은 니치 앱"
+    },
+    {
+      "rank": 4,
+      "name": "레시챌레 by 클라시ル - 절약＆레시트 매입앱",
+      "developer": "Kurashiru, Inc.",
+      "category": "Lifestyle",
+      "icon": "https://play-lh.googleusercontent.com/xhqPL7C99bGFHHoGDhgouqWLXLiThILoc4AJXpnp3uVu2HDq9SH7pg2nOvf5H51yndXdSs6pSa7SUm1tNa9p",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.hops",
+      "idea_summary": "영수증을 촬영하면 포인트로 환급해주는 앱",
+      "analysis": {
+        "problem": "버려지는 영수증과 절약 욕구 [추론]",
+        "solution": "영수증 인식으로 포인트 적립, 가계부 [추론]",
+        "target_user": "절약 관심있는 주부, 대학생층 [추론]",
+        "unique_point": "영수증 활용한 새로운 절약 방법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "가계부 앱들",
+          "적립금 앱들"
+        ],
+        "timing_reason": "경제 불안과 절약 트렌드 [추론]",
+        "growth_potential": "마케팅 비용 대비 높은 성장 [추측]"
+      },
+      "business": {
+        "monetization": "제휴업체 수수료, 광고 [추론]",
+        "pricing_suggestion": "무료+제휴 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "OCR",
+          "이미지처리"
+        ],
+        "key_features": [
+          "영수증인식",
+          "포인트적립",
+          "가계부"
+        ],
+        "clone_tip": "정확한 OCR과 제휴사 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#절약",
+        "#OCR"
+      ],
+      "verdict": "혁신적 아이디어와 높은 사용자 가치"
+    },
+    {
+      "rank": 5,
+      "name": "문서뷰어: HWP, Docx, PDF, Xlsx한글어로",
+      "developer": "QR Code Scanner.",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/-ldEKSp8qsOlhJD2jL60eTsUSMgqQNmj5KUpZLPusrNL5BWz7bzauPPFuujkoPe_s6Y",
+      "app_url": "https://play.google.com/store/apps/details?id=all.documentreader.filereader.office.viewer",
+      "idea_summary": "한글(HWP) 포함 모든 문서를 열어보는 뷰어",
+      "analysis": {
+        "problem": "모바일에서 한글파일 열기 어려움 [확인]",
+        "solution": "HWP 포함 모든 문서 형식 지원 [추론]",
+        "target_user": "업무용 문서를 모바일에서 보는 직장인 [확인]",
+        "unique_point": "한국 특화 HWP 완벽 지원 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "WPS Office",
+          "Polaris Office",
+          "Microsoft Office"
+        ],
+        "timing_reason": "모바일 워크와 재택근무 증가 [추론]",
+        "growth_potential": "한국 시장에서 강력한 경쟁력 [추론]"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료+월 3,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "문서렌더링",
+          "HWP파서"
+        ],
+        "key_features": [
+          "다형식지원",
+          "HWP렌더링",
+          "검색기능"
+        ],
+        "clone_tip": "HWP 렌더링 정확도가 승부처 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#한국특화"
+      ],
+      "verdict": "한국 시장 특화로 틈새공략 가능"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "개인화된 생산성 도구와 금융 교육 게임화가 주요 트렌드로 부상하고 있다. 특히 한국 특화 기능을 가진 앱들이 두드러진다.",
+    "trend_details": [
+      "게임화된 교육 콘텐츠",
+      "한국 특화 기능 (HWP, 사기방지)",
+      "개인 데이터 관리 도구",
+      "심플한 UX 설계"
+    ],
+    "hot_categories": [
+      "금융교육",
+      "생산성",
+      "보안"
+    ],
+    "opportunity": "한국 특화 니즈를 해결하면서도 글로벌 확장 가능한 앱",
+    "action_item": "교육과 엔터테인먼트를 결합한 새로운 서비스 모델 검토"
+  }
+}
