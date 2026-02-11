@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-10T15:13:43.854Z",
+  "generatedAt": "2026-02-11T15:13:36.507Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -34,6 +34,31 @@
       "avgScore": 7.32
     },
     {
+      "category": "Personalization",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "EdgeAura"
+      ],
+      "avgScore": 8
+    },
+    {
+      "category": "Tools",
+      "currentCount": 4,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Brightest Flashlight Launcher",
+        "Clean Sweep Toolkit",
+        "RecoverPro-File Recovery",
+        "디지털컴패스"
+      ],
+      "avgScore": 6.949999999999999
+    },
+    {
       "category": "Healthcare/Fitness",
       "currentCount": 2,
       "previousCount": 0,
@@ -44,24 +69,6 @@
         "GutSense: Know your body"
       ],
       "avgScore": 8.25
-    },
-    {
-      "category": "Health & Fitness",
-      "currentCount": 8,
-      "previousCount": 4,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Peace - Breathe, relax, calm",
-        "Pillyze - AI Diet Coach",
-        "Min Max Trainer",
-        "re:mood - 気分の記録と心のグラフ",
-        "MoneyWork - Earn Money by Walking",
-        "Baseline Stress Reset",
-        "AI Habit Buddy: Success Coach",
-        "MoneyWork - Earn money through health management"
-      ],
-      "avgScore": 7.675
     },
     {
       "category": "Utilities",
@@ -84,43 +91,6 @@
         "Open Browser - Smart & Safe"
       ],
       "avgScore": 7
-    },
-    {
-      "category": "Shopping",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "HeyDealer - Used Car Marketplace",
-        "Round - 400k challenges for free shopping"
-      ],
-      "avgScore": 7.9
-    },
-    {
-      "category": "Tools",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Clean Sweep Toolkit",
-        "RecoverPro-File Recovery",
-        "디지털컴패스"
-      ],
-      "avgScore": 6.866666666666667
-    },
-    {
-      "category": "Music",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Song Maker - ToMusic",
-        "Vibeflow: AI Playlists"
-      ],
-      "avgScore": 7.25
     },
     {
       "category": "Photography",
@@ -167,18 +137,6 @@
         "写真の復元とファイルの復元"
       ],
       "avgScore": 7
-    },
-    {
-      "category": "Food & Drink",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Too Good To Go",
-        "CookPal - Recipe Organizer"
-      ],
-      "avgScore": 8.1
     },
     {
       "category": "Social",
@@ -248,63 +206,15 @@
       "avgScore": 7.8
     },
     {
-      "category": "Video Editor",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Pixverse AI Video Generator"
-      ],
-      "avgScore": 8.5
-    },
-    {
-      "category": "Accessibility",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Big Keyboard - Easy Homescreen"
-      ],
-      "avgScore": 7.5
-    }
-  ],
-  "decliningCategories": [
-    {
-      "category": "Education",
-      "currentCount": 4,
-      "previousCount": 7,
-      "changePercent": -43,
-      "changeDirection": "down",
-      "apps": [
-        "Japanese Flow: 2700+ Vocab",
-        "Insect ID: AI Insect Identification",
-        "StudyBits AI",
-        "OwlUp: Learn by Listening"
-      ],
-      "avgScore": 7.425
-    },
-    {
-      "category": "Entertainment",
-      "currentCount": 1,
-      "previousCount": 6,
-      "changePercent": -83,
-      "changeDirection": "down",
-      "apps": [
-        "DishPlay"
-      ],
-      "avgScore": 7.5
-    }
-  ],
-  "stableCategories": [
-    {
       "category": "Productivity",
-      "currentCount": 10,
-      "previousCount": 10,
-      "changePercent": 0,
-      "changeDirection": "stable",
+      "currentCount": 13,
+      "previousCount": 9,
+      "changePercent": 44,
+      "changeDirection": "up",
       "apps": [
+        "Practiat",
+        "Idea Clear",
+        "Gemmy AI: 채팅 & 어시스턴트",
         "ChatAggregator - AI Chat Hub",
         "Genespark AI Workspace",
         "Pricereplacement",
@@ -316,20 +226,102 @@
         "Flow: ADHD Planner for Adults",
         "InkThink - Handwritten Planner"
       ],
-      "avgScore": 7.15
+      "avgScore": 7.292307692307692
+    },
+    {
+      "category": "Utility",
+      "currentCount": 4,
+      "previousCount": 3,
+      "changePercent": 33,
+      "changeDirection": "up",
+      "apps": [
+        "Natural Gas Prices Today",
+        "WarrantyTrack",
+        "ProStruct Build Calculator",
+        "Stamp Snap: 우표 감정 스캐너"
+      ],
+      "avgScore": 7.175
+    }
+  ],
+  "decliningCategories": [
+    {
+      "category": "Education",
+      "currentCount": 4,
+      "previousCount": 7,
+      "changePercent": -43,
+      "changeDirection": "down",
+      "apps": [
+        "Switch Teachers",
+        "Japanese Flow: 2700+ Vocab",
+        "Insect ID: AI Insect Identification",
+        "StudyBits AI"
+      ],
+      "avgScore": 7.55
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 2,
+      "previousCount": 4,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "WePlay - Party Games",
+        "DishPlay"
+      ],
+      "avgScore": 7.6
     },
     {
       "category": "Finance",
-      "currentCount": 3,
-      "previousCount": 3,
+      "currentCount": 2,
+      "previousCount": 4,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Portfolio Tracker: X-Ray",
+        "Triggers - Earn Money Apps"
+      ],
+      "avgScore": 7.85
+    },
+    {
+      "category": "Food & Drink",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Too Good To Go"
+      ],
+      "avgScore": 9.2
+    }
+  ],
+  "stableCategories": [
+    {
+      "category": "Health & Fitness",
+      "currentCount": 7,
+      "previousCount": 7,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Portfolio Tracker: X-Ray",
-        "Triggers - Earn Money Apps",
-        "Cash is my - Charge phone, Charging money earning app"
+        "Walky Talky - Just Talk",
+        "Rollbook: BJJ & NoGi Training",
+        "Peace - Breathe, relax, calm",
+        "Pillyze - AI Diet Coach",
+        "Min Max Trainer",
+        "re:mood - 気分の記録と心のグラフ",
+        "MoneyWork - Earn Money by Walking"
       ],
-      "avgScore": 7.833333333333333
+      "avgScore": 7.5
+    },
+    {
+      "category": "Video Players & Editors",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "AI Video - AI Video Generator"
+      ],
+      "avgScore": 8.5
     },
     {
       "category": "Document Management",
@@ -343,18 +335,15 @@
       "avgScore": 7.5
     },
     {
-      "category": "Utility",
-      "currentCount": 4,
-      "previousCount": 4,
+      "category": "Shopping",
+      "currentCount": 1,
+      "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Natural Gas Prices Today",
-        "WarrantyTrack",
-        "ProStruct Build Calculator",
-        "Stamp Snap: 우표 감정 스캐너"
+        "HeyDealer - Used Car Marketplace"
       ],
-      "avgScore": 7.175
+      "avgScore": 7.8
     },
     {
       "category": "Business",
@@ -364,6 +353,17 @@
       "changeDirection": "stable",
       "apps": [
         "Employ24 - Job Information Service"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Music",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Song Maker - ToMusic"
       ],
       "avgScore": 7
     },
@@ -382,71 +382,19 @@
   ],
   "hotKeywords": [
     {
-      "keyword": "1인개발가능",
-      "category": "tag",
-      "count": 55,
-      "apps": [
-        "Japanese Flow: 2700+ Vocab",
-        "Hearing Aid Sound Amplifier",
-        "ChatAggregator - AI Chat Hub",
-        "Portfolio Tracker: X-Ray",
-        "Peace - Breathe, relax, calm",
-        "Clean Sweep Toolkit",
-        "Smart PDF Reader & Viewer",
-        "Natural Gas Prices Today",
-        "WarrantyTrack",
-        "MyDailyPMS: Period & Mood Tracker",
-        "Relavo - Record × Tag × Rank",
-        "Insect ID: AI Insect Identification",
-        "Scrapa - Fraud Protection App",
-        "Triggers - Earn Money Apps",
-        "Employ24 - Job Information Service",
-        "Min Max Trainer",
-        "MICROAROMA",
-        "Enzo | AI Hair Stylist",
-        "StudyBits AI",
-        "Tokisagu",
-        "DishPlay",
-        "KeepSmilin'",
-        "Too Good To Go",
-        "RecoverPro-File Recovery",
-        "디지털컴패스",
-        "Smart PDF Reader & PDF Viewer",
-        "오늘 나",
-        "Stamp Snap: 우표 감정 스캐너",
-        "Markdown to Image",
-        "GetCommit",
-        "DID. - Habit Tracker",
-        "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
-        "첫화면날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
-        "캘린더 – 아젠다 플래너",
-        "PDF Now - Read PDF",
-        "re:mood - 気分の記録と心のグラフ",
-        "Flow: ADHD Planner for Adults",
-        "GutSense: Know your body",
-        "Bloom: AI photo editor",
-        "InkThink - Handwritten Planner",
-        "Cityconan - Phishing Prevention",
-        "MoneyWork - Earn Money by Walking",
-        "First Screen Weather - Weather Widget",
-        "Vibeflow: AI Playlists",
-        "Baseline Stress Reset",
-        "CookPal - Recipe Organizer",
-        "AI Habit Buddy: Success Coach",
-        "OwlUp: Learn by Listening",
-        "Cash is my - Charge phone, Charging money earning app",
-        "Round - 400k challenges for free shopping",
-        "MoneyWork - Earn money through health management",
-        "Pixverse AI Video Generator",
-        "Big Keyboard - Easy Homescreen"
-      ]
-    },
-    {
       "keyword": "B2C",
       "category": "tag",
       "count": 55,
       "apps": [
+        "Practiat",
+        "Walky Talky - Just Talk",
+        "Rollbook: BJJ & NoGi Training",
+        "Idea Clear",
+        "EdgeAura",
+        "Brightest Flashlight Launcher",
+        "AI Video - AI Video Generator",
+        "Gemmy AI: 채팅 & 어시스턴트",
+        "WePlay - Party Games",
         "Japanese Flow: 2700+ Vocab",
         "Hearing Aid Sound Amplifier",
         "Portfolio Tracker: X-Ray",
@@ -491,23 +439,76 @@
         "Republic of Korea Mobile ID Card",
         "Cityconan - Phishing Prevention",
         "MoneyWork - Earn Money by Walking",
-        "First Screen Weather - Weather Widget",
-        "Vibeflow: AI Playlists",
-        "Baseline Stress Reset",
-        "CookPal - Recipe Organizer",
-        "AI Habit Buddy: Success Coach",
-        "OwlUp: Learn by Listening",
-        "Cash is my - Charge phone, Charging money earning app",
-        "Round - 400k challenges for free shopping",
-        "MoneyWork - Earn money through health management",
-        "Big Keyboard - Easy Homescreen"
+        "First Screen Weather - Weather Widget"
+      ]
+    },
+    {
+      "keyword": "1인개발가능",
+      "category": "tag",
+      "count": 53,
+      "apps": [
+        "Switch Teachers",
+        "Practiat",
+        "Walky Talky - Just Talk",
+        "Rollbook: BJJ & NoGi Training",
+        "Idea Clear",
+        "EdgeAura",
+        "Brightest Flashlight Launcher",
+        "WePlay - Party Games",
+        "Japanese Flow: 2700+ Vocab",
+        "Hearing Aid Sound Amplifier",
+        "ChatAggregator - AI Chat Hub",
+        "Portfolio Tracker: X-Ray",
+        "Peace - Breathe, relax, calm",
+        "Clean Sweep Toolkit",
+        "Smart PDF Reader & Viewer",
+        "Natural Gas Prices Today",
+        "WarrantyTrack",
+        "MyDailyPMS: Period & Mood Tracker",
+        "Relavo - Record × Tag × Rank",
+        "Insect ID: AI Insect Identification",
+        "Scrapa - Fraud Protection App",
+        "Triggers - Earn Money Apps",
+        "Employ24 - Job Information Service",
+        "Min Max Trainer",
+        "MICROAROMA",
+        "Enzo | AI Hair Stylist",
+        "StudyBits AI",
+        "Tokisagu",
+        "DishPlay",
+        "KeepSmilin'",
+        "Too Good To Go",
+        "RecoverPro-File Recovery",
+        "디지털컴패스",
+        "Smart PDF Reader & PDF Viewer",
+        "오늘 나",
+        "Stamp Snap: 우표 감정 스캐너",
+        "Markdown to Image",
+        "GetCommit",
+        "DID. - Habit Tracker",
+        "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
+        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
+        "첫화면날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
+        "캘린더 – 아젠다 플래너",
+        "PDF Now - Read PDF",
+        "re:mood - 気分の記録と心のグラフ",
+        "Flow: ADHD Planner for Adults",
+        "GutSense: Know your body",
+        "Bloom: AI photo editor",
+        "InkThink - Handwritten Planner",
+        "Cityconan - Phishing Prevention",
+        "MoneyWork - Earn Money by Walking",
+        "First Screen Weather - Weather Widget"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 34,
+      "count": 33,
       "apps": [
+        "Rollbook: BJJ & NoGi Training",
+        "AI Video - AI Video Generator",
+        "Gemmy AI: 채팅 & 어시스턴트",
         "Hearing Aid Sound Amplifier",
         "ChatAggregator - AI Chat Hub",
         "Open Browser - Smart & Safe",
@@ -528,17 +529,16 @@
         "Stamp Snap: 우표 감정 스캐너",
         "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
         "Bloom: AI photo editor",
-        "Cityconan - Phishing Prevention",
-        "Vibeflow: AI Playlists",
-        "AI Habit Buddy: Success Coach",
-        "Pixverse AI Video Generator"
+        "Cityconan - Phishing Prevention"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 20,
+      "count": 18,
       "apps": [
+        "Idea Clear",
+        "WePlay - Party Games",
         "Hearing Aid Sound Amplifier",
         "Open Browser - Smart & Safe",
         "Smart PDF Reader & Viewer",
@@ -553,26 +553,22 @@
         "Smart PDF Reader & PDF Viewer",
         "Markdown to Image",
         "Republic of Korea Mobile ID Card",
-        "MoneyWork - Earn Money by Walking",
-        "OwlUp: Learn by Listening",
-        "Cash is my - Charge phone, Charging money earning app",
-        "MoneyWork - Earn money through health management",
-        "Big Keyboard - Easy Homescreen"
+        "MoneyWork - Earn Money by Walking"
       ]
     },
     {
-      "keyword": "헬스케어",
-      "category": "tag",
+      "keyword": "생산성",
+      "category": "productivity",
       "count": 10,
       "apps": [
-        "Hearing Aid Sound Amplifier",
-        "Pillyze - AI Diet Coach",
-        "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
-        "Flow: ADHD Planner for Adults",
-        "GutSense: Know your body",
-        "MoneyWork - Earn Money by Walking",
-        "Baseline Stress Reset",
-        "MoneyWork - Earn money through health management"
+        "Practiat",
+        "Idea Clear",
+        "Smart PDF Reader & Viewer",
+        "Genespark AI Workspace",
+        "QuickDoc: PDF Reader Tools",
+        "Smart PDF Reader & PDF Viewer",
+        "캘린더 – 아젠다 플래너",
+        "InkThink - Handwritten Planner"
       ]
     },
     {
@@ -580,27 +576,39 @@
       "category": "tag",
       "count": 8,
       "apps": [
+        "Switch Teachers",
         "ChatAggregator - AI Chat Hub",
         "Smart PDF Reader & Viewer",
         "Natural Gas Prices Today",
         "Genespark AI Workspace",
         "ProStruct Build Calculator",
         "QuickDoc: PDF Reader Tools",
-        "Markdown to Image",
-        "Pixverse AI Video Generator"
+        "Markdown to Image"
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "productivity",
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 8,
+      "apps": [
+        "Hearing Aid Sound Amplifier",
+        "Pillyze - AI Diet Coach",
+        "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
+        "Flow: ADHD Planner for Adults",
+        "GutSense: Know your body",
+        "MoneyWork - Earn Money by Walking"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
       "count": 7,
       "apps": [
-        "Smart PDF Reader & Viewer",
-        "Genespark AI Workspace",
-        "QuickDoc: PDF Reader Tools",
-        "Smart PDF Reader & PDF Viewer",
-        "캘린더 – 아젠다 플래너",
-        "InkThink - Handwritten Planner"
+        "Walky Talky - Just Talk",
+        "WePlay - Party Games",
+        "DishPlay",
+        "Lemon8 - ライフスタイル情報アプリ",
+        "GetCommit"
       ]
     },
     {
@@ -619,33 +627,21 @@
     {
       "keyword": "핀테크",
       "category": "tag",
-      "count": 5,
+      "count": 4,
       "apps": [
         "Portfolio Tracker: X-Ray",
         "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
-        "dPay - Mobile Payment App",
-        "Cash is my - Charge phone, Charging money earning app"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "DishPlay",
-        "Lemon8 - ライフスタイル情報アプリ",
-        "GetCommit"
+        "dPay - Mobile Payment App"
       ]
     },
     {
       "keyword": "프로",
       "category": "subscription",
-      "count": 4,
+      "count": 3,
       "apps": [
         "Peace - Breathe, relax, calm",
         "ポケットサイン",
-        "re:mood - 気分の記録と心のグラフ",
-        "Baseline Stress Reset"
+        "re:mood - 気分の記録と心のグラフ"
       ]
     },
     {
@@ -669,31 +665,12 @@
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "Lemon8 - ライフスタイル情報アプリ",
-        "OwlUp: Learn by Listening",
-        "Pixverse AI Video Generator"
-      ]
-    },
-    {
-      "keyword": "명상",
-      "category": "health",
-      "count": 2,
-      "apps": [
-        "Peace - Breathe, relax, calm",
-        "Baseline Stress Reset"
-      ]
-    },
-    {
-      "keyword": "라이프스타일",
+      "keyword": "교육",
       "category": "tag",
       "count": 2,
       "apps": [
-        "Clean Sweep Toolkit",
-        "CookPal - Recipe Organizer"
+        "Switch Teachers",
+        "Japanese Flow: 2700+ Vocab"
       ]
     },
     {
@@ -703,15 +680,6 @@
       "apps": [
         "Open Browser - Smart & Safe",
         "Cityconan - Phishing Prevention"
-      ]
-    },
-    {
-      "keyword": "에듀테크",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "StudyBits AI",
-        "OwlUp: Learn by Listening"
       ]
     },
     {
@@ -731,13 +699,22 @@
         "Smart PDF Reader & PDF Viewer",
         "Bloom: AI photo editor"
       ]
+    },
+    {
+      "keyword": "멘탈헬스",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "오늘 나",
+        "re:mood - 気分の記録と心のグラフ"
+      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 33,
-        "percent": 47,
+        "count": 30,
+        "percent": 43,
         "examples": [
           "Hearing Aid Sound Amplifier",
           "Clean Sweep Toolkit",
@@ -745,26 +722,26 @@
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 53,
+        "percent": 76,
         "examples": [
-          "Japanese Flow: 2700+ Vocab",
-          "Hearing Aid Sound Amplifier",
-          "Portfolio Tracker: X-Ray"
+          "Practiat",
+          "Walky Talky - Just Talk",
+          "Rollbook: BJJ & NoGi Training"
         ]
       },
       "subscription": {
         "count": 37,
         "percent": 53,
         "examples": [
-          "Japanese Flow: 2700+ Vocab",
-          "Hearing Aid Sound Amplifier",
-          "ChatAggregator - AI Chat Hub"
+          "Switch Teachers",
+          "Practiat",
+          "Walky Talky - Just Talk"
         ]
       },
       "onetime": {
-        "count": 9,
-        "percent": 13,
+        "count": 6,
+        "percent": 9,
         "examples": [
           "Hearing Aid Sound Amplifier",
           "ProStruct Build Calculator",
@@ -779,12 +756,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 53,
+      "percent": 76,
       "examples": [
-        "Japanese Flow: 2700+ Vocab",
-        "Hearing Aid Sound Amplifier",
-        "Portfolio Tracker: X-Ray"
+        "Practiat",
+        "Walky Talky - Just Talk",
+        "Rollbook: BJJ & NoGi Training"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -793,14 +770,14 @@
     "trends": [
       {
         "tech": "ar_vr",
-        "count": 28,
-        "percent": 40,
+        "count": 26,
+        "percent": 37,
         "apps": [
+          "Idea Clear",
+          "WePlay - Party Games",
           "Hearing Aid Sound Amplifier",
           "Portfolio Tracker: X-Ray",
-          "Open Browser - Smart & Safe",
-          "Smart PDF Reader & Viewer",
-          "HeyDealer - Used Car Marketplace"
+          "Open Browser - Smart & Safe"
         ]
       },
       {
@@ -808,66 +785,65 @@
         "count": 24,
         "percent": 34,
         "apps": [
+          "Rollbook: BJJ & NoGi Training",
+          "AI Video - AI Video Generator",
+          "Gemmy AI: 채팅 & 어시스턴트",
           "Hearing Aid Sound Amplifier",
-          "ChatAggregator - AI Chat Hub",
-          "Open Browser - Smart & Safe",
-          "Pillyze - AI Diet Coach",
-          "Smart PDF Reader & Viewer"
-        ]
-      },
-      {
-        "tech": "health",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "Peace - Breathe, relax, calm",
-          "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
-          "GutSense: Know your body",
-          "MoneyWork - Earn Money by Walking",
-          "MoneyWork - Earn money through health management"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "Smart PDF Reader & PDF Viewer",
-          "Lemon8 - ライフスタイル情報アプリ",
-          "Bloom: AI photo editor",
-          "OwlUp: Learn by Listening",
-          "Pixverse AI Video Generator"
-        ]
-      },
-      {
-        "tech": "subscription",
-        "count": 4,
-        "percent": 6,
-        "apps": [
-          "Peace - Breathe, relax, calm",
-          "ポケットサイン",
-          "re:mood - 気分の記録と心のグラフ",
-          "Baseline Stress Reset"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "DishPlay",
-          "Lemon8 - ライフスタイル情報アプリ",
-          "Round - 400k challenges for free shopping"
+          "ChatAggregator - AI Chat Hub"
         ]
       },
       {
         "tech": "productivity",
-        "count": 3,
-        "percent": 4,
+        "count": 5,
+        "percent": 7,
         "apps": [
+          "Practiat",
+          "Idea Clear",
           "Smart PDF Reader & Viewer",
           "Genespark AI Workspace",
           "캘린더 – 아젠다 플래너"
+        ]
+      },
+      {
+        "tech": "health",
+        "count": 4,
+        "percent": 6,
+        "apps": [
+          "Peace - Breathe, relax, calm",
+          "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
+          "GutSense: Know your body",
+          "MoneyWork - Earn Money by Walking"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 4,
+        "percent": 6,
+        "apps": [
+          "Walky Talky - Just Talk",
+          "WePlay - Party Games",
+          "DishPlay",
+          "Lemon8 - ライフスタイル情報アプリ"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "Smart PDF Reader & PDF Viewer",
+          "Lemon8 - ライフスタイル情報アプリ",
+          "Bloom: AI photo editor"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "Peace - Breathe, relax, calm",
+          "ポケットサイン",
+          "re:mood - 気分の記録と心のグラフ"
         ]
       },
       {
@@ -878,26 +854,18 @@
           "Portfolio Tracker: X-Ray",
           "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출"
         ]
-      },
-      {
-        "tech": "blockchain",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "MoneyWork - Earn money through health management"
-        ]
       }
     ],
     "dominant": {
       "tech": "ar_vr",
-      "count": 28,
-      "percent": 40,
+      "count": 26,
+      "percent": 37,
       "apps": [
+        "Idea Clear",
+        "WePlay - Party Games",
         "Hearing Aid Sound Amplifier",
         "Portfolio Tracker: X-Ray",
-        "Open Browser - Smart & Safe",
-        "Smart PDF Reader & Viewer",
-        "HeyDealer - Used Car Marketplace"
+        "Open Browser - Smart & Safe"
       ]
     },
     "emerging": []
@@ -909,6 +877,20 @@
       "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Security"
+    },
+    {
+      "type": "rising_category",
+      "title": "Personalization 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Personalization"
+    },
+    {
+      "type": "rising_category",
+      "title": "Tools 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Tools"
     },
     {
       "type": "rising_category",
@@ -930,27 +912,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Browser"
-    },
-    {
-      "type": "rising_category",
-      "title": "Shopping 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Shopping"
-    },
-    {
-      "type": "rising_category",
-      "title": "Tools 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Tools"
-    },
-    {
-      "type": "rising_category",
-      "title": "Music 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Music"
     },
     {
       "type": "rising_category",
@@ -979,13 +940,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Image Recovery"
-    },
-    {
-      "type": "rising_category",
-      "title": "Food & Drink 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Food & Drink"
     },
     {
       "type": "rising_category",
@@ -1031,17 +985,10 @@
     },
     {
       "type": "rising_category",
-      "title": "Video Editor 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Utility 카테고리 급부상",
+      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Video Editor"
-    },
-    {
-      "type": "rising_category",
-      "title": "Accessibility 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Accessibility"
+      "category": "Utility"
     },
     {
       "type": "tech_trend",
@@ -1052,18 +999,18 @@
     }
   ],
   "insight": {
-    "trend_summary": "보안과 헬스케어 앱이 급성장하고 있으며, AI 기능 통합이 34%의 앱에서 활용되고 있습니다. 1인 개발자를 위한 B2C 앱 기회가 풍부하며, 프리미엄과 구독 모델이 주류를 이루고 있습니다.",
+    "trend_summary": "보안과 생활편의 앱이 급성장하고 있으며, AI 기능 통합이 필수 트렌드로 자리잡았습니다. 프리미엄 모델이 76%로 가장 높은 비중을 차지하며, 1인 개발자도 충분히 진입 가능한 B2C 시장이 활발합니다.",
     "trend_details": [
-      "보안 앱 200% 급증으로 사이버 보안 인식 확산",
-      "헬스케어/피트니스 앱 100% 성장으로 건강 관리 트렌드 지속",
-      "AI 통합률 34%로 차별화 필수 기능으로 자리잡음"
+      "Security 카테고리 200% 급증으로 사기 방지, 개인정보 보호 앱 수요 폭증",
+      "AI 기능이 34%의 앱에 적용되어 필수 차별화 요소로 부상",
+      "Freemium 모델(76%)과 구독 모델(53%)이 수익화 주류로 확립"
     ],
     "hot_categories": [
       "Security",
-      "Healthcare/Fitness"
+      "Lifestyle"
     ],
-    "opportunity": "보안 카테고리는 200% 성장했지만 앱 수가 적어 1인 개발자가 진입하기 가장 유리한 블루오션 영역입니다.",
-    "action_item": "개인정보 보호나 스마트폰 보안 관련 간단한 유틸리티 앱을 AI 기능과 결합하여 개발하세요.",
-    "weekly_theme": "AI 보안"
+    "opportunity": "Security 카테고리는 200% 성장했지만 앱 수가 적어 사기 방지, 개인정보 보호 솔루션으로 진입 기회가 크다",
+    "action_item": "기존 유틸리티나 생산성 앱에 AI 기능을 추가하고 프리미엄 모델로 수익화 전략을 수립하라",
+    "weekly_theme": "AI 보안 솔루션"
   }
 }
