@@ -3,428 +3,600 @@
   "ios": [
     {
       "rank": 1,
-      "name": "Mona Symptom Tagebuch & Fieber",
-      "developer": "Tom Scheduikat",
-      "category": "Healthcare",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/17/94/1d179467-9582-07cb-3e78-39eede967449/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/mona-symptom-tagebuch-fieber/id6756574546?uo=2",
-      "idea_summary": "AI 기반 증상 추적과 발열 모니터링",
+      "name": "NailGlow - AI Nail Art Design",
+      "developer": "Onur Ugur",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/3f/7d/8e3f7d6c-9c95-af36-7a78-0bda2f981a9c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/nailglow-ai-nail-art-design/id6758894152?uo=2",
+      "idea_summary": "AI가 네일 아트 디자인을 자동 생성하는 앱",
       "analysis": {
-        "problem": "건강 증상을 체계적으로 기록하고 패턴을 파악하기 어려움 [추론]",
-        "solution": "일기 형태의 증상 추적과 발열 로깅 기능 제공 [확인]",
-        "target_user": "만성질환자, 건강관리에 관심있는 일반인 [추론]",
-        "unique_point": "증상과 발열을 함께 추적하는 통합 접근법 [추론]"
+        "problem": "네일 아트 디자인 아이디어 부족과 전문성 요구 [추론]",
+        "solution": "AI가 개인 취향과 트렌드 기반 네일 아트 자동 생성 [추론]",
+        "target_user": "네일 아트에 관심 있는 20-40대 여성 [추론]",
+        "unique_point": "AI 기반 맞춤형 네일 디자인 제안 기능 [추론]"
       },
       "market": {
         "competitors": [
-          "Apple Health",
-          "MySymptoms",
-          "CatchMyPain"
+          "Pinterest",
+          "Instagram",
+          "네일북"
         ],
-        "timing_reason": "포스트 코로나로 개인 건강관리 관심 증가 [추론]",
-        "growth_potential": "디지털 헬스케어 확산으로 높은 성장 가능성 [추론]"
+        "timing_reason": "AI 기술 발전과 개인화 트렌드 증가 [추론]",
+        "growth_potential": "뷰티 AI 시장 성장과 함께 확장 가능 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 구독 모델로 고급 분석 기능 제공 [추론]",
-        "pricing_suggestion": "월 3,000원 구독, 연 30,000원 할인 [추론]",
+        "monetization": "프리미엄 디자인 구독 및 IAP [추론]",
+        "pricing_suggestion": "월 4,900원 구독형 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "800-1200만원 [추론]",
+        "estimated_cost": "2,000-3,000만원 [추론]",
         "tech_stack": [
-          "Swift/SwiftUI",
-          "Core Data",
-          "HealthKit"
-        ],
-        "key_features": [
-          "증상 기록",
-          "발열 추적",
-          "패턴 분석",
-          "알림"
-        ],
-        "clone_tip": "HealthKit 연동으로 차별화하고 의료진과 공유 기능 추가 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 8.6
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#헬스케어"
-      ],
-      "verdict": "개인 건강관리 니즈 증가로 좋은 시장 진입 기회",
-      "deep_report_id": "ios-mona-symptom-tagebuch-fieber-1770995157532"
-    },
-    {
-      "rank": 2,
-      "name": "SmartDietAI",
-      "developer": "Hansa Market SIA",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/88/73/dc887380-f221-851e-1cbe-657be9ae8b54/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/smartdietai/id6751195782?uo=2",
-      "idea_summary": "AI 영양사가 개인 맞춤 식단 계획",
-      "analysis": {
-        "problem": "개인별 체질과 목표에 맞는 식단 계획 수립이 어려움 [추론]",
-        "solution": "AI 기술로 개인 맞춤형 식단과 영양 계획 자동 생성 [추론]",
-        "target_user": "다이어트 중인 사람, 건강관리 관심층 [추론]",
-        "unique_point": "AI 영양사 컨셉으로 전문성과 편의성 결합 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "MyFitnessPal",
-          "Noom",
-          "Yazio"
-        ],
-        "timing_reason": "AI 기술 발전과 개인화 트렌드 확산 [추론]",
-        "growth_potential": "글로벌 다이어트 앱 시장 지속 성장 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독으로 고급 AI 분석 기능 제공 [추론]",
-        "pricing_suggestion": "월 9,900원, 연 79,000원 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "1500-2000만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "Core ML",
-          "OpenAI API",
+          "React Native",
+          "TensorFlow",
           "Firebase"
         ],
         "key_features": [
-          "AI 식단 계획",
-          "영양 분석",
-          "칼로리 추적",
-          "진행상황 모니터링"
+          "AI 디자인 생성",
+          "AR 시뮬레이션",
+          "커뮤니티"
         ],
-        "clone_tip": "한국 음식 데이터베이스 구축과 배달앱 연동 필수 [추론]"
+        "clone_tip": "오픈소스 이미지 생성 AI 모델 활용 [추론]"
       },
       "scores": {
-        "novelty": 4,
+        "novelty": 5,
         "necessity": 4,
         "timing": 5,
         "tech_difficulty": 3,
-        "market_size": 5,
-        "competition": 2,
+        "market_size": 4,
+        "competition": 4,
         "profitability": 4,
-        "scalability": 5,
-        "overall": 8.4
+        "scalability": 4,
+        "overall": 8.8
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
         "#AI"
       ],
-      "verdict": "AI 트렌드와 헬스케어 니즈가 만나는 유망한 영역"
+      "verdict": "뷰티테크 시장의 새로운 니치, AI 기술로 차별화 가능",
+      "deep_report_id": "ios-nailglow-ai-nail-art-design-1771027539995"
     },
     {
-      "rank": 3,
-      "name": "Splitter: Vocal &Music Remover",
-      "developer": "俊鹏 位",
-      "category": "Utility",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/0b/7e/a10b7e90-4a25-104b-d4ee-5881069971a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/splitter-vocal-music-remover/id6756204907?uo=2",
-      "idea_summary": "AI로 음성과 배경음악 분리하는 도구",
+      "rank": 2,
+      "name": "Imani - track your faith",
+      "developer": "Masood Abdul Salam",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/e7/76/5fe7761b-8da3-638e-4a20-336c351d0577/AppIcon-0-1x_U007ephone-0-1-85-220-0.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/imani-track-your-faith/id6758960543?uo=2",
+      "idea_summary": "신앙 생활을 체계적으로 추적 관리하는 앱",
       "analysis": {
-        "problem": "노래방용 반주나 리믹스 제작시 보컬 제거가 어려움 [추론]",
-        "solution": "AI 기술로 음성과 악기를 정확하게 분리 [추론]",
-        "target_user": "음악 창작자, 노래방 애호가, DJ [추론]",
-        "unique_point": "모바일에서 즉시 보컬 분리 가능한 편의성 [추론]"
+        "problem": "개인 신앙 생활의 일관성 유지와 성장 추적 어려움 [추론]",
+        "solution": "기도, 성경 읽기, 종교 활동을 습관으로 추적 관리 [추론]",
+        "target_user": "종교적 신념을 가진 20-50대 신도 [추론]",
+        "unique_point": "신앙 성장을 데이터화하여 시각화하는 접근 [추론]"
       },
       "market": {
         "competitors": [
-          "Spleeter",
-          "LALAL.AI",
-          "Vocal Remover Pro"
+          "YouVersion Bible",
+          "PrayerMate",
+          "Catholic Prayer"
         ],
-        "timing_reason": "AI 오디오 처리 기술 발전과 창작자 경제 확산 [추론]",
-        "growth_potential": "숏폼 콘텐츠 증가로 수요 확대 [추론]"
+        "timing_reason": "개인 영성과 웰빙에 대한 관심 증가 [추론]",
+        "growth_potential": "전 세계 종교인 대상으로 확장성 높음 [추론]"
       },
       "business": {
-        "monetization": "처리 횟수 제한과 프리미엄 품질 옵션 [추론]",
-        "pricing_suggestion": "월 4,900원, 건당 500원 [추론]",
+        "monetization": "프리미엄 기능 구독 및 기부 [추론]",
+        "pricing_suggestion": "월 2,900원 기본 플랜 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "500-800만원 [추론]",
+        "estimated_cost": "1,500-2,000만원 [추론]",
         "tech_stack": [
-          "Swift",
-          "AVAudioEngine",
-          "Core ML",
-          "FFmpeg"
+          "Flutter",
+          "Firebase",
+          "SQLite"
         ],
         "key_features": [
-          "보컬 제거",
-          "악기 분리",
-          "품질 조절",
-          "파일 내보내기"
+          "습관 추적",
+          "진행률 분석",
+          "커뮤니티"
         ],
-        "clone_tip": "클라우드 처리로 성능 향상하고 배치 처리 지원 [추론]"
+        "clone_tip": "기존 습관 추적 앱 구조 활용하여 종교 특화 [추론]"
       },
       "scores": {
-        "novelty": 3,
+        "novelty": 4,
         "necessity": 4,
         "timing": 4,
-        "tech_difficulty": 4,
+        "tech_difficulty": 5,
         "market_size": 3,
-        "competition": 3,
+        "competition": 4,
         "profitability": 3,
         "scalability": 4,
-        "overall": 7.4
+        "overall": 7.8
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#오디오"
+        "#Lifestyle"
       ],
-      "verdict": "니치하지만 명확한 수요가 있는 실용적 도구"
+      "verdict": "종교 커뮤니티 특화된 안정적인 니치 시장"
     },
     {
-      "rank": 4,
-      "name": "Termix Note",
-      "developer": "Jens Koster",
-      "category": "Utility",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/68/63/da686362-ada4-378a-21f5-289dc3c8adab/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/termix-note/id6759050657?uo=2",
-      "idea_summary": "터미널 스타일 노트앱으로 개발자 친화적",
+      "rank": 3,
+      "name": "MaterialFlow",
+      "developer": "Artem Solovchuk",
+      "category": "Work Efficiency",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/63/d5/a363d5bc-0c6e-798b-88d8-ff80ec829ad3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/materialflow/id6758948611?uo=2",
+      "idea_summary": "자재 흐름과 재고를 실시간 추적하는 앱",
       "analysis": {
-        "problem": "개발자들이 일반 노트앱은 코드 작성에 부적합함 [추론]",
-        "solution": "터미널 UI와 개발자 친화적 기능을 가진 노트앱 [추론]",
-        "target_user": "개발자, 시스템 관리자, 터미널 사용자 [추론]",
-        "unique_point": "터미널 감성과 노트 기능의 독특한 결합 [추론]"
+        "problem": "중소기업의 자재 관리와 재고 추적의 복잡성 [추론]",
+        "solution": "직관적인 모바일 인터페이스로 자재 흐름 시각화 [추론]",
+        "target_user": "제조업, 건설업 중소기업 관리자 [추론]",
+        "unique_point": "모바일 최적화된 간단한 자재 관리 솔루션 [추론]"
       },
       "market": {
         "competitors": [
-          "Bear",
-          "Notion",
-          "Obsidian"
+          "SAP",
+          "Oracle WMS",
+          "inFlow Inventory"
         ],
-        "timing_reason": "개발자 도구 시장 확장과 니치 앱 선호도 증가 [추론]",
-        "growth_potential": "타겟이 명확하지만 시장 규모는 제한적 [추론]"
+        "timing_reason": "중소기업 디지털화와 모바일 워크플로우 증가 [추론]",
+        "growth_potential": "중소기업 B2B 시장 확장 가능성 높음 [추론]"
       },
       "business": {
-        "monetization": "일회성 구매 또는 프로 기능 구독 [추론]",
-        "pricing_suggestion": "앱 5,000원, 프로 월 2,000원 [추론]",
-        "revenue_potential": "하"
+        "monetization": "월 구독료 및 기업 맞춤 솔루션 [추론]",
+        "pricing_suggestion": "월 49,000원 기업용 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "400-600만원 [추론]",
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "3,000-5,000만원 [추론]",
         "tech_stack": [
-          "SwiftUI",
-          "Core Data",
-          "Syntax Highlighting"
+          "React Native",
+          "Node.js",
+          "PostgreSQL"
         ],
         "key_features": [
-          "터미널 UI",
-          "코드 하이라이팅",
-          "마크다운",
-          "Git 연동"
+          "실시간 추적",
+          "QR코드 스캔",
+          "분석 대시보드"
         ],
-        "clone_tip": "플러그인 시스템과 테마 커스터마이징으로 차별화 [추론]"
+        "clone_tip": "오픈소스 ERP 모듈을 모바일에 특화하여 간소화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#B2B",
+        "#중소기업",
+        "#제조업"
+      ],
+      "verdict": "중소기업 대상 실용적 솔루션, B2B 수익성 높음"
+    },
+    {
+      "rank": 4,
+      "name": "One Ritual",
+      "developer": "伟基 陶",
+      "category": "Work Efficiency",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/c4/d7/d1c4d792-828c-b72a-ce61-f057036f6bc5/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/one-ritual/id6758465304?uo=2",
+      "idea_summary": "하루 하나의 핵심 루틴에 집중하는 앱",
+      "analysis": {
+        "problem": "복잡한 습관 관리 앱들의 과부하와 포기율 높음 [추론]",
+        "solution": "하루 한 가지 핵심 루틴에만 집중하는 미니멀 접근 [추론]",
+        "target_user": "단순함을 추구하는 20-40대 직장인 [추론]",
+        "unique_point": "복잡성 제거한 극도로 단순한 하나 루틴 집중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Streaks",
+          "Habitica",
+          "Way of Life"
+        ],
+        "timing_reason": "미니멀 라이프스타일과 집중력 문화 확산 [추론]",
+        "growth_potential": "단순함 선호 트렌드로 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능 및 테마 [추론]",
+        "pricing_suggestion": "월 1,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "800-1,200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "WidgetKit"
+        ],
+        "key_features": [
+          "하나 루틴 추적",
+          "위젯 지원",
+          "진행률 시각화"
+        ],
+        "clone_tip": "기존 습관 앱에서 기능 대폭 제거하여 단순화 [추론]"
       },
       "scores": {
         "novelty": 4,
         "necessity": 3,
-        "timing": 3,
-        "tech_difficulty": 3,
-        "market_size": 2,
-        "competition": 4,
-        "profitability": 2,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
         "scalability": 3,
-        "overall": 6.8
+        "overall": 7
       },
       "tags": [
         "#1인개발가능",
-        "#B2B",
-        "#개발자도구"
+        "#미니멀",
+        "#습관관리"
       ],
-      "verdict": "독특하지만 매우 니치한 시장으로 수익성 제한적"
+      "verdict": "미니멀 트렌드에 부합하는 단순한 차별화 포인트"
     },
     {
       "rank": 5,
-      "name": "Peak Life",
-      "developer": "EndoMedical Inc",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/1d/b6/cd1db6e5-0268-d2f1-2dfc-7b603806debb/PeakAppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/peak-life/id6756062470?uo=2",
-      "idea_summary": "최적의 생활 패턴으로 건강 피크 달성",
+      "name": "EVOX",
+      "developer": "EVOKS, OSOO",
+      "category": "Navigation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/84/44/8e84449f-ac1b-428c-6f83-24292efcb35c/AppIcon-evox-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/evox/id6758615324?uo=2",
+      "idea_summary": "음성 중심의 스마트 내비게이션 앱",
       "analysis": {
-        "problem": "개인별 최적의 운동과 생활 패턴을 찾기 어려움 [추론]",
-        "solution": "데이터 기반으로 개인 최적화된 피트니스 관리 [추론]",
-        "target_user": "피트니스 관심층, 건강 최적화 추구자 [추론]",
-        "unique_point": "피크 퍼포먼스 달성에 초점을 맞춘 접근법 [추론]"
+        "problem": "운전 중 화면 조작의 위험성과 복잡한 UI [추론]",
+        "solution": "완전 음성 제어 기반의 안전한 내비게이션 [추론]",
+        "target_user": "안전 운전을 중시하는 모든 연령대 운전자 [추론]",
+        "unique_point": "음성 인터페이스에 완전 특화된 내비게이션 [추론]"
       },
       "market": {
         "competitors": [
-          "Fitbit",
-          "MyFitnessPal",
-          "Strava"
+          "Google Maps",
+          "Waze",
+          "Apple Maps"
         ],
-        "timing_reason": "개인 최적화와 바이오해킹 트렌드 확산 [추론]",
-        "growth_potential": "프리미엄 피트니스 시장 성장세 [추론]"
+        "timing_reason": "자율주행과 음성 AI 기술 발전 시기 [추론]",
+        "growth_potential": "음성 인터페이스 보편화로 확장성 높음 [추론]"
       },
       "business": {
-        "monetization": "구독 기반 프리미엄 분석과 코칭 [추론]",
-        "pricing_suggestion": "월 12,000원, 연 120,000원 [추론]",
-        "revenue_potential": "중"
+        "monetization": "프리미엄 음성 기능 및 광고 [추론]",
+        "pricing_suggestion": "월 3,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "1000-1500만원 [추론]",
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "5,000-8,000만원 [추론]",
         "tech_stack": [
-          "Swift",
-          "HealthKit",
-          "Core ML",
-          "Charts"
+          "Native iOS",
+          "Speech Framework",
+          "MapKit"
         ],
         "key_features": [
-          "생체데이터 분석",
-          "최적화 추천",
-          "진행상황 추적",
-          "개인화 코칭"
+          "음성 인식",
+          "TTS",
+          "오프라인 지도"
         ],
-        "clone_tip": "웨어러블 기기 연동과 AI 코칭 강화로 차별화 [추론]"
+        "clone_tip": "오픈소스 음성 인식 라이브러리와 지도 API 결합 [추론]"
       },
       "scores": {
-        "novelty": 3,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 4,
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
         "competition": 2,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7.2
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
       },
       "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#피트니스"
+        "#음성AI",
+        "#안전운전",
+        "#내비게이션"
       ],
-      "verdict": "경쟁이 치열하지만 개인화 트렌드로 기회 있음"
+      "verdict": "거대 플랫폼 대비 안전성 특화로 차별화 가능"
     }
   ],
   "android": [
     {
       "rank": 1,
-      "name": "Document Editor - PDF Scanner",
-      "developer": "FH.Studio",
-      "category": "Document Management",
-      "icon": "https://play-lh.googleusercontent.com/6yLy3WZaC1jfNGOUMKku0UpGx3wCMGJ9hQOD2IWLRxGNT8uxnqCdlRNV1JT2NJSs3jc",
-      "app_url": "https://play.google.com/store/apps/details?id=com.bloodapppro904b.com",
-      "idea_summary": "올인원 문서 편집과 PDF 스캔 솔루션",
+      "name": "AI Video Maker with Music",
+      "developer": "Aquaworld Infotech",
+      "category": "Video Creation",
+      "icon": "https://play-lh.googleusercontent.com/Qr-bfli9ZUUROrie9NlHv37YREy35DjiyBMqcU3Wh5AbQWPfv8gMHB41GX7Wpf9F6-Qx11xeKwY4Z0ntZbSyMw",
+      "app_url": "https://play.google.com/store/apps/details?id=slideshow.video.status.maker.videomaker",
+      "idea_summary": "AI가 음악과 함께 자동으로 비디오를 제작하는 앱",
       "analysis": {
-        "problem": "문서 스캔과 편집을 위해 여러 앱을 사용해야 하는 불편함 [추론]",
-        "solution": "스캔부터 편집까지 하나의 앱에서 완전 해결 [추론]",
-        "target_user": "직장인, 학생, 프리랜서 [추론]",
-        "unique_point": "스캔과 편집 기능의 완벽한 통합 [추론]"
+        "problem": "동영상 편집의 복잡성과 시간 소요 문제 [추론]",
+        "solution": "사진만 업로드하면 AI가 음악과 함께 자동 편집 [추론]",
+        "target_user": "SNS 콘텐츠 제작하는 10-30대 일반인 [추론]",
+        "unique_point": "완전 자동화된 AI 비디오 제작 프로세스 [추론]"
       },
       "market": {
         "competitors": [
-          "CamScanner",
-          "Adobe Scan",
-          "Microsoft Lens"
+          "InShot",
+          "CapCut",
+          "Canva"
         ],
-        "timing_reason": "재택근무 확산으로 모바일 문서 처리 수요 증가 [추론]",
-        "growth_potential": "디지털 문서화 트렌드로 지속 성장 [추론]"
+        "timing_reason": "숏폼 콘텐츠 폭발과 AI 생성 기술 성숙 [추론]",
+        "growth_potential": "크리에이터 이코노미 성장과 함께 확장 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 편집 기능과 클라우드 저장소 [추론]",
-        "pricing_suggestion": "월 4,900원, 연 39,000원 [추론]",
+        "monetization": "프리미엄 템플릿 구독 및 워터마크 제거 [추론]",
+        "pricing_suggestion": "월 5,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "3,000-4,000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "FFmpeg",
+          "TensorFlow"
+        ],
+        "key_features": [
+          "AI 편집",
+          "음악 동기화",
+          "템플릿 시스템"
+        ],
+        "clone_tip": "오픈소스 비디오 처리 라이브러리와 AI 모델 조합 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 9
+      },
+      "tags": [
+        "#1인개발가능",
+        "#AI",
+        "#숏폼",
+        "#크리에이터"
+      ],
+      "verdict": "AI 자동화로 비디오 편집 시장의 새로운 패러다임",
+      "deep_report_id": "android-ai-video-maker-with-music-1771027597129"
+    },
+    {
+      "rank": 2,
+      "name": "EdgeAura",
+      "developer": "Zachary Holt",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/ADvRfzeqhSe-s46eco-qq7HmET-Q8n2ndmlPOvbg36mmrJhDBVovB8NarqPLKJ_3TxauHv6XCbj07FsymEO6",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wallpaper.edge.aura",
+      "idea_summary": "화면 가장자리에 AI 기반 생산성 도구 제공",
+      "analysis": {
+        "problem": "멀티태스킹 시 앱 전환의 번거로움과 집중력 분산 [추론]",
+        "solution": "화면 가장자리 스와이프로 즉시 접근 가능한 AI 도구 [추론]",
+        "target_user": "멀티태스킹이 많은 20-40대 지식근로자 [추론]",
+        "unique_point": "엣지 인터페이스와 AI 기능의 혁신적 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Pie Control",
+          "Edge Gestures",
+          "Sidebar"
+        ],
+        "timing_reason": "폴더블폰 확산과 멀티태스킹 니즈 증가 [추론]",
+        "growth_potential": "AI 어시스턴트 시장과 연동하여 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능 구독 및 커스텀 위젯 [추론]",
+        "pricing_suggestion": "월 4,900원 프로 플랜 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "800-1200만원 [추론]",
+        "estimated_cost": "2,500-3,500만원 [추론]",
         "tech_stack": [
           "Kotlin",
-          "OpenCV",
-          "PDFBox",
+          "FloatingWindow",
           "ML Kit"
         ],
         "key_features": [
-          "문서 스캔",
-          "PDF 편집",
-          "OCR",
-          "클라우드 동기화"
+          "엣지 제스처",
+          "AI 어시스턴트",
+          "퀵 액션"
         ],
-        "clone_tip": "AI 자동 보정과 다국어 OCR 지원으로 차별화 [추론]"
+        "clone_tip": "Android Accessibility Service 활용한 오버레이 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#AI",
+        "#UX혁신"
+      ],
+      "verdict": "독창적인 인터페이스로 생산성 도구 시장 차별화"
+    },
+    {
+      "rank": 3,
+      "name": "Cleanup: Phone Storage Cleaner",
+      "developer": "Deep Flow Apps",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/ch_hRY59cDYlQrI-Utveqytsnu3rsMbhWeZWnX8AFLj4nW-CqA0BGl8EFxkk4Lz8DzEorfag343uFRgVPWCQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.storage.androidcleaner",
+      "idea_summary": "지능형 폰 저장공간 정리 및 최적화 앱",
+      "analysis": {
+        "problem": "스마트폰 저장공간 부족과 성능 저하 문제 [추론]",
+        "solution": "AI 기반 중요도 분석으로 안전한 자동 정리 [추론]",
+        "target_user": "저장공간 부족을 겪는 모든 스마트폰 사용자 [추론]",
+        "unique_point": "AI가 파일 중요도를 판단하여 안전한 정리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CCleaner",
+          "Clean Master",
+          "Files by Google"
+        ],
+        "timing_reason": "스마트폰 용량 증가보다 빠른 데이터 축적 [추론]",
+        "growth_potential": "전 세계 안드로이드 사용자 대상 확장성 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 2,900원 광고 제거 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "1,500-2,500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Storage API",
+          "ML Kit"
+        ],
+        "key_features": [
+          "스마트 스캔",
+          "안전 삭제",
+          "성능 모니터링"
+        ],
+        "clone_tip": "Android Storage API와 파일 분류 ML 모델 활용 [추론]"
       },
       "scores": {
         "novelty": 3,
         "necessity": 5,
-        "timing": 5,
+        "timing": 4,
         "tech_difficulty": 4,
         "market_size": 5,
         "competition": 2,
         "profitability": 4,
         "scalability": 5,
-        "overall": 8.6
+        "overall": 8
       },
       "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#생산성"
+        "#유틸리티",
+        "#AI",
+        "#대중적"
       ],
-      "verdict": "실용성 높은 필수 도구로 안정적 수익 기대",
-      "deep_report_id": "android-document-editor-pdf-scanner-1770995209567"
+      "verdict": "보편적 니즈를 AI로 개선한 실용적 솔루션"
     },
     {
-      "rank": 2,
-      "name": "AI Video Maker With Music",
-      "developer": "Aquaworld Infotech",
-      "category": "Video Creation",
-      "icon": "https://play-lh.googleusercontent.com/Qr-bfli9ZUUROrie9NlHv37YREy35DjiyBMqcU3Wh5AbQWPfv8gMHB41GX7Wpf9F6-Qx11xeKwY4Z0ntZbSyMw",
-      "app_url": "https://play.google.com/store/apps/details?id=slideshow.video.status.maker.videomaker",
-      "idea_summary": "AI가 음악과 함께 비디오를 자동 제작",
+      "rank": 4,
+      "name": "dPay - Mobile Payment App",
+      "developer": "NTT DOCOMO",
+      "category": "Finance",
+      "icon": "https://play-lh.googleusercontent.com/wjJtDqBBuFNWOwTzpEQSYIeJQ_ENr5Iuoe7DskzVO7lV2VjBZiQtN9p_Jy_K6x0o3tA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.nttdocomo.keitai.payment",
+      "idea_summary": "통신사 기반 모바일 결제 시스템",
       "analysis": {
-        "problem": "전문적인 비디오 편집 지식 없이 고품질 영상 제작 어려움 [추론]",
-        "solution": "AI가 음악에 맞춰 자동으로 비디오 편집과 효과 적용 [추론]",
-        "target_user": "소셜미디어 크리에이터, 마케터, 일반 사용자 [추론]",
-        "unique_point": "음악 박자에 맞춘 AI 자동 편집 [추론]"
+        "problem": "기존 결제 앱들의 복잡한 인증과 수수료 부담 [추론]",
+        "solution": "통신사 인프라 활용한 간편하고 저렴한 결제 [추론]",
+        "target_user": "간편 결제를 선호하는 모든 연령대 [추론]",
+        "unique_point": "통신사 연동으로 별도 인증 없는 원터치 결제 [추론]"
       },
       "market": {
         "competitors": [
-          "CapCut",
-          "InShot",
-          "KineMaster"
+          "PayPay",
+          "카카오페이",
+          "Samsung Pay"
         ],
-        "timing_reason": "숏폼 콘텐츠 폭발적 증가와 AI 편집 기술 발전 [추론]",
-        "growth_potential": "크리에이터 경제 확장으로 높은 성장 잠재력 [추론]"
+        "timing_reason": "디지털 결제 확산과 핀테크 경쟁 심화 [추론]",
+        "growth_potential": "통신사 고객 기반으로 빠른 확산 가능 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 템플릿과 무제한 내보내기 [추론]",
-        "pricing_suggestion": "월 7,900원, 연 59,000원 [추론]",
+        "monetization": "거래 수수료 및 가맹점 수수료 [추론]",
+        "pricing_suggestion": "거래당 0.5% 수수료 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "1500-2500만원 [추론]",
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "1억-2억원 [추론]",
         "tech_stack": [
           "Kotlin",
-          "FFmpeg",
-          "TensorFlow",
-          "OpenAI API"
+          "Secure Element",
+          "통신사 API"
         ],
         "key_features": [
-          "AI 자동 편집",
-          "음악 동기화",
-          "템플릿",
-          "효과"
+          "NFC 결제",
+          "QR 결제",
+          "통신요금 연동"
         ],
-        "clone_tip": "한국 트렌드 음악 연동과 K-pop 템플릿 특화 [추론]"
+        "clone_tip": "기존 결제 SDK와 통신사 API 연동으로 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#핀테크",
+        "#B2C",
+        "#대기업연계"
+      ],
+      "verdict": "통신사 인프라 활용한 안정적이지만 경쟁 치열"
+    },
+    {
+      "rank": 5,
+      "name": "PhotoVerse AI Photo Editor",
+      "developer": "MultiVerse Technologies",
+      "category": "Photo Editing",
+      "icon": "https://play-lh.googleusercontent.com/wph1pgfVhrvUHWcuunqEw_1BJlZUw9__FTCZ_5QfF9R6Mksj_WmBbPje5tc4rZslST9P",
+      "app_url": "https://play.google.com/store/apps/details?id=com.decentapps.backgrounderaser.backgroundchanger",
+      "idea_summary": "AI 기반 사진 편집 및 배경 제거 전문 앱",
+      "analysis": {
+        "problem": "전문적 사진 편집 도구의 복잡성과 학습 곡선 [추론]",
+        "solution": "AI가 원클릭으로 전문가 수준 편집 결과 제공 [추론]",
+        "target_user": "SNS 활동하는 10-30대와 소상공인 [추론]",
+        "unique_point": "배경 제거에 특화된 AI 엔진과 자동 보정 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Remove.bg",
+          "PhotoRoom",
+          "Canva"
+        ],
+        "timing_reason": "이커머스와 SNS 콘텐츠 제작 수요 급증 [추론]",
+        "growth_potential": "크리에이터 경제와 온라인 쇼핑 성장 연동 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능 구독 및 고해상도 다운로드 [추론]",
+        "pricing_suggestion": "월 3,900원 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "2,000-3,000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "TensorFlow Lite",
+          "OpenCV"
+        ],
+        "key_features": [
+          "AI 배경제거",
+          "자동보정",
+          "템플릿 시스템"
+        ],
+        "clone_tip": "오픈소스 이미지 세그멘테이션 모델 모바일 최적화 [추론]"
       },
       "scores": {
         "novelty": 4,
@@ -432,220 +604,33 @@
         "timing": 5,
         "tech_difficulty": 3,
         "market_size": 5,
-        "competition": 2,
+        "competition": 3,
         "profitability": 4,
         "scalability": 5,
-        "overall": 8.4
+        "overall": 8.6
       },
       "tags": [
         "#1인개발가능",
-        "#B2C",
-        "#AI"
+        "#AI",
+        "#크리에이터도구"
       ],
-      "verdict": "숏폼 시대 필수 도구로 높은 시장 잠재력"
-    },
-    {
-      "rank": 3,
-      "name": "Smart Photo Clean",
-      "developer": "Similia Limited",
-      "category": "Photo Editing",
-      "icon": "https://play-lh.googleusercontent.com/klSw4JUyaotunHZHTedu-Herjca1ylc-npQ5GxCV03xXWsWsdNsXZpYpW8r74tOKV555KTl_WDSdS7TthZ43LKk",
-      "app_url": "https://play.google.com/store/apps/details?id=spc.smart.photo.clean",
-      "idea_summary": "AI로 사진 속 불필요한 객체 자동 제거",
-      "analysis": {
-        "problem": "사진에서 방해 요소나 불필요한 객체 제거가 어려움 [추론]",
-        "solution": "AI 기술로 한 번의 터치로 객체를 자연스럽게 제거 [추론]",
-        "target_user": "소셜미디어 사용자, 사진 애호가, 블로거 [추론]",
-        "unique_point": "간단한 터치만으로 전문적인 사진 보정 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "TouchRetouch",
-          "Adobe Photoshop",
-          "Snapseed"
-        ],
-        "timing_reason": "소셜미디어 문화 확산과 AI 이미지 처리 기술 발전 [추론]",
-        "growth_potential": "사진 편집 앱 시장 지속 성장 [추론]"
-      },
-      "business": {
-        "monetization": "처리 횟수 제한과 고급 기능 구독 [추론]",
-        "pricing_suggestion": "월 3,900원, 건당 300원 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "800-1200만원 [추론]",
-        "tech_stack": [
-          "Kotlin",
-          "TensorFlow Lite",
-          "OpenCV",
-          "ML Kit"
-        ],
-        "key_features": [
-          "객체 제거",
-          "배경 치환",
-          "일괄 처리",
-          "품질 조절"
-        ],
-        "clone_tip": "실시간 프리뷰와 언두/리두 기능으로 사용성 향상 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7.6
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#사진편집"
-      ],
-      "verdict": "실용적이고 수요가 명확한 사진 편집 도구"
-    },
-    {
-      "rank": 4,
-      "name": "QR & Barcode Scanner",
-      "developer": "Gamma Play",
-      "category": "Scanning",
-      "icon": "https://play-lh.googleusercontent.com/nJcgTrETflv8liaA-3zrv7po7NyfKDMpMswbazxx6oWGnNAzT4D1mPniyX0nOrE-YnaV",
-      "app_url": "https://play.google.com/store/apps/details?id=com.gamma.scan",
-      "idea_summary": "빠르고 정확한 QR코드와 바코드 스캐너",
-      "analysis": {
-        "problem": "기본 카메라 앱의 QR 스캔 기능이 느리고 부정확함 [추론]",
-        "solution": "최적화된 스캔 엔진으로 빠르고 정확한 인식 [추론]",
-        "target_user": "모든 스마트폰 사용자, 쇼핑객, 비즈니스 사용자 [추론]",
-        "unique_point": "초고속 스캔과 히스토리 관리 기능 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "QR Code Reader",
-          "Barcode Scanner",
-          "기본 카메라"
-        ],
-        "timing_reason": "QR결제와 디지털 전환 가속화 [추론]",
-        "growth_potential": "QR코드 사용 확산으로 꾸준한 수요 [추론]"
-      },
-      "business": {
-        "monetization": "광고 기반과 프리미엄 기능 [추론]",
-        "pricing_suggestion": "광고 제거 2,000원, 프로 기능 월 1,000원 [추론]",
-        "revenue_potential": "하"
-      },
-      "dev_insight": {
-        "estimated_period": "1-2개월 [추론]",
-        "estimated_cost": "300-500만원 [추론]",
-        "tech_stack": [
-          "Kotlin",
-          "ZXing",
-          "CameraX",
-          "Room DB"
-        ],
-        "key_features": [
-          "QR/바코드 스캔",
-          "히스토리",
-          "일괄 스캔",
-          "내보내기"
-        ],
-        "clone_tip": "AI 자동 포커스와 암호화 QR 지원으로 차별화 [추론]"
-      },
-      "scores": {
-        "novelty": 2,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 5,
-        "market_size": 4,
-        "competition": 1,
-        "profitability": 2,
-        "scalability": 3,
-        "overall": 6.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#유틸리티"
-      ],
-      "verdict": "기본적 니즈이지만 경쟁이 치열하고 수익성 제한적"
-    },
-    {
-      "rank": 5,
-      "name": "Cleanup: Phone Storage Cleaner",
-      "developer": "Deep Flow Apps",
-      "category": "Storage Management",
-      "icon": "https://play-lh.googleusercontent.com/ch_hRY59cDYlQrI-Utveqytsnu3rsMbhWeZWnX8AFLj4nW-CqA0BGl8EFxkk4Lz8DzEorfag343uFRgVPWCQ",
-      "app_url": "https://play.google.com/store/apps/details?id=com.storage.androidcleaner",
-      "idea_summary": "지능적인 스마트폰 저장공간 최적화 도구",
-      "analysis": {
-        "problem": "스마트폰 저장공간 부족으로 인한 성능 저하 [추론]",
-        "solution": "AI 기반 불필요한 파일 자동 감지와 정리 [추론]",
-        "target_user": "모든 안드로이드 사용자, 특히 저용량 기기 사용자 [추론]",
-        "unique_point": "스마트한 파일 분석으로 안전한 정리 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "CCleaner",
-          "Files by Google",
-          "Clean Master"
-        ],
-        "timing_reason": "스마트폰 다양화와 저용량 기기 여전히 많음 [추론]",
-        "growth_potential": "신흥국 시장과 중저가 기기 사용자 대상 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 정리 기능과 광고 제거 [추론]",
-        "pricing_suggestion": "월 2,900원, 연 19,000원 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "500-800만원 [추론]",
-        "tech_stack": [
-          "Kotlin",
-          "파일 시스템 API",
-          "ML Kit"
-        ],
-        "key_features": [
-          "중복 파일 감지",
-          "캐시 정리",
-          "앱 분석",
-          "자동 정리"
-        ],
-        "clone_tip": "사용자 행동 패턴 학습으로 개인화된 정리 제안 [추론]"
-      },
-      "scores": {
-        "novelty": 2,
-        "necessity": 4,
-        "timing": 3,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 1,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 6.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#유틸리티"
-      ],
-      "verdict": "기본적 수요 있지만 레드오션 시장으로 차별화 필요"
+      "verdict": "AI 기술을 활용한 대중적 사진 편집 도구의 미래"
     }
   ],
   "daily_insight": {
-    "trend_summary": "AI 기반 개인화 서비스와 모바일 생산성 도구 지속 확산. 헬스케어와 크리에이터 도구 영역에서 특히 주목할 만한 혁신 등장 [추론]",
+    "trend_summary": "AI 기술이 일상 도구에 깊숙이 스며들며, 특히 창작 도구와 생산성 앱에서 자동화 혁신이 가속화되고 있습니다. 단순함과 전문성의 균형이 새로운 앱 개발의 핵심 트렌드로 부상하고 있습니다.",
     "trend_details": [
-      "AI 개인화 헬스케어",
-      "모바일 생산성 통합 솔루션",
-      "크리에이터 경제 지원 도구"
+      "AI 자동화가 복잡한 작업을 원클릭으로 해결하는 앱들 증가",
+      "미니멀리즘과 단순함을 추구하는 앱 디자인 철학 확산",
+      "B2B 시장에서 중소기업 대상 모바일 최적화 솔루션 부상",
+      "음성 인터페이스와 제스처 기반 UX 혁신 시도 증가"
     ],
     "hot_categories": [
-      "Healthcare",
-      "AI Tools",
-      "Video Creation"
+      "AI 도구",
+      "창작 지원",
+      "생산성"
     ],
-    "opportunity": "AI 기술과 기존 모바일 앱의 결합으로 새로운 가치 창출",
-    "action_item": "AI 개인화 기능을 기존 앱 카테고리에 접목한 차별화 전략 수립"
+    "opportunity": "AI 기술을 활용해 전문적 작업을 대중화하는 앱들",
+    "action_item": "기존 복잡한 도구를 AI로 단순화하여 대중 접근성 높이기"
   }
 }
