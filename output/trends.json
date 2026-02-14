@@ -1,10 +1,56 @@
 {
-  "generatedAt": "2026-02-13T15:13:50.923Z",
+  "generatedAt": "2026-02-14T15:14:18.079Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "Work Efficiency",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "MaterialFlow",
+        "One Ritual"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Navigation",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "EVOX"
+      ],
+      "avgScore": 8
+    },
+    {
+      "category": "Video Creation",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AI Video Maker with Music",
+        "AI Video - AI Video Generator"
+      ],
+      "avgScore": 9
+    },
+    {
+      "category": "Photo Editing",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "PhotoVerse AI Photo Editor"
+      ],
+      "avgScore": 8.6
+    },
     {
       "category": "Food/Drink",
       "currentCount": 1,
@@ -110,17 +156,6 @@
       "avgScore": 7.5
     },
     {
-      "category": "Video Creation",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "AI Video - AI Video Generator"
-      ],
-      "avgScore": 9
-    },
-    {
       "category": "Document Management",
       "currentCount": 2,
       "previousCount": 1,
@@ -155,18 +190,15 @@
       "avgScore": 7.6
     },
     {
-      "category": "Tools",
-      "currentCount": 4,
+      "category": "Video Players & Editors",
+      "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Brightest Flashlight Launcher",
-        "Clean Sweep Toolkit",
-        "RecoverPro-File Recovery",
-        "디지털컴패스"
+        "AI Video - AI Video Generator"
       ],
-      "avgScore": 6.949999999999999
+      "avgScore": 8.5
     },
     {
       "category": "Utilities",
@@ -213,42 +245,32 @@
       "avgScore": 7
     },
     {
-      "category": "Social",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Lifestyle",
+      "currentCount": 5,
+      "previousCount": 3,
+      "changePercent": 67,
       "changeDirection": "up",
       "apps": [
-        "Lemon8 - ライフスタイル情報アプリ"
+        "NailGlow - AI Nail Art Design",
+        "Imani - track your faith",
+        "MyDailyPMS: Period & Mood Tracker",
+        "Relavo - Record × Tag × Rank",
+        "MICROAROMA"
       ],
-      "avgScore": 7
+      "avgScore": 7.92
     },
     {
-      "category": "Entertainment",
+      "category": "Finance",
       "currentCount": 3,
       "previousCount": 2,
       "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Comicpix: AI Comic Book Maker",
-        "WePlay - Party Games",
-        "DishPlay"
+        "dPay - Mobile Payment App",
+        "Portfolio Tracker: X-Ray",
+        "Triggers - Earn Money Apps"
       ],
-      "avgScore": 7.933333333333334
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 4,
-      "previousCount": 3,
-      "changePercent": 33,
-      "changeDirection": "up",
-      "apps": [
-        "MyDailyPMS: Period & Mood Tracker",
-        "Relavo - Record × Tag × Rank",
-        "MICROAROMA",
-        "KeepSmilin'"
-      ],
-      "avgScore": 7.45
+      "avgScore": 7.7
     }
   ],
   "decliningCategories": [
@@ -282,53 +304,30 @@
       "avgScore": 7.3999999999999995
     },
     {
-      "category": "Education",
-      "currentCount": 5,
-      "previousCount": 7,
-      "changePercent": -29,
-      "changeDirection": "down",
-      "apps": [
-        "워드빗 영어",
-        "Switch Teachers",
-        "Japanese Flow: 2700+ Vocab",
-        "Insect ID: AI Insect Identification",
-        "StudyBits AI"
-      ],
-      "avgScore": 7.719999999999999
-    },
-    {
-      "category": "Finance",
+      "category": "Entertainment",
       "currentCount": 2,
       "previousCount": 3,
       "changePercent": -33,
       "changeDirection": "down",
       "apps": [
-        "Portfolio Tracker: X-Ray",
-        "Triggers - Earn Money Apps"
+        "Comicpix: AI Comic Book Maker",
+        "WePlay - Party Games"
       ],
-      "avgScore": 7.85
+      "avgScore": 8.15
     },
     {
-      "category": "Photo & Video",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
+      "category": "Education",
+      "currentCount": 4,
+      "previousCount": 7,
+      "changePercent": -43,
       "changeDirection": "down",
       "apps": [
-        "Enzo | AI Hair Stylist"
+        "워드빗 영어",
+        "Switch Teachers",
+        "Japanese Flow: 2700+ Vocab",
+        "Insect ID: AI Insect Identification"
       ],
-      "avgScore": 8.5
-    },
-    {
-      "category": "Food & Drink",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Too Good To Go"
-      ],
-      "avgScore": 9.2
+      "avgScore": 7.574999999999999
     },
     {
       "category": "Security",
@@ -350,6 +349,8 @@
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
+        "EdgeAura",
+        "Cleanup: Phone Storage Cleaner",
         "Daily Journal: Daily Diary",
         "Claude by Anthropic",
         "Gemmy AI: Chat & Assistant",
@@ -359,22 +360,21 @@
         "Gemmy AI: 채팅 & 어시스턴트",
         "ChatAggregator - AI Chat Hub",
         "Genespark AI Workspace",
-        "Pricereplacement",
-        "Tokisagu",
-        "Smart PDF Reader & PDF Viewer"
+        "Pricereplacement"
       ],
-      "avgScore": 7.7250000000000005
+      "avgScore": 7.841666666666666
     },
     {
-      "category": "Video Players & Editors",
-      "currentCount": 1,
-      "previousCount": 1,
+      "category": "Tools",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "AI Video - AI Video Generator"
+        "Brightest Flashlight Launcher",
+        "Clean Sweep Toolkit"
       ],
-      "avgScore": 8.5
+      "avgScore": 6.6
     },
     {
       "category": "Healthcare/Fitness",
@@ -414,8 +414,14 @@
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 41,
+      "count": 48,
       "apps": [
+        "NailGlow - AI Nail Art Design",
+        "Imani - track your faith",
+        "AI Video Maker with Music",
+        "EdgeAura",
+        "Cleanup: Phone Storage Cleaner",
+        "PhotoVerse AI Photo Editor",
         "DishGenie: AI Recipe Generator",
         "Lyrric",
         "Spatial Companion",
@@ -441,17 +447,20 @@
         "Min Max Trainer",
         "Pricereplacement",
         "ポケットサイン",
-        "Smart Photo Clean",
-        "Enzo | AI Hair Stylist",
-        "StudyBits AI",
-        "Smart PDF Reader & PDF Viewer"
+        "Smart Photo Clean"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 40,
+      "count": 37,
       "apps": [
+        "NailGlow - AI Nail Art Design",
+        "Imani - track your faith",
+        "One Ritual",
+        "AI Video Maker with Music",
+        "EdgeAura",
+        "PhotoVerse AI Photo Editor",
         "DishGenie: AI Recipe Generator",
         "Daily Journal: Daily Diary",
         "Gemmy AI: Chat & Assistant",
@@ -462,7 +471,6 @@
         "Walky Talky - Just Talk",
         "Rollbook: BJJ & NoGi Training",
         "Idea Clear",
-        "EdgeAura",
         "Brightest Flashlight Launcher",
         "WePlay - Party Games",
         "Japanese Flow: 2700+ Vocab",
@@ -481,23 +489,17 @@
         "Triggers - Earn Money Apps",
         "Employ24 - Job Information Service",
         "Min Max Trainer",
-        "MICROAROMA",
-        "Enzo | AI Hair Stylist",
-        "StudyBits AI",
-        "Tokisagu",
-        "DishPlay",
-        "KeepSmilin'",
-        "Too Good To Go",
-        "RecoverPro-File Recovery",
-        "디지털컴패스",
-        "Smart PDF Reader & PDF Viewer"
+        "MICROAROMA"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 39,
+      "count": 33,
       "apps": [
+        "NailGlow - AI Nail Art Design",
+        "Imani - track your faith",
+        "dPay - Mobile Payment App",
         "DishGenie: AI Recipe Generator",
         "Mona Symptom Tagebuch & Fieber",
         "ZM Work Time Track",
@@ -526,23 +528,15 @@
         "Triggers - Earn Money Apps",
         "Employ24 - Job Information Service",
         "Min Max Trainer",
-        "Song Maker - ToMusic",
-        "Enzo | AI Hair Stylist",
-        "StudyBits AI",
-        "Tokisagu",
-        "DishPlay",
-        "KeepSmilin'",
-        "RecoverPro-File Recovery",
-        "디지털컴패스",
-        "Smart PDF Reader & PDF Viewer",
-        "Lemon8 - ライフスタイル情報アプリ"
+        "Song Maker - ToMusic"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 19,
+      "count": 18,
       "apps": [
+        "NailGlow - AI Nail Art Design",
         "Daily Journal: Daily Diary",
         "BentoFriend: SweetArt",
         "MacroBar",
@@ -558,16 +552,15 @@
         "Genespark AI Workspace",
         "MICROAROMA",
         "Space Snap",
-        "Smart Photo Clean",
-        "Enzo | AI Hair Stylist",
-        "Smart PDF Reader & PDF Viewer"
+        "Smart Photo Clean"
       ]
     },
     {
       "keyword": "생산성",
-      "category": "tag",
+      "category": "productivity",
       "count": 11,
       "apps": [
+        "EdgeAura",
         "Spatial Companion",
         "ZM Work Time Track",
         "All Document Scan & PDF",
@@ -575,15 +568,15 @@
         "Idea Clear",
         "Smart PDF Reader & Viewer",
         "Genespark AI Workspace",
-        "QuickDoc: PDF Reader Tools",
-        "Smart PDF Reader & PDF Viewer"
+        "QuickDoc: PDF Reader Tools"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 8,
+      "count": 9,
       "apps": [
+        "MaterialFlow",
         "Spatial Companion",
         "Switch Teachers",
         "ChatAggregator - AI Chat Hub",
@@ -592,6 +585,30 @@
         "Genespark AI Workspace",
         "ProStruct Build Calculator",
         "QuickDoc: PDF Reader Tools"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 5,
+      "apps": [
+        "AI Video Maker with Music",
+        "EdgeAura",
+        "GIO: AI Headshot Generator",
+        "Peace - Breathe, relax, calm",
+        "ポケットサイン"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "AI Video Maker with Music",
+        "Pivo AI - AI Video Maker",
+        "Comicpix: AI Comic Book Maker",
+        "AI Video - AI Video Generator",
+        "Song Maker - ToMusic"
       ]
     },
     {
@@ -606,47 +623,33 @@
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 5,
+      "keyword": "편집",
+      "category": "creator",
+      "count": 3,
       "apps": [
-        "Walky Talky - Just Talk",
-        "WePlay - Party Games",
-        "DishPlay",
-        "Lemon8 - ライフスタイル情報アプリ"
-      ]
-    },
-    {
-      "keyword": "웰빙",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Daily Journal: Daily Diary",
-        "Peace - Breathe, relax, calm",
-        "MICROAROMA",
-        "KeepSmilin'"
-      ]
-    },
-    {
-      "keyword": "크리에이터",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Pivo AI - AI Video Maker",
-        "Comicpix: AI Comic Book Maker",
-        "AI Video - AI Video Generator",
-        "Song Maker - ToMusic"
+        "AI Video Maker with Music",
+        "PhotoVerse AI Photo Editor",
+        "Pivo AI - AI Video Maker"
       ]
     },
     {
       "keyword": "유틸리티",
       "category": "tag",
-      "count": 4,
+      "count": 3,
       "apps": [
+        "Cleanup: Phone Storage Cleaner",
         "Smart Photo Clean",
-        "写真の復元とファイルの復元",
-        "RecoverPro-File Recovery",
-        "디지털컴패스"
+        "写真の復元とファイルの復元"
+      ]
+    },
+    {
+      "keyword": "핀테크",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "dPay - Mobile Payment App",
+        "실손24",
+        "Portfolio Tracker: X-Ray"
       ]
     },
     {
@@ -670,6 +673,16 @@
       ]
     },
     {
+      "keyword": "웰빙",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Daily Journal: Daily Diary",
+        "Peace - Breathe, relax, calm",
+        "MICROAROMA"
+      ]
+    },
+    {
       "keyword": "개인화",
       "category": "tag",
       "count": 3,
@@ -689,26 +702,6 @@
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "WordPixel - Word Puzzle Art",
-        "AI Video - AI Video Generator",
-        "Lemon8 - ライフスタイル情報アプリ"
-      ]
-    },
-    {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 3,
-      "apps": [
-        "GIO: AI Headshot Generator",
-        "Peace - Breathe, relax, calm",
-        "ポケットサイン"
-      ]
-    },
-    {
       "keyword": "팀개발권장",
       "category": "tag",
       "count": 3,
@@ -719,76 +712,75 @@
       ]
     },
     {
-      "keyword": "Claude",
-      "category": "ai",
+      "keyword": "커뮤니티",
+      "category": "social",
       "count": 2,
       "apps": [
-        "Claude by Anthropic",
-        "ChatAggregator - AI Chat Hub"
+        "Imani - track your faith",
+        "BentoFriend: SweetArt"
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
+      "keyword": "자동화",
+      "category": "productivity",
       "count": 2,
       "apps": [
-        "Pivo AI - AI Video Maker",
-        "Smart PDF Reader & PDF Viewer"
+        "AI Video Maker with Music",
+        "Spatial Companion"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 33,
-        "percent": 47,
+        "count": 25,
+        "percent": 36,
         "examples": [
+          "Cleanup: Phone Storage Cleaner",
           "실손24",
-          "Comicpix: AI Comic Book Maker",
-          "WordPixel - Word Puzzle Art"
+          "Comicpix: AI Comic Book Maker"
         ]
       },
       "freemium": {
-        "count": 56,
-        "percent": 80,
+        "count": 57,
+        "percent": 81,
         "examples": [
-          "DishGenie: AI Recipe Generator",
-          "Lyrric",
-          "Daily Journal: Daily Diary"
+          "NailGlow - AI Nail Art Design",
+          "Imani - track your faith",
+          "One Ritual"
         ]
       },
       "subscription": {
-        "count": 39,
-        "percent": 56,
+        "count": 41,
+        "percent": 59,
         "examples": [
-          "DishGenie: AI Recipe Generator",
-          "Lyrric",
-          "Spatial Companion"
+          "NailGlow - AI Nail Art Design",
+          "Imani - track your faith",
+          "MaterialFlow"
         ]
       },
       "onetime": {
-        "count": 3,
-        "percent": 4,
+        "count": 2,
+        "percent": 3,
         "examples": [
           "Hearing Aid Sound Amplifier",
-          "ProStruct Build Calculator",
-          "RecoverPro-File Recovery"
+          "ProStruct Build Calculator"
         ]
       },
       "unknown": {
-        "count": 1,
-        "percent": 1,
+        "count": 2,
+        "percent": 3,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 56,
-      "percent": 80,
+      "count": 57,
+      "percent": 81,
       "examples": [
-        "DishGenie: AI Recipe Generator",
-        "Lyrric",
-        "Daily Journal: Daily Diary"
+        "NailGlow - AI Nail Art Design",
+        "Imani - track your faith",
+        "One Ritual"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -797,50 +789,38 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 30,
-        "percent": 43,
+        "count": 33,
+        "percent": 47,
         "apps": [
-          "DishGenie: AI Recipe Generator",
-          "Lyrric",
-          "Spatial Companion",
-          "Daily Journal: Daily Diary",
-          "Claude by Anthropic"
+          "NailGlow - AI Nail Art Design",
+          "Imani - track your faith",
+          "AI Video Maker with Music",
+          "EdgeAura",
+          "Cleanup: Phone Storage Cleaner"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 23,
-        "percent": 33,
+        "count": 22,
+        "percent": 31,
         "apps": [
+          "NailGlow - AI Nail Art Design",
           "Daily Journal: Daily Diary",
           "BentoFriend: SweetArt",
           "MacroBar",
-          "WordPixel - Word Puzzle Art",
-          "Idea Clear"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "BentoFriend: SweetArt",
-          "Walky Talky - Just Talk",
-          "WePlay - Party Games",
-          "DishPlay",
-          "Lemon8 - ライフスタイル情報アプリ"
+          "WordPixel - Word Puzzle Art"
         ]
       },
       {
         "tech": "productivity",
-        "count": 5,
-        "percent": 7,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "AI Video Maker with Music",
+          "EdgeAura",
           "Spatial Companion",
           "Practiat",
-          "Idea Clear",
-          "Smart PDF Reader & Viewer",
-          "Genespark AI Workspace"
+          "Idea Clear"
         ]
       },
       {
@@ -848,18 +828,30 @@
         "count": 5,
         "percent": 7,
         "apps": [
+          "AI Video Maker with Music",
+          "PhotoVerse AI Photo Editor",
           "Pivo AI - AI Video Maker",
           "WordPixel - Word Puzzle Art",
-          "AI Video - AI Video Generator",
-          "Smart PDF Reader & PDF Viewer",
-          "Lemon8 - ライフスタイル情報アプリ"
+          "AI Video - AI Video Generator"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 4,
+        "percent": 6,
+        "apps": [
+          "Imani - track your faith",
+          "BentoFriend: SweetArt",
+          "Walky Talky - Just Talk",
+          "WePlay - Party Games"
         ]
       },
       {
         "tech": "subscription",
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "apps": [
+          "EdgeAura",
           "GIO: AI Headshot Generator",
           "Peace - Breathe, relax, calm",
           "ポケットサイン"
@@ -886,19 +878,60 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 30,
-      "percent": 43,
+      "count": 33,
+      "percent": 47,
       "apps": [
-        "DishGenie: AI Recipe Generator",
-        "Lyrric",
-        "Spatial Companion",
-        "Daily Journal: Daily Diary",
-        "Claude by Anthropic"
+        "NailGlow - AI Nail Art Design",
+        "Imani - track your faith",
+        "AI Video Maker with Music",
+        "EdgeAura",
+        "Cleanup: Phone Storage Cleaner"
       ]
     },
-    "emerging": []
+    "emerging": [
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "AI Video Maker with Music",
+          "EdgeAura",
+          "Spatial Companion",
+          "Practiat",
+          "Idea Clear"
+        ]
+      }
+    ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Work Efficiency 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Work Efficiency"
+    },
+    {
+      "type": "rising_category",
+      "title": "Navigation 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Navigation"
+    },
+    {
+      "type": "rising_category",
+      "title": "Video Creation 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Video Creation"
+    },
+    {
+      "type": "rising_category",
+      "title": "Photo Editing 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Photo Editing"
+    },
     {
       "type": "rising_category",
       "title": "Food/Drink 카테고리 급부상",
@@ -964,13 +997,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Video Creation 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Video Creation"
-    },
-    {
-      "type": "rising_category",
       "title": "Document Management 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -992,10 +1018,10 @@
     },
     {
       "type": "rising_category",
-      "title": "Tools 카테고리 급부상",
+      "title": "Video Players & Editors 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Tools"
+      "category": "Video Players & Editors"
     },
     {
       "type": "rising_category",
@@ -1027,46 +1053,34 @@
     },
     {
       "type": "rising_category",
-      "title": "Social 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social"
-    },
-    {
-      "type": "rising_category",
-      "title": "Entertainment 카테고리 급부상",
+      "title": "Finance 카테고리 급부상",
       "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Entertainment"
-    },
-    {
-      "type": "rising_category",
-      "title": "Lifestyle 카테고리 급부상",
-      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Lifestyle"
+      "category": "Finance"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "43%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "47%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI 기능이 43%의 앱에 통합되며 핵심 차별화 요소로 자리잡고 있고, Food/Drink, Music, Business 등 다양한 카테고리가 100% 급성장하며 새로운 진입 기회를 제공하고 있습니다. Freemium(80%)과 구독 모델(56%)이 주요 수익화 전략으로 확산되고 있습니다.",
+    "trend_summary": "AI 기능이 47%의 앱에 통합되며 필수 요소로 자리잡고 있고, Work Efficiency와 Video Creation 등 생산성 관련 카테고리가 급부상하고 있습니다. Freemium 모델(81%)과 구독 모델(59%)이 주요 수익화 전략으로 확립되었습니다.",
     "trend_details": [
-      "AI 통합률 43%로 필수 기능화 진행",
-      "Food/Drink, Music, Business 카테고리 100% 급성장",
-      "Freemium + 구독 모델 조합이 주류 수익화 전략"
+      "AI 기능 통합이 앱의 기본 요소로 정착 (47% 적용률)",
+      "Work Efficiency, Video Creation, Navigation 등 생산성 카테고리 100% 급성장",
+      "Freemium + Subscription 하이브리드 수익 모델 확산 (81% + 59%)",
+      "1인 개발자 친화적 시장 확대 (37회 언급)",
+      "AR/VR 기술이 차세대 차별화 요소로 부상 (31% 적용률)"
     ],
     "hot_categories": [
-      "Food & Drink",
-      "Music"
+      "Work Efficiency",
+      "Video Creation"
     ],
-    "opportunity": "AI 기능이 아직 적용되지 않은 Food/Drink나 Music 카테고리에서 AI 통합 앱 개발이 가장 유망한 블루오션 기회입니다.",
-    "action_item": "음식 추천/레시피 생성 AI 앱이나 AI 음악 작곡/편집 도구를 Freemium 모델로 출시하여 급성장 카테고리의 선점 효과를 노려보세요.",
-    "weekly_theme": "AI 블루오션"
+    "opportunity": "AI 기능이 미적용된 Navigation, Food/Drink, Health/Medicine 카테고리에서 AI 통합 솔루션으로 선점 기회가 있습니다.",
+    "action_item": "Work Efficiency 또는 Video Creation 영역에서 간단한 AI 기능을 포함한 Freemium 앱을 개발하여 급성장하는 시장에 빠르게 진입하세요.",
+    "weekly_theme": "AI 생산성"
   }
 }
