@@ -1,0 +1,656 @@
+{
+  "date": "2026-02-16",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Face2Face AI translator",
+      "developer": "Zbigniew Szepczyski",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/b7/c1/d6b7c1a8-279f-f8c7-ace9-9c2108af9d6e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/face2face-ai-translator/id6758951578?uo=2",
+      "idea_summary": "얼굴 표정과 음성으로 실시간 번역",
+      "analysis": {
+        "problem": "기존 번역앱은 텍스트나 음성만 번역, 시각적 소통 부족 [추론]",
+        "solution": "얼굴 표정과 몸짓까지 AI가 인식해 종합 번역 제공 [추론]",
+        "target_user": "해외 여행객, 다국적 기업 직장인, 국제회의 참석자 [추론]",
+        "unique_point": "표정과 제스처까지 인식하는 멀티모달 번역 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Translate",
+          "Papago",
+          "iTranslate"
+        ],
+        "timing_reason": "코로나 이후 해외 교류 재개, AI 멀티모달 기술 발전 [추론]",
+        "growth_potential": "AR 기술과 결합 시 급성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (고급 언어, 오프라인 모드) [추론]",
+        "pricing_suggestion": "무료 체험 후 월 4,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3,000만원 [추론]",
+        "tech_stack": [
+          "Core ML",
+          "Vision Framework",
+          "Speech Framework",
+          "OpenAI API"
+        ],
+        "key_features": [
+          "실시간 표정 인식",
+          "음성 번역",
+          "제스처 분석"
+        ],
+        "clone_tip": "OpenCV로 표정 인식 후 번역 API 연동부터 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.4
+      },
+      "tags": [
+        "#AI번역",
+        "#멀티모달",
+        "#B2C"
+      ],
+      "verdict": "표정까지 번역하는 혁신적 아이디어, 기술 구현이 관건",
+      "deep_report_id": "ios-face2face-ai-translator-1771167943718"
+    },
+    {
+      "rank": 2,
+      "name": "Wake Up or Lose",
+      "developer": "ENSONOVA LLC",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/36/60/793660e9-4a80-069f-b8a0-a80d2a07535c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/wake-up-or-lose/id6758202030?uo=2",
+      "idea_summary": "일어나지 않으면 돈을 잃는 알람앱",
+      "analysis": {
+        "problem": "일반 알람은 쉽게 무시할 수 있어 늦잠 습관 개선 어려움 [확인]",
+        "solution": "기상 실패 시 실제 금전적 페널티로 강력한 동기 부여 [추론]",
+        "target_user": "늦잠 습관을 고치고 싶은 직장인, 학생 [추론]",
+        "unique_point": "금전적 손실을 통한 행동 변화 유도 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sleep Cycle",
+          "Alarmed",
+          "Morning Routine"
+        ],
+        "timing_reason": "생산성 관리 앱 시장 성장, 행동경제학 관심 증가 [추론]",
+        "growth_potential": "습관 개선 앱 시장 확장과 함께 성장 [추측]"
+      },
+      "business": {
+        "monetization": "페널티 수수료 (10-20%) + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "페널티 금액의 15% 수수료 + 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Location",
+          "Push Notifications",
+          "Payment SDK"
+        ],
+        "key_features": [
+          "위치 기반 기상 확인",
+          "결제 시스템",
+          "통계 대시보드"
+        ],
+        "clone_tip": "간단한 페널티 시스템부터 시작해 점진적 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#습관개선",
+        "#행동경제학",
+        "#B2C"
+      ],
+      "verdict": "심리적 효과는 좋으나 법적 리스크 검토 필요"
+    },
+    {
+      "rank": 3,
+      "name": "PonToExif",
+      "developer": "TSUYOSHI NAKAMURA",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/40/ff/8640ff60-3552-f061-e7a8-2b53f76465c7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pontoexif-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%92%AE%E5%BD%B1%E5%82%BE%E5%90%91%E3%82%92%E5%88%86%E6%9E%90/id6758582211?uo=2",
+      "idea_summary": "사진 메타데이터로 촬영 패턴 분석",
+      "analysis": {
+        "problem": "사진 많이 찍어도 자신의 촬영 습관이나 개선점을 모름 [추론]",
+        "solution": "EXIF 데이터 분석해 촬영 패턴, 선호도, 실력 향상 팁 제공 [추론]",
+        "target_user": "사진 취미가, 인플루언서, 사진 배우는 초보자 [추론]",
+        "unique_point": "메타데이터 기반 개인화된 사진 분석 리포트 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Lightroom Mobile",
+          "Snapseed"
+        ],
+        "timing_reason": "인스타그램 등 SNS 사진 품질 중요도 증가 [추론]",
+        "growth_potential": "크리에이터 시장 성장과 함께 확장 [추측]"
+      },
+      "business": {
+        "monetization": "상세 분석 리포트 프리미엄 (월 구독) [추론]",
+        "pricing_suggestion": "기본 무료, 고급 분석 월 3,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1,200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts Framework",
+          "Vision API"
+        ],
+        "key_features": [
+          "EXIF 파싱",
+          "통계 시각화",
+          "AI 분석",
+          "개선 추천"
+        ],
+        "clone_tip": "기본 EXIF 읽기부터 시작해 통계 기능 단계적 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#사진분석",
+        "#메타데이터",
+        "#B2C"
+      ],
+      "verdict": "틈새 시장 공략, 사진 애호가들에게 어필"
+    },
+    {
+      "rank": 4,
+      "name": "EyeFlow - Göz Egzersizi",
+      "developer": "Ibrahim Aykut BAS",
+      "category": "Healthcare/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c8/68/ec/c868ec0d-2e59-3409-bd7b-c1d6dc71f7ee/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/eyeflow-g%C3%B6z-egzersizi/id6755160750?uo=2",
+      "idea_summary": "눈 건강을 위한 운동 가이드 앱",
+      "analysis": {
+        "problem": "장시간 스크린 사용으로 인한 눈 피로, 시력 저하 증가 [확인]",
+        "solution": "체계적인 눈 운동 프로그램과 휴식 알림 제공 [추론]",
+        "target_user": "사무직 직장인, 게이머, 학생, 시니어층 [추론]",
+        "unique_point": "의학적 근거 기반 맞춤형 눈 운동 커리큘럼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Eye Care Plus",
+          "Bluelight Filter",
+          "F.lux"
+        ],
+        "timing_reason": "재택근무 증가, 디지털 아이 스트레인 문제 심각화 [추론]",
+        "growth_potential": "고령화와 디지털화로 지속 성장 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 운동 프로그램 + 개인화 컨설팅 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core Animation",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "운동 타이머",
+          "진행도 추적",
+          "리마인더",
+          "통계"
+        ],
+        "clone_tip": "간단한 운동 타이머부터 시작해 점진적 기능 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#건강관리",
+        "#눈운동",
+        "#B2C"
+      ],
+      "verdict": "실용적이고 필요성 높은 앱, 의료진 협업 권장"
+    },
+    {
+      "rank": 5,
+      "name": "BlurMagicStudio",
+      "developer": "TDS HELP, LLC",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/40/9a/5b409a26-7a0e-2562-ca49-614322845819/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/blurmagicstudio/id6751275384?uo=2",
+      "idea_summary": "사진/영상에 다양한 블러 효과",
+      "analysis": {
+        "problem": "기본 카메라앱 블러는 단조롭고 전문 편집툴은 복잡함 [추론]",
+        "solution": "쉽고 다양한 블러 효과로 전문적 결과물 제작 [추론]",
+        "target_user": "SNS 크리에이터, 취미 사진가, 영상 편집 입문자 [추론]",
+        "unique_point": "AI 기반 지능형 블러 + 다양한 아티스틱 효과 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Snapseed",
+          "Canva",
+          "PicsArt"
+        ],
+        "timing_reason": "숏폼 콘텐츠 붐, 개인 브랜딩 중요성 증가 [추론]",
+        "growth_potential": "영상 편집 기능 확장으로 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 필터팩 + 워터마크 제거 [추론]",
+        "pricing_suggestion": "기본 무료, 프로버전 월 2,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Image",
+          "Metal",
+          "Vision Framework"
+        ],
+        "key_features": [
+          "실시간 프리뷰",
+          "배치 처리",
+          "사용자 정의 브러시"
+        ],
+        "clone_tip": "Core Image 필터부터 시작해 커스텀 효과 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#사진편집",
+        "#필터",
+        "#B2C"
+      ],
+      "verdict": "경쟁 치열한 시장, 차별화된 기능 필요"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Smart Photo Clean",
+      "developer": "Similia Limited",
+      "category": "Photography",
+      "icon": "https://play-lh.googleusercontent.com/klSw4JUyaotunHZHTedu-Herjca1ylc-npQ5GxCV03xXWsWsdNsXZpYpW8r74tOKV555KTl_WDSdS7TthZ43LKk",
+      "app_url": "https://play.google.com/store/apps/details?id=spc.smart.photo.clean",
+      "idea_summary": "AI로 사진 자동 정리 및 품질 개선",
+      "analysis": {
+        "problem": "스마트폰에 수천장 사진 쌓여 관리 어렵고 저품질 사진 많음 [확인]",
+        "solution": "AI가 중복/흐린 사진 자동 삭제하고 품질 향상 [추론]",
+        "target_user": "사진 많이 찍는 일반인, 폰 용량 부족한 사용자 [추론]",
+        "unique_point": "정리와 품질 개선을 한번에 해결하는 올인원 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Photos",
+          "Duplicate Photos Fixer",
+          "Photo Mechanic"
+        ],
+        "timing_reason": "스마트폰 사진 폭증, AI 이미지 처리 기술 발전 [추론]",
+        "growth_potential": "클라우드 연동으로 B2B 확장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (무제한 처리, 고급 필터) [추론]",
+        "pricing_suggestion": "기본 무료, 프로 월 5,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "TensorFlow Lite",
+          "Room DB",
+          "CameraX"
+        ],
+        "key_features": [
+          "중복 사진 감지",
+          "품질 분석",
+          "자동 정리",
+          "백업 기능"
+        ],
+        "clone_tip": "간단한 중복 사진 찾기부터 시작해 AI 기능 단계별 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#AI사진관리",
+        "#스토리지최적화",
+        "#B2C"
+      ],
+      "verdict": "실용성 매우 높음, 대기업 진출 전 선점 필요",
+      "deep_report_id": "android-smart-photo-clean-1771167994459"
+    },
+    {
+      "rank": 2,
+      "name": "All Files Viewer",
+      "developer": "Nullbyte Labs",
+      "category": "File Management",
+      "icon": "https://play-lh.googleusercontent.com/2VD7XvxI32GNXdR49tTRrXkjB5uJE50jldUh1uZ-W-cmgXizBrQFkLqrh0GpG1PZG9fB",
+      "app_url": "https://play.google.com/store/apps/details?id=com.allfiles.viewerer",
+      "idea_summary": "모든 파일 형식을 한 앱에서 열기",
+      "analysis": {
+        "problem": "파일마다 다른 앱 필요, 형식 호환성 문제로 파일 못 열기 [확인]",
+        "solution": "100+ 파일 형식 지원하는 만능 뷰어 앱 [추론]",
+        "target_user": "직장인, 학생, 파일 많이 다루는 업무자 [추론]",
+        "unique_point": "압도적 파일 형식 지원 범위와 통합 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "WPS Office",
+          "Microsoft Office",
+          "Adobe Acrobat"
+        ],
+        "timing_reason": "재택근무 증가, 파일 교환 빈도 증가 [추론]",
+        "growth_potential": "클라우드 연동으로 기업용 시장 확장 [추측]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 (편집 기능, 클라우드 연동) [추론]",
+        "pricing_suggestion": "무료 + 프로 월 3,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "2,500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Apache POI",
+          "PDFBox",
+          "Media Libraries"
+        ],
+        "key_features": [
+          "다양한 파일 렌더링",
+          "검색",
+          "즐겨찾기",
+          "공유"
+        ],
+        "clone_tip": "주요 형식(PDF, 이미지, 문서)부터 시작해 점진적 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.4
+      },
+      "tags": [
+        "#파일뷰어",
+        "#생산성",
+        "#B2B2C"
+      ],
+      "verdict": "필수 유틸리티, 기업 라이선스로 수익성 확보"
+    },
+    {
+      "rank": 3,
+      "name": "Lezhin Snack",
+      "developer": "LEZHIN ENTERTAINMENT",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/4bkfrJYUrommh8EGCHGj40FGfUAivE4PDM0ayfcp6cOASlIKOK4-Iy240SJX09prEc2fr20CluOJ9AQoT-3AiQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.lezhin.snack",
+      "idea_summary": "짧은 형태의 드라마 스트리밍",
+      "analysis": {
+        "problem": "기존 드라마는 시간 부담, 숏폼 콘텐츠는 깊이 부족 [추론]",
+        "solution": "5-10분 완결형 고품질 드라마로 틈새시간 타겟 [추론]",
+        "target_user": "바쁜 직장인, MZ세대, 출퇴근 시간 활용하려는 사람 [추론]",
+        "unique_point": "레진 웹툰 IP 활용한 고품질 숏폼 드라마 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Quibi",
+          "YouTube Shorts",
+          "TikTok",
+          "Instagram Reels"
+        ],
+        "timing_reason": "숏폼 콘텐츠 대세, 웹툰 원작 드라마 성공 사례 증가 [추론]",
+        "growth_potential": "글로벌 한류 콘텐츠로 해외 진출 가능 [추측]"
+      },
+      "business": {
+        "monetization": "구독 + 광고 + PPV (에피소드별 결제) [추론]",
+        "pricing_suggestion": "무료 + 프리미엄 월 8,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "5,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "CDN"
+        ],
+        "key_features": [
+          "스트리밍",
+          "다운로드",
+          "개인화 추천",
+          "소셜 기능"
+        ],
+        "clone_tip": "기존 콘텐츠 큐레이션부터 시작해 독점 콘텐츠 확보 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#숏폼드라마",
+        "#엔터테인먼트",
+        "#B2C"
+      ],
+      "verdict": "레진 IP 강점 활용, 콘텐츠가 핵심 경쟁력"
+    },
+    {
+      "rank": 4,
+      "name": "iAEON",
+      "developer": "AEON Smart Technology",
+      "category": "Finance",
+      "icon": "https://play-lh.googleusercontent.com/Qbt5fXEBJUUamX-2mMSiga1Od5qmrdQZhdAdqG31JXNzTCkMP_19NhA5aS7GzCDsprUYei9Bu62f-v3X6cY_Mg",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.co.aeonst.app.myaeon",
+      "idea_summary": "이온몰 전용 통합 결제 플랫폼",
+      "analysis": {
+        "problem": "대형마트에서 결제 시 포인트, 할인 정보 관리 복잡 [추론]",
+        "solution": "매장별 맞춤 결제 + 포인트 + 할인 통합 관리 [추론]",
+        "target_user": "이온몰 단골고객, 가족 단위 쇼핑객 [추론]",
+        "unique_point": "오프라인 매장 특화 결제 시스템과 혜택 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PayPay",
+          "LINE Pay",
+          "카카오페이",
+          "토스페이"
+        ],
+        "timing_reason": "O2O 결합 서비스 확산, 리테일 디지털 전환 [추론]",
+        "growth_potential": "다른 대형마트 체인으로 확장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "결제 수수료 + 광고 + 데이터 분석 서비스 [추론]",
+        "pricing_suggestion": "결제 건당 1-2% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-12개월 [추론]",
+        "estimated_cost": "3,500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Payment SDK",
+          "Beacon API",
+          "Firebase"
+        ],
+        "key_features": [
+          "매장 위치 인식",
+          "자동 할인 적용",
+          "포인트 적립",
+          "영수증 관리"
+        ],
+        "clone_tip": "특정 매장 체인과 파트너십 먼저 확보 후 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#O2O결제",
+        "#리테일테크",
+        "#B2B2C"
+      ],
+      "verdict": "오프라인 특화 강점, 매장 파트너십이 성공 관건"
+    },
+    {
+      "rank": 5,
+      "name": "WePlay - Party Games",
+      "developer": "WEJOY Pte. Ltd.",
+      "category": "Games",
+      "icon": "https://play-lh.googleusercontent.com/DMkWYrXf_54FOxPZuZvLCuNOLcxyK9NdKuLWdtgKSro6v51eyVF0C8KWhaj7xd9AsiXw5WHQSUqz-yAex5CJ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wejoy.weplay.kr",
+      "idea_summary": "온라인 파티게임 플랫폼",
+      "analysis": {
+        "problem": "친구들과 온라인으로 함께 할 간단한 게임 부족 [추론]",
+        "solution": "다양한 파티게임을 한 앱에서 친구들과 실시간 플레이 [추론]",
+        "target_user": "MZ세대 친구그룹, 원거리 연인, 온라인 모임 주최자 [추론]",
+        "unique_point": "실시간 멀티플레이어 + 다양한 미니게임 컬렉션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Among Us",
+          "Fall Guys",
+          "Jackbox Games",
+          "Kahoot"
+        ],
+        "timing_reason": "코로나 이후 온라인 사교 문화 정착 [추론]",
+        "growth_potential": "글로벌 시장으로 확장하며 성장 [추측]"
+      },
+      "business": {
+        "monetization": "게임 아이템 + 프리미엄 게임팩 + 광고 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "2,200만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Photon",
+          "Firebase",
+          "Voice Chat SDK"
+        ],
+        "key_features": [
+          "실시간 매칭",
+          "음성채팅",
+          "게임 방 생성",
+          "친구 초대"
+        ],
+        "clone_tip": "간단한 퀴즈게임부터 시작해 점진적으로 게임 종류 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#소셜게임",
+        "#파티게임",
+        "#B2C"
+      ],
+      "verdict": "소셜 요소 강화로 차별화, 지속적 콘텐츠 업데이트 필수"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인화 서비스와 틈새 시간 활용 앱이 주목받고 있음 [추론]. 오프라인과 온라인을 연결하는 O2O 서비스도 확산 중 [추론].",
+    "trend_details": [
+      "AI 개인화 분석 (사진, 건강, 습관)",
+      "숏폼 엔터테인먼트 콘텐츠",
+      "오프라인 매장 특화 디지털 서비스",
+      "실용적 파일 관리 도구"
+    ],
+    "hot_categories": [
+      "AI 분석 도구",
+      "숏폼 콘텐츠",
+      "O2O 결제"
+    ],
+    "opportunity": "기존 서비스의 AI 개인화 버전이나 오프라인 특화 디지털 솔루션",
+    "action_item": "특정 매장/업종과 파트너십 기회 탐색"
+  }
+}
