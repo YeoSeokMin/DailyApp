@@ -1,0 +1,632 @@
+{
+  "date": "2026-02-18",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Echo - Voice Notes App",
+      "developer": "Johanna Hoppe",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/89/80/918980db-2b64-c2b5-a0cf-4d9ba4698c48/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/echo-voice-notes-app/id6758950255?uo=2",
+      "idea_summary": "AI 기반 음성 메모 및 전사 앱",
+      "analysis": {
+        "problem": "복잡한 메모 앱 대신 간단한 음성 기반 생산성 도구 필요 [추론]",
+        "solution": "음성을 텍스트로 변환하고 정리해주는 AI 기반 메모 시스템 [추론]",
+        "target_user": "바쁜 직장인, 학생, 아이디어를 빠르게 기록하려는 사용자 [추론]",
+        "unique_point": "단순함에 집중한 음성 우선 접근 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "Whisper Transcription",
+          "Voice Memo"
+        ],
+        "timing_reason": "원격 업무 증가로 음성 기반 생산성 도구 수요 상승 [추론]",
+        "growth_potential": "AI 음성 인식 기술 발전과 생산성 앱 시장 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (무제한 전사, 고급 기능) [추론]",
+        "pricing_suggestion": "월 4.99달러 구독 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "AWS Transcribe",
+          "Core ML"
+        ],
+        "key_features": [
+          "음성 인식",
+          "텍스트 편집",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "기존 음성 인식 API 활용하여 MVP 빠르게 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "검증된 니즈, 구현 난이도 적당한 생산성 도구",
+      "deep_report_id": "ios-echo-voice-notes-app-1771340815019"
+    },
+    {
+      "rank": 2,
+      "name": "OutTonight - Loyalty App",
+      "developer": "Marc Snailum",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/97/43/db974350-870e-701b-3987-07b4e3b2ca53/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/outtonight-loyalty-app/id6758889316?uo=2",
+      "idea_summary": "나이트라이프 전용 로열티 프로그램",
+      "analysis": {
+        "problem": "클럽, 바 등 나이트라이프 업소의 고객 관리 및 충성도 부족 [추론]",
+        "solution": "나이트라이프 전용 포인트 적립 및 혜택 제공 플랫폼 [추론]",
+        "target_user": "20-30대 나이트라이프 이용자, 클럽/바 사업자 [추론]",
+        "unique_point": "나이트라이프 업계에 특화된 수직적 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 로열티 앱",
+          "각 업소별 개별 앱"
+        ],
+        "timing_reason": "코로나 이후 나이트라이프 업계 회복기, 디지털 전환 필요 [추론]",
+        "growth_potential": "틈새 시장이지만 충성도 높은 사용자층 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "업소 수수료, 프리미엄 멤버십 [추론]",
+        "pricing_suggestion": "업소당 월 50-100달러, 사용자는 무료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Payment API"
+        ],
+        "key_features": [
+          "포인트 관리",
+          "업소 검색",
+          "이벤트 알림"
+        ],
+        "clone_tip": "특정 지역부터 시작하여 점진적 확장 전략 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#로컬"
+      ],
+      "verdict": "틈새 시장 공략, 지역별 확장 가능성 있음"
+    },
+    {
+      "rank": 3,
+      "name": "AI Logo Maker - Elio",
+      "developer": "Burak Tunc",
+      "category": "Graphic & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/6b/32/c76b3203-6018-8b17-2099-c33eb33e56a9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ai-logo-maker-elio/id6758785403?uo=2",
+      "idea_summary": "AI 기반 자동 로고 생성 도구",
+      "analysis": {
+        "problem": "소상공인과 스타트업의 비싼 로고 디자인 비용 부담 [추론]",
+        "solution": "AI를 활용한 즉시 로고 생성 및 커스터마이징 [추론]",
+        "target_user": "소상공인, 스타트업, 개인 브랜드 운영자 [추론]",
+        "unique_point": "AI 기술로 전문가급 로고를 저비용으로 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Canva",
+          "LogoMaker",
+          "Looka"
+        ],
+        "timing_reason": "생성형 AI 기술 발전으로 고품질 로고 자동 생성 가능해짐 [추론]",
+        "growth_potential": "개인 브랜딩 시장 성장과 AI 도구 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 로고 다운로드, 구독 모델 [추론]",
+        "pricing_suggestion": "기본 로고 19.99달러, 프리미엄 패키지 49.99달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "DALL-E API",
+          "Vector Graphics"
+        ],
+        "key_features": [
+          "AI 로고 생성",
+          "색상/폰트 편집",
+          "벡터 내보내기"
+        ],
+        "clone_tip": "기존 AI 이미지 생성 API와 템플릿 시스템 결합 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "높은 수요와 수익성, AI 트렌드 부합"
+    },
+    {
+      "rank": 4,
+      "name": "HealthyMe - AI Wellness",
+      "developer": "Michael Miles",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/37/f9/2737f98d-988c-285a-0146-d2f28fc74f33/HealthyMeAppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/healthyme-ai-wellness/id6758031690?uo=2",
+      "idea_summary": "개인맞춤형 AI 웰니스 코칭 앱",
+      "analysis": {
+        "problem": "획일적인 건강관리 앱의 한계, 개인별 맞춤 케어 부족 [추론]",
+        "solution": "AI 기반 개인 데이터 분석으로 맞춤형 웰니스 추천 [추론]",
+        "target_user": "건강 관심 있는 20-40대, 웰니스 라이프스타일 추구자 [추론]",
+        "unique_point": "AI 개인화 기술을 웰니스에 특화 적용 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Headspace",
+          "Calm"
+        ],
+        "timing_reason": "포스트 코로나 시대 개인 건강관리 중요성 증대 [추론]",
+        "growth_potential": "웰니스 시장 지속 성장, AI 개인화 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, AI 코칭 서비스 [추론]",
+        "pricing_suggestion": "월 9.99달러 구독 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1200-1800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "TensorFlow",
+          "HealthKit"
+        ],
+        "key_features": [
+          "데이터 분석",
+          "맞춤 추천",
+          "진행 추적"
+        ],
+        "clone_tip": "기존 건강 API와 ML 모델 조합으로 MVP 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스테크"
+      ],
+      "verdict": "성장하는 웰니스 시장, AI 개인화 강점"
+    },
+    {
+      "rank": 5,
+      "name": "W - フレンド募集掲示板 for Discord",
+      "developer": "Yuki Hata",
+      "category": "Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/6a/de/4a6adeb1-c7d9-c4fc-191b-557bc30a357c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/w-%E3%83%95%E3%83%AC%E3%83%B3%E3%83%89%E5%8B%9F%E9%9B%86%E6%8E%B2%E7%A4%BA%E6%9D%BF-for-discord/id6758667275?uo=2",
+      "idea_summary": "Discord 게임 친구 찾기 전용 게시판",
+      "analysis": {
+        "problem": "게임에서 함께 할 친구를 찾기 어려움, Discord 내 매칭 기능 부족 [추론]",
+        "solution": "게임별 친구 모집 전용 게시판 및 매칭 시스템 [추론]",
+        "target_user": "온라인 게이머, Discord 사용자, 게임 커뮤니티 활동자 [추론]",
+        "unique_point": "Discord 생태계에 특화된 게임 친구 매칭 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Discord 자체 기능",
+          "게임별 커뮤니티 사이트"
+        ],
+        "timing_reason": "온라인 게임 시장 성장, 소셜 게이밍 트렌드 [추론]",
+        "growth_potential": "게임 산업 성장과 함께 꾸준한 수요 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 매칭, 광고, 게임사 파트너십 [추론]",
+        "pricing_suggestion": "월 2.99달러 프리미엄, 광고 수익 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400-700만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Discord API",
+          "Firebase"
+        ],
+        "key_features": [
+          "게시판",
+          "매칭 알고리즘",
+          "Discord 연동"
+        ],
+        "clone_tip": "Discord API 활용하여 간단한 매칭 시스템부터 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임"
+      ],
+      "verdict": "게이머 니즈 정확히 타겟, 구현 비교적 간단"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Simply Draw: Learn to Draw",
+      "developer": "Simply Ltd",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/RuQeWU_LnBVvAzjLp2xpAd40nthXg0-QvlP9gtS0SjHFfgvCWv_ly4ev9D_vNzzEKFiWNCRuOhGrnMaOiV9gRQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hellosimply.simplydraw",
+      "idea_summary": "단계별 그림 그리기 학습 앱",
+      "analysis": {
+        "problem": "그림 그리기를 배우고 싶지만 체계적 학습 방법 부족 [추론]",
+        "solution": "단계별 가이드와 실시간 피드백으로 그림 실력 향상 [추론]",
+        "target_user": "그림 취미 초보자, 아이들, 창작 활동 관심자 [추론]",
+        "unique_point": "단순함에 집중한 직관적 그림 학습 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Procreate",
+          "Adobe Fresco",
+          "ArtRage"
+        ],
+        "timing_reason": "집콕 생활로 인한 취미 활동 증가, 창작 욕구 상승 [추론]",
+        "growth_potential": "온라인 교육 시장 성장과 창작 콘텐츠 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 강좌, 도구 팩, 구독 모델 [추론]",
+        "pricing_suggestion": "월 4.99달러 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Canvas API",
+          "Firebase"
+        ],
+        "key_features": [
+          "단계별 튜토리얼",
+          "실시간 그리기",
+          "진도 추적"
+        ],
+        "clone_tip": "기본 그리기 도구와 간단한 튜토리얼부터 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크"
+      ],
+      "verdict": "검증된 시장, 취미 교육 수요 지속 증가",
+      "deep_report_id": "android-simply-draw-learn-to-draw-1771340861898"
+    },
+    {
+      "rank": 2,
+      "name": "Clean Fix Plus",
+      "developer": "AppDustBuster",
+      "category": "Tools",
+      "icon": "https://play-lh.googleusercontent.com/ZngZBs7Go8Omn_cfSI_OYV3LBgefHiktzL3522AkMjB4Zo3dJBHjhNkWg_XyIjodc04",
+      "app_url": "https://play.google.com/store/apps/details?id=com.cleanfix.fixplus",
+      "idea_summary": "스마트폰 최적화 및 수리 도구",
+      "analysis": {
+        "problem": "스마트폰 성능 저하, 저장공간 부족 등 일상적 문제 [추론]",
+        "solution": "원클릭 최적화, 정크 파일 정리, 성능 향상 도구 [추론]",
+        "target_user": "스마트폰 성능에 관심 있는 일반 사용자 [추론]",
+        "unique_point": "수리 기능까지 포함한 올인원 최적화 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CCleaner",
+          "Clean Master",
+          "Files by Google"
+        ],
+        "timing_reason": "스마트폰 사용량 증가로 성능 최적화 니즈 상승 [추론]",
+        "growth_potential": "스마트폰 보급률 증가와 함께 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 광고, 구독 모델 [추론]",
+        "pricing_suggestion": "월 2.99달러 프리미엄 또는 광고 기반 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Native Android",
+          "System APIs",
+          "Analytics"
+        ],
+        "key_features": [
+          "파일 정리",
+          "메모리 최적화",
+          "배터리 관리"
+        ],
+        "clone_tip": "Android 시스템 API 활용한 기본 정리 기능부터 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "검증된 시장이지만 경쟁 치열, 차별화 필요"
+    },
+    {
+      "rank": 3,
+      "name": "Rebli Island: Living with Rebli on a Small Island",
+      "developer": "cocone ONE corporation",
+      "category": "Lifestyle",
+      "icon": "https://play-lh.googleusercontent.com/-83MtXsyGPrClNj-RcVpV0Wxx5TaB1QdBVr8BAtVEtZRME4Ern28lT-rMsmAQcwd56rv_kfPlImmjjtl0_trvL0",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.cocone.livly",
+      "idea_summary": "가상 섬에서 캐릭터와 생활하는 힐링 게임",
+      "analysis": {
+        "problem": "스트레스 해소와 힐링을 위한 디지털 공간 필요 [추론]",
+        "solution": "귀여운 캐릭터와 함께하는 가상 섬 생활 시뮬레이션 [추론]",
+        "target_user": "힐링 콘텐츠를 좋아하는 10-30대, 특히 여성층 [추론]",
+        "unique_point": "섬이라는 독특한 배경의 캐릭터 육성 게임 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "다마고치",
+          "Animal Crossing",
+          "My Talking Tom"
+        ],
+        "timing_reason": "힐링 콘텐츠 수요 증가, 캐릭터 IP 시장 성장 [추론]",
+        "growth_potential": "일본 캐릭터 문화 글로벌 확산 추세 [추론]"
+      },
+      "business": {
+        "monetization": "아이템 구매, 프리미엄 콘텐츠, 광고 [추론]",
+        "pricing_suggestion": "기본 무료, 아이템당 0.99-4.99달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Firebase",
+          "In-App Purchase"
+        ],
+        "key_features": [
+          "캐릭터 상호작용",
+          "섬 꾸미기",
+          "일상 시스템"
+        ],
+        "clone_tip": "간단한 캐릭터 육성부터 시작하여 점진적 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임"
+      ],
+      "verdict": "힐링 게임 트렌드, 여성 사용자 타겟 유리"
+    },
+    {
+      "rank": 4,
+      "name": "MiSing - Sing Your Heart Out Anytime, Anywhere",
+      "developer": "M&E Times Co.,Ltd.",
+      "category": "Music",
+      "icon": "https://play-lh.googleusercontent.com/c-1pxFuJguGB5oK3cLoHiH5VSrkYH8a59lu-C3jD3Vf87vV7M8qEpI9t5xU2MhbJLmEwNlHdcqgA3xwtkhwXa9g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.karaoke.pocket",
+      "idea_summary": "언제 어디서나 즐기는 모바일 노래방",
+      "analysis": {
+        "problem": "노래방 방문 불편함, 혼자 노래 부르고 싶은 니즈 [추론]",
+        "solution": "스마트폰에서 언제든 노래할 수 있는 포켓 노래방 [추론]",
+        "target_user": "노래 좋아하는 모든 연령층, 특히 혼자 노래 즐기려는 사용자 [추론]",
+        "unique_point": "모바일 특화된 간편한 노래방 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Smule",
+          "StarMaker",
+          "Sing! Karaoke"
+        ],
+        "timing_reason": "집콕 생활 증가로 홈엔터테인먼트 수요 상승 [추론]",
+        "growth_potential": "글로벌 노래방 문화 확산, 소셜 미디어 연동 [추론]"
+      },
+      "business": {
+        "monetization": "곡 구매, 프리미엄 기능, 광고 제거 [추론]",
+        "pricing_suggestion": "곡당 0.99달러, 월 구독 4.99달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Audio Processing",
+          "Music API"
+        ],
+        "key_features": [
+          "음성 녹음",
+          "반주 재생",
+          "소셜 공유"
+        ],
+        "clone_tip": "기본 녹음 기능과 인기곡 몇 개로 MVP 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#엔터테인먼트"
+      ],
+      "verdict": "검증된 엔터테인먼트 앱, 지역화 중요"
+    },
+    {
+      "rank": 5,
+      "name": "GPS Navigation & Maps: Route Finder",
+      "developer": "Sharp Apps Studio",
+      "category": "Maps & Navigation",
+      "icon": "https://play-lh.googleusercontent.com/1sWfDhk6pwh_BMiq5RWr92dvECV6h8drLNz2LOi39RAeXz3YzsAJ2ZT0Cteabw9B0ow",
+      "app_url": "https://play.google.com/store/apps/details?id=com.entertaininglogixapps.gps.navigation.direction.find.route.map.guide.pro",
+      "idea_summary": "특화된 GPS 네비게이션 및 경로 찾기",
+      "analysis": {
+        "problem": "기존 지도 앱의 복잡함, 특정 용도별 최적화 부족 [추론]",
+        "solution": "특정 목적에 최적화된 간단하고 정확한 네비게이션 [추론]",
+        "target_user": "운전자, 배달업자, 특정 지역 이용자 [추론]",
+        "unique_point": "특정 용도나 지역에 특화된 네비게이션 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Maps",
+          "Waze",
+          "Apple Maps"
+        ],
+        "timing_reason": "배달 서비스 급증, 개인 이동성 증가 [추론]",
+        "growth_potential": "틈새 시장 공략 가능, 특화 서비스 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 광고, 비즈니스 파트너십 [추론]",
+        "pricing_suggestion": "월 2.99달러 또는 광고 기반 무료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Google Maps API",
+          "GPS SDK"
+        ],
+        "key_features": [
+          "실시간 내비",
+          "교통정보",
+          "오프라인 지도"
+        ],
+        "clone_tip": "기존 지도 API 활용하여 특화 기능에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "강력한 경쟁자 존재, 특화 전략 필수"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인화 서비스와 틈새 시장 특화 앱이 주요 트렌드로 부상하고 있음. 간편함과 전문성을 동시에 추구하는 사용자 니즈가 증가.",
+    "trend_details": [
+      "AI 개인화 기술을 활용한 생산성/헬스케어 앱",
+      "특정 커뮤니티나 업계에 특화된 수직적 서비스",
+      "복잡한 기능보다 핵심 가치에 집중한 심플 앱"
+    ],
+    "hot_categories": [
+      "AI 도구",
+      "생산성",
+      "힐링/웰니스"
+    ],
+    "opportunity": "기존 복잡한 서비스의 핵심 기능만 추출하여 AI로 개인화하는 접근",
+    "action_item": "검증된 니즈가 있는 영역에서 AI 개인화 요소를 추가한 심플 앱 기획"
+  }
+}
