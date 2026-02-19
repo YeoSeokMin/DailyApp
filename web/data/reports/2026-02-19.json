@@ -3,226 +3,288 @@
   "ios": [
     {
       "rank": 1,
-      "name": "AirFry Coach",
-      "developer": "George Denkey",
-      "category": "Food & Drink",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/b7/82/6eb7824b-fdaf-c24e-5ccd-8c9f968015ec/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/airfry-coach/id6759219486?uo=2",
-      "idea_summary": "에어프라이어 요리 가이드 앱",
+      "name": "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+      "developer": "Yejin Hwang",
+      "category": "Health/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/6f/91/cb6f91a6-6517-9a8e-c506-c998ced3c487/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%94%BC%EB%A1%9C%EB%AA%BD-%EC%BB%A8%EB%94%94%EC%85%98-%EB%B2%88%EC%95%84%EC%9B%83-%ED%94%BC%EB%A1%9C-%EC%B2%B4%EB%A0%A5-%EB%A9%98%ED%83%88-%EA%B4%80%EB%A6%AC/id6758072422?uo=2",
+      "idea_summary": "번아웃과 피로도를 체계적으로 관리하는 웰빙 앱",
       "analysis": {
-        "problem": "에어프라이어 요리법을 모르는 초보자들의 고민 [추론]",
-        "solution": "단계별 에어프라이어 레시피와 타이밍 가이드 제공 [추론]",
-        "target_user": "에어프라이어 구매한 요리 초보자들 [추론]",
-        "unique_point": "에어프라이어 전용 특화 요리 코칭 [추론]"
+        "problem": "현대인의 만성 피로와 번아웃을 객관적으로 측정하고 관리하기 어려움 [추론]",
+        "solution": "일일 컨디션 체크와 데이터 분석을 통한 피로도 시각화 및 관리 솔루션 제공 [추론]",
+        "target_user": "직장인, 학생, 스트레스가 많은 현대인 [추론]",
+        "unique_point": "단순한 일기가 아닌 과학적 접근으로 피로도 패턴 분석 [추측]"
       },
       "market": {
         "competitors": [
-          "쿠킹마마",
-          "만개의레시피"
+          "마음챙김",
+          "헬스케어 앱들"
         ],
-        "timing_reason": "에어프라이어 보급률 증가와 건강 요리 트렌드 [추론]",
-        "growth_potential": "중간 규모 틈새시장, 꾸준한 성장 가능 [추론]"
+        "timing_reason": "코로나19 이후 멘탈헬스에 대한 관심 급증 [추론]",
+        "growth_potential": "웰빙 트렌드와 함께 지속적 성장 가능 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 레시피 구독 모델 [추론]",
-        "pricing_suggestion": "월 2,900원 구독제 [추론]",
+        "monetization": "프리미엄 분석 리포트, 구독 모델 [추론]",
+        "pricing_suggestion": "월 2,900원 구독 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
         "estimated_cost": "800만원 [추론]",
         "tech_stack": [
-          "Swift",
+          "Swift/Kotlin",
           "Core Data",
-          "AVFoundation"
+          "Charts"
         ],
         "key_features": [
-          "타이머 기능",
-          "레시피 검색",
-          "즐겨찾기"
+          "일일체크",
+          "패턴분석",
+          "알림시스템"
         ],
-        "clone_tip": "요리 타이머와 단계별 알림이 핵심 기능 [추론]"
+        "clone_tip": "간단한 UI로 시작해서 점진적 기능 확장 [추론]"
       },
       "scores": {
         "novelty": 4,
-        "necessity": 4,
+        "necessity": 5,
         "timing": 5,
         "tech_difficulty": 4,
-        "market_size": 3,
+        "market_size": 4,
         "competition": 4,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 7.5
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.6
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#요리"
+        "#웰빙"
       ],
-      "verdict": "에어프라이어 특화로 차별화된 틈새시장 공략",
-      "deep_report_id": "ios-airfry-coach-1771480445657"
+      "verdict": "멘탈헬스 트렌드에 부합하는 실용적 아이템",
+      "deep_report_id": "ios-피로몽-컨디션-번아웃-피로-체력-멘탈-관리-1771507928264"
     },
     {
       "rank": 2,
-      "name": "Miklat - Shelter Finder",
-      "developer": "Jeremie Quenet",
+      "name": "Beacon Guardian: Find my Kids",
+      "developer": "Ember Forge Apps Inc.",
       "category": "Navigation",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/38/b8/fc38b803-d0a3-8164-5cdc-57fbab99d028/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/miklat-shelter-finder/id6758737889?uo=2",
-      "idea_summary": "비상시 대피소 찾기 앱",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/06/28/fd062837-ede6-8fd2-24c2-b075348294d3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/beacon-guardian-find-my-kids/id6758816261?uo=2",
+      "idea_summary": "비콘 기술로 아이들 위치 추적하는 부모앱",
       "analysis": {
-        "problem": "재해나 위급상황에서 가까운 대피소를 찾지 못하는 문제 [추론]",
-        "solution": "GPS 기반 가장 가까운 대피소 위치와 경로 안내 [추론]",
-        "target_user": "안전에 민감한 시민들, 여행자들 [추론]",
-        "unique_point": "대피소 특화 네비게이션과 실시간 정보 [추론]"
+        "problem": "GPS만으론 실내 위치 파악이 어렵고 배터리 소모가 큼 [확인]",
+        "solution": "저전력 비콘과 앱 연동으로 정확한 실내외 위치 추적 [추론]",
+        "target_user": "어린 자녀를 둔 부모, 특히 도심 거주자 [추론]",
+        "unique_point": "기존 GPS 추적앱과 달리 비콘 활용한 차별화 [추론]"
       },
       "market": {
         "competitors": [
-          "재난대응 앱",
-          "안전디딤돌"
+          "Life360",
+          "Family Link"
         ],
-        "timing_reason": "자연재해 증가와 안전 의식 강화 [추론]",
-        "growth_potential": "사회적 필요성 높아 정부 지원 가능 [추론]"
+        "timing_reason": "아동 안전에 대한 부모 관심 증가 [확인]",
+        "growth_potential": "IoT 비콘 보급 확산과 함께 성장 [추론]"
       },
       "business": {
-        "monetization": "정부 계약 및 프리미엄 기능 [추론]",
-        "pricing_suggestion": "B2G 모델 중심 [추론]",
-        "revenue_potential": "중"
+        "monetization": "하드웨어 판매 + 앱 구독 [추론]",
+        "pricing_suggestion": "비콘 2만원 + 월 4,900원 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "4-5개월 [추론]",
         "estimated_cost": "1200만원 [추론]",
         "tech_stack": [
-          "Swift",
+          "Bluetooth Low Energy",
           "MapKit",
-          "CoreLocation"
+          "Push Notifications"
         ],
         "key_features": [
-          "오프라인 지도",
-          "대피소 DB",
-          "경로 최적화"
+          "비콘연동",
+          "지오펜싱",
+          "실시간알림"
         ],
-        "clone_tip": "정확한 대피소 데이터베이스 구축이 핵심 [추론]"
+        "clone_tip": "먼저 앱만 개발하고 저가 비콘과 연동 테스트 [추론]"
       },
       "scores": {
-        "novelty": 4,
+        "novelty": 5,
         "necessity": 5,
-        "timing": 5,
+        "timing": 4,
         "tech_difficulty": 3,
         "market_size": 4,
-        "competition": 5,
-        "profitability": 3,
+        "competition": 3,
+        "profitability": 5,
         "scalability": 4,
-        "overall": 8.1
+        "overall": 8.8
       },
       "tags": [
-        "#사회공헌",
-        "#B2G",
-        "#안전"
+        "#1인개발가능",
+        "#B2C",
+        "#하드웨어연동"
       ],
-      "verdict": "사회적 가치 높고 정부 지원 가능한 필수 앱"
+      "verdict": "IoT와 모바일이 결합된 혁신적 육아 솔루션"
     },
     {
       "rank": 3,
-      "name": "Derby Scoreboard",
-      "developer": "Santa Cruz Derby Groms",
-      "category": "Sports",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/fa/36/fbfa36d8-dd9c-f516-8a85-4198f679f984/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/derby-scoreboard/id6757841010?uo=2",
-      "idea_summary": "롤러 더비 전용 스코어보드",
+      "name": "Khemera Keyboard",
+      "developer": "Sokphouthon Ourn",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/ef/c7/62efc77e-4e49-7bbc-2d28-32be66df0996/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/khemera-keyboard/id6759240414?uo=2",
+      "idea_summary": "크메르어 전용 최적화 키보드 앱",
       "analysis": {
-        "problem": "롤러 더비 경기의 복잡한 점수 계산과 기록 [추론]",
-        "solution": "롤러 더비 규칙에 맞춘 자동 점수 계산 시스템 [추론]",
-        "target_user": "롤러 더비 팀, 심판, 관중들 [추론]",
-        "unique_point": "롤러 더비 특화된 유일한 스코어보드 앱 [추론]"
+        "problem": "크메르어 타이핑이 기본 키보드로는 불편하고 부정확함 [추론]",
+        "solution": "크메르어 문자 체계에 최적화된 전용 키보드 제공 [추론]",
+        "target_user": "캄보디아인, 크메르어 학습자 [추론]",
+        "unique_point": "특정 언어에 특화된 키보드 전문 개발 [추론]"
       },
       "market": {
         "competitors": [
-          "범용 스포츠 앱들",
-          "수기 기록"
+          "Google Keyboard",
+          "SwiftKey"
         ],
-        "timing_reason": "롤러 더비 인기 증가와 디지털화 트렌드 [추론]",
-        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 [추론]"
+        "timing_reason": "동남아 스마트폰 보급률 증가 [확인]",
+        "growth_potential": "언어별 특화 키보드 수요 증가 [추론]"
       },
       "business": {
-        "monetization": "팀 라이센스 및 프리미엄 기능 [추론]",
-        "pricing_suggestion": "팀당 월 9,900원 [추론]",
-        "revenue_potential": "하"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "500만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "SwiftUI",
-          "CloudKit"
-        ],
-        "key_features": [
-          "실시간 점수",
-          "통계 분석",
-          "경기 기록"
-        ],
-        "clone_tip": "다른 스포츠로 확장 가능한 구조로 설계 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 4,
-        "timing": 3,
-        "tech_difficulty": 5,
-        "market_size": 2,
-        "competition": 5,
-        "profitability": 2,
-        "scalability": 2,
-        "overall": 6.5
-      },
-      "tags": [
-        "#틈새시장",
-        "#B2B",
-        "#스포츠"
-      ],
-      "verdict": "작지만 확실한 시장, 다른 스포츠 확장 필요"
-    },
-    {
-      "rank": 4,
-      "name": "Growth Basketball Club",
-      "developer": "Efficient Way",
-      "category": "Sports",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/d8/cc/29d8ccec-d8f7-5936-13f7-87cda7dddd8a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/growth-basketball-club/id6759081153?uo=2",
-      "idea_summary": "농구 클럽 관리 도구",
-      "analysis": {
-        "problem": "아마추어 농구팀의 선수 관리와 성장 추적의 어려움 [추론]",
-        "solution": "선수별 실력 추적, 연습 계획, 팀 관리 올인원 [추론]",
-        "target_user": "아마추어 농구 코치, 클럽 관리자 [추론]",
-        "unique_point": "농구 특화 성장 추적과 팀 관리 시스템 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "TeamSnap",
-          "SportsEngine"
-        ],
-        "timing_reason": "생활체육 활성화와 데이터 기반 훈련 트렌드 [추론]",
-        "growth_potential": "아마추어 스포츠팀 시장 확장 가능 [추론]"
-      },
-      "business": {
-        "monetization": "팀별 구독제와 프리미엄 분석 기능 [추론]",
-        "pricing_suggestion": "팀당 월 19,900원 [추론]",
+        "monetization": "프리미엄 테마, 고급 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 1,500원 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "1000만원 [추론]",
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
         "tech_stack": [
-          "Swift",
-          "Core Data",
-          "Charts"
+          "Keyboard Extension",
+          "Core Text",
+          "Unicode"
         ],
         "key_features": [
-          "선수 프로필",
-          "통계 분석",
-          "일정 관리"
+          "언어특화",
+          "자동완성",
+          "테마지원"
         ],
-        "clone_tip": "다른 팀 스포츠로 쉽게 확장 가능하게 설계 [추론]"
+        "clone_tip": "다른 소수언어로 확장 가능한 템플릿 구조 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#글로벌"
+      ],
+      "verdict": "틈새시장이지만 필수성 높은 언어 도구"
+    },
+    {
+      "rank": 4,
+      "name": "ChartsGPT: AI Trading Assist",
+      "developer": "Anthony Verruijt",
+      "category": "Finance",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/c3/f9/87c3f982-bca5-b7a6-de37-f66159dbb9a7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/chartsgpt-ai-trading-assist/id6758857719?uo=2",
+      "idea_summary": "AI 기반 주식 차트 분석 및 거래 보조",
+      "analysis": {
+        "problem": "개인투자자는 차트 분석 전문성이 부족해 투자 판단이 어려움 [확인]",
+        "solution": "AI가 차트 패턴을 분석하고 거래 신호와 조언을 실시간 제공 [추론]",
+        "target_user": "초보~중급 개인투자자, 데이트레이더 [추론]",
+        "unique_point": "GPT 기반으로 차트를 해석하고 자연어로 설명 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TradingView",
+          "인베스팅닷컴"
+        ],
+        "timing_reason": "AI 트레이딩 도구 수요 급증과 개인투자 열풍 [확인]",
+        "growth_potential": "핀테크 AI 융합 분야 고성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 분석, 실시간 알림 구독 [추론]",
+        "pricing_suggestion": "월 19,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "OpenAI API",
+          "TradingView API",
+          "Chart.js"
+        ],
+        "key_features": [
+          "차트분석",
+          "AI조언",
+          "실시간알림"
+        ],
+        "clone_tip": "오픈 금융 API로 시작해서 점진적 AI 고도화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI",
+        "#핀테크"
+      ],
+      "verdict": "AI 투자 열풍에 최적화된 고수익 아이템"
+    },
+    {
+      "rank": 5,
+      "name": "Aurylius",
+      "developer": "Aurylius",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/c6/97/3fc697c4-5109-f181-13af-e588e2d626b8/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aurylius/id6755753775?uo=2",
+      "idea_summary": "생산성 향상을 위한 작업 관리 도구",
+      "analysis": {
+        "problem": "기존 생산성 앱들이 복잡하거나 개인화가 부족함 [추측]",
+        "solution": "개인 맞춤형 작업 관리와 생산성 분석 제공 [추측]",
+        "target_user": "프리랜서, 지식근로자, 창작자 [추론]",
+        "unique_point": "단순하면서도 강력한 개인화 기능 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "Todoist",
+          "Any.do"
+        ],
+        "timing_reason": "재택근무 확산으로 개인 생산성 도구 수요 증가 [확인]",
+        "growth_potential": "생산성 앱 시장의 지속 성장 [확인]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독, 팀 협업 기능 [추론]",
+        "pricing_suggestion": "월 4,900원 개인, 월 9,900원 프로 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Analytics"
+        ],
+        "key_features": [
+          "작업관리",
+          "진행률추적",
+          "분석대시보드"
+        ],
+        "clone_tip": "MVP로 간단한 투두리스트부터 시작 [추론]"
       },
       "scores": {
         "novelty": 3,
@@ -230,396 +292,343 @@
         "timing": 4,
         "tech_difficulty": 4,
         "market_size": 4,
-        "competition": 3,
+        "competition": 2,
         "profitability": 4,
         "scalability": 4,
-        "overall": 7.5
+        "overall": 7.6
       },
       "tags": [
-        "#B2B",
-        "#스포츠",
-        "#관리도구"
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
       ],
-      "verdict": "팀 스포츠 관리 시장의 틈새를 노린 실용적 앱"
-    },
-    {
-      "rank": 5,
-      "name": "Antique Identifier - Antiqa",
-      "developer": "Deren NEREN",
-      "category": "Reference",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/b9/ce/20b9ce5d-d718-0f0c-dae8-648ef7b182de/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/antique-identifier-antiqa/id6758963058?uo=2",
-      "idea_summary": "AI 골동품 감정 앱",
-      "analysis": {
-        "problem": "골동품 수집가들의 진위 감정과 가치 평가 어려움 [추론]",
-        "solution": "사진 촬영으로 AI가 골동품 종류와 대략적 가치 추정 [추론]",
-        "target_user": "골동품 수집가, 플리마켓 쇼핑객 [추론]",
-        "unique_point": "골동품 특화 AI 감정 시스템 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Google Lens",
-          "일반 물체 인식 앱들"
-        ],
-        "timing_reason": "MZ세대 빈티지 열풍과 AI 기술 발전 [추론]",
-        "growth_potential": "틈새시장이지만 고가치 사용자층 [추론]"
-      },
-      "business": {
-        "monetization": "감정 횟수 제한과 프리미엄 상세 분석 [추론]",
-        "pricing_suggestion": "월 7,900원 무제한 감정 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "5-6개월 [추론]",
-        "estimated_cost": "1500만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "CoreML",
-          "Vision"
-        ],
-        "key_features": [
-          "사진 인식",
-          "가치 추정",
-          "역사 정보"
-        ],
-        "clone_tip": "고품질 골동품 데이터셋 구축이 가장 중요 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 2,
-        "market_size": 3,
-        "competition": 4,
-        "profitability": 4,
-        "scalability": 3,
-        "overall": 7
-      },
-      "tags": [
-        "#AI",
-        "#틈새시장",
-        "#수집"
-      ],
-      "verdict": "AI 기술과 틈새시장의 완벽한 결합"
+      "verdict": "경쟁이 치열하지만 차별화하면 안정적 수익"
     }
   ],
   "android": [
     {
       "rank": 1,
-      "name": "Location Mate - Share & Track",
-      "developer": "IMPACTSOLTER",
-      "category": "Navigation",
-      "icon": "https://play-lh.googleusercontent.com/AuvpCDgQ_Oq5xUlygd6cNSxOHCnxAPItwcyJVI1dq-vOsGF0oQTwFsUd3GOHsRzYdl0",
-      "app_url": "https://play.google.com/store/apps/details?id=com.location.track.proxy.gps",
-      "idea_summary": "위치 공유 및 추적 앱",
+      "name": "Shortn: Short Viral Video App",
+      "developer": "3COMMAS LTD",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/st98I7ykTvQ2ag5nir8Fi1kMgowzMjv1GdY8P-UzvTXNDgyQm9GcoQ63BJCrNlHC1Ug",
+      "app_url": "https://play.google.com/store/apps/details?id=shortn.video",
+      "idea_summary": "바이럴 숏폼 비디오 제작 특화 플랫폼",
       "analysis": {
-        "problem": "가족이나 친구들과의 실시간 위치 공유 불편함 [추론]",
-        "solution": "간편한 위치 공유와 도착 알림 기능 [추론]",
-        "target_user": "가족단위 사용자, 연인, 친구 그룹 [추론]",
-        "unique_point": "프라이버시 중심의 선택적 위치 공유 [추론]"
+        "problem": "일반인도 쉽게 바이럴될 수 있는 숏폼 콘텐츠 제작이 어려움 [확인]",
+        "solution": "바이럴 요소를 분석해서 자동으로 편집 템플릿과 효과 제공 [추론]",
+        "target_user": "콘텐츠 크리에이터, 인플루언서 지망생, Z세대 [추론]",
+        "unique_point": "바이럴 성공 패턴을 AI로 분석해서 제작 도구에 반영 [추측]"
       },
       "market": {
         "competitors": [
-          "Find My Friends",
-          "Life360"
+          "TikTok",
+          "Instagram Reels",
+          "YouTube Shorts"
         ],
-        "timing_reason": "원격근무와 안전에 대한 관심 증가 [추론]",
-        "growth_potential": "가족 안전 시장 확대로 성장 가능 [추론]"
+        "timing_reason": "숏폼 콘텐츠 시장 폭발적 성장과 크리에이터 이코노미 확산 [확인]",
+        "growth_potential": "글로벌 숏폼 시장 지속 확장 예상 [확인]"
       },
       "business": {
-        "monetization": "프리미엄 기능과 광고 모델 [추론]",
-        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "monetization": "프리미엄 템플릿, 고급 편집 기능, 광고 수익 분배 [추론]",
+        "pricing_suggestion": "월 9,900원 크리에이터 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "FFmpeg",
+          "TensorFlow",
+          "Firebase",
+          "CDN"
+        ],
+        "key_features": [
+          "AI편집",
+          "템플릿라이브러리",
+          "바이럴분석"
+        ],
+        "clone_tip": "기본 비디오 편집부터 시작해서 AI 기능 점진 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.9
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#크리에이터"
+      ],
+      "verdict": "기술적 난이도 높지만 폭발적 성장 가능성",
+      "deep_report_id": "android-shortn-short-viral-video-app-1771508001274"
+    },
+    {
+      "rank": 2,
+      "name": "Freecash - Money Making App",
+      "developer": "Freecash",
+      "category": "Finance",
+      "icon": "https://play-lh.googleusercontent.com/1jbDtjcPEwtSiIPSMlUl_O6i-SqqB27ba3hEvDOw0E0oiB5nIwKUATFHLjqjGKmRWDQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.freecash.app2",
+      "idea_summary": "다양한 미션으로 돈 버는 리워드 앱",
+      "analysis": {
+        "problem": "부업이나 용돈벌이 기회를 찾기 어려운 일반인들의 니즈 [확인]",
+        "solution": "설문조사, 앱 설치, 동영상 시청 등으로 포인트 적립하여 현금 환전 [추론]",
+        "target_user": "대학생, 주부, 부업 관심자 [추론]",
+        "unique_point": "다양한 태스크를 하나의 앱에서 통합 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Swagbucks",
+          "Survey Junkie",
+          "포인트앱들"
+        ],
+        "timing_reason": "경제적 어려움으로 부수입에 대한 관심 증가 [확인]",
+        "growth_potential": "기그 이코노미 확산과 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고주 수수료, 플랫폼 중개 수수료 [추론]",
+        "pricing_suggestion": "무료 (광고주 지불) [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Payment API",
+          "Ad Networks"
+        ],
+        "key_features": [
+          "미션시스템",
+          "포인트관리",
+          "현금환전"
+        ],
+        "clone_tip": "소규모 광고주 확보부터 시작해서 점진적 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#리워드"
+      ],
+      "verdict": "검증된 비즈니스 모델의 안정적 수익원"
+    },
+    {
+      "rank": 3,
+      "name": "EdgeAura",
+      "developer": "Zachary Holt",
+      "category": "Lifestyle",
+      "icon": "https://play-lh.googleusercontent.com/ADvRfzeqhSe-s46eco-qq7HmET-Q8n2ndmlPOvbg36mmrJhDBVovB8NarqPLKJ_3TxauHv6XCbj07FsymEO6",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wallpaper.edge.aura",
+      "idea_summary": "AI 기반 개인화된 어시스턴트 앱",
+      "analysis": {
+        "problem": "기존 AI 어시스턴트들이 획일적이고 개인화가 부족함 [추론]",
+        "solution": "사용자 패턴을 학습해서 맞춤형 어시스턴트 서비스 제공 [추측]",
+        "target_user": "스마트폰 파워유저, 생산성 추구자 [추론]",
+        "unique_point": "엣지 컴퓨팅으로 더 빠르고 개인화된 AI 서비스 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Google Assistant",
+          "Siri",
+          "Bixby"
+        ],
+        "timing_reason": "AI 어시스턴트 기술 고도화와 개인화 서비스 수요 증가 [확인]",
+        "growth_potential": "AI 어시스턴트 시장 지속 성장 [확인]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능, 무제한 쿼리 구독 [추론]",
+        "pricing_suggestion": "월 7,900원 프로 플랜 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "1300만원 [추론]",
+        "tech_stack": [
+          "Machine Learning",
+          "NLP APIs",
+          "Edge Computing"
+        ],
+        "key_features": [
+          "개인화학습",
+          "빠른응답",
+          "상황인식"
+        ],
+        "clone_tip": "기본 챗봇부터 시작해서 점진적 개인화 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "기술적 도전이지만 차별화 가능한 AI 영역"
+    },
+    {
+      "rank": 4,
+      "name": "Grok AI Generation",
+      "developer": "xAI",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/dQRKhi30KpzG3gww3TdVLzyIAVuOAWylnAcgnEUxqfpm2A8dEt2sgApVvtKAy-DO8aI",
+      "app_url": "https://play.google.com/store/apps/details?id=ai.x.grok",
+      "idea_summary": "AI 콘텐츠 생성 도구 모음 앱",
+      "analysis": {
+        "problem": "다양한 AI 생성 도구들이 분산되어 있어 접근성이 떨어짐 [추론]",
+        "solution": "텍스트, 이미지, 코드 생성을 하나의 앱에서 통합 제공 [추론]",
+        "target_user": "크리에이터, 마케터, 개발자, 학생 [추론]",
+        "unique_point": "여러 AI 모델을 통합해서 원스탑 생성 도구 제공 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Midjourney",
+          "Jasper"
+        ],
+        "timing_reason": "생성형 AI 도구 수요 폭증과 통합 솔루션 니즈 [확인]",
+        "growth_potential": "AI 생성 도구 시장의 급속한 확장 [확인]"
+      },
+      "business": {
+        "monetization": "API 사용량 기반 과금, 프리미엄 모델 접근 [추론]",
+        "pricing_suggestion": "월 14,900원 무제한 플랜 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
         "estimated_cost": "800만원 [추론]",
         "tech_stack": [
-          "Kotlin",
-          "Google Maps API",
-          "Firebase"
+          "OpenAI API",
+          "Stable Diffusion",
+          "Gradio"
         ],
         "key_features": [
-          "실시간 위치",
-          "지오펜싱",
-          "배터리 최적화"
+          "멀티모달생성",
+          "템플릿라이브러리",
+          "히스토리관리"
         ],
-        "clone_tip": "배터리 소모 최적화와 프라이버시 설정이 핵심 [추론]"
+        "clone_tip": "오픈소스 모델로 시작해서 API 통합 확장 [추론]"
       },
       "scores": {
         "novelty": 3,
-        "necessity": 5,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 5,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8
-      },
-      "tags": [
-        "#가족앱",
-        "#안전",
-        "#B2C"
-      ],
-      "verdict": "필수 기능이지만 경쟁 치열한 레드오션",
-      "deep_report_id": "android-location-mate-share-track-1771480493387"
-    },
-    {
-      "rank": 2,
-      "name": "Easy Reader - PDF Reader",
-      "developer": "Rundong Technology",
-      "category": "Productivity",
-      "icon": "https://play-lh.googleusercontent.com/Pi_sE9utaiPgXrg-u1jGpAPQy7sqY_sOmvl11ujgKAHMAeTIBJfJ_Jp6g885jsuFxbQ",
-      "app_url": "https://play.google.com/store/apps/details?id=com.nexusforge.reader.engine",
-      "idea_summary": "간편한 PDF 리더 앱",
-      "analysis": {
-        "problem": "복잡한 PDF 앱들 대신 단순하고 빠른 리더 필요 [추론]",
-        "solution": "핵심 기능만 갖춘 가벼운 PDF 뷰어 [추론]",
-        "target_user": "학생, 직장인, 일반 문서 열람자 [추론]",
-        "unique_point": "단순함과 속도에 특화된 미니멀 디자인 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Adobe Reader",
-          "Foxit PDF"
-        ],
-        "timing_reason": "모바일 문서 작업 증가와 미니멀 트렌드 [추론]",
-        "growth_potential": "기본 앱 대체재로 꾸준한 수요 [추론]"
-      },
-      "business": {
-        "monetization": "광고 제거와 고급 기능 구독 [추론]",
-        "pricing_suggestion": "월 1,900원 또는 일회성 4,900원 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "600만원 [추론]",
-        "tech_stack": [
-          "Kotlin",
-          "PDFBox",
-          "Material Design"
-        ],
-        "key_features": [
-          "빠른 로딩",
-          "주석 기능",
-          "북마크"
-        ],
-        "clone_tip": "PDF 렌더링 최적화와 메모리 관리가 핵심 [추론]"
-      },
-      "scores": {
-        "novelty": 2,
         "necessity": 4,
-        "timing": 3,
+        "timing": 5,
         "tech_difficulty": 4,
         "market_size": 5,
-        "competition": 1,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 6.3
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.4
       },
       "tags": [
-        "#생산성",
-        "#문서",
-        "#미니멀"
+        "#1인개발가능",
+        "#B2C",
+        "#AI생성"
       ],
-      "verdict": "치열한 시장이지만 차별화로 틈새 공략 가능"
+      "verdict": "AI 열풍에 최적화된 통합 솔루션"
     },
     {
-      "rank": 3,
-      "name": "Clean Sweep Toolkit",
-      "developer": "Pixelapps Studio",
-      "category": "Tools",
-      "icon": "https://play-lh.googleusercontent.com/5VD-TeoxeMxyX0jYZ_MBksbIOuo5eiiF-wZripoiIJE0Ghz8ups-vqMY7YZ53Nnr7IpRibUlHhch7B8RTpThcQ",
-      "app_url": "https://play.google.com/store/apps/details?id=com.clean.sweep.toolarp",
-      "idea_summary": "기기 정리 도구 모음",
+      "rank": 5,
+      "name": "Cleanup: Phone Storage Cleaner",
+      "developer": "Deep Flow Apps",
+      "category": "Utility",
+      "icon": "https://play-lh.googleusercontent.com/ch_hRY59cDYlQrI-Utveqytsnu3rsMbhWeZWnX8AFLj4nW-CqA0BGl8EFxkk4Lz8DzEorfag343uFRgVPWCQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.storage.androidcleaner",
+      "idea_summary": "스마트한 폰 저장공간 최적화 도구",
       "analysis": {
-        "problem": "안드로이드 기기 정리를 위한 여러 앱들의 불편함 [추론]",
-        "solution": "정리, 최적화, 관리 도구를 하나로 통합 [추론]",
-        "target_user": "스마트폰 관리에 관심 많은 일반 사용자 [추론]",
-        "unique_point": "올인원 기기 관리 솔루션 [추론]"
+        "problem": "스마트폰 저장공간 부족으로 인한 성능 저하와 관리의 어려움 [확인]",
+        "solution": "AI 기반으로 불필요한 파일을 자동 감지하고 안전하게 정리 [추론]",
+        "target_user": "일반 스마트폰 사용자, 특히 저용량 기기 사용자 [추론]",
+        "unique_point": "기존 클리너와 달리 AI가 파일 중요도를 판단해서 정리 [추측]"
       },
       "market": {
         "competitors": [
           "CCleaner",
-          "Clean Master"
+          "Clean Master",
+          "Files by Google"
         ],
-        "timing_reason": "스마트폰 저장공간 부족과 성능 이슈 증가 [추론]",
-        "growth_potential": "안드로이드 사용자 증가와 함께 성장 [추론]"
+        "timing_reason": "고화질 콘텐츠 증가로 저장공간 부족 문제 심화 [확인]",
+        "growth_potential": "스마트폰 사용자 증가와 함께 꾸준한 수요 [확인]"
       },
       "business": {
-        "monetization": "프리미엄 기능과 광고 수익 [추론]",
-        "pricing_suggestion": "월 2,900원 또는 연 24,900원 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "1000만원 [추론]",
-        "tech_stack": [
-          "Kotlin",
-          "Android Storage API",
-          "WorkManager"
-        ],
-        "key_features": [
-          "스토리지 분석",
-          "중복파일 삭제",
-          "캐시 정리"
-        ],
-        "clone_tip": "안드로이드 권한 관리와 배터리 최적화 필요 [추론]"
-      },
-      "scores": {
-        "novelty": 2,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 5,
-        "competition": 1,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 6.8
-      },
-      "tags": [
-        "#유틸리티",
-        "#최적화",
-        "#안드로이드"
-      ],
-      "verdict": "필수 유틸리티지만 구글 정책 변화 위험"
-    },
-    {
-      "rank": 4,
-      "name": "PDF Reader - Editor & Viewer",
-      "developer": "SENMO LTD",
-      "category": "Productivity",
-      "icon": "https://play-lh.googleusercontent.com/MCTfFzpO1AXnl4Pb3tInNz_jh0QqZrXfD1efMzmRdO31SZEhcEQZnP4GVH6aOCpNBsi5QvA-idisQQsfMC8t8A",
-      "app_url": "https://play.google.com/store/apps/details?id=com.senmo.pdf.reader.app",
-      "idea_summary": "PDF 편집 가능한 뷰어",
-      "analysis": {
-        "problem": "모바일에서 PDF 편집이 어려운 문제 [추론]",
-        "solution": "간단한 PDF 편집과 주석 기능 제공 [추론]",
-        "target_user": "문서 작업이 많은 직장인, 학생 [추론]",
-        "unique_point": "뷰어와 에디터 기능을 동시에 제공 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Adobe Acrobat",
-          "WPS Office"
-        ],
-        "timing_reason": "원격근무 증가로 모바일 문서 편집 수요 증가 [추론]",
-        "growth_potential": "모바일 오피스 시장 확대 [추론]"
-      },
-      "business": {
-        "monetization": "편집 기능 구독제와 클라우드 스토리지 [추론]",
-        "pricing_suggestion": "월 4,900원 풀기능 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "5-6개월 [추론]",
-        "estimated_cost": "1500만원 [추론]",
-        "tech_stack": [
-          "Kotlin",
-          "PDFBox",
-          "Canvas API"
-        ],
-        "key_features": [
-          "텍스트 편집",
-          "서명 기능",
-          "클라우드 동기화"
-        ],
-        "clone_tip": "PDF 편집 엔진 최적화가 가장 중요 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 2,
-        "market_size": 5,
-        "competition": 1,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 7.3
-      },
-      "tags": [
-        "#생산성",
-        "#편집",
-        "#B2B"
-      ],
-      "verdict": "강력한 경쟁사 있지만 특화 기능으로 차별화"
-    },
-    {
-      "rank": 5,
-      "name": "Keep PDF - PDF Reader",
-      "developer": "Galiana Lian",
-      "category": "Productivity",
-      "icon": "https://play-lh.googleusercontent.com/BhNd6n-HZqVblmkB8h0JtdP_7KZ4GlCO4EWuhDotkZlJtU5GO4miUhdTJGt0CX3YrpftpF4KiWt85CHLNI2SnYs",
-      "app_url": "https://play.google.com/store/apps/details?id=com.keep.pdf.reader.pdf.viewer",
-      "idea_summary": "PDF 보관 특화 리더",
-      "analysis": {
-        "problem": "PDF 파일 관리와 체계적 보관의 어려움 [추론]",
-        "solution": "폴더 구조와 태그 시스템으로 PDF 체계 관리 [추론]",
-        "target_user": "문서 관리가 중요한 연구자, 변호사 등 [추론]",
-        "unique_point": "PDF 라이브러리 관리에 특화 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "일반 PDF 앱들",
-          "노트 앱들"
-        ],
-        "timing_reason": "디지털 문서 증가와 정보 관리 중요성 [추론]",
-        "growth_potential": "전문직 중심으로 꾸준한 수요 [추론]"
-      },
-      "business": {
-        "monetization": "클라우드 스토리지와 고급 검색 기능 [추론]",
-        "pricing_suggestion": "월 3,900원 프리미엄 [추론]",
+        "monetization": "프리미엄 기능, 광고 제거, 고급 최적화 도구 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "900만원 [추론]",
+        "estimated_cost": "600만원 [추론]",
         "tech_stack": [
-          "Kotlin",
-          "Room DB",
-          "WorkManager"
+          "Android Storage API",
+          "ML Kit",
+          "Analytics"
         ],
         "key_features": [
-          "스마트 분류",
-          "전체 검색",
-          "백업 동기화"
+          "스마트분석",
+          "안전정리",
+          "성능모니터링"
         ],
-        "clone_tip": "파일 인덱싱과 검색 최적화가 핵심 [추론]"
+        "clone_tip": "기본 정리 기능부터 구현해서 AI 기능 점진 추가 [추론]"
       },
       "scores": {
         "novelty": 3,
-        "necessity": 3,
+        "necessity": 5,
         "timing": 4,
         "tech_difficulty": 4,
-        "market_size": 3,
-        "competition": 3,
+        "market_size": 4,
+        "competition": 2,
         "profitability": 3,
-        "scalability": 3,
-        "overall": 6.5
+        "scalability": 4,
+        "overall": 7.6
       },
       "tags": [
-        "#문서관리",
-        "#전문직",
-        "#B2B"
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
       ],
-      "verdict": "전문직 타겟의 틈새시장, 차별화 필요"
+      "verdict": "필수적이지만 차별화가 관건인 유틸리티"
     }
   ],
   "daily_insight": {
-    "trend_summary": "AI 식별 앱과 생산성 도구가 주를 이루며, 틈새 시장 특화 앱들이 눈에 띈다 [추론]. PDF 관련 앱의 다양한 접근법이 흥미로운 트렌드로 보인다 [추론].",
+    "trend_summary": "AI 통합 서비스와 개인화 웰빙 앱이 주요 트렌드로 부상하고 있습니다. 특히 생성형 AI를 활용한 콘텐츠 제작 도구와 멘탈헬스 관리 앱의 수요가 급증하고 있습니다.",
     "trend_details": [
-      "AI 기반 식별/감정 앱 증가",
-      "PDF 처리 앱의 세분화",
-      "스포츠 특화 관리 도구",
-      "안전/보안 관련 앱 관심 증가"
+      "AI 통합 서비스 증가",
+      "개인화 웰빙 솔루션",
+      "숏폼 콘텐츠 제작 도구",
+      "IoT 연동 안전 서비스",
+      "틈새 언어 지원 도구"
     ],
     "hot_categories": [
-      "Reference",
-      "Productivity",
-      "Sports"
+      "Health/Fitness",
+      "AI/Productivity",
+      "Content Creation"
     ],
-    "opportunity": "전문 분야별 특화된 관리 도구와 AI 활용 식별 서비스",
-    "action_item": "틈새 시장 발굴과 기존 범용 앱의 특화 버전 개발 검토"
+    "opportunity": "AI 기술과 전통 서비스의 융합을 통한 개인화된 솔루션 개발",
+    "action_item": "멘탈헬스와 AI를 결합한 개인 맞춤형 케어 서비스 기획"
   }
 }
