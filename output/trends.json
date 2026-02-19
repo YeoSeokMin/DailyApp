@@ -1,47 +1,64 @@
 {
-  "generatedAt": "2026-02-19T13:38:39.747Z",
+  "generatedAt": "2026-02-19T15:12:23.647Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Navigation",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Finance",
+      "currentCount": 5,
+      "previousCount": 2,
+      "changePercent": 150,
       "changeDirection": "up",
       "apps": [
-        "Miklat - Shelter Finder",
-        "Location Mate - Share & Track",
-        "EVOX"
+        "ChartsGPT: AI Trading Assist",
+        "Freecash - Money Making App",
+        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
+        "iAEON",
+        "dPay - Mobile Payment App"
       ],
-      "avgScore": 8.033333333333333
+      "avgScore": 7.899999999999999
     },
     {
-      "category": "Sports",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Derby Scoreboard",
-        "Growth Basketball Club",
-        "TCG Tournament Tracker"
-      ],
-      "avgScore": 6.933333333333334
-    },
-    {
-      "category": "Reference",
+      "category": "Health/Fitness",
       "currentCount": 2,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Antique Identifier - Antiqa",
-        "Anymal - AI Animal Identifier"
+        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+        "BumpTrackr"
       ],
-      "avgScore": 7
+      "avgScore": 8.05
+    },
+    {
+      "category": "Navigation",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Beacon Guardian: Find my Kids",
+        "EVOX"
+      ],
+      "avgScore": 8.4
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 6,
+      "previousCount": 3,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Shortn: Short Viral Video App",
+        "MiSing - Sing Anytime, Anywhere",
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+        "DramaWave - 인기 단편/한일 드라마, 역전극!",
+        "Lezhin Snack",
+        "Crack - Instant Storytelling with AI Chat"
+      ],
+      "avgScore": 7.683333333333333
     },
     {
       "category": "Business",
@@ -54,17 +71,6 @@
         "Spatial Companion"
       ],
       "avgScore": 7.65
-    },
-    {
-      "category": "Health/Fitness",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "BumpTrackr"
-      ],
-      "avgScore": 7.5
     },
     {
       "category": "AI Chatbot",
@@ -88,6 +94,17 @@
         "PhotoVerse AI Photo Editor"
       ],
       "avgScore": 8.3
+    },
+    {
+      "category": "Reference",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Anymal - AI Animal Identifier"
+      ],
+      "avgScore": 7
     },
     {
       "category": "Art & Design",
@@ -159,6 +176,17 @@
       "avgScore": 7.6
     },
     {
+      "category": "Sports",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "TCG Tournament Tracker"
+      ],
+      "avgScore": 6.8
+    },
+    {
       "category": "Photo & Video Editing",
       "currentCount": 1,
       "previousCount": 0,
@@ -215,50 +243,58 @@
       "avgScore": 6.8
     },
     {
-      "category": "Entertainment",
-      "currentCount": 5,
-      "previousCount": 3,
-      "changePercent": 67,
-      "changeDirection": "up",
-      "apps": [
-        "MiSing - Sing Anytime, Anywhere",
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "DramaWave - 인기 단편/한일 드라마, 역전극!",
-        "Lezhin Snack",
-        "Crack - Instant Storytelling with AI Chat"
-      ],
-      "avgScore": 7.4399999999999995
-    },
-    {
-      "category": "Finance",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
-        "iAEON",
-        "dPay - Mobile Payment App"
-      ],
-      "avgScore": 7.7
-    },
-    {
       "category": "Utility",
-      "currentCount": 5,
+      "currentCount": 7,
       "previousCount": 4,
-      "changePercent": 25,
+      "changePercent": 75,
       "changeDirection": "up",
       "apps": [
+        "Khemera Keyboard",
+        "Cleanup: Phone Storage Cleaner",
         "AI Mechanic – Car Diagnosis",
         "Cleaner Toolbox",
         "Face2Face AI translator",
         "Wake Up or Lose",
         "Attendify Geo"
       ],
-      "avgScore": 7.799999999999999
+      "avgScore": 7.7714285714285705
     }
   ],
   "decliningCategories": [
+    {
+      "category": "Productivity",
+      "currentCount": 10,
+      "previousCount": 12,
+      "changePercent": -17,
+      "changeDirection": "down",
+      "apps": [
+        "Aurylius",
+        "Grok AI Generation",
+        "AI Meeting Note Taker: Notr",
+        "WindFoundationTool",
+        "SipCounterr",
+        "EdgeAura",
+        "Cleanup: Phone Storage Cleaner",
+        "Daily Journal: Daily Diary",
+        "Claude by Anthropic",
+        "Gemmy AI: Chat & Assistant"
+      ],
+      "avgScore": 7.739999999999999
+    },
+    {
+      "category": "Lifestyle",
+      "currentCount": 4,
+      "previousCount": 5,
+      "changePercent": -20,
+      "changeDirection": "down",
+      "apps": [
+        "EdgeAura",
+        "Every Day Holiday Calendar",
+        "NailGlow - AI Nail Art Design",
+        "Imani - track your faith"
+      ],
+      "avgScore": 7.7250000000000005
+    },
     {
       "category": "Education",
       "currentCount": 3,
@@ -273,19 +309,6 @@
       "avgScore": 7.7
     },
     {
-      "category": "Lifestyle",
-      "currentCount": 3,
-      "previousCount": 5,
-      "changePercent": -40,
-      "changeDirection": "down",
-      "apps": [
-        "Every Day Holiday Calendar",
-        "NailGlow - AI Nail Art Design",
-        "Imani - track your faith"
-      ],
-      "avgScore": 7.7
-    },
-    {
       "category": "Health & Fitness",
       "currentCount": 2,
       "previousCount": 6,
@@ -296,31 +319,9 @@
         "Liva - Die Mental Load App"
       ],
       "avgScore": 7.9
-    },
-    {
-      "category": "Tools",
-      "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
-      "changeDirection": "down",
-      "apps": [
-        "Clean Sweep Toolkit"
-      ],
-      "avgScore": 6.8
     }
   ],
   "stableCategories": [
-    {
-      "category": "Food & Drink",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "AirFry Coach"
-      ],
-      "avgScore": 7.5
-    },
     {
       "category": "Photography",
       "currentCount": 2,
@@ -387,37 +388,19 @@
         "Lyrric"
       ],
       "avgScore": 8.1
-    },
-    {
-      "category": "Productivity",
-      "currentCount": 11,
-      "previousCount": 12,
-      "changePercent": -8,
-      "changeDirection": "stable",
-      "apps": [
-        "Easy Reader - PDF Reader",
-        "PDF Reader - Editor & Viewer",
-        "Keep PDF - PDF Reader",
-        "AI Meeting Note Taker: Notr",
-        "WindFoundationTool",
-        "SipCounterr",
-        "EdgeAura",
-        "Cleanup: Phone Storage Cleaner",
-        "Daily Journal: Daily Diary",
-        "Claude by Anthropic",
-        "Gemmy AI: Chat & Assistant"
-      ],
-      "avgScore": 7.409090909090909
     }
   ],
   "hotKeywords": [
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 44,
+      "count": 48,
       "apps": [
-        "AirFry Coach",
-        "Antique Identifier - Antiqa",
+        "ChartsGPT: AI Trading Assist",
+        "Shortn: Short Viral Video App",
+        "EdgeAura",
+        "Grok AI Generation",
+        "Cleanup: Phone Storage Cleaner",
         "AI Meeting Note Taker: Notr",
         "AI Mechanic – Car Diagnosis",
         "Shift Leader AI",
@@ -434,8 +417,6 @@
         "NailGlow - AI Nail Art Design",
         "Imani - track your faith",
         "AI Video Maker with Music",
-        "EdgeAura",
-        "Cleanup: Phone Storage Cleaner",
         "DishGenie: AI Recipe Generator",
         "Lyrric",
         "Spatial Companion",
@@ -448,10 +429,18 @@
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 38,
+      "count": 46,
       "apps": [
-        "AirFry Coach",
-        "Location Mate - Share & Track",
+        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+        "Beacon Guardian: Find my Kids",
+        "Khemera Keyboard",
+        "ChartsGPT: AI Trading Assist",
+        "Aurylius",
+        "Shortn: Short Viral Video App",
+        "Freecash - Money Making App",
+        "EdgeAura",
+        "Grok AI Generation",
+        "Cleanup: Phone Storage Cleaner",
         "AI Mechanic – Car Diagnosis",
         "BumpTrackr",
         "Zeta - AI Chat for Reality",
@@ -492,9 +481,16 @@
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 27,
+      "count": 34,
       "apps": [
-        "AirFry Coach",
+        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+        "Beacon Guardian: Find my Kids",
+        "Khemera Keyboard",
+        "ChartsGPT: AI Trading Assist",
+        "Aurylius",
+        "Freecash - Money Making App",
+        "Grok AI Generation",
+        "Cleanup: Phone Storage Cleaner",
         "AI Meeting Note Taker: Notr",
         "AI Mechanic – Car Diagnosis",
         "BumpTrackr",
@@ -525,10 +521,11 @@
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 10,
+      "count": 11,
       "apps": [
-        "Derby Scoreboard",
-        "Location Mate - Share & Track",
+        "Beacon Guardian: Find my Kids",
+        "Khemera Keyboard",
+        "ChartsGPT: AI Trading Assist",
         "AI Mechanic – Car Diagnosis",
         "Learn English, Spanish: Learna",
         "Every Day Holiday Calendar",
@@ -540,14 +537,35 @@
       ]
     },
     {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 7,
+      "apps": [
+        "Shortn: Short Viral Video App",
+        "PhotoVerse AI Photo Editor",
+        "BlurMagicStudio",
+        "AI Video Maker with Music",
+        "Pivo AI - AI Video Maker"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 6,
+      "apps": [
+        "Shortn: Short Viral Video App",
+        "Grok AI Generation",
+        "Brain Flipper",
+        "DramaWave - 인기 단편/한일 드라마, 역전극!",
+        "Lezhin Snack",
+        "WePlay - Party Games"
+      ]
+    },
+    {
       "keyword": "B2B",
       "category": "tag",
-      "count": 10,
+      "count": 6,
       "apps": [
-        "Derby Scoreboard",
-        "Growth Basketball Club",
-        "PDF Reader - Editor & Viewer",
-        "Keep PDF - PDF Reader",
         "AI Meeting Note Taker: Notr",
         "Shift Leader AI",
         "WindFoundationTool",
@@ -557,24 +575,11 @@
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 8,
-      "apps": [
-        "PDF Reader - Editor & Viewer",
-        "PhotoVerse AI Photo Editor",
-        "BlurMagicStudio",
-        "AI Video Maker with Music",
-        "Pivo AI - AI Video Maker"
-      ]
-    },
-    {
       "keyword": "생산성",
-      "category": "tag",
+      "category": "productivity",
       "count": 5,
       "apps": [
-        "Easy Reader - PDF Reader",
-        "PDF Reader - Editor & Viewer",
+        "Aurylius",
         "All Files Viewer",
         "EdgeAura",
         "Spatial Companion"
@@ -614,24 +619,46 @@
       ]
     },
     {
+      "keyword": "핀테크",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "ChartsGPT: AI Trading Assist",
+        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
+        "dPay - Mobile Payment App",
+        "실손24"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Shortn: Short Viral Video App",
+        "그립 Grip",
+        "AI Video Maker with Music",
+        "Pivo AI - AI Video Maker"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 4,
+      "apps": [
+        "Freecash - Money Making App",
+        "BlurMagicStudio",
+        "AI Video Maker with Music",
+        "Pivo AI - AI Video Maker"
+      ]
+    },
+    {
       "keyword": "유틸리티",
       "category": "tag",
       "count": 4,
       "apps": [
-        "Clean Sweep Toolkit",
+        "Cleanup: Phone Storage Cleaner",
         "Cleaner Toolbox",
-        "Cleanup: Phone Storage Cleaner"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "Brain Flipper",
-        "DramaWave - 인기 단편/한일 드라마, 역전극!",
-        "Lezhin Snack",
-        "WePlay - Party Games"
+        "Clean Sweep Toolkit"
       ]
     },
     {
@@ -646,23 +673,13 @@
       ]
     },
     {
-      "keyword": "틈새시장",
+      "keyword": "웰빙",
       "category": "tag",
       "count": 3,
       "apps": [
-        "Derby Scoreboard",
-        "Antique Identifier - Antiqa",
-        "TCG Tournament Tracker"
-      ]
-    },
-    {
-      "keyword": "미니멀",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Easy Reader - PDF Reader",
-        "SipCounterr",
-        "One Ritual"
+        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+        "Liva - Die Mental Load App",
+        "Daily Journal: Daily Diary"
       ]
     },
     {
@@ -676,26 +693,6 @@
       ]
     },
     {
-      "keyword": "크리에이터",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "그립 Grip",
-        "AI Video Maker with Music",
-        "Pivo AI - AI Video Maker"
-      ]
-    },
-    {
-      "keyword": "핀테크",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
-        "dPay - Mobile Payment App",
-        "실손24"
-      ]
-    },
-    {
       "keyword": "프로",
       "category": "subscription",
       "count": 3,
@@ -706,52 +703,51 @@
       ]
     },
     {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 3,
+      "keyword": "글로벌",
+      "category": "tag",
+      "count": 2,
       "apps": [
-        "BlurMagicStudio",
-        "AI Video Maker with Music",
-        "Pivo AI - AI Video Maker"
+        "Khemera Keyboard",
+        "Claude by Anthropic"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 19,
-        "percent": 27,
+        "count": 21,
+        "percent": 30,
         "examples": [
-          "AI Meeting Note Taker: Notr",
-          "Anymal - AI Animal Identifier",
-          "SipCounterr"
+          "Khemera Keyboard",
+          "Freecash - Money Making App",
+          "AI Meeting Note Taker: Notr"
         ]
       },
       "freemium": {
         "count": 59,
         "percent": 84,
         "examples": [
-          "AirFry Coach",
-          "Miklat - Shelter Finder",
-          "Derby Scoreboard"
+          "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+          "Khemera Keyboard",
+          "ChartsGPT: AI Trading Assist"
         ]
       },
       "subscription": {
-        "count": 47,
-        "percent": 67,
+        "count": 49,
+        "percent": 70,
         "examples": [
-          "AirFry Coach",
-          "Growth Basketball Club",
-          "Easy Reader - PDF Reader"
+          "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+          "Beacon Guardian: Find my Kids",
+          "Khemera Keyboard"
         ]
       },
       "onetime": {
-        "count": 6,
-        "percent": 9,
+        "count": 5,
+        "percent": 7,
         "examples": [
-          "Easy Reader - PDF Reader",
           "AI Mechanic – Car Diagnosis",
-          "Routine Impact"
+          "Routine Impact",
+          "SipCounterr"
         ]
       },
       "unknown": {
@@ -765,9 +761,9 @@
       "count": 59,
       "percent": 84,
       "examples": [
-        "AirFry Coach",
-        "Miklat - Shelter Finder",
-        "Derby Scoreboard"
+        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+        "Khemera Keyboard",
+        "ChartsGPT: AI Trading Assist"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -776,50 +772,50 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 30,
-        "percent": 43,
+        "count": 32,
+        "percent": 46,
         "apps": [
-          "AirFry Coach",
-          "Antique Identifier - Antiqa",
-          "AI Meeting Note Taker: Notr",
-          "AI Mechanic – Car Diagnosis",
-          "Shift Leader AI"
+          "ChartsGPT: AI Trading Assist",
+          "EdgeAura",
+          "Grok AI Generation",
+          "Cleanup: Phone Storage Cleaner",
+          "AI Meeting Note Taker: Notr"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 16,
-        "percent": 23,
+        "count": 18,
+        "percent": 26,
         "apps": [
-          "Derby Scoreboard",
-          "Growth Basketball Club",
-          "Location Mate - Share & Track",
-          "AI Mechanic – Car Diagnosis",
-          "Learn English, Spanish: Learna"
+          "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+          "Beacon Guardian: Find my Kids",
+          "Khemera Keyboard",
+          "ChartsGPT: AI Trading Assist",
+          "EdgeAura"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 13,
+        "percent": 19,
         "apps": [
-          "PDF Reader - Editor & Viewer",
+          "Shortn: Short Viral Video App",
+          "Freecash - Money Making App",
+          "Grok AI Generation",
           "PhotoVerse AI Photo Editor",
-          "Brain Flipper",
-          "DramaWave - 인기 단편/한일 드라마, 역전극!",
-          "BlurMagicStudio"
+          "Brain Flipper"
         ]
       },
       {
         "tech": "productivity",
-        "count": 6,
-        "percent": 9,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "Aurylius",
           "EyeFlow - Göz Egzersizi",
           "TCG Tournament Tracker",
           "Attendify Geo",
-          "AI Video Maker with Music",
-          "EdgeAura"
+          "AI Video Maker with Music"
         ]
       },
       {
@@ -844,6 +840,15 @@
         ]
       },
       {
+        "tech": "fintech",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "ChartsGPT: AI Trading Assist",
+          "실손24"
+        ]
+      },
+      {
         "tech": "subscription",
         "count": 2,
         "percent": 3,
@@ -851,56 +856,67 @@
           "EyeFlow - Göz Egzersizi",
           "EdgeAura"
         ]
-      },
-      {
-        "tech": "fintech",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "실손24"
-        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 30,
-      "percent": 43,
+      "count": 32,
+      "percent": 46,
       "apps": [
-        "AirFry Coach",
-        "Antique Identifier - Antiqa",
-        "AI Meeting Note Taker: Notr",
-        "AI Mechanic – Car Diagnosis",
-        "Shift Leader AI"
+        "ChartsGPT: AI Trading Assist",
+        "EdgeAura",
+        "Grok AI Generation",
+        "Cleanup: Phone Storage Cleaner",
+        "AI Meeting Note Taker: Notr"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 16,
-        "percent": 23,
+        "count": 18,
+        "percent": 26,
         "apps": [
-          "Derby Scoreboard",
-          "Growth Basketball Club",
-          "Location Mate - Share & Track",
-          "AI Mechanic – Car Diagnosis",
-          "Learn English, Spanish: Learna"
+          "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
+          "Beacon Guardian: Find my Kids",
+          "Khemera Keyboard",
+          "ChartsGPT: AI Trading Assist",
+          "EdgeAura"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 13,
+        "percent": 19,
         "apps": [
-          "PDF Reader - Editor & Viewer",
+          "Shortn: Short Viral Video App",
+          "Freecash - Money Making App",
+          "Grok AI Generation",
           "PhotoVerse AI Photo Editor",
-          "Brain Flipper",
-          "DramaWave - 인기 단편/한일 드라마, 역전극!",
-          "BlurMagicStudio"
+          "Brain Flipper"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Aurylius",
+          "EyeFlow - Göz Egzersizi",
+          "TCG Tournament Tracker",
+          "Attendify Geo",
+          "AI Video Maker with Music"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Health/Fitness 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Health/Fitness"
+    },
     {
       "type": "rising_category",
       "title": "Navigation 카테고리 급부상",
@@ -910,31 +926,10 @@
     },
     {
       "type": "rising_category",
-      "title": "Sports 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Sports"
-    },
-    {
-      "type": "rising_category",
-      "title": "Reference 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Reference"
-    },
-    {
-      "type": "rising_category",
       "title": "Business 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Business"
-    },
-    {
-      "type": "rising_category",
-      "title": "Health/Fitness 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health/Fitness"
     },
     {
       "type": "rising_category",
@@ -949,6 +944,13 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Photo Editing"
+    },
+    {
+      "type": "rising_category",
+      "title": "Reference 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Reference"
     },
     {
       "type": "rising_category",
@@ -994,6 +996,13 @@
     },
     {
       "type": "rising_category",
+      "title": "Sports 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Sports"
+    },
+    {
+      "type": "rising_category",
       "title": "Photo & Video Editing 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1028,33 +1037,28 @@
       "category": "Medical"
     },
     {
-      "type": "rising_category",
-      "title": "Finance 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Finance"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "43%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "46%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI 기능 통합이 43%의 앱에서 주류가 되었고, freemium 모델이 84%로 지배적입니다. Navigation, Sports 등 전통적 카테고리들이 100% 급성장하면서 새로운 기회를 제공하고 있습니다.",
+    "trend_summary": "AI 기반 앱이 46%를 차지하며 주류가 되고 있고, Finance 카테고리가 150% 급성장을 기록했습니다. Freemium 모델(84%)이 지배적이며 '1인개발가능' 키워드가 34회 언급되어 솔로 개발자에게 유리한 환경입니다.",
     "trend_details": [
-      "AI 기능이 거의 절반(43%)의 앱에 통합되며 필수 요소로 자리잡음",
-      "freemium 모델이 84%로 가장 선호되는 수익화 전략으로 확립",
-      "Navigation, Sports, Reference 등 기존 카테고리들이 100% 급성장하며 재조명"
+      "AI 통합이 필수 요소로 자리잡음 (46% 채택률)",
+      "Freemium + Subscription 하이브리드 모델 급부상 (84% + 70%)",
+      "Finance 앱 시장 폭발적 성장 (+150%)",
+      "1인 개발 친화적 트렌드 강화"
     ],
     "hot_categories": [
-      "Navigation",
-      "Sports"
+      "Finance",
+      "Health/Fitness",
+      "Navigation"
     ],
-    "opportunity": "AI 기능이 부족한 Navigation, Sports 카테고리에서 AI 통합을 통한 차별화된 앱 개발 기회",
-    "action_item": "Navigation 또는 Sports 카테고리에 AI 개인화 기능을 접목한 freemium 모델의 1인 개발 앱을 기획하세요",
-    "weekly_theme": "AI + 전통카테고리"
+    "opportunity": "Health/Fitness, Navigation, Business 카테고리는 100% 성장했지만 앱 수가 적어 AI 기능을 결합한 차별화된 앱으로 선점 가능합니다.",
+    "action_item": "AI 챗봇이나 자동화 기능을 Health/Fitness 또는 Business 도구에 통합한 Freemium 앱을 개발하세요.",
+    "weekly_theme": "AI 핀테크"
   }
 }
