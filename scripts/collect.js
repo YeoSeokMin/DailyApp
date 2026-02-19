@@ -11,8 +11,6 @@
 
 const store = require('app-store-scraper');
 const gplay = require('google-play-scraper');
-const axios = require('axios');
-const cheerio = require('cheerio');
 const fs = require('fs').promises;
 const path = require('path');
 
@@ -190,112 +188,58 @@ function sleep(ms) {
 }
 
 /**
- * AppBrain에서 신규 앱 목록 스크래핑
+ * Google 플레이스토어에서 신규 앱 수집 - 단일 국가 (iOS와 동일한 방식)
  */
-async function scrapeAppBrain(url) {
-  const res = await axios.get(url, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-      'Accept-Language': 'ko-KR,ko;q=0.9'
-    },
-    timeout: 15000
-  });
+async function collectAndroidByCountry(country) {
+  const allApps = new Map();
 
-  const $ = cheerio.load(res.data);
-  const apps = [];
+  try {
+    // NEW_FREE 컬렉션에서 신규 무료 앱 가져오기
+    const apps = await gplay.list({
+      collection: gplay.collection.NEW_FREE,
+      country: country.code,
+      lang: country.lang,
+      num: 100
+    });
 
-  $('a[href^="/app/"]').each((i, el) => {
-    const href = $(el).attr('href');
-    const match = href.match(/\/app\/[^/]+\/([^/?]+)/);
-    if (!match) return;
-
-    const packageId = match[1];
-    const name = $(el).text().trim().split('\n')[0].trim();
-
-    if (name && packageId && !apps.find(a => a.id === packageId)) {
-      apps.push({ id: packageId, name });
-    }
-  });
-
-  return apps;
-}
-
-/**
- * Google 플레이스토어에서 신규 앱 수집 - 단일 국가
- */
-async function collectAndroidByCountry(country, appList) {
-  const apps = [];
-
-  for (const [appId, app] of appList) {
-    try {
-      const detail = await gplay.app({
-        appId: appId,
-        lang: country.lang,
-        country: country.code
-      });
-
-      // 해당 국가에서 사용 가능한 앱만 추가
-      if (detail && detail.title) {
-        apps.push({
-          id: appId,
-          name: detail.title || app.name,
-          developer: detail.developer || '',
-          icon: detail.icon || '',
-          category: translateCategory(detail.genre || ''),
-          url: detail.url || `https://play.google.com/store/apps/details?id=${appId}`,
-          releaseDate: formatDateKO(detail.released || ''),
-          score: detail.score || 0,
-          description: detail.summary || '',
+    for (const app of apps) {
+      if (!allApps.has(app.appId)) {
+        allApps.set(app.appId, {
+          id: app.appId,
+          name: app.title,
+          developer: app.developer || '',
+          icon: app.icon || '',
+          category: translateCategory(app.genre || ''),
+          url: app.url || `https://play.google.com/store/apps/details?id=${app.appId}`,
+          releaseDate: '', // list에서는 출시일 제공 안됨
+          score: app.score || 0,
+          description: app.summary || '',
           country: country.code
         });
       }
-      await sleep(50);
-    } catch (err) {
-      // 해당 국가에서 사용 불가한 앱은 스킵
     }
+  } catch (error) {
+    console.error(`  ❌ Android(${country.name}) 수집 실패:`, error.message);
   }
 
-  return apps;
+  return Array.from(allApps.values());
 }
 
 /**
- * Google 플레이스토어에서 신규 앱 수집 (AppBrain 스크래핑 + google-play-scraper 상세정보)
+ * Google 플레이스토어에서 신규 앱 수집 - 다국가 (iOS와 동일한 방식)
  */
 async function collectAndroid() {
-  console.log('🤖 Android 신규 앱 수집 시작... (AppBrain 스크래핑)');
-
-  // 1. AppBrain에서 글로벌 신규 앱 목록 스크래핑
-  const sources = [
-    { url: 'https://www.appbrain.com/apps/latest/', name: '최신 앱' },
-    { url: 'https://www.appbrain.com/apps/hot/new', name: '핫한 신규 앱' }
-  ];
-
-  const appList = new Map();
-  for (const source of sources) {
-    try {
-      console.log(`  📋 ${source.name} 수집 중...`);
-      const apps = await scrapeAppBrain(source.url);
-      apps.forEach(app => {
-        if (!appList.has(app.id)) appList.set(app.id, app);
-      });
-      await sleep(500);
-    } catch (e) {
-      console.error(`  ❌ ${source.name} 실패:`, e.message);
-    }
-  }
-
-  console.log(`  📋 ${appList.size}개 앱 발견`);
-
-  // 2. 국가별로 상세 정보 조회
+  console.log('🤖 Android 신규 앱 수집 시작... (google-play-scraper)');
   const result = {};
   let totalApps = 0;
 
   for (const country of COUNTRIES) {
-    console.log(`  📍 ${country.name}(${country.code.toUpperCase()}) 상세 조회 중...`);
-    const apps = await collectAndroidByCountry(country, appList);
+    console.log(`  📍 ${country.name}(${country.code.toUpperCase()}) 수집 중...`);
+    const apps = await collectAndroidByCountry(country);
     result[country.code] = apps;
     totalApps += apps.length;
-    console.log(`     → ${apps.length}개 확인`);
+    console.log(`     → ${apps.length}개 발견`);
+    await sleep(500); // API 레이트 리밋 방지
   }
 
   console.log(`  ✅ Android 총: ${totalApps}개 신규 앱`);

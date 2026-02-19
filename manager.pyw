@@ -1,6 +1,6 @@
 """
 DailyApp 관리 프로그램
-실시간 로그 + 상태 표시
+실시간 로그 + 상태 표시 + Local LLM 모니터링
 """
 
 import tkinter as tk
@@ -13,33 +13,108 @@ import time
 from datetime import datetime
 import urllib.request
 import json
+import socket
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def check_ollama_running():
+    """Ollama 서버 실행 여부 확인"""
+    try:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(1)
+        result = sock.connect_ex(('127.0.0.1', 11434))
+        sock.close()
+        return result == 0
+    except:
+        return False
+
+def get_ollama_models():
+    """Ollama 모델 목록 조회"""
+    try:
+        req = urllib.request.Request('http://127.0.0.1:11434/api/tags')
+        with urllib.request.urlopen(req, timeout=2) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            return [m['name'] for m in data.get('models', [])]
+    except:
+        return []
+
+def get_running_models():
+    """현재 로드된(실행 중인) 모델 조회"""
+    try:
+        req = urllib.request.Request('http://127.0.0.1:11434/api/ps')
+        with urllib.request.urlopen(req, timeout=2) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            return [m['name'] for m in data.get('models', [])]
+    except:
+        return []
+
+def warmup_model(model_name):
+    """모델 웜업 (미리 로드)"""
+    try:
+        data = json.dumps({
+            "model": model_name,
+            "prompt": "Hi",
+            "stream": False,
+            "options": {"num_predict": 1}
+        }).encode('utf-8')
+
+        req = urllib.request.Request(
+            'http://127.0.0.1:11434/api/generate',
+            data=data,
+            headers={'Content-Type': 'application/json'}
+        )
+        with urllib.request.urlopen(req, timeout=120) as response:
+            return True
+    except:
+        return False
+
+# 사용할 모델
+DEFAULT_MODEL = "qwen2.5:7b-instruct-q5_K_M"
+
+def unload_model(model_name):
+    """모델 언로드 (GPU 메모리 해제)"""
+    try:
+        result = subprocess.run(
+            f"ollama stop {model_name}",
+            shell=True,
+            capture_output=True,
+            text=True,
+            timeout=30,
+            creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
+        )
+        return result.returncode == 0
+    except:
+        return False
 
 class DailyAppManager:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("DailyApp Manager")
-        self.root.geometry("500x780")
+        self.root.geometry("500x920")
         self.root.resizable(False, False)
         self.root.configure(bg="#0f0f1a")
 
         self.log_queue = queue.Queue()
+        self.llm_log_queue = queue.Queue()  # Local LLM 로그 큐
         self.is_running = False
         self.auto_run_enabled = True  # 자정 자동실행 활성화
         self.last_auto_run_date = None  # 마지막 자동실행 날짜
+        self.ollama_running = False  # Ollama 실행 상태
+        self.ollama_process = None  # Ollama 프로세스
 
         self.create_widgets()
         self.center_window()
         self.update_status()
         self.process_log_queue()
+        self.process_llm_log_queue()  # LLM 로그 큐 처리
         self.check_midnight()  # 자정 체크 시작
+        self.check_ollama_status()  # Ollama 상태 체크 시작
 
     def center_window(self):
         self.root.update_idletasks()
         x = (self.root.winfo_screenwidth() - 500) // 2
-        y = (self.root.winfo_screenheight() - 780) // 2
-        self.root.geometry(f"500x780+{x}+{y}")
+        y = (self.root.winfo_screenheight() - 920) // 2
+        self.root.geometry(f"500x920+{x}+{y}")
 
     def create_widgets(self):
         # 헤더
@@ -107,6 +182,69 @@ class DailyAppManager:
             bg="#1a1a2e"
         )
         self.last_run_label.pack(anchor="w", padx=15, pady=(0, 10))
+
+        # Local LLM 상태 카드
+        llm_frame = tk.Frame(self.root, bg="#1a1a2e", highlightbackground="#2a2a4e", highlightthickness=1)
+        llm_frame.pack(fill="x", padx=20, pady=10)
+
+        llm_inner = tk.Frame(llm_frame, bg="#1a1a2e")
+        llm_inner.pack(fill="x", padx=15, pady=12)
+
+        tk.Label(
+            llm_inner,
+            text="🤖 Local LLM (Ollama)",
+            font=("Segoe UI", 11, "bold"),
+            fg="#ffffff",
+            bg="#1a1a2e"
+        ).pack(side="left")
+
+        self.llm_status = tk.Label(
+            llm_inner,
+            text="확인 중...",
+            font=("Segoe UI", 11),
+            fg="#888888",
+            bg="#1a1a2e"
+        )
+        self.llm_status.pack(side="right")
+
+        # LLM 버튼 행
+        llm_btn_frame = tk.Frame(llm_frame, bg="#1a1a2e")
+        llm_btn_frame.pack(fill="x", padx=15, pady=(0, 10))
+
+        self.btn_start_ollama = tk.Button(
+            llm_btn_frame,
+            text="▶ 시작",
+            font=("Segoe UI", 9),
+            bg="#4ecca3",
+            fg="white",
+            bd=0,
+            cursor="hand2",
+            width=8,
+            command=self.start_ollama
+        )
+        self.btn_start_ollama.pack(side="left", padx=(0, 5))
+
+        self.btn_stop_ollama = tk.Button(
+            llm_btn_frame,
+            text="⏹ 중지",
+            font=("Segoe UI", 9),
+            bg="#e94560",
+            fg="white",
+            bd=0,
+            cursor="hand2",
+            width=8,
+            command=self.stop_ollama
+        )
+        self.btn_stop_ollama.pack(side="left", padx=(0, 5))
+
+        self.llm_model_label = tk.Label(
+            llm_btn_frame,
+            text="",
+            font=("Segoe UI", 9),
+            fg="#666666",
+            bg="#1a1a2e"
+        )
+        self.llm_model_label.pack(side="right")
 
         # 버튼 영역
         btn_frame = tk.Frame(self.root, bg="#0f0f1a")
@@ -188,20 +326,33 @@ class DailyAppManager:
         )
         btn_reset_ads.pack(expand=True, fill="x")
 
-        # 로그 영역
-        log_frame = tk.Frame(self.root, bg="#0f0f1a")
-        log_frame.pack(fill="both", expand=True, padx=20, pady=10)
+        # 로그 영역 (탭)
+        log_container = tk.Frame(self.root, bg="#0f0f1a")
+        log_container.pack(fill="both", expand=True, padx=20, pady=10)
 
-        log_header = tk.Frame(log_frame, bg="#0f0f1a")
-        log_header.pack(fill="x", pady=(0, 5))
+        # 탭 스타일 설정 (Windows 호환)
+        style = ttk.Style()
+        style.theme_use('default')  # 기본 테마 사용 (Windows 테마 무시)
+        style.configure("Dark.TNotebook", background="#0f0f1a", borderwidth=0)
+        style.configure("Dark.TNotebook.Tab",
+                        background="#2a2a4e",
+                        foreground="#ffffff",
+                        padding=[15, 8],
+                        font=("Segoe UI", 10, "bold"))
+        style.map("Dark.TNotebook.Tab",
+                  background=[("selected", "#4ecca3")],
+                  foreground=[("selected", "#000000")])
 
-        tk.Label(
-            log_header,
-            text="📋 실행 로그",
-            font=("Segoe UI", 10, "bold"),
-            fg="#ffffff",
-            bg="#0f0f1a"
-        ).pack(side="left")
+        # 노트북 (탭 컨테이너)
+        self.log_notebook = ttk.Notebook(log_container, style="Dark.TNotebook")
+        self.log_notebook.pack(fill="both", expand=True)
+
+        # 탭 1: 메인 로그
+        main_log_frame = tk.Frame(self.log_notebook, bg="#1a1a2e")
+        self.log_notebook.add(main_log_frame, text="📋 실행 로그")
+
+        log_header = tk.Frame(main_log_frame, bg="#1a1a2e")
+        log_header.pack(fill="x", pady=5, padx=5)
 
         btn_clear = tk.Button(
             log_header,
@@ -216,27 +367,69 @@ class DailyAppManager:
         btn_clear.pack(side="right")
 
         self.log_text = scrolledtext.ScrolledText(
-            log_frame,
+            main_log_frame,
             font=("Consolas", 9),
             bg="#1a1a2e",
             fg="#cccccc",
             insertbackground="#cccccc",
             selectbackground="#3d3d5c",
             wrap=tk.WORD,
-            height=15,
+            height=12,
             state="disabled",
             bd=0,
             highlightthickness=1,
             highlightbackground="#2a2a4e"
         )
-        self.log_text.pack(fill="both", expand=True)
+        self.log_text.pack(fill="both", expand=True, padx=5, pady=(0, 5))
 
-        # 태그 설정
+        # 탭 2: Local LLM 로그
+        llm_log_frame = tk.Frame(self.log_notebook, bg="#1a1a2e")
+        self.log_notebook.add(llm_log_frame, text="🤖 Local LLM 로그")
+
+        llm_log_header = tk.Frame(llm_log_frame, bg="#1a1a2e")
+        llm_log_header.pack(fill="x", pady=5, padx=5)
+
+        btn_clear_llm = tk.Button(
+            llm_log_header,
+            text="지우기",
+            font=("Segoe UI", 9),
+            bg="#2a2a4e",
+            fg="#888888",
+            bd=0,
+            cursor="hand2",
+            command=self.clear_llm_log
+        )
+        btn_clear_llm.pack(side="right")
+
+        self.llm_log_text = scrolledtext.ScrolledText(
+            llm_log_frame,
+            font=("Consolas", 9),
+            bg="#1a1a2e",
+            fg="#cccccc",
+            insertbackground="#cccccc",
+            selectbackground="#3d3d5c",
+            wrap=tk.WORD,
+            height=12,
+            state="disabled",
+            bd=0,
+            highlightthickness=1,
+            highlightbackground="#2a2a4e"
+        )
+        self.llm_log_text.pack(fill="both", expand=True, padx=5, pady=(0, 5))
+
+        # 태그 설정 (메인 로그)
         self.log_text.tag_config("time", foreground="#666666")
         self.log_text.tag_config("info", foreground="#4ecca3")
         self.log_text.tag_config("warn", foreground="#f9a825")
         self.log_text.tag_config("error", foreground="#e94560")
         self.log_text.tag_config("success", foreground="#4ecca3")
+
+        # 태그 설정 (LLM 로그)
+        self.llm_log_text.tag_config("time", foreground="#666666")
+        self.llm_log_text.tag_config("info", foreground="#4ecca3")
+        self.llm_log_text.tag_config("warn", foreground="#f9a825")
+        self.llm_log_text.tag_config("error", foreground="#e94560")
+        self.llm_log_text.tag_config("success", foreground="#4ecca3")
 
         # 프로그레스 바
         self.progress = ttk.Progressbar(
@@ -338,6 +531,45 @@ class DailyAppManager:
         if self.is_running:
             return
 
+        # Ollama 실행 체크 & 자동 시작
+        if not check_ollama_running():
+            self.log("🤖 Local LLM(Ollama)이 꺼져 있어 자동 시작합니다...", "info")
+            self.llm_log("파이프라인 실행을 위해 자동 시작...", "info")
+
+            def on_ollama_ready(success):
+                if success:
+                    self.log("✅ Ollama + 모델 준비 완료, 파이프라인 진행", "success")
+                    self._run_pipeline()
+                else:
+                    self.log("❌ Ollama 시작 실패, 파이프라인 중단", "error")
+
+            self.start_ollama(callback=on_ollama_ready)
+            return
+
+        # 서버는 실행 중이지만 모델이 로드 안 되어 있으면 웜업
+        running_models = get_running_models()
+        model_loaded = DEFAULT_MODEL in running_models or any(DEFAULT_MODEL.split(':')[0] in m for m in running_models)
+
+        if not model_loaded:
+            self.log(f"🔄 모델 로딩 중: {DEFAULT_MODEL}...", "info")
+            self.llm_log(f"모델 웜업 시작: {DEFAULT_MODEL}", "info")
+
+            def warmup_task():
+                if warmup_model(DEFAULT_MODEL):
+                    self.log("✅ 모델 로드 완료, 파이프라인 진행", "success")
+                    self.llm_log(f"✅ 모델 로드 완료", "success")
+                    self.root.after(0, self._run_pipeline)
+                else:
+                    self.log("⚠️ 모델 로드 실패, 그래도 진행 시도", "warn")
+                    self.root.after(0, self._run_pipeline)
+
+            threading.Thread(target=warmup_task, daemon=True).start()
+            return
+
+        self._run_pipeline()
+
+    def _run_pipeline(self):
+        """실제 파이프라인 실행"""
         def task():
             self.set_running(True)
             self.current_process = None
@@ -356,8 +588,8 @@ class DailyAppManager:
                 ("node scripts/trendDetector.js", "트렌드 분석", "주간 트렌드 감지", True),
                 # 6. 리포트 저장 (필수)
                 ("npm run save", "리포트 저장", "JSON 파일 생성", False),
-                # 7. Git 푸시 - 심층 분석 리포트 포함 (필수)
-                ("git add web/data/reports/*.json output/*.json output/*.md reports/deep/*.md && git commit -m \"Daily report\" && git push origin main", "GitHub 업로드", "리포트 + 심층 분석 푸시", False),
+                # 7. Git 푸시 (필수)
+                ("git add web/data/reports/*.json output/*.json output/*.md && git commit -m \"Daily report\" && git push origin main", "GitHub 업로드", "리포트 푸시", False),
                 # 8. Vercel 배포 (필수)
                 ("cd web && vercel --prod --yes", "Vercel 배포", "웹사이트 업데이트", False),
                 # 9. 카카오톡 전송 (선택)
@@ -442,6 +674,15 @@ class DailyAppManager:
                 self.log(f"  소요 시간: {total_time/60:.1f}분", "info")
                 self.log("━" * 45, "info")
             finally:
+                # 모델 언로드 (GPU 메모리 해제)
+                self.log("🔄 Local LLM 모델 언로드 중...", "info")
+                self.llm_log("파이프라인 완료, 모델 언로드 중...", "info")
+                if unload_model(DEFAULT_MODEL):
+                    self.log("✅ 모델 언로드 완료 (GPU 메모리 해제)", "success")
+                    self.llm_log("✅ 모델 언로드 완료", "success")
+                else:
+                    self.llm_log("ℹ️ 모델이 이미 언로드되었거나 실행 중이 아님", "info")
+
                 self.root.after(0, lambda: self.set_running(False))
                 self.current_process = None
 
@@ -495,6 +736,166 @@ class DailyAppManager:
                 self.log(f"❌ 네트워크 오류: {str(e)}", "error")
             except Exception as e:
                 self.log(f"❌ 오류 발생: {str(e)}", "error")
+
+        threading.Thread(target=task, daemon=True).start()
+
+    # ========== Local LLM (Ollama) 관련 ==========
+
+    def llm_log(self, message, level="info"):
+        """LLM 로그 큐에 메시지 추가"""
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        self.llm_log_queue.put((timestamp, message, level))
+
+    def process_llm_log_queue(self):
+        """LLM 로그 큐 처리"""
+        try:
+            while True:
+                timestamp, message, level = self.llm_log_queue.get_nowait()
+                self.llm_log_text.config(state="normal")
+                self.llm_log_text.insert(tk.END, f"[{timestamp}] ", "time")
+                self.llm_log_text.insert(tk.END, f"{message}\n", level)
+                self.llm_log_text.see(tk.END)
+                self.llm_log_text.config(state="disabled")
+        except queue.Empty:
+            pass
+        self.root.after(100, self.process_llm_log_queue)
+
+    def clear_llm_log(self):
+        """LLM 로그 지우기"""
+        self.llm_log_text.config(state="normal")
+        self.llm_log_text.delete(1.0, tk.END)
+        self.llm_log_text.config(state="disabled")
+        self.llm_log("로그 초기화", "info")
+
+    def check_ollama_status(self):
+        """Ollama 상태 주기적 체크"""
+        def check():
+            running = check_ollama_running()
+            self.ollama_running = running
+
+            if running:
+                # 실행 중인 모델 확인
+                running_models = get_running_models()
+                model_loaded = DEFAULT_MODEL in running_models or any(DEFAULT_MODEL.split(':')[0] in m for m in running_models)
+
+                if model_loaded:
+                    self.llm_status.config(text="모델 로드됨", fg="#4ecca3")
+                    self.llm_model_label.config(text=f"✓ {DEFAULT_MODEL.split(':')[0]}", fg="#4ecca3")
+                else:
+                    self.llm_status.config(text="서버만 실행 중", fg="#f9a825")
+                    self.llm_model_label.config(text="모델 대기 중", fg="#888888")
+
+                self.btn_start_ollama.config(state="disabled", bg="#2a2a4e")
+                self.btn_stop_ollama.config(state="normal", bg="#e94560")
+            else:
+                self.llm_status.config(text="중지됨", fg="#e94560")
+                self.btn_start_ollama.config(state="normal", bg="#4ecca3")
+                self.btn_stop_ollama.config(state="disabled", bg="#2a2a4e")
+                self.llm_model_label.config(text="", fg="#888888")
+
+        threading.Thread(target=check, daemon=True).start()
+        # 5초마다 체크
+        self.root.after(5000, self.check_ollama_status)
+
+    def start_ollama(self, callback=None):
+        """Ollama 서버 시작 (이미 실행 중이면 스킵)"""
+        # 이미 실행 중인지 체크
+        if check_ollama_running():
+            self.llm_log("ℹ️ Ollama가 이미 실행 중입니다", "info")
+            if callback:
+                callback(True)
+            return
+
+        def task():
+            self.llm_log("Ollama 서버 시작 중...", "info")
+
+            try:
+                # Ollama 서버 시작 (백그라운드)
+                self.ollama_process = subprocess.Popen(
+                    "ollama serve",
+                    shell=True,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.STDOUT,
+                    text=True,
+                    encoding='utf-8',
+                    errors='replace',
+                    creationflags=subprocess.CREATE_NO_WINDOW
+                )
+
+                # 출력 읽기 스레드
+                def read_output():
+                    for line in iter(self.ollama_process.stdout.readline, ''):
+                        if line.strip():
+                            clean_line = line.strip()
+                            if 'error' in clean_line.lower():
+                                self.llm_log(clean_line, "error")
+                            elif 'warning' in clean_line.lower():
+                                self.llm_log(clean_line, "warn")
+                            else:
+                                self.llm_log(clean_line, "info")
+
+                threading.Thread(target=read_output, daemon=True).start()
+
+                # 시작 대기 (최대 10초)
+                for _ in range(10):
+                    time.sleep(1)
+                    if check_ollama_running():
+                        break
+
+                if check_ollama_running():
+                    self.llm_log("✅ Ollama 서버 시작됨", "success")
+
+                    # 모델 웜업 (미리 로드)
+                    self.llm_log(f"🔄 모델 로딩 중: {DEFAULT_MODEL}...", "info")
+                    if warmup_model(DEFAULT_MODEL):
+                        self.llm_log(f"✅ 모델 로드 완료: {DEFAULT_MODEL}", "success")
+                    else:
+                        self.llm_log(f"⚠️ 모델 로드 실패 (첫 요청 시 자동 로드됨)", "warn")
+
+                    if callback:
+                        callback(True)
+                else:
+                    self.llm_log("⚠️ Ollama 서버 시작 실패", "warn")
+                    if callback:
+                        callback(False)
+
+            except Exception as e:
+                self.llm_log(f"❌ 시작 실패: {str(e)}", "error")
+                if callback:
+                    callback(False)
+
+        threading.Thread(target=task, daemon=True).start()
+
+    def stop_ollama(self):
+        """Ollama 서버 중지"""
+        def task():
+            self.llm_log("Ollama 서버 중지 중...", "info")
+
+            try:
+                # taskkill로 종료 (Windows)
+                subprocess.run(
+                    "taskkill /F /IM ollama.exe",
+                    shell=True,
+                    capture_output=True,
+                    creationflags=subprocess.CREATE_NO_WINDOW
+                )
+
+                if self.ollama_process:
+                    try:
+                        self.ollama_process.terminate()
+                    except:
+                        pass
+                    self.ollama_process = None
+
+                time.sleep(1)
+
+                if not check_ollama_running():
+                    self.llm_log("✅ Ollama 서버 중지됨", "success")
+                else:
+                    self.llm_log("⚠️ Ollama 서버가 아직 실행 중일 수 있음", "warn")
+
+            except Exception as e:
+                self.llm_log(f"❌ 중지 실패: {str(e)}", "error")
 
         threading.Thread(target=task, daemon=True).start()
 

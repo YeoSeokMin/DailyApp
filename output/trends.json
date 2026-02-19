@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-17T15:14:46.122Z",
+  "generatedAt": "2026-02-19T06:00:14.912Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -8,18 +8,64 @@
     {
       "category": "Entertainment",
       "currentCount": 6,
-      "previousCount": 1,
-      "changePercent": 500,
+      "previousCount": 2,
+      "changePercent": 200,
       "changeDirection": "up",
       "apps": [
+        "MiSing - Sing Anytime, Anywhere",
         "제타(zeta) - 상상이 현실이 되는 AI 채팅",
         "DramaWave - 인기 단편/한일 드라마, 역전극!",
         "Lezhin Snack",
         "Crack - Instant Storytelling with AI Chat",
-        "Comicpix: AI Comic Book Maker",
-        "WePlay - Party Games"
+        "Comicpix: AI Comic Book Maker"
       ],
-      "avgScore": 7.7
+      "avgScore": 7.633333333333333
+    },
+    {
+      "category": "Business",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Shift Leader AI",
+        "Spatial Companion"
+      ],
+      "avgScore": 7.65
+    },
+    {
+      "category": "Health/Fitness",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "BumpTrackr"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "AI Chatbot",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Zeta - AI Chat for Reality"
+      ],
+      "avgScore": 8.3
+    },
+    {
+      "category": "Photo Editing",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "PhotoVerse AI Photo Editor",
+        "PhotoVerse AI Photo Editor"
+      ],
+      "avgScore": 8.3
     },
     {
       "category": "Reference",
@@ -135,17 +181,6 @@
       "avgScore": 9
     },
     {
-      "category": "Photo Editing",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "PhotoVerse AI Photo Editor"
-      ],
-      "avgScore": 8.6
-    },
-    {
       "category": "Food/Drink",
       "currentCount": 1,
       "previousCount": 0,
@@ -190,18 +225,6 @@
       "avgScore": 7
     },
     {
-      "category": "Personalization",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "EdgeAura",
-        "EdgeAura"
-      ],
-      "avgScore": 7.5
-    },
-    {
       "category": "Image Generation",
       "currentCount": 1,
       "previousCount": 0,
@@ -224,15 +247,32 @@
       "avgScore": 7.6
     },
     {
-      "category": "Video Players & Editors",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Finance",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "AI Video - AI Video Generator"
+        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
+        "iAEON",
+        "dPay - Mobile Payment App"
       ],
-      "avgScore": 8.5
+      "avgScore": 7.7
+    },
+    {
+      "category": "Utility",
+      "currentCount": 5,
+      "previousCount": 4,
+      "changePercent": 25,
+      "changeDirection": "up",
+      "apps": [
+        "AI Mechanic – Car Diagnosis",
+        "Cleaner Toolbox",
+        "Face2Face AI translator",
+        "Wake Up or Lose",
+        "Attendify Geo"
+      ],
+      "avgScore": 7.799999999999999
     }
   ],
   "decliningCategories": [
@@ -243,39 +283,30 @@
       "changePercent": -25,
       "changeDirection": "down",
       "apps": [
+        "Learn English, Spanish: Learna",
         "Brain Flipper",
-        "워드빗 영어",
-        "Switch Teachers"
-      ],
-      "avgScore": 7.800000000000001
-    },
-    {
-      "category": "Utility",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
-      "changeDirection": "down",
-      "apps": [
-        "Face2Face AI translator",
-        "Wake Up or Lose",
-        "Attendify Geo"
-      ],
-      "avgScore": 7.666666666666667
-    },
-    {
-      "category": "Health & Fitness",
-      "currentCount": 5,
-      "previousCount": 8,
-      "changePercent": -37,
-      "changeDirection": "down",
-      "apps": [
-        "Routine Impact",
-        "Liva - Die Mental Load App",
-        "MacroBar",
-        "Walky Talky - Just Talk",
-        "Rollbook: BJJ & NoGi Training"
+        "워드빗 영어"
       ],
       "avgScore": 7.7
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 9,
+      "previousCount": 13,
+      "changePercent": -31,
+      "changeDirection": "down",
+      "apps": [
+        "AI Meeting Note Taker: Notr",
+        "WindFoundationTool",
+        "SipCounterr",
+        "EdgeAura",
+        "Cleanup: Phone Storage Cleaner",
+        "Daily Journal: Daily Diary",
+        "Claude by Anthropic",
+        "Gemmy AI: Chat & Assistant",
+        "ZM Work Time Track"
+      ],
+      "avgScore": 7.688888888888889
     },
     {
       "category": "Lifestyle",
@@ -291,49 +322,20 @@
       "avgScore": 7.7
     },
     {
-      "category": "Music",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
+      "category": "Health & Fitness",
+      "currentCount": 3,
+      "previousCount": 7,
+      "changePercent": -57,
       "changeDirection": "down",
       "apps": [
-        "Lyrric"
+        "Routine Impact",
+        "Liva - Die Mental Load App",
+        "MacroBar"
       ],
-      "avgScore": 8.1
-    },
-    {
-      "category": "Tools",
-      "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
-      "changeDirection": "down",
-      "apps": [
-        "Brightest Flashlight Launcher"
-      ],
-      "avgScore": 7.2
+      "avgScore": 7.766666666666667
     }
   ],
   "stableCategories": [
-    {
-      "category": "Productivity",
-      "currentCount": 10,
-      "previousCount": 10,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "SipCounterr",
-        "EdgeAura",
-        "Cleanup: Phone Storage Cleaner",
-        "Daily Journal: Daily Diary",
-        "Claude by Anthropic",
-        "Gemmy AI: Chat & Assistant",
-        "ZM Work Time Track",
-        "Practiat",
-        "Idea Clear",
-        "Gemmy AI: 채팅 & 어시스턴트"
-      ],
-      "avgScore": 7.68
-    },
     {
       "category": "Weather",
       "currentCount": 2,
@@ -345,19 +347,6 @@
         "First Screen Weather - Weather Widget"
       ],
       "avgScore": 6.75
-    },
-    {
-      "category": "Finance",
-      "currentCount": 3,
-      "previousCount": 3,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
-        "iAEON",
-        "dPay - Mobile Payment App"
-      ],
-      "avgScore": 7.7
     },
     {
       "category": "Photo & Video",
@@ -418,15 +407,26 @@
       "avgScore": 6.5
     },
     {
-      "category": "Business",
+      "category": "Music",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Spatial Companion"
+        "Lyrric"
       ],
-      "avgScore": 7.5
+      "avgScore": 8.1
+    },
+    {
+      "category": "Personalization",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "EdgeAura"
+      ],
+      "avgScore": 7
     },
     {
       "category": "Document Management",
@@ -444,8 +444,13 @@
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 41,
+      "count": 46,
       "apps": [
+        "AI Meeting Note Taker: Notr",
+        "AI Mechanic – Car Diagnosis",
+        "Shift Leader AI",
+        "Zeta - AI Chat for Reality",
+        "PhotoVerse AI Photo Editor",
         "Anymal - AI Animal Identifier",
         "Brain Flipper",
         "제타(zeta) - 상상이 현실이 되는 AI 채팅",
@@ -453,7 +458,6 @@
         "BlurMagicStudio",
         "Smart Photo Clean",
         "BroKcali - AI Calorie Tracker",
-        "PhotoVerse AI Photo Editor",
         "Crack - Instant Storytelling with AI Chat",
         "NailGlow - AI Nail Art Design",
         "Imani - track your faith",
@@ -469,16 +473,21 @@
         "Pivo AI - AI Video Maker",
         "Comicpix: AI Comic Book Maker",
         "AI Video - AI Video Generator",
-        "GIO: AI Headshot Generator",
-        "Rollbook: BJJ & NoGi Training",
-        "Gemmy AI: 채팅 & 어시스턴트"
+        "GIO: AI Headshot Generator"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 39,
+      "count": 37,
       "apps": [
+        "AI Mechanic – Car Diagnosis",
+        "BumpTrackr",
+        "Zeta - AI Chat for Reality",
+        "PhotoVerse AI Photo Editor",
+        "Cleaner Toolbox",
+        "Learn English, Spanish: Learna",
+        "MiSing - Sing Anytime, Anywhere",
         "Routine Impact",
         "Anymal - AI Animal Identifier",
         "SipCounterr",
@@ -500,7 +509,6 @@
         "TCG Tournament Tracker",
         "BroKcali - AI Calorie Tracker",
         "Liva - Die Mental Load App",
-        "PhotoVerse AI Photo Editor",
         "Clean Sweep Toolkit",
         "Crack - Instant Storytelling with AI Chat",
         "NailGlow - AI Nail Art Design",
@@ -508,22 +516,20 @@
         "dPay - Mobile Payment App",
         "DishGenie: AI Recipe Generator",
         "Mona Symptom Tagebuch & Fieber",
-        "ZM Work Time Track",
-        "Practiat",
-        "Walky Talky - Just Talk",
-        "Rollbook: BJJ & NoGi Training",
-        "Idea Clear",
-        "EdgeAura",
-        "Brightest Flashlight Launcher",
-        "AI Video - AI Video Generator",
-        "Gemmy AI: 채팅 & 어시스턴트"
+        "ZM Work Time Track"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 29,
+      "count": 27,
       "apps": [
+        "AI Meeting Note Taker: Notr",
+        "AI Mechanic – Car Diagnosis",
+        "BumpTrackr",
+        "PhotoVerse AI Photo Editor",
+        "Cleaner Toolbox",
+        "MiSing - Sing Anytime, Anywhere",
         "Routine Impact",
         "Anymal - AI Animal Identifier",
         "SipCounterr",
@@ -539,19 +545,11 @@
         "One Ritual",
         "AI Video Maker with Music",
         "EdgeAura",
-        "PhotoVerse AI Photo Editor",
         "DishGenie: AI Recipe Generator",
         "Daily Journal: Daily Diary",
         "Gemmy AI: Chat & Assistant",
         "워드빗 영어",
-        "ZM Work Time Track",
-        "Switch Teachers",
-        "Practiat",
-        "Walky Talky - Just Talk",
-        "Rollbook: BJJ & NoGi Training",
-        "Idea Clear",
-        "Brightest Flashlight Launcher",
-        "WePlay - Party Games"
+        "ZM Work Time Track"
       ]
     },
     {
@@ -559,6 +557,8 @@
       "category": "ar_vr",
       "count": 11,
       "apps": [
+        "AI Mechanic – Car Diagnosis",
+        "Learn English, Spanish: Learna",
         "Every Day Holiday Calendar",
         "Local Weather & News - Radar",
         "Smart Photo Clean",
@@ -567,22 +567,31 @@
         "Daily Journal: Daily Diary",
         "BentoFriend: SweetArt",
         "MacroBar",
-        "WordPixel - Word Puzzle Art",
-        "Idea Clear"
+        "WordPixel - Word Puzzle Art"
       ]
     },
     {
-      "keyword": "생산성",
+      "keyword": "B2B",
       "category": "tag",
-      "count": 8,
+      "count": 6,
       "apps": [
-        "All Files Viewer",
-        "EdgeAura",
-        "Spatial Companion",
-        "ZM Work Time Track",
-        "All Document Scan & PDF",
-        "Practiat",
-        "Idea Clear"
+        "AI Meeting Note Taker: Notr",
+        "Shift Leader AI",
+        "WindFoundationTool",
+        "Attendify Geo",
+        "MaterialFlow",
+        "Spatial Companion"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 6,
+      "apps": [
+        "PhotoVerse AI Photo Editor",
+        "BlurMagicStudio",
+        "AI Video Maker with Music",
+        "Pivo AI - AI Video Maker"
       ]
     },
     {
@@ -614,11 +623,11 @@
       "category": "tag",
       "count": 5,
       "apps": [
+        "Learn English, Spanish: Learna",
         "Anymal - AI Animal Identifier",
         "Brain Flipper",
         "連打力オンライン",
-        "워드빗 영어",
-        "Switch Teachers"
+        "워드빗 영어"
       ]
     },
     {
@@ -634,14 +643,15 @@
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
+      "keyword": "생산성",
+      "category": "tag",
       "count": 5,
       "apps": [
-        "BlurMagicStudio",
-        "PhotoVerse AI Photo Editor",
-        "AI Video Maker with Music",
-        "Pivo AI - AI Video Maker"
+        "All Files Viewer",
+        "EdgeAura",
+        "Spatial Companion",
+        "ZM Work Time Track",
+        "All Document Scan & PDF"
       ]
     },
     {
@@ -668,16 +678,6 @@
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 4,
-      "apps": [
-        "그립 Grip",
-        "WePlay - Party Games",
-        "Walky Talky - Just Talk"
-      ]
-    },
-    {
       "keyword": "커뮤니티",
       "category": "social",
       "count": 4,
@@ -700,14 +700,23 @@
       ]
     },
     {
-      "keyword": "B2B",
+      "keyword": "유틸리티",
       "category": "tag",
-      "count": 4,
+      "count": 3,
       "apps": [
-        "Attendify Geo",
-        "MaterialFlow",
-        "Spatial Companion",
-        "Switch Teachers"
+        "Cleaner Toolbox",
+        "Clean Sweep Toolkit",
+        "Cleanup: Phone Storage Cleaner"
+      ]
+    },
+    {
+      "keyword": "엔터테인먼트",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "MiSing - Sing Anytime, Anywhere",
+        "Lezhin Snack",
+        "Comicpix: AI Comic Book Maker"
       ]
     },
     {
@@ -739,53 +748,44 @@
         "AI Video Maker with Music",
         "Pivo AI - AI Video Maker"
       ]
-    },
-    {
-      "keyword": "개인화",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Gemmy AI: Chat & Assistant",
-        "EdgeAura"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 25,
-        "percent": 36,
+        "count": 26,
+        "percent": 37,
         "examples": [
+          "AI Meeting Note Taker: Notr",
           "Anymal - AI Animal Identifier",
-          "SipCounterr",
-          "Every Day Holiday Calendar"
+          "SipCounterr"
         ]
       },
       "freemium": {
-        "count": 59,
-        "percent": 84,
+        "count": 60,
+        "percent": 86,
         "examples": [
-          "Routine Impact",
-          "Anymal - AI Animal Identifier",
-          "Every Day Holiday Calendar"
+          "AI Meeting Note Taker: Notr",
+          "AI Mechanic – Car Diagnosis",
+          "Shift Leader AI"
         ]
       },
       "subscription": {
-        "count": 47,
-        "percent": 67,
+        "count": 49,
+        "percent": 70,
         "examples": [
-          "Routine Impact",
-          "Anymal - AI Animal Identifier",
-          "Every Day Holiday Calendar"
+          "AI Meeting Note Taker: Notr",
+          "Shift Leader AI",
+          "BumpTrackr"
         ]
       },
       "onetime": {
-        "count": 4,
-        "percent": 6,
+        "count": 5,
+        "percent": 7,
         "examples": [
+          "AI Mechanic – Car Diagnosis",
           "Routine Impact",
-          "SipCounterr",
-          "DramaWave - 인기 단편/한일 드라마, 역전극!"
+          "SipCounterr"
         ]
       },
       "unknown": {
@@ -796,12 +796,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 59,
-      "percent": 84,
+      "count": 60,
+      "percent": 86,
       "examples": [
-        "Routine Impact",
-        "Anymal - AI Animal Identifier",
-        "Every Day Holiday Calendar"
+        "AI Meeting Note Taker: Notr",
+        "AI Mechanic – Car Diagnosis",
+        "Shift Leader AI"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -810,14 +810,14 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 28,
-        "percent": 40,
+        "count": 31,
+        "percent": 44,
         "apps": [
-          "Anymal - AI Animal Identifier",
-          "Brain Flipper",
-          "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-          "Face2Face AI translator",
-          "Smart Photo Clean"
+          "AI Meeting Note Taker: Notr",
+          "AI Mechanic – Car Diagnosis",
+          "Shift Leader AI",
+          "Zeta - AI Chat for Reality",
+          "PhotoVerse AI Photo Editor"
         ]
       },
       {
@@ -825,29 +825,29 @@
         "count": 16,
         "percent": 23,
         "apps": [
+          "AI Mechanic – Car Diagnosis",
+          "Learn English, Spanish: Learna",
           "Routine Impact",
           "Every Day Holiday Calendar",
-          "Local Weather & News - Radar",
-          "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
-          "PonToExif"
+          "Local Weather & News - Radar"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "PhotoVerse AI Photo Editor",
           "Brain Flipper",
           "DramaWave - 인기 단편/한일 드라마, 역전극!",
           "BlurMagicStudio",
-          "Lezhin Snack",
-          "WePlay - Party Games"
+          "Lezhin Snack"
         ]
       },
       {
         "tech": "productivity",
-        "count": 8,
-        "percent": 11,
+        "count": 6,
+        "percent": 9,
         "apps": [
           "EyeFlow - Göz Egzersizi",
           "TCG Tournament Tracker",
@@ -858,8 +858,8 @@
       },
       {
         "tech": "social",
-        "count": 7,
-        "percent": 10,
+        "count": 5,
+        "percent": 7,
         "apps": [
           "그립 Grip",
           "WePlay - Party Games",
@@ -899,14 +899,14 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 28,
-      "percent": 40,
+      "count": 31,
+      "percent": 44,
       "apps": [
-        "Anymal - AI Animal Identifier",
-        "Brain Flipper",
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "Face2Face AI translator",
-        "Smart Photo Clean"
+        "AI Meeting Note Taker: Notr",
+        "AI Mechanic – Car Diagnosis",
+        "Shift Leader AI",
+        "Zeta - AI Chat for Reality",
+        "PhotoVerse AI Photo Editor"
       ]
     },
     "emerging": [
@@ -915,52 +915,56 @@
         "count": 16,
         "percent": 23,
         "apps": [
+          "AI Mechanic – Car Diagnosis",
+          "Learn English, Spanish: Learna",
           "Routine Impact",
           "Every Day Holiday Calendar",
-          "Local Weather & News - Radar",
-          "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
-          "PonToExif"
+          "Local Weather & News - Radar"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "PhotoVerse AI Photo Editor",
           "Brain Flipper",
           "DramaWave - 인기 단편/한일 드라마, 역전극!",
           "BlurMagicStudio",
-          "Lezhin Snack",
-          "WePlay - Party Games"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "EyeFlow - Göz Egzersizi",
-          "TCG Tournament Tracker",
-          "Attendify Geo",
-          "AI Video Maker with Music",
-          "EdgeAura"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 7,
-        "percent": 10,
-        "apps": [
-          "그립 Grip",
-          "WePlay - Party Games",
-          "TCG Tournament Tracker",
-          "Imani - track your faith",
-          "BentoFriend: SweetArt"
+          "Lezhin Snack"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Business 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Business"
+    },
+    {
+      "type": "rising_category",
+      "title": "Health/Fitness 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Health/Fitness"
+    },
+    {
+      "type": "rising_category",
+      "title": "AI Chatbot 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "AI Chatbot"
+    },
+    {
+      "type": "rising_category",
+      "title": "Photo Editing 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Photo Editing"
+    },
     {
       "type": "rising_category",
       "title": "Reference 카테고리 급부상",
@@ -1033,13 +1037,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Photo Editing 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Photo Editing"
-    },
-    {
-      "type": "rising_category",
       "title": "Food/Drink 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1068,13 +1065,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Personalization 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Personalization"
-    },
-    {
-      "type": "rising_category",
       "title": "Image Generation 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1089,34 +1079,32 @@
     },
     {
       "type": "rising_category",
-      "title": "Video Players & Editors 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Finance 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Video Players & Editors"
+      "category": "Finance"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "40%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "44%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Entertainment 카테고리가 500% 급증하며 AI 기능(40% 적용)과 AR/VR(23% 적용)이 핵심 기술로 부상했습니다. Freemium 모델(84%)이 주류를 이루며, 1인 개발 가능한 프로젝트(29회 언급)에 대한 관심이 높아지고 있습니다.",
+    "trend_summary": "AI 기능 통합(44%)과 Entertainment 카테고리(+200%)가 급성장하고 있으며, freemium 모델(86%)이 주류 수익화 전략으로 자리잡았다. 다양한 카테고리에서 100% 성장을 보이지만 앱 수가 적어 진입 장벽이 낮은 상황이다.",
     "trend_details": [
-      "Entertainment 앱이 6개로 500% 급증하며 가장 뜨거운 카테고리로 부상",
-      "AI 통합 앱이 전체의 40%를 차지하며 필수 기능으로 자리잡음",
-      "AR/VR 기술 적용 앱이 23%로 증가하며 몰입형 경험 트렌드 확산",
-      "Reference, Art & Design 등 10개 이상 카테고리가 100% 성장하며 진입 기회 확대"
+      "AI 기능을 활용한 앱이 전체의 44%로 주류 트렌드",
+      "Entertainment 앱이 200% 급증하며 가장 높은 성장률 기록",
+      "freemium 모델이 86%로 가장 선호되는 수익화 전략으로 확립"
     ],
     "hot_categories": [
       "Entertainment",
-      "Reference",
-      "Art & Design"
+      "Business"
     ],
-    "opportunity": "AI 미적용 카테고리(Reference, File Management, Games 등)에서 AI 기능을 접목한 차별화된 앱 개발이 가장 유망합니다.",
-    "action_item": "Entertainment 카테고리에서 AI 기반 콘텐츠 생성/편집 기능을 가진 freemium 모델 앱을 즉시 기획하세요.",
+    "opportunity": "AI 기능이 아직 적용되지 않은 Health/Fitness, Photo Editing 등의 급성장 카테고리에서 AI를 접목한 차별화된 앱 개발 기회가 크다.",
+    "action_item": "기존 아이디어에 AI 기능(chatbot, 이미지 생성, 개인화 추천)을 추가하여 freemium 모델로 Health/Fitness 또는 Photo Editing 앱을 개발하라.",
     "weekly_theme": "AI Entertainment"
   }
 }

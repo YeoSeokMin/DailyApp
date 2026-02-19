@@ -19,11 +19,13 @@ let qualityScorer = null;
 let trendDetector = null;
 let promptBuilder = null;
 let analyzeDeep = null;
+let localLLM = null;
 try {
   qualityScorer = require('./qualityScorer');
   trendDetector = require('./trendDetector');
   promptBuilder = require('../prompts/promptBuilder');
   analyzeDeep = require('./analyzeDeep');
+  localLLM = require('./localLLM');
 } catch (e) {
   // 모듈 없으면 무시
   console.log('  ⚠️ 일부 모듈 로드 실패:', e.message);
@@ -43,7 +45,13 @@ const QUALITY_CONFIG = {
 // 심층 분석 설정
 const DEEP_ANALYSIS_CONFIG = {
   enabled: true,          // 심층 분석 활성화
-  maxApps: 5              // 플랫폼별 심층 분석 앱 수 (상위 N개)
+  maxApps: 1              // 플랫폼별 심층 분석 앱 수 (iOS 1개 + Android 1개 = 2개)
+};
+
+// Local LLM 필터링 설정
+const LOCAL_LLM_CONFIG = {
+  enabled: true,          // Local LLM 필터링 활성화
+  topN: 30                // Local LLM이 선별할 앱 수 (플랫폼별)
 };
 
 /**
@@ -98,6 +106,12 @@ function cleanAppData(apps, limit) {
 }
 
 /**
+ * 프롬프트를 임시 파일에 저장
+ * - Windows stdin 파이프 한계 우회
+ */
+const TEMP_PROMPT_PATH = path.join(__dirname, '..', 'output', '.temp_prompt.txt');
+
+/**
  * Anthropic API로 분석 (GitHub Actions용)
  */
 async function analyzeWithAPI(prompt) {
@@ -117,39 +131,76 @@ async function analyzeWithAPI(prompt) {
 
 /**
  * Claude CLI로 분석 (로컬용)
+ * - 대용량 stdin 버그 우회: 프롬프트를 파일 저장 후 Claude에게 파일 읽기 지시
+ * - ref: https://github.com/anthropics/claude-code/issues/7263
  */
-function analyzeWithCLI(prompt) {
-  return new Promise((resolve, reject) => {
-    console.log('  ⏳ Claude CLI 응답 대기 중...');
+async function analyzeWithCLI(prompt) {
+  console.log('  ⏳ Claude CLI 응답 대기 중...');
+  const byteSize = Buffer.byteLength(prompt, 'utf-8');
+  console.log(`  📝 프롬프트 크기: ${(byteSize / 1024).toFixed(1)}KB`);
 
-    const claude = spawn('claude', ['--print'], {
+  // 프롬프트를 임시 파일에 저장
+  const absPath = path.resolve(TEMP_PROMPT_PATH).replace(/\\/g, '/');
+  await fs.writeFile(absPath, prompt, 'utf-8');
+  console.log(`  📁 프롬프트 파일 저장: ${absPath}`);
+
+  // 짧은 명령을 stdin으로 전달 (100자 미만이라 대용량 stdin 버그 해당 없음)
+  const instruction = `Read the file "${absPath}" and follow all instructions in it exactly. Output only the JSON result, starting with { and ending with }.`;
+  console.log(`  📨 명령 길이: ${instruction.length}자`);
+
+  return new Promise((resolve, reject) => {
+    const claude = spawn('claude', ['--model', 'claude-sonnet-4-20250514', '--print'], {
       shell: true,
       stdio: ['pipe', 'pipe', 'pipe']
     });
 
     let stdout = '';
     let stderr = '';
+    let settled = false;
+
+    const timeoutId = setTimeout(() => {
+      if (settled) return;
+      settled = true;
+      claude.kill();
+      reject(new Error('타임아웃: 10분 초과'));
+    }, 10 * 60 * 1000);
+
+    const safeResolve = (value) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timeoutId);
+      resolve(value);
+    };
+
+    const safeReject = (error) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timeoutId);
+      reject(error);
+    };
 
     claude.stdout.on('data', data => stdout += data.toString());
     claude.stderr.on('data', data => stderr += data.toString());
 
     claude.on('close', code => {
+      const trimmedStderr = stderr.trim();
+      if (trimmedStderr) {
+        console.log(`  ⚠️ Claude stderr: ${trimmedStderr.substring(0, 500)}`);
+      }
+
       if (code === 0) {
-        console.log('  ✅ Claude 응답 수신 완료');
-        resolve(stdout);
+        console.log(`  ✅ Claude 응답 수신 완료 (${stdout.length}자)`);
+        safeResolve(stdout);
       } else {
-        reject(new Error(`Claude 종료 코드 ${code}: ${stderr}`));
+        safeReject(new Error(`Claude 종료 코드 ${code}: ${trimmedStderr || 'stderr 없음'}`));
       }
     });
 
-    claude.on('error', reject);
-    claude.stdin.write(prompt);
-    claude.stdin.end();
+    claude.on('error', safeReject);
 
-    setTimeout(() => {
-      claude.kill();
-      reject(new Error('타임아웃: 10분 초과'));
-    }, 10 * 60 * 1000);
+    // 짧은 명령을 stdin으로 전달
+    claude.stdin.write(instruction);
+    claude.stdin.end();
   });
 }
 
@@ -308,20 +359,92 @@ async function main() {
     allAndroidApps = appData.Android앱 || [];
   }
 
-  const iosApps = cleanAppData(allIosApps, MAX_APPS_PER_PLATFORM);
-  const androidApps = cleanAppData(allAndroidApps, MAX_APPS_PER_PLATFORM);
+  let iosApps = [];
+  let androidApps = [];
+
+  // Local LLM 필터링 (활성화된 경우)
+  if (localLLM && LOCAL_LLM_CONFIG.enabled) {
+    console.log('');
+    console.log('🤖 Local LLM 1차 필터링 시작...');
+    console.log('─'.repeat(50));
+
+    // Ollama 연결 테스트
+    const connected = await localLLM.testConnection();
+    if (!connected) {
+      console.log('  ⚠️ Ollama 연결 실패, 기본 필터링 사용');
+      iosApps = cleanAppData(allIosApps, MAX_APPS_PER_PLATFORM);
+      androidApps = cleanAppData(allAndroidApps, MAX_APPS_PER_PLATFORM);
+    } else {
+      console.log('  ✅ Ollama 연결 성공');
+
+      // iOS 앱 필터링 + 영어 요약
+      console.log(`\n  📱 iOS 앱 필터링 (${allIosApps.length}개 → ${LOCAL_LLM_CONFIG.topN}개)`);
+      const filteredIos = await localLLM.filterAndSummarize(
+        cleanAppData(allIosApps, allIosApps.length),
+        LOCAL_LLM_CONFIG.topN
+      );
+      iosApps = filteredIos;
+
+      // Android 앱 필터링 + 영어 요약
+      console.log(`\n  📱 Android 앱 필터링 (${allAndroidApps.length}개 → ${LOCAL_LLM_CONFIG.topN}개)`);
+      const filteredAndroid = await localLLM.filterAndSummarize(
+        cleanAppData(allAndroidApps, allAndroidApps.length),
+        LOCAL_LLM_CONFIG.topN
+      );
+      androidApps = filteredAndroid;
+
+      console.log('');
+      console.log('─'.repeat(50));
+      console.log('✅ Local LLM 필터링 완료!');
+    }
+  } else {
+    // 기존 방식 (Local LLM 없이)
+    iosApps = cleanAppData(allIosApps, MAX_APPS_PER_PLATFORM);
+    androidApps = cleanAppData(allAndroidApps, MAX_APPS_PER_PLATFORM);
+  }
 
   console.log(`   iOS: ${iosApps.length}개 / Android: ${androidApps.length}개`);
 
   // 4. 프롬프트 구성 (제외 목록 포함)
-  const cleanedData = {
-    날짜: appData.날짜,
-    제외할_앱: excludeList.length > 0 ? excludeList : [],
-    iOS앱: iosApps,
-    Android앱: androidApps
-  };
+  // 영어 요약이 있으면 영어로 전달 (토큰 절감)
+  const hasEnglishSummary = iosApps[0]?.summary_en || androidApps[0]?.summary_en;
+
+  let cleanedData;
+  if (hasEnglishSummary) {
+    console.log('   📝 영어 요약 사용 (토큰 절감)');
+    cleanedData = {
+      date: appData.날짜,
+      exclude_apps: excludeList.length > 0 ? excludeList : [],
+      iOS_apps: iosApps.map(app => ({
+        name: app.name_en || app.name,
+        developer: app.developer,
+        category: app.category_en || app.category,
+        summary: app.summary_en || '',
+        icon: app.icon,
+        url: app.url,
+        llm_score: app.llmScore || 0
+      })),
+      Android_apps: androidApps.map(app => ({
+        name: app.name_en || app.name,
+        developer: app.developer,
+        category: app.category_en || app.category,
+        summary: app.summary_en || '',
+        icon: app.icon,
+        url: app.url,
+        llm_score: app.llmScore || 0
+      }))
+    };
+  } else {
+    cleanedData = {
+      날짜: appData.날짜,
+      제외할_앱: excludeList.length > 0 ? excludeList : [],
+      iOS앱: iosApps,
+      Android앱: androidApps
+    };
+  }
 
   let fullPrompt = promptTemplate + '\n' + JSON.stringify(cleanedData, null, 2);
+  fullPrompt += '\n\n---\n\n위 앱들을 분석하고 아래에 JSON을 출력하세요 (설명 없이 바로 {로 시작):\n';
   console.log(`   프롬프트: ${(fullPrompt.length / 1024).toFixed(1)}KB`);
   console.log('');
 
@@ -343,6 +466,24 @@ async function main() {
         ? await analyzeWithAPI(fullPrompt)
         : await analyzeWithCLI(fullPrompt);
 
+      const trimmedResult = (result || '').trim();
+      if (!trimmedResult) {
+        console.error('  ❌ Claude가 빈 응답을 반환했습니다.');
+        if (attempts < maxAttempts) {
+          console.log('  🔄 빈 응답으로 재시도...');
+          continue;
+        }
+
+        try {
+          await fs.writeFile(path.join(projectDir, 'output', 'last_raw_response.txt'), result || '', 'utf-8');
+          console.log('  📝 디버그 응답 저장: output/last_raw_response.txt');
+        } catch (saveError) {
+          console.log(`  ⚠️ 디버그 응답 저장 실패: ${saveError.message}`);
+        }
+
+        throw new Error('Claude가 빈 응답을 반복 반환하여 중단합니다.');
+      }
+
       // 6. JSON 파싱
       console.log('📊 결과 파싱 중...');
 
@@ -355,8 +496,16 @@ async function main() {
           console.log('  🔄 재시도...');
           continue;
         }
-        report = { raw: result, error: parseError.message };
-        break;
+
+        try {
+          await fs.writeFile(path.join(projectDir, 'output', 'last_raw_response.txt'), result, 'utf-8');
+          console.log('  📝 디버그 응답 저장: output/last_raw_response.txt');
+        } catch (saveError) {
+          console.log(`  ⚠️ 디버그 응답 저장 실패: ${saveError.message}`);
+        }
+
+        const preview = result.substring(0, 300).replace(/\s+/g, ' ');
+        throw new Error(`JSON 파싱 최종 실패: ${parseError.message} (응답 길이: ${result.length}자, 미리보기: ${preview})`);
       }
 
       // 7. 품질 체크 (모듈 있을 때만)
@@ -382,14 +531,28 @@ async function main() {
       }
     }
 
-    // 8. 저장
+    // 8. 결과 검증 (최소 5개씩 확인)
+    const MIN_APPS = 5;
+    const iosCount = report.ios?.length || 0;
+    const androidCount = report.android?.length || 0;
+
+    if (iosCount === 0 || androidCount === 0) {
+      throw new Error(`분석 결과 앱이 비어 있습니다 (iOS: ${iosCount}, Android: ${androidCount})`);
+    }
+
+    if (iosCount < MIN_APPS || androidCount < MIN_APPS) {
+      console.log(`  ⚠️ 경고: 앱 개수 부족 (iOS: ${iosCount}, Android: ${androidCount})`);
+      console.log(`     최소 ${MIN_APPS}개씩 필요합니다.`);
+    }
+
+    // 9. 저장
     await fs.writeFile(outputPath, JSON.stringify(report, null, 2), 'utf-8');
 
     console.log('');
     console.log('═'.repeat(50));
     console.log('✅ 기본 분석 완료!');
-    if (report.ios) console.log(`   iOS: ${report.ios.length}개`);
-    if (report.android) console.log(`   Android: ${report.android.length}개`);
+    if (report.ios) console.log(`   iOS: ${report.ios.length}개 ${iosCount < MIN_APPS ? '⚠️ 부족' : '✓'}`);
+    if (report.android) console.log(`   Android: ${report.android.length}개 ${androidCount < MIN_APPS ? '⚠️ 부족' : '✓'}`);
     if (quality) console.log(`   품질: ${quality.totalScore}/10 (${quality.grade})`);
     console.log(`   시도: ${attempts}회`);
     console.log('═'.repeat(50));

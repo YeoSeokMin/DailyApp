@@ -30,7 +30,17 @@ async function main() {
   // 2. 유효한 리포트인지 확인
   if (report.raw || report.error) {
     console.error('❌ 유효하지 않은 리포트입니다.');
-    console.error('   analyze.js를 다시 실행해주세요.');
+    if (report.error) {
+      console.error(`   오류: ${report.error}`);
+    }
+    if (typeof report.raw === 'string') {
+      const preview = report.raw.substring(0, 200).replace(/\s+/g, ' ');
+      console.error(`   raw 응답 길이: ${report.raw.length}자`);
+      console.error(`   raw 미리보기: ${preview}`);
+    } else if (report.raw !== undefined) {
+      console.error(`   raw 응답 타입: ${typeof report.raw}`);
+    }
+    console.error('   → analyze.js를 다시 실행해주세요.');
     process.exit(1);
   }
 

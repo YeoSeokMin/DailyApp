@@ -393,7 +393,7 @@ function detectOpportunities(changes, techTrends, pricingTrends) {
  */
 function callClaudeCLI(prompt) {
   return new Promise((resolve, reject) => {
-    const claude = spawn('claude', ['--print'], {
+    const claude = spawn('claude', ['--model', 'claude-sonnet-4-20250514', '--print'], {
       shell: true,
       stdio: ['pipe', 'pipe', 'pipe']
     });
