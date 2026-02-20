@@ -1,0 +1,612 @@
+{
+  "date": "2026-02-21",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Jar of Stars: Classroom",
+      "developer": "MATTHEW RICHARD GIBSON",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4a/a4/98/4aa49828-9c2c-9a8c-f424-4c0100ca13cb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/jar-of-stars-classroom/id6759303909?uo=2",
+      "idea_summary": "교실 관리와 학습 활동을 위한 교육 앱 [추론]",
+      "analysis": {
+        "problem": "교사들이 교실 관리와 학생 참여를 효과적으로 하기 어려운 문제 [추론]",
+        "solution": "별 보상 시스템과 교실 활동 관리 기능 제공 [추론]",
+        "target_user": "초중고 교사와 교육자들 [추론]",
+        "unique_point": "별 보상 기반의 게이미피케이션 교실 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ClassDojo",
+          "Seesaw"
+        ],
+        "timing_reason": "온라인 교육 증가로 디지털 교실 관리 도구 수요 증가 [추론]",
+        "growth_potential": "교육 기관의 디지털화 가속으로 성장 잠재력 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 추가 기능 제공 [추론]",
+        "pricing_suggestion": "월 구독료 5-10달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase"
+        ],
+        "key_features": [
+          "보상 시스템",
+          "진도 추적",
+          "학부모 알림"
+        ],
+        "clone_tip": "게이미피케이션 요소에 집중하여 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B"
+      ],
+      "verdict": "교육 시장의 안정적 니치, 차별화 필요",
+      "deep_report_id": "ios-jar-of-stars-classroom-1771599980891"
+    },
+    {
+      "rank": 2,
+      "name": "1QWall",
+      "developer": "Seonghoon Kim",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/84/e6/e284e63e-8309-02b9-b971-f400bf15726e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/1qwall/id6759057416?uo=2",
+      "idea_summary": "일상 순간을 공유하는 소셜 미디어 플랫폼 [추론]",
+      "analysis": {
+        "problem": "기존 SNS의 복잡함과 과도한 노출에 피로감을 느끼는 문제 [추론]",
+        "solution": "단순하고 진정성 있는 일상 공유 플랫폼 제공 [추론]",
+        "target_user": "20-30대 젊은 층, 간단한 소통을 원하는 사용자 [추론]",
+        "unique_point": "미니멀한 인터페이스와 일상 중심의 콘텐츠 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BeReal",
+          "VSCO"
+        ],
+        "timing_reason": "진정성 있는 소통에 대한 니즈 증가 [추론]",
+        "growth_potential": "틈새 시장이지만 충성도 높은 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 필터/기능 [추론]",
+        "pricing_suggestion": "월 2-3달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "AWS"
+        ],
+        "key_features": [
+          "사진 공유",
+          "친구 관리",
+          "알림 시스템"
+        ],
+        "clone_tip": "커뮤니티 형성과 바이럴 요소에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "경쟁이 치열한 소셜 미디어 시장, 차별화 어려움"
+    },
+    {
+      "rank": 3,
+      "name": "Glinty: AI Food & Calorie Scan",
+      "developer": "彦 尹",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/86/c3/fc86c39c-137f-83e9-d2cd-364c2d4eba51/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/glinty-ai-food-calorie-scan/id6758969162?uo=2",
+      "idea_summary": "AI 기반 음식 스캔으로 칼로리 자동 계산 [확인]",
+      "analysis": {
+        "problem": "칼로리 계산의 번거로움과 부정확성 문제 [확인]",
+        "solution": "카메라로 음식을 찍으면 AI가 자동으로 칼로리 계산 [확인]",
+        "target_user": "다이어트하는 사람들과 건강 관리에 관심 있는 사용자 [추론]",
+        "unique_point": "AI 이미지 인식 기반 자동 칼로리 계산 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Lose It!"
+        ],
+        "timing_reason": "AI 기술 발전과 건강 관리 트렌드 증가 [추론]",
+        "growth_potential": "헬스케어 시장 성장으로 높은 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 고급 AI 기능 제공 [추론]",
+        "pricing_suggestion": "월 4-7달러 구독료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1200-1800만원 [추론]",
+        "tech_stack": [
+          "TensorFlow",
+          "OpenCV",
+          "React Native"
+        ],
+        "key_features": [
+          "이미지 인식",
+          "칼로리 DB",
+          "식단 추적"
+        ],
+        "clone_tip": "정확한 AI 모델 훈련이 핵심, 한국 음식 DB 구축 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C"
+      ],
+      "verdict": "AI 트렌드와 건강 관리 니즈가 만난 유망 아이템"
+    },
+    {
+      "rank": 4,
+      "name": "jobby, ai interview prep",
+      "developer": "Sharan Narasimha",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/73/4d/b4/734db44d-baeb-b946-d672-06eebdc34a37/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/jobby-ai-interview-prep/id6759342026?uo=2",
+      "idea_summary": "AI 기반 취업 면접 준비 도구 [확인]",
+      "analysis": {
+        "problem": "면접 준비의 어려움과 실전 연습 기회 부족 [추론]",
+        "solution": "AI와 모의 면접을 통한 실전 연습과 피드백 제공 [추론]",
+        "target_user": "취업 준비생과 이직 준비자 [추론]",
+        "unique_point": "AI 면접관과의 실시간 모의 면접 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Pramp",
+          "InterviewBuddy"
+        ],
+        "timing_reason": "AI 발전과 취업 경쟁 심화로 수요 증가 [추론]",
+        "growth_potential": "글로벌 취업 시장 규모로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 면접 코칭 [추론]",
+        "pricing_suggestion": "월 15-25달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "OpenAI API",
+          "Speech Recognition",
+          "React Native"
+        ],
+        "key_features": [
+          "AI 면접관",
+          "음성 인식",
+          "면접 분석"
+        ],
+        "clone_tip": "한국 취업 시장 특성에 맞는 면접 질문 DB 구축 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C"
+      ],
+      "verdict": "AI와 취업 시장의 만남, 높은 실용성과 확장성"
+    },
+    {
+      "rank": 5,
+      "name": "Coloria Draw",
+      "developer": "q8sch",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/7d/d2/bf7dd2a7-0537-07a7-17df-d929b3c61a92/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/coloria-draw/id6759115463?uo=2",
+      "idea_summary": "다양한 도구를 제공하는 그리기 앱 [추론]",
+      "analysis": {
+        "problem": "복잡한 그래픽 도구 없이 간단하게 그림을 그리고 싶은 니즈 [추론]",
+        "solution": "직관적인 인터페이스의 모바일 드로잉 앱 [추론]",
+        "target_user": "취미로 그림을 그리는 사람들과 아이들 [추론]",
+        "unique_point": "색상 중심의 단순한 드로잉 인터페이스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Procreate Pocket",
+          "Adobe Fresco"
+        ],
+        "timing_reason": "디지털 아트와 창작 활동 증가 트렌드 [추론]",
+        "growth_potential": "틈새 시장이지만 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 브러시와 기능 인앱 구매 [추론]",
+        "pricing_suggestion": "브러시 팩 1-3달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Graphics",
+          "UIKit"
+        ],
+        "key_features": [
+          "브러시 엔진",
+          "색상 팔레트",
+          "레이어 시스템"
+        ],
+        "clone_tip": "독특한 브러시와 색상 시스템으로 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "경쟁이 치열한 드로잉 앱 시장, 차별화 어려움"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Easy Mail - Email Launcher",
+      "developer": "App Lab Studios",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/Gz3hDI57iGGsK2qPRcPl8HIZb7R1sEa81RM1cLVJ1LND5ArE0450aH8Rn8yBpaGCdjEfY1MsSa37zwU9aHQo",
+      "app_url": "https://play.google.com/store/apps/details?id=com.applabstudios.ai.mail.homescreen.inbox",
+      "idea_summary": "이메일 접근을 위한 전용 런처 [추론]",
+      "analysis": {
+        "problem": "이메일 앱 접근의 번거로움과 홈스크린 정리 필요 [추론]",
+        "solution": "이메일 중심의 특화된 런처 제공 [추론]",
+        "target_user": "이메일을 자주 사용하는 비즈니스 사용자 [추론]",
+        "unique_point": "이메일 중심의 런처 인터페이스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nova Launcher",
+          "Microsoft Launcher"
+        ],
+        "timing_reason": "원격근무 증가로 이메일 사용량 증가 [추론]",
+        "growth_potential": "특정 니치 시장 대상으로 제한적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 2-4달러 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Launcher API"
+        ],
+        "key_features": [
+          "런처 인터페이스",
+          "이메일 통합",
+          "위젯"
+        ],
+        "clone_tip": "특정 앱 중심의 런처 컨셉을 다른 영역에 적용 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B"
+      ],
+      "verdict": "틈새 시장이지만 수요 제한적, 확장성 부족",
+      "deep_report_id": "android-easy-mail-email-launcher-1771600044381"
+    },
+    {
+      "rank": 2,
+      "name": "PowerPDF: Read, Sign, Convert",
+      "developer": "深圳优蕴秀科技有限公司",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/YY_uC2Sr7CAmkgZu3dYq_--12GnGaRroU-lAKk_1qFvnZxfLCI67poyd37Tgy7AeYRVQVPWLZDOcUhmn-EOkeWM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.powerpdf.readsignconvert",
+      "idea_summary": "PDF 읽기, 서명, 변환 올인원 도구 [확인]",
+      "analysis": {
+        "problem": "모바일에서 PDF 작업의 불편함과 여러 앱 사용 필요성 [추론]",
+        "solution": "PDF 관련 모든 기능을 하나의 앱에 통합 [확인]",
+        "target_user": "문서 작업이 많은 직장인과 학생들 [추론]",
+        "unique_point": "PDF 전용 올인원 솔루션 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "PDFelement"
+        ],
+        "timing_reason": "원격근무와 디지털 문서 사용 증가 [추론]",
+        "growth_potential": "문서 디지털화 트렌드로 꾸준한 성장 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 5-10달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDFBox",
+          "ML Kit"
+        ],
+        "key_features": [
+          "PDF 뷰어",
+          "전자서명",
+          "형식 변환"
+        ],
+        "clone_tip": "PDF 처리 라이브러리 최적화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B"
+      ],
+      "verdict": "안정적인 문서 관리 시장, 기능 완성도가 관건"
+    },
+    {
+      "rank": 3,
+      "name": "PDF Toolkit: Viewer & Editor",
+      "developer": "yaohuo",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/nEHTSHtYuuucV3ti3Eg-ars8qkRyFEdA3ZRCCGA0GJbUq7RPwYY7Q6CyQk-uaT1GlVM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pdfkit.viewereditor",
+      "idea_summary": "PDF 뷰어와 편집기 통합 도구 [확인]",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집의 어려움과 전용 도구 부족 [추론]",
+        "solution": "뷰어와 편집 기능을 통합한 PDF 도구 [확인]",
+        "target_user": "문서 편집이 필요한 학생과 직장인 [추론]",
+        "unique_point": "모바일 최적화된 PDF 편집 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "Foxit PDF"
+        ],
+        "timing_reason": "모바일 오피스 워크 증가 [추론]",
+        "growth_potential": "PDF 편집 니즈 증가로 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능 구독 [추론]",
+        "pricing_suggestion": "월 3-8달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "600-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDF렌더링 엔진",
+          "Canvas API"
+        ],
+        "key_features": [
+          "PDF 편집",
+          "주석 기능",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "터치 기반 편집 UX 최적화 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B"
+      ],
+      "verdict": "PDF 시장 경쟁 치열하지만 모바일 편집은 기회"
+    },
+    {
+      "rank": 4,
+      "name": "RecoverPro-File Recovery",
+      "developer": "RK Ventures",
+      "category": "Tools",
+      "icon": "https://play-lh.googleusercontent.com/PVt6on5AQfoxpILZjmfu_gQv8yu3BZtdogvaHmbGuG6_47ih3TlsaKUxT8D9p-C-HXcOXygU3K0sKQw0a9YZEw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bill.ricecook.recoverpro",
+      "idea_summary": "삭제된 파일 복구 도구 [확인]",
+      "analysis": {
+        "problem": "실수로 삭제한 파일 복구의 어려움 [추론]",
+        "solution": "안드로이드에서 삭제된 파일을 검색하고 복구하는 도구 [추론]",
+        "target_user": "파일 복구가 필요한 모든 스마트폰 사용자 [추론]",
+        "unique_point": "모바일 특화 파일 복구 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DiskDigger",
+          "Recuva"
+        ],
+        "timing_reason": "스마트폰 저장 공간 관리 니즈 증가 [추론]",
+        "growth_potential": "필수 유틸리티로 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 버전으로 고급 복구 기능 [추론]",
+        "pricing_suggestion": "일회성 5-15달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "700-1100만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "파일시스템 API",
+          "C++ NDK"
+        ],
+        "key_features": [
+          "파일 스캔",
+          "복구 엔진",
+          "미리보기"
+        ],
+        "clone_tip": "안드로이드 권한 제한으로 개발 난이도 높음 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#기술집약적",
+        "#B2C"
+      ],
+      "verdict": "실용적이지만 기술적 제약과 경쟁이 치열"
+    },
+    {
+      "rank": 5,
+      "name": "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
+      "developer": "Gravity Ltd",
+      "category": "Health & Finance",
+      "icon": "https://play-lh.googleusercontent.com/0vWR05__gGrE_eTRSYh500J9kcNRlVkU2kNK9by3mOw1fWnc9zOEfezuFyjL_PDK3g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tracerofficial",
+      "idea_summary": "걷기 운동으로 돈을 벌 수 있는 앱 [확인]",
+      "analysis": {
+        "problem": "운동 동기 부족과 건강 관리 어려움 [추론]",
+        "solution": "걷기 운동을 통해 포인트를 적립하고 현금으로 전환 [확인]",
+        "target_user": "건강 관리와 부수입에 관심 있는 사용자 [추론]",
+        "unique_point": "운동과 수익을 결합한 독특한 비즈니스 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "캐시워크",
+          "만보기"
+        ],
+        "timing_reason": "건강 관리 트렌드와 부수입 관심 증가 [추론]",
+        "growth_potential": "한국 시장에서 입증된 모델로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 제휴사 수수료 [추론]",
+        "pricing_suggestion": "무료 + 광고 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Google Fit API"
+        ],
+        "key_features": [
+          "걸음수 측정",
+          "포인트 시스템",
+          "현금 전환"
+        ],
+        "clone_tip": "정확한 걸음수 측정과 부정 방지 시스템 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#한국특화",
+        "#B2C"
+      ],
+      "verdict": "한국에서 검증된 수익형 건강 앱 모델"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인화 서비스와 실용성 중심의 틈새 도구들이 주목받고 있으며, 특히 건강관리와 업무 효율성을 결합한 앱들이 증가하는 추세 [추론]",
+    "trend_details": [
+      "AI 이미지 인식을 활용한 자동화 서비스",
+      "취업 준비를 위한 AI 코칭 도구",
+      "운동과 수익을 결합한 게이미피케이션"
+    ],
+    "hot_categories": [
+      "Health & Fitness",
+      "Education",
+      "Productivity"
+    ],
+    "opportunity": "AI 기술을 활용한 개인 맞춤형 서비스와 한국 시장 특화 앱",
+    "action_item": "AI 기반 음식 인식이나 면접 준비 앱 같은 실용적 AI 활용 아이템 검토"
+  }
+}
