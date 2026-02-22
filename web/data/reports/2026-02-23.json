@@ -1,0 +1,620 @@
+{
+  "date": "2026-02-23",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "DeepFocus",
+      "developer": "hiroki kaneko",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b7/f9/59/b7f95960-1859-61c5-be6e-4b38db170f7e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/deepfocus/id6759148602?uo=2",
+      "idea_summary": "집중력 향상을 위한 심층 포커스 도구 [추론]",
+      "analysis": {
+        "problem": "현대인의 산만함과 집중력 부족 문제 [추론]",
+        "solution": "심화된 집중 기법을 통한 생산성 향상 [추측]",
+        "target_user": "집중력 향상이 필요한 직장인, 학생 [추론]",
+        "unique_point": "기존 포모도로와 차별화된 심층 집중 접근법 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Be Focused"
+        ],
+        "timing_reason": "원격근무 증가로 자기관리 도구 수요 상승 [추론]",
+        "growth_potential": "생산성 앱 시장 성장세에 따른 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 2,900원, 연 29,000원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data"
+        ],
+        "key_features": [
+          "타이머",
+          "통계",
+          "알림"
+        ],
+        "clone_tip": "명상/집중 기법과 앱 기능의 효과적 결합이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "집중력 향상 니즈가 명확한 실용적 앱",
+      "deep_report_id": "ios-deepfocus-1771772750936"
+    },
+    {
+      "rank": 2,
+      "name": "Bloom: Perimenopause Tracker",
+      "developer": "Ignat Boyarinov",
+      "category": "Health/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/97/4c/eb974ce1-2123-38d8-fa7a-9ceb91700db4/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/bloom-perimenopause-tracker/id6759215297?uo=2",
+      "idea_summary": "갱년기 전 증상을 추적하는 특화 앱 [확인]",
+      "analysis": {
+        "problem": "갱년기 전 여성들의 증상 관리 부족 [추론]",
+        "solution": "증상 추적과 맞춤형 건강 관리 제공 [추론]",
+        "target_user": "40-50대 갱년기 전후 여성 [추론]",
+        "unique_point": "일반 생리앱과 달리 갱년기 특화 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Clue",
+          "Flo"
+        ],
+        "timing_reason": "여성 헬스케어에 대한 관심 증대 [추론]",
+        "growth_potential": "타겟층 명확하고 경쟁이 적어 성장 잠재력 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 건강 상담 연결 [추론]",
+        "pricing_suggestion": "월 4,900원, 연 49,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "HealthKit"
+        ],
+        "key_features": [
+          "증상추적",
+          "차트분석",
+          "리마인더"
+        ],
+        "clone_tip": "의학적 정확성과 사용자 경험의 균형이 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "블루오션 시장의 특화된 건강 관리 솔루션"
+    },
+    {
+      "rank": 3,
+      "name": "Fencing Flow",
+      "developer": "KARSTEN GRAF",
+      "category": "Sports",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/8f/6f/f98f6fc6-017f-380a-4c8f-4fe8e6ec04a1/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/fencing-flow/id6759300025?uo=2",
+      "idea_summary": "펜싱 훈련을 위한 전문 연습 도구 [확인]",
+      "analysis": {
+        "problem": "펜싱 선수들의 개인 훈련 도구 부족 [추론]",
+        "solution": "체계적인 펜싱 기술 연습 가이드 제공 [추론]",
+        "target_user": "펜싱 선수, 코치, 동호회원 [추론]",
+        "unique_point": "펜싱이라는 매우 특화된 스포츠 전용 앱 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "정보 없음"
+        ],
+        "timing_reason": "올림픽 스포츠 관심 증가와 개인화 훈련 트렌드 [추론]",
+        "growth_potential": "니치하지만 충성도 높은 시장 [추론]"
+      },
+      "business": {
+        "monetization": "유료 구매 + 프리미엄 훈련 콘텐츠 [추론]",
+        "pricing_suggestion": "앱 $9.99, 월 구독 $4.99 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVKit",
+          "CoreMotion"
+        ],
+        "key_features": [
+          "동작분석",
+          "훈련일지",
+          "동영상가이드"
+        ],
+        "clone_tip": "스포츠 전문성과 실제 훈련 효과가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치시장"
+      ],
+      "verdict": "작지만 충성도 높은 전문 스포츠 시장 타겟"
+    },
+    {
+      "rank": 4,
+      "name": "StudyLogger",
+      "developer": "Buddhi Abeysekera",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/7a/45/9a7a4534-2c29-c1d6-000e-250b60cda681/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/studylogger/id6749920941?uo=2",
+      "idea_summary": "학습 진도와 성과를 체계적으로 추적 [확인]",
+      "analysis": {
+        "problem": "학습자들의 공부 시간과 진도 관리의 어려움 [추론]",
+        "solution": "데이터 기반 학습 패턴 분석과 최적화 제공 [추론]",
+        "target_user": "수험생, 대학생, 자기계발 학습자 [추론]",
+        "unique_point": "단순 타이머가 아닌 학습 데이터 분석 중심 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Toggl"
+        ],
+        "timing_reason": "평생학습 트렌드와 데이터 기반 자기관리 문화 [추론]",
+        "growth_potential": "학습 관리 도구 시장의 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료 + 고급 분석 기능 구독 [추론]",
+        "pricing_suggestion": "월 1,900원, 연 19,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "시간추적",
+          "통계대시보드",
+          "목표설정"
+        ],
+        "clone_tip": "직관적인 데이터 시각화와 동기부여 요소가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크"
+      ],
+      "verdict": "검증된 시장의 데이터 중심 학습 도구"
+    },
+    {
+      "rank": 5,
+      "name": "AuraCam",
+      "developer": "Hwanchang Park",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/a5/68/52a568b6-3f80-5d94-7737-8db044f1f058/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/auracam/id6759287770?uo=2",
+      "idea_summary": "가상현실 엔터테인먼트 경험 제공 [확인]",
+      "analysis": {
+        "problem": "기존 카메라 앱의 단조로운 촬영 경험 [추측]",
+        "solution": "AR 효과를 통한 몰입형 카메라 체험 [추측]",
+        "target_user": "Z세대, 소셜미디어 활용자 [추론]",
+        "unique_point": "일반 카메라 앱과 차별화된 VR 요소 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Snow",
+          "Instagram"
+        ],
+        "timing_reason": "메타버스와 AR 기술 대중화 시점 [추론]",
+        "growth_potential": "AR 엔터테인먼트 시장 확장과 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "무료 + 프리미엄 필터 IAP [추론]",
+        "pricing_suggestion": "필터팩 1,200원, 월구독 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "ARKit",
+          "Metal",
+          "Core ML"
+        ],
+        "key_features": [
+          "AR필터",
+          "실시간렌더링",
+          "소셜공유"
+        ],
+        "clone_tip": "AR 기술 구현보다 창의적 컨텐츠가 더 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 5,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AR"
+      ],
+      "verdict": "트렌디하지만 경쟁 치열한 엔터테인먼트 시장"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "PDF 리더 & 한글 뷰어 - HWP 파일 열기",
+      "developer": "Techverse LTD",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/deWuwHF8RJsV2v92CpJKu8hsfz7vGvH1sKe-Ct8rsxSEh0fx72n_puz7vIJzfrcPiw",
+      "app_url": "https://play.google.com/store/apps/details?id=pdfreader.proeditor.freepdfviewer",
+      "idea_summary": "PDF와 HWP 파일을 모두 지원하는 통합 뷰어 [확인]",
+      "analysis": {
+        "problem": "한국 특유의 HWP 파일 호환성 문제 [확인]",
+        "solution": "PDF와 HWP를 모두 지원하는 올인원 솔루션 [확인]",
+        "target_user": "한국 직장인, 학생, 공무원 [추론]",
+        "unique_point": "HWP 지원으로 한국 시장 특화 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Reader",
+          "한글과컴퓨터"
+        ],
+        "timing_reason": "재택근무 증가로 문서 뷰어 수요 상승 [추론]",
+        "growth_potential": "한국 특화 기능으로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "무료 + 광고 + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "월 2,500원, 연 25,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "PDF.js",
+          "HWP Parser"
+        ],
+        "key_features": [
+          "멀티포맷지원",
+          "편집기능",
+          "클라우드연동"
+        ],
+        "clone_tip": "HWP 파서 개발이 핵심 기술적 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 8.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#한국특화"
+      ],
+      "verdict": "한국 시장 필수 기능을 갖춘 실용적 도구",
+      "deep_report_id": "android-pdf-리더-한글-뷰어-hwp-파일-열기-1771772819763"
+    },
+    {
+      "rank": 2,
+      "name": "호갱노노 - 아파트 실거래가 조회 부동산앱",
+      "developer": "호갱노노",
+      "category": "Real Estate",
+      "icon": "https://play-lh.googleusercontent.com/SVBA_QKH_stGx_cEl6vephaNWSkI50jKIWJTgSJ2lMTwlGegxNUPJ1JvMF2by0prSy3avwo4oD0WydHAM0uddQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hogangnono.hogangnono",
+      "idea_summary": "부동산 실거래가 투명성 확보 도구 [확인]",
+      "analysis": {
+        "problem": "부동산 거래의 정보 비대칭 문제 [확인]",
+        "solution": "공공데이터 기반 실거래가 투명 공개 [확인]",
+        "target_user": "부동산 거래 예정자, 투자자 [확인]",
+        "unique_point": "호갱이라는 친근한 브랜딩과 실용적 접근 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "직방",
+          "다방"
+        ],
+        "timing_reason": "부동산 시장 관심 지속과 투명성 요구 증대 [추론]",
+        "growth_potential": "한국 부동산 시장 규모 대비 높은 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 분석 서비스 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "공공API",
+          "지도SDK"
+        ],
+        "key_features": [
+          "실거래가조회",
+          "시세분석",
+          "알림설정"
+        ],
+        "clone_tip": "공공데이터 활용 능력과 UX 최적화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 9
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "높은 필요성과 시장성을 갖춘 부동산 도구"
+    },
+    {
+      "rank": 3,
+      "name": "헤이딜러 - 인증중고차, 내차팔기",
+      "developer": "HeyDealer",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/lIH4tf6ZVKZyiXf-EQ4EU8GBXiTE4n6lIF_d2TbZYPmszuhYln3Wa8AVCMKt3BLOpSjl",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.perfectree.heydealer",
+      "idea_summary": "중고차 거래 투명성과 신뢰성 확보 [확인]",
+      "analysis": {
+        "problem": "중고차 거래의 불투명함과 신뢰 부족 [확인]",
+        "solution": "인증 시스템을 통한 안전한 중고차 거래 [확인]",
+        "target_user": "중고차 구매/판매 예정자 [확인]",
+        "unique_point": "딜러 인증과 투명한 거래 프로세스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "KB차차차",
+          "SK엔카"
+        ],
+        "timing_reason": "중고차 시장 성장과 온라인 거래 증가 [추론]",
+        "growth_potential": "중고차 시장 규모 확대에 따른 성장 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료 + 광고 + 프리미엄 서비스 [추론]",
+        "pricing_suggestion": "거래당 1-2% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "결제API",
+          "인증시스템"
+        ],
+        "key_features": [
+          "차량검증",
+          "안전결제",
+          "매칭시스템"
+        ],
+        "clone_tip": "신뢰 구축 시스템과 사용자 안전성이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8.8
+      },
+      "tags": [
+        "#마켓플레이스",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "큰 시장 규모의 신뢰 기반 거래 플랫폼"
+    },
+    {
+      "rank": 4,
+      "name": "컬리 - 마켓컬리, 뷰티컬리",
+      "developer": "(주)컬리",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/gAN0wJssHIntylT3yT_EWZGf1aH3fIQGikusAFfv3fOnWMH3Oar28HJiHaKkQhqYwyFF",
+      "app_url": "https://play.google.com/store/apps/details?id=com.dbs.kurly.m2",
+      "idea_summary": "프리미엄 식품 새벽배송 서비스 [확인]",
+      "analysis": {
+        "problem": "바쁜 현대인의 장보기 불편함 [확인]",
+        "solution": "엄선된 식품의 새벽배송으로 편의성 제공 [확인]",
+        "target_user": "30-40대 맞벌이 부부, 프리미엄 지향 소비자 [추론]",
+        "unique_point": "큐레이션과 새벽배송의 조합 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "쿠팡",
+          "SSG"
+        ],
+        "timing_reason": "코로나로 인한 온라인 식품 구매 습관 정착 [추론]",
+        "growth_potential": "프리미엄 식품 시장 성장세 [추론]"
+      },
+      "business": {
+        "monetization": "상품 판매 마진 + 배송비 + 멤버십 [확인]",
+        "pricing_suggestion": "연 멤버십 29,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "물류API",
+          "결제시스템"
+        ],
+        "key_features": [
+          "상품큐레이션",
+          "배송관리",
+          "멤버십"
+        ],
+        "clone_tip": "물류 시스템 구축이 가장 큰 진입장벽 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#이커머스",
+        "#B2C"
+      ],
+      "verdict": "물류 인프라 필요하지만 검증된 비즈니스 모델"
+    },
+    {
+      "rank": 5,
+      "name": "온라인 패션 스토어 무신사",
+      "developer": "MUSINSA Co.,Ltd",
+      "category": "Fashion",
+      "icon": "https://play-lh.googleusercontent.com/7SU9hJXrtTfGd_Lz-EBkdvi1gPYOiB-fJk26m25elBKViDsUhWe2y2uyW0CgSQjjFsSKfbO713V66vcoEwBPsuY",
+      "app_url": "https://play.google.com/store/apps/details?id=com.musinsa.store",
+      "idea_summary": "젊은 세대 타겟 패션 큐레이션 플랫폼 [확인]",
+      "analysis": {
+        "problem": "개성있는 패션 아이템 발견의 어려움 [추론]",
+        "solution": "트렌디한 브랜드 큐레이션과 스타일링 제안 [확인]",
+        "target_user": "10-30대 패션 관심층 [확인]",
+        "unique_point": "스트릿 패션 중심의 브랜드 큐레이션 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "지그재그",
+          "브랜디"
+        ],
+        "timing_reason": "개인 스타일링 중요성 증대와 온라인 쇼핑 일반화 [추론]",
+        "growth_potential": "패션 이커머스 시장 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "판매 수수료 + 광고 + 자체브랜드 [추론]",
+        "pricing_suggestion": "브랜드당 월 광고비 100-500만원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "추천시스템",
+          "결제API"
+        ],
+        "key_features": [
+          "브랜드큐레이션",
+          "스타일링",
+          "리뷰시스템"
+        ],
+        "clone_tip": "패션 브랜드 네트워크 구축이 핵심 성공요인 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#이커머스",
+        "#B2C",
+        "#패션"
+      ],
+      "verdict": "브랜드 파트너십이 필요하지만 큰 시장의 플랫폼"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "개인화된 도구와 특화 시장 솔루션이 주요 트렌드로 부상하고 있음 [추론]. 헬스케어, 생산성, 전문 스포츠 등 니치 영역의 맞춤형 앱들이 경쟁력을 보여줌 [추론].",
+    "trend_details": [
+      "갱년기와 같은 특정 생애주기 타겟팅",
+      "펜싱 등 전문 스포츠 특화",
+      "HWP 지원 등 지역 특화 기능",
+      "실거래가 투명성 등 신뢰 기반 서비스"
+    ],
+    "hot_categories": [
+      "헬스케어",
+      "부동산테크",
+      "생산성도구"
+    ],
+    "opportunity": "기존 대형 앱들이 소홀히 하는 특정 사용자층이나 지역별 요구사항에 특화된 솔루션 개발 [추론]",
+    "action_item": "타겟 사용자가 명확하고 기존 솔루션의 공백을 채우는 니치 시장 앱 아이디어 발굴 [추론]"
+  }
+}

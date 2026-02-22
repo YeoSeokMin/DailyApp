@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-21T15:13:10.700Z",
+  "generatedAt": "2026-02-22T15:12:16.228Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -7,9 +7,9 @@
   "risingCategories": [
     {
       "category": "Utility",
-      "currentCount": 9,
+      "currentCount": 8,
       "previousCount": 3,
-      "changePercent": 200,
+      "changePercent": 167,
       "changeDirection": "up",
       "apps": [
         "QR Scan & Edit",
@@ -19,34 +19,18 @@
         "AI Mechanic – Car Diagnosis",
         "Cleaner Toolbox",
         "Face2Face AI translator",
-        "Wake Up or Lose",
-        "Attendify Geo"
+        "Wake Up or Lose"
       ],
-      "avgScore": 7.599999999999999
-    },
-    {
-      "category": "Entertainment",
-      "currentCount": 6,
-      "previousCount": 2,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "Shortn: Short Viral Video App",
-        "MiSing - Sing Anytime, Anywhere",
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "DramaWave - 인기 단편/한일 드라마, 역전극!",
-        "Lezhin Snack",
-        "Crack - Instant Storytelling with AI Chat"
-      ],
-      "avgScore": 7.683333333333333
+      "avgScore": 7.699999999999998
     },
     {
       "category": "Finance",
-      "currentCount": 6,
+      "currentCount": 7,
       "previousCount": 3,
-      "changePercent": 100,
+      "changePercent": 133,
       "changeDirection": "up",
       "apps": [
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
         "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
         "サブスク管理 | 解約忘れを防ぐ",
         "ChartsGPT: AI Trading Assist",
@@ -54,7 +38,35 @@
         "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
         "iAEON"
       ],
-      "avgScore": 7.95
+      "avgScore": 7.957142857142857
+    },
+    {
+      "category": "Social Networking",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Crowdtruth",
+        "Shortn: short viral video app"
+      ],
+      "avgScore": 7.75
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 6,
+      "previousCount": 3,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Shortn: Short Viral Video App",
+        "MiSing - Sing Anytime, Anywhere",
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+        "DramaWave - 인기 단편/한일 드라마, 역전극!",
+        "Lezhin Snack"
+      ],
+      "avgScore": 7.883333333333333
     },
     {
       "category": "Development Tools",
@@ -114,16 +126,15 @@
     },
     {
       "category": "Weather",
-      "currentCount": 3,
-      "previousCount": 0,
+      "currentCount": 2,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
         "Swell Scope — Surf Forecast",
-        "Local Weather & News - Radar",
-        "First Screen Weather - Weather Widget"
+        "Local Weather & News - Radar"
       ],
-      "avgScore": 6.733333333333333
+      "avgScore": 6.6
     },
     {
       "category": "Translation",
@@ -227,18 +238,6 @@
       "avgScore": 7
     },
     {
-      "category": "Healthcare/Fitness",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "EyeFlow - Göz Egzersizi",
-        "BroKcali - AI Calorie Tracker"
-      ],
-      "avgScore": 7.75
-    },
-    {
       "category": "File Management",
       "currentCount": 1,
       "previousCount": 0,
@@ -259,76 +258,18 @@
         "WePlay - Party Games"
       ],
       "avgScore": 7.6
-    },
-    {
-      "category": "Sports",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "TCG Tournament Tracker"
-      ],
-      "avgScore": 6.8
-    },
-    {
-      "category": "Photo & Video Editing",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "PhotoVerse AI Photo Editor"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "Health & Finance",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "MoneyWork - Health & Savings"
-      ],
-      "avgScore": 6.5
     }
   ],
   "decliningCategories": [
     {
-      "category": "Health & Fitness",
-      "currentCount": 4,
-      "previousCount": 6,
-      "changePercent": -33,
-      "changeDirection": "down",
-      "apps": [
-        "Brown Noise - Sleep & Focus",
-        "SetWise: Workout Tracker",
-        "Routine Impact",
-        "Liva - Die Mental Load App"
-      ],
-      "avgScore": 7.45
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 3,
-      "previousCount": 5,
-      "changePercent": -40,
-      "changeDirection": "down",
-      "apps": [
-        "mangari",
-        "EdgeAura",
-        "Every Day Holiday Calendar"
-      ],
-      "avgScore": 7.1000000000000005
-    },
-    {
       "category": "Productivity",
-      "currentCount": 6,
-      "previousCount": 12,
-      "changePercent": -50,
+      "currentCount": 8,
+      "previousCount": 11,
+      "changePercent": -27,
       "changeDirection": "down",
       "apps": [
+        "Day Loop: Minimal Habit Track",
+        "AI Translates All Languages",
         "Routiva",
         "Aurylius",
         "Grok AI Generation",
@@ -336,7 +277,21 @@
         "WindFoundationTool",
         "SipCounterr"
       ],
-      "avgScore": 7.483333333333334
+      "avgScore": 7.575
+    },
+    {
+      "category": "Health & Fitness",
+      "currentCount": 4,
+      "previousCount": 6,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "Migraine Tracker(편두통 추적기)",
+        "Brown Noise - Sleep & Focus",
+        "SetWise: Workout Tracker",
+        "Routine Impact"
+      ],
+      "avgScore": 7.325
     },
     {
       "category": "Business",
@@ -362,18 +317,44 @@
       "avgScore": 7.35
     },
     {
-      "category": "Photography",
+      "category": "Healthcare/Fitness",
       "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
+      "previousCount": 2,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "Smart Photo Clean"
+        "EyeFlow - Göz Egzersizi"
       ],
-      "avgScore": 8.6
+      "avgScore": 8
     }
   ],
   "stableCategories": [
+    {
+      "category": "Game",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "20,048",
+        "Ashen Legacy: RPG Pixel"
+      ],
+      "avgScore": 7.1
+    },
+    {
+      "category": "Lifestyle",
+      "currentCount": 4,
+      "previousCount": 4,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Yessi (예씨) 확언、名言、目标自动提醒",
+        "mangari",
+        "EdgeAura",
+        "Every Day Holiday Calendar"
+      ],
+      "avgScore": 7.275
+    },
     {
       "category": "Browser",
       "currentCount": 1,
@@ -408,34 +389,32 @@
       "avgScore": 8
     },
     {
-      "category": "Game",
+      "category": "Photography",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "連打力オンライン"
+        "Smart Photo Clean"
       ],
-      "avgScore": 6.5
-    },
-    {
-      "category": "Utilities",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Clean Sweep Toolkit"
-      ],
-      "avgScore": 6.5
+      "avgScore": 8.6
     }
   ],
   "hotKeywords": [
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 60,
+      "count": 63,
       "apps": [
+        "Migraine Tracker(편두통 추적기)",
+        "Day Loop: Minimal Habit Track",
+        "Crowdtruth",
+        "20,048",
+        "Ashen Legacy: RPG Pixel",
+        "AI Translates All Languages",
+        "Yessi (예씨) 확언、名言、目标自动提醒",
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "크랙 - 즉흥 서사, AI 채팅",
         "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
         "サブスク管理 | 解約忘れを防ぐ",
         "Brown Noise - Sleep & Focus",
@@ -488,19 +467,24 @@
         "BlurMagicStudio",
         "Smart Photo Clean",
         "Lezhin Snack",
-        "WePlay - Party Games",
-        "TCG Tournament Tracker",
-        "BroKcali - AI Calorie Tracker",
-        "Liva - Die Mental Load App",
-        "Clean Sweep Toolkit",
-        "Crack - Instant Storytelling with AI Chat"
+        "WePlay - Party Games"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 42,
+      "count": 51,
       "apps": [
+        "Migraine Tracker(편두통 추적기)",
+        "Day Loop: Minimal Habit Track",
+        "Crowdtruth",
+        "20,048",
+        "Ashen Legacy: RPG Pixel",
+        "AI Translates All Languages",
+        "Yessi (예씨) 확언、名言、目标自动提醒",
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Shortn: short viral video app",
         "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
         "サブスク管理 | 解約忘れを防ぐ",
         "Brown Noise - Sleep & Focus",
@@ -541,15 +525,17 @@
         "그립 Grip",
         "제타(zeta) - 상상이 현실이 되는 AI 채팅",
         "Local Weather & News - Radar",
-        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱",
-        "TCG Tournament Tracker"
+        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 33,
+      "count": 34,
       "apps": [
+        "Migraine Tracker(편두통 추적기)",
+        "AI Translates All Languages",
+        "크랙 - 즉흥 서사, AI 채팅",
         "EdgeAura",
         "Open Browser - Smart & Safe",
         "AI Can Translate All Languages",
@@ -568,9 +554,7 @@
         "제타(zeta) - 상상이 현실이 되는 AI 채팅",
         "Face2Face AI translator",
         "BlurMagicStudio",
-        "Smart Photo Clean",
-        "BroKcali - AI Calorie Tracker",
-        "Crack - Instant Storytelling with AI Chat"
+        "Smart Photo Clean"
       ]
     },
     {
@@ -594,35 +578,14 @@
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "サブスク管理 | 解約忘れを防ぐ",
-        "EdgeAura",
-        "Routiva",
-        "Aurylius",
-        "All Files Viewer"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "QR Scan & Edit",
-        "Photo Recovery-File Rescue",
-        "Photo Recovery, File Recovery, All Recovery",
-        "Cleanup: Phone Storage Cleaner",
-        "Cleaner Toolbox",
-        "Clean Sweep Toolkit"
-      ]
-    },
-    {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 6,
+      "count": 10,
       "apps": [
+        "Crowdtruth",
+        "Ashen Legacy: RPG Pixel",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Shortn: short viral video app",
         "Shortn: Short Viral Video App",
         "Grok AI Generation",
         "Brain Flipper",
@@ -632,15 +595,16 @@
       ]
     },
     {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 5,
+      "keyword": "생산성",
+      "category": "productivity",
+      "count": 7,
       "apps": [
-        "Vision Emoji",
-        "AI Meeting Note Taker: Notr",
-        "Shift Leader AI",
-        "WindFoundationTool",
-        "Attendify Geo"
+        "Day Loop: Minimal Habit Track",
+        "サブスク管理 | 解約忘れを防ぐ",
+        "EdgeAura",
+        "Routiva",
+        "Aurylius",
+        "All Files Viewer"
       ]
     },
     {
@@ -648,6 +612,7 @@
       "category": "creator",
       "count": 5,
       "apps": [
+        "Shortn: short viral video app",
         "QR Scan & Edit",
         "Shortn: Short Viral Video App",
         "PhotoVerse AI Photo Editor",
@@ -655,26 +620,108 @@
       ]
     },
     {
-      "keyword": "교육",
+      "keyword": "B2B",
       "category": "tag",
       "count": 5,
+      "apps": [
+        "Shortn: short viral video app",
+        "Vision Emoji",
+        "AI Meeting Note Taker: Notr",
+        "Shift Leader AI",
+        "WindFoundationTool"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "QR Scan & Edit",
+        "Photo Recovery-File Rescue",
+        "Photo Recovery, File Recovery, All Recovery",
+        "Cleanup: Phone Storage Cleaner",
+        "Cleaner Toolbox"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "Crowdtruth",
+        "그립 Grip",
+        "WePlay - Party Games"
+      ]
+    },
+    {
+      "keyword": "교육",
+      "category": "tag",
+      "count": 4,
       "apps": [
         "WordBit English (Auto-Learning on Lockscreen)",
         "Learn English, Spanish: Learna",
         "Anymal - AI Animal Identifier",
-        "Brain Flipper",
-        "連打力オンライン"
+        "Brain Flipper"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 3,
+      "apps": [
+        "Crowdtruth",
+        "Chalan - No.1 Second-hand Fashion App",
+        "그립 Grip"
+      ]
+    },
+    {
+      "keyword": "자기계발",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Yessi (예씨) 확언、名言、目标自动提醒",
+        "mangari",
+        "Routine Impact"
+      ]
+    },
+    {
+      "keyword": "투자",
+      "category": "fintech",
+      "count": 3,
+      "apps": [
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
+        "ChartsGPT: AI Trading Assist"
+      ]
+    },
+    {
+      "keyword": "핀테크",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "ChartsGPT: AI Trading Assist",
+        "레시챌 by 클래식 - 레시트가 돈이 되는 절약 앱"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "Shortn: short viral video app",
+        "Freecash - Money Making App",
+        "BlurMagicStudio"
       ]
     },
     {
       "keyword": "웰빙",
       "category": "tag",
-      "count": 4,
+      "count": 3,
       "apps": [
         "Brown Noise - Sleep & Focus",
         "Hallow: Prayer & Meditation",
-        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
-        "Liva - Die Mental Load App"
+        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리"
       ]
     },
     {
@@ -698,106 +745,51 @@
       ]
     },
     {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 3,
-      "apps": [
-        "Chalan - No.1 Second-hand Fashion App",
-        "그립 Grip",
-        "TCG Tournament Tracker"
-      ]
-    },
-    {
-      "keyword": "자동화",
-      "category": "productivity",
-      "count": 3,
-      "apps": [
-        "TCG Tournament Tracker",
-        "Attendify Geo"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "BroKcali - AI Calorie Tracker",
-        "MoneyWork - Health & Savings"
-      ]
-    },
-    {
-      "keyword": "투자",
-      "category": "fintech",
-      "count": 2,
-      "apps": [
-        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
-        "ChartsGPT: AI Trading Assist"
-      ]
-    },
-    {
-      "keyword": "일정",
-      "category": "productivity",
-      "count": 2,
-      "apps": [
-        "サブスク管理 | 解約忘れを防ぐ",
-        "Routiva"
-      ]
-    },
-    {
-      "keyword": "고난이도",
+      "keyword": "미니멀",
       "category": "tag",
       "count": 2,
       "apps": [
-        "Open Browser - Smart & Safe",
-        "MiSing - 언제 어디서나, 마음껏 노래해!"
-      ]
-    },
-    {
-      "keyword": "헬스",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "SetWise: Workout Tracker",
-        "BumpTrackr"
+        "Day Loop: Minimal Habit Track",
+        "SipCounterr"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 34,
-        "percent": 49,
+        "count": 35,
+        "percent": 50,
         "examples": [
-          "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
-          "サブスク管理 | 解約忘れを防ぐ",
-          "Brown Noise - Sleep & Focus"
+          "20,048",
+          "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+          "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-"
         ]
       },
       "freemium": {
         "count": 61,
         "percent": 87,
         "examples": [
-          "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
-          "サブスク管理 | 解約忘れを防ぐ",
-          "QR Scan & Edit"
+          "Migraine Tracker(편두통 추적기)",
+          "Day Loop: Minimal Habit Track",
+          "Crowdtruth"
         ]
       },
       "subscription": {
-        "count": 45,
-        "percent": 64,
+        "count": 41,
+        "percent": 59,
         "examples": [
-          "サブスク管理 | 解約忘れを防ぐ",
-          "EdgeAura",
-          "MiSing - 언제 어디서나, 마음껏 노래해!"
+          "Migraine Tracker(편두통 추적기)",
+          "AI Translates All Languages",
+          "Yessi (예씨) 확언、名言、目标自动提醒"
         ]
       },
       "onetime": {
-        "count": 10,
-        "percent": 14,
+        "count": 11,
+        "percent": 16,
         "examples": [
-          "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
-          "Brown Noise - Sleep & Focus",
-          "Vision Emoji"
+          "Day Loop: Minimal Habit Track",
+          "Ashen Legacy: RPG Pixel",
+          "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-"
         ]
       },
       "unknown": {
@@ -811,9 +803,9 @@
       "count": 61,
       "percent": 87,
       "examples": [
-        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
-        "サブスク管理 | 解約忘れを防ぐ",
-        "QR Scan & Edit"
+        "Migraine Tracker(편두통 추적기)",
+        "Day Loop: Minimal Habit Track",
+        "Crowdtruth"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -821,9 +813,21 @@
   "techTrends": {
     "trends": [
       {
+        "tech": "ai",
+        "count": 24,
+        "percent": 34,
+        "apps": [
+          "Migraine Tracker(편두통 추적기)",
+          "Crowdtruth",
+          "AI Translates All Languages",
+          "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+          "크랙 - 즉흥 서사, AI 채팅"
+        ]
+      },
+      {
         "tech": "ar_vr",
-        "count": 23,
-        "percent": 33,
+        "count": 22,
+        "percent": 31,
         "apps": [
           "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
           "Vision Emoji",
@@ -833,27 +837,15 @@
         ]
       },
       {
-        "tech": "ai",
-        "count": 22,
-        "percent": 31,
-        "apps": [
-          "EdgeAura",
-          "AI Can Translate All Languages",
-          "HayDealer - Certified Used Cars",
-          "ChartsGPT: AI Trading Assist",
-          "EdgeAura"
-        ]
-      },
-      {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "Crowdtruth",
+          "Ashen Legacy: RPG Pixel",
+          "Shortn: short viral video app",
           "QR Scan & Edit",
-          "Shortn: Short Viral Video App",
-          "Freecash - Money Making App",
-          "Grok AI Generation",
-          "PhotoVerse AI Photo Editor"
+          "Shortn: Short Viral Video App"
         ]
       },
       {
@@ -861,22 +853,11 @@
         "count": 6,
         "percent": 9,
         "apps": [
+          "Day Loop: Minimal Habit Track",
+          "크랙 - 즉흥 서사, AI 채팅",
           "サブスク管理 | 解約忘れを防ぐ",
           "EdgeAura",
-          "Aurylius",
-          "EyeFlow - Göz Egzersizi",
-          "TCG Tournament Tracker"
-        ]
-      },
-      {
-        "tech": "health",
-        "count": 4,
-        "percent": 6,
-        "apps": [
-          "Brown Noise - Sleep & Focus",
-          "Hallow: Prayer & Meditation",
-          "Liva - Die Mental Load App",
-          "MoneyWork - Health & Savings"
+          "Aurylius"
         ]
       },
       {
@@ -884,9 +865,9 @@
         "count": 3,
         "percent": 4,
         "apps": [
+          "Crowdtruth",
           "그립 Grip",
-          "WePlay - Party Games",
-          "TCG Tournament Tracker"
+          "WePlay - Party Games"
         ]
       },
       {
@@ -900,42 +881,59 @@
         ]
       },
       {
-        "tech": "fintech",
-        "count": 1,
-        "percent": 1,
+        "tech": "health",
+        "count": 2,
+        "percent": 3,
         "apps": [
+          "Brown Noise - Sleep & Focus",
+          "Hallow: Prayer & Meditation"
+        ]
+      },
+      {
+        "tech": "fintech",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
           "ChartsGPT: AI Trading Assist"
         ]
       }
     ],
     "dominant": {
-      "tech": "ar_vr",
-      "count": 23,
-      "percent": 33,
+      "tech": "ai",
+      "count": 24,
+      "percent": 34,
       "apps": [
-        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
-        "Vision Emoji",
-        "Open Browser - Smart & Safe",
-        "SetWise: Workout Tracker",
-        "mangari"
+        "Migraine Tracker(편두통 추적기)",
+        "Crowdtruth",
+        "AI Translates All Languages",
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "크랙 - 즉흥 서사, AI 채팅"
       ]
     },
     "emerging": [
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "Crowdtruth",
+          "Ashen Legacy: RPG Pixel",
+          "Shortn: short viral video app",
           "QR Scan & Edit",
-          "Shortn: Short Viral Video App",
-          "Freecash - Money Making App",
-          "Grok AI Generation",
-          "PhotoVerse AI Photo Editor"
+          "Shortn: Short Viral Video App"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Social Networking 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Social Networking"
+    },
     {
       "type": "rising_category",
       "title": "Development Tools 카테고리 급부상",
@@ -1043,13 +1041,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Healthcare/Fitness 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Healthcare/Fitness"
-    },
-    {
-      "type": "rising_category",
       "title": "File Management 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1063,47 +1054,26 @@
       "category": "Games"
     },
     {
-      "type": "rising_category",
-      "title": "Sports 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Sports"
-    },
-    {
-      "type": "rising_category",
-      "title": "Photo & Video Editing 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Photo & Video Editing"
-    },
-    {
-      "type": "rising_category",
-      "title": "Health & Finance 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health & Finance"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "31%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Utility 카테고리가 200% 급상승. ar_vr 기술 적용 앱이 증가 중.",
+    "trend_summary": "유틸리티(+167%)와 금융(+133%) 카테고리가 급성장하며, AI 기능을 탑재한 B2C 앱이 주도하고 있습니다. Freemium 모델(87%)이 주류를 이루며, 1인 개발 가능한 앱들이 51회 언급되어 솔로 개발자에게 유리한 환경입니다.",
     "trend_details": [
-      "Utility 카테고리 관심 급증",
-      "'B2C' 키워드 인기",
-      "ar_vr 기술 트렌드 지속"
+      "AI 기능 통합이 34%로 필수 요소로 자리잡음",
+      "B2C 중심의 유틸리티 앱이 167% 급성장",
+      "Freemium 모델이 87%로 가장 선호되는 수익화 방식"
     ],
     "hot_categories": [
       "Utility",
-      "Entertainment"
+      "Finance"
     ],
-    "opportunity": "100% 증가했지만 앱 수가 적어 진입 기회",
-    "action_item": "사용자 피드백 기반 핵심 기능 개선",
-    "weekly_theme": "B2C"
+    "opportunity": "Development Tools, Social Networking 등 100% 성장했지만 앱 수가 적은 블루오션 카테고리에서 AI 기능을 탑재한 유틸리티 앱 개발",
+    "action_item": "개발자 도구나 소셜 네트워킹 분야에서 AI 기능을 결합한 freemium 모델의 유틸리티 앱을 1인 개발로 시작하기",
+    "weekly_theme": "AI 유틸리티"
   }
 }
