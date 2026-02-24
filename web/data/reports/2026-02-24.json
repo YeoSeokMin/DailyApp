@@ -3,612 +3,623 @@
   "ios": [
     {
       "rank": 1,
-      "name": "NowLanguage",
-      "developer": "NowLanguage LLC",
-      "category": "Business",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/39/3d/0f393db9-aebb-f9d3-05a0-697af3fab265/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/nowlanguage/id6751423713?uo=2",
-      "idea_summary": "비즈니스용 실시간 언어 번역 도구",
+      "name": "AI Home Design - 인테리어",
+      "developer": "Alperen Ciftlikci",
+      "category": "Graphic & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/25/6e/1b256e1e-9991-7ff0-e880-338f889ad28f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ai-home-design-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4/id6758592308?uo=2",
+      "idea_summary": "AI 기반 인테리어 디자인 도구",
       "analysis": {
-        "problem": "비즈니스 현장에서의 실시간 언어 소통 장벽 해결 [추론]",
-        "solution": "AI 기반 실시간 번역과 비즈니스 전용 언어 학습 제공 [추론]",
-        "target_user": "해외 비즈니스 종사자, 글로벌 기업 직장인 [추론]",
-        "unique_point": "비즈니스 전용 번역 기능과 학습 연계 [추론]"
+        "problem": "인테리어 디자인을 전문가 없이 직접 해야 하는 어려움 [추론]",
+        "solution": "AI를 활용해 간단한 입력으로 전문적인 인테리어 디자인 제안 [추론]",
+        "target_user": "집 꾸미기에 관심 있지만 전문 지식이 부족한 일반인 [추론]",
+        "unique_point": "AI 기술을 활용한 직관적인 인테리어 디자인 생성 [추론]"
       },
       "market": {
         "competitors": [
-          "Google Translate",
-          "Papago"
+          "Houzz",
+          "Room Planner"
         ],
-        "timing_reason": "원격근무와 글로벌 비즈니스 확산으로 수요 증가 [추론]",
-        "growth_potential": "비즈니스 특화로 틈새시장 공략 가능 [추론]"
+        "timing_reason": "AI 기술 발전과 셀프 인테리어 트렌드 확산 [추론]",
+        "growth_potential": "인테리어 관심 증가와 AI 도구 수요 확대로 높은 성장 가능성 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 9,900원 비즈니스 플랜 [추론]",
-        "revenue_potential": "중"
+        "monetization": "프리미엄 기능 구독 또는 고급 디자인 템플릿 판매 [추론]",
+        "pricing_suggestion": "월 구독 9,900원, 연간 59,000원 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "1,500만원 [추론]",
+        "estimated_cost": "3000만원 [추론]",
         "tech_stack": [
           "React Native",
-          "AI/ML API",
-          "Cloud Translation"
+          "TensorFlow",
+          "AWS"
         ],
         "key_features": [
-          "실시간 번역",
-          "비즈니스 용어집",
-          "학습 모드"
+          "AI 디자인 생성",
+          "3D 렌더링",
+          "가구 배치"
         ],
-        "clone_tip": "기존 번역 API 활용하여 비즈니스 특화 UI/UX 구현 [추론]"
+        "clone_tip": "오픈소스 AI 모델 활용하여 초기 개발 비용 절약 [추론]"
       },
       "scores": {
-        "novelty": 3,
+        "novelty": 5,
         "necessity": 4,
-        "timing": 4,
+        "timing": 5,
         "tech_difficulty": 3,
         "market_size": 4,
-        "competition": 2,
-        "profitability": 3,
+        "competition": 3,
+        "profitability": 4,
         "scalability": 4,
-        "overall": 7.2
+        "overall": 8.8
       },
       "tags": [
         "#1인개발가능",
-        "#B2B"
+        "#B2C",
+        "#AI"
       ],
-      "verdict": "비즈니스 특화로 차별화된 번역 앱",
-      "deep_report_id": "ios-nowlanguage-1771859161494"
+      "verdict": "AI 인테리어 시장의 블루오션 기회",
+      "deep_report_id": "ios-ai-home-design-인테리어-1771891551912"
     },
     {
       "rank": 2,
-      "name": "Deadlock: Data Security",
-      "developer": "Tolga MERIC",
-      "category": "Utility",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/37/3a/e8373a59-c96e-6854-e7c7-c918d74f09be/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/deadlock-data-security/id6759208611?uo=2",
-      "idea_summary": "개인정보 보호용 고급 암호화 도구",
+      "name": "alya: your AI language buddy",
+      "developer": "Amber Jain",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/54/bb/8954bb85-fca4-5242-7841-7ce8a923300e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/alya-your-ai-language-buddy/id6758835552?uo=2",
+      "idea_summary": "AI 개인 언어 학습 튜터",
       "analysis": {
-        "problem": "개인 데이터 보안에 대한 우려 증가 [확인]",
-        "solution": "사용자 친화적인 고급 암호화 도구 제공 [추론]",
-        "target_user": "개인정보 보호 의식이 높은 일반인 [추론]",
-        "unique_point": "복잡한 암호화를 간단하게 만든 UX [추론]"
+        "problem": "일대일 언어 튜터 비용이 높고 시간 제약이 있는 문제 [추론]",
+        "solution": "AI를 활용한 24시간 개인 맞춤형 언어 학습 제공 [추론]",
+        "target_user": "자유로운 시간에 언어를 배우고 싶은 성인 학습자 [추론]",
+        "unique_point": "개인화된 AI 튜터와의 실시간 대화 학습 [추론]"
       },
       "market": {
         "competitors": [
-          "1Password",
-          "LastPass"
+          "Duolingo",
+          "Babbel"
         ],
-        "timing_reason": "개인정보 유출 사건 증가로 보안 의식 고조 [확인]",
-        "growth_potential": "프라이버시 중시 트렌드로 성장 가능성 높음 [추론]"
+        "timing_reason": "AI 언어 모델 성능 향상과 개인 학습 선호도 증가 [추론]",
+        "growth_potential": "언어 학습 시장 성장과 AI 튜터 수요 확산 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 4,900원 개인용 플랜 [추론]",
-        "revenue_potential": "중"
+        "monetization": "월 구독제 또는 학습 크레딧 판매 [추론]",
+        "pricing_suggestion": "월 14,900원, 연간 99,000원 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "1,000만원 [추론]",
+        "estimated_cost": "2000만원 [추론]",
         "tech_stack": [
-          "Swift",
-          "Encryption Libraries",
-          "Secure Storage"
+          "Flutter",
+          "OpenAI API",
+          "Firebase"
         ],
         "key_features": [
-          "파일 암호화",
-          "안전한 저장소",
-          "간편 인터페이스"
+          "AI 대화",
+          "발음 분석",
+          "맞춤 커리큘럼"
         ],
-        "clone_tip": "기존 암호화 라이브러리 활용하여 UX에 집중 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 4,
-        "market_size": 3,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 3,
-        "overall": 7.5
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C"
-      ],
-      "verdict": "개인정보 보호 트렌드에 부합하는 필수 도구"
-    },
-    {
-      "rank": 3,
-      "name": "ACT.",
-      "developer": "Theo Ajavon",
-      "category": "Productivity",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/f1/a0/b1f1a047-b9f1-e640-8953-e41bcfd0afbf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/act/id6757723423?uo=2",
-      "idea_summary": "시간 관리 기술로 생산성 향상",
-      "analysis": {
-        "problem": "현대인의 시간 관리와 집중력 부족 [확인]",
-        "solution": "과학적 시간 관리 기법 제공 [추론]",
-        "target_user": "생산성 향상을 원하는 직장인, 학생 [추론]",
-        "unique_point": "단순한 타이머가 아닌 관리 기법 중심 접근 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Forest",
-          "Pomodone"
-        ],
-        "timing_reason": "재택근무로 자기 관리 필요성 증대 [확인]",
-        "growth_potential": "생산성 앱 시장의 지속적 성장 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 2,900원 프리미엄 플랜 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "700만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "HealthKit",
-          "Local Notifications"
-        ],
-        "key_features": [
-          "시간 블록 관리",
-          "집중도 측정",
-          "습관 추적"
-        ],
-        "clone_tip": "포모도로와 다른 시간 관리 기법 구현 [추론]"
+        "clone_tip": "기존 언어 모델 API 활용으로 개발 난이도 낮춤 [추론]"
       },
       "scores": {
         "novelty": 4,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7.4
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C"
-      ],
-      "verdict": "시간 관리의 새로운 접근법으로 차별화"
-    },
-    {
-      "rank": 4,
-      "name": "Amorada Plus",
-      "developer": "Moonshot Labs",
-      "category": "Lifestyle",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/fb/e8/ecfbe89e-765c-8141-0d7d-f68c2a0d3e1c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/amorada-plus/id6758716190?uo=2",
-      "idea_summary": "개인화된 관계 향상 도구",
-      "analysis": {
-        "problem": "현대 커플들의 관계 유지와 소통 어려움 [추론]",
-        "solution": "맞춤형 관계 개선 도구와 조언 제공 [추론]",
-        "target_user": "20-40대 커플, 신혼부부 [추론]",
-        "unique_point": "AI 기반 개인화된 관계 조언 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Lasting",
-          "Relish"
-        ],
-        "timing_reason": "팬데믹 이후 관계의 질에 대한 관심 증가 [추론]",
-        "growth_potential": "관계 상담 앱 시장 확대 중 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 7,900원 커플 플랜 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "5-6개월 [추론]",
-        "estimated_cost": "1,200만원 [추론]",
-        "tech_stack": [
-          "React Native",
-          "AI/ML",
-          "Push Notifications"
-        ],
-        "key_features": [
-          "관계 진단",
-          "개선 활동 제안",
-          "커플 채팅"
-        ],
-        "clone_tip": "관계 심리학 기반 콘텐츠와 간단한 AI 추천 시스템 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 4,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 7.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C"
-      ],
-      "verdict": "관계 중심 시대에 필요한 맞춤형 솔루션"
-    },
-    {
-      "rank": 5,
-      "name": "Bloom: Perimenopause Tracker",
-      "developer": "Ignat Boyarinov",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/97/4c/eb974ce1-2123-38d8-fa7a-9ceb91700db4/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
-      "app_url": "https://apps.apple.com/jp/app/bloom-perimenopause-tracker/id6759215297?uo=2",
-      "idea_summary": "갱년기 전 증상 추적 헬스케어",
-      "analysis": {
-        "problem": "갱년기 전 여성들의 건강 관리 정보 부족 [확인]",
-        "solution": "갱년기 전 증상 체계적 추적과 관리 [추론]",
-        "target_user": "35-50세 여성, 갱년기 전 증상 경험자 [추론]",
-        "unique_point": "갱년기 전 단계에 특화된 추적 시스템 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Clue",
-          "Flo"
-        ],
-        "timing_reason": "여성 건강에 대한 관심 증가와 고령화 사회 [확인]",
-        "growth_potential": "특정 연령대 타겟으로 니치 시장 확보 가능 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 5,900원 헬스케어 플랜 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "900만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "HealthKit",
-          "CoreData"
-        ],
-        "key_features": [
-          "증상 추적",
-          "건강 인사이트",
-          "의료진 연계"
-        ],
-        "clone_tip": "기존 생리 추적 앱을 갱년기 전용으로 특화 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 3,
-        "competition": 4,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 7.4
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C"
-      ],
-      "verdict": "소외된 여성 건강 영역의 혁신적 접근"
-    }
-  ],
-  "android": [
-    {
-      "rank": 1,
-      "name": "Weather Now Launcher - Radar",
-      "developer": "Homescreen Apps",
-      "category": "Weather",
-      "icon": "https://play-lh.googleusercontent.com/gaJwGkyLAUV6F8nZICtD8AnYOkLLGtdSpvk2pmN-hfrgUWwHJ6TgJHHiApYp0QsjIhY",
-      "app_url": "https://play.google.com/store/apps/details?id=com.eet.weather.launcher",
-      "idea_summary": "날씨 위젯과 런처의 완벽 결합",
-      "analysis": {
-        "problem": "기본 런처의 날씨 정보 부족과 단조로운 인터페이스 [추론]",
-        "solution": "날씨 중심의 인터랙티브 런처 환경 제공 [추론]",
-        "target_user": "날씨 의존도 높은 직업군, 아웃도어 활동가 [추론]",
-        "unique_point": "런처와 날씨 앱의 완전한 통합 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Nova Launcher",
-          "AccuWeather"
-        ],
-        "timing_reason": "기후 변화로 날씨 정보 중요성 증대 [확인]",
-        "growth_potential": "런처 시장과 날씨 앱 시장 동시 공략 [추론]"
-      },
-      "business": {
-        "monetization": "광고 + 프리미엄 구독 [추론]",
-        "pricing_suggestion": "월 1,900원 광고 제거 플랜 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "1,300만원 [추론]",
-        "tech_stack": [
-          "Kotlin",
-          "Weather API",
-          "Custom Launcher"
-        ],
-        "key_features": [
-          "실시간 날씨",
-          "커스텀 위젯",
-          "테마 변경"
-        ],
-        "clone_tip": "기존 런처 프레임워크에 날씨 API 통합 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7.4
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C"
-      ],
-      "verdict": "두 카테고리를 결합한 혁신적 아이디어",
-      "deep_report_id": "android-weather-now-launcher-radar-1771859227960"
-    },
-    {
-      "rank": 2,
-      "name": "PDF Reader Pro - PDF Editor",
-      "developer": "Trisamoca Tacamtun",
-      "category": "Productivity",
-      "icon": "https://play-lh.googleusercontent.com/hClL9sLfe1NNJWGt23-Jtn2RzlLBrglPwQG9Cp9V7fN7xzzooeNroIGv5XusWcWH87y6_zhDtW1pdsariCMZHeQ",
-      "app_url": "https://play.google.com/store/apps/details?id=com.reader.reapdf.edi",
-      "idea_summary": "고급 PDF 편집 기능이 있는 리더",
-      "analysis": {
-        "problem": "모바일에서의 제한적인 PDF 편집 기능 [확인]",
-        "solution": "데스크톱 수준의 PDF 편집 도구 모바일 제공 [추론]",
-        "target_user": "업무용 문서 작업자, 학생, 프리랜서 [추론]",
-        "unique_point": "모바일 환경에 최적화된 고급 편집 기능 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Adobe Acrobat",
-          "Foxit PDF"
-        ],
-        "timing_reason": "재택근무와 디지털 문서 사용 증가 [확인]",
-        "growth_potential": "모바일 생산성 도구 시장 확장 중 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 3,900원 프로 플랜 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "8-10개월 [추론]",
-        "estimated_cost": "2,000만원 [추론]",
-        "tech_stack": [
-          "Kotlin",
-          "PDF Libraries",
-          "Canvas API"
-        ],
-        "key_features": [
-          "PDF 편집",
-          "주석 기능",
-          "클라우드 동기화"
-        ],
-        "clone_tip": "오픈소스 PDF 라이브러리 활용하여 UI/UX에 집중 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
         "necessity": 5,
         "timing": 5,
         "tech_difficulty": 4,
         "market_size": 5,
         "competition": 2,
         "profitability": 4,
-        "scalability": 4,
-        "overall": 8
+        "scalability": 5,
+        "overall": 8.5
       },
       "tags": [
         "#1인개발가능",
-        "#B2B"
+        "#B2C",
+        "#교육"
       ],
-      "verdict": "모바일 생산성의 핵심 도구로 성장 가능성 높음"
+      "verdict": "AI 튜터링의 새로운 가능성 제시"
     },
     {
       "rank": 3,
-      "name": "Open Browser - Smart & Safe",
-      "developer": "AdPulse INC",
-      "category": "Tools",
-      "icon": "https://play-lh.googleusercontent.com/aZLun56y8q5EclO3cw-b8pS_ThQVf4JxzsUcIkGFuaptWZtwFkm7hBq7FV-9I4wTqCAiYE3CW0OCD574dThb75c",
-      "app_url": "https://play.google.com/store/apps/details?id=com.open.web.ai.browser",
-      "idea_summary": "AI 보안 기능이 내장된 스마트 브라우저",
+      "name": "Reflexa 反射神経ミニゲーム",
+      "developer": "TAKATO CHIBA",
+      "category": "Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/a1/db/51a1dbe0-5c38-25d1-8be8-232deb27c9ee/AppIcon-1x_U007emarketing-0-8-0-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/reflexa-%E5%8F%8D%E5%B0%84%E7%A5%9E%E7%B5%8C%E3%83%9F%E3%83%8B%E3%82%B2%E3%83%BC%E3%83%A0/id6759184403?uo=2",
+      "idea_summary": "반사신경 훈련 미니게임",
       "analysis": {
-        "problem": "일반 브라우저의 보안 취약성과 개인정보 유출 위험 [확인]",
-        "solution": "AI 기반 보안 기능과 스마트 브라우징 제공 [추론]",
-        "target_user": "개인정보 보호 의식이 높은 사용자 [추론]",
-        "unique_point": "AI 보안 기능과 사용자 친화적 인터페이스 [추론]"
+        "problem": "일상에서 반사신경과 집중력이 떨어지는 문제 [추론]",
+        "solution": "재미있는 미니게임으로 반사신경을 단계적으로 향상 [추론]",
+        "target_user": "게임을 통해 두뇌 훈련을 원하는 모든 연령층 [추론]",
+        "unique_point": "다양한 반사신경 테스트를 게임화한 종합 훈련 [추론]"
       },
       "market": {
         "competitors": [
-          "Brave Browser",
-          "Firefox Focus"
+          "Peak",
+          "Lumosity"
         ],
-        "timing_reason": "온라인 보안 위협 증가와 프라이버시 관심 고조 [확인]",
-        "growth_potential": "보안 브라우저 시장의 틈새 공략 가능 [추론]"
+        "timing_reason": "두뇌 건강에 대한 관심과 간단한 게임 선호 증가 [추론]",
+        "growth_potential": "브레인 트레이닝 시장과 캐주얼 게임 결합 [추론]"
       },
       "business": {
-        "monetization": "광고 제거 + 프리미엄 기능 [추론]",
-        "pricing_suggestion": "월 2,900원 프리미엄 플랜 [추론]",
+        "monetization": "광고 기반 무료 모델 + 프리미엄 게임 모드 [추론]",
+        "pricing_suggestion": "무료 + 프리미엄 4,900원 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "10-12개월 [추론]",
-        "estimated_cost": "2,500만원 [추론]",
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
         "tech_stack": [
-          "Kotlin",
-          "WebView",
-          "Security APIs"
+          "Unity",
+          "Firebase",
+          "AdMob"
         ],
         "key_features": [
-          "AI 보안 스캔",
-          "광고 차단",
-          "프라이빗 모드"
+          "반응속도 측정",
+          "진행률 추적",
+          "리더보드"
         ],
-        "clone_tip": "기존 브라우저 엔진에 보안 레이어 추가 [추론]"
+        "clone_tip": "간단한 게임 메커니즘으로 빠른 프로토타입 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#게임",
+        "#헬스케어"
+      ],
+      "verdict": "간단하지만 중독성 있는 브레인 게임"
+    },
+    {
+      "rank": 4,
+      "name": "Peelr - Oddly Satisfying",
+      "developer": "GLEB MARGOLIN",
+      "category": "Game",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/a6/43/e7a643dc-671d-a0e0-ee06-7f31e1306562/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/peelr-oddly-satisfying/id6759133181?uo=2",
+      "idea_summary": "만족감 주는 퍼즐 게임",
+      "analysis": {
+        "problem": "스트레스 해소와 심리적 만족감을 위한 간단한 활동 부족 [추론]",
+        "solution": "시각적으로 만족스러운 가상 벗기기 경험 제공 [추론]",
+        "target_user": "스트레스 해소용 캐주얼 게임을 찾는 사용자 [추론]",
+        "unique_point": "ASMR과 시각적 만족감을 게임으로 구현 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Slime Simulator",
+          "Antistress"
+        ],
+        "timing_reason": "ASMR 콘텐츠 인기와 스트레스 해소 앱 수요 증가 [추론]",
+        "growth_potential": "만족감 게임 시장의 지속적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 + IAP로 새로운 테마 판매 [추론]",
+        "pricing_suggestion": "무료 + 테마팩 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Particle System",
+          "AdMob"
+        ],
+        "key_features": [
+          "물리 시뮬레이션",
+          "파티클 효과",
+          "사운드 디자인"
+        ],
+        "clone_tip": "물리 엔진과 시각 효과에 집중하여 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#게임",
+        "#ASMR"
+      ],
+      "verdict": "틈새시장 겨냥한 힐링 게임"
+    },
+    {
+      "rank": 5,
+      "name": "Bisque-It Pottery Log",
+      "developer": "AARON IRA NEISS",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/43/95/85439504-4be2-cf70-738c-404c9e0ad052/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/bisque-it-pottery-log/id6758925671?uo=2",
+      "idea_summary": "도예 작업 관리 도구",
+      "analysis": {
+        "problem": "도예 작업 진행 상황과 소성 일정을 체계적으로 관리하기 어려움 [추론]",
+        "solution": "도예 작품별 제작 과정과 소성 일정을 디지털로 관리 [추론]",
+        "target_user": "취미 또는 전문 도예가들 [추론]",
+        "unique_point": "도예 특화된 프로젝트 관리 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 프로젝트 관리 앱들"
+        ],
+        "timing_reason": "코로나 이후 취미 활동 증가와 수공예 관심 확산 [추론]",
+        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 클라우드 백업 구독 [추론]",
+        "pricing_suggestion": "일회성 구매 9,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "SQLite",
+          "iCloud"
+        ],
+        "key_features": [
+          "작품 갤러리",
+          "소성 일정",
+          "재료 관리"
+        ],
+        "clone_tip": "특정 취미 분야에 특화된 관리 도구로 확장 가능 [추론]"
       },
       "scores": {
         "novelty": 4,
         "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 5,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 8
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6.8
       },
       "tags": [
         "#1인개발가능",
-        "#B2C"
+        "#B2C",
+        "#취미"
       ],
-      "verdict": "보안 중시 트렌드에 부합하는 차세대 브라우저"
-    },
+      "verdict": "니치마켓의 전문화된 솔루션"
+    }
+  ],
+  "android": [
     {
-      "rank": 4,
-      "name": "파일 및 사진 복구",
-      "developer": "SolaraSoft",
-      "category": "Tools",
-      "icon": "https://play-lh.googleusercontent.com/6dUzEcqQFfji9Yhv9CyhqB2IhoGRGysJ1PBBIdF3feA5yzDtpR42mcWcC8XxxkQS1g",
-      "app_url": "https://play.google.com/store/apps/details?id=com.solara.filerecovery",
-      "idea_summary": "모바일 전용 파일 복구 솔루션",
+      "rank": 1,
+      "name": "Smart Photo Clean",
+      "developer": "Similia Limited",
+      "category": "Image Editing",
+      "icon": "https://play-lh.googleusercontent.com/klSw4JUyaotunHZHTedu-Herjca1ylc-npQ5GxCV03xXWsWsdNsXZpYpW8r74tOKV555KTl_WDSdS7TthZ43LKk",
+      "app_url": "https://play.google.com/store/apps/details?id=spc.smart.photo.clean",
+      "idea_summary": "AI 기반 사진 정리 도구",
       "analysis": {
-        "problem": "모바일에서 실수로 삭제한 파일 복구의 어려움 [확인]",
-        "solution": "모바일 최적화된 파일 복구 기술 제공 [추론]",
-        "target_user": "일반 스마트폰 사용자, 사진 관리가 중요한 사용자 [추론]",
-        "unique_point": "모바일 환경에 특화된 복구 알고리즘 [추론]"
+        "problem": "스마트폰에 쌓인 수많은 사진을 정리하기 어려움 [추론]",
+        "solution": "AI를 활용해 중복, 흐림, 저화질 사진을 자동으로 식별하여 정리 [추론]",
+        "target_user": "사진을 많이 찍지만 정리에 어려움을 겪는 스마트폰 사용자 [추론]",
+        "unique_point": "AI 기반 자동 사진 분류 및 정리 기능 [추론]"
       },
       "market": {
         "competitors": [
-          "Recuva",
-          "DiskDigger"
+          "Google Photos",
+          "Gemini Photos"
         ],
-        "timing_reason": "모바일 저장 공간 증가와 중요 데이터 관리 필요성 [확인]",
-        "growth_potential": "모바일 데이터 복구 시장의 새로운 영역 [추론]"
+        "timing_reason": "스마트폰 저장 용량 부족과 AI 기술 발전 [추론]",
+        "growth_potential": "스마트폰 보급과 사진 촬영 증가로 높은 수요 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 복구 기능 [추론]",
-        "pricing_suggestion": "건당 2,900원 또는 월 4,900원 [추론]",
-        "revenue_potential": "중"
+        "monetization": "프리미엄 기능 구독 또는 일회성 구매 [추론]",
+        "pricing_suggestion": "프리미엄 월 3,900원 또는 일회성 19,900원 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "1,500만원 [추론]",
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
         "tech_stack": [
           "Kotlin",
-          "File System APIs",
-          "Storage Access"
+          "TensorFlow Lite",
+          "Room DB"
         ],
         "key_features": [
-          "딥 스캔",
-          "미리보기",
-          "선택적 복구"
+          "중복 사진 탐지",
+          "화질 분석",
+          "자동 분류"
         ],
-        "clone_tip": "안드로이드 파일 시스템 분석 기술 활용 [추론]"
+        "clone_tip": "오픈소스 이미지 분석 라이브러리 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "필수 유틸리티로 성장할 잠재력",
+      "deep_report_id": "android-smart-photo-clean-1771891621616"
+    },
+    {
+      "rank": 2,
+      "name": "Gemmy AI: 채팅 & 어시스턴트",
+      "developer": "Jetkite",
+      "category": "AI Chatbot",
+      "icon": "https://play-lh.googleusercontent.com/mpbbwIrUZX5fbwG1Ftn3cVRbb0mYSaUmToXM0E5lC3jz1OKBCq8PPRsXp79B7G-7OGM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.jetkite.gemmy",
+      "idea_summary": "개인화된 AI 채팅 어시스턴트",
+      "analysis": {
+        "problem": "기존 AI 챗봇들이 획일적이고 개인화 부족 [추론]",
+        "solution": "사용자 취향에 맞춘 맞춤형 AI 어시스턴트 제공 [추론]",
+        "target_user": "개인화된 AI 서비스를 원하는 스마트폰 사용자 [추론]",
+        "unique_point": "사용자 맞춤형 대화 스타일과 기능 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Claude",
+          "Bard"
+        ],
+        "timing_reason": "AI 챗봇 대중화와 개인화 서비스 수요 증가 [추론]",
+        "growth_potential": "AI 서비스 시장 급성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독제와 토큰 기반 결제 [추론]",
+        "pricing_suggestion": "월 9,900원 또는 토큰 구매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OpenAI API",
+          "Firebase"
+        ],
+        "key_features": [
+          "개인화 설정",
+          "대화 기록",
+          "멀티모달 지원"
+        ],
+        "clone_tip": "기존 AI API 활용하여 빠른 출시 가능 [추론]"
       },
       "scores": {
         "novelty": 3,
         "necessity": 4,
-        "timing": 4,
+        "timing": 5,
         "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 3,
+        "market_size": 5,
+        "competition": 1,
         "profitability": 4,
-        "scalability": 3,
-        "overall": 7.4
+        "scalability": 5,
+        "overall": 8.3
       },
       "tags": [
         "#1인개발가능",
-        "#B2C"
+        "#B2C",
+        "#AI"
       ],
-      "verdict": "모바일 데이터 관리의 필수 안전망 도구"
+      "verdict": "차별화된 AI 서비스의 가능성"
     },
     {
-      "rank": 5,
-      "name": "EdgeAura",
-      "developer": "Zachary Holt",
-      "category": "Personalization",
-      "icon": "https://play-lh.googleusercontent.com/ADvRfzeqhSe-s46eco-qq7HmET-Q8n2ndmlPOvbg36mmrJhDBVovB8NarqPLKJ_3TxauHv6XCbj07FsymEO6",
-      "app_url": "https://play.google.com/store/apps/details?id=com.wallpaper.edge.aura",
-      "idea_summary": "AI 기반 엣지 디스플레이 커스터마이징",
+      "rank": 3,
+      "name": "똑똑계산기 - 다용도 계산기",
+      "developer": "Cleveni Inc.",
+      "category": "Calculator",
+      "icon": "https://play-lh.googleusercontent.com/Bag6VWT_5vCavdf0dJxoYxVKr3Y6ZMYQe_zIoFmEGT7hhFad_Rh2iXomAcS7gKWUi9cc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.dencreak.dlcalculator",
+      "idea_summary": "다기능 통합 계산기",
       "analysis": {
-        "problem": "스마트폰 엣지 디스플레이의 제한적 활용 [추론]",
-        "solution": "AI 기반 개인화된 엣지 이펙트와 기능 제공 [추론]",
-        "target_user": "갤럭시 엣지 스마트폰 사용자, 커스터마이징 선호층 [추론]",
-        "unique_point": "AI가 생성하는 개인화된 엣지 효과 [추론]"
+        "problem": "다양한 계산 용도별로 각각 다른 앱을 사용해야 하는 불편함 [추론]",
+        "solution": "하나의 앱에서 모든 종류의 계산을 처리할 수 있는 통합 솔루션 [추론]",
+        "target_user": "업무나 학습에서 다양한 계산이 필요한 사용자 [추론]",
+        "unique_point": "다양한 계산 기능을 하나의 앱에 통합 [추론]"
       },
       "market": {
         "competitors": [
-          "Samsung Good Lock",
-          "Edge Lighting"
+          "Calculator Plus",
+          "CalcKit"
         ],
-        "timing_reason": "엣지 디스플레이 스마트폰 보급 확산 [확인]",
-        "growth_potential": "특정 기기 타겟으로 수익성 높은 니치 마켓 [추론]"
+        "timing_reason": "업무 효율화와 올인원 솔루션 선호 증가 [추론]",
+        "growth_potential": "계산기 앱 시장의 안정적 수요 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 테마 + 구독 [추론]",
-        "pricing_suggestion": "월 1,900원 프로 버전 [추론]",
+        "monetization": "광고 기반 무료 모델 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "프리미엄 4,900원 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "1,000만원 [추론]",
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
         "tech_stack": [
           "Kotlin",
-          "Edge APIs",
-          "AI Graphics"
+          "Jetpack Compose",
+          "Room DB"
         ],
         "key_features": [
-          "AI 엣지 효과",
-          "알림 연동",
-          "배터리 최적화"
+          "과학계산기",
+          "단위변환",
+          "대출계산"
         ],
-        "clone_tip": "삼성 엣지 API와 AI 그래픽 생성 결합 [추론]"
+        "clone_tip": "기존 계산 라이브러리 활용으로 개발 단축 [추론]"
       },
       "scores": {
-        "novelty": 4,
-        "necessity": 2,
-        "timing": 4,
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
         "tech_difficulty": 4,
-        "market_size": 2,
-        "competition": 4,
+        "market_size": 4,
+        "competition": 3,
         "profitability": 3,
-        "scalability": 2,
-        "overall": 6.2
+        "scalability": 3,
+        "overall": 7.5
       },
       "tags": [
         "#1인개발가능",
+        "#유틸리티",
         "#B2C"
       ],
-      "verdict": "틈새시장이지만 높은 수익성 가능한 전문 앱"
+      "verdict": "실용성 중심의 안정적 비즈니스"
+    },
+    {
+      "rank": 4,
+      "name": "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
+      "developer": "cocone ONE corporation",
+      "category": "Social Networking",
+      "icon": "https://play-lh.googleusercontent.com/-83MtXsyGPrClNj-RcVpV0Wxx5TaB1QdBVr8BAtVEtZRME4Ern28lT-rMsmAQcwd56rv_kfPlImmjjtl0_trvL0",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.cocone.livly",
+      "idea_summary": "가상 펫과 섬 생활 시뮬레이션",
+      "analysis": {
+        "problem": "일상의 스트레스와 외로움을 달래줄 힐링 콘텐츠 필요 [추론]",
+        "solution": "가상 펫을 기르며 평화로운 섬에서 생활하는 시뮬레이션 [추론]",
+        "target_user": "힐링과 육성 게임을 좋아하는 여성 사용자 중심 [추론]",
+        "unique_point": "일본 특유의 감성적인 펫 육성과 소셜 기능 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "동물의 숲",
+          "타마고치"
+        ],
+        "timing_reason": "펫 키우기 열풍과 가상 반려동물 관심 증가 [추론]",
+        "growth_potential": "감성적 콘텐츠에 대한 지속적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "가상 아이템 판매와 프리미엄 기능 [추론]",
+        "pricing_suggestion": "아이템당 1,000-5,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "4000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Photon",
+          "Firebase"
+        ],
+        "key_features": [
+          "펫 육성",
+          "섬 꾸미기",
+          "소셜 기능"
+        ],
+        "clone_tip": "간소화된 버전으로 시작하여 점진적 기능 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#게임",
+        "#소셜",
+        "#힐링"
+      ],
+      "verdict": "감성 마케팅이 핵심인 틈새 시장"
+    },
+    {
+      "rank": 5,
+      "name": "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)",
+      "developer": "WordBit",
+      "category": "Language Learning",
+      "icon": "https://play-lh.googleusercontent.com/YUrFfRgNjDpAbH9en6f4aBoWpFL0A3zNVVRh9dGVJARYiS-wIUDtZWlUhCMGdf8_siI",
+      "app_url": "https://play.google.com/store/apps/details?id=net.wordbit.enkr",
+      "idea_summary": "잠금화면 활용 영어 학습",
+      "analysis": {
+        "problem": "바쁜 일상에서 별도의 시간을 내어 언어 학습하기 어려움 [추론]",
+        "solution": "스마트폰 잠금화면을 활용한 자연스러운 학습 기회 제공 [추론]",
+        "target_user": "시간 부족으로 학습 시간 확보가 어려운 직장인 학생 [추론]",
+        "unique_point": "잠금화면이라는 독특한 학습 인터페이스 활용 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Busuu"
+        ],
+        "timing_reason": "마이크로 러닝 트렌드와 효율적 학습법 관심 증가 [추론]",
+        "growth_potential": "언어 학습 시장과 마이크로 러닝 결합의 성장성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 광고 제거 [추론]",
+        "pricing_suggestion": "월 6,900원, 연간 39,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1800만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "Room DB",
+          "알림 서비스"
+        ],
+        "key_features": [
+          "잠금화면 위젯",
+          "학습 진도",
+          "단어장"
+        ],
+        "clone_tip": "잠금화면 API 활용과 콘텐츠 큐레이션이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#교육",
+        "#마이크로러닝"
+      ],
+      "verdict": "혁신적 학습법의 성공 사례"
     }
   ],
   "daily_insight": {
-    "trend_summary": "AI 기반 개인화 서비스와 보안 중시 트렌드가 두드러집니다 [추론]. 특정 타겟층을 위한 헬스케어 앱들이 주목받고 있습니다 [추론].",
+    "trend_summary": "AI 기능 통합과 마이크로 인터랙션이 주요 트렌드로 부상하고 있습니다 [추론]. 일상의 자투리 시간을 활용한 생산성 앱들이 인기를 끌고 있습니다 [추론].",
     "trend_details": [
-      "AI 개인화 서비스 확산",
-      "모바일 보안 도구 수요 증가",
-      "니치 헬스케어 시장 성장"
+      "AI 기반 개인화 서비스 확산",
+      "마이크로 러닝 앱 성장",
+      "ASMR과 힐링 콘텐츠 인기",
+      "틈새 시장 전문화 도구 등장"
     ],
     "hot_categories": [
-      "보안/프라이버시",
       "AI 도구",
-      "전문 헬스케어"
+      "언어 학습",
+      "사진 관리"
     ],
-    "opportunity": "기존 서비스를 특정 타겟층이나 사용 상황에 특화시킨 버티컬 솔루션",
-    "action_item": "대기업이 놓치는 틈새 시장을 발굴하여 전문화된 앱 기획"
+    "opportunity": "기존 서비스에 AI 기능을 접목한 차별화된 솔루션 개발",
+    "action_item": "잠금화면, 대기시간 등 자투리 시간 활용 앱 아이디어 발굴"
   }
 }
