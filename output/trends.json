@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T16:08:42.000Z",
+  "generatedAt": "2026-02-25T15:13:09.685Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -7,16 +7,40 @@
   "risingCategories": [
     {
       "category": "Game",
-      "currentCount": 5,
+      "currentCount": 6,
       "previousCount": 2,
-      "changePercent": 150,
+      "changePercent": 200,
       "changeDirection": "up",
       "apps": [
+        "CleanTheOcean",
         "Reflexa 反射神経ミニゲーム",
         "Peelr - Oddly Satisfying",
         "CozyJellyMerge",
         "20,048",
         "Ashen Legacy: RPG Pixel"
+      ],
+      "avgScore": 7.25
+    },
+    {
+      "category": "Graphics & Design",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AR Drawing – Trace & Sketch",
+        "CUSTOMZ - AI Car Modification"
+      ],
+      "avgScore": 7.300000000000001
+    },
+    {
+      "category": "E-commerce",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Whatnot: Shop, Sell, Connect"
       ],
       "avgScore": 7.4
     },
@@ -41,18 +65,6 @@
         "Smart Photo Clean"
       ],
       "avgScore": 8.7
-    },
-    {
-      "category": "AI Chatbot",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Gemmy AI: 채팅 & 어시스턴트",
-        "Zeta - AI Chat for Reality"
-      ],
-      "avgScore": 8.3
     },
     {
       "category": "Calculator",
@@ -89,17 +101,6 @@
         "WordBit English (Auto-Learning on Lockscreen)"
       ],
       "avgScore": 8.6
-    },
-    {
-      "category": "Graphics & Design",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "CUSTOMZ - AI Car Modification"
-      ],
-      "avgScore": 7.2
     },
     {
       "category": "Health",
@@ -160,22 +161,6 @@
         "Vision Emoji"
       ],
       "avgScore": 6
-    },
-    {
-      "category": "Utility",
-      "currentCount": 6,
-      "previousCount": 3,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "QR Scan & Edit",
-        "Time Vault: Memory Capsule",
-        "Khemera Keyboard",
-        "Cleanup: Phone Storage Cleaner",
-        "AI Mechanic – Car Diagnosis",
-        "Cleaner Toolbox"
-      ],
-      "avgScore": 7.5666666666666655
     },
     {
       "category": "AI Tool",
@@ -267,39 +252,26 @@
       "avgScore": 7.7
     },
     {
-      "category": "Health/Fitness",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리",
-        "BumpTrackr"
-      ],
-      "avgScore": 8.05
-    },
-    {
       "category": "Lifestyle",
-      "currentCount": 4,
+      "currentCount": 5,
       "previousCount": 3,
-      "changePercent": 33,
+      "changePercent": 67,
       "changeDirection": "up",
       "apps": [
+        "Bonsai Studio",
         "Bisque-It Pottery Log",
         "Yessi (예씨) 확언、名言、目标自动提醒",
         "mangari",
         "EdgeAura"
       ],
-      "avgScore": 7.3500000000000005
-    }
-  ],
-  "decliningCategories": [
+      "avgScore": 7.12
+    },
     {
       "category": "Health & Fitness",
       "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
-      "changeDirection": "down",
+      "previousCount": 3,
+      "changePercent": 33,
+      "changeDirection": "up",
       "apps": [
         "AirRhythm – Guided Breathing",
         "Migraine Tracker(편두통 추적기)",
@@ -307,32 +279,22 @@
         "SetWise: Workout Tracker"
       ],
       "avgScore": 7.5
-    },
+    }
+  ],
+  "decliningCategories": [
     {
-      "category": "Education",
-      "currentCount": 2,
-      "previousCount": 3,
-      "changePercent": -33,
-      "changeDirection": "down",
-      "apps": [
-        "alya: your AI language buddy",
-        "Learn English, Spanish: Learna"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Entertainment",
+      "category": "Utility",
       "currentCount": 4,
-      "previousCount": 6,
-      "changePercent": -33,
+      "previousCount": 5,
+      "changePercent": -20,
       "changeDirection": "down",
       "apps": [
-        "Lezhin Snack - Short Dramas",
-        "크랙 - 즉흥 서사, AI 채팅",
-        "Shortn: Short Viral Video App",
-        "MiSing - Sing Anytime, Anywhere"
+        "QR Scan & Edit",
+        "Time Vault: Memory Capsule",
+        "Khemera Keyboard",
+        "Cleanup: Phone Storage Cleaner"
       ],
-      "avgScore": 8.325
+      "avgScore": 7.35
     },
     {
       "category": "Weather",
@@ -344,9 +306,88 @@
         "Swell Scope — Surf Forecast"
       ],
       "avgScore": 6.7
+    },
+    {
+      "category": "Education",
+      "currentCount": 1,
+      "previousCount": 3,
+      "changePercent": -67,
+      "changeDirection": "down",
+      "apps": [
+        "alya: your AI language buddy"
+      ],
+      "avgScore": 8.5
     }
   ],
   "stableCategories": [
+    {
+      "category": "Productivity",
+      "currentCount": 9,
+      "previousCount": 9,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Bettergoals: Your Goal Roadmap",
+        "3act: Be Accountable Together",
+        "Daily Work Checklist",
+        "ClipQR Share",
+        "Day Loop: Minimal Habit Track",
+        "AI Translates All Languages",
+        "Routiva",
+        "Aurylius",
+        "Grok AI Generation"
+      ],
+      "avgScore": 7.788888888888888
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 6,
+      "previousCount": 6,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Lezhin Snack - Short Dramas",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Shortn: Short Viral Video App"
+      ],
+      "avgScore": 7.883333333333333
+    },
+    {
+      "category": "Document Management",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "PDF Reader - All PDF Scanner"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "AI Chatbot",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Gemmy AI: 채팅 & 어시스턴트"
+      ],
+      "avgScore": 8.3
+    },
+    {
+      "category": "Health/Fitness",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "피로몽 : 컨디션, 번아웃, 피로, 체력, 멘탈 관리"
+      ],
+      "avgScore": 8.6
+    },
     {
       "category": "Navigation",
       "currentCount": 1,
@@ -357,55 +398,23 @@
         "Beacon Guardian: Find my Kids"
       ],
       "avgScore": 8.8
-    },
-    {
-      "category": "Business",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Shift Leader AI"
-      ],
-      "avgScore": 7.8
-    },
-    {
-      "category": "Photo Editing",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "PhotoVerse AI Photo Editor"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Productivity",
-      "currentCount": 9,
-      "previousCount": 10,
-      "changePercent": -10,
-      "changeDirection": "stable",
-      "apps": [
-        "Daily Work Checklist",
-        "ClipQR Share",
-        "Day Loop: Minimal Habit Track",
-        "AI Translates All Languages",
-        "Routiva",
-        "Aurylius",
-        "Grok AI Generation",
-        "AI Meeting Note Taker: Notr",
-        "WindFoundationTool"
-      ],
-      "avgScore": 7.844444444444444
     }
   ],
   "hotKeywords": [
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 60,
+      "count": 62,
       "apps": [
+        "Bettergoals: Your Goal Roadmap",
+        "CleanTheOcean",
+        "AR Drawing – Trace & Sketch",
+        "Bonsai Studio",
+        "3act: Be Accountable Together",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "Whatnot: Shop, Sell, Connect",
+        "NetShort - 인기 드라마 및 TV 프로그램",
         "AI Home Design - 인테리어",
         "alya: your AI language buddy",
         "Bisque-It Pottery Log",
@@ -457,21 +466,24 @@
         "Shortn: Short Viral Video App",
         "Freecash - Money Making App",
         "Grok AI Generation",
-        "Cleanup: Phone Storage Cleaner",
-        "AI Mechanic – Car Diagnosis",
-        "BumpTrackr",
-        "Zeta - AI Chat for Reality",
-        "PhotoVerse AI Photo Editor",
-        "Cleaner Toolbox",
-        "Learn English, Spanish: Learna",
-        "MiSing - Sing Anytime, Anywhere"
+        "Cleanup: Phone Storage Cleaner"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 56,
+      "count": 60,
       "apps": [
+        "Bettergoals: Your Goal Roadmap",
+        "CleanTheOcean",
+        "AR Drawing – Trace & Sketch",
+        "Bonsai Studio",
+        "3act: Be Accountable Together",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "Whatnot: Shop, Sell, Connect",
+        "PDF Reader - All PDF Scanner",
+        "NetShort - 인기 드라마 및 TV 프로그램",
         "AI Home Design - 인테리어",
         "alya: your AI language buddy",
         "Reflexa 反射神経ミニゲーム",
@@ -521,20 +533,15 @@
         "Aurylius",
         "Freecash - Money Making App",
         "Grok AI Generation",
-        "Cleanup: Phone Storage Cleaner",
-        "AI Meeting Note Taker: Notr",
-        "AI Mechanic – Car Diagnosis",
-        "BumpTrackr",
-        "PhotoVerse AI Photo Editor",
-        "Cleaner Toolbox",
-        "MiSing - Sing Anytime, Anywhere"
+        "Cleanup: Phone Storage Cleaner"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 40,
+      "count": 31,
       "apps": [
+        "Bonsai Studio",
         "AI Home Design - 인테리어",
         "alya: your AI language buddy",
         "Smart Photo Clean",
@@ -553,19 +560,15 @@
         "ChartsGPT: AI Trading Assist",
         "Shortn: Short Viral Video App",
         "Grok AI Generation",
-        "Cleanup: Phone Storage Cleaner",
-        "AI Meeting Note Taker: Notr",
-        "AI Mechanic – Car Diagnosis",
-        "Shift Leader AI",
-        "Zeta - AI Chat for Reality",
-        "PhotoVerse AI Photo Editor"
+        "Cleanup: Phone Storage Cleaner"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 13,
+      "count": 12,
       "apps": [
+        "AR Drawing – Trace & Sketch",
         "Smart Photo Clean",
         "CUSTOMZ - AI Car Modification",
         "ClipQR Share",
@@ -576,16 +579,16 @@
         "HayDealer - Certified Used Cars",
         "Beacon Guardian: Find my Kids",
         "Khemera Keyboard",
-        "ChartsGPT: AI Trading Assist",
-        "AI Mechanic – Car Diagnosis",
-        "Learn English, Spanish: Learna"
+        "ChartsGPT: AI Trading Assist"
       ]
     },
     {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 9,
+      "count": 11,
       "apps": [
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "NetShort - 인기 드라마 및 TV 프로그램",
         "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
         "Lezhin Snack - Short Dramas",
         "Crowdtruth",
@@ -599,8 +602,9 @@
     {
       "keyword": "생산성",
       "category": "productivity",
-      "count": 9,
+      "count": 10,
       "apps": [
+        "3act: Be Accountable Together",
         "Daily Work Checklist",
         "ClipQR Share",
         "Day Loop: Minimal Habit Track",
@@ -611,39 +615,60 @@
       ]
     },
     {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 6,
+      "apps": [
+        "3act: Be Accountable Together",
+        "Whatnot: Shop, Sell, Connect",
+        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
+        "Crowdtruth"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "PDF Reader - All PDF Scanner",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Shortn: short viral video app",
+        "QR Scan & Edit",
+        "Shortn: Short Viral Video App"
+      ]
+    },
+    {
       "keyword": "유틸리티",
       "category": "tag",
-      "count": 6,
+      "count": 5,
       "apps": [
         "똑똑계산기 - 다용도 계산기",
         "QR Scan & Edit",
         "Photo Recovery-File Rescue",
         "Photo Recovery, File Recovery, All Recovery",
-        "Cleanup: Phone Storage Cleaner",
-        "Cleaner Toolbox"
+        "Cleanup: Phone Storage Cleaner"
       ]
     },
     {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 5,
-      "apps": [
-        "Shortn: short viral video app",
-        "Vision Emoji",
-        "AI Meeting Note Taker: Notr",
-        "Shift Leader AI",
-        "WindFoundationTool"
-      ]
-    },
-    {
-      "keyword": "교육",
-      "category": "tag",
+      "keyword": "투자",
+      "category": "fintech",
       "count": 4,
       "apps": [
-        "alya: your AI language buddy",
-        "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)",
-        "WordBit English (Auto-Learning on Lockscreen)",
-        "Learn English, Spanish: Learna"
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
+        "ChartsGPT: AI Trading Assist"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 4,
+      "apps": [
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Bisque-It Pottery Log",
+        "Hallow: Prayer & Meditation",
+        "Photo Recovery, File Recovery, All Recovery"
       ]
     },
     {
@@ -669,23 +694,23 @@
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 4,
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 3,
       "apps": [
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
-        "Crowdtruth"
+        "PDF Reader - All PDF Scanner",
+        "Shortn: short viral video app",
+        "Vision Emoji"
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 4,
+      "keyword": "교육",
+      "category": "tag",
+      "count": 3,
       "apps": [
-        "Shortn: short viral video app",
-        "QR Scan & Edit",
-        "Shortn: Short Viral Video App",
-        "PhotoVerse AI Photo Editor"
+        "alya: your AI language buddy",
+        "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)",
+        "WordBit English (Auto-Learning on Lockscreen)"
       ]
     },
     {
@@ -699,32 +724,12 @@
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 3,
-      "apps": [
-        "Bisque-It Pottery Log",
-        "Hallow: Prayer & Meditation",
-        "Photo Recovery, File Recovery, All Recovery"
-      ]
-    },
-    {
       "keyword": "핀테크",
       "category": "tag",
       "count": 3,
       "apps": [
         "MoneyWork - Health & Money Management",
         "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
-        "ChartsGPT: AI Trading Assist"
-      ]
-    },
-    {
-      "keyword": "투자",
-      "category": "fintech",
-      "count": 3,
-      "apps": [
-        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
-        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
         "ChartsGPT: AI Trading Assist"
       ]
     },
@@ -739,76 +744,76 @@
       ]
     },
     {
-      "keyword": "공공서비스",
-      "category": "tag",
+      "keyword": "스트리밍",
+      "category": "creator",
       "count": 2,
       "apps": [
-        "Mobile Health Insurance Card",
-        "Republic of Korea Mobile ID"
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DramaWave -인기 단편/한일 드라마, 역전극!"
       ]
     },
     {
-      "keyword": "커뮤니티",
+      "keyword": "네트워킹",
       "category": "social",
       "count": 2,
       "apps": [
-        "Crowdtruth",
-        "Chalan - No.1 Second-hand Fashion App"
+        "Whatnot: Shop, Sell, Connect",
+        "Crowdtruth"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 28,
-        "percent": 40,
+        "count": 29,
+        "percent": 41,
         "examples": [
-          "Reflexa 反射神経ミニゲーム",
-          "Peelr - Oddly Satisfying",
-          "똑똑계산기 - 다용도 계산기"
+          "CleanTheOcean",
+          "NetShort - 인기 드라마 및 TV 프로그램",
+          "Reflexa 反射神経ミニゲーム"
         ]
       },
       "freemium": {
-        "count": 56,
-        "percent": 80,
+        "count": 51,
+        "percent": 73,
         "examples": [
-          "AI Home Design - 인테리어",
-          "Reflexa 反射神経ミニゲーム",
-          "Peelr - Oddly Satisfying"
+          "Bettergoals: Your Goal Roadmap",
+          "AR Drawing – Trace & Sketch",
+          "3act: Be Accountable Together"
         ]
       },
       "subscription": {
-        "count": 39,
-        "percent": 56,
+        "count": 36,
+        "percent": 51,
         "examples": [
-          "AI Home Design - 인테리어",
-          "alya: your AI language buddy",
-          "Bisque-It Pottery Log"
+          "Bettergoals: Your Goal Roadmap",
+          "3act: Be Accountable Together",
+          "DramaBox - 미니시리즈 스트리밍 플레이어"
         ]
       },
       "onetime": {
         "count": 13,
         "percent": 19,
         "examples": [
+          "DramaWave -인기 단편/한일 드라마, 역전극!",
           "Bisque-It Pottery Log",
-          "Smart Photo Clean",
-          "Gemmy AI: 채팅 & 어시스턴트"
+          "Smart Photo Clean"
         ]
       },
       "unknown": {
-        "count": 0,
-        "percent": 0,
+        "count": 1,
+        "percent": 1,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 56,
-      "percent": 80,
+      "count": 51,
+      "percent": 73,
       "examples": [
-        "AI Home Design - 인테리어",
-        "Reflexa 反射神経ミニゲーム",
-        "Peelr - Oddly Satisfying"
+        "Bettergoals: Your Goal Roadmap",
+        "AR Drawing – Trace & Sketch",
+        "3act: Be Accountable Together"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -817,50 +822,50 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 27,
-        "percent": 39,
+        "count": 23,
+        "percent": 33,
         "apps": [
+          "AR Drawing – Trace & Sketch",
+          "Bonsai Studio",
           "AI Home Design - 인테리어",
           "alya: your AI language buddy",
-          "Smart Photo Clean",
-          "Gemmy AI: 채팅 & 어시스턴트",
-          "AirRhythm – Guided Breathing"
+          "Smart Photo Clean"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 21,
-        "percent": 30,
+        "count": 20,
+        "percent": 29,
         "apps": [
+          "AR Drawing – Trace & Sketch",
           "Peelr - Oddly Satisfying",
           "Smart Photo Clean",
           "CUSTOMZ - AI Car Modification",
-          "ClipQR Share",
-          "Mobile Health Insurance Card"
+          "ClipQR Share"
         ]
       },
       {
         "tech": "creator",
-        "count": 8,
-        "percent": 11,
+        "count": 11,
+        "percent": 16,
         "apps": [
-          "Crowdtruth",
-          "Ashen Legacy: RPG Pixel",
-          "Shortn: short viral video app",
-          "QR Scan & Edit",
-          "Shortn: Short Viral Video App"
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "DramaWave -인기 단편/한일 드라마, 역전극!",
+          "PDF Reader - All PDF Scanner",
+          "NetShort - 인기 드라마 및 TV 프로그램",
+          "Crowdtruth"
         ]
       },
       {
         "tech": "productivity",
-        "count": 7,
-        "percent": 10,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "3act: Be Accountable Together",
           "Bisque-It Pottery Log",
           "Daily Work Checklist",
           "Day Loop: Minimal Habit Track",
-          "크랙 - 즉흥 서사, AI 채팅",
-          "サブスク管理 | 解約忘れを防ぐ"
+          "크랙 - 즉흥 서사, AI 채팅"
         ]
       },
       {
@@ -884,10 +889,21 @@
         ]
       },
       {
-        "tech": "subscription",
-        "count": 2,
-        "percent": 3,
+        "tech": "social",
+        "count": 3,
+        "percent": 4,
         "apps": [
+          "3act: Be Accountable Together",
+          "Whatnot: Shop, Sell, Connect",
+          "Crowdtruth"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "NetShort - 인기 드라마 및 TV 프로그램",
           "サブスク管理 | 解約忘れを防ぐ",
           "Hallow: Prayer & Meditation"
         ]
@@ -899,56 +915,74 @@
         "apps": [
           "Mobile Health Insurance Card"
         ]
-      },
-      {
-        "tech": "social",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "Crowdtruth"
-        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 27,
-      "percent": 39,
+      "count": 23,
+      "percent": 33,
       "apps": [
+        "AR Drawing – Trace & Sketch",
+        "Bonsai Studio",
         "AI Home Design - 인테리어",
         "alya: your AI language buddy",
-        "Smart Photo Clean",
-        "Gemmy AI: 채팅 & 어시스턴트",
-        "AirRhythm – Guided Breathing"
+        "Smart Photo Clean"
       ]
     },
     "emerging": [
       {
-        "tech": "creator",
-        "count": 8,
-        "percent": 11,
+        "tech": "ar_vr",
+        "count": 20,
+        "percent": 29,
         "apps": [
-          "Crowdtruth",
-          "Ashen Legacy: RPG Pixel",
-          "Shortn: short viral video app",
-          "QR Scan & Edit",
-          "Shortn: Short Viral Video App"
+          "AR Drawing – Trace & Sketch",
+          "Peelr - Oddly Satisfying",
+          "Smart Photo Clean",
+          "CUSTOMZ - AI Car Modification",
+          "ClipQR Share"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "DramaWave -인기 단편/한일 드라마, 역전극!",
+          "PDF Reader - All PDF Scanner",
+          "NetShort - 인기 드라마 및 TV 프로그램",
+          "Crowdtruth"
         ]
       },
       {
         "tech": "productivity",
-        "count": 7,
-        "percent": 10,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "3act: Be Accountable Together",
           "Bisque-It Pottery Log",
           "Daily Work Checklist",
           "Day Loop: Minimal Habit Track",
-          "크랙 - 즉흥 서사, AI 채팅",
-          "サブスク管理 | 解約忘れを防ぐ"
+          "크랙 - 즉흥 서사, AI 채팅"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Graphics & Design 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Graphics & Design"
+    },
+    {
+      "type": "rising_category",
+      "title": "E-commerce 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "E-commerce"
+    },
     {
       "type": "rising_category",
       "title": "Graphic & Design 카테고리 급부상",
@@ -962,13 +996,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Image Editing"
-    },
-    {
-      "type": "rising_category",
-      "title": "AI Chatbot 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "AI Chatbot"
     },
     {
       "type": "rising_category",
@@ -990,13 +1017,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Language Learning"
-    },
-    {
-      "type": "rising_category",
-      "title": "Graphics & Design 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Graphics & Design"
     },
     {
       "type": "rising_category",
@@ -1084,39 +1104,34 @@
     },
     {
       "type": "rising_category",
-      "title": "Health/Fitness 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health/Fitness"
-    },
-    {
-      "type": "rising_category",
-      "title": "Lifestyle 카테고리 급부상",
+      "title": "Health & Fitness 카테고리 급부상",
       "description": "33% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Lifestyle"
+      "category": "Health & Fitness"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "39%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "33%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Game 카테고리가 +150%로 가장 급성장하고 있고, AI 기능 통합이 39%의 앱에 적용되어 핵심 트렌드로 부상. Freemium 모델이 80%로 주도적인 수익 모델로 자리잡음.",
+    "trend_summary": "게임 카테고리가 200% 폭발적 성장을 보이고 있으며, AI 기능이 33%의 앱에 통합되면서 필수 요소로 자리잡고 있습니다. 1인 개발자도 충분히 진입할 수 있는 B2C 앱들이 주목받고 있습니다.",
     "trend_details": [
-      "AI 기능 통합이 필수 트렌드 (39% 적용률)",
-      "Freemium 모델이 주류 수익 전략 (80%)",
-      "1인 개발 가능한 B2C 앱 수요 급증 (56회 언급)"
+      "게임 카테고리 200% 급성장으로 최고 성장률 기록",
+      "AI 기능 통합이 33% 앱에서 채택되며 차별화 필수 요소로 부상",
+      "Graphics & Design, Image Editing 등 크리에이터 도구 카테고리 100% 성장",
+      "Freemium 모델이 73%로 지배적 수익 모델로 확립",
+      "1인 개발 가능한 앱이 60회 언급되며 솔로 개발자 친화적 트렌드"
     ],
     "hot_categories": [
       "Game",
-      "AI Chatbot"
+      "Graphics & Design"
     ],
-    "opportunity": "AI Chatbot 카테고리는 100% 성장했지만 단 2개 앱만 있어 경쟁이 적은 블루오션 시장",
-    "action_item": "AI 기능을 포함한 Freemium 모델의 B2C 게임 또는 챗봇 앱을 개발하여 급성장 트렌드에 편승",
-    "weekly_theme": "AI 게임화"
+    "opportunity": "Graphics & Design, Image Editing 등 크리에이터 도구 영역이 100% 성장했지만 앱 수가 적어 AI 기능을 통합한 차별화된 도구로 진입할 수 있는 블루오션 기회가 존재합니다.",
+    "action_item": "AI 기반 이미지 편집 또는 그래픽 디자인 도구를 freemium 모델로 개발하되, 1인 개발자가 감당할 수 있는 심플한 핵심 기능에 집중하세요.",
+    "weekly_theme": "AI 통합 크리에이터"
   }
 }

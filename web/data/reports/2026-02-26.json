@@ -1,0 +1,631 @@
+{
+  "date": "2026-02-26",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "LiftStats Analytics & Tracker",
+      "developer": "Neel Panging",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/af/82/1faf8298-3a50-9bcc-8c3a-201eee3573e8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/liftstats-analytics-tracker/id6758020980?uo=2",
+      "idea_summary": "헬스 데이터 시각화 분석 플랫폼 [추론]",
+      "analysis": {
+        "problem": "일반 운동 앱들의 단순한 기록 방식과 부족한 분석 기능 [추론]",
+        "solution": "상세한 통계와 시각화된 분석 리포트 제공 [추론]",
+        "target_user": "데이터 중심 피트니스 애호가들 [추론]",
+        "unique_point": "운동 데이터의 심화 분석과 통계 중심 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Jefit",
+          "Strong",
+          "Gym Genius"
+        ],
+        "timing_reason": "개인화된 건강관리 트렌드 확산 [추론]",
+        "growth_potential": "피트니스 데이터 분석 시장 성장세 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능 구독 모델 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "데이터 시각화",
+          "통계 분석",
+          "운동 로그"
+        ],
+        "clone_tip": "차트 라이브러리와 통계 계산 로직에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#데이터분석"
+      ],
+      "verdict": "피트니스 데이터 분석의 새로운 접근 방식",
+      "deep_report_id": "ios-liftstats-analytics-tracker-1772031997516"
+    },
+    {
+      "rank": 2,
+      "name": "SleepGrids – Sleep & Habit Log",
+      "developer": "Yu Ngon Ng",
+      "category": "Healthcare/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/74/c3/ee74c387-769f-31f2-9fc2-c4153a635e7a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/sleepgrids-sleep-habit-log/id6759190552?uo=2",
+      "idea_summary": "그리드 기반 수면패턴 시각화 도구 [추론]",
+      "analysis": {
+        "problem": "복잡한 수면 패턴을 직관적으로 파악하기 어려움 [추론]",
+        "solution": "그리드 형태로 수면 데이터를 시각화하여 패턴 인식 용이 [추론]",
+        "target_user": "수면 최적화에 관심 있는 사용자들 [추론]",
+        "unique_point": "그리드 UI를 통한 직관적 수면 패턴 시각화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sleep Cycle",
+          "AutoSleep",
+          "Pillow"
+        ],
+        "timing_reason": "수면 건강에 대한 관심 증가 [추론]",
+        "growth_potential": "수면 테크 시장 확장세 [추론]"
+      },
+      "business": {
+        "monetization": "고급 분석 기능 프리미엄 모델 [추론]",
+        "pricing_suggestion": "월 3,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core Graphics"
+        ],
+        "key_features": [
+          "그리드 시각화",
+          "수면 추적",
+          "패턴 분석"
+        ],
+        "clone_tip": "HealthKit 연동과 그리드 UI 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "수면 데이터 시각화의 혁신적 접근"
+    },
+    {
+      "rank": 3,
+      "name": "Heat - Tattoo Shade Analyzer",
+      "developer": "Nikola Velimirovic",
+      "category": "Graphic & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/87/00/d487000b-7bdb-cf95-51a6-dc2903926c42/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/heat-tattoo-shade-analyzer/id6759294460?uo=2",
+      "idea_summary": "타투 색상 분석 전문 도구 [추론]",
+      "analysis": {
+        "problem": "타투 디자인 시 피부톤에 맞는 색상 선택의 어려움 [추론]",
+        "solution": "피부톤 분석을 통한 최적 타투 색상 추천 [추론]",
+        "target_user": "타투 아티스트와 타투 예정자들 [추론]",
+        "unique_point": "타투 특화 색상 분석 도구의 선점 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "정보 없음"
+        ],
+        "timing_reason": "타투 문화의 대중화와 전문화 [추론]",
+        "growth_potential": "니치 시장이지만 성장 가능성 있음 [추론]"
+      },
+      "business": {
+        "monetization": "전문 기능 유료 판매 [추론]",
+        "pricing_suggestion": "앱 내 구매 9,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Image",
+          "Vision"
+        ],
+        "key_features": [
+          "색상 분석",
+          "피부톤 매칭",
+          "디자인 도구"
+        ],
+        "clone_tip": "색상 이론과 피부톤 분석 알고리즘 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#니치시장"
+      ],
+      "verdict": "매우 전문적이지만 시장이 제한적"
+    },
+    {
+      "rank": 4,
+      "name": "Meas Asst - Measuring tape",
+      "developer": "伟良 刘",
+      "category": "Reference",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/57/1d/55571d97-91a2-e2f0-b43b-36be59289982/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/meas-asst-measuring-tape/id6758365297?uo=2",
+      "idea_summary": "디지털 줄자 측정 도구 [추론]",
+      "analysis": {
+        "problem": "물리적 측정 도구 없이 정확한 치수 측정의 불편함 [추론]",
+        "solution": "AR 기술을 활용한 디지털 측정 도구 제공 [추론]",
+        "target_user": "DIY, 인테리어, 쇼핑 시 측정이 필요한 사용자 [추론]",
+        "unique_point": "실용적인 AR 측정 기능의 간편한 사용성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Measure",
+          "TapeMeasure",
+          "RoomScan"
+        ],
+        "timing_reason": "AR 기술의 보편화와 홈 리모델링 트렌드 [추론]",
+        "growth_potential": "실용성 높은 도구로 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 고급 기능 유료 [추론]",
+        "pricing_suggestion": "프리미엄 버전 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "ARKit",
+          "Core ML"
+        ],
+        "key_features": [
+          "AR 측정",
+          "치수 저장",
+          "단위 변환"
+        ],
+        "clone_tip": "ARKit을 활용한 정확한 거리 측정 알고리즘 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#실용성"
+      ],
+      "verdict": "실용적이지만 차별화 요소 부족"
+    },
+    {
+      "rank": 5,
+      "name": "PoseRep: AI Fitness Tracker",
+      "developer": "Mohamed Maache",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/59/3e/c8593ea5-fc03-3acf-2c89-65abb6f77b66/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/poserep-ai-fitness-tracker/id6759505171?uo=2",
+      "idea_summary": "AI 기반 운동 자세 분석 트래커 [추론]",
+      "analysis": {
+        "problem": "운동 시 정확한 자세 확인과 교정의 어려움 [추론]",
+        "solution": "AI 포즈 인식을 통한 실시간 자세 분석 및 피드백 [추론]",
+        "target_user": "홈트레이닝하는 피트니스 초보자들 [추론]",
+        "unique_point": "AI 포즈 인식 기술을 활용한 개인 트레이너 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Freeletics",
+          "Nike Training Club",
+          "Mirror"
+        ],
+        "timing_reason": "홈 피트니스 시장 확대와 AI 기술 발전 [추론]",
+        "growth_potential": "AI 피트니스 시장의 성장세 [추론]"
+      },
+      "business": {
+        "monetization": "AI 분석 기능 구독 모델 [추론]",
+        "pricing_suggestion": "월 7,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "Vision",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "포즈 인식",
+          "자세 분석",
+          "실시간 피드백"
+        ],
+        "clone_tip": "정확한 포즈 인식 모델 훈련과 실시간 처리 최적화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI기술",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "AI 피트니스의 미래를 보여주는 혁신적 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Korea Mobile ID",
+      "developer": "행정안전부",
+      "category": "Identity Verification",
+      "icon": "https://play-lh.googleusercontent.com/ZG0w0dsWvuwXahcA9klpwBm903dgLQ5ELba6g47MTpeK5AwOHh_nwI-hd3uROMbUEcRv",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.go.mobileid",
+      "idea_summary": "정부 공식 모바일 신분증 플랫폼 [확인]",
+      "analysis": {
+        "problem": "물리적 신분증 휴대의 불편함과 분실 위험 [확인]",
+        "solution": "스마트폰을 통한 공식 신분 인증 서비스 [확인]",
+        "target_user": "모든 대한민국 국민 [확인]",
+        "unique_point": "정부 공인 디지털 신분증의 선점 효과 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "PASS",
+          "삼성 패스"
+        ],
+        "timing_reason": "디지털 정부 정책과 비대면 인증 필요성 증가 [확인]",
+        "growth_potential": "정부 주도로 확산 예상 [추론]"
+      },
+      "business": {
+        "monetization": "정보 없음",
+        "pricing_suggestion": "정부 서비스로 무료 [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "정보 없음",
+        "estimated_cost": "정보 없음",
+        "tech_stack": [
+          "Android",
+          "보안 모듈",
+          "블록체인"
+        ],
+        "key_features": [
+          "신분 인증",
+          "QR 코드",
+          "생체 인식"
+        ],
+        "clone_tip": "정부 서비스로 클론 불가 [확인]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 5,
+        "overall": 9
+      },
+      "tags": [
+        "#정부서비스",
+        "#B2C",
+        "#필수앱"
+      ],
+      "verdict": "디지털 신분증의 새로운 패러다임",
+      "deep_report_id": "android-korea-mobile-id-1772032065161"
+    },
+    {
+      "rank": 2,
+      "name": "Crack - Instant Storytelling AI Chat",
+      "developer": "wrtn",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/rLYK2VP-oKgqgJYcg1ErUJnFvlFE36J-C3u3TIvHPz0Ii380lrBM2COfIoq9AjmVZKQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wrtn.character",
+      "idea_summary": "AI 기반 즉흥 스토리텔링 채팅 [확인]",
+      "analysis": {
+        "problem": "창의적 스토리 창작의 어려움과 시간 소요 [추론]",
+        "solution": "AI와의 대화를 통한 즉석 스토리 생성 [확인]",
+        "target_user": "창작에 관심 있는 젊은 사용자들 [추론]",
+        "unique_point": "대화형 스토리 창작 경험의 새로운 형태 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Chai",
+          "Replika"
+        ],
+        "timing_reason": "생성형 AI 기술의 발전과 콘텐츠 창작 열풍 [추론]",
+        "growth_potential": "AI 엔터테인먼트 시장 확장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 캐릭터 및 기능 구독 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6개월 [추론]",
+        "estimated_cost": "1800만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "LLM API",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 채팅",
+          "스토리 생성",
+          "캐릭터 선택"
+        ],
+        "clone_tip": "고품질 LLM 연동과 자연스러운 대화 플로우 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#AI기술",
+        "#B2C",
+        "#엔터테인먼트"
+      ],
+      "verdict": "AI 스토리텔링 분야의 혁신적 접근"
+    },
+    {
+      "rank": 3,
+      "name": "EdgeAura",
+      "developer": "Zachary Holt",
+      "category": "Customization",
+      "icon": "https://play-lh.googleusercontent.com/ADvRfzeqhSe-s46eco-qq7HmET-Q8n2ndmlPOvbg36mmrJhDBVovB8NarqPLKJ_3TxauHv6XCbj07FsymEO6",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wallpaper.edge.aura",
+      "idea_summary": "스마트폰 엣지 조명 효과 커스터마이징 [추론]",
+      "analysis": {
+        "problem": "단조로운 스마트폰 화면의 시각적 재미 부족 [추론]",
+        "solution": "화면 가장자리 조명 효과로 개성 표현 [추론]",
+        "target_user": "스마트폰 커스터마이징을 좋아하는 젊은 사용자 [추론]",
+        "unique_point": "엣지 조명에 특화된 전문적 커스터마이징 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Edge Lighting",
+          "Always On Edge",
+          "Borderlight"
+        ],
+        "timing_reason": "개인화 및 커스터마이징 트렌드 확산 [추론]",
+        "growth_potential": "꾸준한 니치 시장 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 이펙트 인앱 구매 [추론]",
+        "pricing_suggestion": "월 2,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "OpenGL ES",
+          "Custom Views"
+        ],
+        "key_features": [
+          "엣지 조명",
+          "색상 커스터마이징",
+          "애니메이션"
+        ],
+        "clone_tip": "GPU 최적화된 시각 효과 렌더링 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 5.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#커스터마이징"
+      ],
+      "verdict": "니치하지만 안정적인 커스터마이징 앱"
+    },
+    {
+      "rank": 4,
+      "name": "Weathernews Weather App",
+      "developer": "Weathernews Inc.",
+      "category": "Weather",
+      "icon": "https://play-lh.googleusercontent.com/9sa1LDZjQn6NAUstxbbtJ5F_gndqthH7W12oLcQbSOR-sJkofdoafdX_7vQ0VVuZUkLY",
+      "app_url": "https://play.google.com/store/apps/details?id=wni.WeathernewsTouch.jp",
+      "idea_summary": "전문 기상 정보 플랫폼 [확인]",
+      "analysis": {
+        "problem": "부정확한 날씨 정보와 단순한 예보의 한계 [추론]",
+        "solution": "전문 기상 회사의 상세하고 정확한 날씨 서비스 [추론]",
+        "target_user": "정확한 날씨 정보가 필요한 직업군과 일반 사용자 [추론]",
+        "unique_point": "전문 기상 회사의 브랜드 신뢰도 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기상청 날씨누리",
+          "Weather Channel",
+          "AccuWeather"
+        ],
+        "timing_reason": "기후 변화로 인한 정확한 날씨 정보 필요성 증가 [추론]",
+        "growth_potential": "안정적이지만 제한적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기상 정보 구독 [추론]",
+        "pricing_suggestion": "월 3,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "12개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "API 연동",
+          "지도 SDK"
+        ],
+        "key_features": [
+          "상세 예보",
+          "레이더 이미지",
+          "알림 서비스"
+        ],
+        "clone_tip": "정확한 기상 데이터 소스 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#기업앱",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "실용성은 높지만 차별화 어려운 분야"
+    },
+    {
+      "rank": 5,
+      "name": "Zeta (zeta) - AI Chat Reality",
+      "developer": "Scatter Lab, Inc.",
+      "category": "AI Chatbot",
+      "icon": "https://play-lh.googleusercontent.com/7BHCCDafgblr3UBNNx-ELJ_Ni1mA_iesxlPnyAQXXR1AeHtjwgNLmSRqWXlJg7EhKuE5__EvkoRmycKTQ3X_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger",
+      "idea_summary": "상상을 현실로 만드는 AI 채팅 [추론]",
+      "analysis": {
+        "problem": "일반적인 AI 채팅봇의 단조로운 상호작용 [추론]",
+        "solution": "사용자의 상상을 현실적 경험으로 변환하는 AI 채팅 [추론]",
+        "target_user": "창의적 경험을 원하는 젊은 사용자들 [추론]",
+        "unique_point": "상상력과 현실을 연결하는 독특한 AI 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "ChatGPT"
+        ],
+        "timing_reason": "AI 기술 발전과 메타버스 관심 증가 [추론]",
+        "growth_potential": "차세대 AI 인터페이스 시장 선점 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 경험 구독 [추론]",
+        "pricing_suggestion": "월 12,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "고급 LLM",
+          "AR/VR"
+        ],
+        "key_features": [
+          "AI 채팅",
+          "현실 시뮬레이션",
+          "맞춤형 경험"
+        ],
+        "clone_tip": "고도화된 AI 모델과 몰입형 UX 설계 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI기술",
+        "#B2C",
+        "#혁신적"
+      ],
+      "verdict": "AI 채팅의 미래를 제시하는 혁신적 플랫폼"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술과 헬스케어의 융합이 가속화되고 있으며, 개인화된 데이터 분석 서비스가 주목받고 있습니다 [추론]. 니치 시장을 타겟으로 한 전문화된 도구들이 증가하는 추세입니다 [추론].",
+    "trend_details": [
+      "AI 기반 피트니스 자세 분석",
+      "데이터 시각화 중심 앱",
+      "정부 주도 디지털 신분증",
+      "창작형 AI 엔터테인먼트"
+    ],
+    "hot_categories": [
+      "Health & Fitness"
+    ],
+    "opportunity": "AI 기술을 활용한 개인 맞춤형 헬스케어 솔루션",
+    "action_item": "AI 포즈 인식 기술 학습 및 헬스케어 앱 기획 검토"
+  }
+}
