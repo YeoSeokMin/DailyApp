@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-26T15:12:54.387Z",
+  "generatedAt": "2026-02-27T15:12:17.570Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -22,19 +22,40 @@
       "avgScore": 7.25
     },
     {
-      "category": "Health & Fitness",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
+      "category": "Travel",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "MoneyWork - Earn Money by Walking",
-        "AirRhythm – Guided Breathing",
-        "Migraine Tracker(편두통 추적기)",
-        "Brown Noise - Sleep & Focus",
-        "SetWise: Workout Tracker"
+        "Routy"
       ],
-      "avgScore": 7.6
+      "avgScore": 6.8
+    },
+    {
+      "category": "Shopping",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "컬리 - 마켓컬리, 뷰티컬리"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Education",
+      "currentCount": 4,
+      "previousCount": 2,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Animl: Animal Zoo",
+        "DreamWeaver Story Creator",
+        "FireDrill",
+        "alya: your AI language buddy"
+      ],
+      "avgScore": 8
     },
     {
       "category": "Communication",
@@ -139,18 +160,6 @@
       "avgScore": 7.5
     },
     {
-      "category": "Language Learning",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)",
-        "WordBit English (Auto-Learning on Lockscreen)"
-      ],
-      "avgScore": 8.6
-    },
-    {
       "category": "Health",
       "currentCount": 1,
       "previousCount": 0,
@@ -206,18 +215,6 @@
       "avgScore": 8.5
     },
     {
-      "category": "Data Recovery",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Photo Recovery-File Rescue",
-        "Photo Recovery, File Recovery, All Recovery"
-      ],
-      "avgScore": 7.300000000000001
-    },
-    {
       "category": "Browser",
       "currentCount": 1,
       "previousCount": 0,
@@ -251,74 +248,59 @@
       "avgScore": 7.3
     },
     {
-      "category": "Translation",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "AI Can Translate All Languages"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Automobiles",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "HayDealer - Certified Used Cars"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Fashion & Shopping",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Chalan - No.1 Second-hand Fashion App"
-      ],
-      "avgScore": 7.7
-    },
-    {
-      "category": "Education",
+      "category": "Health & Fitness",
       "currentCount": 4,
       "previousCount": 3,
       "changePercent": 33,
       "changeDirection": "up",
       "apps": [
-        "Animl: Animal Zoo",
-        "DreamWeaver Story Creator",
-        "FireDrill",
-        "alya: your AI language buddy"
+        "MoneyWork - Earn Money by Walking",
+        "AirRhythm – Guided Breathing",
+        "Migraine Tracker(편두통 추적기)",
+        "Brown Noise - Sleep & Focus"
       ],
-      "avgScore": 8
+      "avgScore": 7.625
     },
     {
       "category": "Lifestyle",
-      "currentCount": 5,
-      "previousCount": 4,
-      "changePercent": 25,
+      "currentCount": 6,
+      "previousCount": 5,
+      "changePercent": 20,
       "changeDirection": "up",
       "apps": [
+        "Seashore Tadweer AI",
+        "당근 - 당신 근처의 지역 생활 커뮤니티",
         "Level Up - Game Your Life",
         "Bonsai Studio",
         "Bisque-It Pottery Log",
-        "Yessi (예씨) 확언、名言、目标自动提醒",
-        "mangari"
+        "Yessi (예씨) 확언、名言、目标自动提醒"
       ],
-      "avgScore": 6.959999999999999
+      "avgScore": 7.266666666666666
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 7,
+      "previousCount": 6,
+      "changePercent": 17,
+      "changeDirection": "up",
+      "apps": [
+        "Cosmoglobe",
+        "WePlay - Party Games",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Lezhin Snack - Short Dramas",
+        "크랙 - 즉흥 서사, AI 채팅"
+      ],
+      "avgScore": 7.457142857142857
     }
   ],
   "decliningCategories": [
     {
       "category": "Productivity",
-      "currentCount": 8,
-      "previousCount": 10,
-      "changePercent": -20,
+      "currentCount": 7,
+      "previousCount": 8,
+      "changePercent": -12,
       "changeDirection": "down",
       "apps": [
         "Document Reader Pro",
@@ -327,66 +309,72 @@
         "Daily Work Checklist",
         "ClipQR Share",
         "Day Loop: Minimal Habit Track",
-        "AI Translates All Languages",
-        "Routiva"
+        "AI Translates All Languages"
       ],
-      "avgScore": 7.6625
+      "avgScore": 7.757142857142857
     },
     {
-      "category": "Finance",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
-      "changeDirection": "down",
-      "apps": [
-        "MoneyWork - Health & Money Management",
-        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
-        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
-        "サブスク管理 | 解約忘れを防ぐ"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Weather",
+      "category": "Healthcare/Fitness",
       "currentCount": 1,
       "previousCount": 2,
       "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "Swell Scope — Surf Forecast"
+        "SleepGrids – Sleep & Habit Log"
       ],
-      "avgScore": 6.7
+      "avgScore": 7.5
     },
     {
       "category": "Utility",
       "currentCount": 3,
-      "previousCount": 7,
-      "changePercent": -57,
+      "previousCount": 8,
+      "changePercent": -62,
       "changeDirection": "down",
       "apps": [
+        "CarLog: Fuel & Maintenance",
         "ARchitect: 3D Room Scan & Plan",
-        "QR Scan & Edit",
-        "Time Vault: Memory Capsule"
+        "QR Scan & Edit"
       ],
-      "avgScore": 7.5
+      "avgScore": 7.266666666666667
+    },
+    {
+      "category": "Weather",
+      "currentCount": 1,
+      "previousCount": 3,
+      "changePercent": -67,
+      "changeDirection": "down",
+      "apps": [
+        "첫화면날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨"
+      ],
+      "avgScore": 7.8
     }
   ],
   "stableCategories": [
     {
-      "category": "Entertainment",
-      "currentCount": 6,
-      "previousCount": 6,
+      "category": "Business",
+      "currentCount": 1,
+      "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "WePlay - Party Games",
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Lezhin Snack - Short Dramas",
-        "크랙 - 즉흥 서사, AI 채팅"
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용"
       ],
-      "avgScore": 7.566666666666666
+      "avgScore": 8
+    },
+    {
+      "category": "Finance",
+      "currentCount": 5,
+      "previousCount": 5,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Chime – Mobile Banking",
+        "MoneyWork - Health & Money Management",
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
+        "サブスク管理 | 解約忘れを防ぐ"
+      ],
+      "avgScore": 7.9
     },
     {
       "category": "AI Chatbot",
@@ -398,14 +386,99 @@
         "Gemmy AI: 채팅 & 어시스턴트"
       ],
       "avgScore": 8.3
+    },
+    {
+      "category": "Language Learning",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)"
+      ],
+      "avgScore": 8.5
+    },
+    {
+      "category": "Data Recovery",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Photo Recovery-File Rescue"
+      ],
+      "avgScore": 7.2
     }
   ],
   "hotKeywords": [
     {
+      "keyword": "B2C",
+      "category": "tag",
+      "count": 51,
+      "apps": [
+        "SleepGrids – Sleep & Habit Log",
+        "Cosmoglobe",
+        "CarLog: Fuel & Maintenance",
+        "Routy",
+        "첫화면날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+        "컬리 - 마켓컬리, 뷰티컬리",
+        "당근 - 당신 근처의 지역 생활 커뮤니티",
+        "Chime – Mobile Banking",
+        "Bettergoals: Your Goal Roadmap",
+        "CleanTheOcean",
+        "AR Drawing – Trace & Sketch",
+        "Bonsai Studio",
+        "3act: Be Accountable Together",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "Whatnot: Shop, Sell, Connect",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "AI Home Design - 인테리어",
+        "alya: your AI language buddy",
+        "Bisque-It Pottery Log",
+        "Smart Photo Clean",
+        "Gemmy AI: 채팅 & 어시스턴트",
+        "똑똑계산기 - 다용도 계산기",
+        "AirRhythm – Guided Breathing",
+        "CozyJellyMerge",
+        "CUSTOMZ - AI Car Modification",
+        "ClipQR Share",
+        "Mobile Health Insurance Card",
+        "Accio: Alibaba AI Agent",
+        "Lezhin Snack - Short Dramas",
+        "MoneyWork - Health & Money Management",
+        "Republic of Korea Mobile ID",
+        "Migraine Tracker(편두통 추적기)",
+        "Day Loop: Minimal Habit Track",
+        "Crowdtruth",
+        "20,048",
+        "Ashen Legacy: RPG Pixel",
+        "AI Translates All Languages",
+        "Yessi (예씨) 확언、名言、目标自动提醒",
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
+        "サブスク管理 | 解約忘れを防ぐ",
+        "Brown Noise - Sleep & Focus",
+        "QR Scan & Edit",
+        "EdgeAura",
+        "Photo Recovery-File Rescue",
+        "Open Browser - Smart & Safe",
+        "MiSing - 언제 어디서나, 마음껏 노래해!",
+        "Hallow: Prayer & Meditation"
+      ]
+    },
+    {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 54,
+      "count": 49,
       "apps": [
+        "SleepGrids – Sleep & Habit Log",
+        "Cosmoglobe",
+        "CarLog: Fuel & Maintenance",
+        "Routy",
+        "첫화면날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
         "Animl: Animal Zoo",
         "Gemmy AI: Chat & Assistant",
         "Bettergoals: Your Goal Roadmap",
@@ -449,83 +522,18 @@
         "QR Scan & Edit",
         "EdgeAura",
         "Photo Recovery-File Rescue",
-        "Hallow: Prayer & Meditation",
-        "Time Vault: Memory Capsule",
-        "Routiva",
-        "SetWise: Workout Tracker",
-        "Swell Scope — Surf Forecast",
-        "mangari",
-        "AI Can Translate All Languages",
-        "WordBit English (Auto-Learning on Lockscreen)",
-        "Photo Recovery, File Recovery, All Recovery",
-        "HayDealer - Certified Used Cars",
-        "Chalan - No.1 Second-hand Fashion App"
-      ]
-    },
-    {
-      "keyword": "B2C",
-      "category": "tag",
-      "count": 52,
-      "apps": [
-        "Bettergoals: Your Goal Roadmap",
-        "CleanTheOcean",
-        "AR Drawing – Trace & Sketch",
-        "Bonsai Studio",
-        "3act: Be Accountable Together",
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "Whatnot: Shop, Sell, Connect",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "AI Home Design - 인테리어",
-        "alya: your AI language buddy",
-        "Bisque-It Pottery Log",
-        "Smart Photo Clean",
-        "Gemmy AI: 채팅 & 어시스턴트",
-        "똑똑계산기 - 다용도 계산기",
-        "AirRhythm – Guided Breathing",
-        "CozyJellyMerge",
-        "CUSTOMZ - AI Car Modification",
-        "ClipQR Share",
-        "Mobile Health Insurance Card",
-        "Accio: Alibaba AI Agent",
-        "Lezhin Snack - Short Dramas",
-        "MoneyWork - Health & Money Management",
-        "Republic of Korea Mobile ID",
-        "Migraine Tracker(편두통 추적기)",
-        "Day Loop: Minimal Habit Track",
-        "Crowdtruth",
-        "20,048",
-        "Ashen Legacy: RPG Pixel",
-        "AI Translates All Languages",
-        "Yessi (예씨) 확언、名言、目标自动提醒",
-        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
-        "크랙 - 즉흥 서사, AI 채팅",
-        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-",
-        "サブスク管理 | 解約忘れを防ぐ",
-        "Brown Noise - Sleep & Focus",
-        "QR Scan & Edit",
-        "EdgeAura",
-        "Photo Recovery-File Rescue",
-        "Open Browser - Smart & Safe",
-        "MiSing - 언제 어디서나, 마음껏 노래해!",
-        "Hallow: Prayer & Meditation",
-        "Time Vault: Memory Capsule",
-        "Routiva",
-        "SetWise: Workout Tracker",
-        "Swell Scope — Surf Forecast",
-        "mangari",
-        "AI Can Translate All Languages",
-        "WordBit English (Auto-Learning on Lockscreen)",
-        "Photo Recovery, File Recovery, All Recovery",
-        "HayDealer - Certified Used Cars",
-        "Chalan - No.1 Second-hand Fashion App"
+        "Hallow: Prayer & Meditation"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 30,
+      "count": 31,
       "apps": [
+        "Seashore Tadweer AI",
+        "CarLog: Fuel & Maintenance",
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+        "Chime – Mobile Banking",
         "DreamWeaver Story Creator",
         "Gemmy AI: Chat & Assistant",
         "GO Taxi - AI Booking & Ride Sharing",
@@ -542,16 +550,15 @@
         "AI Translates All Languages",
         "크랙 - 즉흥 서사, AI 채팅",
         "EdgeAura",
-        "Open Browser - Smart & Safe",
-        "AI Can Translate All Languages",
-        "HayDealer - Certified Used Cars"
+        "Open Browser - Smart & Safe"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 14,
+      "count": 12,
       "apps": [
+        "CarLog: Fuel & Maintenance",
         "ARchitect: 3D Room Scan & Plan",
         "MoneyWork - Earn Money by Walking",
         "WePlay - Party Games",
@@ -561,26 +568,7 @@
         "CUSTOMZ - AI Car Modification",
         "ClipQR Share",
         "Mobile Health Insurance Card",
-        "Open Browser - Smart & Safe",
-        "mangari",
-        "WordBit English (Auto-Learning on Lockscreen)",
-        "HayDealer - Certified Used Cars"
-      ]
-    },
-    {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 11,
-      "apps": [
-        "Level Up - Game Your Life",
-        "Document Reader Pro",
-        "3act: Be Accountable Together",
-        "Daily Work Checklist",
-        "ClipQR Share",
-        "Day Loop: Minimal Habit Track",
-        "サブスク管理 | 解約忘れを防ぐ",
-        "EdgeAura",
-        "Routiva"
+        "Open Browser - Smart & Safe"
       ]
     },
     {
@@ -600,6 +588,21 @@
       ]
     },
     {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 10,
+      "apps": [
+        "Level Up - Game Your Life",
+        "Document Reader Pro",
+        "3act: Be Accountable Together",
+        "Daily Work Checklist",
+        "ClipQR Share",
+        "Day Loop: Minimal Habit Track",
+        "サブスク管理 | 解約忘れを防ぐ",
+        "EdgeAura"
+      ]
+    },
+    {
       "keyword": "소셜",
       "category": "tag",
       "count": 7,
@@ -612,15 +615,40 @@
       ]
     },
     {
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "Seashore Tadweer AI",
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+        "FireDrill",
+        "PDF Reader - All PDF Scanner",
+        "Shortn: short viral video app",
+        "Vision Emoji"
+      ]
+    },
+    {
       "keyword": "교육",
       "category": "tag",
       "count": 5,
       "apps": [
+        "Cosmoglobe",
         "Animl: Animal Zoo",
         "DreamWeaver Story Creator",
         "alya: your AI language buddy",
-        "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)",
-        "WordBit English (Auto-Learning on Lockscreen)"
+        "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)"
+      ]
+    },
+    {
+      "keyword": "투자",
+      "category": "fintech",
+      "count": 5,
+      "apps": [
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+        "컬리 - 마켓컬리, 뷰티컬리",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
+        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-"
       ]
     },
     {
@@ -648,28 +676,6 @@
       ]
     },
     {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "FireDrill",
-        "PDF Reader - All PDF Scanner",
-        "Shortn: short viral video app",
-        "Vision Emoji"
-      ]
-    },
-    {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 4,
-      "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Bisque-It Pottery Log",
-        "Hallow: Prayer & Meditation",
-        "Photo Recovery, File Recovery, All Recovery"
-      ]
-    },
-    {
       "keyword": "헬스케어",
       "category": "tag",
       "count": 4,
@@ -681,105 +687,104 @@
       ]
     },
     {
+      "keyword": "1인개발어려움",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Seashore Tadweer AI",
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+        "당근 - 당신 근처의 지역 생활 커뮤니티"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 3,
+      "apps": [
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Bisque-It Pottery Log",
+        "Hallow: Prayer & Meditation"
+      ]
+    },
+    {
       "keyword": "유틸리티",
       "category": "tag",
-      "count": 4,
+      "count": 3,
       "apps": [
         "똑똑계산기 - 다용도 계산기",
         "QR Scan & Edit",
-        "Photo Recovery-File Rescue",
-        "Photo Recovery, File Recovery, All Recovery"
+        "Photo Recovery-File Rescue"
       ]
     },
     {
-      "keyword": "투자",
-      "category": "fintech",
-      "count": 3,
-      "apps": [
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱",
-        "複利逆シミュレーター-目標金額から金利や期間、積立額を逆算-"
-      ]
-    },
-    {
-      "keyword": "일정",
-      "category": "productivity",
-      "count": 3,
-      "apps": [
-        "Bisque-It Pottery Log",
-        "サブスク管理 | 解約忘れを防ぐ",
-        "Routiva"
-      ]
-    },
-    {
-      "keyword": "B2B가능",
-      "category": "tag",
+      "keyword": "수면",
+      "category": "health",
       "count": 2,
       "apps": [
-        "ARchitect: 3D Room Scan & Plan",
-        "Document Reader Pro"
+        "SleepGrids – Sleep & Habit Log",
+        "Brown Noise - Sleep & Focus"
       ]
     },
     {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 2,
-      "apps": [
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "DramaWave -인기 단편/한일 드라마, 역전극!"
-      ]
-    },
-    {
-      "keyword": "네트워킹",
+      "keyword": "매칭",
       "category": "social",
       "count": 2,
       "apps": [
-        "Whatnot: Shop, Sell, Connect",
-        "Crowdtruth"
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+        "GO Taxi - AI Booking & Ride Sharing"
       ]
     },
     {
-      "keyword": "공공서비스",
+      "keyword": "1인개발불가능",
       "category": "tag",
       "count": 2,
       "apps": [
-        "Mobile Health Insurance Card",
-        "Republic of Korea Mobile ID"
+        "컬리 - 마켓컬리, 뷰티컬리",
+        "Chime – Mobile Banking"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 2,
+      "apps": [
+        "당근 - 당신 근처의 지역 생활 커뮤니티",
+        "Crowdtruth"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 33,
-        "percent": 47,
+        "count": 28,
+        "percent": 40,
         "examples": [
-          "Animl: Animal Zoo",
-          "FireDrill",
-          "Level Up - Game Your Life"
+          "Seashore Tadweer AI",
+          "Routy",
+          "첫화면날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨"
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 50,
+        "percent": 71,
         "examples": [
-          "Animl: Animal Zoo",
-          "ARchitect: 3D Room Scan & Plan",
-          "DreamWeaver Story Creator"
+          "SleepGrids – Sleep & Habit Log",
+          "Cosmoglobe",
+          "CarLog: Fuel & Maintenance"
         ]
       },
       "subscription": {
-        "count": 34,
-        "percent": 49,
+        "count": 30,
+        "percent": 43,
         "examples": [
+          "SleepGrids – Sleep & Habit Log",
           "Animl: Animal Zoo",
-          "DreamWeaver Story Creator",
-          "FireDrill"
+          "DreamWeaver Story Creator"
         ]
       },
       "onetime": {
-        "count": 13,
-        "percent": 19,
+        "count": 12,
+        "percent": 17,
         "examples": [
           "DramaWave -인기 단편/한일 드라마, 역전극!",
           "Bisque-It Pottery Log",
@@ -787,19 +792,19 @@
         ]
       },
       "unknown": {
-        "count": 1,
-        "percent": 1,
+        "count": 2,
+        "percent": 3,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 50,
+      "percent": 71,
       "examples": [
-        "Animl: Animal Zoo",
-        "ARchitect: 3D Room Scan & Plan",
-        "DreamWeaver Story Creator"
+        "SleepGrids – Sleep & Habit Log",
+        "Cosmoglobe",
+        "CarLog: Fuel & Maintenance"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -808,26 +813,26 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 25,
-        "percent": 36,
+        "count": 28,
+        "percent": 40,
         "apps": [
-          "Animl: Animal Zoo",
-          "ARchitect: 3D Room Scan & Plan",
-          "DreamWeaver Story Creator",
-          "Gemmy AI: Chat & Assistant",
-          "MoneyWork - Earn Money by Walking"
+          "Seashore Tadweer AI",
+          "CarLog: Fuel & Maintenance",
+          "첫화면날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
+          "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+          "Chime – Mobile Banking"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 20,
-        "percent": 29,
+        "count": 18,
+        "percent": 26,
         "apps": [
+          "Cosmoglobe",
+          "CarLog: Fuel & Maintenance",
           "Animl: Animal Zoo",
           "ARchitect: 3D Room Scan & Plan",
-          "MoneyWork - Earn Money by Walking",
-          "WePlay - Party Games",
-          "GO Taxi - AI Booking & Ride Sharing"
+          "MoneyWork - Earn Money by Walking"
         ]
       },
       {
@@ -856,9 +861,10 @@
       },
       {
         "tech": "social",
-        "count": 4,
-        "percent": 6,
+        "count": 5,
+        "percent": 7,
         "apps": [
+          "당근 - 당신 근처의 지역 생활 커뮤니티",
           "GO Taxi - AI Booking & Ride Sharing",
           "3act: Be Accountable Together",
           "Whatnot: Shop, Sell, Connect",
@@ -867,31 +873,35 @@
       },
       {
         "tech": "health",
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "apps": [
+          "SleepGrids – Sleep & Habit Log",
           "AirRhythm – Guided Breathing",
           "Brown Noise - Sleep & Focus",
           "Hallow: Prayer & Meditation"
         ]
       },
       {
-        "tech": "subscription",
-        "count": 3,
-        "percent": 4,
+        "tech": "fintech",
+        "count": 4,
+        "percent": 6,
         "apps": [
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "サブスク管理 | 解約忘れを防ぐ",
-          "Hallow: Prayer & Meditation"
+          "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+          "컬리 - 마켓컬리, 뷰티컬리",
+          "Mobile Health Insurance Card",
+          "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱"
         ]
       },
       {
-        "tech": "fintech",
-        "count": 2,
-        "percent": 3,
+        "tech": "subscription",
+        "count": 4,
+        "percent": 6,
         "apps": [
-          "Mobile Health Insurance Card",
-          "금한돈 - 자동으로 진짜 황금 보상을 획득하는 앱"
+          "컬리 - 마켓컬리, 뷰티컬리",
+          "NetShort - 인기 드라마 및 TV 프로그램",
+          "サブスク管理 | 解約忘れを防ぐ",
+          "Hallow: Prayer & Meditation"
         ]
       },
       {
@@ -905,27 +915,27 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 25,
-      "percent": 36,
+      "count": 28,
+      "percent": 40,
       "apps": [
-        "Animl: Animal Zoo",
-        "ARchitect: 3D Room Scan & Plan",
-        "DreamWeaver Story Creator",
-        "Gemmy AI: Chat & Assistant",
-        "MoneyWork - Earn Money by Walking"
+        "Seashore Tadweer AI",
+        "CarLog: Fuel & Maintenance",
+        "첫화면날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+        "Chime – Mobile Banking"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 20,
-        "percent": 29,
+        "count": 18,
+        "percent": 26,
         "apps": [
+          "Cosmoglobe",
+          "CarLog: Fuel & Maintenance",
           "Animl: Animal Zoo",
           "ARchitect: 3D Room Scan & Plan",
-          "MoneyWork - Earn Money by Walking",
-          "WePlay - Party Games",
-          "GO Taxi - AI Booking & Ride Sharing"
+          "MoneyWork - Earn Money by Walking"
         ]
       },
       {
@@ -955,6 +965,27 @@
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Travel 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Travel"
+    },
+    {
+      "type": "rising_category",
+      "title": "Shopping 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Shopping"
+    },
+    {
+      "type": "rising_category",
+      "title": "Education 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Education"
+    },
     {
       "type": "rising_category",
       "title": "Communication 카테고리 급부상",
@@ -1020,13 +1051,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Language Learning 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Language Learning"
-    },
-    {
-      "type": "rising_category",
       "title": "Health 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1062,13 +1086,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Data Recovery 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Data Recovery"
-    },
-    {
-      "type": "rising_category",
       "title": "Browser 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1090,54 +1107,32 @@
     },
     {
       "type": "rising_category",
-      "title": "Translation 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Translation"
-    },
-    {
-      "type": "rising_category",
-      "title": "Automobiles 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Automobiles"
-    },
-    {
-      "type": "rising_category",
-      "title": "Fashion & Shopping 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Fashion & Shopping"
-    },
-    {
-      "type": "rising_category",
-      "title": "Education 카테고리 급부상",
+      "title": "Health & Fitness 카테고리 급부상",
       "description": "33% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Education"
+      "category": "Health & Fitness"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "36%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "40%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Game 카테고리가 500% 급상승하며 인디게임 개발 열풍이 불고 있고, AI 기능 통합이 36%의 앱에서 표준화되고 있습니다. 1인 개발 가능한 영역이 54회 언급되며 솔로 개발자에게 유리한 시장 환경이 조성되고 있습니다.",
+    "trend_summary": "Game 카테고리가 500% 폭발적 성장을 보이며 전체 트렌드를 주도하고 있고, AI 기술이 40%의 앱에 통합되어 핵심 차별화 요소로 자리잡았습니다. Freemium 모델(71%)이 가장 선호되는 수익화 전략으로 확인되었습니다.",
     "trend_details": [
-      "Game 카테고리 500% 급상승으로 인디게임 개발 기회 확대",
-      "AI 기능이 36%의 앱에 통합되어 필수 기능으로 자리잡음",
-      "Freemium 모델이 74%로 가장 선호되는 수익화 전략",
-      "Communication, Transportation 등 100% 성장하지만 경쟁이 적은 틈새 영역 등장"
+      "Game 카테고리 500% 급성장으로 최대 기회 영역",
+      "AI 기술 통합률 40% 달성하며 필수 기능으로 부상",
+      "Freemium 모델 71% 채택으로 주요 수익화 전략 확립"
     ],
     "hot_categories": [
       "Game",
-      "Health & Fitness"
+      "Education"
     ],
-    "opportunity": "Communication, Transportation, Graphics & Design 등 100% 성장했지만 앱 수가 적은 틈새 카테고리에서 AI 기능을 통합한 차별화된 앱 개발",
-    "action_item": "AI 기능이 부족한 Communication이나 Transportation 카테고리에서 1인 개발 가능한 freemium 모델 앱을 개발하세요",
-    "weekly_theme": "AI 게임혁신"
+    "opportunity": "1인 개발 가능한 AI 통합 게임 또는 교육 앱 개발이 가장 유망한 기회 영역입니다.",
+    "action_item": "AI 기능을 핵심으로 한 freemium 모델의 게임 또는 교육 앱 MVP를 즉시 개발 시작하세요.",
+    "weekly_theme": "AI 게임"
   }
 }
