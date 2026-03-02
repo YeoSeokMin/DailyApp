@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-01T15:12:15.175Z",
+  "generatedAt": "2026-03-02T15:12:25.229Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -23,19 +23,95 @@
       "avgScore": 7.871428571428573
     },
     {
-      "category": "Game",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
+      "category": "Travel",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Bridges: Strategy Game",
-        "CleanTheOcean",
-        "Reflexa 反射神経ミニゲーム",
-        "Peelr - Oddly Satisfying",
-        "CozyJellyMerge"
+        "Wonder Gloss - Translator",
+        "Routy"
+      ],
+      "avgScore": 6.8
+    },
+    {
+      "category": "Sports",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Coachalyze"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Photo & Video",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AI Product Background Remover"
+      ],
+      "avgScore": 8.1
+    },
+    {
+      "category": "News",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Reel or Not?"
       ],
       "avgScore": 7.3
+    },
+    {
+      "category": "AI Chat",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Zeta - Reality Becoming a Reality AI Chat",
+        "Crack - Spontaneous Storytelling with AI Chat"
+      ],
+      "avgScore": 7.4
+    },
+    {
+      "category": "Ride-Hailing",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "GO Taxi Booking App - AI Ride-hailing Service"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Health & Finance",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "MoneyWork - Earn Money with Health Management",
+        "MoneyWork - Earn Money with Health Management"
+      ],
+      "avgScore": 7.25
+    },
+    {
+      "category": "Stickers & Emojis",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Free Talk Stickers - Personal Stickers"
+      ],
+      "avgScore": 6.3
     },
     {
       "category": "Business",
@@ -62,27 +138,15 @@
     },
     {
       "category": "Graphics & Design",
-      "currentCount": 3,
-      "previousCount": 0,
+      "currentCount": 2,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
         "OTIOSE",
-        "AR Drawing – Trace & Sketch",
-        "CUSTOMZ - AI Car Modification"
+        "AR Drawing – Trace & Sketch"
       ],
-      "avgScore": 7.133333333333333
-    },
-    {
-      "category": "Health & Finance",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "MoneyWork - Earn Money with Health Management"
-      ],
-      "avgScore": 8.2
+      "avgScore": 7.1
     },
     {
       "category": "Real Estate",
@@ -120,15 +184,15 @@
       "avgScore": 6
     },
     {
-      "category": "Travel",
+      "category": "Healthcare/Fitness",
       "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Routy"
+        "SleepGrids – Sleep & Habit Log"
       ],
-      "avgScore": 6.8
+      "avgScore": 7.5
     },
     {
       "category": "Shopping",
@@ -219,37 +283,19 @@
       "avgScore": 7.5
     },
     {
-      "category": "Health",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Game",
+      "currentCount": 5,
+      "previousCount": 3,
+      "changePercent": 67,
       "changeDirection": "up",
       "apps": [
-        "Mobile Health Insurance Card"
+        "Ocean to Ampire",
+        "Bridges: Strategy Game",
+        "CleanTheOcean",
+        "Reflexa 反射神経ミニゲーム",
+        "Peelr - Oddly Satisfying"
       ],
-      "avgScore": 9.2
-    },
-    {
-      "category": "AI",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Accio: Alibaba AI Agent"
-      ],
-      "avgScore": 8.3
-    },
-    {
-      "category": "Identity",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Republic of Korea Mobile ID"
-      ],
-      "avgScore": 8.8
+      "avgScore": 7.140000000000001
     },
     {
       "category": "Lifestyle",
@@ -266,13 +312,30 @@
         "Bisque-It Pottery Log"
       ],
       "avgScore": 7.366666666666667
+    }
+  ],
+  "decliningCategories": [
+    {
+      "category": "Entertainment",
+      "currentCount": 5,
+      "previousCount": 6,
+      "changePercent": -17,
+      "changeDirection": "down",
+      "apps": [
+        "Cosmoglobe",
+        "WePlay - Party Games",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "NetShort - 인기 드라마 및 TV 프로그램"
+      ],
+      "avgScore": 7.0200000000000005
     },
     {
       "category": "Productivity",
-      "currentCount": 9,
-      "previousCount": 8,
-      "changePercent": 13,
-      "changeDirection": "up",
+      "currentCount": 7,
+      "previousCount": 10,
+      "changePercent": -30,
+      "changeDirection": "down",
       "apps": [
         "Pocket Notebook!",
         "Genspark AI Workspace",
@@ -280,19 +343,15 @@
         "Gemmy AI: Chat & Assistant",
         "Document Reader Pro",
         "Bettergoals: Your Goal Roadmap",
-        "3act: Be Accountable Together",
-        "Daily Work Checklist",
-        "ClipQR Share"
+        "3act: Be Accountable Together"
       ],
-      "avgScore": 7.577777777777778
-    }
-  ],
-  "decliningCategories": [
+      "avgScore": 7.428571428571429
+    },
     {
       "category": "Utility",
       "currentCount": 4,
-      "previousCount": 8,
-      "changePercent": -50,
+      "previousCount": 6,
+      "changePercent": -33,
       "changeDirection": "down",
       "apps": [
         "MemoSphere Pro",
@@ -314,18 +373,6 @@
       "avgScore": 7.8
     },
     {
-      "category": "Health & Fitness",
-      "currentCount": 2,
-      "previousCount": 4,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "MoneyWork - Earn Money by Walking",
-        "AirRhythm – Guided Breathing"
-      ],
-      "avgScore": 8.25
-    },
-    {
       "category": "Social Networking",
       "currentCount": 1,
       "previousCount": 2,
@@ -337,46 +384,29 @@
       "avgScore": 7
     },
     {
-      "category": "Finance",
-      "currentCount": 2,
-      "previousCount": 7,
-      "changePercent": -71,
+      "category": "Health & Fitness",
+      "currentCount": 1,
+      "previousCount": 5,
+      "changePercent": -80,
       "changeDirection": "down",
       "apps": [
-        "Chime – Mobile Banking",
-        "MoneyWork - Health & Money Management"
+        "MoneyWork - Earn Money by Walking"
       ],
-      "avgScore": 7.95
+      "avgScore": 8
+    },
+    {
+      "category": "Finance",
+      "currentCount": 1,
+      "previousCount": 7,
+      "changePercent": -86,
+      "changeDirection": "down",
+      "apps": [
+        "Chime – Mobile Banking"
+      ],
+      "avgScore": 7.5
     }
   ],
   "stableCategories": [
-    {
-      "category": "Healthcare/Fitness",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "SleepGrids – Sleep & Habit Log"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "Entertainment",
-      "currentCount": 6,
-      "previousCount": 6,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Cosmoglobe",
-        "WePlay - Party Games",
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Lezhin Snack - Short Dramas"
-      ],
-      "avgScore": 7.283333333333334
-    },
     {
       "category": "AI Chatbot",
       "currentCount": 1,
@@ -404,8 +434,15 @@
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 41,
+      "count": 43,
       "apps": [
+        "Ocean to Ampire",
+        "Wonder Gloss - Translator",
+        "AI Product Background Remover",
+        "Zeta - Reality Becoming a Reality AI Chat",
+        "MoneyWork - Earn Money with Health Management",
+        "Crack - Spontaneous Storytelling with AI Chat",
+        "Free Talk Stickers - Personal Stickers",
         "MemoSphere Pro",
         "ClaimScope",
         "漢字ラボ",
@@ -441,12 +478,7 @@
         "Smart Photo Clean",
         "Gemmy AI: 채팅 & 어시스턴트",
         "똑똑계산기 - 다용도 계산기",
-        "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)",
-        "AirRhythm – Guided Breathing",
-        "CozyJellyMerge",
-        "Daily Work Checklist",
-        "CUSTOMZ - AI Car Modification",
-        "ClipQR Share"
+        "워드빗 영어 (WordBit으로 잠금화면에서 자동학습)"
       ]
     },
     {
@@ -454,6 +486,15 @@
       "category": "tag",
       "count": 36,
       "apps": [
+        "Ocean to Ampire",
+        "Wonder Gloss - Translator",
+        "Coachalyze",
+        "Reel or Not?",
+        "Zeta - Reality Becoming a Reality AI Chat",
+        "GO Taxi Booking App - AI Ride-hailing Service",
+        "MoneyWork - Earn Money with Health Management",
+        "Crack - Spontaneous Storytelling with AI Chat",
+        "Free Talk Stickers - Personal Stickers",
         "NoteWave Studio",
         "Leafy: Plant Identifier",
         "Hogangnono",
@@ -480,23 +521,20 @@
         "Bisque-It Pottery Log",
         "Smart Photo Clean",
         "Gemmy AI: 채팅 & 어시스턴트",
-        "똑똑계산기 - 다용도 계산기",
-        "AirRhythm – Guided Breathing",
-        "CozyJellyMerge",
-        "CUSTOMZ - AI Car Modification",
-        "ClipQR Share",
-        "Mobile Health Insurance Card",
-        "Accio: Alibaba AI Agent",
-        "Lezhin Snack - Short Dramas",
-        "MoneyWork - Health & Money Management",
-        "Republic of Korea Mobile ID"
+        "똑똑계산기 - 다용도 계산기"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 32,
+      "count": 34,
       "apps": [
+        "Coachalyze",
+        "AI Product Background Remover",
+        "Reel or Not?",
+        "Zeta - Reality Becoming a Reality AI Chat",
+        "GO Taxi Booking App - AI Ride-hailing Service",
+        "Crack - Spontaneous Storytelling with AI Chat",
         "MemoSphere Pro",
         "ClaimScope",
         "ApartAI - Apartment App",
@@ -514,17 +552,13 @@
         "AI Home Design - 인테리어",
         "alya: your AI language buddy",
         "Smart Photo Clean",
-        "Gemmy AI: 채팅 & 어시스턴트",
-        "AirRhythm – Guided Breathing",
-        "Daily Work Checklist",
-        "CUSTOMZ - AI Car Modification",
-        "Accio: Alibaba AI Agent"
+        "Gemmy AI: 채팅 & 어시스턴트"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 15,
+      "count": 13,
       "apps": [
         "MoneyWork - Earn Money with Health Management",
         "KidzNote: Preschool, Kindergarten, and School App!",
@@ -536,33 +570,15 @@
         "WePlay - Party Games",
         "GO Taxi - AI Booking & Ride Sharing",
         "AR Drawing – Trace & Sketch",
-        "Smart Photo Clean",
-        "CUSTOMZ - AI Car Modification",
-        "ClipQR Share",
-        "Mobile Health Insurance Card"
-      ]
-    },
-    {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 11,
-      "apps": [
-        "MemoSphere Pro",
-        "Cleaner Launcher for Android",
-        "Pocket Notebook!",
-        "Gemmy AI: Chat & Assistant",
-        "Level Up - Game Your Life",
-        "Document Reader Pro",
-        "3act: Be Accountable Together",
-        "Daily Work Checklist",
-        "ClipQR Share"
+        "Smart Photo Clean"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 9,
+      "count": 10,
       "apps": [
+        "AI Product Background Remover",
         "MemoSphere Pro",
         "ClaimScope",
         "KidzNote: Preschool, Kindergarten, and School App!",
@@ -572,6 +588,32 @@
         "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
         "FireDrill",
         "PDF Reader - All PDF Scanner"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 8,
+      "apps": [
+        "MemoSphere Pro",
+        "Cleaner Launcher for Android",
+        "Pocket Notebook!",
+        "Gemmy AI: Chat & Assistant",
+        "Level Up - Game Your Life",
+        "Document Reader Pro",
+        "3act: Be Accountable Together"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "Free Talk Stickers - Personal Stickers",
+        "WePlay - Party Games",
+        "3act: Be Accountable Together",
+        "Whatnot: Shop, Sell, Connect",
+        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활"
       ]
     },
     {
@@ -588,25 +630,26 @@
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 6,
-      "apps": [
-        "DreamWeaver Story Creator",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
-        "Lezhin Snack - Short Dramas"
-      ]
-    },
-    {
-      "keyword": "소셜",
+      "keyword": "게임",
       "category": "tag",
       "count": 5,
       "apps": [
+        "Ocean to Ampire",
         "WePlay - Party Games",
-        "3act: Be Accountable Together",
-        "Whatnot: Shop, Sell, Connect",
+        "Reflexa 反射神経ミニゲーム",
+        "Peelr - Oddly Satisfying",
+        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "Zeta - Reality Becoming a Reality AI Chat",
+        "DreamWeaver Story Creator",
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "NetShort - 인기 드라마 및 TV 프로그램",
         "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활"
       ]
     },
@@ -615,10 +658,9 @@
       "category": "tag",
       "count": 4,
       "apps": [
+        "Coachalyze",
         "MoneyWork - Earn Money with Health Management",
-        "Reflexa 反射神経ミニゲーム",
-        "AirRhythm – Guided Breathing",
-        "MoneyWork - Health & Money Management"
+        "Reflexa 反射神経ミニゲーム"
       ]
     },
     {
@@ -633,14 +675,13 @@
       ]
     },
     {
-      "keyword": "게임",
-      "category": "tag",
-      "count": 4,
+      "keyword": "매칭",
+      "category": "social",
+      "count": 3,
       "apps": [
-        "WePlay - Party Games",
-        "Reflexa 反射神経ミニゲーム",
-        "Peelr - Oddly Satisfying",
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활"
+        "GO Taxi Booking App - AI Ride-hailing Service",
+        "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+        "GO Taxi - AI Booking & Ride Sharing"
       ]
     },
     {
@@ -651,16 +692,6 @@
         "ClaimScope",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "Bisque-It Pottery Log"
-      ]
-    },
-    {
-      "keyword": "핀테크",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "ClaimScope",
-        "MoneyWork - Earn Money with Health Management",
-        "MoneyWork - Health & Money Management"
       ]
     },
     {
@@ -680,16 +711,6 @@
         "Leafy: Plant Identifier",
         "Outfitap: AI Virtual Try-On",
         "Genspark AI Workspace"
-      ]
-    },
-    {
-      "keyword": "B2B2C",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Outfitap: AI Virtual Try-On",
-        "QuickDoc: PDF Reader Tools",
-        "Daily Work Checklist"
       ]
     },
     {
@@ -713,67 +734,76 @@
       ]
     },
     {
-      "keyword": "크리에이터",
+      "keyword": "프리미엄",
+      "category": "subscription",
+      "count": 2,
+      "apps": [
+        "Coachalyze",
+        "컬리 - 마켓컬리, 뷰티컬리"
+      ]
+    },
+    {
+      "keyword": "사회적가치",
       "category": "tag",
       "count": 2,
       "apps": [
-        "NoteWave Studio",
-        "OTIOSE"
+        "Reel or Not?",
+        "FireDrill"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 26,
-        "percent": 37,
+        "count": 23,
+        "percent": 33,
         "examples": [
+          "Ocean to Ampire",
           "MoneyWork - Earn Money with Health Management",
-          "EdgeAura",
-          "Cleaner Launcher for Android"
+          "MoneyWork - Earn Money with Health Management"
         ]
       },
       "freemium": {
-        "count": 51,
-        "percent": 73,
+        "count": 52,
+        "percent": 74,
         "examples": [
-          "MemoSphere Pro",
-          "NoteWave Studio",
-          "漢字ラボ"
+          "Ocean to Ampire",
+          "Wonder Gloss - Translator",
+          "Coachalyze"
         ]
       },
       "subscription": {
-        "count": 29,
-        "percent": 41,
+        "count": 31,
+        "percent": 44,
         "examples": [
-          "MemoSphere Pro",
-          "ClaimScope",
-          "漢字ラボ"
+          "Wonder Gloss - Translator",
+          "Coachalyze",
+          "AI Product Background Remover"
         ]
       },
       "onetime": {
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "examples": [
+          "Free Talk Stickers - Personal Stickers",
           "NoteWave Studio",
-          "HexaNut Fix",
-          "DramaWave -인기 단편/한일 드라마, 역전극!"
+          "HexaNut Fix"
         ]
       },
       "unknown": {
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 51,
-      "percent": 73,
+      "count": 52,
+      "percent": 74,
       "examples": [
-        "MemoSphere Pro",
-        "NoteWave Studio",
-        "漢字ラボ"
+        "Ocean to Ampire",
+        "Wonder Gloss - Translator",
+        "Coachalyze"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -782,57 +812,46 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 29,
-        "percent": 41,
+        "count": 32,
+        "percent": 46,
         "apps": [
-          "MemoSphere Pro",
-          "ClaimScope",
-          "NoteWave Studio",
-          "ApartAI - Apartment App",
-          "Leafy: Plant Identifier"
+          "Coachalyze",
+          "AI Product Background Remover",
+          "Reel or Not?",
+          "Zeta - Reality Becoming a Reality AI Chat",
+          "GO Taxi Booking App - AI Ride-hailing Service"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 22,
-        "percent": 31,
+        "count": 19,
+        "percent": 27,
         "apps": [
+          "Reel or Not?",
+          "MoneyWork - Earn Money with Health Management",
           "MoneyWork - Earn Money with Health Management",
           "KidzNote: Preschool, Kindergarten, and School App!",
-          "ApartAI - Apartment App",
-          "HexaNut Fix",
-          "Outfitap: AI Virtual Try-On"
+          "ApartAI - Apartment App"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 10,
+        "percent": 14,
         "apps": [
+          "Reel or Not?",
+          "Zeta - Reality Becoming a Reality AI Chat",
+          "Free Talk Stickers - Personal Stickers",
           "QuickDoc: PDF Reader Tools",
-          "DreamWeaver Story Creator",
-          "Document Reader Pro",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
-          "DramaWave -인기 단편/한일 드라마, 역전극!"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "Genspark AI Workspace",
-          "Document Reader Pro",
-          "3act: Be Accountable Together",
-          "Bisque-It Pottery Log",
-          "Daily Work Checklist"
+          "DreamWeaver Story Creator"
         ]
       },
       {
         "tech": "social",
-        "count": 4,
-        "percent": 6,
+        "count": 5,
+        "percent": 7,
         "apps": [
+          "GO Taxi Booking App - AI Ride-hailing Service",
           "당근 - 당신 근처의 지역 생활 커뮤니티",
           "GO Taxi - AI Booking & Ride Sharing",
           "3act: Be Accountable Together",
@@ -840,31 +859,33 @@
         ]
       },
       {
-        "tech": "fintech",
-        "count": 3,
-        "percent": 4,
+        "tech": "productivity",
+        "count": 4,
+        "percent": 6,
         "apps": [
-          "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
-          "컬리 - 마켓컬리, 뷰티컬리",
-          "Mobile Health Insurance Card"
-        ]
-      },
-      {
-        "tech": "health",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "SleepGrids – Sleep & Habit Log",
-          "AirRhythm – Guided Breathing"
+          "Genspark AI Workspace",
+          "Document Reader Pro",
+          "3act: Be Accountable Together",
+          "Bisque-It Pottery Log"
         ]
       },
       {
         "tech": "subscription",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "Coachalyze",
+          "컬리 - 마켓컬리, 뷰티컬리",
+          "NetShort - 인기 드라마 및 TV 프로그램"
+        ]
+      },
+      {
+        "tech": "fintech",
         "count": 2,
         "percent": 3,
         "apps": [
-          "컬리 - 마켓컬리, 뷰티컬리",
-          "NetShort - 인기 드라마 및 TV 프로그램"
+          "잡코리아 - ai 커리어 플랫폼 취업 이직 직장 채용",
+          "컬리 - 마켓컬리, 뷰티컬리"
         ]
       },
       {
@@ -872,38 +893,114 @@
         "count": 1,
         "percent": 1,
         "apps": [
-          "Mobile Health Insurance Card"
+          "MoneyWork - Earn Money with Health Management"
+        ]
+      },
+      {
+        "tech": "health",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "SleepGrids – Sleep & Habit Log"
         ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 29,
-      "percent": 41,
+      "count": 32,
+      "percent": 46,
       "apps": [
-        "MemoSphere Pro",
-        "ClaimScope",
-        "NoteWave Studio",
-        "ApartAI - Apartment App",
-        "Leafy: Plant Identifier"
+        "Coachalyze",
+        "AI Product Background Remover",
+        "Reel or Not?",
+        "Zeta - Reality Becoming a Reality AI Chat",
+        "GO Taxi Booking App - AI Ride-hailing Service"
       ]
     },
     "emerging": [
       {
-        "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "tech": "ar_vr",
+        "count": 19,
+        "percent": 27,
         "apps": [
+          "Reel or Not?",
+          "MoneyWork - Earn Money with Health Management",
+          "MoneyWork - Earn Money with Health Management",
+          "KidzNote: Preschool, Kindergarten, and School App!",
+          "ApartAI - Apartment App"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 10,
+        "percent": 14,
+        "apps": [
+          "Reel or Not?",
+          "Zeta - Reality Becoming a Reality AI Chat",
+          "Free Talk Stickers - Personal Stickers",
           "QuickDoc: PDF Reader Tools",
-          "DreamWeaver Story Creator",
-          "Document Reader Pro",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
-          "DramaWave -인기 단편/한일 드라마, 역전극!"
+          "DreamWeaver Story Creator"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Travel 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Travel"
+    },
+    {
+      "type": "rising_category",
+      "title": "Sports 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Sports"
+    },
+    {
+      "type": "rising_category",
+      "title": "Photo & Video 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Photo & Video"
+    },
+    {
+      "type": "rising_category",
+      "title": "News 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "News"
+    },
+    {
+      "type": "rising_category",
+      "title": "AI Chat 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "AI Chat"
+    },
+    {
+      "type": "rising_category",
+      "title": "Ride-Hailing 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Ride-Hailing"
+    },
+    {
+      "type": "rising_category",
+      "title": "Health & Finance 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Health & Finance"
+    },
+    {
+      "type": "rising_category",
+      "title": "Stickers & Emojis 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Stickers & Emojis"
+    },
     {
       "type": "rising_category",
       "title": "Business 카테고리 급부상",
@@ -924,13 +1021,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Graphics & Design"
-    },
-    {
-      "type": "rising_category",
-      "title": "Health & Finance 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health & Finance"
     },
     {
       "type": "rising_category",
@@ -955,10 +1045,10 @@
     },
     {
       "type": "rising_category",
-      "title": "Travel 카테고리 급부상",
+      "title": "Healthcare/Fitness 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Travel"
+      "category": "Healthcare/Fitness"
     },
     {
       "type": "rising_category",
@@ -1017,47 +1107,29 @@
       "category": "Calculator"
     },
     {
-      "type": "rising_category",
-      "title": "Health 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health"
-    },
-    {
-      "type": "rising_category",
-      "title": "AI 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "AI"
-    },
-    {
-      "type": "rising_category",
-      "title": "Identity 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Identity"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "41%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "46%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Education 카테고리가 250% 급성장하며 가장 뜨거운 분야로 부상했고, AI 기능 통합과 1인 개발 가능한 앱들이 주요 트렌드를 이끌고 있습니다. Freemium 모델이 73%로 주도적인 수익화 전략으로 자리잡았습니다.",
+    "trend_summary": "Education 카테고리가 250% 급성장하며 시장을 주도하고 있고, AI 기능을 탑재한 앱이 46%에 달해 핵심 기술로 자리잡았습니다. 1인 개발 가능한 B2C 앱이 주목받으며 freemium 모델이 74%로 주류를 이루고 있습니다.",
     "trend_details": [
-      "AI 기능 통합이 41%의 앱에서 활용되며 핵심 차별화 요소로 부상",
-      "1인 개발 가능한 앱 구조와 B2C 모델이 인디 개발자들 사이에서 선호됨",
-      "Freemium 모델(73%)과 구독 모델(41%)이 주요 수익화 전략으로 확산"
+      "Education 앱이 250% 성장으로 가장 큰 기회 영역",
+      "AI 기능 통합이 필수 트렌드 (46% 채택률)",
+      "1인 개발 가능한 B2C 앱 모델이 인기",
+      "freemium 가격 모델이 74%로 주류",
+      "Travel, Sports, Photo & Video 등 다양한 틈새 카테고리 급부상"
     ],
     "hot_categories": [
       "Education",
-      "Game"
+      "Travel",
+      "Sports"
     ],
-    "opportunity": "Business, Music, Graphics & Design 등 다수 카테고리가 100% 성장했지만 앱 수가 적어 경쟁이 치열하지 않은 블루오션 진입 기회가 존재합니다.",
-    "action_item": "급성장하는 Education 분야에 AI 기능을 통합한 1인 개발 가능한 Freemium 앱을 출시하거나, 경쟁이 적은 Music/Business 카테고리에 AI 차별화 요소를 더해 진입하세요.",
-    "weekly_theme": "AI 교육혁신"
+    "opportunity": "Education 카테고리에서 AI 기능을 활용한 개인화 학습 도구 개발이 가장 유망한 기회입니다.",
+    "action_item": "Education 카테고리에서 AI 챗봇 기반의 언어학습 또는 스킬 트레이닝 앱을 freemium 모델로 개발하세요.",
+    "weekly_theme": "AI Education"
   }
 }

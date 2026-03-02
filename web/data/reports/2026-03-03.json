@@ -1,0 +1,637 @@
+{
+  "date": "2026-03-03",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Amble: Your Walking Companion",
+      "developer": "ROBIN ANDREAS KARLSSON",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/12/da/0312da3e-8492-666b-3fdc-7f2636caa8d5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/amble-your-walking-companion/id6759115841?uo=2",
+      "idea_summary": "AI 기반 걷기 동반자로 동기부여 제공 [추론]",
+      "analysis": {
+        "problem": "걷기 습관 형성의 어려움과 동기부여 부족 [추론]",
+        "solution": "개인화된 걷기 목표 설정과 AI 동반자 기능 [추론]",
+        "target_user": "건강 관리에 관심 있는 20-50대 직장인 [추론]",
+        "unique_point": "단순한 만보기를 넘어선 AI 동반자 개념 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "삼성헬스",
+          "구글핏"
+        ],
+        "timing_reason": "팬데믹 이후 건강 관리 의식 증가 [추론]",
+        "growth_potential": "웨어러블 기기 보급 확산으로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 모델 [추론]",
+        "pricing_suggestion": "월 2,900원 구독료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "HealthKit",
+          "Core ML"
+        ],
+        "key_features": [
+          "걸음 추적",
+          "AI 코칭",
+          "소셜 챌린지"
+        ],
+        "clone_tip": "헬스킷 API 활용과 간단한 AI 응답 시스템 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "차별화된 AI 동반자 컨셉으로 기존 만보기 앱과 차별화 가능",
+      "deep_report_id": "ios-amble-your-walking-companion-1772463967313"
+    },
+    {
+      "rank": 2,
+      "name": "AvoAI - Healthy Food Scanner",
+      "developer": "Can Kahraman",
+      "category": "Health/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/b3/a8/f4b3a8f9-a5dc-359d-8d30-4ab056d614f5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/avoai-healthy-food-scanner/id6758269136?uo=2",
+      "idea_summary": "AI로 음식을 스캔해 영양 정보 제공 [확인]",
+      "analysis": {
+        "problem": "복잡한 영양 성분 분석과 칼로리 계산의 어려움 [추론]",
+        "solution": "카메라로 음식을 촬영하면 AI가 영양 정보 자동 분석 [추론]",
+        "target_user": "다이어트와 건강 관리에 관심 있는 20-40대 [추론]",
+        "unique_point": "실시간 음식 스캔을 통한 즉석 영양 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "마이핏니스팔",
+          "칼로리맘"
+        ],
+        "timing_reason": "AI 이미지 인식 기술 발달과 건강 의식 증가 [추론]",
+        "growth_potential": "글로벌 헬스 앱 시장 급성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 영양 분석 기능 구독 [추론]",
+        "pricing_suggestion": "월 4,900원 구독료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "TensorFlow",
+          "OpenCV",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 이미지 인식",
+          "영양 DB",
+          "일일 추적"
+        ],
+        "clone_tip": "구글 Vision API 활용해 음식 인식 후 영양 DB 매칭 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI",
+        "#헬스케어"
+      ],
+      "verdict": "AI 기술 접목으로 기존 칼로리 앱과 명확한 차별화 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Shluffy - A Baby Sleep Coach",
+      "developer": "Big Fat Apps, LLC",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/3a/71/593a71c8-529c-bd30-eed1-359eebde783b/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/shluffy-a-baby-sleep-coach/id6758364198?uo=2",
+      "idea_summary": "아기 수면 패턴 분석 및 코칭 서비스 [추론]",
+      "analysis": {
+        "problem": "신생아 부모의 수면 부족과 아기 수면 패턴 이해 부족 [추론]",
+        "solution": "아기 수면 데이터 분석을 통한 개인화된 수면 코칭 [추론]",
+        "target_user": "신생아를 둔 초보 부모 20-30대 [추론]",
+        "unique_point": "AI 기반 개인화된 수면 코칭 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "베이비트래커",
+          "허그맘"
+        ],
+        "timing_reason": "저출산 시대 프리미엄 육아 서비스 수요 증가 [추론]",
+        "growth_potential": "틈새 시장이지만 고객 충성도 높음 [추론]"
+      },
+      "business": {
+        "monetization": "전문 수면 코칭 구독 서비스 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "데이터 분석",
+          "푸시 알림"
+        ],
+        "key_features": [
+          "수면 패턴 추적",
+          "맞춤 코칭",
+          "부모 가이드"
+        ],
+        "clone_tip": "수면 전문가 콘텐츠와 간단한 패턴 분석 알고리즘 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#육아",
+        "#니치마켓"
+      ],
+      "verdict": "특화된 타겟으로 높은 고객 만족도와 충성도 기대 가능"
+    },
+    {
+      "rank": 4,
+      "name": "VAZOYO - AI Photo Feedback",
+      "developer": "Jonghyeon Park",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/4b/df/b54bdf38-e450-29a3-50d8-a2704bb2f920/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/vazoyo-ai-photo-feedback/id6758322988?uo=2",
+      "idea_summary": "AI가 사진을 분석해 개선 피드백 제공 [확인]",
+      "analysis": {
+        "problem": "사진 촬영 실력 향상을 위한 전문적 피드백 부족 [추론]",
+        "solution": "AI가 구도, 조명, 색감 등을 분석해 즉시 피드백 [추론]",
+        "target_user": "사진에 관심 있는 일반인과 아마추어 사진작가 [추론]",
+        "unique_point": "전문가 수준의 AI 사진 분석과 교육적 피드백 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "구글포토",
+          "어도비 라이트룸"
+        ],
+        "timing_reason": "소셜미디어 시대 사진 품질에 대한 관심 증가 [추론]",
+        "growth_potential": "크리에이터 경제 성장과 함께 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "고급 분석 기능과 튜토리얼 구독 [추론]",
+        "pricing_suggestion": "월 3,900원 구독료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1200-1800만원 [추론]",
+        "tech_stack": [
+          "Computer Vision",
+          "ML Kit",
+          "이미지 분석"
+        ],
+        "key_features": [
+          "AI 사진 분석",
+          "개선 제안",
+          "학습 콘텐츠"
+        ],
+        "clone_tip": "이미지 분석 API와 사진 이론 데이터베이스 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI",
+        "#크리에이터"
+      ],
+      "verdict": "독창적 아이디어로 사진 애호가들에게 어필 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Unitlog: Appliance Tracker",
+      "developer": "Justinas Grinius",
+      "category": "Utility",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/3d/35/ec3d35ee-1bde-9f6d-15a0-77e6e5524d78/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/unitlog-appliance-tracker/id6759115366?uo=2",
+      "idea_summary": "가전제품 사용량과 효율성 추적 관리 [추론]",
+      "analysis": {
+        "problem": "가전제품 관리와 에너지 효율성 모니터링의 어려움 [추론]",
+        "solution": "가전제품별 사용 이력과 효율성을 체계적으로 추적 [추론]",
+        "target_user": "에너지 절약에 관심 있는 30-50대 가정주부 [추론]",
+        "unique_point": "가전제품 전문 관리 도구로 특화된 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "스마트홈 앱들",
+          "에너지 관리 앱들"
+        ],
+        "timing_reason": "에너지 비용 상승과 환경 의식 증가 [추론]",
+        "growth_potential": "스마트홈 확산과 함께 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능과 알림 서비스 [추론]",
+        "pricing_suggestion": "월 1,900원 구독료 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
+        "tech_stack": [
+          "데이터베이스",
+          "차트 라이브러리",
+          "알림 시스템"
+        ],
+        "key_features": [
+          "사용량 추적",
+          "효율성 분석",
+          "교체 알림"
+        ],
+        "clone_tip": "간단한 로깅 시스템과 데이터 시각화 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#절약"
+      ],
+      "verdict": "틈새 시장이지만 실용적 가치로 꾸준한 수요 기대"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Nimbly Clean",
+      "developer": "Wayfast IT Solution Pvt. Ltd",
+      "category": "Cleaning Services",
+      "icon": "https://play-lh.googleusercontent.com/zoReXhai8iKG3vK6ZfqWZPxH0cdWNLgpL4KKuNpNrBnLhb7JDXIQfF_WLWrv4zHr1SOlngiCA8Fz-KsuFCvgyQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.nanai.cleanfly",
+      "idea_summary": "집 청소 서비스 예약 플랫폼 [확인]",
+      "analysis": {
+        "problem": "바쁜 현대인들의 청소 시간 부족과 전문 청소 서비스 접근성 [추론]",
+        "solution": "앱을 통한 간편한 청소 서비스 예약과 관리 [추론]",
+        "target_user": "바쁜 직장인과 고소득층 30-40대 [추론]",
+        "unique_point": "지역별 청소 전문가 매칭 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "숨고",
+          "크몽",
+          "생활의달인"
+        ],
+        "timing_reason": "1인 가구 증가와 생활 서비스 디지털화 가속 [추론]",
+        "growth_potential": "O2O 서비스 시장 확장과 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "서비스 수수료와 프리미엄 멤버십 [추론]",
+        "pricing_suggestion": "거래액의 10-15% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "지도 API",
+          "결제 시스템",
+          "매칭 알고리즘"
+        ],
+        "key_features": [
+          "서비스 예약",
+          "청소사 매칭",
+          "결제 시스템"
+        ],
+        "clone_tip": "지역별 서비스 제공자 DB 구축과 신뢰성 시스템 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#O2O",
+        "#생활서비스"
+      ],
+      "verdict": "실용적 서비스로 꾸준한 수요와 수익성 확보 가능",
+      "deep_report_id": "android-nimbly-clean-1772464027791"
+    },
+    {
+      "rank": 2,
+      "name": "EdgeAura",
+      "developer": "Zachary Holt",
+      "category": "Personalization",
+      "icon": "https://play-lh.googleusercontent.com/ADvRfzeqhSe-s46eco-qq7HmET-Q8n2ndmlPOvbg36mmrJhDBVovB8NarqPLKJ_3TxauHv6XCbj07FsymEO6",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wallpaper.edge.aura",
+      "idea_summary": "화면 가장자리 이펙트 개인화 앱 [추론]",
+      "analysis": {
+        "problem": "획일적인 스마트폰 디스플레이의 개성 부족 [추론]",
+        "solution": "화면 가장자리에 다양한 시각적 효과 제공 [추론]",
+        "target_user": "스마트폰 커스터마이징을 좋아하는 10-20대 [추론]",
+        "unique_point": "화면 엣지 특화 시각효과와 개인화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nova Launcher",
+          "KWGT"
+        ],
+        "timing_reason": "개성 표현과 폰 커스터마이징 트렌드 지속 [추론]",
+        "growth_potential": "안드로이드 사용자 기반으로 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 이펙트와 광고 수익 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "OpenGL ES",
+          "커스텀 뷰",
+          "애니메이션"
+        ],
+        "key_features": [
+          "엣지 이펙트",
+          "색상 커스터마이징",
+          "동적 효과"
+        ],
+        "clone_tip": "안드로이드 오버레이 권한과 그래픽 렌더링 최적화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#개인화",
+        "#커스터마이징"
+      ],
+      "verdict": "기술적 차별화로 커스터마이징 마니아층 공략 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Corner Store",
+      "developer": "KOHNAN SHOJI CO., LTD.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/cqMiPwQ0GZ0GgEuB3AhvJ0sHdtiyNF4w1nMWJAJmuZMjD0Knl3TN28xapFAaKZeTl4g",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.co.hckohnan.app.chirashi.android",
+      "idea_summary": "편의점 전용 쇼핑 및 할인정보 앱 [추론]",
+      "analysis": {
+        "problem": "편의점 할인 정보와 재고 파악의 어려움 [추론]",
+        "solution": "실시간 편의점 상품 정보와 할인 혜택 제공 [추론]",
+        "target_user": "편의점을 자주 이용하는 20-30대 직장인 [추론]",
+        "unique_point": "편의점 특화 쇼핑 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GS25 앱",
+          "세븐일레븐 앱"
+        ],
+        "timing_reason": "편의점 디지털 전환과 O2O 서비스 확산 [추론]",
+        "growth_potential": "편의점 시장 확대와 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 편의점 수수료 [추론]",
+        "pricing_suggestion": "광고 기반 무료 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "지도 API",
+          "재고 관리 시스템",
+          "푸시 알림"
+        ],
+        "key_features": [
+          "매장 위치",
+          "상품 검색",
+          "할인 알림"
+        ],
+        "clone_tip": "편의점 POS 연동과 실시간 재고 정보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#O2O",
+        "#편의점"
+      ],
+      "verdict": "일상생활 밀착형 서비스로 사용자 습관화 기대"
+    },
+    {
+      "rank": 4,
+      "name": "Shortn: Viral Video App",
+      "developer": "3COMMAS LTD",
+      "category": "Video Sharing",
+      "icon": "https://play-lh.googleusercontent.com/st98I7ykTvQ2ag5nir8Fi1kMgowzMjv1GdY8P-UzvTXNDgyQm9GcoQ63BJCrNlHC1Ug",
+      "app_url": "https://play.google.com/store/apps/details?id=shortn.video",
+      "idea_summary": "바이럴 숏폼 비디오 공유 플랫폼 [확인]",
+      "analysis": {
+        "problem": "기존 플랫폼의 알고리즘 한계와 크리에이터 수익성 [추론]",
+        "solution": "바이럴 예측 알고리즘과 크리에이터 친화적 수익 구조 [추론]",
+        "target_user": "숏폼 콘텐츠 크리에이터와 시청자 10-20대 [추론]",
+        "unique_point": "바이럴 예측 기능과 차별화된 수익 분배 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "틱톡",
+          "인스타그램 릴스",
+          "유튜브 쇼츠"
+        ],
+        "timing_reason": "숏폼 콘텐츠 시장 포화 상태로 타이밍 아쉬움 [추론]",
+        "growth_potential": "기존 플랫폼 독점으로 진입 장벽 높음 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 크리에이터 수수료 [추론]",
+        "pricing_suggestion": "광고 수익 70% 크리에이터 분배 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "비디오 스트리밍",
+          "추천 알고리즘",
+          "CDN"
+        ],
+        "key_features": [
+          "비디오 업로드",
+          "알고리즘 추천",
+          "소셜 기능"
+        ],
+        "clone_tip": "AWS 미디어 서비스와 머신러닝 추천 시스템 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 2,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.8
+      },
+      "tags": [
+        "#고난도개발",
+        "#B2C",
+        "#소셜",
+        "#동영상"
+      ],
+      "verdict": "레드오션 시장으로 차별화 전략 없이는 성공 어려움"
+    },
+    {
+      "rank": 5,
+      "name": "Genspark AI Workspace",
+      "developer": "Genspark",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/eL-phQCOfvhdKFir0y6deLKcALuWuUUBQIKh4ocn70ybvCgtALjJUYPjJkZmzaeu9SU",
+      "app_url": "https://play.google.com/store/apps/details?id=ai.mainfunc.genspark",
+      "idea_summary": "AI 기반 협업 워크스페이스 도구 [추론]",
+      "analysis": {
+        "problem": "분산된 협업 도구들과 AI 통합의 부재 [추론]",
+        "solution": "AI가 통합된 올인원 워크스페이스 환경 [추론]",
+        "target_user": "원격 근무하는 팀과 프리랜서 20-40대 [추론]",
+        "unique_point": "AI 어시스턴트가 내장된 협업 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "노션",
+          "슬랙",
+          "마이크로소프트 팀즈"
+        ],
+        "timing_reason": "원격 근무 확산과 AI 도구 수요 증가 [추론]",
+        "growth_potential": "B2B SaaS 시장 성장과 함께 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "팀 단위 구독 모델 [추론]",
+        "pricing_suggestion": "팀원당 월 15,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "5000-8000만원 [추론]",
+        "tech_stack": [
+          "WebRTC",
+          "AI API",
+          "실시간 DB"
+        ],
+        "key_features": [
+          "AI 어시스턴트",
+          "실시간 협업",
+          "문서 관리"
+        ],
+        "clone_tip": "기존 협업 도구에 ChatGPT API 통합부터 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#고난도개발",
+        "#B2B",
+        "#AI",
+        "#협업도구"
+      ],
+      "verdict": "AI 통합 협업 도구로 차별화 포인트 명확하나 개발 복잡도 높음"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인화 서비스와 생활 밀착형 O2O 플랫폼이 주요 트렌드로 부상 중 [추론]. 헬스케어와 생산성 도구에서 AI 활용이 두드러지게 나타남 [추론].",
+    "trend_details": [
+      "AI 개인화 건강관리 솔루션",
+      "생활서비스 디지털 전환",
+      "틈새시장 전문화 도구",
+      "크리에이터 경제 지원 앱"
+    ],
+    "hot_categories": [
+      "헬스케어",
+      "생활서비스",
+      "AI도구"
+    ],
+    "opportunity": "AI 기술과 전통 서비스업의 융합 영역에서 새로운 비즈니스 기회 [추론]",
+    "action_item": "AI API 활용한 기존 서비스 개선과 틈새 시장 발굴에 집중"
+  }
+}
