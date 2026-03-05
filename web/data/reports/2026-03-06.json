@@ -1,0 +1,613 @@
+{
+  "date": "2026-03-06",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "MagGit",
+      "developer": "Navjyotsingh Multani",
+      "category": "Development Tools",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/3a/2a/353a2a5e-994f-e584-832e-039d955a1585/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/maggit/id6759515397?uo=2",
+      "idea_summary": "모바일 Git 버전 관리 도구",
+      "analysis": {
+        "problem": "모바일에서 Git 작업의 복잡성과 불편함 [추론]",
+        "solution": "직관적인 모바일 인터페이스로 Git 기능 제공 [추론]",
+        "target_user": "모바일 개발자, 원격 작업자 [추론]",
+        "unique_point": "모바일 최적화된 Git 클라이언트 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Working Copy",
+          "GitKraken"
+        ],
+        "timing_reason": "원격근무 증가로 모바일 개발 도구 수요 증가 [추론]",
+        "growth_potential": "개발자 커뮤니티 성장에 따른 수요 확산 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 모델 [추론]",
+        "pricing_suggestion": "월 $4.99 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Git API",
+          "Core Data"
+        ],
+        "key_features": [
+          "저장소 클론",
+          "커밋 관리",
+          "브랜치 작업"
+        ],
+        "clone_tip": "Git 라이브러리 연동과 UI/UX에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B"
+      ],
+      "verdict": "개발자 도구 시장의 틈새 공략 가능",
+      "deep_report_id": "ios-maggit-1772723170796"
+    },
+    {
+      "rank": 2,
+      "name": "House of Mothers",
+      "developer": "Niraja van Dijk",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/eb/ba/e2ebba90-bb66-a38f-ae9f-b315c642d37b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/house-of-mothers/id6759299714?uo=2",
+      "idea_summary": "엄마들을 위한 전문 교육 플랫폼",
+      "analysis": {
+        "problem": "산후 우울증, 육아 스트레스, 정보 부족 [추론]",
+        "solution": "전문가 상담과 엄마 커뮤니티 연결 [추론]",
+        "target_user": "초보 엄마, 산후 우울증 겪는 여성 [추론]",
+        "unique_point": "엄마 특화 교육과 정서적 지원 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BabyCenter",
+          "What to Expect"
+        ],
+        "timing_reason": "출산율 감소로 개별 지원 서비스 수요 증가 [추론]",
+        "growth_potential": "글로벌 육아 시장 확장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 콘텐츠 구독 [추론]",
+        "pricing_suggestion": "월 $9.99 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Video Streaming"
+        ],
+        "key_features": [
+          "전문가 상담",
+          "커뮤니티",
+          "교육 콘텐츠"
+        ],
+        "clone_tip": "의료진과 파트너십 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "사회적 가치와 수익성을 동시에 충족"
+    },
+    {
+      "rank": 3,
+      "name": "AgroKapp",
+      "developer": "Ivan augusto kreutz",
+      "category": "Shopping",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/ec/a1/daeca1cb-3ef0-cb19-6874-fa6941ee2a2f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/agrokapp/id6755480462?uo=2",
+      "idea_summary": "농업 전문 상품 쇼핑 플랫폼",
+      "analysis": {
+        "problem": "농업인의 전문 용품 구매 어려움과 높은 유통비용 [추론]",
+        "solution": "농업 전문 B2B/B2C 마켓플레이스 [추론]",
+        "target_user": "농업인, 농업 관련 사업자 [추론]",
+        "unique_point": "농업 특화 전문성과 직거래 연결 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "농협몰",
+          "일반 이커머스"
+        ],
+        "timing_reason": "스마트팜 확산과 농업 디지털화 가속 [추론]",
+        "growth_potential": "글로벌 농업 시장 디지털화 수혜 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료, 광고 수익 [추론]",
+        "pricing_suggestion": "거래액 3-5% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "PostgreSQL",
+          "Payment API"
+        ],
+        "key_features": [
+          "상품 카탈로그",
+          "견적 요청",
+          "배송 추적"
+        ],
+        "clone_tip": "농업 전문 지식과 공급업체 네트워크 구축 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#틈새시장",
+        "#B2B"
+      ],
+      "verdict": "농업 디지털화 트렌드의 핵심 영역"
+    },
+    {
+      "rank": 4,
+      "name": "One Coach App",
+      "developer": "Box One ApS",
+      "category": "Health/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/1e/1f/501e1f95-0e99-29bf-5264-5d546aec3f4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/one-coach-app/id6759347263?uo=2",
+      "idea_summary": "AI 기반 개인 맞춤 피트니스 코칭",
+      "analysis": {
+        "problem": "개인 트레이너 비용 부담과 시간 제약 [추론]",
+        "solution": "AI 코치가 실시간 운동 가이드 제공 [추론]",
+        "target_user": "홈트레이닝 선호자, 피트니스 초보자 [추론]",
+        "unique_point": "AI 기반 실시간 폼 교정과 개인화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nike Training Club",
+          "Freeletics"
+        ],
+        "timing_reason": "홈트레이닝 문화 정착과 AI 기술 발전 [추론]",
+        "growth_potential": "헬스케어 앱 시장 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 코칭 [추론]",
+        "pricing_suggestion": "월 $14.99 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-14개월 [추론]",
+        "estimated_cost": "2000-2500만원 [추론]",
+        "tech_stack": [
+          "TensorFlow",
+          "Computer Vision",
+          "iOS ARKit"
+        ],
+        "key_features": [
+          "동작 인식",
+          "AI 코칭",
+          "운동 계획"
+        ],
+        "clone_tip": "컴퓨터 비전과 운동 전문 지식 결합 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C"
+      ],
+      "verdict": "AI 트렌드와 헬스케어 수요의 완벽한 결합"
+    },
+    {
+      "rank": 5,
+      "name": "Shortcut Quest",
+      "developer": "Danilo Pessoa",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/1f/5f/1c1f5f50-baf1-eecd-97d6-6584bc14c11f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/shortcut-quest/id6759662635?uo=2",
+      "idea_summary": "퀘스트 기반 인터랙티브 학습 앱",
+      "analysis": {
+        "problem": "전통적 학습의 지루함과 낮은 완주율 [추론]",
+        "solution": "게임화된 퀘스트 시스템으로 학습 동기 부여 [추론]",
+        "target_user": "학습자, 자기계발 관심자 [추론]",
+        "unique_point": "RPG 요소를 활용한 학습 게임화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Coursera"
+        ],
+        "timing_reason": "에듀테크 성장과 게임화 학습 트렌드 확산 [추론]",
+        "growth_potential": "평생 학습 시장 확대에 따른 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 콘텐츠, 광고 [추론]",
+        "pricing_suggestion": "월 $6.99 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "1000-1400만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Firebase",
+          "Analytics"
+        ],
+        "key_features": [
+          "퀘스트 시스템",
+          "진도 추적",
+          "보상 체계"
+        ],
+        "clone_tip": "게임 디자인과 교육 콘텐츠의 균형이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#게임화",
+        "#B2C"
+      ],
+      "verdict": "에듀테크와 게임화의 효과적 융합"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "Safety",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 범죄 신고 알림 시스템",
+      "analysis": {
+        "problem": "지역 안전 정보 부족과 실시간 위험 상황 인지 어려움 [추론]",
+        "solution": "실시간 경찰 무선 모니터링과 위치 기반 알림 [추론]",
+        "target_user": "안전 의식 높은 지역 주민, 부모 [추론]",
+        "unique_point": "실시간 경찰 무선 데이터 활용한 즉시 알림 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "NextDoor"
+        ],
+        "timing_reason": "사회 안전에 대한 관심 증가와 스마트시티 발전 [추론]",
+        "growth_potential": "전 세계 도시 안전 서비스 확산 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 알림, 광고 수익 [추론]",
+        "pricing_suggestion": "월 $4.99 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "1200-1800만원 [추론]",
+        "tech_stack": [
+          "Android Native",
+          "WebRTC",
+          "GIS API"
+        ],
+        "key_features": [
+          "실시간 알림",
+          "지도 연동",
+          "커뮤니티 제보"
+        ],
+        "clone_tip": "경찰청 API 연동과 법적 검토 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#사회문제해결",
+        "#B2C"
+      ],
+      "verdict": "사회 안전 니즈를 충족하는 실용적 서비스",
+      "deep_report_id": "android-crimeradar-dispatch-alerts-1772723255083"
+    },
+    {
+      "rank": 2,
+      "name": "Pocket FM: Audio Series",
+      "developer": "PocketFM",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/kweybiMo_yZEBNmGCmh3fyRVXQQ5lIJQB4z_jaECV_tpqEW8GqhFjEFmxbtRL8TrFic",
+      "app_url": "https://play.google.com/store/apps/details?id=com.radio.pocketfm",
+      "idea_summary": "짧은 오디오 시리즈 스트리밍",
+      "analysis": {
+        "problem": "긴 팟캐스트 부담과 틈새 시간 활용 어려움 [추론]",
+        "solution": "5-15분 단편 오디오 드라마와 시리즈 제공 [추론]",
+        "target_user": "출퇴근자, 멀티태스킹 선호자 [추론]",
+        "unique_point": "짧은 호흡의 몰입감 있는 오디오 콘텐츠 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Spotify",
+          "Audible"
+        ],
+        "timing_reason": "오디오 콘텐츠 소비 증가와 마이크로 엔터테인먼트 트렌드 [추론]",
+        "growth_potential": "글로벌 오디오 시장 확장 수혜 [추론]"
+      },
+      "business": {
+        "monetization": "구독료, 광고, 프리미엄 콘텐츠 [추론]",
+        "pricing_suggestion": "월 $7.99 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "CDN",
+          "Audio Processing"
+        ],
+        "key_features": [
+          "오프라인 다운로드",
+          "개인화 추천",
+          "시리즈 관리"
+        ],
+        "clone_tip": "콘텐츠 제작자 생태계 구축이 성공 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#콘텐츠플랫폼",
+        "#B2C"
+      ],
+      "verdict": "오디오 콘텐츠 소비 트렌드의 핵심 타겟"
+    },
+    {
+      "rank": 3,
+      "name": "PDF Reader and Editor",
+      "developer": "SolaraSoft",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/CoqyO3QGQaO8qJGtqtJiwQhKMHKzgnVA2mixSWJfD3P6cdQw41gcTZ7zFavtTosfk_g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.solara.pdfreader.pdfeditor",
+      "idea_summary": "모바일 최적화 PDF 편집 도구",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집의 불편함과 기능 제약 [추론]",
+        "solution": "터치 인터페이스 최적화된 PDF 편집 기능 [추론]",
+        "target_user": "모바일 워커, 학생, 사업자 [추론]",
+        "unique_point": "모바일 환경에 특화된 직관적 PDF 편집 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "PDFelement"
+        ],
+        "timing_reason": "원격 근무 확산과 모바일 오피스 수요 증가 [추론]",
+        "growth_potential": "디지털 문서 작업의 모바일 전환 가속화 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능, 광고 [추론]",
+        "pricing_suggestion": "월 $3.99 프로 버전 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "PDF.js",
+          "File System API"
+        ],
+        "key_features": [
+          "텍스트 편집",
+          "주석",
+          "파일 변환"
+        ],
+        "clone_tip": "PDF 렌더링 성능과 UI/UX 최적화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#생산성도구",
+        "#B2C"
+      ],
+      "verdict": "모바일 오피스 시장의 필수 도구"
+    },
+    {
+      "rank": 4,
+      "name": "Haeiclass: Smart Classroom Communication App",
+      "developer": "i-Scream Media",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/8yg2YC05vq4mx0Uvhs1Z2GTuLyn1CWHyREZr9o1jlGnstrVoj4OoP1T6fTut-DIBqv4",
+      "app_url": "https://play.google.com/store/apps/details?id=com.iscreammedia.app.hiclass.android",
+      "idea_summary": "스마트 교실 소통 플랫폼",
+      "analysis": {
+        "problem": "교실 내 소통 단절과 비효율적 정보 전달 [추론]",
+        "solution": "실시간 교실 상호작용과 학습 관리 시스템 [추론]",
+        "target_user": "교사, 학생, 학부모 [추론]",
+        "unique_point": "교실 환경에 특화된 실시간 소통 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ClassDojo",
+          "Remind"
+        ],
+        "timing_reason": "에듀테크 성장과 스마트 교실 확산 [추론]",
+        "growth_potential": "글로벌 교육 디지털화 트렌드 수혜 [추론]"
+      },
+      "business": {
+        "monetization": "학교 라이선스, 프리미엄 기능 [추론]",
+        "pricing_suggestion": "교실당 월 $19.99 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "1200-1600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "WebRTC",
+          "Database"
+        ],
+        "key_features": [
+          "실시간 채팅",
+          "과제 관리",
+          "출석 체크"
+        ],
+        "clone_tip": "교육 현장 이해와 사용자 경험 설계 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#에듀테크",
+        "#B2B"
+      ],
+      "verdict": "교육 디지털화의 핵심 인프라"
+    },
+    {
+      "rank": 5,
+      "name": "Duolingo - Learn English",
+      "developer": "Duolingo",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.duolingo",
+      "idea_summary": "게임화된 언어 학습 플랫폼",
+      "analysis": {
+        "problem": "전통적 언어 학습의 지루함과 낮은 지속률 [확인]",
+        "solution": "게임 요소를 활용한 재미있는 언어 학습 [확인]",
+        "target_user": "언어 학습자, 자기계발 관심자 [확인]",
+        "unique_point": "강력한 게임화와 AI 개인화 학습 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Babbel",
+          "Rosetta Stone"
+        ],
+        "timing_reason": "글로벌화와 원격 학습 트렌드 [확인]",
+        "growth_potential": "언어 교육 시장 지속 성장 [확인]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 광고 [확인]",
+        "pricing_suggestion": "월 $12.99 Plus [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "AI/ML",
+          "React Native",
+          "Analytics"
+        ],
+        "key_features": [
+          "적응형 학습",
+          "음성 인식",
+          "진도 추적"
+        ],
+        "clone_tip": "AI 개인화와 콘텐츠 품질이 핵심 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#검증된모델",
+        "#B2C"
+      ],
+      "verdict": "성공 모델 벤치마킹으로 시장 진입 가능"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 통합 서비스와 전문 분야 타겟팅이 주요 트렌드로 부상하고 있습니다 [추론]. 모바일 최적화된 전문 도구들이 틈새 시장에서 성과를 보이고 있습니다 [추론].",
+    "trend_details": [
+      "AI 기반 개인화 서비스",
+      "전문 분야 특화 앱",
+      "모바일 우선 도구",
+      "게임화 학습"
+    ],
+    "hot_categories": [
+      "에듀테크"
+    ],
+    "opportunity": "전문 분야별 AI 융합 서비스",
+    "action_item": "틈새 시장에서 AI 기술 접목 아이템 발굴"
+  }
+}
