@@ -3,111 +3,396 @@
   "ios": [
     {
       "rank": 1,
-      "name": "Threxus",
-      "developer": "G.A. Training",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/0e/c9/5f0ec942-bdf5-5ee9-7aa1-a3c304f839a5/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/threxus/id6759809639?uo=2",
-      "idea_summary": "개인 맞춤형 피트니스 추적 도구",
+      "name": "turtli",
+      "developer": "Jishaan Minsariya",
+      "category": "Healthcare/Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/cb/fe/cacbfe8b-66a9-3bbe-e720-a042db5d0f40/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/turtli/id6759741933?uo=2",
+      "idea_summary": "건강 관리를 위한 혁신적 추적 앱 [추론]",
       "analysis": {
-        "problem": "기존 피트니스 앱들의 복잡함과 개인화 부족 문제 해결 [추론]",
-        "solution": "간편한 운동 기록과 개인 맞춤형 분석 제공 [추론]",
-        "target_user": "20-40대 피트니스 초보자 및 중급자 [추론]",
-        "unique_point": "사용자 친화적 인터페이스와 맞춤형 피드백 [추측]"
+        "problem": "기존 헬스앱의 복잡함과 지속성 부족 문제 해결 [추론]",
+        "solution": "간단하고 직관적인 건강 데이터 추적 시스템 제공 [추론]",
+        "target_user": "건강에 관심 있는 20-40대 일반 사용자 [추론]",
+        "unique_point": "사용자 친화적 인터페이스와 지속 가능한 추적 방식 [추측]"
       },
       "market": {
         "competitors": [
-          "Nike Training",
-          "Strava"
+          "MyFitnessPal",
+          "Fitbit"
         ],
-        "timing_reason": "코로나 이후 홈트레이닝 수요 증가 [추론]",
-        "growth_potential": "피트니스 앱 시장 지속 성장 [추론]"
+        "timing_reason": "포스트 팬데믹 건강 관심 증대 시기 [추론]",
+        "growth_potential": "개인 건강관리 시장 확대로 높은 성장 가능성 [추론]"
       },
       "business": {
         "monetization": "프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 9,900원 프리미엄 구독 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "3000만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "CoreData",
-          "HealthKit"
-        ],
-        "key_features": [
-          "운동 기록",
-          "진행률 추적"
-        ],
-        "clone_tip": "HealthKit 연동과 직관적 UI 중심 개발 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 5,
-        "competition": 2,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7.4
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C"
-      ],
-      "verdict": "경쟁이 치열하지만 니치 포지션 가능",
-      "deep_report_id": "ios-threxus-1772636733321"
-    },
-    {
-      "rank": 2,
-      "name": "Huybit: Habit Tracker",
-      "developer": "Abdullah Ozturk",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/41/37/3241375f-6e1d-f7a3-2ead-45b7c3d541ca/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/huybit-habit-tracker/id6759509924?uo=2",
-      "idea_summary": "게임화된 습관 추적 및 목표 달성",
-      "analysis": {
-        "problem": "습관 형성의 어려움과 지속성 부족 문제 [확인]",
-        "solution": "게임화 요소와 시각적 피드백으로 동기부여 제공 [추론]",
-        "target_user": "자기계발에 관심 있는 20-30대 [추론]",
-        "unique_point": "독특한 게임화 요소와 직관적 인터페이스 [추측]"
-      },
-      "market": {
-        "competitors": [
-          "Habitica",
-          "Streaks"
-        ],
-        "timing_reason": "새해 결심, 자기계발 트렌드 지속 [추론]",
-        "growth_potential": "생산성 앱 시장 꾸준한 성장 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 기능 구독 [추론]",
-        "pricing_suggestion": "월 4,900원 프리미엄 [추론]",
+        "pricing_suggestion": "월 3-5달러 구독료 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "2000만원 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
         "tech_stack": [
           "Swift",
-          "CoreData",
-          "UserNotifications"
+          "HealthKit"
         ],
         "key_features": [
-          "습관 추적",
-          "알림",
-          "통계"
+          "데이터 추적",
+          "시각화"
         ],
-        "clone_tip": "간단한 UI/UX와 효과적인 알림 시스템 구현 [추론]"
+        "clone_tip": "HealthKit 연동과 직관적 UI에 집중 [추론]"
       },
       "scores": {
         "novelty": 4,
         "necessity": 5,
         "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "건강관리 트렌드에 맞는 실용적 앱",
+      "deep_report_id": "ios-turtli-1772669123647"
+    },
+    {
+      "rank": 2,
+      "name": "Force Alarm",
+      "developer": "Targa",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/e6/5c/cbe65c4d-78f0-5ea0-56e0-7f556cda8706/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/force-alarm/id6759625108?uo=2",
+      "idea_summary": "강제 기상을 위한 혁신적 알람 시스템 [추론]",
+      "analysis": {
+        "problem": "일반 알람의 한계로 인한 늦잠 습관 문제 [확인]",
+        "solution": "다양한 강제 기상 메커니즘을 통한 확실한 기상 보장 [추론]",
+        "target_user": "늦잠으로 고민하는 학생, 직장인 [추론]",
+        "unique_point": "기존 알람 앱 대비 강력한 기상 강제 기능 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Sleep Cycle",
+          "Alarmed"
+        ],
+        "timing_reason": "재택근무 증가로 자기관리 도구 수요 증가 [추론]",
+        "growth_potential": "틈새시장이지만 확실한 타겟 존재 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "강제알람",
+          "수학문제"
+        ],
+        "clone_tip": "창의적인 기상 방법 개발이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
         "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "틈새시장 타겟의 실용적 솔루션"
+    },
+    {
+      "rank": 3,
+      "name": "Cheap Fuel Near Me",
+      "developer": "Shehar Yar",
+      "category": "Navigation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/96/a1/8896a115-0a7f-633e-77b9-0b71bf2ac22d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/cheap-fuel-near-me/id6759508322?uo=2",
+      "idea_summary": "실시간 주변 저렴한 주유소 찾기 앱 [확인]",
+      "analysis": {
+        "problem": "연료비 상승으로 인한 경제적 부담과 정보 부족 [확인]",
+        "solution": "실시간 주유소 가격 정보 제공 및 최적 경로 안내 [추론]",
+        "target_user": "자동차 운전자, 특히 경제적 부담 느끼는 소비자 [추론]",
+        "unique_point": "실시간 가격 비교와 위치 기반 서비스 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GasBuddy",
+          "Waze"
+        ],
+        "timing_reason": "유가 상승과 생활비 절약 니즈 증가 [확인]",
+        "growth_potential": "글로벌 확장 가능한 보편적 니즈 [추론]"
+      },
+      "business": {
+        "monetization": "주유소 제휴 수수료 + 광고 [추론]",
+        "pricing_suggestion": "무료 앱, 제휴 수익 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "MapKit",
+          "Core Location"
+        ],
+        "key_features": [
+          "실시간가격",
+          "지도연동"
+        ],
+        "clone_tip": "정확한 가격 데이터 수집이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "실용성 높은 위치 기반 서비스"
+    },
+    {
+      "rank": 4,
+      "name": "All Set: Routines & Checklists",
+      "developer": "Timur Demir",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/e2/f0/cbe2f017-df40-aff8-b3fa-cd093cb8b463/AllSet-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/all-set-routines-checklists/id6756786400?uo=2",
+      "idea_summary": "일상 루틴과 체크리스트 통합 관리 [확인]",
+      "analysis": {
+        "problem": "분산된 할일 관리 도구들로 인한 비효율성 [추론]",
+        "solution": "루틴과 체크리스트를 하나의 앱에서 통합 관리 [추론]",
+        "target_user": "체계적 일상 관리를 원하는 생산성 추구자 [추론]",
+        "unique_point": "루틴 자동화와 체크리스트 템플릿 제공 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "Any.do"
+        ],
+        "timing_reason": "생산성과 자기계발 관심 증가 시기 [추론]",
+        "growth_potential": "생산성 앱 시장의 지속적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 4-6달러 구독료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "루틴관리",
+          "템플릿"
+        ],
+        "clone_tip": "사용자 경험과 자동화 기능에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
         "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "생산성 시장의 실용적 솔루션"
+    },
+    {
+      "rank": 5,
+      "name": "MediManager",
+      "developer": "Michel Garlandat",
+      "category": "Medical",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/58/a4/7d58a4b4-42e0-492c-e331-a8a87e9eeae5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/medimanager/id6759870654?uo=2",
+      "idea_summary": "의료 예약과 약물 관리 통합 솔루션 [추론]",
+      "analysis": {
+        "problem": "복잡한 의료 일정과 약물 관리의 어려움 [추론]",
+        "solution": "예약, 복용 알림, 의료 기록을 한 곳에서 관리 [추론]",
+        "target_user": "만성질환자, 고령자, 복용 약물이 많은 환자 [추론]",
+        "unique_point": "의료진과의 연결과 종합적 헬스케어 관리 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "MyChart",
+          "Medisafe"
+        ],
+        "timing_reason": "고령화 사회와 디지털 헬스케어 확산 [확인]",
+        "growth_potential": "헬스테크 시장 성장과 함께 높은 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "구독 + 의료진 연결 수수료 [추론]",
+        "pricing_suggestion": "월 5-8달러 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "1200-1800만원 [추론]",
+        "tech_stack": [
+          "HealthKit",
+          "FHIR API"
+        ],
+        "key_features": [
+          "예약관리",
+          "복용알림"
+        ],
+        "clone_tip": "의료 데이터 보안과 규정 준수가 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "헬스테크 트렌드의 핵심 영역"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "크랙 - 즉흥 서사 플레이, AI 채팅",
+      "developer": "wrtn",
+      "category": "Social",
+      "icon": "https://play-lh.googleusercontent.com/rLYK2VP-oKgqgJYcg1ErUJnFvlFE36J-C3u3TIvHPz0Ii380lrBM2COfIoq9AjmVZKQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wrtn.character",
+      "idea_summary": "AI와 함께하는 즉흥 스토리텔링 플랫폼 [확인]",
+      "analysis": {
+        "problem": "창작 과정의 어려움과 아이디어 고갈 문제 [추론]",
+        "solution": "AI 협력 기반 즉흥 스토리 생성 및 채팅 [추론]",
+        "target_user": "창작에 관심 있는 20-30대, 스토리텔링 애호가 [추론]",
+        "unique_point": "즉흥성과 AI 협업을 결합한 새로운 창작 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika"
+        ],
+        "timing_reason": "생성형 AI 대중화와 창작 콘텐츠 수요 증가 [확인]",
+        "growth_potential": "AI 기술 발전과 함께 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능 구독 모델 [추론]",
+        "pricing_suggestion": "월 8-12달러 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "OpenAI API",
+          "Flutter"
+        ],
+        "key_features": [
+          "AI채팅",
+          "스토리생성"
+        ],
+        "clone_tip": "AI 모델 튜닝과 창작 UX 설계가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "AI 시대의 혁신적 창작 도구",
+      "deep_report_id": "android-크랙-즉흥-서사-플레이-ai-채팅-1772669201419"
+    },
+    {
+      "rank": 2,
+      "name": "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
+      "developer": "(주)인피니그루",
+      "category": "Security",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "사기 방지를 위한 시민 참여형 보안 앱 [확인]",
+      "analysis": {
+        "problem": "증가하는 디지털 사기와 개인 보안 위협 [확인]",
+        "solution": "실시간 사기 정보 공유와 예방 교육 제공 [추론]",
+        "target_user": "디지털 사기에 취약한 중장년층, 일반 시민 [추론]",
+        "unique_point": "커뮤니티 기반 실시간 사기 정보 네트워크 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TrueCaller",
+          "RoboKiller"
+        ],
+        "timing_reason": "디지털 사기 급증과 보안 인식 제고 시기 [확인]",
+        "growth_potential": "사이버 보안 시장 확대로 높은 성장성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 보안 기능 + 기업 솔루션 [추론]",
+        "pricing_suggestion": "개인 월 3-5달러, 기업 별도 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "ML 분석",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간탐지",
+          "커뮤니티신고"
+        ],
+        "clone_tip": "데이터베이스 구축과 머신러닝 활용이 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
         "competition": 3,
         "profitability": 4,
         "scalability": 4,
@@ -117,496 +402,194 @@
         "#1인개발가능",
         "#B2C"
       ],
-      "verdict": "검증된 시장에서 차별화 포인트 필요"
+      "verdict": "사회적 가치 높은 필수 보안 도구"
     },
     {
       "rank": 3,
-      "name": "PasteLog",
-      "developer": "Tulip Labs",
-      "category": "Utility",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/bf/e9/0bbfe9d2-d2d2-e637-7c67-ea4d4a21a3bb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/pastelog/id6758133186?uo=2",
-      "idea_summary": "클립보드 히스토리 관리 도구",
+      "name": "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
+      "developer": "cocone ONE corporation",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/q9Q_DgpaKeXLUt2w1Hjhg5QBLj1-T8YLGxc2zgVm2vD-OJyA_xm9ICWnqPZEeGoovqjMgLVYCARWGN0XSt6f",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.cocone.livly",
+      "idea_summary": "가상 섬에서 펼치는 힐링 라이프 시뮬레이션 [확인]",
       "analysis": {
-        "problem": "iOS 기본 클립보드의 단일 복사 제한 [확인]",
-        "solution": "다중 클립보드 히스토리와 빠른 접근 제공 [추론]",
-        "target_user": "개발자, 작가, 업무 효율성 중시하는 전문직 [추론]",
-        "unique_point": "iOS에서 제한적인 클립보드 관리 솔루션 [확인]"
+        "problem": "현실 스트레스와 힐링 콘텐츠 부족 문제 [추론]",
+        "solution": "가상 펫과 함께하는 평화로운 섬 생활 시뮬레이션 [추론]",
+        "target_user": "힐링을 원하는 20-30대 여성, 캐주얼 게이머 [추론]",
+        "unique_point": "일본 특유의 카와이 문화와 힐링 컨셉 결합 [추론]"
       },
       "market": {
         "competitors": [
-          "Copied",
-          "Paste"
+          "동물의숲",
+          "토카월드"
         ],
-        "timing_reason": "원격근무 증가로 생산성 도구 수요 증가 [추론]",
-        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 [추론]"
+        "timing_reason": "코로나 이후 힐링 콘텐츠 수요 급증 [확인]",
+        "growth_potential": "글로벌 카와이 문화 확산으로 높은 잠재력 [추론]"
       },
       "business": {
-        "monetization": "일회성 구매 또는 구독 [추론]",
-        "pricing_suggestion": "일회성 9,900원 또는 월 2,900원 [추론]",
-        "revenue_potential": "하"
+        "monetization": "아이템 구매 + 꾸미기 콘텐츠 [추론]",
+        "pricing_suggestion": "기본 무료, 아이템 0.5-5달러 [추론]",
+        "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "1500만원 [추론]",
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
         "tech_stack": [
-          "Swift",
-          "UIPasteboard",
-          "CloudKit"
+          "Unity",
+          "2D 애니메이션"
         ],
         "key_features": [
-          "클립보드 히스토리",
-          "검색",
-          "동기화"
+          "펫키우기",
+          "섬꾸미기"
         ],
-        "clone_tip": "iOS 제약사항 이해와 우수한 UX 설계 중요 [추론]"
+        "clone_tip": "귀여운 아트 스타일과 중독성 있는 게임플레이가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "힐링 트렌드의 매력적인 게임"
+    },
+    {
+      "rank": 4,
+      "name": "하이클래스: 똑똑한 학급소통앱",
+      "developer": "i-Scream Media",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/8yg2YC05vq4mx0Uvhs1Z2GTuLyn1CWHyREZr9o1jlGnstrVoj4OoP1T6fTut-DIBqv4",
+      "app_url": "https://play.google.com/store/apps/details?id=com.iscreammedia.app.hiclass.android",
+      "idea_summary": "학급 소통을 위한 스마트 플랫폼 [확인]",
+      "analysis": {
+        "problem": "교사-학부모-학생 간 소통의 비효율성 [추론]",
+        "solution": "통합 커뮤니케이션 플랫폼으로 교육 현장 연결 [추론]",
+        "target_user": "초중고 교사, 학부모, 학생 [확인]",
+        "unique_point": "한국 교육 현장에 특화된 소통 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "클래스팅",
+          "아이엠스쿨"
+        ],
+        "timing_reason": "디지털 교육 전환과 소통 도구 필요성 증가 [확인]",
+        "growth_potential": "에듀테크 시장 성장과 함께 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "기관 라이센스 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "학급당 월 10-20달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간채팅",
+          "알림시스템"
+        ],
+        "clone_tip": "교육 현장 이해와 사용자 경험이 중요 [추론]"
       },
       "scores": {
         "novelty": 3,
         "necessity": 4,
         "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 2,
-        "competition": 4,
-        "profitability": 2,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
         "scalability": 3,
-        "overall": 6.2
+        "overall": 7
       },
       "tags": [
         "#1인개발가능",
         "#B2B"
       ],
-      "verdict": "작지만 확실한 니치 시장 타겟"
-    },
-    {
-      "rank": 4,
-      "name": "Home Design AI: Renova AI",
-      "developer": "Bernadett Dross-Szekely",
-      "category": "Graphic/Design",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/01/8d/ea018d01-ba30-8551-5e82-713ab50351a6/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
-      "app_url": "https://apps.apple.com/jp/app/home-design-ai-renova-ai/id6759521016?uo=2",
-      "idea_summary": "AI 기반 홈 인테리어 디자인 도구",
-      "analysis": {
-        "problem": "전문 인테리어 디자인 비용 부담과 접근성 [확인]",
-        "solution": "AI를 활용한 저비용 인테리어 디자인 솔루션 [추론]",
-        "target_user": "20-40대 신혼부부, 이사 예정자 [추론]",
-        "unique_point": "AI 기술과 인테리어 도메인의 결합 [확인]"
-      },
-      "market": {
-        "competitors": [
-          "RoomSketcher",
-          "IKEA Place"
-        ],
-        "timing_reason": "AI 기술 발전과 부동산 시장 활성화 [추론]",
-        "growth_potential": "AI 디자인 도구 시장 급성장 예상 [추론]"
-      },
-      "business": {
-        "monetization": "크레딧 기반 결제 또는 구독 [추론]",
-        "pricing_suggestion": "월 14,900원 또는 크레딧당 990원 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "5000만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "CoreML",
-          "AI API"
-        ],
-        "key_features": [
-          "AI 디자인 생성",
-          "3D 시각화"
-        ],
-        "clone_tip": "고품질 AI 모델과 3D 렌더링 기술 필수 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 2,
-        "market_size": 5,
-        "competition": 3,
-        "profitability": 5,
-        "scalability": 5,
-        "overall": 9
-      },
-      "tags": [
-        "#AI활용",
-        "#B2C"
-      ],
-      "verdict": "AI 트렌드를 탄 높은 성장 가능성"
+      "verdict": "교육 현장의 실질적 소통 도구"
     },
     {
       "rank": 5,
-      "name": "ForMyTime",
-      "developer": "Michel Moret",
-      "category": "Productivity",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/ab/64/e1ab6454-4aa2-c443-1181-074e3dcfa3d8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/formytime/id6759956700?uo=2",
-      "idea_summary": "개인 시간 관리 및 일정 최적화",
-      "analysis": {
-        "problem": "개인 시간 관리의 비효율성과 우선순위 혼란 [추론]",
-        "solution": "스마트한 일정 관리와 시간 블록 최적화 [추론]",
-        "target_user": "바쁜 직장인, 프리랜서, 학생 [추론]",
-        "unique_point": "개인 맞춤형 시간 관리 알고리즘 [추측]"
-      },
-      "market": {
-        "competitors": [
-          "Todoist",
-          "Any.do"
-        ],
-        "timing_reason": "재택근무로 자기 관리 필요성 증대 [추론]",
-        "growth_potential": "생산성 앱 시장 지속 성장 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 6,900원 프리미엄 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "2500만원 [추론]",
-        "tech_stack": [
-          "Swift",
-          "EventKit",
-          "CloudKit"
-        ],
-        "key_features": [
-          "스마트 스케줄링",
-          "시간 추적"
-        ],
-        "clone_tip": "캘린더 연동과 사용자 행동 분석 기능 핵심 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 2,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C"
-      ],
-      "verdict": "경쟁 치열하지만 개인화로 승부"
-    }
-  ],
-  "android": [
-    {
-      "rank": 1,
-      "name": "리로스쿨",
-      "developer": "리로소프트",
-      "category": "Education",
-      "icon": "https://play-lh.googleusercontent.com/Pp93Zjb3CWiivl9A__8KJ3ta3SNkNfogDf9SdqRnHOWLtkQmFM4cMO1Mf24idOc_BhIQI6oLf7RnJQGOnntF2A",
-      "app_url": "https://play.google.com/store/apps/details?id=com.rirosoft.riroschool",
-      "idea_summary": "학교 활동 관리 교육 앱",
-      "analysis": {
-        "problem": "학교 행정업무와 학습 관리의 비효율성 [추론]",
-        "solution": "통합적인 학교 관리 시스템 제공 [추론]",
-        "target_user": "초중고 학생, 교사, 학부모 [확인]",
-        "unique_point": "한국 교육 환경에 특화된 기능 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "클래스팅",
-          "아이스크림홈런"
-        ],
-        "timing_reason": "디지털 교육 전환 가속화 [추론]",
-        "growth_potential": "에듀테크 시장 지속 성장 [추론]"
-      },
-      "business": {
-        "monetization": "기관 라이선스 또는 구독 [추론]",
-        "pricing_suggestion": "기관당 월 50만원 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "8-10개월 [추론]",
-        "estimated_cost": "6000만원 [추론]",
-        "tech_stack": [
-          "Android",
-          "Firebase",
-          "WebRTC"
-        ],
-        "key_features": [
-          "학급 관리",
-          "과제 제출",
-          "소통"
-        ],
-        "clone_tip": "교육 도메인 이해와 다중 사용자 관리 중요 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8
-      },
-      "tags": [
-        "#에듀테크",
-        "#B2B2C"
-      ],
-      "verdict": "한국 교육시장 특화로 기회 있음",
-      "deep_report_id": "android-리로스쿨-1772636812253"
-    },
-    {
-      "rank": 2,
-      "name": "무료톡스티커 - Personal Stickers",
-      "developer": "Personal Sticker Meme Developer",
-      "category": "Social Media",
-      "icon": "https://play-lh.googleusercontent.com/R9AmDyDoJUsa1fQW2hpK_ze_Vqt9_tjOYW4YHQbifYEaR71JiZs9kr4P32bygcvdDg",
-      "app_url": "https://play.google.com/store/apps/details?id=com.memeandsticker.personal",
-      "idea_summary": "개인 맞춤 스티커 제작 앱",
-      "analysis": {
-        "problem": "기존 스티커의 개성 부족과 제한적 표현 [확인]",
-        "solution": "개인 사진으로 커스텀 스티커 제작 기능 [확인]",
-        "target_user": "10-30대 스마트폰 메신저 사용자 [추론]",
-        "unique_point": "개인화된 스티커 제작의 간편성 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Bitmoji",
-          "Memoji"
-        ],
-        "timing_reason": "개인화 트렌드와 MZ세대 표현 욕구 [추론]",
-        "growth_potential": "소셜미디어 활용도에 따른 성장 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 템플릿 판매 [추론]",
-        "pricing_suggestion": "템플릿팩 2,900원 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "2000만원 [추론]",
-        "tech_stack": [
-          "Android",
-          "OpenCV",
-          "TensorFlow Lite"
-        ],
-        "key_features": [
-          "이미지 편집",
-          "템플릿",
-          "공유"
-        ],
-        "clone_tip": "이미지 처리 기술과 직관적 편집 UI 핵심 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7.4
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C"
-      ],
-      "verdict": "개성 표현 니즈를 잘 타겟한 아이디어"
-    },
-    {
-      "rank": 3,
-      "name": "EdgeAura",
-      "developer": "Zachary Holt",
-      "category": "Health & Fitness",
-      "icon": "https://play-lh.googleusercontent.com/ADvRfzeqhSe-s46eco-qq7HmET-Q8n2ndmlPOvbg36mmrJhDBVovB8NarqPLKJ_3TxauHv6XCbj07FsymEO6",
-      "app_url": "https://play.google.com/store/apps/details?id=com.wallpaper.edge.aura",
-      "idea_summary": "웰니스와 피트니스 통합 관리",
-      "analysis": {
-        "problem": "신체와 정신 건강의 분리된 관리 [추론]",
-        "solution": "홀리스틱 웰니스 접근법 제공 [추론]",
-        "target_user": "건강 의식이 높은 20-40대 [추론]",
-        "unique_point": "피트니스와 멘탈케어의 통합 [추측]"
-      },
-      "market": {
-        "competitors": [
-          "Headspace",
-          "Calm"
-        ],
-        "timing_reason": "정신건강 관심 증대와 웰니스 트렌드 [추론]",
-        "growth_potential": "웰니스 시장 급성장 전망 [추론]"
-      },
-      "business": {
-        "monetization": "구독 기반 프리미엄 콘텐츠 [추론]",
-        "pricing_suggestion": "월 12,900원 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "5-6개월 [추론]",
-        "estimated_cost": "3500만원 [추론]",
-        "tech_stack": [
-          "Android",
-          "ML Kit",
-          "HealthConnect"
-        ],
-        "key_features": [
-          "웰니스 추적",
-          "명상",
-          "운동"
-        ],
-        "clone_tip": "건강 데이터 연동과 콘텐츠 큐레이션 중요 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 5,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8.2
-      },
-      "tags": [
-        "#웰니스",
-        "#B2C"
-      ],
-      "verdict": "홀리스틱 헬스케어 트렌드에 부합"
-    },
-    {
-      "rank": 4,
-      "name": "CrimeRadar: Dispatch Alerts",
-      "developer": "Scoopz LLC",
-      "category": "Security",
-      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
-      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
-      "idea_summary": "실시간 범죄 알림 안전 서비스",
-      "analysis": {
-        "problem": "지역 범죄 정보의 접근성과 실시간성 부족 [확인]",
-        "solution": "실시간 범죄 발생 알림과 지역 안전 정보 제공 [확인]",
-        "target_user": "안전 의식이 높은 시민, 야간 외출자 [추론]",
-        "unique_point": "공공 데이터 활용한 실시간 안전 정보 [확인]"
-      },
-      "market": {
-        "competitors": [
-          "시민안전앱",
-          "생활안전지도"
-        ],
-        "timing_reason": "안전에 대한 사회적 관심 증대 [추론]",
-        "growth_potential": "공공안전 앱 시장 꾸준한 수요 [추론]"
-      },
-      "business": {
-        "monetization": "광고 기반 무료 서비스 [추론]",
-        "pricing_suggestion": "광고 수익 모델 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "3000만원 [추론]",
-        "tech_stack": [
-          "Android",
-          "Firebase",
-          "Google Maps"
-        ],
-        "key_features": [
-          "실시간 알림",
-          "지도 연동",
-          "신고"
-        ],
-        "clone_tip": "공공 API 연동과 위치 기반 서비스 구현 중요 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 3,
-        "competition": 4,
-        "profitability": 2,
-        "scalability": 3,
-        "overall": 7.4
-      },
-      "tags": [
-        "#공공서비스",
-        "#B2C"
-      ],
-      "verdict": "사회적 가치 있지만 수익화는 제한적"
-    },
-    {
-      "rank": 5,
-      "name": "DramaBox - Stream Drama Shorts",
-      "developer": "STORYMATRIX",
+      "name": "코스모스",
+      "developer": "Ubion CO.LTD.",
       "category": "Entertainment",
-      "icon": "https://play-lh.googleusercontent.com/dYAF42EhNGgGhC7nLHNSZkWs11W5Dv0mRWZBv6IgLDTh3l8eolsjeAVGg-HVHt9YWyA",
-      "app_url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama",
-      "idea_summary": "숏폼 드라마 스트리밍 플랫폼",
+      "icon": "https://play-lh.googleusercontent.com/HsR0Z4ccKNkN1zgvccZui2a4d_zqhRMHxtgotM4jlTBtG-xlVf2gc1uXwO0avNt8nw",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.coursemos.android2",
+      "idea_summary": "스트리밍 비디오와 음악 통합 플랫폼 [추론]",
       "analysis": {
-        "problem": "기존 드라마의 긴 러닝타임과 부담감 [확인]",
-        "solution": "짧고 임팩트 있는 드라마 콘텐츠 제공 [확인]",
-        "target_user": "바쁜 현대인, 숏폼 콘텐츠 소비자 [추론]",
-        "unique_point": "드라마 장르의 숏폼 특화 [확인]"
+        "problem": "분산된 미디어 서비스로 인한 사용자 불편함 [추론]",
+        "solution": "비디오와 음악을 하나의 플랫폼에서 통합 제공 [추론]",
+        "target_user": "다양한 미디어 콘텐츠를 소비하는 젊은층 [추론]",
+        "unique_point": "멀티미디어 통합 플랫폼으로서의 차별화 [추측]"
       },
       "market": {
         "competitors": [
-          "TikTok",
-          "YouTube Shorts"
+          "YouTube",
+          "Spotify"
         ],
-        "timing_reason": "숏폼 콘텐츠 트렌드와 모바일 소비 증가 [확인]",
-        "growth_potential": "숏폼 시장 급속 성장 [확인]"
+        "timing_reason": "콘텐츠 소비 패턴 변화와 통합 서비스 선호 [추론]",
+        "growth_potential": "OTT 시장 확대와 함께 성장 가능성 [추론]"
       },
       "business": {
-        "monetization": "구독 및 광고 혼합 모델 [추론]",
-        "pricing_suggestion": "월 7,900원 프리미엄 [추론]",
-        "revenue_potential": "상"
+        "monetization": "구독 모델 + 광고 수익 [추론]",
+        "pricing_suggestion": "월 8-12달러 구독료 [추론]",
+        "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "5000만원 [추론]",
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2500-4000만원 [추론]",
         "tech_stack": [
-          "Android",
-          "ExoPlayer",
-          "Firebase"
+          "React Native",
+          "CDN"
         ],
         "key_features": [
-          "동영상 스트리밍",
-          "추천",
-          "결제"
+          "스트리밍",
+          "통합검색"
         ],
-        "clone_tip": "고품질 스트리밍과 추천 알고리즘 구현 필수 [추론]"
+        "clone_tip": "콘텐츠 라이센싱과 스트리밍 인프라가 핵심 [추론]"
       },
       "scores": {
-        "novelty": 5,
+        "novelty": 3,
         "necessity": 3,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 5,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 4,
         "competition": 2,
-        "profitability": 5,
-        "scalability": 5,
-        "overall": 8.6
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
       },
       "tags": [
-        "#숏폼",
+        "#1인개발가능",
         "#B2C"
       ],
-      "verdict": "숏폼 트렌드를 탄 높은 잠재력"
+      "verdict": "미디어 통합 트렌드의 실험적 시도"
     }
   ],
   "daily_insight": {
-    "trend_summary": "AI 활용 앱과 개인화 서비스가 주목받고 있으며, 숏폼 콘텐츠와 웰니스 앱의 성장이 두드러짐 [추론]. 특히 1인 개발자도 접근 가능한 니치 시장 앱들이 많이 등장하고 있음 [확인].",
+    "trend_summary": "AI 기반 창작 도구와 개인 보안 앱이 주요 트렌드로 부상하고 있으며, 힐링과 생산성 향상을 위한 앱들이 지속적인 관심을 받고 있다 [추론]. 특히 한국 시장에서는 교육과 헬스케어 분야의 디지털 전환이 가속화되고 있다 [추론].",
     "trend_details": [
-      "AI 기반 디자인 도구 증가",
-      "개인화된 습관 관리 앱",
-      "숏폼 콘텐츠 플랫폼",
-      "홀리스틱 웰니스 서비스"
+      "AI 협업 창작 도구",
+      "실시간 보안 플랫폼",
+      "힐링 콘텐츠",
+      "통합 헬스케어"
     ],
     "hot_categories": [
-      "Health & Fitness",
-      "AI Tools",
-      "Entertainment"
+      "Healthcare/Fitness",
+      "Security",
+      "AI Chat"
     ],
-    "opportunity": "AI 기술과 기존 도메인의 결합을 통한 혁신적 서비스 개발",
-    "action_item": "개인화와 AI 활용에 중점을 둔 니치 시장 앱 기획"
+    "opportunity": "AI 기술을 활용한 개인화 서비스와 사회적 문제 해결 앱 [추론]",
+    "action_item": "AI API 연동 기술과 실시간 데이터 처리 능력 향상 [추론]"
   }
 }
