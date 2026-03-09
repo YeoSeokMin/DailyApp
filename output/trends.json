@@ -1,15 +1,65 @@
 {
-  "generatedAt": "2026-03-08T15:12:28.349Z",
+  "generatedAt": "2026-03-09T15:15:43.674Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
+      "category": "Health & Fitness",
+      "currentCount": 5,
+      "previousCount": 1,
+      "changePercent": 400,
+      "changeDirection": "up",
+      "apps": [
+        "NutriTime",
+        "AlwaysCoach On The Go",
+        "The Movemnt",
+        "Drift - Breathe & Meditate",
+        "AvoAI - Healthy Food Scanner"
+      ],
+      "avgScore": 7.56
+    },
+    {
+      "category": "Food & Drink",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Olio"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "Video & Media",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Shortn: 짧은 바이럴 동영상 앱"
+      ],
+      "avgScore": 8.2
+    },
+    {
+      "category": "Social",
+      "currentCount": 3,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "免费스티커 - 개성화 스티커",
+        "크랙 - 즉흥 서사 플레이, AI 채팅",
+        "Shortn: Short Viral Video App"
+      ],
+      "avgScore": 7.266666666666667
+    },
+    {
       "category": "AI",
       "currentCount": 4,
-      "previousCount": 1,
-      "changePercent": 300,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
         "Daggle - All AI in One",
@@ -108,18 +158,6 @@
       "avgScore": 8.3
     },
     {
-      "category": "Social",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "크랙 - 즉흥 서사 플레이, AI 채팅",
-        "Shortn: Short Viral Video App"
-      ],
-      "avgScore": 7.65
-    },
-    {
       "category": "Security",
       "currentCount": 1,
       "previousCount": 0,
@@ -131,80 +169,13 @@
       "avgScore": 8.5
     },
     {
-      "category": "Photo & Video",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "CiferProof Cam",
-        "AI Product Background Remover"
-      ],
-      "avgScore": 7.8
-    },
-    {
-      "category": "Sports",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Coachalyze"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "News",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Reel or Not?"
-      ],
-      "avgScore": 7.3
-    },
-    {
-      "category": "AI Chat",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Zeta - Reality Becoming a Reality AI Chat",
-        "Crack - Spontaneous Storytelling with AI Chat"
-      ],
-      "avgScore": 7.4
-    },
-    {
-      "category": "Ride-Hailing",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "GO Taxi Booking App - AI Ride-hailing Service"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Stickers & Emojis",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Free Talk Stickers - Personal Stickers"
-      ],
-      "avgScore": 6.3
-    },
-    {
       "category": "Lifestyle",
-      "currentCount": 8,
+      "currentCount": 9,
       "previousCount": 6,
-      "changePercent": 33,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
+        "Modern Wellness",
         "Shluffy - A Baby Sleep Coach",
         "MyScape 余白工房 - 音の風景を作る",
         "DietSuite: Calorie Tracker",
@@ -214,7 +185,26 @@
         "Riblee Island : Riblee's Small Island Life",
         "Hoogangnoho - Apartment Real Estate App"
       ],
-      "avgScore": 7.525
+      "avgScore": 7.555555555555555
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 9,
+      "previousCount": 7,
+      "changePercent": 29,
+      "changeDirection": "up",
+      "apps": [
+        "Easy Reader - PDF리더-PDF뷰어",
+        "In The Loop - Stay Connected",
+        "ActUp: Daily Sprint",
+        "PolicyDraft",
+        "PDF Reader and Editor",
+        "Force Alarm",
+        "All Set: Routines & Checklists",
+        "Genespark AI Workspace",
+        "Easy Mail - Email Launcher"
+      ],
+      "avgScore": 7.455555555555555
     },
     {
       "category": "Education",
@@ -238,46 +228,29 @@
   ],
   "decliningCategories": [
     {
-      "category": "Productivity",
-      "currentCount": 8,
-      "previousCount": 9,
-      "changePercent": -11,
-      "changeDirection": "down",
-      "apps": [
-        "In The Loop - Stay Connected",
-        "ActUp: Daily Sprint",
-        "PolicyDraft",
-        "PDF Reader and Editor",
-        "Force Alarm",
-        "All Set: Routines & Checklists",
-        "Genespark AI Workspace",
-        "Easy Mail - Email Launcher"
-      ],
-      "avgScore": 7.6125
-    },
-    {
-      "category": "Game",
-      "currentCount": 3,
+      "category": "Entertainment",
+      "currentCount": 4,
       "previousCount": 5,
-      "changePercent": -40,
+      "changePercent": -20,
       "changeDirection": "down",
       "apps": [
-        "GameVox",
-        "SpellCradle",
-        "Ocean to Ampire"
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Pocket FM: Audio Series",
+        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
+        "코스모스"
       ],
-      "avgScore": 7.133333333333333
+      "avgScore": 7.825
     },
     {
-      "category": "Finance",
+      "category": "Personalization",
       "currentCount": 1,
       "previousCount": 2,
       "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "Freecash"
+        "Easy Homescreen"
       ],
-      "avgScore": 7.6
+      "avgScore": 7
     },
     {
       "category": "Business",
@@ -291,28 +264,27 @@
       "avgScore": 7.8
     },
     {
-      "category": "Entertainment",
-      "currentCount": 3,
-      "previousCount": 6,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Pocket FM: Audio Series",
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
-        "코스모스"
-      ],
-      "avgScore": 7.6000000000000005
-    },
-    {
       "category": "Graphics & Design",
       "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
+      "previousCount": 2,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
         "KLING AI: AI Image & Video Maker"
       ],
       "avgScore": 8.2
+    },
+    {
+      "category": "Game",
+      "currentCount": 2,
+      "previousCount": 5,
+      "changePercent": -60,
+      "changeDirection": "down",
+      "apps": [
+        "GameVox",
+        "SpellCradle"
+      ],
+      "avgScore": 7.2
     }
   ],
   "stableCategories": [
@@ -342,16 +314,15 @@
       "avgScore": 6.8
     },
     {
-      "category": "Health & Fitness",
-      "currentCount": 2,
-      "previousCount": 2,
+      "category": "Finance",
+      "currentCount": 1,
+      "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Drift - Breathe & Meditate",
-        "AvoAI - Healthy Food Scanner"
+        "Freecash"
       ],
-      "avgScore": 7.5
+      "avgScore": 7.6
     },
     {
       "category": "Shopping",
@@ -376,6 +347,17 @@
       "avgScore": 8.1
     },
     {
+      "category": "Photo & Video",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "CiferProof Cam"
+      ],
+      "avgScore": 7.5
+    },
+    {
       "category": "Communication",
       "currentCount": 1,
       "previousCount": 1,
@@ -396,36 +378,71 @@
         "PolyBuzz: Chat with AI Friends"
       ],
       "avgScore": 8.6
-    },
-    {
-      "category": "Travel",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Wonder Gloss - Translator"
-      ],
-      "avgScore": 6.8
-    },
-    {
-      "category": "Health & Finance",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "MoneyWork - Earn Money with Health Management"
-      ],
-      "avgScore": 6.3
     }
   ],
   "hotKeywords": [
     {
+      "keyword": "1인개발가능",
+      "category": "tag",
+      "count": 47,
+      "apps": [
+        "NutriTime",
+        "Modern Wellness",
+        "AlwaysCoach On The Go",
+        "Olio",
+        "The Movemnt",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Easy Homescreen",
+        "Shortn: 짧은 바이럴 동영상 앱",
+        "Easy Reader - PDF리더-PDF뷰어",
+        "免费스티커 - 개성화 스티커",
+        "Habla - Learn Spanish Phrases",
+        "ActUp: Daily Sprint",
+        "batch. AI Product Image Studio",
+        "Drift - Breathe & Meditate",
+        "Counta - Mindful Counting",
+        "JobTimey",
+        "Easy Reader: PDF Reader",
+        "MagGit",
+        "House of Mothers",
+        "turtli",
+        "Force Alarm",
+        "Cheap Fuel Near Me",
+        "All Set: Routines & Checklists",
+        "MediManager",
+        "크랙 - 즉흥 서사 플레이, AI 채팅",
+        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
+        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
+        "하이클래스: 똑똑한 학급소통앱",
+        "코스모스",
+        "AvoAI - Healthy Food Scanner",
+        "Shluffy - A Baby Sleep Coach",
+        "CiferProof Cam",
+        "MyScape 余白工房 - 音の風景を作る",
+        "DietSuite: Calorie Tracker",
+        "Genespark AI Workspace",
+        "EdgeAura",
+        "Stamp Festival - Daily Distribution & All Free",
+        "SpellCradle",
+        "Arti - Kids Art & Memory Saver",
+        "AeroTail - Flight Proximity",
+        "Foodoo: AI Calorie Tracker",
+        "AceMate: Study AI",
+        "PolyBuzz: Chat with AI Friends",
+        "Easy Mail - Email Launcher",
+        "KLING AI: AI Image & Video Maker",
+        "Riblee Island : Riblee's Small Island Life",
+        "Hoogangnoho - Apartment Real Estate App"
+      ]
+    },
+    {
       "keyword": "B2C",
       "category": "tag",
-      "count": 46,
+      "count": 40,
       "apps": [
+        "NutriTime",
+        "Modern Wellness",
+        "AlwaysCoach On The Go",
         "Drift - Breathe & Meditate",
         "Easy Reader: PDF Reader",
         "Gemmy AI: Chat & Assistant",
@@ -462,74 +479,17 @@
         "PolyBuzz: Chat with AI Friends",
         "KLING AI: AI Image & Video Maker",
         "Riblee Island : Riblee's Small Island Life",
-        "Hoogangnoho - Apartment Real Estate App",
-        "Ocean to Ampire",
-        "Wonder Gloss - Translator",
-        "Coachalyze",
-        "Reel or Not?",
-        "Zeta - Reality Becoming a Reality AI Chat",
-        "GO Taxi Booking App - AI Ride-hailing Service",
-        "MoneyWork - Earn Money with Health Management",
-        "Crack - Spontaneous Storytelling with AI Chat",
-        "Free Talk Stickers - Personal Stickers"
-      ]
-    },
-    {
-      "keyword": "1인개발가능",
-      "category": "tag",
-      "count": 44,
-      "apps": [
-        "Habla - Learn Spanish Phrases",
-        "ActUp: Daily Sprint",
-        "batch. AI Product Image Studio",
-        "Drift - Breathe & Meditate",
-        "Counta - Mindful Counting",
-        "JobTimey",
-        "Easy Reader: PDF Reader",
-        "MagGit",
-        "House of Mothers",
-        "turtli",
-        "Force Alarm",
-        "Cheap Fuel Near Me",
-        "All Set: Routines & Checklists",
-        "MediManager",
-        "크랙 - 즉흥 서사 플레이, AI 채팅",
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
-        "하이클래스: 똑똑한 학급소통앱",
-        "코스모스",
-        "AvoAI - Healthy Food Scanner",
-        "Shluffy - A Baby Sleep Coach",
-        "CiferProof Cam",
-        "MyScape 余白工房 - 音の風景を作る",
-        "DietSuite: Calorie Tracker",
-        "Genespark AI Workspace",
-        "EdgeAura",
-        "Stamp Festival - Daily Distribution & All Free",
-        "SpellCradle",
-        "Arti - Kids Art & Memory Saver",
-        "AeroTail - Flight Proximity",
-        "Foodoo: AI Calorie Tracker",
-        "AceMate: Study AI",
-        "PolyBuzz: Chat with AI Friends",
-        "Easy Mail - Email Launcher",
-        "KLING AI: AI Image & Video Maker",
-        "Riblee Island : Riblee's Small Island Life",
-        "Hoogangnoho - Apartment Real Estate App",
-        "Ocean to Ampire",
-        "Wonder Gloss - Translator",
-        "AI Product Background Remover",
-        "Zeta - Reality Becoming a Reality AI Chat",
-        "MoneyWork - Earn Money with Health Management",
-        "Crack - Spontaneous Storytelling with AI Chat",
-        "Free Talk Stickers - Personal Stickers"
+        "Hoogangnoho - Apartment Real Estate App"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 37,
+      "count": 35,
       "apps": [
+        "AlwaysCoach On The Go",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Shortn: 짧은 바이럴 동영상 앱",
         "ActUp: Daily Sprint",
         "Daggle - All AI in One",
         "batch. AI Product Image Studio",
@@ -551,19 +511,13 @@
         "AceMate: Study AI",
         "PolyBuzz: Chat with AI Friends",
         "Easy Mail - Email Launcher",
-        "KLING AI: AI Image & Video Maker",
-        "Coachalyze",
-        "AI Product Background Remover",
-        "Reel or Not?",
-        "Zeta - Reality Becoming a Reality AI Chat",
-        "GO Taxi Booking App - AI Ride-hailing Service",
-        "Crack - Spontaneous Storytelling with AI Chat"
+        "KLING AI: AI Image & Video Maker"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 13,
+      "count": 12,
       "apps": [
         "Habla - Learn Spanish Phrases",
         "Kana Flow: Learn Japanese",
@@ -576,14 +530,13 @@
         "Genespark AI Workspace",
         "LearningX Student 2.0",
         "Arti - Kids Art & Memory Saver",
-        "Hoogangnoho - Apartment Real Estate App",
-        "MoneyWork - Earn Money with Health Management"
+        "Hoogangnoho - Apartment Real Estate App"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 11,
+      "count": 10,
       "apps": [
         "batch. AI Product Image Studio",
         "JobTimey",
@@ -594,15 +547,15 @@
         "Haeiclass: Smart Classroom Communication App",
         "하이클래스: 똑똑한 학급소통앱",
         "Genespark AI Workspace",
-        "Easy Mail - Email Launcher",
-        "AI Product Background Remover"
+        "Easy Mail - Email Launcher"
       ]
     },
     {
       "keyword": "생산성",
       "category": "tag",
-      "count": 8,
+      "count": 9,
       "apps": [
+        "Easy Reader - PDF리더-PDF뷰어",
         "In The Loop - Stay Connected",
         "ActUp: Daily Sprint",
         "Daggle - All AI in One",
@@ -617,27 +570,67 @@
       "category": "creator",
       "count": 8,
       "apps": [
+        "Shortn: 짧은 바이럴 동영상 앱",
         "Grok AI Creator",
         "Pocket FM: Audio Series",
         "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
         "Stamp Festival - Daily Distribution & All Free",
         "LearningX Student 2.0",
         "Shortn: Short Viral Video App",
-        "KLING AI: AI Image & Video Maker",
-        "Zeta - Reality Becoming a Reality AI Chat"
+        "KLING AI: AI Image & Video Maker"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "Olio",
+        "The Movemnt",
+        "House of Mothers",
+        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
+        "MyScape 余白工房 - 音の風景を作る"
       ]
     },
     {
       "keyword": "헬스케어",
-      "category": "health",
-      "count": 6,
+      "category": "tag",
+      "count": 5,
       "apps": [
+        "NutriTime",
         "One Coach App",
         "MediManager",
         "AvoAI - Healthy Food Scanner",
-        "Foodoo: AI Calorie Tracker",
-        "Coachalyze",
-        "MoneyWork - Earn Money with Health Management"
+        "Foodoo: AI Calorie Tracker"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Shortn: 짧은 바이럴 동영상 앱",
+        "Grok AI Creator",
+        "Shortn: Short Viral Video App"
+      ]
+    },
+    {
+      "keyword": "협업",
+      "category": "productivity",
+      "count": 3,
+      "apps": [
+        "크랙 - 즉흥 서사, AI 채팅",
+        "크랙 - 즉흥 서사 플레이, AI 채팅",
+        "Genespark AI Workspace"
+      ]
+    },
+    {
+      "keyword": "접근성",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Easy Homescreen",
+        "GameVox"
       ]
     },
     {
@@ -651,22 +644,48 @@
       ]
     },
     {
-      "keyword": "크리에이터",
-      "category": "creator",
-      "count": 3,
+      "keyword": "웰니스",
+      "category": "tag",
+      "count": 2,
       "apps": [
-        "Grok AI Creator",
-        "Shortn: Short Viral Video App"
+        "Modern Wellness",
+        "MyScape 余白工房 - 音の風景を作る"
       ]
     },
     {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 3,
+      "keyword": "소셜",
+      "category": "tag",
+      "count": 2,
       "apps": [
-        "House of Mothers",
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
+        "The Movemnt",
+        "免费스티커 - 개성화 스티커"
+      ]
+    },
+    {
+      "keyword": "창작도구",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "크랙 - 즉흥 서사, AI 채팅",
         "MyScape 余白工房 - 音の風景を作る"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 2,
+      "apps": [
+        "Shortn: 짧은 바이럴 동영상 앱",
+        "PDF Reader and Editor"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 2,
+      "apps": [
+        "Shortn: 짧은 바이럴 동영상 앱",
+        "KLING AI: AI Image & Video Maker"
       ]
     },
     {
@@ -686,76 +705,13 @@
         "In The Loop - Stay Connected",
         "Location Included GPS Photo"
       ]
-    },
-    {
-      "keyword": "니치마켓",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "PolicyDraft",
-        "AeroTail - Flight Proximity"
-      ]
-    },
-    {
-      "keyword": "접근성",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Easy Homescreen",
-        "GameVox"
-      ]
-    },
-    {
-      "keyword": "긱이코노미",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Freecash",
-        "Skeibaite: Job Search"
-      ]
-    },
-    {
-      "keyword": "명상",
-      "category": "health",
-      "count": 2,
-      "apps": [
-        "Drift - Breathe & Meditate",
-        "Counta - Mindful Counting"
-      ]
-    },
-    {
-      "keyword": "니치",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Counta - Mindful Counting",
-        "GameVox"
-      ]
-    },
-    {
-      "keyword": "매칭",
-      "category": "social",
-      "count": 2,
-      "apps": [
-        "Skeibaite: Job Search",
-        "GO Taxi Booking App - AI Ride-hailing Service"
-      ]
-    },
-    {
-      "keyword": "플랫폼",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Skeibaite: Job Search",
-        "DaGlo: All AI in One"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 19,
-        "percent": 27,
+        "count": 17,
+        "percent": 24,
         "examples": [
           "Easy Reader: PDF Reader",
           "Force Alarm",
@@ -763,26 +719,26 @@
         ]
       },
       "freemium": {
-        "count": 53,
-        "percent": 76,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "Habla - Learn Spanish Phrases",
-          "In The Loop - Stay Connected",
-          "ActUp: Daily Sprint"
+          "NutriTime",
+          "Modern Wellness",
+          "Olio"
         ]
       },
       "subscription": {
         "count": 42,
         "percent": 60,
         "examples": [
-          "Habla - Learn Spanish Phrases",
-          "In The Loop - Stay Connected",
-          "ActUp: Daily Sprint"
+          "NutriTime",
+          "Modern Wellness",
+          "AlwaysCoach On The Go"
         ]
       },
       "onetime": {
-        "count": 4,
-        "percent": 6,
+        "count": 3,
+        "percent": 4,
         "examples": [
           "Counta - Mindful Counting",
           "GameVox",
@@ -790,19 +746,19 @@
         ]
       },
       "unknown": {
-        "count": 4,
-        "percent": 6,
+        "count": 3,
+        "percent": 4,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 53,
-      "percent": 76,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "Habla - Learn Spanish Phrases",
-        "In The Loop - Stay Connected",
-        "ActUp: Daily Sprint"
+        "NutriTime",
+        "Modern Wellness",
+        "Olio"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -811,20 +767,20 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 30,
-        "percent": 43,
+        "count": 26,
+        "percent": 37,
         "apps": [
+          "AlwaysCoach On The Go",
+          "크랙 - 즉흥 서사, AI 채팅",
+          "Shortn: 짧은 바이럴 동영상 앱",
           "ActUp: Daily Sprint",
-          "Daggle - All AI in One",
-          "batch. AI Product Image Studio",
-          "Grok AI Creator",
-          "Skeibaite: Job Search"
+          "Daggle - All AI in One"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 17,
-        "percent": 24,
+        "count": 15,
+        "percent": 21,
         "apps": [
           "Habla - Learn Spanish Phrases",
           "Kana Flow: Learn Japanese",
@@ -835,14 +791,14 @@
       },
       {
         "tech": "creator",
-        "count": 9,
-        "percent": 13,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "Shortn: 짧은 바이럴 동영상 앱",
           "Grok AI Creator",
           "Pocket FM: Audio Series",
           "PDF Reader and Editor",
-          "코스모스",
-          "LearningX Student 2.0"
+          "코스모스"
         ]
       },
       {
@@ -859,9 +815,10 @@
       },
       {
         "tech": "productivity",
-        "count": 4,
-        "percent": 6,
+        "count": 5,
+        "percent": 7,
         "apps": [
+          "크랙 - 즉흥 서사, AI 채팅",
           "ActUp: Daily Sprint",
           "JobTimey",
           "All Set: Routines & Checklists",
@@ -873,45 +830,29 @@
         "count": 3,
         "percent": 4,
         "apps": [
+          "The Movemnt",
           "Skeibaite: Job Search",
-          "House of Mothers",
-          "GO Taxi Booking App - AI Ride-hailing Service"
-        ]
-      },
-      {
-        "tech": "blockchain",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "MoneyWork - Earn Money with Health Management"
-        ]
-      },
-      {
-        "tech": "subscription",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "Coachalyze"
+          "House of Mothers"
         ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 30,
-      "percent": 43,
+      "count": 26,
+      "percent": 37,
       "apps": [
+        "AlwaysCoach On The Go",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Shortn: 짧은 바이럴 동영상 앱",
         "ActUp: Daily Sprint",
-        "Daggle - All AI in One",
-        "batch. AI Product Image Studio",
-        "Grok AI Creator",
-        "Skeibaite: Job Search"
+        "Daggle - All AI in One"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 17,
-        "percent": 24,
+        "count": 15,
+        "percent": 21,
         "apps": [
           "Habla - Learn Spanish Phrases",
           "Kana Flow: Learn Japanese",
@@ -922,14 +863,14 @@
       },
       {
         "tech": "creator",
-        "count": 9,
-        "percent": 13,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "Shortn: 짧은 바이럴 동영상 앱",
           "Grok AI Creator",
           "Pocket FM: Audio Series",
           "PDF Reader and Editor",
-          "코스모스",
-          "LearningX Student 2.0"
+          "코스모스"
         ]
       }
     ]
@@ -937,8 +878,29 @@
   "opportunities": [
     {
       "type": "rising_category",
+      "title": "Food & Drink 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Food & Drink"
+    },
+    {
+      "type": "rising_category",
+      "title": "Video & Media 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Video & Media"
+    },
+    {
+      "type": "rising_category",
+      "title": "Social 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Social"
+    },
+    {
+      "type": "rising_category",
       "title": "AI 카테고리 급부상",
-      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "AI"
     },
@@ -1000,81 +962,32 @@
     },
     {
       "type": "rising_category",
-      "title": "Social 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social"
-    },
-    {
-      "type": "rising_category",
       "title": "Security 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Security"
     },
     {
-      "type": "rising_category",
-      "title": "Photo & Video 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Photo & Video"
-    },
-    {
-      "type": "rising_category",
-      "title": "Sports 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Sports"
-    },
-    {
-      "type": "rising_category",
-      "title": "News 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "News"
-    },
-    {
-      "type": "rising_category",
-      "title": "AI Chat 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "AI Chat"
-    },
-    {
-      "type": "rising_category",
-      "title": "Ride-Hailing 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Ride-Hailing"
-    },
-    {
-      "type": "rising_category",
-      "title": "Stickers & Emojis 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Stickers & Emojis"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "43%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "37%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI 카테고리가 300% 급성장하며 앱 시장을 주도하고 있고, 다양한 카테고리에서 100% 성장률을 보이지만 앱 수가 적어 진입 기회가 풍부합니다. 1인 개발 가능한 B2C 앱에 대한 수요가 높고, 프리미엄 모델이 주류를 이루고 있습니다.",
+    "trend_summary": "Health & Fitness가 400% 급증하며 웰니스 트렌드 확산, AI 통합이 37%로 주류화되면서 인디 개발자에게도 접근 가능한 기술로 자리잡음. Freemium 모델이 79%로 지배적이며 구독 서비스가 60%로 수익화 트렌드 뚜렷.",
     "trend_details": [
-      "AI 통합이 필수 트렌드로 자리잡아 43%의 앱이 AI 기능 포함",
-      "급성장 카테고리 대부분이 앱 수 부족으로 블루오션 상태",
-      "프리미엄 모델(76%)이 지배적이며 구독 모델도 60%로 높은 비중"
+      "Health & Fitness 카테고리 폭증 (+400%)",
+      "AI 기능 주류화 (37% 앱 탑재)",
+      "Freemium + 구독 모델 정착"
     ],
     "hot_categories": [
-      "AI",
-      "Graphic and Design"
+      "Health & Fitness",
+      "AI"
     ],
-    "opportunity": "AI 기능이 없는 Reading, Job Search, Development Tools 카테고리에 AI를 접목한 앱 개발",
-    "action_item": "1인 개발 가능한 AI 기반 그래픽 디자인 도구를 프리미엄 모델로 출시하여 급성장하는 틈새시장 선점",
-    "weekly_theme": "AI 블루오션"
+    "opportunity": "Health & Fitness와 AI를 결합한 개인 맞춤형 웰니스 앱이 가장 유망하며, 아직 포화되지 않은 시장.",
+    "action_item": "기존 앱에 AI 기반 개인화 기능을 추가하거나 Health & Fitness 니치 영역에서 freemium 모델로 진입.",
+    "weekly_theme": "AI 웰니스"
   }
 }
