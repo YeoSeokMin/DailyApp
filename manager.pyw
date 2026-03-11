@@ -1,6 +1,6 @@
 """
 DailyApp 관리 프로그램
-실시간 로그 + 상태 표시 + Local LLM 모니터링
+실시간 로그 + 상태 표시 + Codex CLI 모니터링
 """
 
 import tkinter as tk
@@ -13,78 +13,43 @@ import time
 from datetime import datetime
 import urllib.request
 import json
-import socket
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-def check_ollama_running():
-    """Ollama 서버 실행 여부 확인"""
-    try:
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.settimeout(1)
-        result = sock.connect_ex(('127.0.0.1', 11434))
-        sock.close()
-        return result == 0
-    except:
-        return False
+# Codex CLI 설정
+CODEX_MODEL = "gpt-5"
 
-def get_ollama_models():
-    """Ollama 모델 목록 조회"""
-    try:
-        req = urllib.request.Request('http://127.0.0.1:11434/api/tags')
-        with urllib.request.urlopen(req, timeout=2) as response:
-            data = json.loads(response.read().decode('utf-8'))
-            return [m['name'] for m in data.get('models', [])]
-    except:
-        return []
-
-def get_running_models():
-    """현재 로드된(실행 중인) 모델 조회"""
-    try:
-        req = urllib.request.Request('http://127.0.0.1:11434/api/ps')
-        with urllib.request.urlopen(req, timeout=2) as response:
-            data = json.loads(response.read().decode('utf-8'))
-            return [m['name'] for m in data.get('models', [])]
-    except:
-        return []
-
-def warmup_model(model_name):
-    """모델 웜업 (미리 로드)"""
-    try:
-        data = json.dumps({
-            "model": model_name,
-            "prompt": "Hi",
-            "stream": False,
-            "options": {"num_predict": 1}
-        }).encode('utf-8')
-
-        req = urllib.request.Request(
-            'http://127.0.0.1:11434/api/generate',
-            data=data,
-            headers={'Content-Type': 'application/json'}
-        )
-        with urllib.request.urlopen(req, timeout=120) as response:
-            return True
-    except:
-        return False
-
-# 사용할 모델
-DEFAULT_MODEL = "qwen2.5:7b-instruct-q5_K_M"
-
-def unload_model(model_name):
-    """모델 언로드 (GPU 메모리 해제)"""
+def check_codex_available():
+    """Codex CLI 설치 여부 확인"""
     try:
         result = subprocess.run(
-            f"ollama stop {model_name}",
+            "codex --version",
             shell=True,
             capture_output=True,
             text=True,
-            timeout=30,
+            timeout=5,
             creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
         )
         return result.returncode == 0
     except:
         return False
+
+def get_codex_version():
+    """Codex CLI 버전 조회"""
+    try:
+        result = subprocess.run(
+            "codex --version",
+            shell=True,
+            capture_output=True,
+            text=True,
+            timeout=5,
+            creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
+        )
+        if result.returncode == 0:
+            return result.stdout.strip() or result.stderr.strip()
+        return None
+    except:
+        return None
 
 class DailyAppManager:
     def __init__(self):
@@ -95,12 +60,11 @@ class DailyAppManager:
         self.root.configure(bg="#0f0f1a")
 
         self.log_queue = queue.Queue()
-        self.llm_log_queue = queue.Queue()  # Local LLM 로그 큐
+        self.llm_log_queue = queue.Queue()  # LLM 로그 큐
         self.is_running = False
         self.auto_run_enabled = True  # 자정 자동실행 활성화
         self.last_auto_run_date = None  # 마지막 자동실행 날짜
-        self.ollama_running = False  # Ollama 실행 상태
-        self.ollama_process = None  # Ollama 프로세스
+        self.codex_available = False  # Codex CLI 사용 가능 상태
 
         self.create_widgets()
         self.center_window()
@@ -108,7 +72,7 @@ class DailyAppManager:
         self.process_log_queue()
         self.process_llm_log_queue()  # LLM 로그 큐 처리
         self.check_midnight()  # 자정 체크 시작
-        self.check_ollama_status()  # Ollama 상태 체크 시작
+        self.check_codex_status()  # Codex CLI 상태 체크 시작
 
     def center_window(self):
         self.root.update_idletasks()
@@ -183,7 +147,7 @@ class DailyAppManager:
         )
         self.last_run_label.pack(anchor="w", padx=15, pady=(0, 10))
 
-        # Local LLM 상태 카드
+        # Codex CLI 상태 카드
         llm_frame = tk.Frame(self.root, bg="#1a1a2e", highlightbackground="#2a2a4e", highlightthickness=1)
         llm_frame.pack(fill="x", padx=20, pady=10)
 
@@ -192,7 +156,7 @@ class DailyAppManager:
 
         tk.Label(
             llm_inner,
-            text="🤖 Local LLM (Ollama)",
+            text=f"🤖 Codex CLI ({CODEX_MODEL})",
             font=("Segoe UI", 11, "bold"),
             fg="#ffffff",
             bg="#1a1a2e"
@@ -207,44 +171,18 @@ class DailyAppManager:
         )
         self.llm_status.pack(side="right")
 
-        # LLM 버튼 행
-        llm_btn_frame = tk.Frame(llm_frame, bg="#1a1a2e")
-        llm_btn_frame.pack(fill="x", padx=15, pady=(0, 10))
-
-        self.btn_start_ollama = tk.Button(
-            llm_btn_frame,
-            text="▶ 시작",
-            font=("Segoe UI", 9),
-            bg="#4ecca3",
-            fg="white",
-            bd=0,
-            cursor="hand2",
-            width=8,
-            command=self.start_ollama
-        )
-        self.btn_start_ollama.pack(side="left", padx=(0, 5))
-
-        self.btn_stop_ollama = tk.Button(
-            llm_btn_frame,
-            text="⏹ 중지",
-            font=("Segoe UI", 9),
-            bg="#e94560",
-            fg="white",
-            bd=0,
-            cursor="hand2",
-            width=8,
-            command=self.stop_ollama
-        )
-        self.btn_stop_ollama.pack(side="left", padx=(0, 5))
+        # Codex CLI 정보 행
+        llm_info_frame = tk.Frame(llm_frame, bg="#1a1a2e")
+        llm_info_frame.pack(fill="x", padx=15, pady=(0, 10))
 
         self.llm_model_label = tk.Label(
-            llm_btn_frame,
+            llm_info_frame,
             text="",
             font=("Segoe UI", 9),
             fg="#666666",
             bg="#1a1a2e"
         )
-        self.llm_model_label.pack(side="right")
+        self.llm_model_label.pack(side="left")
 
         # 버튼 영역
         btn_frame = tk.Frame(self.root, bg="#0f0f1a")
@@ -382,9 +320,9 @@ class DailyAppManager:
         )
         self.log_text.pack(fill="both", expand=True, padx=5, pady=(0, 5))
 
-        # 탭 2: Local LLM 로그
+        # 탭 2: Codex CLI 로그
         llm_log_frame = tk.Frame(self.log_notebook, bg="#1a1a2e")
-        self.log_notebook.add(llm_log_frame, text="🤖 Local LLM 로그")
+        self.log_notebook.add(llm_log_frame, text="🤖 Codex CLI 로그")
 
         llm_log_header = tk.Frame(llm_log_frame, bg="#1a1a2e")
         llm_log_header.pack(fill="x", pady=5, padx=5)
@@ -441,7 +379,7 @@ class DailyAppManager:
         # 하단 정보
         footer = tk.Label(
             self.root,
-            text="v1.0 | 앱 아이디어 리포터",
+            text="v2.0 | 앱 아이디어 리포터 (Codex CLI)",
             font=("Segoe UI", 9),
             fg="#444444",
             bg="#0f0f1a"
@@ -531,41 +469,15 @@ class DailyAppManager:
         if self.is_running:
             return
 
-        # Ollama 실행 체크 & 자동 시작
-        if not check_ollama_running():
-            self.log("🤖 Local LLM(Ollama)이 꺼져 있어 자동 시작합니다...", "info")
-            self.llm_log("파이프라인 실행을 위해 자동 시작...", "info")
-
-            def on_ollama_ready(success):
-                if success:
-                    self.log("✅ Ollama + 모델 준비 완료, 파이프라인 진행", "success")
-                    self._run_pipeline()
-                else:
-                    self.log("❌ Ollama 시작 실패, 파이프라인 중단", "error")
-
-            self.start_ollama(callback=on_ollama_ready)
+        # Codex CLI 사용 가능 여부 체크
+        if not check_codex_available():
+            self.log("❌ Codex CLI가 설치되어 있지 않습니다", "error")
+            self.log("  └ npm install -g @openai/codex 로 설치하세요", "info")
+            self.llm_log("❌ Codex CLI 미설치 - 파이프라인 중단", "error")
             return
 
-        # 서버는 실행 중이지만 모델이 로드 안 되어 있으면 웜업
-        running_models = get_running_models()
-        model_loaded = DEFAULT_MODEL in running_models or any(DEFAULT_MODEL.split(':')[0] in m for m in running_models)
-
-        if not model_loaded:
-            self.log(f"🔄 모델 로딩 중: {DEFAULT_MODEL}...", "info")
-            self.llm_log(f"모델 웜업 시작: {DEFAULT_MODEL}", "info")
-
-            def warmup_task():
-                if warmup_model(DEFAULT_MODEL):
-                    self.log("✅ 모델 로드 완료, 파이프라인 진행", "success")
-                    self.llm_log(f"✅ 모델 로드 완료", "success")
-                    self.root.after(0, self._run_pipeline)
-                else:
-                    self.log("⚠️ 모델 로드 실패, 그래도 진행 시도", "warn")
-                    self.root.after(0, self._run_pipeline)
-
-            threading.Thread(target=warmup_task, daemon=True).start()
-            return
-
+        self.log("✅ Codex CLI 확인 완료, 파이프라인 진행", "success")
+        self.llm_log(f"✅ Codex CLI 사용 가능 (모델: {CODEX_MODEL})", "success")
         self._run_pipeline()
 
     def _run_pipeline(self):
@@ -674,15 +586,7 @@ class DailyAppManager:
                 self.log(f"  소요 시간: {total_time/60:.1f}분", "info")
                 self.log("━" * 45, "info")
             finally:
-                # 모델 언로드 (GPU 메모리 해제)
-                self.log("🔄 Local LLM 모델 언로드 중...", "info")
-                self.llm_log("파이프라인 완료, 모델 언로드 중...", "info")
-                if unload_model(DEFAULT_MODEL):
-                    self.log("✅ 모델 언로드 완료 (GPU 메모리 해제)", "success")
-                    self.llm_log("✅ 모델 언로드 완료", "success")
-                else:
-                    self.llm_log("ℹ️ 모델이 이미 언로드되었거나 실행 중이 아님", "info")
-
+                self.llm_log("파이프라인 완료", "info")
                 self.root.after(0, lambda: self.set_running(False))
                 self.current_process = None
 
@@ -739,7 +643,7 @@ class DailyAppManager:
 
         threading.Thread(target=task, daemon=True).start()
 
-    # ========== Local LLM (Ollama) 관련 ==========
+    # ========== Codex CLI 관련 ==========
 
     def llm_log(self, message, level="info"):
         """LLM 로그 큐에 메시지 추가"""
@@ -767,137 +671,24 @@ class DailyAppManager:
         self.llm_log_text.config(state="disabled")
         self.llm_log("로그 초기화", "info")
 
-    def check_ollama_status(self):
-        """Ollama 상태 주기적 체크"""
+    def check_codex_status(self):
+        """Codex CLI 상태 주기적 체크"""
         def check():
-            running = check_ollama_running()
-            self.ollama_running = running
+            available = check_codex_available()
+            self.codex_available = available
 
-            if running:
-                # 실행 중인 모델 확인
-                running_models = get_running_models()
-                model_loaded = DEFAULT_MODEL in running_models or any(DEFAULT_MODEL.split(':')[0] in m for m in running_models)
-
-                if model_loaded:
-                    self.llm_status.config(text="모델 로드됨", fg="#4ecca3")
-                    self.llm_model_label.config(text=f"✓ {DEFAULT_MODEL.split(':')[0]}", fg="#4ecca3")
-                else:
-                    self.llm_status.config(text="서버만 실행 중", fg="#f9a825")
-                    self.llm_model_label.config(text="모델 대기 중", fg="#888888")
-
-                self.btn_start_ollama.config(state="disabled", bg="#2a2a4e")
-                self.btn_stop_ollama.config(state="normal", bg="#e94560")
+            if available:
+                version = get_codex_version()
+                self.llm_status.config(text="사용 가능", fg="#4ecca3")
+                version_text = f"✓ {version}" if version else f"✓ {CODEX_MODEL}"
+                self.llm_model_label.config(text=version_text, fg="#4ecca3")
             else:
-                self.llm_status.config(text="중지됨", fg="#e94560")
-                self.btn_start_ollama.config(state="normal", bg="#4ecca3")
-                self.btn_stop_ollama.config(state="disabled", bg="#2a2a4e")
-                self.llm_model_label.config(text="", fg="#888888")
+                self.llm_status.config(text="미설치", fg="#e94560")
+                self.llm_model_label.config(text="codex CLI를 설치하세요", fg="#888888")
 
         threading.Thread(target=check, daemon=True).start()
-        # 5초마다 체크
-        self.root.after(5000, self.check_ollama_status)
-
-    def start_ollama(self, callback=None):
-        """Ollama 서버 시작 (이미 실행 중이면 스킵)"""
-        # 이미 실행 중인지 체크
-        if check_ollama_running():
-            self.llm_log("ℹ️ Ollama가 이미 실행 중입니다", "info")
-            if callback:
-                callback(True)
-            return
-
-        def task():
-            self.llm_log("Ollama 서버 시작 중...", "info")
-
-            try:
-                # Ollama 서버 시작 (백그라운드)
-                self.ollama_process = subprocess.Popen(
-                    "ollama serve",
-                    shell=True,
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.STDOUT,
-                    text=True,
-                    encoding='utf-8',
-                    errors='replace',
-                    creationflags=subprocess.CREATE_NO_WINDOW
-                )
-
-                # 출력 읽기 스레드
-                def read_output():
-                    for line in iter(self.ollama_process.stdout.readline, ''):
-                        if line.strip():
-                            clean_line = line.strip()
-                            if 'error' in clean_line.lower():
-                                self.llm_log(clean_line, "error")
-                            elif 'warning' in clean_line.lower():
-                                self.llm_log(clean_line, "warn")
-                            else:
-                                self.llm_log(clean_line, "info")
-
-                threading.Thread(target=read_output, daemon=True).start()
-
-                # 시작 대기 (최대 10초)
-                for _ in range(10):
-                    time.sleep(1)
-                    if check_ollama_running():
-                        break
-
-                if check_ollama_running():
-                    self.llm_log("✅ Ollama 서버 시작됨", "success")
-
-                    # 모델 웜업 (미리 로드)
-                    self.llm_log(f"🔄 모델 로딩 중: {DEFAULT_MODEL}...", "info")
-                    if warmup_model(DEFAULT_MODEL):
-                        self.llm_log(f"✅ 모델 로드 완료: {DEFAULT_MODEL}", "success")
-                    else:
-                        self.llm_log(f"⚠️ 모델 로드 실패 (첫 요청 시 자동 로드됨)", "warn")
-
-                    if callback:
-                        callback(True)
-                else:
-                    self.llm_log("⚠️ Ollama 서버 시작 실패", "warn")
-                    if callback:
-                        callback(False)
-
-            except Exception as e:
-                self.llm_log(f"❌ 시작 실패: {str(e)}", "error")
-                if callback:
-                    callback(False)
-
-        threading.Thread(target=task, daemon=True).start()
-
-    def stop_ollama(self):
-        """Ollama 서버 중지"""
-        def task():
-            self.llm_log("Ollama 서버 중지 중...", "info")
-
-            try:
-                # taskkill로 종료 (Windows)
-                subprocess.run(
-                    "taskkill /F /IM ollama.exe",
-                    shell=True,
-                    capture_output=True,
-                    creationflags=subprocess.CREATE_NO_WINDOW
-                )
-
-                if self.ollama_process:
-                    try:
-                        self.ollama_process.terminate()
-                    except:
-                        pass
-                    self.ollama_process = None
-
-                time.sleep(1)
-
-                if not check_ollama_running():
-                    self.llm_log("✅ Ollama 서버 중지됨", "success")
-                else:
-                    self.llm_log("⚠️ Ollama 서버가 아직 실행 중일 수 있음", "warn")
-
-            except Exception as e:
-                self.llm_log(f"❌ 중지 실패: {str(e)}", "error")
-
-        threading.Thread(target=task, daemon=True).start()
+        # 30초마다 체크 (서버가 아니라 CLI이므로 빈도 낮춤)
+        self.root.after(30000, self.check_codex_status)
 
     def run(self):
         self.root.mainloop()

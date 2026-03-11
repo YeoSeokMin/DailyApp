@@ -368,14 +368,14 @@ async function main() {
     console.log('🤖 Local LLM 1차 필터링 시작...');
     console.log('─'.repeat(50));
 
-    // Ollama 연결 테스트
+    // Codex CLI 연결 테스트
     const connected = await localLLM.testConnection();
     if (!connected) {
-      console.log('  ⚠️ Ollama 연결 실패, 기본 필터링 사용');
+      console.log('  ⚠️ Codex CLI 연결 실패, 기본 필터링 사용');
       iosApps = cleanAppData(allIosApps, MAX_APPS_PER_PLATFORM);
       androidApps = cleanAppData(allAndroidApps, MAX_APPS_PER_PLATFORM);
     } else {
-      console.log('  ✅ Ollama 연결 성공');
+      console.log('  ✅ Codex CLI 연결 성공');
 
       // iOS 앱 필터링 + 영어 요약
       console.log(`\n  📱 iOS 앱 필터링 (${allIosApps.length}개 → ${LOCAL_LLM_CONFIG.topN}개)`);

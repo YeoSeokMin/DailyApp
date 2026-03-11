@@ -9,7 +9,8 @@
     "save": "node scripts/save-report.js",
     "kakao:auth": "node scripts/kakao-auth.js",
     "kakao:send": "node scripts/send-kakao.js",
-    "daily": "npm run collect && npm run analyze && npm run save && npm run kakao:send"
+    "deploy": "git add web/data/reports web/data/trends.json && git commit -m \"daily report $(date +%Y-%m-%d)\" && git push",
+    "daily": "npm run collect && npm run analyze && npm run save && npm run deploy && npm run kakao:send"
   },
   "keywords": [
     "app",

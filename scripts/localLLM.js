@@ -1,71 +1,94 @@
 /**
  * localLLM.js
  *
- * Local LLM (Ollama) 연동 모듈
+ * Codex CLI (gpt-5) 연동 모듈
  * - 앱 1차 필터링 (전체 스캔)
  * - 영어 요약 생성
  * - 토큰 비용 절감
+ *
+ * 기존 Ollama → Codex CLI로 교체
  */
 
-// Node.js 18 미만에서는 node-fetch 필요할 수 있음
+const { spawn } = require('child_process');
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
 
-// Ollama 설정
-const OLLAMA_CONFIG = {
-  host: '127.0.0.1',  // localhost 대신 IP 사용 (Windows 호환성)
-  port: 11434,
-  model: 'qwen2.5:7b-instruct-q5_K_M',  // 지시 따르기 좋은 모델
+// Codex CLI 설정
+const CODEX_CONFIG = {
+  model: 'gpt-5',
+  reasoningEffort: 'low',  // gpt-5는 xhigh 미지원, low로 충분
   timeout: 120000  // 2분 타임아웃
 };
 
 // 배치 설정
-const BATCH_SIZE = 50;  // 한 번에 처리할 앱 수
+const BATCH_SIZE = 50;
 
 /**
- * Ollama API 호출 (fetch 사용)
+ * Codex CLI 호출
+ * codex exec -m o4-mini --ephemeral -o tmpFile "prompt"
  */
-async function callOllama(prompt) {
-  const url = `http://${OLLAMA_CONFIG.host}:${OLLAMA_CONFIG.port}/api/generate`;
+async function callCodex(prompt) {
+  return new Promise((resolve, reject) => {
+    const tmpFile = path.join(os.tmpdir(), `codex_out_${Date.now()}.txt`);
 
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), OLLAMA_CONFIG.timeout);
+    // 프롬프트를 stdin으로 전달 (- 플래그)
+    const args = [
+      'exec',
+      '-m', CODEX_CONFIG.model,
+      '-c', `model_reasoning_effort="${CODEX_CONFIG.reasoningEffort}"`,
+      '--ephemeral',
+      '--skip-git-repo-check',
+      '-o', tmpFile,
+      '-'  // stdin에서 프롬프트 읽기
+    ];
 
-  try {
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: OLLAMA_CONFIG.model,
-        prompt: prompt,
-        stream: false,
-        options: {
-          temperature: 0.3,
-          num_predict: 2000
-        }
-      }),
-      signal: controller.signal
+    const child = spawn('codex', args, {
+      shell: true,
+      stdio: ['pipe', 'pipe', 'pipe'],
+      timeout: CODEX_CONFIG.timeout
     });
 
-    clearTimeout(timeoutId);
+    // stdin으로 프롬프트 전달
+    child.stdin.write(prompt);
+    child.stdin.end();
 
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
+    let stderr = '';
 
-    const json = await response.json();
-    return json.response || '';
-  } catch (error) {
-    clearTimeout(timeoutId);
-    if (error.name === 'AbortError') {
-      throw new Error('Ollama 타임아웃');
-    }
-    throw error;
-  }
+    child.stderr.on('data', (data) => {
+      stderr += data.toString();
+    });
+
+    child.on('close', (code) => {
+      try {
+        if (fs.existsSync(tmpFile)) {
+          const result = fs.readFileSync(tmpFile, 'utf-8').trim();
+          fs.unlinkSync(tmpFile);  // cleanup
+          resolve(result);
+        } else if (code === 0) {
+          resolve('');
+        } else {
+          reject(new Error(`Codex 종료 코드 ${code}: ${stderr.substring(0, 300)}`));
+        }
+      } catch (error) {
+        reject(error);
+      }
+    });
+
+    child.on('error', (error) => {
+      reject(new Error(`Codex 실행 실패: ${error.message}`));
+    });
+
+    // 타임아웃
+    setTimeout(() => {
+      child.kill();
+      reject(new Error('Codex 타임아웃'));
+    }, CODEX_CONFIG.timeout);
+  });
 }
 
 /**
  * 앱 배치 필터링 (점수 매기기)
- * @param {Array} apps - 앱 목록
- * @returns {Array} - 점수가 매겨진 앱 목록
  */
 async function scoreAppsBatch(apps) {
   const appList = apps.map((app, idx) =>
@@ -90,13 +113,12 @@ Output ONLY a JSON array with scores, no explanation:
 [{"idx": 1, "score": 7}, {"idx": 2, "score": 3}, ...]`;
 
   try {
-    const result = await callOllama(prompt);
+    const result = await callCodex(prompt);
 
-    // JSON 추출
     const jsonMatch = result.match(/\[[\s\S]*\]/);
     if (!jsonMatch) {
       console.log('  ⚠️ JSON 추출 실패, 기본 점수 사용');
-      return apps.map((app, idx) => ({ ...app, llmScore: 5 }));
+      return apps.map(app => ({ ...app, llmScore: 5 }));
     }
 
     const scores = JSON.parse(jsonMatch[0]);
@@ -114,12 +136,9 @@ Output ONLY a JSON array with scores, no explanation:
 
 /**
  * 전체 앱 필터링 (배치 처리)
- * @param {Array} apps - 전체 앱 목록
- * @param {number} topN - 상위 N개 반환
- * @returns {Array} - 필터링된 앱 목록
  */
 async function filterApps(apps, topN = 30) {
-  console.log(`  🤖 Local LLM 필터링 시작 (${apps.length}개 → ${topN}개)`);
+  console.log(`  🤖 Codex (${CODEX_CONFIG.model}) 필터링 시작 (${apps.length}개 → ${topN}개)`);
 
   const allScoredApps = [];
   const totalBatches = Math.ceil(apps.length / BATCH_SIZE);
@@ -133,13 +152,12 @@ async function filterApps(apps, topN = 30) {
     const scoredBatch = await scoreAppsBatch(batch);
     allScoredApps.push(...scoredBatch);
 
-    // 배치 간 딜레이 (GPU 과열 방지)
+    // 배치 간 딜레이 (rate limit 방지)
     if (i + BATCH_SIZE < apps.length) {
-      await new Promise(r => setTimeout(r, 1000));
+      await new Promise(r => setTimeout(r, 2000));
     }
   }
 
-  // 점수순 정렬 후 상위 N개 반환
   const sorted = allScoredApps.sort((a, b) => b.llmScore - a.llmScore);
   const filtered = sorted.slice(0, topN);
 
@@ -150,8 +168,6 @@ async function filterApps(apps, topN = 30) {
 
 /**
  * 앱 목록을 영어로 요약
- * @param {Array} apps - 앱 목록
- * @returns {Array} - 영어 요약된 앱 목록
  */
 async function summarizeToEnglish(apps) {
   console.log(`  🌐 영어 요약 생성 중 (${apps.length}개)...`);
@@ -172,7 +188,7 @@ Output format (JSON only, no explanation):
 ]`;
 
   try {
-    const result = await callOllama(prompt);
+    const result = await callCodex(prompt);
 
     const jsonMatch = result.match(/\[[\s\S]*\]/);
     if (!jsonMatch) {
@@ -203,38 +219,32 @@ Output format (JSON only, no explanation):
 
 /**
  * 전체 파이프라인: 필터링 + 영어 요약
- * @param {Array} apps - 전체 앱 목록
- * @param {number} topN - 상위 N개
- * @returns {Array} - 필터링되고 영어로 요약된 앱 목록
  */
 async function filterAndSummarize(apps, topN = 30) {
-  // 1. 점수 기반 필터링
   const filtered = await filterApps(apps, topN);
-
-  // 2. 영어 요약
   const summarized = await summarizeToEnglish(filtered);
-
   return summarized;
 }
 
 /**
- * Ollama 연결 테스트
+ * Codex CLI 연결 테스트
  */
 async function testConnection() {
   try {
-    const result = await callOllama('Say "OK" if you can hear me.');
+    const result = await callCodex('Reply with only the word OK');
     return result.includes('OK') || result.length > 0;
   } catch (error) {
+    console.log('  ⚠️ Codex CLI 연결 실패:', error.message);
     return false;
   }
 }
 
 module.exports = {
-  callOllama,
+  callCodex,
   scoreAppsBatch,
   filterApps,
   summarizeToEnglish,
   filterAndSummarize,
   testConnection,
-  OLLAMA_CONFIG
+  CODEX_CONFIG
 };
