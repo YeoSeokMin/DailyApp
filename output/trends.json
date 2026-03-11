@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T00:08:07.503Z",
+  "generatedAt": "2026-03-11T15:12:18.078Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -7,45 +7,92 @@
   "risingCategories": [
     {
       "category": "Social",
-      "currentCount": 4,
+      "currentCount": 3,
       "previousCount": 1,
-      "changePercent": 300,
+      "changePercent": 200,
       "changeDirection": "up",
       "apps": [
-        "PolyBuzz: Chat with AI Friends",
         "FreeTalkStickers - Personal Stickers",
         "免费스티커 - 개성화 스티커",
         "크랙 - 즉흥 서사 플레이, AI 채팅"
       ],
-      "avgScore": 7.7
+      "avgScore": 7.266666666666667
+    },
+    {
+      "category": "Health & Fitness",
+      "currentCount": 5,
+      "previousCount": 2,
+      "changePercent": 150,
+      "changeDirection": "up",
+      "apps": [
+        "Unguided",
+        "NutriTime",
+        "AlwaysCoach On The Go",
+        "The Movemnt",
+        "Drift - Breathe & Meditate"
+      ],
+      "avgScore": 7.44
     },
     {
       "category": "Entertainment",
-      "currentCount": 6,
+      "currentCount": 5,
       "previousCount": 2,
-      "changePercent": 200,
+      "changePercent": 150,
       "changeDirection": "up",
       "apps": [
-        "ShortMax - Watch Dramas & Show",
         "Crack - Improvised Narrative Play, AI Chat",
         "크랙 - 즉흥 서사, AI 채팅",
         "Pocket FM: Audio Series",
         "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
         "코스모스"
       ],
-      "avgScore": 7.933333333333333
+      "avgScore": 7.88
     },
     {
-      "category": "Finance",
+      "category": "Graphic & Design",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "batch. AI Product Image Studio"
+      ],
+      "avgScore": 8.5
+    },
+    {
+      "category": "Social Media",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Shortn: short viral video app"
+      ],
+      "avgScore": 8.8
+    },
+    {
+      "category": "Social Networking",
       "currentCount": 2,
       "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "FinanzDuett",
-        "Freecash"
+        "PolyBuzz: Chat with AI Friends",
+        "SingleDadStrong"
       ],
-      "avgScore": 7.8
+      "avgScore": 7.5
+    },
+    {
+      "category": "Shopping",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Whatnot: Shop, Sell, Connect",
+        "AgroKapp"
+      ],
+      "avgScore": 8.2
     },
     {
       "category": "Health/Fitness",
@@ -69,20 +116,6 @@
         "CatchTable"
       ],
       "avgScore": 7.4
-    },
-    {
-      "category": "Health & Fitness",
-      "currentCount": 4,
-      "previousCount": 2,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "NutriTime",
-        "AlwaysCoach On The Go",
-        "The Movemnt",
-        "Drift - Breathe & Meditate"
-      ],
-      "avgScore": 7.5
     },
     {
       "category": "Food & Drink",
@@ -215,7 +248,7 @@
       "changePercent": 57,
       "changeDirection": "up",
       "apps": [
-        "젠스파크 AI 워크스페이스",
+        "Easy Mail - Email Launcher",
         "Goalio – Goal & Habit Tracker",
         "uminotes",
         "QuickDoc: PDF Reader Tools",
@@ -227,26 +260,43 @@
         "Force Alarm",
         "All Set: Routines & Checklists"
       ],
-      "avgScore": 7.190909090909091
+      "avgScore": 7.081818181818182
     },
     {
-      "category": "Utility",
-      "currentCount": 6,
-      "previousCount": 5,
-      "changePercent": 20,
+      "category": "Education",
+      "currentCount": 9,
+      "previousCount": 8,
+      "changePercent": 13,
       "changeDirection": "up",
       "apps": [
-        "Ash — SSH Client",
-        "Easy Homescreen",
-        "Easy Mail - Email Launcher",
+        "QuoteCrush",
+        "HaiClass: Smart Classroom Communication App",
+        "Habla - Learn Spanish Phrases",
+        "Kana Flow: Learn Japanese",
+        "House of Mothers",
+        "Shortcut Quest",
+        "Haeiclass: Smart Classroom Communication App",
+        "Duolingo - Learn English",
+        "하이클래스: 똑똑한 학급소통앱"
+      ],
+      "avgScore": 7.566666666666666
+    }
+  ],
+  "decliningCategories": [
+    {
+      "category": "Utility",
+      "currentCount": 4,
+      "previousCount": 5,
+      "changePercent": -20,
+      "changeDirection": "down",
+      "apps": [
+        "Just Protein: On Track",
         "Easy Homescreen",
         "Location Included GPS Photo",
         "Counta - Mindful Counting"
       ],
-      "avgScore": 7
-    }
-  ],
-  "decliningCategories": [
+      "avgScore": 7.275
+    },
     {
       "category": "Photo & Video",
       "currentCount": 1,
@@ -259,82 +309,52 @@
       "avgScore": 6.5
     },
     {
-      "category": "Personalization",
+      "category": "Game",
       "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
+      "previousCount": 3,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
-        "Easy Homescreen"
+        "GameVox"
       ],
       "avgScore": 7
     },
     {
-      "category": "Business",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "JobTimey"
-      ],
-      "avgScore": 7.8
-    },
-    {
       "category": "Lifestyle",
-      "currentCount": 2,
+      "currentCount": 1,
       "previousCount": 12,
-      "changePercent": -83,
+      "changePercent": -92,
       "changeDirection": "down",
       "apps": [
-        "Hush: AI Islamic Habit Tracker",
         "Modern Wellness"
       ],
-      "avgScore": 8.2
+      "avgScore": 7.8
     }
   ],
   "stableCategories": [
     {
-      "category": "Game",
-      "currentCount": 3,
-      "previousCount": 3,
+      "category": "Business",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Wordnest - A Fun Word Game",
-        "Startup Flip",
-        "GameVox"
+        "Periskope",
+        "JobTimey"
       ],
-      "avgScore": 7.066666666666666
+      "avgScore": 7.9
     },
     {
-      "category": "Social Networking",
-      "currentCount": 1,
-      "previousCount": 1,
+      "category": "Personalization",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "SingleDadStrong"
+        "Easy Homescreen",
+        "Easy Homescreen"
       ],
-      "avgScore": 6.8
-    },
-    {
-      "category": "Education",
-      "currentCount": 8,
-      "previousCount": 8,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "HaiClass: Smart Classroom Communication App",
-        "Habla - Learn Spanish Phrases",
-        "Kana Flow: Learn Japanese",
-        "House of Mothers",
-        "Shortcut Quest",
-        "Haeiclass: Smart Classroom Communication App",
-        "Duolingo - Learn English",
-        "하이클래스: 똑똑한 학급소통앱"
-      ],
-      "avgScore": 7.5375000000000005
+      "avgScore": 7.3
     },
     {
       "category": "Weather",
@@ -348,15 +368,15 @@
       "avgScore": 6.8
     },
     {
-      "category": "Shopping",
+      "category": "Finance",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "AgroKapp"
+        "Freecash"
       ],
-      "avgScore": 7.8
+      "avgScore": 7.6
     },
     {
       "category": "Healthcare/Fitness",
@@ -374,18 +394,15 @@
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 44,
+      "count": 41,
       "apps": [
-        "Wordnest - A Fun Word Game",
-        "Ash — SSH Client",
-        "Hush: AI Islamic Habit Tracker",
-        "FinanzDuett",
-        "Startup Flip",
-        "PolyBuzz: Chat with AI Friends",
+        "batch. AI Product Image Studio",
+        "QuoteCrush",
+        "Unguided",
+        "Just Protein: On Track",
         "Easy Homescreen",
-        "젠스파크 AI 워크스페이스",
         "Easy Mail - Email Launcher",
-        "ShortMax - Watch Dramas & Show",
+        "PolyBuzz: Chat with AI Friends",
         "Goalio – Goal & Habit Tracker",
         "uminotes",
         "SingleDadStrong",
@@ -402,7 +419,6 @@
         "免费스티커 - 개성화 스티커",
         "Habla - Learn Spanish Phrases",
         "ActUp: Daily Sprint",
-        "batch. AI Product Image Studio",
         "Drift - Breathe & Meditate",
         "Counta - Mindful Counting",
         "JobTimey",
@@ -424,16 +440,14 @@
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 35,
+      "count": 33,
       "apps": [
-        "Wordnest - A Fun Word Game",
-        "Hush: AI Islamic Habit Tracker",
-        "FinanzDuett",
-        "Startup Flip",
-        "PolyBuzz: Chat with AI Friends",
+        "QuoteCrush",
+        "Unguided",
+        "Just Protein: On Track",
+        "Shortn: short viral video app",
         "Easy Homescreen",
-        "Easy Mail - Email Launcher",
-        "ShortMax - Watch Dramas & Show",
+        "PolyBuzz: Chat with AI Friends",
         "Goalio – Goal & Habit Tracker",
         "uminotes",
         "SmartBite Calorie Tracker",
@@ -466,12 +480,11 @@
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 29,
+      "count": 28,
       "apps": [
-        "Hush: AI Islamic Habit Tracker",
-        "PolyBuzz: Chat with AI Friends",
-        "젠스파크 AI 워크스페이스",
+        "batch. AI Product Image Studio",
         "Easy Mail - Email Launcher",
+        "PolyBuzz: Chat with AI Friends",
         "SmartBite Calorie Tracker",
         "CleanPhoto: Choose and Clean",
         "Crack - Improvised Narrative Play, AI Chat",
@@ -482,7 +495,6 @@
         "Shortn: 짧은 바이럴 동영상 앱",
         "ActUp: Daily Sprint",
         "Daggle - All AI in One",
-        "batch. AI Product Image Studio",
         "Grok AI Creator",
         "Skeibaite: Job Search",
         "Gemmy AI: Chat & Assistant",
@@ -493,11 +505,28 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
+      "keyword": "B2B",
+      "category": "tag",
       "count": 12,
       "apps": [
-        "Startup Flip",
+        "batch. AI Product Image Studio",
+        "Periskope",
+        "Easy Mail - Email Launcher",
+        "QuickDoc: PDF Reader Tools",
+        "JobTimey",
+        "Grok AI Creator",
+        "DaGlo: All AI in One",
+        "MagGit",
+        "AgroKapp",
+        "Haeiclass: Smart Classroom Communication App",
+        "하이클래스: 똑똑한 학급소통앱"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 11,
+      "apps": [
         "SmartBite Calorie Tracker",
         "Crack - Improvised Narrative Play, AI Chat",
         "HaiClass: Smart Classroom Communication App",
@@ -512,29 +541,11 @@
       ]
     },
     {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 11,
-      "apps": [
-        "Ash — SSH Client",
-        "젠스파크 AI 워크스페이스",
-        "QuickDoc: PDF Reader Tools",
-        "batch. AI Product Image Studio",
-        "JobTimey",
-        "Grok AI Creator",
-        "DaGlo: All AI in One",
-        "MagGit",
-        "AgroKapp",
-        "Haeiclass: Smart Classroom Communication App",
-        "하이클래스: 똑똑한 학급소통앱"
-      ]
-    },
-    {
       "keyword": "생산성",
-      "category": "productivity",
+      "category": "tag",
       "count": 8,
       "apps": [
-        "젠스파크 AI 워크스페이스",
+        "Easy Mail - Email Launcher",
         "Easy Reader - PDF리더-PDF뷰어",
         "In The Loop - Stay Connected",
         "ActUp: Daily Sprint",
@@ -546,14 +557,27 @@
     {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 6,
+      "count": 7,
       "apps": [
-        "ShortMax - Watch Dramas & Show",
+        "Shortn: short viral video app",
         "Crack - Improvised Narrative Play, AI Chat",
         "Shortn: 짧은 바이럴 동영상 앱",
         "Grok AI Creator",
         "Pocket FM: Audio Series",
         "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활"
+      ]
+    },
+    {
+      "keyword": "AI활용",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "batch. AI Product Image Studio",
+        "PolyBuzz: Chat with AI Friends",
+        "SmartBite Calorie Tracker",
+        "CleanPhoto: Choose and Clean",
+        "Crack - Improvised Narrative Play, AI Chat",
+        "One Coach App"
       ]
     },
     {
@@ -569,6 +593,18 @@
       ]
     },
     {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "batch. AI Product Image Studio",
+        "Shortn: short viral video app",
+        "QuickDoc: PDF Reader Tools",
+        "Shortn: 짧은 바이럴 동영상 앱",
+        "PDF Reader and Editor"
+      ]
+    },
+    {
       "keyword": "헬스케어",
       "category": "health",
       "count": 5,
@@ -580,14 +616,43 @@
       ]
     },
     {
-      "keyword": "AI활용",
+      "keyword": "접근성",
       "category": "tag",
       "count": 4,
       "apps": [
-        "SmartBite Calorie Tracker",
-        "CleanPhoto: Choose and Clean",
-        "Crack - Improvised Narrative Play, AI Chat",
-        "One Coach App"
+        "Easy Homescreen",
+        "GameVox"
+      ]
+    },
+    {
+      "keyword": "B2B2C",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Whatnot: Shop, Sell, Connect",
+        "HaiClass: Smart Classroom Communication App",
+        "CatchTable",
+        "Skeibaite: Job Search"
+      ]
+    },
+    {
+      "keyword": "자동화",
+      "category": "productivity",
+      "count": 3,
+      "apps": [
+        "batch. AI Product Image Studio",
+        "JobTimey",
+        "All Set: Routines & Checklists"
+      ]
+    },
+    {
+      "keyword": "협업",
+      "category": "productivity",
+      "count": 3,
+      "apps": [
+        "Periskope",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "크랙 - 즉흥 서사 플레이, AI 채팅"
       ]
     },
     {
@@ -595,7 +660,7 @@
       "category": "social",
       "count": 3,
       "apps": [
-        "PolyBuzz: Chat with AI Friends",
+        "Whatnot: Shop, Sell, Connect",
         "The Movemnt",
         "免费스티커 - 개성화 스티커"
       ]
@@ -605,38 +670,9 @@
       "category": "creator",
       "count": 3,
       "apps": [
-        "ShortMax - Watch Dramas & Show",
+        "Whatnot: Shop, Sell, Connect",
         "Pocket FM: Audio Series",
         "코스모스"
-      ]
-    },
-    {
-      "keyword": "B2B2C",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "HaiClass: Smart Classroom Communication App",
-        "CatchTable",
-        "Skeibaite: Job Search"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "QuickDoc: PDF Reader Tools",
-        "Shortn: 짧은 바이럴 동영상 앱",
-        "PDF Reader and Editor"
-      ]
-    },
-    {
-      "keyword": "접근성",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Easy Homescreen",
-        "GameVox"
       ]
     },
     {
@@ -649,78 +685,59 @@
       ]
     },
     {
-      "keyword": "워크플로우",
-      "category": "productivity",
-      "count": 2,
-      "apps": [
-        "젠스파크 AI 워크스페이스",
-        "Grok AI Creator"
-      ]
-    },
-    {
-      "keyword": "니치마켓",
+      "keyword": "교육",
       "category": "tag",
       "count": 2,
       "apps": [
-        "SingleDadStrong",
-        "PolicyDraft"
+        "QuoteCrush",
+        "Habla - Learn Spanish Phrases"
       ]
     },
     {
-      "keyword": "사회적가치",
-      "category": "tag",
+      "keyword": "네트워킹",
+      "category": "social",
       "count": 2,
       "apps": [
-        "SingleDadStrong",
-        "Olio"
-      ]
-    },
-    {
-      "keyword": "엔터테인먼트",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Crack - Improvised Narrative Play, AI Chat",
-        "Gemmy AI: Chat & Assistant"
+        "Periskope"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 7,
-        "percent": 10,
+        "count": 4,
+        "percent": 6,
         "examples": [
-          "Wordnest - A Fun Word Game",
-          "Easy Homescreen",
-          "Easy Mail - Email Launcher"
+          "Easy Reader: PDF Reader",
+          "Force Alarm",
+          "Cheap Fuel Near Me"
         ]
       },
       "freemium": {
-        "count": 54,
-        "percent": 77,
+        "count": 57,
+        "percent": 81,
         "examples": [
-          "Wordnest - A Fun Word Game",
-          "Ash — SSH Client",
-          "Hush: AI Islamic Habit Tracker"
+          "batch. AI Product Image Studio",
+          "QuoteCrush",
+          "Periskope"
         ]
       },
       "subscription": {
-        "count": 44,
-        "percent": 63,
+        "count": 40,
+        "percent": 57,
         "examples": [
-          "Wordnest - A Fun Word Game",
-          "Ash — SSH Client",
-          "Hush: AI Islamic Habit Tracker"
+          "batch. AI Product Image Studio",
+          "QuoteCrush",
+          "Easy Homescreen"
         ]
       },
       "onetime": {
-        "count": 5,
-        "percent": 7,
+        "count": 4,
+        "percent": 6,
         "examples": [
-          "Startup Flip",
           "uminotes",
-          "Counta - Mindful Counting"
+          "Counta - Mindful Counting",
+          "GameVox"
         ]
       },
       "unknown": {
@@ -731,12 +748,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 54,
-      "percent": 77,
+      "count": 57,
+      "percent": 81,
       "examples": [
-        "Wordnest - A Fun Word Game",
-        "Ash — SSH Client",
-        "Hush: AI Islamic Habit Tracker"
+        "batch. AI Product Image Studio",
+        "QuoteCrush",
+        "Periskope"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -748,47 +765,47 @@
         "count": 23,
         "percent": 33,
         "apps": [
-          "Hush: AI Islamic Habit Tracker",
-          "PolyBuzz: Chat with AI Friends",
-          "젠스파크 AI 워크스페이스",
+          "batch. AI Product Image Studio",
+          "Shortn: short viral video app",
           "Easy Mail - Email Launcher",
+          "PolyBuzz: Chat with AI Friends",
           "SmartBite Calorie Tracker"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 15,
-        "percent": 21,
+        "count": 13,
+        "percent": 19,
         "apps": [
-          "Ash — SSH Client",
-          "Startup Flip",
           "Goalio – Goal & Habit Tracker",
           "SmartBite Calorie Tracker",
-          "Crack - Improvised Narrative Play, AI Chat"
+          "Crack - Improvised Narrative Play, AI Chat",
+          "HaiClass: Smart Classroom Communication App",
+          "Habla - Learn Spanish Phrases"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 9,
+        "percent": 13,
         "apps": [
-          "ShortMax - Watch Dramas & Show",
+          "batch. AI Product Image Studio",
+          "Shortn: short viral video app",
+          "Whatnot: Shop, Sell, Connect",
           "QuickDoc: PDF Reader Tools",
-          "Shortn: 짧은 바이럴 동영상 앱",
-          "Grok AI Creator",
-          "Pocket FM: Audio Series"
+          "Shortn: 짧은 바이럴 동영상 앱"
         ]
       },
       {
         "tech": "social",
-        "count": 5,
-        "percent": 7,
+        "count": 6,
+        "percent": 9,
         "apps": [
-          "PolyBuzz: Chat with AI Friends",
+          "Periskope",
+          "Whatnot: Shop, Sell, Connect",
           "SingleDadStrong",
           "The Movemnt",
-          "Skeibaite: Job Search",
-          "House of Mothers"
+          "Skeibaite: Job Search"
         ]
       },
       {
@@ -796,7 +813,7 @@
         "count": 5,
         "percent": 7,
         "apps": [
-          "젠스파크 AI 워크스페이스",
+          "Periskope",
           "크랙 - 즉흥 서사, AI 채팅",
           "ActUp: Daily Sprint",
           "JobTimey",
@@ -813,14 +830,6 @@
           "Counta - Mindful Counting",
           "One Coach App"
         ]
-      },
-      {
-        "tech": "fintech",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "FinanzDuett"
-        ]
       }
     ],
     "dominant": {
@@ -828,36 +837,36 @@
       "count": 23,
       "percent": 33,
       "apps": [
-        "Hush: AI Islamic Habit Tracker",
-        "PolyBuzz: Chat with AI Friends",
-        "젠스파크 AI 워크스페이스",
+        "batch. AI Product Image Studio",
+        "Shortn: short viral video app",
         "Easy Mail - Email Launcher",
+        "PolyBuzz: Chat with AI Friends",
         "SmartBite Calorie Tracker"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 15,
-        "percent": 21,
+        "count": 13,
+        "percent": 19,
         "apps": [
-          "Ash — SSH Client",
-          "Startup Flip",
           "Goalio – Goal & Habit Tracker",
           "SmartBite Calorie Tracker",
-          "Crack - Improvised Narrative Play, AI Chat"
+          "Crack - Improvised Narrative Play, AI Chat",
+          "HaiClass: Smart Classroom Communication App",
+          "Habla - Learn Spanish Phrases"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 9,
+        "percent": 13,
         "apps": [
-          "ShortMax - Watch Dramas & Show",
+          "batch. AI Product Image Studio",
+          "Shortn: short viral video app",
+          "Whatnot: Shop, Sell, Connect",
           "QuickDoc: PDF Reader Tools",
-          "Shortn: 짧은 바이럴 동영상 앱",
-          "Grok AI Creator",
-          "Pocket FM: Audio Series"
+          "Shortn: 짧은 바이럴 동영상 앱"
         ]
       }
     ]
@@ -866,16 +875,37 @@
     {
       "type": "rising_category",
       "title": "Social 카테고리 급부상",
-      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
+      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Social"
     },
     {
       "type": "rising_category",
-      "title": "Finance 카테고리 급부상",
+      "title": "Graphic & Design 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Finance"
+      "category": "Graphic & Design"
+    },
+    {
+      "type": "rising_category",
+      "title": "Social Media 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Social Media"
+    },
+    {
+      "type": "rising_category",
+      "title": "Social Networking 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Social Networking"
+    },
+    {
+      "type": "rising_category",
+      "title": "Shopping 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Shopping"
     },
     {
       "type": "rising_category",
@@ -890,13 +920,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Food Delivery"
-    },
-    {
-      "type": "rising_category",
-      "title": "Health & Fitness 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health & Fitness"
     },
     {
       "type": "rising_category",
@@ -984,19 +1007,18 @@
     }
   ],
   "insight": {
-    "trend_summary": "Social 카테고리가 300% 급성장하며 새로운 시장 기회를 제시하고 있고, AI 기술 통합이 33%의 앱에서만 활용되며 차별화 포인트로 부상하고 있습니다. Freemium 모델(77%)이 주류를 이루며 1인 개발자도 충분히 진입 가능한 시장 환경이 조성되었습니다.",
+    "trend_summary": "Social 카테고리가 200% 급성장하며 새로운 기회의 영역으로 부상하고 있습니다. AI 기능 통합과 Freemium 모델이 주류가 되면서 1인 개발자에게 유리한 시장 환경이 조성되고 있습니다.",
     "trend_details": [
-      "Social 카테고리 300% 급성장으로 커뮤니티 중심 앱 수요 폭증",
-      "AI 기술 활용도 33%로 아직 미개척 영역이 많아 차별화 기회 존재",
-      "Freemium+Subscription 조합이 주류 수익 모델로 정착",
-      "1인 개발 가능한 프로젝트에 대한 관심도 최고치 기록"
+      "Social 앱 카테고리 200% 급성장으로 최고 성장률 기록",
+      "AI 기능이 33%의 앱에 통합되며 필수 요소로 자리잡음",
+      "Freemium 모델이 81% 지배하며 수익화 표준 모델로 정착"
     ],
     "hot_categories": [
       "Social",
-      "Entertainment"
+      "Graphic & Design"
     ],
-    "opportunity": "Social 카테고리에서 AI 기능을 통합한 커뮤니티 중심 앱 개발이 가장 유망한 기회 영역입니다.",
-    "action_item": "Social 카테고리 내에서 아직 AI가 적용되지 않은 틈새 영역을 찾아 MVP를 개발하고 freemium 모델로 출시하세요.",
-    "weekly_theme": "소셜 AI"
+    "opportunity": "Social 카테고리의 폭발적 성장에도 불구하고 앱 수가 적어 AI 기능을 통합한 소셜 앱으로 시장 진입 기회가 큼",
+    "action_item": "AI 기능이 통합된 Social 또는 Graphic Design 앱을 Freemium 모델로 개발하여 급성장하는 시장에 진입",
+    "weekly_theme": "AI Social"
   }
 }
