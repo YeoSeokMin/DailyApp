@@ -1,28 +1,15 @@
 {
-  "generatedAt": "2026-03-11T15:12:18.078Z",
+  "generatedAt": "2026-03-12T15:12:36.001Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Social",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "FreeTalkStickers - Personal Stickers",
-        "免费스티커 - 개성화 스티커",
-        "크랙 - 즉흥 서사 플레이, AI 채팅"
-      ],
-      "avgScore": 7.266666666666667
-    },
-    {
       "category": "Health & Fitness",
       "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
+      "previousCount": 1,
+      "changePercent": 400,
       "changeDirection": "up",
       "apps": [
         "Unguided",
@@ -34,19 +21,28 @@
       "avgScore": 7.44
     },
     {
-      "category": "Entertainment",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
+      "category": "Weather",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Crack - Improvised Narrative Play, AI Chat",
-        "크랙 - 즉흥 서사, AI 채팅",
-        "Pocket FM: Audio Series",
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
-        "코스모스"
+        "PrecisionAviator",
+        "First Screen Weather"
       ],
-      "avgScore": 7.88
+      "avgScore": 7.3
+    },
+    {
+      "category": "Safety",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CrimeRadar: Dispatch Alerts",
+        "CrimeRadar: Dispatch Alerts"
+      ],
+      "avgScore": 8.1
     },
     {
       "category": "Graphic & Design",
@@ -198,56 +194,34 @@
       "avgScore": 7.2
     },
     {
-      "category": "Safety",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Education",
+      "currentCount": 10,
+      "previousCount": 6,
+      "changePercent": 67,
       "changeDirection": "up",
       "apps": [
-        "CrimeRadar: Dispatch Alerts"
+        "Comcigan Notifier (Student)",
+        "Classcard – Smart Vocabulary",
+        "QuoteCrush",
+        "HaiClass: Smart Classroom Communication App",
+        "Habla - Learn Spanish Phrases",
+        "Kana Flow: Learn Japanese",
+        "House of Mothers",
+        "Shortcut Quest",
+        "Haeiclass: Smart Classroom Communication App",
+        "Duolingo - Learn English"
       ],
-      "avgScore": 8
-    },
-    {
-      "category": "Navigation",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Cheap Fuel Near Me"
-      ],
-      "avgScore": 8.5
-    },
-    {
-      "category": "Medical",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "MediManager"
-      ],
-      "avgScore": 8.3
-    },
-    {
-      "category": "Security",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방"
-      ],
-      "avgScore": 8.5
+      "avgScore": 7.709999999999999
     },
     {
       "category": "Productivity",
       "currentCount": 11,
-      "previousCount": 7,
-      "changePercent": 57,
+      "previousCount": 8,
+      "changePercent": 38,
       "changeDirection": "up",
       "apps": [
+        "coslog - Costume Planner",
+        "Para — Book Paragraph Capture",
         "Easy Mail - Email Launcher",
         "Goalio – Goal & Habit Tracker",
         "uminotes",
@@ -256,47 +230,26 @@
         "In The Loop - Stay Connected",
         "ActUp: Daily Sprint",
         "PolicyDraft",
-        "PDF Reader and Editor",
-        "Force Alarm",
-        "All Set: Routines & Checklists"
+        "PDF Reader and Editor"
       ],
-      "avgScore": 7.081818181818182
+      "avgScore": 7.2
     },
     {
-      "category": "Education",
-      "currentCount": 9,
-      "previousCount": 8,
-      "changePercent": 13,
+      "category": "Entertainment",
+      "currentCount": 4,
+      "previousCount": 3,
+      "changePercent": 33,
       "changeDirection": "up",
       "apps": [
-        "QuoteCrush",
-        "HaiClass: Smart Classroom Communication App",
-        "Habla - Learn Spanish Phrases",
-        "Kana Flow: Learn Japanese",
-        "House of Mothers",
-        "Shortcut Quest",
-        "Haeiclass: Smart Classroom Communication App",
-        "Duolingo - Learn English",
-        "하이클래스: 똑똑한 학급소통앱"
+        "Crack – Improv Narrative Play, AI Chat",
+        "Crack - Improvised Narrative Play, AI Chat",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Pocket FM: Audio Series"
       ],
-      "avgScore": 7.566666666666666
+      "avgScore": 8.325
     }
   ],
   "decliningCategories": [
-    {
-      "category": "Utility",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
-      "changeDirection": "down",
-      "apps": [
-        "Just Protein: On Track",
-        "Easy Homescreen",
-        "Location Included GPS Photo",
-        "Counta - Mindful Counting"
-      ],
-      "avgScore": 7.275
-    },
     {
       "category": "Photo & Video",
       "currentCount": 1,
@@ -321,17 +274,30 @@
     },
     {
       "category": "Lifestyle",
-      "currentCount": 1,
-      "previousCount": 12,
-      "changePercent": -92,
+      "currentCount": 3,
+      "previousCount": 11,
+      "changePercent": -73,
       "changeDirection": "down",
       "apps": [
+        "Buddy - Animal Rescue",
+        "YarnGo: Crochet & Knitting",
         "Modern Wellness"
       ],
-      "avgScore": 7.8
+      "avgScore": 7.833333333333333
     }
   ],
   "stableCategories": [
+    {
+      "category": "Security",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Citizen Conan – Scam Prevention"
+      ],
+      "avgScore": 8.5
+    },
     {
       "category": "Business",
       "currentCount": 2,
@@ -343,6 +309,20 @@
         "JobTimey"
       ],
       "avgScore": 7.9
+    },
+    {
+      "category": "Utility",
+      "currentCount": 4,
+      "previousCount": 4,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Just Protein: On Track",
+        "Easy Homescreen",
+        "Location Included GPS Photo",
+        "Counta - Mindful Counting"
+      ],
+      "avgScore": 7.275
     },
     {
       "category": "Personalization",
@@ -357,15 +337,16 @@
       "avgScore": 7.3
     },
     {
-      "category": "Weather",
-      "currentCount": 1,
-      "previousCount": 1,
+      "category": "Social",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "First Screen Weather"
+        "FreeTalkStickers - Personal Stickers",
+        "免费스티커 - 개성화 스티커"
       ],
-      "avgScore": 6.8
+      "avgScore": 6.5
     },
     {
       "category": "Finance",
@@ -377,25 +358,19 @@
         "Freecash"
       ],
       "avgScore": 7.6
-    },
-    {
-      "category": "Healthcare/Fitness",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "turtli"
-      ],
-      "avgScore": 8.1
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 41,
+      "count": 36,
       "apps": [
+        "Buddy - Animal Rescue",
+        "coslog - Costume Planner",
+        "YarnGo: Crochet & Knitting",
+        "Para — Book Paragraph Capture",
+        "Comcigan Notifier (Student)",
         "batch. AI Product Image Studio",
         "QuoteCrush",
         "Unguided",
@@ -424,24 +399,45 @@
         "JobTimey",
         "Easy Reader: PDF Reader",
         "MagGit",
-        "House of Mothers",
-        "turtli",
-        "Force Alarm",
-        "Cheap Fuel Near Me",
-        "All Set: Routines & Checklists",
-        "MediManager",
-        "크랙 - 즉흥 서사 플레이, AI 채팅",
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
-        "하이클래스: 똑똑한 학급소통앱",
-        "코스모스"
+        "House of Mothers"
+      ]
+    },
+    {
+      "keyword": "AI",
+      "category": "ai",
+      "count": 31,
+      "apps": [
+        "Buddy - Animal Rescue",
+        "Crack – Improv Narrative Play, AI Chat",
+        "Citizen Conan – Scam Prevention",
+        "batch. AI Product Image Studio",
+        "Easy Mail - Email Launcher",
+        "PolyBuzz: Chat with AI Friends",
+        "SmartBite Calorie Tracker",
+        "CleanPhoto: Choose and Clean",
+        "Crack - Improvised Narrative Play, AI Chat",
+        "FreeTalkStickers - Personal Stickers",
+        "HaiClass: Smart Classroom Communication App",
+        "AlwaysCoach On The Go",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Shortn: 짧은 바이럴 동영상 앱",
+        "ActUp: Daily Sprint",
+        "Daggle - All AI in One",
+        "Grok AI Creator",
+        "Skeibaite: Job Search",
+        "Gemmy AI: Chat & Assistant",
+        "DaGlo: All AI in One",
+        "One Coach App",
+        "Duolingo - Learn English"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 33,
+      "count": 26,
       "apps": [
+        "Buddy - Animal Rescue",
+        "Citizen Conan – Scam Prevention",
         "QuoteCrush",
         "Unguided",
         "Just Protein: On Track",
@@ -465,50 +461,37 @@
         "CrimeRadar: Dispatch Alerts",
         "Pocket FM: Audio Series",
         "PDF Reader and Editor",
-        "Duolingo - Learn English",
-        "turtli",
-        "Force Alarm",
-        "Cheap Fuel Near Me",
-        "All Set: Routines & Checklists",
-        "MediManager",
-        "크랙 - 즉흥 서사 플레이, AI 채팅",
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활",
-        "코스모스"
+        "Duolingo - Learn English"
       ]
     },
     {
-      "keyword": "AI",
-      "category": "ai",
-      "count": 28,
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 15,
       "apps": [
-        "batch. AI Product Image Studio",
-        "Easy Mail - Email Launcher",
-        "PolyBuzz: Chat with AI Friends",
+        "YarnGo: Crochet & Knitting",
+        "Para — Book Paragraph Capture",
+        "PrecisionAviator",
+        "CrimeRadar: Dispatch Alerts",
+        "Crack – Improv Narrative Play, AI Chat",
+        "Classcard – Smart Vocabulary",
         "SmartBite Calorie Tracker",
-        "CleanPhoto: Choose and Clean",
         "Crack - Improvised Narrative Play, AI Chat",
-        "FreeTalkStickers - Personal Stickers",
         "HaiClass: Smart Classroom Communication App",
-        "AlwaysCoach On The Go",
-        "크랙 - 즉흥 서사, AI 채팅",
-        "Shortn: 짧은 바이럴 동영상 앱",
-        "ActUp: Daily Sprint",
-        "Daggle - All AI in One",
-        "Grok AI Creator",
+        "Habla - Learn Spanish Phrases",
+        "Kana Flow: Learn Japanese",
         "Skeibaite: Job Search",
-        "Gemmy AI: Chat & Assistant",
-        "DaGlo: All AI in One",
-        "One Coach App",
-        "Duolingo - Learn English",
-        "크랙 - 즉흥 서사 플레이, AI 채팅"
+        "Haeiclass: Smart Classroom Communication App",
+        "Duolingo - Learn English"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 12,
+      "count": 13,
       "apps": [
+        "PrecisionAviator",
+        "Classcard – Smart Vocabulary",
         "batch. AI Product Image Studio",
         "Periskope",
         "Easy Mail - Email Launcher",
@@ -518,26 +501,7 @@
         "DaGlo: All AI in One",
         "MagGit",
         "AgroKapp",
-        "Haeiclass: Smart Classroom Communication App",
-        "하이클래스: 똑똑한 학급소통앱"
-      ]
-    },
-    {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 11,
-      "apps": [
-        "SmartBite Calorie Tracker",
-        "Crack - Improvised Narrative Play, AI Chat",
-        "HaiClass: Smart Classroom Communication App",
-        "Habla - Learn Spanish Phrases",
-        "Kana Flow: Learn Japanese",
-        "Skeibaite: Job Search",
-        "CrimeRadar: Dispatch Alerts",
-        "Haeiclass: Smart Classroom Communication App",
-        "Duolingo - Learn English",
-        "Force Alarm",
-        "Cheap Fuel Near Me"
+        "Haeiclass: Smart Classroom Communication App"
       ]
     },
     {
@@ -545,26 +509,13 @@
       "category": "tag",
       "count": 8,
       "apps": [
+        "Para — Book Paragraph Capture",
         "Easy Mail - Email Launcher",
         "Easy Reader - PDF리더-PDF뷰어",
         "In The Loop - Stay Connected",
         "ActUp: Daily Sprint",
         "Daggle - All AI in One",
-        "Easy Reader: PDF Reader",
-        "All Set: Routines & Checklists"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 7,
-      "apps": [
-        "Shortn: short viral video app",
-        "Crack - Improvised Narrative Play, AI Chat",
-        "Shortn: 짧은 바이럴 동영상 앱",
-        "Grok AI Creator",
-        "Pocket FM: Audio Series",
-        "리블리 아일랜드 : 리블리와 함께하는 작은 섬 생활"
+        "Easy Reader: PDF Reader"
       ]
     },
     {
@@ -581,15 +532,27 @@
       ]
     },
     {
-      "keyword": "커뮤니티",
-      "category": "social",
+      "keyword": "콘텐츠",
+      "category": "creator",
       "count": 6,
       "apps": [
-        "SingleDadStrong",
-        "Olio",
-        "The Movemnt",
-        "House of Mothers",
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방"
+        "Shortn: short viral video app",
+        "Crack - Improvised Narrative Play, AI Chat",
+        "Shortn: 짧은 바이럴 동영상 앱",
+        "Grok AI Creator",
+        "Pocket FM: Audio Series"
+      ]
+    },
+    {
+      "keyword": "교육",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "Para — Book Paragraph Capture",
+        "Comcigan Notifier (Student)",
+        "Classcard – Smart Vocabulary",
+        "QuoteCrush",
+        "Habla - Learn Spanish Phrases"
       ]
     },
     {
@@ -605,14 +568,14 @@
       ]
     },
     {
-      "keyword": "헬스케어",
-      "category": "health",
+      "keyword": "커뮤니티",
+      "category": "social",
       "count": 5,
       "apps": [
-        "SmartBite Calorie Tracker",
-        "NutriTime",
-        "One Coach App",
-        "MediManager"
+        "SingleDadStrong",
+        "Olio",
+        "The Movemnt",
+        "House of Mothers"
       ]
     },
     {
@@ -636,23 +599,33 @@
       ]
     },
     {
-      "keyword": "자동화",
-      "category": "productivity",
-      "count": 3,
+      "keyword": "헬스케어",
+      "category": "health",
+      "count": 4,
       "apps": [
-        "batch. AI Product Image Studio",
-        "JobTimey",
-        "All Set: Routines & Checklists"
+        "SmartBite Calorie Tracker",
+        "NutriTime",
+        "One Coach App"
       ]
     },
     {
-      "keyword": "협업",
-      "category": "productivity",
+      "keyword": "니치마켓",
+      "category": "tag",
       "count": 3,
       "apps": [
-        "Periskope",
-        "크랙 - 즉흥 서사, AI 채팅",
-        "크랙 - 즉흥 서사 플레이, AI 채팅"
+        "coslog - Costume Planner",
+        "SingleDadStrong",
+        "PolicyDraft"
+      ]
+    },
+    {
+      "keyword": "엔터테인먼트",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Crack – Improv Narrative Play, AI Chat",
+        "Crack - Improvised Narrative Play, AI Chat",
+        "Gemmy AI: Chat & Assistant"
       ]
     },
     {
@@ -666,16 +639,6 @@
       ]
     },
     {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "Whatnot: Shop, Sell, Connect",
-        "Pocket FM: Audio Series",
-        "코스모스"
-      ]
-    },
-    {
       "keyword": "크리에이터",
       "category": "tag",
       "count": 3,
@@ -685,59 +648,60 @@
       ]
     },
     {
-      "keyword": "교육",
+      "keyword": "취미",
       "category": "tag",
       "count": 2,
       "apps": [
-        "QuoteCrush",
-        "Habla - Learn Spanish Phrases"
+        "coslog - Costume Planner",
+        "YarnGo: Crochet & Knitting"
       ]
     },
     {
-      "keyword": "네트워킹",
-      "category": "social",
+      "keyword": "사회문제해결",
+      "category": "tag",
       "count": 2,
       "apps": [
-        "Periskope"
+        "Citizen Conan – Scam Prevention",
+        "CrimeRadar: Dispatch Alerts"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 4,
-        "percent": 6,
+        "count": 10,
+        "percent": 14,
         "examples": [
-          "Easy Reader: PDF Reader",
-          "Force Alarm",
-          "Cheap Fuel Near Me"
+          "Buddy - Animal Rescue",
+          "coslog - Costume Planner",
+          "YarnGo: Crochet & Knitting"
         ]
       },
       "freemium": {
-        "count": 57,
-        "percent": 81,
+        "count": 58,
+        "percent": 83,
         "examples": [
-          "batch. AI Product Image Studio",
-          "QuoteCrush",
-          "Periskope"
+          "coslog - Costume Planner",
+          "YarnGo: Crochet & Knitting",
+          "Para — Book Paragraph Capture"
         ]
       },
       "subscription": {
-        "count": 40,
-        "percent": 57,
+        "count": 42,
+        "percent": 60,
         "examples": [
-          "batch. AI Product Image Studio",
-          "QuoteCrush",
-          "Easy Homescreen"
+          "Buddy - Animal Rescue",
+          "YarnGo: Crochet & Knitting",
+          "Para — Book Paragraph Capture"
         ]
       },
       "onetime": {
-        "count": 4,
-        "percent": 6,
+        "count": 6,
+        "percent": 9,
         "examples": [
-          "uminotes",
-          "Counta - Mindful Counting",
-          "GameVox"
+          "Buddy - Animal Rescue",
+          "coslog - Costume Planner",
+          "Comcigan Notifier (Student)"
         ]
       },
       "unknown": {
@@ -748,12 +712,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 57,
-      "percent": 81,
+      "count": 58,
+      "percent": 83,
       "examples": [
-        "batch. AI Product Image Studio",
-        "QuoteCrush",
-        "Periskope"
+        "coslog - Costume Planner",
+        "YarnGo: Crochet & Knitting",
+        "Para — Book Paragraph Capture"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -762,26 +726,26 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 23,
-        "percent": 33,
+        "count": 24,
+        "percent": 34,
         "apps": [
+          "Buddy - Animal Rescue",
+          "Crack – Improv Narrative Play, AI Chat",
+          "Citizen Conan – Scam Prevention",
           "batch. AI Product Image Studio",
-          "Shortn: short viral video app",
-          "Easy Mail - Email Launcher",
-          "PolyBuzz: Chat with AI Friends",
-          "SmartBite Calorie Tracker"
+          "Shortn: short viral video app"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 13,
-        "percent": 19,
+        "count": 17,
+        "percent": 24,
         "apps": [
-          "Goalio – Goal & Habit Tracker",
-          "SmartBite Calorie Tracker",
-          "Crack - Improvised Narrative Play, AI Chat",
-          "HaiClass: Smart Classroom Communication App",
-          "Habla - Learn Spanish Phrases"
+          "YarnGo: Crochet & Knitting",
+          "Para — Book Paragraph Capture",
+          "PrecisionAviator",
+          "CrimeRadar: Dispatch Alerts",
+          "Crack – Improv Narrative Play, AI Chat"
         ]
       },
       {
@@ -789,11 +753,11 @@
         "count": 9,
         "percent": 13,
         "apps": [
+          "CrimeRadar: Dispatch Alerts",
           "batch. AI Product Image Studio",
           "Shortn: short viral video app",
           "Whatnot: Shop, Sell, Connect",
-          "QuickDoc: PDF Reader Tools",
-          "Shortn: 짧은 바이럴 동영상 앱"
+          "QuickDoc: PDF Reader Tools"
         ]
       },
       {
@@ -809,18 +773,6 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "Periskope",
-          "크랙 - 즉흥 서사, AI 채팅",
-          "ActUp: Daily Sprint",
-          "JobTimey",
-          "All Set: Routines & Checklists"
-        ]
-      },
-      {
         "tech": "health",
         "count": 4,
         "percent": 6,
@@ -830,31 +782,50 @@
           "Counta - Mindful Counting",
           "One Coach App"
         ]
+      },
+      {
+        "tech": "productivity",
+        "count": 4,
+        "percent": 6,
+        "apps": [
+          "Periskope",
+          "크랙 - 즉흥 서사, AI 채팅",
+          "ActUp: Daily Sprint",
+          "JobTimey"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "YarnGo: Crochet & Knitting"
+        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 23,
-      "percent": 33,
+      "count": 24,
+      "percent": 34,
       "apps": [
+        "Buddy - Animal Rescue",
+        "Crack – Improv Narrative Play, AI Chat",
+        "Citizen Conan – Scam Prevention",
         "batch. AI Product Image Studio",
-        "Shortn: short viral video app",
-        "Easy Mail - Email Launcher",
-        "PolyBuzz: Chat with AI Friends",
-        "SmartBite Calorie Tracker"
+        "Shortn: short viral video app"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 13,
-        "percent": 19,
+        "count": 17,
+        "percent": 24,
         "apps": [
-          "Goalio – Goal & Habit Tracker",
-          "SmartBite Calorie Tracker",
-          "Crack - Improvised Narrative Play, AI Chat",
-          "HaiClass: Smart Classroom Communication App",
-          "Habla - Learn Spanish Phrases"
+          "YarnGo: Crochet & Knitting",
+          "Para — Book Paragraph Capture",
+          "PrecisionAviator",
+          "CrimeRadar: Dispatch Alerts",
+          "Crack – Improv Narrative Play, AI Chat"
         ]
       },
       {
@@ -862,11 +833,11 @@
         "count": 9,
         "percent": 13,
         "apps": [
+          "CrimeRadar: Dispatch Alerts",
           "batch. AI Product Image Studio",
           "Shortn: short viral video app",
           "Whatnot: Shop, Sell, Connect",
-          "QuickDoc: PDF Reader Tools",
-          "Shortn: 짧은 바이럴 동영상 앱"
+          "QuickDoc: PDF Reader Tools"
         ]
       }
     ]
@@ -874,10 +845,17 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "Social 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Weather 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Social"
+      "category": "Weather"
+    },
+    {
+      "type": "rising_category",
+      "title": "Safety 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Safety"
     },
     {
       "type": "rising_category",
@@ -972,53 +950,32 @@
     },
     {
       "type": "rising_category",
-      "title": "Safety 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Entertainment 카테고리 급부상",
+      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Safety"
-    },
-    {
-      "type": "rising_category",
-      "title": "Navigation 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Navigation"
-    },
-    {
-      "type": "rising_category",
-      "title": "Medical 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Medical"
-    },
-    {
-      "type": "rising_category",
-      "title": "Security 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Security"
+      "category": "Entertainment"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "33%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Social 카테고리가 200% 급성장하며 새로운 기회의 영역으로 부상하고 있습니다. AI 기능 통합과 Freemium 모델이 주류가 되면서 1인 개발자에게 유리한 시장 환경이 조성되고 있습니다.",
+    "trend_summary": "Health & Fitness 카테고리가 400% 급성장하며 가장 주목받고 있고, AI 기술이 34%의 앱에 적용되어 필수 기능으로 자리잡고 있습니다. Freemium 모델(83%)이 주류가 되었으며, 1인 개발 가능한 프로젝트에 대한 관심이 높아지고 있습니다.",
     "trend_details": [
-      "Social 앱 카테고리 200% 급성장으로 최고 성장률 기록",
-      "AI 기능이 33%의 앱에 통합되며 필수 요소로 자리잡음",
-      "Freemium 모델이 81% 지배하며 수익화 표준 모델로 정착"
+      "Health & Fitness 카테고리 400% 폭발적 성장",
+      "AI 기능 통합이 표준이 되어 34%의 앱이 채택",
+      "Freemium + Subscription 하이브리드 모델이 주류 (83% + 60%)"
     ],
     "hot_categories": [
-      "Social",
-      "Graphic & Design"
+      "Health & Fitness",
+      "Weather"
     ],
-    "opportunity": "Social 카테고리의 폭발적 성장에도 불구하고 앱 수가 적어 AI 기능을 통합한 소셜 앱으로 시장 진입 기회가 큼",
-    "action_item": "AI 기능이 통합된 Social 또는 Graphic Design 앱을 Freemium 모델로 개발하여 급성장하는 시장에 진입",
-    "weekly_theme": "AI Social"
+    "opportunity": "AI 기반 개인 맞춤형 헬스케어 앱 개발 - 급성장하는 Health & Fitness 시장과 AI 트렌드가 만나는 지점",
+    "action_item": "간단한 AI 운동 추천 또는 건강 데이터 분석 앱을 Freemium 모델로 MVP 개발 시작",
+    "weekly_theme": "AI 헬스케어"
   }
 }
