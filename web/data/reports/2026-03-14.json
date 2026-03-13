@@ -1,0 +1,640 @@
+{
+  "date": "2026-03-14",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Bunkers & Shelters Map - Haven",
+      "developer": "Arel Alkim Yurtsevenler",
+      "category": "Navigation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/92/03/8c920355-2185-af74-26b6-69a76d69b7da/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/bunkers-shelters-map-haven/id6760217165?uo=2",
+      "idea_summary": "비상시 대피소 지도와 오프라인 내비게이션",
+      "analysis": {
+        "problem": "자연재해나 비상 상황에서 대피소 위치를 빠르게 찾기 어려움 [추론]",
+        "solution": "주변 벙커와 대피소를 지도에 표시하고 오프라인에서도 접근 가능 [확인]",
+        "target_user": "안전에 민감한 사용자, 비상 계획을 세우는 개인 [추론]",
+        "unique_point": "오프라인 대피소 정보와 내비게이션 기능 통합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "재난안전앱",
+          "Safe365"
+        ],
+        "timing_reason": "전 세계적 재해 증가로 안전 의식 높아짐 [추론]",
+        "growth_potential": "틈새시장이지만 안전 니즈로 꾸준한 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 또는 광고 수익 [추측]",
+        "pricing_suggestion": "월 2,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "MapBox",
+          "SQLite"
+        ],
+        "key_features": [
+          "지도 API",
+          "오프라인 데이터",
+          "GPS 내비게이션"
+        ],
+        "clone_tip": "공공 대피소 데이터셋 활용하여 MVP 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#안전"
+      ],
+      "verdict": "틈새지만 확실한 니즈, 간단한 기술로 구현 가능",
+      "deep_report_id": "ios-bunkers-shelters-map-haven-1773414578691"
+    },
+    {
+      "rank": 2,
+      "name": "RPSGT Practice Test",
+      "developer": "Ambitionz Apps",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/63/83/aa638351-6826-0ca2-e12e-5b452cf423f2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/rpsgt-practice-test/id6747934655?uo=2",
+      "idea_summary": "수면기사 자격증 시험 대비 연습문제 앱",
+      "analysis": {
+        "problem": "RPSGT 수면기사 자격증 준비를 위한 체계적 학습 자료 부족 [추론]",
+        "solution": "모의시험과 플래시카드를 통한 효과적 시험 준비 [확인]",
+        "target_user": "수면의학 기사 자격증 취득을 원하는 의료진 [확인]",
+        "unique_point": "RPSGT 전용 특화된 문제은행과 학습 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "의료자격증앱",
+          "StudyBlue"
+        ],
+        "timing_reason": "수면의학 분야 성장과 자격증 수요 증가 [추론]",
+        "growth_potential": "전문 분야로 시장은 작지만 지불의사 높음 [추측]"
+      },
+      "business": {
+        "monetization": "앱 구매 또는 프리미엄 콘텐츠 구독 [추론]",
+        "pricing_suggestion": "19,900원 일시불 또는 월 9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "SQLite"
+        ],
+        "key_features": [
+          "문제은행",
+          "진도관리",
+          "통계분석",
+          "오프라인학습"
+        ],
+        "clone_tip": "다른 의료자격증으로 확장하여 플랫폼화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#전문자격증"
+      ],
+      "verdict": "틈새시장이지만 높은 지불의사, 확장성 고려"
+    },
+    {
+      "rank": 3,
+      "name": "PocketMEP",
+      "developer": "Edward Wright",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/95/15/8c95155b-13b8-57b9-8022-18dc431cc5e5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/pocketmep/id6760240233?uo=2",
+      "idea_summary": "건축설비 엔지니어용 휴대용 계산기",
+      "analysis": {
+        "problem": "현장에서 MEP 설계 계산을 위한 휴대용 도구 부족 [추론]",
+        "solution": "휴대용 MEP 계산기와 레퍼런스 통합 제공 [확인]",
+        "target_user": "건축설비 엔지니어, 설계사, 시공사 직원 [추론]",
+        "unique_point": "MEP 전문 계산기와 현장 레퍼런스 통합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "HVAC Calculator",
+          "Engineering Calc"
+        ],
+        "timing_reason": "건설업계 디지털화와 모바일 업무 증가 [추론]",
+        "growth_potential": "전문 분야로 안정적 수요 예상 [추측]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 프리미엄 기능 구독 [추측]",
+        "pricing_suggestion": "29,900원 일시불 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "JavaScript",
+          "Chart.js"
+        ],
+        "key_features": [
+          "공학계산기",
+          "레퍼런스",
+          "단위변환",
+          "저장기능"
+        ],
+        "clone_tip": "다른 전문 분야 계산기로 확장 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#전문도구"
+      ],
+      "verdict": "전문성 높은 틈새시장, B2B 확장 가능성"
+    },
+    {
+      "rank": 4,
+      "name": "Skinsight: AI Cosmetic Scanner",
+      "developer": "Serhat Bugra Turkmen",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/8f/35/248f35bb-2e0f-3b45-fcbc-3d8f52c3d3aa/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/skinsight-ai-cosmetic-scanner/id6759454115?uo=2",
+      "idea_summary": "화장품 성분 스캔 및 알레르기 분석",
+      "analysis": {
+        "problem": "화장품 성분이 복잡해서 알레르기 유발 요소 파악이 어려움 [추론]",
+        "solution": "AI로 화장품을 스캔하여 성분 분석과 안전한 대안 추천 [확인]",
+        "target_user": "알레르기가 있거나 안전한 화장품을 원하는 소비자 [추론]",
+        "unique_point": "AI 스캔과 개인별 알레르기 데이터 매칭 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "YUKA",
+          "Think Dirty"
+        ],
+        "timing_reason": "클린뷰티 트렌드와 성분 투명성 요구 증가 [추론]",
+        "growth_potential": "뷰티 시장 성장과 함께 높은 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 상세 분석과 개인화 기능 제공 [추측]",
+        "pricing_suggestion": "월 4,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "TensorFlow",
+          "OCR API",
+          "Firebase"
+        ],
+        "key_features": [
+          "이미지인식",
+          "성분DB",
+          "알레르기매칭",
+          "개인화"
+        ],
+        "clone_tip": "성분 데이터베이스 구축이 핵심, API 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "트렌드에 맞는 높은 시장성, AI 활용한 차별화"
+    },
+    {
+      "rank": 5,
+      "name": "FishLogAI",
+      "developer": "JEFFREY WILLIAM PUTNAM",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/c7/95/0fc795a5-eea7-dabe-e25c-68efcacb9314/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/fishlogai/id6759985590?uo=2",
+      "idea_summary": "AI 기반 낚시 기록 및 패턴 분석",
+      "analysis": {
+        "problem": "낚시 기록 관리와 성공 패턴 분석의 어려움 [추론]",
+        "solution": "AI로 어종 식별하고 낚시 패턴을 분석하여 성공률 개선 [확인]",
+        "target_user": "체계적으로 낚시를 즐기고 싶은 낚시꾼들 [추론]",
+        "unique_point": "AI 어종 식별과 데이터 기반 낚시 패턴 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Fishbrain",
+          "낚시앱"
+        ],
+        "timing_reason": "레저 활동 증가와 데이터 기반 취미 활동 트렌드 [추론]",
+        "growth_potential": "낚시 인구는 한정적이지만 충성도 높은 시장 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능 구독 또는 광고 수익 [추측]",
+        "pricing_suggestion": "월 3,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "TensorFlow",
+          "GPS API",
+          "Weather API"
+        ],
+        "key_features": [
+          "이미지인식",
+          "위치기록",
+          "날씨연동",
+          "통계분석"
+        ],
+        "clone_tip": "어종 인식 모델 학습이 핵심, 커뮤니티 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "틈새시장이지만 AI 활용한 차별화 포인트"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Typeless: AI Voice Keyboard",
+      "developer": "TYPELESS",
+      "category": "Keyboard & Voice Input",
+      "icon": "https://play-lh.googleusercontent.com/0W7lCGnEFAX6RaM1aiB9-A4gePokNzb9DabsI8mTIHp38sWBmZWfaJCGp88aA15GLsaeShnBnSS-YwMqJgt2sg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.typeless.mobile",
+      "idea_summary": "AI 음성 기반 키보드 및 텍스트 제안",
+      "analysis": {
+        "problem": "타이핑 속도 한계와 음성 입력의 불편함 [추론]",
+        "solution": "음성 중심 키보드로 어디서나 음성 입력과 AI 텍스트 제안 [확인]",
+        "target_user": "빠른 텍스트 입력이 필요한 모든 스마트폰 사용자 [추론]",
+        "unique_point": "시스템 레벨 음성 키보드와 AI 텍스트 향상 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Gboard",
+          "SwiftKey"
+        ],
+        "timing_reason": "음성 AI 발전과 멀티태스킹 환경에서 효율성 추구 [추론]",
+        "growth_potential": "키보드 시장은 크고 차별화 가능성 높음 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 고급 AI 기능 제공 [추측]",
+        "pricing_suggestion": "월 2,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Android Keyboard API",
+          "Speech-to-Text",
+          "LLM API"
+        ],
+        "key_features": [
+          "음성인식",
+          "키보드통합",
+          "AI텍스트",
+          "다국어지원"
+        ],
+        "clone_tip": "기존 키보드 라이브러리 활용하여 음성 기능 강화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "거대 시장에서 음성 특화로 차별화 가능성",
+      "deep_report_id": "android-typeless-ai-voice-keyboard-1773414639443"
+    },
+    {
+      "rank": 2,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "Public Safety",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 경찰 출동 알림 및 범죄 지도",
+      "analysis": {
+        "problem": "주변 치안 상황을 실시간으로 파악하기 어려움 [추론]",
+        "solution": "경찰 무전을 실시간 분석하여 범죄 발생 알림과 지도 제공 [확인]",
+        "target_user": "안전에 민감한 지역 주민과 부모들 [추론]",
+        "unique_point": "실시간 경찰 무전 데이터와 지역별 범죄 매핑 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Scanner Radio",
+          "Citizen"
+        ],
+        "timing_reason": "치안 불안과 개인 안전에 대한 관심 증가 [추론]",
+        "growth_potential": "안전 앱 시장 성장과 구독 모델 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 알림과 상세 분석 구독 서비스 [추측]",
+        "pricing_suggestion": "월 4,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Real-time API",
+          "Maps SDK",
+          "Push Notifications"
+        ],
+        "key_features": [
+          "실시간데이터",
+          "지도통합",
+          "알림시스템",
+          "지역필터"
+        ],
+        "clone_tip": "공개 경찰 데이터 API 활용, 지역별 단계적 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#안전"
+      ],
+      "verdict": "높은 사회적 니즈, 실시간 데이터가 핵심 가치"
+    },
+    {
+      "rank": 3,
+      "name": "Weather Trip",
+      "developer": "PJW FAMILY PROPERTY LLP",
+      "category": "Weather & Travel",
+      "icon": "https://play-lh.googleusercontent.com/UCIikfenLo_qHry26KktOvES6jgjUu6pgWMT38bsosBRO4P4UgOUYwoYC1dSFMdufzFVeHZPjvVtM5muTiCi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.weather.triptimewetr",
+      "idea_summary": "여행 계획용 날씨 예보 및 짐 추천",
+      "analysis": {
+        "problem": "여행지 날씨 변화에 맞는 적절한 준비의 어려움 [추론]",
+        "solution": "여행 계획과 날씨를 연동하여 짐 추천과 활동 타이밍 제안 [확인]",
+        "target_user": "체계적으로 여행을 준비하고 싶은 여행자들 [추론]",
+        "unique_point": "날씨 예보와 여행 계획, 짐 추천의 통합 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Weather.com",
+          "여행앱"
+        ],
+        "timing_reason": "코로나 이후 여행 수요 회복과 스마트 여행 트렌드 [추론]",
+        "growth_potential": "여행 시장 회복과 함께 지속 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 상세 예보와 개인화 추천 구독 [추측]",
+        "pricing_suggestion": "월 3,900원 또는 연 29,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Weather API",
+          "Maps API",
+          "ML Kit"
+        ],
+        "key_features": [
+          "날씨API",
+          "여행계획",
+          "짐추천",
+          "알림"
+        ],
+        "clone_tip": "기존 날씨 API와 여행 데이터를 조합한 추천 엔진 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행"
+      ],
+      "verdict": "실용적 니즈, 여행 시장 회복기에 적절한 타이밍"
+    },
+    {
+      "rank": 4,
+      "name": "Dagle: All AIs in One",
+      "developer": "ActionPower",
+      "category": "Productivity & AI Aggregator",
+      "icon": "https://play-lh.googleusercontent.com/wzgM9ZJwMfsHC7_NaNS01GPUI2JyCaFK8Tvq5B11kImN-wKN3XdwoSmMqQM7a8ZPY1w",
+      "app_url": "https://play.google.com/store/apps/details?id=ai.daglo.mobile",
+      "idea_summary": "여러 AI 모델 통합 인터페이스",
+      "analysis": {
+        "problem": "여러 AI 서비스를 각각 사용하는 번거로움과 비효율 [추론]",
+        "solution": "하나의 인터페이스로 다양한 AI 모델에 접근 가능 [확인]",
+        "target_user": "다양한 AI 도구를 활용하는 파워유저와 전문가 [추론]",
+        "unique_point": "멀티 AI 모델 통합과 워크플로우 자동화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Poe",
+          "OpenRouter"
+        ],
+        "timing_reason": "AI 모델 다양화와 통합 플랫폼 수요 증가 [추론]",
+        "growth_potential": "AI 시장 성장과 함께 높은 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "AI 사용량 기반 구독과 프리미엄 모델 접근 [추측]",
+        "pricing_suggestion": "월 19,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Multiple AI APIs",
+          "Node.js",
+          "Redis"
+        ],
+        "key_features": [
+          "AI통합",
+          "워크플로우",
+          "사용량관리",
+          "API연동"
+        ],
+        "clone_tip": "주요 AI 서비스 API 통합부터 시작, 점진적 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#AI"
+      ],
+      "verdict": "AI 통합 플랫폼 트렌드에 부합, 높은 성장성"
+    },
+    {
+      "rank": 5,
+      "name": "HaiClass",
+      "developer": "i-Scream Media",
+      "category": "Education & Classroom Communication",
+      "icon": "https://play-lh.googleusercontent.com/8yg2YC05vq4mx0Uvhs1Z2GTuLyn1CWHyREZr9o1jlGnstrVoj4OoP1T6fTut-DIBqv4",
+      "app_url": "https://play.google.com/store/apps/details?id=com.iscreammedia.app.hiclass.android",
+      "idea_summary": "스마트 교실 소통 앱",
+      "analysis": {
+        "problem": "교사와 학부모 간 효율적 소통 및 학급 관리의 어려움 [추론]",
+        "solution": "공지사항, 과제, 메시징, 일정을 통합한 교실 소통 플랫폼 [확인]",
+        "target_user": "초중고 교사와 학부모, 학생 [추론]",
+        "unique_point": "한국 교육환경에 맞춘 통합 교실 관리 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ClassDojo",
+          "알림장앱"
+        ],
+        "timing_reason": "디지털 교육 확산과 스마트 교실 관리 필요성 증대 [추론]",
+        "growth_potential": "교육 디지털화 트렌드로 안정적 성장 예상 [추측]"
+      },
+      "business": {
+        "monetization": "학교 단위 구독 또는 프리미엄 기능 구독 [추측]",
+        "pricing_suggestion": "학교당 월 50,000원 또는 개인 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Push Notifications",
+          "File Storage"
+        ],
+        "key_features": [
+          "메시징",
+          "공지사항",
+          "과제관리",
+          "출석체크"
+        ],
+        "clone_tip": "기본 메시징부터 시작하여 점진적 기능 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#교육"
+      ],
+      "verdict": "교육 시장 안정성, 한국 교육환경 특화 가능"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 통합 플랫폼과 전문 분야 특화 앱이 주요 트렌드로 부상하고 있음. 안전과 건강 관련 앱의 수요도 지속 증가.",
+    "trend_details": [
+      "AI 서비스 통합 플랫폼",
+      "전문직 대상 특화 도구",
+      "개인 안전 및 보안 앱",
+      "음성 기반 UX 혁신"
+    ],
+    "hot_categories": [
+      "AI/ML",
+      "Safety",
+      "Professional Tools"
+    ],
+    "opportunity": "AI 기능을 기존 틈새시장에 접목한 전문화된 솔루션",
+    "action_item": "AI API를 활용한 특정 도메인 전문 앱 기획"
+  }
+}
