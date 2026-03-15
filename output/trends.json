@@ -1,33 +1,10 @@
 {
-  "generatedAt": "2026-03-14T15:15:57.401Z",
+  "generatedAt": "2026-03-15T15:12:09.094Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
-    {
-      "category": "Productivity",
-      "currentCount": 13,
-      "previousCount": 5,
-      "changePercent": 160,
-      "changeDirection": "up",
-      "apps": [
-        "YourPatentAI - Draft Patents",
-        "Typeless: AI Voice Keyboard",
-        "Genspark AI Workspace",
-        "coslog - Costume Planner",
-        "Para — Book Paragraph Capture",
-        "Easy Mail - Email Launcher",
-        "Goalio – Goal & Habit Tracker",
-        "uminotes",
-        "QuickDoc: PDF Reader Tools",
-        "Easy Reader - PDF리더-PDF뷰어",
-        "In The Loop - Stay Connected",
-        "ActUp: Daily Sprint",
-        "PolicyDraft"
-      ],
-      "avgScore": 7.507692307692308
-    },
     {
       "category": "Health & Fitness",
       "currentCount": 5,
@@ -44,17 +21,76 @@
       "avgScore": 7.62
     },
     {
-      "category": "Utilities",
+      "category": "Developer Tools",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "NativeLab"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "Food & Drink",
       "currentCount": 3,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "BreadHound",
+        "Air Fry AI",
+        "Olio"
+      ],
+      "avgScore": 7.7
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 4,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "GasApp - Start of Energy Saving",
         "PocketMEP",
         "FishLogAI",
         "WiFi Assistant: Launcher"
       ],
-      "avgScore": 6.7
+      "avgScore": 6.9750000000000005
+    },
+    {
+      "category": "Creative Tools",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Loopit - Make Playables"
+      ],
+      "avgScore": 8.3
+    },
+    {
+      "category": "Shopping",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Dootchi",
+        "Whatnot: Shop, Sell, Connect"
+      ],
+      "avgScore": 8.05
+    },
+    {
+      "category": "Jobs",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Timee - Short-Term Jobs App"
+      ],
+      "avgScore": 8
     },
     {
       "category": "Keyboard & Voice Input",
@@ -112,18 +148,6 @@
       "avgScore": 7.4
     },
     {
-      "category": "Food & Drink",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Air Fry AI",
-        "Olio"
-      ],
-      "avgScore": 7.949999999999999
-    },
-    {
       "category": "Games",
       "currentCount": 1,
       "previousCount": 0,
@@ -136,16 +160,15 @@
     },
     {
       "category": "Weather",
-      "currentCount": 3,
-      "previousCount": 0,
+      "currentCount": 2,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
         "Weather Now Launcher – Radar",
-        "PrecisionAviator",
-        "First Screen Weather"
+        "PrecisionAviator"
       ],
-      "avgScore": 7.266666666666667
+      "avgScore": 7.5
     },
     {
       "category": "Graphic & Design",
@@ -172,7 +195,7 @@
     {
       "category": "Personalization",
       "currentCount": 2,
-      "previousCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
@@ -216,28 +239,59 @@
       "avgScore": 8.2
     },
     {
-      "category": "Finance",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Productivity",
+      "currentCount": 13,
+      "previousCount": 8,
+      "changePercent": 63,
       "changeDirection": "up",
       "apps": [
-        "Freecash"
+        "GelNail Log",
+        "Maker Inventory",
+        "CommuteView",
+        "YourPatentAI - Draft Patents",
+        "Typeless: AI Voice Keyboard",
+        "Genspark AI Workspace",
+        "coslog - Costume Planner",
+        "Para — Book Paragraph Capture",
+        "Easy Mail - Email Launcher",
+        "Goalio – Goal & Habit Tracker",
+        "uminotes",
+        "QuickDoc: PDF Reader Tools",
+        "Easy Reader - PDF리더-PDF뷰어"
       ],
-      "avgScore": 7.6
+      "avgScore": 7.415384615384616
+    },
+    {
+      "category": "Social",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
+      "changeDirection": "up",
+      "apps": [
+        "IRIAM - V-Live Communication App",
+        "FreeTalkStickers - Personal Stickers",
+        "免费스티커 - 개성화 스티커"
+      ],
+      "avgScore": 6.866666666666667
     }
   ],
   "decliningCategories": [
     {
-      "category": "Business",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
+      "category": "Education",
+      "currentCount": 7,
+      "previousCount": 9,
+      "changePercent": -22,
       "changeDirection": "down",
       "apps": [
-        "Periskope"
+        "RPSGT Practice Test",
+        "Nuclear Message of the Day",
+        "School Paper",
+        "Comcigan Notifier (Student)",
+        "Classcard – Smart Vocabulary",
+        "QuoteCrush",
+        "HaiClass: Smart Classroom Communication App"
       ],
-      "avgScore": 8
+      "avgScore": 7.614285714285714
     },
     {
       "category": "Photo & Video",
@@ -264,15 +318,15 @@
       "avgScore": 7.833333333333333
     },
     {
-      "category": "AI",
+      "category": "Utility",
       "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
+      "previousCount": 4,
+      "changePercent": -75,
       "changeDirection": "down",
       "apps": [
-        "Daggle - All AI in One"
+        "Just Protein: On Track"
       ],
-      "avgScore": 8.2
+      "avgScore": 7.5
     }
   ],
   "stableCategories": [
@@ -286,25 +340,6 @@
         "Bunkers & Shelters Map - Haven"
       ],
       "avgScore": 7.5
-    },
-    {
-      "category": "Education",
-      "currentCount": 9,
-      "previousCount": 9,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "RPSGT Practice Test",
-        "Nuclear Message of the Day",
-        "School Paper",
-        "Comcigan Notifier (Student)",
-        "Classcard – Smart Vocabulary",
-        "QuoteCrush",
-        "HaiClass: Smart Classroom Communication App",
-        "Habla - Learn Spanish Phrases",
-        "Kana Flow: Learn Japanese"
-      ],
-      "avgScore": 7.611111111111111
     },
     {
       "category": "Medical",
@@ -353,28 +388,15 @@
       "avgScore": 8.5
     },
     {
-      "category": "Utility",
-      "currentCount": 3,
-      "previousCount": 3,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Just Protein: On Track",
-        "Easy Homescreen",
-        "Location Included GPS Photo"
-      ],
-      "avgScore": 7.433333333333334
-    },
-    {
-      "category": "Shopping",
+      "category": "Business",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Whatnot: Shop, Sell, Connect"
+        "Periskope"
       ],
-      "avgScore": 8.6
+      "avgScore": 8
     },
     {
       "category": "Health/Fitness",
@@ -386,26 +408,21 @@
         "SmartBite Calorie Tracker"
       ],
       "avgScore": 7.8
-    },
-    {
-      "category": "Social",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "FreeTalkStickers - Personal Stickers",
-        "免费스티커 - 개성화 스티커"
-      ],
-      "avgScore": 6.5
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 45,
+      "count": 50,
       "apps": [
+        "GelNail Log",
+        "Maker Inventory",
+        "NativeLab",
+        "BreadHound",
+        "CommuteView",
+        "GasApp - Start of Energy Saving",
+        "Loopit - Make Playables",
         "Bunkers & Shelters Map - Haven",
         "RPSGT Practice Test",
         "PocketMEP",
@@ -446,47 +463,21 @@
         "크랙 - 즉흥 서사, AI 채팅",
         "Shortn: 짧은 바이럴 동영상 앱",
         "Easy Reader - PDF리더-PDF뷰어",
-        "免费스티커 - 개성화 스티커",
-        "Habla - Learn Spanish Phrases",
-        "ActUp: Daily Sprint"
-      ]
-    },
-    {
-      "keyword": "AI",
-      "category": "ai",
-      "count": 33,
-      "apps": [
-        "Skinsight: AI Cosmetic Scanner",
-        "FishLogAI",
-        "Typeless: AI Voice Keyboard",
-        "Dagle: All AIs in One",
-        "HaiClass",
-        "Air Fry AI",
-        "YourPatentAI - Draft Patents",
-        "Genspark AI Workspace",
-        "Buddy - Animal Rescue",
-        "Crack – Improv Narrative Play, AI Chat",
-        "Citizen Conan – Scam Prevention",
-        "batch. AI Product Image Studio",
-        "Easy Mail - Email Launcher",
-        "PolyBuzz: Chat with AI Friends",
-        "SmartBite Calorie Tracker",
-        "CleanPhoto: Choose and Clean",
-        "Crack - Improvised Narrative Play, AI Chat",
-        "FreeTalkStickers - Personal Stickers",
-        "HaiClass: Smart Classroom Communication App",
-        "AlwaysCoach On The Go",
-        "크랙 - 즉흥 서사, AI 채팅",
-        "Shortn: 짧은 바이럴 동영상 앱",
-        "ActUp: Daily Sprint",
-        "Daggle - All AI in One"
+        "免费스티커 - 개성화 스티커"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 28,
+      "count": 35,
       "apps": [
+        "GelNail Log",
+        "BreadHound",
+        "CommuteView",
+        "GasApp - Start of Energy Saving",
+        "IRIAM - V-Live Communication App",
+        "Dootchi",
+        "Timee - Short-Term Jobs App",
         "Bunkers & Shelters Map - Haven",
         "Skinsight: AI Cosmetic Scanner",
         "FishLogAI",
@@ -517,32 +508,43 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 17,
+      "keyword": "AI",
+      "category": "ai",
+      "count": 32,
       "apps": [
+        "GelNail Log",
+        "Skinsight: AI Cosmetic Scanner",
+        "FishLogAI",
         "Typeless: AI Voice Keyboard",
-        "CrimeRadar: Dispatch Alerts",
-        "Nuclear Message of the Day",
+        "Dagle: All AIs in One",
+        "HaiClass",
+        "Air Fry AI",
+        "YourPatentAI - Draft Patents",
         "Genspark AI Workspace",
-        "Weather Now Launcher – Radar",
-        "YarnGo: Crochet & Knitting",
-        "Para — Book Paragraph Capture",
-        "PrecisionAviator",
+        "Buddy - Animal Rescue",
         "Crack – Improv Narrative Play, AI Chat",
-        "Classcard – Smart Vocabulary",
+        "Citizen Conan – Scam Prevention",
+        "batch. AI Product Image Studio",
+        "Easy Mail - Email Launcher",
+        "PolyBuzz: Chat with AI Friends",
         "SmartBite Calorie Tracker",
+        "CleanPhoto: Choose and Clean",
         "Crack - Improvised Narrative Play, AI Chat",
+        "FreeTalkStickers - Personal Stickers",
         "HaiClass: Smart Classroom Communication App",
-        "Habla - Learn Spanish Phrases",
-        "Kana Flow: Learn Japanese"
+        "AlwaysCoach On The Go",
+        "크랙 - 즉흥 서사, AI 채팅",
+        "Shortn: 짧은 바이럴 동영상 앱"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 13,
+      "count": 16,
       "apps": [
+        "Maker Inventory",
+        "NativeLab",
+        "Loopit - Make Playables",
         "RPSGT Practice Test",
         "PocketMEP",
         "Dagle: All AIs in One",
@@ -559,18 +561,24 @@
       ]
     },
     {
-      "keyword": "교육",
-      "category": "tag",
-      "count": 8,
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 16,
       "apps": [
-        "HaiClass",
+        "GasApp - Start of Energy Saving",
+        "Typeless: AI Voice Keyboard",
+        "CrimeRadar: Dispatch Alerts",
         "Nuclear Message of the Day",
-        "School Paper",
+        "Genspark AI Workspace",
+        "Weather Now Launcher – Radar",
+        "YarnGo: Crochet & Knitting",
         "Para — Book Paragraph Capture",
-        "Comcigan Notifier (Student)",
+        "PrecisionAviator",
+        "Crack – Improv Narrative Play, AI Chat",
         "Classcard – Smart Vocabulary",
-        "QuoteCrush",
-        "Habla - Learn Spanish Phrases"
+        "SmartBite Calorie Tracker",
+        "Crack - Improvised Narrative Play, AI Chat",
+        "HaiClass: Smart Classroom Communication App"
       ]
     },
     {
@@ -589,16 +597,40 @@
       ]
     },
     {
-      "keyword": "생산성",
+      "keyword": "교육",
       "category": "tag",
       "count": 7,
       "apps": [
+        "HaiClass",
+        "Nuclear Message of the Day",
+        "School Paper",
         "Para — Book Paragraph Capture",
-        "Easy Mail - Email Launcher",
-        "Easy Reader - PDF리더-PDF뷰어",
-        "In The Loop - Stay Connected",
-        "ActUp: Daily Sprint",
-        "Daggle - All AI in One"
+        "Comcigan Notifier (Student)",
+        "Classcard – Smart Vocabulary",
+        "QuoteCrush"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 6,
+      "apps": [
+        "Maker Inventory",
+        "Dootchi",
+        "SingleDadStrong",
+        "Olio",
+        "The Movemnt"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 5,
+      "apps": [
+        "IRIAM - V-Live Communication App",
+        "Whatnot: Shop, Sell, Connect",
+        "The Movemnt",
+        "免费스티커 - 개성화 스티커"
       ]
     },
     {
@@ -610,6 +642,17 @@
         "Shortn: short viral video app",
         "Crack - Improvised Narrative Play, AI Chat",
         "Shortn: 짧은 바이럴 동영상 앱"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Maker Inventory",
+        "Para — Book Paragraph Capture",
+        "Easy Mail - Email Launcher",
+        "Easy Reader - PDF리더-PDF뷰어"
       ]
     },
     {
@@ -635,13 +678,23 @@
       ]
     },
     {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 4,
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 3,
       "apps": [
-        "SingleDadStrong",
-        "Olio",
-        "The Movemnt"
+        "GelNail Log",
+        "coslog - Costume Planner",
+        "SingleDadStrong"
+      ]
+    },
+    {
+      "keyword": "취미",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "BreadHound",
+        "coslog - Costume Planner",
+        "YarnGo: Crochet & Knitting"
       ]
     },
     {
@@ -674,34 +727,6 @@
       ]
     },
     {
-      "keyword": "니치마켓",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "coslog - Costume Planner",
-        "SingleDadStrong",
-        "PolicyDraft"
-      ]
-    },
-    {
-      "keyword": "접근성",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Easy Homescreen"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 3,
-      "apps": [
-        "Whatnot: Shop, Sell, Connect",
-        "The Movemnt",
-        "免费스티커 - 개성화 스티커"
-      ]
-    },
-    {
       "keyword": "헬스케어",
       "category": "health",
       "count": 3,
@@ -711,67 +736,67 @@
       ]
     },
     {
-      "keyword": "전문도구",
-      "category": "tag",
+      "keyword": "영상",
+      "category": "creator",
       "count": 2,
       "apps": [
-        "PocketMEP",
-        "PrecisionAviator"
+        "Loopit - Make Playables",
+        "Shortn: 짧은 바이럴 동영상 앱"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 10,
-        "percent": 14,
+        "count": 11,
+        "percent": 16,
         "examples": [
+          "GasApp - Start of Energy Saving",
           "Nöbetçi Eczanecim",
-          "Buddy - Animal Rescue",
-          "coslog - Costume Planner"
+          "Buddy - Animal Rescue"
         ]
       },
       "freemium": {
-        "count": 61,
-        "percent": 87,
+        "count": 60,
+        "percent": 86,
         "examples": [
-          "Bunkers & Shelters Map - Haven",
-          "RPSGT Practice Test",
-          "PocketMEP"
+          "GelNail Log",
+          "Maker Inventory",
+          "BreadHound"
         ]
       },
       "subscription": {
         "count": 47,
         "percent": 67,
         "examples": [
-          "Bunkers & Shelters Map - Haven",
-          "RPSGT Practice Test",
-          "PocketMEP"
+          "GelNail Log",
+          "Maker Inventory",
+          "NativeLab"
         ]
       },
       "onetime": {
-        "count": 8,
-        "percent": 11,
+        "count": 11,
+        "percent": 16,
         "examples": [
-          "RPSGT Practice Test",
-          "PocketMEP",
-          "On Constant Delay"
+          "GelNail Log",
+          "NativeLab",
+          "BreadHound"
         ]
       },
       "unknown": {
-        "count": 1,
-        "percent": 1,
+        "count": 2,
+        "percent": 3,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 61,
-      "percent": 87,
+      "count": 60,
+      "percent": 86,
       "examples": [
-        "Bunkers & Shelters Map - Haven",
-        "RPSGT Practice Test",
-        "PocketMEP"
+        "GelNail Log",
+        "Maker Inventory",
+        "BreadHound"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -780,61 +805,61 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 27,
-        "percent": 39,
+        "count": 26,
+        "percent": 37,
         "apps": [
+          "GelNail Log",
           "Skinsight: AI Cosmetic Scanner",
           "FishLogAI",
           "Typeless: AI Voice Keyboard",
-          "Weather Trip",
-          "Dagle: All AIs in One"
+          "Weather Trip"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 19,
-        "percent": 27,
+        "count": 18,
+        "percent": 26,
         "apps": [
+          "GasApp - Start of Energy Saving",
           "PocketMEP",
           "Typeless: AI Voice Keyboard",
           "CrimeRadar: Dispatch Alerts",
-          "Nuclear Message of the Day",
-          "Typeless: AI Voice Keyboard"
+          "Nuclear Message of the Day"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "Loopit - Make Playables",
+          "IRIAM - V-Live Communication App",
           "Nuclear Message of the Day",
           "CrimeRadar: Dispatch Alerts",
-          "batch. AI Product Image Studio",
-          "Shortn: short viral video app",
-          "Whatnot: Shop, Sell, Connect"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "HaiClass",
-          "Genspark AI Workspace",
-          "Periskope",
-          "크랙 - 즉흥 서사, AI 채팅",
-          "ActUp: Daily Sprint"
+          "batch. AI Product Image Studio"
         ]
       },
       {
         "tech": "social",
+        "count": 6,
+        "percent": 9,
+        "apps": [
+          "IRIAM - V-Live Communication App",
+          "Timee - Short-Term Jobs App",
+          "Periskope",
+          "Whatnot: Shop, Sell, Connect",
+          "SingleDadStrong"
+        ]
+      },
+      {
+        "tech": "productivity",
         "count": 4,
         "percent": 6,
         "apps": [
+          "HaiClass",
+          "Genspark AI Workspace",
           "Periskope",
-          "Whatnot: Shop, Sell, Connect",
-          "SingleDadStrong",
-          "The Movemnt"
+          "크랙 - 즉흥 서사, AI 채팅"
         ]
       },
       {
@@ -858,39 +883,39 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 27,
-      "percent": 39,
+      "count": 26,
+      "percent": 37,
       "apps": [
+        "GelNail Log",
         "Skinsight: AI Cosmetic Scanner",
         "FishLogAI",
         "Typeless: AI Voice Keyboard",
-        "Weather Trip",
-        "Dagle: All AIs in One"
+        "Weather Trip"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 19,
-        "percent": 27,
+        "count": 18,
+        "percent": 26,
         "apps": [
+          "GasApp - Start of Energy Saving",
           "PocketMEP",
           "Typeless: AI Voice Keyboard",
           "CrimeRadar: Dispatch Alerts",
-          "Nuclear Message of the Day",
-          "Typeless: AI Voice Keyboard"
+          "Nuclear Message of the Day"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "Loopit - Make Playables",
+          "IRIAM - V-Live Communication App",
           "Nuclear Message of the Day",
           "CrimeRadar: Dispatch Alerts",
-          "batch. AI Product Image Studio",
-          "Shortn: short viral video app",
-          "Whatnot: Shop, Sell, Connect"
+          "batch. AI Product Image Studio"
         ]
       }
     ]
@@ -898,10 +923,45 @@
   "opportunities": [
     {
       "type": "rising_category",
+      "title": "Developer Tools 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Developer Tools"
+    },
+    {
+      "type": "rising_category",
+      "title": "Food & Drink 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Food & Drink"
+    },
+    {
+      "type": "rising_category",
       "title": "Utilities 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Utilities"
+    },
+    {
+      "type": "rising_category",
+      "title": "Creative Tools 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Creative Tools"
+    },
+    {
+      "type": "rising_category",
+      "title": "Shopping 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Shopping"
+    },
+    {
+      "type": "rising_category",
+      "title": "Jobs 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Jobs"
     },
     {
       "type": "rising_category",
@@ -937,13 +997,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Education & Classroom Communication"
-    },
-    {
-      "type": "rising_category",
-      "title": "Food & Drink 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Food & Drink"
     },
     {
       "type": "rising_category",
@@ -1003,32 +1056,32 @@
     },
     {
       "type": "rising_category",
-      "title": "Finance 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Social 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Finance"
+      "category": "Social"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "39%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "37%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Productivity 카테고리가 160% 급성장하며 선두를 달리고 있고, AI 기능 통합이 39%의 앱에서 활용되는 주요 트렌드입니다. freemium 모델(87%)이 압도적으로 선호되며 1인 개발자에게 유리한 시장 환경이 조성되고 있습니다.",
+    "trend_summary": "Health & Fitness 카테고리가 150% 급성장을 보이며, 다수의 틈새 카테고리들이 100% 증가했지만 경쟁 앱 수가 적어 블루오션 상태입니다. AI 기능 통합이 37%의 앱에서 필수 요소로 자리잡았으며, '1인개발가능' 키워드가 50회 언급되어 인디 개발자들에게 유리한 시장 환경이 조성되었습니다.",
     "trend_details": [
-      "AI 기능 통합이 39%로 필수 요소화",
-      "Productivity 카테고리 160% 폭발적 성장",
-      "freemium + subscription 조합 모델 87% 채택"
+      "Health & Fitness 카테고리 150% 급성장으로 최고 성장률 기록",
+      "AI 기능 통합이 37%의 앱에서 차별화 필수 요소로 부상",
+      "Freemium(86%) + Subscription(67%) 조합이 주류 수익화 모델"
     ],
     "hot_categories": [
-      "Productivity",
-      "Health & Fitness"
+      "Health & Fitness",
+      "Developer Tools"
     ],
-    "opportunity": "Utilities와 Keyboard & Voice Input 카테고리는 100% 성장했지만 경쟁자가 적어 블루오션 진입 기회가 높습니다.",
-    "action_item": "AI 기능을 통합한 생산성 도구를 freemium 모델로 개발하여 급성장하는 Productivity 시장에 진입하세요.",
-    "weekly_theme": "AI 생산성"
+    "opportunity": "100% 성장한 다수 카테고리에서 앱 수가 적어 경쟁이 낮은 틈새 시장 진입이 가장 유망합니다.",
+    "action_item": "AI 기능을 활용한 간단한 Health & Fitness 또는 Utilities 앱을 Freemium 모델로 개발하여 급성장 카테고리에 빠르게 진입하세요.",
+    "weekly_theme": "헬스케어 AI"
   }
 }
