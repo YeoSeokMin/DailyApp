@@ -1,48 +1,91 @@
 {
-  "generatedAt": "2026-03-17T15:11:54.988Z",
+  "generatedAt": "2026-03-18T15:12:06.113Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Business",
+      "category": "Lifestyle",
       "currentCount": 4,
       "previousCount": 1,
       "changePercent": 300,
       "changeDirection": "up",
       "apps": [
-        "Accio: Alibaba AI Agent",
-        "AdaptCharge: EV Charging",
-        "Accio: Alibaba AI Agent",
-        "Periskope"
+        "Batingaw: Heritage|Traditions",
+        "Year In Color",
+        "Buddy - Animal Rescue",
+        "YarnGo: Crochet & Knitting"
       ],
-      "avgScore": 7.9
+      "avgScore": 7.375
     },
     {
-      "category": "Shopping",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "Charan - Secondhand Fashion",
-        "Dootchi",
-        "Whatnot: Shop, Sell, Connect"
-      ],
-      "avgScore": 7.966666666666666
-    },
-    {
-      "category": "Social Networking",
+      "category": "Medical",
       "currentCount": 2,
       "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Orbit - Wrist Messenger",
-        "PolyBuzz: Chat with AI Friends"
+        "CoLo-ID",
+        "Nöbetçi Eczanecim"
       ],
-      "avgScore": 7.85
+      "avgScore": 7.4
+    },
+    {
+      "category": "AI Chat & Entertainment",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Crack - Improvised Narrative Play, AI Chat"
+      ],
+      "avgScore": 8.5
+    },
+    {
+      "category": "Utilities & Keyboard",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Typeless: AI Voice Keyboard"
+      ],
+      "avgScore": 8.1
+    },
+    {
+      "category": "Public Safety",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CrimeRadar: Dispatch Alerts",
+        "CrimeRadar: Dispatch Alerts"
+      ],
+      "avgScore": 7.65
+    },
+    {
+      "category": "Travel & Weather",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Weather Trip"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Productivity & AI Tools",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Accio: Alibaba AI Agent"
+      ],
+      "avgScore": 8.1
     },
     {
       "category": "Safety",
@@ -174,17 +217,6 @@
       "avgScore": 8.1
     },
     {
-      "category": "Public Safety",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "CrimeRadar: Dispatch Alerts"
-      ],
-      "avgScore": 7.8
-    },
-    {
       "category": "Weather & Travel",
       "currentCount": 1,
       "previousCount": 0,
@@ -230,34 +262,27 @@
       "avgScore": 7.5
     },
     {
-      "category": "Graphic & Design",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Business",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "batch. AI Product Image Studio"
+        "Accio: Alibaba AI Agent",
+        "AdaptCharge: EV Charging",
+        "Accio: Alibaba AI Agent"
       ],
-      "avgScore": 8.5
-    },
-    {
-      "category": "Social Media",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Shortn: short viral video app"
-      ],
-      "avgScore": 8.8
+      "avgScore": 7.866666666666667
     },
     {
       "category": "Productivity",
-      "currentCount": 13,
+      "currentCount": 14,
       "previousCount": 11,
-      "changePercent": 18,
+      "changePercent": 27,
       "changeDirection": "up",
       "apps": [
+        "SkyPilotlogbook",
+        "Construction Material Waste",
         "Typeless: AI Voice Keyboard",
         "Beehive: Beekeeping Manager",
         "Actium - Books into Actions",
@@ -269,18 +294,17 @@
         "Typeless: AI Voice Keyboard",
         "Genspark AI Workspace",
         "coslog - Costume Planner",
-        "Para — Book Paragraph Capture",
-        "Easy Mail - Email Launcher"
+        "Para — Book Paragraph Capture"
       ],
-      "avgScore": 7.93076923076923
+      "avgScore": 7.878571428571427
     }
   ],
   "decliningCategories": [
     {
       "category": "Education",
-      "currentCount": 7,
+      "currentCount": 6,
       "previousCount": 9,
-      "changePercent": -22,
+      "changePercent": -33,
       "changeDirection": "down",
       "apps": [
         "FootSkillAi",
@@ -288,23 +312,9 @@
         "Nuclear Message of the Day",
         "School Paper",
         "Comcigan Notifier (Student)",
-        "Classcard – Smart Vocabulary",
-        "QuoteCrush"
+        "Classcard – Smart Vocabulary"
       ],
-      "avgScore": 7.528571428571429
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
-      "changeDirection": "down",
-      "apps": [
-        "Year In Color",
-        "Buddy - Animal Rescue",
-        "YarnGo: Crochet & Knitting"
-      ],
-      "avgScore": 7.5
+      "avgScore": 7.483333333333334
     },
     {
       "category": "Health & Fitness",
@@ -313,11 +323,22 @@
       "changePercent": -40,
       "changeDirection": "down",
       "apps": [
+        "MenuScore: Eat Out Healthy",
         "Bolty: AI Running Analysis",
-        "Skinsight: AI Cosmetic Scanner",
-        "Unguided"
+        "Skinsight: AI Cosmetic Scanner"
       ],
-      "avgScore": 7.766666666666667
+      "avgScore": 8.200000000000001
+    },
+    {
+      "category": "Social Networking",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Orbit - Wrist Messenger"
+      ],
+      "avgScore": 7.5
     },
     {
       "category": "Entertainment",
@@ -334,24 +355,13 @@
     {
       "category": "Social",
       "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
+      "previousCount": 3,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
         "IRIAM - V-Live Communication App"
       ],
       "avgScore": 7.6
-    },
-    {
-      "category": "Utility",
-      "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
-      "changeDirection": "down",
-      "apps": [
-        "Just Protein: On Track"
-      ],
-      "avgScore": 7.5
     }
   ],
   "stableCategories": [
@@ -367,6 +377,18 @@
       "avgScore": 6.5
     },
     {
+      "category": "Shopping",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Charan - Secondhand Fashion",
+        "Dootchi"
+      ],
+      "avgScore": 7.65
+    },
+    {
       "category": "Navigation",
       "currentCount": 1,
       "previousCount": 1,
@@ -376,41 +398,27 @@
         "Bunkers & Shelters Map - Haven"
       ],
       "avgScore": 7.5
-    },
-    {
-      "category": "Medical",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Nöbetçi Eczanecim"
-      ],
-      "avgScore": 7.3
-    },
-    {
-      "category": "Personalization",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Easy Homescreen"
-      ],
-      "avgScore": 7.6
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 44,
+      "count": 47,
       "apps": [
+        "SkyPilotlogbook",
+        "Batingaw: Heritage|Traditions",
+        "CoLo-ID",
+        "MenuScore: Eat Out Healthy",
+        "Construction Material Waste",
+        "Crack - Improvised Narrative Play, AI Chat",
+        "Typeless: AI Voice Keyboard",
+        "CrimeRadar: Dispatch Alerts",
+        "Weather Trip",
+        "Accio: Alibaba AI Agent",
         "Orbit - Wrist Messenger",
         "Year In Color",
         "Claim Cash: Settlement Tracker",
-        "CrimeRadar: Dispatch Alerts",
-        "Weather Trip",
         "Beehive: Beekeeping Manager",
         "Actium - Books into Actions",
         "Devlingo: English for Devs",
@@ -427,7 +435,6 @@
         "PocketMEP",
         "Skinsight: AI Cosmetic Scanner",
         "FishLogAI",
-        "Typeless: AI Voice Keyboard",
         "Dagle: All AIs in One",
         "HaiClass",
         "Air Fry AI",
@@ -439,14 +446,7 @@
         "coslog - Costume Planner",
         "YarnGo: Crochet & Knitting",
         "Para — Book Paragraph Capture",
-        "Comcigan Notifier (Student)",
-        "batch. AI Product Image Studio",
-        "QuoteCrush",
-        "Unguided",
-        "Just Protein: On Track",
-        "Easy Homescreen",
-        "Easy Mail - Email Launcher",
-        "PolyBuzz: Chat with AI Friends"
+        "Comcigan Notifier (Student)"
       ]
     },
     {
@@ -454,14 +454,17 @@
       "category": "tag",
       "count": 39,
       "apps": [
+        "Batingaw: Heritage|Traditions",
+        "MenuScore: Eat Out Healthy",
+        "Crack - Improvised Narrative Play, AI Chat",
+        "Typeless: AI Voice Keyboard",
+        "CrimeRadar: Dispatch Alerts",
+        "Weather Trip",
         "Orbit - Wrist Messenger",
         "Drawly AR. Drawing sketch",
         "FootSkillAi",
         "Year In Color",
         "Claim Cash: Settlement Tracker",
-        "Typeless: AI Voice Keyboard",
-        "CrimeRadar: Dispatch Alerts",
-        "Weather Trip",
         "Citizen Conan - Anti-Phishing",
         "Actium - Books into Actions",
         "AdaptCharge: EV Charging",
@@ -482,24 +485,19 @@
         "Weather Now Launcher – Radar",
         "WiFi Assistant: Launcher",
         "Buddy - Animal Rescue",
-        "Citizen Conan – Scam Prevention",
-        "QuoteCrush",
-        "Unguided",
-        "Just Protein: On Track",
-        "Shortn: short viral video app",
-        "Easy Homescreen",
-        "PolyBuzz: Chat with AI Friends"
+        "Citizen Conan – Scam Prevention"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 31,
+      "count": 33,
       "apps": [
-        "FootSkillAi",
-        "Claim Cash: Settlement Tracker",
+        "Crack - Improvised Narrative Play, AI Chat",
         "Typeless: AI Voice Keyboard",
         "Accio: Alibaba AI Agent",
+        "FootSkillAi",
+        "Claim Cash: Settlement Tracker",
         "Actium - Books into Actions",
         "Bolty: AI Running Analysis",
         "HeyDealer - Used Cars & Pricing",
@@ -514,21 +512,19 @@
         "Genspark AI Workspace",
         "Buddy - Animal Rescue",
         "Crack – Improv Narrative Play, AI Chat",
-        "Citizen Conan – Scam Prevention",
-        "batch. AI Product Image Studio",
-        "Easy Mail - Email Launcher",
-        "PolyBuzz: Chat with AI Friends"
+        "Citizen Conan – Scam Prevention"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 21,
+      "count": 24,
       "apps": [
-        "Drawly AR. Drawing sketch",
-        "Year In Color",
+        "Crack - Improvised Narrative Play, AI Chat",
         "Typeless: AI Voice Keyboard",
         "CrimeRadar: Dispatch Alerts",
+        "Drawly AR. Drawing sketch",
+        "Year In Color",
         "AdaptCharge: EV Charging",
         "HeyDealer - Used Cars & Pricing",
         "AI Translator: Photo OCR & Dictionary",
@@ -547,8 +543,11 @@
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 19,
+      "count": 20,
       "apps": [
+        "SkyPilotlogbook",
+        "CoLo-ID",
+        "Construction Material Waste",
         "Accio: Alibaba AI Agent",
         "Beehive: Beekeeping Manager",
         "HeyDealer - Used Cars & Pricing",
@@ -563,16 +562,13 @@
         "Genspark AI Workspace",
         "School Paper",
         "PrecisionAviator",
-        "Classcard – Smart Vocabulary",
-        "batch. AI Product Image Studio",
-        "Periskope",
-        "Easy Mail - Email Launcher"
+        "Classcard – Smart Vocabulary"
       ]
     },
     {
       "keyword": "교육",
       "category": "tag",
-      "count": 9,
+      "count": 8,
       "apps": [
         "Drawly AR. Drawing sketch",
         "Devlingo: English for Devs",
@@ -581,14 +577,13 @@
         "School Paper",
         "Para — Book Paragraph Capture",
         "Comcigan Notifier (Student)",
-        "Classcard – Smart Vocabulary",
-        "QuoteCrush"
+        "Classcard – Smart Vocabulary"
       ]
     },
     {
       "keyword": "AI활용",
       "category": "tag",
-      "count": 9,
+      "count": 7,
       "apps": [
         "Actium - Books into Actions",
         "Bolty: AI Running Analysis",
@@ -596,9 +591,7 @@
         "Accio: Alibaba AI Agent",
         "Air Fry AI",
         "YourPatentAI - Draft Patents",
-        "Typeless: AI Voice Keyboard",
-        "batch. AI Product Image Studio",
-        "PolyBuzz: Chat with AI Friends"
+        "Typeless: AI Voice Keyboard"
       ]
     },
     {
@@ -608,18 +601,18 @@
       "apps": [
         "Accio: Alibaba AI Agent",
         "Dagle: All AIs in One",
-        "YourPatentAI - Draft Patents",
-        "batch. AI Product Image Studio"
+        "YourPatentAI - Draft Patents"
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 5,
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 4,
       "apps": [
-        "Livly Island: Pets on Tiny Islands",
-        "IRIAM - V-Live Communication App",
-        "Whatnot: Shop, Sell, Connect"
+        "Batingaw: Heritage|Traditions",
+        "Devlingo: English for Devs",
+        "Genspark AI Workspace",
+        "YarnGo: Crochet & Knitting"
       ]
     },
     {
@@ -634,23 +627,39 @@
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Typeless: AI Voice Keyboard",
-        "Maker Inventory",
-        "Para — Book Paragraph Capture",
-        "Easy Mail - Email Launcher"
-      ]
-    },
-    {
       "keyword": "안전",
       "category": "tag",
       "count": 4,
       "apps": [
         "CrimeRadar: Dispatch Alerts",
         "Bunkers & Shelters Map - Haven"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "Livly Island: Pets on Tiny Islands",
+        "IRIAM - V-Live Communication App"
+      ]
+    },
+    {
+      "keyword": "여행",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Weather Trip"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Typeless: AI Voice Keyboard",
+        "Maker Inventory",
+        "Para — Book Paragraph Capture"
       ]
     },
     {
@@ -674,26 +683,6 @@
       ]
     },
     {
-      "keyword": "협업",
-      "category": "productivity",
-      "count": 3,
-      "apps": [
-        "Devlingo: English for Devs",
-        "Genspark AI Workspace",
-        "Periskope"
-      ]
-    },
-    {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 3,
-      "apps": [
-        "Devlingo: English for Devs",
-        "Genspark AI Workspace",
-        "YarnGo: Crochet & Knitting"
-      ]
-    },
-    {
       "keyword": "취미",
       "category": "tag",
       "count": 3,
@@ -704,20 +693,12 @@
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "Nuclear Message of the Day",
-        "Shortn: short viral video app"
-      ]
-    },
-    {
-      "keyword": "여행",
+      "keyword": "의료",
       "category": "tag",
       "count": 2,
       "apps": [
-        "Weather Trip"
+        "CoLo-ID",
+        "Nöbetçi Eczanecim"
       ]
     },
     {
@@ -728,44 +709,53 @@
         "Citizen Conan - Anti-Phishing",
         "Citizen Conan – Scam Prevention"
       ]
+    },
+    {
+      "keyword": "친환경",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "AdaptCharge: EV Charging",
+        "Charan - Secondhand Fashion"
+      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 21,
-        "percent": 30,
+        "count": 27,
+        "percent": 39,
         "examples": [
-          "Drawly AR. Drawing sketch",
-          "Year In Color",
-          "Claim Cash: Settlement Tracker"
-        ]
-      },
-      "freemium": {
-        "count": 56,
-        "percent": 80,
-        "examples": [
-          "Orbit - Wrist Messenger",
-          "Drawly AR. Drawing sketch",
-          "FootSkillAi"
-        ]
-      },
-      "subscription": {
-        "count": 47,
-        "percent": 67,
-        "examples": [
-          "Orbit - Wrist Messenger",
-          "FootSkillAi",
+          "Batingaw: Heritage|Traditions",
+          "Crack - Improvised Narrative Play, AI Chat",
           "Typeless: AI Voice Keyboard"
         ]
       },
-      "onetime": {
-        "count": 12,
-        "percent": 17,
+      "freemium": {
+        "count": 53,
+        "percent": 76,
         "examples": [
+          "Batingaw: Heritage|Traditions",
+          "MenuScore: Eat Out Healthy",
+          "Crack - Improvised Narrative Play, AI Chat"
+        ]
+      },
+      "subscription": {
+        "count": 53,
+        "percent": 76,
+        "examples": [
+          "SkyPilotlogbook",
+          "Batingaw: Heritage|Traditions",
+          "CoLo-ID"
+        ]
+      },
+      "onetime": {
+        "count": 13,
+        "percent": 19,
+        "examples": [
+          "SkyPilotlogbook",
           "Drawly AR. Drawing sketch",
-          "Livly Island: Pets on Tiny Islands",
-          "GelNail Log"
+          "Livly Island: Pets on Tiny Islands"
         ]
       },
       "unknown": {
@@ -776,12 +766,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 56,
-      "percent": 80,
+      "count": 53,
+      "percent": 76,
       "examples": [
-        "Orbit - Wrist Messenger",
-        "Drawly AR. Drawing sketch",
-        "FootSkillAi"
+        "Batingaw: Heritage|Traditions",
+        "MenuScore: Eat Out Healthy",
+        "Crack - Improvised Narrative Play, AI Chat"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -793,23 +783,23 @@
         "count": 29,
         "percent": 41,
         "apps": [
-          "Drawly AR. Drawing sketch",
-          "FootSkillAi",
-          "Claim Cash: Settlement Tracker",
+          "CoLo-ID",
+          "Crack - Improvised Narrative Play, AI Chat",
           "Typeless: AI Voice Keyboard",
-          "Citizen Conan - Anti-Phishing"
+          "Accio: Alibaba AI Agent",
+          "Drawly AR. Drawing sketch"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 22,
-        "percent": 31,
+        "count": 26,
+        "percent": 37,
         "apps": [
-          "Drawly AR. Drawing sketch",
-          "Year In Color",
+          "Construction Material Waste",
+          "Crack - Improvised Narrative Play, AI Chat",
           "Typeless: AI Voice Keyboard",
           "CrimeRadar: Dispatch Alerts",
-          "AdaptCharge: EV Charging"
+          "Drawly AR. Drawing sketch"
         ]
       },
       {
@@ -818,44 +808,42 @@
         "percent": 10,
         "apps": [
           "Accio: Alibaba AI Agent",
+          "Accio: Alibaba AI Agent",
           "Beehive: Beekeeping Manager",
           "AdaptCharge: EV Charging",
-          "Accio: Alibaba AI Agent",
-          "HaiClass"
+          "Accio: Alibaba AI Agent"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 4,
+        "percent": 6,
         "apps": [
           "Loopit - Make Playables",
           "IRIAM - V-Live Communication App",
           "Nuclear Message of the Day",
-          "CrimeRadar: Dispatch Alerts",
-          "batch. AI Product Image Studio"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "Livly Island: Pets on Tiny Islands",
-          "IRIAM - V-Live Communication App",
-          "Timee - Short-Term Jobs App",
-          "Periskope",
-          "Whatnot: Shop, Sell, Connect"
+          "CrimeRadar: Dispatch Alerts"
         ]
       },
       {
         "tech": "subscription",
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "apps": [
+          "Batingaw: Heritage|Traditions",
           "Devlingo: English for Devs",
           "Genspark AI Workspace",
           "YarnGo: Crochet & Knitting"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "Livly Island: Pets on Tiny Islands",
+          "IRIAM - V-Live Communication App",
+          "Timee - Short-Term Jobs App"
         ]
       },
       {
@@ -873,11 +861,11 @@
       "count": 29,
       "percent": 41,
       "apps": [
-        "Drawly AR. Drawing sketch",
-        "FootSkillAi",
-        "Claim Cash: Settlement Tracker",
+        "CoLo-ID",
+        "Crack - Improvised Narrative Play, AI Chat",
         "Typeless: AI Voice Keyboard",
-        "Citizen Conan - Anti-Phishing"
+        "Accio: Alibaba AI Agent",
+        "Drawly AR. Drawing sketch"
       ]
     },
     "emerging": [
@@ -887,22 +875,10 @@
         "percent": 10,
         "apps": [
           "Accio: Alibaba AI Agent",
+          "Accio: Alibaba AI Agent",
           "Beehive: Beekeeping Manager",
           "AdaptCharge: EV Charging",
-          "Accio: Alibaba AI Agent",
-          "HaiClass"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 7,
-        "percent": 10,
-        "apps": [
-          "Loopit - Make Playables",
-          "IRIAM - V-Live Communication App",
-          "Nuclear Message of the Day",
-          "CrimeRadar: Dispatch Alerts",
-          "batch. AI Product Image Studio"
+          "Accio: Alibaba AI Agent"
         ]
       }
     ]
@@ -910,24 +886,52 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "Business 카테고리 급부상",
+      "title": "Lifestyle 카테고리 급부상",
       "description": "300% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Business"
+      "category": "Lifestyle"
     },
     {
       "type": "rising_category",
-      "title": "Shopping 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Shopping"
-    },
-    {
-      "type": "rising_category",
-      "title": "Social Networking 카테고리 급부상",
+      "title": "Medical 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Social Networking"
+      "category": "Medical"
+    },
+    {
+      "type": "rising_category",
+      "title": "AI Chat & Entertainment 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "AI Chat & Entertainment"
+    },
+    {
+      "type": "rising_category",
+      "title": "Utilities & Keyboard 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Utilities & Keyboard"
+    },
+    {
+      "type": "rising_category",
+      "title": "Public Safety 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Public Safety"
+    },
+    {
+      "type": "rising_category",
+      "title": "Travel & Weather 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Travel & Weather"
+    },
+    {
+      "type": "rising_category",
+      "title": "Productivity & AI Tools 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Productivity & AI Tools"
     },
     {
       "type": "rising_category",
@@ -1008,13 +1012,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Public Safety 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Public Safety"
-    },
-    {
-      "type": "rising_category",
       "title": "Weather & Travel 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1043,17 +1040,10 @@
     },
     {
       "type": "rising_category",
-      "title": "Graphic & Design 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Business 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Graphic & Design"
-    },
-    {
-      "type": "rising_category",
-      "title": "Social Media 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social Media"
+      "category": "Business"
     },
     {
       "type": "tech_trend",
@@ -1064,19 +1054,18 @@
     }
   ],
   "insight": {
-    "trend_summary": "Business 카테고리가 300% 급성장하며 B2B 시장이 확장되고 있고, AI 기능이 41%의 앱에 통합되며 필수 요소로 자리잡고 있습니다. '1인개발가능' 키워드가 44회로 최다 언급되어 인디 개발자들이 적극적으로 기회를 모색하고 있음을 보여줍니다.",
+    "trend_summary": "Lifestyle 카테고리가 300% 급상승하며 가장 주목받고 있고, AI 기능이 41%의 앱에 통합되어 필수 요소로 자리잡고 있습니다. 1인 개발 가능한 영역에 대한 관심이 높아지고 있으며, freemium/subscription 모델이 주류를 형성하고 있습니다.",
     "trend_details": [
-      "Business 카테고리 300% 급성장으로 B2B 시장 확대",
-      "AI 기능 통합이 표준이 되며 41%의 앱에서 채택",
-      "Freemium 모델이 80%로 주요 수익화 방식으로 정착",
-      "AR/VR 기술이 31%의 앱에서 활용되며 몰입형 경험 트렌드"
+      "AI 기능 통합이 표준화되고 있음 (41% 적용률)",
+      "Lifestyle 카테고리 300% 급부상으로 생활밀착형 앱 수요 폭증",
+      "1인 개발 친화적 프로젝트에 대한 높은 관심 (47회 언급)"
     ],
     "hot_categories": [
-      "Business",
-      "Shopping"
+      "Lifestyle",
+      "Medical"
     ],
-    "opportunity": "Business 카테고리는 300% 성장했지만 경쟁 앱이 4개에 불과해 B2B SaaS 도구 개발이 가장 유망한 기회입니다.",
-    "action_item": "AI 기능을 통합한 Business 카테고리 앱을 Freemium 모델로 개발하고, '1인개발가능' 복잡도로 MVP를 빠르게 출시하세요.",
-    "weekly_theme": "AI Business"
+    "opportunity": "Lifestyle 카테고리가 300% 급상승했지만 앱 수가 적어 1인 개발자에게 최적의 진입 기회를 제공합니다.",
+    "action_item": "AI 기능을 통합한 Lifestyle 앱을 freemium 모델로 개발하여 급성장하는 시장에 진입하세요.",
+    "weekly_theme": "AI 라이프스타일"
   }
 }
