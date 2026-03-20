@@ -1,0 +1,627 @@
+{
+  "date": "2026-03-21",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Disaster Stockpile Manager",
+      "developer": "TAKAHITO CHUJO",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/4f/25/024f2515-d65e-7462-c552-26ed9bf543a1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/%E9%98%B2%E7%81%BD%E5%82%99%E8%93%84%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC/id6759919011?uo=2",
+      "idea_summary": "재난 대비 물품 관리 및 유통기한 추적",
+      "analysis": {
+        "problem": "가정의 비상용품 관리가 어렵고 유통기한을 놓치는 문제 [추론]",
+        "solution": "체크리스트와 알림 기능으로 비상용품을 체계적으로 관리 [추론]",
+        "target_user": "재난 대비에 관심있는 가정주부와 프레퍼족 [추론]",
+        "unique_point": "단순한 목록이 아닌 유통기한 추적과 보충 알림 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Emergency Kit",
+          "Prep & Store"
+        ],
+        "timing_reason": "자연재해 증가로 개인 재난 대비 의식 높아짐 [추론]",
+        "growth_potential": "글로벌 재난 대비 시장 확장과 함께 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 고급 기능 제공 [추론]",
+        "pricing_suggestion": "월 2-3달러 구독으로 프리미엄 기능 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "SQLite",
+          "Push Notifications"
+        ],
+        "key_features": [
+          "재고관리",
+          "유통기한알림",
+          "체크리스트"
+        ],
+        "clone_tip": "로컬 데이터베이스 중심 설계로 오프라인 사용 가능하게 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생존"
+      ],
+      "verdict": "재난 대비 니즈 증가로 시장성 있는 실용적 앱",
+      "deep_report_id": "ios-disaster-stockpile-manager-1774019356545"
+    },
+    {
+      "rank": 2,
+      "name": "AAC Cards",
+      "developer": "Joelle Maslak",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/c5/89/e1c58996-132d-7005-ee52-2d82403db3ae/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aac-cards/id6760273617?uo=2",
+      "idea_summary": "언어장애인을 위한 커스텀 소통카드",
+      "analysis": {
+        "problem": "언어장애인이 일상에서 의사소통할 수 있는 도구 부족 [확인]",
+        "solution": "이미지 카드로 의사소통을 도와주는 AAC 도구 제공 [확인]",
+        "target_user": "자폐스펙트럼, 언어장애인 및 그 가족 [추론]",
+        "unique_point": "개인 맞춤형 카테고리와 이미지 설정 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Proloquo2Go",
+          "TouchChat"
+        ],
+        "timing_reason": "접근성과 포용성에 대한 사회적 관심 증대 [추론]",
+        "growth_potential": "의료보험 지원 확대시 시장 급성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 기관용 라이선스 [추론]",
+        "pricing_suggestion": "개인용 5-10달러, 기관용 월구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "카드편집",
+          "카테고리관리",
+          "음성출력"
+        ],
+        "clone_tip": "사용자 데이터 동기화와 백업 기능 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#접근성",
+        "#사회적가치"
+      ],
+      "verdict": "사회적 의미 있는 니치 시장의 필수 도구"
+    },
+    {
+      "rank": 3,
+      "name": "TrainerPulse",
+      "developer": "Austin McCombs",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/a7/34/86a7340c-7c51-ed4b-b1ab-92488ddb95f0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/trainerpulse/id6759580155?uo=2",
+      "idea_summary": "트레이너-고객 통합 관리 플랫폼",
+      "analysis": {
+        "problem": "개인 트레이너가 고객 관리와 운동 처방을 따로 해야 하는 번거로움 [추론]",
+        "solution": "운동계획, 메시징, 진도추적, 결제를 한 앱에서 관리 [추론]",
+        "target_user": "개인 트레이너와 피트니스 코치 [확인]",
+        "unique_point": "트레이너 관점에서 설계된 올인원 비즈니스 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TrainerRoad",
+          "MyFitnessPal"
+        ],
+        "timing_reason": "개인 트레이닝 시장 성장과 원격 코칭 트렌드 [추론]",
+        "growth_potential": "피트니스 개인화 트렌드로 높은 성장성 [추론]"
+      },
+      "business": {
+        "monetization": "트레이너당 월 구독료와 거래 수수료 [추론]",
+        "pricing_suggestion": "트레이너당 월 20-30달러 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Stripe"
+        ],
+        "key_features": [
+          "고객관리",
+          "운동계획",
+          "결제시스템"
+        ],
+        "clone_tip": "트레이너와 고객용 앱을 분리하여 UX 최적화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#피트니스"
+      ],
+      "verdict": "개인 트레이닝 시장 성장에 맞는 실용적 도구"
+    },
+    {
+      "rank": 4,
+      "name": "UDI Generator and Scanner",
+      "developer": "Enes Oztrk",
+      "category": "Business",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/2b/b2/f42bb2f2-b28c-31b4-4a8b-7b249a258b37/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/udi-generator-and-scanner/id6760301084?uo=2",
+      "idea_summary": "의료기기 UDI 생성 및 스캔 규정준수",
+      "analysis": {
+        "problem": "의료기기 UDI 코드 관리가 복잡하고 규정 준수 어려움 [추론]",
+        "solution": "UDI 생성, 스캔, 데이터베이스 관리를 통합 제공 [추론]",
+        "target_user": "의료기기 제조업체와 병원 관리자 [추론]",
+        "unique_point": "규정 준수에 특화된 전문 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GS1 UDI Tools",
+          "FDA UDI Database"
+        ],
+        "timing_reason": "전 세계적으로 UDI 규정 강화 추세 [추론]",
+        "growth_potential": "의료기기 규제 강화로 필수 도구화 [추측]"
+      },
+      "business": {
+        "monetization": "기업용 라이선스와 API 사용료 [추론]",
+        "pricing_suggestion": "기업당 월 50-100달러 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "QR Scanner"
+        ],
+        "key_features": [
+          "UDI생성",
+          "바코드스캔",
+          "규정준수"
+        ],
+        "clone_tip": "각국 UDI 규정에 맞는 검증 로직 구현 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#규제"
+      ],
+      "verdict": "의료기기 규제 강화로 필수 도구 시장"
+    },
+    {
+      "rank": 5,
+      "name": "Local Video Sync",
+      "developer": "ALAM SHAIDUL",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/e1/f4/bce1f404-1fa5-e6d8-7a5e-8007e68f6309/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/local-video-sync/id6759459755?uo=2",
+      "idea_summary": "로컬 동영상 다중기기 동시재생",
+      "analysis": {
+        "problem": "친구들과 함께 영상을 동시에 시청하기 어려움 [추론]",
+        "solution": "로컬 파일을 여러 기기에서 동기화하여 동시 재생 [추론]",
+        "target_user": "원거리 연인, 친구들과 영상 시청하고 싶은 사용자 [추론]",
+        "unique_point": "스트리밍이 아닌 로컬 파일 동기화에 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Netflix Party",
+          "Discord Watch Together"
+        ],
+        "timing_reason": "원격 소셜 활동과 함께보기 문화 확산 [추론]",
+        "growth_potential": "소셜 미디어와 연동시 바이럴 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 모델과 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 2-3달러 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "WebRTC",
+          "Socket.io",
+          "React Native"
+        ],
+        "key_features": [
+          "동기화",
+          "채팅",
+          "파일공유"
+        ],
+        "clone_tip": "네트워크 지연 보상 알고리즘이 핵심 기술 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#소셜",
+        "#엔터테인먼트"
+      ],
+      "verdict": "틈새 시장이지만 바이럴 가능성 있는 재미있는 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Gas App - Start of Energy Saving",
+      "developer": "SCGLAB Co., LTD.",
+      "category": "Energy & Utilities",
+      "icon": "https://play-lh.googleusercontent.com/S_YsDH_McHDZlhh-D8CY6H6zcIoEy7ku462jrbvYQHJ-W35lOd_I4yTJQOxsKNKiPw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.biller.scg",
+      "idea_summary": "가정용 가스 사용량 추적 및 절약",
+      "analysis": {
+        "problem": "가정의 가스 사용량 파악이 어렵고 절약 방법을 모름 [추론]",
+        "solution": "사용량 추적과 절약 팁 제공으로 에너지 효율성 개선 [추론]",
+        "target_user": "에너지 비용 절약에 관심있는 가정주부 [추론]",
+        "unique_point": "가스에 특화된 에너지 관리 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Energy Monitor",
+          "Utility Tracker"
+        ],
+        "timing_reason": "에너지 비용 상승과 친환경 의식 증대 [추론]",
+        "growth_potential": "스마트홈 확산과 함께 높은 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능과 에너지 상품 제휴 [추론]",
+        "pricing_suggestion": "월 1-2달러 구독 또는 제휴 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "Room DB",
+          "Charts"
+        ],
+        "key_features": [
+          "사용량추적",
+          "절약팁",
+          "비용분석"
+        ],
+        "clone_tip": "IoT 기기 연동 API 준비하여 확장성 확보 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#친환경"
+      ],
+      "verdict": "에너지 위기 시대에 필수적인 가정용 유틸리티",
+      "deep_report_id": "android-gas-app-start-of-energy-saving-1774019406673"
+    },
+    {
+      "rank": 2,
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "category": "Personalization",
+      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "접근성 중심의 간편 런처",
+      "analysis": {
+        "problem": "고령자나 장애인이 복잡한 스마트폰 인터페이스 사용 어려움 [추론]",
+        "solution": "큰 아이콘과 간단한 위젯으로 사용 편의성 극대화 [추론]",
+        "target_user": "고령자, 시각 장애인, 스마트폰 초보자 [추론]",
+        "unique_point": "접근성에 특화된 단순하고 직관적인 UI [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Big Launcher",
+          "Simple Launcher"
+        ],
+        "timing_reason": "고령화 사회 진입과 디지털 접근성 중요성 증대 [추론]",
+        "growth_potential": "실버 테크 시장 확대로 안정적 성장 [추측]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 모델과 프리미엄 버전 [추론]",
+        "pricing_suggestion": "일회성 3-5달러 또는 가족 라이선스 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "Android Java",
+          "Launcher API",
+          "TTS"
+        ],
+        "key_features": [
+          "큰아이콘",
+          "음성안내",
+          "원터치전화"
+        ],
+        "clone_tip": "접근성 가이드라인 준수와 음성 피드백 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.9
+      },
+      "tags": [
+        "#1인개발가능",
+        "#접근성",
+        "#실버테크"
+      ],
+      "verdict": "고령화 사회 필수 앱, 사회적 가치와 수익성 겸비"
+    },
+    {
+      "rank": 3,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "News & Safety",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 범죄 신고 지도 알림",
+      "analysis": {
+        "problem": "근처 범죄 발생 상황을 실시간으로 파악하기 어려움 [추론]",
+        "solution": "경찰 무선 신호를 분석하여 실시간 범죄 알림 제공 [추론]",
+        "target_user": "안전에 민감한 시민과 부모들 [추론]",
+        "unique_point": "공식 경찰 디스패치 정보를 실시간 매핑 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "Nextdoor"
+        ],
+        "timing_reason": "도시 치안에 대한 관심 증가와 실시간 정보 수요 [추론]",
+        "growth_potential": "안전 의식 강화로 지속적 성장 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 지역 광고 모델 [추론]",
+        "pricing_suggestion": "월 3-5달러 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "Google Maps",
+          "WebSocket"
+        ],
+        "key_features": [
+          "실시간알림",
+          "지도매핑",
+          "커뮤니티"
+        ],
+        "clone_tip": "경찰 데이터 API 확보와 법적 검토 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#안전",
+        "#실시간"
+      ],
+      "verdict": "안전 니즈 충족하는 실시간 정보 서비스"
+    },
+    {
+      "rank": 4,
+      "name": "Citizen Conan - Anti-Phishing",
+      "developer": "(주)인피니그루",
+      "category": "Security",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "스미싱 탐지 및 사기 예방 교육",
+      "analysis": {
+        "problem": "증가하는 스미싱과 보이스피싱 사기를 개인이 판별하기 어려움 [추론]",
+        "solution": "AI 기반 사기 탐지와 예방 교육을 통한 보안 강화 [추론]",
+        "target_user": "사기에 취약한 고령자와 보안 의식 있는 일반인 [추론]",
+        "unique_point": "한국형 스미싱 패턴에 특화된 탐지 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Truecaller",
+          "Hiya"
+        ],
+        "timing_reason": "디지털 사기 급증과 개인정보보호 의식 강화 [추론]",
+        "growth_potential": "사이버 범죄 증가로 필수 보안 앱화 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 보안 기능과 기업용 라이선스 [추론]",
+        "pricing_suggestion": "월 2-3달러 개인용, 기업용 별도 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "ML Kit",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI탐지",
+          "차단기능",
+          "신고시스템"
+        ],
+        "clone_tip": "각국 사기 패턴 학습을 위한 ML 모델 구축 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#보안",
+        "#한국형"
+      ],
+      "verdict": "사이버 범죄 증가로 필수 보안 앱 시장"
+    },
+    {
+      "rank": 5,
+      "name": "Loopit - Make Playables",
+      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
+      "category": "Design & Video",
+      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
+      "idea_summary": "영상을 코딩없이 인터랙티브 광고로 변환",
+      "analysis": {
+        "problem": "인터랙티브 광고 제작이 복잡하고 전문 지식 필요 [추론]",
+        "solution": "영상을 드래그앤드롭으로 플레이어블 광고 생성 [추론]",
+        "target_user": "소규모 마케터와 인디 게임 개발자 [추론]",
+        "unique_point": "코딩 없이 인터랙티브 컨텐츠 제작 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Web Designer",
+          "Luna"
+        ],
+        "timing_reason": "모바일 광고에서 플레이어블 광고 효과 증명됨 [추론]",
+        "growth_potential": "디지털 마케팅 확산으로 높은 성장성 [추측]"
+      },
+      "business": {
+        "monetization": "템플릿 판매와 프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "월 10-20달러 프로 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "WebGL",
+          "Video.js"
+        ],
+        "key_features": [
+          "영상편집",
+          "인터랙션",
+          "내보내기"
+        ],
+        "clone_tip": "HTML5 인터랙티브 요소 라이브러리 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#마케팅"
+      ],
+      "verdict": "플레이어블 광고 시장 확대로 높은 성장 가능성"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "실용성과 접근성을 강조한 틈새 시장 앱들이 주목받고 있으며, 특히 안전과 에너지 효율성 관련 앱이 두드러집니다 [추론]. AI 기술을 활용한 개인 맞춤형 서비스와 사회적 약자를 위한 접근성 개선 앱들이 증가하는 추세입니다 [추론].",
+    "trend_details": [
+      "접근성 중심 UI/UX",
+      "에너지 효율성",
+      "개인 안전 강화",
+      "전문 업계 특화 도구",
+      "AI 기반 개인화"
+    ],
+    "hot_categories": [
+      "유틸리티",
+      "헬스케어",
+      "보안",
+      "접근성"
+    ],
+    "opportunity": "고령화 사회와 안전 의식 증대로 접근성과 보안 앱 시장 확대",
+    "action_item": "사회적 니즈가 높은 접근성 개선 앱 개발 고려"
+  }
+}
