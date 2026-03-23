@@ -3,106 +3,106 @@
   "ios": [
     {
       "rank": 1,
-      "name": "CCRN Adult Exam Prep Test",
-      "developer": "Olha Yaroshenko",
-      "category": "Education",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/17/e9/3917e964-fded-e4d2-6c4b-052962cc552b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/ccrn-adult-exam-prep-test/id6760421108?uo=2",
-      "idea_summary": "성인 중환자실 간호사 자격증 시험 준비 앱 [확인]",
+      "name": "SkyPilotlogbook",
+      "developer": "Varol Kibar",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/b3/47/07b347de-a9dc-ff59-527d-3c0eb9ad7801/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/skypilotlogbook/id6760475984?uo=2",
+      "idea_summary": "디지털 파일럿 비행기록 관리",
       "analysis": {
-        "problem": "의료 전문 자격증 준비에 특화된 학습 도구 부족 문제 [추론]",
-        "solution": "실제 시험 문제 패턴 기반의 연습 문제와 가이드 제공 [추론]",
-        "target_user": "CCRN 자격증 취득을 원하는 간호사 및 의료진 [확인]",
-        "unique_point": "성인 중환자실 전문 영역에 특화된 니치 시장 공략 [추론]"
+        "problem": "종이 기반 비행기록 관리의 불편함과 분실 위험 [추론]",
+        "solution": "디지털 비행기록부로 시간, 승인, 보고서 자동 추적 [확인]",
+        "target_user": "개인 파일럿, 비행 교육생, 항공업계 종사자 [추론]",
+        "unique_point": "항공 특화 전문 기록 시스템 [추론]"
       },
       "market": {
         "competitors": [
-          "NCLEX-RN 준비앱",
-          "의료 자격증 종합앱"
+          "ForeFlight",
+          "LogTen Pro"
         ],
-        "timing_reason": "간호 인력 부족으로 자격증 취득 수요 증가 [추론]",
-        "growth_potential": "의료진 전문성 강화 트렌드로 지속 성장 가능 [추론]"
+        "timing_reason": "개인 항공기 증가와 디지털화 트렌드 [추론]",
+        "growth_potential": "항공업계 성장과 함께 안정적 성장 [추론]"
       },
       "business": {
-        "monetization": "유료 앱 또는 프리미엄 구독 모델 [추론]",
-        "pricing_suggestion": "월 9,900원 구독 또는 29,900원 일시불 [추론]",
+        "monetization": "유료 앱 판매 또는 구독 모델 [추측]",
+        "pricing_suggestion": "월 구독 $9.99 또는 일회성 $29.99 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "800만원 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
         "tech_stack": [
-          "React Native",
-          "Firebase",
-          "Node.js"
+          "Swift",
+          "Core Data",
+          "CloudKit"
         ],
         "key_features": [
-          "문제은행 시스템",
-          "진도 추적",
-          "약점 분석"
+          "비행시간 추적",
+          "PDF 보고서 생성",
+          "클라우드 동기화"
         ],
-        "clone_tip": "의료진 자문을 통한 문제 품질 확보가 핵심 [추론]"
+        "clone_tip": "항공 규정 이해와 파일럿 워크플로 연구 필수 [추론]"
       },
       "scores": {
         "novelty": 3,
-        "necessity": 5,
-        "timing": 4,
+        "necessity": 4,
+        "timing": 3,
         "tech_difficulty": 4,
-        "market_size": 3,
+        "market_size": 2,
         "competition": 4,
-        "profitability": 4,
+        "profitability": 3,
         "scalability": 3,
-        "overall": 7.5
+        "overall": 6.5
       },
       "tags": [
         "#1인개발가능",
         "#B2B",
-        "#의료교육"
+        "#전문직"
       ],
-      "verdict": "틈새 시장이지만 높은 필요성으로 수익 가능성 있음",
-      "deep_report_id": "ios-ccrn-adult-exam-prep-test-1773792507324"
+      "verdict": "틈새 시장이지만 충성도 높은 사용자층",
+      "deep_report_id": "ios-skypilotlogbook-1773760140394"
     },
     {
       "rank": 2,
-      "name": "MidiTX Editor",
-      "developer": "mario anza",
-      "category": "Utilities",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/98/9b/8a989b0c-f303-e08a-2c1c-adda462c4ab1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/miditx-editor/id6760307079?uo=2",
-      "idea_summary": "MIDI 기기 설정 편집 및 전송 도구 [확인]",
+      "name": "Batingaw: Heritage|Traditions",
+      "developer": "Meheson Bacud",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/d1/a5/67d1a514-aa86-0060-984f-8aa7a062610f/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/batingaw-heritage-traditions/id6758534637?uo=2",
+      "idea_summary": "필리핀 문화유산 디지털 아카이브",
       "analysis": {
-        "problem": "복잡한 MIDI 장비 설정을 모바일에서 쉽게 관리할 방법 부족 [추론]",
-        "solution": "직관적인 모바일 인터페이스로 MIDI 설정 편집 및 전송 [추론]",
-        "target_user": "전자음악 프로듀서, DJ, 라이브 퍼포머 [추론]",
-        "unique_point": "모바일 특화 MIDI 관리의 편의성과 휴대성 [추론]"
+        "problem": "문화유산과 전통 지식의 소실과 접근성 부족 [추론]",
+        "solution": "스토리, 미디어, 타임라인으로 문화유산 체계적 보존 [확인]",
+        "target_user": "필리핀계 해외동포, 문화 연구자, 교육자 [추론]",
+        "unique_point": "특정 문화권 전용 디지털 문화유산 플랫폼 [추론]"
       },
       "market": {
         "competitors": [
-          "SysEx Librarian",
-          "MIDI 관련 데스크톱 도구들"
+          "Google Arts & Culture",
+          "UNESCO 문화유산 앱"
         ],
-        "timing_reason": "홈 스튜디오와 모바일 음악 제작 증가 트렌드 [추론]",
-        "growth_potential": "틈새 시장이지만 충성도 높은 사용자층 확보 가능 [추론]"
+        "timing_reason": "디지털 문화보존 관심 증가와 정체성 찾기 트렌드 [추론]",
+        "growth_potential": "다른 문화권으로 확장 가능성 [추론]"
       },
       "business": {
-        "monetization": "유료 앱 또는 프리미엄 기능 IAP [추론]",
-        "pricing_suggestion": "14,900원 유료 또는 월 4,900원 구독 [추론]",
-        "revenue_potential": "중"
+        "monetization": "프리미엄 콘텐츠 구독 또는 기부 모델 [추측]",
+        "pricing_suggestion": "무료 + 프리미엄 월 $4.99 [추론]",
+        "revenue_potential": "하"
       },
       "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "1,200만원 [추론]",
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
         "tech_stack": [
-          "Swift",
-          "Core MIDI",
-          "Bluetooth LE"
+          "React Native",
+          "Firebase",
+          "Content Management"
         ],
         "key_features": [
-          "MIDI 편집기",
-          "장비 연결",
-          "설정 백업"
+          "멀티미디어 아카이브",
+          "타임라인 시각화",
+          "검색 시스템"
         ],
-        "clone_tip": "MIDI 프로토콜 이해와 음악 장비 테스트 환경 필수 [추론]"
+        "clone_tip": "문화 전문가와 협력하여 콘텐츠 큐레이션이 핵심 [추론]"
       },
       "scores": {
         "novelty": 4,
@@ -110,526 +110,534 @@
         "timing": 4,
         "tech_difficulty": 3,
         "market_size": 2,
-        "competition": 4,
-        "profitability": 3,
-        "scalability": 2,
-        "overall": 6.5
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2B",
-        "#음악"
-      ],
-      "verdict": "전문적이지만 작은 시장, 음악 전문 지식 필요"
-    },
-    {
-      "rank": 3,
-      "name": "Macrame Knot Lab",
-      "developer": "Oytum Durmaz",
-      "category": "Lifestyle",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/d2/6b/62d26b28-4a83-8258-cfff-dbf8a8964c19/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/macrame-knot-lab/id6760658037?uo=2",
-      "idea_summary": "마크라메 매듭 학습 및 패턴 가이드 앱 [확인]",
-      "analysis": {
-        "problem": "복잡한 마크라메 기법을 혼자 학습하기 어려운 문제 [추론]",
-        "solution": "단계별 튜토리얼과 3D 가이드로 매듭 기법 학습 지원 [추론]",
-        "target_user": "DIY 수공예를 좋아하는 20-40대 여성 [추론]",
-        "unique_point": "마크라메 전문 학습 도구로 시각적 가이드 제공 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "일반 수공예 앱",
-          "유튜브 튜토리얼"
-        ],
-        "timing_reason": "코로나 이후 홈 인테리어와 수공예 관심 급증 [추론]",
-        "growth_potential": "소규모이지만 충성도 높은 커뮤니티 형성 가능 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 패턴 IAP 또는 구독 모델 [추론]",
-        "pricing_suggestion": "기본 무료, 프리미엄 패턴 각 2,900원 [추론]",
-        "revenue_potential": "하"
-      },
-      "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "600만원 [추론]",
-        "tech_stack": [
-          "React Native",
-          "Three.js",
-          "Firebase"
-        ],
-        "key_features": [
-          "3D 매듭 가이드",
-          "패턴 라이브러리",
-          "진행률 추적"
-        ],
-        "clone_tip": "실제 마크라메 작품 제작 경험과 3D 모델링 필요 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 4,
-        "market_size": 2,
         "competition": 5,
         "profitability": 2,
-        "scalability": 3,
-        "overall": 6.5
+        "scalability": 4,
+        "overall": 7
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#취미"
+        "#문화"
       ],
-      "verdict": "틈새 시장으로 수익성 낮지만 개발 난이도 적당"
+      "verdict": "의미있는 프로젝트, 수익성보다 임팩트 중심"
     },
     {
-      "rank": 4,
-      "name": "My Social Battery Tracker",
-      "developer": "Raymond Rothwell",
-      "category": "Lifestyle",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/a4/1a/67a41a9c-928c-30fa-f57e-0eab5b138554/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/my-social-battery-tracker/id6759211267?uo=2",
-      "idea_summary": "사회적 에너지 추적으로 번아웃 예방 도구 [확인]",
+      "rank": 3,
+      "name": "CoLo-ID",
+      "developer": "Anamorphik Studio",
+      "category": "Medical",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/b0/82/d8b08293-220c-93de-3fc4-f0c2935d5399/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/colo-id/id6760033362?uo=2",
+      "idea_summary": "의료진용 색상 식별 진단 도구",
       "analysis": {
-        "problem": "내향적 성향자들의 사회적 피로도를 객관적으로 관리하기 어려운 문제 [추론]",
-        "solution": "일일 사회적 활동과 에너지 레벨을 추적하여 휴식 시점 알림 [추론]",
-        "target_user": "내향적 성향의 직장인, 학생, HSP 성향자 [추론]",
-        "unique_point": "사회적 배터리라는 직관적 메타포로 정신건강 관리 [추론]"
+        "problem": "의료 진단 시 색상 표준화와 기록의 일관성 부족 [추론]",
+        "solution": "의료용 표준 색상 팔레트와 진단 문서화 도구 제공 [추론]",
+        "target_user": "의사, 간호사, 의료진, 의대생 [추론]",
+        "unique_point": "의료 전용 색상 식별 및 문서화 특화 [추론]"
       },
       "market": {
         "competitors": [
-          "일반 기분 추적 앱",
-          "마음챙김 앱들"
+          "일반 색상 식별 앱",
+          "의료 진단 앱들"
         ],
-        "timing_reason": "정신건강 관심 증가와 내향성에 대한 이해 확산 [추론]",
-        "growth_potential": "정신건강 앱 시장 성장과 함께 확장 가능 [추론]"
+        "timing_reason": "디지털 의료 기록 표준화 요구 증가 [추론]",
+        "growth_potential": "의료진 대상 B2B 확장 가능 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 분석 기능 구독 모델 [추론]",
-        "pricing_suggestion": "기본 무료, 프리미엄 월 5,900원 [추론]",
+        "monetization": "병원 라이센스 또는 개인 구독 [추측]",
+        "pricing_suggestion": "개인 월 $19.99, 기관 연간 $499 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "500만원 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
         "tech_stack": [
-          "Flutter",
-          "SQLite",
-          "Chart.js"
+          "Swift",
+          "Core ML",
+          "HealthKit"
         ],
         "key_features": [
-          "에너지 추적",
-          "패턴 분석",
-          "알림 시스템"
+          "색상 캘리브레이션",
+          "의료 기록 연동",
+          "표준화된 리포트"
         ],
-        "clone_tip": "심리학 기반 알고리즘과 직관적 UI 디자인이 핵심 [추론]"
+        "clone_tip": "의료 규정과 색상 표준 연구 필수, 의료진 피드백 중요 [추론]"
       },
       "scores": {
         "novelty": 4,
         "necessity": 4,
-        "timing": 5,
-        "tech_difficulty": 5,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 8
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.5
       },
       "tags": [
         "#1인개발가능",
-        "#B2C",
-        "#정신건강"
+        "#B2B",
+        "#의료"
       ],
-      "verdict": "참신한 아이디어로 정신건강 시장에서 차별화 가능"
+      "verdict": "전문 의료 도구로 높은 부가가치 가능성"
     },
     {
-      "rank": 5,
-      "name": "BiteCam — AI Calorie Counter",
-      "developer": "Filip Ruzicka",
+      "rank": 4,
+      "name": "MenuScore: Eat Out Healthy",
+      "developer": "CSB Marketing LLC",
       "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/aa/fc/a8aafccb-9b51-1616-b786-e13aa6bfcb19/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/bitecam-ai-calorie-counter/id6760268138?uo=2",
-      "idea_summary": "AI 사진 분석으로 칼로리 자동 계산 [확인]",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/15/96/a315968c-a002-3ab8-e987-57263c61d540/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/menuscore-eat-out-healthy/id6759840357?uo=2",
+      "idea_summary": "레스토랑 메뉴 건강도 채점 서비스",
       "analysis": {
-        "problem": "음식 칼로리 입력의 번거로움과 부정확성 문제 [추론]",
-        "solution": "카메라로 음식 촬영만으로 AI가 자동 칼로리 추정 [추론]",
-        "target_user": "다이어트하는 20-40대, 운동선수, 건강 관리자 [추론]",
-        "unique_point": "사진 기반 자동 칼로리 계산의 편의성과 정확성 [추론]"
+        "problem": "외식 시 건강한 메뉴 선택의 어려움과 영양 정보 부족 [추론]",
+        "solution": "메뉴별 영양 점수 제공과 건강한 대안 추천 [확인]",
+        "target_user": "건강 관심자, 다이어터, 만성질환자 [추론]",
+        "unique_point": "레스토랑별 실시간 건강 메뉴 평가 [추론]"
       },
       "market": {
         "competitors": [
           "MyFitnessPal",
           "Lose It!",
-          "Yazio"
+          "칼로리바"
         ],
-        "timing_reason": "AI 이미지 인식 기술 발전과 건강 관리 앱 수요 증가 [추론]",
-        "growth_potential": "건강 의식 증가로 지속적 성장 시장 [추론]"
+        "timing_reason": "건강 의식 증가와 외식 문화 확산 [추론]",
+        "growth_potential": "건강 트렌드와 함께 지속 성장 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 AI 분석 기능 구독 [추론]",
-        "pricing_suggestion": "기본 무료, 프리미엄 월 7,900원 [추론]",
+        "monetization": "프리미엄 구독과 레스토랑 파트너십 [추측]",
+        "pricing_suggestion": "월 구독 $4.99, 레스토랑 등록비 월 $99 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "1,500만원 [추론]",
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
         "tech_stack": [
-          "TensorFlow",
-          "OpenCV",
           "React Native",
-          "Cloud Vision API"
+          "Node.js",
+          "영양 DB API"
         ],
         "key_features": [
-          "AI 음식 인식",
-          "칼로리 데이터베이스",
-          "영양성분 분석"
+          "메뉴 스캔",
+          "영양 분석",
+          "대안 추천",
+          "목표 추적"
         ],
-        "clone_tip": "대용량 음식 이미지 학습 데이터와 정확한 칼로리 DB 구축 필수 [추론]"
+        "clone_tip": "레스토랑 DB 구축과 영양사 자문이 핵심 [추론]"
       },
       "scores": {
-        "novelty": 3,
+        "novelty": 4,
         "necessity": 5,
         "timing": 5,
-        "tech_difficulty": 2,
+        "tech_difficulty": 4,
         "market_size": 5,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 7.8
-      },
-      "tags": [
-        "#1인개발어려움",
-        "#B2C",
-        "#헬스케어"
-      ],
-      "verdict": "AI 기술력 필요하지만 큰 시장과 높은 수요"
-    }
-  ],
-  "android": [
-    {
-      "rank": 1,
-      "name": "CrimeRadar: Dispatch Alerts",
-      "developer": "Scoopz LLC",
-      "category": "Public safety & alerts",
-      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
-      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
-      "idea_summary": "실시간 경찰 출동 알림으로 지역 안전 정보 제공 [확인]",
-      "analysis": {
-        "problem": "실시간 지역 범죄 및 안전 정보 부족으로 인한 불안감 [추론]",
-        "solution": "경찰 무전 데이터 기반 실시간 사건 알림 및 지도 표시 [추론]",
-        "target_user": "지역 안전을 중시하는 주민, 부모, 사업자 [추론]",
-        "unique_point": "공공 안전 데이터를 활용한 실시간 정보 제공 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Citizen",
-          "Nextdoor",
-          "지역 경찰서 앱"
-        ],
-        "timing_reason": "치안 불안과 지역사회 안전에 대한 관심 증가 [추론]",
-        "growth_potential": "지역 확장 가능하며 광고 수익 모델 적용 가능 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 알림 기능, 광고, 지역 사업자 파트너십 [추론]",
-        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "1,000만원 [추론]",
-        "tech_stack": [
-          "Android Native",
-          "Google Maps API",
-          "Firebase",
-          "WebSocket"
-        ],
-        "key_features": [
-          "실시간 알림",
-          "지도 표시",
-          "필터 설정"
-        ],
-        "clone_tip": "공공 데이터 접근 권한과 실시간 처리 시스템 구축 필요 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 4,
         "competition": 3,
         "profitability": 4,
-        "scalability": 5,
-        "overall": 8
+        "scalability": 4,
+        "overall": 8.5
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#안전"
+        "#건강"
       ],
-      "verdict": "사회적 필요성 높고 확장 가능한 비즈니스 모델",
-      "deep_report_id": "android-crimeradar-dispatch-alerts-1773792588292"
+      "verdict": "건강 트렌드 활용한 높은 수익 잠재력"
     },
     {
-      "rank": 2,
-      "name": "Loopit - Make Playables",
-      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
-      "category": "Video creation & advertising",
-      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
-      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
-      "idea_summary": "인터랙티브 광고용 플레이어블 콘텐츠 제작 도구 [확인]",
+      "rank": 5,
+      "name": "Construction Material Waste",
+      "developer": "Branson Family Foundation",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/9f/e0/d39fe091-0352-f755-b1aa-288207269327/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/construction-material-waste/id6760597506?uo=2",
+      "idea_summary": "건설 자재 낭비 추적 및 최적화",
       "analysis": {
-        "problem": "복잡한 인터랙티브 광고 제작을 위한 전문 도구 부족 [추론]",
-        "solution": "모바일에서 쉽게 플레이어블 광고와 루핑 비디오 제작 [추론]",
-        "target_user": "디지털 마케터, 소상공인, 크리에이터 [추론]",
-        "unique_point": "전문 지식 없이도 인터랙티브 콘텐츠 제작 가능 [추론]"
+        "problem": "건설현장 자재 낭비로 인한 비용 손실과 환경 문제 [추론]",
+        "solution": "자재 사용량 추적, 낭비 분석, 절약 및 지속가능성 리포트 [확인]",
+        "target_user": "건설업체, 현장 관리자, 자재 관리 담당자 [추론]",
+        "unique_point": "건설업 특화 자재 낭비 관리 시스템 [추론]"
       },
       "market": {
         "competitors": [
-          "Canva",
-          "Adobe Creative tools",
-          "전문 광고 도구"
+          "Procore",
+          "PlanGrid",
+          "일반 재고관리 앱들"
         ],
-        "timing_reason": "인터랙티브 광고 시장 성장과 모바일 마케팅 확산 [추론]",
-        "growth_potential": "디지털 광고 시장 성장과 함께 수요 증가 [추론]"
+        "timing_reason": "ESG 경영과 건설업 디지털화 가속 [추론]",
+        "growth_potential": "글로벌 건설업 성장과 환경 규제 강화 [추론]"
       },
       "business": {
-        "monetization": "구독 모델, 템플릿 판매, 엔터프라이즈 라이선스 [추론]",
-        "pricing_suggestion": "기본 무료, 프로 월 19,900원 [추론]",
+        "monetization": "기업 라이센스 구독 모델 [추측]",
+        "pricing_suggestion": "현장당 월 $199, 기업 패키지 월 $999 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "5-6개월 [추론]",
-        "estimated_cost": "2,000만원 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
         "tech_stack": [
           "React Native",
-          "WebGL",
-          "FFmpeg",
-          "Cloud Storage"
+          "Node.js",
+          "Analytics Dashboard"
         ],
         "key_features": [
-          "템플릿 에디터",
-          "인터랙티브 요소",
-          "내보내기"
+          "자재 스캔",
+          "낭비 추적",
+          "ROI 분석",
+          "리포트 생성"
         ],
-        "clone_tip": "비디오 편집 엔진과 인터랙티브 요소 개발이 핵심 [추론]"
+        "clone_tip": "건설업 도메인 지식과 현장 워크플로 이해 필수 [추론]"
       },
       "scores": {
         "novelty": 4,
         "necessity": 4,
         "timing": 5,
-        "tech_difficulty": 2,
-        "market_size": 5,
-        "competition": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
         "profitability": 4,
-        "scalability": 5,
-        "overall": 8
+        "scalability": 4,
+        "overall": 8.1
       },
       "tags": [
-        "#팀개발권장",
+        "#1인개발가능",
         "#B2B",
-        "#마케팅"
+        "#지속가능"
       ],
-      "verdict": "성장하는 디지털 마케팅 시장의 니즈에 부합"
-    },
+      "verdict": "ESG 트렌드 활용한 B2B 고수익 가능성"
+    }
+  ],
+  "android": [
     {
-      "rank": 3,
-      "name": "WiFi Assistant: Launcher",
-      "developer": "Ancient Capital Labs",
-      "category": "Launcher & Wi-Fi utilities",
-      "icon": "https://play-lh.googleusercontent.com/aY9J9XOlFKCEo-qUq-8h2m7jvTo1e1V7hXHCHaVNlWWZBH1cYv2xKFr-iaMXQxl9aaFnHx8Nu-5GWTqS0anDMg",
-      "app_url": "https://play.google.com/store/apps/details?id=com.assistant.manage.viwmip",
-      "idea_summary": "WiFi 관리 기능 통합 안드로이드 런처 [확인]",
+      "rank": 1,
+      "name": "Crack - Improvised Narrative Play, AI Chat",
+      "developer": "wrtn",
+      "category": "AI Chat & Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/rLYK2VP-oKgqgJYcg1ErUJnFvlFE36J-C3u3TIvHPz0Ii380lrBM2COfIoq9AjmVZKQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wrtn.character",
+      "idea_summary": "AI와 함께하는 즉흥 스토리텔링",
       "analysis": {
-        "problem": "WiFi 설정과 관리를 위해 여러 앱을 사용해야 하는 불편함 [추론]",
-        "solution": "런처에 WiFi 최적화 및 관리 도구를 통합하여 편의성 제공 [추론]",
-        "target_user": "WiFi 품질을 중시하는 안드로이드 사용자 [추론]",
-        "unique_point": "런처와 WiFi 관리 도구의 결합으로 차별화 [추론]"
+        "problem": "창의적 글쓰기와 스토리텔링 연습의 접근성 부족 [추론]",
+        "solution": "AI와 협력하는 즉흥 내러티브 플레이 플랫폼 [확인]",
+        "target_user": "작가 지망생, 창의적 글쓰기 애호가, 스토리텔러 [추론]",
+        "unique_point": "AI 협력 기반 즉흥 스토리 창작 시스템 [추론]"
       },
       "market": {
         "competitors": [
-          "Nova Launcher",
-          "일반 WiFi 관리 앱들"
+          "AI Dungeon",
+          "Character.ai",
+          "ChatGPT"
         ],
-        "timing_reason": "재택근무 증가로 WiFi 품질에 대한 관심 증가 [추론]",
-        "growth_potential": "런처 시장의 안정성과 WiFi 니즈 결합 [추론]"
+        "timing_reason": "생성형 AI 대중화와 창작 도구 수요 증가 [추론]",
+        "growth_potential": "AI 기술 발전과 크리에이터 이코노미 성장 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 기능 IAP, 광고 [추론]",
-        "pricing_suggestion": "기본 무료, 프리미엄 9,900원 일시불 [추론]",
-        "revenue_potential": "중"
+        "monetization": "프리미엄 AI 모델 구독과 고급 기능 [추측]",
+        "pricing_suggestion": "무료 + 프리미엄 월 $9.99 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "800만원 [추론]",
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
         "tech_stack": [
-          "Android Native",
-          "WiFi API",
-          "Material Design"
+          "React Native",
+          "OpenAI API",
+          "Firebase"
         ],
         "key_features": [
-          "런처 UI",
-          "WiFi 스캔",
-          "네트워크 최적화"
+          "AI 대화",
+          "스토리 생성",
+          "캐릭터 관리",
+          "공유 기능"
         ],
-        "clone_tip": "안드로이드 시스템 API 활용과 사용자 친화적 UI 필수 [추론]"
+        "clone_tip": "프롬프트 엔지니어링과 스토리 구조 설계가 핵심 [추론]"
       },
       "scores": {
-        "novelty": 3,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 3,
-        "competition": 4,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 6.5
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#유틸리티"
+        "#AI"
       ],
-      "verdict": "안정적이지만 차별화 요소 부족으로 수익성 제한적"
+      "verdict": "AI 트렌드 활용한 창의적 플랫폼으로 높은 잠재력",
+      "deep_report_id": "android-crack-improvised-narrative-play-ai-chat-1773760228818"
     },
     {
-      "rank": 4,
-      "name": "Weather Trip",
-      "developer": "PJW FAMILY PROPERTY LLP",
-      "category": "Weather & travel planning",
-      "icon": "https://play-lh.googleusercontent.com/UCIikfenLo_qHry26KktOvES6jgjUu6pgWMT38bsosBRO4P4UgOUYwoYC1dSFMdufzFVeHZPjvVtM5muTiCi",
-      "app_url": "https://play.google.com/store/apps/details?id=com.weather.triptimewetr",
-      "idea_summary": "여행 경로별 날씨 예보 및 짐 챙기기 가이드 [확인]",
+      "rank": 2,
+      "name": "Typeless: AI Voice Keyboard",
+      "developer": "TYPELESS",
+      "category": "Utilities & Keyboard",
+      "icon": "https://play-lh.googleusercontent.com/0W7lCGnEFAX6RaM1aiB9-A4gePokNzb9DabsI8mTIHp38sWBmZWfaJCGp88aA15GLsaeShnBnSS-YwMqJgt2sg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.typeless.mobile",
+      "idea_summary": "음성 기반 AI 키보드 입력 도구",
       "analysis": {
-        "problem": "여행지 날씨 정보 파악과 적절한 짐 준비의 어려움 [추론]",
-        "solution": "여행 경로별 상세 날씨 예보와 맞춤 짐챙기기 추천 [추론]",
-        "target_user": "여행을 자주 가는 20-40대, 출장족 [추론]",
-        "unique_point": "여행 특화 날씨 서비스와 실용적 짐챙기기 가이드 [추론]"
+        "problem": "모바일 타이핑의 불편함과 속도 한계 [추론]",
+        "solution": "음성을 텍스트로 변환하는 AI 키보드 시스템 [확인]",
+        "target_user": "타이핑 어려움을 겪는 사용자, 시각 장애인, 멀티태스킹 사용자 [추론]",
+        "unique_point": "AI 기반 음성 키보드의 정확도와 접근성 [추론]"
       },
       "market": {
         "competitors": [
-          "일반 날씨 앱",
-          "여행 계획 앱"
+          "Gboard",
+          "SwiftKey",
+          "음성 인식 앱들"
         ],
-        "timing_reason": "코로나 회복 후 여행 수요 급증과 스마트 여행 계획 트렌드 [추론]",
-        "growth_potential": "여행 산업 회복과 함께 성장 가능 [추론]"
+        "timing_reason": "음성 AI 기술 성숙과 접근성 인식 증가 [추론]",
+        "growth_potential": "접근성 시장과 음성 UI 트렌드 성장 [추론]"
       },
       "business": {
-        "monetization": "프리미엄 예보 기능, 여행 상품 제휴 수수료 [추론]",
-        "pricing_suggestion": "기본 무료, 프리미엄 월 3,900원 [추론]",
-        "revenue_potential": "중"
+        "monetization": "프리미엄 기능 구독과 광고 모델 [추측]",
+        "pricing_suggestion": "무료 + 프리미엄 월 $4.99 [추론]",
+        "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "900만원 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
         "tech_stack": [
-          "Flutter",
-          "Weather API",
-          "Google Maps",
-          "Firebase"
+          "Android Kotlin",
+          "Speech Recognition API",
+          "ML"
         ],
         "key_features": [
-          "경로별 날씨",
-          "짐챙기기 AI",
-          "알림 시스템"
+          "음성 인식",
+          "키보드 통합",
+          "언어 지원",
+          "오프라인 모드"
         ],
-        "clone_tip": "정확한 날씨 API와 지역별 데이터 큐레이션이 중요 [추론]"
+        "clone_tip": "음성 인식 정확도와 키보드 UX 최적화가 핵심 [추론]"
       },
       "scores": {
-        "novelty": 3,
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#접근성"
+      ],
+      "verdict": "접근성과 편의성을 결합한 실용적 솔루션"
+    },
+    {
+      "rank": 3,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "Public Safety",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 범죄 신고 알림 서비스",
+      "analysis": {
+        "problem": "지역 범죄 정보의 실시간 접근 어려움과 안전 불안감 [추론]",
+        "solution": "실시간 범죄 dispatch 알림과 지도 기반 위치 정보 [확인]",
+        "target_user": "지역 주민, 안전 관심자, 부모, 보안업체 [추론]",
+        "unique_point": "공공 dispatch 데이터 기반 실시간 범죄 알림 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "NextDoor",
+          "지역 뉴스 앱"
+        ],
+        "timing_reason": "공공 안전 관심 증가와 투명성 요구 [추론]",
+        "growth_potential": "안전 인식 증가와 스마트시티 발전 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 알림과 보안업체 파트너십 [추측]",
+        "pricing_suggestion": "무료 + 프리미엄 월 $2.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "800-1100만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Real-time DB",
+          "Push Notifications",
+          "Maps API"
+        ],
+        "key_features": [
+          "실시간 알림",
+          "지도 시각화",
+          "필터링",
+          "커뮤니티"
+        ],
+        "clone_tip": "공공 데이터 API 확보와 법적 검토 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
         "necessity": 4,
-        "timing": 5,
+        "timing": 4,
         "tech_difficulty": 4,
         "market_size": 4,
         "competition": 3,
         "profitability": 3,
         "scalability": 4,
         "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#공공안전"
+      ],
+      "verdict": "사회적 가치와 실용성을 겸비한 앱"
+    },
+    {
+      "rank": 4,
+      "name": "Weather Trip",
+      "developer": "PJW FAMILY PROPERTY LLP",
+      "category": "Travel & Weather",
+      "icon": "https://play-lh.googleusercontent.com/UCIikfenLo_qHry26KktOvES6jgjUu6pgWMT38bsosBRO4P4UgOUYwoYC1dSFMdufzFVeHZPjvVtM5muTiCi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.weather.triptimewetr",
+      "idea_summary": "여행 경로별 날씨 예보 플래너",
+      "analysis": {
+        "problem": "여행 계획 시 경로별 날씨 정보 확인의 번거로움 [추론]",
+        "solution": "여행 루트와 목적지별 통합 날씨 예보 제공 [확인]",
+        "target_user": "여행자, 출장족, 야외활동가, 여행 플래너 [추론]",
+        "unique_point": "경로 기반 맞춤형 날씨 정보 통합 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Weather.com",
+          "AccuWeather",
+          "여행 플래닝 앱"
+        ],
+        "timing_reason": "여행 수요 회복과 계획적 여행 문화 확산 [추론]",
+        "growth_potential": "여행업계 회복과 개인여행 증가 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 프리미엄 기능 구독 [추측]",
+        "pricing_suggestion": "무료 + 광고 제거 월 $2.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-700만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Weather API",
+          "Maps API",
+          "Route Planning"
+        ],
+        "key_features": [
+          "경로 입력",
+          "날씨 예보",
+          "알림",
+          "여행 팁"
+        ],
+        "clone_tip": "정확한 날씨 API와 직관적 UX 설계가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
         "#여행"
       ],
-      "verdict": "여행 수요 회복과 함께 성장 가능한 실용적 앱"
+      "verdict": "실용적이지만 차별화 포인트 강화 필요"
     },
     {
       "rank": 5,
-      "name": "Charan – Secondhand Fashion Marketplace",
-      "developer": "Mineis",
-      "category": "Secondhand fashion marketplace",
-      "icon": "https://play-lh.googleusercontent.com/lkpl7AXNnrC1-QkOogzJdHnhW0LeCiYRb4X4jH6Y44rZsgX_SeTQmqfSW_GPmSEc",
-      "app_url": "https://play.google.com/store/apps/details?id=com.userapp.charan",
-      "idea_summary": "검증된 중고 패션 거래 마켓플레이스 [확인]",
+      "name": "Accio: Alibaba AI Agent",
+      "developer": "Accio.com",
+      "category": "Productivity & AI Tools",
+      "icon": "https://play-lh.googleusercontent.com/xwsFmFYHtmknKjMqvmSnTGj9YpMPfZbvvacrrhOv7TJjThATxKLcd47C8fObhD_XTrYu",
+      "app_url": "https://play.google.com/store/apps/details?id=com.accio.android.app",
+      "idea_summary": "알리바바 기반 AI 업무 자동화",
       "analysis": {
-        "problem": "중고 패션 거래 시 진위 확인과 안전한 거래의 어려움 [추론]",
-        "solution": "검증 시스템과 보호 정책이 있는 중고 패션 전용 플랫폼 [추론]",
-        "target_user": "지속가능한 패션을 추구하는 20-30대 여성 [추론]",
-        "unique_point": "패션 특화 검증 시스템과 안전 거래 보장 [추론]"
+        "problem": "반복적인 업무 작업의 비효율성과 시간 낭비 [추론]",
+        "solution": "AI 에이전트가 질문 답변과 워크플로 자동화 [확인]",
+        "target_user": "직장인, 프리랜서, 소상공인, 업무 효율화 추구자 [추론]",
+        "unique_point": "알리바바 생태계 연동 AI 업무 도우미 [추론]"
       },
       "market": {
         "competitors": [
-          "당근마켓",
-          "번개장터",
-          "Vinted",
-          "The RealReal"
+          "ChatGPT",
+          "Claude",
+          "Notion AI",
+          "업무 자동화 도구들"
         ],
-        "timing_reason": "지속가능성 트렌드와 중고거래 시장 성장 [추론]",
-        "growth_potential": "ESG 경영과 친환경 소비 확산으로 지속 성장 [추론]"
+        "timing_reason": "AI 도구 대중화와 업무 효율성 요구 증가 [추론]",
+        "growth_potential": "AI 시장 성장과 중국 시장 연계 가능성 [추론]"
       },
       "business": {
-        "monetization": "거래 수수료, 검증 서비스 수수료, 광고 [추론]",
-        "pricing_suggestion": "거래액의 5-10% 수수료 [추론]",
+        "monetization": "구독 기반 프리미엄 AI 서비스 [추측]",
+        "pricing_suggestion": "무료 + 프리미엄 월 $19.99 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "1,500만원 [추론]",
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
         "tech_stack": [
           "React Native",
-          "Node.js",
-          "PostgreSQL",
-          "Payment API"
+          "AI API Integration",
+          "Workflow Engine"
         ],
         "key_features": [
-          "상품 검증",
-          "안전 결제",
-          "평점 시스템"
+          "AI 대화",
+          "작업 자동화",
+          "알리바바 연동",
+          "워크플로 관리"
         ],
-        "clone_tip": "패션 전문가 네트워크와 신뢰 시스템 구축이 핵심 [추론]"
+        "clone_tip": "AI 모델 최적화와 업무 워크플로 이해가 핵심 [추론]"
       },
       "scores": {
-        "novelty": 3,
-        "necessity": 4,
+        "novelty": 4,
+        "necessity": 5,
         "timing": 5,
-        "tech_difficulty": 3,
+        "tech_difficulty": 5,
         "market_size": 5,
         "competition": 2,
         "profitability": 4,
         "scalability": 5,
-        "overall": 7.8
+        "overall": 8.1
       },
       "tags": [
-        "#팀개발권장",
-        "#B2C",
-        "#지속가능성"
+        "#1인개발가능",
+        "#B2B",
+        "#AI"
       ],
-      "verdict": "지속가능성 트렌드 부합하며 큰 시장 잠재력"
+      "verdict": "AI 트렌드 선도하는 높은 성장 잠재력"
     }
   ],
   "daily_insight": {
-    "trend_summary": "AI 기반 편의성 도구와 니치 전문 서비스가 주요 트렌드 [추론]. 정신건강, 지속가능성, 실시간 안전 정보에 대한 수요 증가 [추론].",
+    "trend_summary": "AI 기반 창작 도구와 전문 분야 특화 앱이 주목받고 있으며, 접근성과 지속가능성을 결합한 솔루션이 증가하고 있습니다.",
     "trend_details": [
-      "AI 활용 자동화 도구 확산",
-      "정신건강 관리 앱 다양화",
-      "지속가능 소비 플랫폼 성장",
-      "실시간 안전정보 서비스"
+      "AI 협력 창작 플랫폼 부상",
+      "전문직 디지털화 가속",
+      "ESG 경영 도구 확산",
+      "접근성 기술 발전"
     ],
     "hot_categories": [
-      "Health & Fitness",
-      "Security & Safety",
-      "Sustainable Commerce"
+      "AI & 머신러닝",
+      "전문직 도구",
+      "헬스케어",
+      "지속가능성"
     ],
-    "opportunity": "전문 영역 특화 서비스와 AI 편의성 도구의 결합",
-    "action_item": "니치 시장 전문성 확보 후 AI 기술 접목 검토"
+    "opportunity": "AI 기술과 전문 도메인 지식을 결합한 틈새 시장 공략",
+    "action_item": "AI API 활용한 창작 도구 또는 전문직 특화 솔루션 기획"
   }
 }

@@ -21,7 +21,7 @@ npm run save >> $LOG_FILE 2>&1
 
 # 4. GitHub 자동 push
 echo "[$(date)] GitHub push 시작" >> $LOG_FILE
-git add web/data/reports/ output/trends.json >> $LOG_FILE 2>&1
+git add web/data/reports/ web/data/deep-reports/ output/trends.json .gitignore >> $LOG_FILE 2>&1
 git commit -m "Daily report $(date +%Y-%m-%d)" >> $LOG_FILE 2>&1
 git push origin main >> $LOG_FILE 2>&1
 echo "[$(date)] GitHub push 완료" >> $LOG_FILE

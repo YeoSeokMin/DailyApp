@@ -8,281 +8,102 @@
       "category": "Productivity",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/f6/fc/00f6fc92-06f1-49c5-5f88-dd0975e3812f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
       "app_url": "https://apps.apple.com/kr/app/gelnail-log/id6760534153?uo=2",
-      "idea_summary": "젤네일 디자인과 비용 추적 전문앱",
+      "idea_summary": "젤네일 디자인과 관리 이력 추적",
       "analysis": {
-        "problem": "젤네일 애호가들이 디자인, 제품, 비용을 체계적으로 관리하기 어려움 [추론]",
-        "solution": "사진, 제품, 비용, 예약을 한 곳에서 관리하는 전용 로그 시스템 [확인]",
-        "target_user": "젤네일을 정기적으로 받는 여성, 네일샵 운영자 [추론]",
-        "unique_point": "네일 특화 기능으로 일반 노트앱과 차별화 [추론]"
+        "problem": "젤네일 디자인 기록과 관리 스케줄 추적의 어려움 [추론]",
+        "solution": "디자인, 제품, 예약 기록을 체계적으로 관리하는 전용 앱 [확인]",
+        "target_user": "젤네일을 자주 하는 여성, 네일샵 운영자 [추론]",
+        "unique_point": "네일 전용 로그 관리에 특화된 니치 앱 [추론]"
       },
       "market": {
         "competitors": [
-          "일반 노트앱",
-          "뷰티 다이어리"
+          "일반 메모앱",
+          "캘린더앱"
         ],
-        "timing_reason": "뷰티 관심 증가와 셀프케어 트렌드 [추론]",
-        "growth_potential": "니치하지만 충성도 높은 사용자층 확보 가능 [추론]"
+        "timing_reason": "뷰티 관리의 디지털화 트렌드 [추론]",
+        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 [추측]"
       },
       "business": {
-        "monetization": "프리미엄 기능 구독 또는 광고 [추론]",
-        "pricing_suggestion": "월 2-3천원 구독 모델 [추론]",
+        "monetization": "프리미엄 기능 구독 또는 일회성 구매 [추론]",
+        "pricing_suggestion": "월 2,000원 구독 또는 5,000원 일회성 구매 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "500만원 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
         "tech_stack": [
-          "React Native",
-          "SQLite",
-          "Camera API"
+          "Swift",
+          "Core Data",
+          "UIKit"
         ],
         "key_features": [
-          "사진 저장",
-          "비용 계산",
-          "예약 알림"
+          "디자인 갤러리",
+          "예약 알림",
+          "제품 추적"
         ],
-        "clone_tip": "뷰티 카테고리별로 확장 가능한 구조로 설계 [추론]"
+        "clone_tip": "사진 관리와 알림 기능에 집중하고 UI를 예쁘게 만들 것 [추론]"
       },
       "scores": {
         "novelty": 4,
         "necessity": 3,
         "timing": 4,
         "tech_difficulty": 4,
-        "market_size": 3,
-        "competition": 4,
+        "market_size": 2,
+        "competition": 5,
         "profitability": 3,
         "scalability": 3,
-        "overall": 7
+        "overall": 7.1
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
         "#니치마켓"
       ],
-      "verdict": "뷰티 니치에서 시작해 확장 가능한 아이디어",
-      "deep_report_id": "ios-gelnail-log-1773533297661"
+      "verdict": "작지만 충성도 높은 타겟층을 확보할 수 있는 앱",
+      "deep_report_id": "ios-gelnail-log-1773501183449"
     },
     {
       "rank": 2,
-      "name": "Beehive: Beekeeping Manager",
-      "developer": "Moonbeam Catcher LLC",
-      "category": "Productivity",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fb/1a/85/fb1a856a-13a9-164a-b960-9ab01211b785/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/beehive-beekeeping-manager/id6759832883?uo=2",
-      "idea_summary": "양봉 관리 전용 생산성 도구",
-      "analysis": {
-        "problem": "양봉업자들이 벌통, 점검, 수확 등을 수작업으로 기록하는 불편함 [추론]",
-        "solution": "벌통별 상태 추적, 일정 알림, 수확량 관리 통합 시스템 [확인]",
-        "target_user": "취미 양봉가, 상업적 양봉업자 [추론]",
-        "unique_point": "양봉 전문 기능으로 범용 농업앱과 차별화 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "FarmLogs",
-          "농업 관리 앱들"
-        ],
-        "timing_reason": "도시양봉 증가와 지속가능성 관심 [추론]",
-        "growth_potential": "전세계 양봉업계 디지털화 수요 [추론]"
-      },
-      "business": {
-        "monetization": "구독 모델, 프리미엄 기능 [추론]",
-        "pricing_suggestion": "월 5-10달러 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "3-4개월 [추론]",
-        "estimated_cost": "800만원 [추론]",
-        "tech_stack": [
-          "Flutter",
-          "Firebase",
-          "Location API"
-        ],
-        "key_features": [
-          "벌통 관리",
-          "일정 알림",
-          "수확 추적"
-        ],
-        "clone_tip": "농업 전반으로 확장 가능한 구조 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 4,
-        "timing": 3,
-        "tech_difficulty": 3,
-        "market_size": 2,
-        "competition": 5,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2B",
-        "#농업"
-      ],
-      "verdict": "작지만 확실한 니치시장, 농업 전반 확장성"
-    },
-    {
-      "rank": 3,
-      "name": "Devlingo: English for Devs",
-      "developer": "Joao Victor Flores da Costa",
-      "category": "Developer Tools",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/2f/77/ce2f77f1-9e38-d696-233f-e3c047d2e4f9/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/us/app/devlingo-english-for-devs/id6759974641?uo=2",
-      "idea_summary": "개발자 전용 영어 학습 플랫폼",
-      "analysis": {
-        "problem": "개발자들이 기술 문서, 코드 리뷰에 필요한 전문 영어 부족 [추론]",
-        "solution": "프로그래밍 맥락에서 영어를 학습하는 전용 플랫폼 [확인]",
-        "target_user": "영어가 모국어가 아닌 개발자들 [추론]",
-        "unique_point": "개발 전문 용어와 상황에 특화된 학습 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Duolingo",
-          "일반 영어학습앱"
-        ],
-        "timing_reason": "글로벌 개발 협업과 오픈소스 기여 증가 [추론]",
-        "growth_potential": "전세계 비영어권 개발자 시장 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독, 기업용 패키지 [추론]",
-        "pricing_suggestion": "월 9.99달러, 기업 라이선스 별도 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "4-5개월 [추론]",
-        "estimated_cost": "1000만원 [추론]",
-        "tech_stack": [
-          "React Native",
-          "AI API",
-          "Progress Tracking"
-        ],
-        "key_features": [
-          "맞춤 연습",
-          "코드 리뷰 영어",
-          "기술문서 읽기"
-        ],
-        "clone_tip": "다른 전문직종으로 확장 가능 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#교육"
-      ],
-      "verdict": "개발자 니치에서 시작해 전문직 영어로 확장"
-    },
-    {
-      "rank": 4,
-      "name": "Pizzaiolo Dough Calculator",
-      "developer": "Karmani",
-      "category": "Food & Drink",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/39/60/36396043-2c1b-7593-1c5c-07f2746a5117/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/pizzaiolo-dough-calculator/id6760149480?uo=2",
-      "idea_summary": "피자 도우 레시피 계산 전문 툴",
-      "analysis": {
-        "problem": "피자 제작시 정확한 도우 비율과 발효시간 계산의 어려움 [추론]",
-        "solution": "수분함량, 발효시간, 재료량을 자동 계산해주는 전문 도구 [확인]",
-        "target_user": "홈베이킹 애호가, 피자샵 오너, 요리사 [추론]",
-        "unique_point": "피자 도우에만 특화된 정밀한 계산 기능 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "일반 레시피앱",
-          "베이킹 계산기"
-        ],
-        "timing_reason": "홈베이킹 트렌드와 수제피자 관심 증가 [추론]",
-        "growth_potential": "베이킹 전반으로 확장 가능 [추론]"
-      },
-      "business": {
-        "monetization": "광고 또는 프리미엄 레시피 [추론]",
-        "pricing_suggestion": "무료+광고, 프리미엄 2.99달러 [추론]",
-        "revenue_potential": "하"
-      },
-      "dev_insight": {
-        "estimated_period": "1-2개월 [추론]",
-        "estimated_cost": "300만원 [추론]",
-        "tech_stack": [
-          "Flutter",
-          "계산 라이브러리",
-          "로컬 저장소"
-        ],
-        "key_features": [
-          "비율 계산",
-          "타이머",
-          "레시피 저장"
-        ],
-        "clone_tip": "다른 베이킹 제품으로 확장 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 5,
-        "market_size": 2,
-        "competition": 4,
-        "profitability": 2,
-        "scalability": 3,
-        "overall": 6.5
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#요리"
-      ],
-      "verdict": "단순하지만 특화된 유틸리티 앱"
-    },
-    {
-      "rank": 5,
       "name": "Maker Inventory",
       "developer": "SIMON LAWRENCE COPE",
       "category": "Productivity",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c5/66/3c/c5663ca2-a416-1ca6-cf46-c0bce8801c6b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
       "app_url": "https://apps.apple.com/kr/app/maker-inventory/id6759333356?uo=2",
-      "idea_summary": "메이커 재료 및 도구 재고 관리",
+      "idea_summary": "메이커를 위한 부품 재고 관리 도구",
       "analysis": {
-        "problem": "DIY 메이커들이 다양한 재료와 도구의 재고를 추적하기 어려움 [추론]",
-        "solution": "재료, 도구, 부품의 수량, 비용, 공급업체를 체계적으로 관리 [확인]",
-        "target_user": "DIY 애호가, 메이커스페이스, 소규모 제조업체 [추론]",
-        "unique_point": "메이커 활동에 최적화된 재고 관리 [추론]"
+        "problem": "DIY 메이커들의 부품과 도구 관리의 복잡성 [확인]",
+        "solution": "검색 가능한 인벤토리 관리 시스템 제공 [확인]",
+        "target_user": "DIY 메이커, 하드웨어 엔지니어, 취미 전자공학자 [추론]",
+        "unique_point": "메이커 커뮤니티에 특화된 재고 관리 [추론]"
       },
       "market": {
         "competitors": [
-          "일반 재고관리앱",
-          "스프레드시트"
+          "Excel",
+          "Notion",
+          "일반 재고관리앱"
         ],
-        "timing_reason": "메이커 문화 확산과 DIY 트렌드 [추론]",
-        "growth_potential": "소규모 제조업과 창작자 증가 [추론]"
+        "timing_reason": "메이커 문화 확산과 홈 랩 증가 [추론]",
+        "growth_potential": "메이커 시장 성장과 함께 확장 가능 [추측]"
       },
       "business": {
-        "monetization": "구독 모델, 기업용 라이선스 [추론]",
-        "pricing_suggestion": "월 4.99달러 [추론]",
+        "monetization": "프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "월 5,000원 또는 연 50,000원 구독 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "3개월 [추론]",
-        "estimated_cost": "600만원 [추론]",
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
         "tech_stack": [
-          "React Native",
-          "SQLite",
-          "바코드 스캐너"
+          "Swift",
+          "Core Data",
+          "바코드 스캔"
         ],
         "key_features": [
-          "재고 추적",
-          "비용 계산",
-          "구매 알림"
+          "바코드 스캔",
+          "검색 필터",
+          "카테고리 분류"
         ],
-        "clone_tip": "산업별 특화 버전 개발 가능 [추론]"
+        "clone_tip": "바코드 스캔 기능과 직관적인 검색 UI가 핵심 [추론]"
       },
       "scores": {
         "novelty": 3,
@@ -290,250 +111,315 @@
         "timing": 4,
         "tech_difficulty": 3,
         "market_size": 3,
-        "competition": 3,
-        "profitability": 3,
+        "competition": 4,
+        "profitability": 4,
         "scalability": 4,
-        "overall": 6.8
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "명확한 타겟과 실용성을 갖춘 틈새 도구"
+    },
+    {
+      "rank": 3,
+      "name": "NativeLab",
+      "developer": "Altug Sogutoglu",
+      "category": "Developer Tools",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/3a/40/543a40eb-69f6-b377-6328-3d76e37afc6f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/nativelab/id6760226252?uo=2",
+      "idea_summary": "네이티브 기능 테스트 개발자 도구",
+      "analysis": {
+        "problem": "모바일 개발 시 디바이스별 기능 테스트의 번거로움 [추론]",
+        "solution": "네이티브 기능과 성능을 쉽게 테스트할 수 있는 도구 [확인]",
+        "target_user": "iOS/Android 개발자, QA 엔지니어 [추론]",
+        "unique_point": "개발자를 위한 실용적인 테스트 도구에 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Xcode Instruments",
+          "TestFlight",
+          "Firebase Test Lab"
+        ],
+        "timing_reason": "모바일 앱 복잡성 증가와 테스트 자동화 필요 [추론]",
+        "growth_potential": "개발자 도구 시장의 지속적 성장 [추측]"
+      },
+      "business": {
+        "monetization": "월 구독 또는 일회성 구매 [추론]",
+        "pricing_suggestion": "월 15,000원 또는 50,000원 일회성 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core APIs",
+          "Metal Performance"
+        ],
+        "key_features": [
+          "성능 벤치마크",
+          "API 테스트",
+          "디바이스 정보"
+        ],
+        "clone_tip": "네이티브 API 접근과 측정 정확도가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#개발도구"
+      ],
+      "verdict": "개발자들의 실제 니즈를 해결하는 실용적 도구"
+    },
+    {
+      "rank": 4,
+      "name": "BreadHound",
+      "developer": "Enrique Sterling",
+      "category": "Food & Drink",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/68/37/f06837bd-6834-793e-8841-bbff19e202bc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/breadhound/id6759514416?uo=2",
+      "idea_summary": "빵 굽기 공식과 발효 시간 추적",
+      "analysis": {
+        "problem": "홈베이킹시 레시피 관리와 발효 타이밍 계산의 복잡성 [추론]",
+        "solution": "빵 레시피, 스케줄, 발효를 체계적으로 관리 [확인]",
+        "target_user": "홈베이킹 애호가, 제빵사, 요리 취미가 [추론]",
+        "unique_point": "빵 제작에 특화된 전문 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 레시피앱",
+          "타이머앱",
+          "쿠킹앱"
+        ],
+        "timing_reason": "홈베이킹 트렌드와 정밀한 제빵에 대한 관심 증가 [추론]",
+        "growth_potential": "틈새시장이지만 전문성으로 차별화 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 레시피 구독 또는 고급 기능 구매 [추론]",
+        "pricing_suggestion": "월 3,000원 구독 또는 8,000원 일회성 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Timer",
+          "UserNotifications"
+        ],
+        "key_features": [
+          "발효 타이머",
+          "레시피 계산기",
+          "진행 추적"
+        ],
+        "clone_tip": "타이밍 계산과 알림 시스템이 핵심 기능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#생산성"
+        "#취미"
       ],
-      "verdict": "메이커 생태계 성장과 함께 성장 가능"
+      "verdict": "전문성 있는 홈베이킹 시장 타겟 앱"
+    },
+    {
+      "rank": 5,
+      "name": "CommuteView",
+      "developer": "Dinh Van Khang",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/ee/bb/f0eebbba-d592-4caa-0aa0-b9fd58ddb6ef/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/commuteview/id6760533422?uo=2",
+      "idea_summary": "통근시간 시각화로 주거 결정 최적화",
+      "analysis": {
+        "problem": "주거지 선택시 통근시간과 교통비 계산의 복잡성 [추론]",
+        "solution": "통근시간, 경로, 교통량을 시각화하여 주거 결정 지원 [확인]",
+        "target_user": "이사 예정자, 직장인, 부동산 구매자 [추론]",
+        "unique_point": "주거 결정에 특화된 통근 분석 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "구글맵",
+          "카카오맵",
+          "부동산앱"
+        ],
+        "timing_reason": "재택근무 후 사무실 복귀와 주거비 상승 [추론]",
+        "growth_potential": "부동산과 교통 데이터 연계로 확장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 리포트 또는 부동산 제휴 수수료 [추론]",
+        "pricing_suggestion": "월 5,000원 또는 리포트당 2,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "MapKit",
+          "CoreLocation"
+        ],
+        "key_features": [
+          "지도 시각화",
+          "시간대별 분석",
+          "비용 계산"
+        ],
+        "clone_tip": "정확한 교통 데이터 연동과 시각화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#부동산"
+      ],
+      "verdict": "실용적이고 시장성 있는 주거 의사결정 도구"
     }
   ],
   "android": [
     {
       "rank": 1,
-      "name": "Typeless: AI Voice Keyboard",
-      "developer": "TYPELESS",
-      "category": "Keyboard & Voice Input",
-      "icon": "https://play-lh.googleusercontent.com/0W7lCGnEFAX6RaM1aiB9-A4gePokNzb9DabsI8mTIHp38sWBmZWfaJCGp88aA15GLsaeShnBnSS-YwMqJgt2sg",
-      "app_url": "https://play.google.com/store/apps/details?id=com.typeless.mobile",
-      "idea_summary": "AI 기반 음성 키보드 앱",
+      "name": "GasApp - Start of Energy Saving",
+      "developer": "SCGLAB Co., LTD.",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/S_YsDH_McHDZlhh-D8CY6H6zcIoEy7ku462jrbvYQHJ-W35lOd_I4yTJQOxsKNKiPw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.biller.scg",
+      "idea_summary": "가스 사용량 추적과 절약 팁 제공",
       "analysis": {
-        "problem": "기존 음성인식이 정확도가 떨어지고 다국어 지원이 부족함 [추론]",
-        "solution": "AI 기술로 향상된 음성 인식과 손쉬운 텍스트 입력 [확인]",
-        "target_user": "모바일 타이핑을 자주 하는 사용자, 접근성 필요 사용자 [추론]",
-        "unique_point": "AI 최적화로 기존 음성키보드보다 정확도 높음 [추론]"
+        "problem": "가정용 가스비 관리와 절약 방법을 모르는 문제 [추론]",
+        "solution": "가스 사용량 추적, 요금 관리, 절약 팁 제공 [확인]",
+        "target_user": "가스비 절약을 원하는 가정, 1인 가구 [추론]",
+        "unique_point": "가스 에너지에 특화된 절약 관리 도구 [추론]"
       },
       "market": {
         "competitors": [
-          "Google 음성인식",
-          "SwiftKey"
+          "전기 절약앱",
+          "가계부앱",
+          "에너지관리앱"
         ],
-        "timing_reason": "AI 음성인식 기술 발전과 모바일 우선 환경 [추론]",
-        "growth_potential": "글로벌 모든 스마트폰 사용자가 대상 [추론]"
+        "timing_reason": "에너지비 급등과 친환경 절약 관심 증가 [추론]",
+        "growth_potential": "ESG와 에너지 효율에 대한 관심 지속 증가 [추측]"
       },
       "business": {
-        "monetization": "프리미엄 구독, 기업용 API [추론]",
-        "pricing_suggestion": "월 4.99달러, 연간 할인 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "1500만원 [추론]",
-        "tech_stack": [
-          "Android Keyboard API",
-          "AI Speech-to-Text",
-          "Multi-language"
-        ],
-        "key_features": [
-          "실시간 변환",
-          "다국어 지원",
-          "학습 기능"
-        ],
-        "clone_tip": "특정 언어나 도메인에 특화된 버전 먼저 출시 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 2,
-        "market_size": 5,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#AI"
-      ],
-      "verdict": "대중적 수요가 높은 AI 활용 실용 앱",
-      "deep_report_id": "android-typeless-ai-voice-keyboard-1773533387705"
-    },
-    {
-      "rank": 2,
-      "name": "Easy Homescreen",
-      "developer": "Homescreen Apps",
-      "category": "Launcher & Personalization",
-      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
-      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
-      "idea_summary": "단순한 안드로이드 홈 런처",
-      "analysis": {
-        "problem": "기본 런처가 복잡하고 시니어 사용자에게 어려움 [추론]",
-        "solution": "속도와 단순함에 초점을 둔 미니멀 런처 [확인]",
-        "target_user": "단순함을 선호하는 사용자, 시니어층 [추론]",
-        "unique_point": "복잡한 기능 없이 핵심 기능만 제공 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Nova Launcher",
-          "Microsoft Launcher"
-        ],
-        "timing_reason": "디지털 피로감과 미니멀라이프 트렌드 [추론]",
-        "growth_potential": "시니어층과 단순함 추구 사용자 증가 [추론]"
-      },
-      "business": {
-        "monetization": "광고 또는 프리미엄 버전 [추론]",
-        "pricing_suggestion": "무료+광고, 프리미엄 2.99달러 [추론]",
+        "monetization": "프리미엄 분석 기능 또는 에너지 업체 제휴 [추론]",
+        "pricing_suggestion": "월 2,000원 구독 또는 무료+광고 모델 [추론]",
         "revenue_potential": "중"
       },
       "dev_insight": {
-        "estimated_period": "2-3개월 [추론]",
-        "estimated_cost": "400만원 [추론]",
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-700만원 [추론]",
         "tech_stack": [
-          "Android Launcher API",
-          "SQLite",
-          "Material Design"
+          "Kotlin",
+          "Room DB",
+          "차트 라이브러리"
         ],
         "key_features": [
-          "빠른 실행",
-          "큰 아이콘",
-          "간단한 설정"
+          "사용량 입력",
+          "절약 팁",
+          "비교 분석"
         ],
-        "clone_tip": "특정 연령대나 직업군별 맞춤 런처 개발 [추론]"
+        "clone_tip": "직관적인 데이터 시각화와 실용적인 팁이 핵심 [추론]"
       },
       "scores": {
         "novelty": 3,
         "necessity": 4,
-        "timing": 4,
+        "timing": 5,
         "tech_difficulty": 4,
-        "market_size": 3,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 6.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#접근성"
-      ],
-      "verdict": "안정적인 니치 시장, 단순한 개발 난이도"
-    },
-    {
-      "rank": 3,
-      "name": "CrimeRadar: Dispatch Alerts",
-      "developer": "Scoopz LLC",
-      "category": "Safety & Local News",
-      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
-      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
-      "idea_summary": "실시간 지역 범죄 알림 서비스",
-      "analysis": {
-        "problem": "지역 범죄 정보를 실시간으로 파악하기 어려워 안전 우려 [추론]",
-        "solution": "경찰 무전 정보를 실시간으로 수집해 지도와 알림 제공 [확인]",
-        "target_user": "안전 의식이 높은 지역 주민, 부모층 [추론]",
-        "unique_point": "실시간 무전 정보 활용으로 즉시성 확보 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Citizen",
-          "NextDoor"
-        ],
-        "timing_reason": "지역 안전에 대한 관심 증가 [추론]",
-        "growth_potential": "모든 도시 지역으로 확장 가능 [추론]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독, 지역별 광고 [추론]",
-        "pricing_suggestion": "월 3.99달러 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "1200만원 [추론]",
-        "tech_stack": [
-          "Audio Processing",
-          "Google Maps",
-          "Push Notifications"
-        ],
-        "key_features": [
-          "실시간 알림",
-          "지도 시각화",
-          "필터링"
-        ],
-        "clone_tip": "법적 이슈 검토 필수, 지역별 출시 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 4,
-        "tech_difficulty": 2,
         "market_size": 4,
-        "competition": 3,
-        "profitability": 4,
+        "competition": 4,
+        "profitability": 3,
         "scalability": 4,
-        "overall": 7.5
+        "overall": 7.8
       },
       "tags": [
         "#1인개발가능",
         "#B2C",
-        "#안전"
+        "#환경"
       ],
-      "verdict": "사회적 가치와 수익성을 모두 갖춘 아이디어"
+      "verdict": "실용성과 시의성을 갖춘 에너지 절약 도구",
+      "deep_report_id": "android-gasapp-start-of-energy-saving-1773501253592"
     },
     {
-      "rank": 4,
+      "rank": 2,
       "name": "Loopit - Make Playables",
       "developer": "SeedLeap Intelligent Technology Co., Ltd.",
-      "category": "Creative Tools & Marketing",
+      "category": "Creative Tools",
       "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
       "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
       "idea_summary": "인터랙티브 플레이어블 광고 제작 도구",
       "analysis": {
-        "problem": "플레이어블 광고 제작이 복잡하고 비용이 많이 듦 [추론]",
-        "solution": "템플릿과 드래그앤드롭으로 쉽게 플레이어블 광고 제작 [확인]",
-        "target_user": "마케터, 인디 게임 개발자, 소규모 브랜드 [추론]",
-        "unique_point": "비개발자도 쉽게 인터랙티브 콘텐츠 제작 가능 [추론]"
+        "problem": "플레이어블 광고 제작의 높은 기술적 진입장벽 [추론]",
+        "solution": "템플릿으로 쉽게 인터랙티브 광고와 루핑 영상 제작 [확인]",
+        "target_user": "마케터, 소규모 게임 개발사, 크리에이터 [추론]",
+        "unique_point": "플레이어블 광고 제작에 특화된 도구 [추론]"
       },
       "market": {
         "competitors": [
-          "Adobe Creative Suite",
-          "전문 에이전시"
+          "Figma",
+          "After Effects",
+          "Lottie"
         ],
-        "timing_reason": "플레이어블 광고 시장 성장과 DIY 마케팅 트렌드 [추론]",
-        "growth_potential": "모바일 마케팅 전반으로 확장 [추론]"
+        "timing_reason": "모바일 광고 시장 성장과 인터랙티브 콘텐츠 수요 증가 [추론]",
+        "growth_potential": "디지털 마케팅 시장 확장과 함께 성장 [추측]"
       },
       "business": {
-        "monetization": "구독 모델, 사용량 기반 과금 [추론]",
-        "pricing_suggestion": "월 29달러부터, 기업용 별도 [추론]",
+        "monetization": "구독 기반 + 추가 템플릿 판매 [추론]",
+        "pricing_suggestion": "월 20,000원 구독 또는 템플릿당 5,000원 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
         "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "2000만원 [추론]",
+        "estimated_cost": "1200-2000만원 [추론]",
         "tech_stack": [
-          "HTML5 Canvas",
-          "Interactive Builder",
-          "Analytics"
+          "Kotlin",
+          "OpenGL",
+          "FFmpeg"
         ],
         "key_features": [
-          "템플릿 제공",
-          "실시간 미리보기",
-          "성과 분석"
+          "드래그앤드롭 에디터",
+          "템플릿 라이브러리",
+          "미리보기"
         ],
-        "clone_tip": "특정 산업별 템플릿으로 시작 [추론]"
+        "clone_tip": "직관적인 UI와 풍부한 템플릿이 성공 요소 [추론]"
       },
       "scores": {
-        "novelty": 5,
+        "novelty": 4,
         "necessity": 4,
         "timing": 5,
         "tech_difficulty": 2,
         "market_size": 4,
-        "competition": 4,
+        "competition": 3,
         "profitability": 4,
         "scalability": 5,
         "overall": 8.3
@@ -541,86 +427,209 @@
       "tags": [
         "#1인개발가능",
         "#B2B",
-        "#마케팅"
+        "#크리에이티브"
       ],
-      "verdict": "마케팅 툴 시장의 높은 성장 잠재력"
+      "verdict": "성장하는 디지털 광고 시장의 틈새 해결책"
     },
     {
-      "rank": 5,
-      "name": "Citizen Conan – Anti‑Fraud",
-      "developer": "(주)인피니그루",
-      "category": "Security & Fraud Prevention",
-      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
-      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
-      "idea_summary": "보이스피싱 탐지 및 예방 앱",
+      "rank": 3,
+      "name": "IRIAM - V-Live Communication App",
+      "developer": "IRIAM Inc",
+      "category": "Social",
+      "icon": "https://play-lh.googleusercontent.com/Kan7yTtPrmAJ_rOuVLiX-52gLYAEs8Qep42_fGmeWrfXRg-tbjxJ7A6FKhI7X1LHmXbKeAayGV7h1Ox1Bfwu_A",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.co.duo7.vr.iriam",
+      "idea_summary": "버추얼 아바타 라이브 스트리밍 플랫폼",
       "analysis": {
-        "problem": "보이스피싱과 스미싱 피해가 지속적으로 증가 [확인]",
-        "solution": "AI로 의심스러운 통화와 메시지를 실시간 탐지 [추론]",
-        "target_user": "피싱 취약 계층인 중장년층, 일반 사용자 [추론]",
-        "unique_point": "실시간 탐지와 교육 기능 통합 [추론]"
+        "problem": "얼굴 노출 없이 라이브 스트리밍을 하고 싶은 니즈 [추론]",
+        "solution": "가상 아바타로 라이브 채팅과 선물 기능 제공 [확인]",
+        "target_user": "10-20대 라이브 스트리머, 버추얼 콘텐츠 팬 [추론]",
+        "unique_point": "아바타 기반 라이브 커뮤니케이션에 특화 [추론]"
       },
       "market": {
         "competitors": [
-          "통신사 차단 서비스",
-          "정부 앱들"
+          "트위치",
+          "아프리카TV",
+          "VTuber 플랫폼"
         ],
-        "timing_reason": "디지털 사기 급증과 사회적 관심 증대 [확인]",
-        "growth_potential": "전세계 사기 방지 시장으로 확장 [추론]"
+        "timing_reason": "VTuber 문화 확산과 메타버스 관심 증가 [추론]",
+        "growth_potential": "Z세대와 아시아 시장에서 높은 성장 잠재력 [추측]"
       },
       "business": {
-        "monetization": "프리미엄 보안 기능, 기업용 라이선스 [추론]",
-        "pricing_suggestion": "월 2.99달러 [추론]",
+        "monetization": "가상 선물 수수료 + 프리미엄 아바타 판매 [추론]",
+        "pricing_suggestion": "선물 수수료 30% + 아바타당 5,000-50,000원 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "5-7개월 [추론]",
-        "estimated_cost": "1800만원 [추론]",
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2000-3500만원 [추론]",
         "tech_stack": [
-          "Voice AI",
-          "ML Pattern Recognition",
-          "SMS Analysis"
+          "Kotlin",
+          "WebRTC",
+          "3D 렌더링"
         ],
         "key_features": [
-          "실시간 분석",
-          "위험도 평가",
-          "신고 기능"
+          "아바타 제작",
+          "라이브 스트리밍",
+          "선물 시스템"
         ],
-        "clone_tip": "지역별 사기 패턴 학습이 핵심 [추론]"
+        "clone_tip": "실시간 3D 렌더링과 안정적인 스트리밍이 기술적 핵심 [추론]"
       },
       "scores": {
-        "novelty": 4,
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 1,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#고난이도",
+        "#B2C",
+        "#소셜"
+      ],
+      "verdict": "기술적 난이도는 높지만 수익성 있는 소셜 플랫폼"
+    },
+    {
+      "rank": 4,
+      "name": "Dootchi",
+      "developer": "Hello Kirana",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/d8QF28lnvI0rMaNEBIDCOqFGU-Cc86MmM-CVPxNQYpTDERAKYCIAm0D3dbUFKEsbsgI6m8KqmAAqdNqn02R5WEk",
+      "app_url": "https://play.google.com/store/apps/details?id=com.lucky.zootchi",
+      "idea_summary": "동네 상점 연결 로컬 배송 서비스",
+      "analysis": {
+        "problem": "동네 상점 이용의 불편함과 배송 니즈 [추론]",
+        "solution": "지역 상점과 소비자를 연결하는 배송 플랫폼 [확인]",
+        "target_user": "동네 주민, 로컬 상점 운영자 [추론]",
+        "unique_point": "로컬 커뮤니티에 특화된 O2O 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "쿠팡",
+          "배달의민족",
+          "당근마켓"
+        ],
+        "timing_reason": "로컬 상권 살리기와 배송 서비스 일상화 [추론]",
+        "growth_potential": "지역별 확장을 통한 네트워크 효과 [추측]"
+      },
+      "business": {
+        "monetization": "배송료 + 상점 수수료 + 광고 수익 [추론]",
+        "pricing_suggestion": "배송료 2,000-3,000원 + 판매액 5% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "지도API",
+          "결제시스템"
+        ],
+        "key_features": [
+          "상점 등록",
+          "주문 관리",
+          "배송 추적"
+        ],
+        "clone_tip": "초기에는 특정 지역에 집중하여 네트워크 밀도 확보가 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#고투자필요",
+        "#B2C",
+        "#O2O"
+      ],
+      "verdict": "로컬 시장 공략을 위한 차별화된 O2O 플랫폼"
+    },
+    {
+      "rank": 5,
+      "name": "Timee - Short-Term Jobs App",
+      "developer": "Timee, inc.",
+      "category": "Jobs",
+      "icon": "https://play-lh.googleusercontent.com/UQTsPtPZiG5ug0WPdImSvgclggkpj0jTSU7Dk-v7QKOM8XXX5mibKeTcO9qoBZmYhfU",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.co.taimee",
+      "idea_summary": "단기 일자리 매칭과 당일 급여 서비스",
+      "analysis": {
+        "problem": "유연한 단기 일자리 찾기와 급여 지급 지연 [추론]",
+        "solution": "즉석 알바 매칭과 당일 급여 지급 시스템 [확인]",
+        "target_user": "대학생, 프리랜서, 부업을 원하는 직장인 [추론]",
+        "unique_point": "당일 급여와 즉시 매칭에 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "알바몬",
+          "알바천국",
+          "크몽"
+        ],
+        "timing_reason": "긱 이코노미 확산과 유연근무 트렌드 [추론]",
+        "growth_potential": "경제 불확실성으로 부업 니즈 증가 [추측]"
+      },
+      "business": {
+        "monetization": "구인업체 수수료 + 급여 선지급 수수료 [추론]",
+        "pricing_suggestion": "매칭 수수료 10% + 당일급여 수수료 3% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "실시간 매칭",
+          "결제 API"
+        ],
+        "key_features": [
+          "즉시 매칭",
+          "당일 급여",
+          "평점 시스템"
+        ],
+        "clone_tip": "신뢰할 수 있는 급여 시스템과 빠른 매칭 알고리즘이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
         "necessity": 5,
         "timing": 5,
-        "tech_difficulty": 2,
+        "tech_difficulty": 3,
         "market_size": 5,
         "competition": 3,
         "profitability": 4,
-        "scalability": 5,
-        "overall": 8.3
+        "scalability": 4,
+        "overall": 8
       },
       "tags": [
-        "#1인개발가능",
+        "#투자필요",
         "#B2C",
-        "#보안"
+        "#긱이코노미"
       ],
-      "verdict": "사회적 필요와 비즈니스 가치가 높은 보안 앱"
+      "verdict": "시장 니즈가 명확한 긱 이코노미 플랫폼"
     }
   ],
   "daily_insight": {
-    "trend_summary": "AI 활용 실용 앱과 특화 니치 앱들이 주목받고 있음. 범용성보다는 특정 문제 해결에 집중한 앱들이 시장에서 성공하는 추세임.",
+    "trend_summary": "2026년 3월 15일은 전문성과 실용성을 결합한 니치 도구들이 주목받고 있으며, 특히 개인화된 관리 도구와 창작 지원 앱들이 인기를 끌고 있습니다.",
     "trend_details": [
-      "AI 기반 음성/텍스트 처리 기술 적용",
-      "특정 직업군/취미 대상 전문화",
-      "단순함과 실용성을 강조하는 미니멀 앱",
-      "안전과 보안에 대한 관심 증대",
-      "DIY/메이커 문화 확산"
+      "전문 취미 관리 도구 (네일, 베이킹, DIY)",
+      "에너지 절약 유틸리티",
+      "창작자 도구 (플레이어블 광고, 아바타)",
+      "로컬 비즈니스 플랫폼",
+      "개발자 생산성 도구"
     ],
     "hot_categories": [
-      "AI 도구",
-      "전문가 타겟 앱",
-      "보안/안전"
+      "Productivity",
+      "Creative Tools",
+      "Developer Tools"
     ],
-    "opportunity": "전문직종별 특화 도구와 AI 활용 실용 앱 영역에서 기회 확대",
-    "action_item": "니치 시장 조사 후 AI 기술과 접목한 특화 앱 기획"
+    "opportunity": "전문 분야별 특화 도구와 실시간 매칭 플랫폼",
+    "action_item": "소규모 타겟층의 깊은 니즈를 해결하는 전문화된 앱 개발"
   }
 }

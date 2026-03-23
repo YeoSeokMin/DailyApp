@@ -3,81 +3,17 @@
   "ios": [
     {
       "rank": 1,
-      "name": "كبسة – حساب السعرات بالتصوير",
-      "developer": "Ahmed Almehairbi",
-      "category": "Health & Fitness",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/a1/73/d3a1734f-22f9-d8d4-eefd-abeb0da735a2/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/%D9%83%D8%A8%D8%B3%D8%A9-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%B1/id6760487371?uo=2",
-      "idea_summary": "음식 사진으로 칼로리 계산하는 AI 앱",
-      "analysis": {
-        "problem": "정확한 칼로리 계산의 번거로움과 복잡성 [추론]",
-        "solution": "사진 촬영만으로 즉시 칼로리와 영양성분을 AI가 분석 [확인]",
-        "target_user": "다이어트 중이거나 건강관리에 관심 있는 아랍권 사용자 [추론]",
-        "unique_point": "아랍 음식 특화된 AI 칼로리 인식 시스템 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "MyFitnessPal",
-          "Lose It!",
-          "Cronometer"
-        ],
-        "timing_reason": "AI 이미지 인식 기술 발전과 건강 관리 앱 시장 성장 [추론]",
-        "growth_potential": "아랍권 헬스케어 앱 시장의 미개척 영역으로 성장 가능성 높음 [추측]"
-      },
-      "business": {
-        "monetization": "프리미엄 구독으로 고급 분석 기능 제공 [추론]",
-        "pricing_suggestion": "월 2,000-5,000원 구독 모델 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "4-6개월 [추론]",
-        "estimated_cost": "1,500-3,000만원 [추론]",
-        "tech_stack": [
-          "CoreML",
-          "Vision API",
-          "Firebase",
-          "SwiftUI"
-        ],
-        "key_features": [
-          "이미지 인식",
-          "칼로리 DB",
-          "영양성분 분석",
-          "다국어 지원"
-        ],
-        "clone_tip": "아랍 음식 데이터셋 구축과 현지화가 핵심 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 5,
-        "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 4,
-        "competition": 4,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#AI"
-      ],
-      "verdict": "아랍권 특화 칼로리 앱, 현지화가 성공 열쇠",
-      "deep_report_id": "ios--1774224547483"
-    },
-    {
-      "rank": 2,
-      "name": "Cortis - On Device AI",
-      "developer": "Batuhan Ayhan",
+      "name": "QuarkLM",
+      "developer": "Sasi Kiran Nallapu",
       "category": "Productivity",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/da/8a/4fda8a5e-c8b2-28c0-8b26-346cebd55181/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/cortis-on-device-ai/id6760265080?uo=2",
-      "idea_summary": "프라이버시 보장 온디바이스 AI 어시스턴트",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/b1/4a/86b14a32-d0fa-d4ff-43c8-d16ffd35ded7/AppIcon-0-0-1x_U007emarketing-0-11-0-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/quarklm/id6757325659?uo=2",
+      "idea_summary": "온디바이스 경량 AI 어시스턴트",
       "analysis": {
-        "problem": "클라우드 기반 AI의 개인정보 유출 우려와 인터넷 연결 필요성 [추론]",
-        "solution": "디바이스 내에서만 작동하는 완전히 프라이빗한 AI 어시스턴트 [확인]",
-        "target_user": "개인정보 보호에 민감한 비즈니스 사용자와 전문직 종사자 [추론]",
-        "unique_point": "완전한 오프라인 AI 처리로 데이터 유출 위험 제로 [추론]"
+        "problem": "클라우드 의존적 AI의 프라이버시 우려와 오프라인 제한 [추론]",
+        "solution": "디바이스 내에서 작동하는 경량 언어모델로 완전한 프라이버시 보장 [확인]",
+        "target_user": "프라이버시를 중시하는 전문가와 개발자층 [추론]",
+        "unique_point": "완전 오프라인 작동으로 데이터 유출 위험 제로 [확인]"
       },
       "market": {
         "competitors": [
@@ -85,220 +21,90 @@
           "Claude",
           "Gemini"
         ],
-        "timing_reason": "개인정보 보호 규제 강화와 프라이버시 의식 증가 [추론]",
-        "growth_potential": "엔터프라이즈와 보안 민감 시장에서 높은 성장 가능성 [추측]"
+        "timing_reason": "AI 프라이버시 우려 증가와 온디바이스 AI 기술 성숙 [추론]",
+        "growth_potential": "엔터프라이즈와 보안 민감 사용자 확산 가능 [추측]"
       },
       "business": {
-        "monetization": "프리미엄 구독 또는 일시불 라이선스 모델 [추론]",
-        "pricing_suggestion": "월 10,000-20,000원 또는 일시불 100,000원 [추론]",
-        "revenue_potential": "상"
+        "monetization": "프리미엄 구독 모델 추정 [추측]",
+        "pricing_suggestion": "월 9,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "8-12개월 [추론]",
-        "estimated_cost": "3,000-6,000만원 [추론]",
+        "estimated_cost": "3000만원 [추론]",
         "tech_stack": [
-          "CoreML",
-          "MLX",
+          "Core ML",
           "Swift",
-          "Metal Performance Shaders"
+          "ONNX Runtime"
         ],
         "key_features": [
           "온디바이스 LLM",
-          "로컬 벡터DB",
-          "암호화",
-          "워크플로 자동화"
+          "프라이버시 보장",
+          "오프라인 작동"
         ],
-        "clone_tip": "경량 모델 최적화와 배터리 효율성이 핵심 기술 [추론]"
+        "clone_tip": "경량 모델 최적화와 메모리 관리가 핵심 [추론]"
       },
       "scores": {
         "novelty": 5,
         "necessity": 4,
         "timing": 5,
         "tech_difficulty": 2,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
         "scalability": 4,
-        "overall": 8.5
+        "overall": 8.7
       },
       "tags": [
-        "#고난이도",
-        "#B2B",
+        "#프라이버시",
         "#AI",
-        "#프라이버시"
+        "#오프라인"
       ],
-      "verdict": "프라이버시 시대의 필수 AI, 기술적 도전 큼"
+      "verdict": "프라이버시 AI 시대의 선구자 앱",
+      "deep_report_id": "ios-quarklm-1774192205044"
     },
     {
-      "rank": 3,
-      "name": "Kentsel Dönüşüm AI",
-      "developer": "Erkan Celik",
-      "category": "Utilities",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/f2/45/2df24531-5edb-4be5-46ba-2c2e693e250a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/kentsel-d%C3%B6n%C3%BC%C5%9F%C3%BCm-ai/id6760595281?uo=2",
-      "idea_summary": "AI로 건물 도시재생 위험도 평가",
+      "rank": 2,
+      "name": "كبسة – حساب السعرات بالتصوير",
+      "developer": "Ahmed Almehairbi",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/a1/73/d3a1734f-22f9-d8d4-eefd-abeb0da735a2/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%D9%83%D8%A8%D8%B3%D8%A9-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%B1/id6760487371?uo=2",
+      "idea_summary": "아랍어 사진 칼로리 계산 앱",
       "analysis": {
-        "problem": "도시재생 대상 건물 선정의 객관성 부족과 전문가 의존성 [추론]",
-        "solution": "AI가 건물 상태와 안전성을 분석하여 재생 우선순위 제시 [확인]",
-        "target_user": "터키 정부기관, 건설업체, 도시계획 전문가 [추론]",
-        "unique_point": "터키 도시재생 프로젝트 특화 AI 평가 시스템 [추론]"
+        "problem": "아랍권 음식에 특화된 칼로리 계산 도구 부족 [추론]",
+        "solution": "현지 음식에 최적화된 AI 이미지 인식 칼로리 측정 [확인]",
+        "target_user": "건강 관리에 관심있는 중동 사용자층 [추론]",
+        "unique_point": "아랍 전통음식 데이터베이스와 현지화된 UX [추측]"
       },
       "market": {
         "competitors": [
-          "Building Assessment Apps",
-          "Urban Planning Tools"
+          "MyFitnessPal",
+          "LoseIt",
+          "FatSecret"
         ],
-        "timing_reason": "터키 지진 이후 건물 안전성에 대한 관심 증가 [추론]",
-        "growth_potential": "정부 정책과 연계된 틈새시장으로 안정적 성장 [추측]"
+        "timing_reason": "중동 헬스케어 시장 성장과 모바일 헬스 트렌드 [추론]",
+        "growth_potential": "아랍권 6억 인구 대상 확장 가능성 [추측]"
       },
       "business": {
-        "monetization": "B2B 라이선스와 컨설팅 서비스 결합 [추론]",
-        "pricing_suggestion": "기업당 월 50-200만원 라이선스 [추론]",
-        "revenue_potential": "상"
+        "monetization": "프리미엄 기능 구독 모델 [추측]",
+        "pricing_suggestion": "월 2.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
       },
       "dev_insight": {
         "estimated_period": "6-9개월 [추론]",
-        "estimated_cost": "2,000-4,000만원 [추론]",
+        "estimated_cost": "2000만원 [추론]",
         "tech_stack": [
-          "Computer Vision",
-          "TensorFlow",
-          "GIS API",
-          "React Native"
-        ],
-        "key_features": [
-          "건물 이미지 분석",
-          "구조 안전성 평가",
-          "위험도 점수",
-          "보고서 생성"
-        ],
-        "clone_tip": "현지 건축법규와 안전기준 데이터 확보가 필수 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 5,
-        "timing": 5,
-        "tech_difficulty": 3,
-        "market_size": 3,
-        "competition": 5,
-        "profitability": 4,
-        "scalability": 3,
-        "overall": 8.3
-      },
-      "tags": [
-        "#B2B",
-        "#AI",
-        "#정부사업"
-      ],
-      "verdict": "정부 정책과 연계된 블루오션, 진입장벽 높음"
-    },
-    {
-      "rank": 4,
-      "name": "Mangaka.app",
-      "developer": "THINKPROMPT COMPANY LIMITED",
-      "category": "Entertainment",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/9f/8a/fd9f8ad5-5cf7-1a90-0d19-a487f7dca9a4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/mangaka-app/id6756778803?uo=2",
-      "idea_summary": "AI 기반 만화 창작 도구 플랫폼",
-      "analysis": {
-        "problem": "만화 창작의 높은 진입장벽과 전문 기술 필요성 [추론]",
-        "solution": "AI가 캐릭터, 배경, 스토리보드 생성을 도와주는 올인원 툴 [확인]",
-        "target_user": "아마추어 만화가, 웹툰 작가 지망생, 창작 취미인 [추론]",
-        "unique_point": "만화 특화 AI 생성 도구와 워크플로 통합 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Procreate",
-          "Clip Studio Paint",
-          "Comic Draw"
-        ],
-        "timing_reason": "생성형 AI 기술 발전과 웹툰 시장 성장 [추론]",
-        "growth_potential": "글로벌 웹툰 시장 성장과 함께 확대 가능 [추측]"
-      },
-      "business": {
-        "monetization": "구독 모델과 크레딧 기반 사용료 [추론]",
-        "pricing_suggestion": "월 15,000원 구독 + 추가 크레딧 구매 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "8-12개월 [추론]",
-        "estimated_cost": "4,000-7,000만원 [추론]",
-        "tech_stack": [
-          "Stable Diffusion",
-          "GPT API",
-          "Canvas API",
-          "React Native"
-        ],
-        "key_features": [
-          "AI 캐릭터 생성",
-          "배경 생성",
-          "스토리보드",
-          "편집 도구"
-        ],
-        "clone_tip": "만화 스타일 특화 AI 모델 훈련이 차별화 포인트 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 3,
-        "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 3,
-        "scalability": 4,
-        "overall": 7.8
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#AI",
-        "#창작"
-      ],
-      "verdict": "웹툰 열풍과 AI 창작 도구의 만남, 차별화 필요"
-    },
-    {
-      "rank": 5,
-      "name": "OfflineGPT.ai",
-      "developer": "Yat Ping Ng",
-      "category": "Travel",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/9f/22/f79f2274-326f-2b6c-bcba-2b8c9785c12a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "app_url": "https://apps.apple.com/kr/app/offlinegpt-ai/id6760295746?uo=2",
-      "idea_summary": "오프라인 AI 여행 가이드 어시스턴트",
-      "analysis": {
-        "problem": "해외여행 중 인터넷 연결 불안정으로 AI 도움 받기 어려움 [추론]",
-        "solution": "완전 오프라인에서 작동하는 AI 여행 가이드와 번역 기능 [확인]",
-        "target_user": "해외여행객, 배낭여행자, 비즈니스 출장객 [추론]",
-        "unique_point": "인터넷 없이도 실시간 AI 여행 조언과 번역 제공 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Google Translate",
-          "TripAdvisor",
-          "Google Travel"
-        ],
-        "timing_reason": "포스트 코로나 여행 시장 회복과 오프라인 AI 기술 발전 [추론]",
-        "growth_potential": "글로벌 여행 시장 회복과 함께 성장 가능성 높음 [추측]"
-      },
-      "business": {
-        "monetization": "앱 구매 또는 프리미엄 기능 구독 [추론]",
-        "pricing_suggestion": "일시불 15,000원 또는 월 3,000원 구독 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "6-8개월 [추론]",
-        "estimated_cost": "2,500-4,000만원 [추론]",
-        "tech_stack": [
+          "Vision Framework",
           "CoreML",
-          "SQLite",
-          "MapKit",
-          "NLP Models"
+          "SwiftUI"
         ],
         "key_features": [
-          "오프라인 번역",
-          "여행지 정보",
-          "일정 추천",
-          "현지 팁"
+          "이미지 인식",
+          "현지 음식 DB",
+          "아랍어 지원"
         ],
-        "clone_tip": "경량 AI 모델 최적화와 여행지 데이터베이스 구축이 핵심 [추론]"
+        "clone_tip": "각 지역별 음식 데이터 수집이 성공 열쇠 [추론]"
       },
       "scores": {
         "novelty": 4,
@@ -309,15 +115,195 @@
         "competition": 3,
         "profitability": 3,
         "scalability": 4,
-        "overall": 7.9
+        "overall": 8.1
       },
       "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#AI",
-        "#여행"
+        "#헬스케어",
+        "#로컬라이제이션",
+        "#AI"
       ],
-      "verdict": "여행객의 실용적 니즈 해결, 오프라인이 핵심"
+      "verdict": "지역 특화 헬스앱의 좋은 사례"
+    },
+    {
+      "rank": 3,
+      "name": "FILL - Conduit Fill Calculator",
+      "developer": "James McKinney",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/f2/ae/0ef2aebb-1905-5136-56f1-4f9aa7ca827a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/fill-conduit-fill-calculator/id6760678246?uo=2",
+      "idea_summary": "전기공사 전선관 계산 도구",
+      "analysis": {
+        "problem": "전기기사들의 복잡한 전선관 용량 계산 업무 [확인]",
+        "solution": "NEC 규정 기반 자동 계산으로 업무 효율성 향상 [확인]",
+        "target_user": "전기기사와 전기공사 관련 전문가 [확인]",
+        "unique_point": "전문 규정 준수와 정확한 계산 알고리즘 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ElectriCalc",
+          "Construction Master",
+          "Manual calculation"
+        ],
+        "timing_reason": "건설업 디지털화와 모바일 작업 도구 확산 [추론]",
+        "growth_potential": "전문직 틈새시장에서 안정적 성장 [추측]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 모델 [추측]",
+        "pricing_suggestion": "9,900원 일회성 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "UIKit"
+        ],
+        "key_features": [
+          "NEC 규정 DB",
+          "계산 엔진",
+          "도면 지원"
+        ],
+        "clone_tip": "각국 전기 규정 데이터베이스 구축이 관건 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2B",
+        "#전문도구",
+        "#틈새시장"
+      ],
+      "verdict": "소규모지만 충성도 높은 전문가 시장"
+    },
+    {
+      "rank": 4,
+      "name": "RoadBlock MOZ",
+      "developer": "Delfim Pastola",
+      "category": "Navigation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/c4/0c/67c40c1e-8a5b-15b4-6d08-8b1d8ec99770/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/roadblock-moz/id6760654433?uo=2",
+      "idea_summary": "모잠비크 교통검문 알림 앱",
+      "analysis": {
+        "problem": "모잠비크 도로의 예상치 못한 검문소와 교통장애물 [추론]",
+        "solution": "커뮤니티 기반 실시간 검문소 위치 공유 [확인]",
+        "target_user": "모잠비크 현지 운전자와 여행자 [확인]",
+        "unique_point": "현지 특화된 교통 정보와 커뮤니티 네트워크 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Waze",
+          "Google Maps"
+        ],
+        "timing_reason": "아프리카 모바일 인터넷 확산과 차량 보급 증가 [추론]",
+        "growth_potential": "아프리카 다른 국가로 확장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "광고 수익 모델 [추측]",
+        "pricing_suggestion": "무료 앱 광고 기반 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "MapKit"
+        ],
+        "key_features": [
+          "실시간 위치 공유",
+          "커뮤니티 리포팅",
+          "오프라인 지도"
+        ],
+        "clone_tip": "현지 파트너십과 초기 사용자 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#로컬",
+        "#커뮤니티",
+        "#아프리카"
+      ],
+      "verdict": "현지 특화 서비스의 전형적 사례"
+    },
+    {
+      "rank": 5,
+      "name": "Speak Nagamese",
+      "developer": "Priyank Sharma",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/e7/e9/09e7e998-fd84-e032-c6cf-382762ddcb60/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/speak-nagamese/id6760843321?uo=2",
+      "idea_summary": "나가미즈어 학습 앱",
+      "analysis": {
+        "problem": "희귀 지역 언어 학습 자료의 부족 [확인]",
+        "solution": "오디오와 퀴즈를 통한 체계적 나가미즈어 학습 [확인]",
+        "target_user": "나가랜드 출신자와 언어학습 애호가 [추론]",
+        "unique_point": "희귀 언어에 특화된 전문적 컨텐츠 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Babbel"
+        ],
+        "timing_reason": "문화 보존 의식 확산과 디지털 언어 교육 성장 [추론]",
+        "growth_potential": "다른 희귀 언어로 확장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 컨텐츠 구독 [추측]",
+        "pricing_suggestion": "월 4,900원 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Audio Processing",
+          "SQLite"
+        ],
+        "key_features": [
+          "오디오 발음",
+          "진도 추적",
+          "문화 컨텐츠"
+        ],
+        "clone_tip": "원어민 협업과 정확한 언어 데이터 수집 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 1,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#언어학습",
+        "#문화보존",
+        "#틈새시장"
+      ],
+      "verdict": "작지만 의미있는 문화보존 도구"
     }
   ],
   "android": [
@@ -325,332 +311,324 @@
       "rank": 1,
       "name": "Citizen Conan - Anti-Phishing",
       "developer": "(주)인피니그루",
-      "category": "Security & Fraud Prevention",
+      "category": "Security",
       "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
       "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
-      "idea_summary": "한국형 보이스피싱 실시간 탐지 앱",
+      "idea_summary": "피싱 방지 보안 솔루션",
       "analysis": {
-        "problem": "급증하는 보이스피싱과 스미싱 피해에 대한 실시간 대응 부족 [확인]",
-        "solution": "통화 중 실시간 사기 패턴 분석과 즉시 경고 알림 [추론]",
-        "target_user": "보이스피싱에 취약한 중장년층과 보안 의식 높은 일반인 [추론]",
-        "unique_point": "한국어 사기 패턴과 금융기관 사칭 특화 탐지 [추론]"
+        "problem": "일반인의 피싱 사기 피해 급증 [확인]",
+        "solution": "AI 기반 실시간 피싱 사이트 탐지 및 차단 [추론]",
+        "target_user": "보안에 취약한 일반 사용자와 고령층 [추론]",
+        "unique_point": "한국형 피싱 패턴 특화 탐지 시스템 [추측]"
       },
       "market": {
         "competitors": [
-          "통신사 스팸차단",
-          "금융앱 보안기능"
+          "Norton",
+          "McAfee",
+          "Malwarebytes"
         ],
-        "timing_reason": "디지털금융 확산과 사기범죄 고도화로 보안 앱 수요 증가 [추론]",
-        "growth_potential": "정부 정책 지원과 금융권 제휴로 높은 성장 가능성 [추측]"
+        "timing_reason": "사이버범죄 증가와 금융사기 피해 사회문제화 [확인]",
+        "growth_potential": "전세계 사이버보안 시장 확산 [추론]"
       },
       "business": {
-        "monetization": "B2C 구독과 B2B 라이선스 혼합 모델 [추론]",
-        "pricing_suggestion": "월 2,900원 구독 + 기업 라이선스 [추론]",
+        "monetization": "프리미엄 구독과 기업 라이센스 [추측]",
+        "pricing_suggestion": "월 2,900원 개인 플랜 [추론]",
         "revenue_potential": "상"
       },
       "dev_insight": {
-        "estimated_period": "6-10개월 [추론]",
-        "estimated_cost": "3,000-5,000만원 [추론]",
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "5000만원 [추론]",
         "tech_stack": [
-          "Android API",
-          "ML Kit",
-          "Firebase",
-          "NLP"
+          "Machine Learning",
+          "Kotlin",
+          "WebView Security"
         ],
         "key_features": [
-          "실시간 통화 분석",
-          "패턴 매칭",
-          "신고 시스템",
-          "경고 알림"
+          "실시간 URL 스캔",
+          "AI 패턴 인식",
+          "알림 시스템"
         ],
-        "clone_tip": "국가별 사기 패턴 학습과 통신사 연동이 핵심 [추론]"
+        "clone_tip": "지속적인 위협 데이터 업데이트와 오탐 최소화 중요 [추론]"
       },
       "scores": {
         "novelty": 4,
         "necessity": 5,
         "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.9
+      },
+      "tags": [
+        "#보안",
+        "#AI",
+        "#사회문제해결"
+      ],
+      "verdict": "사회적 가치와 수익성을 겸비한 필수 앱",
+      "deep_report_id": "android-citizen-conan-anti-phishing-1774192269390"
+    },
+    {
+      "rank": 2,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "Safety",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 치안 상황 알림",
+      "analysis": {
+        "problem": "주변 치안 상황에 대한 정보 부족 [추론]",
+        "solution": "경찰 무전 청취로 실시간 사건사고 알림 제공 [확인]",
+        "target_user": "안전을 중시하는 지역 주민과 통근자 [추론]",
+        "unique_point": "공식 디스패치 데이터 기반 신뢰성 높은 정보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "Nextdoor",
+          "Scanner Radio"
+        ],
+        "timing_reason": "치안 불안과 지역 안전 관심 증가 [추론]",
+        "growth_potential": "미국 전지역 확장 후 해외 진출 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능과 광고 수익 [추측]",
+        "pricing_suggestion": "월 4.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3500만원 [추론]",
+        "tech_stack": [
+          "Real-time APIs",
+          "Push Notifications",
+          "Location Services"
+        ],
+        "key_features": [
+          "실시간 알림",
+          "지도 연동",
+          "필터링 옵션"
+        ],
+        "clone_tip": "각 지역 디스패치 시스템 연동이 핵심 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
         "tech_difficulty": 3,
         "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8.3
+      },
+      "tags": [
+        "#안전",
+        "#실시간",
+        "#지역정보"
+      ],
+      "verdict": "안전 의식 높은 사용자의 필수 도구"
+    },
+    {
+      "rank": 3,
+      "name": "me:new Weekly Meal Planner",
+      "developer": "me:new",
+      "category": "Food & Drink",
+      "icon": "https://play-lh.googleusercontent.com/B7eGc3iozkCiP4DBEPx2S7Box1btCY3WPw2RqmiL8b97505K6OfvseIPerPtkWl35MqZ",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.menew.menewapp",
+      "idea_summary": "주간 식단 계획 도우미",
+      "analysis": {
+        "problem": "바쁜 현대인의 식단 계획과 장보기 스트레스 [확인]",
+        "solution": "AI 추천 식단과 자동 장보기 리스트 생성 [추론]",
+        "target_user": "요리 초보자와 바쁜 직장인 가족 [추론]",
+        "unique_point": "일본식 식문화에 특화된 메뉴 추천 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Mealime",
+          "PlateJoy",
+          "Eat This Much"
+        ],
+        "timing_reason": "홈쿡 트렌드와 건강한 식습관 관심 증가 [추론]",
+        "growth_potential": "아시아 시장 확장과 구독 모델 성장 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 레시피와 구독 서비스 [추측]",
+        "pricing_suggestion": "월 980엔 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Recipe API",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 식단 추천",
+          "장보기 리스트",
+          "영양 분석"
+        ],
+        "clone_tip": "지역별 식재료 데이터와 마트 연동이 성공 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#라이프스타일",
+        "#AI",
+        "#건강"
+      ],
+      "verdict": "실용적 가치가 높은 일상 도구"
+    },
+    {
+      "rank": 4,
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "category": "Personalization",
+      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "간편한 홈스크린 런처",
+      "analysis": {
+        "problem": "복잡한 스마트폰 인터페이스로 인한 사용자 혼란 [추론]",
+        "solution": "직관적이고 단순한 홈스크린 인터페이스 제공 [확인]",
+        "target_user": "고령층과 스마트폰 초보 사용자 [추론]",
+        "unique_point": "복잡함을 배제한 극도로 단순한 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nova Launcher",
+          "Microsoft Launcher",
+          "Action Launcher"
+        ],
+        "timing_reason": "고령화 사회와 디지털 디바이드 해소 니즈 [추론]",
+        "growth_potential": "전세계 고령층 스마트폰 사용자 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마와 광고 수익 [추측]",
+        "pricing_suggestion": "월 1.99달러 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "Java/Kotlin",
+          "Custom UI"
+        ],
+        "key_features": [
+          "단순 인터페이스",
+          "대형 아이콘",
+          "음성 안내"
+        ],
+        "clone_tip": "UX 단순화와 접근성 기능이 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#접근성",
+        "#고령층",
+        "#단순함"
+      ],
+      "verdict": "디지털 포용성을 높이는 사회적 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Loopit - Make Playables",
+      "developer": "SeedLeap Intelligent Technology",
+      "category": "Video Creation",
+      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
+      "idea_summary": "플레이어블 광고 제작 도구",
+      "analysis": {
+        "problem": "게임업계의 플레이어블 광고 제작 복잡성 [추론]",
+        "solution": "템플릿 기반 간편한 인터랙티브 광고 생성 [확인]",
+        "target_user": "인디 게임 개발자와 마케터 [추론]",
+        "unique_point": "코딩없이 플레이어블 광고 제작 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Unity Ads",
+          "IronSource",
+          "AdColony"
+        ],
+        "timing_reason": "모바일 게임 광고 시장 성장과 플레이어블 광고 효과 입증 [추론]",
+        "growth_potential": "글로벌 게임 마케팅 도구로 확장 [추측]"
+      },
+      "business": {
+        "monetization": "구독 기반 SaaS 모델 [추측]",
+        "pricing_suggestion": "월 29.99달러 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-15개월 [추론]",
+        "estimated_cost": "6000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "WebGL",
+          "Cloud Rendering"
+        ],
+        "key_features": [
+          "드래그앤드롭 에디터",
+          "템플릿 라이브러리",
+          "클라우드 렌더링"
+        ],
+        "clone_tip": "게임 엔진 통합과 렌더링 최적화가 기술적 난제 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 3,
         "competition": 4,
         "profitability": 4,
         "scalability": 4,
         "overall": 8.5
       },
       "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#보안",
-        "#한국특화"
-      ],
-      "verdict": "사회 문제 해결하는 필수 앱, 정부 지원 가능성 높음",
-      "deep_report_id": "android-citizen-conan-anti-phishing-1774224620927"
-    },
-    {
-      "rank": 2,
-      "name": "Loopit - Make Playables",
-      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
-      "category": "Content Creation",
-      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
-      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
-      "idea_summary": "플레이어블 광고 제작 도구",
-      "analysis": {
-        "problem": "플레이어블 광고 제작의 높은 비용과 전문 기술 요구 [추론]",
-        "solution": "템플릿 기반으로 쉽고 빠르게 인터랙티브 광고 콘텐츠 제작 [확인]",
-        "target_user": "마케터, 광고 대행사, 소규모 게임 개발사 [추론]",
-        "unique_point": "코딩 없이 플레이어블 광고를 만들 수 있는 노코드 툴 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Playable.Studio",
-          "Luna",
-          "GameRefinery"
-        ],
-        "timing_reason": "모바일 광고 시장 성장과 플레이어블 광고 효과 입증 [추론]",
-        "growth_potential": "플레이어블 광고 시장 확대와 함께 성장 [추측]"
-      },
-      "business": {
-        "monetization": "구독 모델과 사용량 기반 과금 [추론]",
-        "pricing_suggestion": "월 50-200만원 B2B 구독 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "8-12개월 [추론]",
-        "estimated_cost": "5,000-8,000만원 [추론]",
-        "tech_stack": [
-          "React Native",
-          "WebGL",
-          "Canvas API",
-          "FFmpeg"
-        ],
-        "key_features": [
-          "템플릿 엔진",
-          "인터랙션 에디터",
-          "미리보기",
-          "내보내기"
-        ],
-        "clone_tip": "게임엔진 기술과 광고 플랫폼 연동 경험 필요 [추론]"
-      },
-      "scores": {
-        "novelty": 4,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 2,
-        "market_size": 4,
-        "competition": 3,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 8
-      },
-      "tags": [
         "#B2B",
-        "#노코드",
-        "#마케팅"
+        "#게임마케팅",
+        "#크리에이티브"
       ],
-      "verdict": "플레이어블 광고 시장의 성장과 함께 확대 가능"
-    },
-    {
-      "rank": 3,
-      "name": "Accio: Alibaba AI Agent",
-      "developer": "Accio.com",
-      "category": "AI Agent",
-      "icon": "https://play-lh.googleusercontent.com/xwsFmFYHtmknKjMqvmSnTGj9YpMPfZbvvacrrhOv7TJjThATxKLcd47C8fObhD_XTrYu",
-      "app_url": "https://play.google.com/store/apps/details?id=com.accio.android.app",
-      "idea_summary": "알리바바 전용 AI 소싱 에이전트",
-      "analysis": {
-        "problem": "알리바바에서 제품 소싱 시 언어 장벽과 복잡한 협상 과정 [추론]",
-        "solution": "AI가 제품 검색, 가격 협상, 커뮤니케이션을 자동으로 처리 [확인]",
-        "target_user": "중소 수입업체, 이커머스 셀러, 구매 담당자 [추론]",
-        "unique_point": "알리바바 생태계 특화 AI 에이전트와 자동 협상 기능 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Alibaba.com 내장 도구",
-          "소싱 에이전시"
-        ],
-        "timing_reason": "글로벌 이커머스 성장과 AI 에이전트 기술 발전 [추론]",
-        "growth_potential": "중소기업 해외 소싱 증가로 성장 가능성 높음 [추측]"
-      },
-      "business": {
-        "monetization": "구독 모델과 거래 수수료 [추론]",
-        "pricing_suggestion": "월 30-100만원 구독 + 거래액 1-3% 수수료 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "6-9개월 [추론]",
-        "estimated_cost": "3,000-5,000만원 [추론]",
-        "tech_stack": [
-          "LLM API",
-          "Alibaba API",
-          "React Native",
-          "NLP"
-        ],
-        "key_features": [
-          "AI 채팅",
-          "자동 협상",
-          "가격 비교",
-          "주문 관리"
-        ],
-        "clone_tip": "중국어 NLP와 B2B 플랫폼 API 연동 경험 필수 [추론]"
-      },
-      "scores": {
-        "novelty": 5,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 3,
-        "market_size": 4,
-        "competition": 4,
-        "profitability": 4,
-        "scalability": 4,
-        "overall": 8
-      },
-      "tags": [
-        "#B2B",
-        "#AI",
-        "#글로벌"
-      ],
-      "verdict": "B2B 소싱의 AI 혁신, 시장 검증 필요"
-    },
-    {
-      "rank": 4,
-      "name": "Genspark AI Workspace",
-      "developer": "Genspark",
-      "category": "Productivity",
-      "icon": "https://play-lh.googleusercontent.com/eL-phQCOfvhdKFir0y6deLKcALuWuUUBQIKh4ocn70ybvCgtALjJUYPjJkZmzaeu9SU",
-      "app_url": "https://play.google.com/store/apps/details?id=ai.mainfunc.genspark",
-      "idea_summary": "팀 협업용 AI 워크스페이스",
-      "analysis": {
-        "problem": "팀 협업에서 AI 도구들이 분산되어 있어 비효율적 [추론]",
-        "solution": "하나의 워크스페이스에서 다양한 AI 기능을 통합 제공 [확인]",
-        "target_user": "스타트업, 마케팅팀, 콘텐츠 제작팀 [추론]",
-        "unique_point": "팀 협업에 특화된 AI 도구 통합 환경 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "Notion AI",
-          "Slack AI",
-          "Microsoft Copilot"
-        ],
-        "timing_reason": "원격근무 확산과 AI 협업 도구 수요 증가 [추론]",
-        "growth_potential": "기업 AI 도입 가속화로 성장 기회 확대 [추측]"
-      },
-      "business": {
-        "monetization": "팀 단위 구독 모델 [추론]",
-        "pricing_suggestion": "팀원당 월 15,000-30,000원 [추론]",
-        "revenue_potential": "상"
-      },
-      "dev_insight": {
-        "estimated_period": "10-15개월 [추론]",
-        "estimated_cost": "8,000-12,000만원 [추론]",
-        "tech_stack": [
-          "React Native",
-          "WebSocket",
-          "LLM API",
-          "Redis"
-        ],
-        "key_features": [
-          "실시간 협업",
-          "AI 어시스턴트",
-          "문서 생성",
-          "워크플로 자동화"
-        ],
-        "clone_tip": "팀 협업 UX와 AI 모델 통합 경험이 핵심 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 4,
-        "timing": 4,
-        "tech_difficulty": 2,
-        "market_size": 4,
-        "competition": 2,
-        "profitability": 4,
-        "scalability": 5,
-        "overall": 7.5
-      },
-      "tags": [
-        "#B2B",
-        "#협업",
-        "#AI"
-      ],
-      "verdict": "기업 시장 진입이 관건, 차별화 포인트 부족"
-    },
-    {
-      "rank": 5,
-      "name": "First Screen Weather",
-      "developer": "weather screen team",
-      "category": "Weather",
-      "icon": "https://play-lh.googleusercontent.com/FzdeDoyMQKnkZWeZQ79yJslXc9RTEHbiXEU8SEV8-l1v4vIuqrle58Efe7efo8gdeluJRgseK5IvaUkt26PnUw",
-      "app_url": "https://play.google.com/store/apps/details?id=weather.forecast.rain.radar",
-      "idea_summary": "홈스크린 특화 날씨 위젯 앱",
-      "analysis": {
-        "problem": "기본 날씨 앱의 단조로운 위젯과 정보 부족 [추론]",
-        "solution": "홈스크린을 완전히 대체하는 풍부한 날씨 정보 제공 [확인]",
-        "target_user": "날씨 정보를 자주 확인하는 한국 사용자 [추론]",
-        "unique_point": "미세먼지, 강수 예보 등 한국 특화 기상정보 통합 [추론]"
-      },
-      "market": {
-        "competitors": [
-          "기상청 날씨누리",
-          "웨더뉴스",
-          "AccuWeather"
-        ],
-        "timing_reason": "미세먼지와 기후변화로 정확한 날씨 정보 수요 증가 [추론]",
-        "growth_potential": "위젯 중심 사용 패턴으로 안정적 사용자 확보 가능 [추측]"
-      },
-      "business": {
-        "monetization": "광고 모델과 프리미엄 구독 [추론]",
-        "pricing_suggestion": "무료 + 월 1,900원 프리미엄 [추론]",
-        "revenue_potential": "중"
-      },
-      "dev_insight": {
-        "estimated_period": "3-5개월 [추론]",
-        "estimated_cost": "1,000-2,000만원 [추론]",
-        "tech_stack": [
-          "Android Widgets",
-          "Weather API",
-          "Kotlin",
-          "Room DB"
-        ],
-        "key_features": [
-          "커스텀 위젯",
-          "날씨 레이더",
-          "알림",
-          "테마"
-        ],
-        "clone_tip": "위젯 최적화와 배터리 효율성이 사용자 경험 핵심 [추론]"
-      },
-      "scores": {
-        "novelty": 3,
-        "necessity": 4,
-        "timing": 3,
-        "tech_difficulty": 4,
-        "market_size": 4,
-        "competition": 2,
-        "profitability": 3,
-        "scalability": 3,
-        "overall": 7
-      },
-      "tags": [
-        "#1인개발가능",
-        "#B2C",
-        "#한국특화"
-      ],
-      "verdict": "실용적이지만 차별화 어려운 레드오션 시장"
+      "verdict": "게임업계 특화 도구의 혁신적 접근"
     }
   ],
   "daily_insight": {
-    "trend_summary": "온디바이스 AI와 프라이버시 보호 기능이 주목받고 있으며, 특정 지역/언어에 특화된 AI 솔루션들이 등장하고 있다 [추론]",
+    "trend_summary": "온디바이스 AI와 지역 특화 솔루션이 주요 트렌드로 부상. 프라이버시 중심 기술과 틈새시장 접근이 성공 패턴.",
     "trend_details": [
-      "온디바이스 AI 처리 기술 확산",
-      "지역 특화 AI 서비스 등장",
-      "B2B AI 에이전트 도구 증가",
-      "보안 및 프라이버시 강화"
+      "온디바이스 AI 프라이버시 솔루션 확산",
+      "지역별 맞춤형 앱 서비스 증가",
+      "전문직 특화 도구 시장 성장",
+      "보안과 안전 관련 앱 수요 급증"
     ],
     "hot_categories": [
-      "AI/ML",
-      "보안",
-      "생산성 도구"
+      "AI/머신러닝",
+      "보안/안전",
+      "헬스케어",
+      "지역특화서비스"
     ],
-    "opportunity": "한국 시장 특화 AI 보안 솔루션과 오프라인 AI 도구 영역",
-    "action_item": "개인정보 보호 강화 트렌드에 맞춘 온디바이스 AI 앱 기획 검토"
+    "opportunity": "아직 디지털화되지 않은 전문직 도구와 지역별 특수 니즈 해결",
+    "action_item": "온디바이스 AI 기술 스택 학습과 국내 틈새시장 발굴"
   }
 }
