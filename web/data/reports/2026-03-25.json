@@ -1,0 +1,633 @@
+{
+  "date": "2026-03-25",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Balkan AI: Travel Guide",
+      "developer": "Rexhino Kovaci",
+      "category": "Travel",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/4a/21/7d4a2128-0cd8-2e71-8bb0-91b6b13ef2f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/balkan-ai-travel-guide/id6760372921?uo=2",
+      "idea_summary": "AI 기반 발칸반도 전문 여행 가이드",
+      "analysis": {
+        "problem": "발칸반도 여행 정보 부족과 언어 장벽 문제 해결 [추론]",
+        "solution": "AI 기반 맞춤형 여행 일정과 현지 팁 제공 [확인]",
+        "target_user": "발칸반도 여행을 계획하는 유럽/미국 여행객 [추론]",
+        "unique_point": "특정 지역 전문화된 AI 여행 가이드 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "TripAdvisor",
+          "Lonely Planet"
+        ],
+        "timing_reason": "포스트 코로나 여행 수요 증가와 AI 기술 성숙 [추론]",
+        "growth_potential": "틈새 시장 공략으로 중간 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 모델 [추론]",
+        "pricing_suggestion": "월 4.99달러 구독료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OpenAI API",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 일정 생성",
+          "현지 정보 제공",
+          "오프라인 지도"
+        ],
+        "clone_tip": "다른 지역(동남아, 남미) 특화로 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용"
+      ],
+      "verdict": "지역 특화 전략으로 틈새 시장 공략 가능한 아이디어",
+      "deep_report_id": "ios-balkan-ai-travel-guide-1774364949264"
+    },
+    {
+      "rank": 2,
+      "name": "Urban Renewal AI",
+      "developer": "Erkan Celik",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/f2/45/2df24531-5edb-4be5-46ba-2c2e693e250a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/kentsel-d%C3%B6n%C3%BC%C5%9F%C3%BCm-ai/id6760595281?uo=2",
+      "idea_summary": "AI로 건물 도시재생 평가 자동화",
+      "analysis": {
+        "problem": "도시재생 프로젝트의 건물 평가 복잡성과 시간 소요 [추론]",
+        "solution": "AI 기반 건물 안전성 및 규정 준수 자동 평가 [확인]",
+        "target_user": "도시계획가, 건설업체, 정부 기관 [추론]",
+        "unique_point": "도시재생 특화 AI 평가 도구 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "AutoCAD",
+          "SketchUp"
+        ],
+        "timing_reason": "전 세계 도시재생 프로젝트 증가와 AI 기술 도입 [추론]",
+        "growth_potential": "B2B 시장 특성상 높은 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "B2B 라이선스 및 컨설팅 서비스 [추론]",
+        "pricing_suggestion": "월 99달러 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "8000만원 [추론]",
+        "tech_stack": [
+          "Python",
+          "TensorFlow",
+          "React",
+          "AWS"
+        ],
+        "key_features": [
+          "AI 건물 분석",
+          "규정 준수 검사",
+          "보고서 생성"
+        ],
+        "clone_tip": "한국 건축법규에 특화된 버전으로 현지화 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2B",
+        "#AI활용",
+        "#전문도구"
+      ],
+      "verdict": "B2B 시장의 실질적 니즈를 해결하는 높은 가치 솔루션"
+    },
+    {
+      "rank": 3,
+      "name": "Kabsa – Calorie Counting by Photo",
+      "developer": "Ahmed Almehairbi",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/a1/73/d3a1734f-22f9-d8d4-eefd-abeb0da735a2/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%D9%83%D8%A8%D8%B3%D8%A9-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%B1/id6760487371?uo=2",
+      "idea_summary": "사진으로 칼로리 자동 계산 앱",
+      "analysis": {
+        "problem": "음식 칼로리 계산의 번거로움과 정확성 부족 [확인]",
+        "solution": "AI 이미지 인식으로 음식 사진 기반 칼로리 추정 [확인]",
+        "target_user": "다이어트 중인 20-40대, 건강 관리 관심층 [추론]",
+        "unique_point": "중동 음식에 특화된 칼로리 데이터베이스 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Lose It!",
+          "Yazio"
+        ],
+        "timing_reason": "건강 관리 트렌드와 AI 기술 접목 시기 [추론]",
+        "growth_potential": "글로벌 헬스케어 앱 시장 성장세 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 광고 수익 [추론]",
+        "pricing_suggestion": "월 9.99달러 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "5000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "TensorFlow Lite",
+          "Firebase"
+        ],
+        "key_features": [
+          "음식 인식",
+          "칼로리 계산",
+          "영양소 분석"
+        ],
+        "clone_tip": "한국 음식 특화 데이터셋 구축으로 현지화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "검증된 시장의 기술적 개선안으로 성공 가능성 높음"
+    },
+    {
+      "rank": 4,
+      "name": "Where2Dive",
+      "developer": "Joonyoung Seo",
+      "category": "Travel",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/16/ed/0516ed54-e4d9-50cb-a415-6d723a2ab342/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/where2dive/id6760896750?uo=2",
+      "idea_summary": "전 세계 다이빙 사이트 발견 앱",
+      "analysis": {
+        "problem": "다이빙 사이트 정보 분산과 현지 조건 파악 어려움 [추론]",
+        "solution": "다이빙 사이트 통합 정보와 실시간 해양 조건 제공 [추론]",
+        "target_user": "스쿠버 다이버, 해양 스포츠 애호가 [확인]",
+        "unique_point": "다이빙 특화 위치 기반 서비스 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "PADI App",
+          "DivePlanner"
+        ],
+        "timing_reason": "포스트 코로나 야외 활동 증가와 다이빙 인구 확대 [추론]",
+        "growth_potential": "틈새 시장이지만 충성도 높은 사용자층 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능과 다이빙샵 파트너십 [추론]",
+        "pricing_suggestion": "월 7.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "4000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Google Maps API",
+          "Weather API"
+        ],
+        "key_features": [
+          "사이트 검색",
+          "해양 조건",
+          "커뮤니티"
+        ],
+        "clone_tip": "다른 수상 스포츠(서핑, 낚시)로 확장 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#틈새시장"
+      ],
+      "verdict": "작지만 충성도 높은 시장 공략으로 수익화 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Stella Aile – Night-Sky Goal Tracker",
+      "developer": "Takeaki Shimizu",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/32/52/f332526d-68bb-1704-b58b-4cf5ed5f120c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/%E3%82%B9%E3%83%86%E3%83%A9%E3%82%A8%E3%83%BC%E3%83%AB-%E5%A4%9C%E7%A9%BA%E3%81%8C%E5%BF%9C%E3%81%88%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E7%9B%AE%E6%A8%99%E9%81%94%E6%88%90%E3%82%A2%E3%83%97%E3%83%AA/id6760266509?uo=2",
+      "idea_summary": "밤하늘 테마 게임화 목표 추적 앱",
+      "analysis": {
+        "problem": "기존 목표 관리 앱의 단조로움과 지속 동기 부족 [추론]",
+        "solution": "별자리 테마의 게임화된 목표 달성 시스템 [확인]",
+        "target_user": "자기계발에 관심 있는 20-30대, 감성적 UI 선호층 [추론]",
+        "unique_point": "밤하늘 테마의 독특한 시각적 경험 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Forest",
+          "Streaks"
+        ],
+        "timing_reason": "자기계발 트렌드와 게임화 UX 수요 증가 [추론]",
+        "growth_potential": "차별화된 UI로 중간 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마와 기능 구독 [추론]",
+        "pricing_suggestion": "월 4.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "Core Animation"
+        ],
+        "key_features": [
+          "게임화 시스템",
+          "별자리 애니메이션",
+          "목표 추적"
+        ],
+        "clone_tip": "다양한 테마(해양, 우주, 자연)로 시리즈화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#감성적UX"
+      ],
+      "verdict": "독특한 테마로 기존 시장에서 차별화 가능한 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Citizen Conan - Anti-Phishing & Fraud Prevention",
+      "developer": "(주)인피니그루",
+      "category": "Security",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "AI 기반 보이스피싱 실시간 차단",
+      "analysis": {
+        "problem": "보이스피싱과 스미싱 피해 급증 문제 [확인]",
+        "solution": "실시간 통화 및 문자 모니터링으로 사기 방지 [확인]",
+        "target_user": "중장년층, 보안에 민감한 스마트폰 사용자 [추론]",
+        "unique_point": "한국 사기 패턴에 특화된 AI 모델 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "후후",
+          "T전화",
+          "컬러링"
+        ],
+        "timing_reason": "사기 범죄 증가와 정부 보안 정책 강화 [확인]",
+        "growth_potential": "고령화 사회 진입으로 높은 수요 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 기업 라이선스 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "1억원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "ML Kit",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간 통화 분석",
+          "사기 패턴 인식",
+          "경고 시스템"
+        ],
+        "clone_tip": "각국 사기 패턴에 맞춰 현지화 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#사회문제해결",
+        "#B2C",
+        "#보안"
+      ],
+      "verdict": "실질적 사회 문제 해결로 높은 가치와 수익성 기대",
+      "deep_report_id": "android-citizen-conan-anti-phishing-fraud-prevention-1774365021615"
+    },
+    {
+      "rank": 2,
+      "name": "me:new - Easy Weekly Meal Planning",
+      "developer": "me:new",
+      "category": "Food & Drink",
+      "icon": "https://play-lh.googleusercontent.com/B7eGc3iozkCiP4DBEPx2S7Box1btCY3WPw2RqmiL8b97505K6OfvseIPerPtkWl35MqZ",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.menew.menewapp",
+      "idea_summary": "AI 주간 식단 계획과 장보기 자동화",
+      "analysis": {
+        "problem": "매일 메뉴 고민과 장보기 리스트 작성 번거로움 [확인]",
+        "solution": "개인 취향 기반 주간 식단과 자동 장보기 리스트 생성 [확인]",
+        "target_user": "바쁜 직장인, 요리 초보, 가정 주부 [추론]",
+        "unique_point": "일본 식문화 반영한 현지화된 레시피 추천 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "쿠킹클래스",
+          "만개의 레시피",
+          "Mealime"
+        ],
+        "timing_reason": "홈쿡 트렌드와 효율적 생활 관리 니즈 증가 [추론]",
+        "growth_potential": "식품 배송과 연계하여 높은 확장성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 레시피와 식품 파트너십 [추론]",
+        "pricing_suggestion": "월 7,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "6000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "MongoDB"
+        ],
+        "key_features": [
+          "AI 식단 추천",
+          "장보기 리스트",
+          "영양 분석"
+        ],
+        "clone_tip": "현지 식문화와 식재료 유통업체 연동 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생활밀착"
+      ],
+      "verdict": "일상 문제 해결로 높은 실용성과 확장 가능성"
+    },
+    {
+      "rank": 3,
+      "name": "Loopit - Make Playables",
+      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
+      "category": "Marketing/Creative Tools",
+      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
+      "idea_summary": "코딩 없이 인터랙티브 광고 제작",
+      "analysis": {
+        "problem": "인터랙티브 광고 제작의 높은 기술 장벽과 비용 [추론]",
+        "solution": "노코드 도구로 플레이어블 광고 쉽게 제작 [확인]",
+        "target_user": "마케터, 소상공인, 크리에이터, 중소 에이전시 [추론]",
+        "unique_point": "모바일 특화 플레이어블 광고 제작 도구 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Canva",
+          "Adobe Creative Cloud",
+          "Figma"
+        ],
+        "timing_reason": "디지털 마케팅 확산과 인터랙티브 콘텐츠 수요 증가 [추론]",
+        "growth_potential": "B2B SaaS 시장의 높은 성장성 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 SaaS 모델 [확인]",
+        "pricing_suggestion": "월 49달러 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-15개월 [추론]",
+        "estimated_cost": "1억 5천만원 [추론]",
+        "tech_stack": [
+          "React",
+          "Node.js",
+          "WebGL",
+          "AWS"
+        ],
+        "key_features": [
+          "드래그앤드롭 에디터",
+          "템플릿",
+          "배포 시스템"
+        ],
+        "clone_tip": "특정 업종(부동산, 쇼핑몰)에 특화된 버전 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2B",
+        "#노코드",
+        "#마케팅도구"
+      ],
+      "verdict": "디지털 마케팅 필수 도구로 높은 B2B 성장 잠재력"
+    },
+    {
+      "rank": 4,
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "category": "Personalization/Launcher",
+      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "중장년층을 위한 단순 홈화면",
+      "analysis": {
+        "problem": "복잡한 안드로이드 인터페이스로 인한 중장년층 접근성 [추론]",
+        "solution": "대형 아이콘과 단순한 레이아웃의 런처 제공 [확인]",
+        "target_user": "스마트폰 사용이 어려운 중장년층, 시각 장애인 [추론]",
+        "unique_point": "접근성과 단순함에 특화된 런처 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "BIG Launcher",
+          "Simple Launcher"
+        ],
+        "timing_reason": "고령화 사회와 디지털 포용성 정책 확산 [추론]",
+        "growth_potential": "고령 인구 증가로 지속적 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "광고 없는 유료 버전과 맞춤 설정 서비스 [추론]",
+        "pricing_suggestion": "일회성 4,900원 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "Kotlin",
+          "Material Design"
+        ],
+        "key_features": [
+          "대형 아이콘",
+          "음성 안내",
+          "응급 연락"
+        ],
+        "clone_tip": "각국 중장년층 선호도 조사 후 현지화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.6
+      },
+      "tags": [
+        "#사회문제해결",
+        "#접근성",
+        "#B2C"
+      ],
+      "verdict": "사회적 가치와 실용성을 동시에 추구하는 착한 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Location Sharing",
+      "developer": "P & L Studio",
+      "category": "Utilities/Location",
+      "icon": "https://play-lh.googleusercontent.com/-o1CH4hizs4HWhJD7k4bv6Ix5GH720tB1jrSecHSIiaRdzi4gSd05kmigDO_j2rKQRJ8-JJDjaBFQakvPCkae5o",
+      "app_url": "https://play.google.com/store/apps/details?id=com.sharlocation.friend.family",
+      "idea_summary": "가족 안전을 위한 위치 공유",
+      "analysis": {
+        "problem": "가족 구성원의 안전 확인과 위치 파악 필요성 [확인]",
+        "solution": "실시간 위치 공유와 안전 알림 시스템 [확인]",
+        "target_user": "자녀를 둔 부모, 고령자 가족, 안전 우려 가족 [추론]",
+        "unique_point": "프라이버시 보호 강화된 가족 전용 위치 서비스 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Find My",
+          "Life360",
+          "Google Family Link"
+        ],
+        "timing_reason": "안전에 대한 관심 증가와 가족 보호 니즈 [추론]",
+        "growth_potential": "글로벌 확산 가능하지만 경쟁 치열 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 안전 기능 구독 [추론]",
+        "pricing_suggestion": "월 5,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "4000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Google Maps API"
+        ],
+        "key_features": [
+          "실시간 위치",
+          "안전 구역",
+          "응급 알림"
+        ],
+        "clone_tip": "현지 응급 시스템과 연동하여 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#안전"
+      ],
+      "verdict": "검증된 니즈지만 강력한 경쟁사 대비 차별화 필요"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술 활용 앱이 다양한 분야로 확산되고 있으며, 특히 안전과 생활 밀착형 문제 해결에 집중되고 있습니다 [추론]. 지역 특화와 틈새 시장 공략을 통한 차별화 전략이 두드러지고 있습니다 [추론].",
+    "trend_details": [
+      "AI 기술의 일상 생활 적용 확산",
+      "지역 특화 및 현지화 전략",
+      "안전과 보안 관련 앱 증가",
+      "노코드 도구의 B2B 진출"
+    ],
+    "hot_categories": [
+      "AI/ML 활용 앱",
+      "안전/보안 앱",
+      "생활 편의 앱"
+    ],
+    "opportunity": "AI 기술을 활용한 현지 특화 솔루션과 접근성 개선 앱",
+    "action_item": "특정 지역이나 타겟층에 특화된 AI 솔루션 아이디어 검토"
+  }
+}
