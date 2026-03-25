@@ -1,0 +1,635 @@
+{
+  "date": "2026-03-26",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "ChemKey - Chemical Keyboard",
+      "developer": "俊锋 仝",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/84/95/d38495e6-abf8-b770-774c-460cee93875c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/chemkey-chemical-keyboard/id6760772362?uo=2",
+      "idea_summary": "화학 기호 전용 키보드 앱",
+      "analysis": {
+        "problem": "화학 공식 입력 시 복잡한 기호와 첨자 표기의 어려움 [추론]",
+        "solution": "화학 전용 키보드로 원소기호, 수식, 분자식 빠른 입력 [확인]",
+        "target_user": "화학 전공생, 연구원, 교사, 학생 [추론]",
+        "unique_point": "화학 분야 특화 키보드로 일반 키보드 대비 전문성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "LaTeX 키보드",
+          "수학 키보드 앱"
+        ],
+        "timing_reason": "온라인 교육 증가로 디지털 화학 학습 도구 수요 상승 [추론]",
+        "growth_potential": "전세계 화학 교육 시장 확대와 함께 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 또는 광고 기반 무료 모델 [추측]",
+        "pricing_suggestion": "기본 무료, 고급 기능 월 2-3달러 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "500-800만원",
+        "tech_stack": [
+          "Swift",
+          "UIKit",
+          "Custom Keyboard Extension"
+        ],
+        "key_features": [
+          "화학기호 입력",
+          "수식 렌더링",
+          "템플릿 제공"
+        ],
+        "clone_tip": "화학 기호 데이터베이스 구축이 핵심, 키보드 확장 API 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#교육"
+      ],
+      "verdict": "니치하지만 확실한 타겟층 보유한 전문 도구",
+      "deep_report_id": "ios-chemkey-chemical-keyboard-1774451403194"
+    },
+    {
+      "rank": 2,
+      "name": "KBoard: Recursive Kanban",
+      "developer": "Chung Kwan Chan",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/4f/8f/e74f8f54-f465-7c43-7b71-f4872019d2e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/kboard-recursive-kanban/id6761019642?uo=2",
+      "idea_summary": "중첩 가능한 칸반 보드 시스템",
+      "analysis": {
+        "problem": "복잡한 프로젝트에서 기존 칸반 보드의 평면적 한계 [추론]",
+        "solution": "재귀적 중첩 보드로 계층적 작업 관리 구현 [확인]",
+        "target_user": "프로젝트 매니저, 개발팀, 복잡한 업무 처리자 [추론]",
+        "unique_point": "일반 칸반 대비 계층적 작업 분해 및 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Trello",
+          "Notion",
+          "Asana"
+        ],
+        "timing_reason": "원격근무 증가로 체계적 작업 관리 도구 수요 상승 [추론]",
+        "growth_potential": "생산성 앱 시장 성장과 함께 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추측]",
+        "pricing_suggestion": "개인용 월 5달러, 팀용 사용자당 월 10달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월",
+        "estimated_cost": "800-1200만원",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "중첩 보드",
+          "드래그앤드롭",
+          "팀 협업"
+        ],
+        "clone_tip": "재귀적 데이터 구조 설계와 직관적 UI/UX가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#SaaS"
+      ],
+      "verdict": "기존 칸반의 한계를 해결한 혁신적 접근"
+    },
+    {
+      "rank": 3,
+      "name": "Pilot Search: ACE Pilot Db",
+      "developer": "Patrick Michalina",
+      "category": "Reference",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/0c/e7/880ce764-7cd5-fda2-051d-83595b22f5d3/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pilot-search-ace-pilot-db/id6760247815?uo=2",
+      "idea_summary": "에이스 파일럿 데이터베이스 검색 앱",
+      "analysis": {
+        "problem": "항공 역사와 파일럿 정보에 대한 체계적 접근의 부재 [추론]",
+        "solution": "에이스 파일럿 기록, 통계, 전기를 검색 가능한 DB로 제공 [확인]",
+        "target_user": "항공 역사 애호가, 연구자, 교육자, 항공 산업 종사자 [추론]",
+        "unique_point": "에이스 파일럿 전문 데이터베이스의 유일성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Wikipedia",
+          "항공 역사 웹사이트"
+        ],
+        "timing_reason": "다큐멘터리와 역사 콘텐츠 인기 상승 [추측]",
+        "growth_potential": "니치 시장이지만 충성도 높은 사용자층 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 구독 모델 [추측]",
+        "pricing_suggestion": "앱 구매 3-5달러 또는 월구독 1-2달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "300-500만원",
+        "tech_stack": [
+          "Swift",
+          "SQLite",
+          "Search API"
+        ],
+        "key_features": [
+          "검색 기능",
+          "필터링",
+          "즐겨찾기"
+        ],
+        "clone_tip": "데이터 수집과 구조화가 핵심, 검색 최적화 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치"
+      ],
+      "verdict": "작지만 확실한 타겟 시장을 가진 전문 앱"
+    },
+    {
+      "rank": 4,
+      "name": "Pickleball RR",
+      "developer": "Yaseen Ali",
+      "category": "Sports",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/76/52/df/7652df3f-5d13-7855-88b3-a632b3aaa222/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pickleball-rr/id6760354207?uo=2",
+      "idea_summary": "피클볼 라운드로빈 경기 관리",
+      "analysis": {
+        "problem": "피클볼 토너먼트에서 복잡한 라운드로빈 일정 관리의 어려움 [추론]",
+        "solution": "자동 일정 생성, 점수 기록, 플레이어 매칭 시스템 [확인]",
+        "target_user": "피클볼 클럽 운영자, 토너먼트 주최자, 동호회 [추론]",
+        "unique_point": "피클볼 전용 토너먼트 관리의 전문성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 토너먼트 앱",
+          "스프레드시트"
+        ],
+        "timing_reason": "피클볼 인기 급상승으로 관련 서비스 수요 증가 [추론]",
+        "growth_potential": "피클볼 붐과 함께 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "앱 구매 또는 프리미엄 기능 [추측]",
+        "pricing_suggestion": "일회성 구매 5-10달러 또는 월 구독 3달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월",
+        "estimated_cost": "400-600만원",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "알고리즘"
+        ],
+        "key_features": [
+          "라운드로빈 생성",
+          "점수 추적",
+          "플레이어 관리"
+        ],
+        "clone_tip": "라운드로빈 알고리즘 구현과 직관적 UI 디자인이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#스포츠"
+      ],
+      "verdict": "성장하는 피클볼 시장의 실용적 솔루션"
+    },
+    {
+      "rank": 5,
+      "name": "iSmith Chart",
+      "developer": "Sthefano Schiavon",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/0d/7c/ff0d7c46-6190-269d-53c0-a9adec857152/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ismith-chart/id6760685457?uo=2",
+      "idea_summary": "RF 임피던스 매칭 스미스차트 도구",
+      "analysis": {
+        "problem": "RF 엔지니어링에서 복잡한 임피던스 계산과 시각화 어려움 [추론]",
+        "solution": "인터랙티브 스미스차트로 임피던스 매칭과 시각화 제공 [확인]",
+        "target_user": "RF 엔지니어, 전자공학 전공생, 통신 업계 종사자 [추론]",
+        "unique_point": "모바일에서 사용 가능한 전문 RF 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "데스크톱 RF 소프트웨어",
+          "온라인 계산기"
+        ],
+        "timing_reason": "5G, IoT 확산으로 RF 설계 수요 증가 [추론]",
+        "growth_potential": "RF 엔지니어링 시장 성장과 연동 [추측]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 교육기관 라이센스 [추측]",
+        "pricing_suggestion": "앱 구매 10-20달러, 교육용 할인 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월",
+        "estimated_cost": "600-900만원",
+        "tech_stack": [
+          "Swift",
+          "Core Graphics",
+          "수학 라이브러리"
+        ],
+        "key_features": [
+          "스미스차트 렌더링",
+          "임피던스 계산",
+          "터치 인터랙션"
+        ],
+        "clone_tip": "RF 공학 지식과 복잡한 수학 계산 구현 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2B",
+        "#전문도구"
+      ],
+      "verdict": "전문성 높은 엔지니어링 도구로 니치 시장 공략"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "iNaturalist",
+      "developer": "iNaturalist",
+      "category": "Nature & Citizen Science",
+      "icon": "https://play-lh.googleusercontent.com/5MCRidgLUCvNTmRHN4OIiljcQqYr22VqmSAov7Zg9wAPkx6cGA66LRYHQlA9LQ33HdY",
+      "app_url": "https://play.google.com/store/apps/details?id=org.inaturalist.android",
+      "idea_summary": "시민 과학 자연 관찰 기록 앱",
+      "analysis": {
+        "problem": "일반인들의 자연 관찰 경험과 과학적 데이터 수집의 연결 부족 [추론]",
+        "solution": "사진 촬영으로 생물 식별하고 전세계 커뮤니티와 데이터 공유 [확인]",
+        "target_user": "자연 애호가, 교육자, 연구자, 하이커, 학생 [추론]",
+        "unique_point": "AI 생물 식별과 글로벌 시민과학 플랫폼 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PlantNet",
+          "Merlin Bird ID",
+          "Seek"
+        ],
+        "timing_reason": "환경 보호 관심 증가와 AI 기술 발전 [추론]",
+        "growth_potential": "환경 교육과 생물다양성 보존 관심 확산으로 높은 성장성 [추론]"
+      },
+      "business": {
+        "monetization": "기부 및 연구기관 후원 기반 [추측]",
+        "pricing_suggestion": "무료 기본, 프리미엄 연구 기능 월 5달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월",
+        "estimated_cost": "1000-1500만원",
+        "tech_stack": [
+          "Android SDK",
+          "Machine Learning",
+          "위치서비스",
+          "카메라 API"
+        ],
+        "key_features": [
+          "AI 생물 식별",
+          "위치 기반 관찰",
+          "커뮤니티 공유"
+        ],
+        "clone_tip": "생물 분류 AI 모델 구축과 커뮤니티 기능이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#커뮤니티기반",
+        "#B2C",
+        "#교육"
+      ],
+      "verdict": "환경 보호 시대의 필수적인 시민과학 플랫폼",
+      "deep_report_id": "android-inaturalist-1774451472449"
+    },
+    {
+      "rank": 2,
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "category": "Personalization & Launchers",
+      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "쉬운 홈스크린 커스터마이징 런처",
+      "analysis": {
+        "problem": "복잡한 런처 설정으로 인한 홈스크린 커스터마이징의 어려움 [추론]",
+        "solution": "직관적인 인터페이스로 쉬운 홈스크린 개인화 제공 [확인]",
+        "target_user": "안드로이드 초보 사용자, 시니어층, 단순함 선호하는 사용자 [추론]",
+        "unique_point": "복잡한 기능보다 사용 편의성에 집중한 런처 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nova Launcher",
+          "Microsoft Launcher",
+          "Apex Launcher"
+        ],
+        "timing_reason": "모바일 개인화 트렌드와 사용성 중시 흐름 [추론]",
+        "growth_potential": "런처 시장 포화 상태지만 틈새 시장 존재 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 버전 또는 광고 기반 [추측]",
+        "pricing_suggestion": "무료 기본, 프리미엄 기능 월 2-3달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월",
+        "estimated_cost": "500-800만원",
+        "tech_stack": [
+          "Android SDK",
+          "Launcher API",
+          "UI/UX 라이브러리"
+        ],
+        "key_features": [
+          "간편 설정",
+          "위젯 관리",
+          "테마 적용"
+        ],
+        "clone_tip": "안드로이드 런처 API 숙지와 직관적 UX 설계 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#개인화"
+      ],
+      "verdict": "포화 시장의 틈새를 노린 사용성 중심 접근"
+    },
+    {
+      "rank": 3,
+      "name": "Citizen Conan - Anti-Phishing",
+      "developer": "(주)인피니그루",
+      "category": "Security & Anti-Fraud",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "피싱 차단 및 사기 신고 보안 앱",
+      "analysis": {
+        "problem": "증가하는 보이스피싱, 스미싱 사기로 인한 피해 확산 [확인]",
+        "solution": "실시간 사기 탐지, 차단, 신고 시스템 제공 [확인]",
+        "target_user": "일반 소비자, 특히 시니어층과 보안 취약 사용자 [추론]",
+        "unique_point": "한국형 사기 패턴에 특화된 탐지 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "후후",
+          "콜라",
+          "T전화"
+        ],
+        "timing_reason": "디지털 사기 급증으로 보안 앱 필요성 증대 [확인]",
+        "growth_potential": "사기 수법 진화에 따른 지속적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 기업 라이센스 [추측]",
+        "pricing_suggestion": "개인용 월 3-5천원, 기업용 별도 책정 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월",
+        "estimated_cost": "800-1200만원",
+        "tech_stack": [
+          "Android SDK",
+          "머신러닝",
+          "전화/SMS 인터셉트 API"
+        ],
+        "key_features": [
+          "실시간 탐지",
+          "데이터베이스 업데이트",
+          "신고 시스템"
+        ],
+        "clone_tip": "사기 패턴 DB 구축과 실시간 처리 성능이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#B2C",
+        "#보안",
+        "#한국특화"
+      ],
+      "verdict": "사회적 필요가 높은 보안 서비스로 수익성 확보 가능"
+    },
+    {
+      "rank": 4,
+      "name": "Loopit - Make Playables",
+      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
+      "category": "Advertising & Creative Tools",
+      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
+      "idea_summary": "코드 없이 플레이어블 광고 제작",
+      "analysis": {
+        "problem": "플레이어블 광고 제작의 높은 기술적 진입장벽 [추론]",
+        "solution": "노코드 방식으로 인터랙티브 광고 프로토타입 생성 [확인]",
+        "target_user": "광고 기획자, 마케터, 게임 개발사, 광고 대행사 [추론]",
+        "unique_point": "전문 지식 없이 플레이어블 광고 제작 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PlayCanvas",
+          "Construct 3",
+          "BuildBox"
+        ],
+        "timing_reason": "모바일 광고의 인터랙티브화 트렌드 [추론]",
+        "growth_potential": "플레이어블 광고 시장 확대와 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 SaaS 모델 [추측]",
+        "pricing_suggestion": "월 20-50달러, 기업용 별도 책정 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월",
+        "estimated_cost": "1200-2000만원",
+        "tech_stack": [
+          "Android SDK",
+          "게임 엔진",
+          "웹 기술",
+          "노코드 프레임워크"
+        ],
+        "key_features": [
+          "드래그앤드롭 에디터",
+          "템플릿 제공",
+          "실시간 프리뷰"
+        ],
+        "clone_tip": "게임 엔진 기술과 직관적 에디터 UI 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#B2B",
+        "#SaaS",
+        "#노코드"
+      ],
+      "verdict": "광고 업계의 니즈를 정확히 겨냥한 혁신 도구"
+    },
+    {
+      "rank": 5,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "Public Safety & Alerts",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 범죄 신고 알림 및 지도",
+      "analysis": {
+        "problem": "주변 치안 상황에 대한 실시간 정보 부족 [추론]",
+        "solution": "경찰 무선 데이터 기반 실시간 사건 알림과 지도 시각화 [확인]",
+        "target_user": "지역 주민, 부모, 보안 관련 업무 종사자 [추론]",
+        "unique_point": "경찰 무선을 활용한 즉시성과 정확성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nextdoor",
+          "Ring Neighbors",
+          "Citizen"
+        ],
+        "timing_reason": "공공 안전에 대한 관심 증가와 실시간 정보 수요 [추론]",
+        "growth_potential": "안전 서비스 시장 확대와 함께 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 광고 기반 [추측]",
+        "pricing_suggestion": "무료 기본, 프리미엄 기능 월 5-10달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월",
+        "estimated_cost": "700-1000만원",
+        "tech_stack": [
+          "Android SDK",
+          "지도 API",
+          "푸시 알림",
+          "실시간 데이터 처리"
+        ],
+        "key_features": [
+          "실시간 알림",
+          "지도 시각화",
+          "필터링 옵션"
+        ],
+        "clone_tip": "경찰 무선 데이터 수집과 실시간 처리 시스템 구축 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#B2C",
+        "#안전",
+        "#위치기반"
+      ],
+      "verdict": "공공 안전 니즈를 충족하는 유용한 정보 서비스"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "전문 도구의 모바일화와 니치 시장 공략이 두드러진 트렌드. AI와 실시간 데이터 활용이 핵심 차별점으로 부상.",
+    "trend_details": [
+      "전문 분야 특화 도구들의 모바일 진출",
+      "노코드/로우코드 솔루션 확산",
+      "실시간 데이터 기반 안전 서비스",
+      "시민 과학과 커뮤니티 참여형 앱"
+    ],
+    "hot_categories": [
+      "전문 도구",
+      "보안/안전",
+      "생산성",
+      "교육"
+    ],
+    "opportunity": "복잡한 전문 도구를 간소화하여 모바일로 제공하는 영역",
+    "action_item": "니치 시장의 전문가 니즈 파악 후 모바일 친화적 솔루션 기획"
+  }
+}

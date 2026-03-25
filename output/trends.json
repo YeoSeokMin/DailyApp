@@ -1,25 +1,10 @@
 {
-  "generatedAt": "2026-03-24T15:11:33.977Z",
+  "generatedAt": "2026-03-25T15:12:43.301Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
-    {
-      "category": "Personalization",
-      "currentCount": 5,
-      "previousCount": 1,
-      "changePercent": 400,
-      "changeDirection": "up",
-      "apps": [
-        "Easy Homescreen",
-        "Easy Homescreen",
-        "Easy Homescreen",
-        "Personal Stickers - Free Talk",
-        "Easy Homescreen"
-      ],
-      "avgScore": 7.919999999999999
-    },
     {
       "category": "Health & Fitness",
       "currentCount": 7,
@@ -28,14 +13,73 @@
       "changeDirection": "up",
       "apps": [
         "Kabsa – Calorie Counting by Photo",
+        "Kabsa – Calorie Counting by Photo",
         "كبسة – حساب السعرات بالتصوير",
         "Food Snitch APP",
         "TrainerPulse",
         "Urolog: Bladder Insights",
-        "BiteCam — AI Calorie Counter",
-        "MenuScore: Eat Out Healthy"
+        "BiteCam — AI Calorie Counter"
       ],
-      "avgScore": 8.328571428571427
+      "avgScore": 8.2
+    },
+    {
+      "category": "Travel",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Balkan AI: Travel Guide",
+        "Where2Dive"
+      ],
+      "avgScore": 6.85
+    },
+    {
+      "category": "Security",
+      "currentCount": 4,
+      "previousCount": 2,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Citizen Conan - Anti-Phishing & Fraud Prevention",
+        "Citizen Conan - Anti-Phishing",
+        "Citizen Conan - Anti-Phishing",
+        "Citizen Conan - Anti-Phishing"
+      ],
+      "avgScore": 8.15
+    },
+    {
+      "category": "Marketing/Creative Tools",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Loopit - Make Playables"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "Personalization/Launcher",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Easy Homescreen"
+      ],
+      "avgScore": 7.6
+    },
+    {
+      "category": "Utilities/Location",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Location Sharing"
+      ],
+      "avgScore": 6.5
     },
     {
       "category": "Reference",
@@ -81,6 +125,21 @@
         "Loopit - Make Playables"
       ],
       "avgScore": 8
+    },
+    {
+      "category": "Personalization",
+      "currentCount": 5,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Easy Homescreen",
+        "Easy Homescreen",
+        "Easy Homescreen",
+        "Personal Stickers - Free Talk",
+        "Easy Homescreen"
+      ],
+      "avgScore": 7.919999999999999
     },
     {
       "category": "Video Creation",
@@ -193,90 +252,6 @@
       "avgScore": 7.4
     },
     {
-      "category": "Public Safety",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "CrimeRadar: Dispatch Alerts",
-        "CrimeRadar: Dispatch Alerts"
-      ],
-      "avgScore": 7.45
-    },
-    {
-      "category": "AI Chat & Entertainment",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Crack - Improvised Narrative Play, AI Chat"
-      ],
-      "avgScore": 8.5
-    },
-    {
-      "category": "Utilities & Keyboard",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Typeless: AI Voice Keyboard"
-      ],
-      "avgScore": 8.1
-    },
-    {
-      "category": "Travel & Weather",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Weather Trip"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Productivity & AI Tools",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Accio: Alibaba AI Agent"
-      ],
-      "avgScore": 8.1
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 5,
-      "previousCount": 3,
-      "changePercent": 67,
-      "changeDirection": "up",
-      "apps": [
-        "ScentDiary : 향기일기",
-        "AAC Cards",
-        "Macrame Knot Lab",
-        "My Social Battery Tracker",
-        "Batingaw: Heritage|Traditions"
-      ],
-      "avgScore": 7.74
-    },
-    {
-      "category": "Security",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "Citizen Conan - Anti-Phishing",
-        "Citizen Conan - Anti-Phishing",
-        "Citizen Conan - Anti-Phishing"
-      ],
-      "avgScore": 8.200000000000001
-    },
-    {
       "category": "Weather",
       "currentCount": 3,
       "previousCount": 2,
@@ -288,43 +263,39 @@
         "Weather Trip"
       ],
       "avgScore": 7.266666666666667
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 5,
+      "previousCount": 4,
+      "changePercent": 25,
+      "changeDirection": "up",
+      "apps": [
+        "Urban Renewal AI",
+        "FILL - Conduit Fill Calculator",
+        "FILL - Conduit Fill Calculator",
+        "Disaster Stockpile Manager",
+        "MidiTX Editor"
+      ],
+      "avgScore": 8.040000000000001
+    },
+    {
+      "category": "Lifestyle",
+      "currentCount": 5,
+      "previousCount": 4,
+      "changePercent": 25,
+      "changeDirection": "up",
+      "apps": [
+        "Stella Aile – Night-Sky Goal Tracker",
+        "ScentDiary : 향기일기",
+        "AAC Cards",
+        "Macrame Knot Lab",
+        "My Social Battery Tracker"
+      ],
+      "avgScore": 7.780000000000001
     }
   ],
   "decliningCategories": [
-    {
-      "category": "Education",
-      "currentCount": 6,
-      "previousCount": 7,
-      "changePercent": -14,
-      "changeDirection": "down",
-      "apps": [
-        "Smart Way - GCE Prep App",
-        "iNaturalist",
-        "Speak Nagamese",
-        "GestuAR",
-        "RiroSchool",
-        "Lumo: AR Flashcards"
-      ],
-      "avgScore": 8.083333333333334
-    },
-    {
-      "category": "Productivity",
-      "currentCount": 8,
-      "previousCount": 13,
-      "changePercent": -38,
-      "changeDirection": "down",
-      "apps": [
-        "Cortis - On Device AI",
-        "QuarkLM",
-        "Cnnct • Social Life Manager",
-        "PDF Swift Viewer",
-        "Cue: Floating Teleprompter",
-        "Loopit - Make Playables",
-        "SkyPilotlogbook",
-        "Construction Material Waste"
-      ],
-      "avgScore": 7.812499999999999
-    },
     {
       "category": "Safety",
       "currentCount": 1,
@@ -335,17 +306,6 @@
         "CrimeRadar: Dispatch Alerts"
       ],
       "avgScore": 8.3
-    },
-    {
-      "category": "Food & Drink",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "me:new Weekly Meal Planner"
-      ],
-      "avgScore": 8
     },
     {
       "category": "Entertainment",
@@ -361,8 +321,8 @@
     {
       "category": "Shopping",
       "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
+      "previousCount": 2,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
         "dips – smart price tracker"
@@ -370,10 +330,37 @@
       "avgScore": 8
     },
     {
+      "category": "Public Safety",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "CrimeRadar: Dispatch Alerts"
+      ],
+      "avgScore": 7.4
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 6,
+      "previousCount": 14,
+      "changePercent": -57,
+      "changeDirection": "down",
+      "apps": [
+        "Cortis - On Device AI",
+        "QuarkLM",
+        "Cnnct • Social Life Manager",
+        "PDF Swift Viewer",
+        "Cue: Floating Teleprompter",
+        "Loopit - Make Playables"
+      ],
+      "avgScore": 7.983333333333332
+    },
+    {
       "category": "Business",
       "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
+      "previousCount": 3,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
         "UDI Generator and Scanner"
@@ -383,18 +370,32 @@
   ],
   "stableCategories": [
     {
-      "category": "Utilities",
-      "currentCount": 4,
-      "previousCount": 4,
+      "category": "Food & Drink",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "FILL - Conduit Fill Calculator",
-        "FILL - Conduit Fill Calculator",
-        "Disaster Stockpile Manager",
-        "MidiTX Editor"
+        "me:new - Easy Weekly Meal Planning",
+        "me:new Weekly Meal Planner"
       ],
-      "avgScore": 8.1
+      "avgScore": 8
+    },
+    {
+      "category": "Education",
+      "currentCount": 6,
+      "previousCount": 6,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Smart Way - GCE Prep App",
+        "iNaturalist",
+        "Speak Nagamese",
+        "GestuAR",
+        "RiroSchool",
+        "Lumo: AR Flashcards"
+      ],
+      "avgScore": 8.083333333333334
     },
     {
       "category": "Navigation",
@@ -417,29 +418,23 @@
         "AeroLedger: Crew Finance"
       ],
       "avgScore": 8.3
-    },
-    {
-      "category": "Medical",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "CoLo-ID"
-      ],
-      "avgScore": 7.5
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 57,
+      "count": 53,
       "apps": [
+        "Balkan AI: Travel Guide",
+        "Kabsa – Calorie Counting by Photo",
+        "Where2Dive",
+        "Stella Aile – Night-Sky Goal Tracker",
+        "me:new - Easy Weekly Meal Planning",
+        "Location Sharing",
         "FILL - Conduit Fill Calculator",
         "Cortis - On Device AI",
         "Smart Way - GCE Prep App",
-        "Kabsa – Calorie Counting by Photo",
         "GemGauge AI - Jewelry Value",
         "iNaturalist",
         "CrimeRadar: Dispatch Alerts",
@@ -474,31 +469,29 @@
         "BiteCam — AI Calorie Counter",
         "Cue: Floating Teleprompter",
         "Child Mosaic",
-        "Weather Trip",
-        "SkyPilotlogbook",
-        "Batingaw: Heritage|Traditions",
-        "CoLo-ID",
-        "MenuScore: Eat Out Healthy",
-        "Construction Material Waste",
-        "Crack - Improvised Narrative Play, AI Chat",
-        "Typeless: AI Voice Keyboard",
-        "Accio: Alibaba AI Agent"
+        "Weather Trip"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 40,
+      "count": 42,
       "apps": [
+        "Balkan AI: Travel Guide",
+        "Kabsa – Calorie Counting by Photo",
+        "Where2Dive",
+        "Stella Aile – Night-Sky Goal Tracker",
+        "Citizen Conan - Anti-Phishing & Fraud Prevention",
+        "me:new - Easy Weekly Meal Planning",
+        "Easy Homescreen",
+        "Location Sharing",
         "Cortis - On Device AI",
         "Smart Way - GCE Prep App",
-        "Kabsa – Calorie Counting by Photo",
         "GemGauge AI - Jewelry Value",
         "iNaturalist",
         "CrimeRadar: Dispatch Alerts",
         "호갱노노 - 아파트 실거래가 조회 부동산앱",
         "Loopit - Make Playables",
-        "Easy Homescreen",
         "ScentDiary : 향기일기",
         "Cnnct • Social Life Manager",
         "Food Snitch APP",
@@ -520,20 +513,21 @@
         "Cue: Floating Teleprompter",
         "Child Mosaic",
         "Weather Trip",
-        "Citizen Conan - Anti-Phishing",
-        "Batingaw: Heritage|Traditions",
-        "MenuScore: Eat Out Healthy",
-        "Crack - Improvised Narrative Play, AI Chat",
-        "Typeless: AI Voice Keyboard"
+        "Citizen Conan - Anti-Phishing"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 28,
+      "count": 29,
       "apps": [
-        "Cortis - On Device AI",
+        "Balkan AI: Travel Guide",
+        "Urban Renewal AI",
         "Kabsa – Calorie Counting by Photo",
+        "Stella Aile – Night-Sky Goal Tracker",
+        "Citizen Conan - Anti-Phishing & Fraud Prevention",
+        "me:new - Easy Weekly Meal Planning",
+        "Cortis - On Device AI",
         "GemGauge AI - Jewelry Value",
         "iNaturalist",
         "QuarkLM",
@@ -547,17 +541,15 @@
         "Personal Stickers - Free Talk",
         "EU AI Act Navigator",
         "BiteCam — AI Calorie Counter",
-        "Child Mosaic",
-        "Crack - Improvised Narrative Play, AI Chat",
-        "Typeless: AI Voice Keyboard",
-        "Accio: Alibaba AI Agent"
+        "Child Mosaic"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 19,
+      "count": 17,
       "apps": [
+        "Location Sharing",
         "Smart Way - GCE Prep App",
         "CrimeRadar: Dispatch Alerts",
         "QuarkLM",
@@ -568,40 +560,44 @@
         "AAC Cards",
         "Gas App - Start of Energy Saving",
         "dips – smart price tracker",
-        "Lumo: AR Flashcards",
-        "Crack - Improvised Narrative Play, AI Chat",
-        "Typeless: AI Voice Keyboard"
+        "Lumo: AR Flashcards"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 17,
+      "count": 15,
       "apps": [
-        "FILL - Conduit Fill Calculator",
+        "Urban Renewal AI",
         "Loopit - Make Playables",
+        "FILL - Conduit Fill Calculator",
         "AeroLedger: Crew Finance",
         "Genspark AI Workspace",
         "TrainerPulse",
         "UDI Generator and Scanner",
         "MidiTX Editor",
         "RiroSchool",
-        "EU AI Act Navigator",
-        "SkyPilotlogbook",
-        "CoLo-ID",
-        "Construction Material Waste",
-        "Accio: Alibaba AI Agent"
+        "EU AI Act Navigator"
       ]
     },
     {
       "keyword": "헬스케어",
-      "category": "health",
-      "count": 6,
+      "category": "tag",
+      "count": 7,
       "apps": [
         "Kabsa – Calorie Counting by Photo",
         "كبسة – حساب السعرات بالتصوير",
         "Food Snitch APP",
         "BiteCam — AI Calorie Counter"
+      ]
+    },
+    {
+      "keyword": "접근성",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "Easy Homescreen",
+        "AAC Cards"
       ]
     },
     {
@@ -615,30 +611,62 @@
       ]
     },
     {
-      "keyword": "접근성",
+      "keyword": "보안",
       "category": "tag",
-      "count": 6,
+      "count": 5,
       "apps": [
-        "Easy Homescreen",
-        "AAC Cards",
-        "Typeless: AI Voice Keyboard"
+        "Citizen Conan - Anti-Phishing & Fraud Prevention",
+        "Citizen Conan - Anti-Phishing",
+        "Citizen Conan – Anti-Phishing"
       ]
     },
     {
       "keyword": "안전",
       "category": "tag",
-      "count": 4,
+      "count": 5,
       "apps": [
+        "Location Sharing",
         "CrimeRadar: Dispatch Alerts"
       ]
     },
     {
-      "keyword": "보안",
+      "keyword": "틈새시장",
       "category": "tag",
       "count": 4,
       "apps": [
-        "Citizen Conan - Anti-Phishing",
-        "Citizen Conan – Anti-Phishing"
+        "Where2Dive",
+        "FILL - Conduit Fill Calculator",
+        "Speak Nagamese",
+        "Macrame Knot Lab"
+      ]
+    },
+    {
+      "keyword": "자동화",
+      "category": "productivity",
+      "count": 3,
+      "apps": [
+        "Urban Renewal AI",
+        "me:new - Easy Weekly Meal Planning",
+        "Genspark AI Workspace"
+      ]
+    },
+    {
+      "keyword": "전문도구",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Urban Renewal AI",
+        "FILL - Conduit Fill Calculator"
+      ]
+    },
+    {
+      "keyword": "사회문제해결",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Citizen Conan - Anti-Phishing & Fraud Prevention",
+        "Easy Homescreen",
+        "Citizen Conan - Anti-Phishing"
       ]
     },
     {
@@ -680,16 +708,6 @@
       ]
     },
     {
-      "keyword": "틈새시장",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "FILL - Conduit Fill Calculator",
-        "Speak Nagamese",
-        "Macrame Knot Lab"
-      ]
-    },
-    {
       "keyword": "생산성",
       "category": "tag",
       "count": 3,
@@ -708,38 +726,13 @@
         "Genspark AI Workspace",
         "HeyDealer – Used Cars & Selling"
       ]
-    },
-    {
-      "keyword": "전문도구",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "FILL - Conduit Fill Calculator"
-      ]
-    },
-    {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 2,
-      "apps": [
-        "iNaturalist",
-        "Batingaw: Heritage|Traditions"
-      ]
-    },
-    {
-      "keyword": "실시간",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "CrimeRadar: Dispatch Alerts"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 18,
-        "percent": 26,
+        "count": 12,
+        "percent": 17,
         "examples": [
           "iNaturalist",
           "RoadBlock MOZ",
@@ -750,32 +743,32 @@
         "count": 55,
         "percent": 79,
         "examples": [
-          "FILL - Conduit Fill Calculator",
-          "Cortis - On Device AI",
-          "Smart Way - GCE Prep App"
+          "Balkan AI: Travel Guide",
+          "Kabsa – Calorie Counting by Photo",
+          "Where2Dive"
         ]
       },
       "subscription": {
-        "count": 51,
-        "percent": 73,
+        "count": 48,
+        "percent": 69,
         "examples": [
-          "FILL - Conduit Fill Calculator",
-          "Cortis - On Device AI",
-          "Smart Way - GCE Prep App"
+          "Balkan AI: Travel Guide",
+          "Kabsa – Calorie Counting by Photo",
+          "Stella Aile – Night-Sky Goal Tracker"
         ]
       },
       "onetime": {
         "count": 12,
         "percent": 17,
         "examples": [
+          "Easy Homescreen",
           "FILL - Conduit Fill Calculator",
-          "Smart Way - GCE Prep App",
-          "GemGauge AI - Jewelry Value"
+          "Smart Way - GCE Prep App"
         ]
       },
       "unknown": {
-        "count": 2,
-        "percent": 3,
+        "count": 3,
+        "percent": 4,
         "examples": []
       }
     },
@@ -784,9 +777,9 @@
       "count": 55,
       "percent": 79,
       "examples": [
-        "FILL - Conduit Fill Calculator",
-        "Cortis - On Device AI",
-        "Smart Way - GCE Prep App"
+        "Balkan AI: Travel Guide",
+        "Kabsa – Calorie Counting by Photo",
+        "Where2Dive"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -794,26 +787,26 @@
   "techTrends": {
     "trends": [
       {
-        "tech": "ar_vr",
+        "tech": "ai",
         "count": 24,
         "percent": 34,
         "apps": [
-          "Smart Way - GCE Prep App",
-          "GemGauge AI - Jewelry Value",
-          "CrimeRadar: Dispatch Alerts",
-          "QuarkLM",
-          "Citizen Conan - Anti-Phishing"
+          "Balkan AI: Travel Guide",
+          "Urban Renewal AI",
+          "Kabsa – Calorie Counting by Photo",
+          "Stella Aile – Night-Sky Goal Tracker",
+          "Citizen Conan - Anti-Phishing & Fraud Prevention"
         ]
       },
       {
-        "tech": "ai",
-        "count": 22,
-        "percent": 31,
+        "tech": "ar_vr",
+        "count": 21,
+        "percent": 30,
         "apps": [
-          "Cortis - On Device AI",
-          "Kabsa – Calorie Counting by Photo",
+          "Location Sharing",
+          "Smart Way - GCE Prep App",
           "GemGauge AI - Jewelry Value",
-          "iNaturalist",
+          "CrimeRadar: Dispatch Alerts",
           "QuarkLM"
         ]
       },
@@ -831,13 +824,14 @@
       },
       {
         "tech": "productivity",
-        "count": 4,
-        "percent": 6,
+        "count": 7,
+        "percent": 10,
         "apps": [
-          "Genspark AI Workspace",
-          "RiroSchool",
-          "Cue: Floating Teleprompter",
-          "Accio: Alibaba AI Agent"
+          "Balkan AI: Travel Guide",
+          "Urban Renewal AI",
+          "me:new - Easy Weekly Meal Planning",
+          "Loopit - Make Playables",
+          "Genspark AI Workspace"
         ]
       },
       {
@@ -858,26 +852,18 @@
           "Kabsa – Calorie Counting by Photo",
           "BiteCam — AI Calorie Counter"
         ]
-      },
-      {
-        "tech": "subscription",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "Batingaw: Heritage|Traditions"
-        ]
       }
     ],
     "dominant": {
-      "tech": "ar_vr",
+      "tech": "ai",
       "count": 24,
       "percent": 34,
       "apps": [
-        "Smart Way - GCE Prep App",
-        "GemGauge AI - Jewelry Value",
-        "CrimeRadar: Dispatch Alerts",
-        "QuarkLM",
-        "Citizen Conan - Anti-Phishing"
+        "Balkan AI: Travel Guide",
+        "Urban Renewal AI",
+        "Kabsa – Calorie Counting by Photo",
+        "Stella Aile – Night-Sky Goal Tracker",
+        "Citizen Conan - Anti-Phishing & Fraud Prevention"
       ]
     },
     "emerging": [
@@ -892,10 +878,57 @@
           "Loopit - Make Playables",
           "MidiTX Editor"
         ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Balkan AI: Travel Guide",
+          "Urban Renewal AI",
+          "me:new - Easy Weekly Meal Planning",
+          "Loopit - Make Playables",
+          "Genspark AI Workspace"
+        ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Travel 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Travel"
+    },
+    {
+      "type": "rising_category",
+      "title": "Security 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Security"
+    },
+    {
+      "type": "rising_category",
+      "title": "Marketing/Creative Tools 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Marketing/Creative Tools"
+    },
+    {
+      "type": "rising_category",
+      "title": "Personalization/Launcher 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Personalization/Launcher"
+    },
+    {
+      "type": "rising_category",
+      "title": "Utilities/Location 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Utilities/Location"
+    },
     {
       "type": "rising_category",
       "title": "Reference 카테고리 급부상",
@@ -996,48 +1029,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Public Safety 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Public Safety"
-    },
-    {
-      "type": "rising_category",
-      "title": "AI Chat & Entertainment 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "AI Chat & Entertainment"
-    },
-    {
-      "type": "rising_category",
-      "title": "Utilities & Keyboard 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Utilities & Keyboard"
-    },
-    {
-      "type": "rising_category",
-      "title": "Travel & Weather 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Travel & Weather"
-    },
-    {
-      "type": "rising_category",
-      "title": "Productivity & AI Tools 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Productivity & AI Tools"
-    },
-    {
-      "type": "rising_category",
-      "title": "Security 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Security"
-    },
-    {
-      "type": "rising_category",
       "title": "Weather 카테고리 급부상",
       "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1046,25 +1037,25 @@
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "31%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Personalization 카테고리가 400% 급상승하며 개인화 서비스 수요 폭발. Health & Fitness도 133% 증가하여 건강 관리 앱 시장 확대. '1인개발가능' 태그가 57회 언급되어 솔로 개발자 친화적 시장 환경 조성.",
+    "trend_summary": "Health & Fitness가 133% 급성장하며 웰빙 관심 증가를 보여주고, AI 기능(34%)과 AR/VR(30%) 기술이 주류가 되고 있습니다. Freemium 모델(79%)이 주도하며 1인 개발 가능한 앱들이 주목받고 있습니다.",
     "trend_details": [
-      "개인화(Personalization) 서비스 400% 급성장으로 맞춤형 앱 수요 증가",
-      "AI 기능 통합률 31%로 여전히 차별화 기회 존재",
-      "Freemium(79%) + Subscription(73%) 모델이 주류로 안정적 수익 구조 확립",
-      "Reference, News & Alerts 등 소규모 카테고리에서 100% 성장률 기록"
+      "Health & Fitness 카테고리 133% 급성장으로 웰빙 앱 수요 폭증",
+      "AI 기능 통합률 34%로 차별화 필수 요소로 부상",
+      "Travel, Security 등 소규모 카테고리들의 100% 성장으로 블루오션 기회 확대",
+      "Freemium 모델 79% 채택률로 수익화 표준 모델 확립"
     ],
     "hot_categories": [
-      "Personalization",
-      "Health & Fitness"
+      "Health & Fitness",
+      "Security"
     ],
-    "opportunity": "Reference, News & Alerts, Real Estate 등 앱 수가 적지만 100% 성장한 블루오션 카테고리 진입",
-    "action_item": "개인화 기능이 포함된 헬스케어 또는 뉴스 앱을 freemium 모델로 개발하여 급성장 시장 선점",
-    "weekly_theme": "개인화 혁신"
+    "opportunity": "Travel, Security, Marketing/Creative Tools 등 급성장하지만 앱 수가 적은 카테고리에서 AI 기능을 통합한 1인 개발 가능한 앱 출시 기회가 가장 유망합니다.",
+    "action_item": "Health & Fitness나 Security 카테고리에서 AI 기능을 통합한 Freemium 모델의 간단한 MVP를 빠르게 개발하여 시장 진입하세요.",
+    "weekly_theme": "AI 웰빙 보안"
   }
 }
