@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T15:14:25.882Z",
+  "generatedAt": "2026-04-04T15:12:21.046Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -17,6 +17,61 @@
         "TheFair - Golfwear & Luxury Resale Platform"
       ],
       "avgScore": 8.4
+    },
+    {
+      "category": "Medical",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Clinada: Nurse Shift Planner"
+      ],
+      "avgScore": 8.2
+    },
+    {
+      "category": "Public Safety",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CrimeRadar: Dispatch Alerts"
+      ],
+      "avgScore": 8.2
+    },
+    {
+      "category": "Content Creation",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Loopit - Make Playables"
+      ],
+      "avgScore": 8.6
+    },
+    {
+      "category": "Launcher",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Easy Homescreen"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "AI Chat",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "zeta - AI Roleplay Chat"
+      ],
+      "avgScore": 7.5
     },
     {
       "category": "Design & Marketing",
@@ -144,6 +199,17 @@
       "avgScore": 8.3
     },
     {
+      "category": "Photo & Video",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AngleAI – 3D Photo Camera"
+      ],
+      "avgScore": 8.5
+    },
+    {
       "category": "Safety Alerts",
       "currentCount": 1,
       "previousCount": 0,
@@ -200,70 +266,35 @@
       "avgScore": 9
     },
     {
-      "category": "Sports",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Weather",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Pickleball RR"
+        "First Screen Weather",
+        "First Screen Weather - Widget, Forecast, Air Quality",
+        "Solar Metrics"
       ],
-      "avgScore": 7.5
+      "avgScore": 8.133333333333333
     },
     {
-      "category": "Nature & Citizen Science",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Health & Fitness",
+      "currentCount": 8,
+      "previousCount": 6,
+      "changePercent": 33,
       "changeDirection": "up",
       "apps": [
-        "iNaturalist"
+        "Vela: PCOS Daily Support",
+        "HairBack: AI Balding Tracker",
+        "CatNap: Sleep & Collect Cats",
+        "Gout Food Scanner",
+        "Poop AI - Poop Tracker",
+        "AIسعراتي - SaaratyAI",
+        "Quit Tracker - QuitMap",
+        "MoneyWalk - Earn by Walking"
       ],
-      "avgScore": 8
-    },
-    {
-      "category": "Personalization & Launchers",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Easy Homescreen"
-      ],
-      "avgScore": 6.2
-    },
-    {
-      "category": "Security & Anti-Fraud",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Citizen Conan - Anti-Phishing"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Advertising & Creative Tools",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Loopit - Make Playables"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Public Safety & Alerts",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "CrimeRadar: Dispatch Alerts"
-      ],
-      "avgScore": 7
+      "avgScore": 7.925000000000001
     },
     {
       "category": "Utilities",
@@ -280,6 +311,23 @@
         "Private Notes (Nostr)"
       ],
       "avgScore": 8.116666666666667
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 7,
+      "previousCount": 6,
+      "changePercent": 17,
+      "changeDirection": "up",
+      "apps": [
+        "GDTPro: GD&T ASME ISO Calc",
+        "Fermentis!",
+        "Okio: ADHD Task Reminder",
+        "KuficDraw",
+        "Rapeseed Tracker",
+        "Coincidence Tracker",
+        "Locky: Do Tasks, Unlock Apps"
+      ],
+      "avgScore": 7.857142857142857
     }
   ],
   "decliningCategories": [
@@ -298,19 +346,6 @@
       "avgScore": 7.9750000000000005
     },
     {
-      "category": "Security",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
-      "changeDirection": "down",
-      "apps": [
-        "Citizen Conan - Anti‑Phishing & Fraud Prevention",
-        "Citizen Conan — Anti-Phishing",
-        "Citizen Conan - Anti-Phishing & Fraud Prevention"
-      ],
-      "avgScore": 8.866666666666667
-    },
-    {
       "category": "Travel",
       "currentCount": 1,
       "previousCount": 2,
@@ -322,52 +357,41 @@
       "avgScore": 7.8
     },
     {
-      "category": "Food & Drink",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "ICEBOX Dashboard"
-      ],
-      "avgScore": 7.2
-    },
-    {
-      "category": "Reference",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Pilot Search: ACE Pilot Db"
-      ],
-      "avgScore": 6
-    },
-    {
-      "category": "Education",
-      "currentCount": 2,
-      "previousCount": 6,
-      "changePercent": -67,
-      "changeDirection": "down",
-      "apps": [
-        "Tigrinya: Dream Dictionary",
-        "iSmith Chart"
-      ],
-      "avgScore": 7.15
-    },
-    {
       "category": "Personalization",
       "currentCount": 1,
-      "previousCount": 5,
-      "changePercent": -80,
+      "previousCount": 4,
+      "changePercent": -75,
       "changeDirection": "down",
       "apps": [
         "Free Talk Stickers - Personal Stickers"
       ],
       "avgScore": 7.2
+    },
+    {
+      "category": "Education",
+      "currentCount": 1,
+      "previousCount": 6,
+      "changePercent": -83,
+      "changeDirection": "down",
+      "apps": [
+        "Tigrinya: Dream Dictionary"
+      ],
+      "avgScore": 6.8
     }
   ],
   "stableCategories": [
+    {
+      "category": "Food & Drink",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Too Good To Go",
+        "ICEBOX Dashboard"
+      ],
+      "avgScore": 7.85
+    },
     {
       "category": "Business",
       "currentCount": 1,
@@ -380,37 +404,17 @@
       "avgScore": 8.5
     },
     {
-      "category": "Health & Fitness",
-      "currentCount": 7,
-      "previousCount": 7,
+      "category": "Security",
+      "currentCount": 3,
+      "previousCount": 3,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "HairBack: AI Balding Tracker",
-        "CatNap: Sleep & Collect Cats",
-        "Gout Food Scanner",
-        "Poop AI - Poop Tracker",
-        "AIسعراتي - SaaratyAI",
-        "Quit Tracker - QuitMap",
-        "MoneyWalk - Earn by Walking"
+        "Citizen Conan - Anti‑Phishing & Fraud Prevention",
+        "Citizen Conan — Anti-Phishing",
+        "Citizen Conan - Anti-Phishing & Fraud Prevention"
       ],
-      "avgScore": 7.799999999999999
-    },
-    {
-      "category": "Productivity",
-      "currentCount": 6,
-      "previousCount": 6,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "KuficDraw",
-        "Rapeseed Tracker",
-        "Coincidence Tracker",
-        "Locky: Do Tasks, Unlock Apps",
-        "ChemKey - Chemical Keyboard",
-        "KBoard: Recursive Kanban"
-      ],
-      "avgScore": 7.683333333333333
+      "avgScore": 8.866666666666667
     },
     {
       "category": "Safety",
@@ -422,30 +426,6 @@
         "CrimeRadar: Dispatch Alerts"
       ],
       "avgScore": 7.6
-    },
-    {
-      "category": "Weather",
-      "currentCount": 3,
-      "previousCount": 3,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "First Screen Weather",
-        "First Screen Weather - Widget, Forecast, Air Quality",
-        "Solar Metrics"
-      ],
-      "avgScore": 8.133333333333333
-    },
-    {
-      "category": "Photo & Video",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "AngleAI – 3D Photo Camera"
-      ],
-      "avgScore": 8.5
     },
     {
       "category": "Video Creation",
@@ -474,7 +454,7 @@
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 45,
+      "count": 40,
       "apps": [
         "LiveSTT - ASR Locally",
         "TeamTipOut",
@@ -513,18 +493,13 @@
         "VetReady: Pet Symptom Tracker",
         "Solar Metrics",
         "MoneyWalk - Earn by Walking",
-        "Gyeomsagyeomsa",
-        "ChemKey - Chemical Keyboard",
-        "KBoard: Recursive Kanban",
-        "Pilot Search: ACE Pilot Db",
-        "Pickleball RR",
-        "Easy Homescreen"
+        "Gyeomsagyeomsa"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 38,
+      "count": 33,
       "apps": [
         "AI 소음·잡음 제거 – Shhh!",
         "CatNap: Sleep & Collect Cats",
@@ -556,18 +531,16 @@
         "zeta - AI Character Roleplay Chat",
         "MoneyWalk - Earn by Walking",
         "Gyeomsagyeomsa",
-        "Kalshi: Trade News & Sports",
-        "Pilot Search: ACE Pilot Db",
-        "iNaturalist",
-        "Easy Homescreen",
-        "Citizen Conan - Anti-Phishing"
+        "Kalshi: Trade News & Sports"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 23,
+      "count": 25,
       "apps": [
+        "Vela: PCOS Daily Support",
+        "zeta - AI Roleplay Chat",
         "HairBack: AI Balding Tracker",
         "zeta - AI Character Roleplay Chat",
         "Mail - Unified AI Email Organizer",
@@ -582,17 +555,16 @@
         "EngineScan AI",
         "First Screen Weather - Widget, Forecast, Air Quality",
         "PolyBuzz: Chat with AI Friends",
-        "TheFair - Golfwear & Luxury Resale Platform",
-        "iNaturalist"
+        "TheFair - Golfwear & Luxury Resale Platform"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 20,
+      "count": 16,
       "apps": [
-        "zeta - AI Character Roleplay Chat",
         "CrimeRadar: Dispatch Alerts",
+        "zeta - AI Character Roleplay Chat",
         "AIسعراتي - SaaratyAI",
         "Tigrinya: Dream Dictionary",
         "ICEBOX Dashboard",
@@ -601,30 +573,45 @@
         "Apartment-i - Apartment App",
         "Solar Metrics",
         "TheFair - Golfwear & Luxury Resale Platform",
-        "MoneyWalk - Earn by Walking",
-        "ChemKey - Chemical Keyboard",
-        "KBoard: Recursive Kanban",
-        "Pilot Search: ACE Pilot Db",
-        "iSmith Chart"
+        "MoneyWalk - Earn by Walking"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 14,
+      "count": 12,
       "apps": [
+        "GDTPro: GD&T ASME ISO Calc",
+        "Clinada: Nurse Shift Planner",
+        "Loopit - Make Playables",
         "LiveSTT - ASR Locally",
         "TeamTipOut",
-        "Loopit - Make Playables",
         "LOCL: Regional Glyph Renderer",
         "t.ai",
         "Loopit — Make Playables",
         "Lab Laps: Lab Multi Timer",
-        "Solar Metrics",
-        "ChemKey - Chemical Keyboard",
-        "KBoard: Recursive Kanban",
-        "Pickleball RR",
-        "iSmith Chart"
+        "Solar Metrics"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "Fermentis!",
+        "SetBook: Gig & Setlist Manager",
+        "Apartment-i - Apartment App",
+        "Gyeomsagyeomsa"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "Loopit - Make Playables",
+        "NanoDrama",
+        "Reelway: feel-good clips"
       ]
     },
     {
@@ -651,23 +638,35 @@
       ]
     },
     {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "SetBook: Gig & Setlist Manager",
-        "Apartment-i - Apartment App",
-        "Gyeomsagyeomsa",
-        "iNaturalist"
-      ]
-    },
-    {
-      "keyword": "안전",
+      "keyword": "전문도구",
       "category": "tag",
       "count": 4,
       "apps": [
-        "SheCommute",
-        "CrimeRadar: Dispatch Alerts"
+        "GDTPro: GD&T ASME ISO Calc",
+        "LOCL: Regional Glyph Renderer",
+        "Rapeseed Tracker",
+        "Lab Laps: Lab Multi Timer"
+      ]
+    },
+    {
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Fermentis!",
+        "Okio: ADHD Task Reminder",
+        "KuficDraw",
+        "Airside: Aviation Life List"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "productivity",
+      "count": 4,
+      "apps": [
+        "Okio: ADHD Task Reminder",
+        "Mail - Unified AI Email Organizer",
+        "Locky: Do Tasks, Unlock Apps"
       ]
     },
     {
@@ -682,27 +681,6 @@
       ]
     },
     {
-      "keyword": "전문도구",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "LOCL: Regional Glyph Renderer",
-        "Rapeseed Tracker",
-        "Lab Laps: Lab Multi Timer",
-        "iSmith Chart"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "NanoDrama",
-        "Loopit - Make Playables",
-        "Reelway: feel-good clips"
-      ]
-    },
-    {
       "keyword": "AI활용",
       "category": "tag",
       "count": 4,
@@ -714,33 +692,21 @@
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 4,
+      "keyword": "소셜",
+      "category": "social",
+      "count": 3,
       "apps": [
-        "Sewganizer",
-        "Private Notes (Nostr)",
-        "KBoard: Recursive Kanban",
-        "Loopit - Make Playables"
+        "Loopit - Make Playables",
+        "PolyBuzz: Chat with AI Friends"
       ]
     },
     {
-      "keyword": "교육",
+      "keyword": "안전",
       "category": "tag",
       "count": 3,
       "apps": [
-        "CoDMON - Nursery Communication",
-        "ChemKey - Chemical Keyboard",
-        "iNaturalist"
-      ]
-    },
-    {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Mail - Unified AI Email Organizer",
-        "Locky: Do Tasks, Unlock Apps"
+        "SheCommute",
+        "CrimeRadar: Dispatch Alerts"
       ]
     },
     {
@@ -754,16 +720,6 @@
       ]
     },
     {
-      "keyword": "매칭",
-      "category": "social",
-      "count": 3,
-      "apps": [
-        "Timee - One-off Part-time Jobs",
-        "Pickleball RR",
-        "iSmith Chart"
-      ]
-    },
-    {
       "keyword": "협업필요",
       "category": "tag",
       "count": 3,
@@ -774,21 +730,29 @@
       ]
     },
     {
-      "keyword": "1인개발어려움",
+      "keyword": "의료",
       "category": "tag",
-      "count": 3,
+      "count": 2,
       "apps": [
-        "zeta - AI Character Roleplay Chat",
-        "TheFair - Golfwear & Luxury Resale Platform",
-        "iSmith Chart"
+        "Clinada: Nurse Shift Planner",
+        "Vela: PCOS Daily Support"
+      ]
+    },
+    {
+      "keyword": "취미",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Fermentis!",
+        "Sewganizer"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 22,
-        "percent": 31,
+        "count": 18,
+        "percent": 26,
         "examples": [
           "CatNap: Sleep & Collect Cats",
           "LOCL: Regional Glyph Renderer",
@@ -796,30 +760,30 @@
         ]
       },
       "freemium": {
-        "count": 50,
-        "percent": 71,
+        "count": 52,
+        "percent": 74,
         "examples": [
-          "LiveSTT - ASR Locally",
-          "HairBack: AI Balding Tracker",
-          "SheCommute"
+          "GDTPro: GD&T ASME ISO Calc",
+          "Fermentis!",
+          "Okio: ADHD Task Reminder"
         ]
       },
       "subscription": {
-        "count": 42,
-        "percent": 60,
+        "count": 45,
+        "percent": 64,
         "examples": [
-          "LiveSTT - ASR Locally",
-          "TeamTipOut",
-          "HairBack: AI Balding Tracker"
+          "GDTPro: GD&T ASME ISO Calc",
+          "Clinada: Nurse Shift Planner",
+          "Fermentis!"
         ]
       },
       "onetime": {
-        "count": 12,
-        "percent": 17,
+        "count": 10,
+        "percent": 14,
         "examples": [
+          "GDTPro: GD&T ASME ISO Calc",
           "LiveSTT - ASR Locally",
-          "HairBack: AI Balding Tracker",
-          "KuficDraw"
+          "HairBack: AI Balding Tracker"
         ]
       },
       "unknown": {
@@ -830,12 +794,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 50,
-      "percent": 71,
+      "count": 52,
+      "percent": 74,
       "examples": [
-        "LiveSTT - ASR Locally",
-        "HairBack: AI Balding Tracker",
-        "SheCommute"
+        "GDTPro: GD&T ASME ISO Calc",
+        "Fermentis!",
+        "Okio: ADHD Task Reminder"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -843,33 +807,45 @@
   "techTrends": {
     "trends": [
       {
-        "tech": "ar_vr",
+        "tech": "ai",
         "count": 24,
         "percent": 34,
         "apps": [
-          "zeta - AI Character Roleplay Chat",
-          "CrimeRadar: Dispatch Alerts",
-          "Poop AI - Poop Tracker",
-          "CrimeRadar: Dispatch Alerts",
-          "AIسعراتي - SaaratyAI"
+          "Vela: PCOS Daily Support",
+          "zeta - AI Roleplay Chat",
+          "LiveSTT - ASR Locally",
+          "HairBack: AI Balding Tracker",
+          "zeta - AI Character Roleplay Chat"
         ]
       },
       {
-        "tech": "ai",
+        "tech": "ar_vr",
         "count": 23,
         "percent": 33,
         "apps": [
-          "LiveSTT - ASR Locally",
-          "HairBack: AI Balding Tracker",
-          "zeta - AI Character Roleplay Chat",
+          "GDTPro: GD&T ASME ISO Calc",
+          "Fermentis!",
+          "Vela: PCOS Daily Support",
+          "CrimeRadar: Dispatch Alerts",
+          "Loopit - Make Playables"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Clinada: Nurse Shift Planner",
+          "TeamTipOut",
           "Mail - Unified AI Email Organizer",
-          "AI 소음·잡음 제거 – Shhh!"
+          "t.ai",
+          "Loopit — Make Playables"
         ]
       },
       {
         "tech": "social",
-        "count": 9,
-        "percent": 13,
+        "count": 6,
+        "percent": 9,
         "apps": [
           "SetBook: Gig & Setlist Manager",
           "Loopit - Make Playables",
@@ -879,25 +855,13 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "TeamTipOut",
-          "Mail - Unified AI Email Organizer",
-          "t.ai",
-          "Loopit — Make Playables",
-          "포켓카운터 - 이로치 헌팅 카운터"
-        ]
-      },
-      {
-        "tech": "subscription",
+        "tech": "creator",
         "count": 3,
         "percent": 4,
         "apps": [
-          "Sewganizer",
-          "Private Notes (Nostr)",
-          "Loopit - Make Playables"
+          "Loopit - Make Playables",
+          "Loopit - Make Playables",
+          "Reelway: feel-good clips"
         ]
       },
       {
@@ -910,12 +874,12 @@
         ]
       },
       {
-        "tech": "creator",
+        "tech": "subscription",
         "count": 2,
         "percent": 3,
         "apps": [
-          "Loopit - Make Playables",
-          "Reelway: feel-good clips"
+          "Sewganizer",
+          "Private Notes (Nostr)"
         ]
       },
       {
@@ -928,40 +892,28 @@
       }
     ],
     "dominant": {
-      "tech": "ar_vr",
+      "tech": "ai",
       "count": 24,
       "percent": 34,
       "apps": [
-        "zeta - AI Character Roleplay Chat",
-        "CrimeRadar: Dispatch Alerts",
-        "Poop AI - Poop Tracker",
-        "CrimeRadar: Dispatch Alerts",
-        "AIسعراتي - SaaratyAI"
+        "Vela: PCOS Daily Support",
+        "zeta - AI Roleplay Chat",
+        "LiveSTT - ASR Locally",
+        "HairBack: AI Balding Tracker",
+        "zeta - AI Character Roleplay Chat"
       ]
     },
     "emerging": [
       {
-        "tech": "social",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "SetBook: Gig & Setlist Manager",
-          "Loopit - Make Playables",
-          "PolyBuzz: Chat with AI Friends",
-          "Timee - One-off Part-time Jobs",
-          "Apartment-i - Apartment App"
-        ]
-      },
-      {
         "tech": "productivity",
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "Clinada: Nurse Shift Planner",
           "TeamTipOut",
           "Mail - Unified AI Email Organizer",
           "t.ai",
-          "Loopit — Make Playables",
-          "포켓카운터 - 이로치 헌팅 카운터"
+          "Loopit — Make Playables"
         ]
       }
     ]
@@ -973,6 +925,41 @@
       "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Shopping"
+    },
+    {
+      "type": "rising_category",
+      "title": "Medical 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Medical"
+    },
+    {
+      "type": "rising_category",
+      "title": "Public Safety 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Public Safety"
+    },
+    {
+      "type": "rising_category",
+      "title": "Content Creation 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Content Creation"
+    },
+    {
+      "type": "rising_category",
+      "title": "Launcher 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Launcher"
+    },
+    {
+      "type": "rising_category",
+      "title": "AI Chat 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "AI Chat"
     },
     {
       "type": "rising_category",
@@ -1053,6 +1040,13 @@
     },
     {
       "type": "rising_category",
+      "title": "Photo & Video 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Photo & Video"
+    },
+    {
+      "type": "rising_category",
       "title": "Safety Alerts 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1088,67 +1082,32 @@
     },
     {
       "type": "rising_category",
-      "title": "Sports 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Weather 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Sports"
-    },
-    {
-      "type": "rising_category",
-      "title": "Nature & Citizen Science 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Nature & Citizen Science"
-    },
-    {
-      "type": "rising_category",
-      "title": "Personalization & Launchers 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Personalization & Launchers"
-    },
-    {
-      "type": "rising_category",
-      "title": "Security & Anti-Fraud 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Security & Anti-Fraud"
-    },
-    {
-      "type": "rising_category",
-      "title": "Advertising & Creative Tools 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Advertising & Creative Tools"
-    },
-    {
-      "type": "rising_category",
-      "title": "Public Safety & Alerts 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Public Safety & Alerts"
+      "category": "Weather"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "33%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Shopping 카테고리가 200% 급성장하며 블루오션을 형성했고, '1인개발가능' 키워드가 45회로 최고 빈도를 기록했습니다. AI와 AR/VR 기술이 앱의 1/3 이상에 적용되며 필수 기술로 자리잡고 있습니다.",
+    "trend_summary": "Shopping 카테고리가 200% 폭증하며 가장 뜨거운 시장으로 떠올랐고, AI 기능 통합이 34%에 달해 필수 요소가 되었습니다. 1인 개발자에게 유리한 환경이 조성되고 있으며 Freemium 모델이 74%로 주류 수익 모델로 자리잡았습니다.",
     "trend_details": [
-      "1인 개발자 친화적 앱에 대한 수요 급증 (45회 언급)",
-      "AI(33%)와 AR/VR(34%) 기술 통합이 앱 개발의 새로운 기준이 됨",
-      "Freemium(71%) + Subscription(60%) 조합이 주류 수익화 모델로 확립"
+      "Shopping 앱 200% 급증으로 커머스 디지털화 가속",
+      "AI/AR 기술이 67%의 앱에 적용되며 기술 혁신 주도",
+      "Freemium+Subscription 조합이 새로운 표준 수익 모델로 부상"
     ],
     "hot_categories": [
       "Shopping",
-      "Safety & Alerts"
+      "Medical"
     ],
-    "opportunity": "Shopping 카테고리는 200% 급성장했지만 경쟁 앱 수가 적어 AI 기능을 결합한 혁신적 쇼핑 앱 개발의 골든타임입니다.",
-    "action_item": "AI 추천 알고리즘을 활용한 개인화 쇼핑 앱을 Freemium 모델로 빠르게 MVP 개발하여 시장 선점을 노리세요.",
-    "weekly_theme": "AI 쇼핑혁신"
+    "opportunity": "Shopping 카테고리는 200% 증가했지만 겨우 3개 앱만 존재해 거대한 블루오션 시장입니다.",
+    "action_item": "AI 개인화 기능을 탑재한 쇼핑 앱을 Freemium 모델로 빠르게 출시하세요.",
+    "weekly_theme": "AI 쇼핑"
   }
 }
