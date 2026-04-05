@@ -1,0 +1,635 @@
+{
+  "date": "2026-04-06",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "BreakTodo - AI 拆分任务 | ADHD 필备",
+      "developer": "SHAOPENG LIU",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/aa/02/6eaa0219-7a33-2eff-c6ae-e0e21b12bedf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/breaktodo-ai-%E6%8B%86%E5%88%86%E4%BB%BB%E5%8A%A1-adhd-%E5%BF%85%E5%A4%87/id6761316720?uo=2",
+      "idea_summary": "AI가 큰 업무를 작은 단계로 분해해주는 ADHD 생산성 앱",
+      "analysis": {
+        "problem": "ADHD 환자들이 큰 작업을 압도적으로 느끼고 미루는 문제 해결 [추론]",
+        "solution": "AI가 복잡한 작업을 관리 가능한 작은 단계로 자동 분해하고 스케줄링 [확인]",
+        "target_user": "ADHD 환자, 작업 관리에 어려움을 겪는 직장인들 [추론]",
+        "unique_point": "단순 투두 리스트가 아닌 AI 기반 작업 분해와 ADHD 특화 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "Any.do",
+          "Notion"
+        ],
+        "timing_reason": "ADHD 인식 증가와 정신 건강 앱 시장 확대 시기 [추론]",
+        "growth_potential": "ADHD 진단률 증가와 생산성 앱 수요 확대로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 (월 9.99달러 추정) [추론]",
+        "pricing_suggestion": "무료 기본 기능 + 월 4.99달러 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OpenAI API",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 작업 분해",
+          "스마트 알림",
+          "진행률 추적"
+        ],
+        "clone_tip": "ADHD 연구 자료 분석하고 실제 환자 피드백 수집이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#정신건강"
+      ],
+      "verdict": "ADHD 특화 솔루션으로 차별화된 생산성 앱 기회",
+      "deep_report_id": "ios-breaktodo-ai-adhd-필-1775401781107"
+    },
+    {
+      "rank": 2,
+      "name": "AtlasDays: Track Country Days",
+      "developer": "Jorick van Meijeren",
+      "category": "Travel",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/45/96/06459653-d3b1-3116-680e-c1ffba8dffba/AppIcon-0-1x_U007epad-0-1-0-sRGB-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/atlasdays-track-country-days/id6760133544?uo=2",
+      "idea_summary": "비자와 세금 규정 준수를 위한 국가별 체류일 추적 앱",
+      "analysis": {
+        "problem": "디지털 노마드와 국제 여행자들의 복잡한 비자/세금 규정 관리 어려움 [확인]",
+        "solution": "자동 위치 추적으로 국가별 체류일 계산하고 규정 위반 방지 알림 [확인]",
+        "target_user": "디지털 노마드, 국제 출장 많은 비즈니스맨, 장기 여행자 [추론]",
+        "unique_point": "단순 여행 기록이 아닌 법적 규정 준수에 특화된 실용적 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TripIt",
+          "Travel Mapper",
+          "Visited Countries"
+        ],
+        "timing_reason": "원격근무 확산과 디지털 노마드 증가로 수요 급증 [추론]",
+        "growth_potential": "글로벌 원격근무 트렌드 지속과 국제 세법 복잡화로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (월 4.99달러, 연 39.99달러) [추론]",
+        "pricing_suggestion": "무료 기본 추적 + 월 2.99달러 고급 분석 및 알림 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "200-350만원 [추론]",
+        "tech_stack": [
+          "Swift/Kotlin",
+          "Core Location",
+          "SQLite"
+        ],
+        "key_features": [
+          "자동 위치 추적",
+          "규정 데이터베이스",
+          "알림 시스템"
+        ],
+        "clone_tip": "각국 비자/세금 규정 데이터베이스 구축이 핵심 차별화 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행"
+      ],
+      "verdict": "틈새시장이지만 명확한 문제 해결하는 실용적 도구"
+    },
+    {
+      "rank": 3,
+      "name": "GLP Buddy: GLP-1 Companion",
+      "developer": "Shabarish Balaji",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/ef/83/0aef830a-774f-a1d3-fe68-fd0c5f351d78/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/glp-buddy-glp-1-companion/id6757923165?uo=2",
+      "idea_summary": "GLP-1 당뇨병 주사 관리와 부작용 추적 전문 앱",
+      "analysis": {
+        "problem": "GLP-1 주사 치료 환자들의 복잡한 투약 스케줄과 부작용 관리 어려움 [확인]",
+        "solution": "주사 일정 알림, 부작용 추적, 병원 예약 관리를 통합 제공 [확인]",
+        "target_user": "당뇨병 환자, 비만 치료 받는 GLP-1 주사 사용자 [확인]",
+        "unique_point": "GLP-1 특화된 의료 관리 앱으로 일반 건강 앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MySugr",
+          "Diabetes:M",
+          "Glucose Buddy"
+        ],
+        "timing_reason": "GLP-1 약물 사용 급증과 당뇨병 환자 증가 추세 [추론]",
+        "growth_potential": "글로벌 당뇨병 시장 성장과 GLP-1 처방 확대로 높은 성장성 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독 모델 (프리미엄 기능) [추론]",
+        "pricing_suggestion": "무료 기본 + 월 9.99달러 고급 분석 및 의료진 연동 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "HealthKit",
+          "의료 API"
+        ],
+        "key_features": [
+          "투약 알림",
+          "부작용 추적",
+          "의료진 리포트"
+        ],
+        "clone_tip": "의료 규정 준수와 실제 의료진 피드백 수집이 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "특화된 의료 분야로 높은 진입장벽과 수익성 확보"
+    },
+    {
+      "rank": 4,
+      "name": "Orders: Manage DMs & Sales",
+      "developer": "Micro.company",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/68/f0/d068f05a-1634-23ca-a9bf-ca06abae964c/icn-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/orders-manage-dms-sales/id6757393092?uo=2",
+      "idea_summary": "인스타그램 DM 주문을 체계적으로 관리하는 소상공인 도구",
+      "analysis": {
+        "problem": "소상공인들이 인스타그램 DM 주문을 수동으로 관리하는 비효율성 [확인]",
+        "solution": "DM 주문 중앙화, 고객 추적, 인보이스 생성, 배송 관리 통합 [확인]",
+        "target_user": "인스타그램 기반 소상공인, 개인 판매자, 핸드메이드 사업자 [추론]",
+        "unique_point": "DM 기반 주문 관리에 특화된 B2B 도구로 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Shopify",
+          "Square",
+          "Instagram Shopping"
+        ],
+        "timing_reason": "소셜 커머스 급성장과 개인 사업자 증가 트렌드 [추론]",
+        "growth_potential": "인스타그램 쇼핑 확산과 1인 사업자 증가로 성장 기대 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독 모델 (거래량별 차등) [추론]",
+        "pricing_suggestion": "무료 기본 (월 50건) + 월 19.99달러 무제한 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "300-450만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Instagram API",
+          "결제 API"
+        ],
+        "key_features": [
+          "DM 통합",
+          "주문 추적",
+          "인보이스 생성"
+        ],
+        "clone_tip": "Instagram API 연동과 결제 시스템 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#소상공인"
+      ],
+      "verdict": "소셜 커머스 트렌드에 맞는 실용적 B2B 솔루션"
+    },
+    {
+      "rank": 5,
+      "name": "friendkeeper",
+      "developer": "Jonathan Rankin",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/67/e8/6667e8cf-2e98-39a1-7309-4ffe221804fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/friendkeeper/id1497468055?uo=2",
+      "idea_summary": "관계 관리 알림과 활동 제안으로 우정 유지하는 앱",
+      "analysis": {
+        "problem": "바쁜 일상 속에서 친구들과 관계 유지가 어려운 현대인 문제 [확인]",
+        "solution": "친구별 연락 알림, 활동 기록, 만남 제안으로 관계 관리 자동화 [확인]",
+        "target_user": "바쁜 직장인, 사회적 관계 관리에 어려움 겪는 성인들 [추론]",
+        "unique_point": "CRM을 개인 관계에 적용한 참신한 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Calendly",
+          "Facebook",
+          "관계 관리 앱들"
+        ],
+        "timing_reason": "팬데믹 이후 인간관계 소중함 재인식과 관계 관리 니즈 증가 [추론]",
+        "growth_potential": "개인 관계 관리 시장 초기 단계로 성장 잠재력 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "무료 기본 (친구 10명) + 월 2.99달러 무제한 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "200-300만원 [추론]",
+        "tech_stack": [
+          "Swift/Kotlin",
+          "Push Notifications",
+          "Core Data"
+        ],
+        "key_features": [
+          "관계 추적",
+          "스마트 알림",
+          "활동 제안"
+        ],
+        "clone_tip": "사용자 심리학 연구와 자연스러운 알림 로직 개발이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#라이프스타일"
+      ],
+      "verdict": "참신한 아이디어지만 시장 검증이 필요한 틈새 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "category": "Personalization",
+      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "시니어와 접근성 사용자를 위한 초간단 런처",
+      "analysis": {
+        "problem": "고령자와 기술 초보자들이 복잡한 스마트폰 인터페이스 사용 어려움 [확인]",
+        "solution": "큰 아이콘, 간단한 레이아웃, 필수 기능만 제공하는 접근성 런처 [확인]",
+        "target_user": "60대 이상 시니어, 시각 장애인, 스마트폰 초보자 [추론]",
+        "unique_point": "복잡함 제거에 특화된 극도로 단순한 사용자 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Big Launcher",
+          "Simple Launcher",
+          "Senior Launcher"
+        ],
+        "timing_reason": "고령화 사회 진입과 시니어 디지털 접근성 중요성 대두 [추론]",
+        "growth_potential": "전 세계 고령화와 접근성 의식 증가로 꾸준한 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 + 프리미엄 버전 [추론]",
+        "pricing_suggestion": "무료 기본 + 일회성 4.99달러 광고 제거 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "150-250만원 [추론]",
+        "tech_stack": [
+          "Android Launcher API",
+          "Kotlin",
+          "Material Design"
+        ],
+        "key_features": [
+          "큰 아이콘",
+          "음성 지원",
+          "간편 설정"
+        ],
+        "clone_tip": "실제 시니어 사용자 테스트와 접근성 가이드라인 준수 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#접근성"
+      ],
+      "verdict": "사회적 가치와 실용성을 겸비한 의미있는 솔루션",
+      "deep_report_id": "android-easy-homescreen-1775401873032"
+    },
+    {
+      "rank": 2,
+      "name": "Citizen Conan - Anti-Phishing & Fraud Prevention",
+      "developer": "(주)인피니그루",
+      "category": "Security",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "크라우드소싱 기반 실시간 피싱 사기 방지 앱",
+      "analysis": {
+        "problem": "증가하는 온라인 사기와 피싱 공격에 개인이 무방비 상태 [확인]",
+        "solution": "사용자 제보 기반 실시간 사기 데이터베이스와 자동 차단 기능 [확인]",
+        "target_user": "온라인 거래 활발한 일반 소비자, 사기 피해 우려 사용자 [추론]",
+        "unique_point": "크라우드소싱과 실시간 업데이트로 빠른 대응력 확보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Truecaller",
+          "Hiya",
+          "보안 앱들"
+        ],
+        "timing_reason": "디지털 금융 확산과 온라인 사기 급증으로 보안 의식 증가 [추론]",
+        "growth_potential": "사기 피해 증가와 보안 인식 확산으로 지속 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 기업 라이선스 [추론]",
+        "pricing_suggestion": "무료 기본 보호 + 월 4.99달러 고급 분석 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "500-700만원 [추론]",
+        "tech_stack": [
+          "Android Security API",
+          "실시간 DB",
+          "ML 분석"
+        ],
+        "key_features": [
+          "실시간 차단",
+          "사용자 제보",
+          "AI 분석"
+        ],
+        "clone_tip": "초기 사용자 확보와 정확한 사기 DB 구축이 성공 관건 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#보안"
+      ],
+      "verdict": "사회적 필요성 높은 보안 솔루션으로 확장성 우수"
+    },
+    {
+      "rank": 3,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "Public Safety",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 경찰 무전 청취로 동네 범죄 정보 제공",
+      "analysis": {
+        "problem": "지역 범죄 정보를 실시간으로 파악하기 어려운 주민들의 안전 불안감 [확인]",
+        "solution": "경찰 무전 데이터 수집과 위치 기반 범죄 알림으로 실시간 정보 제공 [확인]",
+        "target_user": "안전 의식 높은 지역 주민, 부모, 야간 근무자 [추론]",
+        "unique_point": "공식 경찰 데이터 활용한 신뢰성 높은 실시간 정보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "NextDoor",
+          "Citizen",
+          "Scanner Radio"
+        ],
+        "timing_reason": "도시 범죄 증가와 개인 안전에 대한 관심 증대 [추론]",
+        "growth_potential": "안전 의식 증가와 실시간 정보 수요로 성장 전망 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 2.99달러 고급 필터링 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Audio Processing",
+          "Location API",
+          "Push Notifications"
+        ],
+        "key_features": [
+          "무전 파싱",
+          "위치 필터링",
+          "실시간 알림"
+        ],
+        "clone_tip": "각 지역별 경찰 무전 시스템 분석과 법적 허용 범위 확인 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#안전"
+      ],
+      "verdict": "지역 특화 정보 서비스로 틈새 시장 공략 가능"
+    },
+    {
+      "rank": 4,
+      "name": "zeta - AI Character Roleplay Chat",
+      "developer": "Scatter Lab, Inc.",
+      "category": "Social",
+      "icon": "https://play-lh.googleusercontent.com/7BHCCDafgblr3UBNNx-ELJ_Ni1mA_iesxlPnyAQXXR1AeHtjwgNLmSRqWXlJg7EhKuE5__EvkoRmycKTQ3X_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger",
+      "idea_summary": "커스터마이징 가능한 AI 캐릭터와 롤플레이 채팅",
+      "analysis": {
+        "problem": "외로움과 사회적 고립감을 겪는 현대인들의 정서적 소통 욕구 [추론]",
+        "solution": "개성있는 AI 캐릭터와의 롤플레이를 통한 감정적 만족과 엔터테인먼트 [확인]",
+        "target_user": "Z세대, 애니메이션/게임 팬, 사회적 교류 어려워하는 사용자 [추론]",
+        "unique_point": "단순 챗봇이 아닌 캐릭터 롤플레이에 특화된 상호작용 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "Chai"
+        ],
+        "timing_reason": "AI 기술 발전과 개인화된 디지털 동반자 수요 증가 [추론]",
+        "growth_potential": "AI 기술 발전과 메타버스 관심으로 지속 성장 기대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 캐릭터/기능 구매 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 9.99달러 무제한 대화 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
+        "tech_stack": [
+          "LLM API",
+          "React Native",
+          "캐릭터 생성 AI"
+        ],
+        "key_features": [
+          "AI 대화",
+          "캐릭터 커스터마이징",
+          "롤플레이 모드"
+        ],
+        "clone_tip": "자연스러운 캐릭터 페르소나 구현과 대화 품질이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "AI 트렌드 부합하지만 장기적 사용자 리텐션이 관건"
+    },
+    {
+      "rank": 5,
+      "name": "Too Good To Go",
+      "developer": "Too Good To Go Aps",
+      "category": "Food & Drink",
+      "icon": "https://play-lh.googleusercontent.com/SKnwpZGNeXk8dSPNH2l3tDkpweSu8WWZ-UfC576vhK5d0RQKeYyPGCqsaM1b_7HoZdzjHvutaA6xqcqvBwcEtA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.app.tgtg",
+      "idea_summary": "음식 폐기물 줄이는 할인 잉여 음식 구매 앱",
+      "analysis": {
+        "problem": "식당들의 일일 잉여 음식 폐기와 소비자의 저렴한 식사 니즈 [확인]",
+        "solution": "폐기 예정 음식을 할인가로 연결하는 양방향 플랫폼 [확인]",
+        "target_user": "가격 민감한 학생/직장인, 환경 의식 있는 소비자 [추론]",
+        "unique_point": "환경 보호와 경제적 이익을 동시에 해결하는 ESG 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "FoodCloud",
+          "Flashfood",
+          "Olio"
+        ],
+        "timing_reason": "환경 의식 증가와 음식 폐기물 문제의 사회적 관심 증대 [추론]",
+        "growth_potential": "ESG 경영 확산과 지속가능성 트렌드로 성장 지속 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료 + 식당 월 구독료 [추론]",
+        "pricing_suggestion": "소비자 무료 + 식당 거래당 10-15% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "350-500만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "지도 API",
+          "결제 시스템"
+        ],
+        "key_features": [
+          "위치 기반 검색",
+          "실시간 재고",
+          "예약 시스템"
+        ],
+        "clone_tip": "초기 식당 파트너 확보와 지역별 맞춤 전략이 성공 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#ESG"
+      ],
+      "verdict": "사회적 가치와 비즈니스 모델이 조화된 지속가능한 플랫폼"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 활용과 특화 솔루션이 주요 트렌드로, 니치 시장 타겟팅이 증가하고 있다 [추론]. 접근성과 사회적 가치를 중시하는 앱들이 주목받고 있다 [추론].",
+    "trend_details": [
+      "ADHD 등 특정 질환 타겟 앱 증가",
+      "크라우드소싱 기반 안전 서비스 확산",
+      "시니어 접근성 중심 UI/UX",
+      "ESG 가치 반영한 비즈니스 모델"
+    ],
+    "hot_categories": [
+      "Health & Fitness",
+      "Productivity",
+      "Security"
+    ],
+    "opportunity": "의료/헬스케어 특화 앱과 접근성 개선 솔루션이 블루오션 영역",
+    "action_item": "특정 사용자 그룹의 구체적 페인포인트 분석하여 니치 솔루션 발굴"
+  }
+}

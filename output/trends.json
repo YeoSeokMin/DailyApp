@@ -1,22 +1,68 @@
 {
-  "generatedAt": "2026-04-04T15:12:21.046Z",
+  "generatedAt": "2026-04-05T15:12:56.187Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Shopping",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
+      "category": "Music",
+      "currentCount": 4,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Queenit — Lifestyle Shop",
-        "Queenit - Lifestyle Shop for Stylish Adults",
-        "TheFair - Golfwear & Luxury Resale Platform"
+        "Chindamin - Sanshin Tuner",
+        "AI 소음·잡음 제거 – Shhh!",
+        "SetBook: Gig & Setlist Manager",
+        "Sostenuto: Music Practice SRS"
       ],
-      "avgScore": 8.4
+      "avgScore": 7.85
+    },
+    {
+      "category": "Photo & Video",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Stamp Snap: Capture & Collect",
+        "AngleAI – 3D Photo Camera"
+      ],
+      "avgScore": 7.75
+    },
+    {
+      "category": "Travel & Local",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Weather Trip"
+      ],
+      "avgScore": 8.6
+    },
+    {
+      "category": "Video Players & Editors",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "VibeMe AI: Music Video Maker"
+      ],
+      "avgScore": 8.2
+    },
+    {
+      "category": "Communication",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Location Sharing"
+      ],
+      "avgScore": 6.6
     },
     {
       "category": "Medical",
@@ -129,19 +175,6 @@
       "avgScore": 8
     },
     {
-      "category": "Music",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "AI 소음·잡음 제거 – Shhh!",
-        "SetBook: Gig & Setlist Manager",
-        "Sostenuto: Music Practice SRS"
-      ],
-      "avgScore": 8.200000000000001
-    },
-    {
       "category": "Graphics & Design",
       "currentCount": 1,
       "previousCount": 0,
@@ -199,15 +232,28 @@
       "avgScore": 8.3
     },
     {
-      "category": "Photo & Video",
-      "currentCount": 1,
-      "previousCount": 0,
+      "category": "Shopping",
+      "currentCount": 2,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "AngleAI – 3D Photo Camera"
+        "Queenit — Lifestyle Shop",
+        "Queenit - Lifestyle Shop for Stylish Adults"
       ],
-      "avgScore": 8.5
+      "avgScore": 8.3
+    },
+    {
+      "category": "Weather",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "First Screen Weather",
+        "First Screen Weather - Widget, Forecast, Air Quality"
+      ],
+      "avgScore": 7.95
     },
     {
       "category": "Safety Alerts",
@@ -232,18 +278,6 @@
       "avgScore": 7.6
     },
     {
-      "category": "Social",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "PolyBuzz: Chat with AI Friends",
-        "zeta - AI Character Roleplay Chat"
-      ],
-      "avgScore": 8.4
-    },
-    {
       "category": "Jobs",
       "currentCount": 1,
       "previousCount": 0,
@@ -255,34 +289,28 @@
       "avgScore": 8.8
     },
     {
-      "category": "News",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Dateline - Living in the News"
-      ],
-      "avgScore": 9
-    },
-    {
-      "category": "Weather",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "First Screen Weather",
-        "First Screen Weather - Widget, Forecast, Air Quality",
-        "Solar Metrics"
-      ],
-      "avgScore": 8.133333333333333
-    },
-    {
-      "category": "Health & Fitness",
+      "category": "Productivity",
       "currentCount": 8,
       "previousCount": 6,
       "changePercent": 33,
+      "changeDirection": "up",
+      "apps": [
+        "PureFlow Cartridge Tracker",
+        "Easy Mail - Email Launcher",
+        "GDTPro: GD&T ASME ISO Calc",
+        "Fermentis!",
+        "Okio: ADHD Task Reminder",
+        "KuficDraw",
+        "Rapeseed Tracker",
+        "Coincidence Tracker"
+      ],
+      "avgScore": 7.737500000000001
+    },
+    {
+      "category": "Health & Fitness",
+      "currentCount": 7,
+      "previousCount": 6,
+      "changePercent": 17,
       "changeDirection": "up",
       "apps": [
         "Vela: PCOS Daily Support",
@@ -291,59 +319,36 @@
         "Gout Food Scanner",
         "Poop AI - Poop Tracker",
         "AIسعراتي - SaaratyAI",
-        "Quit Tracker - QuitMap",
-        "MoneyWalk - Earn by Walking"
+        "Quit Tracker - QuitMap"
       ],
-      "avgScore": 7.925000000000001
-    },
-    {
-      "category": "Utilities",
-      "currentCount": 6,
-      "previousCount": 5,
-      "changePercent": 20,
-      "changeDirection": "up",
-      "apps": [
-        "LiveSTT - ASR Locally",
-        "포켓카운터 - 이로치 헌팅 카운터",
-        "EngineScan AI",
-        "Sewganizer",
-        "Lab Laps: Lab Multi Timer",
-        "Private Notes (Nostr)"
-      ],
-      "avgScore": 8.116666666666667
-    },
-    {
-      "category": "Productivity",
-      "currentCount": 7,
-      "previousCount": 6,
-      "changePercent": 17,
-      "changeDirection": "up",
-      "apps": [
-        "GDTPro: GD&T ASME ISO Calc",
-        "Fermentis!",
-        "Okio: ADHD Task Reminder",
-        "KuficDraw",
-        "Rapeseed Tracker",
-        "Coincidence Tracker",
-        "Locky: Do Tasks, Unlock Apps"
-      ],
-      "avgScore": 7.857142857142857
+      "avgScore": 7.885714285714286
     }
   ],
   "decliningCategories": [
     {
-      "category": "Lifestyle",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
+      "category": "Personalization",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
       "changeDirection": "down",
       "apps": [
-        "SheCommute",
-        "Apartment-i - Apartment App",
-        "VetReady: Pet Symptom Tracker",
-        "Gyeomsagyeomsa"
+        "Big Keyboard: Easy Homescreen",
+        "Free Talk Stickers - Personal Stickers"
       ],
-      "avgScore": 7.9750000000000005
+      "avgScore": 7.300000000000001
+    },
+    {
+      "category": "Lifestyle",
+      "currentCount": 3,
+      "previousCount": 5,
+      "changePercent": -40,
+      "changeDirection": "down",
+      "apps": [
+        "Woolsy - Crochet & Knitting",
+        "SheCommute",
+        "Apartment-i - Apartment App"
+      ],
+      "avgScore": 7.633333333333333
     },
     {
       "category": "Travel",
@@ -357,21 +362,10 @@
       "avgScore": 7.8
     },
     {
-      "category": "Personalization",
-      "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
-      "changeDirection": "down",
-      "apps": [
-        "Free Talk Stickers - Personal Stickers"
-      ],
-      "avgScore": 7.2
-    },
-    {
       "category": "Education",
       "currentCount": 1,
-      "previousCount": 6,
-      "changePercent": -83,
+      "previousCount": 5,
+      "changePercent": -80,
       "changeDirection": "down",
       "apps": [
         "Tigrinya: Dream Dictionary"
@@ -380,6 +374,17 @@
     }
   ],
   "stableCategories": [
+    {
+      "category": "Sports",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "SmashScore Padel"
+      ],
+      "avgScore": 7.8
+    },
     {
       "category": "Food & Drink",
       "currentCount": 2,
@@ -391,6 +396,21 @@
         "ICEBOX Dashboard"
       ],
       "avgScore": 7.85
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 5,
+      "previousCount": 5,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "LiveSTT - ASR Locally",
+        "포켓카운터 - 이로치 헌팅 카운터",
+        "EngineScan AI",
+        "Sewganizer",
+        "Lab Laps: Lab Multi Timer"
+      ],
+      "avgScore": 7.9799999999999995
     },
     {
       "category": "Business",
@@ -439,23 +459,32 @@
       "avgScore": 8
     },
     {
-      "category": "Finance",
+      "category": "Social",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Kalshi: Trade News & Sports"
+        "PolyBuzz: Chat with AI Friends"
       ],
-      "avgScore": 9
+      "avgScore": 8
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 40,
+      "count": 42,
       "apps": [
+        "SmashScore Padel",
+        "Chindamin - Sanshin Tuner",
+        "Stamp Snap: Capture & Collect",
+        "Woolsy - Crochet & Knitting",
+        "PureFlow Cartridge Tracker",
+        "Weather Trip",
+        "Big Keyboard: Easy Homescreen",
+        "Easy Mail - Email Launcher",
+        "Location Sharing",
         "LiveSTT - ASR Locally",
         "TeamTipOut",
         "HairBack: AI Balding Tracker",
@@ -486,21 +515,18 @@
         "Lab Laps: Lab Multi Timer",
         "Quit Tracker - QuitMap",
         "First Screen Weather - Widget, Forecast, Air Quality",
-        "PolyBuzz: Chat with AI Friends",
-        "Private Notes (Nostr)",
-        "Dateline - Living in the News",
-        "Locky: Do Tasks, Unlock Apps",
-        "VetReady: Pet Symptom Tracker",
-        "Solar Metrics",
-        "MoneyWalk - Earn by Walking",
-        "Gyeomsagyeomsa"
+        "PolyBuzz: Chat with AI Friends"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 33,
+      "count": 29,
       "apps": [
+        "SmashScore Padel",
+        "Woolsy - Crochet & Knitting",
+        "Weather Trip",
+        "VibeMe AI: Music Video Maker",
         "AI 소음·잡음 제거 – Shhh!",
         "CatNap: Sleep & Collect Cats",
         "Gout Food Scanner",
@@ -523,22 +549,16 @@
         "Quit Tracker - QuitMap",
         "First Screen Weather - Widget, Forecast, Air Quality",
         "PolyBuzz: Chat with AI Friends",
-        "Reelway: feel-good clips",
-        "Private Notes (Nostr)",
-        "Dateline - Living in the News",
-        "Locky: Do Tasks, Unlock Apps",
-        "VetReady: Pet Symptom Tracker",
-        "zeta - AI Character Roleplay Chat",
-        "MoneyWalk - Earn by Walking",
-        "Gyeomsagyeomsa",
-        "Kalshi: Trade News & Sports"
+        "Reelway: feel-good clips"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 25,
+      "count": 24,
       "apps": [
+        "VibeMe AI: Music Video Maker",
+        "Easy Mail - Email Launcher",
         "Vela: PCOS Daily Support",
         "zeta - AI Roleplay Chat",
         "HairBack: AI Balding Tracker",
@@ -554,15 +574,17 @@
         "AngleAI – 3D Photo Camera",
         "EngineScan AI",
         "First Screen Weather - Widget, Forecast, Air Quality",
-        "PolyBuzz: Chat with AI Friends",
-        "TheFair - Golfwear & Luxury Resale Platform"
+        "PolyBuzz: Chat with AI Friends"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 16,
+      "count": 15,
       "apps": [
+        "PureFlow Cartridge Tracker",
+        "Big Keyboard: Easy Homescreen",
+        "Location Sharing",
         "CrimeRadar: Dispatch Alerts",
         "zeta - AI Character Roleplay Chat",
         "AIسعراتي - SaaratyAI",
@@ -570,10 +592,7 @@
         "ICEBOX Dashboard",
         "GasApp - Start Energy Saving",
         "Timee - One-off Part-time Jobs",
-        "Apartment-i - Apartment App",
-        "Solar Metrics",
-        "TheFair - Golfwear & Luxury Resale Platform",
-        "MoneyWalk - Earn by Walking"
+        "Apartment-i - Apartment App"
       ]
     },
     {
@@ -581,6 +600,7 @@
       "category": "tag",
       "count": 12,
       "apps": [
+        "Easy Mail - Email Launcher",
         "GDTPro: GD&T ASME ISO Calc",
         "Clinada: Nurse Shift Planner",
         "Loopit - Make Playables",
@@ -589,36 +609,16 @@
         "LOCL: Regional Glyph Renderer",
         "t.ai",
         "Loopit — Make Playables",
-        "Lab Laps: Lab Multi Timer",
-        "Solar Metrics"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "tag",
-      "count": 5,
-      "apps": [
-        "Fermentis!",
-        "SetBook: Gig & Setlist Manager",
-        "Apartment-i - Apartment App",
-        "Gyeomsagyeomsa"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 5,
-      "apps": [
-        "Loopit - Make Playables",
-        "NanoDrama",
-        "Reelway: feel-good clips"
+        "Lab Laps: Lab Multi Timer"
       ]
     },
     {
       "keyword": "자동화",
       "category": "productivity",
-      "count": 5,
+      "count": 7,
       "apps": [
+        "VibeMe AI: Music Video Maker",
+        "Easy Mail - Email Launcher",
         "TeamTipOut",
         "Mail - Unified AI Email Organizer",
         "t.ai",
@@ -627,14 +627,58 @@
       ]
     },
     {
-      "keyword": "헬스케어",
+      "keyword": "AI활용",
       "category": "tag",
+      "count": 6,
+      "apps": [
+        "Stamp Snap: Capture & Collect",
+        "VibeMe AI: Music Video Maker",
+        "AIسعراتي - SaaratyAI",
+        "t.ai",
+        "EngineScan AI",
+        "PolyBuzz: Chat with AI Friends"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 6,
+      "apps": [
+        "VibeMe AI: Music Video Maker",
+        "Loopit - Make Playables",
+        "NanoDrama",
+        "Reelway: feel-good clips"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
       "count": 5,
       "apps": [
-        "HairBack: AI Balding Tracker",
-        "Gout Food Scanner",
-        "VetReady: Pet Symptom Tracker",
-        "MoneyWalk - Earn by Walking"
+        "Woolsy - Crochet & Knitting",
+        "Fermentis!",
+        "SetBook: Gig & Setlist Manager",
+        "Apartment-i - Apartment App"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "SmashScore Padel",
+        "Loopit - Make Playables",
+        "PolyBuzz: Chat with AI Friends"
+      ]
+    },
+    {
+      "keyword": "안전",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Location Sharing",
+        "SheCommute",
+        "CrimeRadar: Dispatch Alerts"
       ]
     },
     {
@@ -660,91 +704,73 @@
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "productivity",
-      "count": 4,
-      "apps": [
-        "Okio: ADHD Task Reminder",
-        "Mail - Unified AI Email Organizer",
-        "Locky: Do Tasks, Unlock Apps"
-      ]
-    },
-    {
-      "keyword": "B2B2C",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "CoDMON - Nursery Communication",
-        "Timee - One-off Part-time Jobs",
-        "Apartment-i - Apartment App",
-        "TheFair - Golfwear & Luxury Resale Platform"
-      ]
-    },
-    {
-      "keyword": "AI활용",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "AIسعراتي - SaaratyAI",
-        "t.ai",
-        "EngineScan AI",
-        "PolyBuzz: Chat with AI Friends"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 3,
-      "apps": [
-        "Loopit - Make Playables",
-        "PolyBuzz: Chat with AI Friends"
-      ]
-    },
-    {
-      "keyword": "안전",
+      "keyword": "틈새시장",
       "category": "tag",
       "count": 3,
       "apps": [
-        "SheCommute",
-        "CrimeRadar: Dispatch Alerts"
-      ]
-    },
-    {
-      "keyword": "B2B가능",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Rapeseed Tracker",
-        "Citizen Conan - Anti-Phishing & Fraud Prevention",
-        "Loopit - Make Playables"
-      ]
-    },
-    {
-      "keyword": "협업필요",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Timee - One-off Part-time Jobs",
-        "Apartment-i - Apartment App",
-        "Reelway: feel-good clips"
-      ]
-    },
-    {
-      "keyword": "의료",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Clinada: Nurse Shift Planner",
-        "Vela: PCOS Daily Support"
+        "SmashScore Padel",
+        "Chindamin - Sanshin Tuner",
+        "SetBook: Gig & Setlist Manager"
       ]
     },
     {
       "keyword": "취미",
       "category": "tag",
-      "count": 2,
+      "count": 3,
       "apps": [
+        "Woolsy - Crochet & Knitting",
         "Fermentis!",
         "Sewganizer"
+      ]
+    },
+    {
+      "keyword": "실용성",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "PureFlow Cartridge Tracker",
+        "ICEBOX Dashboard",
+        "GasApp - Start Energy Saving"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "VibeMe AI: Music Video Maker",
+        "NanoDrama",
+        "Reelway: feel-good clips"
+      ]
+    },
+    {
+      "keyword": "접근성",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Big Keyboard: Easy Homescreen",
+        "Okio: ADHD Task Reminder",
+        "Easy Homescreen"
+      ]
+    },
+    {
+      "keyword": "사회적가치",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Big Keyboard: Easy Homescreen",
+        "Easy Homescreen",
+        "Citizen Conan - Anti-Phishing & Fraud Prevention"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Easy Mail - Email Launcher",
+        "Okio: ADHD Task Reminder",
+        "Mail - Unified AI Email Organizer"
       ]
     }
   ],
@@ -754,52 +780,52 @@
         "count": 18,
         "percent": 26,
         "examples": [
-          "CatNap: Sleep & Collect Cats",
-          "LOCL: Regional Glyph Renderer",
-          "Gout Food Scanner"
+          "PureFlow Cartridge Tracker",
+          "Weather Trip",
+          "CatNap: Sleep & Collect Cats"
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "GDTPro: GD&T ASME ISO Calc",
-          "Fermentis!",
-          "Okio: ADHD Task Reminder"
+          "SmashScore Padel",
+          "Chindamin - Sanshin Tuner",
+          "Stamp Snap: Capture & Collect"
         ]
       },
       "subscription": {
-        "count": 45,
-        "percent": 64,
+        "count": 47,
+        "percent": 67,
         "examples": [
-          "GDTPro: GD&T ASME ISO Calc",
-          "Clinada: Nurse Shift Planner",
-          "Fermentis!"
+          "SmashScore Padel",
+          "Stamp Snap: Capture & Collect",
+          "Woolsy - Crochet & Knitting"
         ]
       },
       "onetime": {
-        "count": 10,
-        "percent": 14,
+        "count": 12,
+        "percent": 17,
         "examples": [
-          "GDTPro: GD&T ASME ISO Calc",
-          "LiveSTT - ASR Locally",
-          "HairBack: AI Balding Tracker"
+          "Chindamin - Sanshin Tuner",
+          "PureFlow Cartridge Tracker",
+          "GDTPro: GD&T ASME ISO Calc"
         ]
       },
       "unknown": {
-        "count": 5,
-        "percent": 7,
+        "count": 3,
+        "percent": 4,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "GDTPro: GD&T ASME ISO Calc",
-        "Fermentis!",
-        "Okio: ADHD Task Reminder"
+        "SmashScore Padel",
+        "Chindamin - Sanshin Tuner",
+        "Stamp Snap: Capture & Collect"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -808,14 +834,14 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 24,
-        "percent": 34,
+        "count": 25,
+        "percent": 36,
         "apps": [
-          "Vela: PCOS Daily Support",
-          "zeta - AI Roleplay Chat",
-          "LiveSTT - ASR Locally",
-          "HairBack: AI Balding Tracker",
-          "zeta - AI Character Roleplay Chat"
+          "Stamp Snap: Capture & Collect",
+          "Weather Trip",
+          "VibeMe AI: Music Video Maker",
+          "Easy Mail - Email Launcher",
+          "Vela: PCOS Daily Support"
         ]
       },
       {
@@ -823,23 +849,11 @@
         "count": 23,
         "percent": 33,
         "apps": [
-          "GDTPro: GD&T ASME ISO Calc",
-          "Fermentis!",
-          "Vela: PCOS Daily Support",
-          "CrimeRadar: Dispatch Alerts",
-          "Loopit - Make Playables"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 7,
-        "percent": 10,
-        "apps": [
-          "Clinada: Nurse Shift Planner",
-          "TeamTipOut",
-          "Mail - Unified AI Email Organizer",
-          "t.ai",
-          "Loopit — Make Playables"
+          "SmashScore Padel",
+          "PureFlow Cartridge Tracker",
+          "Big Keyboard: Easy Homescreen",
+          "Location Sharing",
+          "GDTPro: GD&T ASME ISO Calc"
         ]
       },
       {
@@ -847,67 +861,17 @@
         "count": 6,
         "percent": 9,
         "apps": [
+          "Woolsy - Crochet & Knitting",
           "SetBook: Gig & Setlist Manager",
           "Loopit - Make Playables",
           "PolyBuzz: Chat with AI Friends",
-          "Timee - One-off Part-time Jobs",
-          "Apartment-i - Apartment App"
+          "Timee - One-off Part-time Jobs"
         ]
       },
-      {
-        "tech": "creator",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "Loopit - Make Playables",
-          "Loopit - Make Playables",
-          "Reelway: feel-good clips"
-        ]
-      },
-      {
-        "tech": "health",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "CatNap: Sleep & Collect Cats",
-          "MoneyWalk - Earn by Walking"
-        ]
-      },
-      {
-        "tech": "subscription",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "Sewganizer",
-          "Private Notes (Nostr)"
-        ]
-      },
-      {
-        "tech": "fintech",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "Kalshi: Trade News & Sports"
-        ]
-      }
-    ],
-    "dominant": {
-      "tech": "ai",
-      "count": 24,
-      "percent": 34,
-      "apps": [
-        "Vela: PCOS Daily Support",
-        "zeta - AI Roleplay Chat",
-        "LiveSTT - ASR Locally",
-        "HairBack: AI Balding Tracker",
-        "zeta - AI Character Roleplay Chat"
-      ]
-    },
-    "emerging": [
       {
         "tech": "productivity",
-        "count": 7,
-        "percent": 10,
+        "count": 6,
+        "percent": 9,
         "apps": [
           "Clinada: Nurse Shift Planner",
           "TeamTipOut",
@@ -915,16 +879,85 @@
           "t.ai",
           "Loopit — Make Playables"
         ]
+      },
+      {
+        "tech": "creator",
+        "count": 4,
+        "percent": 6,
+        "apps": [
+          "VibeMe AI: Music Video Maker",
+          "Loopit - Make Playables",
+          "Loopit - Make Playables",
+          "Reelway: feel-good clips"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "Woolsy - Crochet & Knitting",
+          "Sewganizer"
+        ]
+      },
+      {
+        "tech": "health",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "CatNap: Sleep & Collect Cats"
+        ]
       }
-    ]
+    ],
+    "dominant": {
+      "tech": "ai",
+      "count": 25,
+      "percent": 36,
+      "apps": [
+        "Stamp Snap: Capture & Collect",
+        "Weather Trip",
+        "VibeMe AI: Music Video Maker",
+        "Easy Mail - Email Launcher",
+        "Vela: PCOS Daily Support"
+      ]
+    },
+    "emerging": []
   },
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "Shopping 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Music 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Shopping"
+      "category": "Music"
+    },
+    {
+      "type": "rising_category",
+      "title": "Photo & Video 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Photo & Video"
+    },
+    {
+      "type": "rising_category",
+      "title": "Travel & Local 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Travel & Local"
+    },
+    {
+      "type": "rising_category",
+      "title": "Video Players & Editors 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Video Players & Editors"
+    },
+    {
+      "type": "rising_category",
+      "title": "Communication 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Communication"
     },
     {
       "type": "rising_category",
@@ -998,13 +1031,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Music 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Music"
-    },
-    {
-      "type": "rising_category",
       "title": "Graphics & Design 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1040,10 +1066,17 @@
     },
     {
       "type": "rising_category",
-      "title": "Photo & Video 카테고리 급부상",
+      "title": "Shopping 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Photo & Video"
+      "category": "Shopping"
+    },
+    {
+      "type": "rising_category",
+      "title": "Weather 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Weather"
     },
     {
       "type": "rising_category",
@@ -1061,53 +1094,32 @@
     },
     {
       "type": "rising_category",
-      "title": "Social 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social"
-    },
-    {
-      "type": "rising_category",
       "title": "Jobs 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Jobs"
     },
     {
-      "type": "rising_category",
-      "title": "News 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "News"
-    },
-    {
-      "type": "rising_category",
-      "title": "Weather 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Weather"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "36%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Shopping 카테고리가 200% 폭증하며 가장 뜨거운 시장으로 떠올랐고, AI 기능 통합이 34%에 달해 필수 요소가 되었습니다. 1인 개발자에게 유리한 환경이 조성되고 있으며 Freemium 모델이 74%로 주류 수익 모델로 자리잡았습니다.",
+    "trend_summary": "AI와 AR/VR 기술이 앱 시장을 주도하는 가운데, 1인 개발자에게 유리한 환경이 조성되고 있습니다. Music, Photo & Video 등 다양한 카테고리에서 100% 성장률을 보이지만 경쟁 앱 수가 적어 블루오션 기회가 늘어나고 있습니다.",
     "trend_details": [
-      "Shopping 앱 200% 급증으로 커머스 디지털화 가속",
-      "AI/AR 기술이 67%의 앱에 적용되며 기술 혁신 주도",
-      "Freemium+Subscription 조합이 새로운 표준 수익 모델로 부상"
+      "AI 기능 통합이 36%의 앱에서 활용되며 필수 요소로 자리잡음",
+      "1인 개발 가능한 앱이 42회 언급되며 솔로 개발자에게 유리한 시장 환경",
+      "Freemium 모델이 79%로 주요 수익 구조로 정착하여 사용자 확보 전략 중요"
     ],
     "hot_categories": [
-      "Shopping",
-      "Medical"
+      "Music",
+      "Photo & Video"
     ],
-    "opportunity": "Shopping 카테고리는 200% 증가했지만 겨우 3개 앱만 존재해 거대한 블루오션 시장입니다.",
-    "action_item": "AI 개인화 기능을 탑재한 쇼핑 앱을 Freemium 모델로 빠르게 출시하세요.",
-    "weekly_theme": "AI 쇼핑"
+    "opportunity": "Music과 Photo & Video 카테고리가 100% 급성장하고 있지만 경쟁 앱이 적어 AI 기능을 활용한 1인 개발자의 진입 기회가 매우 높습니다.",
+    "action_item": "AI 기반 음악 제작 도구나 사진/비디오 편집 앱을 freemium 모델로 개발하여 급성장하는 시장에 빠르게 진입하세요.",
+    "weekly_theme": "AI 크리에이티브"
   }
 }
