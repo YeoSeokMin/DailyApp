@@ -1,0 +1,642 @@
+{
+  "date": "2026-04-07",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "LensLedger",
+      "developer": "Kurt Ertegun",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/a9/06/84a90643-0104-c560-ee82-b239d180a166/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/lensledger/id6761639901?uo=2",
+      "idea_summary": "사진작가를 위한 렌즈 관리 시스템 [확인]",
+      "analysis": {
+        "problem": "사진작가들이 렌즈 인벤토리, 사용 내역, 유지보수를 체계적으로 관리하지 못하는 문제 [추론]",
+        "solution": "렌즈별 사용 기록, 시리얼 번호, 대여 현황, 유지보수 일정을 통합 관리 [추론]",
+        "target_user": "전문 사진작가, 렌즈 대여 사업자, 사진 장비 관리자 [추론]",
+        "unique_point": "렌즈에 특화된 전문적인 관리 도구로 기존 범용 앱 대비 세밀한 기능 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Equipment Manager",
+          "Gear Tracker"
+        ],
+        "timing_reason": "크리에이터 경제 성장으로 전문 장비 관리 수요 증가 [추론]",
+        "growth_potential": "니치하지만 충성도 높은 시장으로 꾸준한 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 고급 기능 제공 [추론]",
+        "pricing_suggestion": "월 구독 9,900원, 연간 79,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1,500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "바코드 스캔",
+          "클라우드 동기화",
+          "리포트 생성",
+          "알림 시스템"
+        ],
+        "clone_tip": "카메라 연동과 렌즈 데이터베이스 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#니치마켓"
+      ],
+      "verdict": "전문가용 니치 시장, 충성도 높은 사용자층 확보 가능",
+      "deep_report_id": "ios-lensledger-1775488222021"
+    },
+    {
+      "rank": 2,
+      "name": "AutistaAI",
+      "developer": "Vinay Sachdea",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/c7/ae/e6c7ae73-23ad-9bbc-ec40-1f813408f285/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/autistaai/id6760936026?uo=2",
+      "idea_summary": "자폐스펙트럼을 위한 AI 동반자 [확인]",
+      "analysis": {
+        "problem": "자폐스펙트럼 장애인의 일상 루틴 관리와 사회적 소통에 어려움 [추론]",
+        "solution": "AI 기반 루틴 가이드, 감각 지원 도구, 의사소통 보조 기능 제공 [추론]",
+        "target_user": "자폐스펙트럼 당사자, 보호자, 특수교육 종사자 [추론]",
+        "unique_point": "자폐 특성에 맞춘 AI 개인화와 감각적 배려가 포함된 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Proloquo2Go",
+          "Choiceworks"
+        ],
+        "timing_reason": "장애 인식 개선과 AI 접근성 기술 발달로 시장 확대 [추론]",
+        "growth_potential": "사회적 가치와 시장성을 동시에 갖춘 고성장 가능 분야 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 프리미엄 기능 구독제 [추론]",
+        "pricing_suggestion": "월 19,900원, 가족 할인 제공 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3,000만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core ML",
+          "Speech Framework",
+          "HealthKit"
+        ],
+        "key_features": [
+          "음성인식",
+          "루틴 알림",
+          "감정 인식",
+          "진도 추적"
+        ],
+        "clone_tip": "자폐 전문가와의 협업으로 UX 검증이 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#소셜임팩트",
+        "#AI활용",
+        "#접근성"
+      ],
+      "verdict": "사회적 가치와 수익성을 겸비한 의미있는 사업 아이템"
+    },
+    {
+      "rank": 3,
+      "name": "BugLens - Insect Identifier",
+      "developer": "People Shift",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6c/6b/ec/6c6becd2-ebe2-0ad7-3e23-c19a5e550927/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/buglens-insect-identifier/id6761136562?uo=2",
+      "idea_summary": "AI 곤충 식별 및 정보 제공 앱 [확인]",
+      "analysis": {
+        "problem": "일반인이 곤충을 정확히 식별하고 정보를 얻기 어려운 문제 [추론]",
+        "solution": "사진 촬영만으로 AI가 곤충을 식별하고 분류학적 정보와 서식지 제공 [추론]",
+        "target_user": "자연 애호가, 학부모, 교육자, 연구자 [추론]",
+        "unique_point": "곤충 전문 AI 모델과 풍부한 생태 정보 데이터베이스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PlantNet",
+          "Seek by iNaturalist"
+        ],
+        "timing_reason": "생태 교육에 대한 관심 증가와 AI 이미지 인식 기술 성숙 [추론]",
+        "growth_potential": "교육 시장과 연계하여 안정적 성장 예상 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 고급 정보와 오프라인 DB 제공 [추론]",
+        "pricing_suggestion": "월 4,900원, 연간 39,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "2,000만원 [추론]",
+        "tech_stack": [
+          "Vision Framework",
+          "Core ML",
+          "ARKit"
+        ],
+        "key_features": [
+          "실시간 촬영",
+          "오프라인 식별",
+          "위치 기반 서비스",
+          "도감 기능"
+        ],
+        "clone_tip": "곤충 이미지 데이터셋 구축과 전문가 검수가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#교육용",
+        "#AI활용",
+        "#자연과학"
+      ],
+      "verdict": "교육 시장 연계로 꾸준한 수요가 기대되는 틈새 아이템"
+    },
+    {
+      "rank": 4,
+      "name": "BoilerSteamNavigator",
+      "developer": "Makluk ABAN",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/36/2f/e7362fb7-c2b8-d9e9-3950-23f6358d4d33/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/boilersteamnavigator/id6761673232?uo=2",
+      "idea_summary": "보일러 운영 가이드 및 증기 계산 [확인]",
+      "analysis": {
+        "problem": "보일러 운영자들이 복잡한 증기 계산과 안전 점검을 수동으로 처리하는 비효율 [추론]",
+        "solution": "증기 계산 자동화, 안전 점검 체크리스트, 진단 도구 통합 제공 [추론]",
+        "target_user": "보일러 기술자, 플랜트 운영자, 설비 관리자 [추론]",
+        "unique_point": "보일러 운영에 특화된 전문적 계산과 안전 관리 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Steam Tables",
+          "Boiler Efficiency Calculator"
+        ],
+        "timing_reason": "산업 안전 규제 강화와 디지털 전환으로 수요 증가 [추론]",
+        "growth_potential": "산업용 앱 시장 특성상 높은 단가와 안정적 수익 [추측]"
+      },
+      "business": {
+        "monetization": "기업 라이선스 판매와 연간 구독 [추론]",
+        "pricing_suggestion": "개인용 월 29,000원, 기업용 별도 협의 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "2,500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Charts Framework",
+          "PDF Kit"
+        ],
+        "key_features": [
+          "증기표 계산",
+          "효율 분석",
+          "리포트 생성",
+          "규정 준수"
+        ],
+        "clone_tip": "공학적 정확성과 산업 표준 준수가 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2B",
+        "#산업용",
+        "#전문도구"
+      ],
+      "verdict": "틈새시장이지만 높은 수익성과 진입장벽을 가진 전문 영역"
+    },
+    {
+      "rank": 5,
+      "name": "AquaKettle Thickness Ledger",
+      "developer": "Alpbilge Armagan",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/83/c2/5a83c28b-1b43-db80-fdde-edcaef254c91/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aquakettle-thickness-ledger/id6761602003?uo=2",
+      "idea_summary": "보일러 벽 두께 측정 관리 시스템 [확인]",
+      "analysis": {
+        "problem": "보일러 벽 두께 측정 데이터를 수기로 기록하여 관리하는 비효율성과 규정 준수 어려움 [추론]",
+        "solution": "두께 측정값 디지털 기록, 트렌드 분석, 규정 준수 알림 자동화 [추론]",
+        "target_user": "보일러 점검 기술자, 플랜트 운영 관리자, 산업 안전 담당자 [추론]",
+        "unique_point": "두께 측정에 특화된 데이터 입력과 규정 기준 자동 비교 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Inspection Data Manager",
+          "NDT Assistant"
+        ],
+        "timing_reason": "산업 안전 규제 강화로 정밀한 기록 관리 필요성 증대 [추론]",
+        "growth_potential": "규제 준수 필수 영역으로 안정적 시장 형성 [추측]"
+      },
+      "business": {
+        "monetization": "기업용 구독 라이선스와 컨설팅 서비스 [추론]",
+        "pricing_suggestion": "월 49,000원, 기업용 패키지 별도 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "2,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts",
+          "CSV Export"
+        ],
+        "key_features": [
+          "데이터 입력",
+          "트렌드 차트",
+          "알림 시스템",
+          "리포트 출력"
+        ],
+        "clone_tip": "산업 표준과 규정에 대한 정확한 이해가 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 2,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2B",
+        "#규제준수",
+        "#산업안전"
+      ],
+      "verdict": "매우 전문적이지만 필수적인 영역으로 높은 수익 잠재력"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Loopit - Make Playables",
+      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
+      "category": "Marketing & Design",
+      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
+      "idea_summary": "모바일 마케팅용 인터랙티브 광고 제작 [확인]",
+      "analysis": {
+        "problem": "마케터들이 효과적인 플레이어블 광고를 쉽게 제작하지 못하는 문제 [추론]",
+        "solution": "드래그앤드롭으로 인터랙티브한 플레이어블 광고와 프로토타입 제작 [추론]",
+        "target_user": "모바일 마케터, 광고 대행사, 게임 개발자, 스타트업 [추론]",
+        "unique_point": "전문 개발 지식 없이도 고품질 플레이어블 광고 제작 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Playturbo",
+          "AdCreative.ai"
+        ],
+        "timing_reason": "모바일 광고 시장 성장과 플레이어블 광고 효과 입증으로 수요 급증 [추론]",
+        "growth_potential": "광고 기술 시장 성장과 함께 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "SaaS 구독 모델과 사용량 기반 요금제 [추론]",
+        "pricing_suggestion": "월 99,000원부터 티어별 차등 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "5,000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "WebGL",
+          "Node.js",
+          "AWS"
+        ],
+        "key_features": [
+          "템플릿 라이브러리",
+          "실시간 미리보기",
+          "A/B 테스트",
+          "성과 분석"
+        ],
+        "clone_tip": "WebGL 기반 렌더링 엔진과 광고 플랫폼 API 연동이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.8
+      },
+      "tags": [
+        "#B2B",
+        "#마케팅도구",
+        "#SaaS"
+      ],
+      "verdict": "마케팅 기술 시장의 핵심 니즈를 해결하는 고수익 아이템",
+      "deep_report_id": "android-loopit-make-playables-1775488302905"
+    },
+    {
+      "rank": 2,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "Safety & Alerts",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 범죄 신고 알림 서비스 [확인]",
+      "analysis": {
+        "problem": "시민들이 주변 범죄 상황을 실시간으로 파악하기 어려워 안전에 취약 [추론]",
+        "solution": "경찰 무선 및 신고 데이터를 실시간으로 수집하여 위치 기반 알림 제공 [추론]",
+        "target_user": "안전 의식이 높은 시민, 부모, 지역 상인, 보안 업계 종사자 [추론]",
+        "unique_point": "공공 안전 데이터를 활용한 실시간성과 정확한 위치 기반 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "Nextdoor"
+        ],
+        "timing_reason": "사회 안전에 대한 관심 증가와 실시간 정보 공유 문화 확산 [추론]",
+        "growth_potential": "공공 안전 영역의 필수 서비스로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 상세 알림과 히스토리 제공 [추론]",
+        "pricing_suggestion": "월 9,900원, 연간 79,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-7개월 [추론]",
+        "estimated_cost": "3,500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Firebase",
+          "Google Maps",
+          "WebSocket"
+        ],
+        "key_features": [
+          "실시간 알림",
+          "지도 시각화",
+          "필터링",
+          "커뮤니티 제보"
+        ],
+        "clone_tip": "공공 데이터 수집 시스템과 실시간 처리 인프라가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.4
+      },
+      "tags": [
+        "#공공안전",
+        "#실시간데이터",
+        "#위치기반"
+      ],
+      "verdict": "사회적 가치와 시장성을 겸비한 공공 안전 플랫폼"
+    },
+    {
+      "rank": 3,
+      "name": "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
+      "developer": "(주)인피니그루",
+      "category": "Security & Fraud Prevention",
+      "icon": "https://play-lh.googleusercontent.com/sZhDwUlVIaOWaAGKhFguirzu9rM7bXPe-1WpRqftQQ0fZs7lThtRM0dpK-gAc8mgcAieasz21q1VgoN95lTg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.infinigru.phishingeyes.premium",
+      "idea_summary": "AI 기반 보이스피싱 탐지 및 예방 [확인]",
+      "analysis": {
+        "problem": "보이스피싱과 스미싱 사기가 증가하지만 개인이 실시간으로 판별하기 어려움 [추론]",
+        "solution": "AI를 활용한 실시간 사기 패턴 탐지와 신고 시스템 [추론]",
+        "target_user": "중장년층, 고령자, 사기 피해 우려가 높은 일반 시민 [추론]",
+        "unique_point": "한국 사기 패턴에 특화된 AI 모델과 실시간 탐지 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TrueCaller",
+          "카카오 T전화"
+        ],
+        "timing_reason": "디지털 사기 급증과 고령층 스마트폰 사용 확산 [추론]",
+        "growth_potential": "사회적 이슈로 정부 지원과 함께 높은 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독과 기업용 B2B 라이선스 [추론]",
+        "pricing_suggestion": "월 4,900원, 가족 플랜 할인 제공 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "3,000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "TensorFlow Lite",
+          "Firebase",
+          "NLP"
+        ],
+        "key_features": [
+          "실시간 통화 분석",
+          "SMS 필터링",
+          "신고 시스템",
+          "교육 콘텐츠"
+        ],
+        "clone_tip": "한국어 사기 패턴 데이터셋 구축과 실시간 분석 엔진 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#사회안전",
+        "#AI보안",
+        "#한국시장특화"
+      ],
+      "verdict": "사회적 필요성과 정부 지원으로 안정적 성장 기대"
+    },
+    {
+      "rank": 4,
+      "name": "크랙 - 즉흥 서사 플레이, AI 채팅",
+      "developer": "wrtn",
+      "category": "Entertainment & Social",
+      "icon": "https://play-lh.googleusercontent.com/nj5Ot_xpEzipRsJ4L4Tlueub28gdIMdAaWG5BiKU0Q8EQjyXF8sx_hTn05JBDKsFW5rbHZIhhgOJwmF1Sx8frg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wrtn.character",
+      "idea_summary": "AI와 함께하는 즉흥 스토리텔링 [확인]",
+      "analysis": {
+        "problem": "창작 활동에 관심 있지만 혼자서는 아이디어 전개에 한계를 느끄는 문제 [추론]",
+        "solution": "AI와 협력하여 즉흥적으로 이야기를 만들어가는 인터랙티브 플랫폼 [추론]",
+        "target_user": "창작 애호가, 작가 지망생, 스토리텔링에 관심 있는 젊은층 [추론]",
+        "unique_point": "단순 채팅이 아닌 협업적 스토리텔링에 특화된 AI 상호작용 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "AI Dungeon",
+          "Character.AI"
+        ],
+        "timing_reason": "생성형 AI 대중화와 개인 창작 콘텐츠 트렌드 확산 [추론]",
+        "growth_potential": "창작 교육과 엔터테인먼트 영역에서 꾸준한 성장 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 고급 AI 모델과 무제한 이용 [추론]",
+        "pricing_suggestion": "월 14,900원, 연간 119,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "2,500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "LLM API",
+          "Firebase",
+          "Real-time DB"
+        ],
+        "key_features": [
+          "협업 스토리텔링",
+          "장르별 템플릿",
+          "스토리 공유",
+          "창작 도구"
+        ],
+        "clone_tip": "스토리텔링에 특화된 프롬프트 엔지니어링과 UX 디자인 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#창작도구",
+        "#AI활용",
+        "#엔터테인먼트"
+      ],
+      "verdict": "창의적이고 독특한 컨셉으로 틈새 시장 공략 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "category": "Personalization & Launcher",
+      "icon": "https://play-lh.googleusercontent.com/d6UQHhFCFTNWBt7oBMiu4lkWZCavDDwb6rla09byR-5jIZmZdQ7i6OY8zACysNwLYDRB",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "고령자용 간편한 안드로이드 런처 [확인]",
+      "analysis": {
+        "problem": "고령층이 복잡한 스마트폰 인터페이스 때문에 기본 기능 사용에 어려움 [추론]",
+        "solution": "큰 아이콘, 단순한 메뉴, 필수 기능만 제공하는 시니어 친화적 런처 [추론]",
+        "target_user": "60세 이상 고령층, 스마트폰 초보 사용자, 시각 장애인 [추론]",
+        "unique_point": "접근성과 단순함에 특화된 UI/UX로 디지털 격차 해소 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Simple Launcher",
+          "Senior Phone"
+        ],
+        "timing_reason": "고령화 사회 진입과 시니어 스마트폰 사용률 급증 [추론]",
+        "growth_potential": "고령층 시장 확대와 함께 지속적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 고급 기능과 지원 서비스 유료 [추론]",
+        "pricing_suggestion": "월 2,900원, 가족 관리 기능 추가 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1,500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Accessibility API",
+          "Custom Launcher"
+        ],
+        "key_features": [
+          "큰 버튼",
+          "음성 안내",
+          "원격 지원",
+          "긴급 연락"
+        ],
+        "clone_tip": "접근성 가이드라인 준수와 실제 시니어 사용자 테스트 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#시니어",
+        "#접근성",
+        "#사회적가치"
+      ],
+      "verdict": "고령화 사회의 필수 서비스로 사회적 의미와 시장성 확보"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 전문 도구와 접근성 향상 서비스가 부상하고 있습니다 [추론]. 특히 틈새 시장을 겨냥한 전문화된 솔루션들이 주목받고 있습니다 [추론].",
+    "trend_details": [
+      "전문직 특화 관리 도구",
+      "AI 보조 접근성 서비스",
+      "산업별 규제 준수 솔루션",
+      "창작 도구의 AI 활용",
+      "시니어 친화적 인터페이스"
+    ],
+    "hot_categories": [
+      "생산성 도구",
+      "접근성 서비스",
+      "전문 업무 지원"
+    ],
+    "opportunity": "전문 분야별 AI 활용 솔루션과 접근성 개선 서비스 영역",
+    "action_item": "틈새 전문 시장 조사 및 접근성 기준 준수 개발 가이드 수립"
+  }
+}
