@@ -1,0 +1,653 @@
+{
+  "date": "2026-04-12",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Tina - For Life With Scoliosis",
+      "developer": "Roxana Andreea Popescu",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/0d/d5/7c0dd57f-1ff8-f78a-7773-2ebb89ea9e06/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tina-for-life-with-scoliosis/id6760977686?uo=2",
+      "idea_summary": "척추측만증 환자 전용 증상 추적 앱",
+      "analysis": {
+        "problem": "척추측만증 환자들의 일상 관리와 증상 추적의 어려움 [추론]",
+        "solution": "운동, 자세, 증상을 체계적으로 기록하고 관리하는 도구 제공 [확인]",
+        "target_user": "척추측만증 진단받은 청소년 및 성인 환자 [추론]",
+        "unique_point": "척추측만증 특화된 최초의 전문 관리 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 건강관리앱",
+          "운동추적앱"
+        ],
+        "timing_reason": "개인 맞춤형 헬스케어 트렌드와 만성질환 디지털 관리 확산 [추론]",
+        "growth_potential": "글로벌 척추측만증 환자 증가와 디지털 헬스케어 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 유료앱 모델 [추론]",
+        "pricing_suggestion": "월 구독 5-10달러 또는 일회성 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Core Data",
+          "HealthKit"
+        ],
+        "key_features": [
+          "증상기록",
+          "운동추적",
+          "자세분석",
+          "진행상황시각화"
+        ],
+        "clone_tip": "의료진과 협업하여 정확한 운동법과 관리 가이드 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "틈새시장이지만 확실한 니즈가 있는 전문분야 앱",
+      "deep_report_id": "ios-tina-for-life-with-scoliosis-1775920235064"
+    },
+    {
+      "rank": 2,
+      "name": "record STT onDevice",
+      "developer": "Chan Chun Kong",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/15/29/1a/15291a26-1b61-b426-43f3-07b7e115b451/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/record-stt-ondevice/id6760583452?uo=2",
+      "idea_summary": "완전 오프라인 음성인식 녹음 앱",
+      "analysis": {
+        "problem": "클라우드 기반 음성인식의 개인정보 보안 우려 [추론]",
+        "solution": "디바이스 내에서만 처리하는 완전 오프라인 STT 기능 [확인]",
+        "target_user": "개인정보 보안을 중시하는 직장인, 기자, 연구자 [추론]",
+        "unique_point": "완전한 오프라인 처리로 데이터가 외부로 전송되지 않음 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "Whisper",
+          "Dragon Dictation"
+        ],
+        "timing_reason": "개인정보보호 의식 증가와 AI 온디바이스 기술 발전 [추론]",
+        "growth_potential": "프라이버시 중시 트렌드와 기업 보안 니즈 증가 [추론]"
+      },
+      "business": {
+        "monetization": "유료앱 또는 프로 기능 IAP [추론]",
+        "pricing_suggestion": "일회성 구매 10-20달러 또는 프로버전 월 5달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Core ML",
+          "Speech Framework",
+          "AVAudioEngine",
+          "SwiftUI"
+        ],
+        "key_features": [
+          "실시간STT",
+          "오프라인처리",
+          "다국어지원",
+          "파일내보내기"
+        ],
+        "clone_tip": "Apple Speech Framework 활용하고 정확도 개선이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#프라이버시"
+      ],
+      "verdict": "프라이버시 트렌드에 완벽히 부합하는 필수 도구"
+    },
+    {
+      "rank": 3,
+      "name": "Ensemble Jammer",
+      "developer": "Nathan Turczan",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/b3/4a/7ab34aaf-d19c-6974-5e59-e3a8c223ef4c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ensemble-jammer/id6760733412?uo=2",
+      "idea_summary": "실시간 협업 음악 잼 세션 앱",
+      "analysis": {
+        "problem": "물리적으로 떨어진 뮤지션들 간의 협업 어려움 [추론]",
+        "solution": "실시간 루프 생성과 협업 가능한 가상 잼 세션 환경 [확인]",
+        "target_user": "아마추어 뮤지션, 음악 제작자, 원격 밴드 멤버 [추론]",
+        "unique_point": "실시간 협업에 특화된 생성형 앙상블 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BandLab",
+          "JamKazam",
+          "Soundtrap"
+        ],
+        "timing_reason": "원격근무 확산과 협업 도구 수요, 창작자 경제 성장 [추론]",
+        "growth_potential": "음악 창작 도구 시장 확장과 소셜 음악 플랫폼 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 고급 악기 IAP [추론]",
+        "pricing_suggestion": "기본무료, 프로기능 월 9.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "4000-6000만원 [추론]",
+        "tech_stack": [
+          "WebRTC",
+          "Audio Unit",
+          "Core Audio",
+          "CloudKit"
+        ],
+        "key_features": [
+          "실시간동기화",
+          "루프생성",
+          "악기시뮬레이터",
+          "협업세션"
+        ],
+        "clone_tip": "네트워크 지연 최적화와 오디오 동기화 기술이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#창작도구"
+      ],
+      "verdict": "기술적 도전이 크지만 창작자들에게 매력적인 도구"
+    },
+    {
+      "rank": 4,
+      "name": "Re:Home - AI Design Visualiser",
+      "developer": "Galaxy Line LLC",
+      "category": "Graphics/Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/e0/e9/cbe0e992-6780-34d4-8cd6-7b64fdfd259d/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/re-home-ai-design-visualiser/id6759445628?uo=2",
+      "idea_summary": "사진으로 인테리어 디자인 AI 시각화",
+      "analysis": {
+        "problem": "인테리어 변경 전 결과를 미리 확인하기 어려움 [추론]",
+        "solution": "사진 업로드만으로 AI가 다양한 인테리어 스타일 자동 생성 [확인]",
+        "target_user": "인테리어 고민하는 일반인, 디자이너, 부동산 관련자 [추론]",
+        "unique_point": "간단한 사진만으로 즉시 여러 스타일 비교 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Homestyler",
+          "Planner 5D",
+          "IKEA Place"
+        ],
+        "timing_reason": "AI 이미지 생성 기술 대중화와 홈 리노베이션 트렌드 [추론]",
+        "growth_potential": "부동산 시장과 인테리어 산업 규모가 크고 성장세 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧 기반 사용료와 프리미엄 스타일 팩 [추론]",
+        "pricing_suggestion": "기본무료 3회, 이후 크레딧 구매 또는 월 14.99달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "3000-4000만원 [추론]",
+        "tech_stack": [
+          "Stable Diffusion API",
+          "Core ML",
+          "Vision Framework",
+          "UIKit"
+        ],
+        "key_features": [
+          "AI스타일변환",
+          "실시간미리보기",
+          "스타일필터",
+          "공유기능"
+        ],
+        "clone_tip": "AI 모델 API 활용하고 UI/UX 최적화에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용"
+      ],
+      "verdict": "AI 트렌드와 실용성이 만나는 수익성 높은 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Glucose Tracker - GDM Diary",
+      "developer": "KUAN-HAO SU",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/96/19/55961986-15e3-161b-423e-16a2c82ed0df/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/glucose-tracker-gdm-diary/id6761887668?uo=2",
+      "idea_summary": "임신성 당뇨 전용 혈당 관리",
+      "analysis": {
+        "problem": "임신성 당뇨 환자의 체계적인 혈당 및 식단 관리 부담 [추론]",
+        "solution": "혈당, 식사, 약물을 통합 기록하는 임신성 당뇨 특화 도구 [확인]",
+        "target_user": "임신성 당뇨 진단받은 임산부와 가족 [추론]",
+        "unique_point": "임신성 당뇨에 특화된 전문 관리와 의료진 공유 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MySugr",
+          "Glucose Buddy",
+          "일반 당뇨앱들"
+        ],
+        "timing_reason": "고령 임신 증가와 임신성 당뇨 발생률 상승 [추론]",
+        "growth_potential": "전 세계 임신성 당뇨 환자 지속 증가 추세 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 의료진 연동 서비스 [추론]",
+        "pricing_suggestion": "기본무료, 프리미엄 월 9.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core Data",
+          "Charts Framework"
+        ],
+        "key_features": [
+          "혈당기록",
+          "식단추적",
+          "약물관리",
+          "차트분석"
+        ],
+        "clone_tip": "의료 전문성 확보와 사용자 친화적 인터페이스가 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "명확한 타겟과 필수 기능으로 안정적 수요 확보"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Loopit - Make Playables",
+      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
+      "category": "Advertising & Design",
+      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
+      "idea_summary": "기존 앱으로 플레이어블 광고 제작",
+      "analysis": {
+        "problem": "플레이어블 광고 제작의 높은 비용과 복잡성 [추론]",
+        "solution": "기존 앱 에셋을 활용해 간단히 인터랙티브 광고 데모 생성 [확인]",
+        "target_user": "모바일 게임 개발자, 광고 마케터, 에이전시 [추론]",
+        "unique_point": "기존 에셋 재활용으로 제작 시간과 비용 대폭 절약 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Playturbo",
+          "Luna",
+          "Facebook Playable"
+        ],
+        "timing_reason": "플레이어블 광고 성과 입증과 모바일 마케팅 중요성 증가 [추론]",
+        "growth_potential": "모바일 광고 시장 성장과 인터랙티브 광고 수요 확산 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧 기반 사용료와 엔터프라이즈 구독 [추론]",
+        "pricing_suggestion": "기본 무료 3회, 이후 플레이어블당 50-100달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-10개월 [추론]",
+        "estimated_cost": "5000-8000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "WebGL",
+          "HTML5 Canvas",
+          "React Native"
+        ],
+        "key_features": [
+          "에셋업로드",
+          "자동플레이어블생성",
+          "미리보기",
+          "배포도구"
+        ],
+        "clone_tip": "게임엔진 지식과 웹 기술 통합이 필수적 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.9
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2B",
+        "#광고테크"
+      ],
+      "verdict": "급성장하는 플레이어블 광고 시장의 핵심 도구",
+      "deep_report_id": "android-loopit-make-playables-1775920304615"
+    },
+    {
+      "rank": 2,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "News & Safety",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 범죄 경찰 무전 알림",
+      "analysis": {
+        "problem": "지역 안전 정보의 실시간 파악 어려움 [추론]",
+        "solution": "경찰 무전과 사건 정보를 실시간으로 수집하여 알림 제공 [확인]",
+        "target_user": "지역 안전에 관심 있는 주민, 부모, 지역 상인 [추론]",
+        "unique_point": "공식 경찰 무전을 실시간으로 모니터링하는 시민 안전 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "Nextdoor",
+          "Scanner Radio"
+        ],
+        "timing_reason": "지역 안전에 대한 관심 증가와 실시간 정보 수요 [추론]",
+        "growth_potential": "공공 안전 앱 시장 성장과 커뮤니티 안전 니즈 확산 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 알림 기능과 광고 기반 수익 [추론]",
+        "pricing_suggestion": "기본무료, 프리미엄 알림 월 4.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "3000-4000만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "Firebase",
+          "Google Maps API",
+          "Push Notifications"
+        ],
+        "key_features": [
+          "실시간무전수신",
+          "위치기반알림",
+          "사건맵",
+          "커뮤니티신고"
+        ],
+        "clone_tip": "공공 데이터 API 활용과 정확한 위치 기반 필터링이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.9
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#지역안전"
+      ],
+      "verdict": "지역 커뮤니티 안전 니즈를 충족하는 실용적 도구"
+    },
+    {
+      "rank": 3,
+      "name": "iDrama – Short Dramas & Reels",
+      "developer": "GOODDRAMA",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/d7TAvClrFwbAKyMQdjlXxXhn6KNFSkXu1ugttHgIdQRc8RKpPLA5SWN5L7jtxe2DWy3K",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gooddrama.idrama",
+      "idea_summary": "모바일 최적화 짧은 드라마 전용앱",
+      "analysis": {
+        "problem": "긴 드라마 시청 시간 부담과 모바일 환경 부적합 [추론]",
+        "solution": "세로형 짧은 에피소드로 구성된 모바일 특화 드라마 콘텐츠 [확인]",
+        "target_user": "바쁜 직장인, Z세대, 짧은 콘텐츠 선호하는 사용자 [추론]",
+        "unique_point": "드라마를 세로형 숏폼으로 재구성한 새로운 포맷 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "Instagram Reels",
+          "YouTube Shorts"
+        ],
+        "timing_reason": "숏폼 콘텐츠 대세와 이동 중 엔터테인먼트 소비 증가 [추론]",
+        "growth_potential": "글로벌 숏폼 콘텐츠 시장 급성장과 모바일 우선 세대 확산 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델과 광고 기반 무료 시청 [추론]",
+        "pricing_suggestion": "기본무료 광고포함, 프리미엄 월 8.99달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Android ExoPlayer",
+          "Firebase",
+          "CDN",
+          "Retrofit"
+        ],
+        "key_features": [
+          "세로형플레이어",
+          "에피소드관리",
+          "개인화추천",
+          "오프라인다운로드"
+        ],
+        "clone_tip": "콘텐츠 확보가 가장 중요하고 플레이어 UX 최적화 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#콘텐츠플랫폼"
+      ],
+      "verdict": "숏폼 트렌드를 드라마에 적용한 차세대 엔터테인먼트"
+    },
+    {
+      "rank": 4,
+      "name": "zeta - AI Characters Roleplay Chat",
+      "developer": "Scatter Lab, Inc.",
+      "category": "Social • AI Chat",
+      "icon": "https://play-lh.googleusercontent.com/7BHCCDafgblr3UBNNx-ELJ_Ni1mA_iesxlPnyAQXXR1AeHtjwgNLmSRqWXlJg7EhKuE5__EvkoRmycKTQ3X_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger",
+      "idea_summary": "좋아하는 캐릭터와 롤플레이 채팅",
+      "analysis": {
+        "problem": "일상적 대화 상대의 부족과 엔터테인먼트적 소통 욕구 [추론]",
+        "solution": "다양한 AI 캐릭터와 롤플레이 형태의 자연스러운 채팅 [확인]",
+        "target_user": "애니메이션 팬, 롤플레이 게임 좋아하는 사용자, 외로운 사람들 [추론]",
+        "unique_point": "일본 캐릭터 문화와 AI 기술을 결합한 특화된 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "Chai"
+        ],
+        "timing_reason": "AI 챗봇 기술 발전과 가상 관계에 대한 수용도 증가 [추론]",
+        "growth_potential": "AI 컴패니언 시장 성장과 아시아권 캐릭터 문화 확산 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 캐릭터와 무제한 대화 구독 [추론]",
+        "pricing_suggestion": "기본무료 제한대화, 프리미엄 월 9.99달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "4000-6000만원 [추론]",
+        "tech_stack": [
+          "OpenAI API",
+          "Firebase",
+          "WebSocket",
+          "Android SDK"
+        ],
+        "key_features": [
+          "AI채팅엔진",
+          "캐릭터관리",
+          "대화히스토리",
+          "개성화시스템"
+        ],
+        "clone_tip": "캐릭터 개발과 AI 프롬프트 엔지니어링이 핵심 차별화 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용"
+      ],
+      "verdict": "AI 챗봇 트렌드와 캐릭터 문화의 성공적 결합"
+    },
+    {
+      "rank": 5,
+      "name": "Free Talk Stickers - Personal Stickers",
+      "developer": "Personal Sticker Meme Developer",
+      "category": "Personalization",
+      "icon": "https://play-lh.googleusercontent.com/R9AmDyDoJUsa1fQW2hpK_ze_Vqt9_tjOYW4YHQbifYEaR71JiZs9kr4P32bygcvdDg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.memeandsticker.personal",
+      "idea_summary": "개인 맞춤 스티커 제작 도구",
+      "analysis": {
+        "problem": "메신저 스티커의 개인화와 커스터마이징 한계 [추론]",
+        "solution": "사진을 활용해 개인만의 스티커를 쉽게 제작하는 도구 [확인]",
+        "target_user": "메신저 활용도 높은 Z세대, 밀레니얼, 가족 단위 사용자 [추론]",
+        "unique_point": "복잡한 그래픽 도구 없이 간단하게 개인 스티커 제작 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sticker.ly",
+          "PicsArt",
+          "LINE Sticker"
+        ],
+        "timing_reason": "개인화 콘텐츠 수요와 메신저 문화의 창의적 표현 확산 [추론]",
+        "growth_potential": "글로벌 메신저 시장 성장과 개인 브랜딩 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 템플릿과 고급 편집 기능 IAP [추론]",
+        "pricing_suggestion": "기본무료, 프리미엄 팩 1.99-4.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Android Canvas",
+          "OpenCV",
+          "Image Processing",
+          "Room Database"
+        ],
+        "key_features": [
+          "사진편집",
+          "스티커생성",
+          "템플릿",
+          "메신저연동"
+        ],
+        "clone_tip": "이미지 처리 라이브러리 활용과 직관적 UI가 성공 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#크리에이티브"
+      ],
+      "verdict": "간단하지만 일상적 니즈를 충족하는 유틸리티"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술 활용과 개인화 도구가 주요 트렌드로, 틈새 헬스케어와 창작 도구 시장이 주목받고 있습니다.",
+    "trend_details": [
+      "온디바이스 AI 프라이버시 중시",
+      "숏폼 콘텐츠 포맷 확산",
+      "전문 헬스케어 앱 세분화",
+      "플레이어블 광고 도구 성장"
+    ],
+    "hot_categories": [
+      "Health & Fitness",
+      "AI/ML Tools",
+      "Content Creation"
+    ],
+    "opportunity": "AI 기술을 활용한 전문분야 솔루션과 프라이버시 중심 도구",
+    "action_item": "온디바이스 AI 기술 학습과 틈새 헬스케어 시장 조사"
+  }
+}
