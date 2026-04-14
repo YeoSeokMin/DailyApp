@@ -1,0 +1,624 @@
+{
+  "date": "2026-04-15",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "ReviewMonitor",
+      "developer": "Riyad Anabtawi",
+      "category": "Developer Tools",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/e4/88/79e48896-ee06-81a3-de2e-af1d51887ac7/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/reviewmonitor/id6760924076?uo=2",
+      "idea_summary": "앱 리뷰 모니터링 자동화 도구",
+      "analysis": {
+        "problem": "앱 개발자들이 앱스토어 리뷰를 수동으로 확인해야 하는 번거로움 [추론]",
+        "solution": "리뷰 변화 자동 알림, 감정 분석 대시보드 제공 [확인]",
+        "target_user": "앱 개발자, 프로덕트 매니저, 인디 개발자 [추론]",
+        "unique_point": "리뷰 감정 분석과 자동 알림 통합 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "App Annie",
+          "Sensor Tower"
+        ],
+        "timing_reason": "앱 시장 성장과 함께 리뷰 관리 중요성 증가 [추론]",
+        "growth_potential": "개발자 도구 시장 확장과 함께 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 SaaS 모델 [추론]",
+        "pricing_suggestion": "월 $9.99 - $29.99 티어별 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "App Store Connect API",
+          "CoreML"
+        ],
+        "key_features": [
+          "리뷰 크롤링",
+          "감정분석",
+          "푸시알림"
+        ],
+        "clone_tip": "App Store Connect API 활용이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#개발자도구"
+      ],
+      "verdict": "개발자 필수 도구로 안정적 수요 확보 가능",
+      "deep_report_id": "ios-reviewmonitor-1776179374364"
+    },
+    {
+      "rank": 2,
+      "name": "Slug Stats: At-Bat Tracker",
+      "developer": "STEPHEN WISEMAN",
+      "category": "Sports",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/86/7b/65867b27-7438-f878-baca-207749a7431e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/slug-stats-at-bat-tracker/id6761378618?uo=2",
+      "idea_summary": "개인 야구 타격 기록 추적 도구",
+      "analysis": {
+        "problem": "아마추어 야구선수들의 개인 기록 관리 어려움 [추론]",
+        "solution": "타석별 상세 기록과 통계 시각화 제공 [확인]",
+        "target_user": "아마추어 야구선수, 리틀리그 학부모, 코치 [추론]",
+        "unique_point": "타석 단위 상세 분석과 트렌드 시각화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GameChanger",
+          "iScore Baseball"
+        ],
+        "timing_reason": "데이터 야구 붐과 개인 기록 관리 니즈 증가 [추론]",
+        "growth_potential": "스포츠 분석 시장 확대와 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 고급 분석 기능 유료화 [추론]",
+        "pricing_suggestion": "월 $4.99 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "타격기록",
+          "통계분석",
+          "그래프시각화"
+        ],
+        "clone_tip": "야구 룰 이해와 통계 계산 로직이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#스포츠"
+      ],
+      "verdict": "틈새 시장이지만 충성도 높은 사용자층 확보 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Wristlock: Watch Tracker",
+      "developer": "Isaac Nassimi",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/41/3a/1c413a68-2597-aeb6-936e-07e9e1e292b2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/wristlock-watch-tracker/id6761737228?uo=2",
+      "idea_summary": "시계 컬렉션 관리 전용 앱",
+      "analysis": {
+        "problem": "시계 수집가들의 컬렉션 관리와 기록 추적의 어려움 [추론]",
+        "solution": "착용 시간 추적, 유지보수 기록, 가치 평가 통합 관리 [확인]",
+        "target_user": "시계 수집가, 럭셔리 워치 애호가, 투자자 [추론]",
+        "unique_point": "시계 전용 특화 기능과 보험 기록 연동 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "WatchRecon",
+          "Crown & Caliber"
+        ],
+        "timing_reason": "럭셔리 시계 시장 성장과 컬렉터 문화 확산 [추론]",
+        "growth_potential": "고소득층 타겟으로 프리미엄 시장 진입 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 고급 분석 기능 유료화 [추론]",
+        "pricing_suggestion": "월 $9.99 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "컬렉션관리",
+          "착용추적",
+          "가치평가"
+        ],
+        "clone_tip": "시계 데이터베이스 구축과 이미지 관리가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#럭셔리"
+      ],
+      "verdict": "틈새지만 고부가가치 시장, 충성도 높은 사용자층"
+    },
+    {
+      "rank": 4,
+      "name": "ADHD Hyper Planner",
+      "developer": "Vladislav Malikhtarovich",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/c6/f9/82c6f90a-6009-11d4-228d-aca6534466e2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/adhd-hyper-planner/id6759459572?uo=2",
+      "idea_summary": "ADHD 맞춤형 작업 계획 도구",
+      "analysis": {
+        "problem": "ADHD 환자들의 기존 플래너 앱 사용 시 집중력 저하와 overwhelming 문제 [추론]",
+        "solution": "ADHD 특성에 맞춘 타임블로킹, 리마인더, 우선순위 지원 [확인]",
+        "target_user": "ADHD 진단자, 집중력 장애가 있는 사용자, 특수교육 대상자 [추론]",
+        "unique_point": "신경다양성을 고려한 UX/UI와 맞춤형 알고리즘 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Brain Focus"
+        ],
+        "timing_reason": "정신건강 인식 증가와 ADHD 진단율 상승 [추론]",
+        "growth_potential": "neurodiversity 시장 확장과 함께 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 개인화 기능 유료화 [추론]",
+        "pricing_suggestion": "월 $7.99 구독 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "HealthKit",
+          "UserNotifications"
+        ],
+        "key_features": [
+          "타임블로킹",
+          "스마트리마인더",
+          "감정추적"
+        ],
+        "clone_tip": "ADHD 연구 기반 UX 설계와 맞춤형 알림 로직이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "사회적 가치와 상업적 성공을 동시에 추구할 수 있는 앱"
+    },
+    {
+      "rank": 5,
+      "name": "墓じまい見積もり",
+      "developer": "ryota matoba",
+      "category": "Business",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/d9/e3/72d9e31a-dfa2-8aac-4d4f-50cd8eb2f7a8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/%E5%A2%93%E3%81%98%E3%81%BE%E3%81%84%E8%A6%8B%E7%A9%8D%E3%82%82%E3%82%8A/id6761761552?uo=2",
+      "idea_summary": "묘지 정리 서비스 견적 비교 플랫폼",
+      "analysis": {
+        "problem": "고령화 사회에서 묘지 관리 부담과 정리 서비스 정보 부족 [추론]",
+        "solution": "묘지 정리 업체 견적 비교와 매칭 서비스 제공 [확인]",
+        "target_user": "고령자 자녀 세대, 묘지 관리 담당자, 종교단체 [추론]",
+        "unique_point": "매우 특화된 틈새 서비스로 경쟁자가 거의 없음 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "전통적인 석재업체",
+          "장례업체"
+        ],
+        "timing_reason": "일본 고령화 사회 심화와 묘지 관리 문제 대두 [추론]",
+        "growth_potential": "고령화 사회 확산으로 시장 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "업체 매칭 수수료, 리드 제공 수익 [추론]",
+        "pricing_suggestion": "거래당 5-10% 수수료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "MapKit",
+          "백엔드 API"
+        ],
+        "key_features": [
+          "견적비교",
+          "업체매칭",
+          "지역검색"
+        ],
+        "clone_tip": "로컬 업체 DB 구축과 신뢰성 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#로컬서비스"
+      ],
+      "verdict": "매우 특화된 시장이지만 확실한 니즈와 수익성 확보"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Loopit - Make Playables",
+      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
+      "category": "Design Tools",
+      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
+      "idea_summary": "인터랙티브 플레이어블 광고 제작 도구",
+      "analysis": {
+        "problem": "마케터들이 인터랙티브 광고 제작을 위해 복잡한 도구나 외부 업체 의존 [추론]",
+        "solution": "템플릿 기반으로 쉽고 빠른 플레이어블 광고 제작 [확인]",
+        "target_user": "모바일 마케터, 게임 퍼블리셔, 광고 에이전시 [추론]",
+        "unique_point": "비개발자도 사용 가능한 직관적 플레이어블 에디터 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Playturbo",
+          "Luna Labs"
+        ],
+        "timing_reason": "플레이어블 광고 시장 급성장과 제작 도구 수요 증가 [추론]",
+        "growth_potential": "모바일 광고 시장 확장과 함께 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 SaaS, 프리미엄 템플릿 판매 [추론]",
+        "pricing_suggestion": "월 $29-99 티어별 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "WebGL",
+          "Cloud Functions"
+        ],
+        "key_features": [
+          "템플릿에디터",
+          "인터랙션엔진",
+          "출력최적화"
+        ],
+        "clone_tip": "게임 엔진 기술과 웹 개발 경험이 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#팀개발권장",
+        "#B2B",
+        "#마케팅도구"
+      ],
+      "verdict": "급성장하는 플레이어블 광고 시장의 핵심 도구",
+      "deep_report_id": "android-loopit-make-playables-1776179446940"
+    },
+    {
+      "rank": 2,
+      "name": "Wander Weather",
+      "developer": "Leapora Tech",
+      "category": "Travel & Weather",
+      "icon": "https://play-lh.googleusercontent.com/uAZUQzMvqRaMvMZ7VZVd71x-1iE6sBQSbwXg2f9oGQqasYT5Rebsc2O-1RtFA9sG8Kf3GRYeOcnhOhE_Egde",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wanderweather.wanweforecast",
+      "idea_summary": "여행지 맞춤 날씨 정보 플래너",
+      "analysis": {
+        "problem": "여행 계획 시 목적지별 날씨 패턴과 준비물 정보 부족 [추론]",
+        "solution": "여행지별 기후 예보, 계절 정보, 짐 추천 통합 제공 [확인]",
+        "target_user": "해외여행객, 백패커, 여행 블로거 [추론]",
+        "unique_point": "여행 특화 날씨 정보와 짐 추천 연계 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Weather Underground",
+          "AccuWeather"
+        ],
+        "timing_reason": "포스트 팬데믹 여행 수요 회복과 개인여행 증가 [추론]",
+        "growth_potential": "여행 시장 회복과 함께 꾸준한 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 여행 관련 제품 광고 [추론]",
+        "pricing_suggestion": "월 $4.99 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Weather API",
+          "ML 추천엔진"
+        ],
+        "key_features": [
+          "날씨예보",
+          "짐추천",
+          "알림서비스"
+        ],
+        "clone_tip": "다양한 날씨 API 통합과 지역별 데이터 수집이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행"
+      ],
+      "verdict": "여행 시장 회복과 함께 안정적 성장 가능한 실용앱"
+    },
+    {
+      "rank": 3,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "Safety & News",
+      "icon": "https://play-lh.googleusercontent.com/06kt9PLR41pDZGasEKTenzBjp9xAsZjwd8Sg04wHEwpZRb579QSwU4cxonpSk3wEF699",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 범죄 신고 알림 지도",
+      "analysis": {
+        "problem": "지역 안전 정보의 실시간 접근 어려움과 범죄 예방 정보 부족 [추론]",
+        "solution": "경찰 무선 모니터링으로 실시간 범죄 알림과 히트맵 제공 [확인]",
+        "target_user": "지역 거주민, 부모, 안전 의식이 높은 시민 [추론]",
+        "unique_point": "공공 무선 데이터 활용한 실시간 범죄 정보 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "Ring Neighbors"
+        ],
+        "timing_reason": "지역 안전에 대한 관심 증가와 공공데이터 개방 확산 [추론]",
+        "growth_potential": "안전 의식 증가와 함께 지속 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 지역 안전 서비스 광고 [추론]",
+        "pricing_suggestion": "월 $2.99 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "WebSocket",
+          "Google Maps API"
+        ],
+        "key_features": [
+          "실시간알림",
+          "범죄지도",
+          "지역필터"
+        ],
+        "clone_tip": "공공 무선 데이터 접근과 법적 검토가 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#안전"
+      ],
+      "verdict": "사회적 니즈가 분명한 공익성 높은 앱"
+    },
+    {
+      "rank": 4,
+      "name": "Queenit – Lifestyle Shop for Adults",
+      "developer": "라포랩스",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/QRg2IuJ0jXY3NVA3357_NAnf0WUNnwnlnLKXMxScWfMje-rykM7wK4vQdtkYMNCd9RhUDioZ4pR7Db3rHiSDjdY",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.rapportlabs.damoa",
+      "idea_summary": "성숙한 여성 타겟 큐레이션 쇼핑몰",
+      "analysis": {
+        "problem": "30-40대 성인 여성들이 자신의 취향에 맞는 제품 발견의 어려움 [추론]",
+        "solution": "성인 여성 라이프스타일에 특화된 큐레이션 쇼핑 서비스 [확인]",
+        "target_user": "30-40대 성인 여성, 워킹맘, 스타일 의식이 있는 여성 [추론]",
+        "unique_point": "성인 여성 전용 취향 큐레이션과 라이프스타일 연계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "29CM",
+          "무신사"
+        ],
+        "timing_reason": "개인화 쇼핑 트렌드와 성인 여성 구매력 증가 [추론]",
+        "growth_potential": "타겟층의 높은 구매력으로 안정적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "상품 판매 마진, 브랜드 입점 수수료 [추론]",
+        "pricing_suggestion": "상품가의 20-30% 마진 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "결제 API"
+        ],
+        "key_features": [
+          "큐레이션",
+          "개인화추천",
+          "소셜쇼핑"
+        ],
+        "clone_tip": "큐레이션 알고리즘과 브랜드 파트너십이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#팀개발권장",
+        "#B2C",
+        "#이커머스"
+      ],
+      "verdict": "틈새 시장 공략으로 충성고객 확보 가능한 비즈니스"
+    },
+    {
+      "rank": 5,
+      "name": "Apartment-i – Apartment App",
+      "developer": "(주)아파트아이",
+      "category": "Lifestyle",
+      "icon": "https://play-lh.googleusercontent.com/2ytzKafRUxZUAc1Ab7sJ3Cx5GQQG_GgIGmc0QhWVjDf1hSPKar2iSOrfk8EDD5sx9g",
+      "app_url": "https://play.google.com/store/apps/details?id=aptip.app",
+      "idea_summary": "아파트 커뮤니티 통합 관리 플랫폼",
+      "analysis": {
+        "problem": "아파트 거주민들의 공지사항, 결제, 예약 등 관리의 번거로움 [추론]",
+        "solution": "아파트 생활 전반의 디지털화와 커뮤니티 통합 관리 [확인]",
+        "target_user": "아파트 거주민, 관리사무소, 부동산 관리업체 [추론]",
+        "unique_point": "아파트 생활 특화 올인원 커뮤니티 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "아파트너",
+          "단지플래너"
+        ],
+        "timing_reason": "팬데믹 이후 비접촉 서비스 수요와 디지털 전환 가속화 [추론]",
+        "growth_potential": "아파트 거주 비율 증가와 스마트 홈 트렌드로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "관리사무소 구독료, 부가 서비스 수수료 [추론]",
+        "pricing_suggestion": "세대당 월 2,000-5,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "PG API"
+        ],
+        "key_features": [
+          "공지관리",
+          "결제시스템",
+          "예약관리"
+        ],
+        "clone_tip": "관리사무소 영업과 초기 사용자 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#팀개발권장",
+        "#B2B",
+        "#부동산"
+      ],
+      "verdict": "안정적 수익모델과 명확한 타겟으로 성공 가능성 높음"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "개인화와 전문화가 핵심 트렌드로, ADHD 맞춤 플래너부터 시계 컬렉션까지 니치 시장 공략이 두드러짐 [추론]. 특히 B2B 도구와 라이프스타일 앱의 융합이 주목할 만함 [추론].",
+    "trend_details": [
+      "신경다양성 고려한 접근성 UX/UI",
+      "초개인화 큐레이션 서비스",
+      "전문 도메인 특화 솔루션"
+    ],
+    "hot_categories": [
+      "Developer Tools",
+      "Productivity",
+      "Lifestyle"
+    ],
+    "opportunity": "ADHD나 특정 취미처럼 기존 앱이 놓친 특수 니즈 타겟팅",
+    "action_item": "틈새 시장 리서치와 해당 커뮤니티 직접 접촉"
+  }
+}
