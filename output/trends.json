@@ -1,10 +1,25 @@
 {
-  "generatedAt": "2026-04-14T15:12:23.581Z",
+  "generatedAt": "2026-04-16T15:05:41.725Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "Shopping",
+      "currentCount": 5,
+      "previousCount": 1,
+      "changePercent": 400,
+      "changeDirection": "up",
+      "apps": [
+        "Queenit – Lifestyle Shop for Adults",
+        "Queenit – Lifestyle Shop for Stylish Adults",
+        "Fallcent – Price Alerts, Comparisons, Hot Deals",
+        "The Fair – Golfwear & Luxury Resale",
+        "BuildZap: Materials in Minutes"
+      ],
+      "avgScore": 7.220000000000001
+    },
     {
       "category": "Entertainment",
       "currentCount": 5,
@@ -21,44 +36,27 @@
       "avgScore": 8.02
     },
     {
-      "category": "Education",
-      "currentCount": 4,
+      "category": "Business",
+      "currentCount": 3,
       "previousCount": 1,
-      "changePercent": 300,
+      "changePercent": 200,
       "changeDirection": "up",
       "apps": [
-        "OpenSky Homeschool Planner",
-        "EchoFlow: AI English Shadowing",
-        "FROS OSCE Log",
-        "Sakura Renrakumou"
+        "墓じまい見積もり",
+        "PoolRouteMonitor",
+        "SnapQuote: Fast Estimates"
       ],
-      "avgScore": 7.699999999999999
-    },
-    {
-      "category": "Utilities",
-      "currentCount": 8,
-      "previousCount": 3,
-      "changePercent": 167,
-      "changeDirection": "up",
-      "apps": [
-        "SolVi - Smart Solar AI",
-        "Brick Keeper",
-        "Find My Phone by Clap Launcher",
-        "ZKP Storage",
-        "record STT onDevice",
-        "Kawatta — Website Change Monitor",
-        "BugLens - Insect Identifier",
-        "BoilerSteamNavigator"
-      ],
-      "avgScore": 7.787499999999999
+      "avgScore": 7.2
     },
     {
       "category": "Lifestyle",
-      "currentCount": 10,
-      "previousCount": 4,
-      "changePercent": 150,
+      "currentCount": 11,
+      "previousCount": 5,
+      "changePercent": 120,
       "changeDirection": "up",
       "apps": [
+        "Wristlock: Watch Tracker",
+        "Apartment-i – Apartment App",
         "Kaori - Perfume Tracker",
         "IBS Vira",
         "ChirpPal - Parrot Training",
@@ -67,22 +65,31 @@
         "AI Hair Transplant & Analysis",
         "Tidy AI: Snap & Clean",
         "Jesse — Texting Assistant",
-        "Apartment-i - Apartment App",
-        "AutistaAI"
+        "Apartment-i - Apartment App"
       ],
-      "avgScore": 7.7299999999999995
+      "avgScore": 7.627272727272728
     },
     {
-      "category": "Business",
-      "currentCount": 2,
-      "previousCount": 1,
+      "category": "Design Tools",
+      "currentCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "PoolRouteMonitor",
-        "SnapQuote: Fast Estimates"
+        "Loopit - Make Playables"
       ],
-      "avgScore": 7.1
+      "avgScore": 8.6
+    },
+    {
+      "category": "Travel & Weather",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Wander Weather"
+      ],
+      "avgScore": 7.5
     },
     {
       "category": "Finance & Rewards",
@@ -129,18 +136,18 @@
       "avgScore": 7.5
     },
     {
-      "category": "Shopping",
+      "category": "Education",
       "currentCount": 4,
-      "previousCount": 2,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Queenit – Lifestyle Shop for Stylish Adults",
-        "Fallcent – Price Alerts, Comparisons, Hot Deals",
-        "The Fair – Golfwear & Luxury Resale",
-        "BuildZap: Materials in Minutes"
+        "OpenSky Homeschool Planner",
+        "EchoFlow: AI English Shadowing",
+        "FROS OSCE Log",
+        "Sakura Renrakumou"
       ],
-      "avgScore": 7.175
+      "avgScore": 7.699999999999999
     },
     {
       "category": "Graphics/Design",
@@ -231,67 +238,23 @@
       "avgScore": 8
     },
     {
-      "category": "Marketing & Design",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Utilities",
+      "currentCount": 6,
+      "previousCount": 4,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Loopit - Make Playables"
+        "SolVi - Smart Solar AI",
+        "Brick Keeper",
+        "Find My Phone by Clap Launcher",
+        "ZKP Storage",
+        "record STT onDevice",
+        "Kawatta — Website Change Monitor"
       ],
-      "avgScore": 8.8
-    },
-    {
-      "category": "Security & Fraud Prevention",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방"
-      ],
-      "avgScore": 8.2
-    },
-    {
-      "category": "Entertainment & Social",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "크랙 - 즉흥 서사 플레이, AI 채팅"
-      ],
-      "avgScore": 7.6
-    },
-    {
-      "category": "Personalization & Launcher",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Easy Homescreen"
-      ],
-      "avgScore": 7.8
+      "avgScore": 7.899999999999999
     }
   ],
   "decliningCategories": [
-    {
-      "category": "Productivity",
-      "currentCount": 6,
-      "previousCount": 7,
-      "changePercent": -14,
-      "changeDirection": "down",
-      "apps": [
-        "hrsly: Shift & Pay Tracker",
-        "Aura: ADHD Focus Timer & Flow",
-        "Easy Mail - Email Launcher",
-        "PDF Converter: HWP Viewer & Hangul Viewer",
-        "LensLedger",
-        "AquaKettle Thickness Ledger"
-      ],
-      "avgScore": 7.416666666666667
-    },
     {
       "category": "Personalization",
       "currentCount": 2,
@@ -303,6 +266,21 @@
         "Easy Homescreen"
       ],
       "avgScore": 7.15
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 5,
+      "previousCount": 8,
+      "changePercent": -37,
+      "changeDirection": "down",
+      "apps": [
+        "ADHD Hyper Planner",
+        "hrsly: Shift & Pay Tracker",
+        "Aura: ADHD Focus Timer & Flow",
+        "Easy Mail - Email Launcher",
+        "PDF Converter: HWP Viewer & Hangul Viewer"
+      ],
+      "avgScore": 7.660000000000001
     },
     {
       "category": "Health & Fitness",
@@ -319,15 +297,15 @@
       "avgScore": 7.7
     },
     {
-      "category": "Developer Tools",
+      "category": "Security",
       "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
+      "previousCount": 3,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
-        "DockForge - Docker Client"
+        "Citizen Conan"
       ],
-      "avgScore": 6.8
+      "avgScore": 8.2
     },
     {
       "category": "Music",
@@ -339,20 +317,43 @@
         "Ensemble Jammer"
       ],
       "avgScore": 7.8
-    },
-    {
-      "category": "Security",
-      "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
-      "changeDirection": "down",
-      "apps": [
-        "Citizen Conan"
-      ],
-      "avgScore": 8.2
     }
   ],
   "stableCategories": [
+    {
+      "category": "Developer Tools",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "ReviewMonitor",
+        "DockForge - Docker Client"
+      ],
+      "avgScore": 7.3
+    },
+    {
+      "category": "Sports",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Slug Stats: At-Bat Tracker"
+      ],
+      "avgScore": 6.8
+    },
+    {
+      "category": "Safety & News",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "CrimeRadar: Dispatch Alerts"
+      ],
+      "avgScore": 7.5
+    },
     {
       "category": "Medical",
       "currentCount": 1,
@@ -397,25 +398,21 @@
         "Douge - All-in-One Perler Bead Assistant"
       ],
       "avgScore": 7.1
-    },
-    {
-      "category": "Safety & Alerts",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "CrimeRadar: Dispatch Alerts"
-      ],
-      "avgScore": 8.4
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 31,
+      "count": 37,
       "apps": [
+        "ReviewMonitor",
+        "Slug Stats: At-Bat Tracker",
+        "Wristlock: Watch Tracker",
+        "ADHD Hyper Planner",
+        "墓じまい見積もり",
+        "Wander Weather",
+        "CrimeRadar: Dispatch Alerts",
         "SolVi - Smart Solar AI",
         "Brick Keeper",
         "Kaori - Perfume Tracker",
@@ -431,7 +428,6 @@
         "record STT onDevice",
         "Re:Home - AI Design Visualiser",
         "Glucose Tracker - GDM Diary",
-        "CrimeRadar: Dispatch Alerts",
         "zeta - AI Characters Roleplay Chat",
         "Free Talk Stickers - Personal Stickers",
         "hrsly: Shift & Pay Tracker",
@@ -445,15 +441,20 @@
         "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출",
         "Kawatta — Website Change Monitor",
         "Tidy AI: Snap & Clean",
-        "Jesse — Texting Assistant",
-        "LensLedger"
+        "Jesse — Texting Assistant"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 31,
+      "count": 37,
       "apps": [
+        "Slug Stats: At-Bat Tracker",
+        "Wristlock: Watch Tracker",
+        "ADHD Hyper Planner",
+        "Wander Weather",
+        "CrimeRadar: Dispatch Alerts",
+        "Queenit – Lifestyle Shop for Adults",
         "SolVi - Smart Solar AI",
         "Brick Keeper",
         "Kaori - Perfume Tracker",
@@ -472,7 +473,6 @@
         "Ensemble Jammer",
         "Re:Home - AI Design Visualiser",
         "Glucose Tracker - GDM Diary",
-        "CrimeRadar: Dispatch Alerts",
         "iDrama – Short Dramas & Reels",
         "zeta - AI Characters Roleplay Chat",
         "Free Talk Stickers - Personal Stickers",
@@ -489,7 +489,7 @@
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 29,
+      "count": 25,
       "apps": [
         "SolVi - Smart Solar AI",
         "ChirpPal - Parrot Training",
@@ -506,11 +506,7 @@
         "Wisp — News Without Drama",
         "Easy Mail - Email Launcher",
         "Tidy AI: Snap & Clean",
-        "Jesse — Texting Assistant",
-        "AutistaAI",
-        "BugLens - Insect Identifier",
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
-        "크랙 - 즉흥 서사 플레이, AI 채팅"
+        "Jesse — Texting Assistant"
       ]
     },
     {
@@ -518,11 +514,14 @@
       "category": "tag",
       "count": 18,
       "apps": [
+        "ReviewMonitor",
+        "墓じまい見積もり",
+        "Loopit - Make Playables",
+        "Apartment-i – Apartment App",
         "PoolRouteMonitor",
         "스키마바이트는타이미",
         "아파트아이",
         "record STT onDevice",
-        "Loopit - Make Playables",
         "BuildZap: Materials in Minutes",
         "DockForge - Docker Client",
         "SnapQuote: Fast Estimates",
@@ -530,17 +529,16 @@
         "FROS OSCE Log",
         "PDF Converter: HWP Viewer & Hangul Viewer",
         "Apartment-i - Apartment App",
-        "Sakura Renrakumou",
-        "LensLedger",
-        "BoilerSteamNavigator",
-        "AquaKettle Thickness Ledger"
+        "Sakura Renrakumou"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 14,
+      "count": 15,
       "apps": [
+        "CrimeRadar: Dispatch Alerts",
+        "Apartment-i – Apartment App",
         "SolVi - Smart Solar AI",
         "ChirpPal - Parrot Training",
         "Kinnecta: Elderly Care & Meds",
@@ -548,35 +546,33 @@
         "Dootchi: Chat with AI Chars",
         "The Fair – Golfwear & Luxury Resale",
         "Glucose Tracker - GDM Diary",
-        "CrimeRadar: Dispatch Alerts",
         "zeta - AI Characters Roleplay Chat",
         "Apartment-i",
         "Apartment-i - Apartment App"
-      ]
-    },
-    {
-      "keyword": "AI활용",
-      "category": "tag",
-      "count": 7,
-      "apps": [
-        "Re:Home - AI Design Visualiser",
-        "zeta - AI Characters Roleplay Chat",
-        "Tidy AI: Snap & Clean",
-        "Jesse — Texting Assistant",
-        "AutistaAI",
-        "BugLens - Insect Identifier",
-        "크랙 - 즉흥 서사 플레이, AI 채팅"
       ]
     },
     {
       "keyword": "커뮤니티",
       "category": "social",
-      "count": 6,
+      "count": 7,
       "apps": [
+        "Apartment-i – Apartment App",
         "아파트아이",
         "CrimeRadar: Dispatch Alerts",
         "Apartment-i",
         "Apartment-i - Apartment App"
+      ]
+    },
+    {
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "ADHD Hyper Planner",
+        "IBS Vira",
+        "Tina - For Life With Scoliosis",
+        "Glucose Tracker - GDM Diary",
+        "Aura: ADHD Focus Timer & Flow"
       ]
     },
     {
@@ -590,56 +586,44 @@
       ]
     },
     {
-      "keyword": "헬스케어",
-      "category": "health",
-      "count": 5,
+      "keyword": "AI활용",
+      "category": "tag",
+      "count": 4,
       "apps": [
-        "IBS Vira",
-        "Tina - For Life With Scoliosis",
-        "Glucose Tracker - GDM Diary",
-        "Aura: ADHD Focus Timer & Flow"
+        "Re:Home - AI Design Visualiser",
+        "zeta - AI Characters Roleplay Chat",
+        "Tidy AI: Snap & Clean",
+        "Jesse — Texting Assistant"
       ]
     },
     {
       "keyword": "자동화",
       "category": "productivity",
-      "count": 4,
+      "count": 3,
       "apps": [
+        "ReviewMonitor",
         "PoolRouteMonitor",
-        "Jesse — Texting Assistant",
-        "BoilerSteamNavigator",
-        "AquaKettle Thickness Ledger"
+        "Jesse — Texting Assistant"
+      ]
+    },
+    {
+      "keyword": "팀개발권장",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Loopit - Make Playables",
+        "Queenit – Lifestyle Shop for Adults",
+        "Apartment-i – Apartment App"
       ]
     },
     {
       "keyword": "프로",
       "category": "subscription",
-      "count": 4,
+      "count": 3,
       "apps": [
         "ChirpPal - Parrot Training",
         "Knitting Notebook",
-        "Douge - All-in-One Perler Bead Assistant",
-        "Loopit - Make Playables"
-      ]
-    },
-    {
-      "keyword": "엔터테인먼트",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Dootchi: Chat with AI Chars",
-        "VibeShort: AI Comic Dramas",
-        "크랙 - 즉흥 서사 플레이, AI 채팅"
-      ]
-    },
-    {
-      "keyword": "일정",
-      "category": "productivity",
-      "count": 3,
-      "apps": [
-        "PoolRouteMonitor",
-        "Kinnecta: Elderly Care & Meds",
-        "LensLedger"
+        "Douge - All-in-One Perler Bead Assistant"
       ]
     },
     {
@@ -653,22 +637,12 @@
       ]
     },
     {
-      "keyword": "사회적가치",
+      "keyword": "엔터테인먼트",
       "category": "tag",
       "count": 3,
       "apps": [
-        "Kinnecta: Elderly Care & Meds",
-        "Citizen Conan",
-        "Easy Homescreen"
-      ]
-    },
-    {
-      "keyword": "시니어",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Queenit – Lifestyle Shop for Stylish Adults",
-        "Easy Homescreen"
+        "Dootchi: Chat with AI Chars",
+        "VibeShort: AI Comic Dramas"
       ]
     },
     {
@@ -701,20 +675,37 @@
       ]
     },
     {
-      "keyword": "접근성",
+      "keyword": "럭셔리",
       "category": "tag",
-      "count": 3,
+      "count": 2,
       "apps": [
-        "Easy Homescreen",
-        "AutistaAI"
+        "Wristlock: Watch Tracker",
+        "The Fair – Golfwear & Luxury Resale"
+      ]
+    },
+    {
+      "keyword": "매칭",
+      "category": "social",
+      "count": 2,
+      "apps": [
+        "墓じまい見積もり",
+        "스키마바이트는타이미"
+      ]
+    },
+    {
+      "keyword": "마케팅도구",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Loopit - Make Playables"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 13,
-        "percent": 19,
+        "count": 11,
+        "percent": 16,
         "examples": [
           "Find My Phone by Clap Launcher",
           "레시챌레 by 클라시루",
@@ -725,43 +716,43 @@
         "count": 46,
         "percent": 66,
         "examples": [
-          "SolVi - Smart Solar AI",
-          "Brick Keeper",
-          "Kaori - Perfume Tracker"
+          "Slug Stats: At-Bat Tracker",
+          "Wristlock: Watch Tracker",
+          "ADHD Hyper Planner"
         ]
       },
       "subscription": {
-        "count": 50,
-        "percent": 71,
+        "count": 49,
+        "percent": 70,
         "examples": [
-          "SolVi - Smart Solar AI",
-          "Brick Keeper",
-          "Kaori - Perfume Tracker"
+          "ReviewMonitor",
+          "Slug Stats: At-Bat Tracker",
+          "Wristlock: Watch Tracker"
         ]
       },
       "onetime": {
-        "count": 9,
-        "percent": 13,
+        "count": 11,
+        "percent": 16,
         "examples": [
-          "SolVi - Smart Solar AI",
-          "Find My Phone by Clap Launcher",
-          "ChirpPal - Parrot Training"
+          "Slug Stats: At-Bat Tracker",
+          "Wristlock: Watch Tracker",
+          "ADHD Hyper Planner"
         ]
       },
       "unknown": {
-        "count": 6,
-        "percent": 9,
+        "count": 8,
+        "percent": 11,
         "examples": []
       }
     },
     "dominant": {
       "model": "subscription",
-      "count": 50,
-      "percent": 71,
+      "count": 49,
+      "percent": 70,
       "examples": [
-        "SolVi - Smart Solar AI",
-        "Brick Keeper",
-        "Kaori - Perfume Tracker"
+        "ReviewMonitor",
+        "Slug Stats: At-Bat Tracker",
+        "Wristlock: Watch Tracker"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -770,50 +761,38 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 26,
-        "percent": 37,
+        "count": 24,
+        "percent": 34,
         "apps": [
+          "ReviewMonitor",
+          "Wander Weather",
           "SolVi - Smart Solar AI",
           "IBS Vira",
-          "ChirpPal - Parrot Training",
-          "EchoFlow: AI English Shadowing",
-          "Dootchi: Chat with AI Chars"
+          "ChirpPal - Parrot Training"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 21,
-        "percent": 30,
+        "count": 20,
+        "percent": 29,
         "apps": [
+          "Slug Stats: At-Bat Tracker",
+          "CrimeRadar: Dispatch Alerts",
+          "Apartment-i – Apartment App",
           "SolVi - Smart Solar AI",
-          "Kaori - Perfume Tracker",
-          "IBS Vira",
-          "ChirpPal - Parrot Training",
-          "Kinnecta: Elderly Care & Meds"
+          "Kaori - Perfume Tracker"
         ]
       },
       {
         "tech": "social",
-        "count": 6,
-        "percent": 9,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "墓じまい見積もり",
+          "Apartment-i – Apartment App",
           "스키마바이트는타이미",
           "아파트아이",
-          "PolyBuzz: Chat with AI Friends",
-          "CrimeRadar: Dispatch Alerts",
-          "Apartment-i"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 6,
-        "percent": 9,
-        "apps": [
-          "Kinnecta: Elderly Care & Meds",
-          "Ensemble Jammer",
-          "Jesse — Texting Assistant",
-          "LensLedger",
-          "BoilerSteamNavigator"
+          "PolyBuzz: Chat with AI Friends"
         ]
       },
       {
@@ -829,13 +808,23 @@
         ]
       },
       {
+        "tech": "productivity",
+        "count": 4,
+        "percent": 6,
+        "apps": [
+          "ReviewMonitor",
+          "Kinnecta: Elderly Care & Meds",
+          "Ensemble Jammer",
+          "Jesse — Texting Assistant"
+        ]
+      },
+      {
         "tech": "subscription",
-        "count": 3,
-        "percent": 4,
+        "count": 2,
+        "percent": 3,
         "apps": [
           "Knitting Notebook",
-          "Douge - All-in-One Perler Bead Assistant",
-          "Loopit - Make Playables"
+          "Douge - All-in-One Perler Bead Assistant"
         ]
       },
       {
@@ -857,32 +846,64 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 26,
-      "percent": 37,
+      "count": 24,
+      "percent": 34,
       "apps": [
+        "ReviewMonitor",
+        "Wander Weather",
         "SolVi - Smart Solar AI",
         "IBS Vira",
-        "ChirpPal - Parrot Training",
-        "EchoFlow: AI English Shadowing",
-        "Dootchi: Chat with AI Chars"
+        "ChirpPal - Parrot Training"
       ]
     },
-    "emerging": []
+    "emerging": [
+      {
+        "tech": "ar_vr",
+        "count": 20,
+        "percent": 29,
+        "apps": [
+          "Slug Stats: At-Bat Tracker",
+          "CrimeRadar: Dispatch Alerts",
+          "Apartment-i – Apartment App",
+          "SolVi - Smart Solar AI",
+          "Kaori - Perfume Tracker"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 8,
+        "percent": 11,
+        "apps": [
+          "墓じまい見積もり",
+          "Apartment-i – Apartment App",
+          "스키마바이트는타이미",
+          "아파트아이",
+          "PolyBuzz: Chat with AI Friends"
+        ]
+      }
+    ]
   },
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "Education 카테고리 급부상",
-      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Business 카테고리 급부상",
+      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Education"
+      "category": "Business"
     },
     {
       "type": "rising_category",
-      "title": "Business 카테고리 급부상",
+      "title": "Design Tools 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Business"
+      "category": "Design Tools"
+    },
+    {
+      "type": "rising_category",
+      "title": "Travel & Weather 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Travel & Weather"
     },
     {
       "type": "rising_category",
@@ -914,10 +935,10 @@
     },
     {
       "type": "rising_category",
-      "title": "Shopping 카테고리 급부상",
+      "title": "Education 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Shopping"
+      "category": "Education"
     },
     {
       "type": "rising_category",
@@ -976,54 +997,27 @@
       "category": "Video & Creator Tools"
     },
     {
-      "type": "rising_category",
-      "title": "Marketing & Design 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Marketing & Design"
-    },
-    {
-      "type": "rising_category",
-      "title": "Security & Fraud Prevention 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Security & Fraud Prevention"
-    },
-    {
-      "type": "rising_category",
-      "title": "Entertainment & Social 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Entertainment & Social"
-    },
-    {
-      "type": "rising_category",
-      "title": "Personalization & Launcher 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Personalization & Launcher"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "37%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI 통합과 구독 모델이 앱 시장을 주도하고 있으며, 1인개발가능 키워드가 31회로 최고치를 기록해 인디 개발자에게 유리한 환경이 조성되고 있습니다. Entertainment(+400%)와 Education(+300%) 카테고리가 급성장하고 있습니다.",
+    "trend_summary": "Shopping과 Entertainment 카테고리가 400% 급상승하며 시장을 주도하고 있고, AI 통합(34%)과 구독 모델(70%)이 앱 개발의 핵심 트렌드로 자리잡았습니다. 1인 개발 가능한 B2C 앱에 대한 수요가 급증하고 있습니다.",
     "trend_details": [
-      "AI 기능 통합이 37%로 확산되며 차별화 요소로 자리잡음",
-      "구독(71%)과 프리미엄(66%) 모델이 수익화 주요 전략으로 부상",
-      "1인개발가능 키워드 급증으로 인디 개발자 친화적 시장 환경 조성"
+      "AI 기능 통합이 34%로 필수 요소화",
+      "구독 기반 수익화 모델이 70%로 주류화",
+      "AR/VR 기술 도입이 29%로 확산 중",
+      "1인 개발 가능한 B2C 앱 수요 폭증"
     ],
     "hot_categories": [
-      "Education",
-      "Business"
+      "Shopping",
+      "Entertainment"
     ],
-    "opportunity": "Education 카테고리는 300% 성장했지만 앱 수가 4개로 적어 AI 기능을 활용한 교육 앱 개발 시 경쟁 우위 확보 가능합니다.",
-    "action_item": "기존 개발 중인 앱에 AI 챗봇이나 개인화 학습 기능을 추가해 Education 카테고리로 포지셔닝하세요.",
-    "weekly_theme": "AI 교육혁명"
+    "opportunity": "Design Tools, Business 등 100% 성장했지만 경쟁 앱 수가 적은 블루오션 카테고리에서 AI 기능을 통합한 앱 출시 시점입니다.",
+    "action_item": "AI 기능이 없는 Design Tools나 Business 카테고리에서 구독 기반 AI 통합 앱을 빠르게 개발하세요.",
+    "weekly_theme": "AI 블루오션"
   }
 }

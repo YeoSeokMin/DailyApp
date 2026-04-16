@@ -1,0 +1,644 @@
+{
+  "date": "2026-04-17",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "흡연노트",
+      "developer": "SungWook Park",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/6c/54/9b6c5463-aeff-fd7c-7f9c-8e767e36eb3b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%9D%A1%EC%97%B0%EB%85%B8%ED%8A%B8/id6762322937?uo=2",
+      "idea_summary": "흡연 습관 추적으로 금연 동기 부여",
+      "analysis": {
+        "problem": "흡연자들의 금연 의지 부족과 습관 추적 어려움 [추론]",
+        "solution": "흡연 기록과 패턴 분석으로 시각적 피드백 제공 [추론]",
+        "target_user": "금연을 시도하거나 흡연 습관을 관리하려는 성인 [추론]",
+        "unique_point": "단순 기록이 아닌 금연 동기 부여 중심 접근 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Smoke Free",
+          "QuitNow"
+        ],
+        "timing_reason": "건강 의식 증가와 금연 정책 강화 시기 [추론]",
+        "growth_potential": "지속적인 헬스케어 트렌드 상승 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 구매 [추론]",
+        "pricing_suggestion": "월 구독 3,900원 또는 일회성 9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "150-300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "HealthKit"
+        ],
+        "key_features": [
+          "흡연 기록",
+          "통계 분석",
+          "목표 설정",
+          "알림"
+        ],
+        "clone_tip": "간단한 CRUD와 차트 라이브러리로 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "틈새시장이지만 건강 트렌드에 부합하는 실용적 앱",
+      "deep_report_id": "ios-흡연노트-1776351789211"
+    },
+    {
+      "rank": 2,
+      "name": "OnDevice LLM - Offline AI Chat",
+      "developer": "Mustafa Ergisi",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/38/03/1a3803ca-67ce-dfb8-06d8-866e9a941cc8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ondevice-llm-offline-ai-chat/id6761696880?uo=2",
+      "idea_summary": "완전 오프라인 AI 채팅 서비스",
+      "analysis": {
+        "problem": "인터넷 없이 AI와 대화할 수 없는 문제 [확인]",
+        "solution": "기기 내 LLM 모델로 완전 오프라인 AI 채팅 구현 [확인]",
+        "target_user": "프라이버시 중시하는 AI 사용자와 오프라인 환경 사용자 [추론]",
+        "unique_point": "완전 오프라인 동작으로 프라이버시 보장 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Claude",
+          "Gemini"
+        ],
+        "timing_reason": "AI 프라이버시 우려 증가와 온디바이스 AI 기술 발전 [추론]",
+        "growth_potential": "온디바이스 AI 트렌드 급성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 모델 접근 구독제 [추론]",
+        "pricing_suggestion": "월 구독 9,900원 또는 일회성 29,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "Metal",
+          "ONNX"
+        ],
+        "key_features": [
+          "모델 다운로드",
+          "오프라인 채팅",
+          "모델 최적화"
+        ],
+        "clone_tip": "오픈소스 LLM 모델과 Core ML 변환 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#혁신기술",
+        "#프라이버시",
+        "#AI"
+      ],
+      "verdict": "기술적 혁신성과 시장 타이밍이 완벽한 차세대 앱"
+    },
+    {
+      "rank": 3,
+      "name": "메모맵 - 여행기록, 여행지 탐색, 위치기록, 커플여행",
+      "developer": "jaeho lee",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/e9/42/31e9422d-76fc-1e23-403d-41045c490060/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%A9%94%EB%AA%A8%EB%A7%B5-%EC%97%AC%ED%96%89%EA%B8%B0%EB%A1%9D-%EC%97%AC%ED%96%89%EC%A7%80-%ED%83%90%EC%83%89-%EC%9C%84%EC%B9%98%EA%B8%B0%EB%A1%9D-%EC%BB%A4%ED%94%8C%EC%97%AC%ED%96%89/id6761411592?uo=2",
+      "idea_summary": "위치 기반 여행 기록과 추억 관리",
+      "analysis": {
+        "problem": "여행 기록이 사진첩에 흩어져 체계적 관리 어려움 [추론]",
+        "solution": "지도 위에 사진과 메모를 연결한 시공간 기록 시스템 [추론]",
+        "target_user": "여행을 자주 다니는 20-40대와 커플 [추론]",
+        "unique_point": "지도와 메모의 결합으로 맥락적 기억 보존 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "구글 포토",
+          "여행노트 앱들"
+        ],
+        "timing_reason": "포스트 코로나 여행 수요 폭증과 기록 문화 확산 [추론]",
+        "growth_potential": "여행 시장 회복과 함께 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 및 클라우드 스토리지 [추론]",
+        "pricing_suggestion": "월 구독 4,900원 또는 연간 29,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "MapKit",
+          "CoreLocation",
+          "CloudKit"
+        ],
+        "key_features": [
+          "지도 연동",
+          "사진 위치 태깅",
+          "여행 경로",
+          "공유"
+        ],
+        "clone_tip": "MapKit과 사진 라이브러리 API 조합으로 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#여행",
+        "#위치기반",
+        "#커플"
+      ],
+      "verdict": "포스트 팬데믹 여행 붐에 최적화된 실용적 솔루션"
+    },
+    {
+      "rank": 4,
+      "name": "Sugar Sensei",
+      "developer": "Andrei Dragos",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/28/84/c328849c-5798-704e-003a-93664cd596e3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/sugar-sensei/id6758400367?uo=2",
+      "idea_summary": "혈당 관리를 위한 스마트 추적기",
+      "analysis": {
+        "problem": "당뇨병 환자의 복잡한 혈당 관리와 패턴 분석 어려움 [추론]",
+        "solution": "AI 기반 혈당 패턴 분석과 맞춤형 조언 제공 [추측]",
+        "target_user": "당뇨병 환자 및 혈당 관리가 필요한 성인 [추론]",
+        "unique_point": "단순 기록을 넘어선 AI 기반 인사이트 제공 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "MySugr",
+          "Glucose Buddy"
+        ],
+        "timing_reason": "고령화와 당뇨병 증가로 혈당 관리 앱 수요 급증 [추론]",
+        "growth_potential": "헬스케어 시장 성장과 함께 지속 확대 [추론]"
+      },
+      "business": {
+        "monetization": "구독제와 의료기관 연동 서비스 [추론]",
+        "pricing_suggestion": "월 구독 12,900원 또는 연간 99,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core ML",
+          "Charts"
+        ],
+        "key_features": [
+          "혈당 기록",
+          "패턴 분석",
+          "알림",
+          "의료진 공유"
+        ],
+        "clone_tip": "HealthKit 연동과 차트 라이브러리로 기본 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#헬스케어",
+        "#의료",
+        "#AI분석"
+      ],
+      "verdict": "고령화 시대 필수 헬스케어 앱으로 수익성 높음"
+    },
+    {
+      "rank": 5,
+      "name": "TaperSafe",
+      "developer": "Ilan Lentsner",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/ba/44/6eba44d2-efa5-d9a0-8c74-322f89675807/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tapersafe/id6762042016?uo=2",
+      "idea_summary": "안전한 약물 감량 가이드 앱",
+      "analysis": {
+        "problem": "처방약 감량 시 부작용과 안전성 우려 [추론]",
+        "solution": "의학적 근거 기반 점진적 감량 프로토콜 제공 [추측]",
+        "target_user": "장기복용약 감량을 원하는 환자와 의료진 [추론]",
+        "unique_point": "의료진 협력 하의 체계적 감량 관리 시스템 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "일반적인 복약 관리 앱들"
+        ],
+        "timing_reason": "약물 의존성 문제 증가와 자연치유 선호 확산 [추론]",
+        "growth_potential": "의료진 파트너십으로 B2B 확장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "B2C 구독과 B2B 의료기관 라이선스 [추론]",
+        "pricing_suggestion": "월 구독 19,900원 또는 의료기관당 월 50만원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "600-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "의료 데이터베이스",
+          "알림"
+        ],
+        "key_features": [
+          "감량 스케줄",
+          "증상 추적",
+          "의료진 연동",
+          "응급 알림"
+        ],
+        "clone_tip": "의료 전문가 자문 필수, 단계적 프로토콜 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#의료혁신",
+        "#틈새시장",
+        "#B2B가능"
+      ],
+      "verdict": "블루오션 의료 분야로 전문성 확보 시 고수익 가능"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "PDF뷰어, PDF리더 그리고 파일열기",
+      "developer": "Office Suite Pro",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/8O1bFHz4rJAHo_49KwOoTOsXXxxAgwje-T_5LuMSo9qvArsEiMnaGCiuShWK_IuL1Q",
+      "app_url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader",
+      "idea_summary": "올인원 PDF 관리 및 편집 도구",
+      "analysis": {
+        "problem": "모바일에서 PDF 파일 열기와 편집이 복잡함 [확인]",
+        "solution": "통합된 PDF 뷰어, 편집기, 변환기 제공 [추론]",
+        "target_user": "문서 작업이 많은 직장인과 학생 [추론]",
+        "unique_point": "한국어 문서 최적화와 다양한 파일 형식 지원 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS Office"
+        ],
+        "timing_reason": "재택근무 증가로 모바일 문서 편집 수요 급증 [추론]",
+        "growth_potential": "디지털 전환 가속화로 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 및 광고 [추론]",
+        "pricing_suggestion": "월 구독 4,900원 또는 연간 29,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "400-700만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDFBox",
+          "iText",
+          "Storage API"
+        ],
+        "key_features": [
+          "PDF 열기",
+          "편집",
+          "주석",
+          "변환",
+          "클라우드 연동"
+        ],
+        "clone_tip": "오픈소스 PDF 라이브러리 활용으로 기본 기능 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#필수유틸",
+        "#생산성",
+        "#B2B가능"
+      ],
+      "verdict": "필수 기능으로 안정적 수익 창출 가능한 실용 앱",
+      "deep_report_id": "android-pdf뷰어-pdf리더-그리고-파일열기-1776351854214"
+    },
+    {
+      "rank": 2,
+      "name": "문서 리더 및 뷰어",
+      "developer": "Skyprincetech",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/FWQih3u-Goi0aq2NZMH6mLNzttHkCfJdU8qAj9RhWPccsYZzmaXiXnLUbtl_PQog58jms0-3SASfyixmNTlreA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pdf.reader.file.view",
+      "idea_summary": "다양한 문서 형식 통합 뷰어",
+      "analysis": {
+        "problem": "각 문서 형식별로 다른 앱이 필요한 불편함 [추론]",
+        "solution": "PDF, Word, Excel, PPT 등 통합 뷰어 제공 [확인]",
+        "target_user": "다양한 문서를 다루는 사무직과 학생 [추론]",
+        "unique_point": "한 앱으로 모든 오피스 문서 형식 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Microsoft Office",
+          "Google Docs"
+        ],
+        "timing_reason": "모바일 퍼스트 업무 환경 확산 [추론]",
+        "growth_potential": "원격 근무 문화 정착으로 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능과 클라우드 스토리지 [추론]",
+        "pricing_suggestion": "월 구독 3,900원 또는 연간 19,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Apache POI",
+          "PDF.js",
+          "WebView"
+        ],
+        "key_features": [
+          "다중 포맷 지원",
+          "뷰어",
+          "기본 편집",
+          "공유"
+        ],
+        "clone_tip": "각 문서 형식별 오픈소스 라이브러리 통합 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#통합솔루션",
+        "#생산성",
+        "#오피스"
+      ],
+      "verdict": "범용성 높은 필수 도구로 꾸준한 사용자 확보 가능"
+    },
+    {
+      "rank": 3,
+      "name": "QR 스캐너",
+      "developer": "P & L Studio",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/NCMgeAAo4RdMYt4THbMRyY0T54OCavHgqZ-B6HIbYGj_6zbDjcdTvF_czQLUoDQHyoIqpUlz0xSlmCG2uagwYA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree",
+      "idea_summary": "빠르고 정확한 QR코드 스캔 도구",
+      "analysis": {
+        "problem": "기본 카메라 QR 인식 성능과 추가 기능 부족 [추론]",
+        "solution": "고속 인식과 히스토리, 생성 기능까지 통합 [추론]",
+        "target_user": "QR코드를 자주 사용하는 모든 스마트폰 사용자 [추론]",
+        "unique_point": "스캔뿐만 아니라 QR코드 생성 기능 포함 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기본 카메라 앱",
+          "다양한 QR 앱들"
+        ],
+        "timing_reason": "코로나 이후 QR코드 사용 일상화 [확인]",
+        "growth_potential": "디지털 결제와 인증 확산으로 지속 수요 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료 + 광고 제거 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "100-200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "CameraX",
+          "MLKit",
+          "ZXing"
+        ],
+        "key_features": [
+          "빠른 스캔",
+          "히스토리",
+          "QR 생성",
+          "배치 스캔"
+        ],
+        "clone_tip": "Google MLKit이나 ZXing 라이브러리로 간단 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#기본유틸",
+        "#1인개발가능",
+        "#빠른구현"
+      ],
+      "verdict": "간단하지만 필수적인 도구로 초보 개발자 연습용"
+    },
+    {
+      "rank": 4,
+      "name": "PDF 뷰어 - PDF Reader & PDF 편집",
+      "developer": "QR Code Scanner.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/HuveAFzGVUenSS0_hgITMW_hczQGMzmxiOVwW0F9Q5-uUkTidarGHBZtLkI5R5YYIw",
+      "app_url": "https://play.google.com/store/apps/details?id=pdf.pdfreader.viewer.editor.free",
+      "idea_summary": "무료 PDF 편집 및 뷰어 솔루션",
+      "analysis": {
+        "problem": "유료 PDF 편집기의 높은 가격과 복잡한 인터페이스 [추론]",
+        "solution": "무료 기반 간단한 PDF 편집 및 뷰어 기능 [추론]",
+        "target_user": "occasional PDF 편집이 필요한 일반 사용자 [추론]",
+        "unique_point": "무료로 기본적인 PDF 편집 기능 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Reader",
+          "Foxit Reader"
+        ],
+        "timing_reason": "모바일 문서 작업 증가와 무료 솔루션 선호 [추론]",
+        "growth_potential": "프리미엄으로 전환 가능한 사용자층 확보 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 프리미엄 업그레이드 [추론]",
+        "pricing_suggestion": "무료 + 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "250-400만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDFRenderer",
+          "iText",
+          "Canvas"
+        ],
+        "key_features": [
+          "PDF 뷰어",
+          "주석",
+          "간단 편집",
+          "공유"
+        ],
+        "clone_tip": "Android PDFRenderer와 기본 Canvas로 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#무료모델",
+        "#생산성",
+        "#PDF"
+      ],
+      "verdict": "무료 전략으로 사용자 확보 후 수익화 모델"
+    },
+    {
+      "rank": 5,
+      "name": "문서 뷰어: PDF, Word",
+      "developer": "SolaraSoft",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/78D3hUh0IHkqh-Kh93UGCe6-EIHBgRX9sQpAyLT37qTNj9eWv_fQAFe5UlmY2W_Mg3c",
+      "app_url": "https://play.google.com/store/apps/details?id=com.solara.alldocumentreader.officepdfwordexcel",
+      "idea_summary": "다양한 문서 형식 지원 뷰어",
+      "analysis": {
+        "problem": "문서 형식별로 다른 앱 설치 및 사용의 번거로움 [추론]",
+        "solution": "하나의 앱으로 모든 주요 문서 형식 지원 [확인]",
+        "target_user": "다양한 문서를 자주 받아보는 직장인과 학생 [추론]",
+        "unique_point": "오피스 문서와 PDF 통합 지원 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "WPS Office",
+          "OfficeSuite"
+        ],
+        "timing_reason": "원격 근무와 모바일 오피스 사용 증가 [추론]",
+        "growth_potential": "디지털 문서 사용량 지속 증가 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 + 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "350-550만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Apache POI",
+          "WebView",
+          "FileProvider"
+        ],
+        "key_features": [
+          "다중 포맷",
+          "뷰어",
+          "검색",
+          "클라우드 연동"
+        ],
+        "clone_tip": "웹뷰 기반 문서 렌더링으로 간소화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#통합뷰어",
+        "#오피스",
+        "#유틸리티"
+      ],
+      "verdict": "안정적인 수요의 실용적 문서 뷰어 솔루션"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 오프라인 AI와 건강관리 앱이 주목받으며, PDF 관련 생산성 도구들이 안드로이드에서 강세를 보이고 있습니다 [추론]. 프라이버시와 개인화된 헬스케어가 핵심 트렌드로 부상하고 있습니다 [추론].",
+    "trend_details": [
+      "온디바이스 AI 기술 확산",
+      "개인맞춤형 건강관리",
+      "모바일 문서 편집 수요 증가",
+      "프라이버시 중심 앱 선호"
+    ],
+    "hot_categories": [
+      "헬스케어",
+      "생산성",
+      "AI/머신러닝"
+    ],
+    "opportunity": "의료진 협업이 가능한 전문 헬스케어 앱과 완전 오프라인 AI 솔루션",
+    "action_item": "온디바이스 AI 기술 학습과 의료 도메인 전문성 확보"
+  }
+}
