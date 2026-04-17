@@ -1,0 +1,637 @@
+{
+  "date": "2026-04-18",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Auto Culture DriveCam",
+      "developer": "ASHLEY DRURY",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/8e/17/be8e1719-878d-9fc7-80b3-7b6dda98f4d9/AppIcon-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/auto-culture-drivecam/id6760829542?uo=2",
+      "idea_summary": "자동차 문화와 드라이브 영상 기록 앱",
+      "analysis": {
+        "problem": "드라이브 경험과 자동차 문화 공유의 어려움 [추론]",
+        "solution": "드라이브캠 기능과 자동차 문화 커뮤니티 결합 [추론]",
+        "target_user": "자동차 애호가와 드라이브 마니아 [추론]",
+        "unique_point": "단순 블랙박스가 아닌 문화 중심 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "블랙박스 앱들",
+          "자동차 커뮤니티 앱"
+        ],
+        "timing_reason": "자동차 문화 콘텐츠 수요 증가 [추론]",
+        "growth_potential": "중간 - 니치 시장이지만 충성도 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 커뮤니티 수익화 [추론]",
+        "pricing_suggestion": "월 5,000원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "AVFoundation",
+          "Core Location"
+        ],
+        "key_features": [
+          "영상 촬영",
+          "위치 기반 공유",
+          "커뮤니티"
+        ],
+        "clone_tip": "기존 카메라 SDK 활용하여 빠른 MVP 제작 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓"
+      ],
+      "verdict": "자동차 문화 틈새시장 공략 가능한 아이템",
+      "deep_report_id": "ios-auto-culture-drivecam-1776438341317"
+    },
+    {
+      "rank": 2,
+      "name": "MarkMyCar",
+      "developer": "HarperNicole Hayes",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/f8/a9/bdf8a9de-3c24-17f6-0ae8-d296b2ba9557/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/markmycar/id6761847500?uo=2",
+      "idea_summary": "주차 위치 마킹 및 차량 찾기 도우미",
+      "analysis": {
+        "problem": "대형 주차장에서 차량 위치를 잊어버리는 문제 [확인]",
+        "solution": "GPS와 사진을 활용한 차량 위치 저장 및 안내 [추론]",
+        "target_user": "도심 운전자와 쇼핑몰 이용자 [추론]",
+        "unique_point": "단순함에 집중한 직관적 인터페이스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Find My Car",
+          "Car Locator",
+          "기본 지도 앱들"
+        ],
+        "timing_reason": "도시화 가속과 대형 주차장 증가 [추론]",
+        "growth_potential": "높음 - 보편적 니즈 해결 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료+광고 모델, 프리미엄 3,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Core Location",
+          "MapKit",
+          "Camera"
+        ],
+        "key_features": [
+          "GPS 위치저장",
+          "사진 메모",
+          "길찾기"
+        ],
+        "clone_tip": "기본 지도 API 활용으로 빠른 개발 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#실용성"
+      ],
+      "verdict": "간단하지만 실용적인 필수 유틸리티 앱"
+    },
+    {
+      "rank": 3,
+      "name": "PokeLabo",
+      "developer": "Daichi Sumikura",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/7c/ae/c77cae35-15c4-72a1-6fc0-180b26f34caf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pokelabo/id6762235720?uo=2",
+      "idea_summary": "포켓몬 관련 유틸리티 및 분석 도구",
+      "analysis": {
+        "problem": "포켓몬 게임 플레이어의 복잡한 계산과 분석 필요 [추론]",
+        "solution": "자동화된 계산기와 데이터 분석 도구 제공 [추론]",
+        "target_user": "포켓몬 게임 하드코어 플레이어 [추론]",
+        "unique_point": "게임 메타 분석에 특화된 전문 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PokeGenie",
+          "Calcy IV",
+          "기타 포켓몬 도구들"
+        ],
+        "timing_reason": "포켓몬 GO와 게임 시리즈 지속 인기 [추론]",
+        "growth_potential": "중간 - 충성도 높은 니치 시장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 광고 [추론]",
+        "pricing_suggestion": "월 3,000원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "IV 계산기",
+          "배틀 시뮬레이터",
+          "포켓몬 도감"
+        ],
+        "clone_tip": "공개 API 활용하여 데이터 수집 자동화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게이밍"
+      ],
+      "verdict": "포켓몬 팬덤 기반 안정적 수익 가능"
+    },
+    {
+      "rank": 4,
+      "name": "FocusField — Work Smarter",
+      "developer": "Maddisys Limited",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/e3/7c/04e37c57-198a-f875-20cb-690e8165fb3b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/focusfield-work-smarter/id6761833596?uo=2",
+      "idea_summary": "스마트 업무 집중도 향상 솔루션",
+      "analysis": {
+        "problem": "재택근무 환경에서의 집중력 저하와 생산성 감소 [추론]",
+        "solution": "AI 기반 집중도 분석과 맞춤형 집중 환경 제공 [추론]",
+        "target_user": "재택근무자와 프리랜서, 학생 [추론]",
+        "unique_point": "단순 타이머가 아닌 스마트 분석 기반 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Focus Keeper",
+          "Toggl"
+        ],
+        "timing_reason": "재택근무 증가와 집중력 니즈 상승 [추론]",
+        "growth_potential": "높음 - 포스트 코로나 트렌드 부합 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 기업 솔루션 [추론]",
+        "pricing_suggestion": "월 8,000원 개인, 월 15,000원 팀 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
+        "tech_stack": [
+          "ML Kit",
+          "HealthKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "집중도 분석",
+          "환경 최적화",
+          "팀 협업"
+        ],
+        "clone_tip": "기본 포모도로 기법에서 시작하여 점진적 고도화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "재택근무 트렌드에 최적화된 고수익 아이템"
+    },
+    {
+      "rank": 5,
+      "name": "OurStory - Couples Map",
+      "developer": "Aleix Devesa",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/92/d8/3b92d893-5e6b-f590-53f5-41f5d18157ee/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ourstory-couples-map/id6762272196?uo=2",
+      "idea_summary": "커플 전용 추억 지도 및 스토리 공유",
+      "analysis": {
+        "problem": "커플들의 추억과 데이트 기록 관리의 어려움 [추론]",
+        "solution": "지도 기반 추억 저장과 스토리 공유 플랫폼 [추론]",
+        "target_user": "20-30대 연인과 신혼부부 [추론]",
+        "unique_point": "위치 기반 추억 아카이빙에 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Between",
+          "Couple",
+          "기본 사진 앱들"
+        ],
+        "timing_reason": "MZ세대의 경험 중심 소비와 기록 문화 [추론]",
+        "growth_potential": "중상 - 감성적 니즈 기반 충성도 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능과 굿즈 연계 [추론]",
+        "pricing_suggestion": "월 5,000원 커플 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "MapKit",
+          "CloudKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "지도 마킹",
+          "사진 연동",
+          "기념일 알림"
+        ],
+        "clone_tip": "기존 지도 앱에 소셜 기능 추가로 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#감성"
+      ],
+      "verdict": "커플 시장 특화로 높은 사용자 몰입도 기대"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "하삼동커피",
+      "developer": "주식회사 하삼동",
+      "category": "음식 및 음료",
+      "icon": "https://play-lh.googleusercontent.com/vHboTLy0QyNxnFsURykY3LE9rz-FPyPu_u21gF9EWEFDyQt-ld0QjCoF_Kn3aPesSZp7Arthol48PUsgfceo",
+      "app_url": "https://play.google.com/store/apps/details?id=com.crux.hasamdongorder",
+      "idea_summary": "로컬 커피전문점 주문 및 멤버십 앱",
+      "analysis": {
+        "problem": "소규모 카페의 디지털 주문 시스템 부족 [추론]",
+        "solution": "자체 브랜드 주문앱으로 고객 직접 관리 [추론]",
+        "target_user": "해당 지역 커피 애호가와 단골 고객 [추론]",
+        "unique_point": "대형 플랫폼 대신 자체앱으로 수수료 절약 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "배달의민족",
+          "요기요",
+          "기타 로컬 카페앱"
+        ],
+        "timing_reason": "코로나 이후 비대면 주문 일상화 [추론]",
+        "growth_potential": "중간 - 로컬 비즈니스 확장성 제한 [추론]"
+      },
+      "business": {
+        "monetization": "주문 수수료와 멤버십 수익 [추론]",
+        "pricing_suggestion": "주문당 100원 + 멤버십 혜택 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Android Jetpack",
+          "Firebase",
+          "Payment SDK"
+        ],
+        "key_features": [
+          "주문 시스템",
+          "결제",
+          "멤버십",
+          "푸시 알림"
+        ],
+        "clone_tip": "기존 POS 연동 솔루션 활용으로 빠른 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#로컬"
+      ],
+      "verdict": "소상공인 디지털 전환 지원 모델",
+      "deep_report_id": "android-하삼동커피-1776438397751"
+    },
+    {
+      "rank": 2,
+      "name": "리버스톡(Reversetok) - AI 인플루언서 채팅",
+      "developer": "주식회사 하이마루컴퍼니",
+      "category": "소셜",
+      "icon": "https://play-lh.googleusercontent.com/8SQk5_JT5moBWahTjzMdpI_reKwUM1ebirohRgrsETp4qjJiLN7Xgd9pJ2UmIUqRiEasMbMsut0D6oz-tM9Bk4s",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ReverseTok",
+      "idea_summary": "AI 가상 인플루언서와 채팅 플랫폼",
+      "analysis": {
+        "problem": "실제 인플루언서와의 소통 한계와 접근성 문제 [추론]",
+        "solution": "AI로 구현된 가상 인플루언서와 24시간 채팅 가능 [추론]",
+        "target_user": "10-20대 소셜미디어 헤비유저 [추론]",
+        "unique_point": "실제 인플루언서 페르소나를 AI로 재현 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "기타 AI 챗봇들"
+        ],
+        "timing_reason": "AI 기술 발전과 인플루언서 경제 성장 [추론]",
+        "growth_potential": "높음 - AI와 소셜의 융합 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 채팅과 가상 굿즈 판매 [추론]",
+        "pricing_suggestion": "월 10,000원 무제한 채팅 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "4000만원 [추론]",
+        "tech_stack": [
+          "OpenAI API",
+          "Firebase",
+          "WebSocket"
+        ],
+        "key_features": [
+          "AI 채팅",
+          "페르소나 관리",
+          "결제 시스템"
+        ],
+        "clone_tip": "기존 LLM API 활용하여 캐릭터 개발에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI트렌드"
+      ],
+      "verdict": "AI와 인플루언서 경제 결합한 혁신 모델"
+    },
+    {
+      "rank": 3,
+      "name": "퀸잇, 멋진 어른들의 라이프스타일링샵",
+      "developer": "라포랩스",
+      "category": "쇼핑",
+      "icon": "https://play-lh.googleusercontent.com/QRg2IuJ0jXY3NVA3357_NAnf0WUNnwnlnLKXMxScWfMje-rykM7wK4vQdtkYMNCd9RhUDioZ4pR7Db3rHiSDjdY",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.rapportlabs.damoa",
+      "idea_summary": "중년층 타겟 프리미엄 라이프스타일 큐레이션",
+      "analysis": {
+        "problem": "40-50대 타겟 라이프스타일 상품 큐레이션 부족 [추론]",
+        "solution": "연령대별 맞춤 상품과 라이프스타일 제안 [추론]",
+        "target_user": "경제력 있는 40-50대 중년층 [추론]",
+        "unique_point": "젊은층 위주 커머스에서 벗어난 중년 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "브랜디",
+          "오늘의집",
+          "기존 라이프스타일 플랫폼들"
+        ],
+        "timing_reason": "베이비부머 세대의 디지털 전환 가속 [추론]",
+        "growth_potential": "높음 - 구매력 높은 타겟층 [추론]"
+      },
+      "business": {
+        "monetization": "상품 판매 수수료와 프리미엄 멤버십 [추론]",
+        "pricing_suggestion": "판매가의 15% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Payment Gateway"
+        ],
+        "key_features": [
+          "큐레이션 시스템",
+          "결제",
+          "개인화 추천"
+        ],
+        "clone_tip": "소셜 큐레이션과 커머스 결합 접근 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#중년타겟"
+      ],
+      "verdict": "블루오션 중년층 겨냥한 프리미엄 커머스"
+    },
+    {
+      "rank": 4,
+      "name": "Manus AI",
+      "developer": "BUTTERFLY EFFECT PTE. LTD.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/7RIeDBEnjVVn3d1yr441p7u0BK9eT8E6P9i__XYTcJAzOe7sqVgJp7pmlypqY9NBqjI",
+      "app_url": "https://play.google.com/store/apps/details?id=tech.butterfly.app",
+      "idea_summary": "손글씨 AI 분석 및 생산성 도구",
+      "analysis": {
+        "problem": "수기 노트와 디지털 전환의 연결고리 부족 [추론]",
+        "solution": "AI 기반 손글씨 인식과 자동 디지털화 [추론]",
+        "target_user": "학생과 메모를 자주 하는 직장인 [추론]",
+        "unique_point": "OCR을 넘어선 의미 분석과 구조화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Microsoft Lens",
+          "CamScanner",
+          "GoodNotes"
+        ],
+        "timing_reason": "하이브리드 업무환경에서 아날로그-디지털 융합 [추론]",
+        "growth_potential": "높음 - 교육과 업무 시장 모두 공략 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능과 클라우드 스토리지 [추론]",
+        "pricing_suggestion": "월 8,000원 무제한 분석 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "5000만원 [추론]",
+        "tech_stack": [
+          "TensorFlow Lite",
+          "Vision API",
+          "Cloud ML"
+        ],
+        "key_features": [
+          "OCR",
+          "의미분석",
+          "자동분류",
+          "검색"
+        ],
+        "clone_tip": "Google Vision API 활용하여 기본 기능부터 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.6
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#교육시장"
+      ],
+      "verdict": "AI 기반 아날로그-디지털 브릿지 솔루션"
+    },
+    {
+      "rank": 5,
+      "name": "문서 리더 & 스캔",
+      "developer": "Studio Rankvn",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/E9XgOgJg5jhtN4yboSqta2ZUp7d6sVwmR65BAJ4kb9dNuZoWH71TAI-wMlIKmXv0rx-RV_tGDtFUFr5vy51_fA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.scanner.document.scan.pdf",
+      "idea_summary": "올인원 문서 스캔 및 관리 솔루션",
+      "analysis": {
+        "problem": "여러 문서 앱 사이를 오가는 불편함 [추론]",
+        "solution": "스캔부터 편집까지 원스톱 문서 처리 [추론]",
+        "target_user": "사무직 직장인과 학생, 개인사업자 [추론]",
+        "unique_point": "단순 스캔을 넘어선 통합 문서 워크플로우 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CamScanner",
+          "Adobe Scan",
+          "Microsoft Lens"
+        ],
+        "timing_reason": "종이없는 사무환경 가속화 [추론]",
+        "growth_potential": "중상 - 안정적 니즈 기반 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능과 클라우드 저장소 [추론]",
+        "pricing_suggestion": "월 5,000원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
+        "tech_stack": [
+          "ML Kit",
+          "PDF Kit",
+          "Cloud Storage"
+        ],
+        "key_features": [
+          "OCR 스캔",
+          "PDF 편집",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "기존 스캔 라이브러리 활용하여 UI/UX에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#실용성"
+      ],
+      "verdict": "치열한 경쟁 속에서도 기본 니즈 충족"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술과 일상 도구의 융합이 가속화되고 있으며, 특정 연령층과 니치 시장을 타겟한 맞춤형 앱들이 주목받고 있다 [추론]. 단순 기능보다는 사용자 경험과 워크플로우 최적화에 중점을 둔 솔루션들이 시장에서 차별화되고 있다 [추론].",
+    "trend_details": [
+      "AI 챗봇과 소셜 플랫폼 결합",
+      "중년층 타겟 프리미엄 서비스",
+      "아날로그-디지털 브릿지 솔루션",
+      "로컬 비즈니스 디지털 전환",
+      "워크플로우 통합 도구"
+    ],
+    "hot_categories": [
+      "생산성",
+      "AI 도구",
+      "라이프스타일"
+    ],
+    "opportunity": "기존 서비스의 특정 연령층 특화와 AI 기술을 활용한 일상 도구 고도화",
+    "action_item": "중년층 타겟 서비스와 AI 기반 생산성 도구 아이디어 구체화"
+  }
+}
