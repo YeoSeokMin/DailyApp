@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T15:07:55.142Z",
+  "generatedAt": "2026-04-18T15:06:24.727Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -19,38 +19,92 @@
       "avgScore": 7.2
     },
     {
-      "category": "라이프스타일",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "흡연노트"
-      ],
-      "avgScore": 6.8
-    },
-    {
-      "category": "유틸리티",
+      "category": "여행",
       "currentCount": 2,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "Auto Culture DriveCam",
+        "메모맵 - 여행기록, 여행지 탐색, 위치기록, 커플여행"
+      ],
+      "avgScore": 7.1
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 4,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "MarkMyCar",
+        "PokeLabo",
         "OnDevice LLM - Offline AI Chat",
         "QR 스캐너"
       ],
       "avgScore": 7.5
     },
     {
-      "category": "여행",
+      "category": "생산성",
+      "currentCount": 7,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "FocusField — Work Smarter",
+        "Manus AI",
+        "문서 리더 & 스캔",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "문서 리더 및 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "문서 뷰어: PDF, Word"
+      ],
+      "avgScore": 7.657142857142857
+    },
+    {
+      "category": "라이프스타일",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "OurStory - Couples Map",
+        "흡연노트"
+      ],
+      "avgScore": 7.3
+    },
+    {
+      "category": "음식 및 음료",
       "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "메모맵 - 여행기록, 여행지 탐색, 위치기록, 커플여행"
+        "하삼동커피"
       ],
-      "avgScore": 7.2
+      "avgScore": 6
+    },
+    {
+      "category": "소셜",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "리버스톡(Reversetok) - AI 인플루언서 채팅"
+      ],
+      "avgScore": 8
+    },
+    {
+      "category": "쇼핑",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "퀸잇, 멋진 어른들의 라이프스타일링샵"
+      ],
+      "avgScore": 8.2
     },
     {
       "category": "건강 및 피트니스",
@@ -63,20 +117,6 @@
         "TaperSafe"
       ],
       "avgScore": 7.949999999999999
-    },
-    {
-      "category": "생산성",
-      "currentCount": 4,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "문서 리더 및 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 뷰어: PDF, Word"
-      ],
-      "avgScore": 7.2
     },
     {
       "category": "Developer Tools",
@@ -183,20 +223,6 @@
       "avgScore": 7.5
     },
     {
-      "category": "Entertainment",
-      "currentCount": 4,
-      "previousCount": 2,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Dootchi: Chat with AI Chars",
-        "iDrama – Short Dramas & Reels",
-        "VibeShort: AI Comic Dramas",
-        "VibeShort: AI Comic Dramas"
-      ],
-      "avgScore": 7.925000000000001
-    },
-    {
       "category": "Graphics/Design",
       "currentCount": 1,
       "previousCount": 0,
@@ -241,90 +267,71 @@
       "avgScore": 7.7
     },
     {
-      "category": "News",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Entertainment",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Wisp — News Without Drama"
+        "Dootchi: Chat with AI Chars",
+        "iDrama – Short Dramas & Reels",
+        "VibeShort: AI Comic Dramas"
       ],
-      "avgScore": 7.4
-    },
-    {
-      "category": "Design & Creativity",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Loopit - Make Playables"
-      ],
-      "avgScore": 8.2
+      "avgScore": 7.7
     }
   ],
   "decliningCategories": [
     {
+      "category": "Lifestyle",
+      "currentCount": 7,
+      "previousCount": 9,
+      "changePercent": -22,
+      "changeDirection": "down",
+      "apps": [
+        "Wristlock: Watch Tracker",
+        "Apartment-i – Apartment App",
+        "Kaori - Perfume Tracker",
+        "IBS Vira",
+        "ChirpPal - Parrot Training",
+        "Knitting Notebook",
+        "Apartment-i"
+      ],
+      "avgScore": 7.1571428571428575
+    },
+    {
       "category": "Health & Fitness",
-      "currentCount": 4,
-      "previousCount": 6,
-      "changePercent": -33,
+      "currentCount": 2,
+      "previousCount": 5,
+      "changePercent": -60,
       "changeDirection": "down",
       "apps": [
         "Tina - For Life With Scoliosis",
-        "Glucose Tracker - GDM Diary",
-        "RePattern",
-        "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출"
+        "Glucose Tracker - GDM Diary"
       ],
-      "avgScore": 7.7
+      "avgScore": 8.25
     },
     {
-      "category": "Personalization",
-      "currentCount": 2,
+      "category": "Public Safety",
+      "currentCount": 1,
       "previousCount": 3,
-      "changePercent": -33,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
-        "Free Talk Stickers - Personal Stickers",
-        "Easy Homescreen"
+        "CrimeRadar: Dispatch Alerts"
       ],
-      "avgScore": 7.15
-    },
-    {
-      "category": "Music",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Ensemble Jammer"
-      ],
-      "avgScore": 7.8
-    },
-    {
-      "category": "Security",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Citizen Conan"
-      ],
-      "avgScore": 8.2
+      "avgScore": 6.8
     },
     {
       "category": "Productivity",
-      "currentCount": 4,
-      "previousCount": 9,
-      "changePercent": -56,
+      "currentCount": 2,
+      "previousCount": 11,
+      "changePercent": -82,
       "changeDirection": "down",
       "apps": [
         "ADHD Hyper Planner",
-        "hrsly: Shift & Pay Tracker",
-        "Aura: ADHD Focus Timer & Flow",
-        "Easy Mail - Email Launcher"
+        "hrsly: Shift & Pay Tracker"
       ],
-      "avgScore": 7.550000000000001
+      "avgScore": 7.800000000000001
     }
   ],
   "stableCategories": [
@@ -338,24 +345,6 @@
         "Slug Stats: At-Bat Tracker"
       ],
       "avgScore": 6.8
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 8,
-      "previousCount": 8,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Wristlock: Watch Tracker",
-        "Apartment-i – Apartment App",
-        "Kaori - Perfume Tracker",
-        "IBS Vira",
-        "ChirpPal - Parrot Training",
-        "Knitting Notebook",
-        "Apartment-i",
-        "AI Hair Transplant & Analysis"
-      ],
-      "avgScore": 7.300000000000001
     },
     {
       "category": "Utilities",
@@ -407,78 +396,55 @@
       "avgScore": 7
     },
     {
-      "category": "Public Safety",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "CrimeRadar: Dispatch Alerts",
-        "CrimeRadar: Dispatch Alerts"
-      ],
-      "avgScore": 7.4
-    },
-    {
-      "category": "Graphics & Design",
+      "category": "Music",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Douge - All-in-One Perler Bead Assistant"
+        "Ensemble Jammer"
       ],
-      "avgScore": 7.1
+      "avgScore": 7.8
+    },
+    {
+      "category": "Personalization",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Free Talk Stickers - Personal Stickers",
+        "Easy Homescreen"
+      ],
+      "avgScore": 7.15
+    },
+    {
+      "category": "Security",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Citizen Conan"
+      ],
+      "avgScore": 8.2
     }
   ],
   "hotKeywords": [
     {
-      "keyword": "B2C",
-      "category": "tag",
-      "count": 38,
-      "apps": [
-        "흡연노트",
-        "Slug Stats: At-Bat Tracker",
-        "Wristlock: Watch Tracker",
-        "ADHD Hyper Planner",
-        "Wander Weather",
-        "CrimeRadar: Dispatch Alerts",
-        "Queenit – Lifestyle Shop for Adults",
-        "SolVi - Smart Solar AI",
-        "Brick Keeper",
-        "Kaori - Perfume Tracker",
-        "IBS Vira",
-        "Find My Phone by Clap Launcher",
-        "레시챌레 by 클라시루",
-        "사쿠치케",
-        "ChirpPal - Parrot Training",
-        "Kinnecta: Elderly Care & Meds",
-        "OpenSky Homeschool Planner",
-        "ZKP Storage",
-        "Queenit – Lifestyle Shop for Stylish Adults",
-        "Fallcent – Price Alerts, Comparisons, Hot Deals",
-        "Dootchi: Chat with AI Chars",
-        "Tina - For Life With Scoliosis",
-        "Ensemble Jammer",
-        "Re:Home - AI Design Visualiser",
-        "Glucose Tracker - GDM Diary",
-        "iDrama – Short Dramas & Reels",
-        "zeta - AI Characters Roleplay Chat",
-        "Free Talk Stickers - Personal Stickers",
-        "hrsly: Shift & Pay Tracker",
-        "Douge - All-in-One Perler Bead Assistant",
-        "RePattern",
-        "Aura: ADHD Focus Timer & Flow",
-        "AI Hair Transplant & Analysis",
-        "Wisp — News Without Drama",
-        "Easy Mail - Email Launcher",
-        "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출"
-      ]
-    },
-    {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 36,
+      "count": 40,
       "apps": [
+        "Auto Culture DriveCam",
+        "MarkMyCar",
+        "PokeLabo",
+        "FocusField — Work Smarter",
+        "OurStory - Couples Map",
+        "하삼동커피",
+        "리버스톡(Reversetok) - AI 인플루언서 채팅",
+        "퀸잇, 멋진 어른들의 라이프스타일링샵",
+        "문서 리더 & 스캔",
         "흡연노트",
         "QR 스캐너",
         "ReviewMonitor",
@@ -508,19 +474,61 @@
         "hrsly: Shift & Pay Tracker",
         "Knitting Notebook",
         "SnapQuote: Fast Estimates",
-        "Easy Homescreen",
-        "Douge - All-in-One Perler Bead Assistant",
-        "RePattern",
-        "Aura: ADHD Focus Timer & Flow",
-        "Easy Mail - Email Launcher",
-        "머니워크 -돈버는 건강관리, 걷기로 용돈벌기, 현금인출"
+        "Easy Homescreen"
+      ]
+    },
+    {
+      "keyword": "B2C",
+      "category": "tag",
+      "count": 38,
+      "apps": [
+        "Auto Culture DriveCam",
+        "MarkMyCar",
+        "PokeLabo",
+        "OurStory - Couples Map",
+        "리버스톡(Reversetok) - AI 인플루언서 채팅",
+        "퀸잇, 멋진 어른들의 라이프스타일링샵",
+        "Manus AI",
+        "문서 리더 & 스캔",
+        "흡연노트",
+        "Slug Stats: At-Bat Tracker",
+        "Wristlock: Watch Tracker",
+        "ADHD Hyper Planner",
+        "Wander Weather",
+        "CrimeRadar: Dispatch Alerts",
+        "Queenit – Lifestyle Shop for Adults",
+        "SolVi - Smart Solar AI",
+        "Brick Keeper",
+        "Kaori - Perfume Tracker",
+        "IBS Vira",
+        "Find My Phone by Clap Launcher",
+        "레시챌레 by 클라시루",
+        "사쿠치케",
+        "ChirpPal - Parrot Training",
+        "Kinnecta: Elderly Care & Meds",
+        "OpenSky Homeschool Planner",
+        "ZKP Storage",
+        "Queenit – Lifestyle Shop for Stylish Adults",
+        "Fallcent – Price Alerts, Comparisons, Hot Deals",
+        "Dootchi: Chat with AI Chars",
+        "Tina - For Life With Scoliosis",
+        "Ensemble Jammer",
+        "Re:Home - AI Design Visualiser",
+        "Glucose Tracker - GDM Diary",
+        "iDrama – Short Dramas & Reels",
+        "zeta - AI Characters Roleplay Chat",
+        "Free Talk Stickers - Personal Stickers",
+        "hrsly: Shift & Pay Tracker"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 25,
+      "count": 20,
       "apps": [
+        "FocusField — Work Smarter",
+        "리버스톡(Reversetok) - AI 인플루언서 채팅",
+        "Manus AI",
         "OnDevice LLM - Offline AI Chat",
         "Sugar Sensei",
         "SolVi - Smart Solar AI",
@@ -532,18 +540,16 @@
         "Re:Home - AI Design Visualiser",
         "zeta - AI Characters Roleplay Chat",
         "Citizen Conan",
-        "VibeShort: AI Comic Dramas",
-        "Douge - All-in-One Perler Bead Assistant",
-        "AI Hair Transplant & Analysis",
-        "Wisp — News Without Drama",
-        "Easy Mail - Email Launcher"
+        "VibeShort: AI Comic Dramas"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 15,
+      "count": 16,
       "apps": [
+        "MarkMyCar",
+        "FocusField — Work Smarter",
         "Sugar Sensei",
         "CrimeRadar: Dispatch Alerts",
         "Apartment-i – Apartment App",
@@ -563,6 +569,7 @@
       "category": "tag",
       "count": 13,
       "apps": [
+        "FocusField — Work Smarter",
         "ReviewMonitor",
         "墓じまい見積もり",
         "Loopit - Make Playables",
@@ -579,22 +586,22 @@
     {
       "keyword": "헬스케어",
       "category": "tag",
-      "count": 9,
+      "count": 8,
       "apps": [
         "흡연노트",
         "Sugar Sensei",
         "ADHD Hyper Planner",
         "IBS Vira",
         "Tina - For Life With Scoliosis",
-        "Glucose Tracker - GDM Diary",
-        "Aura: ADHD Focus Timer & Flow"
+        "Glucose Tracker - GDM Diary"
       ]
     },
     {
       "keyword": "커뮤니티",
       "category": "social",
-      "count": 6,
+      "count": 7,
       "apps": [
+        "Auto Culture DriveCam",
         "Apartment-i – Apartment App",
         "아파트아이",
         "CrimeRadar: Dispatch Alerts",
@@ -603,35 +610,45 @@
     },
     {
       "keyword": "생산성",
-      "category": "tag",
-      "count": 5,
+      "category": "productivity",
+      "count": 7,
       "apps": [
+        "FocusField — Work Smarter",
+        "Manus AI",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "문서 리더 및 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "hrsly: Shift & Pay Tracker",
-        "Easy Mail - Email Launcher"
+        "hrsly: Shift & Pay Tracker"
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 4,
+      "keyword": "자동화",
+      "category": "productivity",
+      "count": 3,
       "apps": [
-        "TaperSafe",
-        "ChirpPal - Parrot Training",
-        "Knitting Notebook",
-        "Douge - All-in-One Perler Bead Assistant"
+        "PokeLabo",
+        "ReviewMonitor",
+        "PoolRouteMonitor"
       ]
     },
     {
-      "keyword": "콘텐츠",
+      "keyword": "AI활용",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Manus AI",
+        "Re:Home - AI Design Visualiser",
+        "zeta - AI Characters Roleplay Chat"
+      ]
+    },
+    {
+      "keyword": "편집",
       "category": "creator",
-      "count": 4,
+      "count": 3,
       "apps": [
-        "iDrama – Short Dramas & Reels",
-        "VibeShort: AI Comic Dramas",
-        "Loopit - Make Playables"
+        "문서 리더 & 스캔",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
@@ -645,13 +662,13 @@
       ]
     },
     {
-      "keyword": "틈새시장",
-      "category": "tag",
+      "keyword": "프로",
+      "category": "subscription",
       "count": 3,
       "apps": [
         "TaperSafe",
         "ChirpPal - Parrot Training",
-        "Douge - All-in-One Perler Bead Assistant"
+        "Knitting Notebook"
       ]
     },
     {
@@ -665,15 +682,6 @@
       ]
     },
     {
-      "keyword": "엔터테인먼트",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Dootchi: Chat with AI Chars",
-        "VibeShort: AI Comic Dramas"
-      ]
-    },
-    {
       "keyword": "1인개발어려움",
       "category": "tag",
       "count": 3,
@@ -681,6 +689,24 @@
         "Ensemble Jammer",
         "Loopit - Make Playables",
         "iDrama – Short Dramas & Reels"
+      ]
+    },
+    {
+      "keyword": "실용성",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "MarkMyCar",
+        "문서 리더 & 스캔"
+      ]
+    },
+    {
+      "keyword": "B2B2C",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "하삼동커피",
+        "Apartment-i"
       ]
     },
     {
@@ -693,39 +719,21 @@
       ]
     },
     {
+      "keyword": "틈새시장",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "TaperSafe",
+        "ChirpPal - Parrot Training"
+      ]
+    },
+    {
       "keyword": "B2B가능",
       "category": "tag",
       "count": 2,
       "apps": [
         "TaperSafe",
         "PDF뷰어, PDF리더 그리고 파일열기"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 2,
-      "apps": [
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
-      ]
-    },
-    {
-      "keyword": "오피스",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "문서 리더 및 뷰어",
-        "문서 뷰어: PDF, Word"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "문서 뷰어: PDF, Word",
-        "Find My Phone by Clap Launcher"
       ]
     }
   ],
@@ -735,32 +743,32 @@
         "count": 14,
         "percent": 20,
         "examples": [
+          "MarkMyCar",
           "QR 스캐너",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "문서 뷰어: PDF, Word"
+          "PDF 뷰어 - PDF Reader & PDF 편집"
         ]
       },
       "freemium": {
-        "count": 49,
-        "percent": 70,
-        "examples": [
-          "흡연노트",
-          "OnDevice LLM - Offline AI Chat",
-          "메모맵 - 여행기록, 여행지 탐색, 위치기록, 커플여행"
-        ]
-      },
-      "subscription": {
         "count": 50,
         "percent": 71,
         "examples": [
-          "흡연노트",
-          "OnDevice LLM - Offline AI Chat",
-          "메모맵 - 여행기록, 여행지 탐색, 위치기록, 커플여행"
+          "Auto Culture DriveCam",
+          "MarkMyCar",
+          "PokeLabo"
+        ]
+      },
+      "subscription": {
+        "count": 45,
+        "percent": 64,
+        "examples": [
+          "Auto Culture DriveCam",
+          "PokeLabo",
+          "FocusField — Work Smarter"
         ]
       },
       "onetime": {
-        "count": 13,
-        "percent": 19,
+        "count": 12,
+        "percent": 17,
         "examples": [
           "흡연노트",
           "OnDevice LLM - Offline AI Chat",
@@ -768,19 +776,19 @@
         ]
       },
       "unknown": {
-        "count": 7,
-        "percent": 10,
+        "count": 8,
+        "percent": 11,
         "examples": []
       }
     },
     "dominant": {
-      "model": "subscription",
+      "model": "freemium",
       "count": 50,
       "percent": 71,
       "examples": [
-        "흡연노트",
-        "OnDevice LLM - Offline AI Chat",
-        "메모맵 - 여행기록, 여행지 탐색, 위치기록, 커플여행"
+        "Auto Culture DriveCam",
+        "MarkMyCar",
+        "PokeLabo"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -789,14 +797,14 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 24,
-        "percent": 34,
+        "count": 22,
+        "percent": 31,
         "apps": [
-          "OnDevice LLM - Offline AI Chat",
-          "Sugar Sensei",
-          "QR 스캐너",
-          "ReviewMonitor",
-          "Wander Weather"
+          "FocusField — Work Smarter",
+          "리버스톡(Reversetok) - AI 인플루언서 채팅",
+          "Manus AI",
+          "문서 리더 & 스캔",
+          "OnDevice LLM - Offline AI Chat"
         ]
       },
       {
@@ -804,23 +812,23 @@
         "count": 20,
         "percent": 29,
         "apps": [
+          "MarkMyCar",
+          "PokeLabo",
+          "FocusField — Work Smarter",
           "Sugar Sensei",
-          "Slug Stats: At-Bat Tracker",
-          "CrimeRadar: Dispatch Alerts",
-          "Apartment-i – Apartment App",
-          "SolVi - Smart Solar AI"
+          "Slug Stats: At-Bat Tracker"
         ]
       },
       {
         "tech": "social",
-        "count": 7,
-        "percent": 10,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "Auto Culture DriveCam",
           "墓じまい見積もり",
           "Apartment-i – Apartment App",
           "스키마바이트는타이미",
-          "아파트아이",
-          "PolyBuzz: Chat with AI Friends"
+          "아파트아이"
         ]
       },
       {
@@ -828,18 +836,20 @@
         "count": 6,
         "percent": 9,
         "apps": [
+          "Auto Culture DriveCam",
+          "문서 리더 & 스캔",
           "PDF뷰어, PDF리더 그리고 파일열기",
           "PDF 뷰어 - PDF Reader & PDF 편집",
-          "iDrama – Short Dramas & Reels",
-          "VibeShort: AI Comic Dramas",
-          "Loopit - Make Playables"
+          "iDrama – Short Dramas & Reels"
         ]
       },
       {
         "tech": "productivity",
-        "count": 3,
-        "percent": 4,
+        "count": 5,
+        "percent": 7,
         "apps": [
+          "PokeLabo",
+          "Manus AI",
           "ReviewMonitor",
           "Kinnecta: Elderly Care & Meds",
           "Ensemble Jammer"
@@ -847,12 +857,13 @@
       },
       {
         "tech": "subscription",
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "apps": [
+          "하삼동커피",
+          "퀸잇, 멋진 어른들의 라이프스타일링샵",
           "TaperSafe",
-          "Knitting Notebook",
-          "Douge - All-in-One Perler Bead Assistant"
+          "Knitting Notebook"
         ]
       },
       {
@@ -875,14 +886,14 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 24,
-      "percent": 34,
+      "count": 22,
+      "percent": 31,
       "apps": [
-        "OnDevice LLM - Offline AI Chat",
-        "Sugar Sensei",
-        "QR 스캐너",
-        "ReviewMonitor",
-        "Wander Weather"
+        "FocusField — Work Smarter",
+        "리버스톡(Reversetok) - AI 인플루언서 채팅",
+        "Manus AI",
+        "문서 리더 & 스캔",
+        "OnDevice LLM - Offline AI Chat"
       ]
     },
     "emerging": [
@@ -891,23 +902,23 @@
         "count": 20,
         "percent": 29,
         "apps": [
+          "MarkMyCar",
+          "PokeLabo",
+          "FocusField — Work Smarter",
           "Sugar Sensei",
-          "Slug Stats: At-Bat Tracker",
-          "CrimeRadar: Dispatch Alerts",
-          "Apartment-i – Apartment App",
-          "SolVi - Smart Solar AI"
+          "Slug Stats: At-Bat Tracker"
         ]
       },
       {
         "tech": "social",
-        "count": 7,
-        "percent": 10,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "Auto Culture DriveCam",
           "墓じまい見積もり",
           "Apartment-i – Apartment App",
           "스키마바이트는타이미",
-          "아파트아이",
-          "PolyBuzz: Chat with AI Friends"
+          "아파트아이"
         ]
       }
     ]
@@ -922,10 +933,10 @@
     },
     {
       "type": "rising_category",
-      "title": "라이프스타일 카테고리 급부상",
+      "title": "여행 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "라이프스타일"
+      "category": "여행"
     },
     {
       "type": "rising_category",
@@ -936,10 +947,31 @@
     },
     {
       "type": "rising_category",
-      "title": "여행 카테고리 급부상",
+      "title": "라이프스타일 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "여행"
+      "category": "라이프스타일"
+    },
+    {
+      "type": "rising_category",
+      "title": "음식 및 음료 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "음식 및 음료"
+    },
+    {
+      "type": "rising_category",
+      "title": "소셜 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "소셜"
+    },
+    {
+      "type": "rising_category",
+      "title": "쇼핑 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "쇼핑"
     },
     {
       "type": "rising_category",
@@ -947,13 +979,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "건강 및 피트니스"
-    },
-    {
-      "type": "rising_category",
-      "title": "생산성 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "생산성"
     },
     {
       "type": "rising_category",
@@ -1013,13 +1038,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Entertainment 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Entertainment"
-    },
-    {
-      "type": "rising_category",
       "title": "Graphics/Design 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1048,40 +1066,34 @@
     },
     {
       "type": "rising_category",
-      "title": "News 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Entertainment 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "News"
-    },
-    {
-      "type": "rising_category",
-      "title": "Design & Creativity 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Design & Creativity"
+      "category": "Entertainment"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "31%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Business 카테고리가 200% 급상승하며 B2B/B2C 솔루션에 대한 수요가 폭증하고 있습니다. AI 기술이 34%의 앱에 적용되며 필수 기능으로 자리잡았고, Freemium+구독 모델이 주류가 되었습니다.",
+    "trend_summary": "Business 카테고리가 200% 급성장하며 블루오션 기회를 제공하고 있으며, AI 기능 통합이 31%에 불과해 차별화 여지가 크다. 1인 개발 가능한 B2C Freemium 모델이 주류 트렌드로 자리잡고 있다.",
     "trend_details": [
-      "Business 카테고리 200% 급상승으로 B2B 솔루션 기회 확대",
-      "AI 기능이 34% 앱에 적용되어 필수 차별화 요소로 부상",
-      "Freemium(70%) + 구독(71%) 모델이 수익화 표준이 됨"
+      "Business 카테고리 200% 급성장으로 진입 장벽 낮음",
+      "AI 기능 미적용 카테고리 69%로 차별화 기회 존재",
+      "Freemium(71%) + Subscription(64%) 수익화 모델 정착",
+      "1인개발가능 키워드 40회로 솔로 개발자 친화적 시장",
+      "B2C 시장이 B2B 대비 3배 높은 관심도"
     ],
     "hot_categories": [
       "Business",
-      "유틸리티",
-      "건강 및 피트니스"
+      "유틸리티"
     ],
-    "opportunity": "Business 카테고리에서 AI 기능을 활용한 1인 개발 가능한 B2B 솔루션 개발이 가장 유망합니다.",
-    "action_item": "Business 카테고리에서 간단한 AI 기반 업무 자동화 도구를 Freemium 모델로 개발하세요.",
-    "weekly_theme": "AI Business 솔루션"
+    "opportunity": "Business 카테고리에서 AI 기능을 활용한 B2C 앱 개발이 가장 유망한 기회 영역이다.",
+    "action_item": "Business 카테고리에서 AI 자동화 기능을 포함한 Freemium 모델 앱을 1인 개발로 출시하라.",
+    "weekly_theme": "Business AI"
   }
 }

@@ -1,0 +1,627 @@
+{
+  "date": "2026-04-19",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "splitmaster – split bills",
+      "developer": "Andrii Korshenko",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/4a/d6/894ad6dd-a163-7363-d6b8-a9c2b2996f23/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/splitmaster-split-bills/id6759492628?uo=2",
+      "idea_summary": "그룹 지출을 간편하게 나누는 정산 앱",
+      "analysis": {
+        "problem": "친구들과의 식사, 여행 등에서 복잡한 비용 정산 문제 [추론]",
+        "solution": "직관적인 UI로 비용을 입력하고 자동으로 각자 몫을 계산 [추론]",
+        "target_user": "20-30대 그룹 활동이 많은 젊은층 [추론]",
+        "unique_point": "간단한 조작으로 복잡한 정산을 즉시 처리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "더치페이",
+          "N분의1"
+        ],
+        "timing_reason": "코로나 이후 그룹 활동 재개로 정산 니즈 증가 [추론]",
+        "growth_potential": "글로벌 확장 가능한 범용적 문제 해결 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 광고 모델 [추론]",
+        "pricing_suggestion": "기본 무료, 고급 기능 월 2,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase"
+        ],
+        "key_features": [
+          "비용입력",
+          "자동정산",
+          "공유기능"
+        ],
+        "clone_tip": "UI/UX 단순화가 핵심, 카카오페이 연동 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "명확한 페인포인트 해결, 구현 난이도 적당",
+      "deep_report_id": "ios-splitmaster-split-bills-1776524597524"
+    },
+    {
+      "rank": 2,
+      "name": "macalo - カロリーがスイーツに変わる",
+      "developer": "Raizo Kawaguchi",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c6/72/56/c67256c2-6987-3d68-8696-b4689d3db8d3/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/macalo-%E3%82%AB%E3%83%AD%E3%83%AA%E3%83%BC%E3%81%8C%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%84%E3%81%AB%E5%A4%89%E3%82%8F%E3%82%8B/id6760333082?uo=2",
+      "idea_summary": "칼로리를 디저트로 시각화하는 재미있는 다이어트 앱",
+      "analysis": {
+        "problem": "지루한 칼로리 관리로 인한 다이어트 포기 [추론]",
+        "solution": "소모한 칼로리를 좋아하는 디저트로 변환해서 시각화 [추론]",
+        "target_user": "다이어트에 관심 있는 20-40대 여성 [추론]",
+        "unique_point": "칼로리를 디저트로 변환하는 게이미피케이션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "눔"
+        ],
+        "timing_reason": "건강 의식 증가와 재미있는 헬스케어 트렌드 [추론]",
+        "growth_potential": "글로벌 헬스케어 시장 확장성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 디저트 테마팩 판매 [추론]",
+        "pricing_suggestion": "월 4,900원 구독 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "HealthKit"
+        ],
+        "key_features": [
+          "칼로리변환",
+          "시각화",
+          "목표설정"
+        ],
+        "clone_tip": "디자인과 애니메이션이 핵심, 다양한 디저트 DB 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "참신한 아이디어로 차별화된 헬스케어 앱"
+    },
+    {
+      "rank": 3,
+      "name": "Birdr - Birding & Bird ID",
+      "developer": "Scott Stewart",
+      "category": "참고",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/dc/9a/f0dc9aea-bf71-9dc6-ae93-a12cf20356f4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/birdr-birding-bird-id/id6761167834?uo=2",
+      "idea_summary": "AI 기반 새 식별 및 탐조 커뮤니티 앱",
+      "analysis": {
+        "problem": "새 관찰 취미의 높은 진입장벽과 식별 어려움 [추론]",
+        "solution": "AI 이미지 인식으로 새 종류 자동 식별 및 기록 [추론]",
+        "target_user": "자연 애호가, 탐조 동호회원, 생물학 전공자 [추론]",
+        "unique_point": "AI 기반 실시간 새 식별과 관찰 기록 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Merlin Bird ID",
+          "eBird"
+        ],
+        "timing_reason": "팬데믹 이후 아웃도어 활동 및 자연 관찰 관심 증가 [추론]",
+        "growth_potential": "글로벌 버드워칭 커뮤니티 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 지역별 새 데이터팩 [추론]",
+        "pricing_suggestion": "월 9,900원 구독, 지역팩 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Core ML",
+          "Vision",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI식별",
+          "기록관리",
+          "커뮤니티"
+        ],
+        "clone_tip": "정확한 AI 모델 훈련이 핵심, 지역별 새 데이터베이스 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI",
+        "#니치마켓"
+      ],
+      "verdict": "틈새시장이지만 충성도 높은 타겟층 확보 가능"
+    },
+    {
+      "rank": 4,
+      "name": "BiteSnap - Cook & Share",
+      "developer": "DK Tech Solutions UG",
+      "category": "음식 및 음료",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/4f/a3/224fa3f1-57c8-d613-e336-199b3502fbab/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/bitesnap-cook-share/id6761407422?uo=2",
+      "idea_summary": "요리 과정을 촬영하고 공유하는 소셜 쿠킹 앱",
+      "analysis": {
+        "problem": "요리 레시피의 복잡함과 결과 공유의 어려움 [추론]",
+        "solution": "요리 과정을 단계별로 촬영하여 자동으로 레시피 생성 [추론]",
+        "target_user": "요리에 관심 있는 20-40대, 소셜미디어 활동층 [추론]",
+        "unique_point": "과정 중심의 레시피 생성과 소셜 공유 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "쿡패드",
+          "만개의레시피"
+        ],
+        "timing_reason": "집밥 트렌드와 요리 콘텐츠 인기 상승 [추론]",
+        "growth_potential": "글로벌 푸드 콘텐츠 시장 확장성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 브랜드 협찬, 식재료 제휴 [추론]",
+        "pricing_suggestion": "월 4,900원, 연간 49,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Video Processing",
+          "AWS"
+        ],
+        "key_features": [
+          "영상촬영",
+          "자동편집",
+          "소셜공유"
+        ],
+        "clone_tip": "영상 처리 최적화와 UI/UX가 중요, 커뮤니티 기능 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜",
+        "#영상"
+      ],
+      "verdict": "트렌드에 부합하는 소셜 쿠킹 플랫폼"
+    },
+    {
+      "rank": 5,
+      "name": "Candles - Birthday Reminder",
+      "developer": "Jeyapalan Bavitharan",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/b7/49/71b749f0-77c6-4f76-72cb-7983080ef595/App_Icon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/candles-birthday-reminder/id6761880794?uo=2",
+      "idea_summary": "감성적 디자인의 생일 알림 및 관리 앱",
+      "analysis": {
+        "problem": "중요한 사람들의 생일을 깜빡하는 문제 [추론]",
+        "solution": "아름다운 UI와 개인화된 알림으로 생일 관리 [추론]",
+        "target_user": "인간관계를 중시하는 모든 연령층 [추론]",
+        "unique_point": "감성적이고 아름다운 디자인의 생일 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기본 캘린더 앱",
+          "생일알림이"
+        ],
+        "timing_reason": "디지털 관계 관리 니즈와 감성적 앱 선호 증가 [추론]",
+        "growth_potential": "범용적 니즈로 안정적 시장 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마, 고급 알림 기능 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 1,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Local Notifications"
+        ],
+        "key_features": [
+          "생일관리",
+          "알림설정",
+          "선물메모"
+        ],
+        "clone_tip": "디자인이 차별화 포인트, 연락처 연동 및 소셜 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#라이프스타일"
+      ],
+      "verdict": "간단하지만 필요한 기능, 디자인으로 차별화"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Gemmy AI: 채팅 & 어시스턴트",
+      "developer": "Jetkite",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/mpbbwIrUZX5fbwG1Ftn3cVRbb0mYSaUmToXM0E5lC3jz1OKBCq8PPRsXp79B7G-7OGM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.jetkite.gemmy",
+      "idea_summary": "개인화된 AI 채팅 어시스턴트 앱",
+      "analysis": {
+        "problem": "복잡한 AI 도구들의 접근성 문제 [추론]",
+        "solution": "간단한 채팅 인터페이스로 AI 기능 제공 [추론]",
+        "target_user": "AI 기술에 관심 있는 일반 사용자 [추론]",
+        "unique_point": "사용하기 쉬운 AI 채팅 인터페이스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Claude",
+          "Bard"
+        ],
+        "timing_reason": "AI 대중화 시대, 개인화된 AI 도구 니즈 증가 [추론]",
+        "growth_potential": "AI 시장 성장과 함께 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, API 사용료 [추론]",
+        "pricing_suggestion": "월 9,900원 구독 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "OpenAI API",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI채팅",
+          "개인화",
+          "히스토리관리"
+        ],
+        "clone_tip": "AI API 통합이 핵심, 개인화 알고리즘 개발 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "AI 시장 성장에 편승 가능한 타이밍",
+      "deep_report_id": "android-gemmy-ai-채팅-어시스턴트-1776524681878"
+    },
+    {
+      "rank": 2,
+      "name": "문서 리더 & 스캔",
+      "developer": "Studio Rankvn",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/E9XgOgJg5jhtN4yboSqta2ZUp7d6sVwmR65BAJ4kb9dNuZoWH71TAI-wMlIKmXv0rx-RV_tGDtFUFr5vy51_fA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.scanner.document.scan.pdf",
+      "idea_summary": "올인원 문서 스캔 및 관리 솔루션",
+      "analysis": {
+        "problem": "종이 문서의 디지털화 및 관리 어려움 [추론]",
+        "solution": "스마트폰 카메라로 문서를 스캔하여 PDF로 변환 [추론]",
+        "target_user": "사무직 직장인, 학생, 프리랜서 [추론]",
+        "unique_point": "스캔부터 관리까지 올인원 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CamScanner",
+          "Adobe Scan"
+        ],
+        "timing_reason": "재택근무 증가로 문서 디지털화 니즈 상승 [추론]",
+        "growth_potential": "B2B 및 B2C 양방향 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 클라우드 저장소, 광고 [추론]",
+        "pricing_suggestion": "월 4,900원, OCR 기능 별도 요금 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Android Camera2",
+          "OpenCV",
+          "OCR API"
+        ],
+        "key_features": [
+          "문서스캔",
+          "PDF변환",
+          "OCR",
+          "클라우드동기화"
+        ],
+        "clone_tip": "이미지 처리 최적화가 핵심, OCR 정확도가 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#B2C"
+      ],
+      "verdict": "검증된 니즈의 생산성 도구, 안정적 시장"
+    },
+    {
+      "rank": 3,
+      "name": "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
+      "developer": "Exo Technology",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/aMXMQtbxwV8TCJabBkE0hCXPzDn3o2MwgVIj1y8s9tt1a0nQUYCxXUi9x-VVjtH3Mho",
+      "app_url": "https://play.google.com/store/apps/details?id=allpdfreader.pdfviewer.editfilepdf",
+      "idea_summary": "한국 특화 HWP 문서 뷰어 겸 PDF 리더",
+      "analysis": {
+        "problem": "모바일에서 HWP 파일 열기 어려움 [확인]",
+        "solution": "HWP와 PDF를 모두 지원하는 통합 뷰어 [추론]",
+        "target_user": "한국의 사무직 직장인, 공무원, 학생 [추론]",
+        "unique_point": "HWP 지원으로 한국 시장에 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "한글뷰어",
+          "Polaris Office"
+        ],
+        "timing_reason": "모바일 업무 환경 확산과 HWP 사용 지속 [추론]",
+        "growth_potential": "한국 내수 시장 중심의 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 제거, 프리미엄 편집 기능 [추론]",
+        "pricing_suggestion": "광고 제거 3,900원, 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "HWP SDK",
+          "PDF.js"
+        ],
+        "key_features": [
+          "HWP뷰어",
+          "PDF뷰어",
+          "편집기능"
+        ],
+        "clone_tip": "HWP 파싱 라이브러리 확보가 핵심, 한글과컴퓨터 협업 검토 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 6.8
+      },
+      "tags": [
+        "#한국특화",
+        "#B2B",
+        "#B2C"
+      ],
+      "verdict": "한국 시장 특화로 틈새시장 공략 가능"
+    },
+    {
+      "rank": 4,
+      "name": "배스킨라빈스",
+      "developer": "BR KOREA",
+      "category": "음식 및 음료",
+      "icon": "https://play-lh.googleusercontent.com/lrLiNciREZS8OBLjbjZfCDGZs6p3kxNDMYk8qedHC4iaOT_YWxEEM6rE0pa_be1EoRydKBuI1nN_P_8jKjGu",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.co.baskinrobbins.client",
+      "idea_summary": "아이스크림 브랜드 전용 주문 및 멤버십 앱",
+      "analysis": {
+        "problem": "매장 방문 없이 주문하고 픽업하고 싶은 니즈 [추론]",
+        "solution": "모바일 주문, 결제, 픽업 서비스 제공 [추론]",
+        "target_user": "배스킨라빈스 고객층, 디저트 애호가 [추론]",
+        "unique_point": "브랜드 특화 주문 시스템과 멤버십 혜택 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "투썸플레이스",
+          "스타벅스"
+        ],
+        "timing_reason": "O2O 주문 서비스 일반화, 언택트 문화 정착 [추론]",
+        "growth_potential": "기존 브랜드 앱으로 확장성 제한적 [추론]"
+      },
+      "business": {
+        "monetization": "매장 매출 증대, 고객 데이터 수집 [추론]",
+        "pricing_suggestion": "무료 앱, 브랜드 수익 모델 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "대기업 앱으로 개인 개발 부적합 [추측]",
+        "estimated_cost": "대기업 앱으로 개인 개발 부적합 [추측]",
+        "tech_stack": [
+          "Android",
+          "결제API",
+          "POS연동"
+        ],
+        "key_features": [
+          "모바일주문",
+          "결제",
+          "멤버십"
+        ],
+        "clone_tip": "대기업 브랜드 앱으로 개인 개발자 클론 부적합 [추측]"
+      },
+      "scores": {
+        "novelty": 1,
+        "necessity": 3,
+        "timing": 2,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 1,
+        "profitability": 1,
+        "scalability": 1,
+        "overall": 4.2
+      },
+      "tags": [
+        "#대기업앱",
+        "#O2O"
+      ],
+      "verdict": "대기업 브랜드 앱으로 개인 개발 부적합"
+    },
+    {
+      "rank": 5,
+      "name": "실손24",
+      "developer": "보험개발원",
+      "category": "금융",
+      "icon": "https://play-lh.googleusercontent.com/IaSYKTAGYKfWDFVGmm88ZLLtf_GqLo6hBe-nWcf-VvsLSKp1R1J2DVooDVGYkPEGwgs",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.or.silson.KACR",
+      "idea_summary": "실손보험 청구 전용 정부 공식 앱",
+      "analysis": {
+        "problem": "복잡한 실손보험 청구 과정의 불편함 [추론]",
+        "solution": "모바일로 간편하게 실손보험 청구 처리 [추론]",
+        "target_user": "실손보험 가입자 전체 [추론]",
+        "unique_point": "정부 공식 앱으로 신뢰성과 보안 보장 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "정보 없음"
+        ],
+        "timing_reason": "디지털 정부 서비스 확대 정책 [추론]",
+        "growth_potential": "정부 앱으로 개인 개발 불가능 [추측]"
+      },
+      "business": {
+        "monetization": "정부 서비스로 수익화 해당 없음 [추측]",
+        "pricing_suggestion": "무료 공공 서비스 [확인]",
+        "revenue_potential": "해당없음"
+      },
+      "dev_insight": {
+        "estimated_period": "정부 앱으로 개인 개발 불가 [추측]",
+        "estimated_cost": "정부 앱으로 개인 개발 불가 [추측]",
+        "tech_stack": [
+          "Android",
+          "정부인증",
+          "보안모듈"
+        ],
+        "key_features": [
+          "보험청구",
+          "서류업로드",
+          "진행조회"
+        ],
+        "clone_tip": "정부 앱 클론은 법적/제도적으로 불가능 [추측]"
+      },
+      "scores": {
+        "novelty": 1,
+        "necessity": 5,
+        "timing": 2,
+        "tech_difficulty": 1,
+        "market_size": 1,
+        "competition": 1,
+        "profitability": 1,
+        "scalability": 1,
+        "overall": 3.8
+      },
+      "tags": [
+        "#정부앱",
+        "#공공서비스"
+      ],
+      "verdict": "정부 공식 앱으로 개인 개발자 클론 불가"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인화 서비스와 모바일 생산성 도구가 주요 트렌드로 부상하고 있습니다. 특히 일상의 작은 불편함을 해결하는 니치 앱들이 눈에 띕니다.",
+    "trend_details": [
+      "AI 기반 개인화 서비스",
+      "생산성 및 문서 관리 도구",
+      "게이미피케이션 헬스케어",
+      "소셜 쿠킹 플랫폼",
+      "감성적 디자인의 라이프스타일 앱"
+    ],
+    "hot_categories": [
+      "건강 및 피트니스",
+      "생산성",
+      "라이프스타일",
+      "금융"
+    ],
+    "opportunity": "일상의 작은 불편함을 해결하는 심플한 솔루션에 참신한 아이디어를 더한 앱들이 기회 영역",
+    "action_item": "기존 솔루션에 게이미피케이션이나 AI 요소를 접목한 차별화 전략 검토"
+  }
+}
