@@ -1,23 +1,109 @@
 {
-  "generatedAt": "2026-04-20T15:05:59.909Z",
+  "generatedAt": "2026-04-21T15:05:40.242Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Shopping",
-      "currentCount": 4,
-      "previousCount": 1,
-      "changePercent": 300,
+      "category": "게임",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Queenit – Lifestyle Shop for Adults",
-        "Queenit – Lifestyle Shop for Stylish Adults",
-        "Fallcent – Price Alerts, Comparisons, Hot Deals",
-        "The Fair – Golfwear & Luxury Resale"
+        "Where's The Exit?",
+        "AdventureWeaver"
       ],
       "avgScore": 7.15
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 4,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "BakebudBdy",
+        "BiteSnap - Cook & Share",
+        "배스킨라빈스",
+        "하삼동커피"
+      ],
+      "avgScore": 6.5249999999999995
+    },
+    {
+      "category": "교육",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Darak - One Book a Day",
+        "듀오링고(Duolingo): 언어 학습"
+      ],
+      "avgScore": 8.05
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 6,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Articulate: speak smarter",
+        "QR 코드 & 바코드 스캐너",
+        "MarkMyCar",
+        "PokeLabo",
+        "OnDevice LLM - Offline AI Chat",
+        "QR 스캐너"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "그래픽 및 디자인",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Colory - 智能拾色与色彩管理"
+      ],
+      "avgScore": 6.5
+    },
+    {
+      "category": "도구",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "StreamDownloader - 비디오 저장",
+        "QR 코드 & 바코드 스캐너"
+      ],
+      "avgScore": 6.2
+    },
+    {
+      "category": "생산성",
+      "currentCount": 13,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "문서 뷰어: PDF, Word",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "Gemmy AI: 채팅 & 어시스턴트",
+        "문서 리더 & 스캔",
+        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
+        "FocusField — Work Smarter",
+        "Manus AI",
+        "문서 리더 & 스캔",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "문서 리더 및 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "문서 뷰어: PDF, Word"
+      ],
+      "avgScore": 7.2846153846153845
     },
     {
       "category": "엔터테인먼트",
@@ -45,17 +131,6 @@
         "흡연노트"
       ],
       "avgScore": 7.3500000000000005
-    },
-    {
-      "category": "게임",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "AdventureWeaver"
-      ],
-      "avgScore": 8.1
     },
     {
       "category": "참고",
@@ -96,32 +171,6 @@
       "avgScore": 8
     },
     {
-      "category": "유틸리티",
-      "currentCount": 5,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "QR 코드 & 바코드 스캐너",
-        "MarkMyCar",
-        "PokeLabo",
-        "OnDevice LLM - Offline AI Chat",
-        "QR 스캐너"
-      ],
-      "avgScore": 7.1
-    },
-    {
-      "category": "교육",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "듀오링고(Duolingo): 언어 학습"
-      ],
-      "avgScore": 8.6
-    },
-    {
       "category": "금융",
       "currentCount": 2,
       "previousCount": 0,
@@ -132,39 +181,6 @@
         "실손24"
       ],
       "avgScore": 5.8
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "BiteSnap - Cook & Share",
-        "배스킨라빈스",
-        "하삼동커피"
-      ],
-      "avgScore": 6.1000000000000005
-    },
-    {
-      "category": "생산성",
-      "currentCount": 10,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Gemmy AI: 채팅 & 어시스턴트",
-        "문서 리더 & 스캔",
-        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
-        "FocusField — Work Smarter",
-        "Manus AI",
-        "문서 리더 & 스캔",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "문서 리더 및 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 뷰어: PDF, Word"
-      ],
-      "avgScore": 7.56
     },
     {
       "category": "여행",
@@ -188,6 +204,17 @@
         "리버스톡(Reversetok) - AI 인플루언서 채팅"
       ],
       "avgScore": 8
+    },
+    {
+      "category": "Sports",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Slug Stats: At-Bat Tracker"
+      ],
+      "avgScore": 6.8
     },
     {
       "category": "Business",
@@ -277,65 +304,52 @@
         "아파트아이"
       ],
       "avgScore": 7.5
-    },
-    {
-      "category": "Medical",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Kinnecta: Elderly Care & Meds"
-      ],
-      "avgScore": 8.2
     }
   ],
   "decliningCategories": [
     {
       "category": "Utilities",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
+      "currentCount": 3,
+      "previousCount": 6,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
         "SolVi - Smart Solar AI",
         "Brick Keeper",
-        "Find My Phone by Clap Launcher",
-        "ZKP Storage"
+        "Find My Phone by Clap Launcher"
       ],
-      "avgScore": 7.85
+      "avgScore": 7.8
     },
     {
       "category": "Lifestyle",
-      "currentCount": 5,
+      "currentCount": 4,
       "previousCount": 10,
-      "changePercent": -50,
+      "changePercent": -60,
       "changeDirection": "down",
       "apps": [
         "Wristlock: Watch Tracker",
         "Apartment-i – Apartment App",
         "Kaori - Perfume Tracker",
-        "IBS Vira",
-        "ChirpPal - Parrot Training"
+        "IBS Vira"
       ],
-      "avgScore": 7.5200000000000005
+      "avgScore": 7.4
     },
     {
-      "category": "Entertainment",
+      "category": "Shopping",
       "currentCount": 1,
       "previousCount": 4,
       "changePercent": -75,
       "changeDirection": "down",
       "apps": [
-        "Dootchi: Chat with AI Chars"
+        "Queenit – Lifestyle Shop for Adults"
       ],
-      "avgScore": 7
+      "avgScore": 7.4
     },
     {
       "category": "Productivity",
       "currentCount": 1,
-      "previousCount": 8,
-      "changePercent": -87,
+      "previousCount": 6,
+      "changePercent": -83,
       "changeDirection": "down",
       "apps": [
         "ADHD Hyper Planner"
@@ -354,48 +368,20 @@
         "ReviewMonitor"
       ],
       "avgScore": 7.8
-    },
-    {
-      "category": "Sports",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Slug Stats: At-Bat Tracker"
-      ],
-      "avgScore": 6.8
-    },
-    {
-      "category": "Education",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "OpenSky Homeschool Planner",
-        "EchoFlow: AI English Shadowing"
-      ],
-      "avgScore": 8.25
-    },
-    {
-      "category": "Social",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "PolyBuzz: Chat with AI Friends"
-      ],
-      "avgScore": 7
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 37,
+      "count": 42,
       "apps": [
+        "Where's The Exit?",
+        "BakebudBdy",
+        "Darak - One Book a Day",
+        "Colory - 智能拾色与色彩管理",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "QR 코드 & 바코드 스캐너",
         "PartyFrColors",
         "splitmaster – split bills",
         "macalo - カロリーがスイーツに変わる",
@@ -430,15 +416,20 @@
         "레시챌레 by 클라시루",
         "사쿠치케",
         "스키마바이트는타이미",
-        "아파트아이",
-        "ChirpPal - Parrot Training"
+        "아파트아이"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 37,
+      "count": 36,
       "apps": [
+        "Where's The Exit?",
+        "BakebudBdy",
+        "Darak - One Book a Day",
+        "Articulate: speak smarter",
+        "StreamDownloader - 비디오 저장",
+        "QR 코드 & 바코드 스캐너",
         "splitmaster – split bills",
         "macalo - カロリーがスイーツに変わる",
         "Birdr - Birding & Bird ID",
@@ -467,21 +458,16 @@
         "IBS Vira",
         "Find My Phone by Clap Launcher",
         "레시챌레 by 클라시루",
-        "사쿠치케",
-        "ChirpPal - Parrot Training",
-        "Kinnecta: Elderly Care & Meds",
-        "OpenSky Homeschool Planner",
-        "ZKP Storage",
-        "Queenit – Lifestyle Shop for Stylish Adults",
-        "Fallcent – Price Alerts, Comparisons, Hot Deals",
-        "Dootchi: Chat with AI Chars"
+        "사쿠치케"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 23,
+      "count": 17,
       "apps": [
+        "Articulate: speak smarter",
+        "Colory - 智能拾色与色彩管理",
         "AI Outfit Planner - FashionKit",
         "AdventureWeaver",
         "Autograph Identifier: AI Value",
@@ -493,39 +479,18 @@
         "Manus AI",
         "OnDevice LLM - Offline AI Chat",
         "Sugar Sensei",
-        "SolVi - Smart Solar AI",
-        "ChirpPal - Parrot Training",
-        "EchoFlow: AI English Shadowing",
-        "Dootchi: Chat with AI Chars",
-        "PolyBuzz: Chat with AI Friends",
-        "The Fair – Golfwear & Luxury Resale"
-      ]
-    },
-    {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 13,
-      "apps": [
-        "PartyFrColors",
-        "BiteSnap - Cook & Share",
-        "MarkMyCar",
-        "FocusField — Work Smarter",
-        "Sugar Sensei",
-        "CrimeRadar: Dispatch Alerts",
-        "Apartment-i – Apartment App",
-        "SolVi - Smart Solar AI",
-        "ChirpPal - Parrot Training",
-        "Kinnecta: Elderly Care & Meds",
-        "Fallcent – Price Alerts, Comparisons, Hot Deals",
-        "Dootchi: Chat with AI Chars",
-        "The Fair – Golfwear & Luxury Resale"
+        "SolVi - Smart Solar AI"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 10,
+      "count": 14,
       "apps": [
+        "Colory - 智能拾色与色彩管理",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "문서 뷰어: PDF, Word",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
         "문서 리더 & 스캔",
         "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
         "FocusField — Work Smarter",
@@ -536,6 +501,23 @@
         "PoolRouteMonitor",
         "스키마바이트는타이미",
         "아파트아이"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 10,
+      "apps": [
+        "Darak - One Book a Day",
+        "Articulate: speak smarter",
+        "PartyFrColors",
+        "BiteSnap - Cook & Share",
+        "MarkMyCar",
+        "FocusField — Work Smarter",
+        "Sugar Sensei",
+        "CrimeRadar: Dispatch Alerts",
+        "Apartment-i – Apartment App",
+        "SolVi - Smart Solar AI"
       ]
     },
     {
@@ -553,25 +535,25 @@
     },
     {
       "keyword": "생산성",
-      "category": "productivity",
-      "count": 7,
+      "category": "tag",
+      "count": 8,
       "apps": [
+        "PDF 뷰어 - PDF Reader & PDF 편집",
         "문서 리더 & 스캔",
         "FocusField — Work Smarter",
         "Manus AI",
         "PDF뷰어, PDF리더 그리고 파일열기",
-        "문서 리더 및 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
+        "문서 리더 및 뷰어"
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "tag",
+      "keyword": "편집",
+      "category": "creator",
       "count": 5,
       "apps": [
-        "PartyFrColors",
-        "BiteSnap - Cook & Share",
-        "PolyBuzz: Chat with AI Friends"
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "문서 리더 & 스캔"
       ]
     },
     {
@@ -586,32 +568,53 @@
       ]
     },
     {
-      "keyword": "일정",
-      "category": "productivity",
-      "count": 3,
+      "keyword": "1인개발어려움",
+      "category": "tag",
+      "count": 4,
       "apps": [
-        "AI Outfit Planner - FashionKit",
-        "PoolRouteMonitor",
-        "Kinnecta: Elderly Care & Meds"
+        "Articulate: speak smarter",
+        "StreamDownloader - 비디오 저장",
+        "문서 뷰어: PDF, Word",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
       "keyword": "스트리밍",
       "category": "creator",
-      "count": 3,
+      "count": 4,
       "apps": [
+        "StreamDownloader - 비디오 저장",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "DramaBox - 미니시리즈 스트리밍 플레이어"
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
+      "keyword": "니치마켓",
+      "category": "tag",
       "count": 3,
       "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "TaperSafe",
-        "ChirpPal - Parrot Training"
+        "BakebudBdy",
+        "Birdr - Birding & Bird ID",
+        "Auto Culture DriveCam"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "StreamDownloader - 비디오 저장",
+        "BiteSnap - Cook & Share",
+        "Auto Culture DriveCam"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "PartyFrColors",
+        "BiteSnap - Cook & Share"
       ]
     },
     {
@@ -635,16 +638,6 @@
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "문서 리더 & 스캔",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
-      ]
-    },
-    {
       "keyword": "팀개발권장",
       "category": "tag",
       "count": 3,
@@ -652,6 +645,15 @@
         "Loopit - Make Playables",
         "Queenit – Lifestyle Shop for Adults",
         "Apartment-i – Apartment App"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 2,
+      "apps": [
+        "AI Outfit Planner - FashionKit",
+        "PoolRouteMonitor"
       ]
     },
     {
@@ -671,58 +673,40 @@
         "Autograph Identifier: AI Value",
         "Calorie Buddy: AI Tracker"
       ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 2,
-      "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
-      ]
-    },
-    {
-      "keyword": "엔터테인먼트",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Dootchi: Chat with AI Chars"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 14,
-        "percent": 20,
+        "count": 18,
+        "percent": 26,
         "examples": [
-          "PartyFrColors",
-          "AdventureWeaver",
-          "Temu: 억만장자처럼 쇼핑하기"
+          "Where's The Exit?",
+          "StreamDownloader - 비디오 저장",
+          "PDF뷰어, PDF리더 그리고 파일열기"
         ]
       },
       "freemium": {
-        "count": 51,
-        "percent": 73,
+        "count": 54,
+        "percent": 77,
         "examples": [
-          "PartyFrColors",
-          "AI Outfit Planner - FashionKit",
-          "AdventureWeaver"
+          "Where's The Exit?",
+          "BakebudBdy",
+          "Darak - One Book a Day"
         ]
       },
       "subscription": {
-        "count": 43,
-        "percent": 61,
+        "count": 41,
+        "percent": 59,
         "examples": [
-          "AI Outfit Planner - FashionKit",
-          "AdventureWeaver",
-          "Autograph Identifier: AI Value"
+          "BakebudBdy",
+          "Darak - One Book a Day",
+          "Articulate: speak smarter"
         ]
       },
       "onetime": {
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "examples": [
           "흡연노트",
           "OnDevice LLM - Offline AI Chat",
@@ -730,19 +714,19 @@
         ]
       },
       "unknown": {
-        "count": 7,
-        "percent": 10,
+        "count": 5,
+        "percent": 7,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 51,
-      "percent": 73,
+      "count": 54,
+      "percent": 77,
       "examples": [
-        "PartyFrColors",
-        "AI Outfit Planner - FashionKit",
-        "AdventureWeaver"
+        "Where's The Exit?",
+        "BakebudBdy",
+        "Darak - One Book a Day"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -751,32 +735,44 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 24,
-        "percent": 34,
+        "count": 21,
+        "percent": 30,
         "apps": [
+          "Colory - 智能拾色与色彩管理",
+          "QR 코드 & 바코드 스캐너",
           "AI Outfit Planner - FashionKit",
           "AdventureWeaver",
-          "Autograph Identifier: AI Value",
-          "Calorie Buddy: AI Tracker",
-          "QR 코드 & 바코드 스캐너"
+          "Autograph Identifier: AI Value"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 17,
-        "percent": 24,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "Darak - One Book a Day",
+          "Articulate: speak smarter",
           "PartyFrColors",
           "BiteSnap - Cook & Share",
-          "MarkMyCar",
-          "PokeLabo",
-          "FocusField — Work Smarter"
+          "MarkMyCar"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 8,
+        "percent": 11,
+        "apps": [
+          "StreamDownloader - 비디오 저장",
+          "PDF 뷰어 - PDF Reader & PDF 편집",
+          "NetShort - 인기 드라마 및 TV 프로그램",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "Auto Culture DriveCam"
         ]
       },
       {
         "tech": "social",
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "apps": [
           "Birdr - Birding & Bird ID",
           "BiteSnap - Cook & Share",
@@ -787,26 +783,14 @@
       },
       {
         "tech": "productivity",
-        "count": 6,
-        "percent": 9,
+        "count": 5,
+        "percent": 7,
         "apps": [
           "AI Outfit Planner - FashionKit",
           "문서 리더 & 스캔",
           "PokeLabo",
           "Manus AI",
           "ReviewMonitor"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 6,
-        "percent": 9,
-        "apps": [
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
-          "Auto Culture DriveCam",
-          "문서 리더 & 스캔",
-          "PDF뷰어, PDF리더 그리고 파일열기"
         ]
       },
       {
@@ -850,33 +834,45 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 24,
-      "percent": 34,
+      "count": 21,
+      "percent": 30,
       "apps": [
+        "Colory - 智能拾色与色彩管理",
+        "QR 코드 & 바코드 스캐너",
         "AI Outfit Planner - FashionKit",
         "AdventureWeaver",
-        "Autograph Identifier: AI Value",
-        "Calorie Buddy: AI Tracker",
-        "QR 코드 & 바코드 스캐너"
+        "Autograph Identifier: AI Value"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 17,
-        "percent": 24,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "Darak - One Book a Day",
+          "Articulate: speak smarter",
           "PartyFrColors",
           "BiteSnap - Cook & Share",
-          "MarkMyCar",
-          "PokeLabo",
-          "FocusField — Work Smarter"
+          "MarkMyCar"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 8,
+        "percent": 11,
+        "apps": [
+          "StreamDownloader - 비디오 저장",
+          "PDF 뷰어 - PDF Reader & PDF 편집",
+          "NetShort - 인기 드라마 및 TV 프로그램",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "Auto Culture DriveCam"
         ]
       },
       {
         "tech": "social",
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "apps": [
           "Birdr - Birding & Bird ID",
           "BiteSnap - Cook & Share",
@@ -890,10 +886,38 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "Shopping 카테고리 급부상",
-      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "게임 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Shopping"
+      "category": "게임"
+    },
+    {
+      "type": "rising_category",
+      "title": "음식 및 음료 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "음식 및 음료"
+    },
+    {
+      "type": "rising_category",
+      "title": "교육 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "교육"
+    },
+    {
+      "type": "rising_category",
+      "title": "그래픽 및 디자인 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "그래픽 및 디자인"
+    },
+    {
+      "type": "rising_category",
+      "title": "도구 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "도구"
     },
     {
       "type": "rising_category",
@@ -908,13 +932,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "라이프스타일"
-    },
-    {
-      "type": "rising_category",
-      "title": "게임 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "게임"
     },
     {
       "type": "rising_category",
@@ -939,24 +956,10 @@
     },
     {
       "type": "rising_category",
-      "title": "교육 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "교육"
-    },
-    {
-      "type": "rising_category",
       "title": "금융 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "금융"
-    },
-    {
-      "type": "rising_category",
-      "title": "음식 및 음료 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "음식 및 음료"
     },
     {
       "type": "rising_category",
@@ -971,6 +974,13 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "소셜"
+    },
+    {
+      "type": "rising_category",
+      "title": "Sports 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Sports"
     },
     {
       "type": "rising_category",
@@ -1029,35 +1039,29 @@
       "category": "Home Management"
     },
     {
-      "type": "rising_category",
-      "title": "Medical 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Medical"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "30%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Shopping 카테고리가 300% 급상승하며 최대 성장세를 보이고 있고, AI 기능이 34%의 앱에 통합되면서 기술 트렌드를 주도하고 있습니다. Freemium 모델(73%)과 구독 모델(61%)이 수익화의 핵심 전략으로 자리잡았습니다.",
+    "trend_summary": "AI 기능 통합이 30%로 주요 트렌드를 이끌고 있으며, 대부분의 카테고리가 100% 성장률을 보이지만 앱 수는 적어 경쟁이 낮은 상황입니다. 1인 개발 가능한 B2C 앱에 대한 수요가 특히 높아지고 있습니다.",
     "trend_details": [
-      "Shopping 카테고리 300% 폭증",
-      "AI 기능 통합 34% 달성",
-      "Freemium 모델 73% 채택",
-      "1인개발 친화적 환경 확산",
-      "AR/VR 기술 24% 도입"
+      "AI 기능이 포함된 앱이 30%에 달하며 차별화 요소로 부상",
+      "Freemium 모델이 77%로 가장 선호되는 수익화 방식",
+      "'1인개발가능' 키워드가 42회로 최고 빈도를 기록하며 솔로 개발 트렌드 확산",
+      "B2C 앱이 B2B 대비 2.5배 높은 관심도로 소비자 시장 선호 뚜렷"
     ],
     "hot_categories": [
-      "Shopping",
-      "엔터테인먼트"
+      "게임",
+      "음식 및 음료",
+      "유틸리티",
+      "교육"
     ],
-    "opportunity": "Shopping 카테고리에서 AI 기능을 활용한 개인화 쇼핑 앱 개발이 가장 유망한 기회입니다.",
-    "action_item": "Shopping 카테고리에서 AI 추천 엔진을 활용한 freemium 모델의 1인 개발 앱을 기획하고 프로토타입을 제작하세요.",
-    "weekly_theme": "AI Shopping"
+    "opportunity": "AI 기능이 없는 전통적인 카테고리(음식, 교육, 유틸리티)에 AI를 접목한 1인 개발 가능한 B2C 앱 개발이 가장 유망합니다.",
+    "action_item": "기존 음식/교육/유틸리티 앱에 AI 기능을 추가한 MVP를 Freemium 모델로 빠르게 출시하여 선점 효과를 노려보세요.",
+    "weekly_theme": "AI 접목 기회"
   }
 }

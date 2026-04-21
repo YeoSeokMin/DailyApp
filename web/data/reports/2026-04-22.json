@@ -1,0 +1,636 @@
+{
+  "date": "2026-04-22",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "BrightLog",
+      "developer": "Cristian Milia",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/7c/7b/f27c7bd3-2146-aa5c-8d1b-1070ec41a323/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/brightlog/id6762140147?uo=2",
+      "idea_summary": "개인 감정과 기분을 시각적으로 트래킹하는 앱",
+      "analysis": {
+        "problem": "일상 감정 변화를 체계적으로 기록하고 분석하기 어려움 [추론]",
+        "solution": "시각적 인터페이스로 감정을 로깅하고 패턴을 분석 [추론]",
+        "target_user": "자기계발에 관심 있는 20-30대 개인 [추론]",
+        "unique_point": "감정을 밝기(Bright) 개념으로 시각화한 접근법 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Daylio",
+          "Mood Meter",
+          "감정일기"
+        ],
+        "timing_reason": "멘탈헬스 관심 증가와 개인화 트렌드 [추론]",
+        "growth_potential": "웰빙 시장 확산으로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 3,000원, 연 30,000원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreData",
+          "Charts"
+        ],
+        "key_features": [
+          "감정 로깅",
+          "트렌드 분석",
+          "알림 설정"
+        ],
+        "clone_tip": "감정을 색상으로 매핑하는 UI가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#멘탈헬스"
+      ],
+      "verdict": "심플한 컨셉으로 개발하기 좋은 아이템",
+      "deep_report_id": "ios-brightlog-1776783766283"
+    },
+    {
+      "rank": 2,
+      "name": "Buddy Food Track",
+      "developer": "Mariya Bozkova",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/d8/20/c5d820d5-0f1a-e6ea-ea2f-a4ee6d73d575/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/buddy-food-track/id6762573292?uo=2",
+      "idea_summary": "친구와 함께하는 소셜 음식 트래킹 앱",
+      "analysis": {
+        "problem": "혼자서는 식단 관리가 어렵고 동기부여 부족 [추론]",
+        "solution": "친구들과 음식 섭취를 공유하며 서로 동기부여 [추론]",
+        "target_user": "다이어트나 건강관리 중인 20-40대 [추론]",
+        "unique_point": "개인 트래킹에 소셜 요소를 더한 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Lose It!",
+          "카카오헬스"
+        ],
+        "timing_reason": "코로나 이후 건강관리 관심 증가 [추론]",
+        "growth_potential": "소셜 헬스케어 트렌드로 성장 여지 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 및 광고 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Firebase",
+          "HealthKit"
+        ],
+        "key_features": [
+          "소셜 피드",
+          "음식 검색",
+          "친구 초대"
+        ],
+        "clone_tip": "음식 데이터베이스 구축이 핵심 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜헬스"
+      ],
+      "verdict": "소셜 요소가 차별점인 헬스케어 앱"
+    },
+    {
+      "rank": 3,
+      "name": "Codefinity",
+      "developer": "Ucode Limited",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/aa/7b/6caa7bc0-02ab-0752-11af-ea67f7ac0bb6/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/codefinity/id6758731986?uo=2",
+      "idea_summary": "모바일 최적화된 코딩 교육 플랫폼",
+      "analysis": {
+        "problem": "기존 코딩 교육은 PC 중심으로 모바일 접근성 부족 [추론]",
+        "solution": "모바일에 특화된 인터랙티브 코딩 레슨 [추론]",
+        "target_user": "코딩 입문자 및 학습자 10-30대 [추론]",
+        "unique_point": "모바일 터치 인터페이스에 최적화된 코딩 교육 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "SoloLearn",
+          "Grasshopper",
+          "Mimo"
+        ],
+        "timing_reason": "개발자 수요 증가와 모바일 러닝 트렌드 [추론]",
+        "growth_potential": "에듀테크 시장 확산으로 고성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독형 프리미엄 콘텐츠 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "MongoDB"
+        ],
+        "key_features": [
+          "인터랙티브 코딩",
+          "진도 관리",
+          "실습 환경"
+        ],
+        "clone_tip": "모바일 코드 에디터 구현이 기술적 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크"
+      ],
+      "verdict": "모바일 코딩 교육의 블루오션 영역"
+    },
+    {
+      "rank": 4,
+      "name": "Cevera",
+      "developer": "Cevera Technologies LLC",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/59/c3/9559c340-09fe-3a18-978a-187877e4a987/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/cevera/id6761521502?uo=2",
+      "idea_summary": "AI 기반 개인 업무 최적화 어시스턴트",
+      "analysis": {
+        "problem": "개인의 업무 패턴 분석과 최적화 도구 부족 [추론]",
+        "solution": "AI로 개인 생산성 패턴을 학습하고 최적화 제안 [추측]",
+        "target_user": "업무 효율성을 중시하는 직장인 25-45세 [추론]",
+        "unique_point": "개인 맞춤형 생산성 최적화에 특화 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "Todoist",
+          "RescueTime"
+        ],
+        "timing_reason": "원격근무 확산으로 생산성 도구 수요 증가 [추론]",
+        "growth_potential": "AI 생산성 도구 시장 급성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "구독형 SaaS 모델 [추론]",
+        "pricing_suggestion": "월 12,000원 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Python",
+          "Core ML",
+          "Firebase"
+        ],
+        "key_features": [
+          "패턴 분석",
+          "AI 추천",
+          "통계 대시보드"
+        ],
+        "clone_tip": "AI 모델 훈련과 개인화 알고리즘이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2B",
+        "#AI"
+      ],
+      "verdict": "AI 기술 역량이 필요한 고부가가치 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Daily Wealth Quotes",
+      "developer": "Riccardo Vanorio",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a9/82/ef/a982ef09-a5f2-41c7-616e-ffb192a9d77d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/daily-wealth-quotes/id6762100350?uo=2",
+      "idea_summary": "부와 성공에 관한 일일 명언 제공 앱",
+      "analysis": {
+        "problem": "동기부여와 마인드셋 관리의 일관성 부족 [추론]",
+        "solution": "매일 부와 성공 관련 명언으로 동기부여 [확인]",
+        "target_user": "자기계발과 성공에 관심 있는 20-40대 [추론]",
+        "unique_point": "일반 명언이 아닌 부와 성공에 특화 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Daily Quotes",
+          "명언모음",
+          "동기부여앱"
+        ],
+        "timing_reason": "경제 불안정으로 부에 대한 관심 증가 [추론]",
+        "growth_potential": "자기계발 시장 지속 성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "월 2,900원 광고 제거 플랜 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "200-400만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "UserNotifications",
+          "StoreKit"
+        ],
+        "key_features": [
+          "일일 알림",
+          "즐겨찾기",
+          "공유 기능"
+        ],
+        "clone_tip": "양질의 명언 콘텐츠 큐레이션이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#콘텐츠"
+      ],
+      "verdict": "간단하지만 경쟁이 치열한 명언 앱 시장"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "StreamDownloader - 비디오 저장",
+      "developer": "the2guys",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/ePfnFsaqiMCL83HAYR1oHTDKwySujqnDs-fKSMt8sogWG8cFJOwpkFX8YOxeBsKyYjN_uMidSapFnvIVuqbJxFk",
+      "app_url": "https://play.google.com/store/apps/details?id=com.stream.downloader.turbo",
+      "idea_summary": "스트리밍 영상을 로컬에 다운로드하는 도구",
+      "analysis": {
+        "problem": "온라인 영상을 오프라인에서 보기 어려움 [확인]",
+        "solution": "다양한 플랫폼 영상을 로컬 저장 지원 [추론]",
+        "target_user": "영상 콘텐츠를 자주 시청하는 전 연령층 [추론]",
+        "unique_point": "여러 스트리밍 사이트 지원하는 통합 솔루션 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "4K Video Downloader",
+          "YTD",
+          "SnapTube"
+        ],
+        "timing_reason": "OTT 콘텐츠 급증과 데이터 요금 부담 [추론]",
+        "growth_potential": "저작권 이슈로 제한적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 4,900원 광고 제거 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "600-1000만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "FFmpeg",
+          "OkHttp"
+        ],
+        "key_features": [
+          "다중 포맷 지원",
+          "백그라운드 다운로드",
+          "플레이리스트"
+        ],
+        "clone_tip": "저작권 정책 준수가 가장 중요한 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 5.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#미디어"
+      ],
+      "verdict": "기술적으론 어렵지 않으나 법적 리스크 존재",
+      "deep_report_id": "android-streamdownloader-비디오-저장-1776783860407"
+    },
+    {
+      "rank": 2,
+      "name": "PDF뷰어, PDF리더 그리고 파일열기",
+      "developer": "Office Suite Pro",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/8O1bFHz4rJAHo_49KwOoTOsXXxxAgwje-T_5LuMSo9qvArsEiMnaGCiuShWK_IuL1Q",
+      "app_url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader",
+      "idea_summary": "종합적인 문서 뷰어 및 편집 도구",
+      "analysis": {
+        "problem": "모바일에서 다양한 문서 형식 처리의 불편함 [확인]",
+        "solution": "PDF를 중심으로 한 통합 문서 관리 솔루션 [확인]",
+        "target_user": "업무용 문서를 다루는 직장인 및 학생 [추론]",
+        "unique_point": "편집 기능까지 포함한 올인원 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Reader",
+          "폴라리스 오피스",
+          "WPS Office"
+        ],
+        "timing_reason": "원격근무와 모바일 오피스 수요 증가 [추론]",
+        "growth_potential": "포화된 시장이지만 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 편집 기능 [추론]",
+        "pricing_suggestion": "월 5,900원 프로 에디션 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1200-1800만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "PDFBox",
+          "Apache POI"
+        ],
+        "key_features": [
+          "다중 포맷 지원",
+          "주석 기능",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "안정적인 렌더링 엔진 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 1,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "경쟁 치열하지만 꾸준한 수요가 있는 영역"
+    },
+    {
+      "rank": 3,
+      "name": "문서 뷰어: PDF, Word",
+      "developer": "SolaraSoft",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/78D3hUh0IHkqh-Kh93UGCe6-EIHBgRX9sQpAyLT37qTNj9eWv_fQAFe5UlmY2W_Mg3c",
+      "app_url": "https://play.google.com/store/apps/details?id=com.solara.alldocumentreader.officepdfwordexcel",
+      "idea_summary": "오피스 문서 전용 모바일 뷰어",
+      "analysis": {
+        "problem": "모바일에서 오피스 문서 열람의 제약 [확인]",
+        "solution": "경량화된 전용 뷰어로 빠른 문서 접근 [추론]",
+        "target_user": "문서 작업이 많은 직장인과 학생 [추론]",
+        "unique_point": "뷰어에 특화하여 가볍고 빠른 실행 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Microsoft Office",
+          "Google Docs",
+          "한글과컴퓨터"
+        ],
+        "timing_reason": "디지털 오피스 환경 확산 [추론]",
+        "growth_potential": "기존 대형 솔루션 대비 틈새 시장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 모델 중심 [추론]",
+        "pricing_suggestion": "월 3,900원 광고 제거 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "Apache POI",
+          "iText"
+        ],
+        "key_features": [
+          "다중 포맷",
+          "검색 기능",
+          "파일 관리"
+        ],
+        "clone_tip": "문서 렌더링 최적화가 핵심 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#유틸리티"
+      ],
+      "verdict": "큰 수익은 어렵지만 개발 연습용으론 좋음"
+    },
+    {
+      "rank": 4,
+      "name": "QR 스캐너",
+      "developer": "P & L Studio",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/NCMgeAAo4RdMYt4THbMRyY0T54OCavHgqZ-B6HIbYGj_6zbDjcdTvF_czQLUoDQHyoIqpUlz0xSlmCG2uagwYA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree",
+      "idea_summary": "QR코드 스캔 및 생성 전용 앱",
+      "analysis": {
+        "problem": "기본 카메라앱의 QR 기능 한계와 불편함 [추론]",
+        "solution": "QR/바코드 전용 스캐너로 특화된 기능 제공 [확인]",
+        "target_user": "QR코드를 자주 사용하는 전 연령층 [추론]",
+        "unique_point": "스캔뿐만 아니라 QR 생성 기능도 통합 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Google Lens",
+          "네이버 QR",
+          "카카오 QR"
+        ],
+        "timing_reason": "비접촉 결제와 디지털 전환 가속화 [추론]",
+        "growth_potential": "기본 앱 기능 향상으로 성장 제한적 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익 모델 [추론]",
+        "pricing_suggestion": "월 1,900원 광고 제거 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "ML Kit",
+          "ZXing"
+        ],
+        "key_features": [
+          "빠른 스캔",
+          "히스토리",
+          "QR 생성"
+        ],
+        "clone_tip": "카메라 최적화와 인식 속도가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 1,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 4.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "진입장벽 낮지만 차별화하기 어려운 영역"
+    },
+    {
+      "rank": 5,
+      "name": "Gemmy AI: 채팅 & 어시스턴트",
+      "developer": "Jetkite",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/mpbbwIrUZX5fbwG1Ftn3cVRbb0mYSaUmToXM0E5lC3jz1OKBCq8PPRsXp79B7G-7OGM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.jetkite.gemmy",
+      "idea_summary": "개인화된 AI 채팅 어시스턴트 앱",
+      "analysis": {
+        "problem": "범용 AI보다 개인 맞춤형 AI 어시스턴트 필요 [추론]",
+        "solution": "개인 데이터 학습하여 맞춤형 응답 제공 [추측]",
+        "target_user": "AI 활용에 익숙한 20-40대 얼리어답터 [추론]",
+        "unique_point": "개인화와 전문성을 강화한 AI 어시스턴트 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Claude",
+          "Bard"
+        ],
+        "timing_reason": "생성AI 대중화와 개인화 트렌드 [추론]",
+        "growth_potential": "AI 어시스턴트 시장 급성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "구독형 프리미엄 모델 [추론]",
+        "pricing_suggestion": "월 14,900원 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2500-3500만원 [추론]",
+        "tech_stack": [
+          "Android SDK",
+          "OpenAI API",
+          "Firebase"
+        ],
+        "key_features": [
+          "개인화 학습",
+          "음성 인식",
+          "멀티모달"
+        ],
+        "clone_tip": "API 비용 관리와 개인화 알고리즘이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "AI 시장 선점 기회이지만 기술적 난이도 높음"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "2026년 4월 22일 앱 시장은 개인화된 생산성 도구와 AI 활용 앱이 주목받고 있다. 특히 소셜 요소를 결합한 헬스케어 앱들이 새로운 트렌드를 형성하고 있다 [추론]",
+    "trend_details": [
+      "개인 맞춤형 생산성 앱 증가",
+      "AI 기반 어시스턴트 앱 확산",
+      "소셜 헬스케어 트렌드",
+      "모바일 교육 콘텐츠 다양화"
+    ],
+    "hot_categories": [
+      "생산성",
+      "라이프스타일",
+      "교육"
+    ],
+    "opportunity": "개인화와 AI를 결합한 니치 마켓 공략이 유효할 것으로 보임 [추론]",
+    "action_item": "소규모 팀도 진입 가능한 감정 트래킹이나 모바일 교육 앱 개발 검토"
+  }
+}
