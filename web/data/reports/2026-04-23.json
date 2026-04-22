@@ -1,0 +1,646 @@
+{
+  "date": "2026-04-23",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Daily Side Quests",
+      "developer": "Jan Parizek",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/99/ca/db99cabb-7ca8-165b-3aa1-ad070ff01017/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/daily-side-quests/id6759800273?uo=2",
+      "idea_summary": "일상을 RPG 게임처럼 퀘스트화하는 생산성 앱",
+      "analysis": {
+        "problem": "일상 할 일이 지루하고 동기부여가 부족한 문제 [추론]",
+        "solution": "게이미피케이션으로 일상을 RPG 퀘스트처럼 만들어 동기부여 [추론]",
+        "target_user": "생산성 향상을 원하는 젊은 직장인과 학생들 [추론]",
+        "unique_point": "RPG 스타일의 게이미피케이션 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Todoist",
+          "Any.do"
+        ],
+        "timing_reason": "게이미피케이션과 생산성 앱 결합 트렌드 증가 [추론]",
+        "growth_potential": "게임 세대의 생산성 도구 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 추정 [추측]",
+        "pricing_suggestion": "월 2-5달러 구독 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "UIKit"
+        ],
+        "key_features": [
+          "퀘스트 시스템",
+          "경험치 시스템",
+          "보상 메커니즘"
+        ],
+        "clone_tip": "게이미피케이션 요소와 할 일 관리 기능 균형 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게이미피케이션"
+      ],
+      "verdict": "게이미피케이션 생산성 앱의 참신한 접근",
+      "deep_report_id": "ios-daily-side-quests-1776870335599"
+    },
+    {
+      "rank": 2,
+      "name": "Chicken: CoopLedger",
+      "developer": "Zlata Shapiro",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/6f/bd/656fbd55-4fe7-d1c4-928a-598c7f06e261/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/chicken-coopledger/id6762862742?uo=2",
+      "idea_summary": "닭 사육 관리를 위한 전문 기록 앱",
+      "analysis": {
+        "problem": "소규모 농가의 닭 사육 관리 기록이 체계적이지 못한 문제 [추론]",
+        "solution": "닭 사육 전용 디지털 관리 시스템 제공 [추론]",
+        "target_user": "도시농업, 취미농장, 소규모 농가 운영자 [추론]",
+        "unique_point": "닭 사육에 특화된 전문 관리 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "FarmLogs",
+          "농장관리 앱들"
+        ],
+        "timing_reason": "도시농업과 펜데믹 이후 자급자족 관심 증가 [추론]",
+        "growth_potential": "틈새시장이지만 전문성으로 차별화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 프리미엄 기능 [추측]",
+        "pricing_suggestion": "월 3-10달러 또는 일회성 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "300-600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "사육기록",
+          "산란량 추적",
+          "비용관리",
+          "건강상태"
+        ],
+        "clone_tip": "다른 동물이나 작물로 확장 가능한 구조로 설계 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#틈새시장"
+      ],
+      "verdict": "특수한 니치마켓을 타겟한 전문 도구"
+    },
+    {
+      "rank": 3,
+      "name": "LuggageWeight",
+      "developer": "Funda ATAMAN",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/41/dc/a541dc9f-f2c5-0d5f-5e30-cfa9a076e4d9/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/luggageweight/id6762963928?uo=2",
+      "idea_summary": "여행용 짐 무게 측정 및 관리 도구",
+      "analysis": {
+        "problem": "항공여행시 짐 초과요금을 피하고 싶은 니즈 [추론]",
+        "solution": "스마트폰으로 짐 무게를 측정하고 관리하는 도구 [추론]",
+        "target_user": "자주 여행하는 직장인과 배낭여행객 [추론]",
+        "unique_point": "휴대폰을 이용한 무게 측정 기능 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "여행 계획 앱들",
+          "패킹 체크리스트 앱들"
+        ],
+        "timing_reason": "코로나 이후 여행 수요 회복 시점 [추론]",
+        "growth_potential": "여행 산업 성장과 함께 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 또는 프리미엄 기능 [추측]",
+        "pricing_suggestion": "무료 + 프리미엄 월 1-3달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-3개월 [추론]",
+        "estimated_cost": "200-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Motion",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "무게측정",
+          "패킹리스트",
+          "항공사별 제한정보"
+        ],
+        "clone_tip": "센서 활용보다 실용적 계산 기능에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행"
+      ],
+      "verdict": "실용적이지만 시장 규모가 제한적인 도구"
+    },
+    {
+      "rank": 4,
+      "name": "Gather: Family Room",
+      "developer": "ERIC ANDREW BABCOCK",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/bd/b7/2bbdb70b-6317-359b-7cc2-001c0ffc5b99/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gather-family-room/id6759631214?uo=2",
+      "idea_summary": "가족 소통과 추억 공유를 위한 플랫폼",
+      "analysis": {
+        "problem": "바쁜 일상에서 가족 간 소통과 추억 공유 부족 [추론]",
+        "solution": "가족 전용 공간에서 안전하게 소통하고 추억을 공유 [추론]",
+        "target_user": "멀리 떨어져 사는 가족들, 바쁜 부모들 [추론]",
+        "unique_point": "가족에 특화된 프라이빗 소통 공간 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Family Wall",
+          "Google Photos",
+          "카카오톡"
+        ],
+        "timing_reason": "팬데믹 이후 가족 유대감 중요성 재인식 [추론]",
+        "growth_potential": "글로벌 가족 분산 거주 트렌드와 연결 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추측]",
+        "pricing_suggestion": "가족 단위 월 5-15달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Firebase",
+          "CloudKit",
+          "AVKit"
+        ],
+        "key_features": [
+          "가족그룹",
+          "사진공유",
+          "일정공유",
+          "메시징"
+        ],
+        "clone_tip": "프라이버시와 사용성의 균형이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#가족"
+      ],
+      "verdict": "가족 중심 소통 앱의 따뜻한 접근법"
+    },
+    {
+      "rank": 5,
+      "name": "EasyNotifier",
+      "developer": "Siyuan Yao",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/cb/fd/b3cbfd6d-5f35-dae6-d37a-e6eddc5aa4b5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/easynotifier/id6762743662?uo=2",
+      "idea_summary": "알림 관리 및 자동화 도구",
+      "analysis": {
+        "problem": "너무 많은 알림으로 인한 주의력 분산과 스트레스 [추론]",
+        "solution": "스마트한 알림 필터링과 관리 시스템 [추론]",
+        "target_user": "알림 과부하에 시달리는 스마트폰 사용자 [추론]",
+        "unique_point": "알림의 지능적 관리와 자동화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Focus 모드",
+          "Do Not Disturb",
+          "Notification 관리 앱들"
+        ],
+        "timing_reason": "디지털 웰빙과 집중력 향상 트렌드 [추론]",
+        "growth_potential": "스마트폰 의존도 증가로 수요 지속적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 자동화 기능 [추측]",
+        "pricing_suggestion": "월 2-5달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "400-800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "UserNotifications",
+          "Core Data"
+        ],
+        "key_features": [
+          "알림필터링",
+          "자동화규칙",
+          "시간별제어",
+          "앱별관리"
+        ],
+        "clone_tip": "iOS 제약사항 내에서 최대한 기능 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "현대인의 필수적 니즈를 해결하는 실용 도구"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+      "developer": "보조금e알리미",
+      "category": "정보",
+      "icon": "https://play-lh.googleusercontent.com/Z8G6iKVSwxIOCLr5kb23dPe-r8mT3YHEm426C1UoR8mtHIkbT4bl8dPSLjMG89bHAMbtkNd9dji96rnGMkcF",
+      "app_url": "https://play.google.com/store/apps/details?id=com.jupiter.distance",
+      "idea_summary": "정부 지원금 신청 가이드 및 알림 서비스",
+      "analysis": {
+        "problem": "복잡한 정부 지원금 신청 절차와 놓치는 기회 [추론]",
+        "solution": "지원금 정보 통합 제공과 신청 가이드 [추론]",
+        "target_user": "경제적 어려움을 겪는 일반 시민들 [추론]",
+        "unique_point": "실시간 지원금 정보와 맞춤형 알림 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "정부24",
+          "복지로",
+          "기타 지원금 앱들"
+        ],
+        "timing_reason": "경제 불안정과 정부 지원 정책 확대 시기 [추론]",
+        "growth_potential": "사회 안전망 확대로 지속적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익 또는 프리미엄 알림 [추측]",
+        "pricing_suggestion": "무료 + 프리미엄 월 1-3천원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "300-700만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Retrofit",
+          "Firebase",
+          "웹 스크래핑"
+        ],
+        "key_features": [
+          "지원금검색",
+          "신청가이드",
+          "알림서비스",
+          "자격진단"
+        ],
+        "clone_tip": "정확한 정보 수집과 업데이트가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사회공헌"
+      ],
+      "verdict": "사회적 필요를 충족하는 의미있는 서비스",
+      "deep_report_id": "android-2026-고유가-피해지원금-60만원-민생지원-신청가이드-1776870407165"
+    },
+    {
+      "rank": 2,
+      "name": "컬처패스",
+      "developer": "Mybi",
+      "category": "문화",
+      "icon": "https://play-lh.googleusercontent.com/nj4hs4qHmQJpXjJbVM6Q9pJ5yIdVEzK02Tmcr9EPj94Uw6-_6bnCAi7LgAZL_cfagZGjSaej9BL9KigHlkzXow",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ezl.culturepassapp",
+      "idea_summary": "문화생활 통합 예약 및 추천 플랫폼",
+      "analysis": {
+        "problem": "분산된 문화시설 예약과 정보 부족 [추론]",
+        "solution": "문화생활 원스톱 예약 및 맞춤 추천 [추론]",
+        "target_user": "문화생활을 즐기는 2030 젊은층 [추론]",
+        "unique_point": "문화생활 전문 통합 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "인터파크",
+          "예스24",
+          "멜론티켓"
+        ],
+        "timing_reason": "팬데믹 이후 오프라인 문화생활 수요 급증 [추론]",
+        "growth_potential": "문화 소비 트렌드 성장과 함께 확장 [추론]"
+      },
+      "business": {
+        "monetization": "예약 수수료 및 광고 수익 [추측]",
+        "pricing_suggestion": "예약당 3-5% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "1500-3000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "API 연동",
+          "결제시스템",
+          "추천알고리즘"
+        ],
+        "key_features": [
+          "통합예약",
+          "맞춤추천",
+          "리뷰시스템",
+          "할인혜택"
+        ],
+        "clone_tip": "문화시설과의 파트너십 구축이 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#스타트업추천",
+        "#B2C",
+        "#문화"
+      ],
+      "verdict": "문화생활 통합 서비스의 성장 가능성"
+    },
+    {
+      "rank": 3,
+      "name": "monimo",
+      "developer": "Samsung Card",
+      "category": "금융",
+      "icon": "https://play-lh.googleusercontent.com/g-tkfYaRAe0u_DqUAtk4ETg0nl3ZoJIrntTC_K-A4WmpeP-yQi80IHsugmpMEGm9qWCD82HbeeyI-tYQsH1YKg",
+      "app_url": "https://play.google.com/store/apps/details?id=net.ib.android.smcard",
+      "idea_summary": "개인 자산 관리 및 투자 도우미",
+      "analysis": {
+        "problem": "복잡한 개인 자산 관리와 투자 정보 부족 [추론]",
+        "solution": "통합 자산관리와 스마트 투자 가이드 [추론]",
+        "target_user": "자산관리에 관심있는 2030 직장인 [추론]",
+        "unique_point": "삼성카드 연계 통합 금융 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "토스",
+          "뱅크샐러드",
+          "하나원큐"
+        ],
+        "timing_reason": "개인 투자 관심 증가와 핀테크 성장 [추론]",
+        "growth_potential": "금융 디지털화 트렌드와 부합 [추론]"
+      },
+      "business": {
+        "monetization": "금융상품 중개 수수료 [추측]",
+        "pricing_suggestion": "무료 + 프리미엄 금융상품 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12개월 이상 [추론]",
+        "estimated_cost": "5000만원 이상 [추론]",
+        "tech_stack": [
+          "Android",
+          "API",
+          "보안",
+          "데이터분석"
+        ],
+        "key_features": [
+          "자산통합",
+          "투자분석",
+          "가계부",
+          "금융상품추천"
+        ],
+        "clone_tip": "금융 규제와 보안 요구사항이 매우 높음 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#대기업앱",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "대기업 백그라운드의 안정적 금융 서비스"
+    },
+    {
+      "rank": 4,
+      "name": "쿠팡플레이",
+      "developer": "Coupang Corp.",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/b0eSS0LrM52IqHtp1xOkaW--Js1xDLmE3cejCOY3iQNTMIMSUZ6wGhW0izQfpM9m3bNu",
+      "app_url": "https://play.google.com/store/apps/details?id=com.coupang.mobile.play",
+      "idea_summary": "이커머스 연계 OTT 스트리밍 서비스",
+      "analysis": {
+        "problem": "여러 OTT 구독료 부담과 쇼핑-엔터테인먼트 분리 [추론]",
+        "solution": "쇼핑 멤버십과 통합된 OTT 서비스 [추론]",
+        "target_user": "쿠팡 이용자와 OTT 이용자 [추론]",
+        "unique_point": "이커머스와 OTT의 통합 생태계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "넷플릭스",
+          "웨이브",
+          "티빙"
+        ],
+        "timing_reason": "OTT 시장 성숙기, 차별화 전략 필요 시점 [추론]",
+        "growth_potential": "쇼핑과 엔터테인먼트 시너지 기대 [추론]"
+      },
+      "business": {
+        "monetization": "구독료 + 광고 + 커머스 연계 [추론]",
+        "pricing_suggestion": "월 4900원 + 쇼핑혜택 번들 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "24개월 이상 [추론]",
+        "estimated_cost": "수십억원 [추론]",
+        "tech_stack": [
+          "Android",
+          "스트리밍",
+          "CDN",
+          "AI추천"
+        ],
+        "key_features": [
+          "동영상스트리밍",
+          "쇼핑연계",
+          "AI추천",
+          "오리지널콘텐츠"
+        ],
+        "clone_tip": "콘텐츠 확보와 인프라 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 6.8
+      },
+      "tags": [
+        "#대기업앱",
+        "#B2C",
+        "#OTT"
+      ],
+      "verdict": "이커머스 생태계 확장의 혁신적 시도"
+    },
+    {
+      "rank": 5,
+      "name": "건강보험25시",
+      "developer": "국민건강보험공단",
+      "category": "의료",
+      "icon": "https://play-lh.googleusercontent.com/k1AdvOdopEN3E9_MyZql3zfIrZQacuIA9T3f7ZRaNZP-Wrr2suJMpZ4Q_ECpej1OnLUtd8hME3jJNN2LVK2f950",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.or.nhic",
+      "idea_summary": "건강보험 업무 24시간 모바일 서비스",
+      "analysis": {
+        "problem": "건강보험 업무의 시간적 제약과 복잡한 절차 [추론]",
+        "solution": "24시간 언제나 가능한 모바일 건보 서비스 [추론]",
+        "target_user": "건강보험 가입자 전체 (전 국민) [확인]",
+        "unique_point": "공식 건강보험공단 앱으로 신뢰성 보장 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "정부24",
+          "기타 공공서비스 앱들"
+        ],
+        "timing_reason": "디지털 정부 정책과 비대면 서비스 확대 [추론]",
+        "growth_potential": "필수 공공서비스로 안정적 사용자 기반 [추론]"
+      },
+      "business": {
+        "monetization": "공공서비스로 수익화 목적 없음 [추론]",
+        "pricing_suggestion": "무료 서비스 [확인]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "수억원 [추론]",
+        "tech_stack": [
+          "Android",
+          "보안",
+          "공공API",
+          "인증시스템"
+        ],
+        "key_features": [
+          "자격확인",
+          "보험료조회",
+          "급여내역",
+          "증명서발급"
+        ],
+        "clone_tip": "공공서비스 특성상 개인 개발 불가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#공공앱",
+        "#B2C",
+        "#필수서비스"
+      ],
+      "verdict": "디지털 정부 서비스의 모범 사례"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "생산성 도구의 게이미피케이션과 정부-민간 디지털 서비스 통합이 주요 트렌드 [추론]. 전문 틈새시장 도구들의 등장도 눈에 띄는 현상 [추론].",
+    "trend_details": [
+      "게이미피케이션을 통한 생산성 향상",
+      "정부 지원금 정보 접근성 개선",
+      "문화생활 통합 플랫폼 성장",
+      "특수 목적 전문 도구 증가"
+    ],
+    "hot_categories": [
+      "생산성",
+      "정보/유틸리티",
+      "문화/엔터테인먼트"
+    ],
+    "opportunity": "일상의 불편함을 해결하는 특화된 도구들과 정부-민간 정보 격차 해소 서비스",
+    "action_item": "게이미피케이션 요소를 활용한 생산성 도구 또는 공공 정보 접근성 개선 앱 개발 검토"
+  }
+}
