@@ -1,0 +1,616 @@
+{
+  "date": "2026-04-25",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Vīra",
+      "developer": "Parth Gulati",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/e7/b0/7ce7b0e0-48f2-5e32-156f-2cd53d80f19e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/v%C4%ABra/id6762226551?uo=2",
+      "idea_summary": "AI 기반 개인 맞춤형 운동 및 웰니스 코치",
+      "analysis": {
+        "problem": "일반적인 피트니스 앱의 획일화된 운동 프로그램 [추론]",
+        "solution": "개인의 체질과 목표에 맞춘 AI 맞춤형 운동 제안 [추론]",
+        "target_user": "20-40대 건강 관리에 관심 있는 개인 [추론]",
+        "unique_point": "개인화된 AI 웰니스 코칭 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Nike Training Club"
+        ],
+        "timing_reason": "AI 기술 발전과 개인화 트렌드 증가 [추론]",
+        "growth_potential": "높은 성장성, 헬스케어 개인화 시장 확대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 9,900원, 연간 79,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "AI/ML"
+        ],
+        "key_features": [
+          "AI 운동 추천",
+          "개인화 알고리즘"
+        ],
+        "clone_tip": "간단한 규칙 기반 추천으로 시작 후 ML 도입 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "개인화 웰니스 시장의 성장 가능성이 높은 아이템",
+      "deep_report_id": "ios-v-ra-1777042977278"
+    },
+    {
+      "rank": 2,
+      "name": "PetScan",
+      "developer": "kelo llc",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/8a/32/758a322a-7d1e-91ed-e416-cfd807af979c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/petscan/id6761618711?uo=2",
+      "idea_summary": "반려동물 건강 상태 AI 진단 및 관리 서비스",
+      "analysis": {
+        "problem": "반려동물 건강 관리의 어려움과 높은 병원비 [추론]",
+        "solution": "사진 기반 AI 건강 상태 분석 및 관리 가이드 [추론]",
+        "target_user": "반려동물을 키우는 20-50대 가족 [추론]",
+        "unique_point": "AI 기반 반려동물 건강 진단 기술 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "펫닥터",
+          "반려동물 케어 앱들"
+        ],
+        "timing_reason": "펫테크 시장 급성장과 건강 관리 니즈 증가 [추론]",
+        "growth_potential": "반려동물 시장 확대로 높은 성장성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 진단 서비스 구독 [추론]",
+        "pricing_suggestion": "월 7,900원, 진단당 2,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-14개월 [추론]",
+        "estimated_cost": "400-700만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Python",
+          "TensorFlow"
+        ],
+        "key_features": [
+          "이미지 AI 분석",
+          "건강 기록 관리"
+        ],
+        "clone_tip": "기본 증상 체크리스트로 시작 후 AI 도입 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#펫테크"
+      ],
+      "verdict": "반려동물 시장 급성장 타이밍에 맞는 혁신적 서비스"
+    },
+    {
+      "rank": 3,
+      "name": "GutCheck",
+      "developer": "Eric Aguirre",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/26/30/93263099-a377-d492-5200-fe165b31d4a5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gutcheck-trust-your-instincts/id6761346108?uo=2",
+      "idea_summary": "직감 기반 의사결정 도구 및 패턴 분석",
+      "analysis": {
+        "problem": "복잡한 의사결정 상황에서의 고민과 우유부단함 [추론]",
+        "solution": "직감 기록과 결과 분석을 통한 의사결정 개선 [추론]",
+        "target_user": "의사결정이 많은 직장인 및 창업가 [추론]",
+        "unique_point": "직감과 논리를 결합한 의사결정 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "결정 도구 앱들",
+          "생산성 앱"
+        ],
+        "timing_reason": "불확실성 증가 시대의 의사결정 도구 니즈 [추론]",
+        "growth_potential": "틈새 시장이지만 충성도 높은 사용자층 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능 구독 [추론]",
+        "pricing_suggestion": "월 4,900원, 연간 39,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "200-300만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase"
+        ],
+        "key_features": [
+          "의사결정 기록",
+          "패턴 분석"
+        ],
+        "clone_tip": "간단한 기록 앱부터 시작해 분석 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "독특한 접근법으로 틈새 시장 공략 가능"
+    },
+    {
+      "rank": 4,
+      "name": "OtherEyes",
+      "developer": "Kezia Meilany Tandapai",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/be/04/a6be0465-2699-13dc-ac4a-7f5051bba2e4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/othereyes-animal-vision/id6762386058?uo=2",
+      "idea_summary": "동물의 시각으로 세상을 체험하는 AR 교육앱",
+      "analysis": {
+        "problem": "동물의 시각적 경험에 대한 이해 부족 [추론]",
+        "solution": "AR 기술로 다양한 동물의 시각 체험 제공 [추론]",
+        "target_user": "호기심 많은 아이들과 교육 관계자 [추론]",
+        "unique_point": "동물 시각 체험이라는 독창적 컨셉 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "교육용 AR 앱들",
+          "동물 학습 앱"
+        ],
+        "timing_reason": "AR 기술 대중화와 체험형 교육 트렌드 [추론]",
+        "growth_potential": "교육 시장의 AR 도입 확산 [추론]"
+      },
+      "business": {
+        "monetization": "앱 구매 또는 콘텐츠 내 구매 [추론]",
+        "pricing_suggestion": "앱 5,000원, 추가 동물팩 1,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "350-500만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "ARKit",
+          "C#"
+        ],
+        "key_features": [
+          "AR 시각 필터",
+          "동물 정보"
+        ],
+        "clone_tip": "간단한 색상 필터부터 시작해 AR 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AR교육"
+      ],
+      "verdict": "독창적이지만 수익화에 다소 어려움 예상"
+    },
+    {
+      "rank": 5,
+      "name": "RingJob",
+      "developer": "Yizhak Malka",
+      "category": "비즈니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/58/39/a158391e-5e11-3462-139a-0a1a7423518a/AppIcon-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ringjob/id6761698683?uo=2",
+      "idea_summary": "전화 기반 긱 이코노미 일자리 매칭 플랫폼",
+      "analysis": {
+        "problem": "단순 업무의 복잡한 지원 과정과 즉시성 부족 [추론]",
+        "solution": "전화 기반 즉시 일자리 매칭 시스템 [추론]",
+        "target_user": "즉시 일할 수 있는 긱 워커들 [추론]",
+        "unique_point": "전화 중심의 즉석 매칭 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "알바몬",
+          "알바천국",
+          "긱 워크 플랫폼들"
+        ],
+        "timing_reason": "긱 이코노미 성장과 즉시성 중요성 증대 [추론]",
+        "growth_potential": "틈새 시장에서 차별화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "매칭 수수료 및 기업 구독 [추론]",
+        "pricing_suggestion": "매칭당 5-10% 수수료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "WebRTC"
+        ],
+        "key_features": [
+          "실시간 매칭",
+          "음성 통화"
+        ],
+        "clone_tip": "기본 매칭부터 시작해 음성 기능 점진적 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#플랫폼"
+      ],
+      "verdict": "전화 매칭이라는 차별점으로 틈새 시장 공략"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Dola",
+      "developer": "SPRING (SG) PTE. LTD.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/OQqw4BnBEiPy4VWKCC-Vr_5ruppgs05hlsBV-8hFMjTefLrTaKZNNuHJ8Be_V9NWrA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.larus.wolf",
+      "idea_summary": "자연어 기반 AI 스케줄 관리 및 업무 자동화",
+      "analysis": {
+        "problem": "복잡한 캘린더 앱 사용의 번거로움 [추론]",
+        "solution": "자연어로 일정 관리하는 AI 비서 [추론]",
+        "target_user": "바쁜 직장인 및 프리랜서 [추론]",
+        "unique_point": "자연어 처리 기반 직관적 일정 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Calendar",
+          "Calendly",
+          "Motion"
+        ],
+        "timing_reason": "AI 자연어 처리 기술 발전과 생산성 도구 니즈 [추론]",
+        "growth_potential": "AI 비서 시장의 급속한 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능 구독 [추론]",
+        "pricing_suggestion": "월 12,000원, 연간 99,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-15개월 [추론]",
+        "estimated_cost": "600-1000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Python",
+          "OpenAI API"
+        ],
+        "key_features": [
+          "자연어 처리",
+          "AI 스케줄링"
+        ],
+        "clone_tip": "간단한 텍스트 파싱부터 시작해 AI 연동 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI비서"
+      ],
+      "verdict": "AI 자연어 처리 트렌드에 부합하는 실용적 앱",
+      "deep_report_id": "android-dola-1777043061831"
+    },
+    {
+      "rank": 2,
+      "name": "정부24",
+      "developer": "행정안전부",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/9ZwlSxrZ5zAGydEtON0V6SkvezO_v6xIlbQEIYR7AKPiJ7NLoYow-2LYjmRH48FC1b3CXBicR4DJw3zZ-GXi",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.go.minwon.m",
+      "idea_summary": "정부 민원 서비스 통합 플랫폼의 모바일 버전",
+      "analysis": {
+        "problem": "복잡한 정부 민원 처리 과정 [확인]",
+        "solution": "모바일로 간편한 민원 신청 및 처리 [확인]",
+        "target_user": "전 국민 대상 민원 서비스 이용자 [확인]",
+        "unique_point": "정부 공식 민원 서비스 통합 플랫폼 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "민원신청 사이트들",
+          "개별 기관 앱들"
+        ],
+        "timing_reason": "디지털 정부 서비스 확산 정책 [확인]",
+        "growth_potential": "정부 서비스 디지털 전환 가속화 [추론]"
+      },
+      "business": {
+        "monetization": "공공 서비스로 무료 제공 [확인]",
+        "pricing_suggestion": "공공 서비스 - 수익화 대상 아님 [확인]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "개발 대상 아님 - 정부 공식 앱 [확인]",
+        "estimated_cost": "개발 대상 아님 [확인]",
+        "tech_stack": [
+          "정부 표준 프레임워크",
+          "Java",
+          "Android"
+        ],
+        "key_features": [
+          "민원 신청",
+          "서류 발급"
+        ],
+        "clone_tip": "민간 영역에서는 복제 불가능한 서비스 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 1,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#정부서비스",
+        "#B2C",
+        "#민원"
+      ],
+      "verdict": "공공 서비스로 개발 참고용이지만 복제 불가"
+    },
+    {
+      "rank": 3,
+      "name": "당근",
+      "developer": "Danggeun Market Inc.",
+      "category": "쇼핑",
+      "icon": "https://play-lh.googleusercontent.com/BOong9QWaqxHXY-YTxDDxgFMRPIYHu9i7G4a_dMXvXlDs25k4SeHImTNuYgypwY5lxOM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.towneers.www",
+      "idea_summary": "지역 기반 중고거래 및 동네 생활 커뮤니티",
+      "analysis": {
+        "problem": "믿을 수 있는 중고거래 플랫폼 부족 [확인]",
+        "solution": "지역 기반 신뢰할 수 있는 중고거래 시스템 [확인]",
+        "target_user": "중고거래를 하는 전 연령층 지역 주민 [확인]",
+        "unique_point": "동네 인증 기반 신뢰 시스템 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "번개장터",
+          "중고나라",
+          "헬로마켓"
+        ],
+        "timing_reason": "코로나로 인한 중고거래 활성화 [확인]",
+        "growth_potential": "이미 시장 리더로 성숙 단계 [확인]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 서비스 [확인]",
+        "pricing_suggestion": "이미 확립된 수익 모델 [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "복제하기엔 너무 큰 규모 [추론]",
+        "estimated_cost": "수십억원 규모 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "AWS"
+        ],
+        "key_features": [
+          "위치 기반 매칭",
+          "채팅 시스템"
+        ],
+        "clone_tip": "특정 니치 시장 타겟으로 단순화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 7
+      },
+      "tags": [
+        "#대규모서비스",
+        "#B2C",
+        "#플랫폼"
+      ],
+      "verdict": "이미 성공한 서비스, 새로운 접근법 필요"
+    },
+    {
+      "rank": 4,
+      "name": "대한민국 모바일 신분증",
+      "developer": "행정안전부",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/ZG0w0dsWvuwXahcA9klpwBm903dgLQ5ELba6g47MTpeK5AwOHh_nwI-hd3uROMbUEcRv",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.go.mobileid",
+      "idea_summary": "공식 디지털 신분증 및 신원확인 서비스",
+      "analysis": {
+        "problem": "물리적 신분증 휴대의 불편함 [확인]",
+        "solution": "스마트폰 기반 공식 디지털 신분증 [확인]",
+        "target_user": "신분증이 필요한 모든 국민 [확인]",
+        "unique_point": "정부 공인 디지털 신분증 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "물리적 신분증",
+          "기타 신원확인 앱들"
+        ],
+        "timing_reason": "디지털 전환 정책과 비대면 서비스 확산 [확인]",
+        "growth_potential": "정부 정책 드라이브로 필수 서비스화 [추론]"
+      },
+      "business": {
+        "monetization": "공공 서비스로 무료 제공 [확인]",
+        "pricing_suggestion": "공공 서비스 - 수익화 대상 아님 [확인]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "개발 대상 아님 - 정부 공식 앱 [확인]",
+        "estimated_cost": "개발 대상 아님 [확인]",
+        "tech_stack": [
+          "고보안 인증",
+          "블록체인",
+          "암호화"
+        ],
+        "key_features": [
+          "디지털 신분증",
+          "생체인증"
+        ],
+        "clone_tip": "민간에서는 개발 불가능한 서비스 [확인]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 1,
+        "scalability": 5,
+        "overall": 6.8
+      },
+      "tags": [
+        "#정부서비스",
+        "#B2C",
+        "#디지털신분증"
+      ],
+      "verdict": "정부 주도 서비스로 기술 참고용으로만 유용"
+    },
+    {
+      "rank": 5,
+      "name": "모바일 건강보험증",
+      "developer": "국민건강보험공단",
+      "category": "메디컬",
+      "icon": "https://play-lh.googleusercontent.com/zjXgJuwEQqGGmwaSLeXXU4aQKT01vPUB11iFVJtmhNrVxsPpdlvrx7D-_B0w1sbfGQ",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.or.nhiq",
+      "idea_summary": "디지털 건강보험증 및 의료 이력 관리",
+      "analysis": {
+        "problem": "종이 건강보험증 분실 및 휴대 불편 [확인]",
+        "solution": "스마트폰으로 건강보험증 제시 및 이력 확인 [확인]",
+        "target_user": "건강보험 가입자 전체 [확인]",
+        "unique_point": "공식 디지털 건강보험증 서비스 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "종이 건강보험증",
+          "병원 개별 앱들"
+        ],
+        "timing_reason": "의료 서비스 디지털화 가속화 [확인]",
+        "growth_potential": "의료진 및 환자 편의성 증대로 확산 [추론]"
+      },
+      "business": {
+        "monetization": "공공 서비스로 무료 제공 [확인]",
+        "pricing_suggestion": "공공 서비스 - 수익화 대상 아님 [확인]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "개발 대상 아님 - 공공기관 앱 [확인]",
+        "estimated_cost": "개발 대상 아님 [확인]",
+        "tech_stack": [
+          "공공기관 표준",
+          "보안 인증"
+        ],
+        "key_features": [
+          "건강보험증",
+          "진료 이력"
+        ],
+        "clone_tip": "민간 영역 개발 불가능 [확인]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 1,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#정부서비스",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "공공 서비스로 개발 불가하지만 UX 참고 가능"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 개인화 서비스와 정부 디지털 전환이 주요 트렌드로 부상하고 있음. 특히 건강, 반려동물, 생산성 분야에서 AI 활용이 두드러짐",
+    "trend_details": [
+      "AI 기반 개인 맞춤화 서비스 확산",
+      "반려동물 헬스케어 시장 성장",
+      "정부 서비스 모바일 퍼스트 전략",
+      "자연어 처리 기반 생산성 도구 증가"
+    ],
+    "hot_categories": [
+      "건강 및 피트니스",
+      "라이프스타일",
+      "생산성"
+    ],
+    "opportunity": "AI를 활용한 개인화 서비스와 반려동물 관련 헬스케어 영역에서 기회 발견",
+    "action_item": "AI 개인화 기술과 반려동물 시장을 결합한 서비스 기획 검토"
+  }
+}
