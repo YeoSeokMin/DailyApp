@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T15:05:39.149Z",
+  "generatedAt": "2026-04-25T15:05:23.388Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -7,28 +7,59 @@
   "risingCategories": [
     {
       "category": "라이프스타일",
-      "currentCount": 7,
-      "previousCount": 1,
-      "changePercent": 600,
+      "currentCount": 9,
+      "previousCount": 2,
+      "changePercent": 350,
       "changeDirection": "up",
       "apps": [
+        "PetScan",
+        "정부24",
+        "대한민국 모바일 신분증",
         "아파트아이 - 아파트앱",
         "Gather: Family Room",
         "BrightLog",
         "Daily Wealth Quotes",
         "AI Outfit Planner - FashionKit",
-        "Candles - Birthday Reminder",
-        "OurStory - Couples Map"
+        "Candles - Birthday Reminder"
       ],
-      "avgScore": 7.07142857142857
+      "avgScore": 7.033333333333333
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 4,
+      "previousCount": 1,
+      "changePercent": 300,
+      "changeDirection": "up",
+      "apps": [
+        "KrudAlert",
+        "BakebudBdy",
+        "BiteSnap - Cook & Share",
+        "배스킨라빈스"
+      ],
+      "avgScore": 6.825
+    },
+    {
+      "category": "쇼핑",
+      "currentCount": 3,
+      "previousCount": 1,
+      "changePercent": 200,
+      "changeDirection": "up",
+      "apps": [
+        "당근",
+        "퀸잇, 멋진 어른들의 라이프스타일링샵",
+        "Temu: 억만장자처럼 쇼핑하기"
+      ],
+      "avgScore": 7.8
     },
     {
       "category": "생산성",
-      "currentCount": 20,
-      "previousCount": 4,
-      "changePercent": 400,
+      "currentCount": 19,
+      "previousCount": 7,
+      "changePercent": 171,
       "changeDirection": "up",
       "apps": [
+        "GutCheck",
+        "Dola",
         "Mix It Right",
         "PeriodSymp",
         "LUME Auth",
@@ -45,82 +76,60 @@
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "Gemmy AI: 채팅 & 어시스턴트",
         "문서 리더 & 스캔",
-        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
-        "FocusField — Work Smarter",
-        "Manus AI",
-        "문서 리더 & 스캔"
+        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기"
       ],
-      "avgScore": 7.154999999999999
+      "avgScore": 7.063157894736843
     },
     {
-      "category": "유틸리티",
-      "currentCount": 6,
+      "category": "건강 및 피트니스",
+      "currentCount": 4,
       "previousCount": 2,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "QR 코드 및 바코드 스캐너",
-        "EasyNotifier",
-        "Articulate: speak smarter",
-        "QR 코드 & 바코드 스캐너",
-        "MarkMyCar",
-        "PokeLabo"
-      ],
-      "avgScore": 6.833333333333333
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 5,
-      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "KrudAlert",
-        "BakebudBdy",
-        "BiteSnap - Cook & Share",
-        "배스킨라빈스",
-        "하삼동커피"
-      ],
-      "avgScore": 6.659999999999999
-    },
-    {
-      "category": "소셜",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "리버스톡(Reversetok) - AI 인플루언서 채팅",
-        "리버스톡(Reversetok) - AI 인플루언서 채팅"
-      ],
-      "avgScore": 8.4
-    },
-    {
-      "category": "쇼핑",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "퀸잇, 멋진 어른들의 라이프스타일링샵",
-        "Temu: 억만장자처럼 쇼핑하기",
-        "퀸잇, 멋진 어른들의 라이프스타일링샵"
+        "Vīra",
+        "Cals2Gains: AI Calorie Counter",
+        "Calorie Buddy: AI Tracker",
+        "macalo - カロリーがスイーツに変わる"
       ],
       "avgScore": 8.2
     },
     {
       "category": "교육",
-      "currentCount": 4,
+      "currentCount": 5,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "OtherEyes",
         "Chicken: CoopLedger",
         "Codefinity",
         "Darak - One Book a Day",
         "듀오링고(Duolingo): 언어 학습"
       ],
-      "avgScore": 7.725
+      "avgScore": 7.74
+    },
+    {
+      "category": "비즈니스",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "RingJob"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "메디컬",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "모바일 건강보험증"
+      ],
+      "avgScore": 6.5
     },
     {
       "category": "정보",
@@ -230,89 +239,51 @@
         "Birdr - Birding & Bird ID"
       ],
       "avgScore": 7.1
-    },
-    {
-      "category": "건강 및 피트니스",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "Cals2Gains: AI Calorie Counter",
-        "Calorie Buddy: AI Tracker",
-        "macalo - カロリーがスイーツに変わる"
-      ],
-      "avgScore": 8.066666666666666
     }
   ],
   "decliningCategories": [],
   "stableCategories": [
     {
-      "category": "여행",
+      "category": "소셜",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Auto Culture DriveCam"
+        "리버스톡(Reversetok) - AI 인플루언서 채팅"
       ],
-      "avgScore": 7
+      "avgScore": 8.8
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 4,
+      "previousCount": 4,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "QR 코드 및 바코드 스캐너",
+        "EasyNotifier",
+        "Articulate: speak smarter",
+        "QR 코드 & 바코드 스캐너"
+      ],
+      "avgScore": 6.5
     }
   ],
   "hotKeywords": [
     {
-      "keyword": "1인개발가능",
-      "category": "tag",
-      "count": 42,
-      "apps": [
-        "Cals2Gains: AI Calorie Counter",
-        "KrudAlert",
-        "Mix It Right",
-        "PeriodSymp",
-        "QR 코드 및 바코드 스캐너",
-        "PDF 리더 & 뷰어",
-        "Daily Side Quests",
-        "Chicken: CoopLedger",
-        "LuggageWeight",
-        "Gather: Family Room",
-        "EasyNotifier",
-        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
-        "BrightLog",
-        "Buddy Food Track",
-        "Codefinity",
-        "Daily Wealth Quotes",
-        "StreamDownloader - 비디오 저장",
-        "문서 뷰어: PDF, Word",
-        "QR 스캐너",
-        "Where's The Exit?",
-        "BakebudBdy",
-        "Darak - One Book a Day",
-        "Colory - 智能拾色与色彩管理",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "QR 코드 & 바코드 스캐너",
-        "PartyFrColors",
-        "splitmaster – split bills",
-        "macalo - カロリーがスイーツに変わる",
-        "Birdr - Birding & Bird ID",
-        "BiteSnap - Cook & Share",
-        "Candles - Birthday Reminder",
-        "Gemmy AI: 채팅 & 어시스턴트",
-        "문서 리더 & 스캔",
-        "Auto Culture DriveCam",
-        "MarkMyCar",
-        "PokeLabo",
-        "FocusField — Work Smarter",
-        "OurStory - Couples Map",
-        "하삼동커피",
-        "리버스톡(Reversetok) - AI 인플루언서 채팅",
-        "퀸잇, 멋진 어른들의 라이프스타일링샵"
-      ]
-    },
-    {
       "keyword": "B2C",
       "category": "tag",
-      "count": 42,
+      "count": 43,
       "apps": [
+        "Vīra",
+        "PetScan",
+        "GutCheck",
+        "OtherEyes",
+        "Dola",
+        "정부24",
+        "당근",
+        "대한민국 모바일 신분증",
+        "모바일 건강보험증",
         "Cals2Gains: AI Calorie Counter",
         "Mix It Right",
         "PeriodSymp",
@@ -344,21 +315,63 @@
         "BiteSnap - Cook & Share",
         "Candles - Birthday Reminder",
         "문서 리더 & 스캔",
-        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
-        "Auto Culture DriveCam",
-        "MarkMyCar",
-        "PokeLabo",
-        "OurStory - Couples Map",
-        "리버스톡(Reversetok) - AI 인플루언서 채팅",
-        "퀸잇, 멋진 어른들의 라이프스타일링샵",
-        "Manus AI"
+        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기"
+      ]
+    },
+    {
+      "keyword": "1인개발가능",
+      "category": "tag",
+      "count": 39,
+      "apps": [
+        "Vīra",
+        "PetScan",
+        "GutCheck",
+        "OtherEyes",
+        "RingJob",
+        "Dola",
+        "Cals2Gains: AI Calorie Counter",
+        "KrudAlert",
+        "Mix It Right",
+        "PeriodSymp",
+        "QR 코드 및 바코드 스캐너",
+        "PDF 리더 & 뷰어",
+        "Daily Side Quests",
+        "Chicken: CoopLedger",
+        "LuggageWeight",
+        "Gather: Family Room",
+        "EasyNotifier",
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+        "BrightLog",
+        "Buddy Food Track",
+        "Codefinity",
+        "Daily Wealth Quotes",
+        "StreamDownloader - 비디오 저장",
+        "문서 뷰어: PDF, Word",
+        "QR 스캐너",
+        "Where's The Exit?",
+        "BakebudBdy",
+        "Darak - One Book a Day",
+        "Colory - 智能拾色与色彩管理",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "QR 코드 & 바코드 스캐너",
+        "PartyFrColors",
+        "splitmaster – split bills",
+        "macalo - カロリーがスイーツに変わる",
+        "Birdr - Birding & Bird ID",
+        "BiteSnap - Cook & Share",
+        "Candles - Birthday Reminder",
+        "Gemmy AI: 채팅 & 어시스턴트",
+        "문서 리더 & 스캔"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 25,
+      "count": 26,
       "apps": [
+        "Vīra",
+        "PetScan",
+        "Dola",
         "Cals2Gains: AI Calorie Counter",
         "LUME Auth",
         "리버스톡(Reversetok) - AI 인플루언서 채팅",
@@ -372,9 +385,7 @@
         "AdventureWeaver",
         "Autograph Identifier: AI Value",
         "Calorie Buddy: AI Tracker",
-        "Birdr - Birding & Bird ID",
-        "FocusField — Work Smarter",
-        "Manus AI"
+        "Birdr - Birding & Bird ID"
       ]
     },
     {
@@ -382,6 +393,7 @@
       "category": "tag",
       "count": 13,
       "apps": [
+        "RingJob",
         "KrudAlert",
         "LUME Auth",
         "아파트아이 - 아파트앱",
@@ -391,23 +403,21 @@
         "Colory - 智能拾色与色彩管理",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "문서 리더 & 스캔",
-        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
-        "FocusField — Work Smarter"
+        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기"
       ]
     },
     {
       "keyword": "생산성",
       "category": "tag",
-      "count": 9,
+      "count": 7,
       "apps": [
+        "GutCheck",
         "PDF 리더 & 뷰어",
         "Daily Side Quests",
         "Cevera",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 리더 & 스캔",
-        "FocusField — Work Smarter",
-        "Manus AI"
+        "문서 리더 & 스캔"
       ]
     },
     {
@@ -422,6 +432,18 @@
         "StreamDownloader - 비디오 저장",
         "문서 뷰어: PDF, Word",
         "PDF 뷰어 - PDF Reader & PDF 편집"
+      ]
+    },
+    {
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "모바일 건강보험증",
+        "Cals2Gains: AI Calorie Counter",
+        "Buddy Food Track",
+        "Calorie Buddy: AI Tracker",
+        "macalo - カロリーがスイーツに変わる"
       ]
     },
     {
@@ -449,25 +471,13 @@
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 6,
+      "count": 5,
       "apps": [
+        "OtherEyes",
         "Darak - One Book a Day",
         "Articulate: speak smarter",
         "PartyFrColors",
-        "BiteSnap - Cook & Share",
-        "MarkMyCar",
-        "FocusField — Work Smarter"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "health",
-      "count": 5,
-      "apps": [
-        "Cals2Gains: AI Calorie Counter",
-        "Buddy Food Track",
-        "Calorie Buddy: AI Tracker",
-        "macalo - カロリーがスイーツに変わる"
+        "BiteSnap - Cook & Share"
       ]
     },
     {
@@ -483,45 +493,23 @@
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 5,
-      "apps": [
-        "PDF 리더 & 뷰어",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 리더 & 스캔"
-      ]
-    },
-    {
-      "keyword": "니치마켓",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Mix It Right",
-        "BakebudBdy",
-        "Birdr - Birding & Bird ID",
-        "Auto Culture DriveCam"
-      ]
-    },
-    {
       "keyword": "커뮤니티",
       "category": "social",
       "count": 4,
       "apps": [
+        "당근",
         "아파트아이 - 아파트앱",
-        "Birdr - Birding & Bird ID",
-        "Auto Culture DriveCam"
+        "Birdr - Birding & Bird ID"
       ]
     },
     {
-      "keyword": "영상",
+      "keyword": "편집",
       "category": "creator",
       "count": 4,
       "apps": [
-        "StreamDownloader - 비디오 저장",
-        "BiteSnap - Cook & Share",
-        "Auto Culture DriveCam"
+        "PDF 리더 & 뷰어",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
@@ -529,9 +517,39 @@
       "category": "productivity",
       "count": 3,
       "apps": [
+        "Dola",
         "Cals2Gains: AI Calorie Counter",
-        "EasyNotifier",
-        "PokeLabo"
+        "EasyNotifier"
+      ]
+    },
+    {
+      "keyword": "정부서비스",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "정부24",
+        "대한민국 모바일 신분증",
+        "모바일 건강보험증"
+      ]
+    },
+    {
+      "keyword": "보험",
+      "category": "fintech",
+      "count": 3,
+      "apps": [
+        "모바일 건강보험증",
+        "건강보험25시",
+        "실손24"
+      ]
+    },
+    {
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Mix It Right",
+        "BakebudBdy",
+        "Birdr - Birding & Bird ID"
       ]
     },
     {
@@ -545,16 +563,6 @@
       ]
     },
     {
-      "keyword": "멤버십",
-      "category": "subscription",
-      "count": 3,
-      "apps": [
-        "쿠팡플레이",
-        "배스킨라빈스",
-        "하삼동커피"
-      ]
-    },
-    {
       "keyword": "콘텐츠",
       "category": "tag",
       "count": 3,
@@ -565,65 +573,66 @@
       ]
     },
     {
-      "keyword": "엔터테인먼트",
-      "category": "tag",
-      "count": 2,
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
       "apps": [
-        "리버스톡(Reversetok) - AI 인플루언서 채팅",
-        "NetShort - 인기 드라마 및 TV 프로그램"
+        "StreamDownloader - 비디오 저장",
+        "BiteSnap - Cook & Share"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 18,
-        "percent": 26,
+        "count": 20,
+        "percent": 29,
         "examples": [
-          "QR 코드 및 바코드 스캐너",
-          "LuggageWeight",
-          "2026 고유가 피해지원금 60만원 민생지원 신청가이드"
+          "정부24",
+          "대한민국 모바일 신분증",
+          "모바일 건강보험증"
         ]
       },
       "freemium": {
-        "count": 55,
-        "percent": 79,
+        "count": 51,
+        "percent": 73,
         "examples": [
-          "Cals2Gains: AI Calorie Counter",
-          "Mix It Right",
-          "PeriodSymp"
+          "Vīra",
+          "PetScan",
+          "GutCheck"
         ]
       },
       "subscription": {
-        "count": 35,
-        "percent": 50,
+        "count": 36,
+        "percent": 51,
         "examples": [
-          "Cals2Gains: AI Calorie Counter",
-          "Mix It Right",
-          "PeriodSymp"
+          "Vīra",
+          "PetScan",
+          "GutCheck"
         ]
       },
       "onetime": {
-        "count": 1,
-        "percent": 1,
+        "count": 2,
+        "percent": 3,
         "examples": [
+          "OtherEyes",
           "Chicken: CoopLedger"
         ]
       },
       "unknown": {
-        "count": 6,
-        "percent": 9,
+        "count": 5,
+        "percent": 7,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 55,
-      "percent": 79,
+      "count": 51,
+      "percent": 73,
       "examples": [
-        "Cals2Gains: AI Calorie Counter",
-        "Mix It Right",
-        "PeriodSymp"
+        "Vīra",
+        "PetScan",
+        "GutCheck"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -632,32 +641,56 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 25,
-        "percent": 36,
+        "count": 24,
+        "percent": 34,
         "apps": [
+          "Vīra",
+          "PetScan",
+          "Dola",
           "Cals2Gains: AI Calorie Counter",
-          "PeriodSymp",
-          "LUME Auth",
-          "리버스톡(Reversetok) - AI 인플루언서 채팅",
-          "QR 코드 및 바코드 스캐너"
+          "PeriodSymp"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 9,
-        "percent": 13,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "OtherEyes",
           "Chicken: CoopLedger",
           "BrightLog",
           "Darak - One Book a Day",
-          "Articulate: speak smarter",
-          "PartyFrColors"
+          "Articulate: speak smarter"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "RingJob",
+          "당근",
+          "리버스톡(Reversetok) - AI 인플루언서 채팅",
+          "아파트아이 - 아파트앱",
+          "Buddy Food Track"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Dola",
+          "Cals2Gains: AI Calorie Counter",
+          "Daily Side Quests",
+          "EasyNotifier",
+          "Cevera"
         ]
       },
       {
         "tech": "creator",
-        "count": 9,
-        "percent": 13,
+        "count": 7,
+        "percent": 10,
         "apps": [
           "쿠팡플레이",
           "StreamDownloader - 비디오 저장",
@@ -667,39 +700,25 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 8,
-        "percent": 11,
+        "tech": "fintech",
+        "count": 4,
+        "percent": 6,
         "apps": [
-          "Cals2Gains: AI Calorie Counter",
-          "Daily Side Quests",
-          "EasyNotifier",
-          "Cevera",
-          "AI Outfit Planner - FashionKit"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 6,
-        "percent": 9,
-        "apps": [
-          "리버스톡(Reversetok) - AI 인플루언서 채팅",
-          "아파트아이 - 아파트앱",
-          "Buddy Food Track",
-          "Birdr - Birding & Bird ID",
-          "BiteSnap - Cook & Share"
+          "모바일 건강보험증",
+          "monimo",
+          "건강보험25시",
+          "실손24"
         ]
       },
       {
         "tech": "subscription",
-        "count": 6,
-        "percent": 9,
+        "count": 4,
+        "percent": 6,
         "apps": [
           "퀸잇, 멋진 어른들의 라이프스타일링샵",
           "쿠팡플레이",
           "NetShort - 인기 드라마 및 TV 프로그램",
-          "배스킨라빈스",
-          "하삼동커피"
+          "배스킨라빈스"
         ]
       },
       {
@@ -713,45 +732,67 @@
         ]
       },
       {
-        "tech": "fintech",
-        "count": 3,
-        "percent": 4,
+        "tech": "blockchain",
+        "count": 1,
+        "percent": 1,
         "apps": [
-          "monimo",
-          "건강보험25시",
-          "실손24"
+          "대한민국 모바일 신분증"
         ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 25,
-      "percent": 36,
+      "count": 24,
+      "percent": 34,
       "apps": [
+        "Vīra",
+        "PetScan",
+        "Dola",
         "Cals2Gains: AI Calorie Counter",
-        "PeriodSymp",
-        "LUME Auth",
-        "리버스톡(Reversetok) - AI 인플루언서 채팅",
-        "QR 코드 및 바코드 스캐너"
+        "PeriodSymp"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 9,
-        "percent": 13,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "OtherEyes",
           "Chicken: CoopLedger",
           "BrightLog",
           "Darak - One Book a Day",
-          "Articulate: speak smarter",
-          "PartyFrColors"
+          "Articulate: speak smarter"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "RingJob",
+          "당근",
+          "리버스톡(Reversetok) - AI 인플루언서 채팅",
+          "아파트아이 - 아파트앱",
+          "Buddy Food Track"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Dola",
+          "Cals2Gains: AI Calorie Counter",
+          "Daily Side Quests",
+          "EasyNotifier",
+          "Cevera"
         ]
       },
       {
         "tech": "creator",
-        "count": 9,
-        "percent": 13,
+        "count": 7,
+        "percent": 10,
         "apps": [
           "쿠팡플레이",
           "StreamDownloader - 비디오 저장",
@@ -759,42 +800,44 @@
           "StreamDownloader - 비디오 저장",
           "PDF 뷰어 - PDF Reader & PDF 편집"
         ]
-      },
-      {
-        "tech": "productivity",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "Cals2Gains: AI Calorie Counter",
-          "Daily Side Quests",
-          "EasyNotifier",
-          "Cevera",
-          "AI Outfit Planner - FashionKit"
-        ]
       }
     ]
   },
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "소셜 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "음식 및 음료 카테고리 급부상",
+      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "소셜"
+      "category": "음식 및 음료"
     },
     {
       "type": "rising_category",
       "title": "쇼핑 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "쇼핑"
     },
     {
       "type": "rising_category",
-      "title": "교육 카테고리 급부상",
+      "title": "건강 및 피트니스 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "교육"
+      "category": "건강 및 피트니스"
+    },
+    {
+      "type": "rising_category",
+      "title": "비즈니스 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "비즈니스"
+    },
+    {
+      "type": "rising_category",
+      "title": "메디컬 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "메디컬"
     },
     {
       "type": "rising_category",
@@ -860,34 +903,27 @@
       "category": "참고"
     },
     {
-      "type": "rising_category",
-      "title": "건강 및 피트니스 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "건강 및 피트니스"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "36%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "라이프스타일 앱이 600% 급상승하며 1인 개발자에게 유리한 시장을 형성하고 있습니다. AI 통합과 freemium 모델이 주류가 되고 있으며, 생산성과 라이프스타일 영역에서 B2C 앱 수요가 폭증하고 있습니다.",
+    "trend_summary": "라이프스타일 앱이 350% 급증하며 시장을 선도하고 있고, AI 기능 통합이 34%의 앱에서 일어나며 새로운 표준이 되고 있습니다. 1인개발자에게 유리한 환경이 조성되면서 음식, 쇼핑, 건강 등 틈새 시장 진입 기회가 확대되고 있습니다.",
     "trend_details": [
-      "라이프스타일 카테고리 600% 급상승으로 가장 높은 성장률 기록",
-      "1인개발가능 태그가 42회로 최고 빈도를 보이며 인디 개발자 친화적 시장",
-      "AI 기능 통합이 36%의 앱에서 적용되어 필수 기능으로 자리잡음",
-      "freemium 모델이 79%로 압도적 우세를 보이며 표준 수익화 방식으로 정착"
+      "라이프스타일 카테고리 350% 폭발적 성장으로 개인 맞춤형 서비스 수요 급증",
+      "AI 기능이 34% 앱에 통합되며 필수 기능으로 자리잡음",
+      "Freemium 모델이 73% 점유율로 수익화 표준 모델로 확립",
+      "1인개발가능 태그 39회 언급으로 솔로 개발자 친화적 시장 환경 조성"
     ],
     "hot_categories": [
       "라이프스타일",
-      "생산성"
+      "음식 및 음료"
     ],
-    "opportunity": "소셜, 교육, 금융 등 100% 성장한 카테고리들이 앱 수는 적어 진입 장벽이 낮은 블루오션 시장입니다.",
-    "action_item": "freemium 모델로 AI 기능을 통합한 라이프스타일 또는 생산성 앱을 B2C 타겟으로 개발하세요.",
+    "opportunity": "음식 및 음료 카테고리에서 300% 성장률 대비 단 4개 앱만 존재해 AI 기반 개인 맞춤 서비스로 블루오션 선점 가능",
+    "action_item": "음식/건강 카테고리에서 AI 기반 개인화 기능을 포함한 Freemium 모델 앱을 즉시 기획하고 MVP 개발 시작",
     "weekly_theme": "AI 라이프스타일"
   }
 }
