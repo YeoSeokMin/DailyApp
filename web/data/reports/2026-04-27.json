@@ -1,0 +1,629 @@
+{
+  "date": "2026-04-27",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "DreamScript: AI Journal",
+      "developer": "Qiu Yuyan",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/90/af/8e90af3a-4395-e698-f2b6-0d556e5b58cb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/dreamscript-ai-journal/id6761034036?uo=2",
+      "idea_summary": "AI가 분석하는 꿈 일기 앱 [추론]",
+      "analysis": {
+        "problem": "꿈을 기록하고 해석하려는 니즈 해결 [추론]",
+        "solution": "AI를 활용한 꿈 분석 및 패턴 발견 [추론]",
+        "target_user": "심리학에 관심있는 젊은 성인층 [추측]",
+        "unique_point": "꿈 해석에 AI 기술 접목 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "일반 일기앱",
+          "명상앱"
+        ],
+        "timing_reason": "AI 기술 대중화와 웰빙 트렌드 [추론]",
+        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 구독 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OpenAI API"
+        ],
+        "key_features": [
+          "꿈 기록",
+          "AI 분석",
+          "패턴 시각화"
+        ],
+        "clone_tip": "기존 AI API 활용하여 MVP 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "틈새 시장이지만 AI 트렌드와 맞아 떨어짐",
+      "deep_report_id": "ios-dreamscript-ai-journal-1777215760681"
+    },
+    {
+      "rank": 2,
+      "name": "FindTag",
+      "developer": "The Imagine Lab LLC",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/86/23/5e862381-0799-ef60-d8ec-c16f19a08a9e/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/findtag/id6754758608?uo=2",
+      "idea_summary": "분실물 찾기 도우미 앱 [추론]",
+      "analysis": {
+        "problem": "자주 잃어버리는 물건들 찾기 어려움 [확인]",
+        "solution": "위치 태그와 연동한 분실물 추적 [추론]",
+        "target_user": "건망증이 있는 성인, 시니어층 [추론]",
+        "unique_point": "간단한 UI로 찾기 기능 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "AirTag 찾기",
+          "SmartThings"
+        ],
+        "timing_reason": "IoT 디바이스 보급 확산 [확인]",
+        "growth_potential": "실용적이라 꾸준한 수요 예상 [추론]"
+      },
+      "business": {
+        "monetization": "무료앱 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "프리미엄 월 1,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Location",
+          "Bluetooth"
+        ],
+        "key_features": [
+          "블루투스 연동",
+          "지도 표시",
+          "알림"
+        ],
+        "clone_tip": "기존 찾기 API 활용하여 UI에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "실용성 높아 안정적 수익 기대"
+    },
+    {
+      "rank": 3,
+      "name": "RareCoins AI",
+      "developer": "SCHINDLER SERVICES LLC",
+      "category": "참고",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/45/a3/9845a365-7ee7-4476-5420-d65aa4a6a585/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/rarecoins-ai/id6754759980?uo=2",
+      "idea_summary": "AI로 희귀 동전 가치 평가 [추론]",
+      "analysis": {
+        "problem": "수집가들의 동전 가치 평가 어려움 [추론]",
+        "solution": "사진 촬영으로 AI가 자동 감정 [추론]",
+        "target_user": "동전 수집가, 골동품 관심층 [추론]",
+        "unique_point": "컴퓨터 비전으로 동전 인식 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "수동 감정 서비스",
+          "온라인 카탈로그"
+        ],
+        "timing_reason": "수집품 시장 성장과 AI 발전 [추론]",
+        "growth_potential": "틈새시장이지만 높은 단가 [추측]"
+      },
+      "business": {
+        "monetization": "유료 앱 + 프리미엄 분석 [추론]",
+        "pricing_suggestion": "앱 5,900원, 분석당 500원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "Vision Framework"
+        ],
+        "key_features": [
+          "이미지 인식",
+          "데이터베이스 매칭",
+          "가격 추정"
+        ],
+        "clone_tip": "기존 이미지 인식 라이브러리 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "높은 기술력 요구하지만 블루오션"
+    },
+    {
+      "rank": 4,
+      "name": "Tinnitus Saurus",
+      "developer": "Techiasaurus LLC",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/7b/16/627b16ff-4bbb-7a35-9b44-b0cf69c4d8ca/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tinnitus-saurus/id6762468342?uo=2",
+      "idea_summary": "이명 완화를 위한 사운드 테라피 [추론]",
+      "analysis": {
+        "problem": "이명으로 고통받는 환자들의 치료 보조 [추론]",
+        "solution": "맞춤형 사운드로 이명 마스킹 [추론]",
+        "target_user": "이명 환자, 중장년층 [추론]",
+        "unique_point": "의학적 근거 기반 사운드 치료 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 화이트노이즈 앱",
+          "의료기기"
+        ],
+        "timing_reason": "스트레스성 이명 환자 증가 [추론]",
+        "growth_potential": "전문적 치료 보조로 의료진 추천 가능 [추측]"
+      },
+      "business": {
+        "monetization": "구독 모델 + 의료진 추천 [추론]",
+        "pricing_suggestion": "월 구독 4,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Core Audio"
+        ],
+        "key_features": [
+          "사운드 생성",
+          "개인화",
+          "진행도 추적"
+        ],
+        "clone_tip": "의학 논문 참고하여 사운드 알고리즘 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "의료적 니즈로 높은 가치 제공 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Wisp — Meeting AI Assistant",
+      "developer": "Boris Spiro",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/39/17/39391708-8082-abd2-a825-b01be395c253/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/wisp-meeting-ai-assistant/id6761301652?uo=2",
+      "idea_summary": "AI 미팅 어시스턴트 및 요약 [추론]",
+      "analysis": {
+        "problem": "회의 내용 정리와 액션 아이템 추출 어려움 [확인]",
+        "solution": "음성 인식과 AI로 회의록 자동 생성 [추론]",
+        "target_user": "직장인, 프리랜서, 팀 리더 [추론]",
+        "unique_point": "실시간 회의 분석과 인사이트 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "Notion AI",
+          "Zoom AI"
+        ],
+        "timing_reason": "원격근무 확산과 생산성 도구 수요 [확인]",
+        "growth_potential": "B2B 시장 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델 + 기업 라이센스 [추론]",
+        "pricing_suggestion": "개인 월 9,900원, 기업 사용자당 19,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Speech Framework",
+          "OpenAI API"
+        ],
+        "key_features": [
+          "음성 인식",
+          "AI 요약",
+          "액션 아이템 추출"
+        ],
+        "clone_tip": "기존 음성 인식 API 조합으로 MVP 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "높은 시장 수요와 확장성을 가진 유망 아이템"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/lmG9HlI0awHie0cyBieWXeNSZkWs11W5Dv0mRWZBv6IgLDTh3l8eolsjeAVGg-HVHe3A",
+      "app_url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+      "idea_summary": "대화형 AI 어시스턴트 모바일 앱 [확인]",
+      "analysis": {
+        "problem": "언제든 AI와 대화하고 도움받고 싶은 니즈 [확인]",
+        "solution": "모바일 최적화된 ChatGPT 인터페이스 [확인]",
+        "target_user": "AI 서비스 이용자 전반 [확인]",
+        "unique_point": "가장 발전된 대화형 AI 기술 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Claude",
+          "Google Bard",
+          "Bing Chat"
+        ],
+        "timing_reason": "생성형 AI 기술 혁명 시점 [확인]",
+        "growth_potential": "AI 기술 발전과 함께 무한 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [확인]",
+        "pricing_suggestion": "월 구독 22,000원 [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "대기업 수준 개발 불가 [확인]",
+        "estimated_cost": "수억원 이상 [추측]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "AI 모델"
+        ],
+        "key_features": [
+          "대화 인터페이스",
+          "음성 입력",
+          "이미지 분석"
+        ],
+        "clone_tip": "기존 API 활용한 간단한 클라이언트만 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#대기업앱",
+        "#AI",
+        "#불가능"
+      ],
+      "verdict": "혁신적이지만 개인 개발자 접근 불가",
+      "deep_report_id": "android-chatgpt-1777215836756"
+    },
+    {
+      "rank": 2,
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.anthropic.claude",
+      "idea_summary": "안전성 중심의 AI 어시스턴트 [확인]",
+      "analysis": {
+        "problem": "안전하고 신뢰할 수 있는 AI 서비스 니즈 [추론]",
+        "solution": "헌법적 AI 원칙 기반 대화 시스템 [확인]",
+        "target_user": "신중한 AI 사용자, 전문가층 [추론]",
+        "unique_point": "AI 안전성과 정직성 강조 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Google Bard"
+        ],
+        "timing_reason": "AI 안전성에 대한 관심 증가 [추론]",
+        "growth_potential": "전문가 시장에서 차별화 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 구독 20,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "대기업 수준 개발 불가 [확인]",
+        "estimated_cost": "수억원 이상 [추측]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "Claude API"
+        ],
+        "key_features": [
+          "안전한 대화",
+          "긴 맥락 처리",
+          "문서 분석"
+        ],
+        "clone_tip": "Claude API 활용한 특화 인터페이스 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 1,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#대기업앱",
+        "#AI",
+        "#안전성"
+      ],
+      "verdict": "ChatGPT 대안으로 틈새 시장 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Google Gemini",
+      "developer": "Google LLC",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/bTpNtZ6rYYX2SeI-wC4cnr7MJnOh2hjtgYu3UIrSxE09lM3GPl_Uhf9_Ih2Smje2bc0V",
+      "app_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard",
+      "idea_summary": "구글의 차세대 AI 어시스턴트 [확인]",
+      "analysis": {
+        "problem": "구글 생태계와 연동된 AI 서비스 니즈 [추론]",
+        "solution": "멀티모달 AI로 텍스트, 이미지, 코드 처리 [확인]",
+        "target_user": "구글 서비스 사용자 [추론]",
+        "unique_point": "구글 서비스 완전 통합 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Claude"
+        ],
+        "timing_reason": "AI 경쟁 심화와 구글의 반격 [확인]",
+        "growth_potential": "구글 생태계 활용한 빠른 확산 [추론]"
+      },
+      "business": {
+        "monetization": "무료 + 구글 원 통합 [추론]",
+        "pricing_suggestion": "구글 원 구독에 포함 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "대기업 수준 개발 불가 [확인]",
+        "estimated_cost": "수십억원 이상 [추측]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "Gemini API"
+        ],
+        "key_features": [
+          "멀티모달 처리",
+          "구글 연동",
+          "실시간 정보"
+        ],
+        "clone_tip": "Gemini API 기반 특화 앱 개발 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#대기업앱",
+        "#AI",
+        "#생태계"
+      ],
+      "verdict": "구글 생태계 활용이 핵심 차별점"
+    },
+    {
+      "rank": 4,
+      "name": "Dola: 스마트 AI 도우미",
+      "developer": "SPRING (SG) PTE. LTD.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/OQqw4BnBEiPy4VWKCC-Vr_5ruppgs05hlsBV-8hFMjTefLrTaKZNNuHJ8Be_V9NWrA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.larus.wolf",
+      "idea_summary": "일정 관리 AI 어시스턴트 [추론]",
+      "analysis": {
+        "problem": "복잡한 일정 관리와 할 일 정리 어려움 [추론]",
+        "solution": "자연어로 일정 등록하는 AI 도우미 [추론]",
+        "target_user": "바쁜 직장인, 학생 [추론]",
+        "unique_point": "음성과 텍스트로 자연스러운 일정 입력 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "구글 캘린더",
+          "노션",
+          "Todoist"
+        ],
+        "timing_reason": "생산성 도구 수요 증가와 AI 발전 [추론]",
+        "growth_potential": "개인 생산성 시장 확대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 구독 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "NLP API"
+        ],
+        "key_features": [
+          "자연어 처리",
+          "캘린더 연동",
+          "알림"
+        ],
+        "clone_tip": "기존 캘린더 API와 NLP 서비스 조합 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "실용적이지만 경쟁이 치열한 시장"
+    },
+    {
+      "rank": 5,
+      "name": "Instagram",
+      "developer": "Instagram",
+      "category": "소셜",
+      "icon": "https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.instagram.android",
+      "idea_summary": "사진 중심 소셜 네트워크 [확인]",
+      "analysis": {
+        "problem": "시각적 콘텐츠로 소통하고 싶은 니즈 [확인]",
+        "solution": "사진과 영상 중심의 소셜 플랫폼 [확인]",
+        "target_user": "전 연령층, 특히 젊은 세대 [확인]",
+        "unique_point": "스토리, 릴스 등 다양한 콘텐츠 형식 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "Snapchat",
+          "YouTube"
+        ],
+        "timing_reason": "모바일 사진 문화 확산 완료 [확인]",
+        "growth_potential": "포화 시장이지만 지속적 혁신 [확인]"
+      },
+      "business": {
+        "monetization": "광고 수익 모델 [확인]",
+        "pricing_suggestion": "무료 앱, 광고 기반 [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "대기업 수준 개발 불가 [확인]",
+        "estimated_cost": "수백억원 이상 [추측]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "백엔드 인프라"
+        ],
+        "key_features": [
+          "사진 편집",
+          "스토리",
+          "릴스",
+          "메시징"
+        ],
+        "clone_tip": "소규모 틈새 커뮤니티 앱으로만 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 6
+      },
+      "tags": [
+        "#대기업앱",
+        "#소셜",
+        "#불가능"
+      ],
+      "verdict": "성공 사례지만 개인 개발자 진입 불가"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 도구들의 모바일 진출이 가속화되고 있으며, 개인 생산성과 헬스케어 영역에서 특화된 솔루션들이 부상하고 있음 [확인]. 대기업들이 AI 시장을 주도하는 가운데 틈새 영역에서의 차별화가 중요해짐 [추론].",
+    "trend_details": [
+      "AI 기반 개인화 서비스 확산",
+      "음성 인식 기술 활용 증가",
+      "헬스케어 앱의 전문성 강화",
+      "생산성 도구의 AI 통합"
+    ],
+    "hot_categories": [
+      "AI 도구",
+      "생산성",
+      "헬스케어"
+    ],
+    "opportunity": "대기업이 놓치는 전문적 틈새 시장에서 AI 기술을 활용한 맞춤형 솔루션",
+    "action_item": "기존 AI API를 활용하여 특정 도메인에 특화된 앱 개발"
+  }
+}
