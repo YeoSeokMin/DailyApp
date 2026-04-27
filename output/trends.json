@@ -1,58 +1,88 @@
 {
-  "generatedAt": "2026-04-26T15:05:25.581Z",
+  "generatedAt": "2026-04-27T15:05:17.951Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "쇼핑",
-      "currentCount": 3,
+      "category": "교육",
+      "currentCount": 5,
       "previousCount": 1,
-      "changePercent": 200,
+      "changePercent": 400,
       "changeDirection": "up",
       "apps": [
-        "당근",
-        "퀸잇, 멋진 어른들의 라이프스타일링샵",
-        "Temu: 억만장자처럼 쇼핑하기"
+        "Snap A Bird",
+        "OtherEyes",
+        "Chicken: CoopLedger",
+        "Codefinity",
+        "Darak - One Book a Day"
       ],
-      "avgScore": 7.8
+      "avgScore": 7.5200000000000005
+    },
+    {
+      "category": "생산성",
+      "currentCount": 24,
+      "previousCount": 10,
+      "changePercent": 140,
+      "changeDirection": "up",
+      "apps": [
+        "Wisp — Meeting AI Assistant",
+        "ChatGPT",
+        "Claude by Anthropic",
+        "Google Gemini",
+        "Dola: 스마트 AI 도우미",
+        "Quick story writer – Storymark",
+        "PDF 리더 및 뷰어",
+        "문서 뷰어: PDF, Word",
+        "GutCheck",
+        "Dola",
+        "Mix It Right",
+        "PeriodSymp",
+        "LUME Auth",
+        "PDF 리더 & 뷰어",
+        "Daily Side Quests",
+        "LuggageWeight",
+        "Buddy Food Track",
+        "Cevera",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "문서 뷰어: PDF, Word",
+        "Gemmy AI: 채팅 & 어시스턴트",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "문서 뷰어: PDF, Word",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
+      ],
+      "avgScore": 7.187499999999999
     },
     {
       "category": "라이프스타일",
       "currentCount": 8,
-      "previousCount": 3,
-      "changePercent": 167,
+      "previousCount": 4,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "DreamScript: AI Journal",
         "PetScan",
         "정부24",
         "대한민국 모바일 신분증",
         "아파트아이 - 아파트앱",
         "Gather: Family Room",
         "BrightLog",
-        "Daily Wealth Quotes",
-        "AI Outfit Planner - FashionKit"
+        "Daily Wealth Quotes"
       ],
-      "avgScore": 7.0375
+      "avgScore": 6.9375
     },
     {
-      "category": "유틸리티",
-      "currentCount": 8,
-      "previousCount": 4,
+      "category": "소셜",
+      "currentCount": 2,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Apex Lite",
-        "QRCraft",
-        "Ai Translator, Voice Translate",
-        "QR 코드 & 바코드 스캐너",
-        "QR 코드 및 바코드 스캐너",
-        "EasyNotifier",
-        "Articulate: speak smarter",
-        "QR 코드 & 바코드 스캐너"
+        "Instagram",
+        "리버스톡(Reversetok) - AI 인플루언서 채팅"
       ],
-      "avgScore": 7
+      "avgScore": 7.4
     },
     {
       "category": "스포츠",
@@ -65,22 +95,6 @@
         "튼튼머니"
       ],
       "avgScore": 6.65
-    },
-    {
-      "category": "교육",
-      "currentCount": 6,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Snap A Bird",
-        "OtherEyes",
-        "Chicken: CoopLedger",
-        "Codefinity",
-        "Darak - One Book a Day",
-        "듀오링고(Duolingo): 언어 학습"
-      ],
-      "avgScore": 7.7
     },
     {
       "category": "비즈니스",
@@ -127,20 +141,6 @@
       "avgScore": 8
     },
     {
-      "category": "엔터테인먼트",
-      "currentCount": 4,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "쿠팡플레이",
-        "PartyFrColors",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
-      ],
-      "avgScore": 7.05
-    },
-    {
       "category": "의료",
       "currentCount": 1,
       "previousCount": 0,
@@ -166,18 +166,6 @@
       "avgScore": 5.75
     },
     {
-      "category": "게임",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Where's The Exit?",
-        "AdventureWeaver"
-      ],
-      "avgScore": 7.15
-    },
-    {
       "category": "그래픽 및 디자인",
       "currentCount": 1,
       "previousCount": 0,
@@ -189,36 +177,38 @@
       "avgScore": 6.5
     },
     {
-      "category": "생산성",
-      "currentCount": 19,
-      "previousCount": 10,
-      "changePercent": 90,
+      "category": "유틸리티",
+      "currentCount": 8,
+      "previousCount": 5,
+      "changePercent": 60,
       "changeDirection": "up",
       "apps": [
-        "Quick story writer – Storymark",
-        "PDF 리더 및 뷰어",
-        "문서 뷰어: PDF, Word",
-        "GutCheck",
-        "Dola",
-        "Mix It Right",
-        "PeriodSymp",
-        "LUME Auth",
-        "PDF 리더 & 뷰어",
-        "Daily Side Quests",
-        "LuggageWeight",
-        "Buddy Food Track",
-        "Cevera",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "문서 뷰어: PDF, Word",
-        "Gemmy AI: 채팅 & 어시스턴트",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "문서 뷰어: PDF, Word",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
+        "FindTag",
+        "Apex Lite",
+        "QRCraft",
+        "Ai Translator, Voice Translate",
+        "QR 코드 & 바코드 스캐너",
+        "QR 코드 및 바코드 스캐너",
+        "EasyNotifier",
+        "Articulate: speak smarter"
       ],
-      "avgScore": 7.063157894736841
+      "avgScore": 7.1875
     }
   ],
   "decliningCategories": [
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 3,
+      "previousCount": 4,
+      "changePercent": -25,
+      "changeDirection": "down",
+      "apps": [
+        "Tinnitus Saurus",
+        "Vīra",
+        "Cals2Gains: AI Calorie Counter"
+      ],
+      "avgScore": 8.133333333333333
+    },
     {
       "category": "음식 및 음료",
       "currentCount": 2,
@@ -232,6 +222,17 @@
       "avgScore": 7.5
     },
     {
+      "category": "참고",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "RareCoins AI"
+      ],
+      "avgScore": 7.4
+    },
+    {
       "category": "금융",
       "currentCount": 1,
       "previousCount": 2,
@@ -241,51 +242,55 @@
         "monimo"
       ],
       "avgScore": 7
+    },
+    {
+      "category": "엔터테인먼트",
+      "currentCount": 1,
+      "previousCount": 3,
+      "changePercent": -67,
+      "changeDirection": "down",
+      "apps": [
+        "쿠팡플레이"
+      ],
+      "avgScore": 6.8
     }
   ],
   "stableCategories": [
     {
-      "category": "건강 및 피트니스",
-      "currentCount": 3,
-      "previousCount": 3,
+      "category": "쇼핑",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Vīra",
-        "Cals2Gains: AI Calorie Counter",
-        "Calorie Buddy: AI Tracker"
+        "당근",
+        "퀸잇, 멋진 어른들의 라이프스타일링샵"
       ],
-      "avgScore": 8.033333333333333
+      "avgScore": 7.8
     },
     {
-      "category": "소셜",
+      "category": "게임",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "리버스톡(Reversetok) - AI 인플루언서 채팅"
+        "Where's The Exit?"
       ],
-      "avgScore": 8.8
-    },
-    {
-      "category": "참고",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Autograph Identifier: AI Value"
-      ],
-      "avgScore": 7
+      "avgScore": 6.2
     }
   ],
   "hotKeywords": [
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 44,
+      "count": 49,
       "apps": [
+        "DreamScript: AI Journal",
+        "FindTag",
+        "RareCoins AI",
+        "Tinnitus Saurus",
+        "Dola: 스마트 AI 도우미",
         "QRCraft",
         "Mobile Mountaineer",
         "Snap A Bird",
@@ -333,8 +338,14 @@
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 41,
+      "count": 46,
       "apps": [
+        "DreamScript: AI Journal",
+        "FindTag",
+        "RareCoins AI",
+        "Tinnitus Saurus",
+        "Wisp — Meeting AI Assistant",
+        "Dola: 스마트 AI 도우미",
         "Apex Lite",
         "QRCraft",
         "Mobile Mountaineer",
@@ -372,15 +383,21 @@
         "BakebudBdy",
         "Darak - One Book a Day",
         "Colory - 智能拾色与色彩管理",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PartyFrColors"
+        "PDF뷰어, PDF리더 그리고 파일열기"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 25,
+      "count": 33,
       "apps": [
+        "DreamScript: AI Journal",
+        "RareCoins AI",
+        "Wisp — Meeting AI Assistant",
+        "ChatGPT",
+        "Claude by Anthropic",
+        "Google Gemini",
+        "Dola: 스마트 AI 도우미",
         "Mobile Mountaineer",
         "Snap A Bird",
         "Ai Translator, Voice Translate",
@@ -395,18 +412,15 @@
         "Daily Wealth Quotes",
         "Gemmy AI: 채팅 & 어시스턴트",
         "Articulate: speak smarter",
-        "Colory - 智能拾色与色彩管理",
-        "AI Outfit Planner - FashionKit",
-        "AdventureWeaver",
-        "Autograph Identifier: AI Value",
-        "Calorie Buddy: AI Tracker"
+        "Colory - 智能拾色与色彩管理"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 12,
+      "count": 13,
       "apps": [
+        "Wisp — Meeting AI Assistant",
         "Apex Lite",
         "RingJob",
         "KrudAlert",
@@ -416,6 +430,21 @@
         "PDF뷰어, PDF리더 그리고 파일열기",
         "문서 뷰어: PDF, Word",
         "Colory - 智能拾色与色彩管理",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 8,
+      "apps": [
+        "Wisp — Meeting AI Assistant",
+        "Dola: 스마트 AI 도우미",
+        "GutCheck",
+        "PDF 리더 & 뷰어",
+        "Daily Side Quests",
+        "Cevera",
+        "PDF뷰어, PDF리더 그리고 파일열기",
         "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
@@ -434,27 +463,28 @@
       ]
     },
     {
-      "keyword": "생산성",
+      "keyword": "대기업앱",
       "category": "tag",
       "count": 6,
       "apps": [
-        "GutCheck",
-        "PDF 리더 & 뷰어",
-        "Daily Side Quests",
-        "Cevera",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
+        "ChatGPT",
+        "Claude by Anthropic",
+        "Google Gemini",
+        "Instagram",
+        "monimo",
+        "쿠팡플레이"
       ]
     },
     {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 6,
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 5,
       "apps": [
-        "쿠팡플레이",
-        "StreamDownloader - 비디오 저장",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
+        "FindTag",
+        "QR 코드 및 바코드 스캐너",
+        "EasyNotifier",
+        "문서 뷰어: PDF, Word",
+        "QR 스캐너"
       ]
     },
     {
@@ -462,11 +492,21 @@
       "category": "ar_vr",
       "count": 5,
       "apps": [
+        "RareCoins AI",
         "Quick story writer – Storymark",
         "OtherEyes",
         "Darak - One Book a Day",
-        "Articulate: speak smarter",
-        "PartyFrColors"
+        "Articulate: speak smarter"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 5,
+      "apps": [
+        "Instagram",
+        "리버스톡(Reversetok) - AI 인플루언서 채팅",
+        "Buddy Food Track"
       ]
     },
     {
@@ -481,36 +521,23 @@
       ]
     },
     {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 5,
-      "apps": [
-        "QR 코드 및 바코드 스캐너",
-        "EasyNotifier",
-        "문서 뷰어: PDF, Word",
-        "QR 스캐너",
-        "QR 코드 & 바코드 스캐너"
-      ]
-    },
-    {
       "keyword": "헬스케어",
       "category": "tag",
       "count": 4,
       "apps": [
+        "Tinnitus Saurus",
         "모바일 건강보험증",
         "Cals2Gains: AI Calorie Counter",
-        "Buddy Food Track",
-        "Calorie Buddy: AI Tracker"
+        "Buddy Food Track"
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 4,
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
       "apps": [
-        "리버스톡(Reversetok) - AI 인플루언서 채팅",
-        "Buddy Food Track",
-        "PartyFrColors"
+        "Instagram",
+        "StreamDownloader - 비디오 저장"
       ]
     },
     {
@@ -543,88 +570,78 @@
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "tag",
+      "keyword": "스트리밍",
+      "category": "creator",
       "count": 3,
       "apps": [
-        "Daily Wealth Quotes",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
+        "쿠팡플레이",
+        "StreamDownloader - 비디오 저장"
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
+      "keyword": "GPT",
+      "category": "ai",
       "count": 2,
       "apps": [
-        "Vīra",
-        "NetShort - 인기 드라마 및 TV 프로그램"
+        "ChatGPT",
+        "Claude by Anthropic"
       ]
     },
     {
-      "keyword": "플랫폼",
+      "keyword": "ChatGPT",
+      "category": "ai",
+      "count": 2,
+      "apps": [
+        "ChatGPT",
+        "Claude by Anthropic"
+      ]
+    },
+    {
+      "keyword": "불가능",
       "category": "tag",
       "count": 2,
       "apps": [
-        "RingJob",
-        "당근"
-      ]
-    },
-    {
-      "keyword": "일정",
-      "category": "productivity",
-      "count": 2,
-      "apps": [
-        "Dola",
-        "AI Outfit Planner - FashionKit"
-      ]
-    },
-    {
-      "keyword": "보험",
-      "category": "fintech",
-      "count": 2,
-      "apps": [
-        "모바일 건강보험증",
-        "건강보험25시"
+        "ChatGPT",
+        "Instagram"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 17,
-        "percent": 24,
+        "count": 16,
+        "percent": 23,
         "examples": [
-          "QRCraft",
-          "정부24",
-          "대한민국 모바일 신분증"
+          "FindTag",
+          "Google Gemini",
+          "Instagram"
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 49,
+        "percent": 70,
         "examples": [
-          "Apex Lite",
-          "QRCraft",
-          "Mobile Mountaineer"
+          "DreamScript: AI Journal",
+          "FindTag",
+          "RareCoins AI"
         ]
       },
       "subscription": {
         "count": 37,
         "percent": 53,
         "examples": [
-          "Apex Lite",
-          "Mobile Mountaineer",
-          "Snap A Bird"
+          "DreamScript: AI Journal",
+          "Tinnitus Saurus",
+          "Wisp — Meeting AI Assistant"
         ]
       },
       "onetime": {
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "examples": [
+          "RareCoins AI",
           "Apex Lite",
-          "OtherEyes",
-          "Chicken: CoopLedger"
+          "OtherEyes"
         ]
       },
       "unknown": {
@@ -635,12 +652,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 49,
+      "percent": 70,
       "examples": [
-        "Apex Lite",
-        "QRCraft",
-        "Mobile Mountaineer"
+        "DreamScript: AI Journal",
+        "FindTag",
+        "RareCoins AI"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -649,14 +666,14 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 25,
-        "percent": 36,
+        "count": 26,
+        "percent": 37,
         "apps": [
-          "Mobile Mountaineer",
-          "Snap A Bird",
-          "Ai Translator, Voice Translate",
-          "Vīra",
-          "PetScan"
+          "DreamScript: AI Journal",
+          "RareCoins AI",
+          "Wisp — Meeting AI Assistant",
+          "ChatGPT",
+          "Claude by Anthropic"
         ]
       },
       {
@@ -664,23 +681,35 @@
         "count": 8,
         "percent": 11,
         "apps": [
+          "RareCoins AI",
           "Quick story writer – Storymark",
           "QR 코드 & 바코드 스캐너",
           "OtherEyes",
-          "Chicken: CoopLedger",
-          "BrightLog"
+          "Chicken: CoopLedger"
         ]
       },
       {
         "tech": "creator",
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "Instagram",
           "PDF 리더 및 뷰어",
           "쿠팡플레이",
           "StreamDownloader - 비디오 저장",
-          "PDF뷰어, PDF리더 그리고 파일열기",
-          "StreamDownloader - 비디오 저장"
+          "PDF뷰어, PDF리더 그리고 파일열기"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 6,
+        "percent": 9,
+        "apps": [
+          "Instagram",
+          "RingJob",
+          "당근",
+          "리버스톡(Reversetok) - AI 인플루언서 채팅",
+          "아파트아이 - 아파트앱"
         ]
       },
       {
@@ -688,23 +717,11 @@
         "count": 6,
         "percent": 9,
         "apps": [
+          "Dola: 스마트 AI 도우미",
           "Dola",
           "Cals2Gains: AI Calorie Counter",
           "Daily Side Quests",
-          "EasyNotifier",
-          "Cevera"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "RingJob",
-          "당근",
-          "리버스톡(Reversetok) - AI 인플루언서 채팅",
-          "아파트아이 - 아파트앱",
-          "Buddy Food Track"
+          "EasyNotifier"
         ]
       },
       {
@@ -718,22 +735,21 @@
         ]
       },
       {
-        "tech": "subscription",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "퀸잇, 멋진 어른들의 라이프스타일링샵",
-          "쿠팡플레이",
-          "NetShort - 인기 드라마 및 TV 프로그램"
-        ]
-      },
-      {
         "tech": "health",
         "count": 2,
         "percent": 3,
         "apps": [
           "Cals2Gains: AI Calorie Counter",
           "Buddy Food Track"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "퀸잇, 멋진 어른들의 라이프스타일링샵",
+          "쿠팡플레이"
         ]
       },
       {
@@ -747,14 +763,14 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 25,
-      "percent": 36,
+      "count": 26,
+      "percent": 37,
       "apps": [
-        "Mobile Mountaineer",
-        "Snap A Bird",
-        "Ai Translator, Voice Translate",
-        "Vīra",
-        "PetScan"
+        "DreamScript: AI Journal",
+        "RareCoins AI",
+        "Wisp — Meeting AI Assistant",
+        "ChatGPT",
+        "Claude by Anthropic"
       ]
     },
     "emerging": [
@@ -763,23 +779,23 @@
         "count": 8,
         "percent": 11,
         "apps": [
+          "RareCoins AI",
           "Quick story writer – Storymark",
           "QR 코드 & 바코드 스캐너",
           "OtherEyes",
-          "Chicken: CoopLedger",
-          "BrightLog"
+          "Chicken: CoopLedger"
         ]
       },
       {
         "tech": "creator",
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "Instagram",
           "PDF 리더 및 뷰어",
           "쿠팡플레이",
           "StreamDownloader - 비디오 저장",
-          "PDF뷰어, PDF리더 그리고 파일열기",
-          "StreamDownloader - 비디오 저장"
+          "PDF뷰어, PDF리더 그리고 파일열기"
         ]
       }
     ]
@@ -787,10 +803,10 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "쇼핑 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "소셜 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "쇼핑"
+      "category": "소셜"
     },
     {
       "type": "rising_category",
@@ -829,13 +845,6 @@
     },
     {
       "type": "rising_category",
-      "title": "엔터테인먼트 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "엔터테인먼트"
-    },
-    {
-      "type": "rising_category",
       "title": "의료 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -850,13 +859,6 @@
     },
     {
       "type": "rising_category",
-      "title": "게임 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "게임"
-    },
-    {
-      "type": "rising_category",
       "title": "그래픽 및 디자인 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -865,24 +867,24 @@
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "36%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "37%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "쇼핑 카테고리가 200% 급성장하며 가장 뜨거운 트렌드를 보이고 있고, AI 기능 통합과 freemium 모델이 주류 전략으로 자리잡았습니다. B2C와 1인개발 가능한 영역이 핫 키워드로 부상했습니다.",
+    "trend_summary": "교육 카테고리가 400% 폭발적 성장을 보이며 가장 주목받는 영역으로 부상했습니다. AI 기능이 앱의 37%에 통합되어 필수 요소로 자리잡았고, 프리미엄 모델(70%)이 주요 수익화 전략으로 확립되었습니다.",
     "trend_details": [
-      "쇼핑 카테고리 200% 급성장하지만 경쟁 앱 수 적음",
-      "AI 기능이 36%의 앱에서 활용되며 차별화 요소로 부상",
-      "Freemium 모델이 74%로 주류 수익화 전략 확립"
+      "교육 카테고리 400% 급성장으로 최대 핫 영역 등극",
+      "AI 기능 통합이 앱의 37%에 적용되어 표준 기술로 정착",
+      "프리미엄(70%) + 구독(53%) 모델 조합이 주요 수익화 패턴"
     ],
     "hot_categories": [
-      "쇼핑",
-      "라이프스타일"
+      "교육",
+      "생산성"
     ],
-    "opportunity": "쇼핑 카테고리는 200% 성장률 대비 앱 수가 3개에 불과해 가장 유망한 블루오션 영역입니다.",
-    "action_item": "쇼핑 분야에서 AI 기능을 통합한 freemium 앱을 개발하되, B2C 타겟으로 1인개발 가능한 범위로 MVP를 설계하세요.",
-    "weekly_theme": "AI 쇼핑"
+    "opportunity": "소셜, 스포츠 등 100% 성장했지만 앱 수가 적은 카테고리에서 AI 기능을 접목한 선점 기회가 존재합니다.",
+    "action_item": "AI 기술을 활용한 교육용 생산성 앱을 프리미엄 모델로 개발하여 급성장하는 시장에 진입하세요.",
+    "weekly_theme": "AI 교육혁명"
   }
 }
