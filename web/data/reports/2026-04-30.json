@@ -1,0 +1,646 @@
+{
+  "date": "2026-04-30",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "ペンライト・メッセンジャー",
+      "developer": "Hideo Goto",
+      "category": "엔터테인먼트",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/dd/b5/0dddb5be-a310-a64b-0e86-1e9ebd2f887e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%E3%83%9A%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88-%E3%83%A1%E3%83%83%E3%82%BB%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC/id6763688752?uo=2",
+      "idea_summary": "콘서트용 디지털 펜라이트 메신저 [추론]",
+      "analysis": {
+        "problem": "콘서트에서 펜라이트 동기화와 메시지 전달의 어려움 [추론]",
+        "solution": "디지털 펜라이트로 동기화된 라이트쇼와 메시지 기능 제공 [추론]",
+        "target_user": "아이돌 팬, 콘서트 참가자, 일본 오타쿠 문화 애호가 [추론]",
+        "unique_point": "물리적 펜라이트를 디지털로 재현하여 원거리 동기화 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기존 펜라이트 앱",
+          "콘서트 응원 앱"
+        ],
+        "timing_reason": "K-POP과 일본 아이돌 문화 글로벌 확산 시점 [추론]",
+        "growth_potential": "아시아 팬덤 문화 확산으로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 펜라이트 디자인, 특별 이벤트 참여권 판매 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 기능 월 3000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WebSocket",
+          "Core Animation"
+        ],
+        "key_features": [
+          "실시간 동기화",
+          "커스텀 라이트 패턴",
+          "메시지 전송"
+        ],
+        "clone_tip": "WebSocket 실시간 통신과 LED 시뮬레이션 기술 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#엔터테인먼트"
+      ],
+      "verdict": "팬덤 문화와 결합한 참신한 아이디어로 글로벌 확장 가능 [추론]",
+      "deep_report_id": "ios--1777474978870"
+    },
+    {
+      "rank": 2,
+      "name": "Stride: Run, Walk, Repeat",
+      "developer": "Efe Bulbul",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/3f/b7/c23fb7df-1e80-e383-db4a-836f5660a4a6/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/stride-run-walk-repeat/id6762517955?uo=2",
+      "idea_summary": "걷기-달리기 반복 패턴 최적화 앱 [추론]",
+      "analysis": {
+        "problem": "초보자가 달리기 시작할 때 적절한 강도 조절의 어려움 [추론]",
+        "solution": "개인 맞춤형 걷기-달리기 간격 트레이닝 제공 [추론]",
+        "target_user": "달리기 초보자, 재활 중인 사람, 체력 향상 목표자 [추론]",
+        "unique_point": "점진적 강도 증가를 통한 부상 없는 달리기 습관 형성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nike Run Club",
+          "Strava",
+          "Couch to 5K"
+        ],
+        "timing_reason": "코로나 이후 홈 피트니스와 개인 건강 관리 증가 [추론]",
+        "growth_potential": "웰니스 시장 성장과 맞춤형 운동의 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "개인 맞춤 트레이닝 플랜, 프리미엄 분석 기능 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 5000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core Location"
+        ],
+        "key_features": [
+          "GPS 추적",
+          "간격 타이머",
+          "진행도 분석"
+        ],
+        "clone_tip": "HealthKit 연동과 정확한 GPS 거리 측정 구현 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "검증된 시장에 차별화된 접근으로 안정적 성장 기대 [추론]"
+    },
+    {
+      "rank": 3,
+      "name": "MojiKit - AI Sticker Me",
+      "developer": "MascotCraft LLC",
+      "category": "그래픽 및 디자인",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/6a/10/416a1036-5806-2d41-50d1-df41666450d2/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/mojikit-ai-sticker-me/id6760889634?uo=2",
+      "idea_summary": "AI로 개인 맞춤 스티커 제작 [추론]",
+      "analysis": {
+        "problem": "개성있는 개인 스티커 제작의 높은 진입장벽과 비용 [추론]",
+        "solution": "AI 기술로 사진을 바탕으로 자동 스티커 생성 [추론]",
+        "target_user": "SNS 활용도가 높은 10-30대, 크리에이터, 개성 표현 욕구자 [추론]",
+        "unique_point": "개인 얼굴 인식 AI로 일관된 캐릭터 스티커 시리즈 제작 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ZEPETO",
+          "Bitmoji",
+          "기존 스티커 앱들"
+        ],
+        "timing_reason": "생성형 AI 기술 대중화와 개인화 콘텐츠 수요 증가 [추론]",
+        "growth_potential": "글로벌 메신저 스티커 시장 확대와 AI 기술 발전 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 스티커 팩, 고해상도 다운로드, 상업적 이용권 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 팩당 2000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "Vision Framework",
+          "AI 모델"
+        ],
+        "key_features": [
+          "얼굴 인식",
+          "스타일 변환",
+          "스티커 생성",
+          "내보내기"
+        ],
+        "clone_tip": "사전 훈련된 얼굴 인식 모델과 스타일 변환 기술 활용 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "AI 트렌드와 개인화 욕구를 결합한 높은 수익 가능성 [추론]"
+    },
+    {
+      "rank": 4,
+      "name": "plants...but not real",
+      "developer": "Kyle Woods",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/bb/28/babb28ad-2b4f-29d0-15db-0ec16f9ecb89/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/plants-but-not-real/id6761933681?uo=2",
+      "idea_summary": "가상 식물 키우기 시뮬레이션 게임 [추론]",
+      "analysis": {
+        "problem": "실제 식물 키우기 실패 두려움과 공간/시간 제약 [추론]",
+        "solution": "부담 없는 가상 식물 키우기로 원예 경험과 성취감 제공 [추론]",
+        "target_user": "식물 초보자, 아파트 거주자, 캐주얼 게이머, 힐링 앱 선호자 [추론]",
+        "unique_point": "실제 식물 키우기 지식과 재미를 동시에 제공하는 교육적 게임 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "어비스리움",
+          "Plant Parent",
+          "가상 펫 게임들"
+        ],
+        "timing_reason": "홈 가드닝 트렌드와 식물 키우기 관심 증가 [추론]",
+        "growth_potential": "스트레스 해소와 힐링 게임 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "식물 종류 확장팩, 화분 꾸미기 아이템, 광고 제거 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 식물팩 1500원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SpriteKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "식물 성장 시뮬레이션",
+          "케어 알림",
+          "컬렉션 시스템"
+        ],
+        "clone_tip": "현실적인 식물 성장 알고리즘과 직관적인 UI 디자인 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#캐주얼게임"
+      ],
+      "verdict": "틈새 시장이지만 힐링 트렌드로 안정적 사용자층 확보 가능 [추론]"
+    },
+    {
+      "rank": 5,
+      "name": "Moodify",
+      "developer": "Enrique Ivars",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/3f/d5/723fd58e-455d-a6c6-50ed-09083bd8c9fc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/moodify/id6762404690?uo=2",
+      "idea_summary": "기분 추적 및 개선 솔루션 앱 [추론]",
+      "analysis": {
+        "problem": "일상 속 감정 변화 인식 부족과 기분 개선 방법 모름 [추론]",
+        "solution": "기분 트래킹과 개인 맞춤형 기분 개선 활동 추천 [추론]",
+        "target_user": "감정 관리가 필요한 성인, 정신건강 관심자, 자기계발 추구자 [추론]",
+        "unique_point": "데이터 기반 기분 패턴 분석과 실용적 개선 방안 제시 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Daylio",
+          "Mood Tools",
+          "Sanvello"
+        ],
+        "timing_reason": "정신건강 인식 증가와 웰빙 앱 수요 급증 [추론]",
+        "growth_potential": "멘탈헬스 시장 성장과 개인화 서비스 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 리포트, 전문가 상담 연결, 맞춤 활동 추천 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "HealthKit",
+          "Charts"
+        ],
+        "key_features": [
+          "기분 로깅",
+          "패턴 분석",
+          "활동 추천",
+          "진행도 시각화"
+        ],
+        "clone_tip": "심리학 기반 기분 개선 알고리즘과 데이터 시각화 기술 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "정신건강 트렌드와 개인화 서비스 결합으로 높은 성장 잠재력 [추론]"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Trivella!",
+      "developer": "Gianbattista Villa",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/9d/fa/1b9dfa8c-47b5-4565-a35c-c9b58510309e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://play.google.com/store/apps/details?id=com.villa.trivella",
+      "idea_summary": "드릴링 메커닉 기반 퍼즐 게임 [추론]",
+      "analysis": {
+        "problem": "기존 퍼즐게임의 단조로운 메커닉과 낮은 몰입도 [추론]",
+        "solution": "드릴로 땅을 파서 목표 지점 도달하는 물리 기반 퍼즐 제공 [추론]",
+        "target_user": "캐주얼 게이머, 퍼즐 게임 애호가, 물리 시뮬레이션 게임 선호자 [추론]",
+        "unique_point": "드릴링과 물리 엔진을 결합한 직관적이면서 도전적인 게임플레이 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Dig This!",
+          "물리 기반 퍼즐게임들",
+          "Where's My Water?"
+        ],
+        "timing_reason": "하이퍼 캐주얼 게임 시장 성장과 물리 퍼즐 인기 [추론]",
+        "growth_potential": "간단한 조작과 중독성으로 바이럴 확산 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 수익, 힌트 구매, 스킨 판매 [추론]",
+        "pricing_suggestion": "무료 플레이, 광고 제거 3000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Box2D Physics",
+          "AdMob"
+        ],
+        "key_features": [
+          "물리 시뮬레이션",
+          "레벨 에디터",
+          "진행도 저장"
+        ],
+        "clone_tip": "정확한 물리 계산과 직관적인 터치 컨트롤 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#하이퍼캐주얼"
+      ],
+      "verdict": "간단하지만 중독성 있는 메커닉으로 글로벌 히트 가능성 [추론]",
+      "deep_report_id": "android-trivella-1777475048950"
+    },
+    {
+      "rank": 2,
+      "name": "Hearthside & Hooks",
+      "developer": "Jeremy Weeks",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/ef/72/8aef72a4-a9a8-c44d-01e1-c168bdb02477/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://play.google.com/store/apps/details?id=com.weeks.hearthside",
+      "idea_summary": "낚시꾼을 위한 소셜 로그 플랫폼 [추론]",
+      "analysis": {
+        "problem": "낚시 기록 관리와 낚시꾼 간 정보 공유의 불편함 [추론]",
+        "solution": "낚시 일지 작성, 위치 기록, 커뮤니티 기능을 통합한 플랫폼 [추론]",
+        "target_user": "낚시 애호가, 아웃도어 활동가, 기록 관리 선호자 [추론]",
+        "unique_point": "낚시 특화 기능과 지역 기반 정보 공유 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "FishBrain",
+          "Angler",
+          "일반 아웃도어 앱들"
+        ],
+        "timing_reason": "코로나 이후 아웃도어 활동 증가와 취미 전문화 트렌드 [추론]",
+        "growth_potential": "낚시 인구 증가와 정보 공유 문화 확산 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 낚시 용품 제휴 마케팅, 지역 가이드 서비스 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 5000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Google Maps",
+          "이미지 처리"
+        ],
+        "key_features": [
+          "GPS 기록",
+          "사진 첨부",
+          "커뮤니티",
+          "통계 분석"
+        ],
+        "clone_tip": "정확한 위치 서비스와 소셜 기능 구현 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#아웃도어"
+      ],
+      "verdict": "틈새 시장이지만 충성도 높은 사용자층 확보 가능 [추론]"
+    },
+    {
+      "rank": 3,
+      "name": "Pipnuto",
+      "developer": "Milan Haba",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/90/71/22907186-c9c2-eb5e-ffd5-d10066b81769/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://play.google.com/store/apps/details?id=com.haba.pipnuto",
+      "idea_summary": "마이크로 작업 관리 및 추적 도구 [추론]",
+      "analysis": {
+        "problem": "작은 업무들의 누적으로 인한 스트레스와 관리 어려움 [추론]",
+        "solution": "5분 이내 완료 가능한 마이크로 태스크 중심 관리 시스템 [추론]",
+        "target_user": "프리랜서, 학생, 업무 효율성 추구자, ADHD 환자 [추론]",
+        "unique_point": "작은 작업에 특화된 간소화된 인터페이스와 즉시 실행 유도 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "Any.do",
+          "Things",
+          "마이크로 생산성 앱들"
+        ],
+        "timing_reason": "원격 근무 증가와 개인 생산성 관리 중요성 대두 [추론]",
+        "growth_potential": "생산성 앱 시장 성장과 마이크로 태스킹 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능, 팀 협업 기능, 템플릿 판매 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "SQLite",
+          "Push Notifications"
+        ],
+        "key_features": [
+          "빠른 작업 추가",
+          "시간 추적",
+          "진행도 시각화",
+          "알림"
+        ],
+        "clone_tip": "극도로 단순한 UX와 빠른 작업 입력 시스템 구현 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "차별화된 접근으로 생산성 앱 시장에서 틈새 공략 가능 [추론]"
+    },
+    {
+      "rank": 4,
+      "name": "RFLCT.",
+      "developer": "Kraig Kubicek",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/10/9a/e2109abc-46c9-c0f9-4cd4-8a3f69de9393/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://play.google.com/store/apps/details?id=com.kubicek.reflect",
+      "idea_summary": "일일 성찰 및 자기계발 저널 [추론]",
+      "analysis": {
+        "problem": "바쁜 일상 속에서 자기 성찰 시간 부족과 방법 모름 [추론]",
+        "solution": "가이드된 질문과 간편한 기록으로 일일 성찰 습관 형성 지원 [추론]",
+        "target_user": "자기계발 관심자, 마인드풀니스 실천자, 성찰 습관 형성 희망자 [추론]",
+        "unique_point": "구조화된 성찰 프레임워크와 개인 성장 패턴 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Journey",
+          "Reflectly",
+          "일기 앱들"
+        ],
+        "timing_reason": "웰빙과 마인드풀니스 트렌드, 자기계발 열풍 [추론]",
+        "growth_potential": "정신건강 관심 증가와 개인화 웰빙 서비스 확산 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 성찰 템플릿, 개인 분석 리포트, 코칭 연결 서비스 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Core Data",
+          "Push Notifications",
+          "Analytics"
+        ],
+        "key_features": [
+          "가이드 질문",
+          "성장 추적",
+          "패턴 분석",
+          "목표 설정"
+        ],
+        "clone_tip": "심리학 기반 질문 설계와 사용자 동기부여 시스템 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웰빙"
+      ],
+      "verdict": "성찰 문화 확산과 함께 안정적 성장과 높은 사용자 충성도 기대 [추론]"
+    },
+    {
+      "rank": 5,
+      "name": "GRC GPS",
+      "developer": "LEONARDO JOSE ARRIETA NARVAEZ",
+      "category": "내비게이션",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/a6/98/e3a698ca-cf91-2133-0440-a5bfe5d8ec73/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://play.google.com/store/apps/details?id=com.narvaez.grcgps",
+      "idea_summary": "GPS 좌표 관리 및 공유 전용 도구 [추론]",
+      "analysis": {
+        "problem": "정확한 GPS 좌표 관리와 전문적 위치 정보 공유의 복잡함 [추론]",
+        "solution": "다양한 좌표 형식 지원과 간편한 위치 정보 관리 시스템 [추론]",
+        "target_user": "측량사, 등산가, 지질학자, 야외 활동 전문가, 구조대원 [추론]",
+        "unique_point": "전문적 좌표 관리 기능과 다양한 형식 간 변환 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GPS Essentials",
+          "전문 측량 앱들",
+          "등산용 GPS 앱"
+        ],
+        "timing_reason": "드론, IoT 확산으로 정밀 위치 정보 수요 증가 [추론]",
+        "growth_potential": "전문 분야 특화로 높은 진입장벽과 안정적 수익 [추론]"
+      },
+      "business": {
+        "monetization": "전문 기능 패키지, 팀 협업 도구, 데이터 내보내기 기능 [추론]",
+        "pricing_suggestion": "기본 무료, 프로 버전 월 8000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1200-1800만원 [추론]",
+        "tech_stack": [
+          "Java/Kotlin",
+          "Google Maps API",
+          "GPS Library"
+        ],
+        "key_features": [
+          "다중 좌표 형식",
+          "좌표 변환",
+          "위치 공유",
+          "오프라인 지원"
+        ],
+        "clone_tip": "정확한 좌표 변환 라이브러리와 오프라인 기능 구현 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#전문도구"
+      ],
+      "verdict": "전문 시장 타겟으로 높은 단가와 안정적 수익구조 가능 [추론]"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 개인화 서비스와 웰빙 앱이 주도하는 2026년 4월 30일 트렌드 [추론]. 특히 마이크로 태스킹과 정신건강 관리 앱들이 주목받고 있음 [추론].",
+    "trend_details": [
+      "AI 기반 개인화 콘텐츠 생성 도구 확산 [추론]",
+      "웰빙과 정신건강 관리 앱 다양화 [추론]",
+      "마이크로 생산성과 습관 형성 앱 성장 [추론]",
+      "전문 분야 특화 도구들의 B2B 진출 [추론]"
+    ],
+    "hot_categories": [
+      "웰빙/정신건강 [추론]",
+      "AI 개인화 도구 [추론]",
+      "마이크로 생산성 [추론]"
+    ],
+    "opportunity": "전문 분야 특화 도구와 AI 개인화 서비스 결합한 B2B 솔루션 [추론]",
+    "action_item": "웰빙 트렌드와 AI 기술을 결합한 개인화 서비스 아이디어 탐색 [추론]"
+  }
+}
