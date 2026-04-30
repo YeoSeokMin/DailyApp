@@ -1,0 +1,620 @@
+{
+  "date": "2026-05-01",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "BugMe - ADHD Reminders",
+      "developer": "PileUp Digital LLC",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/21/2d/8e212d62-fdd4-b166-7e16-838a74104055/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/bugme-adhd-reminders/id6760672617?uo=2",
+      "idea_summary": "ADHD 맞춤형 리마인더 앱",
+      "analysis": {
+        "problem": "ADHD 사용자가 기존 리마인더로는 집중하기 어려운 문제 [추론]",
+        "solution": "ADHD 특성을 고려한 맞춤형 알림 시스템 [추론]",
+        "target_user": "ADHD 진단받은 사용자 및 집중력 문제가 있는 사람들 [확인]",
+        "unique_point": "신경다양성을 고려한 UX 디자인 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Todoist"
+        ],
+        "timing_reason": "신경다양성에 대한 인식 증가와 맞춤형 솔루션 수요 [추론]",
+        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 4,900원 구독제 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-700만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase"
+        ],
+        "key_features": [
+          "맞춤형 알림",
+          "집중도 트래킹",
+          "진행률 시각화"
+        ],
+        "clone_tip": "ADHD 커뮤니티 리서치 필수, 접근성 가이드라인 준수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#접근성"
+      ],
+      "verdict": "틈새시장 공략으로 충성도 높은 사용자 확보 가능",
+      "deep_report_id": "ios-bugme-adhd-reminders-1777561382348"
+    },
+    {
+      "rank": 2,
+      "name": "Our Envelope Budget",
+      "developer": "NoCodeMinute LLC",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/91/f1/ce91f1bc-bd31-7ca6-ae3c-904d44940f14/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/our-envelope-budget/id6762224654?uo=2",
+      "idea_summary": "디지털 봉투 가계부 시스템",
+      "analysis": {
+        "problem": "복잡한 가계부 대신 직관적인 예산 관리 필요 [추론]",
+        "solution": "물리적 봉투 방식을 디지털로 구현한 예산 관리 [확인]",
+        "target_user": "가계부 초보자와 간단한 예산 관리를 원하는 사람들 [추론]",
+        "unique_point": "전통적인 봉투 예산법의 디지털 구현 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "토스",
+          "뱅크샐러드"
+        ],
+        "timing_reason": "경제 불안정으로 인한 가계부 관리 관심 증가 [추론]",
+        "growth_potential": "검증된 예산 관리 방법론 기반으로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "월 2,900원, 연 29,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "SQLite"
+        ],
+        "key_features": [
+          "봉투별 예산 설정",
+          "지출 추적",
+          "보고서 생성"
+        ],
+        "clone_tip": "한국식 가계부 문화 반영, 은행 API 연동 고려 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#가계부"
+      ],
+      "verdict": "검증된 방법론 기반, 높은 실용성으로 시장 진입 유리"
+    },
+    {
+      "rank": 3,
+      "name": "EcoField",
+      "developer": "Burak Avar",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/9b/9c/249b9c71-8056-a729-e08b-45adffde5d18/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ecofield/id6761442150?uo=2",
+      "idea_summary": "친환경 농업 교육 플랫폼",
+      "analysis": {
+        "problem": "지속가능한 농업 방법에 대한 접근성 부족 [추론]",
+        "solution": "모바일 기반 친환경 농업 기술 교육 제공 [추론]",
+        "target_user": "소규모 농민, 도시농업 관심자, 농업 전공생 [추론]",
+        "unique_point": "농업과 환경보호를 결합한 교육 콘텐츠 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "농업기술포털",
+          "농진청 앱"
+        ],
+        "timing_reason": "ESG 경영과 지속가능성에 대한 관심 증가 [추론]",
+        "growth_potential": "정부 지원 정책과 연계하여 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 콘텐츠 [추론]",
+        "pricing_suggestion": "월 9,900원, 전문가 과정 별도 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Video Streaming"
+        ],
+        "key_features": [
+          "동영상 강의",
+          "농업 가이드",
+          "커뮤니티"
+        ],
+        "clone_tip": "한국 농업 전문가와 협력, 농진청 자료 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#ESG"
+      ],
+      "verdict": "틈새 시장이지만 정부 정책과 연계하여 안정적 성장 가능"
+    },
+    {
+      "rank": 4,
+      "name": "KnowZee",
+      "developer": "Eliezer Tarlow",
+      "category": "소셜 네트워킹",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/5f/70/555f70a9-20b7-e5d9-a5a7-2b8c0599829e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/knowzee/id6763048684?uo=2",
+      "idea_summary": "지식 기반 소셜 네트워킹 앱",
+      "analysis": {
+        "problem": "피상적 소셜미디어 대신 의미있는 지식 교환 필요 [추론]",
+        "solution": "질문-답변 기반의 깊이있는 소셜 플랫폼 [추론]",
+        "target_user": "지적 호기심이 많은 성인, 전문가들 [추론]",
+        "unique_point": "엔터테인먼트보다 학습과 성장에 초점 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Quora",
+          "지식iN"
+        ],
+        "timing_reason": "팬데믹 이후 온라인 학습과 지식 공유 증가 [추론]",
+        "growth_potential": "틈새시장이지만 고학력층 타겟으로 수익성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 전문가 상담료 [추론]",
+        "pricing_suggestion": "월 7,900원, 상담료 별도 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "600-800만원 [추론]",
+        "tech_stack": [
+          "Node.js",
+          "React Native",
+          "AI 추천"
+        ],
+        "key_features": [
+          "Q&A 매칭",
+          "전문가 인증",
+          "지식 평가 시스템"
+        ],
+        "clone_tip": "한국형 지식 문화 반영, 전문가 네트워크 구축 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#지식공유"
+      ],
+      "verdict": "고학력층 틈새시장, 네트워크 효과로 확장성 높음"
+    },
+    {
+      "rank": 5,
+      "name": "TrackPlus Live Tracking",
+      "developer": "Racemap GmbH",
+      "category": "스포츠",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/1e/69/c01e6995-305b-d0d5-4aee-d9a86784e444/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/trackplus-live-tracking/id6764613318?uo=2",
+      "idea_summary": "실시간 스포츠 이벤트 추적",
+      "analysis": {
+        "problem": "스포츠 이벤트 참가자와 관중 간 실시간 소통 부족 [추론]",
+        "solution": "GPS 기반 실시간 위치 추적과 응원 기능 [추론]",
+        "target_user": "마라톤, 사이클링 등 야외 스포츠 참가자와 가족/친구 [추론]",
+        "unique_point": "스포츠 이벤트 특화 실시간 추적 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Strava",
+          "나이키런클럽"
+        ],
+        "timing_reason": "코로나 이후 야외 스포츠 활동 증가 [추론]",
+        "growth_potential": "스포츠 이벤트 주최측과 B2B 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "이벤트 주최측 B2B, 프리미엄 기능 [추론]",
+        "pricing_suggestion": "B2B 이벤트당 50만원, 개인 월 4,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "WebSocket",
+          "GPS"
+        ],
+        "key_features": [
+          "실시간 GPS",
+          "응원 메시지",
+          "이벤트 관리"
+        ],
+        "clone_tip": "한국 마라톤 대회 주최측과 파트너십 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#스포츠"
+      ],
+      "verdict": "B2B 확장성 높고 틈새시장에서 독점적 지위 확보 가능"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+      "developer": "보조금e알리미",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/Z8G6iKVSwxIOCLr5kb23dPe-r8mT3YHEm426C1UoR8mtHIkbT4bl8dPSLjMG89bHAMbtkNd9dji96rnGMkcF",
+      "app_url": "https://play.google.com/store/apps/details?id=com.jupiter.distance",
+      "idea_summary": "정부 지원금 신청 가이드 앱",
+      "analysis": {
+        "problem": "복잡한 정부 지원금 신청 절차와 정보 접근성 부족 [확인]",
+        "solution": "지원금별 맞춤 신청 가이드와 자격 확인 [추론]",
+        "target_user": "정부 지원금 대상자, 복지 혜택 수혜자 [확인]",
+        "unique_point": "시의성 있는 지원금 정보 제공 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "복지로",
+          "정부24"
+        ],
+        "timing_reason": "고물가로 인한 민생 지원책 증가 [추론]",
+        "growth_potential": "정부 정책 변화에 따른 지속적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익, 대행 서비스 수수료 [추론]",
+        "pricing_suggestion": "무료 + 광고, 대행비 10% [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "200-400만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "정부 API"
+        ],
+        "key_features": [
+          "자격 진단",
+          "신청 가이드",
+          "알림 서비스"
+        ],
+        "clone_tip": "정부 정책 모니터링 자동화 시스템 구축 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#공공서비스"
+      ],
+      "verdict": "높은 사회적 필요성, 정부 정책과 연계된 안정적 수요",
+      "deep_report_id": "android-2026-고유가-피해지원금-60만원-민생지원-신청가이드-1777561440056"
+    },
+    {
+      "rank": 2,
+      "name": "에너지플러스",
+      "developer": "GS Caltex",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/sXNqvidXP7yXlGTKdV36rX-fdXGAdMNNDmVmZqddabSh80Gi5z2_Vookd8dpOUo4vQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gscaltex.energyplus",
+      "idea_summary": "주유소 통합 서비스 앱",
+      "analysis": {
+        "problem": "주유소별 개별 앱 사용의 불편함 [추론]",
+        "solution": "다양한 주유소 혜택을 통합 관리 [추측]",
+        "target_user": "차량 소유자, 주유 할인 추구 고객 [추론]",
+        "unique_point": "주유소 통합 관리 시스템 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "오일나우",
+          "주유소 개별 앱들"
+        ],
+        "timing_reason": "유가 상승으로 인한 할인 혜택 관심 증가 [추론]",
+        "growth_potential": "차량 보유 증가와 함께 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "주유소 수수료, 광고 수익 [추론]",
+        "pricing_suggestion": "무료 + 주유소 수수료 2-3% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "600-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "결제 API",
+          "지도 API"
+        ],
+        "key_features": [
+          "가격 비교",
+          "할인 혜택",
+          "위치 찾기"
+        ],
+        "clone_tip": "주유소 사업자와 파트너십 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#B2B2C",
+        "#주유",
+        "#할인혜택"
+      ],
+      "verdict": "실용성 높은 서비스로 안정적 사용자 확보 가능"
+    },
+    {
+      "rank": 3,
+      "name": "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
+      "developer": "Exo Technology",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/aMXMQtbxwV8TCJabBkE0hCXPzDn3o2MwgVIj1y8s9tt1a0nQUYCxXUi9x-VVjtH3Mho",
+      "app_url": "https://play.google.com/store/apps/details?id=allpdfreader.pdfviewer.editfilepdf",
+      "idea_summary": "한국형 문서 뷰어 특화",
+      "analysis": {
+        "problem": "HWP 파일을 모바일에서 보기 어려운 문제 [확인]",
+        "solution": "PDF와 HWP를 동시 지원하는 통합 뷰어 [확인]",
+        "target_user": "한국 직장인, 학생, 공무원 [추론]",
+        "unique_point": "한국 고유 문서 형식 HWP 지원 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "한글뷰어",
+          "PDF 뷰어 앱들"
+        ],
+        "timing_reason": "모바일 업무 환경 확산과 문서 접근성 필요 [추론]",
+        "growth_potential": "한국 시장 특화로 독점적 지위 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 광고 제거 [추론]",
+        "pricing_suggestion": "월 2,900원, 광고 제거 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Android Native",
+          "HWP Parser"
+        ],
+        "key_features": [
+          "HWP 렌더링",
+          "PDF 편집",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "한글과컴퓨터 HWP SDK 활용, 공공기관 타겟 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#한국특화"
+      ],
+      "verdict": "한국 특화 니즈로 안정적 수익 모델 구축 가능"
+    },
+    {
+      "rank": 4,
+      "name": "PDF 편집기: 스캐너 및 리더",
+      "developer": "Trung Kien CN Company Limited",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/Icc77NQpRrKQVyC4a-n8tafyv21fURx_HwyCpCcprOmPnLJPu12CuFJSse7QkjQVX9cpXhbGJTPjKOsc0qBZGQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scanner.reader.editor",
+      "idea_summary": "올인원 문서 처리 솔루션",
+      "analysis": {
+        "problem": "여러 앱을 사용해야 하는 문서 작업의 불편함 [추론]",
+        "solution": "스캔, 편집, 읽기 기능을 통합한 원스톱 솔루션 [확인]",
+        "target_user": "비즈니스 사용자, 학생, 프리랜서 [추론]",
+        "unique_point": "스캔부터 편집까지 완전 통합 솔루션 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Scan",
+          "CamScanner"
+        ],
+        "timing_reason": "재택근무 증가로 문서 디지털화 필요성 증대 [추론]",
+        "growth_potential": "B2B 시장 확장으로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 7,900원, 연 59,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "OCR SDK",
+          "AI Vision"
+        ],
+        "key_features": [
+          "OCR 텍스트 인식",
+          "PDF 편집",
+          "클라우드 저장"
+        ],
+        "clone_tip": "정확한 한글 OCR 엔진 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#문서처리"
+      ],
+      "verdict": "검증된 시장에서 높은 실용성으로 안정적 수익 창출"
+    },
+    {
+      "rank": 5,
+      "name": "위치 공유",
+      "developer": "P & L Studio",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/-o1CH4hizs4HWhJD7k4bv6Ix5GH720tB1jrSecHSIiaRdzi4gSd05kmigDO_j2rKQRJ8-JJDjaBFQakvPCkae5o",
+      "app_url": "https://play.google.com/store/apps/details?id=com.sharlocation.friend.family",
+      "idea_summary": "가족/친구 위치 공유 앱",
+      "analysis": {
+        "problem": "가족 구성원의 안전과 위치 파악의 어려움 [추론]",
+        "solution": "실시간 위치 공유와 안전 알림 기능 [추론]",
+        "target_user": "자녀를 둔 부모, 고령 부모를 둔 성인 자녀 [추론]",
+        "unique_point": "가족 단위 안전 관리 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Find My",
+          "Life360"
+        ],
+        "timing_reason": "1인 가구 증가와 가족 안전에 대한 관심 증대 [추론]",
+        "growth_potential": "고령화 사회 진입으로 지속적 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 안전 기능 구독 [추론]",
+        "pricing_suggestion": "월 3,900원, 가족팩 9,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "GPS API",
+          "Push Notification"
+        ],
+        "key_features": [
+          "실시간 위치",
+          "지오펜스",
+          "응급 알림"
+        ],
+        "clone_tip": "개인정보 보호 강화와 배터리 최적화 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#안전관리"
+      ],
+      "verdict": "사회 트렌드와 부합하여 장기적 성장 전망 좋음"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 실용성과 접근성을 강화한 틈새시장 앱들이 주목받고 있습니다. 특히 ADHD, 가계부, 위치공유 등 특정 니즈를 타겟한 앱들이 눈에 띕니다.",
+    "trend_details": [
+      "신경다양성 고려 UX 디자인 증가",
+      "전통적 방법론의 디지털 재해석",
+      "가족 안전 서비스 수요 증가",
+      "정부 정책 연계 서비스 확산"
+    ],
+    "hot_categories": [
+      "생산성",
+      "금융",
+      "라이프스타일"
+    ],
+    "opportunity": "특정 집단의 명확한 페인포인트를 해결하는 틈새시장 서비스",
+    "action_item": "검증된 오프라인 방법론을 모바일로 재해석하는 앱 기획 검토"
+  }
+}
