@@ -1,10 +1,36 @@
 {
-  "generatedAt": "2026-04-30T15:05:47.115Z",
+  "generatedAt": "2026-05-01T15:05:18.211Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "소셜 네트워킹",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "KnowZee",
+        "위치 공유"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "스포츠",
+      "currentCount": 4,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "TrackPlus Live Tracking",
+        "RC카 설정 & 배터리 관리 - Pit",
+        "Mobile Mountaineer",
+        "튼튼머니"
+      ],
+      "avgScore": 6.8500000000000005
+    },
     {
       "category": "내비게이션",
       "currentCount": 1,
@@ -17,30 +43,6 @@
       "avgScore": 6.8
     },
     {
-      "category": "스포츠",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "RC카 설정 & 배터리 관리 - Pit",
-        "Mobile Mountaineer",
-        "튼튼머니"
-      ],
-      "avgScore": 6.433333333333334
-    },
-    {
-      "category": "소셜 네트워킹",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "위치 공유"
-      ],
-      "avgScore": 6.5
-    },
-    {
       "category": "비즈니스",
       "currentCount": 2,
       "previousCount": 0,
@@ -49,18 +51,6 @@
       "apps": [
         "Senior Year Resume Checker",
         "RingJob"
-      ],
-      "avgScore": 7.4
-    },
-    {
-      "category": "소셜",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Instagram",
-        "리버스톡(Reversetok) - AI 인플루언서 채팅"
       ],
       "avgScore": 7.4
     },
@@ -76,32 +66,50 @@
       "avgScore": 6.5
     },
     {
-      "category": "쇼핑",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
+      "category": "금융",
+      "currentCount": 4,
+      "previousCount": 3,
+      "changePercent": 33,
       "changeDirection": "up",
       "apps": [
-        "네이버플러스 스토어",
-        "당근",
-        "퀸잇, 멋진 어른들의 라이프스타일링샵"
+        "Our Envelope Budget",
+        "CardIQ: Maximize Rewards",
+        "하나은행, 새로워진 하나원큐를 경험해보세요",
+        "Frizzbee"
       ],
-      "avgScore": 6.866666666666667
+      "avgScore": 7.15
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 8,
+      "previousCount": 6,
+      "changePercent": 33,
+      "changeDirection": "up",
+      "apps": [
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+        "에너지플러스",
+        "QR 코드 및 바코드 스캐너",
+        "FindTag",
+        "Apex Lite",
+        "QRCraft",
+        "Ai Translator, Voice Translate",
+        "QR 코드 & 바코드 스캐너"
+      ],
+      "avgScore": 7.1625
     },
     {
       "category": "건강 및 피트니스",
-      "currentCount": 5,
-      "previousCount": 4,
-      "changePercent": 25,
+      "currentCount": 4,
+      "previousCount": 3,
+      "changePercent": 33,
       "changeDirection": "up",
       "apps": [
         "Stride: Run, Walk, Repeat",
         "Recomp - Your Physique Tracker",
         "Tinnitus Saurus",
-        "Vīra",
-        "Cals2Gains: AI Calorie Counter"
+        "Vīra"
       ],
-      "avgScore": 7.92
+      "avgScore": 7.9
     },
     {
       "category": "라이프스타일",
@@ -110,16 +118,16 @@
       "changePercent": 14,
       "changeDirection": "up",
       "apps": [
+        "위치 공유",
         "Moodify",
         "Hearthside & Hooks",
         "RFLCT.",
         "DreamScript: AI Journal",
         "PetScan",
         "정부24",
-        "대한민국 모바일 신분증",
-        "아파트아이 - 아파트앱"
+        "대한민국 모바일 신분증"
       ],
-      "avgScore": 7.2875
+      "avgScore": 7.3375
     }
   ],
   "decliningCategories": [
@@ -137,30 +145,16 @@
       "avgScore": 7.333333333333333
     },
     {
-      "category": "음식 및 음료",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
+      "category": "쇼핑",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
       "changeDirection": "down",
       "apps": [
-        "위스키 일기 - Dram",
-        "Prato",
-        "KrudAlert"
+        "네이버플러스 스토어",
+        "당근"
       ],
-      "avgScore": 6.866666666666667
-    },
-    {
-      "category": "교육",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
-      "changeDirection": "down",
-      "apps": [
-        "CarSpotter Kids",
-        "Snap A Bird",
-        "OtherEyes"
-      ],
-      "avgScore": 7.433333333333334
+      "avgScore": 6
     },
     {
       "category": "참고",
@@ -172,16 +166,42 @@
         "RareCoins AI"
       ],
       "avgScore": 7.4
+    },
+    {
+      "category": "소셜",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Instagram"
+      ],
+      "avgScore": 6
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 2,
+      "previousCount": 5,
+      "changePercent": -60,
+      "changeDirection": "down",
+      "apps": [
+        "위스키 일기 - Dram",
+        "Prato"
+      ],
+      "avgScore": 6.7
     }
   ],
   "stableCategories": [
     {
       "category": "생산성",
-      "currentCount": 21,
+      "currentCount": 20,
       "previousCount": 20,
-      "changePercent": 5,
+      "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
+        "BugMe - ADHD Reminders",
+        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
+        "PDF 편집기: 스캐너 및 리더",
         "Pipnuto",
         "MindLock: Focus & Discipline",
         "setlog",
@@ -198,13 +218,23 @@
         "PDF 리더 및 뷰어",
         "문서 뷰어: PDF, Word",
         "GutCheck",
-        "Dola",
-        "Mix It Right",
-        "PeriodSymp",
-        "LUME Auth",
-        "PDF 리더 & 뷰어"
+        "Dola"
       ],
-      "avgScore": 7.476190476190477
+      "avgScore": 7.510000000000001
+    },
+    {
+      "category": "교육",
+      "currentCount": 4,
+      "previousCount": 4,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "EcoField",
+        "CarSpotter Kids",
+        "Snap A Bird",
+        "OtherEyes"
+      ],
+      "avgScore": 7.45
     },
     {
       "category": "그래픽 및 디자인",
@@ -228,44 +258,23 @@
         "Trivella!"
       ],
       "avgScore": 7
-    },
-    {
-      "category": "금융",
-      "currentCount": 3,
-      "previousCount": 3,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "CardIQ: Maximize Rewards",
-        "하나은행, 새로워진 하나원큐를 경험해보세요",
-        "Frizzbee"
-      ],
-      "avgScore": 6.866666666666667
-    },
-    {
-      "category": "유틸리티",
-      "currentCount": 7,
-      "previousCount": 7,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "QR 코드 및 바코드 스캐너",
-        "FindTag",
-        "Apex Lite",
-        "QRCraft",
-        "Ai Translator, Voice Translate",
-        "QR 코드 & 바코드 스캐너",
-        "QR 코드 및 바코드 스캐너"
-      ],
-      "avgScore": 6.885714285714286
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 52,
+      "count": 55,
       "apps": [
+        "BugMe - ADHD Reminders",
+        "Our Envelope Budget",
+        "EcoField",
+        "KnowZee",
+        "TrackPlus Live Tracking",
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
+        "PDF 편집기: 스캐너 및 리더",
+        "위치 공유",
         "ペンライト・メッセンジャー",
         "Stride: Run, Walk, Repeat",
         "MojiKit - AI Sticker Me",
@@ -309,19 +318,20 @@
         "GutCheck",
         "OtherEyes",
         "RingJob",
-        "Dola",
-        "Cals2Gains: AI Calorie Counter",
-        "KrudAlert",
-        "Mix It Right",
-        "PeriodSymp",
-        "PDF 리더 & 뷰어"
+        "Dola"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 44,
+      "count": 47,
       "apps": [
+        "BugMe - ADHD Reminders",
+        "Our Envelope Budget",
+        "KnowZee",
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
+        "위치 공유",
         "ペンライト・メッセンジャー",
         "Stride: Run, Walk, Repeat",
         "MojiKit - AI Sticker Me",
@@ -361,16 +371,13 @@
         "정부24",
         "당근",
         "대한민국 모바일 신분증",
-        "모바일 건강보험증",
-        "Cals2Gains: AI Calorie Counter",
-        "Mix It Right",
-        "PeriodSymp"
+        "모바일 건강보험증"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 30,
+      "count": 24,
       "apps": [
         "MojiKit - AI Sticker Me",
         "Senior Year Resume Checker",
@@ -387,16 +394,13 @@
         "Snap A Bird",
         "Vīra",
         "PetScan",
-        "Dola",
-        "Cals2Gains: AI Calorie Counter",
-        "LUME Auth",
-        "리버스톡(Reversetok) - AI 인플루언서 채팅"
+        "Dola"
       ]
     },
     {
       "keyword": "생산성",
       "category": "productivity",
-      "count": 9,
+      "count": 8,
       "apps": [
         "Pipnuto",
         "MindLock: Focus & Discipline",
@@ -404,23 +408,7 @@
         "PDF 리더: 뷰어·편집기",
         "Wisp — Meeting AI Assistant",
         "Dola: 스마트 AI 도우미",
-        "GutCheck",
-        "PDF 리더 & 뷰어"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 8,
-      "apps": [
-        "GRC GPS",
-        "VibeCheck Live Polls",
-        "Wisp — Meeting AI Assistant",
-        "Apex Lite",
-        "RingJob",
-        "KrudAlert",
-        "LUME Auth",
-        "아파트아이 - 아파트앱"
+        "GutCheck"
       ]
     },
     {
@@ -438,35 +426,38 @@
       ]
     },
     {
-      "keyword": "헬스케어",
+      "keyword": "B2B2C",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "EcoField",
+        "TrackPlus Live Tracking",
+        "에너지플러스",
+        "PDF 편집기: 스캐너 및 리더",
+        "PDF 리더 및 뷰어",
+        "PDF 리더: 뷰어·편집기"
+      ]
+    },
+    {
+      "keyword": "B2B",
       "category": "tag",
       "count": 5,
       "apps": [
-        "Stride: Run, Walk, Repeat",
-        "Moodify",
-        "Tinnitus Saurus",
-        "모바일 건강보험증",
-        "Cals2Gains: AI Calorie Counter"
+        "GRC GPS",
+        "VibeCheck Live Polls",
+        "Wisp — Meeting AI Assistant",
+        "Apex Lite",
+        "RingJob"
       ]
     },
     {
       "keyword": "소셜",
       "category": "social",
-      "count": 5,
-      "apps": [
-        "Hearthside & Hooks",
-        "Instagram",
-        "리버스톡(Reversetok) - AI 인플루언서 채팅"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "social",
       "count": 4,
       "apps": [
+        "KnowZee",
         "Hearthside & Hooks",
-        "당근",
-        "아파트아이 - 아파트앱"
+        "Instagram"
       ]
     },
     {
@@ -474,9 +465,20 @@
       "category": "creator",
       "count": 4,
       "apps": [
+        "PDF 편집기: 스캐너 및 리더",
         "PDF 리더 및 뷰어",
-        "PDF 리더: 뷰어·편집기",
-        "PDF 리더 & 뷰어"
+        "PDF 리더: 뷰어·편집기"
+      ]
+    },
+    {
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Stride: Run, Walk, Repeat",
+        "Moodify",
+        "Tinnitus Saurus",
+        "모바일 건강보험증"
       ]
     },
     {
@@ -487,6 +489,16 @@
         "ChatGPT",
         "Claude by Anthropic",
         "Google Gemini",
+        "Instagram"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "EcoField",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
         "Instagram"
       ]
     },
@@ -509,15 +521,6 @@
       ]
     },
     {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "QR 코드 및 바코드 스캐너",
-        "FindTag"
-      ]
-    },
-    {
       "keyword": "정부서비스",
       "category": "tag",
       "count": 3,
@@ -528,12 +531,21 @@
       ]
     },
     {
-      "keyword": "엔터테인먼트",
-      "category": "tag",
+      "keyword": "플러스",
+      "category": "subscription",
       "count": 2,
       "apps": [
-        "ペンライト・メッセンジャー",
-        "리버스톡(Reversetok) - AI 인플루언서 채팅"
+        "에너지플러스",
+        "네이버플러스 스토어"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 2,
+      "apps": [
+        "Hearthside & Hooks",
+        "당근"
       ]
     },
     {
@@ -555,15 +567,6 @@
       ]
     },
     {
-      "keyword": "심플",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "setlog",
-        "QR 코드 및 바코드 스캐너"
-      ]
-    },
-    {
       "keyword": "대기업",
       "category": "tag",
       "count": 2,
@@ -576,30 +579,30 @@
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 19,
-        "percent": 27,
+        "count": 20,
+        "percent": 29,
         "examples": [
-          "ペンライト・メッセンジャー",
-          "Stride: Run, Walk, Repeat",
-          "MojiKit - AI Sticker Me"
+          "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+          "에너지플러스",
+          "ペンライト・メッセンジャー"
         ]
       },
       "freemium": {
-        "count": 51,
-        "percent": 73,
+        "count": 53,
+        "percent": 76,
         "examples": [
-          "ペンライト・メッセンジャー",
-          "Stride: Run, Walk, Repeat",
-          "MojiKit - AI Sticker Me"
+          "BugMe - ADHD Reminders",
+          "Our Envelope Budget",
+          "EcoField"
         ]
       },
       "subscription": {
-        "count": 38,
-        "percent": 54,
+        "count": 36,
+        "percent": 51,
         "examples": [
-          "Recomp - Your Physique Tracker",
-          "위스키 일기 - Dram",
-          "CardIQ: Maximize Rewards"
+          "BugMe - ADHD Reminders",
+          "Our Envelope Budget",
+          "EcoField"
         ]
       },
       "onetime": {
@@ -612,19 +615,19 @@
         ]
       },
       "unknown": {
-        "count": 6,
-        "percent": 9,
+        "count": 4,
+        "percent": 6,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 51,
-      "percent": 73,
+      "count": 53,
+      "percent": 76,
       "examples": [
-        "ペンライト・メッセンジャー",
-        "Stride: Run, Walk, Repeat",
-        "MojiKit - AI Sticker Me"
+        "BugMe - ADHD Reminders",
+        "Our Envelope Budget",
+        "EcoField"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -633,61 +636,60 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 25,
-        "percent": 36,
+        "count": 22,
+        "percent": 31,
         "apps": [
+          "KnowZee",
+          "PDF 편집기: 스캐너 및 리더",
           "MojiKit - AI Sticker Me",
           "CardIQ: Maximize Rewards",
-          "Senior Year Resume Checker",
-          "CarSpotter Kids",
-          "Prato"
+          "Senior Year Resume Checker"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 12,
-        "percent": 17,
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
           "Moodify",
           "Hearthside & Hooks",
           "GRC GPS",
-          "Recomp - Your Physique Tracker",
-          "CardIQ: Maximize Rewards"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 6,
-        "percent": 9,
-        "apps": [
-          "Hearthside & Hooks",
-          "Instagram",
-          "RingJob",
-          "당근",
-          "리버스톡(Reversetok) - AI 인플루언서 채팅"
+          "Recomp - Your Physique Tracker"
         ]
       },
       {
         "tech": "creator",
-        "count": 6,
-        "percent": 9,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "PDF 편집기: 스캐너 및 리더",
           "TikTok Lite 포인트 & 쿠폰 & 리워드",
           "DramaBox - 미니시리즈 스트리밍 플레이어",
           "PDF 리더 및 뷰어",
-          "PDF 리더: 뷰어·편집기",
-          "Instagram"
+          "PDF 리더: 뷰어·편집기"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 5,
+        "percent": 7,
+        "apps": [
+          "KnowZee",
+          "Hearthside & Hooks",
+          "Instagram",
+          "RingJob",
+          "당근"
         ]
       },
       {
         "tech": "productivity",
-        "count": 4,
-        "percent": 6,
+        "count": 3,
+        "percent": 4,
         "apps": [
           "Pipnuto",
           "Dola: 스마트 AI 도우미",
-          "Dola",
-          "Cals2Gains: AI Calorie Counter"
+          "Dola"
         ]
       },
       {
@@ -695,18 +697,9 @@
         "count": 3,
         "percent": 4,
         "apps": [
+          "에너지플러스",
           "네이버플러스 스토어",
-          "QR 코드 및 바코드 스캐너",
-          "퀸잇, 멋진 어른들의 라이프스타일링샵"
-        ]
-      },
-      {
-        "tech": "health",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "Moodify",
-          "Cals2Gains: AI Calorie Counter"
+          "QR 코드 및 바코드 스캐너"
         ]
       },
       {
@@ -725,31 +718,51 @@
         "apps": [
           "대한민국 모바일 신분증"
         ]
+      },
+      {
+        "tech": "health",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "Moodify"
+        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 25,
-      "percent": 36,
+      "count": 22,
+      "percent": 31,
       "apps": [
+        "KnowZee",
+        "PDF 편집기: 스캐너 및 리더",
         "MojiKit - AI Sticker Me",
         "CardIQ: Maximize Rewards",
-        "Senior Year Resume Checker",
-        "CarSpotter Kids",
-        "Prato"
+        "Senior Year Resume Checker"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 12,
-        "percent": 17,
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
           "Moodify",
           "Hearthside & Hooks",
           "GRC GPS",
-          "Recomp - Your Physique Tracker",
-          "CardIQ: Maximize Rewards"
+          "Recomp - Your Physique Tracker"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "PDF 편집기: 스캐너 및 리더",
+          "TikTok Lite 포인트 & 쿠폰 & 리워드",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "PDF 리더 및 뷰어",
+          "PDF 리더: 뷰어·편집기"
         ]
       }
     ]
@@ -757,10 +770,10 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "내비게이션 카테고리 급부상",
+      "title": "소셜 네트워킹 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "내비게이션"
+      "category": "소셜 네트워킹"
     },
     {
       "type": "rising_category",
@@ -771,10 +784,10 @@
     },
     {
       "type": "rising_category",
-      "title": "소셜 네트워킹 카테고리 급부상",
+      "title": "내비게이션 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "소셜 네트워킹"
+      "category": "내비게이션"
     },
     {
       "type": "rising_category",
@@ -785,13 +798,6 @@
     },
     {
       "type": "rising_category",
-      "title": "소셜 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "소셜"
-    },
-    {
-      "type": "rising_category",
       "title": "메디컬 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -799,33 +805,39 @@
     },
     {
       "type": "rising_category",
-      "title": "쇼핑 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "금융 카테고리 급부상",
+      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "쇼핑"
+      "category": "금융"
+    },
+    {
+      "type": "rising_category",
+      "title": "건강 및 피트니스 카테고리 급부상",
+      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "건강 및 피트니스"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "36%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "31%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI 기능 통합(36%)과 1인개발가능(52회) 키워드가 급부상하며, freemium 모델(73%)이 주류를 이루고 있습니다. 내비게이션, 스포츠, 소셜 네트워킹 등 여러 카테고리에서 100% 성장하며 진입 기회를 제공하고 있습니다.",
+    "trend_summary": "소셜 네트워킹, 스포츠, 비즈니스 등 여러 카테고리가 100% 급성장하고 있으며, AI 통합(31%)과 1인개발 가능한 앱(55회 언급)이 주요 트렌드입니다. Freemium 모델(76%)이 가장 선호되는 수익화 전략으로 나타났습니다.",
     "trend_details": [
-      "1인개발가능 태그가 52회로 최고 빈도 - 인디 개발자 시장 확대",
-      "AI 기능이 36% 앱에 적용되며 필수 요소로 자리잡음",
-      "freemium(73%) + subscription(54%) 모델이 수익화 주류",
-      "내비게이션/스포츠/소셜 네트워킹 카테고리 100% 급성장"
+      "AI 기능 통합이 31%의 앱에서 활용되며 차별화 요소로 부상",
+      "소셜·스포츠·비즈니스 카테고리가 100% 급성장했지만 앱 수가 적어 블루오션",
+      "Freemium 모델이 76%로 가장 높은 채택률을 보이며 표준 수익화 전략으로 정착"
     ],
     "hot_categories": [
-      "스포츠",
-      "내비게이션"
+      "소셜 네트워킹",
+      "스포츠"
     ],
-    "opportunity": "AI 미적용 스포츠/내비게이션 카테고리에서 간단한 AI 기능을 추가한 freemium 앱 개발",
-    "action_item": "스포츠나 내비게이션 분야에서 AI 추천/분석 기능을 포함한 MVP를 freemium 모델로 빠르게 출시하기",
-    "weekly_theme": "AI 스포츠"
+    "opportunity": "급성장 중인 소셜·스포츠 카테고리에 AI 기능을 통합한 1인개발 가능한 앱 개발이 가장 유망합니다.",
+    "action_item": "AI 기능(챗봇, 추천 알고리즘 등)을 활용한 소셜 또는 스포츠 앱 MVP를 freemium 모델로 개발 시작하세요.",
+    "weekly_theme": "AI 소셜"
   }
 }
