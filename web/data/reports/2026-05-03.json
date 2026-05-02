@@ -1,0 +1,630 @@
+{
+  "date": "2026-05-03",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "PITON ai",
+      "developer": "VALERY PITON",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/35/c5/d335c55d-c5cb-83ab-3498-f170c450b3d5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/piton-ai/id6761351332?uo=2",
+      "idea_summary": "AI 기반 개인 생산성 도구 [추측]",
+      "analysis": {
+        "problem": "복잡한 일상 업무를 효율적으로 처리하지 못하는 문제 [추론]",
+        "solution": "AI를 활용한 자동화된 업무 처리 및 최적화 [추론]",
+        "target_user": "생산성 향상을 원하는 개인 사용자 [추론]",
+        "unique_point": "개인화된 AI 어시스턴트 기능 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Siri",
+          "Google Assistant"
+        ],
+        "timing_reason": "AI 기술 대중화와 개인 생산성 도구 수요 증가 [추론]",
+        "growth_potential": "AI 시장 확장에 따른 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 9,900원 구독 서비스 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "OpenAI API"
+        ],
+        "key_features": [
+          "AI 챗봇",
+          "작업 자동화",
+          "개인화 설정"
+        ],
+        "clone_tip": "OpenAI API 활용하여 MVP 빠르게 구축 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "AI 트렌드를 활용한 개인 생산성 도구로 시장성 있음",
+      "deep_report_id": "ios-piton-ai-1777734167232"
+    },
+    {
+      "rank": 2,
+      "name": "Astro Money - AI Expense",
+      "developer": "Hashmaker Solutions LLC",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/3e/aa/0d3eaac5-488a-60a4-b2e6-7bc75e11cce8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/astro-money-ai-expense/id6759448348?uo=2",
+      "idea_summary": "AI 기반 스마트 가계부 및 지출 분석",
+      "analysis": {
+        "problem": "복잡한 가계부 작성과 지출 패턴 분석의 어려움 [확인]",
+        "solution": "AI를 활용한 자동 지출 분류 및 패턴 분석 [추론]",
+        "target_user": "개인 재정 관리를 원하는 20-40대 [추론]",
+        "unique_point": "AI 기반 지출 예측 및 절약 제안 기능 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "토스",
+          "뱅크샐러드",
+          "Mint"
+        ],
+        "timing_reason": "인플레이션으로 인한 가계 관리 필요성 증대 [추론]",
+        "growth_potential": "핀테크 시장 성장에 따른 높은 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 및 광고 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Chart.js"
+        ],
+        "key_features": [
+          "영수증 OCR",
+          "AI 분석",
+          "예산 알림"
+        ],
+        "clone_tip": "OCR API와 간단한 ML 모델로 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "AI와 핀테크 결합으로 높은 상업적 가능성"
+    },
+    {
+      "rank": 3,
+      "name": "Debt Breaker",
+      "developer": "Denis Mandraburca",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/17/84/8d1784ca-f67e-e673-ad61-6a383ff3615a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/debt-breaker/id6764645589?uo=2",
+      "idea_summary": "부채 탈출 계획 및 관리 도구",
+      "analysis": {
+        "problem": "복잡한 부채 상환 계획 수립의 어려움 [확인]",
+        "solution": "체계적인 부채 관리 및 상환 전략 제공 [추론]",
+        "target_user": "부채가 있는 20-40대 직장인 [추론]",
+        "unique_point": "게임화된 부채 탈출 과정 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "You Need A Budget",
+          "PocketGuard"
+        ],
+        "timing_reason": "고금리 시대 부채 관리 필요성 증가 [추론]",
+        "growth_potential": "경제 불안정으로 인한 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 상담 서비스 [추론]",
+        "pricing_suggestion": "월 7,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreData",
+          "Charts"
+        ],
+        "key_features": [
+          "부채 추적",
+          "상환 계획",
+          "진행 상황 시각화"
+        ],
+        "clone_tip": "간단한 계산 알고리즘과 UI로 시작 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#금융"
+      ],
+      "verdict": "부채 관리 니즈는 명확하나 수익화 전략 중요"
+    },
+    {
+      "rank": 4,
+      "name": "Spokn: Voice to Clipboard",
+      "developer": "Fleur Mannhart",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/2d/69/712d69e5-f922-b699-f391-69481655735b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/spokn-voice-to-clipboard/id6764145933?uo=2",
+      "idea_summary": "음성을 텍스트로 변환하여 클립보드 저장",
+      "analysis": {
+        "problem": "빠른 음성 메모 작성 및 텍스트 변환의 번거로움 [확인]",
+        "solution": "음성을 즉시 텍스트로 변환하여 클립보드에 저장 [확인]",
+        "target_user": "빠른 메모가 필요한 직장인 및 학생 [추론]",
+        "unique_point": "클립보드 직접 연동으로 워크플로우 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Dragon",
+          "Otter.ai",
+          "Apple 받아쓰기"
+        ],
+        "timing_reason": "원격근무 증가로 음성 메모 수요 확대 [추론]",
+        "growth_potential": "생산성 도구 시장 확장에 따른 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 무제한 사용 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Speech Framework",
+          "Core Data"
+        ],
+        "key_features": [
+          "음성 인식",
+          "클립보드 연동",
+          "언어 지원"
+        ],
+        "clone_tip": "iOS Speech Framework 활용하여 빠른 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "단순하지만 실용적인 아이디어로 빠른 런칭 가능"
+    },
+    {
+      "rank": 5,
+      "name": "dropfit.app",
+      "developer": "Jeff Starr",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/e5/04/d5e504b9-732a-7d13-af36-8e50940ffe06/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/dropfit-app/id6763800955?uo=2",
+      "idea_summary": "드롭셋 운동 기록 및 관리 앱",
+      "analysis": {
+        "problem": "체계적인 드롭셋 운동 기록 관리의 어려움 [추론]",
+        "solution": "전문적인 드롭셋 운동 추적 및 진행 상황 관리 [추론]",
+        "target_user": "고급 헬스 트레이너 및 보디빌더 [추론]",
+        "unique_point": "드롭셋에 특화된 전문 운동 앱 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Strong",
+          "Jefit"
+        ],
+        "timing_reason": "홈트 문화 확산과 전문 운동법 관심 증가 [추론]",
+        "growth_potential": "니치 시장이지만 충성도 높은 사용자층 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 운동 프로그램 판매 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "운동 기록",
+          "진행 상황 추적",
+          "맞춤 프로그램"
+        ],
+        "clone_tip": "HealthKit 연동하여 기본 기능부터 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스"
+      ],
+      "verdict": "전문적이지만 타겟 시장이 제한적인 니치 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "건강보험25시",
+      "developer": "국민건강보험공단",
+      "category": "의료",
+      "icon": "https://play-lh.googleusercontent.com/k1AdvOdopEN3E9_MyZql3zfIrZQacuIA9T3f7ZRaNZP-Wrr2suJMpZ4Q_ECpej1OnLUtd8hME3jJNN2LVK2f950",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.or.nhic",
+      "idea_summary": "24시간 건강보험 서비스 접근",
+      "analysis": {
+        "problem": "건강보험 관련 업무의 시간적 제약 [확인]",
+        "solution": "모바일을 통한 24시간 건강보험 서비스 제공 [확인]",
+        "target_user": "건강보험 가입자 전체 [확인]",
+        "unique_point": "공공기관의 디지털 전환 선도 사례 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "정부24",
+          "간편인증"
+        ],
+        "timing_reason": "디지털 정부 정책과 비대면 서비스 수요 증가 [확인]",
+        "growth_potential": "공공서비스 디지털화 트렌드 지속 [확인]"
+      },
+      "business": {
+        "monetization": "공공서비스로 수익화 모델 없음 [확인]",
+        "pricing_suggestion": "B2G 솔루션으로 전환 시 억대 수주 가능 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "20억원 [추론]",
+        "tech_stack": [
+          "Java",
+          "Spring",
+          "Oracle DB"
+        ],
+        "key_features": [
+          "본인인증",
+          "서류발급",
+          "보험료조회"
+        ],
+        "clone_tip": "공공 API 활용한 민간 서비스 개발 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#공공서비스",
+        "#B2G",
+        "#필수"
+      ],
+      "verdict": "공공서비스 특성상 수익화는 제한적이나 사회적 가치 높음",
+      "deep_report_id": "android-건강보험25시-1777734299221"
+    },
+    {
+      "rank": 2,
+      "name": "디지털온누리",
+      "developer": "KOMSCO",
+      "category": "금융",
+      "icon": "https://play-lh.googleusercontent.com/TKeD-NZgw2Cr6PheWin_wECYSnQr2WJtiC0jvCm2U_iuTE2ixz9zy7OKSgo5g3NwIw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.komsco.kpay",
+      "idea_summary": "디지털 상품권 통합 플랫폼",
+      "analysis": {
+        "problem": "복잡한 상품권 관리 및 사용의 불편함 [추론]",
+        "solution": "디지털 상품권 통합 관리 및 간편 결제 [추론]",
+        "target_user": "상품권 이용자 및 소상공인 [추론]",
+        "unique_point": "정부 지원 디지털 상품권 생태계 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "네이버페이",
+          "카카오페이",
+          "제로페이"
+        ],
+        "timing_reason": "코로나19 이후 소상공인 지원 정책 확대 [확인]",
+        "growth_potential": "정부 정책 지원으로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "수수료 기반 수익 모델 [추론]",
+        "pricing_suggestion": "거래당 1-2% 수수료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "5억원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Spring Boot",
+          "PostgreSQL"
+        ],
+        "key_features": [
+          "상품권 발행",
+          "QR 결제",
+          "가맹점 관리"
+        ],
+        "clone_tip": "결제 시스템 연동이 핵심, 라이선스 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#핀테크",
+        "#B2B2C",
+        "#정부지원"
+      ],
+      "verdict": "정부 지원 하에 안정적이나 경쟁이 치열한 결제 시장"
+    },
+    {
+      "rank": 3,
+      "name": "PDF뷰어, PDF리더 그리고 파일열기",
+      "developer": "Office Suite Pro",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/8O1bFHz4rJAHo_49KwOoTOsXXxxAgwje-T_5LuMSo9qvArsEiMnaGCiuShWK_IuL1Q",
+      "app_url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader",
+      "idea_summary": "올인원 문서 뷰어 및 편집 도구",
+      "analysis": {
+        "problem": "다양한 문서 형식 지원하는 통합 뷰어 부족 [추론]",
+        "solution": "PDF 및 다양한 파일 형식 통합 지원 [추론]",
+        "target_user": "문서 작업이 많은 직장인 및 학생 [추론]",
+        "unique_point": "한국어 지원과 다양한 파일 형식 호환 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Reader",
+          "WPS Office",
+          "Microsoft Office"
+        ],
+        "timing_reason": "원격근무 확산으로 모바일 문서 편집 수요 증가 [추론]",
+        "growth_potential": "문서 디지털화 트렌드에 따른 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 광고 수익 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "3500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "PDF.js",
+          "LibreOffice"
+        ],
+        "key_features": [
+          "다중 파일 지원",
+          "클라우드 연동",
+          "편집 기능"
+        ],
+        "clone_tip": "오픈소스 라이브러리 활용하여 빠른 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "기본적 필요는 있으나 강력한 경쟁사들과의 차별화 필요"
+    },
+    {
+      "rank": 4,
+      "name": "대한민국 모바일 신분증",
+      "developer": "행정안전부",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/ZG0w0dsWvuwXahcA9klpwBm903dgLQ5ELba6g47MTpeK5AwOHh_nwI-hd3uROMbUEcRv",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.go.mobileid",
+      "idea_summary": "디지털 신분증 및 본인인증 서비스",
+      "analysis": {
+        "problem": "물리적 신분증 휴대의 불편함과 분실 위험 [확인]",
+        "solution": "스마트폰을 통한 디지털 신분증 구현 [확인]",
+        "target_user": "대한민국 성인 전체 [확인]",
+        "unique_point": "정부 공인 디지털 신분증 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "PASS",
+          "삼성패스",
+          "간편인증앱들"
+        ],
+        "timing_reason": "코로나19 이후 비대면 본인인증 수요 급증 [확인]",
+        "growth_potential": "디지털 정부 정책의 핵심 서비스 [확인]"
+      },
+      "business": {
+        "monetization": "공공서비스로 직접 수익화 없음 [확인]",
+        "pricing_suggestion": "민간 인증 서비스로 활용 시 고수익 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "18-24개월 [추론]",
+        "estimated_cost": "50억원 [추론]",
+        "tech_stack": [
+          "Android",
+          "블록체인",
+          "생체인증"
+        ],
+        "key_features": [
+          "생체인증",
+          "QR인증",
+          "블록체인 검증"
+        ],
+        "clone_tip": "높은 보안 요구사항으로 개인 개발 거의 불가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#혁신",
+        "#공공서비스",
+        "#필수"
+      ],
+      "verdict": "혁신적이고 필요한 서비스지만 개인 개발자에게는 비현실적"
+    },
+    {
+      "rank": 5,
+      "name": "정부24(구 민원24)",
+      "developer": "행정안전부",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/9ZwlSxrZ5zAGydEtON0V6SkvezO_v6xIlbQEIYR7AKPiJ7NLoYow-2LYjmRH48FC1b3CXBicR4DJw3zZ-GXi",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.go.minwon.m",
+      "idea_summary": "통합 정부 서비스 플랫폼",
+      "analysis": {
+        "problem": "각 기관별 개별 방문 및 업무 처리의 비효율 [확인]",
+        "solution": "원스톱 정부 서비스 통합 플랫폼 [확인]",
+        "target_user": "대한민국 국민 전체 [확인]",
+        "unique_point": "5000여 개 민원 서비스 통합 제공 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "각 부처별 개별 앱들"
+        ],
+        "timing_reason": "디지털 정부 3.0 정책 추진 [확인]",
+        "growth_potential": "정부 서비스의 디지털 전환 가속화 [확인]"
+      },
+      "business": {
+        "monetization": "공공서비스로 수익화 모델 없음 [확인]",
+        "pricing_suggestion": "유사 통합 플랫폼 B2B 솔루션 고수익 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "24-36개월 [추론]",
+        "estimated_cost": "100억원 [추론]",
+        "tech_stack": [
+          "Android",
+          "마이크로서비스",
+          "API Gateway"
+        ],
+        "key_features": [
+          "통합인증",
+          "서비스연계",
+          "알림시스템"
+        ],
+        "clone_tip": "정부 API 활용한 민간 서비스 개발 아이디어 응용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#통합플랫폼",
+        "#공공서비스",
+        "#디지털정부"
+      ],
+      "verdict": "공공서비스 통합의 모범사례이나 민간 응용 아이디어 필요"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인 생산성 도구와 공공서비스의 디지털 전환이 주요 트렌드로 부상하고 있다. 특히 핀테크와 건강 관리 영역에서 AI 활용이 증가하고 있다.",
+    "trend_details": [
+      "AI 기반 생산성 도구 확산",
+      "공공서비스 디지털화 가속",
+      "니치 마켓 특화 앱 증가",
+      "음성 인터페이스 활용 확대"
+    ],
+    "hot_categories": [
+      "금융",
+      "생산성",
+      "유틸리티"
+    ],
+    "opportunity": "AI API를 활용한 개인화 서비스와 공공 API를 응용한 민간 서비스 개발",
+    "action_item": "OpenAI API 활용한 생산성 도구 MVP 개발 검토"
+  }
+}

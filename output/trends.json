@@ -1,10 +1,41 @@
 {
-  "generatedAt": "2026-05-01T15:05:18.211Z",
+  "generatedAt": "2026-05-02T15:06:16.050Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "유틸리티",
+      "currentCount": 10,
+      "previousCount": 4,
+      "changePercent": 150,
+      "changeDirection": "up",
+      "apps": [
+        "AirFindMyPods",
+        "MessageLED",
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+        "에너지플러스",
+        "QR 코드 및 바코드 스캐너",
+        "FindTag",
+        "Apex Lite",
+        "QRCraft",
+        "Ai Translator, Voice Translate",
+        "QR 코드 & 바코드 스캐너"
+      ],
+      "avgScore": 6.970000000000001
+    },
+    {
+      "category": "여행",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Visit Zanzibar"
+      ],
+      "avgScore": 6.5
+    },
     {
       "category": "소셜 네트워킹",
       "currentCount": 2,
@@ -43,162 +74,31 @@
       "avgScore": 6.8
     },
     {
-      "category": "비즈니스",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Senior Year Resume Checker",
-        "RingJob"
-      ],
-      "avgScore": 7.4
-    },
-    {
-      "category": "메디컬",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "모바일 건강보험증"
-      ],
-      "avgScore": 6.5
-    },
-    {
       "category": "금융",
-      "currentCount": 4,
+      "currentCount": 5,
       "previousCount": 3,
-      "changePercent": 33,
+      "changePercent": 67,
       "changeDirection": "up",
       "apps": [
+        "Daytab",
         "Our Envelope Budget",
         "CardIQ: Maximize Rewards",
         "하나은행, 새로워진 하나원큐를 경험해보세요",
         "Frizzbee"
       ],
-      "avgScore": 7.15
+      "avgScore": 7.2
     },
-    {
-      "category": "유틸리티",
-      "currentCount": 8,
-      "previousCount": 6,
-      "changePercent": 33,
-      "changeDirection": "up",
-      "apps": [
-        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
-        "에너지플러스",
-        "QR 코드 및 바코드 스캐너",
-        "FindTag",
-        "Apex Lite",
-        "QRCraft",
-        "Ai Translator, Voice Translate",
-        "QR 코드 & 바코드 스캐너"
-      ],
-      "avgScore": 7.1625
-    },
-    {
-      "category": "건강 및 피트니스",
-      "currentCount": 4,
-      "previousCount": 3,
-      "changePercent": 33,
-      "changeDirection": "up",
-      "apps": [
-        "Stride: Run, Walk, Repeat",
-        "Recomp - Your Physique Tracker",
-        "Tinnitus Saurus",
-        "Vīra"
-      ],
-      "avgScore": 7.9
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 8,
-      "previousCount": 7,
-      "changePercent": 14,
-      "changeDirection": "up",
-      "apps": [
-        "위치 공유",
-        "Moodify",
-        "Hearthside & Hooks",
-        "RFLCT.",
-        "DreamScript: AI Journal",
-        "PetScan",
-        "정부24",
-        "대한민국 모바일 신분증"
-      ],
-      "avgScore": 7.3375
-    }
-  ],
-  "decliningCategories": [
-    {
-      "category": "엔터테인먼트",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
-      "changeDirection": "down",
-      "apps": [
-        "ペンライト・メッセンジャー",
-        "TikTok Lite 포인트 & 쿠폰 & 리워드",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
-      ],
-      "avgScore": 7.333333333333333
-    },
-    {
-      "category": "쇼핑",
-      "currentCount": 2,
-      "previousCount": 3,
-      "changePercent": -33,
-      "changeDirection": "down",
-      "apps": [
-        "네이버플러스 스토어",
-        "당근"
-      ],
-      "avgScore": 6
-    },
-    {
-      "category": "참고",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "RareCoins AI"
-      ],
-      "avgScore": 7.4
-    },
-    {
-      "category": "소셜",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Instagram"
-      ],
-      "avgScore": 6
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 2,
-      "previousCount": 5,
-      "changePercent": -60,
-      "changeDirection": "down",
-      "apps": [
-        "위스키 일기 - Dram",
-        "Prato"
-      ],
-      "avgScore": 6.7
-    }
-  ],
-  "stableCategories": [
     {
       "category": "생산성",
-      "currentCount": 20,
-      "previousCount": 20,
-      "changePercent": 0,
-      "changeDirection": "stable",
+      "currentCount": 22,
+      "previousCount": 19,
+      "changePercent": 16,
+      "changeDirection": "up",
       "apps": [
+        "PDF 리더 및 뷰어",
+        "PDF 리더 & 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더: 뷰어·편집기",
         "BugMe - ADHD Reminders",
         "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
         "PDF 편집기: 스캐너 및 리더",
@@ -216,26 +116,104 @@
         "Dola: 스마트 AI 도우미",
         "Quick story writer – Storymark",
         "PDF 리더 및 뷰어",
-        "문서 뷰어: PDF, Word",
-        "GutCheck",
-        "Dola"
+        "문서 뷰어: PDF, Word"
       ],
-      "avgScore": 7.510000000000001
-    },
+      "avgScore": 7.140909090909091
+    }
+  ],
+  "decliningCategories": [
     {
       "category": "교육",
       "currentCount": 4,
-      "previousCount": 4,
-      "changePercent": 0,
-      "changeDirection": "stable",
+      "previousCount": 5,
+      "changePercent": -20,
+      "changeDirection": "down",
       "apps": [
+        "StudyMate",
         "EcoField",
         "CarSpotter Kids",
-        "Snap A Bird",
-        "OtherEyes"
+        "Snap A Bird"
       ],
-      "avgScore": 7.45
+      "avgScore": 7.5
     },
+    {
+      "category": "엔터테인먼트",
+      "currentCount": 3,
+      "previousCount": 4,
+      "changePercent": -25,
+      "changeDirection": "down",
+      "apps": [
+        "ペンライト・メッセンジャー",
+        "TikTok Lite 포인트 & 쿠폰 & 리워드",
+        "DramaBox - 미니시리즈 스트리밍 플레이어"
+      ],
+      "avgScore": 7.333333333333333
+    },
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 3,
+      "previousCount": 4,
+      "changePercent": -25,
+      "changeDirection": "down",
+      "apps": [
+        "Stride: Run, Walk, Repeat",
+        "Recomp - Your Physique Tracker",
+        "Tinnitus Saurus"
+      ],
+      "avgScore": 7.666666666666667
+    },
+    {
+      "category": "쇼핑",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "퀸잇, 멋진 어른들의 라이프스타일링샵",
+        "네이버플러스 스토어"
+      ],
+      "avgScore": 6.4
+    },
+    {
+      "category": "라이프스타일",
+      "currentCount": 5,
+      "previousCount": 9,
+      "changePercent": -44,
+      "changeDirection": "down",
+      "apps": [
+        "위치 공유",
+        "Moodify",
+        "Hearthside & Hooks",
+        "RFLCT.",
+        "DreamScript: AI Journal"
+      ],
+      "avgScore": 7.42
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 2,
+      "previousCount": 4,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "위스키 일기 - Dram",
+        "Prato"
+      ],
+      "avgScore": 6.7
+    },
+    {
+      "category": "참고",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "RareCoins AI"
+      ],
+      "avgScore": 7.4
+    }
+  ],
+  "stableCategories": [
     {
       "category": "그래픽 및 디자인",
       "currentCount": 1,
@@ -258,14 +236,45 @@
         "Trivella!"
       ],
       "avgScore": 7
+    },
+    {
+      "category": "비즈니스",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Senior Year Resume Checker"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "소셜",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Instagram"
+      ],
+      "avgScore": 6
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 55,
+      "count": 58,
       "apps": [
+        "AirFindMyPods",
+        "Daytab",
+        "MessageLED",
+        "StudyMate",
+        "Visit Zanzibar",
+        "PDF 리더 및 뷰어",
+        "PDF 리더 & 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더: 뷰어·편집기",
         "BugMe - ADHD Reminders",
         "Our Envelope Budget",
         "EcoField",
@@ -296,10 +305,8 @@
         "Frizzbee",
         "CarSpotter Kids",
         "Prato",
-        "PDF 리더 및 뷰어",
         "QR 코드 및 바코드 스캐너",
         "Ai Translator, Voice Translate",
-        "PDF 리더: 뷰어·편집기",
         "DreamScript: AI Journal",
         "FindTag",
         "RareCoins AI",
@@ -312,20 +319,22 @@
         "Snap A Bird",
         "Quick story writer – Storymark",
         "문서 뷰어: PDF, Word",
-        "QR 코드 & 바코드 스캐너",
-        "Vīra",
-        "PetScan",
-        "GutCheck",
-        "OtherEyes",
-        "RingJob",
-        "Dola"
+        "QR 코드 & 바코드 스캐너"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 47,
+      "count": 46,
       "apps": [
+        "AirFindMyPods",
+        "Daytab",
+        "MessageLED",
+        "StudyMate",
+        "Visit Zanzibar",
+        "퀸잇, 멋진 어른들의 라이프스타일링샵",
+        "PDF 리더 & 뷰어",
+        "PDF 리더: 뷰어·편집기",
         "BugMe - ADHD Reminders",
         "Our Envelope Budget",
         "KnowZee",
@@ -362,23 +371,16 @@
         "PDF 리더 및 뷰어",
         "튼튼머니",
         "문서 뷰어: PDF, Word",
-        "QR 코드 & 바코드 스캐너",
-        "Vīra",
-        "PetScan",
-        "GutCheck",
-        "OtherEyes",
-        "Dola",
-        "정부24",
-        "당근",
-        "대한민국 모바일 신분증",
-        "모바일 건강보험증"
+        "QR 코드 & 바코드 스캐너"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 24,
+      "count": 23,
       "apps": [
+        "AirFindMyPods",
+        "StudyMate",
         "MojiKit - AI Sticker Me",
         "Senior Year Resume Checker",
         "Prato",
@@ -391,24 +393,21 @@
         "Google Gemini",
         "Dola: 스마트 AI 도우미",
         "Mobile Mountaineer",
-        "Snap A Bird",
-        "Vīra",
-        "PetScan",
-        "Dola"
+        "Snap A Bird"
       ]
     },
     {
       "keyword": "생산성",
-      "category": "productivity",
-      "count": 8,
+      "category": "tag",
+      "count": 9,
       "apps": [
+        "PDF 리더 및 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
         "Pipnuto",
         "MindLock: Focus & Discipline",
-        "PDF 리더 및 뷰어",
         "PDF 리더: 뷰어·편집기",
         "Wisp — Meeting AI Assistant",
-        "Dola: 스마트 AI 도우미",
-        "GutCheck"
+        "Dola: 스마트 AI 도우미"
       ]
     },
     {
@@ -416,25 +415,36 @@
       "category": "ar_vr",
       "count": 7,
       "apps": [
+        "Visit Zanzibar",
         "Hearthside & Hooks",
         "CardIQ: Maximize Rewards",
         "Senior Year Resume Checker",
         "CarSpotter Kids",
         "RareCoins AI",
-        "Quick story writer – Storymark",
-        "OtherEyes"
+        "Quick story writer – Storymark"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 7,
+      "apps": [
+        "PDF 리더 및 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더: 뷰어·편집기",
+        "PDF 편집기: 스캐너 및 리더"
       ]
     },
     {
       "keyword": "B2B2C",
       "category": "tag",
-      "count": 6,
+      "count": 7,
       "apps": [
+        "PDF 리더 및 뷰어",
         "EcoField",
         "TrackPlus Live Tracking",
         "에너지플러스",
         "PDF 편집기: 스캐너 및 리더",
-        "PDF 리더 및 뷰어",
         "PDF 리더: 뷰어·편집기"
       ]
     },
@@ -443,11 +453,32 @@
       "category": "tag",
       "count": 5,
       "apps": [
+        "PDF 뷰어 - PDF Reader & PDF 편집",
         "GRC GPS",
         "VibeCheck Live Polls",
         "Wisp — Meeting AI Assistant",
-        "Apex Lite",
-        "RingJob"
+        "Apex Lite"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "AirFindMyPods",
+        "PDF 리더 & 뷰어",
+        "QR 코드 및 바코드 스캐너",
+        "FindTag"
+      ]
+    },
+    {
+      "keyword": "핀테크",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Daytab",
+        "CardIQ: Maximize Rewards",
+        "Frizzbee"
       ]
     },
     {
@@ -458,27 +489,6 @@
         "KnowZee",
         "Hearthside & Hooks",
         "Instagram"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "PDF 편집기: 스캐너 및 리더",
-        "PDF 리더 및 뷰어",
-        "PDF 리더: 뷰어·편집기"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Stride: Run, Walk, Repeat",
-        "Moodify",
-        "Tinnitus Saurus",
-        "모바일 건강보험증"
       ]
     },
     {
@@ -503,12 +513,13 @@
       ]
     },
     {
-      "keyword": "핀테크",
-      "category": "fintech",
+      "keyword": "헬스케어",
+      "category": "tag",
       "count": 3,
       "apps": [
-        "CardIQ: Maximize Rewards",
-        "Frizzbee"
+        "Stride: Run, Walk, Repeat",
+        "Moodify",
+        "Tinnitus Saurus"
       ]
     },
     {
@@ -521,31 +532,12 @@
       ]
     },
     {
-      "keyword": "정부서비스",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "정부24",
-        "대한민국 모바일 신분증",
-        "모바일 건강보험증"
-      ]
-    },
-    {
       "keyword": "플러스",
       "category": "subscription",
       "count": 2,
       "apps": [
         "에너지플러스",
         "네이버플러스 스토어"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 2,
-      "apps": [
-        "Hearthside & Hooks",
-        "당근"
       ]
     },
     {
@@ -574,40 +566,49 @@
         "네이버플러스 스토어",
         "TikTok Lite 포인트 & 쿠폰 & 리워드"
       ]
+    },
+    {
+      "keyword": "클론부적합",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "네이버플러스 스토어",
+        "TikTok Lite 포인트 & 쿠폰 & 리워드"
+      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 20,
-        "percent": 29,
+        "count": 19,
+        "percent": 27,
         "examples": [
-          "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
-          "에너지플러스",
-          "ペンライト・メッセンジャー"
+          "Visit Zanzibar",
+          "PDF 리더 & 뷰어",
+          "2026 고유가 피해지원금 60만원 민생지원 신청가이드"
         ]
       },
       "freemium": {
-        "count": 53,
-        "percent": 76,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "BugMe - ADHD Reminders",
-          "Our Envelope Budget",
-          "EcoField"
+          "AirFindMyPods",
+          "Daytab",
+          "MessageLED"
         ]
       },
       "subscription": {
-        "count": 36,
-        "percent": 51,
+        "count": 35,
+        "percent": 50,
         "examples": [
-          "BugMe - ADHD Reminders",
-          "Our Envelope Budget",
-          "EcoField"
+          "AirFindMyPods",
+          "Daytab",
+          "StudyMate"
         ]
       },
       "onetime": {
-        "count": 7,
-        "percent": 10,
+        "count": 6,
+        "percent": 9,
         "examples": [
           "Trivella!",
           "위스키 일기 - Dram",
@@ -615,19 +616,19 @@
         ]
       },
       "unknown": {
-        "count": 4,
-        "percent": 6,
+        "count": 5,
+        "percent": 7,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 53,
-      "percent": 76,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "BugMe - ADHD Reminders",
-        "Our Envelope Budget",
-        "EcoField"
+        "AirFindMyPods",
+        "Daytab",
+        "MessageLED"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -636,60 +637,48 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 22,
-        "percent": 31,
+        "count": 21,
+        "percent": 30,
         "apps": [
+          "AirFindMyPods",
+          "StudyMate",
           "KnowZee",
           "PDF 편집기: 스캐너 및 리더",
-          "MojiKit - AI Sticker Me",
-          "CardIQ: Maximize Rewards",
-          "Senior Year Resume Checker"
+          "MojiKit - AI Sticker Me"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 13,
-        "percent": 19,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "Daytab",
+          "Visit Zanzibar",
           "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
           "Moodify",
-          "Hearthside & Hooks",
-          "GRC GPS",
-          "Recomp - Your Physique Tracker"
+          "Hearthside & Hooks"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 10,
+        "percent": 14,
         "apps": [
-          "PDF 편집기: 스캐너 및 리더",
-          "TikTok Lite 포인트 & 쿠폰 & 리워드",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
           "PDF 리더 및 뷰어",
-          "PDF 리더: 뷰어·편집기"
+          "PDF 뷰어 - PDF Reader & PDF 편집",
+          "PDF 리더: 뷰어·편집기",
+          "PDF 편집기: 스캐너 및 리더",
+          "TikTok Lite 포인트 & 쿠폰 & 리워드"
         ]
       },
       {
         "tech": "social",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "KnowZee",
-          "Hearthside & Hooks",
-          "Instagram",
-          "RingJob",
-          "당근"
-        ]
-      },
-      {
-        "tech": "productivity",
         "count": 3,
         "percent": 4,
         "apps": [
-          "Pipnuto",
-          "Dola: 스마트 AI 도우미",
-          "Dola"
+          "KnowZee",
+          "Hearthside & Hooks",
+          "Instagram"
         ]
       },
       {
@@ -703,20 +692,12 @@
         ]
       },
       {
-        "tech": "fintech",
+        "tech": "productivity",
         "count": 2,
         "percent": 3,
         "apps": [
-          "CardIQ: Maximize Rewards",
-          "모바일 건강보험증"
-        ]
-      },
-      {
-        "tech": "blockchain",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "대한민국 모바일 신분증"
+          "Pipnuto",
+          "Dola: 스마트 AI 도우미"
         ]
       },
       {
@@ -726,48 +707,63 @@
         "apps": [
           "Moodify"
         ]
+      },
+      {
+        "tech": "fintech",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "CardIQ: Maximize Rewards"
+        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 22,
-      "percent": 31,
+      "count": 21,
+      "percent": 30,
       "apps": [
+        "AirFindMyPods",
+        "StudyMate",
         "KnowZee",
         "PDF 편집기: 스캐너 및 리더",
-        "MojiKit - AI Sticker Me",
-        "CardIQ: Maximize Rewards",
-        "Senior Year Resume Checker"
+        "MojiKit - AI Sticker Me"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 13,
-        "percent": 19,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "Daytab",
+          "Visit Zanzibar",
           "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
           "Moodify",
-          "Hearthside & Hooks",
-          "GRC GPS",
-          "Recomp - Your Physique Tracker"
+          "Hearthside & Hooks"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 10,
+        "percent": 14,
         "apps": [
-          "PDF 편집기: 스캐너 및 리더",
-          "TikTok Lite 포인트 & 쿠폰 & 리워드",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
           "PDF 리더 및 뷰어",
-          "PDF 리더: 뷰어·편집기"
+          "PDF 뷰어 - PDF Reader & PDF 편집",
+          "PDF 리더: 뷰어·편집기",
+          "PDF 편집기: 스캐너 및 리더",
+          "TikTok Lite 포인트 & 쿠폰 & 리워드"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "여행 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "여행"
+    },
     {
       "type": "rising_category",
       "title": "소셜 네트워킹 카테고리 급부상",
@@ -790,54 +786,27 @@
       "category": "내비게이션"
     },
     {
-      "type": "rising_category",
-      "title": "비즈니스 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "비즈니스"
-    },
-    {
-      "type": "rising_category",
-      "title": "메디컬 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "메디컬"
-    },
-    {
-      "type": "rising_category",
-      "title": "금융 카테고리 급부상",
-      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "금융"
-    },
-    {
-      "type": "rising_category",
-      "title": "건강 및 피트니스 카테고리 급부상",
-      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "건강 및 피트니스"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "31%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "30%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "소셜 네트워킹, 스포츠, 비즈니스 등 여러 카테고리가 100% 급성장하고 있으며, AI 통합(31%)과 1인개발 가능한 앱(55회 언급)이 주요 트렌드입니다. Freemium 모델(76%)이 가장 선호되는 수익화 전략으로 나타났습니다.",
+    "trend_summary": "유틸리티 카테고리가 150% 급성장하며 시장을 주도하고 있고, AI 기능 통합이 30%의 앱에서 적용되어 필수 요소로 자리잡고 있습니다. Freemium 모델이 79%로 가장 선호되며, 1인 개발자 친화적인 B2C 앱이 주류를 이루고 있습니다.",
     "trend_details": [
-      "AI 기능 통합이 31%의 앱에서 활용되며 차별화 요소로 부상",
-      "소셜·스포츠·비즈니스 카테고리가 100% 급성장했지만 앱 수가 적어 블루오션",
-      "Freemium 모델이 76%로 가장 높은 채택률을 보이며 표준 수익화 전략으로 정착"
+      "유틸리티 앱이 150% 급성장하며 가장 핫한 카테고리로 부상",
+      "AI 기능이 30%의 앱에 통합되어 차별화 필수 요소로 정착",
+      "Freemium 모델이 79%로 압도적 선호도를 보이며 수익화 표준으로 확립"
     ],
     "hot_categories": [
-      "소셜 네트워킹",
-      "스포츠"
+      "유틸리티",
+      "여행",
+      "소셜 네트워킹"
     ],
-    "opportunity": "급성장 중인 소셜·스포츠 카테고리에 AI 기능을 통합한 1인개발 가능한 앱 개발이 가장 유망합니다.",
-    "action_item": "AI 기능(챗봇, 추천 알고리즘 등)을 활용한 소셜 또는 스포츠 앱 MVP를 freemium 모델로 개발 시작하세요.",
-    "weekly_theme": "AI 소셜"
+    "opportunity": "여행 카테고리는 100% 성장했지만 단 1개 앱만 존재해 경쟁이 적은 블루오션 시장입니다.",
+    "action_item": "여행 관련 유틸리티 앱에 AI 기능을 통합한 freemium 모델로 빠르게 MVP를 출시하세요.",
+    "weekly_theme": "AI 유틸리티"
   }
 }
