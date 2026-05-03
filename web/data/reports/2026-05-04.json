@@ -1,0 +1,621 @@
+{
+  "date": "2026-05-04",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Peak - Level Up Your Life",
+      "developer": "Brian Goodman",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7b/d9/54/7bd9547f-b980-857a-4fbb-701fd9ccf5fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/peak-level-up-your-life/id6760877422?uo=2",
+      "idea_summary": "개인 성장을 위한 레벨업 시스템",
+      "analysis": {
+        "problem": "개인 발전이 추상적이고 진전을 측정하기 어려움 [추론]",
+        "solution": "게이미피케이션으로 개인 성장을 레벨업 시스템화 [추론]",
+        "target_user": "자기계발에 관심있는 20-30대 직장인 [추론]",
+        "unique_point": "개인 성장을 RPG처럼 시각화하는 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Forest"
+        ],
+        "timing_reason": "코로나 이후 개인 성장에 대한 관심 증가 [추론]",
+        "growth_potential": "자기계발 시장의 지속적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 4,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase"
+        ],
+        "key_features": [
+          "레벨 시스템",
+          "성취 추적",
+          "시각화"
+        ],
+        "clone_tip": "간단한 포인트 시스템부터 시작해서 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게이미피케이션"
+      ],
+      "verdict": "개인 성장의 게이미피케이션 트렌드 반영",
+      "deep_report_id": "ios-peak-level-up-your-life-1777820577967"
+    },
+    {
+      "rank": 2,
+      "name": "Rivalr",
+      "developer": "Theodoros Pantelis",
+      "category": "스포츠",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/d8/62/1fd8622c-44b0-f13c-2911-0e10ae314870/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/rivalr/id6761080446?uo=2",
+      "idea_summary": "운동 파트너 매칭 및 경쟁 플랫폼",
+      "analysis": {
+        "problem": "혼자 운동하면 동기부여가 부족하고 지속이 어려움 [추론]",
+        "solution": "실력이 비슷한 운동 파트너 매칭과 경쟁 시스템 [추론]",
+        "target_user": "운동을 시작하려는 20-30대 [추론]",
+        "unique_point": "실력 기반 매칭으로 공정한 경쟁 환경 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nike Run Club",
+          "Strava"
+        ],
+        "timing_reason": "홈트레이닝 이후 다시 사회적 운동 관심 증가 [추론]",
+        "growth_potential": "피트니스 소셜 시장의 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 매칭 및 이벤트 참가비 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "GPS API"
+        ],
+        "key_features": [
+          "위치 매칭",
+          "실력 평가",
+          "경쟁 시스템"
+        ],
+        "clone_tip": "먼저 러닝에 특화해서 검증 후 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜피트니스"
+      ],
+      "verdict": "운동의 사회화 니즈를 잘 포착한 아이디어"
+    },
+    {
+      "rank": 3,
+      "name": "BeforeScrollApp",
+      "developer": "Jeremy Lasne",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/49/12/b549126e-d522-8db3-48f0-99d5c4232675/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/beforescrollapp/id6761055117?uo=2",
+      "idea_summary": "소셜미디어 사용 전 의도적 멈춤 기능",
+      "analysis": {
+        "problem": "무의식적으로 소셜미디어에 빠져드는 문제 [확인]",
+        "solution": "앱 열기 전 의도를 묻고 잠시 멈춤을 유도 [추론]",
+        "target_user": "소셜미디어 중독을 인지하는 20-30대 [추론]",
+        "unique_point": "완전 차단이 아닌 의식적 사용을 돕는 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Freedom",
+          "One Sec"
+        ],
+        "timing_reason": "디지털 웰빙에 대한 관심 증가 [추론]",
+        "growth_potential": "디지털 디톡스 시장 확대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 구독 [추론]",
+        "pricing_suggestion": "월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "200만원 [추론]",
+        "tech_stack": [
+          "iOS/Android Native",
+          "App Usage API"
+        ],
+        "key_features": [
+          "앱 인터셉트",
+          "사용 분석",
+          "알림"
+        ],
+        "clone_tip": "먼저 하나 앱(인스타그램)에 특화해서 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#디지털웰빙"
+      ],
+      "verdict": "디지털 중독 해결의 새로운 접근법"
+    },
+    {
+      "rank": 4,
+      "name": "Friend Roulette by Adam Alpert",
+      "developer": "ADAM LAWRENCE ALPERT",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/90/53/6c905316-2cd5-1e9e-7554-75e9ba9e382e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/friend-roulette-by-adam-alpert/id6764664976?uo=2",
+      "idea_summary": "친구들과 무작위 활동 추천 룰렛",
+      "analysis": {
+        "problem": "친구들과 만날 때 무엇을 할지 결정하기 어려움 [추론]",
+        "solution": "무작위로 활동을 추천하는 룰렛 시스템 [추론]",
+        "target_user": "결정 장애가 있는 20대 친구 그룹 [추론]",
+        "unique_point": "단순하지만 재미있는 결정 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "What Should We Do",
+          "Random Activity Generator"
+        ],
+        "timing_reason": "코로나 이후 대면 만남 증가 [추론]",
+        "growth_potential": "틈새 시장이지만 바이럴 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 모델 [추론]",
+        "pricing_suggestion": "무료 + 광고 제거 1,200원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "100만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Local Database"
+        ],
+        "key_features": [
+          "룰렛 애니메이션",
+          "활동 DB",
+          "커스터마이징"
+        ],
+        "clone_tip": "지역별 활동 DB를 풍부하게 구축하는 것이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜"
+      ],
+      "verdict": "단순하지만 실용적인 소셜 도구"
+    },
+    {
+      "rank": 5,
+      "name": "Everyone Can Garden",
+      "developer": "Carthy Elizabeth Bouressa- Shelton",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3b/d9/56/3bd95625-e337-f4af-f00d-15ba9409c13b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/everyone-can-garden/id6761736491?uo=2",
+      "idea_summary": "초보자를 위한 쉬운 가드닝 가이드",
+      "analysis": {
+        "problem": "가드닝을 시작하고 싶지만 어려워 보여서 망설임 [추론]",
+        "solution": "누구나 쉽게 시작할 수 있는 단계별 가드닝 가이드 [추론]",
+        "target_user": "도시 거주 가드닝 초보자 30-40대 [추론]",
+        "unique_point": "완전 초보자 관점에서의 접근성 강화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PlantNet",
+          "Gardenize"
+        ],
+        "timing_reason": "팬데믹 이후 홈 가드닝 관심 급증 [추론]",
+        "growth_potential": "도시농업과 힐링 트렌드 지속 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 콘텐츠 및 쇼핑몰 연계 [추론]",
+        "pricing_suggestion": "월 3,900원 또는 커미션 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "250만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Content Management"
+        ],
+        "key_features": [
+          "단계별 가이드",
+          "식물 식별",
+          "커뮤니티"
+        ],
+        "clone_tip": "한국 기후에 맞는 식물과 계절별 가이드 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#라이프스타일"
+      ],
+      "verdict": "홈 가드닝 트렌드와 잘 맞는 실용적 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "PDF 리더 & 뷰어",
+      "developer": "Land Vina Dev",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/wGDEeXsF08KgAZFicbQ-QUcPXj9INLhcSBsZ_grUygjvmjj9UYU7zRidwWDXczlIgbg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.pdf.editor",
+      "idea_summary": "올인원 PDF 관리 도구",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집과 관리가 복잡함 [확인]",
+        "solution": "읽기부터 편집까지 통합된 PDF 솔루션 [추론]",
+        "target_user": "모바일에서 문서 작업하는 직장인, 학생 [추론]",
+        "unique_point": "뷰어와 편집기를 하나로 통합한 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS Office"
+        ],
+        "timing_reason": "원격근무로 모바일 문서 편집 수요 증가 [추론]",
+        "growth_potential": "디지털 문서화 트렌드 지속 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능 구독 [추론]",
+        "pricing_suggestion": "월 4,900원 프로 버전 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "Android Native",
+          "PDF Library",
+          "Cloud Storage"
+        ],
+        "key_features": [
+          "PDF 렌더링",
+          "편집 도구",
+          "클라우드 연동"
+        ],
+        "clone_tip": "오픈소스 PDF 라이브러리 활용으로 개발 시간 단축 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "경쟁이 치열하지만 수요가 확실한 영역",
+      "deep_report_id": "android-pdf-리더-뷰어-1777820664417"
+    },
+    {
+      "rank": 2,
+      "name": "PDF 리더 및 뷰어",
+      "developer": "Cao Thanh Long",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/uGlPhXIo9ZUdmyjk3UaBxKIcx9A0Nptu8pbsceENAdPuNrMsBAGGhYwZKd2YFVbZhGY",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.editor",
+      "idea_summary": "경량화된 PDF 뷰어",
+      "analysis": {
+        "problem": "기존 PDF 앱들이 무겁고 느린 경우가 많음 [추론]",
+        "solution": "빠르고 가벼운 PDF 뷰어에 집중 [추론]",
+        "target_user": "단순 PDF 열람이 주목적인 사용자 [추론]",
+        "unique_point": "속도와 가벼움을 최우선으로 한 설계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google PDF Viewer",
+          "Adobe Reader"
+        ],
+        "timing_reason": "모바일 성능 향상으로 가벼운 앱 선호 [추론]",
+        "growth_potential": "틈새 시장이지만 명확한 니즈 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 + 프리미엄 [추론]",
+        "pricing_suggestion": "월 1,900원 광고 제거 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "200만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "PDF.js",
+          "File System"
+        ],
+        "key_features": [
+          "빠른 렌더링",
+          "북마크",
+          "검색"
+        ],
+        "clone_tip": "성능 최적화가 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "단순함과 성능에 집중한 실용적 접근"
+    },
+    {
+      "rank": 3,
+      "name": "PDF 뷰어 - PDF Reader & PDF 편집",
+      "developer": "QR Code Scanner.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/HuveAFzGVUenSS0_hgITMW_hczQGMzmxiOVwW0F9Q5-uUkTidarGHBZtLkI5R5YYIw",
+      "app_url": "https://play.google.com/store/apps/details?id=pdf.pdfreader.viewer.editor.free",
+      "idea_summary": "무료 PDF 편집 솔루션",
+      "analysis": {
+        "problem": "대부분의 PDF 편집기가 유료이거나 제한적임 [추론]",
+        "solution": "무료로 기본적인 PDF 편집 기능 제공 [추론]",
+        "target_user": "가끔 PDF 편집이 필요한 일반 사용자 [추론]",
+        "unique_point": "무료로 편집 기능까지 제공하는 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PDFill",
+          "iLovePDF"
+        ],
+        "timing_reason": "재택근무로 개인용 PDF 편집 수요 증가 [추론]",
+        "growth_potential": "무료 모델로 사용자 확보 후 수익화 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료 + 월 2,900원 프로 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "PDF-lib",
+          "Canvas"
+        ],
+        "key_features": [
+          "텍스트 편집",
+          "주석",
+          "서명"
+        ],
+        "clone_tip": "웹 기반 PDF 라이브러리 활용으로 개발 복잡도 감소 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#무료모델"
+      ],
+      "verdict": "무료 접근으로 시장 진입 후 수익화"
+    },
+    {
+      "rank": 4,
+      "name": "PDF 리더: 뷰어·편집기",
+      "developer": "Dcutuansaw",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/fwiNwX4Nx9e1_nbvH_RrIXwfdOgUmG9ripgLh59y-npgKRm2zNjxfZBNkmqMG5K9Is2UjBNm4OZOJSgP2cAuSQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pdfreader.pdf.viewer.pdfeditor",
+      "idea_summary": "모든 PDF 기능을 하나로",
+      "analysis": {
+        "problem": "PDF 관련 기능이 여러 앱에 분산되어 불편함 [추론]",
+        "solution": "읽기, 편집, 변환을 하나의 앱에서 처리 [추론]",
+        "target_user": "PDF 작업이 빈번한 비즈니스 사용자 [추론]",
+        "unique_point": "올인원 PDF 솔루션으로서의 완성도 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Foxit PDF",
+          "Xodo"
+        ],
+        "timing_reason": "디지털 전환 가속화로 PDF 사용 증가 [추론]",
+        "growth_potential": "B2B 시장에서의 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 비즈니스 모델 [추론]",
+        "pricing_suggestion": "월 7,900원 비즈니스 플랜 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Native Android",
+          "PDFium",
+          "OCR"
+        ],
+        "key_features": [
+          "OCR",
+          "변환",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "차별화를 위해서는 AI 기반 기능 추가 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#종합솔루션"
+      ],
+      "verdict": "기능의 완성도가 성공을 좌우할 영역"
+    },
+    {
+      "rank": 5,
+      "name": "위치 공유",
+      "developer": "P & L Studio",
+      "category": "소셜",
+      "icon": "https://play-lh.googleusercontent.com/-o1CH4hizs4HWhJD7k4bv6Ix5GH720tB1jrSecHSIiaRdzi4gSd05kmigDO_j2rKQRJ8-JJDjaBFQakvPCkae5o",
+      "app_url": "https://play.google.com/store/apps/details?id=com.sharlocation.friend.family",
+      "idea_summary": "가족·친구 위치 실시간 공유",
+      "analysis": {
+        "problem": "가족이나 친구의 안전 확인과 약속 조율이 어려움 [추론]",
+        "solution": "선택적이고 안전한 실시간 위치 공유 [추론]",
+        "target_user": "자녀를 둔 부모, 연인, 친한 친구 [추론]",
+        "unique_point": "프라이버시를 고려한 선택적 공유 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Find My",
+          "Life360"
+        ],
+        "timing_reason": "안전에 대한 관심 증가와 스마트폰 보급 [추론]",
+        "growth_potential": "가족 안전 앱 시장의 꾸준한 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "월 3,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "350만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Maps API"
+        ],
+        "key_features": [
+          "실시간 위치",
+          "알림",
+          "지오펜싱"
+        ],
+        "clone_tip": "프라이버시 보호 기능이 핵심 차별화 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#가족안전"
+      ],
+      "verdict": "꾸준한 수요가 있는 안전한 시장 영역"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "개인 성장과 생산성 도구에 대한 수요가 지속적으로 증가하고 있으며, 특히 디지털 웰빙과 관련된 앱들이 주목받고 있다. PDF 관련 앱들이 다수 출현하는 것은 모바일 업무 환경의 확산을 반영한다.",
+    "trend_details": [
+      "개인 성장의 게이미피케이션",
+      "디지털 웰빙 및 중독 예방",
+      "모바일 문서 편집 니즈 증가",
+      "소셜 피트니스 플랫폼"
+    ],
+    "hot_categories": [
+      "생산성",
+      "라이프스타일",
+      "소셜"
+    ],
+    "opportunity": "단순하지만 명확한 문제를 해결하는 앱들이 성공 가능성이 높음",
+    "action_item": "PDF 시장은 포화상태이므로 차별화된 기능이나 타겟팅 필요"
+  }
+}
