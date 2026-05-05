@@ -1,0 +1,621 @@
+{
+  "date": "2026-05-06",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Deme",
+      "developer": "Steven Clarkson",
+      "category": "소셜 네트워킹",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c7/33/74/c7337475-6edd-3e79-486d-d0eb67aa98a8/deme-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/deme/id6756827188?uo=2",
+      "idea_summary": "새로운 형태의 소셜 네트워킹 플랫폼 [추측]",
+      "analysis": {
+        "problem": "기존 소셜미디어의 피로감과 단조로움 해결 [추론]",
+        "solution": "차별화된 소셜 인터랙션 방식 제공 [추측]",
+        "target_user": "새로운 소셜 경험을 원하는 젊은층 [추론]",
+        "unique_point": "독특한 소셜 네트워킹 접근 방식 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Instagram",
+          "TikTok"
+        ],
+        "timing_reason": "소셜미디어 피로감 증가 시점 [추론]",
+        "growth_potential": "소셜 네트워킹의 혁신적 접근 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 또는 광고 모델 [추측]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js"
+        ],
+        "key_features": [
+          "소셜 피드",
+          "메시징",
+          "프로필"
+        ],
+        "clone_tip": "MVP부터 시작해서 핵심 소셜 기능에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜"
+      ],
+      "verdict": "소셜 분야 혁신 가능성 있으나 경쟁 치열",
+      "deep_report_id": "ios-deme-1777993377732"
+    },
+    {
+      "rank": 2,
+      "name": "SpeakCards 상황별 영어회화 카드",
+      "developer": "yang huihong",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/72/3b/d7/723bd733-6782-9d51-b872-ede5906bdfc0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/speakcards-%EC%83%81%ED%99%A9%EB%B3%84-%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94-%EC%B9%B4%EB%93%9C/id6762193567?uo=2",
+      "idea_summary": "상황별 영어 회화 카드로 실용적 학습",
+      "analysis": {
+        "problem": "실제 상황에서 사용할 수 있는 영어 표현 부족 [추론]",
+        "solution": "상황별로 분류된 영어 회화 카드 제공 [확인]",
+        "target_user": "실용적 영어 학습을 원하는 성인 학습자 [추론]",
+        "unique_point": "상황별 분류와 카드 형태의 학습법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "듀오링고",
+          "스픽"
+        ],
+        "timing_reason": "영어 회화 실력 향상 니즈 증가 [추론]",
+        "growth_potential": "실용적 영어 학습 시장 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 카드팩 및 구독 모델 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 9,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "250만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase"
+        ],
+        "key_features": [
+          "카드 뷰어",
+          "상황별 분류",
+          "음성 재생"
+        ],
+        "clone_tip": "콘텐츠가 핵심이므로 양질의 회화 데이터 확보 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육"
+      ],
+      "verdict": "실용적 접근으로 차별화된 영어 학습 도구"
+    },
+    {
+      "rank": 3,
+      "name": "Chudu",
+      "developer": "Artur Eganov",
+      "category": "음식 및 음료",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/5e/50/695e50db-8b11-ac3f-dd90-13a20a239ceb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/chudu/id6763673968?uo=2",
+      "idea_summary": "음식 관련 특화 서비스 앱 [추측]",
+      "analysis": {
+        "problem": "음식 선택이나 관리의 어려움 [추측]",
+        "solution": "음식 관련 정보 및 관리 기능 제공 [추측]",
+        "target_user": "음식에 관심 많은 사용자층 [추측]",
+        "unique_point": "특정 음식 분야에 특화된 접근 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "배달의민족",
+          "요기요"
+        ],
+        "timing_reason": "개인 맞춤형 음식 서비스 증가 [추론]",
+        "growth_potential": "음식 테크 시장 성장세 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 또는 제휴 수수료 [추측]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "AWS"
+        ],
+        "key_features": [
+          "음식 검색",
+          "개인화",
+          "데이터 관리"
+        ],
+        "clone_tip": "음식 데이터베이스 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#푸드테크"
+      ],
+      "verdict": "음식 분야 틈새 시장 가능성"
+    },
+    {
+      "rank": 4,
+      "name": "Piplet Photo Video Memory Book",
+      "developer": "Beacon Light Investments",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/68/aa/5968aa0c-a0a2-8be5-9831-00e0794816c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/piplet-photo-video-memory-book/id6762404582?uo=2",
+      "idea_summary": "사진과 동영상으로 추억을 기록하는 메모리북",
+      "analysis": {
+        "problem": "흩어진 사진과 동영상의 체계적 정리 및 보관 [추론]",
+        "solution": "멀티미디어 통합 메모리북 제작 기능 [추론]",
+        "target_user": "가족 중심의 중년층 및 젊은 부모 [추론]",
+        "unique_point": "사진과 동영상을 함께 담는 디지털 메모리북 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Photos",
+          "Apple Photos"
+        ],
+        "timing_reason": "디지털 추억 보관 니즈 증가 [추론]",
+        "growth_potential": "개인화된 추억 관리 시장 확장 [추론]"
+      },
+      "business": {
+        "monetization": "클라우드 저장소 및 프리미엄 템플릿 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 5,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "FFmpeg"
+        ],
+        "key_features": [
+          "미디어 편집",
+          "템플릿",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "동영상 처리 성능 최적화가 관건 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#라이프스타일"
+      ],
+      "verdict": "감성적 니즈와 실용성을 결합한 좋은 아이디어"
+    },
+    {
+      "rank": 5,
+      "name": "모임 출석체크 - 그룹 출석 관리",
+      "developer": "SiU Ahn",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/e8/74/81e874aa-edda-835b-e059-4b05aaf2bb9f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%AA%A8%EC%9E%84-%EC%B6%9C%EC%84%9D%EC%B2%B4%ED%81%AC-%EA%B7%B8%EB%A3%B9-%EC%B6%9C%EC%84%9D-%EA%B4%80%EB%A6%AC/id6766034871?uo=2",
+      "idea_summary": "모임이나 그룹의 출석을 체계적으로 관리",
+      "analysis": {
+        "problem": "소규모 모임이나 수업의 출석 관리 번거로움 [추론]",
+        "solution": "간편한 출석 체크 및 통계 기능 제공 [추론]",
+        "target_user": "소모임 운영자, 강사, 동아리 회장 [추론]",
+        "unique_point": "모임 특화 출석 관리 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "카카오톡",
+          "구글 시트"
+        ],
+        "timing_reason": "온오프라인 혼합 모임 증가 [추론]",
+        "growth_potential": "틈새 시장이지만 안정적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 대용량 그룹 관리 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "150만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase"
+        ],
+        "key_features": [
+          "출석 체크",
+          "통계",
+          "알림"
+        ],
+        "clone_tip": "단순하지만 실용적인 기능에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "틈새 시장 대상의 실용적인 도구"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Dola: 스마트 AI 도우미",
+      "developer": "SPRING (SG) PTE. LTD.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/OQqw4BnBEiPy4VWKCC-Vr_5ruppgs05hlsBV-8hFMjTefLrTaKZNNuHJ8Be_V9NWrA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.larus.wolf",
+      "idea_summary": "AI 기반 개인 비서 및 일정 관리 도우미",
+      "analysis": {
+        "problem": "복잡한 일정 관리와 업무 효율성 저하 [추론]",
+        "solution": "AI를 활용한 스마트 개인 비서 기능 [추론]",
+        "target_user": "바쁜 직장인과 스케줄 관리가 필요한 사용자 [추론]",
+        "unique_point": "AI 기반 개인화된 스케줄링과 알림 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "구글 어시스턴트",
+          "Siri"
+        ],
+        "timing_reason": "AI 기술 대중화와 개인 효율성 중시 [추론]",
+        "growth_potential": "AI 비서 시장 급성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능 및 구독 모델 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 9,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OpenAI API",
+          "NLP"
+        ],
+        "key_features": [
+          "AI 챗봇",
+          "일정 관리",
+          "자동 알림"
+        ],
+        "clone_tip": "AI API 비용 관리가 중요한 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "AI 트렌드에 부합하는 높은 성장 잠재력",
+      "deep_report_id": "android-dola-스마트-ai-도우미-1777993456324"
+    },
+    {
+      "rank": 2,
+      "name": "위치 공유",
+      "developer": "P & L Studio",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/-o1CH4hizs4HWhJD7k4bv6Ix5GH720tB1jrSecHSIiaRdzi4gSd05kmigDO_j2rKQRJ8-JJDjaBFQakvPCkae5o",
+      "app_url": "https://play.google.com/store/apps/details?id=com.sharlocation.friend.family",
+      "idea_summary": "가족과 친구간 실시간 위치 공유 서비스",
+      "analysis": {
+        "problem": "가족 안전 확인과 만남 약속 시 위치 파악 어려움 [추론]",
+        "solution": "선택적 실시간 위치 공유 기능 [추론]",
+        "target_user": "가족 구성원과 가까운 친구들 [추론]",
+        "unique_point": "프라이버시 중심의 선택적 위치 공유 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Find My",
+          "Life360"
+        ],
+        "timing_reason": "개인 안전과 가족 소통 중시 증가 [추론]",
+        "growth_potential": "안전 관련 앱 시장 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 광고 모델 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Google Maps API",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간 GPS",
+          "그룹 관리",
+          "알림"
+        ],
+        "clone_tip": "배터리 최적화와 프라이버시 보호가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#안전"
+      ],
+      "verdict": "실용적이지만 경쟁이 치열한 분야"
+    },
+    {
+      "rank": 3,
+      "name": "기리고",
+      "developer": "Kwonsiwon",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/LGPKzuI-9eSVok5nYaflViX3SbYQUEFLkQm0MfnAoBRu7VeKFi0rz_mjP41E5pU_6YMED1A_yt8qXnmG25Wi",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.girigo",
+      "idea_summary": "한국형 특화 생산성 도구 [추측]",
+      "analysis": {
+        "problem": "한국 사용자에게 특화된 생산성 도구 부족 [추측]",
+        "solution": "한국 문화와 업무 환경에 맞춘 기능 [추측]",
+        "target_user": "한국의 직장인과 학생 [추측]",
+        "unique_point": "한국 특화 UI/UX와 기능 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "노션",
+          "에버노트"
+        ],
+        "timing_reason": "로컬라이제이션 중시 트렌드 [추론]",
+        "growth_potential": "국내 특화 시장 기회 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 팀 요금제 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 6,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "한글 NLP"
+        ],
+        "key_features": [
+          "한글 최적화",
+          "팀 협업",
+          "템플릿"
+        ],
+        "clone_tip": "한국 사용자의 워크플로우 분석이 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#로컬"
+      ],
+      "verdict": "한국 시장 특화 전략의 가능성"
+    },
+    {
+      "rank": 4,
+      "name": "문서 리더 & 스캔",
+      "developer": "Studio Rankvn",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/E9XgOgJg5jhtN4yboSqta2ZUp7d6sVwmR65BAJ4kb9dNuZoWH71TAI-wMlIKmXv0rx-RV_tGDtFUFr5vy51_fA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.scanner.document.scan.pdf",
+      "idea_summary": "문서 스캔과 PDF 리더 통합 도구",
+      "analysis": {
+        "problem": "종이 문서의 디지털화와 PDF 관리의 번거로움 [추론]",
+        "solution": "스캔부터 편집까지 원스톱 문서 관리 [추론]",
+        "target_user": "업무용 문서를 많이 다루는 직장인 [추론]",
+        "unique_point": "스캔과 리더 기능의 통합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Scan",
+          "CamScanner"
+        ],
+        "timing_reason": "디지털 트랜스포메이션 가속화 [추론]",
+        "growth_potential": "문서 디지털화 시장 확장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능 및 클라우드 저장소 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "350만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OpenCV",
+          "PDF.js"
+        ],
+        "key_features": [
+          "OCR",
+          "PDF 편집",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "OCR 정확도가 사용자 만족도를 좌우 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "실용적이지만 차별화가 필요한 영역"
+    },
+    {
+      "rank": 5,
+      "name": "DramaBox - 미니시리즈 스트리밍 플레이어",
+      "developer": "STORYMATRIX",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/dYAF42EhNGgGhC7nLHNSZkWs11W5Dv0mRWZBv6IgLDTh3l8eolsjeAVGg-HVHt9YWyA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama",
+      "idea_summary": "짧은 에피소드 형태의 드라마 스트리밍",
+      "analysis": {
+        "problem": "긴 드라마에 대한 시청 부담과 시간 부족 [추론]",
+        "solution": "숏폼 형태의 드라마 콘텐츠 제공 [추론]",
+        "target_user": "바쁜 일상 속 짧은 시간에 드라마를 즐기고 싶은 사용자 [추론]",
+        "unique_point": "미니 에피소드 형태의 드라마 전문 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "YouTube Shorts"
+        ],
+        "timing_reason": "숏폼 콘텐츠 선호 증가와 마이크로 엔터테인먼트 트렌드 [추론]",
+        "growth_potential": "숏폼 엔터테인먼트 시장 급성장 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델과 프리미엄 콘텐츠 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 7,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Video Streaming API",
+          "CDN"
+        ],
+        "key_features": [
+          "동영상 스트리밍",
+          "추천 알고리즘",
+          "댓글"
+        ],
+        "clone_tip": "콘텐츠 확보가 가장 중요한 성공 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.3
+      },
+      "tags": [
+        "#콘텐츠",
+        "#B2C",
+        "#엔터테인먼트"
+      ],
+      "verdict": "숏폼 트렌드에 부합하는 높은 성장 가능성"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 생산성 도구와 숏폼 콘텐츠 플랫폼이 주요 트렌드로 부상하고 있습니다 [추론]. 개인화된 서비스와 실용적 문제 해결에 집중하는 앱들이 눈에 띕니다 [추론].",
+    "trend_details": [
+      "AI 개인 비서 서비스 확산",
+      "숏폼 콘텐츠 다양화",
+      "로컬라이제이션 중시",
+      "실용적 생산성 도구 선호"
+    ],
+    "hot_categories": [
+      "생산성",
+      "AI 도구",
+      "엔터테인먼트"
+    ],
+    "opportunity": "한국 시장 특화 서비스와 AI 기반 개인화 도구 개발",
+    "action_item": "AI API 활용한 간단한 생산성 도구 프로토타입 제작 시작"
+  }
+}
