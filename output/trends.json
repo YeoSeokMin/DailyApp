@@ -1,26 +1,21 @@
 {
-  "generatedAt": "2026-05-05T15:05:44.654Z",
+  "generatedAt": "2026-05-06T15:06:15.908Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "금융",
-      "currentCount": 7,
-      "previousCount": 2,
-      "changePercent": 250,
+      "category": "소셜 네트워킹",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Astro Money - AI Expense",
-        "Debt Breaker",
-        "디지털온누리",
-        "Daytab",
-        "Our Envelope Budget",
-        "CardIQ: Maximize Rewards",
-        "하나은행, 새로워진 하나원큐를 경험해보세요"
+        "Deme",
+        "KnowZee"
       ],
-      "avgScore": 7.371428571428572
+      "avgScore": 7.35
     },
     {
       "category": "사진 및 비디오",
@@ -58,18 +53,6 @@
       "avgScore": 6.5
     },
     {
-      "category": "소셜 네트워킹",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "KnowZee",
-        "위치 공유"
-      ],
-      "avgScore": 7
-    },
-    {
       "category": "그래픽 및 디자인",
       "currentCount": 1,
       "previousCount": 0,
@@ -92,38 +75,14 @@
       "avgScore": 6.8
     },
     {
-      "category": "엔터테인먼트",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "ペンライト・メッセンジャー",
-        "TikTok Lite 포인트 & 쿠폰 & 리워드"
-      ],
-      "avgScore": 7.166666666666667
-    },
-    {
-      "category": "스포츠",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "Rivalr",
-        "TrackPlus Live Tracking",
-        "RC카 설정 & 배터리 관리 - Pit"
-      ],
-      "avgScore": 7.366666666666667
-    },
-    {
       "category": "라이프스타일",
-      "currentCount": 9,
-      "previousCount": 8,
-      "changePercent": 13,
+      "currentCount": 11,
+      "previousCount": 6,
+      "changePercent": 83,
       "changeDirection": "up",
       "apps": [
+        "Piplet Photo Video Memory Book",
+        "위치 공유",
         "기리고",
         "Peak - Level Up Your Life",
         "Friend Roulette by Adam Alpert",
@@ -134,54 +93,40 @@
         "Hearthside & Hooks",
         "RFLCT."
       ],
-      "avgScore": 7.455555555555555
-    }
-  ],
-  "decliningCategories": [
+      "avgScore": 7.4818181818181815
+    },
     {
       "category": "교육",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
-      "changeDirection": "down",
+      "currentCount": 5,
+      "previousCount": 4,
+      "changePercent": 25,
+      "changeDirection": "up",
       "apps": [
+        "SpeakCards 상황별 영어회화 카드",
         "Verbotica",
         "OORA",
         "StudyMate",
         "EcoField"
       ],
-      "avgScore": 7.7
+      "avgScore": 7.720000000000001
     },
     {
-      "category": "생산성",
-      "currentCount": 20,
-      "previousCount": 25,
-      "changePercent": -20,
-      "changeDirection": "down",
+      "category": "금융",
+      "currentCount": 5,
+      "previousCount": 4,
+      "changePercent": 25,
+      "changeDirection": "up",
       "apps": [
-        "nudgio one",
-        "Dola: 스마트 AI 도우미",
-        "문서 리더 & 스캔",
-        "BeforeScrollApp",
-        "PDF 리더 & 뷰어",
-        "PDF 리더 및 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더: 뷰어·편집기",
-        "Spokn: Voice to Clipboard",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 리더 및 뷰어",
-        "PDF 리더 & 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더: 뷰어·편집기",
-        "BugMe - ADHD Reminders",
-        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
-        "PDF 편집기: 스캐너 및 리더",
-        "Pipnuto",
-        "MindLock: Focus & Discipline",
-        "setlog"
+        "Astro Money - AI Expense",
+        "Debt Breaker",
+        "디지털온누리",
+        "Daytab",
+        "Our Envelope Budget"
       ],
-      "avgScore": 6.965000000000001
-    },
+      "avgScore": 7.720000000000001
+    }
+  ],
+  "decliningCategories": [
     {
       "category": "유틸리티",
       "currentCount": 6,
@@ -199,6 +144,30 @@
       "avgScore": 7.166666666666667
     },
     {
+      "category": "음식 및 음료",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "Chudu",
+        "캐치테이블"
+      ],
+      "avgScore": 7.05
+    },
+    {
+      "category": "스포츠",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "Rivalr",
+        "TrackPlus Live Tracking"
+      ],
+      "avgScore": 8.05
+    },
+    {
       "category": "소셜",
       "currentCount": 1,
       "previousCount": 2,
@@ -208,33 +177,76 @@
         "위치 공유"
       ],
       "avgScore": 7.4
+    },
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 2,
+      "previousCount": 4,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "dropfit.app",
+        "Stride: Run, Walk, Repeat"
+      ],
+      "avgScore": 7.2
+    },
+    {
+      "category": "쇼핑",
+      "currentCount": 1,
+      "previousCount": 3,
+      "changePercent": -67,
+      "changeDirection": "down",
+      "apps": [
+        "퀸잇, 멋진 어른들의 라이프스타일링샵"
+      ],
+      "avgScore": 7.8
     }
   ],
   "stableCategories": [
     {
-      "category": "음식 및 음료",
-      "currentCount": 2,
-      "previousCount": 2,
+      "category": "생산성",
+      "currentCount": 22,
+      "previousCount": 22,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "캐치테이블",
-        "위스키 일기 - Dram"
+        "모임 출석체크 - 그룹 출석 관리",
+        "Dola: 스마트 AI 도우미",
+        "기리고",
+        "문서 리더 & 스캔",
+        "nudgio one",
+        "Dola: 스마트 AI 도우미",
+        "문서 리더 & 스캔",
+        "BeforeScrollApp",
+        "PDF 리더 & 뷰어",
+        "PDF 리더 및 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더: 뷰어·편집기",
+        "Spokn: Voice to Clipboard",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 리더 및 뷰어",
+        "PDF 리더 & 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더: 뷰어·편집기",
+        "BugMe - ADHD Reminders",
+        "PDF 리더 - HWP 파일 뷰어 & HWP 읽기",
+        "PDF 편집기: 스캐너 및 리더",
+        "Pipnuto"
       ],
-      "avgScore": 6.9
+      "avgScore": 6.990909090909091
     },
     {
-      "category": "건강 및 피트니스",
+      "category": "엔터테인먼트",
       "currentCount": 3,
       "previousCount": 3,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "dropfit.app",
-        "Stride: Run, Walk, Repeat",
-        "Recomp - Your Physique Tracker"
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "ペンライト・メッセンジャー"
       ],
-      "avgScore": 7.3999999999999995
+      "avgScore": 8.1
     },
     {
       "category": "의료",
@@ -246,34 +258,28 @@
         "건강보험25시"
       ],
       "avgScore": 7
-    },
-    {
-      "category": "쇼핑",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "퀸잇, 멋진 어른들의 라이프스타일링샵",
-        "네이버플러스 스토어"
-      ],
-      "avgScore": 6.4
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 58,
+      "count": 60,
       "apps": [
+        "Deme",
+        "SpeakCards 상황별 영어회화 카드",
+        "Chudu",
+        "Piplet Photo Video Memory Book",
+        "모임 출석체크 - 그룹 출석 관리",
+        "위치 공유",
+        "기리고",
+        "문서 리더 & 스캔",
         "Verbotica",
         "OORA",
         "AutoStudio AI",
         "SUDOCUBE",
         "nudgio one",
         "Dola: 스마트 AI 도우미",
-        "기리고",
-        "문서 리더 & 스캔",
         "Peak - Level Up Your Life",
         "Rivalr",
         "BeforeScrollApp",
@@ -283,7 +289,6 @@
         "PDF 리더 및 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "PDF 리더: 뷰어·편집기",
-        "위치 공유",
         "PITON ai",
         "Astro Money - AI Expense",
         "Debt Breaker",
@@ -312,27 +317,27 @@
         "Hearthside & Hooks",
         "Pipnuto",
         "RFLCT.",
-        "GRC GPS",
-        "Recomp - Your Physique Tracker",
-        "위스키 일기 - Dram",
-        "RC카 설정 & 배터리 관리 - Pit",
-        "CardIQ: Maximize Rewards",
-        "MindLock: Focus & Discipline",
-        "setlog"
+        "GRC GPS"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 47,
+      "count": 53,
       "apps": [
+        "Deme",
+        "SpeakCards 상황별 영어회화 카드",
+        "Chudu",
+        "Piplet Photo Video Memory Book",
+        "Dola: 스마트 AI 도우미",
+        "위치 공유",
+        "기리고",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
         "Verbotica",
         "OORA",
         "AutoStudio AI",
         "SUDOCUBE",
         "nudgio one",
-        "Dola: 스마트 AI 도우미",
-        "기리고",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "Peak - Level Up Your Life",
         "Rivalr",
@@ -341,7 +346,6 @@
         "Everyone Can Garden",
         "PDF 리더 및 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "위치 공유",
         "PITON ai",
         "Astro Money - AI Expense",
         "Debt Breaker",
@@ -369,19 +373,17 @@
         "Trivella!",
         "Hearthside & Hooks",
         "Pipnuto",
-        "RFLCT.",
-        "Recomp - Your Physique Tracker",
-        "CardIQ: Maximize Rewards"
+        "RFLCT."
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 12,
+      "count": 14,
       "apps": [
+        "Dola: 스마트 AI 도우미",
         "Verbotica",
         "AutoStudio AI",
-        "Dola: 스마트 AI 도우미",
         "문서 리더 & 스캔",
         "PITON ai",
         "Astro Money - AI Expense",
@@ -391,10 +393,29 @@
       ]
     },
     {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 12,
+      "apps": [
+        "모임 출석체크 - 그룹 출석 관리",
+        "Dola: 스마트 AI 도우미",
+        "기리고",
+        "문서 리더 & 스캔",
+        "PDF 리더 & 뷰어",
+        "PITON ai",
+        "Spokn: Voice to Clipboard",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 리더 및 뷰어",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "Pipnuto"
+      ]
+    },
+    {
       "keyword": "편집",
       "category": "creator",
-      "count": 9,
+      "count": 10,
       "apps": [
+        "문서 리더 & 스캔",
         "AutoStudio AI",
         "PDF 리더 & 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
@@ -405,18 +426,28 @@
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 9,
+      "keyword": "소셜",
+      "category": "social",
+      "count": 7,
       "apps": [
+        "Deme",
+        "BeforeScrollApp",
+        "Friend Roulette by Adam Alpert",
+        "KnowZee",
+        "Hearthside & Hooks"
+      ]
+    },
+    {
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 7,
+      "apps": [
+        "모임 출석체크 - 그룹 출석 관리",
+        "문서 리더 & 스캔",
         "PDF 리더 & 뷰어",
-        "PITON ai",
-        "Spokn: Voice to Clipboard",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 리더 및 뷰어",
+        "PDF 리더: 뷰어·편집기",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "Pipnuto",
-        "MindLock: Focus & Discipline"
+        "GRC GPS"
       ]
     },
     {
@@ -434,49 +465,35 @@
       ]
     },
     {
-      "keyword": "핀테크",
-      "category": "fintech",
-      "count": 6,
-      "apps": [
-        "Astro Money - AI Expense",
-        "디지털온누리",
-        "Daytab",
-        "CardIQ: Maximize Rewards"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 5,
-      "apps": [
-        "문서 리더 & 스캔",
-        "PDF 리더 & 뷰어",
-        "PDF 리더: 뷰어·편집기",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "GRC GPS"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "BeforeScrollApp",
-        "Friend Roulette by Adam Alpert",
-        "KnowZee",
-        "Hearthside & Hooks"
-      ]
-    },
-    {
       "keyword": "AR",
       "category": "ar_vr",
       "count": 5,
       "apps": [
+        "SpeakCards 상황별 영어회화 카드",
         "Everyone Can Garden",
         "Spokn: Voice to Clipboard",
         "Visit Zanzibar",
-        "Hearthside & Hooks",
-        "CardIQ: Maximize Rewards"
+        "Hearthside & Hooks"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 4,
+      "apps": [
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "EcoField"
+      ]
+    },
+    {
+      "keyword": "핀테크",
+      "category": "fintech",
+      "count": 4,
+      "apps": [
+        "Astro Money - AI Expense",
+        "디지털온누리",
+        "Daytab"
       ]
     },
     {
@@ -501,16 +518,6 @@
       ]
     },
     {
-      "keyword": "웰빙",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "nudgio one",
-        "RFLCT.",
-        "MindLock: Focus & Discipline"
-      ]
-    },
-    {
       "keyword": "유틸리티",
       "category": "tag",
       "count": 3,
@@ -521,128 +528,137 @@
       ]
     },
     {
-      "keyword": "자동화",
+      "keyword": "네트워킹",
+      "category": "social",
+      "count": 2,
+      "apps": [
+        "Deme",
+        "KnowZee"
+      ]
+    },
+    {
+      "keyword": "라이프스타일",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Piplet Photo Video Memory Book",
+        "Everyone Can Garden"
+      ]
+    },
+    {
+      "keyword": "일정",
       "category": "productivity",
       "count": 2,
       "apps": [
-        "Dola: 스마트 AI 도우미",
-        "PITON ai"
+        "Dola: 스마트 AI 도우미"
       ]
     },
     {
-      "keyword": "콘텐츠",
+      "keyword": "스트리밍",
       "category": "creator",
       "count": 2,
       "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "EcoField"
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "NetShort - 인기 드라마 및 TV 프로그램"
       ]
     },
     {
-      "keyword": "금융",
+      "keyword": "엔터테인먼트",
       "category": "tag",
       "count": 2,
       "apps": [
-        "Debt Breaker",
-        "하나은행, 새로워진 하나원큐를 경험해보세요"
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "ペンライト・メッセンジャー"
       ]
     },
     {
-      "keyword": "필수",
+      "keyword": "웰빙",
       "category": "tag",
       "count": 2,
       "apps": [
-        "건강보험25시",
-        "대한민국 모바일 신분증"
-      ]
-    },
-    {
-      "keyword": "플러스",
-      "category": "subscription",
-      "count": 2,
-      "apps": [
-        "에너지플러스",
-        "네이버플러스 스토어"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Stride: Run, Walk, Repeat",
-        "Moodify"
+        "nudgio one",
+        "RFLCT."
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 19,
-        "percent": 27,
+        "count": 28,
+        "percent": 40,
         "examples": [
-          "SUDOCUBE",
-          "Friend Roulette by Adam Alpert",
-          "PDF 리더 및 뷰어"
+          "Deme",
+          "SpeakCards 상황별 영어회화 카드",
+          "Chudu"
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "Verbotica",
-          "AutoStudio AI",
-          "SUDOCUBE"
+          "Deme",
+          "SpeakCards 상황별 영어회화 카드",
+          "Chudu"
         ]
       },
       "subscription": {
-        "count": 29,
-        "percent": 41,
+        "count": 26,
+        "percent": 37,
         "examples": [
-          "Verbotica",
-          "OORA",
-          "nudgio one"
+          "SpeakCards 상황별 영어회화 카드",
+          "Dola: 스마트 AI 도우미",
+          "DramaBox - 미니시리즈 스트리밍 플레이어"
         ]
       },
       "onetime": {
-        "count": 3,
-        "percent": 4,
+        "count": 1,
+        "percent": 1,
         "examples": [
-          "Trivella!",
-          "위스키 일기 - Dram",
-          "RC카 설정 & 배터리 관리 - Pit"
+          "Trivella!"
         ]
       },
       "unknown": {
-        "count": 8,
-        "percent": 11,
+        "count": 5,
+        "percent": 7,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "Verbotica",
-        "AutoStudio AI",
-        "SUDOCUBE"
+        "Deme",
+        "SpeakCards 상황별 영어회화 카드",
+        "Chudu"
       ]
     },
-    "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
+    "insight": "프리미엄 모델 대세. 무료 사용자 → 유료 전환 퍼널 설계가 핵심."
   },
   "techTrends": {
     "trends": [
       {
         "tech": "ar_vr",
-        "count": 14,
-        "percent": 20,
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "SpeakCards 상황별 영어회화 카드",
           "Dola: 스마트 AI 도우미",
           "Everyone Can Garden",
           "PDF 리더 & 뷰어",
-          "Astro Money - AI Expense",
-          "Debt Breaker"
+          "Astro Money - AI Expense"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 13,
+        "percent": 19,
+        "apps": [
+          "Piplet Photo Video Memory Book",
+          "문서 리더 & 스캔",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "AutoStudio AI",
+          "NetShort - 인기 드라마 및 TV 프로그램"
         ]
       },
       {
@@ -650,65 +666,53 @@
         "count": 12,
         "percent": 17,
         "apps": [
+          "Dola: 스마트 AI 도우미",
           "Verbotica",
           "AutoStudio AI",
           "Dola: 스마트 AI 도우미",
-          "문서 리더 & 스캔",
-          "PITON ai"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 11,
-        "percent": 16,
-        "apps": [
-          "AutoStudio AI",
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "PDF 리더 & 뷰어",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "PDF 리더: 뷰어·편집기"
+          "문서 리더 & 스캔"
         ]
       },
       {
         "tech": "social",
-        "count": 7,
-        "percent": 10,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "Deme",
           "OORA",
           "기리고",
           "Rivalr",
-          "BeforeScrollApp",
-          "Friend Roulette by Adam Alpert"
-        ]
-      },
-      {
-        "tech": "fintech",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "Astro Money - AI Expense",
-          "건강보험25시",
-          "CardIQ: Maximize Rewards"
+          "BeforeScrollApp"
         ]
       },
       {
         "tech": "productivity",
-        "count": 3,
-        "percent": 4,
+        "count": 5,
+        "percent": 7,
         "apps": [
+          "Dola: 스마트 AI 도우미",
+          "기리고",
           "Dola: 스마트 AI 도우미",
           "PITON ai",
           "Pipnuto"
         ]
       },
       {
+        "tech": "fintech",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "Astro Money - AI Expense",
+          "건강보험25시"
+        ]
+      },
+      {
         "tech": "subscription",
-        "count": 3,
-        "percent": 4,
+        "count": 2,
+        "percent": 3,
         "apps": [
           "NetShort - 인기 드라마 및 TV 프로그램",
-          "에너지플러스",
-          "네이버플러스 스토어"
+          "에너지플러스"
         ]
       },
       {
@@ -730,27 +734,39 @@
     ],
     "dominant": {
       "tech": "ar_vr",
-      "count": 14,
-      "percent": 20,
+      "count": 13,
+      "percent": 19,
       "apps": [
+        "SpeakCards 상황별 영어회화 카드",
         "Dola: 스마트 AI 도우미",
         "Everyone Can Garden",
         "PDF 리더 & 뷰어",
-        "Astro Money - AI Expense",
-        "Debt Breaker"
+        "Astro Money - AI Expense"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 14,
-        "percent": 20,
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "SpeakCards 상황별 영어회화 카드",
           "Dola: 스마트 AI 도우미",
           "Everyone Can Garden",
           "PDF 리더 & 뷰어",
-          "Astro Money - AI Expense",
-          "Debt Breaker"
+          "Astro Money - AI Expense"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 13,
+        "percent": 19,
+        "apps": [
+          "Piplet Photo Video Memory Book",
+          "문서 리더 & 스캔",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "AutoStudio AI",
+          "NetShort - 인기 드라마 및 TV 프로그램"
         ]
       },
       {
@@ -758,40 +774,35 @@
         "count": 12,
         "percent": 17,
         "apps": [
+          "Dola: 스마트 AI 도우미",
           "Verbotica",
           "AutoStudio AI",
           "Dola: 스마트 AI 도우미",
-          "문서 리더 & 스캔",
-          "PITON ai"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 11,
-        "percent": 16,
-        "apps": [
-          "AutoStudio AI",
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "PDF 리더 & 뷰어",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "PDF 리더: 뷰어·편집기"
+          "문서 리더 & 스캔"
         ]
       },
       {
         "tech": "social",
-        "count": 7,
-        "percent": 10,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "Deme",
           "OORA",
           "기리고",
           "Rivalr",
-          "BeforeScrollApp",
-          "Friend Roulette by Adam Alpert"
+          "BeforeScrollApp"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "소셜 네트워킹 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "소셜 네트워킹"
+    },
     {
       "type": "rising_category",
       "title": "사진 및 비디오 카테고리 급부상",
@@ -815,13 +826,6 @@
     },
     {
       "type": "rising_category",
-      "title": "소셜 네트워킹 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "소셜 네트워킹"
-    },
-    {
-      "type": "rising_category",
       "title": "그래픽 및 디자인 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -833,35 +837,21 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "내비게이션"
-    },
-    {
-      "type": "rising_category",
-      "title": "엔터테인먼트 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "엔터테인먼트"
-    },
-    {
-      "type": "rising_category",
-      "title": "스포츠 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "스포츠"
     }
   ],
   "insight": {
-    "trend_summary": "금융 앱이 250% 급성장하며 핀테크 열풍이 본격화되고 있고, '1인개발가능' 키워드가 58회 언급되며 솔로 개발자들의 활동이 활발해지고 있습니다. Freemium 모델이 74%를 차지하며 수익화 전략의 주류로 자리잡았습니다.",
+    "trend_summary": "1인 개발자가 만들 수 있는 앱들이 주목받고 있으며, freemium 모델의 AI 기반 크리에이터 도구와 소셜 앱이 급성장하고 있습니다. 여러 카테고리에서 앱 수가 적어 새로운 진입 기회가 열려있는 상황입니다.",
     "trend_details": [
-      "금융 카테고리 250% 폭증으로 핀테크 앱 개발 기회 확대",
-      "AR/VR 기술이 20%로 최고 비중을 차지하며 몰입형 앱 수요 증가",
-      "1인 개발자 친화적 환경 조성으로 솔로 개발자 진입 장벽 낮아짐"
+      "freemium 모델이 79%로 가장 선호되는 수익화 전략",
+      "AI와 AR/VR 기술이 각각 17%, 19%로 핵심 기술 트렌드",
+      "'1인개발가능' 키워드가 60회로 최다 언급되며 솔로 개발자 시장 확대"
     ],
     "hot_categories": [
-      "금융",
-      "AR/VR"
+      "소셜 네트워킹",
+      "사진 및 비디오"
     ],
-    "opportunity": "사진/비디오, 게임, 여행 카테고리는 100% 성장했지만 앱 수가 적어 경쟁이 덜한 블루오션 영역입니다.",
-    "action_item": "AR 기능을 활용한 여행이나 사진 편집 앱을 Freemium 모델로 개발하여 성장하는 시장에 빠르게 진입하세요.",
-    "weekly_theme": "핀테크 솔로"
+    "opportunity": "소셜 네트워킹과 사진/비디오 카테고리는 100% 성장했지만 앱 수가 적어 AI 기반 크리에이터 도구로 진입하기 좋은 블루오션입니다.",
+    "action_item": "AI 기능을 활용한 사진/비디오 편집 또는 소셜 크리에이터 도구를 freemium 모델로 프로토타입 제작하세요.",
+    "weekly_theme": "크리에이터 AI"
   }
 }
