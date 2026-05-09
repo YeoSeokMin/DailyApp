@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T15:05:23.478Z",
+  "generatedAt": "2026-05-09T15:06:02.261Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -7,15 +7,40 @@
   "risingCategories": [
     {
       "category": "소셜",
+      "currentCount": 4,
+      "previousCount": 1,
+      "changePercent": 300,
+      "changeDirection": "up",
+      "apps": [
+        "기리고",
+        "위치 공유",
+        "위치 공유",
+        "위치 공유"
+      ],
+      "avgScore": 7.1
+    },
+    {
+      "category": "음악",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "LinkEffekt"
+      ],
+      "avgScore": 6
+    },
+    {
+      "category": "비즈니스",
       "currentCount": 2,
       "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "위치 공유",
-        "위치 공유"
+        "문서 리더 & 스캔",
+        "ToothFairyAI"
       ],
-      "avgScore": 7.1
+      "avgScore": 7.65
     },
     {
       "category": "사진 및 비디오",
@@ -41,23 +66,48 @@
       "avgScore": 7
     },
     {
-      "category": "여행",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "라이프스타일",
+      "currentCount": 9,
+      "previousCount": 5,
+      "changePercent": 80,
       "changeDirection": "up",
       "apps": [
-        "Visit Zanzibar"
+        "Pantrease",
+        "Just One: 오늘의 위로",
+        "Piplet Photo Video Memory Book",
+        "위치 공유",
+        "기리고",
+        "Peak - Level Up Your Life",
+        "Friend Roulette by Adam Alpert",
+        "Everyone Can Garden",
+        "정부24(구 민원24)"
       ],
-      "avgScore": 6.5
+      "avgScore": 7.388888888888889
+    },
+    {
+      "category": "교육",
+      "currentCount": 5,
+      "previousCount": 4,
+      "changePercent": 25,
+      "changeDirection": "up",
+      "apps": [
+        "KindPoints: Rewards Board",
+        "Chirps Recorder",
+        "SpeakCards 상황별 영어회화 카드",
+        "Verbotica",
+        "OORA"
+      ],
+      "avgScore": 7.1800000000000015
     },
     {
       "category": "생산성",
-      "currentCount": 27,
-      "previousCount": 20,
-      "changePercent": 35,
+      "currentCount": 25,
+      "previousCount": 22,
+      "changePercent": 14,
       "changeDirection": "up",
       "apps": [
+        "문서 뷰어: PDF, Word",
+        "setlog",
         "PDF Reader - Viewer & Editor",
         "문서 리더 & 스캔",
         "Voyage: Deep Space",
@@ -80,62 +130,37 @@
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "PDF 리더: 뷰어·편집기",
         "Spokn: Voice to Clipboard",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 리더 및 뷰어",
-        "PDF 리더 & 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더: 뷰어·편집기"
+        "PDF뷰어, PDF리더 그리고 파일열기"
       ],
-      "avgScore": 6.892592592592593
-    },
-    {
-      "category": "금융",
-      "currentCount": 5,
-      "previousCount": 4,
-      "changePercent": 25,
-      "changeDirection": "up",
-      "apps": [
-        "WorthIt - Know Your Worth",
-        "Astro Money - AI Expense",
-        "Debt Breaker",
-        "디지털온누리",
-        "Daytab"
-      ],
-      "avgScore": 7.76
-    },
-    {
-      "category": "교육",
-      "currentCount": 5,
-      "previousCount": 4,
-      "changePercent": 25,
-      "changeDirection": "up",
-      "apps": [
-        "Chirps Recorder",
-        "SpeakCards 상황별 영어회화 카드",
-        "Verbotica",
-        "OORA",
-        "StudyMate"
-      ],
-      "avgScore": 7.38
+      "avgScore": 7.0760000000000005
     }
   ],
   "decliningCategories": [
     {
-      "category": "유틸리티",
-      "currentCount": 7,
-      "previousCount": 8,
-      "changePercent": -12,
+      "category": "금융",
+      "currentCount": 4,
+      "previousCount": 5,
+      "changePercent": -20,
       "changeDirection": "down",
       "apps": [
-        "Invoice.Partner",
-        "QR 코드 및 바코드 스캐너",
-        "기리고",
-        "PITON ai",
-        "대한민국 모바일 신분증",
-        "AirFindMyPods",
-        "MessageLED"
+        "WorthIt - Know Your Worth",
+        "Astro Money - AI Expense",
+        "Debt Breaker",
+        "디지털온누리"
       ],
-      "avgScore": 7.228571428571429
+      "avgScore": 7.85
+    },
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "CoachSet",
+        "dropfit.app"
+      ],
+      "avgScore": 7.25
     },
     {
       "category": "엔터테인먼트",
@@ -150,15 +175,19 @@
       "avgScore": 8.15
     },
     {
-      "category": "비즈니스",
-      "currentCount": 1,
-      "previousCount": 2,
+      "category": "유틸리티",
+      "currentCount": 5,
+      "previousCount": 10,
       "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "ToothFairyAI"
+        "Invoice.Partner",
+        "QR 코드 및 바코드 스캐너",
+        "기리고",
+        "PITON ai",
+        "대한민국 모바일 신분증"
       ],
-      "avgScore": 8.8
+      "avgScore": 7.640000000000001
     },
     {
       "category": "소셜 네트워킹",
@@ -183,17 +212,6 @@
       "avgScore": 6.5
     },
     {
-      "category": "쇼핑",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "퀸잇, 멋진 어른들의 라이프스타일링샵"
-      ],
-      "avgScore": 7.8
-    },
-    {
       "category": "스포츠",
       "currentCount": 1,
       "previousCount": 4,
@@ -203,20 +221,20 @@
         "Rivalr"
       ],
       "avgScore": 8
-    },
-    {
-      "category": "건강 및 피트니스",
-      "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
-      "changeDirection": "down",
-      "apps": [
-        "dropfit.app"
-      ],
-      "avgScore": 7
     }
   ],
   "stableCategories": [
+    {
+      "category": "여행",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "TravelReddi"
+      ],
+      "avgScore": 7.2
+    },
     {
       "category": "내비게이션",
       "currentCount": 1,
@@ -227,24 +245,6 @@
         "Litro"
       ],
       "avgScore": 8
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 8,
-      "previousCount": 8,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Just One: 오늘의 위로",
-        "Piplet Photo Video Memory Book",
-        "위치 공유",
-        "기리고",
-        "Peak - Level Up Your Life",
-        "Friend Roulette by Adam Alpert",
-        "Everyone Can Garden",
-        "정부24(구 민원24)"
-      ],
-      "avgScore": 7.4624999999999995
     },
     {
       "category": "참고",
@@ -274,8 +274,18 @@
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 60,
+      "count": 61,
       "apps": [
+        "TravelReddi",
+        "CoachSet",
+        "Pantrease",
+        "LinkEffekt",
+        "KindPoints: Rewards Board",
+        "문서 뷰어: PDF, Word",
+        "setlog",
+        "기리고",
+        "위치 공유",
+        "문서 리더 & 스캔",
         "Invoice.Partner",
         "WorthIt - Know Your Worth",
         "Chirps Recorder",
@@ -283,14 +293,10 @@
         "Just One: 오늘의 위로",
         "QR 코드 및 바코드 스캐너",
         "PDF Reader - Viewer & Editor",
-        "문서 리더 & 스캔",
-        "위치 공유",
-        "기리고",
         "Ensiklopedia Doa",
         "Voyage: Deep Space",
         "Pose Flow: Posing Camera",
         "What I Did - 오늘 한 일",
-        "setlog",
         "PDF 리더 및 뷰어",
         "PDF 리더 & 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
@@ -316,26 +322,26 @@
         "Astro Money - AI Expense",
         "Debt Breaker",
         "Spokn: Voice to Clipboard",
-        "dropfit.app",
-        "AirFindMyPods",
-        "Daytab",
-        "MessageLED",
-        "StudyMate",
-        "Visit Zanzibar"
+        "dropfit.app"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 52,
+      "count": 51,
       "apps": [
+        "TravelReddi",
+        "Pantrease",
+        "KindPoints: Rewards Board",
+        "문서 뷰어: PDF, Word",
+        "setlog",
+        "기리고",
+        "위치 공유",
         "WorthIt - Know Your Worth",
         "Litro",
         "Just One: 오늘의 위로",
         "QR 코드 및 바코드 스캐너",
         "문서 리더 & 스캔",
-        "위치 공유",
-        "기리고",
         "Ensiklopedia Doa",
         "Voyage: Deep Space",
         "Pose Flow: Posing Camera",
@@ -365,21 +371,15 @@
         "Astro Money - AI Expense",
         "Debt Breaker",
         "Spokn: Voice to Clipboard",
-        "dropfit.app",
-        "AirFindMyPods",
-        "Daytab",
-        "MessageLED",
-        "StudyMate",
-        "Visit Zanzibar",
-        "퀸잇, 멋진 어른들의 라이프스타일링샵",
-        "PDF 리더: 뷰어·편집기"
+        "dropfit.app"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 17,
+      "count": 15,
       "apps": [
+        "Pantrease",
         "Chirps Recorder",
         "문서 리더 & 스캔",
         "ToothFairyAI",
@@ -388,15 +388,13 @@
         "Verbotica",
         "AutoStudio AI",
         "PITON ai",
-        "Astro Money - AI Expense",
-        "AirFindMyPods",
-        "StudyMate"
+        "Astro Money - AI Expense"
       ]
     },
     {
       "keyword": "생산성",
       "category": "tag",
-      "count": 15,
+      "count": 13,
       "apps": [
         "PDF Reader - Viewer & Editor",
         "문서 리더 & 스캔",
@@ -408,16 +406,32 @@
         "기리고",
         "PDF 리더 & 뷰어",
         "PITON ai",
-        "Spokn: Voice to Clipboard",
-        "PDF 리더 및 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
+        "Spokn: Voice to Clipboard"
+      ]
+    },
+    {
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 12,
+      "apps": [
+        "LinkEffekt",
+        "문서 리더 & 스캔",
+        "Invoice.Partner",
+        "PDF Reader - Viewer & Editor",
+        "ToothFairyAI",
+        "setlog",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "모임 출석체크 - 그룹 출석 관리",
+        "PDF 리더 & 뷰어",
+        "PDF 리더: 뷰어·편집기"
       ]
     },
     {
       "keyword": "편집",
       "category": "creator",
-      "count": 12,
+      "count": 10,
       "apps": [
+        "문서 뷰어: PDF, Word",
         "PDF Reader - Viewer & Editor",
         "PDF 리더 및 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
@@ -429,19 +443,15 @@
       ]
     },
     {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 11,
+      "keyword": "소셜",
+      "category": "social",
+      "count": 7,
       "apps": [
-        "Invoice.Partner",
-        "PDF Reader - Viewer & Editor",
-        "ToothFairyAI",
-        "setlog",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "모임 출석체크 - 그룹 출석 관리",
-        "문서 리더 & 스캔",
-        "PDF 리더 & 뷰어",
-        "PDF 리더: 뷰어·편집기"
+        "TravelReddi",
+        "기리고",
+        "Deme",
+        "BeforeScrollApp",
+        "Friend Roulette by Adam Alpert"
       ]
     },
     {
@@ -449,22 +459,11 @@
       "category": "ar_vr",
       "count": 5,
       "apps": [
+        "KindPoints: Rewards Board",
         "Invoice.Partner",
         "SpeakCards 상황별 영어회화 카드",
         "Everyone Can Garden",
-        "Spokn: Voice to Clipboard",
-        "Visit Zanzibar"
-      ]
-    },
-    {
-      "keyword": "핀테크",
-      "category": "fintech",
-      "count": 5,
-      "apps": [
-        "WorthIt - Know Your Worth",
-        "Astro Money - AI Expense",
-        "디지털온누리",
-        "Daytab"
+        "Spokn: Voice to Clipboard"
       ]
     },
     {
@@ -479,23 +478,23 @@
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 5,
+      "keyword": "핀테크",
+      "category": "fintech",
+      "count": 4,
       "apps": [
-        "Deme",
-        "BeforeScrollApp",
-        "Friend Roulette by Adam Alpert"
+        "WorthIt - Know Your Worth",
+        "Astro Money - AI Expense",
+        "디지털온누리"
       ]
     },
     {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 4,
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 3,
       "apps": [
-        "PDF 리더 및 뷰어",
-        "AirFindMyPods",
-        "PDF 리더 & 뷰어"
+        "TravelReddi",
+        "OORA",
+        "기리고"
       ]
     },
     {
@@ -503,9 +502,9 @@
       "category": "tag",
       "count": 3,
       "apps": [
+        "CoachSet",
         "캐치테이블",
-        "디지털온누리",
-        "PDF 리더 및 뷰어"
+        "디지털온누리"
       ]
     },
     {
@@ -516,6 +515,33 @@
         "건강보험25시",
         "대한민국 모바일 신분증",
         "정부24(구 민원24)"
+      ]
+    },
+    {
+      "keyword": "워크플로우",
+      "category": "productivity",
+      "count": 2,
+      "apps": [
+        "LinkEffekt",
+        "Spokn: Voice to Clipboard"
+      ]
+    },
+    {
+      "keyword": "매칭",
+      "category": "social",
+      "count": 2,
+      "apps": [
+        "기리고",
+        "Rivalr"
+      ]
+    },
+    {
+      "keyword": "네트워킹",
+      "category": "social",
+      "count": 2,
+      "apps": [
+        "기리고",
+        "Deme"
       ]
     },
     {
@@ -553,39 +579,13 @@
         "Just One: 오늘의 위로",
         "기리고"
       ]
-    },
-    {
-      "keyword": "라이프스타일",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Piplet Photo Video Memory Book",
-        "Everyone Can Garden"
-      ]
-    },
-    {
-      "keyword": "일정",
-      "category": "productivity",
-      "count": 2,
-      "apps": [
-        "Dola: 스마트 AI 도우미"
-      ]
-    },
-    {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 2,
-      "apps": [
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "NetShort - 인기 드라마 및 TV 프로그램"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 21,
-        "percent": 30,
+        "count": 19,
+        "percent": 27,
         "examples": [
           "Litro",
           "QR 코드 및 바코드 스캐너",
@@ -593,27 +593,28 @@
         ]
       },
       "freemium": {
-        "count": 53,
-        "percent": 76,
+        "count": 52,
+        "percent": 74,
         "examples": [
-          "WorthIt - Know Your Worth",
-          "Chirps Recorder",
-          "Litro"
+          "TravelReddi",
+          "Pantrease",
+          "문서 뷰어: PDF, Word"
         ]
       },
       "subscription": {
-        "count": 30,
-        "percent": 43,
+        "count": 31,
+        "percent": 44,
         "examples": [
-          "Invoice.Partner",
-          "WorthIt - Know Your Worth",
-          "Just One: 오늘의 위로"
+          "TravelReddi",
+          "CoachSet",
+          "KindPoints: Rewards Board"
         ]
       },
       "onetime": {
-        "count": 2,
-        "percent": 3,
+        "count": 3,
+        "percent": 4,
         "examples": [
+          "LinkEffekt",
           "Chirps Recorder",
           "PDF Reader - Viewer & Editor"
         ]
@@ -626,12 +627,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 53,
-      "percent": 76,
+      "count": 52,
+      "percent": 74,
       "examples": [
-        "WorthIt - Know Your Worth",
-        "Chirps Recorder",
-        "Litro"
+        "TravelReddi",
+        "Pantrease",
+        "문서 뷰어: PDF, Word"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -640,14 +641,14 @@
     "trends": [
       {
         "tech": "creator",
-        "count": 16,
-        "percent": 23,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "문서 뷰어: PDF, Word",
           "Just One: 오늘의 위로",
           "PDF Reader - Viewer & Editor",
           "PDF 리더 및 뷰어",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "Piplet Photo Video Memory Book"
+          "PDF 뷰어 - PDF Reader & PDF 편집"
         ]
       },
       {
@@ -655,11 +656,11 @@
         "count": 13,
         "percent": 19,
         "apps": [
+          "Pantrease",
+          "문서 리더 & 스캔",
           "Chirps Recorder",
           "문서 리더 & 스캔",
-          "ToothFairyAI",
-          "Pose Flow: Posing Camera",
-          "Dola: 스마트 AI 도우미"
+          "ToothFairyAI"
         ]
       },
       {
@@ -667,23 +668,23 @@
         "count": 13,
         "percent": 19,
         "apps": [
+          "KindPoints: Rewards Board",
+          "setlog",
           "Invoice.Partner",
           "Chirps Recorder",
-          "Pose Flow: Posing Camera",
-          "What I Did - 오늘 한 일",
-          "SpeakCards 상황별 영어회화 카드"
+          "Pose Flow: Posing Camera"
         ]
       },
       {
         "tech": "social",
-        "count": 6,
-        "percent": 9,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "TravelReddi",
+          "기리고",
           "Deme",
           "OORA",
-          "기리고",
-          "Rivalr",
-          "BeforeScrollApp"
+          "기리고"
         ]
       },
       {
@@ -735,27 +736,27 @@
     ],
     "dominant": {
       "tech": "creator",
-      "count": 16,
-      "percent": 23,
+      "count": 14,
+      "percent": 20,
       "apps": [
+        "문서 뷰어: PDF, Word",
         "Just One: 오늘의 위로",
         "PDF Reader - Viewer & Editor",
         "PDF 리더 및 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "Piplet Photo Video Memory Book"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     "emerging": [
       {
         "tech": "creator",
-        "count": 16,
-        "percent": 23,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "문서 뷰어: PDF, Word",
           "Just One: 오늘의 위로",
           "PDF Reader - Viewer & Editor",
           "PDF 리더 및 뷰어",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "Piplet Photo Video Memory Book"
+          "PDF 뷰어 - PDF Reader & PDF 편집"
         ]
       },
       {
@@ -763,11 +764,11 @@
         "count": 13,
         "percent": 19,
         "apps": [
+          "Pantrease",
+          "문서 리더 & 스캔",
           "Chirps Recorder",
           "문서 리더 & 스캔",
-          "ToothFairyAI",
-          "Pose Flow: Posing Camera",
-          "Dola: 스마트 AI 도우미"
+          "ToothFairyAI"
         ]
       },
       {
@@ -775,11 +776,23 @@
         "count": 13,
         "percent": 19,
         "apps": [
+          "KindPoints: Rewards Board",
+          "setlog",
           "Invoice.Partner",
           "Chirps Recorder",
-          "Pose Flow: Posing Camera",
-          "What I Did - 오늘 한 일",
-          "SpeakCards 상황별 영어회화 카드"
+          "Pose Flow: Posing Camera"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 8,
+        "percent": 11,
+        "apps": [
+          "TravelReddi",
+          "기리고",
+          "Deme",
+          "OORA",
+          "기리고"
         ]
       }
     ]
@@ -788,9 +801,23 @@
     {
       "type": "rising_category",
       "title": "소셜 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "소셜"
+    },
+    {
+      "type": "rising_category",
+      "title": "음악 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "음악"
+    },
+    {
+      "type": "rising_category",
+      "title": "비즈니스 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "비즈니스"
     },
     {
       "type": "rising_category",
@@ -805,29 +832,21 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "의료"
-    },
-    {
-      "type": "rising_category",
-      "title": "여행 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "여행"
     }
   ],
   "insight": {
-    "trend_summary": "AI와 크리에이터 도구가 앱 개발 트렌드를 주도하는 가운데, 소셜·사진·의료·여행 카테고리가 100% 급부상하며 새로운 기회를 제공하고 있습니다. Freemium 모델(76%)이 압도적으로 선호되며 '1인개발가능' 키워드가 60회 언급되어 인디 개발자의 기회가 확대되고 있습니다.",
+    "trend_summary": "소셜 카테고리가 300% 급성장하며 1인 개발자 친화적인 B2C 앱이 주목받고 있습니다. AI와 크리에이터 도구 기술이 각각 19-20%의 높은 비중을 차지하며, freemium 모델(74%)이 주류 수익화 전략으로 자리잡았습니다.",
     "trend_details": [
-      "AI 기술이 19%의 앱에 적용되며 핵심 기술로 자리잡음",
-      "크리에이터 도구가 23%로 가장 높은 비중을 차지하며 편집 기능 수요 증가",
-      "Freemium 모델이 76%로 주류 수익화 전략으로 확립",
-      "AR/VR 기술이 19%의 앱에서 활용되며 몰입형 경험 트렌드 지속"
+      "소셜 앱 카테고리 300% 폭증으로 경쟁 공백 발생",
+      "AI와 크리에이터 도구 기술의 융합 트렌드 가속화",
+      "freemium 모델이 74%로 주류 수익화 전략 확립"
     ],
     "hot_categories": [
       "소셜",
-      "사진 및 비디오"
+      "음악"
     ],
-    "opportunity": "소셜·사진·의료·여행 카테고리는 100% 성장했지만 경쟁앱이 1-2개로 적어 블루오션 진입 기회가 큽니다.",
-    "action_item": "AI 기능을 접목한 사진/비디오 편집 도구를 freemium 모델로 개발하여 크리에이터 타겟 시장에 진입하세요.",
-    "weekly_theme": "AI 크리에이터"
+    "opportunity": "소셜 카테고리는 300% 성장했지만 앱 수가 적어 1인 개발자가 진입하기 가장 유리한 블루오션입니다.",
+    "action_item": "AI 기능을 탑재한 소셜 앱을 freemium 모델로 개발해 급성장하는 시장에 빠르게 진입하세요.",
+    "weekly_theme": "소셜 AI 융합"
   }
 }
