@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T15:06:02.261Z",
+  "generatedAt": "2026-05-10T15:05:52.405Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -55,40 +55,10 @@
       "avgScore": 7.25
     },
     {
-      "category": "의료",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "건강보험25시"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 9,
-      "previousCount": 5,
-      "changePercent": 80,
-      "changeDirection": "up",
-      "apps": [
-        "Pantrease",
-        "Just One: 오늘의 위로",
-        "Piplet Photo Video Memory Book",
-        "위치 공유",
-        "기리고",
-        "Peak - Level Up Your Life",
-        "Friend Roulette by Adam Alpert",
-        "Everyone Can Garden",
-        "정부24(구 민원24)"
-      ],
-      "avgScore": 7.388888888888889
-    },
-    {
       "category": "교육",
       "currentCount": 5,
-      "previousCount": 4,
-      "changePercent": 25,
+      "previousCount": 3,
+      "changePercent": 67,
       "changeDirection": "up",
       "apps": [
         "KindPoints: Rewards Board",
@@ -100,12 +70,48 @@
       "avgScore": 7.1800000000000015
     },
     {
-      "category": "생산성",
-      "currentCount": 25,
-      "previousCount": 22,
-      "changePercent": 14,
+      "category": "라이프스타일",
+      "currentCount": 9,
+      "previousCount": 6,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
+        "IntelligentMe",
+        "Pantrease",
+        "Just One: 오늘의 위로",
+        "Piplet Photo Video Memory Book",
+        "위치 공유",
+        "기리고",
+        "Peak - Level Up Your Life",
+        "Friend Roulette by Adam Alpert",
+        "Everyone Can Garden"
+      ],
+      "avgScore": 7.422222222222222
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
+      "changeDirection": "up",
+      "apps": [
+        "FIKA Beans: Brew Journal",
+        "Chudu",
+        "캐치테이블"
+      ],
+      "avgScore": 6.966666666666666
+    },
+    {
+      "category": "생산성",
+      "currentCount": 27,
+      "previousCount": 21,
+      "changePercent": 29,
+      "changeDirection": "up",
+      "apps": [
+        "SOL Galaxy: Study Focus Timer",
+        "NextRole Tracker Pro",
+        "메모 - 메모 및 목록 작성용 메모장",
+        "PDF 변환: HWP뷰어 & 한글 뷰어",
         "문서 뷰어: PDF, Word",
         "setlog",
         "PDF Reader - Viewer & Editor",
@@ -128,40 +134,12 @@
         "PDF 리더 & 뷰어",
         "PDF 리더 및 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더: 뷰어·편집기",
-        "Spokn: Voice to Clipboard",
-        "PDF뷰어, PDF리더 그리고 파일열기"
+        "PDF 리더: 뷰어·편집기"
       ],
-      "avgScore": 7.0760000000000005
+      "avgScore": 7.05925925925926
     }
   ],
   "decliningCategories": [
-    {
-      "category": "금융",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
-      "changeDirection": "down",
-      "apps": [
-        "WorthIt - Know Your Worth",
-        "Astro Money - AI Expense",
-        "Debt Breaker",
-        "디지털온누리"
-      ],
-      "avgScore": 7.85
-    },
-    {
-      "category": "건강 및 피트니스",
-      "currentCount": 2,
-      "previousCount": 3,
-      "changePercent": -33,
-      "changeDirection": "down",
-      "apps": [
-        "CoachSet",
-        "dropfit.app"
-      ],
-      "avgScore": 7.25
-    },
     {
       "category": "엔터테인먼트",
       "currentCount": 2,
@@ -177,17 +155,29 @@
     {
       "category": "유틸리티",
       "currentCount": 5,
-      "previousCount": 10,
+      "previousCount": 8,
+      "changePercent": -37,
+      "changeDirection": "down",
+      "apps": [
+        "QR 코드 스캐너: 바코드 리더, QR 코드",
+        "위치 공유",
+        "Invoice.Partner",
+        "QR 코드 및 바코드 스캐너",
+        "기리고"
+      ],
+      "avgScore": 6.9799999999999995
+    },
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 2,
+      "previousCount": 4,
       "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "Invoice.Partner",
-        "QR 코드 및 바코드 스캐너",
-        "기리고",
-        "PITON ai",
-        "대한민국 모바일 신분증"
+        "Zehn - Persian Meditation",
+        "CoachSet"
       ],
-      "avgScore": 7.640000000000001
+      "avgScore": 7.45
     },
     {
       "category": "소셜 네트워킹",
@@ -214,13 +204,25 @@
     {
       "category": "스포츠",
       "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
+      "previousCount": 2,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
         "Rivalr"
       ],
       "avgScore": 8
+    },
+    {
+      "category": "금융",
+      "currentCount": 2,
+      "previousCount": 8,
+      "changePercent": -75,
+      "changeDirection": "down",
+      "apps": [
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "WorthIt - Know Your Worth"
+      ],
+      "avgScore": 8.35
     }
   ],
   "stableCategories": [
@@ -256,26 +258,23 @@
         "Ensiklopedia Doa"
       ],
       "avgScore": 7
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Chudu",
-        "캐치테이블"
-      ],
-      "avgScore": 7.05
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 61,
+      "count": 64,
       "apps": [
+        "IntelligentMe",
+        "SOL Galaxy: Study Focus Timer",
+        "Zehn - Persian Meditation",
+        "FIKA Beans: Brew Journal",
+        "NextRole Tracker Pro",
+        "메모 - 메모 및 목록 작성용 메모장",
+        "QR 코드 스캐너: 바코드 리더, QR 코드",
+        "위치 공유",
+        "PDF 변환: HWP뷰어 & 한글 뷰어",
         "TravelReddi",
         "CoachSet",
         "Pantrease",
@@ -284,7 +283,6 @@
         "문서 뷰어: PDF, Word",
         "setlog",
         "기리고",
-        "위치 공유",
         "문서 리더 & 스캔",
         "Invoice.Partner",
         "WorthIt - Know Your Worth",
@@ -317,26 +315,30 @@
         "BeforeScrollApp",
         "Friend Roulette by Adam Alpert",
         "Everyone Can Garden",
-        "PDF 리더: 뷰어·편집기",
-        "PITON ai",
-        "Astro Money - AI Expense",
-        "Debt Breaker",
-        "Spokn: Voice to Clipboard",
-        "dropfit.app"
+        "PDF 리더: 뷰어·편집기"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 51,
+      "count": 55,
       "apps": [
+        "IntelligentMe",
+        "SOL Galaxy: Study Focus Timer",
+        "Zehn - Persian Meditation",
+        "FIKA Beans: Brew Journal",
+        "NextRole Tracker Pro",
+        "메모 - 메모 및 목록 작성용 메모장",
+        "QR 코드 스캐너: 바코드 리더, QR 코드",
+        "위치 공유",
+        "PDF 변환: HWP뷰어 & 한글 뷰어",
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
         "TravelReddi",
         "Pantrease",
         "KindPoints: Rewards Board",
         "문서 뷰어: PDF, Word",
         "setlog",
         "기리고",
-        "위치 공유",
         "WorthIt - Know Your Worth",
         "Litro",
         "Just One: 오늘의 위로",
@@ -366,12 +368,7 @@
         "BeforeScrollApp",
         "Friend Roulette by Adam Alpert",
         "Everyone Can Garden",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PITON ai",
-        "Astro Money - AI Expense",
-        "Debt Breaker",
-        "Spokn: Voice to Clipboard",
-        "dropfit.app"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
@@ -379,6 +376,8 @@
       "category": "ai",
       "count": 15,
       "apps": [
+        "IntelligentMe",
+        "QR 코드 스캐너: 바코드 리더, QR 코드",
         "Pantrease",
         "Chirps Recorder",
         "문서 리더 & 스캔",
@@ -386,16 +385,16 @@
         "Pose Flow: Posing Camera",
         "Dola: 스마트 AI 도우미",
         "Verbotica",
-        "AutoStudio AI",
-        "PITON ai",
-        "Astro Money - AI Expense"
+        "AutoStudio AI"
       ]
     },
     {
       "keyword": "생산성",
-      "category": "tag",
-      "count": 13,
+      "category": "productivity",
+      "count": 12,
       "apps": [
+        "IntelligentMe",
+        "SOL Galaxy: Study Focus Timer",
         "PDF Reader - Viewer & Editor",
         "문서 리더 & 스캔",
         "Voyage: Deep Space",
@@ -404,9 +403,7 @@
         "모임 출석체크 - 그룹 출석 관리",
         "Dola: 스마트 AI 도우미",
         "기리고",
-        "PDF 리더 & 뷰어",
-        "PITON ai",
-        "Spokn: Voice to Clipboard"
+        "PDF 리더 & 뷰어"
       ]
     },
     {
@@ -429,7 +426,7 @@
     {
       "keyword": "편집",
       "category": "creator",
-      "count": 10,
+      "count": 9,
       "apps": [
         "문서 뷰어: PDF, Word",
         "PDF Reader - Viewer & Editor",
@@ -438,8 +435,7 @@
         "문서 리더 & 스캔",
         "AutoStudio AI",
         "PDF 리더 & 뷰어",
-        "PDF 리더: 뷰어·편집기",
-        "PDF뷰어, PDF리더 그리고 파일열기"
+        "PDF 리더: 뷰어·편집기"
       ]
     },
     {
@@ -455,18 +451,6 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 5,
-      "apps": [
-        "KindPoints: Rewards Board",
-        "Invoice.Partner",
-        "SpeakCards 상황별 영어회화 카드",
-        "Everyone Can Garden",
-        "Spokn: Voice to Clipboard"
-      ]
-    },
-    {
       "keyword": "콘텐츠",
       "category": "creator",
       "count": 5,
@@ -478,13 +462,32 @@
       ]
     },
     {
-      "keyword": "핀테크",
-      "category": "fintech",
+      "keyword": "AR",
+      "category": "ar_vr",
       "count": 4,
       "apps": [
-        "WorthIt - Know Your Worth",
-        "Astro Money - AI Expense",
-        "디지털온누리"
+        "KindPoints: Rewards Board",
+        "Invoice.Partner",
+        "SpeakCards 상황별 영어회화 카드",
+        "Everyone Can Garden"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 3,
+      "apps": [
+        "NextRole Tracker Pro",
+        "Dola: 스마트 AI 도우미"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "QR 코드 스캐너: 바코드 리더, QR 코드",
+        "PDF 리더 및 뷰어"
       ]
     },
     {
@@ -498,32 +501,47 @@
       ]
     },
     {
-      "keyword": "B2B2C",
+      "keyword": "게임화",
       "category": "tag",
-      "count": 3,
-      "apps": [
-        "CoachSet",
-        "캐치테이블",
-        "디지털온누리"
-      ]
-    },
-    {
-      "keyword": "공공서비스",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "건강보험25시",
-        "대한민국 모바일 신분증",
-        "정부24(구 민원24)"
-      ]
-    },
-    {
-      "keyword": "워크플로우",
-      "category": "productivity",
       "count": 2,
       "apps": [
-        "LinkEffekt",
-        "Spokn: Voice to Clipboard"
+        "SOL Galaxy: Study Focus Timer",
+        "Voyage: Deep Space"
+      ]
+    },
+    {
+      "keyword": "명상",
+      "category": "health",
+      "count": 2,
+      "apps": [
+        "Zehn - Persian Meditation",
+        "Just One: 오늘의 위로"
+      ]
+    },
+    {
+      "keyword": "안전",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "위치 공유"
+      ]
+    },
+    {
+      "keyword": "핀테크",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "WorthIt - Know Your Worth"
+      ]
+    },
+    {
+      "keyword": "B2B2C",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "CoachSet",
+        "캐치테이블"
       ]
     },
     {
@@ -552,87 +570,60 @@
         "Chirps Recorder",
         "AutoStudio AI"
       ]
-    },
-    {
-      "keyword": "교육",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Chirps Recorder",
-        "SpeakCards 상황별 영어회화 카드"
-      ]
-    },
-    {
-      "keyword": "실용성",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Litro",
-        "QR 코드 및 바코드 스캐너"
-      ]
-    },
-    {
-      "keyword": "한국시장",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Just One: 오늘의 위로",
-        "기리고"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 19,
-        "percent": 27,
+        "count": 24,
+        "percent": 34,
         "examples": [
-          "Litro",
-          "QR 코드 및 바코드 스캐너",
-          "문서 리더 & 스캔"
+          "SOL Galaxy: Study Focus Timer",
+          "메모 - 메모 및 목록 작성용 메모장",
+          "QR 코드 스캐너: 바코드 리더, QR 코드"
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "TravelReddi",
-          "Pantrease",
-          "문서 뷰어: PDF, Word"
+          "IntelligentMe",
+          "SOL Galaxy: Study Focus Timer",
+          "Zehn - Persian Meditation"
         ]
       },
       "subscription": {
-        "count": 31,
-        "percent": 44,
+        "count": 34,
+        "percent": 49,
         "examples": [
-          "TravelReddi",
-          "CoachSet",
-          "KindPoints: Rewards Board"
+          "IntelligentMe",
+          "Zehn - Persian Meditation",
+          "FIKA Beans: Brew Journal"
         ]
       },
       "onetime": {
-        "count": 3,
-        "percent": 4,
+        "count": 5,
+        "percent": 7,
         "examples": [
-          "LinkEffekt",
-          "Chirps Recorder",
-          "PDF Reader - Viewer & Editor"
+          "SOL Galaxy: Study Focus Timer",
+          "메모 - 메모 및 목록 작성용 메모장",
+          "LinkEffekt"
         ]
       },
       "unknown": {
-        "count": 9,
-        "percent": 13,
+        "count": 6,
+        "percent": 9,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "TravelReddi",
-        "Pantrease",
-        "문서 뷰어: PDF, Word"
+        "IntelligentMe",
+        "SOL Galaxy: Study Focus Timer",
+        "Zehn - Persian Meditation"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -640,9 +631,21 @@
   "techTrends": {
     "trends": [
       {
+        "tech": "ai",
+        "count": 13,
+        "percent": 19,
+        "apps": [
+          "IntelligentMe",
+          "QR 코드 스캐너: 바코드 리더, QR 코드",
+          "Pantrease",
+          "문서 리더 & 스캔",
+          "Chirps Recorder"
+        ]
+      },
+      {
         "tech": "creator",
-        "count": 14,
-        "percent": 20,
+        "count": 13,
+        "percent": 19,
         "apps": [
           "문서 뷰어: PDF, Word",
           "Just One: 오늘의 위로",
@@ -652,27 +655,15 @@
         ]
       },
       {
-        "tech": "ai",
-        "count": 13,
-        "percent": 19,
-        "apps": [
-          "Pantrease",
-          "문서 리더 & 스캔",
-          "Chirps Recorder",
-          "문서 리더 & 스캔",
-          "ToothFairyAI"
-        ]
-      },
-      {
         "tech": "ar_vr",
-        "count": 13,
-        "percent": 19,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "FIKA Beans: Brew Journal",
+          "NextRole Tracker Pro",
           "KindPoints: Rewards Board",
           "setlog",
-          "Invoice.Partner",
-          "Chirps Recorder",
-          "Pose Flow: Posing Camera"
+          "Invoice.Partner"
         ]
       },
       {
@@ -689,40 +680,31 @@
       },
       {
         "tech": "productivity",
-        "count": 5,
-        "percent": 7,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "IntelligentMe",
+          "SOL Galaxy: Study Focus Timer",
+          "NextRole Tracker Pro",
           "Voyage: Deep Space",
-          "Dola: 스마트 AI 도우미",
-          "기리고",
-          "Dola: 스마트 AI 도우미",
-          "PITON ai"
-        ]
-      },
-      {
-        "tech": "fintech",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "WorthIt - Know Your Worth",
-          "Astro Money - AI Expense",
-          "건강보험25시"
-        ]
-      },
-      {
-        "tech": "blockchain",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "대한민국 모바일 신분증"
+          "Dola: 스마트 AI 도우미"
         ]
       },
       {
         "tech": "health",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "Zehn - Persian Meditation",
+          "Just One: 오늘의 위로"
+        ]
+      },
+      {
+        "tech": "fintech",
         "count": 1,
         "percent": 1,
         "apps": [
-          "Just One: 오늘의 위로"
+          "WorthIt - Know Your Worth"
         ]
       },
       {
@@ -735,22 +717,34 @@
       }
     ],
     "dominant": {
-      "tech": "creator",
-      "count": 14,
-      "percent": 20,
+      "tech": "ai",
+      "count": 13,
+      "percent": 19,
       "apps": [
-        "문서 뷰어: PDF, Word",
-        "Just One: 오늘의 위로",
-        "PDF Reader - Viewer & Editor",
-        "PDF 리더 및 뷰어",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
+        "IntelligentMe",
+        "QR 코드 스캐너: 바코드 리더, QR 코드",
+        "Pantrease",
+        "문서 리더 & 스캔",
+        "Chirps Recorder"
       ]
     },
     "emerging": [
       {
+        "tech": "ai",
+        "count": 13,
+        "percent": 19,
+        "apps": [
+          "IntelligentMe",
+          "QR 코드 스캐너: 바코드 리더, QR 코드",
+          "Pantrease",
+          "문서 리더 & 스캔",
+          "Chirps Recorder"
+        ]
+      },
+      {
         "tech": "creator",
-        "count": 14,
-        "percent": 20,
+        "count": 13,
+        "percent": 19,
         "apps": [
           "문서 뷰어: PDF, Word",
           "Just One: 오늘의 위로",
@@ -760,27 +754,15 @@
         ]
       },
       {
-        "tech": "ai",
-        "count": 13,
-        "percent": 19,
-        "apps": [
-          "Pantrease",
-          "문서 리더 & 스캔",
-          "Chirps Recorder",
-          "문서 리더 & 스캔",
-          "ToothFairyAI"
-        ]
-      },
-      {
         "tech": "ar_vr",
-        "count": 13,
-        "percent": 19,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "FIKA Beans: Brew Journal",
+          "NextRole Tracker Pro",
           "KindPoints: Rewards Board",
           "setlog",
-          "Invoice.Partner",
-          "Chirps Recorder",
-          "Pose Flow: Posing Camera"
+          "Invoice.Partner"
         ]
       },
       {
@@ -793,6 +775,18 @@
           "Deme",
           "OORA",
           "기리고"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "IntelligentMe",
+          "SOL Galaxy: Study Focus Timer",
+          "NextRole Tracker Pro",
+          "Voyage: Deep Space",
+          "Dola: 스마트 AI 도우미"
         ]
       }
     ]
@@ -828,25 +822,25 @@
     },
     {
       "type": "rising_category",
-      "title": "의료 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "음식 및 음료 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "의료"
+      "category": "음식 및 음료"
     }
   ],
   "insight": {
-    "trend_summary": "소셜 카테고리가 300% 급성장하며 1인 개발자 친화적인 B2C 앱이 주목받고 있습니다. AI와 크리에이터 도구 기술이 각각 19-20%의 높은 비중을 차지하며, freemium 모델(74%)이 주류 수익화 전략으로 자리잡았습니다.",
+    "trend_summary": "소셜 카테고리가 300% 급성장하며 1인 개발자에게 유리한 시장 환경이 조성되고 있습니다. AI와 크리에이터 도구가 각각 19%의 높은 비중을 차지하며 기술 트렌드를 이끌고 있고, freemium 모델이 79%로 주도적 수익화 전략으로 자리잡았습니다.",
     "trend_details": [
-      "소셜 앱 카테고리 300% 폭증으로 경쟁 공백 발생",
-      "AI와 크리에이터 도구 기술의 융합 트렌드 가속화",
-      "freemium 모델이 74%로 주류 수익화 전략 확립"
+      "소셜(300%), 음악(100%), 비즈니스(100%) 카테고리 급성장으로 새로운 기회 창출",
+      "1인개발가능 키워드가 64회로 최다 언급되어 인디 개발자 친화적 환경 확산",
+      "AI(19%)와 크리에이터 도구(19%)가 기술 트렌드 양대산맥으로 부상"
     ],
     "hot_categories": [
       "소셜",
       "음악"
     ],
-    "opportunity": "소셜 카테고리는 300% 성장했지만 앱 수가 적어 1인 개발자가 진입하기 가장 유리한 블루오션입니다.",
-    "action_item": "AI 기능을 탑재한 소셜 앱을 freemium 모델로 개발해 급성장하는 시장에 빠르게 진입하세요.",
-    "weekly_theme": "소셜 AI 융합"
+    "opportunity": "소셜과 음악 카테고리는 각각 300%와 100% 급성장했지만 앱 수가 4개와 1개로 적어 경쟁 강도가 낮은 블루오션 영역입니다.",
+    "action_item": "AI 기능을 접목한 소셜 또는 음악 앱을 freemium 모델로 개발하여 B2C 시장 진입을 시도하세요.",
+    "weekly_theme": "AI 소셜"
   }
 }
