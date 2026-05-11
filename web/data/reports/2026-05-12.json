@@ -1,0 +1,635 @@
+{
+  "date": "2026-05-12",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "OneCoin - Assets & Returns",
+      "developer": "Chengdu Reinvent Technology Co., Ltd.",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/e5/8f/a5e58f52-eab0-708c-d4a2-181c2be82bdd/AppIcon_OneCoin-0-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/onecoin-assets-returns/id6502965303?uo=2",
+      "idea_summary": "가상 코인별 수익률 추적 및 포트폴리오 관리",
+      "analysis": {
+        "problem": "개별 코인 투자 성과를 직관적으로 파악하기 어려움 [추론]",
+        "solution": "코인별 매매 기록과 수익률을 시각적으로 관리 [추론]",
+        "target_user": "암호화폐 투자자, 특히 다양한 코인을 보유한 사용자 [추론]",
+        "unique_point": "코인 특화 포트폴리오 추적에 집중한 심플한 UI [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CoinTracker",
+          "Blockfolio",
+          "Delta"
+        ],
+        "timing_reason": "암호화폐 투자 대중화와 개인 투자자 증가 [추론]",
+        "growth_potential": "중급, 규제 리스크 존재하나 시장 성장세 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 광고 수익 모델 [추측]",
+        "pricing_suggestion": "월 3-5달러 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "CoinGecko API"
+        ],
+        "key_features": [
+          "포트폴리오 추적",
+          "수익률 계산",
+          "차트 시각화"
+        ],
+        "clone_tip": "암호화폐 API 연동과 실시간 가격 업데이트가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "경쟁이 치열하지만 틈새 시장 존재",
+      "deep_report_id": "ios-onecoin-assets-returns-1778511778548"
+    },
+    {
+      "rank": 2,
+      "name": "麺ナビ",
+      "developer": "satoshi amasaki",
+      "category": "음식 및 음료",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/5e/1b/a75e1ba3-05f1-a32f-fe85-76d81fa6fae1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%E9%BA%BA%E3%83%8A%E3%83%93/id6765815330?uo=2",
+      "idea_summary": "라멘집 전용 네비게이션과 맛집 추천",
+      "analysis": {
+        "problem": "맛있는 라멘집을 찾기 어렵고 정보가 분산되어 있음 [추론]",
+        "solution": "라멘집에 특화된 지도 검색과 상세 정보 제공 [추론]",
+        "target_user": "라멘 애호가, 일본 현지 거주자 및 관광객 [추론]",
+        "unique_point": "라멘집만을 위한 전용 네비게이션 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "구글맵",
+          "야후로컬",
+          "타베로그"
+        ],
+        "timing_reason": "코로나 이후 로컬 맛집 탐방 문화 재부상 [추론]",
+        "growth_potential": "일본 로컬 시장에서 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "라멘집 광고 수수료 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "라멘집당 월 1-3만원 광고비 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Google Maps API",
+          "Firebase"
+        ],
+        "key_features": [
+          "지도 검색",
+          "라멘집 정보",
+          "리뷰 시스템"
+        ],
+        "clone_tip": "한국에서는 '국밥집 네비' 등으로 로컬라이제이션 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#로컬"
+      ],
+      "verdict": "틈새 시장이지만 확장성 제한적"
+    },
+    {
+      "rank": 3,
+      "name": "Showdup",
+      "developer": "Ronith Nair",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/3e/f4/873ef4f0-6b50-7f58-c124-38d049db4e46/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/showdup/id6766400246?uo=2",
+      "idea_summary": "헬스장 출석 인증과 운동 동기부여",
+      "analysis": {
+        "problem": "혼자 운동할 때 동기부여 부족과 꾸준함 유지 어려움 [추론]",
+        "solution": "헬스장 방문 인증과 소셜 기능으로 동기부여 [추론]",
+        "target_user": "헬스장 이용자, 특히 운동 초보자와 의지박약자 [추론]",
+        "unique_point": "헬스장 출석에 특화된 체크인 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "마이피트니스팔",
+          "스트롱",
+          "짐레코드"
+        ],
+        "timing_reason": "포스트 코로나 건강 관심 증대와 헬스장 재개방 [추론]",
+        "growth_potential": "피트니스 앱 시장 성장과 함께 중급 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 헬스장 파트너십 [추론]",
+        "pricing_suggestion": "월 2-4달러 구독료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "GPS API",
+          "소셜 로그인"
+        ],
+        "key_features": [
+          "GPS 출석체크",
+          "소셜 피드",
+          "운동 기록"
+        ],
+        "clone_tip": "헬스장 위치 데이터와 GPS 정확도가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#피트니스"
+      ],
+      "verdict": "건강 트렌드에 부합하는 실용적 앱"
+    },
+    {
+      "rank": 4,
+      "name": "Oops Again",
+      "developer": "Jan Armbrust",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/7c/f5/ef7cf526-73bf-5b8b-bbe9-4697be4cc21c/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/oops-again/id6754561255?uo=2",
+      "idea_summary": "실수나 습관 재발 추적 및 개선 도구",
+      "analysis": {
+        "problem": "나쁜 습관 재발이나 실수를 객관적으로 파악하기 어려움 [추론]",
+        "solution": "실수나 습관 재발을 기록하고 패턴을 분석 [추론]",
+        "target_user": "습관 개선을 원하는 사람, 자기계발에 관심 있는 사용자 [추론]",
+        "unique_point": "실수와 재발에 초점을 맞춘 독특한 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Streaks",
+          "Way of Life"
+        ],
+        "timing_reason": "자기계발과 마인드풀니스 트렌드 확산 [추론]",
+        "growth_potential": "틈새 시장이지만 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능과 개인화 코칭 [추론]",
+        "pricing_suggestion": "월 2-3달러 또는 일회성 5달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "로컬 DB",
+          "차트 라이브러리"
+        ],
+        "key_features": [
+          "실수 기록",
+          "패턴 분석",
+          "알림 시스템"
+        ],
+        "clone_tip": "심플한 UI와 데이터 시각화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#습관개선"
+      ],
+      "verdict": "참신하지만 시장 규모 제한적"
+    },
+    {
+      "rank": 5,
+      "name": "Ganadera Inteligente",
+      "developer": "Vanny Maltez",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/5d/8b/995d8b71-663d-571a-533a-b723719c096e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ganadera-inteligente/id6767035394?uo=2",
+      "idea_summary": "AI 기반 스마트 축산업 관리 시스템",
+      "analysis": {
+        "problem": "축산업에서 가축 상태와 농장 관리의 디지털화 부족 [추론]",
+        "solution": "AI를 활용한 가축 건강 모니터링과 농장 관리 [추론]",
+        "target_user": "축산업 종사자, 특히 중소규모 농장 운영자 [추론]",
+        "unique_point": "축산업 특화 AI 솔루션으로 극도로 니치한 시장 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CowManager",
+          "Allflex Livestock",
+          "전통적 농장관리"
+        ],
+        "timing_reason": "농업 디지털 전환과 AI 기술 발전 [추론]",
+        "growth_potential": "시장은 작지만 경쟁이 적어 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "B2B 구독 모델, 농장 규모별 차등 가격 [추론]",
+        "pricing_suggestion": "농장당 월 50-200달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "AI/ML 모델",
+          "IoT 센서 연동",
+          "클라우드 DB"
+        ],
+        "key_features": [
+          "가축 건강 모니터링",
+          "사료 관리",
+          "생산성 분석"
+        ],
+        "clone_tip": "도메인 지식과 AI 모델링 전문성 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.3
+      },
+      "tags": [
+        "#B2B",
+        "#AI특화",
+        "#농업테크"
+      ],
+      "verdict": "극도로 전문적이지만 블루오션"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "겸사겸사",
+      "developer": "PINCRUX Inc",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/wJKCkAobdlVLG3njQzWhBi8Y9klzd-HAVv-C16WMd8o1pArPUZMbtNidRFxjz7ZRv5qW1eGml5KsKAfg2hto",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pincrux.reward.bokyemtv",
+      "idea_summary": "TV 시청하며 리워드 적립하는 앱테크",
+      "analysis": {
+        "problem": "TV 시청 시간을 활용한 부가 수익 창출 니즈 [추론]",
+        "solution": "TV 프로그램 시청 인증으로 포인트 적립 [추론]",
+        "target_user": "TV 시청 시간이 많은 중장년층, 앱테크 관심자 [추론]",
+        "unique_point": "TV 시청과 리워드를 결합한 독특한 앱테크 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "캐시슬라이드",
+          "허니스크린",
+          "팝코인"
+        ],
+        "timing_reason": "앱테크 문화 확산과 OTT 시청 증가 [추론]",
+        "growth_potential": "앱테크 시장 성장과 함께 중급 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 브랜드 협찬 [추론]",
+        "pricing_suggestion": "광고주당 CPM 기반 수익 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Android Native",
+          "광고 SDK",
+          "리워드 시스템"
+        ],
+        "key_features": [
+          "TV 시청 인증",
+          "포인트 적립",
+          "리워드 교환"
+        ],
+        "clone_tip": "시청 인증 방식과 광고 파트너 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#앱테크"
+      ],
+      "verdict": "틈새 아이디어지만 수익성 검증 필요",
+      "deep_report_id": "android-겸사겸사-1778511854436"
+    },
+    {
+      "rank": 2,
+      "name": "Vigloo 비글루 - 숏드라마",
+      "developer": "SpoonLabs",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/67wXtHG32V_YeH6zvDMenRCL8yd6JxE1jnC8yhTrQ7auBKO35QqInNpDVWDSDGmpVw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.vigloo",
+      "idea_summary": "세로형 숏드라마 전용 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "기존 OTT는 긴 콘텐츠 위주로 짧은 시간 소비 니즈 미충족 [추론]",
+        "solution": "5-15분 분량의 세로형 숏드라마 큐레이션 [추론]",
+        "target_user": "짧은 여가시간을 가진 직장인, MZ세대 [추론]",
+        "unique_point": "숏드라마에만 특화된 세로형 시청 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "틱톡",
+          "유튜브 Shorts",
+          "ReelShort"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 패턴 확산과 5G 상용화 [추론]",
+        "growth_potential": "숏폼 시장 성장과 함께 높은 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독료, 광고 수익, PPV 모델 [추론]",
+        "pricing_suggestion": "월 3-5천원 구독 또는 편당 100-300원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "동영상 스트리밍",
+          "CDN"
+        ],
+        "key_features": [
+          "세로형 플레이어",
+          "콘텐츠 큐레이션",
+          "개인화 추천"
+        ],
+        "clone_tip": "콘텐츠 확보와 스트리밍 인프라가 가장 큰 도전 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#콘텐츠플랫폼",
+        "#B2C",
+        "#동영상"
+      ],
+      "verdict": "콘텐츠 확보가 관건인 고성장 모델"
+    },
+    {
+      "rank": 3,
+      "name": "기리고",
+      "developer": "Kwonsiwon",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/LGPKzuI-9eSVok5nYaflViX3SbYQUEFLkQm0MfnAoBRu7VeKFi0rz_mjP41E5pU_6YMED1A_yt8qXnmG25Wi",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.girigo",
+      "idea_summary": "생활 속 기록과 추억 아카이빙 서비스",
+      "analysis": {
+        "problem": "일상의 소중한 순간들이 디지털 속에서 흩어져 관리되지 않음 [추론]",
+        "solution": "간편한 일상 기록과 추억 아카이빙 기능 제공 [추론]",
+        "target_user": "일상 기록을 소중히 여기는 20-40대, 특히 여성층 [추론]",
+        "unique_point": "한국적 감성의 추억 보관함 컨셉 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Journey",
+          "Momento"
+        ],
+        "timing_reason": "디지털 디톡스와 아날로그 감성 회귀 트렌드 [추론]",
+        "growth_potential": "감성 마케팅 성공 시 중급 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 템플릿과 클라우드 저장소 [추론]",
+        "pricing_suggestion": "월 2-3천원 또는 연간 2-3만원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "클라우드 스토리지",
+          "이미지 처리"
+        ],
+        "key_features": [
+          "일기 작성",
+          "사진 관리",
+          "추억 타임라인"
+        ],
+        "clone_tip": "감성적 UI/UX와 한국적 디자인이 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#감성"
+      ],
+      "verdict": "감성 마케팅이 성공 열쇠인 안정적 모델"
+    },
+    {
+      "rank": 4,
+      "name": "위치 공유",
+      "developer": "P & L Studio",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/-o1CH4hizs4HWhJD7k4bv6Ix5GH720tB1jrSecHSIiaRdzi4gSd05kmigDO_j2rKQRJ8-JJDjaBFQakvPCkae5o",
+      "app_url": "https://play.google.com/store/apps/details?id=com.sharlocation.friend.family",
+      "idea_summary": "가족/친구 간 실시간 위치 공유 서비스",
+      "analysis": {
+        "problem": "가족 구성원의 안전 확인과 만남 장소 공유의 번거로움 [추론]",
+        "solution": "간편한 실시간 위치 공유와 도착 알림 기능 [추론]",
+        "target_user": "자녀를 둔 부모, 고령자 가족, 모임 주최자 [추론]",
+        "unique_point": "위치 공유에만 집중한 심플한 기능 구성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Find My Friends",
+          "Life360",
+          "구글 가족"
+        ],
+        "timing_reason": "고령화 사회와 1인 가구 증가로 안전 니즈 확대 [추론]",
+        "growth_potential": "안전 서비스 시장과 함께 중급 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능과 광고 수익 [추론]",
+        "pricing_suggestion": "월 1-2천원 또는 광고 기반 무료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "GPS API",
+          "푸시 알림"
+        ],
+        "key_features": [
+          "실시간 위치",
+          "그룹 관리",
+          "알림 설정"
+        ],
+        "clone_tip": "배터리 효율성과 정확한 위치 추적이 기술적 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#안전"
+      ],
+      "verdict": "실용적이지만 차별화 포인트 부족"
+    },
+    {
+      "rank": 5,
+      "name": "PDF 리더: 뷰어·편집기",
+      "developer": "Dcutuansaw",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/fwiNwX4Nx9e1_nbvH_RrIXwfdOgUmG9ripgLh59y-npgKRm2zNjxfZBNkmqMG5K9Is2UjBNm4OZOJSgP2cAuSQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pdfreader.pdf.viewer.pdfeditor",
+      "idea_summary": "올인원 PDF 뷰어 및 편집 도구",
+      "analysis": {
+        "problem": "모바일에서 PDF 문서 관리와 편집이 불편함 [확인]",
+        "solution": "뷰어, 편집, 변환 기능을 통합한 원스톱 솔루션 [추론]",
+        "target_user": "문서 작업이 많은 직장인, 학생, 프리랜서 [추론]",
+        "unique_point": "PDF 관련 모든 기능을 하나의 앱에서 처리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS Office",
+          "Foxit"
+        ],
+        "timing_reason": "재택근무 증가와 모바일 오피스 수요 확산 [추론]",
+        "growth_potential": "시장 포화 상태지만 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능과 광고 제거 [추론]",
+        "pricing_suggestion": "월 2-5달러 또는 일회성 10-20달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "PDF 라이브러리",
+          "문서 편집 엔진",
+          "클라우드 연동"
+        ],
+        "key_features": [
+          "PDF 뷰어",
+          "주석 기능",
+          "문서 변환"
+        ],
+        "clone_tip": "PDF 렌더링 성능과 편집 기능 안정성이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#생산성",
+        "#B2C",
+        "#문서편집"
+      ],
+      "verdict": "치열한 경쟁 속 안정적 수요 시장"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 특화 도구와 틈새 시장 타겟팅이 두드러짐. 실용성과 참신성을 동시에 추구하는 앱들이 증가하고 있음 [추론]",
+    "trend_details": [
+      "축산업 등 극도로 전문화된 B2B 솔루션 등장",
+      "TV 시청 등 일상 활동과 리워드 결합 모델 확산",
+      "숏폼 콘텐츠 전용 플랫폼 세분화",
+      "일상 기록과 감성 마케팅 결합 트렌드"
+    ],
+    "hot_categories": [
+      "AI/ML 특화 도구",
+      "숏폼 콘텐츠",
+      "앱테크 모델"
+    ],
+    "opportunity": "극도로 니치한 B2B 시장에서의 AI 활용과 일상 활동의 수익화 모델",
+    "action_item": "농업, 축산업 등 전통 산업의 디지털 전환 니즈 조사 필요"
+  }
+}
