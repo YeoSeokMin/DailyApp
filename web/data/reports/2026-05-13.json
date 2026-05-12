@@ -1,0 +1,615 @@
+{
+  "date": "2026-05-13",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Yore",
+      "developer": "Hleb Rastsisheuski",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/5b/ad/da5badbc-3b71-6721-7542-d93864cfca33/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/yore/id6767934644?uo=2",
+      "idea_summary": "과거 기억과 순간을 기록하고 회상하는 앱",
+      "analysis": {
+        "problem": "현대인들이 빠른 생활 속에서 소중한 순간들을 잊어버리고 기억하지 못하는 문제 [추론]",
+        "solution": "시간 기반 기억 저장소를 제공하여 과거의 순간들을 체계적으로 기록하고 회상할 수 있게 도움 [추론]",
+        "target_user": "자신의 삶을 돌아보고 기억을 소중히 여기는 20-40대 사용자 [추론]",
+        "unique_point": "단순한 일기가 아닌 시간 중심의 기억 아카이빙 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Journey"
+        ],
+        "timing_reason": "디지털 디톡스와 마인드풀니스 트렌드로 인해 의미 있는 기억 보존에 대한 관심 증가 [추론]",
+        "growth_potential": "개인화된 추억 관리 서비스는 지속적인 니즈가 있어 안정적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 고급 기능 및 무제한 저장 제공 [추론]",
+        "pricing_suggestion": "월 2,900원, 연간 24,900원의 구독 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "타임라인 기록",
+          "감정 태깅",
+          "검색 기능"
+        ],
+        "clone_tip": "시간 기반 UI와 감정 상태 연결이 핵심, 사진과 텍스트의 조화로운 레이아웃 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "개인적 가치 높지만 수익화 어려움",
+      "deep_report_id": "ios-yore-1778598184152"
+    },
+    {
+      "rank": 2,
+      "name": "AthleteMind Elite",
+      "developer": "JOHN BRIAN CARROLL",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/68/04/ed680485-51b0-89b2-c09c-66ac947c988e/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/athletemind-elite/id6763830577?uo=2",
+      "idea_summary": "운동선수를 위한 정신력 강화 트레이닝",
+      "analysis": {
+        "problem": "운동선수들이 신체 훈련에만 집중하고 정신력 트레이닝은 소홀히 하는 문제 [추론]",
+        "solution": "스포츠 심리학 기반의 체계적인 멘탈 트레이닝 프로그램 제공 [추론]",
+        "target_user": "아마추어부터 프로까지 경기력 향상을 원하는 모든 운동선수 [추론]",
+        "unique_point": "운동 종목별 맞춤형 정신력 훈련 프로그램 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Headspace",
+          "Champion's Mind"
+        ],
+        "timing_reason": "스포츠 과학의 발달로 멘탈 트레이닝의 중요성이 널리 인식되는 시점 [추론]",
+        "growth_potential": "스포츠 산업 성장과 함께 전문적 정신력 훈련 시장 확대 예상 [추론]"
+      },
+      "business": {
+        "monetization": "월간 구독과 개별 프로그램 판매 혼합 모델 [추론]",
+        "pricing_suggestion": "월 9,900원, 프리미엄 월 19,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "HealthKit"
+        ],
+        "key_features": [
+          "명상 가이드",
+          "시각화 훈련",
+          "성과 추적"
+        ],
+        "clone_tip": "스포츠 심리학 전문가와 협업하여 과학적 근거 기반 콘텐츠 개발이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "틈새시장이지만 전문성으로 승부 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Prof — étudie sans stress",
+      "developer": "Mathis Nogara",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/c2/b3/66c2b3ac-2a85-1418-6e5d-0fab574b445f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/prof-%C3%A9tudie-sans-stress/id6766353760?uo=2",
+      "idea_summary": "스트레스 없는 학습을 위한 교수법 앱",
+      "analysis": {
+        "problem": "학생들이 과도한 학습 스트레스로 인해 학습 효율이 떨어지는 문제 [추론]",
+        "solution": "과학적 학습법과 스트레스 관리 기술을 결합한 맞춤형 학습 가이드 제공 [추론]",
+        "target_user": "시험 스트레스에 시달리는 중고등학생 및 대학생 [추론]",
+        "unique_point": "학습 효율과 정신 건강을 동시에 고려한 통합적 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Quizlet",
+          "Anki"
+        ],
+        "timing_reason": "코로나19 이후 온라인 학습이 보편화되면서 효과적 학습법에 대한 관심 증가 [추론]",
+        "growth_potential": "교육 시장의 디지털 전환과 학습자 웰빙 중시 트렌드로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료에 프리미엄 학습 콘텐츠 유료 제공 [추론]",
+        "pricing_suggestion": "월 7,900원, 연간 59,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "HealthKit"
+        ],
+        "key_features": [
+          "스트레스 모니터링",
+          "맞춤형 학습계획",
+          "명상 기능"
+        ],
+        "clone_tip": "교육심리학과 인지과학 기반의 알고리즘 개발이 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "교육시장 대세인 웰빙 학습의 선두주자"
+    },
+    {
+      "rank": 4,
+      "name": "Bin Day Buddy",
+      "developer": "Anicka Bereza",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/4d/fb/bb4dfb80-f5f6-726f-d36a-ed0654aa6ee5/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/bin-day-buddy/id6767555439?uo=2",
+      "idea_summary": "쓰레기 배출일 알림 및 관리 도우미",
+      "analysis": {
+        "problem": "복잡한 쓰레기 분리수거 일정을 기억하지 못해 놓치는 일이 빈번한 문제 [확인]",
+        "solution": "지역별 쓰레기 수거 일정을 자동으로 알림해주는 스마트 리마인더 시스템 [추론]",
+        "target_user": "아파트나 주택 거주자, 특히 쓰레기 배출 규칙이 복잡한 지역 주민 [추론]",
+        "unique_point": "지역별 맞춤형 쓰레기 분류 가이드라인과 수거일정 통합 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Trash Day",
+          "Recycle Coach"
+        ],
+        "timing_reason": "환경 의식 증가와 분리수거 규칙 복잡화로 체계적 관리 도구 필요성 급증 [추론]",
+        "growth_potential": "일상 필수 앱으로 꾸준한 사용자 확보 가능하지만 시장 규모는 제한적 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료에 프리미엄 알림 기능 및 환경 정보 제공 [추론]",
+        "pricing_suggestion": "월 1,900원, 연간 14,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "UserNotifications",
+          "MapKit"
+        ],
+        "key_features": [
+          "지역 인식",
+          "푸시 알림",
+          "분리수거 가이드"
+        ],
+        "clone_tip": "지역별 데이터베이스 구축이 핵심, 정확한 수거 일정 정보 수집이 관건 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "실용적이지만 수익화 한계가 명확"
+    },
+    {
+      "rank": 5,
+      "name": "BorderPulse",
+      "developer": "Luis Bracamontes",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/c9/9a/96c99ab0-8329-14cf-904c-01a7df1841e0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/borderpulse/id6762310342?uo=2",
+      "idea_summary": "실시간 국경 대기시간 및 통관 정보",
+      "analysis": {
+        "problem": "국경 통과시 예상 대기시간을 몰라 여행 계획이 어려운 문제 [추론]",
+        "solution": "실시간 국경 대기시간과 통관 상황을 제공하여 여행자가 미리 계획할 수 있게 도움 [추론]",
+        "target_user": "국경을 자주 넘나드는 비즈니스 여행자나 국경 인근 거주자 [추론]",
+        "unique_point": "실시간 국경 상황 데이터와 예측 알고리즘을 결합한 정확한 정보 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CBP Border Wait Times",
+          "Border Traffic"
+        ],
+        "timing_reason": "코로나19 회복기에 국제 여행 증가와 함께 효율적 여행 계획 도구 수요 증가 [추론]",
+        "growth_potential": "특정 지역에 국한되어 시장 규모 제한적이지만 해당 지역에서는 필수 앱 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 모델과 프리미엄 알림 서비스 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreLocation",
+          "API Integration"
+        ],
+        "key_features": [
+          "실시간 데이터",
+          "예측 알고리즘",
+          "알림 시스템"
+        ],
+        "clone_tip": "정부 API 연동과 크라우드소싱 데이터 수집이 핵심, 정확도가 생명 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "틈새 시장의 필수 도구로 안정적 수익"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Manus AI",
+      "developer": "BUTTERFLY EFFECT PTE. LTD.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/7RIeDBEnjVVn3d1yr441p7u0BK9eT8E6P9i__XYTcJAzOe7sqVgJp7pmlypqY9NBqjI",
+      "app_url": "https://play.google.com/store/apps/details?id=tech.butterfly.app",
+      "idea_summary": "AI 기반 개인 비서 및 업무 자동화",
+      "analysis": {
+        "problem": "반복적인 업무와 일정 관리로 인한 생산성 저하 문제 [추론]",
+        "solution": "AI가 개인의 업무 패턴을 학습하여 자동화 및 최적화된 일정 관리 제공 [추론]",
+        "target_user": "효율적 업무 관리를 원하는 직장인 및 프리랜서 [추론]",
+        "unique_point": "개인 맞춤형 AI 학습으로 점진적 지능형 업무 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Notion AI",
+          "Monday.com"
+        ],
+        "timing_reason": "AI 기술 대중화와 원격근무 증가로 개인 생산성 도구 수요 폭증 [추론]",
+        "growth_potential": "AI 비서 시장 급성장과 함께 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 고급 AI 기능 제공 [추론]",
+        "pricing_suggestion": "월 12,900원, 연간 129,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
+        "tech_stack": [
+          "Android Jetpack",
+          "TensorFlow",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 학습",
+          "업무 자동화",
+          "스마트 알림"
+        ],
+        "clone_tip": "AI 모델 훈련과 개인화 알고리즘 개발이 핵심, 데이터 프라이버시 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.7
+      },
+      "tags": [
+        "#고난이도개발",
+        "#B2C"
+      ],
+      "verdict": "AI 시대의 필수 생산성 도구",
+      "deep_report_id": "android-manus-ai-1778598253606"
+    },
+    {
+      "rank": 2,
+      "name": "듀오링고(Duolingo): 언어 학습",
+      "developer": "Duolingo",
+      "category": "교육",
+      "icon": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.duolingo",
+      "idea_summary": "게임화된 언어학습 플랫폼",
+      "analysis": {
+        "problem": "기존 언어 학습의 지루함과 지속성 부족 문제 [확인]",
+        "solution": "게임 요소를 활용한 재미있고 지속 가능한 언어 학습 경험 제공 [확인]",
+        "target_user": "새로운 언어를 배우고 싶어하는 모든 연령대 사용자 [확인]",
+        "unique_point": "스트릭 시스템과 캐릭터를 통한 강력한 동기부여 메커니즘 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Babbel",
+          "Busuu"
+        ],
+        "timing_reason": "글로벌화 가속과 원격 학습 보편화로 언어 학습 앱 시장 급성장 [추론]",
+        "growth_potential": "언어 학습 시장 지속 성장과 게임화 트렌드로 높은 성장성 [확인]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 광고 수익 하이브리드 모델 [확인]",
+        "pricing_suggestion": "월 8,900원, 연간 79,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12개월 이상 [추론]",
+        "estimated_cost": "5000만원 [추론]",
+        "tech_stack": [
+          "Android Jetpack",
+          "Machine Learning",
+          "Backend API"
+        ],
+        "key_features": [
+          "게임화 요소",
+          "진도 추적",
+          "소셜 기능"
+        ],
+        "clone_tip": "언어학 전문가 협업과 지속적 콘텐츠 업데이트가 성공의 열쇠 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 9.2
+      },
+      "tags": [
+        "#고난이도개발",
+        "#B2C"
+      ],
+      "verdict": "언어학습 혁신의 대표 사례"
+    },
+    {
+      "rank": 3,
+      "name": "Temu: 억만장자처럼 쇼핑하기",
+      "developer": "Temu",
+      "category": "쇼핑",
+      "icon": "https://play-lh.googleusercontent.com/Nz5sdWyh7jn4eTy_GSaRBDgaKhLC1pvYywC6fklDOlPGbopmeFN9NkqgKGjsvJMbKVEI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.einnovation.temu",
+      "idea_summary": "게임화된 쇼핑과 소셜 커머스 결합",
+      "analysis": {
+        "problem": "온라인 쇼핑의 지루함과 단조로운 경험 [추론]",
+        "solution": "게임 요소와 소셜 기능을 결합한 재미있는 쇼핑 경험 제공 [추론]",
+        "target_user": "가성비를 중시하고 새로운 쇼핑 경험을 원하는 젊은 소비자 [추론]",
+        "unique_point": "쇼핑을 게임처럼 즐길 수 있는 독특한 UX/UI [추론]"
+      },
+      "market": {
+        "competitors": [
+          "AliExpress",
+          "Wish"
+        ],
+        "timing_reason": "Z세대의 소셜 커머스 선호와 게임화 쇼핑 트렌드 확산 [추론]",
+        "growth_potential": "중국 이커머스 플랫폼의 글로벌 확장과 함께 급성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "커미션 기반 마켓플레이스 모델 [확인]",
+        "pricing_suggestion": "판매자 수수료 5-15% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "15개월 이상 [추론]",
+        "estimated_cost": "1억원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Big Data",
+          "Payment Gateway"
+        ],
+        "key_features": [
+          "게임화 쇼핑",
+          "소셜 공유",
+          "AI 추천"
+        ],
+        "clone_tip": "복잡한 로지스틱스와 결제 시스템 구축이 가장 큰 허들 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#대기업수준",
+        "#B2C"
+      ],
+      "verdict": "거대 자본력 기반 플랫폼 사업"
+    },
+    {
+      "rank": 4,
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.anthropic.claude",
+      "idea_summary": "안전하고 유용한 AI 어시스턴트",
+      "analysis": {
+        "problem": "기존 AI 어시스턴트의 안전성과 신뢰성 문제 [추론]",
+        "solution": "Constitutional AI 기술을 통한 더 안전하고 도움이 되는 AI 대화 경험 [추론]",
+        "target_user": "안전하고 신뢰할 수 있는 AI 도구를 원하는 전문가와 일반 사용자 [추론]",
+        "unique_point": "안전성과 유용성의 균형을 중시하는 AI 철학 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Bard"
+        ],
+        "timing_reason": "AI 안전성에 대한 사회적 관심 증가와 규제 논의 활발 [추론]",
+        "growth_potential": "AI 안전성 중시 트렌드와 함께 차별화된 포지션 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 고급 AI 기능 제공 [추론]",
+        "pricing_suggestion": "월 20,000원 프로 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "클론 불가능 [추론]",
+        "estimated_cost": "수십억원 [추론]",
+        "tech_stack": [
+          "Advanced AI",
+          "Cloud Infrastructure",
+          "Mobile"
+        ],
+        "key_features": [
+          "AI 대화",
+          "문서 분석",
+          "코딩 지원"
+        ],
+        "clone_tip": "자체 AI 모델 개발 없이는 진정한 클론 불가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#대기업수준",
+        "#B2C"
+      ],
+      "verdict": "거대 AI 모델 기반, 개인 개발 불가"
+    },
+    {
+      "rank": 5,
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/lmG9HlI0awHie0cyBieWXeNjpyXvHPwDBb8MNOVIyp0P8VEh95AiBHtUZSDVR3HLe3A",
+      "app_url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+      "idea_summary": "범용 AI 대화형 어시스턴트",
+      "analysis": {
+        "problem": "복잡한 질문에 대한 즉시 답변과 창작 지원의 어려움 [확인]",
+        "solution": "대화형 AI를 통한 질문 답변, 창작, 분석 등 종합 지원 [확인]",
+        "target_user": "학습, 업무, 창작 활동을 하는 모든 사용자 [확인]",
+        "unique_point": "자연스러운 대화를 통한 다양한 작업 수행 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Claude",
+          "Bard"
+        ],
+        "timing_reason": "생성형 AI 기술 성숙과 대중적 인지도 확산 [확인]",
+        "growth_potential": "AI 보편화와 함께 지속적 사용자 증가 예상 [확인]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 고급 모델 및 우선 액세스 제공 [확인]",
+        "pricing_suggestion": "월 20달러 플러스 플랜 [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "클론 불가능 [추론]",
+        "estimated_cost": "수십억원 [추론]",
+        "tech_stack": [
+          "Large Language Model",
+          "Cloud Computing",
+          "Mobile"
+        ],
+        "key_features": [
+          "텍스트 생성",
+          "대화",
+          "이미지 분석"
+        ],
+        "clone_tip": "자체 대규모 언어 모델 없이는 유사 서비스 구현 불가 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#대기업수준",
+        "#B2C"
+      ],
+      "verdict": "AI 혁명의 선도주자, 개인 개발 불가"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 생산성 도구와 개인화된 웰빙 앱이 주요 트렌드로 부상하고 있으며, 게임화 요소를 활용한 사용자 참여 증진이 핵심 전략입니다 [추론]. 특히 스트레스 관리와 학습 효율을 결합한 교육 앱들이 주목받고 있습니다 [추론].",
+    "trend_details": [
+      "AI 개인화 서비스 확산",
+      "웰빙과 생산성 결합",
+      "게임화 UX 대중화",
+      "틈새 시장 전문화"
+    ],
+    "hot_categories": [
+      "생산성",
+      "교육",
+      "건강 및 피트니스"
+    ],
+    "opportunity": "AI를 활용한 개인 맞춤형 서비스와 정신건강 관리 앱의 융합 영역",
+    "action_item": "스트레스 관리 + 생산성 향상을 결합한 직장인 대상 앱 기획 검토"
+  }
+}
