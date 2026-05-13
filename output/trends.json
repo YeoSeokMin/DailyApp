@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T15:05:59.084Z",
+  "generatedAt": "2026-05-13T15:05:46.484Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -17,6 +17,32 @@
         "위치 공유"
       ],
       "avgScore": 7
+    },
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 4,
+      "previousCount": 2,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AthleteMind Elite",
+        "Showdup",
+        "Zehn - Persian Meditation",
+        "CoachSet"
+      ],
+      "avgScore": 7.574999999999999
+    },
+    {
+      "category": "여행",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "BorderPulse",
+        "TravelReddi"
+      ],
+      "avgScore": 7.15
     },
     {
       "category": "음악",
@@ -73,25 +99,16 @@
       "avgScore": 7.2
     },
     {
-      "category": "음식 및 음료",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "麺ナビ",
-        "FIKA Beans: Brew Journal",
-        "Chudu"
-      ],
-      "avgScore": 6.7
-    },
-    {
       "category": "생산성",
       "currentCount": 25,
-      "previousCount": 20,
-      "changePercent": 25,
+      "previousCount": 22,
+      "changePercent": 14,
       "changeDirection": "up",
       "apps": [
+        "Bin Day Buddy",
+        "Manus AI",
+        "Claude by Anthropic",
+        "ChatGPT",
         "Ganadera Inteligente",
         "PDF 리더: 뷰어·편집기",
         "Twingo",
@@ -112,57 +129,49 @@
         "PDF 리더 및 뷰어",
         "PDF 리더 & 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "모임 출석체크 - 그룹 출석 관리",
-        "Dola: 스마트 AI 도우미",
-        "기리고",
-        "문서 리더 & 스캔"
+        "PDF뷰어, PDF리더 그리고 파일열기"
       ],
-      "avgScore": 7.12
+      "avgScore": 7.200000000000001
     }
   ],
   "decliningCategories": [
     {
       "category": "교육",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
+      "currentCount": 4,
+      "previousCount": 5,
+      "changePercent": -20,
       "changeDirection": "down",
       "apps": [
+        "Prof — étudie sans stress",
+        "듀오링고(Duolingo): 언어 학습",
         "KindPoints: Rewards Board",
-        "Chirps Recorder",
-        "SpeakCards 상황별 영어회화 카드"
+        "Chirps Recorder"
       ],
-      "avgScore": 6.866666666666667
+      "avgScore": 7.625
     },
     {
-      "category": "엔터테인먼트",
-      "currentCount": 2,
-      "previousCount": 3,
-      "changePercent": -33,
+      "category": "라이프스타일",
+      "currentCount": 8,
+      "previousCount": 11,
+      "changePercent": -27,
       "changeDirection": "down",
       "apps": [
-        "Vigloo 비글루 - 숏드라마",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
+        "Yore",
+        "Oops Again",
+        "겸사겸사",
+        "기리고",
+        "Amel — İslami Yaşam Asistanı",
+        "IntelligentMe",
+        "Pantrease",
+        "Just One: 오늘의 위로"
       ],
-      "avgScore": 8.05
-    },
-    {
-      "category": "소셜 네트워킹",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Deme"
-      ],
-      "avgScore": 7.2
+      "avgScore": 7.012499999999999
     },
     {
       "category": "금융",
       "currentCount": 3,
-      "previousCount": 7,
-      "changePercent": -57,
+      "previousCount": 5,
+      "changePercent": -40,
       "changeDirection": "down",
       "apps": [
         "OneCoin - Assets & Returns",
@@ -170,40 +179,42 @@
         "WorthIt - Know Your Worth"
       ],
       "avgScore": 7.8999999999999995
+    },
+    {
+      "category": "엔터테인먼트",
+      "currentCount": 1,
+      "previousCount": 3,
+      "changePercent": -67,
+      "changeDirection": "down",
+      "apps": [
+        "Vigloo 비글루 - 숏드라마"
+      ],
+      "avgScore": 7.8
     }
   ],
   "stableCategories": [
     {
-      "category": "건강 및 피트니스",
-      "currentCount": 3,
-      "previousCount": 3,
+      "category": "쇼핑",
+      "currentCount": 1,
+      "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Showdup",
-        "Zehn - Persian Meditation",
-        "CoachSet"
+        "Temu: 억만장자처럼 쇼핑하기"
       ],
-      "avgScore": 7.3999999999999995
+      "avgScore": 6.5
     },
     {
-      "category": "라이프스타일",
-      "currentCount": 9,
-      "previousCount": 9,
+      "category": "음식 및 음료",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Oops Again",
-        "겸사겸사",
-        "기리고",
-        "Amel — İslami Yaşam Asistanı",
-        "IntelligentMe",
-        "Pantrease",
-        "Just One: 오늘의 위로",
-        "Piplet Photo Video Memory Book",
-        "위치 공유"
+        "麺ナビ",
+        "FIKA Beans: Brew Journal"
       ],
-      "avgScore": 7.144444444444444
+      "avgScore": 6.65
     },
     {
       "category": "의료",
@@ -215,17 +226,6 @@
         "Med-Plantão"
       ],
       "avgScore": 8
-    },
-    {
-      "category": "여행",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "TravelReddi"
-      ],
-      "avgScore": 7.2
     },
     {
       "category": "내비게이션",
@@ -254,8 +254,13 @@
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 63,
+      "count": 60,
       "apps": [
+        "Yore",
+        "AthleteMind Elite",
+        "Prof — étudie sans stress",
+        "Bin Day Buddy",
+        "BorderPulse",
         "OneCoin - Assets & Returns",
         "麺ナビ",
         "Showdup",
@@ -300,19 +305,24 @@
         "What I Did - 오늘 한 일",
         "PDF 리더 & 뷰어",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "Deme",
-        "SpeakCards 상황별 영어회화 카드",
-        "Chudu",
-        "Piplet Photo Video Memory Book",
-        "모임 출석체크 - 그룹 출석 관리"
+        "PDF뷰어, PDF리더 그리고 파일열기"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 56,
+      "count": 58,
       "apps": [
+        "Yore",
+        "AthleteMind Elite",
+        "Prof — étudie sans stress",
+        "Bin Day Buddy",
+        "BorderPulse",
+        "Manus AI",
+        "듀오링고(Duolingo): 언어 학습",
+        "Temu: 억만장자처럼 쇼핑하기",
+        "Claude by Anthropic",
+        "ChatGPT",
         "OneCoin - Assets & Returns",
         "麺ナビ",
         "Showdup",
@@ -353,20 +363,17 @@
         "Pose Flow: Posing Camera",
         "What I Did - 오늘 한 일",
         "PDF 리더 & 뷰어",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "Deme",
-        "SpeakCards 상황별 영어회화 카드",
-        "Chudu",
-        "Piplet Photo Video Memory Book",
-        "Dola: 스마트 AI 도우미",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
+        "PDF뷰어, PDF리더 그리고 파일열기"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 14,
+      "count": 15,
       "apps": [
+        "Manus AI",
+        "Claude by Anthropic",
+        "ChatGPT",
         "Oops Again",
         "Ganadera Inteligente",
         "Ai Translator, Voice Translate",
@@ -376,15 +383,15 @@
         "Chirps Recorder",
         "문서 리더 & 스캔",
         "ToothFairyAI",
-        "Pose Flow: Posing Camera",
-        "Dola: 스마트 AI 도우미"
+        "Pose Flow: Posing Camera"
       ]
     },
     {
       "keyword": "생산성",
-      "category": "tag",
-      "count": 13,
+      "category": "productivity",
+      "count": 10,
       "apps": [
+        "Manus AI",
         "PDF 리더: 뷰어·편집기",
         "Twingo",
         "IntelligentMe",
@@ -393,16 +400,13 @@
         "문서 리더 & 스캔",
         "Voyage: Deep Space",
         "What I Did - 오늘 한 일",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "모임 출석체크 - 그룹 출석 관리",
-        "Dola: 스마트 AI 도우미",
-        "기리고"
+        "PDF뷰어, PDF리더 그리고 파일열기"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 12,
+      "count": 10,
       "apps": [
         "Ganadera Inteligente",
         "Med-Plantão",
@@ -412,54 +416,52 @@
         "Invoice.Partner",
         "PDF Reader - Viewer & Editor",
         "ToothFairyAI",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "모임 출석체크 - 그룹 출석 관리"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
       "keyword": "편집",
       "category": "creator",
-      "count": 7,
+      "count": 6,
       "apps": [
         "PDF 리더: 뷰어·편집기",
         "PDF 리더 및 뷰어",
         "문서 뷰어: PDF, Word",
         "PDF Reader - Viewer & Editor",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 리더 & 스캔"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "Showdup",
-        "TravelReddi",
-        "기리고",
-        "Deme"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 5,
-      "apps": [
-        "Vigloo 비글루 - 숏드라마",
-        "Chirps Recorder",
-        "Just One: 오늘의 위로",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
       "keyword": "일정",
       "category": "productivity",
-      "count": 4,
+      "count": 5,
       "apps": [
+        "Bin Day Buddy",
+        "Manus AI",
         "国际日程转换器",
         "Med-Plantão",
-        "NextRole Tracker Pro",
-        "Dola: 스마트 AI 도우미"
+        "NextRole Tracker Pro"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "Temu: 억만장자처럼 쇼핑하기",
+        "Showdup",
+        "TravelReddi",
+        "기리고"
+      ]
+    },
+    {
+      "keyword": "대기업수준",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Temu: 억만장자처럼 쇼핑하기",
+        "Claude by Anthropic",
+        "ChatGPT"
       ]
     },
     {
@@ -473,39 +475,48 @@
       ]
     },
     {
-      "keyword": "안전",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "위치 공유"
-      ]
-    },
-    {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 3,
-      "apps": [
-        "KindPoints: Rewards Board",
-        "Invoice.Partner",
-        "SpeakCards 상황별 영어회화 카드"
-      ]
-    },
-    {
-      "keyword": "로컬",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "麺ナビ",
-        "기리고"
-      ]
-    },
-    {
-      "keyword": "스트리밍",
+      "keyword": "콘텐츠",
       "category": "creator",
-      "count": 2,
+      "count": 3,
       "apps": [
         "Vigloo 비글루 - 숏드라마",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
+        "Chirps Recorder",
+        "Just One: 오늘의 위로"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 2,
+      "apps": [
+        "AthleteMind Elite",
+        "겸사겸사"
+      ]
+    },
+    {
+      "keyword": "자동화",
+      "category": "productivity",
+      "count": 2,
+      "apps": [
+        "Manus AI",
+        "Med-Plantão"
+      ]
+    },
+    {
+      "keyword": "고난이도개발",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Manus AI",
+        "듀오링고(Duolingo): 언어 학습"
+      ]
+    },
+    {
+      "keyword": "안전",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "위치 공유"
       ]
     },
     {
@@ -536,21 +547,12 @@
       ]
     },
     {
-      "keyword": "네트워킹",
-      "category": "social",
+      "keyword": "AR",
+      "category": "ar_vr",
       "count": 2,
       "apps": [
-        "기리고",
-        "Deme"
-      ]
-    },
-    {
-      "keyword": "교육",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Chirps Recorder",
-        "SpeakCards 상황별 영어회화 카드"
+        "KindPoints: Rewards Board",
+        "Invoice.Partner"
       ]
     },
     {
@@ -566,55 +568,55 @@
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 21,
-        "percent": 30,
+        "count": 14,
+        "percent": 20,
         "examples": [
-          "위치 공유",
-          "SOL Galaxy: Study Focus Timer",
-          "메모 - 메모 및 목록 작성용 메모장"
+          "Prof — étudie sans stress",
+          "Bin Day Buddy",
+          "BorderPulse"
         ]
       },
       "freemium": {
-        "count": 54,
-        "percent": 77,
+        "count": 53,
+        "percent": 76,
         "examples": [
-          "OneCoin - Assets & Returns",
-          "麺ナビ",
-          "Showdup"
+          "Yore",
+          "AthleteMind Elite",
+          "Prof — étudie sans stress"
         ]
       },
       "subscription": {
-        "count": 32,
-        "percent": 46,
+        "count": 38,
+        "percent": 54,
         "examples": [
-          "OneCoin - Assets & Returns",
-          "Showdup",
-          "Ganadera Inteligente"
+          "Yore",
+          "AthleteMind Elite",
+          "Prof — étudie sans stress"
         ]
       },
       "onetime": {
-        "count": 9,
-        "percent": 13,
+        "count": 10,
+        "percent": 14,
         "examples": [
+          "Prof — étudie sans stress",
           "Oops Again",
-          "PDF 리더: 뷰어·편집기",
-          "国际日程转换器"
+          "PDF 리더: 뷰어·편집기"
         ]
       },
       "unknown": {
-        "count": 8,
-        "percent": 11,
+        "count": 9,
+        "percent": 13,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 54,
-      "percent": 77,
+      "count": 53,
+      "percent": 76,
       "examples": [
-        "OneCoin - Assets & Returns",
-        "麺ナビ",
-        "Showdup"
+        "Yore",
+        "AthleteMind Elite",
+        "Prof — étudie sans stress"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -623,20 +625,44 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 12,
-        "percent": 17,
+        "count": 15,
+        "percent": 21,
         "apps": [
-          "Oops Again",
-          "Ganadera Inteligente",
-          "Ai Translator, Voice Translate",
-          "IntelligentMe",
-          "QR 코드 스캐너: 바코드 리더, QR 코드"
+          "Prof — étudie sans stress",
+          "Manus AI",
+          "Claude by Anthropic",
+          "ChatGPT",
+          "Oops Again"
+        ]
+      },
+      {
+        "tech": "ar_vr",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "듀오링고(Duolingo): 언어 학습",
+          "ChatGPT",
+          "문서 리더 & 스캔",
+          "FIKA Beans: Brew Journal",
+          "NextRole Tracker Pro"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 9,
+        "percent": 13,
+        "apps": [
+          "Bin Day Buddy",
+          "Manus AI",
+          "国际日程转换器",
+          "Twingo",
+          "Med-Plantão"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 8,
+        "percent": 11,
         "apps": [
           "Vigloo 비글루 - 숏드라마",
           "PDF 리더: 뷰어·편집기",
@@ -646,38 +672,14 @@
         ]
       },
       {
-        "tech": "ar_vr",
-        "count": 10,
-        "percent": 14,
-        "apps": [
-          "문서 리더 & 스캔",
-          "FIKA Beans: Brew Journal",
-          "NextRole Tracker Pro",
-          "KindPoints: Rewards Board",
-          "setlog"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "国际日程转换器",
-          "Twingo",
-          "Med-Plantão",
-          "IntelligentMe",
-          "SOL Galaxy: Study Focus Timer"
-        ]
-      },
-      {
         "tech": "social",
         "count": 4,
         "percent": 6,
         "apps": [
+          "Temu: 억만장자처럼 쇼핑하기",
           "Showdup",
           "TravelReddi",
-          "기리고",
-          "Deme"
+          "기리고"
         ]
       },
       {
@@ -690,69 +692,58 @@
         ]
       },
       {
+        "tech": "subscription",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "AthleteMind Elite",
+          "겸사겸사"
+        ]
+      },
+      {
         "tech": "fintech",
         "count": 1,
         "percent": 1,
         "apps": [
           "WorthIt - Know Your Worth"
         ]
-      },
-      {
-        "tech": "subscription",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "겸사겸사"
-        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 12,
-      "percent": 17,
+      "count": 15,
+      "percent": 21,
       "apps": [
-        "Oops Again",
-        "Ganadera Inteligente",
-        "Ai Translator, Voice Translate",
-        "IntelligentMe",
-        "QR 코드 스캐너: 바코드 리더, QR 코드"
+        "Prof — étudie sans stress",
+        "Manus AI",
+        "Claude by Anthropic",
+        "ChatGPT",
+        "Oops Again"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 12,
-        "percent": 17,
+        "count": 15,
+        "percent": 21,
         "apps": [
-          "Oops Again",
-          "Ganadera Inteligente",
-          "Ai Translator, Voice Translate",
-          "IntelligentMe",
-          "QR 코드 스캐너: 바코드 리더, QR 코드"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 11,
-        "percent": 16,
-        "apps": [
-          "Vigloo 비글루 - 숏드라마",
-          "PDF 리더: 뷰어·편집기",
-          "PDF 리더 및 뷰어",
-          "문서 뷰어: PDF, Word",
-          "Just One: 오늘의 위로"
+          "Prof — étudie sans stress",
+          "Manus AI",
+          "Claude by Anthropic",
+          "ChatGPT",
+          "Oops Again"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 10,
-        "percent": 14,
+        "count": 11,
+        "percent": 16,
         "apps": [
+          "듀오링고(Duolingo): 언어 학습",
+          "ChatGPT",
           "문서 리더 & 스캔",
           "FIKA Beans: Brew Journal",
-          "NextRole Tracker Pro",
-          "KindPoints: Rewards Board",
-          "setlog"
+          "NextRole Tracker Pro"
         ]
       },
       {
@@ -760,11 +751,23 @@
         "count": 9,
         "percent": 13,
         "apps": [
+          "Bin Day Buddy",
+          "Manus AI",
           "国际日程转换器",
           "Twingo",
-          "Med-Plantão",
-          "IntelligentMe",
-          "SOL Galaxy: Study Focus Timer"
+          "Med-Plantão"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 8,
+        "percent": 11,
+        "apps": [
+          "Vigloo 비글루 - 숏드라마",
+          "PDF 리더: 뷰어·편집기",
+          "PDF 리더 및 뷰어",
+          "문서 뷰어: PDF, Word",
+          "Just One: 오늘의 위로"
         ]
       }
     ]
@@ -776,6 +779,20 @@
       "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "소셜"
+    },
+    {
+      "type": "rising_category",
+      "title": "건강 및 피트니스 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "건강 및 피트니스"
+    },
+    {
+      "type": "rising_category",
+      "title": "여행 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "여행"
     },
     {
       "type": "rising_category",
@@ -799,26 +816,26 @@
       "category": "참고"
     },
     {
-      "type": "rising_category",
-      "title": "음식 및 음료 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
+      "type": "tech_trend",
+      "title": "AI 기능 통합 트렌드",
+      "description": "21%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
-      "category": "음식 및 음료"
+      "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "소셜과 음악 카테고리가 급성장하고 있으며, AI와 창작자 도구 영역이 트렌드를 주도하고 있습니다. '1인개발가능' 키워드가 가장 핫하여 인디 개발자에게 유리한 시장 환경입니다.",
+    "trend_summary": "소셜 카테고리가 200% 급상승하며 가장 주목받고 있고, 건강&피트니스, 여행, 음악, 비즈니스도 100% 성장세를 보이고 있습니다. AI 기능 통합이 21%의 앱에서 활용되며 핵심 차별화 요소로 부상했습니다.",
     "trend_details": [
-      "소셜 카테고리 200% 급상승으로 새로운 소셜 앱 기회 증가",
-      "AI 기술 트렌드가 17%로 1위, 생산성과 창작자 도구에 집중",
-      "freemium 모델이 77%로 지배적, 구독 모델도 46%로 안정적"
+      "소셜 카테고리의 폭발적 성장 (200% 증가)",
+      "AI 기능 통합이 필수 요소로 자리잡음 (21% 적용)",
+      "Freemium 모델이 주류 수익화 방식으로 정착 (76%)"
     ],
     "hot_categories": [
       "소셜",
-      "음악"
+      "건강 및 피트니스"
     ],
-    "opportunity": "소셜 카테고리가 200% 성장했지만 앱 수가 적어 경쟁이 낮은 블루오션 기회",
-    "action_item": "AI 기능을 활용한 소셜 또는 음악 앱을 freemium 모델로 개발 시작",
-    "weekly_theme": "소셜 AI"
+    "opportunity": "소셜 카테고리의 폭발적 성장에도 불구하고 앱 수가 적어 조기 진입자에게 유리한 블루오션 상황입니다.",
+    "action_item": "소셜 또는 건강&피트니스 카테고리에서 AI 기능을 통합한 freemium 앱 개발을 즉시 시작하세요.",
+    "weekly_theme": "소셜 AI 통합"
   }
 }
