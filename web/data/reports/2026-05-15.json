@@ -1,0 +1,648 @@
+{
+  "date": "2026-05-15",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Stow Timer | 集中タイマー",
+      "developer": "REINA KIMURA",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/67/a1/9667a146-d41c-ebd1-bbd1-af3684165e6b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/stow-timer-%E9%9B%86%E4%B8%AD%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC/id6766028505?uo=2",
+      "idea_summary": "집중력 향상을 위한 미니멀 타이머",
+      "analysis": {
+        "problem": "집중력 저하와 시간 관리 문제 해결 [추론]",
+        "solution": "단순하고 직관적인 집중 타이머 인터페이스 제공 [추론]",
+        "target_user": "학생, 직장인, 프리랜서 등 집중력이 필요한 사용자 [추론]",
+        "unique_point": "미니멀한 디자인과 간편한 조작으로 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Focus Keeper",
+          "Toggl"
+        ],
+        "timing_reason": "재택근무 확산으로 개인 생산성 관리 니즈 증가 [추론]",
+        "growth_potential": "생산성 앱 시장의 지속적 성장과 함께 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 광고 기반 수익 모델 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 기능 월 2-3달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Node.js"
+        ],
+        "key_features": [
+          "타이머 설정",
+          "통계 추적",
+          "알림 기능",
+          "테마 설정"
+        ],
+        "clone_tip": "핵심은 단순함과 사용성, UI/UX에 집중하라 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#생산성",
+        "#미니멀"
+      ],
+      "verdict": "단순하지만 효과적인 생산성 도구",
+      "deep_report_id": "ios-stow-timer-1778771196882"
+    },
+    {
+      "rank": 2,
+      "name": "FoodPhoto AI",
+      "developer": "Foodketing LLC",
+      "category": "사진 및 비디오",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0b/96/e9/0b96e9b5-ce42-561c-deba-5eac144ce0bd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/foodphoto-ai/id6757116173?uo=2",
+      "idea_summary": "AI로 음식 사진을 전문적으로 보정",
+      "analysis": {
+        "problem": "음식 사진 촬영 시 조명과 색감 문제 해결 [추론]",
+        "solution": "AI 기술을 활용한 자동 음식 사진 보정 기능 [추론]",
+        "target_user": "요리 블로거, SNS 이용자, 레스토랑 운영자 [추론]",
+        "unique_point": "음식 전문 AI 보정으로 특화된 결과 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Snapseed",
+          "Foodie"
+        ],
+        "timing_reason": "음식 SNS 문화 확산과 AI 기술 접근성 향상 [추론]",
+        "growth_potential": "소셜미디어와 푸드테크 시장 성장에 따른 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 필터와 고급 편집 기능 유료 제공 [추론]",
+        "pricing_suggestion": "기본 무료, 프로 버전 월 4-5달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Swift/Kotlin",
+          "CoreML/TensorFlow",
+          "Computer Vision"
+        ],
+        "key_features": [
+          "AI 보정",
+          "원탭 편집",
+          "필터 적용",
+          "SNS 공유"
+        ],
+        "clone_tip": "음식 특화 AI 모델 학습이 핵심, 데이터셋 확보가 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#소셜미디어"
+      ],
+      "verdict": "AI 트렌드와 푸드 문화가 만난 유망 앱"
+    },
+    {
+      "rank": 3,
+      "name": "Decidify - Relocation Match",
+      "developer": "Elif Hilal Pek",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/e1/9a/b5e19a7c-617b-8b67-0ad5-adf3291fe8be/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/decidify-relocation-match/id6767665235?uo=2",
+      "idea_summary": "이주 결정을 위한 데이터 기반 매칭",
+      "analysis": {
+        "problem": "이주나 이사 시 최적 지역 선택의 어려움 [추론]",
+        "solution": "개인 선호도와 지역 데이터를 매칭하여 추천 [추론]",
+        "target_user": "해외 이주 희망자, 국내 이주 계획자, 디지털 노마드 [추론]",
+        "unique_point": "데이터 기반 객관적 지역 추천 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nomad List",
+          "Teleport",
+          "Best Places"
+        ],
+        "timing_reason": "원격 근무 확산과 라이프스타일 변화로 이주 니즈 증가 [추론]",
+        "growth_potential": "글로벌 이주 트렌드와 함께 지속적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 리포트와 상세 분석 서비스 유료 제공 [추론]",
+        "pricing_suggestion": "기본 무료, 상세 분석 건당 10-20달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "APIs",
+          "데이터 분석 라이브러리"
+        ],
+        "key_features": [
+          "설문 조사",
+          "데이터 매칭",
+          "지역 비교",
+          "결과 리포트"
+        ],
+        "clone_tip": "신뢰할 수 있는 지역 데이터 확보와 매칭 알고리즘이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#데이터기반",
+        "#라이프스타일",
+        "#의사결정도구"
+      ],
+      "verdict": "원격근무 시대의 실용적 의사결정 도구"
+    },
+    {
+      "rank": 4,
+      "name": "Scream Jar: A Jar for Anything",
+      "developer": "Joshua Hart",
+      "category": "엔터테인먼트",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/5d/6f/a85d6f9f-9a43-7b72-b657-396fb02bac9e/screamjar-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/scream-jar-a-jar-for-anything/id6762067470?uo=2",
+      "idea_summary": "감정 배출을 위한 디지털 항아리",
+      "analysis": {
+        "problem": "스트레스와 감정 해소 방법의 부재 [추론]",
+        "solution": "디지털 공간에서 안전하게 감정을 표출할 수 있는 도구 제공 [추론]",
+        "target_user": "스트레스를 받는 직장인, 학생, 감정 관리가 필요한 사용자 [추론]",
+        "unique_point": "독창적인 감정 배출 컨셉과 사용자 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Headspace",
+          "Calm",
+          "Sanvello"
+        ],
+        "timing_reason": "정신 건강에 대한 관심 증가와 디지털 웰빙 트렌드 [추론]",
+        "growth_potential": "멘탈 헬스 앱 시장 성장과 함께 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마, 추가 기능, 광고 제거 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2-3달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "애니메이션 라이브러리",
+          "로컬 저장소"
+        ],
+        "key_features": [
+          "감정 입력",
+          "시각적 효과",
+          "익명성 보장",
+          "통계 기능"
+        ],
+        "clone_tip": "사용자 경험과 감정적 몰입감이 핵심, UI/UX 디자인에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#멘탈헬스",
+        "#창의적",
+        "#1인개발가능"
+      ],
+      "verdict": "독창적 아이디어로 틈새 시장 공략 가능"
+    },
+    {
+      "rank": 5,
+      "name": "미니멧: 미니멀 메트로놈",
+      "developer": "Lim Sangjin",
+      "category": "음악",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/a4/0e/11a40ee9-20b7-9779-9d57-4d636374320e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%AF%B8%EB%8B%88%EB%A9%A7-%EB%AF%B8%EB%8B%88%EB%A9%80-%EB%A9%94%ED%8A%B8%EB%A1%9C%EB%86%88/id6768378188?uo=2",
+      "idea_summary": "군더더기 없는 심플한 메트로놈",
+      "analysis": {
+        "problem": "복잡한 기능의 메트로놈 앱들로 인한 사용성 저하 [추론]",
+        "solution": "필수 기능만 담은 미니멀한 인터페이스 제공 [추론]",
+        "target_user": "음악 학습자, 연주자, 음악 교육자 [추론]",
+        "unique_point": "극도로 단순화된 디자인과 직관적 조작 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Pro Metronome",
+          "Metronome Plus",
+          "Tempo"
+        ],
+        "timing_reason": "음악 교육 시장 확대와 개인 학습 트렌드 증가 [추론]",
+        "growth_potential": "안정적이지만 제한적인 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 음색, 고급 기능, 광고 제거 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 1-2달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Swift/Kotlin",
+          "오디오 라이브러리",
+          "Core Audio"
+        ],
+        "key_features": [
+          "BPM 설정",
+          "정확한 타이밍",
+          "음색 선택",
+          "시각적 표시"
+        ],
+        "clone_tip": "정확한 타이밍과 안정성이 핵심, 오디오 레이턴시 최소화 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.8
+      },
+      "tags": [
+        "#미니멀",
+        "#음악",
+        "#교육"
+      ],
+      "verdict": "작지만 확실한 사용자층을 확보한 도구"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "설정 및 로그 관리 도구",
+      "analysis": {
+        "problem": "시스템 설정과 로그 관리의 복잡성 [추측]",
+        "solution": "간편한 설정 관리와 로그 추적 기능 제공 [추측]",
+        "target_user": "개발자, IT 관리자, 기술직 사용자 [추측]",
+        "unique_point": "설정과 로그를 통합 관리하는 올인원 솔루션 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "LogCat",
+          "System Log",
+          "Device Monitor"
+        ],
+        "timing_reason": "IoT 기기 증가와 시스템 관리 도구 니즈 확산 [추론]",
+        "growth_potential": "개발자 도구 시장의 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프로 기능, 클라우드 동기화, 기업용 라이센스 [추론]",
+        "pricing_suggestion": "기본 무료, 프로 버전 월 5-10달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1000만원 [추론]",
+        "tech_stack": [
+          "Android Studio",
+          "Java/Kotlin",
+          "Room DB"
+        ],
+        "key_features": [
+          "로그 수집",
+          "설정 백업",
+          "필터링",
+          "내보내기"
+        ],
+        "clone_tip": "시스템 레벨 접근과 안정성이 핵심, 권한 관리 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.3
+      },
+      "tags": [
+        "#개발도구",
+        "#B2B",
+        "#유틸리티"
+      ],
+      "verdict": "개발자를 위한 실용적 관리 도구",
+      "deep_report_id": "android-setlog-1778771277649"
+    },
+    {
+      "rank": 2,
+      "name": "위치 공유",
+      "developer": "P & L Studio",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/-o1CH4hizs4HWhJD7k4bv6Ix5GH720tB1jrSecHSIiaRdzi4gSd05kmigDO_j2rKQRJ8-JJDjaBFQakvPCkae5o",
+      "app_url": "https://play.google.com/store/apps/details?id=com.sharlocation.friend.family",
+      "idea_summary": "가족 간 실시간 위치 공유",
+      "analysis": {
+        "problem": "가족 구성원의 안전과 위치 확인의 어려움 [추론]",
+        "solution": "실시간 위치 추적과 안전 알림 기능 제공 [추론]",
+        "target_user": "자녀를 둔 부모, 고령 부모를 둔 성인, 커플 [추론]",
+        "unique_point": "가족 중심의 위치 공유와 안전 기능 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Find My Family",
+          "Life360",
+          "Google Family Link"
+        ],
+        "timing_reason": "가족 안전에 대한 관심 증가와 스마트폰 보급 확산 [추론]",
+        "growth_potential": "패밀리 테크 시장 성장과 함께 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 알림, 히스토리 저장, 광고 제거 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3-5달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "600-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "GPS API",
+          "Firebase",
+          "Push Notification"
+        ],
+        "key_features": [
+          "실시간 추적",
+          "지오펜싱",
+          "SOS 기능",
+          "배터리 절약"
+        ],
+        "clone_tip": "정확한 위치 추적과 배터리 최적화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#가족안전",
+        "#위치서비스",
+        "#B2C"
+      ],
+      "verdict": "필수적이지만 경쟁이 치열한 시장"
+    },
+    {
+      "rank": 3,
+      "name": "사진 복구 - 파일 복원",
+      "developer": "Land Vina Dev",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/aaQhljNtKJ7Y6kzrpmoqadvU_PneAzs0NISttYe5CzpYGqCFLq7X9_TWv2qjt1qXOw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.photosrecovery.videorecovery.file.restore",
+      "idea_summary": "삭제된 사진과 파일 복구 도구",
+      "analysis": {
+        "problem": "실수로 삭제한 중요 파일과 사진의 복구 어려움 [추론]",
+        "solution": "스마트폰 저장소를 스캔하여 삭제된 파일 복구 [추론]",
+        "target_user": "일반 사용자, 실수로 파일을 삭제한 스마트폰 사용자 [추론]",
+        "unique_point": "모바일 환경에 특화된 파일 복구 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DiskDigger",
+          "Photo Recovery",
+          "Recuva"
+        ],
+        "timing_reason": "스마트폰 저장 공간 부족과 파일 관리 필요성 증가 [추론]",
+        "growth_potential": "스마트폰 사용 증가와 함께 지속적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 복구 기능, 광고 제거, 일괄 복구 [추론]",
+        "pricing_suggestion": "기본 무료, 프로 버전 5-10달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000-1300만원 [추론]",
+        "tech_stack": [
+          "Android NDK",
+          "File System APIs",
+          "C/C++"
+        ],
+        "key_features": [
+          "딥스캔",
+          "미리보기",
+          "선택적 복구",
+          "파일 분류"
+        ],
+        "clone_tip": "파일 시스템 이해와 저수준 프로그래밍 필요, 안드로이드 권한 관리 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 5.8
+      },
+      "tags": [
+        "#데이터복구",
+        "#유틸리티",
+        "#응급도구"
+      ],
+      "verdict": "필요할 때 매우 중요한 유틸리티 앱"
+    },
+    {
+      "rank": 4,
+      "name": "PDF 뷰어 - PDF Reader & PDF 편집",
+      "developer": "QR Code Scanner.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/HuveAFzGVUenSS0_hgITMW_hczQGMzmxiOVwW0F9Q5-uUkTidarGHBZtLkI5R5YYIw",
+      "app_url": "https://play.google.com/store/apps/details?id=pdf.pdfreader.viewer.editor.free",
+      "idea_summary": "올인원 PDF 편집 및 뷰어",
+      "analysis": {
+        "problem": "모바일에서 PDF 문서 편집과 관리의 불편함 [추론]",
+        "solution": "포괄적인 PDF 편집 기능을 모바일에서 제공 [추론]",
+        "target_user": "직장인, 학생, 문서 작업이 많은 사용자 [추론]",
+        "unique_point": "뷰어와 편집 기능을 통합한 올인원 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "Foxit PDF",
+          "WPS Office"
+        ],
+        "timing_reason": "원격 업무 확산과 모바일 생산성 도구 수요 증가 [추론]",
+        "growth_potential": "문서 디지털화 트렌드와 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능, 클라우드 저장, 광고 제거 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3-5달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "PDFBox",
+          "iText",
+          "Storage APIs"
+        ],
+        "key_features": [
+          "PDF 뷰어",
+          "텍스트 편집",
+          "주석 기능",
+          "변환 도구"
+        ],
+        "clone_tip": "PDF 렌더링 성능과 편집 기능의 안정성이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.3
+      },
+      "tags": [
+        "#문서편집",
+        "#생산성",
+        "#B2B"
+      ],
+      "verdict": "시장은 크지만 경쟁이 치열한 영역"
+    },
+    {
+      "rank": 5,
+      "name": "QR 코드 및 바코드 스캐너",
+      "developer": "Start Up",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/75cMvjF1Alx-9m9cvynXYIHJ8g5MYrdGTGJ_9GScturhRrwmxS9UsgZNIoY6-pqg0KtAGR_WAhKFK6NYL9w",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.qrcode.reader.scanner.barcode.generator",
+      "idea_summary": "QR코드와 바코드 스캔 유틸리티",
+      "analysis": {
+        "problem": "내장 카메라의 QR 스캔 기능 부족과 바코드 인식 한계 [추론]",
+        "solution": "빠르고 정확한 QR/바코드 인식과 추가 기능 제공 [추론]",
+        "target_user": "일반 소비자, 쇼핑객, 업무용 사용자 [추론]",
+        "unique_point": "높은 인식률과 다양한 코드 형식 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "QR Reader",
+          "Barcode Scanner",
+          "내장 카메라"
+        ],
+        "timing_reason": "비대면 결제와 QR코드 사용 급증 [추론]",
+        "growth_potential": "QR코드 생태계 확산에 따른 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익, 프리미엄 기능, 비즈니스 기능 [추론]",
+        "pricing_suggestion": "광고 기반 무료, 프리미엄 2-3달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Camera API",
+          "ZXing",
+          "ML Kit"
+        ],
+        "key_features": [
+          "빠른 스캔",
+          "히스토리",
+          "생성 기능",
+          "일괄 처리"
+        ],
+        "clone_tip": "인식 속도와 정확도가 핵심, 다양한 조명 환경 최적화 [추론]"
+      },
+      "scores": {
+        "novelty": 1,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5
+      },
+      "tags": [
+        "#유틸리티",
+        "#스캐너",
+        "#일상도구"
+      ],
+      "verdict": "단순하지만 필수적인 도구 앱"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술 활용 앱과 개인 생산성 도구가 주목받고 있으며, 미니멀 디자인을 추구하는 앱들이 증가하고 있다 [추론]. 특히 감정 관리와 라이프스타일 개선을 위한 창의적 솔루션들이 등장하고 있다 [추론].",
+    "trend_details": [
+      "AI 기반 사진 보정 기술 적용",
+      "미니멀리즘 디자인 트렌드",
+      "감정 관리 앱의 다양화",
+      "개인 맞춤형 의사결정 도구"
+    ],
+    "hot_categories": [
+      "생산성",
+      "사진 편집",
+      "라이프스타일"
+    ],
+    "opportunity": "AI 기술과 일상 도구의 결합, 개인화된 웰빙 솔루션",
+    "action_item": "AI 기능을 활용한 틈새 시장 진입 전략 수립"
+  }
+}
