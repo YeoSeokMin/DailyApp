@@ -1,60 +1,106 @@
 {
-  "generatedAt": "2026-05-15T15:05:55.394Z",
+  "generatedAt": "2026-05-16T15:05:45.998Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "건강 및 피트니스",
+      "category": "의료",
       "currentCount": 4,
       "previousCount": 1,
       "changePercent": 300,
       "changeDirection": "up",
       "apps": [
-        "AthleteMind Elite",
-        "Showdup",
-        "Zehn - Persian Meditation",
-        "CoachSet"
+        "나의건강기록",
+        "건강보험25시",
+        "LetsMedicine",
+        "Med-Plantão"
       ],
-      "avgScore": 7.574999999999999
+      "avgScore": 7.5
     },
     {
-      "category": "여행",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
+      "category": "유틸리티",
+      "currentCount": 12,
+      "previousCount": 5,
+      "changePercent": 140,
       "changeDirection": "up",
       "apps": [
-        "Decidify - Relocation Match",
-        "BorderPulse",
-        "TravelReddi"
+        "Marryflow 备婚助手",
+        "파일 및 사진 복구",
+        "사진 복구 - 파일 복원",
+        "QR 코드 및 바코드 스캐너",
+        "AI Translator",
+        "위치 공유",
+        "国际日程转换器",
+        "HUD Speed: GPS Speedometer",
+        "사진 복구 - 파일 복원",
+        "Ai Translator, Voice Translate",
+        "QR 코드 스캐너: 바코드 리더, QR 코드",
+        "위치 공유"
       ],
-      "avgScore": 7.266666666666667
+      "avgScore": 6.716666666666666
+    },
+    {
+      "category": "게임",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Pocket Frontier",
+        "Palavras Cruzadas"
+      ],
+      "avgScore": 7.1
     },
     {
       "category": "음악",
       "currentCount": 2,
-      "previousCount": 0,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "미니멧: 미니멀 메트로놈",
-        "LinkEffekt"
+        "TuneRatings",
+        "미니멧: 미니멀 메트로놈"
       ],
-      "avgScore": 5.9
+      "avgScore": 6.05
     },
     {
-      "category": "의료",
+      "category": "건강 및 피트니스",
+      "currentCount": 4,
+      "previousCount": 2,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "BloomCue",
+        "AthleteMind Elite",
+        "Showdup",
+        "Zehn - Persian Meditation"
+      ],
+      "avgScore": 7.700000000000001
+    },
+    {
+      "category": "여행",
       "currentCount": 2,
       "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "LetsMedicine",
-        "Med-Plantão"
+        "Decidify - Relocation Match",
+        "BorderPulse"
       ],
-      "avgScore": 8.25
+      "avgScore": 7.3
+    },
+    {
+      "category": "쇼핑",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Temu: 억만장자처럼 쇼핑하기"
+      ],
+      "avgScore": 6.5
     },
     {
       "category": "엔터테인먼트",
@@ -70,30 +116,10 @@
       "avgScore": 6.866666666666667
     },
     {
-      "category": "유틸리티",
-      "currentCount": 10,
-      "previousCount": 7,
-      "changePercent": 43,
-      "changeDirection": "up",
-      "apps": [
-        "사진 복구 - 파일 복원",
-        "QR 코드 및 바코드 스캐너",
-        "AI Translator",
-        "위치 공유",
-        "国际日程转换器",
-        "HUD Speed: GPS Speedometer",
-        "사진 복구 - 파일 복원",
-        "Ai Translator, Voice Translate",
-        "QR 코드 스캐너: 바코드 리더, QR 코드",
-        "위치 공유"
-      ],
-      "avgScore": 6.710000000000001
-    },
-    {
       "category": "라이프스타일",
-      "currentCount": 11,
-      "previousCount": 8,
-      "changePercent": 38,
+      "currentCount": 10,
+      "previousCount": 9,
+      "changePercent": 11,
       "changeDirection": "up",
       "apps": [
         "위치 공유",
@@ -105,10 +131,9 @@
         "겸사겸사",
         "기리고",
         "Amel — İslami Yaşam Asistanı",
-        "IntelligentMe",
-        "Pantrease"
+        "IntelligentMe"
       ],
-      "avgScore": 7.081818181818181
+      "avgScore": 7.109999999999999
     }
   ],
   "decliningCategories": [
@@ -119,20 +144,21 @@
       "changePercent": -20,
       "changeDirection": "down",
       "apps": [
+        "QR課題チェック改",
         "Sol Galaxy Study Timer",
         "Prof — étudie sans stress",
-        "듀오링고(Duolingo): 언어 학습",
-        "KindPoints: Rewards Board"
+        "듀오링고(Duolingo): 언어 학습"
       ],
-      "avgScore": 7.925
+      "avgScore": 8.05
     },
     {
       "category": "생산성",
-      "currentCount": 20,
-      "previousCount": 27,
-      "changePercent": -26,
+      "currentCount": 19,
+      "previousCount": 25,
+      "changePercent": -24,
       "changeDirection": "down",
       "apps": [
+        "Dola: 스마트 AI 도우미",
         "Stow Timer | 集中タイマー",
         "setlog",
         "PDF 뷰어 - PDF Reader & PDF 편집",
@@ -150,17 +176,15 @@
         "SOL Galaxy: Study Focus Timer",
         "NextRole Tracker Pro",
         "메모 - 메모 및 목록 작성용 메모장",
-        "PDF 변환: HWP뷰어 & 한글 뷰어",
-        "문서 뷰어: PDF, Word",
-        "setlog"
+        "PDF 변환: HWP뷰어 & 한글 뷰어"
       ],
-      "avgScore": 7.215000000000001
+      "avgScore": 7.2631578947368425
     },
     {
       "category": "금융",
       "currentCount": 3,
-      "previousCount": 5,
-      "changePercent": -40,
+      "previousCount": 4,
+      "changePercent": -25,
       "changeDirection": "down",
       "apps": [
         "LojaMi Amigu",
@@ -179,31 +203,20 @@
         "FoodPhoto AI"
       ],
       "avgScore": 8.1
+    },
+    {
+      "category": "소셜",
+      "currentCount": 1,
+      "previousCount": 4,
+      "changePercent": -75,
+      "changeDirection": "down",
+      "apps": [
+        "위치 공유"
+      ],
+      "avgScore": 6.5
     }
   ],
   "stableCategories": [
-    {
-      "category": "게임",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Palavras Cruzadas"
-      ],
-      "avgScore": 7.2
-    },
-    {
-      "category": "쇼핑",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Temu: 억만장자처럼 쇼핑하기"
-      ],
-      "avgScore": 6.5
-    },
     {
       "category": "음식 및 음료",
       "currentCount": 2,
@@ -215,37 +228,15 @@
         "FIKA Beans: Brew Journal"
       ],
       "avgScore": 6.65
-    },
-    {
-      "category": "소셜",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "기리고",
-        "위치 공유"
-      ],
-      "avgScore": 7.1
-    },
-    {
-      "category": "비즈니스",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "문서 리더 & 스캔"
-      ],
-      "avgScore": 6.5
     }
   ],
   "hotKeywords": [
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 51,
+      "count": 45,
       "apps": [
+        "Marryflow 备婚助手",
         "FoodPhoto AI",
         "위치 공유",
         "Palavras Cruzadas",
@@ -286,19 +277,15 @@
         "메모 - 메모 및 목록 작성용 메모장",
         "QR 코드 스캐너: 바코드 리더, QR 코드",
         "PDF 변환: HWP뷰어 & 한글 뷰어",
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
-        "TravelReddi",
-        "Pantrease",
-        "KindPoints: Rewards Board",
-        "문서 뷰어: PDF, Word",
-        "setlog"
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 48,
+      "count": 39,
       "apps": [
+        "Pocket Frontier",
         "Stow Timer | 集中タイマー",
         "Scream Jar: A Jar for Anything",
         "Palavras Cruzadas",
@@ -335,20 +322,15 @@
         "NextRole Tracker Pro",
         "메모 - 메모 및 목록 작성용 메모장",
         "QR 코드 스캐너: 바코드 리더, QR 코드",
-        "PDF 변환: HWP뷰어 & 한글 뷰어",
-        "TravelReddi",
-        "CoachSet",
-        "Pantrease",
-        "LinkEffekt",
-        "KindPoints: Rewards Board",
-        "문서 뷰어: PDF, Word"
+        "PDF 변환: HWP뷰어 & 한글 뷰어"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 13,
+      "count": 14,
       "apps": [
+        "Dola: 스마트 AI 도우미",
         "FoodPhoto AI",
         "AI Translator",
         "Manus AI",
@@ -358,15 +340,15 @@
         "Ganadera Inteligente",
         "Ai Translator, Voice Translate",
         "IntelligentMe",
-        "QR 코드 스캐너: 바코드 리더, QR 코드",
-        "Pantrease"
+        "QR 코드 스캐너: 바코드 리더, QR 코드"
       ]
     },
     {
       "keyword": "생산성",
       "category": "productivity",
-      "count": 11,
+      "count": 13,
       "apps": [
+        "Dola: 스마트 AI 도우미",
         "Stow Timer | 集中タイマー",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "ChronoPen",
@@ -381,47 +363,22 @@
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 8,
+      "count": 7,
       "apps": [
+        "QR課題チェック改",
         "setlog",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "LetsMedicine",
         "Ganadera Inteligente",
-        "Med-Plantão",
-        "LinkEffekt",
-        "문서 리더 & 스캔"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 6,
-      "apps": [
-        "LojaMi Amigu",
-        "Kindpoints Rewards",
-        "Temu: 억만장자처럼 쇼핑하기",
-        "Showdup",
-        "TravelReddi",
-        "기리고"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 5,
-      "apps": [
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 리더 & 스캔",
-        "PDF 리더: 뷰어·편집기",
-        "PDF 리더 및 뷰어",
-        "문서 뷰어: PDF, Word"
+        "Med-Plantão"
       ]
     },
     {
       "keyword": "일정",
       "category": "productivity",
-      "count": 5,
+      "count": 6,
       "apps": [
+        "Marryflow 备婚助手",
         "Bin Day Buddy",
         "Manus AI",
         "国际日程转换器",
@@ -430,25 +387,37 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 4,
-      "apps": [
-        "Scream Jar: A Jar for Anything",
-        "HeartPokerTap",
-        "Kindpoints Rewards",
-        "KindPoints: Rewards Board"
-      ]
-    },
-    {
       "keyword": "유틸리티",
       "category": "tag",
-      "count": 4,
+      "count": 5,
       "apps": [
+        "파일 및 사진 복구",
         "setlog",
         "사진 복구 - 파일 복원",
         "QR 코드 및 바코드 스캐너",
         "QR 코드 스캐너: 바코드 리더, QR 코드"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 4,
+      "apps": [
+        "Marryflow 备婚助手",
+        "Scream Jar: A Jar for Anything",
+        "HeartPokerTap",
+        "Kindpoints Rewards"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 4,
+      "apps": [
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "문서 리더 & 스캔",
+        "PDF 리더: 뷰어·편집기",
+        "PDF 리더 및 뷰어"
       ]
     },
     {
@@ -462,6 +431,46 @@
       ]
     },
     {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "LojaMi Amigu",
+        "Kindpoints Rewards",
+        "Temu: 억만장자처럼 쇼핑하기",
+        "Showdup"
+      ]
+    },
+    {
+      "keyword": "라이프스타일",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Marryflow 备婚助手",
+        "Decidify - Relocation Match",
+        "Fika Beans"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 3,
+      "apps": [
+        "TuneRatings",
+        "Fika Beans"
+      ]
+    },
+    {
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "BloomCue",
+        "나의건강기록",
+        "건강보험25시"
+      ]
+    },
+    {
       "keyword": "대기업수준",
       "category": "tag",
       "count": 3,
@@ -472,6 +481,41 @@
       ]
     },
     {
+      "keyword": "캐주얼게임",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Pocket Frontier",
+        "HeartPokerTap"
+      ]
+    },
+    {
+      "keyword": "음악",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "TuneRatings",
+        "미니멧: 미니멀 메트로놈"
+      ]
+    },
+    {
+      "keyword": "데이터복구",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "파일 및 사진 복구",
+        "사진 복구 - 파일 복원"
+      ]
+    },
+    {
+      "keyword": "가족안전",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "위치 공유"
+      ]
+    },
+    {
       "keyword": "미니멀",
       "category": "tag",
       "count": 2,
@@ -479,123 +523,60 @@
         "Stow Timer | 集中タイマー",
         "미니멧: 미니멀 메트로놈"
       ]
-    },
-    {
-      "keyword": "매칭",
-      "category": "social",
-      "count": 2,
-      "apps": [
-        "Decidify - Relocation Match",
-        "기리고"
-      ]
-    },
-    {
-      "keyword": "라이프스타일",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Decidify - Relocation Match",
-        "Fika Beans"
-      ]
-    },
-    {
-      "keyword": "교육",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "미니멧: 미니멀 메트로놈",
-        "Sol Galaxy Study Timer"
-      ]
-    },
-    {
-      "keyword": "문서편집",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더: 뷰어·편집기"
-      ]
-    },
-    {
-      "keyword": "게임화",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Sol Galaxy Study Timer",
-        "SOL Galaxy: Study Focus Timer"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 2,
-      "apps": [
-        "Fika Beans",
-        "TravelReddi"
-      ]
-    },
-    {
-      "keyword": "B2B2C",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Kindpoints Rewards",
-        "CoachSet"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 21,
-        "percent": 30,
+        "count": 23,
+        "percent": 33,
         "examples": [
-          "Stow Timer | 集中タイマー",
-          "FoodPhoto AI",
-          "Decidify - Relocation Match"
+          "나의건강기록",
+          "건강보험25시",
+          "Stow Timer | 集中タイマー"
         ]
       },
       "freemium": {
-        "count": 55,
-        "percent": 79,
+        "count": 57,
+        "percent": 81,
         "examples": [
-          "Stow Timer | 集中タイマー",
-          "FoodPhoto AI",
-          "Decidify - Relocation Match"
+          "Pocket Frontier",
+          "QR課題チェック改",
+          "Marryflow 备婚助手"
         ]
       },
       "subscription": {
-        "count": 34,
-        "percent": 49,
+        "count": 32,
+        "percent": 46,
         "examples": [
-          "Stow Timer | 集中タイマー",
-          "LetsMedicine",
-          "LojaMi Amigu"
+          "QR課題チェック改",
+          "Dola: 스마트 AI 도우미",
+          "위치 공유"
         ]
       },
       "onetime": {
         "count": 10,
         "percent": 14,
         "examples": [
+          "Pocket Frontier",
           "FoodPhoto AI",
-          "Decidify - Relocation Match",
-          "Prof — étudie sans stress"
+          "Decidify - Relocation Match"
         ]
       },
       "unknown": {
-        "count": 6,
-        "percent": 9,
+        "count": 5,
+        "percent": 7,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 55,
-      "percent": 79,
+      "count": 57,
+      "percent": 81,
       "examples": [
-        "Stow Timer | 集中タイマー",
-        "FoodPhoto AI",
-        "Decidify - Relocation Match"
+        "Pocket Frontier",
+        "QR課題チェック改",
+        "Marryflow 备婚助手"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -604,14 +585,14 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 16,
-        "percent": 23,
+        "count": 15,
+        "percent": 21,
         "apps": [
+          "Dola: 스마트 AI 도우미",
           "FoodPhoto AI",
           "QR 코드 및 바코드 스캐너",
           "ChronoPen",
-          "문서 리더 & 스캔",
-          "AI Translator"
+          "문서 리더 & 스캔"
         ]
       },
       {
@@ -619,29 +600,29 @@
         "count": 11,
         "percent": 16,
         "apps": [
+          "Marryflow 备婚助手",
+          "BloomCue",
           "Scream Jar: A Jar for Anything",
           "Palavras Cruzadas",
-          "HeartPokerTap",
-          "Kindpoints Rewards",
-          "듀오링고(Duolingo): 언어 학습"
+          "HeartPokerTap"
         ]
       },
       {
         "tech": "productivity",
-        "count": 10,
-        "percent": 14,
+        "count": 11,
+        "percent": 16,
         "apps": [
+          "Dola: 스마트 AI 도우미",
           "Stow Timer | 集中タイマー",
           "ChronoPen",
           "Bin Day Buddy",
-          "Manus AI",
-          "国际日程转换器"
+          "Manus AI"
         ]
       },
       {
         "tech": "social",
-        "count": 8,
-        "percent": 11,
+        "count": 6,
+        "percent": 9,
         "apps": [
           "Decidify - Relocation Match",
           "LojaMi Amigu",
@@ -652,14 +633,13 @@
       },
       {
         "tech": "creator",
-        "count": 5,
-        "percent": 7,
+        "count": 4,
+        "percent": 6,
         "apps": [
           "PDF 뷰어 - PDF Reader & PDF 편집",
           "Vigloo 비글루 - 숏드라마",
           "PDF 리더: 뷰어·편집기",
-          "PDF 리더 및 뷰어",
-          "문서 뷰어: PDF, Word"
+          "PDF 리더 및 뷰어"
         ]
       },
       {
@@ -672,6 +652,15 @@
         ]
       },
       {
+        "tech": "health",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "나의건강기록",
+          "Zehn - Persian Meditation"
+        ]
+      },
+      {
         "tech": "subscription",
         "count": 2,
         "percent": 3,
@@ -681,37 +670,37 @@
         ]
       },
       {
-        "tech": "health",
+        "tech": "fintech",
         "count": 1,
         "percent": 1,
         "apps": [
-          "Zehn - Persian Meditation"
+          "건강보험25시"
         ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 16,
-      "percent": 23,
+      "count": 15,
+      "percent": 21,
       "apps": [
+        "Dola: 스마트 AI 도우미",
         "FoodPhoto AI",
         "QR 코드 및 바코드 스캐너",
         "ChronoPen",
-        "문서 리더 & 스캔",
-        "AI Translator"
+        "문서 리더 & 스캔"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 16,
-        "percent": 23,
+        "count": 15,
+        "percent": 21,
         "apps": [
+          "Dola: 스마트 AI 도우미",
           "FoodPhoto AI",
           "QR 코드 및 바코드 스캐너",
           "ChronoPen",
-          "문서 리더 & 스캔",
-          "AI Translator"
+          "문서 리더 & 스캔"
         ]
       },
       {
@@ -719,35 +708,23 @@
         "count": 11,
         "percent": 16,
         "apps": [
+          "Marryflow 备婚助手",
+          "BloomCue",
           "Scream Jar: A Jar for Anything",
           "Palavras Cruzadas",
-          "HeartPokerTap",
-          "Kindpoints Rewards",
-          "듀오링고(Duolingo): 언어 학습"
+          "HeartPokerTap"
         ]
       },
       {
         "tech": "productivity",
-        "count": 10,
-        "percent": 14,
+        "count": 11,
+        "percent": 16,
         "apps": [
+          "Dola: 스마트 AI 도우미",
           "Stow Timer | 集中タイマー",
           "ChronoPen",
           "Bin Day Buddy",
-          "Manus AI",
-          "国际日程转换器"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "Decidify - Relocation Match",
-          "LojaMi Amigu",
-          "Fika Beans",
-          "Kindpoints Rewards",
-          "Temu: 억만장자처럼 쇼핑하기"
+          "Manus AI"
         ]
       }
     ]
@@ -755,17 +732,17 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "건강 및 피트니스 카테고리 급부상",
+      "title": "의료 카테고리 급부상",
       "description": "300% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "건강 및 피트니스"
+      "category": "의료"
     },
     {
       "type": "rising_category",
-      "title": "여행 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "게임 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "여행"
+      "category": "게임"
     },
     {
       "type": "rising_category",
@@ -776,10 +753,24 @@
     },
     {
       "type": "rising_category",
-      "title": "의료 카테고리 급부상",
+      "title": "건강 및 피트니스 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "의료"
+      "category": "건강 및 피트니스"
+    },
+    {
+      "type": "rising_category",
+      "title": "여행 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "여행"
+    },
+    {
+      "type": "rising_category",
+      "title": "쇼핑 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "쇼핑"
     },
     {
       "type": "rising_category",
@@ -791,24 +782,25 @@
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "23%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "21%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "건강·피트니스(+300%)와 여행(+200%) 카테고리가 급부상하고 있으며, AI 기능을 포함한 앱이 23%를 차지하고 있습니다. freemium 모델(79%)과 구독 모델(49%)이 주요 수익화 방식으로 자리잡았습니다.",
+    "trend_summary": "의료 카테고리가 300% 급증하며 새로운 기회 창출 중이고, 전체 앱의 21%가 AI 기능을 통합하는 추세입니다. freemium 모델이 81%로 주류가 되었으며 1인 개발 가능한 프로젝트가 39회 언급되어 인디 개발자에게 유리한 환경입니다.",
     "trend_details": [
-      "건강·피트니스 카테고리 300% 급성장으로 웰니스 관심 증가",
-      "1인 개발 가능한 B2C 앱이 주요 트렌드 (48-51회 언급)",
-      "AI 통합이 필수가 되어가며 23%의 앱이 AI 기능 포함"
+      "의료 앱 300% 급증하지만 경쟁자 수 적음 (4개)",
+      "AI 통합이 21%로 필수 기능화 진행",
+      "freemium 모델이 81%로 수익화 표준 정착",
+      "B2C 중심 (45회) + 1인개발 가능 (39회) 트렌드 결합"
     ],
     "hot_categories": [
-      "건강 및 피트니스",
-      "여행"
+      "의료",
+      "유틸리티"
     ],
-    "opportunity": "건강·피트니스 분야에서 AI를 활용한 개인화된 웰니스 솔루션 개발이 가장 유망한 기회입니다.",
-    "action_item": "건강 데이터 추적과 AI 분석을 결합한 간단한 피트니스 앱을 freemium 모델로 출시하세요.",
-    "weekly_theme": "AI 웰니스"
+    "opportunity": "의료 카테고리는 300% 성장했지만 경쟁 앱이 4개뿐이어서 AI를 결합한 헬스케어 솔루션 개발 시 선점 효과 기대 가능합니다.",
+    "action_item": "의료+AI 조합 아이디어를 브레인스토밍하고 freemium 모델로 MVP 개발을 시작하세요.",
+    "weekly_theme": "헬스테크 AI"
   }
 }
