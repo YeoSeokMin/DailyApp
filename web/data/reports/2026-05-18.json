@@ -1,0 +1,629 @@
+{
+  "date": "2026-05-18",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "ChessQuirk",
+      "developer": "Sai Tadikonda",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/74/02/c274020f-fe7b-dd46-ca8d-9d40fdaabac7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/chessquirk/id6761792779?uo=2",
+      "idea_summary": "체스 변형 게임으로 새로운 룰 적용",
+      "analysis": {
+        "problem": "기존 체스의 단조로움과 예측 가능성 [추론]",
+        "solution": "독특한 체스 변형 룰로 새로운 전략 게임 제공 [추론]",
+        "target_user": "체스 애호가와 전략 게임 매니아 [추론]",
+        "unique_point": "전통 체스에 새로운 변형 룰 적용 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Chess.com",
+          "Lichess"
+        ],
+        "timing_reason": "온라인 보드게임 인기 상승과 체스 붐 [추론]",
+        "growth_potential": "틈새 시장이지만 충성도 높은 유저층 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 광고 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SpriteKit",
+          "Firebase"
+        ],
+        "key_features": [
+          "변형 룰 엔진",
+          "멀티플레이어",
+          "AI 대전"
+        ],
+        "clone_tip": "기존 체스 엔진을 수정하여 새로운 룰 적용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임"
+      ],
+      "verdict": "체스 매니아들을 위한 틈새시장 타겟",
+      "deep_report_id": "ios-chessquirk-1779030175227"
+    },
+    {
+      "rank": 2,
+      "name": "Lucid Dream Journal Pro",
+      "developer": "Finn Moe",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/33/2a/aa332a0f-a311-dcca-d767-52decdf76f5b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/lucid-dream-journal-pro/id6769024738?uo=2",
+      "idea_summary": "자각몽 연습과 꿈 일기 통합 앱",
+      "analysis": {
+        "problem": "꿈 기록과 자각몽 연습의 체계적 관리 부족 [추론]",
+        "solution": "꿈 일기와 자각몽 연습 도구를 통합 제공 [추론]",
+        "target_user": "자각몽에 관심 있는 사람과 꿈 연구자 [추론]",
+        "unique_point": "자각몽 특화 기능과 꿈 패턴 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Dream Journal",
+          "Lucidity"
+        ],
+        "timing_reason": "정신건강과 수면 품질에 대한 관심 증가 [추론]",
+        "growth_potential": "니치하지만 성장하는 웰니스 시장 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델과 프리미엄 분석 기능 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "HealthKit"
+        ],
+        "key_features": [
+          "꿈 일기",
+          "자각몽 알림",
+          "수면 패턴 분석"
+        ],
+        "clone_tip": "수면 추적과 일기 기능 결합하여 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웰니스"
+      ],
+      "verdict": "자각몽 커뮤니티 타겟 혁신적 접근"
+    },
+    {
+      "rank": 3,
+      "name": "Flidot - Connect The Dots",
+      "developer": "Bakhtiyar Zhakanbayev",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/cf/14/00cf141a-9650-690d-8fe8-f664313b0dcb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/flidot-connect-the-dots/id6768193114?uo=2",
+      "idea_summary": "점 연결 게임의 새로운 변형",
+      "analysis": {
+        "problem": "기존 점 연결 게임의 단순함과 반복성 [추론]",
+        "solution": "새로운 메커니즘과 다양한 레벨로 확장된 게임성 [추론]",
+        "target_user": "캐주얼 퍼즐 게임을 즐기는 모든 연령층 [추론]",
+        "unique_point": "기존 게임에 새로운 요소 추가로 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Dots",
+          "Two Dots",
+          "Flow Free"
+        ],
+        "timing_reason": "모바일 캐주얼 게임 시장 지속 성장 [추론]",
+        "growth_potential": "경쟁 치열하지만 차별화로 성공 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 무광고 결제 [추론]",
+        "pricing_suggestion": "무광고 버전 2,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SpriteKit",
+          "GameCenter"
+        ],
+        "key_features": [
+          "레벨 에디터",
+          "멀티플레이",
+          "업적 시스템"
+        ],
+        "clone_tip": "기본 알고리즘은 단순, UI/UX 차별화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#캐주얼게임"
+      ],
+      "verdict": "검증된 장르에 새로운 아이디어 접목"
+    },
+    {
+      "rank": 4,
+      "name": "Festivool: biglietti & eventi",
+      "developer": "Pizero",
+      "category": "엔터테인먼트",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/62/07/466207f5-801e-3afc-b150-b3f9d3230d45/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/festivool-biglietti-eventi/id6759679636?uo=2",
+      "idea_summary": "이탈리아 지역 이벤트 티켓팅 플랫폼",
+      "analysis": {
+        "problem": "지역 이벤트의 티켓 구매와 정보 접근성 [추론]",
+        "solution": "지역 특화 이벤트 발견과 간편 티켓팅 [추론]",
+        "target_user": "지역 이벤트 참가자와 주최자 [추론]",
+        "unique_point": "지역 특화와 소규모 이벤트 집중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Eventbrite",
+          "Meetup"
+        ],
+        "timing_reason": "포스트 코로나 오프라인 이벤트 회복 [추론]",
+        "growth_potential": "지역 확장으로 스케일업 가능 [추론]"
+      },
+      "business": {
+        "monetization": "티켓 수수료와 이벤트 홍보비 [추론]",
+        "pricing_suggestion": "티켓당 3-5% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "Payment API"
+        ],
+        "key_features": [
+          "이벤트 등록",
+          "결제 시스템",
+          "QR 티켓"
+        ],
+        "clone_tip": "결제 시스템과 지역 파트너십이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#플랫폼"
+      ],
+      "verdict": "지역 특화 전략으로 대형 경쟁사 회피"
+    },
+    {
+      "rank": 5,
+      "name": "YoungmanBlueprint",
+      "developer": "Danylo Afanasiyevskyy",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/a4/33/15a433e5-9e23-5c15-0cdf-b0ad2cb056cf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/youngmanblueprint/id6769169247?uo=2",
+      "idea_summary": "청년 자기계발과 목표 설정 가이드",
+      "analysis": {
+        "problem": "청년층의 체계적인 자기계발과 목표 달성 어려움 [추론]",
+        "solution": "연령대별 맞춤 자기계발 로드맵 제공 [추론]",
+        "target_user": "20-30대 자기계발에 관심 있는 청년 [추론]",
+        "unique_point": "청년 특화 자기계발 콘텐츠와 실행 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Forest",
+          "Todoist"
+        ],
+        "timing_reason": "청년 실업과 자기계발 트렌드 확산 [추론]",
+        "growth_potential": "자기계발 시장 지속 성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 콘텐츠와 개인 코칭 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Analytics"
+        ],
+        "key_features": [
+          "목표 설정",
+          "진도 추적",
+          "커뮤니티"
+        ],
+        "clone_tip": "양질의 콘텐츠 큐레이션이 성공 열쇠 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#자기계발"
+      ],
+      "verdict": "청년 타겟 특화로 차별화된 접근"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "운동 세트 로깅 전용 앱",
+      "analysis": {
+        "problem": "기존 운동앱의 복잡함과 간단한 세트 기록의 부재 [추론]",
+        "solution": "운동 세트만 간단하고 빠르게 기록 [추론]",
+        "target_user": "헬스장 이용자와 홈트레이닝 인구 [추론]",
+        "unique_point": "세트 기록에만 특화된 미니멀 디자인 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Strong",
+          "Jefit"
+        ],
+        "timing_reason": "홈트레이닝과 헬스 인구 증가 [추론]",
+        "growth_potential": "피트니스 앱 시장 내 틈새 공략 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 통계 기능과 광고 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room DB",
+          "Material Design"
+        ],
+        "key_features": [
+          "빠른 세트 입력",
+          "운동 기록",
+          "진도 차트"
+        ],
+        "clone_tip": "사용성과 입력 속도가 핵심 경쟁력 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#피트니스"
+      ],
+      "verdict": "미니멀 접근으로 대형 앱과 차별화",
+      "deep_report_id": "android-setlog-1779030261261"
+    },
+    {
+      "rank": 2,
+      "name": "패스오더 - 카페 가는 길, 미리주문",
+      "developer": "PaytaLab",
+      "category": "음식 및 음료",
+      "icon": "https://play-lh.googleusercontent.com/r4U_wXcWZJ6osJAR1AEao2ADVsMT-28JP5K3629VSiJzy9__Jrw3cPwPnLw4KCv4IYw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.paytalab.mkseo.passorder",
+      "idea_summary": "카페 사전주문으로 대기시간 단축",
+      "analysis": {
+        "problem": "카페에서의 주문 대기시간과 혼잡함 [확인]",
+        "solution": "이동 중 미리 주문하여 도착 시 바로 수령 [확인]",
+        "target_user": "바쁜 직장인과 대학생 카페 이용자 [추론]",
+        "unique_point": "위치 기반 도착 시간 예측 주문 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "스타벅스 사이렌오더",
+          "컴포즈커피 앱"
+        ],
+        "timing_reason": "비대면 주문 문화와 효율성 추구 트렌드 [확인]",
+        "growth_potential": "독립 카페 확산으로 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "주문 수수료와 카페 파트너십 [추론]",
+        "pricing_suggestion": "주문당 300원 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "GPS",
+          "Payment API"
+        ],
+        "key_features": [
+          "위치 추적",
+          "결제 시스템",
+          "알림 서비스"
+        ],
+        "clone_tip": "카페 파트너십 확보와 위치 정확도가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#O2O"
+      ],
+      "verdict": "검증된 니즈로 빠른 시장 진입 가능"
+    },
+    {
+      "rank": 3,
+      "name": "NetShort - 인기 드라마 및 TV 프로그램",
+      "developer": "NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/ZL5yS20EujtVmUMMNHEnH9AI4NoqjUfjkolH7h44Ap0R2w3Vv1GF3zMGhB1KepyjCcH2a63rbbSl_PIwYxpr",
+      "app_url": "https://play.google.com/store/apps/details?id=com.netshort.abroad",
+      "idea_summary": "숏폼 드라마 전용 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "긴 드라마 시청 부담과 시간 부족 [추론]",
+        "solution": "짧은 에피소드로 구성된 드라마 콘텐츠 [추론]",
+        "target_user": "바쁜 현대인과 숏폼 콘텐츠 선호층 [추론]",
+        "unique_point": "드라마를 숏폼 형태로 재편집하여 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "틱톡",
+          "유튜브 쇼츠",
+          "넷플릭스"
+        ],
+        "timing_reason": "숏폼 콘텐츠 급성장과 OTT 다양화 [확인]",
+        "growth_potential": "숏폼 드라마 시장 개척 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "구독료와 광고 수익 [추론]",
+        "pricing_suggestion": "월 4,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Video Streaming",
+          "AWS"
+        ],
+        "key_features": [
+          "동영상 스트리밍",
+          "추천 알고리즘",
+          "소셜 기능"
+        ],
+        "clone_tip": "콘텐츠 확보와 스트리밍 인프라가 가장 큰 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.4
+      },
+      "tags": [
+        "#콘텐츠필요",
+        "#B2C",
+        "#미디어"
+      ],
+      "verdict": "혁신적이지만 콘텐츠 확보가 관건"
+    },
+    {
+      "rank": 4,
+      "name": "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+      "developer": "JOBIS&Villains",
+      "category": "금융",
+      "icon": "https://play-lh.googleusercontent.com/21k6XiSZI07qPqePBVosIUUTBmBSbb40HAVbHeaSbZW61174sN049gQ7uiXINZAOhs8_",
+      "app_url": "https://play.google.com/store/apps/details?id=co.jobis.szs",
+      "idea_summary": "다양한 환급과 혜택 통합 관리",
+      "analysis": {
+        "problem": "흩어진 세금 환급과 혜택 정보의 통합 부재 [확인]",
+        "solution": "모든 환급 혜택을 한 곳에서 관리 [확인]",
+        "target_user": "세금 환급과 절약에 관심 있는 일반인 [확인]",
+        "unique_point": "정부 혜택과 민간 혜택을 통합 제공 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "토스",
+          "뱅크샐러드",
+          "핀다"
+        ],
+        "timing_reason": "경제 어려움으로 절약 관심 증가 [확인]",
+        "growth_potential": "핀테크 시장 내 특화 영역으로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "수수료와 제휴 마케팅 [확인]",
+        "pricing_suggestion": "환급액의 5-10% 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "API 연동",
+          "보안 모듈"
+        ],
+        "key_features": [
+          "환급 계산",
+          "신청 대행",
+          "혜택 알림"
+        ],
+        "clone_tip": "공공 API와 파트너십 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8.8
+      },
+      "tags": [
+        "#규제확인필요",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "검증된 시장에서 성공한 모델"
+    },
+    {
+      "rank": 5,
+      "name": "QR 코드 및 바코드 스캐너",
+      "developer": "Start Up",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/75cMvjF1Alx-9m9cvynXYIHJ8g5MYrdGTGJ_9GScturhRrwmxS9UsgZNIoY6-pqg0KtAGR_WAhKFK6NYL9w",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.qrcode.reader.scanner.barcode.generator",
+      "idea_summary": "QR코드 스캔에 특화된 기능들",
+      "analysis": {
+        "problem": "기본 카메라 앱의 QR 인식 속도와 기능 부족 [추론]",
+        "solution": "빠른 인식과 추가 기능을 제공하는 전용 앱 [추론]",
+        "target_user": "QR코드를 자주 사용하는 모든 스마트폰 사용자 [추론]",
+        "unique_point": "스캔 속도 최적화와 히스토리 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "QR Code Reader",
+          "Barcode Scanner"
+        ],
+        "timing_reason": "코로나19 이후 QR코드 사용 급증 [확인]",
+        "growth_potential": "성숙한 시장이지만 안정적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무광고 버전 1,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Camera2 API",
+          "MLKit"
+        ],
+        "key_features": [
+          "빠른 스캔",
+          "히스토리",
+          "일괄 생성"
+        ],
+        "clone_tip": "카메라 최적화와 인식 속도가 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "간단하지만 경쟁 치열한 레드오션"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "자기계발과 효율성 추구 앱들이 눈에 띄며, 니치 시장 타겟 전략이 두드러짐. 숏폼 콘텐츠 확산으로 새로운 미디어 형태 등장.",
+    "trend_details": [
+      "자각몽, 운동 로깅 등 개인 관리 특화",
+      "지역 기반 서비스 플랫폼",
+      "숏폼 드라마 등 새로운 콘텐츠 형태"
+    ],
+    "hot_categories": [
+      "생산성",
+      "건강관리",
+      "엔터테인먼트"
+    ],
+    "opportunity": "대형 플랫폼이 놓치는 틈새 시장 공략",
+    "action_item": "개인화된 관리 도구나 지역 특화 서비스 아이디어 탐색"
+  }
+}
