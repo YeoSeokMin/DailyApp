@@ -1,81 +1,94 @@
 {
-  "generatedAt": "2026-05-17T15:06:11.943Z",
+  "generatedAt": "2026-05-18T15:05:59.169Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "엔터테인먼트",
+      "category": "게임",
       "currentCount": 4,
-      "previousCount": 2,
-      "changePercent": 100,
+      "previousCount": 1,
+      "changePercent": 300,
       "changeDirection": "up",
       "apps": [
+        "ChessQuirk",
+        "Flidot - Connect The Dots",
+        "Pocket Frontier",
+        "Palavras Cruzadas"
+      ],
+      "avgScore": 7.35
+    },
+    {
+      "category": "엔터테인먼트",
+      "currentCount": 6,
+      "previousCount": 2,
+      "changePercent": 200,
+      "changeDirection": "up",
+      "apps": [
+        "Festivool: biglietti & eventi",
+        "NetShort - 인기 드라마 및 TV 프로그램",
         "Arbit-Freely Decide",
         "Scream Jar: A Jar for Anything",
         "HeartPokerTap",
         "Vigloo 비글루 - 숏드라마"
       ],
-      "avgScore": 6.95
+      "avgScore": 7.433333333333333
+    },
+    {
+      "category": "의료",
+      "currentCount": 3,
+      "previousCount": 1,
+      "changePercent": 200,
+      "changeDirection": "up",
+      "apps": [
+        "나의건강기록",
+        "건강보험25시",
+        "LetsMedicine"
+      ],
+      "avgScore": 7.333333333333333
     },
     {
       "category": "건강 및 피트니스",
-      "currentCount": 4,
+      "currentCount": 5,
       "previousCount": 2,
-      "changePercent": 100,
+      "changePercent": 150,
       "changeDirection": "up",
       "apps": [
+        "Lucid Dream Journal Pro",
         "Water Well – Hydration Tracker",
         "BloomCue",
         "AthleteMind Elite",
         "Showdup"
       ],
-      "avgScore": 7.8500000000000005
+      "avgScore": 7.839999999999999
+    },
+    {
+      "category": "금융",
+      "currentCount": 4,
+      "previousCount": 2,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "Lenxo - Credits & Debts",
+        "LojaMi Amigu",
+        "OneCoin - Assets & Returns"
+      ],
+      "avgScore": 7.7
     },
     {
       "category": "도구",
-      "currentCount": 2,
+      "currentCount": 3,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "QR 코드 및 바코드 스캐너",
         "파일 및 사진 복구",
         "QR 코드 및 바코드 스캐너"
       ],
-      "avgScore": 7
-    },
-    {
-      "category": "게임",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Pocket Frontier",
-        "Palavras Cruzadas"
-      ],
-      "avgScore": 7.1
-    },
-    {
-      "category": "유틸리티",
-      "currentCount": 10,
-      "previousCount": 5,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Marryflow 备婚助手",
-        "파일 및 사진 복구",
-        "사진 복구 - 파일 복원",
-        "QR 코드 및 바코드 스캐너",
-        "AI Translator",
-        "위치 공유",
-        "国际日程转换器",
-        "HUD Speed: GPS Speedometer",
-        "사진 복구 - 파일 복원",
-        "Ai Translator, Voice Translate"
-      ],
-      "avgScore": 6.839999999999999
+      "avgScore": 6.733333333333333
     },
     {
       "category": "음악",
@@ -88,20 +101,6 @@
         "미니멧: 미니멀 메트로놈"
       ],
       "avgScore": 6.05
-    },
-    {
-      "category": "의료",
-      "currentCount": 4,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "나의건강기록",
-        "건강보험25시",
-        "LetsMedicine",
-        "Med-Plantão"
-      ],
-      "avgScore": 7.5
     },
     {
       "category": "여행",
@@ -127,17 +126,22 @@
       "avgScore": 6.5
     },
     {
-      "category": "금융",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
+      "category": "라이프스타일",
+      "currentCount": 8,
+      "previousCount": 7,
+      "changePercent": 14,
       "changeDirection": "up",
       "apps": [
-        "Lenxo - Credits & Debts",
-        "LojaMi Amigu",
-        "OneCoin - Assets & Returns"
+        "위치 공유",
+        "ChronoPen",
+        "Fika Beans",
+        "Kindpoints Rewards",
+        "Yore",
+        "Oops Again",
+        "겸사겸사",
+        "기리고"
       ],
-      "avgScore": 7.333333333333333
+      "avgScore": 6.975
     }
   ],
   "decliningCategories": [
@@ -156,12 +160,42 @@
       "avgScore": 8.05
     },
     {
-      "category": "생산성",
-      "currentCount": 18,
-      "previousCount": 27,
+      "category": "음식 및 음료",
+      "currentCount": 2,
+      "previousCount": 3,
       "changePercent": -33,
       "changeDirection": "down",
       "apps": [
+        "패스오더 - 카페 가는 길, 미리주문",
+        "麺ナビ"
+      ],
+      "avgScore": 7.55
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 6,
+      "previousCount": 9,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "Marryflow 备婚助手",
+        "파일 및 사진 복구",
+        "사진 복구 - 파일 복원",
+        "QR 코드 및 바코드 스캐너",
+        "AI Translator",
+        "위치 공유"
+      ],
+      "avgScore": 6.3
+    },
+    {
+      "category": "생산성",
+      "currentCount": 16,
+      "previousCount": 26,
+      "changePercent": -38,
+      "changeDirection": "down",
+      "apps": [
+        "YoungmanBlueprint",
+        "setlog",
         "문서 뷰어: PDF, Word",
         "문서 뷰어: HWP, Docx, PDF 파일, Xlsx",
         "PDF뷰어, PDF리더 그리고 파일열기",
@@ -175,30 +209,15 @@
         "Claude by Anthropic",
         "ChatGPT",
         "Ganadera Inteligente",
-        "PDF 리더: 뷰어·편집기",
-        "Twingo",
-        "setlog",
-        "PDF 리더 및 뷰어",
-        "문서 리더 & 스캔"
+        "PDF 리더: 뷰어·편집기"
       ],
-      "avgScore": 7.433333333333334
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
-      "changeDirection": "down",
-      "apps": [
-        "麺ナビ"
-      ],
-      "avgScore": 6.5
+      "avgScore": 7.45
     },
     {
       "category": "소셜",
       "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
+      "previousCount": 3,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
         "위치 공유"
@@ -229,25 +248,6 @@
         "Museum&"
       ],
       "avgScore": 6.5
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 9,
-      "previousCount": 9,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "위치 공유",
-        "ChronoPen",
-        "Fika Beans",
-        "Kindpoints Rewards",
-        "Yore",
-        "Oops Again",
-        "겸사겸사",
-        "기리고",
-        "Amel — İslami Yaşam Asistanı"
-      ],
-      "avgScore": 7.033333333333333
     }
   ],
   "hotKeywords": [
@@ -256,6 +256,14 @@
       "category": "tag",
       "count": 44,
       "apps": [
+        "ChessQuirk",
+        "Lucid Dream Journal Pro",
+        "Flidot - Connect The Dots",
+        "YoungmanBlueprint",
+        "setlog",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "QR 코드 및 바코드 스캐너",
         "Arbit-Freely Decide",
         "Simple Photo Transfer to PC",
         "Water Well – Hydration Tracker",
@@ -263,7 +271,6 @@
         "문서 뷰어: PDF, Word",
         "문서 뷰어: HWP, Docx, PDF 파일, Xlsx",
         "파일 및 사진 복구",
-        "QR 코드 및 바코드 스캐너",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "Marryflow 备婚助手",
         "FoodPhoto AI",
@@ -290,27 +297,27 @@
         "겸사겸사",
         "Vigloo 비글루 - 숏드라마",
         "기리고",
-        "PDF 리더: 뷰어·편집기",
-        "国际日程转换器",
-        "Twingo",
-        "Amel — İslami Yaşam Asistanı",
-        "HUD Speed: GPS Speedometer",
-        "사진 복구 - 파일 복원",
-        "Ai Translator, Voice Translate",
-        "PDF 리더 및 뷰어"
+        "PDF 리더: 뷰어·편집기"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 37,
+      "count": 35,
       "apps": [
+        "ChessQuirk",
+        "Lucid Dream Journal Pro",
+        "Flidot - Connect The Dots",
+        "Festivool: biglietti & eventi",
+        "YoungmanBlueprint",
+        "setlog",
+        "패스오더 - 카페 가는 길, 미리주문",
+        "QR 코드 및 바코드 스캐너",
         "Arbit-Freely Decide",
         "Simple Photo Transfer to PC",
         "Water Well – Hydration Tracker",
         "Lenxo - Credits & Debts",
         "문서 뷰어: PDF, Word",
-        "QR 코드 및 바코드 스캐너",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "Pocket Frontier",
         "Stow Timer | 集中タイマー",
@@ -331,23 +338,13 @@
         "Oops Again",
         "겸사겸사",
         "기리고",
-        "위치 공유",
-        "国际日程转换器",
-        "Twingo",
-        "Amel — İslami Yaşam Asistanı",
-        "Med-Plantão",
-        "HUD Speed: GPS Speedometer",
-        "사진 복구 - 파일 복원",
-        "Ai Translator, Voice Translate",
-        "setlog",
-        "PDF 리더 및 뷰어",
-        "문서 리더 & 스캔"
+        "위치 공유"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 11,
+      "count": 10,
       "apps": [
         "Dola: 스마트 AI 도우미",
         "FoodPhoto AI",
@@ -356,14 +353,13 @@
         "Claude by Anthropic",
         "ChatGPT",
         "Oops Again",
-        "Ganadera Inteligente",
-        "Ai Translator, Voice Translate"
+        "Ganadera Inteligente"
       ]
     },
     {
       "keyword": "생산성",
       "category": "productivity",
-      "count": 11,
+      "count": 10,
       "apps": [
         "Dola: 스마트 AI 도우미",
         "Stow Timer | 集中タイマー",
@@ -371,22 +367,44 @@
         "ChronoPen",
         "문서 리더 & 스캔",
         "Manus AI",
-        "PDF 리더: 뷰어·편집기",
-        "Twingo"
+        "PDF 리더: 뷰어·편집기"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 8,
+      "count": 7,
       "apps": [
+        "Festivool: biglietti & eventi",
         "Museum&",
         "QR課題チェック改",
         "setlog",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "LetsMedicine",
-        "Ganadera Inteligente",
-        "Med-Plantão"
+        "Ganadera Inteligente"
+      ]
+    },
+    {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "문서 리더 & 스캔",
+        "PDF 리더: 뷰어·편집기"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "QR 코드 및 바코드 스캐너",
+        "파일 및 사진 복구",
+        "setlog",
+        "사진 복구 - 파일 복원"
       ]
     },
     {
@@ -414,38 +432,63 @@
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 5,
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 4,
       "apps": [
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 리더 & 스캔",
-        "PDF 리더: 뷰어·편집기",
-        "PDF 리더 및 뷰어"
+        "Lucid Dream Journal Pro",
+        "TuneRatings",
+        "Fika Beans"
+      ]
+    },
+    {
+      "keyword": "핀테크",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "LojaMi Amigu",
+        "OneCoin - Assets & Returns"
+      ]
+    },
+    {
+      "keyword": "캐주얼게임",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Flidot - Connect The Dots",
+        "Pocket Frontier",
+        "HeartPokerTap"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "YoungmanBlueprint",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Vigloo 비글루 - 숏드라마"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 3,
+      "apps": [
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "AthleteMind Elite",
+        "겸사겸사"
       ]
     },
     {
       "keyword": "일정",
       "category": "productivity",
-      "count": 5,
+      "count": 3,
       "apps": [
         "Marryflow 备婚助手",
         "Bin Day Buddy",
-        "Manus AI",
-        "国际日程转换器",
-        "Med-Plantão"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "파일 및 사진 복구",
-        "setlog",
-        "사진 복구 - 파일 복원",
-        "QR 코드 및 바코드 스캐너"
+        "Manus AI"
       ]
     },
     {
@@ -455,15 +498,6 @@
       "apps": [
         "Marryflow 备婚助手",
         "Decidify - Relocation Match",
-        "Fika Beans"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 3,
-      "apps": [
-        "TuneRatings",
         "Fika Beans"
       ]
     },
@@ -478,15 +512,6 @@
       ]
     },
     {
-      "keyword": "핀테크",
-      "category": "fintech",
-      "count": 3,
-      "apps": [
-        "LojaMi Amigu",
-        "OneCoin - Assets & Returns"
-      ]
-    },
-    {
       "keyword": "대기업수준",
       "category": "tag",
       "count": 3,
@@ -497,82 +522,56 @@
       ]
     },
     {
-      "keyword": "니치마켓",
+      "keyword": "피트니스",
       "category": "tag",
       "count": 2,
       "apps": [
-        "Museum&",
-        "Fika Beans"
+        "setlog",
+        "Showdup"
       ]
     },
     {
-      "keyword": "캐주얼게임",
+      "keyword": "B2B2C",
       "category": "tag",
       "count": 2,
       "apps": [
-        "Pocket Frontier",
-        "HeartPokerTap"
-      ]
-    },
-    {
-      "keyword": "음악",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "TuneRatings",
-        "미니멧: 미니멀 메트로놈"
-      ]
-    },
-    {
-      "keyword": "데이터복구",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "파일 및 사진 복구",
-        "사진 복구 - 파일 복원"
-      ]
-    },
-    {
-      "keyword": "가족안전",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "위치 공유"
+        "패스오더 - 카페 가는 길, 미리주문",
+        "Kindpoints Rewards"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 22,
-        "percent": 31,
+        "count": 23,
+        "percent": 33,
         "examples": [
+          "ChessQuirk",
           "Arbit-Freely Decide",
-          "문서 뷰어: PDF, Word",
-          "QR 코드 및 바코드 스캐너"
+          "문서 뷰어: PDF, Word"
         ]
       },
       "freemium": {
-        "count": 58,
-        "percent": 83,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "Arbit-Freely Decide",
-          "Simple Photo Transfer to PC",
-          "Water Well – Hydration Tracker"
+          "ChessQuirk",
+          "Lucid Dream Journal Pro",
+          "YoungmanBlueprint"
         ]
       },
       "subscription": {
-        "count": 29,
-        "percent": 41,
+        "count": 26,
+        "percent": 37,
         "examples": [
-          "Water Well – Hydration Tracker",
-          "Lenxo - Credits & Debts",
-          "QR課題チェック改"
+          "Lucid Dream Journal Pro",
+          "NetShort - 인기 드라마 및 TV 프로그램",
+          "Water Well – Hydration Tracker"
         ]
       },
       "onetime": {
-        "count": 10,
-        "percent": 14,
+        "count": 8,
+        "percent": 11,
         "examples": [
           "Simple Photo Transfer to PC",
           "파일 및 사진 복구",
@@ -580,22 +579,22 @@
         ]
       },
       "unknown": {
-        "count": 4,
-        "percent": 6,
+        "count": 7,
+        "percent": 10,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 58,
-      "percent": 83,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "Arbit-Freely Decide",
-        "Simple Photo Transfer to PC",
-        "Water Well – Hydration Tracker"
+        "ChessQuirk",
+        "Lucid Dream Journal Pro",
+        "YoungmanBlueprint"
       ]
     },
-    "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
+    "insight": "프리미엄 모델 대세. 무료 사용자 → 유료 전환 퍼널 설계가 핵심."
   },
   "techTrends": {
     "trends": [
@@ -604,17 +603,17 @@
         "count": 13,
         "percent": 19,
         "apps": [
+          "QR 코드 및 바코드 스캐너",
           "Dola: 스마트 AI 도우미",
           "FoodPhoto AI",
           "QR 코드 및 바코드 스캐너",
-          "ChronoPen",
-          "문서 리더 & 스캔"
+          "ChronoPen"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 10,
-        "percent": 14,
+        "count": 9,
+        "percent": 13,
         "apps": [
           "Arbit-Freely Decide",
           "Marryflow 备婚助手",
@@ -624,9 +623,21 @@
         ]
       },
       {
-        "tech": "productivity",
+        "tech": "social",
         "count": 8,
         "percent": 11,
+        "apps": [
+          "Lucid Dream Journal Pro",
+          "Museum&",
+          "Decidify - Relocation Match",
+          "LojaMi Amigu",
+          "Fika Beans"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 5,
+        "percent": 7,
         "apps": [
           "Dola: 스마트 AI 도우미",
           "Stow Timer | 集中タイマー",
@@ -636,27 +647,25 @@
         ]
       },
       {
-        "tech": "social",
-        "count": 7,
-        "percent": 10,
-        "apps": [
-          "Museum&",
-          "Decidify - Relocation Match",
-          "LojaMi Amigu",
-          "Fika Beans",
-          "Kindpoints Rewards"
-        ]
-      },
-      {
         "tech": "creator",
         "count": 5,
         "percent": 7,
         "apps": [
+          "NetShort - 인기 드라마 및 TV 프로그램",
           "PDF뷰어, PDF리더 그리고 파일열기",
           "PDF 뷰어 - PDF Reader & PDF 편집",
           "Vigloo 비글루 - 숏드라마",
-          "PDF 리더: 뷰어·편집기",
-          "PDF 리더 및 뷰어"
+          "PDF 리더: 뷰어·편집기"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "NetShort - 인기 드라마 및 TV 프로그램",
+          "AthleteMind Elite",
+          "겸사겸사"
         ]
       },
       {
@@ -666,15 +675,6 @@
         "apps": [
           "LojaMi Amigu",
           "Kindpoints Rewards"
-        ]
-      },
-      {
-        "tech": "subscription",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "AthleteMind Elite",
-          "겸사겸사"
         ]
       },
       {
@@ -699,11 +699,11 @@
       "count": 13,
       "percent": 19,
       "apps": [
+        "QR 코드 및 바코드 스캐너",
         "Dola: 스마트 AI 도우미",
         "FoodPhoto AI",
         "QR 코드 및 바코드 스캐너",
-        "ChronoPen",
-        "문서 리더 & 스캔"
+        "ChronoPen"
       ]
     },
     "emerging": [
@@ -712,17 +712,17 @@
         "count": 13,
         "percent": 19,
         "apps": [
+          "QR 코드 및 바코드 스캐너",
           "Dola: 스마트 AI 도우미",
           "FoodPhoto AI",
           "QR 코드 및 바코드 스캐너",
-          "ChronoPen",
-          "문서 리더 & 스캔"
+          "ChronoPen"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 10,
-        "percent": 14,
+        "count": 9,
+        "percent": 13,
         "apps": [
           "Arbit-Freely Decide",
           "Marryflow 备婚助手",
@@ -732,27 +732,15 @@
         ]
       },
       {
-        "tech": "productivity",
+        "tech": "social",
         "count": 8,
         "percent": 11,
         "apps": [
-          "Dola: 스마트 AI 도우미",
-          "Stow Timer | 集中タイマー",
-          "ChronoPen",
-          "Bin Day Buddy",
-          "Manus AI"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 7,
-        "percent": 10,
-        "apps": [
+          "Lucid Dream Journal Pro",
           "Museum&",
           "Decidify - Relocation Match",
           "LojaMi Amigu",
-          "Fika Beans",
-          "Kindpoints Rewards"
+          "Fika Beans"
         ]
       }
     ]
@@ -760,17 +748,24 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "엔터테인먼트 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "게임 카테고리 급부상",
+      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "엔터테인먼트"
+      "category": "게임"
     },
     {
       "type": "rising_category",
-      "title": "건강 및 피트니스 카테고리 급부상",
+      "title": "의료 카테고리 급부상",
+      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "의료"
+    },
+    {
+      "type": "rising_category",
+      "title": "금융 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "건강 및 피트니스"
+      "category": "금융"
     },
     {
       "type": "rising_category",
@@ -781,24 +776,10 @@
     },
     {
       "type": "rising_category",
-      "title": "게임 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "게임"
-    },
-    {
-      "type": "rising_category",
       "title": "음악 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "음악"
-    },
-    {
-      "type": "rising_category",
-      "title": "의료 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "의료"
     },
     {
       "type": "rising_category",
@@ -813,28 +794,22 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "쇼핑"
-    },
-    {
-      "type": "rising_category",
-      "title": "금융 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "금융"
     }
   ],
   "insight": {
-    "trend_summary": "B2C 시장에서 1인 개발자 친화적인 앱들이 급부상하고 있으며, freemium 모델이 83%로 주류를 이루고 있습니다. AI 기술 활용도가 19%로 증가하면서 여러 카테고리가 동시에 100% 성장세를 보이고 있어 진입 기회가 확대되고 있습니다.",
+    "trend_summary": "게임과 의료 카테고리가 각각 300%, 200% 급상승하며 새로운 기회 영역으로 부상하고 있습니다. B2C와 1인개발가능 키워드가 압도적으로 높은 관심을 받고 있으며, Freemium 모델(79%)이 주류로 자리잡았습니다.",
     "trend_details": [
-      "1인개발가능 태그가 37회로 높은 관심을 받으며 솔로 개발자 시장 확장",
-      "freemium 모델이 83%로 압도적 우세하며 구독 모델과 병행 전략 유효",
-      "AI 기능 탑재 앱이 19%로 증가하며 필수 기술로 자리잡는 중"
+      "게임 카테고리 300% 급상승으로 인디 게임 개발 기회 확대",
+      "의료 앱 200% 증가로 헬스케어 디지털화 가속",
+      "AI 기술 적용 앱이 19%로 기술 트렌드 선도",
+      "Freemium 모델이 79%로 수익화 표준 모델로 정착"
     ],
     "hot_categories": [
-      "엔터테인먼트",
-      "건강 및 피트니스"
+      "게임",
+      "의료"
     ],
-    "opportunity": "엔터테인먼트와 건강&피트니스 카테고리가 100% 성장했지만 앱 수가 4개로 적어 경쟁이 치열하지 않은 블루오션 상태입니다.",
-    "action_item": "AI 기능을 포함한 엔터테인먼트 또는 건강&피트니스 앱을 freemium 모델로 빠르게 출시하여 선점 효과를 노리세요.",
-    "weekly_theme": "AI 진입기회"
+    "opportunity": "게임과 의료 카테고리는 급성장하지만 앱 수가 적어 1인 개발자가 진입하기 가장 유리한 블루오션 영역입니다.",
+    "action_item": "AI 기능을 탑재한 간단한 의료/건강 관리 앱을 Freemium 모델로 개발하여 급성장 시장에 빠르게 진입하세요.",
+    "weekly_theme": "헬스게임 AI"
   }
 }
