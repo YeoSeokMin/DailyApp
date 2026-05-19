@@ -1,0 +1,625 @@
+{
+  "date": "2026-05-20",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Aquero",
+      "developer": "Harnisch LLC",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/6d/6e/9e6d6e26-6308-59e5-1b67-b44321acbf5d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aquero/id6766737790?uo=2",
+      "idea_summary": "개인 물 섭취량 추적 및 관리",
+      "analysis": {
+        "problem": "충분한 수분 섭취 관리의 어려움 [추측]",
+        "solution": "직관적인 물 섭취량 기록 및 리마인더 기능 [추측]",
+        "target_user": "건강 관심 높은 20-40대 직장인 [추측]",
+        "unique_point": "시각적이고 간편한 물 섭취 추적 인터페이스 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Water Llama",
+          "Hydro Coach"
+        ],
+        "timing_reason": "건강 의식 증가와 디지털 헬스케어 트렌드 [추론]",
+        "growth_potential": "웰니스 시장 확대로 중간 수준 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 모델 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "HealthKit"
+        ],
+        "key_features": [
+          "물 섭취 기록",
+          "목표 설정",
+          "알림 기능"
+        ],
+        "clone_tip": "HealthKit 연동으로 차별화 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "검증된 시장이지만 차별화가 중요한 영역",
+      "deep_report_id": "ios-aquero-1779202996783"
+    },
+    {
+      "rank": 2,
+      "name": "Unifesto: Discover Events",
+      "developer": "Abhinavtej Reddy",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/5c/5d/135c5db1-0262-de45-3cdd-56149ec2f2a1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/unifesto-discover-events/id6767165496?uo=2",
+      "idea_summary": "개인화된 이벤트 발견 및 참여 플랫폼",
+      "analysis": {
+        "problem": "관심사에 맞는 이벤트 찾기의 어려움 [추측]",
+        "solution": "AI 기반 개인화 이벤트 추천 시스템 [추측]",
+        "target_user": "사교적이고 새로운 경험을 추구하는 20-30대 [추측]",
+        "unique_point": "개인 취향 기반 이벤트 매칭 알고리즘 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Eventbrite",
+          "Meetup"
+        ],
+        "timing_reason": "코로나 이후 오프라인 이벤트 회복 및 개인화 트렌드 [추론]",
+        "growth_potential": "이벤트 시장 성장으로 높은 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "이벤트 수수료 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "거래 수수료 5% + 월 4,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "GraphQL",
+          "ML Kit"
+        ],
+        "key_features": [
+          "이벤트 탐색",
+          "개인화 추천",
+          "소셜 기능"
+        ],
+        "clone_tip": "지역 특화 및 커뮤니티 기능 강화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#소셜",
+        "#B2C",
+        "#양방향마켓"
+      ],
+      "verdict": "지역화 전략으로 승부할 만한 유망 아이템"
+    },
+    {
+      "rank": 3,
+      "name": "Spool Pantry",
+      "developer": "Jonathan Katz",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/ca/ca/f1caca30-5cd2-dc94-e1f8-9a92fedd7053/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/spool-pantry/id6770117673?uo=2",
+      "idea_summary": "스마트 식료품 재고 관리 시스템",
+      "analysis": {
+        "problem": "냉장고와 식료품 재고 관리의 비효율성 [추측]",
+        "solution": "바코드 스캔 기반 자동 재고 추적 [추측]",
+        "target_user": "요리를 즐기는 3040세대 가정 [추측]",
+        "unique_point": "유통기한 알림과 레시피 연동 기능 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "FoodNoms",
+          "Yuka"
+        ],
+        "timing_reason": "푸드테크 성장과 음식물 쓰레기 관심 증가 [추론]",
+        "growth_potential": "지속가능성 트렌드로 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 제휴 수수료 [추론]",
+        "pricing_suggestion": "월 3,900원 + 온라인마트 제휴 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1000-1800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "ML Kit",
+          "Firebase"
+        ],
+        "key_features": [
+          "바코드 스캔",
+          "유통기한 추적",
+          "쇼핑리스트"
+        ],
+        "clone_tip": "한국 식품 DB 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생활편의"
+      ],
+      "verdict": "실용성 높은 아이디어, 데이터 구축이 관건"
+    },
+    {
+      "rank": 4,
+      "name": "Flight Swap",
+      "developer": "BAHED LLC",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/5c/22/e25c2205-33b4-27c0-dbc0-a0262fab3742/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/flight-swap/id6763051382?uo=2",
+      "idea_summary": "항공편 교환 및 양도 중개 플랫폼",
+      "analysis": {
+        "problem": "취소 불가능한 항공편의 손실 문제 [추측]",
+        "solution": "승객 간 항공편 교환 매칭 서비스 [추측]",
+        "target_user": "출장족과 여행객 모두 [추측]",
+        "unique_point": "항공편 양도의 법적 가능 범위 내 중개 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "없음",
+          "신규 시장"
+        ],
+        "timing_reason": "항공업계 회복과 유연성 수요 증가 [추론]",
+        "growth_potential": "규제 이슈 있지만 니치 시장으로 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료 모델 [추론]",
+        "pricing_suggestion": "거래금액의 8-12% 수수료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2000-3500만원 [추론]",
+        "tech_stack": [
+          "React",
+          "Node.js",
+          "Payment Gateway"
+        ],
+        "key_features": [
+          "항공편 매칭",
+          "결제 시스템",
+          "신원 확인"
+        ],
+        "clone_tip": "항공사별 정책과 법적 검토 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#혁신적",
+        "#B2B2C",
+        "#마켓플레이스"
+      ],
+      "verdict": "혁신적 아이디어지만 법적 리스크 고려 필요"
+    },
+    {
+      "rank": 5,
+      "name": "SynthMaker Techno",
+      "developer": "satoshi amasaki",
+      "category": "음악",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/55/82/4f55824a-caa3-ac28-e773-488e236b5fe9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/synthmaker-techno/id6770153620?uo=2",
+      "idea_summary": "모바일 테크노 음악 제작 도구",
+      "analysis": {
+        "problem": "복잡한 음악 제작 도구의 접근성 문제 [추측]",
+        "solution": "테크노 장르 특화 간편 시퀀서 [추측]",
+        "target_user": "음악 취미생과 아마추어 DJ [추측]",
+        "unique_point": "테크노 장르에 최적화된 UI/UX [추측]"
+      },
+      "market": {
+        "competitors": [
+          "GarageBand",
+          "FL Studio Mobile"
+        ],
+        "timing_reason": "모바일 음악 제작 도구 수요 증가 [추론]",
+        "growth_potential": "크리에이터 이코노미 확산으로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "앱 구매 + 확장팩 IAP [추론]",
+        "pricing_suggestion": "기본 8,900원 + 확장팩 2,900원씩 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "1800-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVAudioEngine",
+          "Core Audio"
+        ],
+        "key_features": [
+          "시퀀서",
+          "신스 엔진",
+          "이펙트 체인"
+        ],
+        "clone_tip": "오디오 엔진 최적화가 핵심 기술 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 1,
+        "market_size": 2,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.6
+      },
+      "tags": [
+        "#크리에이터툴",
+        "#니치마켓",
+        "#B2C"
+      ],
+      "verdict": "전문성 높지만 시장 규모 제한적인 틈새 영역"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "PDF 리더: 뷰어·편집기",
+      "developer": "Dcutuansaw",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/fwiNwX4Nx9e1_nbvH_RrIXwfdOgUmG9ripgLh59y-npgKRm2zNjxfZBNkmqMG5K9Is2UjBNm4OZOJSgP2cAuSQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pdfreader.pdf.viewer.pdfeditor",
+      "idea_summary": "올인원 PDF 관리 솔루션",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집의 불편함 [확인]",
+        "solution": "터치 최적화된 PDF 편집 인터페이스 [추론]",
+        "target_user": "문서 작업이 많은 직장인과 학생 [추론]",
+        "unique_point": "한글 문서 호환성과 클라우드 연동 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS Office"
+        ],
+        "timing_reason": "재택근무 증가로 모바일 문서 편집 수요 확산 [추론]",
+        "growth_potential": "디지털 문서화 트렌드로 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500-2200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDFBox",
+          "Room Database"
+        ],
+        "key_features": [
+          "PDF 편집",
+          "주석 기능",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "한글 폰트 렌더링 최적화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#필수앱",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "검증된 니즈, 차별화된 UX로 승부 가능",
+      "deep_report_id": "android-pdf-리더-뷰어-편집기-1779203072998"
+    },
+    {
+      "rank": 2,
+      "name": "TV Smart Player: TV Shows",
+      "developer": "Daniel Le",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/AoToPwH9uXQuzIWaug_wiaaXGO9LSK5_7qHpDuYSGDd1n7gaw5Ai3PliAkxWK45WEW4-GeHIFmkCV5JWtkIS",
+      "app_url": "https://play.google.com/store/apps/details?id=com.iptvplayer.liveplayer.smartiptv",
+      "idea_summary": "스마트 TV 미러링 및 컨텐츠 플레이어",
+      "analysis": {
+        "problem": "모바일과 TV 간 컨텐츠 공유의 복잡함 [추측]",
+        "solution": "원클릭 미러링과 리모컨 통합 기능 [추측]",
+        "target_user": "OTT 서비스 헤비유저 [추측]",
+        "unique_point": "다중 플랫폼 통합 재생 인터페이스 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "AllCast",
+          "LocalCast"
+        ],
+        "timing_reason": "스마트TV 보급 확산과 OTT 시장 성장 [추론]",
+        "growth_potential": "홈 엔터테인먼트 시장 확대로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 제거 + 고급 기능 유료화 [추론]",
+        "pricing_suggestion": "월 2,900원 또는 일시불 12,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1200-2000만원 [추론]",
+        "tech_stack": [
+          "Android TV",
+          "Chromecast SDK",
+          "DLNA"
+        ],
+        "key_features": [
+          "화면 미러링",
+          "리모컨 기능",
+          "플레이리스트"
+        ],
+        "clone_tip": "각 TV 브랜드별 호환성 테스트 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#IoT연결",
+        "#B2C",
+        "#홈엔터"
+      ],
+      "verdict": "스마트홈 트렌드에 부합하는 실용적 아이템"
+    },
+    {
+      "rank": 3,
+      "name": "문서 뷰어: PDF, Word",
+      "developer": "SolaraSoft",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/78D3hUh0IHkqh-Kh93UGCe6-EIHBgRX9sQpAyLT37qTNj9eWv_fQAFe5UlmY2W_Mg3c",
+      "app_url": "https://play.google.com/store/apps/details?id=com.solara.alldocumentreader.officepdfwordexcel",
+      "idea_summary": "통합 오피스 문서 뷰어",
+      "analysis": {
+        "problem": "다양한 문서 포맷 호환성 문제 [확인]",
+        "solution": "멀티 포맷 지원하는 통합 뷰어 [추론]",
+        "target_user": "다양한 문서 형식을 다루는 직장인 [추론]",
+        "unique_point": "한글 오피스 포맷 완벽 지원 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Microsoft Office",
+          "Google Docs"
+        ],
+        "timing_reason": "모바일 오피스 수요와 호환성 이슈 증가 [추론]",
+        "growth_potential": "문서 디지털화로 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 편집 기능 [추론]",
+        "pricing_suggestion": "월 3,900원 편집 기능 추가 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Apache POI",
+          "PDF.js"
+        ],
+        "key_features": [
+          "다중 포맷 지원",
+          "검색 기능",
+          "주석"
+        ],
+        "clone_tip": "한컴오피스 등 국내 포맷 지원 강화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.2
+      },
+      "tags": [
+        "#생산성",
+        "#B2B",
+        "#호환성"
+      ],
+      "verdict": "기본적 니즈지만 기술적 완성도가 승부처"
+    },
+    {
+      "rank": 4,
+      "name": "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+      "developer": "보조금e알리미",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/Z8G6iKVSwxIOCLr5kb23dPe-r8mT3YHEm426C1UoR8mtHIkbT4bl8dPSLjMG89bHAMbtkNd9dji96rnGMkcF",
+      "app_url": "https://play.google.com/store/apps/details?id=com.jupiter.distance",
+      "idea_summary": "정부 지원금 신청 도우미",
+      "analysis": {
+        "problem": "복잡한 정부 지원금 신청 절차 [확인]",
+        "solution": "개인 맞춤 지원금 정보 및 신청 가이드 [추론]",
+        "target_user": "정부 지원금 대상자 전 연령층 [확인]",
+        "unique_point": "실시간 지원금 업데이트와 신청 도우미 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "정부24",
+          "복지로"
+        ],
+        "timing_reason": "정부 지원 정책 확대와 디지털 정부 추진 [확인]",
+        "growth_potential": "정부 디지털 서비스 확산으로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익 + 컨설팅 서비스 [추론]",
+        "pricing_suggestion": "무료 + 프리미엄 알림 월 1,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Web Scraping",
+          "Push Notification"
+        ],
+        "key_features": [
+          "지원금 검색",
+          "신청 가이드",
+          "알림 서비스"
+        ],
+        "clone_tip": "정부 API 연동과 정보 업데이트 자동화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#공공서비스",
+        "#B2C",
+        "#필수정보"
+      ],
+      "verdict": "높은 사회적 가치와 안정적 수요 확보 가능"
+    },
+    {
+      "rank": 5,
+      "name": "QR 코드 및 바코드 스캐너",
+      "developer": "Start Up",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/75cMvjF1Alx-9m9cvynXYIHJ8g5MYrdGTGJ_9GScturhRrwmxS9UsgZNIoY6-pqg0KtAGR_WAhKFK6NYL9w",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.qrcode.reader.scanner.barcode.generator",
+      "idea_summary": "올인원 QR/바코드 스캐너",
+      "analysis": {
+        "problem": "다양한 코드 스캔 상황별 앱 변경 불편 [추론]",
+        "solution": "모든 코드 형식 지원하는 통합 스캐너 [추론]",
+        "target_user": "스마트폰 사용자 전 연령층 [확인]",
+        "unique_point": "빠른 인식 속도와 히스토리 관리 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "기본 카메라 앱",
+          "전용 스캐너들"
+        ],
+        "timing_reason": "QR 결제 일상화와 코로나 이후 비접촉 증가 [확인]",
+        "growth_potential": "기본 기능이지만 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료 + 광고 제거 3,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ML Kit",
+          "CameraX"
+        ],
+        "key_features": [
+          "코드 스캔",
+          "히스토리",
+          "생성 기능"
+        ],
+        "clone_tip": "인식 정확도와 속도가 핵심 경쟁력 [추론]"
+      },
+      "scores": {
+        "novelty": 1,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.2
+      },
+      "tags": [
+        "#기본유틸",
+        "#B2C",
+        "#일상도구"
+      ],
+      "verdict": "기본 기능이지만 완성도로 승부하는 영역"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "실용성 중심의 생활 밀착형 앱들이 주를 이루며, 개인화와 편의성을 강조하는 앱들이 증가하고 있습니다. 특히 정부 서비스 연계와 문서 관리 솔루션이 눈에 띕니다.",
+    "trend_details": [
+      "실용적 생활 도구 앱 증가",
+      "개인화 서비스 중시",
+      "정부-민간 서비스 연계",
+      "문서 관리 솔루션 다양화",
+      "이벤트/소셜 디스커버리 진화"
+    ],
+    "hot_categories": [
+      "생산성",
+      "라이프스타일",
+      "유틸리티"
+    ],
+    "opportunity": "정부 공공 데이터 활용한 시민 편의 서비스 영역",
+    "action_item": "사용자 개인화 기능과 실용성을 결합한 앱 기획 검토"
+  }
+}
