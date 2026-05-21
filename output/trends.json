@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T15:06:14.208Z",
+  "generatedAt": "2026-05-21T15:05:53.338Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -8,19 +8,19 @@
     {
       "category": "엔터테인먼트",
       "currentCount": 7,
-      "previousCount": 1,
-      "changePercent": 600,
+      "previousCount": 2,
+      "changePercent": 250,
       "changeDirection": "up",
       "apps": [
+        "BambooWanMe",
         "TV Smart Player: TV Shows",
         "DramaBox - 미니시리즈 스트리밍 플레이어",
         "Festivool: biglietti & eventi",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "Arbit-Freely Decide",
-        "Scream Jar: A Jar for Anything",
-        "HeartPokerTap"
+        "Scream Jar: A Jar for Anything"
       ],
-      "avgScore": 7.414285714285714
+      "avgScore": 7.471428571428571
     },
     {
       "category": "음악",
@@ -36,17 +36,28 @@
       "avgScore": 5.8999999999999995
     },
     {
-      "category": "의료",
+      "category": "게임",
       "currentCount": 3,
       "previousCount": 1,
       "changePercent": 200,
       "changeDirection": "up",
       "apps": [
-        "나의건강기록",
-        "건강보험25시",
-        "LetsMedicine"
+        "ChessQuirk",
+        "Flidot - Connect The Dots",
+        "Pocket Frontier"
       ],
-      "avgScore": 7.333333333333333
+      "avgScore": 7.3999999999999995
+    },
+    {
+      "category": "도서",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "AeroBooks"
+      ],
+      "avgScore": 6.8
     },
     {
       "category": "소셜 네트워킹",
@@ -83,20 +94,6 @@
       "avgScore": 6
     },
     {
-      "category": "게임",
-      "currentCount": 4,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "ChessQuirk",
-        "Flidot - Connect The Dots",
-        "Pocket Frontier",
-        "Palavras Cruzadas"
-      ],
-      "avgScore": 7.35
-    },
-    {
       "category": "도구",
       "currentCount": 3,
       "previousCount": 0,
@@ -112,7 +109,7 @@
     {
       "category": "사진 및 비디오",
       "currentCount": 2,
-      "previousCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
@@ -122,39 +119,20 @@
       "avgScore": 7.449999999999999
     },
     {
-      "category": "금융",
-      "currentCount": 4,
-      "previousCount": 3,
-      "changePercent": 33,
+      "category": "의료",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "미래에셋증권 M-STOCK",
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
-        "Lenxo - Credits & Debts",
-        "LojaMi Amigu"
+        "모바일 건강보험증",
+        "나의건강기록",
+        "건강보험25시"
       ],
-      "avgScore": 7.9
+      "avgScore": 7
     }
   ],
   "decliningCategories": [
-    {
-      "category": "유틸리티",
-      "currentCount": 8,
-      "previousCount": 10,
-      "changePercent": -20,
-      "changeDirection": "down",
-      "apps": [
-        "Spool Pantry",
-        "QR 코드 및 바코드 스캐너",
-        "AiHomeworkA+",
-        "Marryflow 备婚助手",
-        "파일 및 사진 복구",
-        "사진 복구 - 파일 복원",
-        "QR 코드 및 바코드 스캐너",
-        "AI Translator"
-      ],
-      "avgScore": 6.35
-    },
     {
       "category": "건강 및 피트니스",
       "currentCount": 3,
@@ -169,52 +147,21 @@
       "avgScore": 7.933333333333334
     },
     {
-      "category": "생산성",
-      "currentCount": 15,
-      "previousCount": 25,
-      "changePercent": -40,
+      "category": "유틸리티",
+      "currentCount": 7,
+      "previousCount": 11,
+      "changePercent": -36,
       "changeDirection": "down",
       "apps": [
-        "Flight Swap",
-        "PDF 리더: 뷰어·편집기",
-        "문서 뷰어: PDF, Word",
-        "molipDo 몰입도",
-        "PDF 리더 및 뷰어",
-        "YoungmanBlueprint",
-        "setlog",
-        "문서 뷰어: PDF, Word",
-        "문서 뷰어: HWP, Docx, PDF 파일, Xlsx",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "Dola: 스마트 AI 도우미",
-        "Stow Timer | 集中タイマー",
-        "setlog",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 리더 & 스캔"
+        "Spool Pantry",
+        "QR 코드 및 바코드 스캐너",
+        "AiHomeworkA+",
+        "Marryflow 备婚助手",
+        "파일 및 사진 복구",
+        "사진 복구 - 파일 복원",
+        "QR 코드 및 바코드 스캐너"
       ],
-      "avgScore": 7.180000000000001
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "패스오더 - 카페 가는 길, 미리주문"
-      ],
-      "avgScore": 8.6
-    },
-    {
-      "category": "교육",
-      "currentCount": 2,
-      "previousCount": 4,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "QR課題チェック改",
-        "Sol Galaxy Study Timer"
-      ],
-      "avgScore": 7.25
+      "avgScore": 6.257142857142857
     },
     {
       "category": "여행",
@@ -228,6 +175,21 @@
       "avgScore": 7.5
     },
     {
+      "category": "라이프스타일",
+      "currentCount": 5,
+      "previousCount": 11,
+      "changePercent": -55,
+      "changeDirection": "down",
+      "apps": [
+        "Aquero",
+        "Unifesto: Discover Events",
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+        "포에버 - 반려인을 위한 펫로스 케어 및 추억 기록앱",
+        "위치 공유"
+      ],
+      "avgScore": 7.159999999999999
+    },
+    {
       "category": "소셜",
       "currentCount": 1,
       "previousCount": 3,
@@ -237,26 +199,74 @@
         "위치 공유"
       ],
       "avgScore": 6.5
+    },
+    {
+      "category": "교육",
+      "currentCount": 1,
+      "previousCount": 5,
+      "changePercent": -80,
+      "changeDirection": "down",
+      "apps": [
+        "QR課題チェック改"
+      ],
+      "avgScore": 7.5
     }
   ],
   "stableCategories": [
     {
-      "category": "라이프스타일",
-      "currentCount": 8,
-      "previousCount": 8,
+      "category": "생산성",
+      "currentCount": 19,
+      "previousCount": 19,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Aquero",
-        "Unifesto: Discover Events",
-        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
-        "포에버 - 반려인을 위한 펫로스 케어 및 추억 기록앱",
-        "위치 공유",
-        "ChronoPen",
-        "Fika Beans",
-        "Kindpoints Rewards"
+        "Febos X",
+        "FlowMind Studio",
+        "setlog",
+        "PDF 리더 및 뷰어",
+        "문서 뷰어: PDF, Word",
+        "Flight Swap",
+        "PDF 리더: 뷰어·편집기",
+        "문서 뷰어: PDF, Word",
+        "molipDo 몰입도",
+        "PDF 리더 및 뷰어",
+        "YoungmanBlueprint",
+        "setlog",
+        "문서 뷰어: PDF, Word",
+        "문서 뷰어: HWP, Docx, PDF 파일, Xlsx",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "Dola: 스마트 AI 도우미",
+        "Stow Timer | 集中タイマー",
+        "setlog",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ],
-      "avgScore": 7.262499999999999
+      "avgScore": 7.052631578947368
+    },
+    {
+      "category": "금융",
+      "currentCount": 4,
+      "previousCount": 4,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Repayment Log",
+        "미래에셋증권 M-STOCK",
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "Lenxo - Credits & Debts"
+      ],
+      "avgScore": 7.775
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "패스오더",
+        "패스오더 - 카페 가는 길, 미리주문"
+      ],
+      "avgScore": 8.2
     },
     {
       "category": "쇼핑",
@@ -274,8 +284,14 @@
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 42,
+      "count": 43,
       "apps": [
+        "BambooWanMe",
+        "Repayment Log",
+        "setlog",
+        "PDF 리더 및 뷰어",
+        "문서 뷰어: PDF, Word",
+        "모바일 건강보험증",
         "Aquero",
         "Unifesto: Discover Events",
         "Spool Pantry",
@@ -297,32 +313,33 @@
         "Lucid Dream Journal Pro",
         "Flidot - Connect The Dots",
         "YoungmanBlueprint",
-        "setlog",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
         "Arbit-Freely Decide",
         "Simple Photo Transfer to PC",
         "Water Well – Hydration Tracker",
         "Lenxo - Credits & Debts",
-        "문서 뷰어: PDF, Word",
         "문서 뷰어: HWP, Docx, PDF 파일, Xlsx",
         "파일 및 사진 복구",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "Marryflow 备婚助手",
         "FoodPhoto AI",
-        "위치 공유",
-        "Palavras Cruzadas",
-        "HeartPokerTap",
-        "LojaMi Amigu",
-        "문서 리더 & 스캔",
-        "AI Translator"
+        "위치 공유"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 32,
+      "count": 35,
       "apps": [
+        "Febos X",
+        "BambooWanMe",
+        "Repayment Log",
+        "FlowMind Studio",
+        "AeroBooks",
+        "setlog",
+        "PDF 리더 및 뷰어",
+        "문서 뷰어: PDF, Word",
         "Aquero",
         "Spool Pantry",
         "AiHomeworkA+",
@@ -331,35 +348,44 @@
         "بوح - لا تكتم شي",
         "Paddeo SmartWatch",
         "개혁신당",
-        "PDF 리더 및 뷰어",
         "ChessQuirk",
         "Lucid Dream Journal Pro",
         "Flidot - Connect The Dots",
         "Festivool: biglietti & eventi",
         "YoungmanBlueprint",
-        "setlog",
         "패스오더 - 카페 가는 길, 미리주문",
         "QR 코드 및 바코드 스캐너",
         "Arbit-Freely Decide",
         "Simple Photo Transfer to PC",
         "Water Well – Hydration Tracker",
         "Lenxo - Credits & Debts",
-        "문서 뷰어: PDF, Word",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "Pocket Frontier",
         "Stow Timer | 集中タイマー",
-        "Scream Jar: A Jar for Anything",
-        "Palavras Cruzadas",
-        "HeartPokerTap",
-        "ChronoPen",
-        "Sol Galaxy Study Timer",
-        "Fika Beans"
+        "Scream Jar: A Jar for Anything"
+      ]
+    },
+    {
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 10,
+      "apps": [
+        "Febos X",
+        "FlowMind Studio",
+        "AeroBooks",
+        "문서 뷰어: PDF, Word",
+        "PDF 리더 및 뷰어",
+        "Festivool: biglietti & eventi",
+        "Museum&",
+        "QR課題チェック改",
+        "setlog",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
       "keyword": "생산성",
       "category": "tag",
-      "count": 13,
+      "count": 10,
       "apps": [
         "PDF 리더: 뷰어·편집기",
         "문서 뷰어: PDF, Word",
@@ -367,86 +393,42 @@
         "PDF 리더 및 뷰어",
         "Dola: 스마트 AI 도우미",
         "Stow Timer | 集中タイマー",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "ChronoPen",
-        "문서 리더 & 스캔"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 8,
-      "apps": [
-        "문서 뷰어: PDF, Word",
-        "PDF 리더 및 뷰어",
-        "Festivool: biglietti & eventi",
-        "Museum&",
-        "QR課題チェック改",
-        "setlog",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "LetsMedicine"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 7,
+      "count": 5,
       "apps": [
         "Unifesto: Discover Events",
         "AiHomeworkA+",
         "Dola: 스마트 AI 도우미",
-        "FoodPhoto AI",
-        "AI Translator"
-      ]
-    },
-    {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 7,
-      "apps": [
-        "TV Smart Player: TV Shows",
-        "Paddeo SmartWatch",
-        "Arbit-Freely Decide",
-        "Marryflow 备婚助手",
-        "Scream Jar: A Jar for Anything",
-        "HeartPokerTap",
-        "Kindpoints Rewards"
+        "FoodPhoto AI"
       ]
     },
     {
       "keyword": "편집",
       "category": "creator",
-      "count": 6,
+      "count": 5,
       "apps": [
         "PDF 리더: 뷰어·편집기",
         "PDF 리더 및 뷰어",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 리더 & 스캔"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "tag",
+      "keyword": "AR",
+      "category": "ar_vr",
       "count": 5,
       "apps": [
-        "Unifesto: Discover Events",
-        "بوح - لا تكتم شي",
-        "Museum&",
-        "LojaMi Amigu",
-        "Kindpoints Rewards"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "당근 - 당신 근처의 지역 생활 커뮤니티",
-        "Lucid Dream Journal Pro",
-        "TuneRatings",
-        "Fika Beans"
+        "TV Smart Player: TV Shows",
+        "Paddeo SmartWatch",
+        "Arbit-Freely Decide",
+        "Marryflow 备婚助手",
+        "Scream Jar: A Jar for Anything"
       ]
     },
     {
@@ -472,6 +454,56 @@
       ]
     },
     {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "당근 - 당신 근처의 지역 생활 커뮤니티",
+        "Lucid Dream Journal Pro",
+        "TuneRatings"
+      ]
+    },
+    {
+      "keyword": "워크플로우",
+      "category": "productivity",
+      "count": 3,
+      "apps": [
+        "Febos X",
+        "FlowMind Studio",
+        "Marryflow 备婚助手"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "BambooWanMe",
+        "YoungmanBlueprint",
+        "NetShort - 인기 드라마 및 TV 프로그램"
+      ]
+    },
+    {
+      "keyword": "B2B2C",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "패스오더",
+        "Flight Swap",
+        "패스오더 - 카페 가는 길, 미리주문"
+      ]
+    },
+    {
+      "keyword": "공공서비스",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "모바일 건강보험증",
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+        "건강보험25시"
+      ]
+    },
+    {
       "keyword": "매칭",
       "category": "social",
       "count": 3,
@@ -482,62 +514,40 @@
       ]
     },
     {
-      "keyword": "B2B2C",
+      "keyword": "소셜",
       "category": "tag",
       "count": 3,
       "apps": [
-        "Flight Swap",
-        "패스오더 - 카페 가는 길, 미리주문",
-        "Kindpoints Rewards"
+        "Unifesto: Discover Events",
+        "بوح - لا تكتم شي",
+        "Museum&"
       ]
     },
     {
-      "keyword": "니치마켓",
-      "category": "tag",
-      "count": 3,
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 2,
       "apps": [
-        "SynthMaker Techno",
-        "Museum&",
-        "Fika Beans"
+        "Febos X",
+        "NetShort - 인기 드라마 및 TV 프로그램"
       ]
     },
     {
-      "keyword": "교육",
-      "category": "tag",
-      "count": 3,
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 2,
       "apps": [
-        "AiHomeworkA+",
-        "미니멧: 미니멀 메트로놈",
-        "Sol Galaxy Study Timer"
+        "Repayment Log",
+        "Marryflow 备婚助手"
       ]
     },
     {
-      "keyword": "캐주얼게임",
-      "category": "tag",
-      "count": 3,
+      "keyword": "보험",
+      "category": "fintech",
+      "count": 2,
       "apps": [
-        "Flidot - Connect The Dots",
-        "Pocket Frontier",
-        "HeartPokerTap"
-      ]
-    },
-    {
-      "keyword": "핀테크",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
-        "LojaMi Amigu"
-      ]
-    },
-    {
-      "keyword": "라이프스타일",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Marryflow 备婚助手",
-        "Decidify - Relocation Match",
-        "Fika Beans"
+        "모바일 건강보험증",
+        "건강보험25시"
       ]
     },
     {
@@ -548,15 +558,6 @@
         "Flight Swap",
         "당근 - 당신 근처의 지역 생활 커뮤니티"
       ]
-    },
-    {
-      "keyword": "공공서비스",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
-        "건강보험25시"
-      ]
     }
   ],
   "pricingTrends": {
@@ -565,52 +566,52 @@
         "count": 23,
         "percent": 33,
         "examples": [
-          "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
-          "QR 코드 및 바코드 스캐너",
-          "بوح - لا تكتم شي"
+          "BambooWanMe",
+          "모바일 건강보험증",
+          "2026 고유가 피해지원금 60만원 민생지원 신청가이드"
         ]
       },
       "freemium": {
-        "count": 54,
-        "percent": 77,
+        "count": 53,
+        "percent": 76,
         "examples": [
-          "Aquero",
-          "Unifesto: Discover Events",
-          "Spool Pantry"
+          "Febos X",
+          "BambooWanMe",
+          "Repayment Log"
         ]
       },
       "subscription": {
         "count": 20,
         "percent": 29,
         "examples": [
-          "Aquero",
-          "Spool Pantry",
-          "PDF 리더: 뷰어·편집기"
+          "Febos X",
+          "Repayment Log",
+          "FlowMind Studio"
         ]
       },
       "onetime": {
-        "count": 7,
-        "percent": 10,
+        "count": 9,
+        "percent": 13,
         "examples": [
-          "SynthMaker Techno",
-          "TV Smart Player: TV Shows",
-          "Simple Photo Transfer to PC"
+          "BambooWanMe",
+          "AeroBooks",
+          "SynthMaker Techno"
         ]
       },
       "unknown": {
-        "count": 7,
-        "percent": 10,
+        "count": 8,
+        "percent": 11,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 54,
-      "percent": 77,
+      "count": 53,
+      "percent": 76,
       "examples": [
-        "Aquero",
-        "Unifesto: Discover Events",
-        "Spool Pantry"
+        "Febos X",
+        "BambooWanMe",
+        "Repayment Log"
       ]
     },
     "insight": "프리미엄 모델 대세. 무료 사용자 → 유료 전환 퍼널 설계가 핵심."
@@ -619,8 +620,8 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 11,
-        "percent": 16,
+        "count": 8,
+        "percent": 11,
         "apps": [
           "Unifesto: Discover Events",
           "Spool Pantry",
@@ -630,9 +631,21 @@
         ]
       },
       {
+        "tech": "creator",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "BambooWanMe",
+          "PDF 리더: 뷰어·편집기",
+          "PDF 리더 및 뷰어",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "NetShort - 인기 드라마 및 TV 프로그램"
+        ]
+      },
+      {
         "tech": "ar_vr",
-        "count": 9,
-        "percent": 13,
+        "count": 6,
+        "percent": 9,
         "apps": [
           "TV Smart Player: TV Shows",
           "Paddeo SmartWatch",
@@ -643,8 +656,8 @@
       },
       {
         "tech": "social",
-        "count": 9,
-        "percent": 13,
+        "count": 6,
+        "percent": 9,
         "apps": [
           "Flight Swap",
           "بوح - لا تكتم شي",
@@ -654,35 +667,32 @@
         ]
       },
       {
-        "tech": "creator",
+        "tech": "productivity",
         "count": 6,
         "percent": 9,
         "apps": [
-          "PDF 리더: 뷰어·편집기",
-          "PDF 리더 및 뷰어",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "PDF뷰어, PDF리더 그리고 파일열기"
+          "Febos X",
+          "Repayment Log",
+          "FlowMind Studio",
+          "molipDo 몰입도",
+          "Dola: 스마트 AI 도우미"
         ]
       },
       {
-        "tech": "productivity",
-        "count": 4,
-        "percent": 6,
+        "tech": "fintech",
+        "count": 2,
+        "percent": 3,
         "apps": [
-          "molipDo 몰입도",
-          "Dola: 스마트 AI 도우미",
-          "Stow Timer | 集中タイマー",
-          "ChronoPen"
+          "모바일 건강보험증",
+          "건강보험25시"
         ]
       },
       {
         "tech": "blockchain",
-        "count": 2,
-        "percent": 3,
+        "count": 1,
+        "percent": 1,
         "apps": [
-          "LojaMi Amigu",
-          "Kindpoints Rewards"
+          "모바일 건강보험증"
         ]
       },
       {
@@ -691,14 +701,6 @@
         "percent": 1,
         "apps": [
           "나의건강기록"
-        ]
-      },
-      {
-        "tech": "fintech",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "건강보험25시"
         ]
       },
       {
@@ -712,8 +714,8 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 11,
-      "percent": 16,
+      "count": 8,
+      "percent": 11,
       "apps": [
         "Unifesto: Discover Events",
         "Spool Pantry",
@@ -725,8 +727,8 @@
     "emerging": [
       {
         "tech": "ai",
-        "count": 11,
-        "percent": 16,
+        "count": 8,
+        "percent": 11,
         "apps": [
           "Unifesto: Discover Events",
           "Spool Pantry",
@@ -736,27 +738,15 @@
         ]
       },
       {
-        "tech": "ar_vr",
-        "count": 9,
-        "percent": 13,
+        "tech": "creator",
+        "count": 7,
+        "percent": 10,
         "apps": [
-          "TV Smart Player: TV Shows",
-          "Paddeo SmartWatch",
-          "Arbit-Freely Decide",
-          "Marryflow 备婚助手",
-          "BloomCue"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "Flight Swap",
-          "بوح - لا تكتم شي",
-          "당근 - 당신 근처의 지역 생활 커뮤니티",
-          "Lucid Dream Journal Pro",
-          "Museum&"
+          "BambooWanMe",
+          "PDF 리더: 뷰어·편집기",
+          "PDF 리더 및 뷰어",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "NetShort - 인기 드라마 및 TV 프로그램"
         ]
       }
     ]
@@ -771,10 +761,17 @@
     },
     {
       "type": "rising_category",
-      "title": "의료 카테고리 급부상",
+      "title": "게임 카테고리 급부상",
       "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "의료"
+      "category": "게임"
+    },
+    {
+      "type": "rising_category",
+      "title": "도서 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "도서"
     },
     {
       "type": "rising_category",
@@ -799,13 +796,6 @@
     },
     {
       "type": "rising_category",
-      "title": "게임 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "게임"
-    },
-    {
-      "type": "rising_category",
       "title": "도구 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -820,10 +810,10 @@
     },
     {
       "type": "rising_category",
-      "title": "금융 카테고리 급부상",
-      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "의료 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "금융"
+      "category": "의료"
     },
     {
       "type": "pricing",
@@ -833,20 +823,18 @@
     }
   ],
   "insight": {
-    "trend_summary": "엔터테인먼트 카테고리가 600% 폭증하며 시장을 주도하고 있고, 음악·의료 분야가 200% 성장했지만 앱 수가 적어 블루오션 상태입니다. freemium 모델이 77%로 주류이지만 구독 모델은 29%에 그쳐 수익화 전환 기회가 존재합니다.",
+    "trend_summary": "엔터테인먼트 카테고리가 250% 급성장하며 선두를 달리고 있고, 음악과 게임 카테고리는 200% 성장했지만 경쟁앱 수가 적어 블루오션 상태입니다. B2C와 1인 개발 가능한 앱들이 주목받고 있습니다.",
     "trend_details": [
-      "엔터테인먼트 카테고리 600% 급성장",
-      "1인개발가능 태그 32회 등장으로 인디 친화적 환경",
-      "AI·AR 기술 16%·13% 도입률로 기술 트렌드 선도",
-      "freemium 77% vs 구독 29%로 수익화 모델 격차"
+      "엔터테인먼트 카테고리 250% 급성장으로 최대 핫카테고리",
+      "음악/게임 카테고리 200% 성장하지만 경쟁앱 수 3개 이하로 진입장벽 낮음",
+      "AI와 크리에이터 도구 기술이 10% 이상의 앱에서 활용되며 트렌드 형성"
     ],
     "hot_categories": [
       "엔터테인먼트",
-      "음악",
-      "의료"
+      "음악"
     ],
-    "opportunity": "음악이나 의료 카테고리에서 AI 기능을 결합한 freemium 앱 개발이 가장 유망합니다.",
-    "action_item": "음악 또는 의료 분야에서 1인 개발 가능한 AI 기반 앱을 freemium 모델로 시작해보세요.",
-    "weekly_theme": "엔터테인먼트 AI"
+    "opportunity": "음악 카테고리에서 AI 기능을 결합한 1인 개발 가능한 크리에이터 도구 개발이 가장 유망합니다.",
+    "action_item": "freemium 모델로 AI 음악 편집 또는 생성 앱을 개발하고, 추후 구독 모델로 수익화 전환을 고려하세요.",
+    "weekly_theme": "AI 음악 도구"
   }
 }

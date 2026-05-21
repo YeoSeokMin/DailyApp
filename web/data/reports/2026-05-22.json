@@ -1,0 +1,617 @@
+{
+  "date": "2026-05-22",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "HelpAway",
+      "developer": "jose mauricio ferreira",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/e0/4a/1ae04a0e-c806-b1a8-029a-3eb41b6aaa75/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/helpaway/id6767035484?uo=2",
+      "idea_summary": "위치 기반 도움 요청 및 제공 서비스",
+      "analysis": {
+        "problem": "주변에서 도움이 필요할 때 빠르게 연결할 수 있는 플랫폼 부재 [추론]",
+        "solution": "GPS 기반으로 주변 도움 제공자와 요청자를 실시간 매칭 [추론]",
+        "target_user": "긴급 상황이나 일상적 도움이 필요한 지역 커뮤니티 구성원 [추론]",
+        "unique_point": "위치 기반 실시간 도움 매칭 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TaskRabbit",
+          "Thumbtack"
+        ],
+        "timing_reason": "코로나 이후 지역 커뮤니티 연결 니즈 증가 [추론]",
+        "growth_potential": "지역별 확산 가능한 네트워크 효과 [추론]"
+      },
+      "business": {
+        "monetization": "서비스 수수료 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "거래당 5-10% 수수료 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Google Maps API"
+        ],
+        "key_features": [
+          "GPS 매칭",
+          "실시간 채팅",
+          "평점 시스템"
+        ],
+        "clone_tip": "MVP는 단순한 게시판 형태로 시작 후 매칭 알고리즘 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#로컬커뮤니티"
+      ],
+      "verdict": "지역 커뮤니티 강화 트렌드에 적합한 아이디어",
+      "deep_report_id": "ios-helpaway-1779375793118"
+    },
+    {
+      "rank": 2,
+      "name": "Aura Garden",
+      "developer": "MANUEL LANNER",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/e2/7e/7be27e2c-37cf-8216-da6d-b3ff9b932f5c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aura-garden/id6771090814?uo=2",
+      "idea_summary": "디지털 명상 정원 및 아우라 시각화",
+      "analysis": {
+        "problem": "명상과 심리적 웰빙을 위한 개인화된 디지털 공간 부족 [추론]",
+        "solution": "개인의 감정 상태를 시각적 정원으로 표현하며 명상 가이드 제공 [추론]",
+        "target_user": "스트레스 관리와 정신 건강에 관심 있는 20-40대 [추론]",
+        "unique_point": "감정을 시각적 정원으로 표현하는 독특한 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Headspace",
+          "Calm"
+        ],
+        "timing_reason": "정신 건강에 대한 관심과 시각화 명상 트렌드 증가 [추론]",
+        "growth_potential": "웰빙 시장의 지속적 성장 추세 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 및 개인화 기능 [추론]",
+        "pricing_suggestion": "월 9,900원 구독 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Swift/Kotlin",
+          "Core Animation",
+          "HealthKit"
+        ],
+        "key_features": [
+          "감정 시각화",
+          "명상 가이드",
+          "진행상황 추적"
+        ],
+        "clone_tip": "기본 시각화부터 시작하고 점진적으로 인터랙션 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#웰빙"
+      ],
+      "verdict": "감정 시각화라는 참신한 접근으로 차별화 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Heart Scan - 심장 건강 일기",
+      "developer": "晟嘉 黄",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/76/9a/1e769a1c-4d8c-7b4c-0c01-2d9d719392e1/AppIcon-0-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/heart-scan-%EC%8B%AC%EC%9E%A5-%EA%B1%B4%EA%B0%95-%EC%9D%BC%EA%B8%B0/id6762112689?uo=2",
+      "idea_summary": "스마트폰 카메라로 심장 박동 측정 및 관리",
+      "analysis": {
+        "problem": "일상에서 간편하게 심장 건강을 모니터링할 수 있는 도구 부족 [추론]",
+        "solution": "스마트폰 카메라와 플래시를 이용한 PPG 기술로 심박수 측정 [추론]",
+        "target_user": "심장 건강에 관심 있는 중장년층 및 운동인 [추론]",
+        "unique_point": "별도 기기 없이 스마트폰만으로 심박 측정 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "HeartRate+",
+          "Cardiograph"
+        ],
+        "timing_reason": "헬스케어 디지털화 및 개인 건강관리 트렌드 [추론]",
+        "growth_potential": "고령화 사회 진입으로 수요 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능 및 건강 리포트 [추론]",
+        "pricing_suggestion": "기본 무료, 상세 분석 월 4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
+        "tech_stack": [
+          "Core Image",
+          "AVFoundation",
+          "HealthKit"
+        ],
+        "key_features": [
+          "PPG 심박측정",
+          "트렌드 분석",
+          "알림 시스템"
+        ],
+        "clone_tip": "오픈소스 PPG 라이브러리 활용하여 빠른 프로토타입 제작 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#헬스케어"
+      ],
+      "verdict": "검증된 기술을 활용한 실용적인 건강 관리 앱"
+    },
+    {
+      "rank": 4,
+      "name": "Tinnitus Diary: Pitch Match",
+      "developer": "Mohamed Ali",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/96/46/eb964687-1c26-2b79-1699-b6bde9e70bb7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tinnitus-diary-pitch-match/id6771102700?uo=2",
+      "idea_summary": "이명 증상 추적 및 음높이 매칭 도구",
+      "analysis": {
+        "problem": "이명 환자들이 증상을 정확하게 기록하고 관리할 수 있는 전문 도구 부족 [추론]",
+        "solution": "이명의 음높이와 강도를 매칭하여 기록하고 패턴 분석 제공 [추론]",
+        "target_user": "이명을 겪고 있는 환자들과 의료진 [추론]",
+        "unique_point": "이명 특화 음높이 매칭 기능과 의료 데이터 연동 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ReSound Relief",
+          "Tinnitus HQ"
+        ],
+        "timing_reason": "스트레스 증가로 인한 이명 환자 증가 추세 [추론]",
+        "growth_potential": "특화된 니치 마켓으로 안정적 수요 [추론]"
+      },
+      "business": {
+        "monetization": "의료진용 프로 기능 및 상세 리포트 [추론]",
+        "pricing_suggestion": "개인용 무료, 프로용 월 29,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "AVAudioEngine",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "음높이 매칭",
+          "증상 기록",
+          "패턴 분석"
+        ],
+        "clone_tip": "기본 음향 생성부터 시작하여 점차 정밀한 매칭 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#의료특화"
+      ],
+      "verdict": "특화된 의료 니즈를 해결하는 전문성 높은 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Bites - Learn Anything",
+      "developer": "Denis Karpenko",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/a3/5c/29a35cf8-e3be-1849-c305-40487e2e1c79/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/bites-learn-anything/id6758496081?uo=2",
+      "idea_summary": "마이크로러닝 기반 맞춤형 학습 플랫폼",
+      "analysis": {
+        "problem": "바쁜 일상에서 효율적으로 새로운 지식을 습득할 수 있는 방법 부족 [추론]",
+        "solution": "짧은 단위의 학습 컨텐츠를 개인화하여 제공하는 마이크로러닝 [추론]",
+        "target_user": "직장인 및 평생학습에 관심 있는 성인 학습자 [추론]",
+        "unique_point": "AI 기반 개인화된 마이크로 학습 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Blinkist",
+          "MasterClass"
+        ],
+        "timing_reason": "평생학습 트렌드와 짧은 주의집중 시간에 최적화 [추론]",
+        "growth_potential": "에듀테크 시장의 지속적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델 및 프리미엄 코스 판매 [추론]",
+        "pricing_suggestion": "월 14,900원 구독 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1200-2000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "AI/ML APIs",
+          "Video Streaming"
+        ],
+        "key_features": [
+          "개인화 추천",
+          "진도 추적",
+          "오프라인 학습"
+        ],
+        "clone_tip": "무료 컨텐츠로 시작하여 점진적으로 AI 개인화 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#에듀테크"
+      ],
+      "verdict": "마이크로러닝 트렌드를 활용한 확장성 높은 모델"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Claude by Anthropic",
+      "developer": "Anthropic PBC",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/4S1nfdKsH_1tJodkHrBHimqlCTE6qx6z22zpMyPaMc_Rlr1EdSFDI1I6UEVMnokG5zI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.anthropic.claude",
+      "idea_summary": "대화형 AI 어시스턴트 모바일 최적화",
+      "analysis": {
+        "problem": "복잡한 작업에 대한 지능적인 도움과 창작 지원 니즈 [확인]",
+        "solution": "고도로 발달한 대화형 AI를 통한 다목적 지원 서비스 [확인]",
+        "target_user": "학생, 직장인, 창작자 등 지식 작업자 전반 [추론]",
+        "unique_point": "높은 수준의 추론 능력과 안전성을 갖춘 AI [확인]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Bard"
+        ],
+        "timing_reason": "AI 대중화와 모바일 생산성 도구 수요 증가 [확인]",
+        "growth_potential": "AI 시장의 폭발적 성장 추세 [확인]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 19,900원 프로 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "1억원 이상 [추론]",
+        "tech_stack": [
+          "Transformer Models",
+          "Cloud Infrastructure",
+          "Mobile Optimization"
+        ],
+        "key_features": [
+          "자연어 처리",
+          "문서 분석",
+          "코드 생성"
+        ],
+        "clone_tip": "기존 LLM API 활용한 특화된 용도의 래퍼 앱으로 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.8
+      },
+      "tags": [
+        "#AI혁신",
+        "#대기업제품"
+      ],
+      "verdict": "AI 시대를 대표하는 혁신적 플랫폼이지만 복제 불가",
+      "deep_report_id": "android-claude-by-anthropic-1779375864196"
+    },
+    {
+      "rank": 2,
+      "name": "듀오링고(Duolingo): 언어 학습",
+      "developer": "Duolingo",
+      "category": "교육",
+      "icon": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.duolingo",
+      "idea_summary": "게임화된 언어 학습 플랫폼",
+      "analysis": {
+        "problem": "전통적인 언어 학습의 지루함과 지속성 부족 문제 [확인]",
+        "solution": "게임 요소를 활용한 재미있고 지속가능한 학습 경험 [확인]",
+        "target_user": "언어 학습을 희망하는 전 연령대 사용자 [확인]",
+        "unique_point": "철저한 게임화와 과학적 학습 방법론의 결합 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Babbel",
+          "Busuu"
+        ],
+        "timing_reason": "글로벌화와 다국어 능력 중요성 증대 [확인]",
+        "growth_potential": "지속적인 글로벌 확장 가능성 [확인]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 및 광고 모델 [확인]",
+        "pricing_suggestion": "월 12,900원 플러스 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "AI/ML",
+          "Gamification Framework"
+        ],
+        "key_features": [
+          "적응형 학습",
+          "게임 요소",
+          "소셜 기능"
+        ],
+        "clone_tip": "특정 언어나 지역에 특화된 버전으로 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.3
+      },
+      "tags": [
+        "#에듀테크",
+        "#게임화"
+      ],
+      "verdict": "검증된 모델이지만 지역/언어 특화로 차별화 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Instagram",
+      "developer": "Instagram",
+      "category": "소셜",
+      "icon": "https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.instagram.android",
+      "idea_summary": "시각 중심 소셜 네트워킹 플랫폼",
+      "analysis": {
+        "problem": "일상의 시각적 경험을 공유하고 소통할 플랫폼 필요 [확인]",
+        "solution": "사진과 동영상 중심의 직관적인 소셜 미디어 [확인]",
+        "target_user": "시각적 콘텐츠를 중시하는 전 연령층 [확인]",
+        "unique_point": "스토리와 릴스를 통한 다층적 콘텐츠 구조 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "Snapchat"
+        ],
+        "timing_reason": "모바일 카메라 기술 발전과 시각 문화 확산 [확인]",
+        "growth_potential": "메타버스와 AR 기술 연계 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 커머스 기능 [확인]",
+        "pricing_suggestion": "광고 기반 무료 모델 [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12개월 이상 [추론]",
+        "estimated_cost": "1억원 이상 [추론]",
+        "tech_stack": [
+          "React Native",
+          "AI/ML",
+          "CDN",
+          "Real-time System"
+        ],
+        "key_features": [
+          "이미지 필터",
+          "스토리 기능",
+          "실시간 알림"
+        ],
+        "clone_tip": "특정 커뮤니티나 취미 분야에 특화된 소셜 플랫폼으로 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 7
+      },
+      "tags": [
+        "#소셜미디어",
+        "#메타제품"
+      ],
+      "verdict": "거대 플랫폼이지만 니치 커뮤니티 특화로 차별화 필요"
+    },
+    {
+      "rank": 4,
+      "name": "Temu: 억만장자처럼 쇼핑하기",
+      "developer": "Temu",
+      "category": "쇼핑",
+      "icon": "https://play-lh.googleusercontent.com/Nz5sdWyh7jn4eTy_GSaRBDgaKhLC1pvYywC6fklDOlPGbopmeFN9NkqgKGjsvJMbKVEI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.einnovation.temu",
+      "idea_summary": "게임화된 저가 쇼핑 플랫폼",
+      "analysis": {
+        "problem": "합리적 가격의 상품을 재미있게 쇼핑할 수 있는 경험 부족 [추론]",
+        "solution": "게임 요소와 할인 이벤트를 결합한 쇼핑 앱 [추론]",
+        "target_user": "가성비를 중시하는 젊은 소비자층 [추론]",
+        "unique_point": "쇼핑에 게임적 재미 요소를 접목한 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "AliExpress",
+          "Wish"
+        ],
+        "timing_reason": "경제 불확실성으로 인한 가성비 쇼핑 선호 증가 [추론]",
+        "growth_potential": "글로벌 이커머스 시장 확대 [추론]"
+      },
+      "business": {
+        "monetization": "마진 및 광고 수익 [추론]",
+        "pricing_suggestion": "판매자 수수료 3-5% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-10개월 [추론]",
+        "estimated_cost": "2000-4000만원 [추론]",
+        "tech_stack": [
+          "E-commerce Platform",
+          "Payment Gateway",
+          "Logistics API"
+        ],
+        "key_features": [
+          "가격 비교",
+          "할인 게임",
+          "소셜 쇼핑"
+        ],
+        "clone_tip": "특정 카테고리나 지역에 특화된 쇼핑몰부터 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#이커머스",
+        "#게임화"
+      ],
+      "verdict": "게임화된 쇼핑 경험은 참신하나 물류 인프라가 핵심"
+    },
+    {
+      "rank": 5,
+      "name": "TikTok 틱톡 - 숏폼 영상, 라이브, 영상 편집",
+      "developer": "TikTok Pte. Ltd.",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/Ui_-OW6UJI147ySDX9guWWDiCPSq1vtxoC-xG17BU2FpU0Fi6qkWwuLdpddmT9fqrA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill",
+      "idea_summary": "AI 추천 기반 숏폼 비디오 플랫폼",
+      "analysis": {
+        "problem": "짧은 시간에 재미있는 영상 콘텐츠를 소비하고 싶은 니즈 [확인]",
+        "solution": "AI 알고리즘 기반 개인화된 15초-3분 영상 피드 [확인]",
+        "target_user": "Z세대 및 영상 콘텐츠 소비자 [확인]",
+        "unique_point": "강력한 AI 추천 알고리즘과 창작 도구의 결합 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "YouTube Shorts",
+          "Instagram Reels"
+        ],
+        "timing_reason": "짧은 주의집중 시간과 모바일 우선 문화 [확인]",
+        "growth_potential": "글로벌 숏폼 콘텐츠 시장 지배력 [확인]"
+      },
+      "business": {
+        "monetization": "광고 및 라이브 선물 수익 [확인]",
+        "pricing_suggestion": "광고 기반 무료 모델 [확인]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12개월 이상 [추론]",
+        "estimated_cost": "1억원 이상 [추론]",
+        "tech_stack": [
+          "AI/ML",
+          "Video Processing",
+          "Real-time Streaming",
+          "CDN"
+        ],
+        "key_features": [
+          "AI 추천",
+          "영상 편집",
+          "실시간 스트리밍"
+        ],
+        "clone_tip": "특정 분야나 지역에 특화된 숏폼 플랫폼으로 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#숏폼영상",
+        "#바이트댄스"
+      ],
+      "verdict": "혁신적 플랫폼이지만 기술적 진입장벽과 규제 이슈 존재"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 통합 앱들과 헬스케어 특화 서비스가 주목받고 있으며, 마이크로러닝 트렌드가 확산되고 있다 [추론]. 지역 커뮤니티 연결과 개인화된 웰빙 솔루션에 대한 수요가 증가하고 있다 [추론].",
+    "trend_details": [
+      "AI 기반 개인화 서비스 확산",
+      "헬스케어 디지털화 가속",
+      "마이크로러닝 교육 트렌드",
+      "지역 커뮤니티 플랫폼 성장"
+    ],
+    "hot_categories": [
+      "건강 및 피트니스",
+      "교육",
+      "라이프스타일"
+    ],
+    "opportunity": "AI와 헬스케어의 융합, 특화된 커뮤니티 서비스, 시각화 기반 웰빙 앱",
+    "action_item": "기존 대형 플랫폼 대신 특정 니즈에 집중한 전문화 전략 수립"
+  }
+}
