@@ -1,0 +1,630 @@
+{
+  "date": "2026-05-23",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Dream Haven",
+      "developer": "EVA HOWATH",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/64/7b/3a647b23-03b0-b6db-f661-e48d8aa52c96/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/dream-haven/id6770932846?uo=2",
+      "idea_summary": "AI 기반 꿈 분석 및 수면 최적화 앱 [추론]",
+      "analysis": {
+        "problem": "수면의 질과 꿈 패턴 관리의 어려움 [추론]",
+        "solution": "꿈 기록 및 AI 분석을 통한 수면 패턴 개선 [추론]",
+        "target_user": "수면 문제가 있거나 꿈에 관심 있는 성인 [추론]",
+        "unique_point": "꿈 내용 분석과 수면 최적화 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sleep Cycle",
+          "Headspace"
+        ],
+        "timing_reason": "웰니스와 수면 건강에 대한 관심 증가 [추론]",
+        "growth_potential": "수면 테크 시장 급성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 4,900원 구독료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "ML Kit",
+          "Core Data"
+        ],
+        "key_features": [
+          "꿈 일기",
+          "AI 분석",
+          "수면 트래킹"
+        ],
+        "clone_tip": "수면 API와 텍스트 분석 ML 모델 결합 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웰니스"
+      ],
+      "verdict": "수면 테크 시장의 틈새 공략 가능한 아이디어",
+      "deep_report_id": "ios-dream-haven-1779462186988"
+    },
+    {
+      "rank": 2,
+      "name": "Wroot — Hair Assessment",
+      "developer": "Docpulz Tech Solutions Pvt. Ltd.",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/b6/2d/79b62d9f-586c-1389-a484-b000e754472d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/wroot-hair-assessment/id6762460312?uo=2",
+      "idea_summary": "AI 기반 모발 상태 진단 및 관리 솔루션 [확인]",
+      "analysis": {
+        "problem": "탈모 초기 진단의 접근성과 전문성 부족 [추론]",
+        "solution": "스마트폰 카메라로 모발 상태 AI 분석 [추론]",
+        "target_user": "탈모 고민이 있는 20-40대 남녀 [추론]",
+        "unique_point": "전문 의료진 없이 즉시 모발 진단 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Hair Coach",
+          "탈모닥터"
+        ],
+        "timing_reason": "외모 관리와 헬스케어 디지털화 트렌드 [추론]",
+        "growth_potential": "글로벌 탈모 치료 시장 급성장 [추론]"
+      },
+      "business": {
+        "monetization": "진단 후 제품 판매 커미션 [추론]",
+        "pricing_suggestion": "진단당 2,000원 + 제품 판매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreML",
+          "Vision"
+        ],
+        "key_features": [
+          "이미지 분석",
+          "진단 리포트",
+          "제품 추천"
+        ],
+        "clone_tip": "머신러닝 모델 훈련용 모발 이미지 데이터 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "높은 수익성과 확장 가능성을 가진 혁신적 아이디어"
+    },
+    {
+      "rank": 3,
+      "name": "Photo-Motion",
+      "developer": "Photo-Motion B.V.",
+      "category": "사진 및 비디오",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/e2/65/42e26536-6559-e3de-b1c3-0dcd29d445cc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/photo-motion/id6770919030?uo=2",
+      "idea_summary": "정적 사진을 시네마그래프로 변환하는 도구 [추론]",
+      "analysis": {
+        "problem": "일반 사진의 임팩트 부족과 동영상 제작의 복잡함 [추론]",
+        "solution": "AI로 사진의 일부만 움직이는 시네마그래프 생성 [추론]",
+        "target_user": "소셜미디어 활동이 활발한 크리에이터 [추론]",
+        "unique_point": "복잡한 편집 없이 매력적인 모션 이미지 생성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Cinemagraph Pro",
+          "ImgPlay"
+        ],
+        "timing_reason": "숏폼 콘텐츠와 SNS 마케팅 증가 [추론]",
+        "growth_potential": "크리에이터 경제 성장에 따른 수요 증가 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 및 워터마크 제거 [추론]",
+        "pricing_suggestion": "월 3,900원 또는 평생 29,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "600-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreImage",
+          "Metal"
+        ],
+        "key_features": [
+          "모션 마스킹",
+          "AI 객체 인식",
+          "내보내기"
+        ],
+        "clone_tip": "OpenCV와 머신러닝 기반 객체 분할이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#크리에이터"
+      ],
+      "verdict": "틈새 시장이지만 안정적인 수익 가능"
+    },
+    {
+      "rank": 4,
+      "name": "LedgerAI",
+      "developer": "Vuyo Nkadimeng",
+      "category": "비즈니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/13/14/cf/1314cf36-912b-0bc6-e838-5ed2e1d281d1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ledgerai/id6770423760?uo=2",
+      "idea_summary": "AI 기반 자동 회계 및 장부 관리 도구 [추론]",
+      "analysis": {
+        "problem": "소상공인과 프리랜서의 복잡한 회계 업무 [추론]",
+        "solution": "영수증 스캔과 AI로 자동 장부 작성 [추론]",
+        "target_user": "개인사업자, 소상공인, 프리랜서 [추론]",
+        "unique_point": "AI 기반 자동화로 회계 지식 없이도 정확한 장부 작성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "삼쩜삼",
+          "더존",
+          "케이렙"
+        ],
+        "timing_reason": "디지털 전환과 원격근무 증가 [추론]",
+        "growth_potential": "중소기업 디지털화 정부 지원 확대 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독료 및 세무 서비스 연계 [추론]",
+        "pricing_suggestion": "월 19,900원 기본요금제 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OCR API",
+          "ML"
+        ],
+        "key_features": [
+          "영수증 스캔",
+          "자동 분류",
+          "세무 연동"
+        ],
+        "clone_tip": "OCR 정확도와 세법 규칙 엔진이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#핀테크"
+      ],
+      "verdict": "높은 필요성과 수익성을 가진 실용적 솔루션"
+    },
+    {
+      "rank": 5,
+      "name": "My Food Archive",
+      "developer": "sol kim",
+      "category": "음식 및 음료",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/49/6c/6d496c45-5ae4-f14a-291c-9e70b4ac3853/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/my-food-archive/id6770387817?uo=2",
+      "idea_summary": "개인 맞춤 음식 기록 및 아카이브 앱 [추론]",
+      "analysis": {
+        "problem": "맛있게 먹은 음식과 맛집 기억의 휘발성 [추론]",
+        "solution": "사진과 메모로 개인 음식 데이터베이스 구축 [추론]",
+        "target_user": "음식을 좋아하고 기록하기를 즐기는 사람들 [추론]",
+        "unique_point": "단순 리뷰가 아닌 개인 맞춤형 음식 아카이브 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "포잉",
+          "망고플레이트",
+          "식신"
+        ],
+        "timing_reason": "먹방 문화와 개인 기록 트렌드 증가 [추론]",
+        "growth_potential": "라이프로깅 시장 확대와 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 저장 용량 및 분석 기능 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "사진 정리",
+          "태그 검색",
+          "통계"
+        ],
+        "clone_tip": "직관적인 UI/UX와 빠른 검색 기능이 관건 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#라이프로그"
+      ],
+      "verdict": "니치하지만 충성도 높은 사용자층 확보 가능"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "세트 단위 운동 기록 및 분석 앱 [추론]",
+      "analysis": {
+        "problem": "운동 기록의 복잡함과 진척도 파악의 어려움 [추론]",
+        "solution": "간단한 세트 단위 로깅과 자동 분석 제공 [추론]",
+        "target_user": "헬스장 이용자와 홈트레이닝 하는 사람들 [추론]",
+        "unique_point": "복잡한 기능 없이 세트 중심의 단순한 기록 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "피트니스24",
+          "Nike Training",
+          "Strong"
+        ],
+        "timing_reason": "홈트레이닝과 개인 피트니스 관리 증가 [추론]",
+        "growth_potential": "피트니스 앱 시장 지속 성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 분석 기능 및 광고 [추론]",
+        "pricing_suggestion": "월 3,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "SQLite",
+          "Chart.js"
+        ],
+        "key_features": [
+          "세트 기록",
+          "진척도 차트",
+          "루틴 관리"
+        ],
+        "clone_tip": "직관적인 입력 UI와 동기부여 요소가 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#피트니스"
+      ],
+      "verdict": "단순함이 강점인 틈새 피트니스 앱",
+      "deep_report_id": "android-setlog-1779462278477"
+    },
+    {
+      "rank": 2,
+      "name": "PDF 리더 및 뷰어",
+      "developer": "Cao Thanh Long",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/uGlPhXIo9ZUdmyjk3UaBxKIcx9A0Nptu8pbsceENAdPuNrMsBAGGhYwZKd2YFVbZhGY",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.editor",
+      "idea_summary": "AI 기능이 강화된 PDF 뷰어 [추론]",
+      "analysis": {
+        "problem": "기존 PDF 뷰어의 기능 한계와 사용성 문제 [추론]",
+        "solution": "AI 요약, 번역 등 스마트 기능 통합 PDF 뷰어 [추론]",
+        "target_user": "학생, 직장인, 연구자 등 문서 작업자 [추론]",
+        "unique_point": "AI 기반 문서 분석과 요약 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "Foxit",
+          "WPS"
+        ],
+        "timing_reason": "원격근무와 디지털 문서 사용 증가 [추론]",
+        "growth_potential": "생산성 도구 시장 꾸준한 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능 및 광고 [추론]",
+        "pricing_suggestion": "월 4,900원 또는 연간 29,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "PDF.js",
+          "ML Kit"
+        ],
+        "key_features": [
+          "PDF 렌더링",
+          "AI 요약",
+          "주석"
+        ],
+        "clone_tip": "PDF 렌더링 최적화와 AI API 연동이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "레드오션이지만 AI 차별화로 승부 가능"
+    },
+    {
+      "rank": 3,
+      "name": "QR 코드 및 바코드 스캐너",
+      "developer": "Start Up",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/75cMvjF1Alx-9m9cvynXYIHJ8g5MYrdGTGJ_9GScturhRrwmxS9UsgZNIoY6-pqg0KtAGR_WAhKFK6NYL9w",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.qrcode.reader.scanner.barcode.generator",
+      "idea_summary": "보안 강화된 QR 코드 스캐너 [추론]",
+      "analysis": {
+        "problem": "QR 코드 보안 위험과 사기 링크 증가 [추론]",
+        "solution": "AI 기반 악성 링크 탐지 및 안전 검증 [추론]",
+        "target_user": "QR 코드 사용이 많은 일반 사용자 [추론]",
+        "unique_point": "보안 검증 기능이 내장된 스캐너 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "QR Code Reader",
+          "Barcode Scanner"
+        ],
+        "timing_reason": "QR 결제 확산과 보안 의식 증가 [추론]",
+        "growth_potential": "디지털 결제 보안 시장 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 보안 기능 [추론]",
+        "pricing_suggestion": "월 1,900원 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "ZXing",
+          "VirusTotal API"
+        ],
+        "key_features": [
+          "QR 스캔",
+          "보안 검증",
+          "히스토리"
+        ],
+        "clone_tip": "보안 API 연동과 빠른 스캔 성능이 관건 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#보안"
+      ],
+      "verdict": "보안 차별화로 틈새 시장 공략 가능"
+    },
+    {
+      "rank": 4,
+      "name": "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+      "developer": "Start Up",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/kSydkEnkL_WJNR_jgDk9qVIfcWMTOOQEWpKJ25cFlHNZ9figRxPtUAihi7TaHYDwzSc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.alldocument.reader.pdf.viewer",
+      "idea_summary": "한국형 문서 포맷 특화 뷰어 [추론]",
+      "analysis": {
+        "problem": "HWP 등 한국 고유 문서 포맷 지원 부족 [추론]",
+        "solution": "HWP, PDF, DOCX 등 통합 문서 뷰어 [추론]",
+        "target_user": "한국 직장인, 공무원, 학생 [추론]",
+        "unique_point": "한국형 문서 포맷 완벽 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Polaris Office",
+          "WPS",
+          "네이버 오피스"
+        ],
+        "timing_reason": "모바일 오피스 작업 증가 [추론]",
+        "growth_potential": "국내 틈새 시장이지만 안정적 [추론]"
+      },
+      "business": {
+        "monetization": "광고 제거 및 클라우드 연동 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "HWP SDK",
+          "LibreOffice"
+        ],
+        "key_features": [
+          "HWP 렌더링",
+          "PDF 뷰어",
+          "변환"
+        ],
+        "clone_tip": "HWP 라이브러리 확보와 한글 폰트 처리가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#로컬"
+      ],
+      "verdict": "국내 특화 시장으로 안정적 수익 가능"
+    },
+    {
+      "rank": 5,
+      "name": "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+      "developer": "보조금e알리미",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/Z8G6iKVSwxIOCLr5kb23dPe-r8mT3YHEm426C1UoR8mtHIkbT4bl8dPSLjMG89bHAMbtkNd9dji96rnGMkcF",
+      "app_url": "https://play.google.com/store/apps/details?id=com.jupiter.distance",
+      "idea_summary": "정부 지원금 신청 가이드 및 알림 앱 [확인]",
+      "analysis": {
+        "problem": "복잡한 정부 지원사업 정보 접근의 어려움 [추론]",
+        "solution": "맞춤형 지원금 안내와 신청 도움 서비스 [추론]",
+        "target_user": "지원금 혜택을 받을 수 있는 일반 시민 [추론]",
+        "unique_point": "개인 상황에 맞는 맞춤형 지원금 추천 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "복지로",
+          "정부24"
+        ],
+        "timing_reason": "경제 어려움으로 지원금 관심 증가 [추론]",
+        "growth_potential": "정부 지원사업 확대 추세 [추론]"
+      },
+      "business": {
+        "monetization": "대행 서비스 수수료 및 광고 [추론]",
+        "pricing_suggestion": "성공 수수료 10% [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Web Scraping",
+          "Push"
+        ],
+        "key_features": [
+          "자격 확인",
+          "신청 안내",
+          "알림"
+        ],
+        "clone_tip": "정부 API 연동과 자격요건 로직이 복잡함 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#공공"
+      ],
+      "verdict": "사회적 가치와 수익성을 동시에 추구 가능"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인 맞춤 서비스와 한국 특화 솔루션이 눈에 띄는 하루였습니다. 건강, 생산성, 보안 영역에서 틈새 시장 공략이 활발합니다.",
+    "trend_details": [
+      "AI 헬스케어 진단 도구 증가",
+      "한국형 로컬라이제이션 강화",
+      "보안 강화 유틸리티 등장",
+      "개인 아카이브 앱 다양화"
+    ],
+    "hot_categories": [
+      "건강 및 피트니스",
+      "생산성",
+      "유틸리티"
+    ],
+    "opportunity": "AI 기반 개인 진단 서비스와 한국 고유 니즈 해결 앱",
+    "action_item": "헬스케어 AI 모델 학습용 데이터셋 확보 및 한국 시장 특화 기능 리서치"
+  }
+}
