@@ -1,0 +1,631 @@
+{
+  "date": "2026-05-25",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "PicturePulse",
+      "developer": "VOICE OF REASON VENTURES, LLC",
+      "category": "사진 및 비디오",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/66/0e/80660e20-c1d5-fc3b-3a2e-9f67ff307868/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/picturepulse/id6751106954?uo=2",
+      "idea_summary": "사진에 생동감을 더하는 모션 효과 앱",
+      "analysis": {
+        "problem": "정적인 사진을 더 역동적으로 만들고 싶어하는 사용자 니즈 [추론]",
+        "solution": "사진에 미묘한 모션 효과를 추가해 살아있는 듯한 느낌 연출 [추론]",
+        "target_user": "소셜미디어 활용도가 높은 20-30대 크리에이터와 일반 사용자 [추론]",
+        "unique_point": "단순한 필터가 아닌 모션 그래픽을 사진에 적용하는 차별화된 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Plotaverse",
+          "Immersfy"
+        ],
+        "timing_reason": "숏폼 콘텐츠 열풍으로 독특한 비주얼 효과에 대한 수요 증가 [추론]",
+        "growth_potential": "소셜미디어 마케팅 확산으로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델과 고급 효과 개별 판매 [추론]",
+        "pricing_suggestion": "월 구독 5,000원, 연간 30,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Animation",
+          "Metal"
+        ],
+        "key_features": [
+          "모션 효과 라이브러리",
+          "AI 기반 자동 적용"
+        ],
+        "clone_tip": "오픈소스 모션 라이브러리 활용하여 MVP 구현 후 독자 효과 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜미디어"
+      ],
+      "verdict": "숏폼 시대에 맞는 독특한 비주얼 도구로 전망 양호",
+      "deep_report_id": "ios-picturepulse-1779635009600"
+    },
+    {
+      "rank": 2,
+      "name": "LoungeMouse",
+      "developer": "Tillson Galloway",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/84/e3/fd84e36e-859f-a89f-d9fb-1ab3d8381246/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/loungemouse/id6754789246?uo=2",
+      "idea_summary": "공항 라운지 정보와 접근권 관리 앱",
+      "analysis": {
+        "problem": "공항 라운지 정보 부족과 접근권 관리의 불편함 [추론]",
+        "solution": "라운지 위치, 시설, 접근 조건을 통합 제공하고 이용권 관리 기능 제공 [추론]",
+        "target_user": "비즈니스 여행객과 프리미엄 신용카드 보유 고소득층 [추론]",
+        "unique_point": "라운지 전용 정보 서비스로 틈새시장 공략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "LoungeBuddy",
+          "Priority Pass"
+        ],
+        "timing_reason": "코로나 이후 여행 회복과 프리미엄 여행 수요 증가 [추론]",
+        "growth_potential": "틈새시장이지만 충성도 높은 사용자층으로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 라운지 예약 수수료 [추론]",
+        "pricing_suggestion": "월 15,000원 프리미엄 요금제 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Maps API"
+        ],
+        "key_features": [
+          "라운지 DB",
+          "실시간 혼잡도",
+          "예약 시스템"
+        ],
+        "clone_tip": "공개 라운지 데이터로 시작해 크라우드소싱으로 정보 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓"
+      ],
+      "verdict": "작지만 확실한 시장, 여행 회복기에 좋은 기회"
+    },
+    {
+      "rank": 3,
+      "name": "Tock",
+      "developer": "Masafumi Higashi",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/c6/c8/84c6c861-f5ad-ae80-6bd2-2dc728a5800a/tock-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tock/id6770243717?uo=2",
+      "idea_summary": "간단하고 직관적인 시간 관리 도구",
+      "analysis": {
+        "problem": "복잡한 생산성 앱들로 인한 피로감과 단순한 시간 추적 니즈 [추론]",
+        "solution": "미니멀한 인터페이스로 시간 추적과 작업 관리를 단순화 [추론]",
+        "target_user": "단순함을 추구하는 프리랜서와 원격근무자 [추론]",
+        "unique_point": "복잡한 기능 없이 핵심 기능만 집중한 미니멀 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Toggl",
+          "RescueTime",
+          "Forest"
+        ],
+        "timing_reason": "원격근무 확산과 개인 생산성 관리 중요성 증가 [추론]",
+        "growth_potential": "포화된 시장이지만 차별화된 UX로 틈새 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 고급 분석 기능 유료화 [추론]",
+        "pricing_suggestion": "월 3,000원 프로 버전 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "원터치 타이머",
+          "시각적 대시보드",
+          "iCloud 동기화"
+        ],
+        "clone_tip": "MVP로 기본 타이머 기능 구현 후 사용자 피드백으로 기능 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#미니멀"
+      ],
+      "verdict": "경쟁은 치열하지만 차별화된 UX로 승부 가능"
+    },
+    {
+      "rank": 4,
+      "name": "MapDiffense",
+      "developer": "ATSUSHI TAKEO",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/50/9e/ef509ef8-51a9-8b43-0a8e-077702edd4d5/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/mapdiffense/id6771126252?uo=2",
+      "idea_summary": "지도 기반 타워 디펜스 전략 게임",
+      "analysis": {
+        "problem": "기존 타워 디펜스 게임의 단조로운 맵과 제한적 전략성 [추론]",
+        "solution": "실제 지도 데이터를 활용한 현실감 있는 타워 디펜스 구현 [추론]",
+        "target_user": "전략 게임을 좋아하는 10-30대 게이머 [추론]",
+        "unique_point": "실제 지형을 게임맵으로 활용하는 독창적 아이디어 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Bloons TD",
+          "Kingdom Rush"
+        ],
+        "timing_reason": "모바일 전략게임 시장 성장과 위치기반 게임 관심 증가 [추론]",
+        "growth_potential": "독특한 컨셉으로 바이럴 가능성과 장기 플레이 유도 [추론]"
+      },
+      "business": {
+        "monetization": "무료 플레이, 유료 맵팩과 특수 타워 판매 [추론]",
+        "pricing_suggestion": "맵팩 2,000원, 타워팩 3,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "Google Maps API",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간 지도 렌더링",
+          "지형 분석 알고리즘",
+          "멀티플레이"
+        ],
+        "clone_tip": "오픈소스 타워디펜스 프레임워크 + 지도 API로 프로토타입 제작 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임",
+        "#독창적"
+      ],
+      "verdict": "참신한 아이디어로 게임시장에서 주목받을 가능성 높음"
+    },
+    {
+      "rank": 5,
+      "name": "PingRev",
+      "developer": "Xuan Nam Chinh Pham",
+      "category": "비즈니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/3a/db/ff3adbd0-9281-6b70-a319-d3d24aaf4b18/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pingrev/id6768869893?uo=2",
+      "idea_summary": "리뷰 요청 및 평점 관리 자동화 도구",
+      "analysis": {
+        "problem": "온라인 리뷰 관리와 고객 피드백 수집의 어려움 [추론]",
+        "solution": "자동화된 리뷰 요청 시스템과 평점 모니터링 기능 제공 [추론]",
+        "target_user": "소상공인, 스타트업, 온라인 판매업체 [추론]",
+        "unique_point": "리뷰 관리에 특화된 B2B 솔루션으로 틈새시장 공략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BirdEye",
+          "Podium"
+        ],
+        "timing_reason": "온라인 평판 관리 중요성 증가와 디지털 전환 가속화 [추론]",
+        "growth_potential": "B2B SaaS 시장 성장과 함께 안정적 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "월별 구독 모델과 기업별 맞춤 요금제 [추론]",
+        "pricing_suggestion": "기본 월 50,000원, 프로 월 150,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "700-1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "MongoDB"
+        ],
+        "key_features": [
+          "자동 리뷰 요청",
+          "평점 모니터링",
+          "분석 대시보드"
+        ],
+        "clone_tip": "소상공인 대상으로 MVP 출시 후 대기업용 기능 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#SaaS"
+      ],
+      "verdict": "B2B 시장의 명확한 니즈 해결로 수익성 높은 비즈니스"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "건강 및 피트니스",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "운동 세트와 기록을 간편하게 관리하는 피트니스 로그",
+      "analysis": {
+        "problem": "복잡한 운동 앱들로 인한 피로감과 단순한 기록 관리 니즈 [추론]",
+        "solution": "세트 단위 운동 기록에 특화된 미니멀한 인터페이스 제공 [추론]",
+        "target_user": "웨이트 트레이닝을 하는 20-40대 운동인 [추론]",
+        "unique_point": "세트 중심 기록 방식으로 웨이트 트레이닝에 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Strong",
+          "Jefit",
+          "Gym Buddy"
+        ],
+        "timing_reason": "홈트레이닝 증가와 개인 운동 기록 관리 중요성 부상 [추론]",
+        "growth_potential": "피트니스 앱 시장 성장과 함께 꾸준한 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 고급 분석과 백업 기능 제공 [추론]",
+        "pricing_suggestion": "월 5,000원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "SQLite",
+          "Firebase"
+        ],
+        "key_features": [
+          "세트별 기록",
+          "운동 통계",
+          "타이머"
+        ],
+        "clone_tip": "기본 세트 기록 기능으로 MVP 구현 후 분석 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#피트니스"
+      ],
+      "verdict": "미니멀 접근으로 피트니스 앱 시장 틈새 공략 가능",
+      "deep_report_id": "android-setlog-1779635080275"
+    },
+    {
+      "rank": 2,
+      "name": "사진 복구 - 파일 복원",
+      "developer": "Land Vina Dev",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/aaQhljNtKJ7Y6kzrpmoqadvU_PneAzs0NISttYe5CzpYGqCFLq7X9_TWv2qjt1qXOw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.photosrecovery.videorecovery.file.restore",
+      "idea_summary": "삭제된 사진과 파일을 복구하는 데이터 복원 앱",
+      "analysis": {
+        "problem": "실수로 삭제한 소중한 사진과 파일을 복구하고 싶은 니즈 [추론]",
+        "solution": "안드로이드 시스템 분석으로 삭제된 파일의 흔적을 찾아 복구 [추론]",
+        "target_user": "스마트폰을 자주 사용하는 모든 연령대, 특히 사진 관리에 서툰 사용자 [추론]",
+        "unique_point": "모바일 특화 파일 복구 기술로 접근성 높은 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DiskDigger",
+          "PhotoRec",
+          "Recuva"
+        ],
+        "timing_reason": "모바일 저장공간 관리 필요성 증가와 데이터 복구 수요 상승 [추론]",
+        "growth_potential": "보편적 니즈로 안정적 다운로드와 수익 기대 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 고급 스캔과 복구 기능 유료화 [추론]",
+        "pricing_suggestion": "프로 버전 8,000원 일회 구매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Android NDK",
+          "C++",
+          "File System APIs"
+        ],
+        "key_features": [
+          "딥 스캔",
+          "미리보기",
+          "선택적 복구"
+        ],
+        "clone_tip": "오픈소스 파일 복구 라이브러리 활용하여 안드로이드 UI 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "보편적 니즈 해결로 안정적 수익 창출 가능"
+    },
+    {
+      "rank": 3,
+      "name": "PDF뷰어, PDF리더 그리고 파일열기",
+      "developer": "Office Suite Pro",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/8O1bFHz4rJAHo_49KwOoTOsXXxxAgwje-T_5LuMSo9qvArsEiMnaGCiuShWK_IuL1Q",
+      "app_url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader",
+      "idea_summary": "다양한 문서 형식을 지원하는 통합 뷰어",
+      "analysis": {
+        "problem": "다양한 문서 형식마다 각각의 앱이 필요한 불편함 [추론]",
+        "solution": "PDF 뷰어를 중심으로 다양한 문서 형식을 통합 지원 [추론]",
+        "target_user": "업무용 문서를 자주 다루는 직장인과 학생 [추론]",
+        "unique_point": "문서 뷰어에 편집 기능까지 통합한 올인원 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS Office",
+          "Polaris Office"
+        ],
+        "timing_reason": "원격근무 확산으로 모바일 문서 처리 수요 증가 [추론]",
+        "growth_potential": "기업 고객 확보 시 B2B 시장 진출 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 모델과 프리미엄 편집 기능 구독 [추론]",
+        "pricing_suggestion": "월 7,000원 프로 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "600-900만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "PDF.js",
+          "Native File APIs"
+        ],
+        "key_features": [
+          "멀티 포맷 지원",
+          "클라우드 연동",
+          "편집 도구"
+        ],
+        "clone_tip": "오픈소스 PDF 라이브러리 기반으로 기본 기능 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "기본적 니즈 해결하지만 차별화 필요한 포화 시장"
+    },
+    {
+      "rank": 4,
+      "name": "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+      "developer": "Start Up",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/kSydkEnkL_WJNR_jgDk9qVIfcWMTOOQEWpKJ25cFlHNZ9figRxPtUAihi7TaHYDwzSc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.alldocument.reader.pdf.viewer",
+      "idea_summary": "HWP 특화 문서 뷰어로 한국 시장 타겟",
+      "analysis": {
+        "problem": "한국 특화 문서 형식인 HWP 파일 모바일 뷰어 부족 [추론]",
+        "solution": "HWP 호환성을 강화한 한국형 문서 뷰어 개발 [추론]",
+        "target_user": "공공기관, 교육기관, 한국 기업 직원들 [추론]",
+        "unique_point": "HWP 호환성에 특화된 한국 시장 맞춤 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "한글과컴퓨터 뷰어",
+          "Polaris Office"
+        ],
+        "timing_reason": "공공기관 문서 전자화 확산과 모바일 오피스 필요성 증가 [추론]",
+        "growth_potential": "한국 시장 특화로 틈새 확보 후 해외 한국계 기업 확장 [추론]"
+      },
+      "business": {
+        "monetization": "B2B 라이센스와 개인 프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "개인 월 5,000원, 기업 라이센스 별도 협의 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1000-1400만원 [추론]",
+        "tech_stack": [
+          "Android Java",
+          "HWP Parser",
+          "Custom Renderer"
+        ],
+        "key_features": [
+          "HWP 완벽 호환",
+          "한글 폰트 지원",
+          "공문 서식"
+        ],
+        "clone_tip": "오픈소스 HWP 파서 활용하여 기본 뷰어 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#한국특화"
+      ],
+      "verdict": "한국 시장 특화 전략으로 안정적 수익 확보 가능"
+    },
+    {
+      "rank": 5,
+      "name": "NetShort - 인기 드라마 및 TV 프로그램",
+      "developer": "NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/ZL5yS20EujtVmUMMNHEnH9AI4NoqjUfjkolH7h44Ap0R2w3Vv1GF3zMGhB1KepyjCcH2a63rbbSl_PIwYxpr",
+      "app_url": "https://play.google.com/store/apps/details?id=com.netshort.abroad",
+      "idea_summary": "드라마 하이라이트 영상 큐레이션 플랫폼",
+      "analysis": {
+        "problem": "긴 드라마를 다 볼 시간 없는 현대인들의 시간 부족 [추론]",
+        "solution": "드라마의 핵심 장면만 편집한 숏폼 콘텐츠 제공 [추론]",
+        "target_user": "시간이 부족한 2030세대와 드라마 팬들 [추론]",
+        "unique_point": "드라마 전용 숏폼 플랫폼으로 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "YouTube Shorts",
+          "릴스"
+        ],
+        "timing_reason": "숏폼 콘텐츠 열풍과 OTT 시장 포화로 새로운 시청 방식 니즈 [추론]",
+        "growth_potential": "콘텐츠 저작권 이슈 해결 시 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델과 OTT 플랫폼 제휴 수익 분배 [추론]",
+        "pricing_suggestion": "월 9,900원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Video Processing",
+          "AI 편집"
+        ],
+        "key_features": [
+          "AI 하이라이트 추출",
+          "개인화 추천",
+          "소셜 기능"
+        ],
+        "clone_tip": "저작권 문제 해결 위해 제작사와 파트너십 선행 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#콘텐츠",
+        "#B2C",
+        "#영상"
+      ],
+      "verdict": "저작권 이슈 해결 필요하지만 시장 잠재력 매우 높음"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "미니멀 접근의 생산성 도구와 틈새 시장 특화 앱들이 주목받고 있음. B2B SaaS 도구들의 수요가 증가하는 추세 [추론]",
+    "trend_details": [
+      "미니멀 UX 설계가 복잡한 기능보다 선호됨",
+      "실제 데이터를 활용한 새로운 게임 경험 시도",
+      "한국 시장 특화 솔루션의 틈새 전략",
+      "B2B 리뷰 관리 도구의 필요성 증가",
+      "숏폼 콘텐츠와 연계된 창작 도구 관심"
+    ],
+    "hot_categories": [
+      "생산성",
+      "비즈니스 도구",
+      "숏폼 연계"
+    ],
+    "opportunity": "복잡한 기존 솔루션을 단순화한 미니멀 앱과 특정 지역/업종에 특화된 틈새 도구들",
+    "action_item": "사용자가 정말 필요한 핵심 기능만 제공하는 미니멀 MVP 개발에 집중하기"
+  }
+}
