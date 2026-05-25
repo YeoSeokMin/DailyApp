@@ -1,0 +1,614 @@
+{
+  "date": "2026-05-26",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Aviation Calculator AvCalc",
+      "developer": "Fifteen Jugglers Software UG",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/a9/cc/f3a9cc6a-9588-0739-e6df-6ce8f140c7b0/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aviation-calculator-avcalc/id6767033258?uo=2",
+      "idea_summary": "항공 계산 전용 계산기 앱",
+      "analysis": {
+        "problem": "조종사와 항공 관련 직종의 복잡한 계산 업무 [추론]",
+        "solution": "항공 특화 계산기로 전문 계산 간소화 [추론]",
+        "target_user": "조종사, 항공 엔지니어, 항공학도 [추론]",
+        "unique_point": "항공 업계 특화 계산 기능 집약 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ForeFlight",
+          "Garmin Pilot"
+        ],
+        "timing_reason": "항공 산업 회복과 개인 조종사 증가 [추론]",
+        "growth_potential": "전문직 대상 니치 시장으로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 프리미엄 구독 [추론]",
+        "pricing_suggestion": "월 구독 5-10달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "Core Data",
+          "MapKit"
+        ],
+        "key_features": [
+          "항공계산공식",
+          "단위변환",
+          "데이터저장"
+        ],
+        "clone_tip": "항공 전문 지식 필수, 정확한 공식 구현 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#전문직",
+        "#B2B",
+        "#니치마켓"
+      ],
+      "verdict": "전문성 높은 니치 시장, 진입장벽 있지만 수요 확실",
+      "deep_report_id": "ios-aviation-calculator-avcalc-1779721381501"
+    },
+    {
+      "rank": 2,
+      "name": "Surf Forecast: Quiver",
+      "developer": "Steven Chandler",
+      "category": "스포츠",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/bd/db/e5bddb0a-bce9-4f2c-3e84-7d4aa4349d75/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/surf-forecast-quiver/id6759300320?uo=2",
+      "idea_summary": "서퍼 전용 파도 예보 및 스팟 정보",
+      "analysis": {
+        "problem": "서퍼들의 정확한 파도 예보와 최적 서핑 스팟 찾기 어려움 [추론]",
+        "solution": "실시간 파도 데이터와 서핑 스팟별 상세 예보 제공 [추론]",
+        "target_user": "서퍼, 서핑 입문자, 해양 스포츠 애호가 [추론]",
+        "unique_point": "서핑 특화된 정밀 예보와 커뮤니티 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Surfline",
+          "Magicseaweed"
+        ],
+        "timing_reason": "서핑 인기 증가와 해양 레저 스포츠 확산 [추론]",
+        "growth_potential": "계절성 있지만 글로벌 서핑 시장 성장 중 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 예보 구독, 광고 [추론]",
+        "pricing_suggestion": "월 구독 8-15달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-8개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Weather API",
+          "MapKit"
+        ],
+        "key_features": [
+          "날씨예보연동",
+          "GPS위치",
+          "커뮤니티"
+        ],
+        "clone_tip": "날씨 데이터 API 연동과 정확한 알고리즘이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#스포츠",
+        "#날씨",
+        "#커뮤니티"
+      ],
+      "verdict": "틈새 시장이지만 충성도 높은 사용자층 확보 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Kyva",
+      "developer": "Maria Gomes",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/1a/cc/ec1acc5b-5d3e-047d-71f9-3cfebee4b040/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/kyva/id6769027591?uo=2",
+      "idea_summary": "개인 맞춤 건강 관리 솔루션",
+      "analysis": {
+        "problem": "개인의 건강 상태를 종합적으로 관리하기 어려움 [추론]",
+        "solution": "AI 기반 개인 맞춤 건강 추천과 통합 관리 [추론]",
+        "target_user": "건강 관심층, 만성질환자, 중장년층 [추론]",
+        "unique_point": "개인화된 건강 데이터 분석과 맞춤 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Samsung Health"
+        ],
+        "timing_reason": "코로나 이후 건강 관심 급증과 개인 맞춤 트렌드 [추론]",
+        "growth_potential": "고령화 사회와 예방 의학 확산으로 고성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독, 건강 관련 제품 제휴 [추론]",
+        "pricing_suggestion": "월 구독 10-20달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "ML/AI",
+          "HealthKit"
+        ],
+        "key_features": [
+          "AI분석",
+          "데이터연동",
+          "맞춤추천"
+        ],
+        "clone_tip": "의료 데이터 처리와 AI 알고리즘 개발 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#헬스케어",
+        "#AI",
+        "#개인화"
+      ],
+      "verdict": "고성장 헬스케어 시장의 개인화 트렌드에 부합"
+    },
+    {
+      "rank": 4,
+      "name": "Stacky Tasks",
+      "developer": "Gun Yoshimura",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/39/4e/56394efb-1080-0be3-87c5-f92f8448a32f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/stacky-tasks/id6763980452?uo=2",
+      "idea_summary": "스택 방식의 혁신적 태스크 관리",
+      "analysis": {
+        "problem": "기존 할일 앱의 복잡함과 우선순위 관리의 어려움 [추론]",
+        "solution": "스택 구조로 직관적인 태스크 우선순위 관리 [추론]",
+        "target_user": "직장인, 프리랜서, 학생 [추론]",
+        "unique_point": "스택 메타포를 활용한 독특한 UX 디자인 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "Any.do",
+          "Notion"
+        ],
+        "timing_reason": "재택근무 확산과 개인 생산성 도구 수요 증가 [추론]",
+        "growth_potential": "차별화된 UX로 기존 앱 대체 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "월 구독 5-10달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "600-1000만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "스택UI",
+          "드래그드롭",
+          "동기화"
+        ],
+        "clone_tip": "직관적인 스택 UX 구현이 핵심 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#생산성",
+        "#UX혁신",
+        "#개인개발"
+      ],
+      "verdict": "참신한 UX로 기존 생산성 앱 시장에 도전 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Cared For: Family Care Manager",
+      "developer": "BRIAN PHILLIP STORJOHANN",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/8b/19/e98b1952-b051-79ed-bb09-5a50d28eb0ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/cared-for-family-care-manager/id6767419830?uo=2",
+      "idea_summary": "가족 건강 통합 관리 플랫폼",
+      "analysis": {
+        "problem": "가족 구성원 건강 정보 분산과 관리의 어려움 [추론]",
+        "solution": "가족 건강 정보 통합 관리와 일정 조율 [추론]",
+        "target_user": "중장년층, 고령 부모를 둔 자녀, 다자녀 가정 [추론]",
+        "unique_point": "가족 단위 헬스케어 통합 관리 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CareZone",
+          "MyChart"
+        ],
+        "timing_reason": "고령화 사회와 가족 돌봄 부담 증가 [추론]",
+        "growth_potential": "실버케어 시장 확대로 지속 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델, 보험사 제휴 [추론]",
+        "pricing_suggestion": "월 구독 15-25달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-10개월 [추론]",
+        "estimated_cost": "1200-2000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "HIPAA 준수",
+          "클라우드"
+        ],
+        "key_features": [
+          "가족공유",
+          "일정관리",
+          "의료연동"
+        ],
+        "clone_tip": "의료 정보 보안과 HIPAA 규정 준수 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.3
+      },
+      "tags": [
+        "#패밀리케어",
+        "#헬스케어",
+        "#고령화"
+      ],
+      "verdict": "고령화 사회의 핵심 니즈, 장기적 성장 가능성 높음"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "UltraGuard VPN: Fast & Secure",
+      "developer": "HKL Game Studio",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/eKcAVNVwc9GLple3MRKt53GdkXkPU6Cd2DRvUiEdvIEmFZ8h3MTm6aukWBv6yOxHuCl8m92ydpQC2yRiL6t",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ultra.vpnsecure.fast.speedtest",
+      "idea_summary": "게임 최적화 VPN 서비스",
+      "analysis": {
+        "problem": "게이머들의 지역 차단과 핑 최적화 요구 [추론]",
+        "solution": "게임 특화 VPN으로 속도와 안정성 제공 [추론]",
+        "target_user": "모바일 게이머, 해외 게임 이용자 [추론]",
+        "unique_point": "게임 최적화 서버와 속도 테스트 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ExpressVPN",
+          "NordVPN"
+        ],
+        "timing_reason": "모바일 게임 시장 성장과 지역 제한 증가 [추론]",
+        "growth_potential": "게임 VPN 니치 시장에서 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "월간/연간 구독 모델 [추론]",
+        "pricing_suggestion": "월 구독 8-15달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "OpenVPN",
+          "WireGuard"
+        ],
+        "key_features": [
+          "게임최적화",
+          "속도테스트",
+          "서버선택"
+        ],
+        "clone_tip": "게임 트래픽 최적화 알고리즘이 핵심 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#게이밍",
+        "#VPN",
+        "#모바일"
+      ],
+      "verdict": "게임 특화 VPN 시장의 틈새 공략 가능",
+      "deep_report_id": "android-ultraguard-vpn-fast-secure-1779721452806"
+    },
+    {
+      "rank": 2,
+      "name": "동영상 다운로더: HD 플레이어",
+      "developer": "Hypers Tools",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/9xQ1JG6bpioHMu-Gv1BKWy7fBTJSxCO0-I-dsvGFNvCJbtHjS39Kh5MaSp9TMuVApS5rFX7P3ZUPJ3gurxxMhg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hypertools.videodownloader.downloader.videoplayer.ai",
+      "idea_summary": "AI 기반 동영상 다운로드 도구",
+      "analysis": {
+        "problem": "다양한 플랫폼 동영상 저장과 오프라인 시청 니즈 [추론]",
+        "solution": "AI로 동영상 인식하고 최적 화질로 다운로드 [추론]",
+        "target_user": "콘텐츠 소비자, 데이터 절약 이용자 [추론]",
+        "unique_point": "AI 기반 동영상 인식과 자동 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Snaptube",
+          "Vidmate"
+        ],
+        "timing_reason": "OTT 확산으로 오프라인 시청 수요 증가 [추론]",
+        "growth_potential": "저작권 이슈 있으나 개인 이용 수요 지속 [추론]"
+      },
+      "business": {
+        "monetization": "광고 모델, 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 구독 3-8달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "FFmpeg",
+          "ML Kit"
+        ],
+        "key_features": [
+          "AI인식",
+          "포맷변환",
+          "플레이어"
+        ],
+        "clone_tip": "법적 리스크 고려하고 개인 이용에 제한 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 6.8
+      },
+      "tags": [
+        "#동영상",
+        "#AI",
+        "#유틸리티"
+      ],
+      "verdict": "수요 있으나 저작권 리스크 고려 필요한 영역"
+    },
+    {
+      "rank": 3,
+      "name": "정부24(구 민원24)",
+      "developer": "행정안전부",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/9ZwlSxrZ5zAGydEtON0V6SkvezO_v6xIlbQEIYR7AKPiJ7NLoYow-2LYjmRH48FC1b3CXBicR4DJw3zZ-GXi",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.go.minwon.m",
+      "idea_summary": "정부 민원 온라인 처리 플랫폼",
+      "analysis": {
+        "problem": "복잡한 정부 민원 절차와 대기 시간 [확인]",
+        "solution": "모바일로 간편하게 민원 신청과 처리 현황 확인 [확인]",
+        "target_user": "전 국민, 특히 직장인과 자영업자 [확인]",
+        "unique_point": "정부 공식 민원 처리 독점 플랫폼 [확인]"
+      },
+      "market": {
+        "competitors": [],
+        "timing_reason": "디지털 정부 정책과 비대면 서비스 확산 [확인]",
+        "growth_potential": "정부 주도로 지속적 기능 확장 예정 [확인]"
+      },
+      "business": {
+        "monetization": "정부 예산 운영 [확인]",
+        "pricing_suggestion": "무료 [확인]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "정부 프로젝트로 클론 불가 [확인]",
+        "estimated_cost": "클론 불가 [확인]",
+        "tech_stack": [
+          "정부 표준 프레임워크"
+        ],
+        "key_features": [
+          "민원신청",
+          "본인인증",
+          "처리현황"
+        ],
+        "clone_tip": "정부 독점 영역으로 민간 복제 불가 [확인]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 1,
+        "overall": 5.8
+      },
+      "tags": [
+        "#정부",
+        "#민원",
+        "#독점"
+      ],
+      "verdict": "필수 서비스이나 민간 복제 불가한 정부 독점 영역"
+    },
+    {
+      "rank": 4,
+      "name": "대한민국 모바일 신분증",
+      "developer": "행정안전부",
+      "category": "라이프스타일",
+      "icon": "https://play-lh.googleusercontent.com/ZG0w0dsWvuwXahcA9klpwBm903dgLQ5ELba6g47MTpeK5AwOHh_nwI-hd3uROMbUEcRv",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.go.mobileid",
+      "idea_summary": "디지털 신분증 플랫폼",
+      "analysis": {
+        "problem": "실물 신분증 분실 리스크와 휴대 불편함 [확인]",
+        "solution": "모바일 기기를 통한 안전한 신분 증명 [확인]",
+        "target_user": "전 국민, 특히 젊은 세대 [확인]",
+        "unique_point": "정부 발행 공식 디지털 신분증 [확인]"
+      },
+      "market": {
+        "competitors": [],
+        "timing_reason": "디지털 전환 정책과 코로나 비대면 확산 [확인]",
+        "growth_potential": "정부 정책으로 의무 사용 확산 예정 [확인]"
+      },
+      "business": {
+        "monetization": "정부 예산 운영 [확인]",
+        "pricing_suggestion": "무료 [확인]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "정부 프로젝트로 클론 불가 [확인]",
+        "estimated_cost": "클론 불가 [확인]",
+        "tech_stack": [
+          "블록체인",
+          "생체인증",
+          "PKI"
+        ],
+        "key_features": [
+          "신분인증",
+          "QR코드",
+          "생체보안"
+        ],
+        "clone_tip": "정부 독점 인증 체계로 민간 복제 불가 [확인]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 1,
+        "overall": 6.3
+      },
+      "tags": [
+        "#디지털ID",
+        "#정부",
+        "#보안"
+      ],
+      "verdict": "혁신적이나 정부 독점으로 민간 개발 불가"
+    },
+    {
+      "rank": 5,
+      "name": "건강보험25시",
+      "developer": "국민건강보험공단",
+      "category": "건강",
+      "icon": "https://play-lh.googleusercontent.com/k1AdvOdopEN3E9_MyZql3zfIrZQacuIA9T3f7ZRaNZP-Wrr2suJMpZ4Q_ECpej1OnLUtd8hME3jJNN2LVK2f950",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.or.nhic",
+      "idea_summary": "건강보험 통합 관리 서비스",
+      "analysis": {
+        "problem": "건강보험 정보 조회와 각종 신청의 복잡함 [확인]",
+        "solution": "모바일로 건강보험 모든 업무 통합 처리 [확인]",
+        "target_user": "전 국민, 특히 의료 서비스 이용자 [확인]",
+        "unique_point": "국가 건강보험 공단 공식 서비스 [확인]"
+      },
+      "market": {
+        "competitors": [],
+        "timing_reason": "고령화와 의료비 증가로 건강보험 관심 증대 [확인]",
+        "growth_potential": "의료 디지털화와 함께 지속 확장 [확인]"
+      },
+      "business": {
+        "monetization": "공공 서비스로 무료 [확인]",
+        "pricing_suggestion": "무료 [확인]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "공공기관 독점으로 클론 불가 [확인]",
+        "estimated_cost": "클론 불가 [확인]",
+        "tech_stack": [
+          "정부 표준",
+          "의료 정보 보안"
+        ],
+        "key_features": [
+          "보험조회",
+          "급여신청",
+          "병원정보"
+        ],
+        "clone_tip": "의료보험 데이터 접근 권한 필요로 불가 [확인]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 1,
+        "overall": 5.5
+      },
+      "tags": [
+        "#건강보험",
+        "#공공",
+        "#의료"
+      ],
+      "verdict": "필수 서비스이나 공공기관 독점으로 민간 진입 불가"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "헬스케어와 전문직 도구 앱이 주목받고 있으며, 정부 주도 디지털 전환이 가속화되고 있다 [추론]. 니치 시장 특화 앱들이 기존 범용 앱 대비 차별화 전략으로 부상하고 있다 [추론].",
+    "trend_details": [
+      "개인 맞춤 헬스케어 솔루션 확산",
+      "전문직 특화 도구 앱 니즈 증가",
+      "정부 디지털 서비스 의무화",
+      "게이밍 특화 유틸리티 성장"
+    ],
+    "hot_categories": [
+      "건강 및 피트니스",
+      "전문 도구",
+      "생산성"
+    ],
+    "opportunity": "고령화와 개인화 트렌드 결합한 패밀리 헬스케어 통합 플랫폼",
+    "action_item": "니치 시장 전문 도구 앱 개발로 차별화 전략 수립"
+  }
+}
