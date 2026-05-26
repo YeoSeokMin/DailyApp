@@ -1,10 +1,21 @@
 {
-  "generatedAt": "2026-05-25T15:06:04.193Z",
+  "generatedAt": "2026-05-26T15:05:38.504Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "건강",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "건강보험25시"
+      ],
+      "avgScore": 5.5
+    },
     {
       "category": "비즈니스",
       "currentCount": 2,
@@ -41,16 +52,16 @@
       "avgScore": 6.6
     },
     {
-      "category": "쇼핑",
+      "category": "음식 및 음료",
       "currentCount": 2,
       "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Temu: 억만장자처럼 쇼핑하기",
-        "당근 - 당신 근처의 지역 생활 커뮤니티"
+        "My Food Archive",
+        "패스오더"
       ],
-      "avgScore": 7.4
+      "avgScore": 6.65
     },
     {
       "category": "도서",
@@ -64,34 +75,49 @@
       "avgScore": 6.8
     },
     {
-      "category": "스포츠",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "라이프스타일",
+      "currentCount": 10,
+      "previousCount": 6,
+      "changePercent": 67,
       "changeDirection": "up",
       "apps": [
-        "Paddeo SmartWatch"
+        "정부24(구 민원24)",
+        "대한민국 모바일 신분증",
+        "Nova Cabin",
+        "Dream Haven",
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
+        "HelpAway",
+        "Aura Garden",
+        "Aquero",
+        "Unifesto: Discover Events",
+        "2026 고유가 피해지원금 60만원 민생지원 신청가이드"
       ],
-      "avgScore": 7.5
+      "avgScore": 6.94
     },
     {
-      "category": "정치",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "건강 및 피트니스",
+      "currentCount": 6,
+      "previousCount": 4,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "개혁신당"
+        "Kyva",
+        "Cared For: Family Care Manager",
+        "setlog",
+        "Wroot — Hair Assessment",
+        "Heart Scan - 심장 건강 일기",
+        "Tinnitus Diary: Pitch Match"
       ],
-      "avgScore": 6
+      "avgScore": 7.983333333333333
     },
     {
       "category": "생산성",
-      "currentCount": 20,
+      "currentCount": 19,
       "previousCount": 16,
-      "changePercent": 25,
+      "changePercent": 19,
       "changeDirection": "up",
       "apps": [
+        "Stacky Tasks",
         "Tock",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
@@ -109,30 +135,9 @@
         "문서 뷰어: PDF, Word",
         "Flight Swap",
         "PDF 리더: 뷰어·편집기",
-        "문서 뷰어: PDF, Word",
-        "molipDo 몰입도",
-        "PDF 리더 및 뷰어"
+        "문서 뷰어: PDF, Word"
       ],
-      "avgScore": 6.784999999999999
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 9,
-      "previousCount": 8,
-      "changePercent": 13,
-      "changeDirection": "up",
-      "apps": [
-        "Nova Cabin",
-        "Dream Haven",
-        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
-        "HelpAway",
-        "Aura Garden",
-        "Aquero",
-        "Unifesto: Discover Events",
-        "2026 고유가 피해지원금 60만원 민생지원 신청가이드",
-        "포에버 - 반려인을 위한 펫로스 케어 및 추억 기록앱"
-      ],
-      "avgScore": 7.144444444444444
+      "avgScore": 6.826315789473684
     }
   ],
   "decliningCategories": [
@@ -143,40 +148,28 @@
       "changePercent": -17,
       "changeDirection": "down",
       "apps": [
+        "Aviation Calculator AvCalc",
         "buzz - local buzzer",
         "QR 코드 및 바코드 스캐너",
         "Spool Pantry",
-        "QR 코드 및 바코드 스캐너",
-        "AiHomeworkA+"
+        "QR 코드 및 바코드 스캐너"
       ],
-      "avgScore": 6.4
+      "avgScore": 6.34
     },
     {
-      "category": "건강 및 피트니스",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
+      "category": "엔터테인먼트",
+      "currentCount": 5,
+      "previousCount": 6,
+      "changePercent": -17,
       "changeDirection": "down",
       "apps": [
-        "setlog",
-        "Wroot — Hair Assessment",
-        "Heart Scan - 심장 건강 일기",
-        "Tinnitus Diary: Pitch Match"
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "TikTok 틱톡 - 숏폼 영상, 라이브, 영상 편집",
+        "BambooWanMe",
+        "TV Smart Player: TV Shows"
       ],
-      "avgScore": 7.775
-    },
-    {
-      "category": "금융",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
-      "changeDirection": "down",
-      "apps": [
-        "ReceiptRoo",
-        "Repayment Log",
-        "미래에셋증권 M-STOCK"
-      ],
-      "avgScore": 7.833333333333333
+      "avgScore": 7.06
     },
     {
       "category": "교육",
@@ -203,6 +196,29 @@
       "avgScore": 7.2
     },
     {
+      "category": "금융",
+      "currentCount": 2,
+      "previousCount": 4,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "ReceiptRoo",
+        "Repayment Log"
+      ],
+      "avgScore": 7.85
+    },
+    {
+      "category": "쇼핑",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Temu: 억만장자처럼 쇼핑하기"
+      ],
+      "avgScore": 6.8
+    },
+    {
       "category": "음악",
       "currentCount": 1,
       "previousCount": 2,
@@ -212,17 +228,6 @@
         "SynthMaker Techno"
       ],
       "avgScore": 5.6
-    },
-    {
-      "category": "도구",
-      "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
-      "changeDirection": "down",
-      "apps": [
-        "사진 복구 - 파일 복원"
-      ],
-      "avgScore": 8
     },
     {
       "category": "의료",
@@ -249,6 +254,30 @@
   ],
   "stableCategories": [
     {
+      "category": "스포츠",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Surf Forecast: Quiver"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "도구",
+      "currentCount": 3,
+      "previousCount": 3,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "UltraGuard VPN: Fast & Secure",
+        "동영상 다운로더: HD 플레이어",
+        "사진 복구 - 파일 복원"
+      ],
+      "avgScore": 7.433333333333334
+    },
+    {
       "category": "사진 및 비디오",
       "currentCount": 2,
       "previousCount": 2,
@@ -259,52 +288,13 @@
         "Photo-Motion"
       ],
       "avgScore": 6.95
-    },
-    {
-      "category": "엔터테인먼트",
-      "currentCount": 6,
-      "previousCount": 6,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "TikTok 틱톡 - 숏폼 영상, 라이브, 영상 편집",
-        "BambooWanMe",
-        "TV Smart Player: TV Shows",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
-      ],
-      "avgScore": 7.233333333333333
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "My Food Archive",
-        "패스오더"
-      ],
-      "avgScore": 6.65
-    },
-    {
-      "category": "소셜 네트워킹",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "بوح - لا تكتم شي"
-      ],
-      "avgScore": 6.5
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 49,
+      "count": 42,
       "apps": [
         "PicturePulse",
         "LoungeMouse",
@@ -342,19 +332,13 @@
         "AeroBooks",
         "문서 뷰어: PDF, Word",
         "Aquero",
-        "Spool Pantry",
-        "AiHomeworkA+",
-        "molipDo 몰입도",
-        "포에버 - 반려인을 위한 펫로스 케어 및 추억 기록앱",
-        "بوح - لا تكتم شي",
-        "Paddeo SmartWatch",
-        "개혁신당"
+        "Spool Pantry"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 48,
+      "count": 39,
       "apps": [
         "PicturePulse",
         "LoungeMouse",
@@ -389,22 +373,16 @@
         "Spool Pantry",
         "SynthMaker Techno",
         "PDF 리더: 뷰어·편집기",
-        "TV Smart Player: TV Shows",
-        "AiHomeworkA+",
-        "molipDo 몰입도",
-        "포에버 - 반려인을 위한 펫로스 케어 및 추억 기록앱",
-        "بوح - لا تكتم شي",
-        "Paddeo SmartWatch",
-        "개혁신당",
-        "미래에셋증권 M-STOCK",
-        "당근 - 당신 근처의 지역 생활 커뮤니티"
+        "TV Smart Player: TV Shows"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 12,
+      "count": 15,
       "apps": [
+        "Kyva",
+        "동영상 다운로더: HD 플레이어",
         "Cramberry: Flashcards & Notes",
         "Dream Haven",
         "Wroot — Hair Assessment",
@@ -415,8 +393,7 @@
         "Bites - Learn Anything",
         "Claude by Anthropic",
         "TikTok 틱톡 - 숏폼 영상, 라이브, 영상 편집",
-        "Unifesto: Discover Events",
-        "AiHomeworkA+"
+        "Unifesto: Discover Events"
       ]
     },
     {
@@ -424,6 +401,7 @@
       "category": "tag",
       "count": 10,
       "apps": [
+        "Aviation Calculator AvCalc",
         "PingRev",
         "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
         "LedgerAI",
@@ -435,23 +413,39 @@
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "productivity",
+      "keyword": "AR",
+      "category": "ar_vr",
       "count": 9,
       "apps": [
+        "Cared For: Family Care Manager",
+        "UltraGuard VPN: Fast & Secure",
+        "Cramberry: Flashcards & Notes",
+        "My Food Archive",
+        "Aura Garden",
+        "Heart Scan - 심장 건강 일기",
+        "Tinnitus Diary: Pitch Match",
+        "Bites - Learn Anything",
+        "TV Smart Player: TV Shows"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "productivity",
+      "count": 8,
+      "apps": [
+        "Stacky Tasks",
         "Tock",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "PDF 리더 및 뷰어",
         "PDF 리더: 뷰어·편집기",
-        "문서 뷰어: PDF, Word",
-        "molipDo 몰입도"
+        "문서 뷰어: PDF, Word"
       ]
     },
     {
       "keyword": "편집",
       "category": "creator",
-      "count": 8,
+      "count": 7,
       "apps": [
         "PDF뷰어, PDF리더 그리고 파일열기",
         "NetShort - 인기 드라마 및 TV 프로그램",
@@ -463,18 +457,26 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 8,
+      "keyword": "헬스케어",
+      "category": "health",
+      "count": 6,
       "apps": [
-        "Cramberry: Flashcards & Notes",
-        "My Food Archive",
-        "Aura Garden",
-        "Heart Scan - 심장 건강 일기",
-        "Tinnitus Diary: Pitch Match",
-        "Bites - Learn Anything",
-        "TV Smart Player: TV Shows",
-        "Paddeo SmartWatch"
+        "Kyva",
+        "Cared For: Family Care Manager",
+        "Wroot — Hair Assessment",
+        "Heart Scan - 심장 건강 일기"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 6,
+      "apps": [
+        "동영상 다운로더: HD 플레이어",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Photo-Motion",
+        "Instagram",
+        "TikTok 틱톡 - 숏폼 영상, 라이브, 영상 편집"
       ]
     },
     {
@@ -490,37 +492,25 @@
       ]
     },
     {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 5,
+      "apps": [
+        "Surf Forecast: Quiver",
+        "buzz - local buzzer",
+        "HelpAway",
+        "Instagram"
+      ]
+    },
+    {
       "keyword": "소셜",
       "category": "tag",
-      "count": 6,
+      "count": 5,
       "apps": [
         "buzz - local buzzer",
         "TikTok Lite 포인트 & 쿠폰 & 리워드",
         "Instagram",
-        "Unifesto: Discover Events",
-        "بوح - لا تكتم شي"
-      ]
-    },
-    {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 5,
-      "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Photo-Motion",
-        "Instagram",
-        "TikTok 틱톡 - 숏폼 영상, 라이브, 영상 편집"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 4,
-      "apps": [
-        "buzz - local buzzer",
-        "HelpAway",
-        "Instagram",
-        "당근 - 당신 근처의 지역 생활 커뮤니티"
+        "Unifesto: Discover Events"
       ]
     },
     {
@@ -532,6 +522,16 @@
         "Tinnitus Diary: Pitch Match",
         "Unifesto: Discover Events",
         "Flight Swap"
+      ]
+    },
+    {
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Aviation Calculator AvCalc",
+        "LoungeMouse",
+        "SynthMaker Techno"
       ]
     },
     {
@@ -565,103 +565,85 @@
       ]
     },
     {
-      "keyword": "헬스케어",
-      "category": "tag",
-      "count": 3,
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 2,
       "apps": [
-        "Wroot — Hair Assessment",
-        "Heart Scan - 심장 건강 일기",
-        "Paddeo SmartWatch"
+        "Cared For: Family Care Manager",
+        "Repayment Log"
       ]
     },
     {
-      "keyword": "소셜미디어",
+      "keyword": "유틸리티",
       "category": "tag",
       "count": 2,
       "apps": [
-        "PicturePulse",
-        "Instagram"
+        "동영상 다운로더: HD 플레이어",
+        "사진 복구 - 파일 복원"
       ]
     },
     {
-      "keyword": "니치마켓",
+      "keyword": "정부",
       "category": "tag",
       "count": 2,
       "apps": [
-        "LoungeMouse",
-        "SynthMaker Techno"
-      ]
-    },
-    {
-      "keyword": "미니멀",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Tock",
-        "PDF 리더 및 뷰어"
-      ]
-    },
-    {
-      "keyword": "피트니스",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "setlog"
+        "정부24(구 민원24)",
+        "대한민국 모바일 신분증"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 23,
-        "percent": 33,
+        "count": 24,
+        "percent": 34,
         "examples": [
-          "Tock",
-          "MapDiffense",
-          "사진 복구 - 파일 복원"
+          "정부24(구 민원24)",
+          "대한민국 모바일 신분증",
+          "건강보험25시"
         ]
       },
       "freemium": {
-        "count": 48,
-        "percent": 69,
+        "count": 46,
+        "percent": 66,
         "examples": [
-          "PicturePulse",
-          "LoungeMouse",
-          "setlog"
+          "Aviation Calculator AvCalc",
+          "Surf Forecast: Quiver",
+          "Kyva"
         ]
       },
       "subscription": {
-        "count": 35,
-        "percent": 50,
+        "count": 37,
+        "percent": 53,
         "examples": [
-          "PicturePulse",
-          "LoungeMouse",
-          "PingRev"
+          "Aviation Calculator AvCalc",
+          "Surf Forecast: Quiver",
+          "Kyva"
         ]
       },
       "onetime": {
-        "count": 8,
-        "percent": 11,
+        "count": 9,
+        "percent": 13,
         "examples": [
+          "Aviation Calculator AvCalc",
           "Tock",
-          "MapDiffense",
-          "사진 복구 - 파일 복원"
+          "MapDiffense"
         ]
       },
       "unknown": {
-        "count": 7,
-        "percent": 10,
+        "count": 6,
+        "percent": 9,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 48,
-      "percent": 69,
+      "count": 46,
+      "percent": 66,
       "examples": [
-        "PicturePulse",
-        "LoungeMouse",
-        "setlog"
+        "Aviation Calculator AvCalc",
+        "Surf Forecast: Quiver",
+        "Kyva"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -670,44 +652,44 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 19,
-        "percent": 27,
+        "count": 20,
+        "percent": 29,
         "apps": [
+          "Kyva",
+          "동영상 다운로더: HD 플레이어",
           "NetShort - 인기 드라마 및 TV 프로그램",
           "ReceiptRoo",
-          "Cramberry: Flashcards & Notes",
-          "TikTok Lite 포인트 & 쿠폰 & 리워드",
-          "Dream Haven"
+          "Cramberry: Flashcards & Notes"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "Cared For: Family Care Manager",
+          "UltraGuard VPN: Fast & Secure",
           "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
           "Cramberry: Flashcards & Notes",
-          "Nova Cabin",
-          "My Food Archive",
-          "setlog"
+          "Nova Cabin"
         ]
       },
       {
         "tech": "creator",
-        "count": 10,
-        "percent": 14,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "동영상 다운로더: HD 플레이어",
           "NetShort - 인기 드라마 및 TV 프로그램",
           "PDF 뷰어 - PDF Reader & PDF 편집",
           "PDF 리더 및 뷰어",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
-          "Instagram"
+          "DramaBox - 미니시리즈 스트리밍 플레이어"
         ]
       },
       {
         "tech": "social",
-        "count": 8,
-        "percent": 11,
+        "count": 6,
+        "percent": 9,
         "apps": [
           "buzz - local buzzer",
           "TikTok Lite 포인트 & 쿠폰 & 리워드",
@@ -718,21 +700,22 @@
       },
       {
         "tech": "productivity",
-        "count": 5,
-        "percent": 7,
+        "count": 6,
+        "percent": 9,
         "apps": [
+          "Stacky Tasks",
+          "Cared For: Family Care Manager",
           "PingRev",
           "Febos X",
-          "Repayment Log",
-          "FlowMind Studio",
-          "molipDo 몰입도"
+          "Repayment Log"
         ]
       },
       {
         "tech": "health",
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "apps": [
+          "Kyva",
           "Nova Cabin",
           "Dream Haven",
           "Aura Garden"
@@ -740,10 +723,20 @@
       },
       {
         "tech": "fintech",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "건강보험25시",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "모바일 건강보험증"
+        ]
+      },
+      {
+        "tech": "blockchain",
         "count": 2,
         "percent": 3,
         "apps": [
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
+          "대한민국 모바일 신분증",
           "모바일 건강보험증"
         ]
       },
@@ -755,80 +748,67 @@
           "NetShort - 인기 드라마 및 TV 프로그램",
           "Photo-Motion"
         ]
-      },
-      {
-        "tech": "blockchain",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "모바일 건강보험증"
-        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 19,
-      "percent": 27,
+      "count": 20,
+      "percent": 29,
       "apps": [
+        "Kyva",
+        "동영상 다운로더: HD 플레이어",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "ReceiptRoo",
-        "Cramberry: Flashcards & Notes",
-        "TikTok Lite 포인트 & 쿠폰 & 리워드",
-        "Dream Haven"
+        "Cramberry: Flashcards & Notes"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 19,
-        "percent": 27,
+        "count": 20,
+        "percent": 29,
         "apps": [
+          "Kyva",
+          "동영상 다운로더: HD 플레이어",
           "NetShort - 인기 드라마 및 TV 프로그램",
           "ReceiptRoo",
-          "Cramberry: Flashcards & Notes",
-          "TikTok Lite 포인트 & 쿠폰 & 리워드",
-          "Dream Haven"
+          "Cramberry: Flashcards & Notes"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "Cared For: Family Care Manager",
+          "UltraGuard VPN: Fast & Secure",
           "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
           "Cramberry: Flashcards & Notes",
-          "Nova Cabin",
-          "My Food Archive",
-          "setlog"
+          "Nova Cabin"
         ]
       },
       {
         "tech": "creator",
-        "count": 10,
-        "percent": 14,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "동영상 다운로더: HD 플레이어",
           "NetShort - 인기 드라마 및 TV 프로그램",
           "PDF 뷰어 - PDF Reader & PDF 편집",
           "PDF 리더 및 뷰어",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
-          "Instagram"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "buzz - local buzzer",
-          "TikTok Lite 포인트 & 쿠폰 & 리워드",
-          "HelpAway",
-          "Tinnitus Diary: Pitch Match",
-          "Instagram"
+          "DramaBox - 미니시리즈 스트리밍 플레이어"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "건강 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "건강"
+    },
     {
       "type": "rising_category",
       "title": "비즈니스 카테고리 급부상",
@@ -852,10 +832,10 @@
     },
     {
       "type": "rising_category",
-      "title": "쇼핑 카테고리 급부상",
+      "title": "음식 및 음료 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "쇼핑"
+      "category": "음식 및 음료"
     },
     {
       "type": "rising_category",
@@ -865,40 +845,26 @@
       "category": "도서"
     },
     {
-      "type": "rising_category",
-      "title": "스포츠 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "스포츠"
-    },
-    {
-      "type": "rising_category",
-      "title": "정치 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "정치"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "27%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "29%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI 기능 통합이 27%의 앱에서 확산되며 freemium 모델(69%)이 주류로 자리잡고 있습니다. 비즈니스, 소셜, 쇼핑 등 다양한 카테고리에서 100% 급성장하며 1인 개발자에게 진입 기회를 제공하고 있습니다.",
+    "trend_summary": "급상승 카테고리들(건강, 비즈니스, 내비게이션 등)이 모두 100% 성장했지만 앱 수가 적어 블루오션 기회를 제공하고 있습니다. AI 기능을 탑재한 앱이 29%에 불과해 차별화 여지가 크며, '1인개발가능' 키워드가 42회로 가장 높아 인디 개발자에게 유리한 시장 환경입니다.",
     "trend_details": [
-      "AI 기능을 활용한 앱이 27% 비중으로 필수 요소화",
-      "Freemium 모델이 69%로 가장 선호되는 수익화 전략",
-      "1인개발가능 태그가 49회로 솔로 개발자 친화적 환경 조성"
+      "급상승 카테고리(건강/비즈니스/내비게이션/소셜/음식)가 모두 100% 성장하며 블루오션 형성",
+      "AI 기능 탑재율이 29%로 낮아 AI 통합을 통한 차별화 기회 존재",
+      "Freemium(66%)과 구독(53%) 모델이 주도하며 수익화 전략 명확화"
     ],
     "hot_categories": [
-      "비즈니스",
-      "소셜"
+      "건강",
+      "비즈니스"
     ],
-    "opportunity": "급상승하는 비즈니스/소셜/쇼핑 카테고리에서 AI 미적용 영역 공략이 가장 유망합니다.",
-    "action_item": "AI 기능을 통합한 freemium 비즈니스 또는 소셜 앱을 1인 개발 가능한 범위로 MVP 제작하세요.",
-    "weekly_theme": "AI 비즈니스"
+    "opportunity": "AI 기능을 통합한 건강 또는 비즈니스 카테고리 앱 개발로 급성장하는 시장과 차별화된 기능을 동시에 확보할 수 있습니다.",
+    "action_item": "건강 또는 비즈니스 카테고리에서 AI 기능(챗봇, 분석, 추천 등)을 핵심으로 한 Freemium 앱 아이디어를 구체화하세요.",
+    "weekly_theme": "AI 블루오션"
   }
 }
