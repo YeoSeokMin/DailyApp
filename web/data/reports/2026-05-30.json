@@ -1,0 +1,625 @@
+{
+  "date": "2026-05-30",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Sunwise: UV Index & Sunburn",
+      "developer": "App Deco Studio Inc.",
+      "category": "날씨",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/ac/e6/e5ace612-0d25-bdf0-8e1a-5116da9ee832/AppIcon-0-1x_U007epad-0-1-sRGB-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/sunwise-uv-index-sunburn/id6757288371?uo=2",
+      "idea_summary": "개인 맞춤 UV 지수 추적 및 일광화상 예방",
+      "analysis": {
+        "problem": "자외선 노출로 인한 피부 손상을 미리 예방하기 어려움 [추론]",
+        "solution": "실시간 UV 지수와 개인 피부타입 기반 맞춤 알림 제공 [추론]",
+        "target_user": "야외활동이 많은 20-40대, 피부 건강에 관심 있는 사용자 [추론]",
+        "unique_point": "개인 피부타입별 맞춤형 UV 노출 시간 계산 및 알림 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "UV Index",
+          "SunSmart"
+        ],
+        "timing_reason": "기후변화로 자외선 노출 위험 증가 및 피부암 인식 확산 [추론]",
+        "growth_potential": "건강 의식 확산과 야외활동 증가로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 상세 분석 및 알림 기능 제공 [추론]",
+        "pricing_suggestion": "월 2,900원 구독 모델 추천 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreLocation",
+          "Weather API"
+        ],
+        "key_features": [
+          "실시간 UV 데이터",
+          "위치기반 알림",
+          "피부타입 설정"
+        ],
+        "clone_tip": "기상청 API 활용하여 UV 데이터 수집, 푸시 알림 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "피부 건강 트렌드와 맞는 실용적 앱",
+      "deep_report_id": "ios-sunwise-uv-index-sunburn-1780066955405"
+    },
+    {
+      "rank": 2,
+      "name": "To-Do: QuestGO",
+      "developer": "Carl Nie",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/2b/25/7f2b2575-7638-b526-9ee4-9c9c74023e0c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/to-do-questgo/id6770048399?uo=2",
+      "idea_summary": "할 일을 RPG 게임처럼 퀘스트화한 투두앱",
+      "analysis": {
+        "problem": "기존 투두앱은 지루하고 동기부여가 부족함 [추론]",
+        "solution": "할 일을 게임 퀘스트로 변환하여 재미와 성취감 제공 [추론]",
+        "target_user": "게임을 좋아하는 10-30대, 자기계발에 관심 있는 직장인 [추론]",
+        "unique_point": "RPG 요소와 투두 관리의 융합으로 동기부여 극대화 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Todoist"
+        ],
+        "timing_reason": "게이미피케이션 트렌드와 생산성 앱 시장 성장 [추론]",
+        "growth_potential": "Z세대 타겟으로 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 커스터마이징 요소 판매 [추론]",
+        "pricing_suggestion": "월 3,900원 구독 또는 일회성 구매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Game Center"
+        ],
+        "key_features": [
+          "레벨링 시스템",
+          "보상 메커니즘",
+          "통계 대시보드"
+        ],
+        "clone_tip": "게임화 요소 설계가 핵심, 적절한 보상 밸런스 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게이미피케이션"
+      ],
+      "verdict": "게임화 트렌드를 잘 활용한 혁신적 생산성 앱"
+    },
+    {
+      "rank": 3,
+      "name": "Schengen Days - Visa Tracker",
+      "developer": "Alexander Hundrup",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/f2/ba/75f2bad5-9eca-42e6-965e-ba61e45a3068/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/schengen-days-visa-tracker/id6760258203?uo=2",
+      "idea_summary": "솅겐 비자 체류일수 자동 추적 관리",
+      "analysis": {
+        "problem": "솅겐 비자 90일 규정 위반 시 입국 금지 등 심각한 문제 발생 [확인]",
+        "solution": "입출국 자동 추적과 잔여 일수 알림으로 위반 방지 [추론]",
+        "target_user": "유럽 여행객, 디지털 노마드, 장기 체류자 [추론]",
+        "unique_point": "복잡한 솅겐 비자 규정을 자동으로 계산하여 관리 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "정보 없음"
+        ],
+        "timing_reason": "코로나 이후 해외여행 재개 및 디지털 노마드 증가 [추론]",
+        "growth_potential": "니치하지만 필수적인 시장으로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 연간 구독 모델 [추론]",
+        "pricing_suggestion": "일회성 9,900원 또는 연간 14,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Calendar API"
+        ],
+        "key_features": [
+          "날짜 계산 알고리즘",
+          "푸시 알림",
+          "여권 정보 저장"
+        ],
+        "clone_tip": "솅겐 비자 규정 정확한 이해와 날짜 계산 로직이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행"
+      ],
+      "verdict": "니치하지만 필수적인 여행 도구"
+    },
+    {
+      "rank": 4,
+      "name": "Focuso: Study & Pomodoro Timer",
+      "developer": "Serhii Blyshchak",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/43/6b/8f436b0f-5c2b-160e-f0f3-206297f4c52e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/focuso-study-pomodoro-timer/id6762836837?uo=2",
+      "idea_summary": "학습 전용 포모도로 타이머와 집중력 분석",
+      "analysis": {
+        "problem": "학습 시 집중력 유지의 어려움과 효과적인 시간 관리 부족 [추론]",
+        "solution": "포모도로 기법과 학습 특화 기능으로 집중력 향상 [추론]",
+        "target_user": "학생, 수험생, 자기계발하는 직장인 [추론]",
+        "unique_point": "일반 포모도로 앱과 달리 학습 최적화된 기능 제공 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Be Focused"
+        ],
+        "timing_reason": "원격 학습 증가와 자기주도 학습 트렌드 확산 [추론]",
+        "growth_potential": "교육 시장 확대와 함께 지속적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 및 광고 모델 [추론]",
+        "pricing_suggestion": "월 2,900원 구독 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "타이머",
+          "통계 분석",
+          "목표 설정"
+        ],
+        "clone_tip": "포모도로 타이머에 학습 진도 관리 기능을 추가하는 것이 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육"
+      ],
+      "verdict": "학습에 특화된 실용적 생산성 도구"
+    },
+    {
+      "rank": 5,
+      "name": "BRYKK Family Safety",
+      "developer": "Nathan Haring",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/fb/21/4ffb218d-1162-eda2-aa3d-910fcc352bb2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/brykk-family-safety/id6761343948?uo=2",
+      "idea_summary": "가족 안전 관리 및 위치 공유 플랫폼",
+      "analysis": {
+        "problem": "가족 구성원의 안전 상태와 위치를 실시간으로 파악하기 어려움 [추론]",
+        "solution": "실시간 위치 공유와 안전 알림으로 가족 보호 [추론]",
+        "target_user": "자녀를 둔 부모, 고령자 돌봄 가족, 안전에 민감한 가정 [추론]",
+        "unique_point": "가족 중심의 안전 관리에 특화된 기능과 인터페이스 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Life360",
+          "Find My"
+        ],
+        "timing_reason": "안전에 대한 사회적 관심 증대와 가족 보호 니즈 확산 [추론]",
+        "growth_potential": "고령화 사회와 맞벌이 가정 증가로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 안전 기능 및 무제한 알림 구독 [추론]",
+        "pricing_suggestion": "월 4,900원 가족 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreLocation",
+          "Push Notifications"
+        ],
+        "key_features": [
+          "실시간 위치 추적",
+          "긴급 알림",
+          "안전 지역 설정"
+        ],
+        "clone_tip": "위치 데이터 보안과 배터리 최적화가 기술적 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#패밀리"
+      ],
+      "verdict": "사회적 니즈가 높은 가족 안전 솔루션"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Sunwise: UV Index & Sunburn",
+      "developer": "App Deco Studio Inc.",
+      "category": "날씨",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/ac/e6/e5ace612-0d25-bdf0-8e1a-5116da9ee832/AppIcon-0-1x_U007epad-0-1-sRGB-85-220-0.png/100x100bb.png",
+      "app_url": "정보 없음",
+      "idea_summary": "개인 맞춤 UV 지수 추적 및 일광화상 예방",
+      "analysis": {
+        "problem": "자외선 노출로 인한 피부 손상을 미리 예방하기 어려움 [추론]",
+        "solution": "실시간 UV 지수와 개인 피부타입 기반 맞춤 알림 제공 [추론]",
+        "target_user": "야외활동이 많은 20-40대, 피부 건강에 관심 있는 사용자 [추론]",
+        "unique_point": "개인 피부타입별 맞춤형 UV 노출 시간 계산 및 알림 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "UV Index",
+          "SunSmart"
+        ],
+        "timing_reason": "기후변화로 자외선 노출 위험 증가 및 피부암 인식 확산 [추론]",
+        "growth_potential": "건강 의식 확산과 야외활동 증가로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 상세 분석 및 알림 기능 제공 [추론]",
+        "pricing_suggestion": "월 2,900원 구독 모델 추천 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room Database",
+          "Weather API"
+        ],
+        "key_features": [
+          "실시간 UV 데이터",
+          "위치기반 알림",
+          "피부타입 설정"
+        ],
+        "clone_tip": "기상청 API 활용하여 UV 데이터 수집, 푸시 알림 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "피부 건강 트렌드와 맞는 실용적 앱",
+      "deep_report_id": "android-sunwise-uv-index-sunburn-1780067058451"
+    },
+    {
+      "rank": 2,
+      "name": "QuestGO To-Do",
+      "developer": "Carl Nie",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/2b/25/7f2b2575-7638-b526-9ee4-9c9c74023e0c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "정보 없음",
+      "idea_summary": "할 일을 RPG 게임처럼 퀘스트화한 투두앱",
+      "analysis": {
+        "problem": "기존 투두앱은 지루하고 동기부여가 부족함 [추론]",
+        "solution": "할 일을 게임 퀘스트로 변환하여 재미와 성취감 제공 [추론]",
+        "target_user": "게임을 좋아하는 10-30대, 자기계발에 관심 있는 직장인 [추론]",
+        "unique_point": "RPG 요소와 투두 관리의 융합으로 동기부여 극대화 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Todoist"
+        ],
+        "timing_reason": "게이미피케이션 트렌드와 생산성 앱 시장 성장 [추론]",
+        "growth_potential": "Z세대 타겟으로 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 및 커스터마이징 요소 판매 [추론]",
+        "pricing_suggestion": "월 3,900원 구독 또는 일회성 구매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room Database",
+          "Firebase"
+        ],
+        "key_features": [
+          "레벨링 시스템",
+          "보상 메커니즘",
+          "통계 대시보드"
+        ],
+        "clone_tip": "게임화 요소 설계가 핵심, 적절한 보상 밸런스 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게이미피케이션"
+      ],
+      "verdict": "게임화 트렌드를 잘 활용한 혁신적 생산성 앱"
+    },
+    {
+      "rank": 3,
+      "name": "Visa Days Tracker",
+      "developer": "Alexander Hundrup",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/f2/ba/75f2bad5-9eca-42e6-965e-ba61e45a3068/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "정보 없음",
+      "idea_summary": "다양한 국가 비자 체류일수 추적 관리",
+      "analysis": {
+        "problem": "복잡한 각국 비자 규정으로 인한 체류일수 관리의 어려움 [추론]",
+        "solution": "입출국 자동 추적과 잔여 일수 알림으로 위반 방지 [추론]",
+        "target_user": "해외 여행객, 디지털 노마드, 장기 체류자 [추론]",
+        "unique_point": "다양한 국가 비자 규정을 통합 관리하는 올인원 솔루션 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "정보 없음"
+        ],
+        "timing_reason": "코로나 이후 해외여행 재개 및 디지털 노마드 증가 [추론]",
+        "growth_potential": "니치하지만 필수적인 시장으로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 연간 구독 모델 [추론]",
+        "pricing_suggestion": "일회성 9,900원 또는 연간 14,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "700만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room Database",
+          "Calendar API"
+        ],
+        "key_features": [
+          "다국가 비자 규정",
+          "푸시 알림",
+          "여행 기록"
+        ],
+        "clone_tip": "각국 비자 규정 DB 구축과 정확한 날짜 계산 로직이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행"
+      ],
+      "verdict": "니치하지만 필수적인 여행 도구의 확장판"
+    },
+    {
+      "rank": 4,
+      "name": "Study Focus Pro",
+      "developer": "Serhii Blyshchak",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/43/6b/8f436b0f-5c2b-160e-f0f3-206297f4c52e/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "정보 없음",
+      "idea_summary": "AI 기반 학습 패턴 분석과 맞춤형 집중력 향상",
+      "analysis": {
+        "problem": "개인별 최적의 학습 시간과 방법을 찾기 어려움 [추론]",
+        "solution": "AI가 학습 패턴을 분석하여 개인 맞춤형 집중력 향상 방법 제공 [추론]",
+        "target_user": "학생, 수험생, 자기계발하는 직장인 [추론]",
+        "unique_point": "AI 분석 기반 개인화된 학습 효율성 최적화 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Be Focused"
+        ],
+        "timing_reason": "AI 기술 발전과 개인화 학습 트렌드 확산 [추론]",
+        "growth_potential": "에듀테크 시장 확대와 함께 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "AI 분석 기능 프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 4,900원 구독 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-5개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "TensorFlow Lite",
+          "Charts"
+        ],
+        "key_features": [
+          "AI 패턴 분석",
+          "맞춤형 추천",
+          "상세 통계"
+        ],
+        "clone_tip": "기본 포모도로 앱에 머신러닝 기반 개인화 기능 추가가 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#AI"
+      ],
+      "verdict": "AI 트렌드를 접목한 차세대 학습 도구"
+    },
+    {
+      "rank": 5,
+      "name": "Family Guard 360",
+      "developer": "Nathan Haring",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/fb/21/4ffb218d-1162-eda2-aa3d-910fcc352bb2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "정보 없음",
+      "idea_summary": "IoT 연동 스마트홈 가족 안전 통합 플랫폼",
+      "analysis": {
+        "problem": "다양한 IoT 디바이스를 통한 가족 안전 관리가 분산되어 복잡함 [추론]",
+        "solution": "IoT 디바이스 통합 제어로 가족 안전을 종합 관리 [추론]",
+        "target_user": "스마트홈을 구축한 가족, 기술에 관심 있는 부모 [추론]",
+        "unique_point": "IoT 연동으로 위치뿐만 아니라 집안 환경까지 통합 관리 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Life360",
+          "SmartThings"
+        ],
+        "timing_reason": "스마트홈 시장 확산과 IoT 디바이스 대중화 [추론]",
+        "growth_potential": "스마트홈 확산과 함께 매우 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "IoT 연동 프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "월 7,900원 가족 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "IoT SDK",
+          "Firebase"
+        ],
+        "key_features": [
+          "IoT 디바이스 연동",
+          "통합 대시보드",
+          "스마트 알림"
+        ],
+        "clone_tip": "다양한 IoT 프로토콜 지원과 안정적인 연결이 기술적 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#IoT",
+        "#패밀리"
+      ],
+      "verdict": "IoT 시대에 맞는 혁신적 가족 안전 솔루션"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "건강 관리 개인화와 게이미피케이션이 주요 트렌드로 부상하고 있음. 니치 시장 타겟팅이 성공 전략으로 주목받음 [추론]",
+    "trend_details": [
+      "UV 차단 등 예방 중심 헬스케어",
+      "RPG 요소 접목 생산성 앱",
+      "여행객 특화 유틸리티",
+      "AI 기반 개인화 학습"
+    ],
+    "hot_categories": [
+      "헬스케어",
+      "생산성",
+      "여행"
+    ],
+    "opportunity": "기존 앱에 게임화 요소나 AI 개인화 기능을 접목한 차별화 [추론]",
+    "action_item": "니치 시장 발굴과 기존 서비스의 게임화 적용 검토"
+  }
+}
