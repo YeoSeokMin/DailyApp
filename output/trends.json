@@ -1,10 +1,23 @@
 {
-  "generatedAt": "2026-05-30T15:09:30.481Z",
+  "generatedAt": "2026-05-31T15:05:51.287Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "도구",
+      "currentCount": 3,
+      "previousCount": 1,
+      "changePercent": 200,
+      "changeDirection": "up",
+      "apps": [
+        "UltraGuard VPN: Fast & Secure",
+        "동영상 다운로더: HD 플레이어",
+        "사진 복구 - 파일 복원"
+      ],
+      "avgScore": 7.433333333333334
+    },
     {
       "category": "날씨",
       "currentCount": 3,
@@ -30,6 +43,18 @@
         "LoungeMouse"
       ],
       "avgScore": 7.2
+    },
+    {
+      "category": "사진 및 비디오",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "ConcertPro – 오디오 수정",
+        "PicturePulse"
+      ],
+      "avgScore": 7.45
     },
     {
       "category": "비즈니스",
@@ -78,44 +103,51 @@
       "avgScore": 5.5
     },
     {
-      "category": "내비게이션",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Toilet Panic - Find WC Fast"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "유틸리티",
-      "currentCount": 6,
+      "category": "건강 및 피트니스",
+      "currentCount": 7,
       "previousCount": 4,
-      "changePercent": 50,
+      "changePercent": 75,
       "changeDirection": "up",
       "apps": [
-        "余时簿",
-        "QR 코드 및 바코드 스캐너",
-        "EngineerTact: Geo & RF",
-        "QR 스캐너",
-        "Aviation Calculator AvCalc",
-        "buzz - local buzzer"
+        "Women Weight Lifting: Tracker",
+        "BodyScanner",
+        "KneeDrive",
+        "Gym Workout Log: Flowgains",
+        "Kyva",
+        "Cared For: Family Care Manager",
+        "setlog"
       ],
-      "avgScore": 7.033333333333334
+      "avgScore": 7.971428571428571
     },
     {
-      "category": "교육",
+      "category": "게임",
       "currentCount": 3,
       "previousCount": 2,
       "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "IntonationPro",
-        "UASQuiz: EASA Drone Exam Prep",
-        "Cramberry: Flashcards & Notes"
+        "Liminal Dreams -短編脱出-",
+        "CyberBunker",
+        "MapDiffense"
       ],
-      "avgScore": 8.1
+      "avgScore": 7.166666666666667
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 7,
+      "previousCount": 5,
+      "changePercent": 40,
+      "changeDirection": "up",
+      "apps": [
+        "QR 코드 및 바코드 스캐너",
+        "QR 스캐너",
+        "余时簿",
+        "QR 코드 및 바코드 스캐너",
+        "EngineerTact: Geo & RF",
+        "QR 스캐너",
+        "Aviation Calculator AvCalc"
+      ],
+      "avgScore": 6.785714285714286
     },
     {
       "category": "음식 및 음료",
@@ -136,19 +168,19 @@
     {
       "category": "라이프스타일",
       "currentCount": 7,
-      "previousCount": 8,
-      "changePercent": -12,
+      "previousCount": 9,
+      "changePercent": -22,
       "changeDirection": "down",
       "apps": [
+        "SoundMosaic",
         "BRYKK Family Safety",
         "Family Guard 360",
         "Linger Daily",
         "きろく (Daily Diary)",
         "정부24(구 민원24)",
-        "대한민국 모바일 신분증",
-        "Nova Cabin"
+        "대한민국 모바일 신분증"
       ],
-      "avgScore": 7.171428571428571
+      "avgScore": 7.1428571428571415
     },
     {
       "category": "금융",
@@ -157,32 +189,46 @@
       "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "미래에셋증권 M-STOCK",
-        "ReceiptRoo"
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "미래에셋증권 M-STOCK"
       ],
-      "avgScore": 7.199999999999999
+      "avgScore": 7
     },
     {
       "category": "엔터테인먼트",
-      "currentCount": 2,
+      "currentCount": 1,
       "previousCount": 7,
-      "changePercent": -71,
+      "changePercent": -86,
       "changeDirection": "down",
       "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
+        "NetShort - 인기 드라마 및 TV 프로그램"
       ],
-      "avgScore": 7.3
+      "avgScore": 7.8
     }
   ],
   "stableCategories": [
     {
-      "category": "생산성",
-      "currentCount": 20,
-      "previousCount": 19,
-      "changePercent": 5,
+      "category": "교육",
+      "currentCount": 3,
+      "previousCount": 3,
+      "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
+        "PictoPlanning By Cedmad",
+        "IntonationPro",
+        "UASQuiz: EASA Drone Exam Prep"
+      ],
+      "avgScore": 8.033333333333333
+    },
+    {
+      "category": "생산성",
+      "currentCount": 19,
+      "previousCount": 19,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "setlog",
+        "문서 리더 & 스캔",
         "To-Do: QuestGO",
         "Focuso: Study & Pomodoro Timer",
         "QuestGO To-Do",
@@ -199,138 +245,26 @@
         "Stacky Tasks",
         "Tock",
         "PDF뷰어, PDF리더 그리고 파일열기",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "Docx 리더 - HWP, PDF, Docx, XLSX",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더 및 뷰어"
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
       ],
-      "avgScore": 7.35
-    },
-    {
-      "category": "사진 및 비디오",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "ConcertPro – 오디오 수정",
-        "PicturePulse"
-      ],
-      "avgScore": 7.45
-    },
-    {
-      "category": "건강 및 피트니스",
-      "currentCount": 5,
-      "previousCount": 5,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "KneeDrive",
-        "Gym Workout Log: Flowgains",
-        "Kyva",
-        "Cared For: Family Care Manager",
-        "setlog"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "게임",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "CyberBunker",
-        "MapDiffense"
-      ],
-      "avgScore": 7.25
-    },
-    {
-      "category": "도구",
-      "currentCount": 3,
-      "previousCount": 3,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "UltraGuard VPN: Fast & Secure",
-        "동영상 다운로더: HD 플레이어",
-        "사진 복구 - 파일 복원"
-      ],
-      "avgScore": 7.433333333333334
-    },
-    {
-      "category": "소셜",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "TikTok Lite 포인트 & 쿠폰 & 리워드"
-      ],
-      "avgScore": 6.2
+      "avgScore": 7.494736842105262
     }
   ],
   "hotKeywords": [
     {
-      "keyword": "B2C",
-      "category": "tag",
-      "count": 53,
-      "apps": [
-        "Sunwise: UV Index & Sunburn",
-        "To-Do: QuestGO",
-        "Schengen Days - Visa Tracker",
-        "Focuso: Study & Pomodoro Timer",
-        "BRYKK Family Safety",
-        "QuestGO To-Do",
-        "Visa Days Tracker",
-        "Study Focus Pro",
-        "Family Guard 360",
-        "余时簿",
-        "ConcertPro – 오디오 수정",
-        "IntonationPro",
-        "Linger Daily",
-        "setlog",
-        "패스오더 - 카페 가는 길, 미리주문",
-        "QR 코드 및 바코드 스캐너",
-        "CleverQuest",
-        "UASQuiz: EASA Drone Exam Prep",
-        "Sourdough Sanity: Bake Guide",
-        "KneeDrive",
-        "ChatGPT",
-        "PDF 리더 및 뷰어",
-        "UltraGuard VPN: Fast & Secure",
-        "Bite Food Club",
-        "CyberBunker",
-        "Gym Workout Log: Flowgains",
-        "SwishCall: Basketball Shots",
-        "きろく (Daily Diary)",
-        "QR 스캐너",
-        "기상청 날씨알리미",
-        "미래에셋증권 M-STOCK",
-        "쿠팡이츠 - 와우회원 배달비 0원",
-        "PicturePulse",
-        "LoungeMouse",
-        "Tock",
-        "MapDiffense",
-        "사진 복구 - 파일 복원",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Toilet Panic - Find WC Fast",
-        "buzz - local buzzer",
-        "ReceiptRoo",
-        "Cramberry: Flashcards & Notes",
-        "Nova Cabin",
-        "Docx 리더 - HWP, PDF, Docx, XLSX",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "TikTok Lite 포인트 & 쿠폰 & 리워드",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
-      ]
-    },
-    {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 50,
+      "count": 51,
       "apps": [
+        "Liminal Dreams -短編脱出-",
+        "Women Weight Lifting: Tracker",
+        "SoundMosaic",
+        "PictoPlanning By Cedmad",
+        "BodyScanner",
+        "setlog",
+        "문서 리더 & 스캔",
+        "QR 코드 및 바코드 스캐너",
+        "QR 스캐너",
         "Sunwise: UV Index & Sunburn",
         "To-Do: QuestGO",
         "Schengen Days - Visa Tracker",
@@ -344,10 +278,7 @@
         "IntonationPro",
         "Artwork Codex",
         "Linger Daily",
-        "setlog",
         "PDF 리더 및 뷰어",
-        "문서 리더 & 스캔",
-        "QR 코드 및 바코드 스캐너",
         "CleverQuest",
         "UASQuiz: EASA Drone Exam Prep",
         "EngineerTact: Geo & RF",
@@ -359,7 +290,6 @@
         "Gym Workout Log: Flowgains",
         "SwishCall: Basketball Shots",
         "きろく (Daily Diary)",
-        "QR 스캐너",
         "PicturePulse",
         "LoungeMouse",
         "Tock",
@@ -367,20 +297,80 @@
         "PingRev",
         "사진 복구 - 파일 복원",
         "PDF뷰어, PDF리더 그리고 파일열기",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "Toilet Panic - Find WC Fast",
-        "buzz - local buzzer",
-        "ReceiptRoo",
-        "Cramberry: Flashcards & Notes",
-        "Nova Cabin",
-        "Docx 리더 - HWP, PDF, Docx, XLSX",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
+      ]
+    },
+    {
+      "keyword": "B2C",
+      "category": "tag",
+      "count": 51,
+      "apps": [
+        "Liminal Dreams -短編脱出-",
+        "Women Weight Lifting: Tracker",
+        "SoundMosaic",
+        "BodyScanner",
+        "setlog",
+        "QR 코드 및 바코드 스캐너",
+        "QR 스캐너",
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "Sunwise: UV Index & Sunburn",
+        "To-Do: QuestGO",
+        "Schengen Days - Visa Tracker",
+        "Focuso: Study & Pomodoro Timer",
+        "BRYKK Family Safety",
+        "QuestGO To-Do",
+        "Visa Days Tracker",
+        "Study Focus Pro",
+        "Family Guard 360",
+        "余时簿",
+        "ConcertPro – 오디오 수정",
+        "IntonationPro",
+        "Linger Daily",
+        "패스오더 - 카페 가는 길, 미리주문",
+        "CleverQuest",
+        "UASQuiz: EASA Drone Exam Prep",
+        "Sourdough Sanity: Bake Guide",
+        "KneeDrive",
+        "ChatGPT",
+        "PDF 리더 및 뷰어",
+        "UltraGuard VPN: Fast & Secure",
+        "Bite Food Club",
+        "CyberBunker",
+        "Gym Workout Log: Flowgains",
+        "SwishCall: Basketball Shots",
+        "きろく (Daily Diary)",
+        "기상청 날씨알리미",
+        "미래에셋증권 M-STOCK",
+        "쿠팡이츠 - 와우회원 배달비 0원",
+        "PicturePulse",
+        "LoungeMouse",
+        "Tock",
+        "MapDiffense",
+        "사진 복구 - 파일 복원",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "NetShort - 인기 드라마 및 TV 프로그램"
+      ]
+    },
+    {
+      "keyword": "AI",
+      "category": "ai",
+      "count": 14,
+      "apps": [
+        "SoundMosaic",
+        "Study Focus Pro",
+        "IntonationPro",
+        "Linger Daily",
+        "ChatGPT",
+        "Gym Workout Log: Flowgains",
+        "きろく (Daily Diary)",
+        "Kyva",
+        "동영상 다운로더: HD 플레이어"
       ]
     },
     {
       "keyword": "생산성",
       "category": "productivity",
-      "count": 14,
+      "count": 13,
       "apps": [
         "To-Do: QuestGO",
         "Focuso: Study & Pomodoro Timer",
@@ -391,24 +381,22 @@
         "CleverQuest",
         "Stacky Tasks",
         "Tock",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
+        "PDF뷰어, PDF리더 그리고 파일열기"
       ]
     },
     {
-      "keyword": "AI",
-      "category": "ai",
-      "count": 14,
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 10,
       "apps": [
-        "Study Focus Pro",
-        "IntonationPro",
-        "Linger Daily",
-        "ChatGPT",
-        "Gym Workout Log: Flowgains",
-        "きろく (Daily Diary)",
-        "Kyva",
-        "동영상 다운로더: HD 플레이어",
-        "Cramberry: Flashcards & Notes"
+        "PictoPlanning By Cedmad",
+        "문서 리더 & 스캔",
+        "Artwork Codex",
+        "PDF 리더 및 뷰어",
+        "EngineerTact: Geo & RF",
+        "Aviation Calculator AvCalc",
+        "PingRev",
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
       ]
     },
     {
@@ -424,52 +412,15 @@
       ]
     },
     {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 8,
-      "apps": [
-        "Artwork Codex",
-        "PDF 리더 및 뷰어",
-        "문서 리더 & 스캔",
-        "EngineerTact: Geo & RF",
-        "Aviation Calculator AvCalc",
-        "PingRev",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
-      ]
-    },
-    {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 7,
+      "count": 6,
       "apps": [
         "Family Guard 360",
         "Artwork Codex",
         "UltraGuard VPN: Fast & Secure",
         "きろく (Daily Diary)",
-        "Cared For: Family Care Manager",
-        "Cramberry: Flashcards & Notes"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 6,
-      "apps": [
-        "문서 리더 & 스캔",
-        "PDF 리더 및 뷰어",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "PDF 뷰어 - PDF Reader & PDF 편집"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "Bite Food Club",
-        "Surf Forecast: Quiver",
-        "buzz - local buzzer"
+        "Cared For: Family Care Manager"
       ]
     },
     {
@@ -484,6 +435,17 @@
       ]
     },
     {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 4,
+      "apps": [
+        "문서 리더 & 스캔",
+        "PDF 리더 및 뷰어",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "NetShort - 인기 드라마 및 TV 프로그램"
+      ]
+    },
+    {
       "keyword": "유틸리티",
       "category": "tag",
       "count": 4,
@@ -492,6 +454,25 @@
         "QR 스캐너",
         "동영상 다운로더: HD 플레이어",
         "사진 복구 - 파일 복원"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 4,
+      "apps": [
+        "Bite Food Club",
+        "Surf Forecast: Quiver"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 3,
+      "apps": [
+        "Women Weight Lifting: Tracker",
+        "KneeDrive",
+        "NetShort - 인기 드라마 및 TV 프로그램"
       ]
     },
     {
@@ -505,16 +486,6 @@
       ]
     },
     {
-      "keyword": "대기업앱",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "미래에셋증권 M-STOCK",
-        "쿠팡이츠 - 와우회원 배달비 0원",
-        "TikTok Lite 포인트 & 쿠폰 & 리워드"
-      ]
-    },
-    {
       "keyword": "영상",
       "category": "creator",
       "count": 3,
@@ -524,21 +495,12 @@
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 3,
+      "keyword": "핀테크",
+      "category": "fintech",
+      "count": 2,
       "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "buzz - local buzzer",
-        "TikTok Lite 포인트 & 쿠폰 & 리워드"
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
+        "미래에셋증권 M-STOCK"
       ]
     },
     {
@@ -576,60 +538,69 @@
         "Family Guard 360",
         "UltraGuard VPN: Fast & Secure"
       ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 2,
+      "apps": [
+        "余时簿",
+        "Cared For: Family Care Manager"
+      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 21,
-        "percent": 30,
+        "count": 15,
+        "percent": 21,
         "examples": [
-          "ConcertPro – 오디오 수정",
-          "PDF 리더 및 뷰어",
-          "CyberBunker"
+          "Liminal Dreams -短編脱出-",
+          "SoundMosaic",
+          "QR 코드 및 바코드 스캐너"
         ]
       },
       "freemium": {
-        "count": 49,
-        "percent": 70,
+        "count": 48,
+        "percent": 69,
         "examples": [
-          "Sunwise: UV Index & Sunburn",
-          "To-Do: QuestGO",
-          "Focuso: Study & Pomodoro Timer"
+          "Liminal Dreams -短編脱出-",
+          "Women Weight Lifting: Tracker",
+          "SoundMosaic"
         ]
       },
       "subscription": {
-        "count": 49,
-        "percent": 70,
+        "count": 48,
+        "percent": 69,
         "examples": [
-          "Sunwise: UV Index & Sunburn",
-          "To-Do: QuestGO",
-          "Schengen Days - Visa Tracker"
+          "Women Weight Lifting: Tracker",
+          "PictoPlanning By Cedmad",
+          "BodyScanner"
         ]
       },
       "onetime": {
         "count": 16,
         "percent": 23,
         "examples": [
+          "Liminal Dreams -短編脱出-",
           "To-Do: QuestGO",
-          "Schengen Days - Visa Tracker",
-          "QuestGO To-Do"
+          "Schengen Days - Visa Tracker"
         ]
       },
       "unknown": {
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 49,
-      "percent": 70,
+      "count": 48,
+      "percent": 69,
       "examples": [
-        "Sunwise: UV Index & Sunburn",
-        "To-Do: QuestGO",
-        "Focuso: Study & Pomodoro Timer"
+        "Liminal Dreams -短編脱出-",
+        "Women Weight Lifting: Tracker",
+        "SoundMosaic"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -638,20 +609,20 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 16,
-        "percent": 23,
+        "count": 17,
+        "percent": 24,
         "apps": [
-          "Study Focus Pro",
-          "IntonationPro",
-          "Linger Daily",
+          "SoundMosaic",
+          "BodyScanner",
           "문서 리더 & 스캔",
-          "QR 코드 및 바코드 스캐너"
+          "QR 스캐너",
+          "Study Focus Pro"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 16,
-        "percent": 23,
+        "count": 14,
+        "percent": 20,
         "apps": [
           "Schengen Days - Visa Tracker",
           "Focuso: Study & Pomodoro Timer",
@@ -674,44 +645,13 @@
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 4,
+        "percent": 6,
         "apps": [
           "문서 리더 & 스캔",
           "PDF 리더 및 뷰어",
           "동영상 다운로더: HD 플레이어",
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "PDF 뷰어 - PDF Reader & PDF 편집"
-        ]
-      },
-      {
-        "tech": "health",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "KneeDrive",
-          "Kyva",
-          "Nova Cabin"
-        ]
-      },
-      {
-        "tech": "fintech",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "미래에셋증권 M-STOCK",
-          "건강보험25시",
-          "DramaBox - 미니시리즈 스트리밍 플레이어"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 3,
-        "percent": 4,
-        "apps": [
-          "Bite Food Club",
-          "buzz - local buzzer",
-          "TikTok Lite 포인트 & 쿠폰 & 리워드"
+          "NetShort - 인기 드라마 및 TV 프로그램"
         ]
       },
       {
@@ -725,43 +665,69 @@
         ]
       },
       {
+        "tech": "health",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "KneeDrive",
+          "Kyva"
+        ]
+      },
+      {
+        "tech": "fintech",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "미래에셋증권 M-STOCK",
+          "건강보험25시"
+        ]
+      },
+      {
         "tech": "blockchain",
         "count": 1,
         "percent": 1,
         "apps": [
           "대한민국 모바일 신분증"
         ]
+      },
+      {
+        "tech": "social",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "Bite Food Club"
+        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 16,
-      "percent": 23,
+      "count": 17,
+      "percent": 24,
       "apps": [
-        "Study Focus Pro",
-        "IntonationPro",
-        "Linger Daily",
+        "SoundMosaic",
+        "BodyScanner",
         "문서 리더 & 스캔",
-        "QR 코드 및 바코드 스캐너"
+        "QR 스캐너",
+        "Study Focus Pro"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 16,
-        "percent": 23,
+        "count": 17,
+        "percent": 24,
         "apps": [
-          "Study Focus Pro",
-          "IntonationPro",
-          "Linger Daily",
+          "SoundMosaic",
+          "BodyScanner",
           "문서 리더 & 스캔",
-          "QR 코드 및 바코드 스캐너"
+          "QR 스캐너",
+          "Study Focus Pro"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 16,
-        "percent": 23,
+        "count": 14,
+        "percent": 20,
         "apps": [
           "Schengen Days - Visa Tracker",
           "Focuso: Study & Pomodoro Timer",
@@ -781,22 +747,17 @@
           "余时簿",
           "CleverQuest"
         ]
-      },
-      {
-        "tech": "creator",
-        "count": 7,
-        "percent": 10,
-        "apps": [
-          "문서 리더 & 스캔",
-          "PDF 리더 및 뷰어",
-          "동영상 다운로더: HD 플레이어",
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "PDF 뷰어 - PDF Reader & PDF 편집"
-        ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "도구 카테고리 급부상",
+      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "도구"
+    },
     {
       "type": "rising_category",
       "title": "날씨 카테고리 급부상",
@@ -810,6 +771,13 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "여행"
+    },
+    {
+      "type": "rising_category",
+      "title": "사진 및 비디오 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "사진 및 비디오"
     },
     {
       "type": "rising_category",
@@ -841,17 +809,10 @@
     },
     {
       "type": "rising_category",
-      "title": "내비게이션 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "내비게이션"
-    },
-    {
-      "type": "rising_category",
-      "title": "교육 카테고리 급부상",
+      "title": "게임 카테고리 급부상",
       "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "교육"
+      "category": "게임"
     },
     {
       "type": "rising_category",
@@ -863,24 +824,24 @@
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "23%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "24%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI와 AR/VR이 23%의 앱에서 핵심 기술로 자리잡았으며, 날씨·여행·비즈니스 등 전통 카테고리가 100% 급성장을 보이고 있습니다. Freemium 모델이 70%로 수익화의 표준이 되었습니다.",
+    "trend_summary": "도구 카테고리가 200% 급증하며 가장 주목받고 있고, 날씨·여행·사진비디오 등 다양한 카테고리가 100% 성장세를 보이고 있습니다. AI 기능 통합과 1인 개발자를 위한 B2C 모델이 주요 트렌드이며, freemium과 구독 모델이 69%로 수익화의 주류를 이루고 있습니다.",
     "trend_details": [
-      "AI 기능이 23%의 앱에 통합되어 필수 기술로 부상",
-      "날씨·여행·스포츠 등 전통 카테고리의 디지털 혁신 가속화",
-      "Freemium + Subscription 모델이 수익화 주류로 정착"
+      "AI 통합이 24%의 앱에서 활용되며 차별화 요소로 부상",
+      "도구 카테고리의 폭발적 성장 (200% 증가)",
+      "freemium + 구독 모델의 지배적 위치 (69%)"
     ],
     "hot_categories": [
-      "날씨",
-      "여행"
+      "도구",
+      "날씨"
     ],
-    "opportunity": "날씨와 여행 카테고리는 100% 성장했지만 경쟁 앱 수가 적어 AI 기능을 접목한 차별화된 서비스로 시장 진입 기회가 큽니다.",
-    "action_item": "날씨 또는 여행 앱에 개인화 AI 추천 기능을 더한 MVP를 freemium 모델로 개발하세요.",
-    "weekly_theme": "AI 전통카테고리"
+    "opportunity": "급상승 중인 도구/날씨/여행 카테고리는 아직 경쟁자가 적어 1인 개발자가 진입하기 좋은 시점입니다.",
+    "action_item": "AI 기능을 포함한 도구나 날씨 앱을 freemium 모델로 개발하여 급성장 시장에 진입하세요.",
+    "weekly_theme": "AI 도구 급증"
   }
 }
