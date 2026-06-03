@@ -1,34 +1,73 @@
 {
-  "generatedAt": "2026-06-02T15:05:34.869Z",
+  "generatedAt": "2026-06-03T15:06:03.034Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "게임",
+      "category": "날씨",
       "currentCount": 3,
       "previousCount": 1,
       "changePercent": 200,
       "changeDirection": "up",
       "apps": [
-        "Lawgivers II LITE",
-        "Liminal Dreams -短編脱出-",
-        "CyberBunker"
+        "Great Weather",
+        "Sunwise: UV Index & Sunburn",
+        "Sunwise: UV Index & Sunburn"
       ],
-      "avgScore": 7.1000000000000005
+      "avgScore": 7.433333333333334
     },
     {
-      "category": "스포츠",
-      "currentCount": 2,
-      "previousCount": 1,
+      "category": "참고",
+      "currentCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Archery & 3D Scorecard",
-        "SwishCall: Basketball Shots"
+        "ManaVault"
+      ],
+      "avgScore": 7.1
+    },
+    {
+      "category": "음악",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Rangiin | Sitar Synth + AUv3"
       ],
       "avgScore": 6.5
+    },
+    {
+      "category": "미디어",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "동영상 다운로더: HD 플레이어"
+      ],
+      "avgScore": 6
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 8,
+      "previousCount": 4,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Gas Prices USA & Fuel Station",
+        "CareerKit",
+        "QR 코드 및 바코드 스캐너",
+        "QR 코드 및 바코드 스캐너",
+        "QR 스캐너",
+        "余时簿",
+        "QR 코드 및 바코드 스캐너",
+        "EngineerTact: Geo & RF"
+      ],
+      "avgScore": 6.9750000000000005
     },
     {
       "category": "그래픽 및 디자인",
@@ -40,19 +79,6 @@
         "Spotli"
       ],
       "avgScore": 7
-    },
-    {
-      "category": "날씨",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Sunwise: UV Index & Sunburn",
-        "Sunwise: UV Index & Sunburn",
-        "기상청 날씨알리미"
-      ],
-      "avgScore": 6.933333333333334
     },
     {
       "category": "여행",
@@ -67,83 +93,30 @@
       "avgScore": 7.2
     },
     {
-      "category": "음식 및 음료",
-      "currentCount": 4,
-      "previousCount": 2,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "패스오더 - 카페 가는 길, 미리주문",
-        "Sourdough Sanity: Bake Guide",
-        "패스오더 - 카페 가는 길, 미리주문",
-        "Bite Food Club"
-      ],
-      "avgScore": 7.375
-    },
-    {
-      "category": "음식 배달",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "쿠팡이츠 - 와우회원 배달비 0원"
-      ],
-      "avgScore": 5.8
-    },
-    {
-      "category": "유틸리티",
-      "currentCount": 9,
-      "previousCount": 5,
-      "changePercent": 80,
-      "changeDirection": "up",
-      "apps": [
-        "Gas Prices USA & Fuel Station",
-        "CareerKit",
-        "QR 코드 및 바코드 스캐너",
-        "QR 코드 및 바코드 스캐너",
-        "QR 스캐너",
-        "余时簿",
-        "QR 코드 및 바코드 스캐너",
-        "EngineerTact: Geo & RF",
-        "QR 스캐너"
-      ],
-      "avgScore": 7.033333333333334
-    },
-    {
-      "category": "금융",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "토스",
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
-        "미래에셋증권 M-STOCK"
-      ],
-      "avgScore": 7.666666666666667
-    },
-    {
       "category": "교육",
-      "currentCount": 4,
+      "currentCount": 5,
       "previousCount": 3,
-      "changePercent": 33,
+      "changePercent": 67,
       "changeDirection": "up",
       "apps": [
+        "COSMOS: Solar System Explorer",
         "듀오링고(Duolingo): 언어 학습",
         "PictoPlanning By Cedmad",
         "IntonationPro",
         "UASQuiz: EASA Drone Exam Prep"
       ],
-      "avgScore": 8.225
+      "avgScore": 8.16
     },
     {
       "category": "생산성",
-      "currentCount": 21,
-      "previousCount": 19,
-      "changePercent": 11,
+      "currentCount": 23,
+      "previousCount": 17,
+      "changePercent": 35,
       "changeDirection": "up",
       "apps": [
+        "Owlory",
+        "setlog",
+        "문서 리더 & 스캔",
         "PDF 리더: 뷰어·편집기",
         "Humanizer: AI Text Rewriter",
         "PhoneDeck",
@@ -163,33 +136,17 @@
         "ChatGPT",
         "PDF 리더 및 뷰어",
         "setlog",
-        "UltraGuard VPN: Fast & Secure",
-        "문서 리더 & 스캔"
+        "UltraGuard VPN: Fast & Secure"
       ],
-      "avgScore": 7.614285714285716
+      "avgScore": 7.591304347826088
     }
   ],
   "decliningCategories": [
     {
-      "category": "건강 및 피트니스",
-      "currentCount": 5,
-      "previousCount": 6,
-      "changePercent": -17,
-      "changeDirection": "down",
-      "apps": [
-        "Capy: Earn Back Your Time",
-        "Women Weight Lifting: Tracker",
-        "BodyScanner",
-        "KneeDrive",
-        "Gym Workout Log: Flowgains"
-      ],
-      "avgScore": 8.059999999999999
-    },
-    {
       "category": "라이프스타일",
-      "currentCount": 7,
-      "previousCount": 10,
-      "changePercent": -30,
+      "currentCount": 6,
+      "previousCount": 8,
+      "changePercent": -25,
       "changeDirection": "down",
       "apps": [
         "宠物火化",
@@ -197,10 +154,47 @@
         "SoundMosaic",
         "BRYKK Family Safety",
         "Family Guard 360",
-        "Linger Daily",
-        "きろく (Daily Diary)"
+        "Linger Daily"
       ],
-      "avgScore": 7.557142857142858
+      "avgScore": 7.616666666666667
+    },
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 5,
+      "previousCount": 7,
+      "changePercent": -29,
+      "changeDirection": "down",
+      "apps": [
+        "Fitpins | Workout Spots Map",
+        "Capy: Earn Back Your Time",
+        "Women Weight Lifting: Tracker",
+        "BodyScanner",
+        "KneeDrive"
+      ],
+      "avgScore": 8.080000000000002
+    },
+    {
+      "category": "금융",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "토스",
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
+      ],
+      "avgScore": 8.4
+    },
+    {
+      "category": "스포츠",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "Archery & 3D Scorecard"
+      ],
+      "avgScore": 6.8
     },
     {
       "category": "비즈니스",
@@ -216,8 +210,8 @@
     {
       "category": "엔터테인먼트",
       "currentCount": 1,
-      "previousCount": 5,
-      "changePercent": -80,
+      "previousCount": 4,
+      "changePercent": -75,
       "changeDirection": "down",
       "apps": [
         "DramaBox - 미니시리즈 스트리밍 플레이어"
@@ -226,6 +220,17 @@
     }
   ],
   "stableCategories": [
+    {
+      "category": "의료",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "건강보험25시"
+      ],
+      "avgScore": 6
+    },
     {
       "category": "사진 및 비디오",
       "currentCount": 2,
@@ -239,6 +244,18 @@
       "avgScore": 8
     },
     {
+      "category": "게임",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Lawgivers II LITE",
+        "Liminal Dreams -短編脱出-"
+      ],
+      "avgScore": 7.4
+    },
+    {
       "category": "쇼핑",
       "currentCount": 1,
       "previousCount": 1,
@@ -248,21 +265,92 @@
         "Temu: 억만장자처럼 쇼핑하기"
       ],
       "avgScore": 7.8
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 3,
+      "previousCount": 3,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "패스오더 - 카페 가는 길, 미리주문",
+        "Sourdough Sanity: Bake Guide",
+        "패스오더 - 카페 가는 길, 미리주문"
+      ],
+      "avgScore": 7.333333333333333
     }
   ],
   "hotKeywords": [
+    {
+      "keyword": "1인개발가능",
+      "category": "tag",
+      "count": 54,
+      "apps": [
+        "ManaVault",
+        "Owlory",
+        "Rangiin | Sitar Synth + AUv3",
+        "COSMOS: Solar System Explorer",
+        "Fitpins | Workout Spots Map",
+        "Great Weather",
+        "setlog",
+        "동영상 다운로더: HD 플레이어",
+        "문서 리더 & 스캔",
+        "Cinematic Video Editor",
+        "Capy: Earn Back Your Time",
+        "CareerKit",
+        "Spotli",
+        "Humanizer: AI Text Rewriter",
+        "PhoneDeck",
+        "QR 코드 및 바코드 스캐너",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "Liminal Dreams -短編脱出-",
+        "Women Weight Lifting: Tracker",
+        "SoundMosaic",
+        "PictoPlanning By Cedmad",
+        "BodyScanner",
+        "QR 스캐너",
+        "Sunwise: UV Index & Sunburn",
+        "To-Do: QuestGO",
+        "Schengen Days - Visa Tracker",
+        "Focuso: Study & Pomodoro Timer",
+        "BRYKK Family Safety",
+        "QuestGO To-Do",
+        "Visa Days Tracker",
+        "Study Focus Pro",
+        "余时簿",
+        "ConcertPro – 오디오 수정",
+        "IntonationPro",
+        "Artwork Codex",
+        "Linger Daily",
+        "PDF 리더 및 뷰어",
+        "CleverQuest",
+        "UASQuiz: EASA Drone Exam Prep",
+        "EngineerTact: Geo & RF",
+        "Sourdough Sanity: Bake Guide",
+        "KneeDrive",
+        "패스오더 - 카페 가는 길, 미리주문"
+      ]
+    },
     {
       "keyword": "B2C",
       "category": "tag",
       "count": 53,
       "apps": [
+        "ManaVault",
+        "Owlory",
+        "Rangiin | Sitar Synth + AUv3",
+        "COSMOS: Solar System Explorer",
+        "Fitpins | Workout Spots Map",
+        "Great Weather",
+        "setlog",
+        "동영상 다운로더: HD 플레이어",
+        "건강보험25시",
         "Cinematic Video Editor",
         "Archery & 3D Scorecard",
         "Capy: Earn Back Your Time",
         "CareerKit",
         "Spotli",
         "PhoneDeck",
-        "setlog",
         "문서 리더 & 스캔",
         "QR 코드 및 바코드 스캐너",
         "DramaBox - 미니시리즈 스트리밍 플레이어",
@@ -292,86 +380,16 @@
         "KneeDrive",
         "ChatGPT",
         "PDF 리더 및 뷰어",
-        "UltraGuard VPN: Fast & Secure",
-        "Bite Food Club",
-        "CyberBunker",
-        "Gym Workout Log: Flowgains",
-        "SwishCall: Basketball Shots",
-        "きろく (Daily Diary)",
-        "기상청 날씨알리미",
-        "미래에셋증권 M-STOCK",
-        "쿠팡이츠 - 와우회원 배달비 0원"
-      ]
-    },
-    {
-      "keyword": "1인개발가능",
-      "category": "tag",
-      "count": 52,
-      "apps": [
-        "Cinematic Video Editor",
-        "Capy: Earn Back Your Time",
-        "CareerKit",
-        "Spotli",
-        "Humanizer: AI Text Rewriter",
-        "PhoneDeck",
-        "setlog",
-        "문서 리더 & 스캔",
-        "QR 코드 및 바코드 스캐너",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "Liminal Dreams -短編脱出-",
-        "Women Weight Lifting: Tracker",
-        "SoundMosaic",
-        "PictoPlanning By Cedmad",
-        "BodyScanner",
-        "QR 스캐너",
-        "Sunwise: UV Index & Sunburn",
-        "To-Do: QuestGO",
-        "Schengen Days - Visa Tracker",
-        "Focuso: Study & Pomodoro Timer",
-        "BRYKK Family Safety",
-        "QuestGO To-Do",
-        "Visa Days Tracker",
-        "Study Focus Pro",
-        "余时簿",
-        "ConcertPro – 오디오 수정",
-        "IntonationPro",
-        "Artwork Codex",
-        "Linger Daily",
-        "PDF 리더 및 뷰어",
-        "CleverQuest",
-        "UASQuiz: EASA Drone Exam Prep",
-        "EngineerTact: Geo & RF",
-        "Sourdough Sanity: Bake Guide",
-        "KneeDrive",
-        "패스오더 - 카페 가는 길, 미리주문",
-        "Bite Food Club",
-        "CyberBunker",
-        "Gym Workout Log: Flowgains",
-        "SwishCall: Basketball Shots",
-        "きろく (Daily Diary)"
-      ]
-    },
-    {
-      "keyword": "AI",
-      "category": "tag",
-      "count": 12,
-      "apps": [
-        "듀오링고(Duolingo): 언어 학습",
-        "Humanizer: AI Text Rewriter",
-        "SoundMosaic",
-        "Study Focus Pro",
-        "IntonationPro",
-        "Linger Daily",
-        "ChatGPT",
-        "Gym Workout Log: Flowgains",
-        "きろく (Daily Diary)"
+        "UltraGuard VPN: Fast & Secure"
       ]
     },
     {
       "keyword": "생산성",
-      "category": "tag",
-      "count": 12,
+      "category": "productivity",
+      "count": 13,
       "apps": [
+        "Owlory",
+        "문서 리더 & 스캔",
         "PDF 리더: 뷰어·편집기",
         "PhoneDeck",
         "To-Do: QuestGO",
@@ -379,8 +397,22 @@
         "QuestGO To-Do",
         "余时簿",
         "PDF 리더 및 뷰어",
-        "문서 리더 & 스캔",
         "CleverQuest"
+      ]
+    },
+    {
+      "keyword": "AI",
+      "category": "ai",
+      "count": 11,
+      "apps": [
+        "Owlory",
+        "듀오링고(Duolingo): 언어 학습",
+        "Humanizer: AI Text Rewriter",
+        "SoundMosaic",
+        "Study Focus Pro",
+        "IntonationPro",
+        "Linger Daily",
+        "ChatGPT"
       ]
     },
     {
@@ -388,11 +420,11 @@
       "category": "tag",
       "count": 10,
       "apps": [
+        "문서 리더 & 스캔",
         "PDF 리더: 뷰어·편집기",
         "Humanizer: AI Text Rewriter",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "PictoPlanning By Cedmad",
-        "문서 리더 & 스캔",
         "Artwork Codex",
         "PDF 리더 및 뷰어",
         "EngineerTact: Geo & RF"
@@ -401,15 +433,16 @@
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 7,
+      "count": 8,
       "apps": [
+        "Rangiin | Sitar Synth + AUv3",
+        "COSMOS: Solar System Explorer",
         "Archery & 3D Scorecard",
         "Capy: Earn Back Your Time",
         "CareerKit",
         "Family Guard 360",
         "Artwork Codex",
-        "UltraGuard VPN: Fast & Secure",
-        "きろく (Daily Diary)"
+        "UltraGuard VPN: Fast & Secure"
       ]
     },
     {
@@ -426,14 +459,25 @@
       ]
     },
     {
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "ManaVault",
+        "Rangiin | Sitar Synth + AUv3",
+        "宠物火化",
+        "ConcertPro – 오디오 수정",
+        "UASQuiz: EASA Drone Exam Prep"
+      ]
+    },
+    {
       "keyword": "헬스케어",
       "category": "tag",
-      "count": 6,
+      "count": 5,
       "apps": [
         "setlog",
         "Sunwise: UV Index & Sunburn",
-        "KneeDrive",
-        "Gym Workout Log: Flowgains"
+        "KneeDrive"
       ]
     },
     {
@@ -445,16 +489,6 @@
         "Lawgivers II LITE",
         "Women Weight Lifting: Tracker",
         "KneeDrive"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Gas Prices USA & Fuel Station",
-        "QR 코드 및 바코드 스캐너",
-        "QR 스캐너"
       ]
     },
     {
@@ -479,23 +513,12 @@
       ]
     },
     {
-      "keyword": "핀테크",
-      "category": "fintech",
-      "count": 4,
-      "apps": [
-        "토스",
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크",
-        "미래에셋증권 M-STOCK"
-      ]
-    },
-    {
-      "keyword": "니치마켓",
+      "keyword": "유틸리티",
       "category": "tag",
       "count": 3,
       "apps": [
-        "宠物火化",
-        "ConcertPro – 오디오 수정",
-        "UASQuiz: EASA Drone Exam Prep"
+        "Gas Prices USA & Fuel Station",
+        "QR 코드 및 바코드 스캐너"
       ]
     },
     {
@@ -506,6 +529,41 @@
         "듀오링고(Duolingo): 언어 학습",
         "Temu: 억만장자처럼 쇼핑하기",
         "CleverQuest"
+      ]
+    },
+    {
+      "keyword": "핀테크",
+      "category": "fintech",
+      "count": 3,
+      "apps": [
+        "토스",
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
+      ]
+    },
+    {
+      "keyword": "위치기반",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Fitpins | Workout Spots Map",
+        "Gas Prices USA & Fuel Station"
+      ]
+    },
+    {
+      "keyword": "피트니스",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "setlog"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 2,
+      "apps": [
+        "동영상 다운로더: HD 플레이어",
+        "Cinematic Video Editor"
       ]
     },
     {
@@ -525,87 +583,60 @@
         "Lawgivers II LITE",
         "Archery & 3D Scorecard"
       ]
-    },
-    {
-      "keyword": "스포츠",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Archery & 3D Scorecard",
-        "SwishCall: Basketball Shots"
-      ]
-    },
-    {
-      "keyword": "배달",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "크린토피아",
-        "쿠팡이츠 - 와우회원 배달비 0원"
-      ]
-    },
-    {
-      "keyword": "웰빙",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Capy: Earn Back Your Time",
-        "Linger Daily"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 14,
-        "percent": 20,
+        "count": 19,
+        "percent": 27,
         "examples": [
-          "Lawgivers II LITE",
-          "Gas Prices USA & Fuel Station",
-          "Archery & 3D Scorecard"
+          "ManaVault",
+          "COSMOS: Solar System Explorer",
+          "Fitpins | Workout Spots Map"
         ]
       },
       "freemium": {
-        "count": 50,
-        "percent": 71,
+        "count": 52,
+        "percent": 74,
         "examples": [
-          "Cinematic Video Editor",
-          "Lawgivers II LITE",
-          "Gas Prices USA & Fuel Station"
+          "ManaVault",
+          "Owlory",
+          "Rangiin | Sitar Synth + AUv3"
         ]
       },
       "subscription": {
         "count": 44,
         "percent": 63,
         "examples": [
-          "Cinematic Video Editor",
-          "듀오링고(Duolingo): 언어 학습",
-          "Capy: Earn Back Your Time"
+          "ManaVault",
+          "Owlory",
+          "Fitpins | Workout Spots Map"
         ]
       },
       "onetime": {
         "count": 14,
         "percent": 20,
         "examples": [
+          "Rangiin | Sitar Synth + AUv3",
           "Lawgivers II LITE",
-          "Spotli",
-          "Liminal Dreams -短編脱出-"
+          "Spotli"
         ]
       },
       "unknown": {
-        "count": 7,
-        "percent": 10,
+        "count": 6,
+        "percent": 9,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 50,
-      "percent": 71,
+      "count": 52,
+      "percent": 74,
       "examples": [
-        "Cinematic Video Editor",
-        "Lawgivers II LITE",
-        "Gas Prices USA & Fuel Station"
+        "ManaVault",
+        "Owlory",
+        "Rangiin | Sitar Synth + AUv3"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -614,50 +645,50 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 20,
-        "percent": 29,
+        "count": 18,
+        "percent": 26,
         "apps": [
+          "Owlory",
+          "문서 리더 & 스캔",
           "Cinematic Video Editor",
           "듀오링고(Duolingo): 언어 학습",
-          "Temu: 억만장자처럼 쇼핑하기",
-          "토스",
-          "Humanizer: AI Text Rewriter"
+          "Temu: 억만장자처럼 쇼핑하기"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 15,
-        "percent": 21,
+        "count": 16,
+        "percent": 23,
         "apps": [
-          "Archery & 3D Scorecard",
-          "Capy: Earn Back Your Time",
-          "CareerKit",
+          "Rangiin | Sitar Synth + AUv3",
+          "COSMOS: Solar System Explorer",
           "setlog",
-          "Schengen Days - Visa Tracker"
+          "Archery & 3D Scorecard",
+          "Capy: Earn Back Your Time"
         ]
       },
       {
         "tech": "creator",
-        "count": 6,
-        "percent": 9,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "동영상 다운로더: HD 플레이어",
           "Cinematic Video Editor",
           "PDF 리더: 뷰어·편집기",
           "PDF 뷰어 - PDF Reader & PDF 편집",
-          "DramaBox - 미니시리즈 스트리밍 플레이어",
-          "문서 리더 & 스캔"
+          "DramaBox - 미니시리즈 스트리밍 플레이어"
         ]
       },
       {
         "tech": "productivity",
-        "count": 5,
-        "percent": 7,
+        "count": 6,
+        "percent": 9,
         "apps": [
+          "Owlory",
           "To-Do: QuestGO",
           "Focuso: Study & Pomodoro Timer",
           "QuestGO To-Do",
-          "余时簿",
-          "CleverQuest"
+          "余时簿"
         ]
       },
       {
@@ -665,26 +696,8 @@
         "count": 2,
         "percent": 3,
         "apps": [
-          "토스",
-          "미래에셋증권 M-STOCK"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "CareerKit",
-          "Bite Food Club"
-        ]
-      },
-      {
-        "tech": "subscription",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "KneeDrive",
-          "쿠팡이츠 - 와우회원 배달비 0원"
+          "건강보험25시",
+          "토스"
         ]
       },
       {
@@ -702,43 +715,71 @@
         "apps": [
           "KneeDrive"
         ]
+      },
+      {
+        "tech": "social",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "CareerKit"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "KneeDrive"
+        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 20,
-      "percent": 29,
+      "count": 18,
+      "percent": 26,
       "apps": [
+        "Owlory",
+        "문서 리더 & 스캔",
         "Cinematic Video Editor",
         "듀오링고(Duolingo): 언어 학습",
-        "Temu: 억만장자처럼 쇼핑하기",
-        "토스",
-        "Humanizer: AI Text Rewriter"
+        "Temu: 억만장자처럼 쇼핑하기"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 20,
-        "percent": 29,
+        "count": 18,
+        "percent": 26,
         "apps": [
+          "Owlory",
+          "문서 리더 & 스캔",
           "Cinematic Video Editor",
           "듀오링고(Duolingo): 언어 학습",
-          "Temu: 억만장자처럼 쇼핑하기",
-          "토스",
-          "Humanizer: AI Text Rewriter"
+          "Temu: 억만장자처럼 쇼핑하기"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 15,
-        "percent": 21,
+        "count": 16,
+        "percent": 23,
         "apps": [
-          "Archery & 3D Scorecard",
-          "Capy: Earn Back Your Time",
-          "CareerKit",
+          "Rangiin | Sitar Synth + AUv3",
+          "COSMOS: Solar System Explorer",
           "setlog",
-          "Schengen Days - Visa Tracker"
+          "Archery & 3D Scorecard",
+          "Capy: Earn Back Your Time"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "동영상 다운로더: HD 플레이어",
+          "Cinematic Video Editor",
+          "PDF 리더: 뷰어·편집기",
+          "PDF 뷰어 - PDF Reader & PDF 편집",
+          "DramaBox - 미니시리즈 스트리밍 플레이어"
         ]
       }
     ]
@@ -746,17 +787,31 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "게임 카테고리 급부상",
+      "title": "날씨 카테고리 급부상",
       "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "게임"
+      "category": "날씨"
     },
     {
       "type": "rising_category",
-      "title": "스포츠 카테고리 급부상",
+      "title": "참고 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "스포츠"
+      "category": "참고"
+    },
+    {
+      "type": "rising_category",
+      "title": "음악 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "음악"
+    },
+    {
+      "type": "rising_category",
+      "title": "미디어 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "미디어"
     },
     {
       "type": "rising_category",
@@ -767,68 +822,32 @@
     },
     {
       "type": "rising_category",
-      "title": "날씨 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "날씨"
-    },
-    {
-      "type": "rising_category",
       "title": "여행 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "여행"
     },
     {
-      "type": "rising_category",
-      "title": "음식 및 음료 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "음식 및 음료"
-    },
-    {
-      "type": "rising_category",
-      "title": "음식 배달 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "음식 배달"
-    },
-    {
-      "type": "rising_category",
-      "title": "금융 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "금융"
-    },
-    {
-      "type": "rising_category",
-      "title": "교육 카테고리 급부상",
-      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "교육"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "29%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "26%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "게임 카테고리가 200% 급상승하며 가장 뜨거운 영역으로 부상했고, 날씨·스포츠·여행 등 다양한 카테고리에서 100% 성장세를 보이고 있습니다. AI 기능을 탑재한 앱은 29%에 그쳐 아직 블루오션이며, freemium 모델이 71%로 가장 선호되는 수익화 전략입니다.",
+    "trend_summary": "날씨 앱이 200% 급증하며 소규모 개발자에게 새로운 기회를 제공하고 있으며, freemium 모델(74%)이 주류로 자리잡았습니다. 1인 개발가능 태그가 54회로 최고치를 기록해 인디 개발자 친화적 시장 환경이 조성되었습니다.",
     "trend_details": [
-      "게임 카테고리 200% 급상승으로 최고 성장률 기록",
-      "1인 개발 가능한 B2C 앱에 대한 수요 급증 (52-53회 언급)",
-      "AI 통합 앱은 29%에 불과해 차별화 기회 존재",
-      "Freemium 모델이 71%로 가장 선호되는 수익화 방식"
+      "날씨 카테고리 200% 급증으로 진입 장벽 낮은 블루오션 형성",
+      "AI 기능 통합률 26%로 여전히 차별화 여지 충분",
+      "freemium + subscription 조합이 수익화 표준 모델로 정착"
     ],
     "hot_categories": [
-      "게임",
-      "날씨"
+      "날씨",
+      "유틸리티"
     ],
-    "opportunity": "게임 카테고리는 200% 급상승했지만 앱 수가 3개에 불과해 가장 유망한 진입 기회를 제공합니다.",
-    "action_item": "AI 기능을 통합한 캐주얼 게임이나 스마트 날씨 앱을 freemium 모델로 개발하세요.",
-    "weekly_theme": "AI 게임 혁명"
+    "opportunity": "날씨 앱 시장이 200% 급증했지만 경쟁 앱이 3개뿐이라 AI 통합 날씨 서비스로 빠른 진입이 가능한 상황",
+    "action_item": "날씨 + AI 기능을 결합한 freemium 앱을 개발하여 급성장 중인 시장에서 선점 우위 확보",
+    "weekly_theme": "날씨 AI 진입"
   }
 }

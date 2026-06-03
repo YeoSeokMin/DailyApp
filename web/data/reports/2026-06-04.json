@@ -1,0 +1,634 @@
+{
+  "date": "2026-06-04",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Youthy: Youth Club Management",
+      "developer": "Moduskills LTD",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1e/f1/eb/1ef1eb38-512f-66cd-2d94-125215562f7f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/youthy-youth-club-management/id6767459819?uo=2",
+      "idea_summary": "청년 클럽 활동 통합 관리 플랫폼",
+      "analysis": {
+        "problem": "청년 단체 활동 관리의 복잡성과 비효율성 [추론]",
+        "solution": "멤버십, 일정, 이벤트를 통합 관리하는 올인원 솔루션 [추론]",
+        "target_user": "청년 클럽 운영진, 동아리 회장, 소모임 리더 [추론]",
+        "unique_point": "청년 특화 커뮤니티 관리에 특화된 기능 세트 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "밴드",
+          "카카오톡 오픈채팅"
+        ],
+        "timing_reason": "포스트 코로나 시대 오프라인 모임 활성화 [추론]",
+        "growth_potential": "청년층 커뮤니티 활동 증가 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 4,900원 기본, 9,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Node.js"
+        ],
+        "key_features": [
+          "멤버 관리",
+          "일정 관리",
+          "이벤트 기획"
+        ],
+        "clone_tip": "청년층 UX/UI에 집중하고 소셜 기능 강화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#커뮤니티"
+      ],
+      "verdict": "틈새 시장이지만 확장성 있는 아이디어",
+      "deep_report_id": "ios-youthy-youth-club-management-1780498988706"
+    },
+    {
+      "rank": 2,
+      "name": "Amber: Study, Focus, and Sleep",
+      "developer": "Gal Itach",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/7e/b7/3a7eb7b8-d610-8285-94b9-dd128f3bc7e1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/amber-study-focus-and-sleep/id6773214018?uo=2",
+      "idea_summary": "학습-집중-수면 통합 생산성 관리",
+      "analysis": {
+        "problem": "학습 효율성과 수면 패턴의 연관성 관리 부재 [추론]",
+        "solution": "공부 세션과 수면 패턴을 연동한 홀리스틱 접근 [추론]",
+        "target_user": "대학생, 수험생, 자기계발에 관심 있는 직장인 [추론]",
+        "unique_point": "학습과 수면을 통합적으로 관리하는 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Forest",
+          "Sleep Cycle",
+          "Calm"
+        ],
+        "timing_reason": "웰빙과 생산성에 대한 관심 증가 [추론]",
+        "growth_potential": "글로벌 웰니스 앱 시장 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 인앱 구매 [추론]",
+        "pricing_suggestion": "월 6,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1200-1600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "포모도로 타이머",
+          "수면 추적",
+          "패턴 분석"
+        ],
+        "clone_tip": "HealthKit 연동과 개인화된 인사이트 제공 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어"
+      ],
+      "verdict": "통합적 접근이 차별화된 웰니스 앱"
+    },
+    {
+      "rank": 3,
+      "name": "MealMates - Local Meal Prep",
+      "developer": "R DataBlocks AB",
+      "category": "음식 및 음료",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/45/46/0d/45460df8-fa87-faa4-7523-ba1808d0f057/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/mealmates-local-meal-prep/id6761497285?uo=2",
+      "idea_summary": "지역 기반 밀프렙 공유 플랫폼",
+      "analysis": {
+        "problem": "건강한 식사 준비의 시간적 부담과 비용 [추론]",
+        "solution": "지역 주민들과 밀프렙을 공유하는 협업 플랫폼 [추론]",
+        "target_user": "바쁜 직장인, 건강한 식단에 관심 있는 1-2인 가구 [추론]",
+        "unique_point": "개인이 아닌 커뮤니티 기반 밀프렙 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "배민",
+          "요기요",
+          "헬시플리즈"
+        ],
+        "timing_reason": "홈쿠킹 트렌드와 공유경제 확산 [추론]",
+        "growth_potential": "건강식 시장 성장과 커뮤니티 경제 [추론]"
+      },
+      "business": {
+        "monetization": "수수료 + 프리미엄 멤버십 [추론]",
+        "pricing_suggestion": "거래당 10% 수수료, 월 9,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "PostgreSQL"
+        ],
+        "key_features": [
+          "위치 기반 매칭",
+          "결제 시스템",
+          "리뷰 시스템"
+        ],
+        "clone_tip": "지역 커뮤니티 형성과 신뢰 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#공유경제",
+        "#B2C",
+        "#O2O"
+      ],
+      "verdict": "차별화된 아이디어지만 실행 난이도 높음"
+    },
+    {
+      "rank": 4,
+      "name": "BenchMrk",
+      "developer": "Brent Charlton",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/56/14/bc56147a-a6a5-3d6c-fdfa-97730b2e9748/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/benchmrk/id6768800685?uo=2",
+      "idea_summary": "벤치마킹 기반 여행지 발견",
+      "analysis": {
+        "problem": "개인화되지 않은 여행 추천의 한계 [추론]",
+        "solution": "사용자의 벤치마크를 활용한 맞춤형 여행지 추천 [추론]",
+        "target_user": "개성 있는 여행을 원하는 20-30대 [추론]",
+        "unique_point": "개인의 취향을 벤치마크로 활용한 추천 알고리즘 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "트리플",
+          "에어비앤비",
+          "트립어드바이저"
+        ],
+        "timing_reason": "개인화된 여행 경험에 대한 니즈 증가 [추론]",
+        "growth_potential": "여행 시장 회복과 개인화 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 수수료 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "ML/AI",
+          "Google Maps API"
+        ],
+        "key_features": [
+          "취향 분석",
+          "추천 알고리즘",
+          "소셜 기능"
+        ],
+        "clone_tip": "추천 알고리즘의 정교함이 성공 열쇠 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI추천"
+      ],
+      "verdict": "차별화 포인트가 있지만 실행력이 관건"
+    },
+    {
+      "rank": 5,
+      "name": "DahliaCare: Smart Skin Tracker",
+      "developer": "CODELA LTD",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/6c/50/4d6c5098-3fa3-e5fb-6255-fbe47d39abd0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/dahliacare-smart-skin-tracker/id6763634610?uo=2",
+      "idea_summary": "AI 기반 스마트 피부 상태 추적",
+      "analysis": {
+        "problem": "일상 속 피부 변화 모니터링의 어려움 [추론]",
+        "solution": "AI 분석을 통한 피부 상태 추적과 맞춤 케어 제안 [추론]",
+        "target_user": "피부 관리에 관심 많은 20-40대 여성 [추론]",
+        "unique_point": "AI 기술을 활용한 개인화된 피부 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "미러",
+          "글로우",
+          "뷰티 플러스"
+        ],
+        "timing_reason": "K-뷰티 열풍과 개인화된 스킨케어 트렌드 [추론]",
+        "growth_potential": "글로벌 뷰티테크 시장 급성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 제품 추천 수수료 [추론]",
+        "pricing_suggestion": "월 8,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-12개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreML",
+          "Vision Framework"
+        ],
+        "key_features": [
+          "AI 피부 분석",
+          "진행 상황 추적",
+          "제품 추천"
+        ],
+        "clone_tip": "정확한 AI 모델 훈련이 핵심, 뷰티 브랜드 제휴 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI",
+        "#뷰티테크",
+        "#B2C"
+      ],
+      "verdict": "고성장 시장의 혁신적 솔루션"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "PDF 리더 및 뷰어",
+      "developer": "Lumio Tech",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/uGlPhXIo9ZUdmyjk3UaBxKIcx9A0Nptu8pbsceENAdPuNrMsBAGGhYwZKd2YFVbZhGY",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.editor",
+      "idea_summary": "모바일 최적화 PDF 편집기",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집의 불편함과 기능 제약 [확인]",
+        "solution": "터치 인터페이스에 최적화된 PDF 편집 도구 제공 [추론]",
+        "target_user": "모바일로 문서 작업하는 비즈니스 유저와 학생 [추론]",
+        "unique_point": "모바일 환경에 특화된 직관적 편집 인터페이스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "어도비 아크로뱃",
+          "PDF Expert",
+          "Foxit"
+        ],
+        "timing_reason": "원격근무 증가로 모바일 문서 편집 니즈 급증 [추론]",
+        "growth_potential": "디지털 트랜스포메이션 가속화 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 광고 [확인]",
+        "pricing_suggestion": "월 4,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDF렌더링 엔진",
+          "Firebase"
+        ],
+        "key_features": [
+          "PDF 편집",
+          "클라우드 동기화",
+          "주석 기능"
+        ],
+        "clone_tip": "PDF 렌더링 성능과 편집 UX가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#생산성",
+        "#B2B",
+        "#B2C"
+      ],
+      "verdict": "검증된 니즈의 안정적 비즈니스 모델",
+      "deep_report_id": "android-pdf-리더-및-뷰어-1780499075147"
+    },
+    {
+      "rank": 2,
+      "name": "PDF뷰어, PDF리더 그리고 파일열기",
+      "developer": "Office Suite Pro",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/8O1bFHz4rJAHo_49KwOoTOsXXxxAgwje-T_5LuMSo9qvArsEiMnaGCiuShWK_IuL1Q",
+      "app_url": "https://play.google.com/store/apps/details?id=com.trusted.pdfeditor.pdfreader",
+      "idea_summary": "다양한 파일 형식 통합 뷰어",
+      "analysis": {
+        "problem": "모바일에서 다양한 파일 형식 호환성 문제 [확인]",
+        "solution": "PDF 중심의 멀티포맷 파일 뷰어 통합 솔루션 [추론]",
+        "target_user": "다양한 문서 파일을 다루는 직장인과 학생 [추론]",
+        "unique_point": "PDF 외 다양한 문서 형식 지원으로 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google 드라이브",
+          "Microsoft Office",
+          "WPS Office"
+        ],
+        "timing_reason": "하이브리드 업무 환경에서 파일 접근성 중요도 증가 [추론]",
+        "growth_potential": "멀티디바이스 업무 환경 확산 [추론]"
+      },
+      "business": {
+        "monetization": "광고 + 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 3,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1200-1600만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "다양한 파일 렌더링 라이브러리",
+          "Cloud API"
+        ],
+        "key_features": [
+          "멀티포맷 지원",
+          "클라우드 연동",
+          "오프라인 뷰어"
+        ],
+        "clone_tip": "다양한 파일 형식 렌더링 엔진 통합이 기술적 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#생산성",
+        "#B2B",
+        "#파일관리"
+      ],
+      "verdict": "기본 니즈 충족하지만 차별화 부족"
+    },
+    {
+      "rank": 3,
+      "name": "PDF 리더: 뷰어·편집기",
+      "developer": "Stackwise Studio",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/fwiNwX4Nx9e1_nbvH_RrIXwfdOgUmG9ripgLh59y-npgKRm2zNjxfZBNkmqMG5K9Is2UjBNm4OZOJSgP2cAuSQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pdfreader.pdf.viewer.pdfeditor",
+      "idea_summary": "모바일 특화 PDF 편집 솔루션",
+      "analysis": {
+        "problem": "기존 PDF 앱들의 복잡한 인터페이스와 편집 한계 [추론]",
+        "solution": "직관적이고 강력한 모바일 PDF 편집 기능 [추론]",
+        "target_user": "문서 작업이 많은 비즈니스 사용자 [추론]",
+        "unique_point": "모바일 환경에 최적화된 편집 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "Foxit PDF",
+          "PDFfiller"
+        ],
+        "timing_reason": "모바일 우선 업무 환경으로 전환 [추론]",
+        "growth_potential": "페이퍼리스 오피스 트렌드 확산 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 5,900원 프로 버전 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "1000-1400만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDF 라이브러리",
+          "Material Design"
+        ],
+        "key_features": [
+          "고급 편집",
+          "주석",
+          "전자서명"
+        ],
+        "clone_tip": "PDF 렌더링 성능과 편집 기능의 밸런스 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.7
+      },
+      "tags": [
+        "#생산성",
+        "#문서편집",
+        "#B2B"
+      ],
+      "verdict": "경쟁이 치열한 레드오션 시장"
+    },
+    {
+      "rank": 4,
+      "name": "PDF 뷰어 - PDF Reader & PDF 편집",
+      "developer": "QR Code Scanner.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/ba-QuK5wrTsEvRgc_GOWfHf_pxRXdovw1d3Si6xiYkGAFsAfgpeuSMTamcGItci6Qg",
+      "app_url": "https://play.google.com/store/apps/details?id=pdf.pdfreader.viewer.editor.free",
+      "idea_summary": "QR 연동 PDF 관리 시스템",
+      "analysis": {
+        "problem": "PDF 문서의 물리적-디지털 연결 부재 [추론]",
+        "solution": "QR 코드를 통한 PDF 문서 빠른 접근과 공유 [추론]",
+        "target_user": "문서 공유가 빈번한 업무 환경의 사용자 [추론]",
+        "unique_point": "QR 코드 스캔을 통한 PDF 접근 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기존 PDF 리더 앱들",
+          "QR 스캐너 앱들"
+        ],
+        "timing_reason": "비대면 업무에서 빠른 문서 공유 니즈 [추론]",
+        "growth_potential": "하이브리드 업무 환경 정착 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 + 프리미엄 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "QR Scanner Library",
+          "PDF Renderer"
+        ],
+        "key_features": [
+          "QR 스캔",
+          "PDF 뷰어",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "QR 스캔과 PDF 기능의 매끄러운 연결이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.5
+      },
+      "tags": [
+        "#QR연동",
+        "#생산성",
+        "#니치"
+      ],
+      "verdict": "참신하지만 시장 크기 제한적"
+    },
+    {
+      "rank": 5,
+      "name": "PDF 리더 - 모든 PDF 편집",
+      "developer": "Start Up",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/dD2rcBWn-WEGs-6r_NgBNlIZ3WoEirWvRFh4K_wdmAmN3WEX0RSVFMj3B-u0_KodszNvf7Xt3eeRfpWqz8-nsYI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.pdfeditor",
+      "idea_summary": "올인원 PDF 편집 솔루션",
+      "analysis": {
+        "problem": "분산된 PDF 편집 기능들의 통합 필요성 [추론]",
+        "solution": "모든 PDF 편집 기능을 하나의 앱에 통합 [추론]",
+        "target_user": "PDF 작업이 빈번한 전문직 종사자 [추론]",
+        "unique_point": "포괄적인 PDF 편집 기능 세트 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "PDF Expert",
+          "Foxit"
+        ],
+        "timing_reason": "디지털 문서 작업의 표준화 [추론]",
+        "growth_potential": "종이 없는 사무실 환경 확산 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 + 기업 라이센스 [추론]",
+        "pricing_suggestion": "월 7,900원 개인, 월 15,000원 기업 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "고급 PDF 라이브러리",
+          "클라우드 API"
+        ],
+        "key_features": [
+          "전체 편집",
+          "OCR",
+          "전자서명",
+          "협업"
+        ],
+        "clone_tip": "기능 완성도보다는 사용성에 집중해야 성공 [추론]"
+      },
+      "scores": {
+        "novelty": 1,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#생산성",
+        "#올인원",
+        "#기업"
+      ],
+      "verdict": "기능은 풍부하나 차별화 어려움"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "모바일 생산성 도구의 진화와 AI 기반 개인화 서비스가 주요 트렌드로 부상하고 있다. [추론] 특히 웰니스와 뷰티테크 분야에서 혁신적인 앱들이 등장하고 있다. [추론]",
+    "trend_details": [
+      "AI 기반 개인화 서비스 확산",
+      "모바일 우선 생산성 도구",
+      "커뮤니티 기반 공유 경제",
+      "웰니스-생산성 통합 접근"
+    ],
+    "hot_categories": [
+      "생산성",
+      "건강 및 피트니스",
+      "AI/ML"
+    ],
+    "opportunity": "AI 기술을 활용한 개인화된 웰니스 서비스와 커뮤니티 기반 공유 플랫폼에서 기회 발견 [추론]",
+    "action_item": "뷰티테크와 웰니스 앱의 AI 활용 사례 심층 분석 및 한국 시장 진출 전략 수립"
+  }
+}
