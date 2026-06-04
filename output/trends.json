@@ -1,10 +1,23 @@
 {
-  "generatedAt": "2026-06-03T15:06:03.034Z",
+  "generatedAt": "2026-06-04T15:07:00.933Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "여행",
+      "currentCount": 3,
+      "previousCount": 1,
+      "changePercent": 200,
+      "changeDirection": "up",
+      "apps": [
+        "BenchMrk",
+        "Schengen Days - Visa Tracker",
+        "Visa Days Tracker"
+      ],
+      "avgScore": 7.133333333333333
+    },
     {
       "category": "날씨",
       "currentCount": 3,
@@ -52,22 +65,15 @@
       "avgScore": 6
     },
     {
-      "category": "유틸리티",
-      "currentCount": 8,
-      "previousCount": 4,
+      "category": "의료",
+      "currentCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Gas Prices USA & Fuel Station",
-        "CareerKit",
-        "QR 코드 및 바코드 스캐너",
-        "QR 코드 및 바코드 스캐너",
-        "QR 스캐너",
-        "余时簿",
-        "QR 코드 및 바코드 스캐너",
-        "EngineerTact: Geo & RF"
+        "건강보험25시"
       ],
-      "avgScore": 6.9750000000000005
+      "avgScore": 6
     },
     {
       "category": "그래픽 및 디자인",
@@ -81,39 +87,19 @@
       "avgScore": 7
     },
     {
-      "category": "여행",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Schengen Days - Visa Tracker",
-        "Visa Days Tracker"
-      ],
-      "avgScore": 7.2
-    },
-    {
-      "category": "교육",
-      "currentCount": 5,
-      "previousCount": 3,
-      "changePercent": 67,
-      "changeDirection": "up",
-      "apps": [
-        "COSMOS: Solar System Explorer",
-        "듀오링고(Duolingo): 언어 학습",
-        "PictoPlanning By Cedmad",
-        "IntonationPro",
-        "UASQuiz: EASA Drone Exam Prep"
-      ],
-      "avgScore": 8.16
-    },
-    {
       "category": "생산성",
-      "currentCount": 23,
+      "currentCount": 25,
       "previousCount": 17,
-      "changePercent": 35,
+      "changePercent": 47,
       "changeDirection": "up",
       "apps": [
+        "Youthy: Youth Club Management",
+        "Amber: Study, Focus, and Sleep",
+        "PDF 리더 및 뷰어",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 리더: 뷰어·편집기",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더 - 모든 PDF 편집",
         "Owlory",
         "setlog",
         "문서 리더 & 스캔",
@@ -131,14 +117,26 @@
         "Study Focus Pro",
         "setlog",
         "PDF 리더 및 뷰어",
-        "문서 리더 & 스캔",
-        "CleverQuest",
-        "ChatGPT",
-        "PDF 리더 및 뷰어",
-        "setlog",
-        "UltraGuard VPN: Fast & Secure"
+        "문서 리더 & 스캔"
       ],
-      "avgScore": 7.591304347826088
+      "avgScore": 7.420000000000003
+    },
+    {
+      "category": "유틸리티",
+      "currentCount": 7,
+      "previousCount": 5,
+      "changePercent": 40,
+      "changeDirection": "up",
+      "apps": [
+        "Gas Prices USA & Fuel Station",
+        "CareerKit",
+        "QR 코드 및 바코드 스캐너",
+        "QR 코드 및 바코드 스캐너",
+        "QR 스캐너",
+        "余时簿",
+        "QR 코드 및 바코드 스캐너"
+      ],
+      "avgScore": 6.971428571428572
     }
   ],
   "decliningCategories": [
@@ -161,29 +159,29 @@
     {
       "category": "건강 및 피트니스",
       "currentCount": 5,
-      "previousCount": 7,
-      "changePercent": -29,
+      "previousCount": 8,
+      "changePercent": -37,
       "changeDirection": "down",
       "apps": [
+        "DahliaCare: Smart Skin Tracker",
         "Fitpins | Workout Spots Map",
         "Capy: Earn Back Your Time",
         "Women Weight Lifting: Tracker",
-        "BodyScanner",
-        "KneeDrive"
+        "BodyScanner"
       ],
-      "avgScore": 8.080000000000002
+      "avgScore": 8.180000000000001
     },
     {
-      "category": "금융",
+      "category": "음식 및 음료",
       "currentCount": 2,
-      "previousCount": 3,
-      "changePercent": -33,
+      "previousCount": 4,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "토스",
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
+        "MealMates - Local Meal Prep",
+        "패스오더 - 카페 가는 길, 미리주문"
       ],
-      "avgScore": 8.4
+      "avgScore": 7.7
     },
     {
       "category": "스포츠",
@@ -210,8 +208,8 @@
     {
       "category": "엔터테인먼트",
       "currentCount": 1,
-      "previousCount": 4,
-      "changePercent": -75,
+      "previousCount": 3,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
         "DramaBox - 미니시리즈 스트리밍 플레이어"
@@ -221,15 +219,18 @@
   ],
   "stableCategories": [
     {
-      "category": "의료",
-      "currentCount": 1,
-      "previousCount": 1,
+      "category": "교육",
+      "currentCount": 4,
+      "previousCount": 4,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "건강보험25시"
+        "COSMOS: Solar System Explorer",
+        "듀오링고(Duolingo): 언어 학습",
+        "PictoPlanning By Cedmad",
+        "IntonationPro"
       ],
-      "avgScore": 6
+      "avgScore": 8.25
     },
     {
       "category": "사진 및 비디오",
@@ -267,25 +268,27 @@
       "avgScore": 7.8
     },
     {
-      "category": "음식 및 음료",
-      "currentCount": 3,
-      "previousCount": 3,
+      "category": "금융",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "패스오더 - 카페 가는 길, 미리주문",
-        "Sourdough Sanity: Bake Guide",
-        "패스오더 - 카페 가는 길, 미리주문"
+        "토스",
+        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
       ],
-      "avgScore": 7.333333333333333
+      "avgScore": 8.4
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 54,
+      "count": 49,
       "apps": [
+        "Youthy: Youth Club Management",
+        "Amber: Study, Focus, and Sleep",
+        "BenchMrk",
         "ManaVault",
         "Owlory",
         "Rangiin | Sitar Synth + AUv3",
@@ -322,20 +325,19 @@
         "IntonationPro",
         "Artwork Codex",
         "Linger Daily",
-        "PDF 리더 및 뷰어",
-        "CleverQuest",
-        "UASQuiz: EASA Drone Exam Prep",
-        "EngineerTact: Geo & RF",
-        "Sourdough Sanity: Bake Guide",
-        "KneeDrive",
-        "패스오더 - 카페 가는 길, 미리주문"
+        "PDF 리더 및 뷰어"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 53,
+      "count": 49,
       "apps": [
+        "Amber: Study, Focus, and Sleep",
+        "MealMates - Local Meal Prep",
+        "BenchMrk",
+        "DahliaCare: Smart Skin Tracker",
+        "PDF 리더 및 뷰어",
         "ManaVault",
         "Owlory",
         "Rangiin | Sitar Synth + AUv3",
@@ -373,31 +375,43 @@
         "ConcertPro – 오디오 수정",
         "IntonationPro",
         "Linger Daily",
-        "패스오더 - 카페 가는 길, 미리주문",
-        "CleverQuest",
-        "UASQuiz: EASA Drone Exam Prep",
-        "Sourdough Sanity: Bake Guide",
-        "KneeDrive",
-        "ChatGPT",
-        "PDF 리더 및 뷰어",
-        "UltraGuard VPN: Fast & Secure"
+        "패스오더 - 카페 가는 길, 미리주문"
       ]
     },
     {
       "keyword": "생산성",
       "category": "productivity",
-      "count": 13,
+      "count": 17,
       "apps": [
+        "Amber: Study, Focus, and Sleep",
+        "PDF 리더 및 뷰어",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 리더: 뷰어·편집기",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더 - 모든 PDF 편집",
         "Owlory",
         "문서 리더 & 스캔",
-        "PDF 리더: 뷰어·편집기",
         "PhoneDeck",
         "To-Do: QuestGO",
         "Focuso: Study & Pomodoro Timer",
         "QuestGO To-Do",
-        "余时簿",
+        "余时簿"
+      ]
+    },
+    {
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 13,
+      "apps": [
+        "Youthy: Youth Club Management",
         "PDF 리더 및 뷰어",
-        "CleverQuest"
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 리더: 뷰어·편집기",
+        "문서 리더 & 스캔",
+        "Humanizer: AI Text Rewriter",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PictoPlanning By Cedmad",
+        "Artwork Codex"
       ]
     },
     {
@@ -405,29 +419,28 @@
       "category": "ai",
       "count": 11,
       "apps": [
+        "DahliaCare: Smart Skin Tracker",
         "Owlory",
         "듀오링고(Duolingo): 언어 학습",
         "Humanizer: AI Text Rewriter",
         "SoundMosaic",
         "Study Focus Pro",
         "IntonationPro",
-        "Linger Daily",
-        "ChatGPT"
+        "Linger Daily"
       ]
     },
     {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 10,
+      "keyword": "편집",
+      "category": "creator",
+      "count": 9,
       "apps": [
-        "문서 리더 & 스캔",
-        "PDF 리더: 뷰어·편집기",
-        "Humanizer: AI Text Rewriter",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PictoPlanning By Cedmad",
-        "Artwork Codex",
         "PDF 리더 및 뷰어",
-        "EngineerTact: Geo & RF"
+        "PDF 리더: 뷰어·편집기",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더 - 모든 PDF 편집",
+        "Cinematic Video Editor",
+        "Spotli",
+        "문서 리더 & 스캔"
       ]
     },
     {
@@ -435,60 +448,34 @@
       "category": "ar_vr",
       "count": 8,
       "apps": [
+        "DahliaCare: Smart Skin Tracker",
         "Rangiin | Sitar Synth + AUv3",
         "COSMOS: Solar System Explorer",
         "Archery & 3D Scorecard",
         "Capy: Earn Back Your Time",
         "CareerKit",
         "Family Guard 360",
-        "Artwork Codex",
-        "UltraGuard VPN: Fast & Secure"
+        "Artwork Codex"
       ]
     },
     {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 6,
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 4,
       "apps": [
-        "Cinematic Video Editor",
-        "PDF 리더: 뷰어·편집기",
-        "Spotli",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서 리더 & 스캔",
-        "PDF 리더 및 뷰어"
-      ]
-    },
-    {
-      "keyword": "니치마켓",
-      "category": "tag",
-      "count": 5,
-      "apps": [
-        "ManaVault",
-        "Rangiin | Sitar Synth + AUv3",
-        "宠物火化",
-        "ConcertPro – 오디오 수정",
-        "UASQuiz: EASA Drone Exam Prep"
+        "Youthy: Youth Club Management",
+        "MealMates - Local Meal Prep",
+        "Fitpins | Workout Spots Map"
       ]
     },
     {
       "keyword": "헬스케어",
       "category": "tag",
-      "count": 5,
-      "apps": [
-        "setlog",
-        "Sunwise: UV Index & Sunburn",
-        "KneeDrive"
-      ]
-    },
-    {
-      "keyword": "프로",
-      "category": "subscription",
       "count": 4,
       "apps": [
-        "Cinematic Video Editor",
-        "Lawgivers II LITE",
-        "Women Weight Lifting: Tracker",
-        "KneeDrive"
+        "Amber: Study, Focus, and Sleep",
+        "setlog",
+        "Sunwise: UV Index & Sunburn"
       ]
     },
     {
@@ -496,9 +483,21 @@
       "category": "tag",
       "count": 4,
       "apps": [
+        "MealMates - Local Meal Prep",
         "Gas Prices USA & Fuel Station",
         "크린토피아",
         "패스오더 - 카페 가는 길, 미리주문"
+      ]
+    },
+    {
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "ManaVault",
+        "Rangiin | Sitar Synth + AUv3",
+        "宠物火化",
+        "ConcertPro – 오디오 수정"
       ]
     },
     {
@@ -513,6 +512,26 @@
       ]
     },
     {
+      "keyword": "니치",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "Lawgivers II LITE",
+        "Archery & 3D Scorecard"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 3,
+      "apps": [
+        "Cinematic Video Editor",
+        "Lawgivers II LITE",
+        "Women Weight Lifting: Tracker"
+      ]
+    },
+    {
       "keyword": "유틸리티",
       "category": "tag",
       "count": 3,
@@ -522,22 +541,29 @@
       ]
     },
     {
-      "keyword": "게임화",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "듀오링고(Duolingo): 언어 학습",
-        "Temu: 억만장자처럼 쇼핑하기",
-        "CleverQuest"
-      ]
-    },
-    {
       "keyword": "핀테크",
       "category": "fintech",
       "count": 3,
       "apps": [
         "토스",
         "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 2,
+      "apps": [
+        "Youthy: Youth Club Management",
+        "余时簿"
+      ]
+    },
+    {
+      "keyword": "문서편집",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "PDF 리더: 뷰어·편집기"
       ]
     },
     {
@@ -556,40 +582,13 @@
       "apps": [
         "setlog"
       ]
-    },
-    {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 2,
-      "apps": [
-        "동영상 다운로더: HD 플레이어",
-        "Cinematic Video Editor"
-      ]
-    },
-    {
-      "keyword": "크리에이터",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Cinematic Video Editor",
-        "Spotli"
-      ]
-    },
-    {
-      "keyword": "니치",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Lawgivers II LITE",
-        "Archery & 3D Scorecard"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 19,
-        "percent": 27,
+        "count": 18,
+        "percent": 26,
         "examples": [
           "ManaVault",
           "COSMOS: Solar System Explorer",
@@ -597,46 +596,46 @@
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 54,
+        "percent": 77,
         "examples": [
-          "ManaVault",
-          "Owlory",
-          "Rangiin | Sitar Synth + AUv3"
+          "Youthy: Youth Club Management",
+          "Amber: Study, Focus, and Sleep",
+          "MealMates - Local Meal Prep"
         ]
       },
       "subscription": {
-        "count": 44,
-        "percent": 63,
+        "count": 43,
+        "percent": 61,
         "examples": [
-          "ManaVault",
-          "Owlory",
-          "Fitpins | Workout Spots Map"
+          "Youthy: Youth Club Management",
+          "Amber: Study, Focus, and Sleep",
+          "DahliaCare: Smart Skin Tracker"
         ]
       },
       "onetime": {
-        "count": 14,
-        "percent": 20,
+        "count": 13,
+        "percent": 19,
         "examples": [
+          "Amber: Study, Focus, and Sleep",
           "Rangiin | Sitar Synth + AUv3",
-          "Lawgivers II LITE",
-          "Spotli"
+          "Lawgivers II LITE"
         ]
       },
       "unknown": {
-        "count": 6,
-        "percent": 9,
+        "count": 5,
+        "percent": 7,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 54,
+      "percent": 77,
       "examples": [
-        "ManaVault",
-        "Owlory",
-        "Rangiin | Sitar Synth + AUv3"
+        "Youthy: Youth Club Management",
+        "Amber: Study, Focus, and Sleep",
+        "MealMates - Local Meal Prep"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -645,14 +644,14 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 18,
-        "percent": 26,
+        "count": 19,
+        "percent": 27,
         "apps": [
+          "BenchMrk",
+          "DahliaCare: Smart Skin Tracker",
           "Owlory",
           "문서 리더 & 스캔",
-          "Cinematic Video Editor",
-          "듀오링고(Duolingo): 언어 학습",
-          "Temu: 억만장자처럼 쇼핑하기"
+          "Cinematic Video Editor"
         ]
       },
       {
@@ -660,35 +659,35 @@
         "count": 16,
         "percent": 23,
         "apps": [
+          "DahliaCare: Smart Skin Tracker",
+          "PDF 뷰어 - PDF Reader & PDF 편집",
           "Rangiin | Sitar Synth + AUv3",
           "COSMOS: Solar System Explorer",
-          "setlog",
-          "Archery & 3D Scorecard",
-          "Capy: Earn Back Your Time"
+          "setlog"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 10,
+        "percent": 14,
         "apps": [
-          "동영상 다운로더: HD 플레이어",
-          "Cinematic Video Editor",
+          "PDF 리더 및 뷰어",
           "PDF 리더: 뷰어·편집기",
           "PDF 뷰어 - PDF Reader & PDF 편집",
-          "DramaBox - 미니시리즈 스트리밍 플레이어"
+          "PDF 리더 - 모든 PDF 편집",
+          "동영상 다운로더: HD 플레이어"
         ]
       },
       {
         "tech": "productivity",
-        "count": 6,
-        "percent": 9,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "Youthy: Youth Club Management",
+          "Amber: Study, Focus, and Sleep",
+          "MealMates - Local Meal Prep",
           "Owlory",
-          "To-Do: QuestGO",
-          "Focuso: Study & Pomodoro Timer",
-          "QuestGO To-Do",
-          "余时簿"
+          "To-Do: QuestGO"
         ]
       },
       {
@@ -713,7 +712,7 @@
         "count": 1,
         "percent": 1,
         "apps": [
-          "KneeDrive"
+          "Amber: Study, Focus, and Sleep"
         ]
       },
       {
@@ -729,33 +728,33 @@
         "count": 1,
         "percent": 1,
         "apps": [
-          "KneeDrive"
+          "Youthy: Youth Club Management"
         ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 18,
-      "percent": 26,
+      "count": 19,
+      "percent": 27,
       "apps": [
+        "BenchMrk",
+        "DahliaCare: Smart Skin Tracker",
         "Owlory",
         "문서 리더 & 스캔",
-        "Cinematic Video Editor",
-        "듀오링고(Duolingo): 언어 학습",
-        "Temu: 억만장자처럼 쇼핑하기"
+        "Cinematic Video Editor"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 18,
-        "percent": 26,
+        "count": 19,
+        "percent": 27,
         "apps": [
+          "BenchMrk",
+          "DahliaCare: Smart Skin Tracker",
           "Owlory",
           "문서 리더 & 스캔",
-          "Cinematic Video Editor",
-          "듀오링고(Duolingo): 언어 학습",
-          "Temu: 억만장자처럼 쇼핑하기"
+          "Cinematic Video Editor"
         ]
       },
       {
@@ -763,28 +762,47 @@
         "count": 16,
         "percent": 23,
         "apps": [
+          "DahliaCare: Smart Skin Tracker",
+          "PDF 뷰어 - PDF Reader & PDF 편집",
           "Rangiin | Sitar Synth + AUv3",
           "COSMOS: Solar System Explorer",
-          "setlog",
-          "Archery & 3D Scorecard",
-          "Capy: Earn Back Your Time"
+          "setlog"
         ]
       },
       {
         "tech": "creator",
-        "count": 7,
-        "percent": 10,
+        "count": 10,
+        "percent": 14,
         "apps": [
-          "동영상 다운로더: HD 플레이어",
-          "Cinematic Video Editor",
+          "PDF 리더 및 뷰어",
           "PDF 리더: 뷰어·편집기",
           "PDF 뷰어 - PDF Reader & PDF 편집",
-          "DramaBox - 미니시리즈 스트리밍 플레이어"
+          "PDF 리더 - 모든 PDF 편집",
+          "동영상 다운로더: HD 플레이어"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 8,
+        "percent": 11,
+        "apps": [
+          "Youthy: Youth Club Management",
+          "Amber: Study, Focus, and Sleep",
+          "MealMates - Local Meal Prep",
+          "Owlory",
+          "To-Do: QuestGO"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "여행 카테고리 급부상",
+      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "여행"
+    },
     {
       "type": "rising_category",
       "title": "날씨 카테고리 급부상",
@@ -815,39 +833,39 @@
     },
     {
       "type": "rising_category",
+      "title": "의료 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "의료"
+    },
+    {
+      "type": "rising_category",
       "title": "그래픽 및 디자인 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "그래픽 및 디자인"
     },
     {
-      "type": "rising_category",
-      "title": "여행 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "여행"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "26%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "27%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "날씨 앱이 200% 급증하며 소규모 개발자에게 새로운 기회를 제공하고 있으며, freemium 모델(74%)이 주류로 자리잡았습니다. 1인 개발가능 태그가 54회로 최고치를 기록해 인디 개발자 친화적 시장 환경이 조성되었습니다.",
+    "trend_summary": "AI와 AR/VR 기술이 주도하는 가운데, 여행과 날씨 카테고리가 200% 급부상하고 있습니다. freemium 모델이 77%로 주류를 이루며, 1인 개발 가능한 B2C 앱에 대한 수요가 높습니다.",
     "trend_details": [
-      "날씨 카테고리 200% 급증으로 진입 장벽 낮은 블루오션 형성",
-      "AI 기능 통합률 26%로 여전히 차별화 여지 충분",
-      "freemium + subscription 조합이 수익화 표준 모델로 정착"
+      "여행/날씨 카테고리 200% 급성장으로 블루오션 형성",
+      "AI 기능 통합이 27% 앱에서 확산되며 필수 요소로 부상",
+      "freemium 모델이 77%로 주류 수익화 전략 정착"
     ],
     "hot_categories": [
-      "날씨",
-      "유틸리티"
+      "여행",
+      "날씨"
     ],
-    "opportunity": "날씨 앱 시장이 200% 급증했지만 경쟁 앱이 3개뿐이라 AI 통합 날씨 서비스로 빠른 진입이 가능한 상황",
-    "action_item": "날씨 + AI 기능을 결합한 freemium 앱을 개발하여 급성장 중인 시장에서 선점 우위 확보",
-    "weekly_theme": "날씨 AI 진입"
+    "opportunity": "여행 카테고리는 200% 성장했지만 앱 수가 적어 AI 기능을 접목한 여행 앱 개발 시 선점 효과를 기대할 수 있습니다.",
+    "action_item": "여행이나 날씨 카테고리에서 AI 기능(개인화 추천, 예측 등)을 통합한 freemium 모델 앱을 기획해보세요.",
+    "weekly_theme": "AI 여행혁신"
   }
 }
