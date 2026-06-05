@@ -1,0 +1,632 @@
+{
+  "date": "2026-06-06",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Whatspoppin: Dublin Nightlife",
+      "developer": "JOEL EFEROGHENE EVWODERE",
+      "category": "소셜 네트워킹",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/96/4a/d0964a13-1dc3-83a3-e3d0-3c0de097f78e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/whatspoppin-dublin-nightlife/id6760796054?uo=2",
+      "idea_summary": "더블린 실시간 나이트라이프 발견 플랫폼",
+      "analysis": {
+        "problem": "새로운 도시에서 어디가 핫한 클럽/바인지 실시간 파악이 어려운 문제 [추론]",
+        "solution": "실시간 크라우드소싱 기반 나이트라이프 정보 제공 [추론]",
+        "target_user": "20-30대 파티 문화 선호하는 더블린 거주자 및 관광객 [추론]",
+        "unique_point": "실시간성과 지역 특화된 나이트라이프 정보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Yelp",
+          "Google Maps",
+          "Facebook Events"
+        ],
+        "timing_reason": "코로나 이후 오프라인 사교 활동 재개 트렌드 [추론]",
+        "growth_potential": "다른 도시 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 리스팅, 이벤트 프로모션 수수료 [추론]",
+        "pricing_suggestion": "무료 + 월 4.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "MongoDB"
+        ],
+        "key_features": [
+          "실시간 업데이트",
+          "위치기반 추천",
+          "사용자 리뷰"
+        ],
+        "clone_tip": "지역별 커뮤니티 구축이 핵심, 인플루언서 마케팅 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#지역특화"
+      ],
+      "verdict": "지역별 확장 모델로 글로벌 스케일 가능",
+      "deep_report_id": "ios-whatspoppin-dublin-nightlife-1780671824461"
+    },
+    {
+      "rank": 2,
+      "name": "Florist Pro",
+      "developer": "greggory hardaway",
+      "category": "비즈니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/c6/66/dec66676-dcb1-3638-5433-6592731d274b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/florist-pro/id6757870172?uo=2",
+      "idea_summary": "꽃집 운영을 위한 올인원 비즈니스 도구",
+      "analysis": {
+        "problem": "꽃집 재고관리, 주문처리, 배송관리의 복잡성 [추론]",
+        "solution": "꽃집 특화 ERP 시스템으로 업무 자동화 [추론]",
+        "target_user": "소규모 꽃집 운영자와 플로리스트 [추론]",
+        "unique_point": "꽃집 업계만을 위한 전문 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Square",
+          "일반 POS 시스템"
+        ],
+        "timing_reason": "소상공인 디지털 전환 가속화 [추론]",
+        "growth_potential": "니치마켓이지만 충성도 높음 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독료 SaaS 모델 [추론]",
+        "pricing_suggestion": "월 29.99달러 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1200만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Stripe"
+        ],
+        "key_features": [
+          "재고관리",
+          "주문처리",
+          "고객관리",
+          "배송추적"
+        ],
+        "clone_tip": "다른 소매업종 특화 버전으로 확장 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#니치마켓"
+      ],
+      "verdict": "작지만 확실한 수요층, 다업종 확장 가능"
+    },
+    {
+      "rank": 3,
+      "name": "초대장 만들기 RSVP 카드 제작 Pro KR",
+      "developer": "Mustafa Utku Coskun",
+      "category": "그래픽 및 디자인",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/32/1c/8e321c98-ee60-db67-6b71-9a887646ce6a/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%B4%88%EB%8C%80%EC%9E%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0-rsvp-%EC%B9%B4%EB%93%9C-%EC%A0%9C%EC%9E%91-pro-kr/id6767825815?uo=2",
+      "idea_summary": "모바일 맞춤형 초대장 디자인 및 RSVP 관리",
+      "analysis": {
+        "problem": "이벤트 초대장 제작과 응답 관리의 번거로움 [추론]",
+        "solution": "템플릿 기반 초대장 제작과 자동 RSVP 관리 [추론]",
+        "target_user": "결혼식, 파티, 회사 이벤트 기획자 [추론]",
+        "unique_point": "한국어 템플릿과 RSVP 기능 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Evite",
+          "Paperless Post",
+          "Canva"
+        ],
+        "timing_reason": "코로나 이후 이벤트 증가, 디지털 초대장 선호 [추론]",
+        "growth_potential": "이벤트 기획 시장 확대와 함께 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 템플릿, 고급 기능 구독 [추론]",
+        "pricing_suggestion": "무료 + 월 2.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "600만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Canvas API",
+          "Firebase"
+        ],
+        "key_features": [
+          "드래그앤드롭 에디터",
+          "RSVP 추적",
+          "공유 기능"
+        ],
+        "clone_tip": "다양한 이벤트 타입별 특화 템플릿 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#디자인도구"
+      ],
+      "verdict": "이벤트 기획 시장의 필수 도구로 자리잡을 가능성"
+    },
+    {
+      "rank": 4,
+      "name": "NatureLens",
+      "developer": "Kyuman Kim",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/e4/7b/ede47b16-1af4-7733-4863-c0dad921985a/naturelens-ios-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/naturelens/id6773232585?uo=2",
+      "idea_summary": "AI 기반 자연 생물 식별 및 학습 앱",
+      "analysis": {
+        "problem": "야외에서 마주친 동식물의 정체를 즉시 알기 어려운 문제 [추론]",
+        "solution": "카메라 촬영만으로 즉시 생물 식별 및 정보 제공 [추론]",
+        "target_user": "등산객, 자연 애호가, 교육자, 학생 [추론]",
+        "unique_point": "실시간 AI 식별과 상세한 생태 정보 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PlantNet",
+          "iNaturalist",
+          "Seek"
+        ],
+        "timing_reason": "아웃도어 활동 증가, AI 기술 발전 [추론]",
+        "growth_potential": "교육시장과 에코투어리즘 확산으로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 식별 기능, 오프라인 데이터베이스 [추론]",
+        "pricing_suggestion": "무료 + 월 4.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "2000만원 [추론]",
+        "tech_stack": [
+          "TensorFlow",
+          "Core ML",
+          "Swift"
+        ],
+        "key_features": [
+          "AI 이미지 인식",
+          "생물 데이터베이스",
+          "위치 기록"
+        ],
+        "clone_tip": "고품질 학습 데이터 확보와 AI 모델 최적화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#AI활용",
+        "#교육",
+        "#자연"
+      ],
+      "verdict": "AI 기술 발전과 자연 관심 증가로 성장 전망"
+    },
+    {
+      "rank": 5,
+      "name": "Ebike Point",
+      "developer": "Arpit Gupta",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/2f/52/162f52ec-7ff7-8327-d727-4dd1c8ce90c9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/ebike-point/id6771721070?uo=2",
+      "idea_summary": "전기자전거 충전소 및 대여소 위치 안내",
+      "analysis": {
+        "problem": "전기자전거 충전소와 대여소 위치 파악의 어려움 [추론]",
+        "solution": "실시간 충전소 위치와 상태 정보 제공 [추론]",
+        "target_user": "전기자전거 이용자, 친환경 교통 이용자 [추론]",
+        "unique_point": "전기자전거에 특화된 인프라 정보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ChargePoint",
+          "일반 지도 앱"
+        ],
+        "timing_reason": "전기자전거 보급 확산, 친환경 교통 정책 [추론]",
+        "growth_potential": "전기자전거 시장 성장과 비례하여 확대 [추론]"
+      },
+      "business": {
+        "monetization": "충전소 파트너십, 광고, 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료 + 월 2.99달러 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Google Maps API",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간 위치 정보",
+          "경로 계획",
+          "충전 상태"
+        ],
+        "clone_tip": "충전소 업체와의 파트너십 구축이 성공 열쇠 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#친환경",
+        "#B2C"
+      ],
+      "verdict": "전기자전거 보급 확산으로 높은 성장 잠재력"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "패스오더 - 카페 가는 길, 미리주문",
+      "developer": "PaytaLab",
+      "category": "음식 및 음료",
+      "icon": "https://play-lh.googleusercontent.com/r4U_wXcWZJ6osJAR1AEao2ADVsMT-28JP5K3629VSiJzy9__Jrw3cPwPnLw4KCv4IYw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.paytalab.mkseo.passorder",
+      "idea_summary": "카페 이동중 사전주문으로 대기시간 제거",
+      "analysis": {
+        "problem": "카페에서 주문 후 음료 제조 대기시간 문제 [추론]",
+        "solution": "GPS 기반 위치추적으로 도착시점에 맞춰 제조 시작 [추론]",
+        "target_user": "바쁜 직장인, 테이크아웃 이용 고객 [추론]",
+        "unique_point": "이동경로 예측 기반 스마트 주문 타이밍 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "스타벅스 사이렌오더",
+          "투썸 앱"
+        ],
+        "timing_reason": "코로나 이후 비접촉 주문 문화 정착 [추론]",
+        "growth_potential": "다양한 매장 확장으로 네트워크 효과 [추론]"
+      },
+      "business": {
+        "monetization": "매장 수수료, 배달비, 프리미엄 기능 [추론]",
+        "pricing_suggestion": "매장당 월 10만원 + 주문당 3% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "Google Maps"
+        ],
+        "key_features": [
+          "GPS 추적",
+          "주문 예약",
+          "결제 시스템"
+        ],
+        "clone_tip": "매장 파트너십과 정확한 위치추적이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.7
+      },
+      "tags": [
+        "#O2O",
+        "#B2B2C",
+        "#위치기반"
+      ],
+      "verdict": "한국 카페문화에 최적화된 혁신 서비스",
+      "deep_report_id": "android-패스오더-카페-가는-길-미리주문-1780671912296"
+    },
+    {
+      "rank": 2,
+      "name": "UltraGuard VPN: Fast & Secure",
+      "developer": "HKL Game Studio",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/eKcAVNVwc9GLple3MRKt53GdkXkPU6Cd2DRvUiEdvIEmFZ8h3MTm6aukWBv6yOxHuCcl8m92ydpQC2yRiL6t",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ultra.vpnsecure.fast.speedtest",
+      "idea_summary": "게이머 특화 고속 VPN 솔루션",
+      "analysis": {
+        "problem": "기존 VPN의 느린 속도로 인한 게임 랙 문제 [추론]",
+        "solution": "게임 최적화 서버와 트래픽 우선순위 조정 [추론]",
+        "target_user": "온라인 게이머, 스트리머, 중국 게임 이용자 [추론]",
+        "unique_point": "게임 트래픽 최적화에 특화된 VPN [추론]"
+      },
+      "market": {
+        "competitors": [
+          "NordVPN",
+          "ExpressVPN",
+          "게이밍 VPN들"
+        ],
+        "timing_reason": "게임 시장 성장, 지역 차단 콘텐츠 증가 [추론]",
+        "growth_potential": "글로벌 게임 시장 확장과 연동 성장 [추론]"
+      },
+      "business": {
+        "monetization": "월/연 구독, 프리미엄 서버 접근 [추론]",
+        "pricing_suggestion": "월 9.99달러, 연 79.99달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3000만원 [추론]",
+        "tech_stack": [
+          "OpenVPN",
+          "WireGuard",
+          "네이티브"
+        ],
+        "key_features": [
+          "게임 모드",
+          "서버 최적화",
+          "트래픽 분석"
+        ],
+        "clone_tip": "인프라 구축 비용이 높아 초기 자본 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#게이밍",
+        "#보안",
+        "#인프라"
+      ],
+      "verdict": "니치하지만 충성도 높은 게이머 타겟"
+    },
+    {
+      "rank": 3,
+      "name": "DramaBox - 미니시리즈 스트리밍 플레이어",
+      "developer": "STORYMATRIX",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/dYAF42EhNGgGhC7nLHNSZkWs11W5Dv0mRWZBv6IgLDTh3l8eolsjeAVGg-HVHt9YWyA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama",
+      "idea_summary": "세로형 숏폼 드라마 전용 스트리밍",
+      "analysis": {
+        "problem": "바쁜 현대인들의 짧은 여가시간에 맞는 콘텐츠 부족 [추론]",
+        "solution": "5-15분 길이의 세로형 드라마 시리즈 제공 [추론]",
+        "target_user": "MZ세대, 출퇴근 시간 콘텐츠 소비자 [추론]",
+        "unique_point": "모바일 최적화된 숏폼 드라마 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "YouTube Shorts",
+          "Quibi 후속들"
+        ],
+        "timing_reason": "숏폼 콘텐츠 트렌드, 모바일 퍼스트 미디어 소비 [추론]",
+        "growth_potential": "글로벌 숏폼 시장 확장성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "구독료, 광고, 프리미엄 콘텐츠 [추론]",
+        "pricing_suggestion": "무료 + 월 4.99달러 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "10-12개월 [추론]",
+        "estimated_cost": "4000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "AWS",
+          "CDN"
+        ],
+        "key_features": [
+          "세로형 플레이어",
+          "자동재생",
+          "개인화 추천"
+        ],
+        "clone_tip": "콘텐츠 확보가 가장 중요, 크리에이터 생태계 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#숏폼",
+        "#OTT",
+        "#세로영상"
+      ],
+      "verdict": "숏폼 트렌드에 특화된 블루오션 영역"
+    },
+    {
+      "rank": 4,
+      "name": "동영상 다운로더: HD 플레이어",
+      "developer": "Hypers Tools",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/9xQ1JG6bpioHMu-Gv1BKWy7fBTJSxCO0-I-dsvGFNvCJbtHjS39Kh5MaSp9TMuVApS5rFX7P3ZUPJ3gurxxMhg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hypertools.videodownloader.downloader.videoplayer.ai",
+      "idea_summary": "다중 플랫폼 동영상 다운로드 및 오프라인 재생",
+      "analysis": {
+        "problem": "인터넷 연결 불안정 환경에서 동영상 시청 어려움 [추론]",
+        "solution": "다양한 사이트 동영상 다운로드 및 고화질 오프라인 재생 [추론]",
+        "target_user": "데이터 절약 필요 사용자, 인터넷 불안정 지역 [추론]",
+        "unique_point": "AI 기반 화질 최적화와 다중 플랫폼 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VidMate",
+          "TubeMate",
+          "4K Video Downloader"
+        ],
+        "timing_reason": "오프라인 콘텐츠 수요 지속, 데이터 비용 부담 [추론]",
+        "growth_potential": "개발도상국 시장에서 높은 수요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능, 광고 제거, 고속 다운로드 [추론]",
+        "pricing_suggestion": "무료 + 월 2.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800만원 [추론]",
+        "tech_stack": [
+          "Android Native",
+          "FFmpeg",
+          "WebView"
+        ],
+        "key_features": [
+          "다중 사이트 지원",
+          "화질 선택",
+          "백그라운드 다운로드"
+        ],
+        "clone_tip": "저작권 이슈 회피와 플랫폼 정책 준수 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#유틸리티",
+        "#오프라인",
+        "#미디어"
+      ],
+      "verdict": "꾸준한 수요 있지만 정책 리스크 존재"
+    },
+    {
+      "rank": 5,
+      "name": "QR 스캐너 & 모든 바코드",
+      "developer": "Studio Rankvn",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/ipIeDvfMJ4n4itsLY8f5WQeGlqj39V9faZKKqdsmyMJjgjdVR-u2CTdg6EGxwVApkdJpzRPCp9wbeKnzU2r-",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.qrcode.reader.barcode.scan.generator",
+      "idea_summary": "AI 강화 QR/바코드 스캐너와 생성기",
+      "analysis": {
+        "problem": "기본 카메라앱의 제한적인 QR/바코드 인식 성능 [추론]",
+        "solution": "AI 기반 향상된 인식률과 추가 기능 제공 [추론]",
+        "target_user": "쇼핑객, 비즈니스 사용자, 일반 스마트폰 이용자 [추론]",
+        "unique_point": "AI 인식 개선과 다양한 코드 포맷 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기본 카메라",
+          "다른 QR 스캐너들"
+        ],
+        "timing_reason": "QR코드 결제 확산, 비접촉 서비스 증가 [추론]",
+        "growth_potential": "QR코드 사용 확산과 함께 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄 기능, 비즈니스 버전 [추론]",
+        "pricing_suggestion": "무료 + 월 1.99달러 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400만원 [추론]",
+        "tech_stack": [
+          "Android Native",
+          "ML Kit",
+          "ZXing"
+        ],
+        "key_features": [
+          "AI 인식",
+          "코드 생성",
+          "히스토리 관리"
+        ],
+        "clone_tip": "기본 기능 외 부가가치 기능으로 차별화 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6
+      },
+      "tags": [
+        "#유틸리티",
+        "#AI",
+        "#기본도구"
+      ],
+      "verdict": "진입 장벽 낮지만 수익성은 제한적"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "지역 특화 서비스와 AI 활용 도구가 주요 트렌드로 부상하고 있음 [추론]. 실시간성과 개인화가 핵심 차별화 요소로 작용 [추론].",
+    "trend_details": [
+      "지역별 맞춤 서비스",
+      "AI 기반 개인화",
+      "실시간 데이터 활용",
+      "니치마켓 특화"
+    ],
+    "hot_categories": [
+      "소셜네트워킹",
+      "음식배달",
+      "여행도구"
+    ],
+    "opportunity": "전통 업종의 디지털 전환 도구 개발 [추론]",
+    "action_item": "AI와 위치기반 서비스 결합한 지역특화 앱 아이디어 발굴 [추론]"
+  }
+}
