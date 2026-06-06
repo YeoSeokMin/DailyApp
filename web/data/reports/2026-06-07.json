@@ -1,0 +1,634 @@
+{
+  "date": "2026-06-07",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "HeartPressure",
+      "developer": "David Koehn LLC",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/b2/a3/d3b2a37c-c949-e21c-11e5-84b50a8ab03a/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/heartpressure/id6753740945?uo=2",
+      "idea_summary": "혈압과 심박수를 연동해서 관리하는 앱 [추론]",
+      "analysis": {
+        "problem": "기존 혈압 앱들은 단순 기록만 가능하고 심박수와의 상관관계를 보여주지 않는 문제 [추론]",
+        "solution": "혈압 측정값과 심박수를 함께 기록하여 패턴 분석 제공 [추론]",
+        "target_user": "고혈압 환자나 건강 관리에 관심 있는 중장년층 [추론]",
+        "unique_point": "혈압-심박수 연동 분석으로 더 정확한 건강 상태 파악 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "혈압 노트",
+          "MyFitnessPal"
+        ],
+        "timing_reason": "고령화 사회로 건강 관리 앱 수요 증가 [추론]",
+        "growth_potential": "의료진과 연동 서비스 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 상세 분석 리포트 제공 [추론]",
+        "pricing_suggestion": "월 3,000원 구독 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "200-300만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "HealthKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "혈압 기록",
+          "심박수 연동",
+          "패턴 분석",
+          "리포트 생성"
+        ],
+        "clone_tip": "HealthKit 연동으로 Apple Watch 데이터 활용하면 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스테크"
+      ],
+      "verdict": "의료 데이터 연동이 핵심, 정확성이 생명",
+      "deep_report_id": "ios-heartpressure-1780758182215"
+    },
+    {
+      "rank": 2,
+      "name": "Subside: 구독·가계부 관리",
+      "developer": "yassine hammouti",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/39/4a/82394a35-0a0c-fef5-6ad9-497d922e4704/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/subside-%EA%B5%AC%EB%8F%85-%EA%B0%80%EA%B3%84%EB%B6%80-%EA%B4%80%EB%A6%AC/id6775276401?uo=2",
+      "idea_summary": "구독 서비스와 가계부를 통합 관리 [추론]",
+      "analysis": {
+        "problem": "구독 서비스 급증으로 월 지출 관리가 어려운 문제 [확인]",
+        "solution": "구독 알림과 가계부를 연동하여 지출 패턴 분석 [추론]",
+        "target_user": "다수의 구독 서비스를 이용하는 20-40대 [추론]",
+        "unique_point": "구독 갱신 알림과 예산 관리를 동시에 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Truebill",
+          "가계부 어플들"
+        ],
+        "timing_reason": "구독 서비스 시장 폭증으로 관리 필요성 대두 [추론]",
+        "growth_potential": "구독 취소 자동화 기능으로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능으로 구독 취소 도우미 서비스 [추론]",
+        "pricing_suggestion": "월 2,500원 또는 연 25,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "300-400만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "MongoDB"
+        ],
+        "key_features": [
+          "구독 추적",
+          "자동 알림",
+          "지출 분석",
+          "예산 설정"
+        ],
+        "clone_tip": "은행 API 연동으로 자동 구독 감지하면 UX 향상 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "구독 피로감 시대의 필수 앱, 시장성 우수"
+    },
+    {
+      "rank": 3,
+      "name": "WC Finder - Find public WCs",
+      "developer": "WEB REGISTER Ltd.",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0a/80/69/0a80698d-de22-62d2-a98a-7a1944eb7406/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/wc-finder-find-public-wcs/id6770450524?uo=2",
+      "idea_summary": "주변 공중화장실 위치를 찾아주는 앱 [추론]",
+      "analysis": {
+        "problem": "외출 시 급할 때 공중화장실을 찾기 어려운 문제 [확인]",
+        "solution": "GPS 기반으로 주변 화장실 위치와 상태 정보 제공 [추론]",
+        "target_user": "외출 빈도가 높은 모든 연령층, 특히 관광객 [추론]",
+        "unique_point": "실시간 사용 가능 여부와 청결도 정보 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "화장실 지도",
+          "포켓맵"
+        ],
+        "timing_reason": "코로나 이후 위생에 대한 관심 증가 [추론]",
+        "growth_potential": "관광지 중심으로 해외 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 프리미엄 상세 정보 제공 [추론]",
+        "pricing_suggestion": "무료+광고 또는 월 1,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "150-250만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Google Maps API",
+          "Firebase"
+        ],
+        "key_features": [
+          "GPS 위치 추적",
+          "화장실 DB",
+          "사용자 리뷰",
+          "실시간 상태"
+        ],
+        "clone_tip": "사용자 크라우드소싱으로 DB 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#위치기반"
+      ],
+      "verdict": "단순하지만 실용적, 데이터 수집이 관건"
+    },
+    {
+      "rank": 4,
+      "name": "Moodmap: Mood Tracker",
+      "developer": "Annika Koenemann",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/fd/70/69fd7082-9686-895a-887b-37d238ee2890/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/moodmap-mood-tracker/id6774901758?uo=2",
+      "idea_summary": "위치 기반 감정 기록 및 패턴 분석 [추론]",
+      "analysis": {
+        "problem": "감정 변화의 원인과 패턴을 파악하기 어려운 문제 [추론]",
+        "solution": "위치와 시간을 연동한 감정 기록으로 트리거 분석 [추론]",
+        "target_user": "정신 건강에 관심 있는 20-30대, 우울증 관리자 [추론]",
+        "unique_point": "지도 위에 감정 상태를 시각화하여 패턴 발견 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Daylio",
+          "eMoods"
+        ],
+        "timing_reason": "정신 건강 관리의 중요성이 사회적으로 대두 [추론]",
+        "growth_potential": "AI 분석 기능 추가로 개인화 서비스 확장 [추론]"
+      },
+      "business": {
+        "monetization": "심화 분석 리포트와 상담사 매칭 서비스 [추론]",
+        "pricing_suggestion": "월 4,000원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "250-350만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Location",
+          "Charts Framework"
+        ],
+        "key_features": [
+          "GPS 기반 기록",
+          "감정 지도",
+          "패턴 분석",
+          "알림"
+        ],
+        "clone_tip": "Apple HealthKit 연동으로 수면, 운동과 상관관계 분석 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#멘탈헬스"
+      ],
+      "verdict": "위치 기반 감정 분석은 혁신적, 프라이버시 고려 필수"
+    },
+    {
+      "rank": 5,
+      "name": "Yen Sense: Yen to USD",
+      "developer": "Gregory Johns",
+      "category": "여행",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e2/ab/a5/e2aba5d9-cafc-9728-d9a2-d0aa816b9a28/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/yen-sense-yen-to-usd/id6773776110?uo=2",
+      "idea_summary": "일본 여행자를 위한 엔화 특화 환율 앱 [추론]",
+      "analysis": {
+        "problem": "일본 여행 시 엔화 계산이 복잡하고 실시간 환율 확인 불편 [추론]",
+        "solution": "엔화-달러 특화 계산기와 현지 물가 비교 기능 [추론]",
+        "target_user": "일본 여행을 준비하거나 자주 가는 미국인 [추론]",
+        "unique_point": "일본 현지 물가 정보와 엔화 계산을 동시에 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "XE Currency",
+          "Currency Converter"
+        ],
+        "timing_reason": "엔저 현상으로 일본 여행 붐 재점화 [추론]",
+        "growth_potential": "다른 아시아 통화로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 현지 쇼핑몰 제휴 수수료 [추론]",
+        "pricing_suggestion": "무료+광고 모델 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "100-150만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Currency API",
+          "SQLite"
+        ],
+        "key_features": [
+          "실시간 환율",
+          "계산기",
+          "물가 정보",
+          "오프라인 모드"
+        ],
+        "clone_tip": "한국인 대상으로는 원-엔 계산기로 로컬라이즈 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여행"
+      ],
+      "verdict": "니치하지만 시작하기 좋은 단순 앱"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "운동 세트를 기록하고 관리하는 앱 [추론]",
+      "analysis": {
+        "problem": "헬스장에서 운동 세트와 무게를 기록하기 번거로운 문제 [추론]",
+        "solution": "간단한 터치로 세트 완료를 기록하고 진행도 추적 [추론]",
+        "target_user": "웨이트 트레이닝을 하는 20-40대 남녀 [추론]",
+        "unique_point": "복잡한 입력 없이 세트 완료만 터치로 간편 기록 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Strong",
+          "Jefit"
+        ],
+        "timing_reason": "홈트레이닝과 헬스장 운동 병행 트렌드 [추론]",
+        "growth_potential": "AI 코칭 기능과 커뮤니티 연동 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄으로 상세 분석과 운동 계획 제공 [추론]",
+        "pricing_suggestion": "월 2,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "180-280만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "SQLite"
+        ],
+        "key_features": [
+          "간편 세트 기록",
+          "운동 타이머",
+          "진행도 차트",
+          "운동 플랜"
+        ],
+        "clone_tip": "Apple Watch 연동으로 손목에서 세트 기록하면 편의성 극대화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#피트니스"
+      ],
+      "verdict": "단순함이 강점, UX 최적화가 핵심",
+      "deep_report_id": "android-setlog-1780758259023"
+    },
+    {
+      "rank": 2,
+      "name": "PDF 리더 및 뷰어",
+      "developer": "Lumio Tech",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/uGlPhXIo9ZUdmyjk3UaBxKIcx9A0Nptu8pbsceENAdPuNrMsBAGGhYwZKd2YFVbZhGY",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.editor",
+      "idea_summary": "모바일 특화 PDF 뷰어와 편집 기능 [추론]",
+      "analysis": {
+        "problem": "모바일에서 PDF 읽기와 편집이 불편한 문제 [확인]",
+        "solution": "터치 최적화된 PDF 뷰어와 간단한 편집 도구 제공 [추론]",
+        "target_user": "업무상 문서를 자주 다루는 직장인과 학생 [추론]",
+        "unique_point": "모바일 환경에 최적화된 UI와 빠른 로딩 속도 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Reader",
+          "WPS Office"
+        ],
+        "timing_reason": "재택근무 증가로 모바일 문서 작업 필요성 상승 [추론]",
+        "growth_potential": "클라우드 동기화와 협업 기능으로 확장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 제거와 고급 편집 기능 유료화 [추론]",
+        "pricing_suggestion": "월 3,500원 또는 연 30,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "PDFium",
+          "Firebase"
+        ],
+        "key_features": [
+          "PDF 뷰어",
+          "텍스트 편집",
+          "주석 달기",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "OCR 기능으로 스캔 문서 텍스트 인식하면 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "기본 도구지만 필수성 높음, 성능이 관건"
+    },
+    {
+      "rank": 3,
+      "name": "대한민국 모바일 신분증",
+      "developer": "행정안전부",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/ZG0w0dsWvuwXahcA9klpwBm903dgLQ5ELba6g47MTpeK5AwOHh_nwI-hd3uROMbUEcRv",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.go.mobileid",
+      "idea_summary": "정부 공인 디지털 신분증 서비스 [확인]",
+      "analysis": {
+        "problem": "물리적 신분증 분실 위험과 휴대 불편함 [확인]",
+        "solution": "정부 인증 디지털 신분증으로 안전한 본인 확인 [확인]",
+        "target_user": "신분증이 필요한 모든 국민 [확인]",
+        "unique_point": "정부 공식 인증으로 법적 효력을 갖는 디지털 신분증 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "민간 디지털 신분증 서비스들"
+        ],
+        "timing_reason": "디지털 전환 가속화와 비대면 서비스 확산 [추론]",
+        "growth_potential": "공공 서비스와의 연계 확대 [추론]"
+      },
+      "business": {
+        "monetization": "정부 서비스로 직접 수익화보다는 행정 효율성 증대 [추론]",
+        "pricing_suggestion": "무료 서비스 [확인]",
+        "revenue_potential": "해당없음"
+      },
+      "dev_insight": {
+        "estimated_period": "정부 프로젝트로 1-2년 [추측]",
+        "estimated_cost": "수십억원 규모 [추측]",
+        "tech_stack": [
+          "Android",
+          "생체인증",
+          "블록체인",
+          "PKI"
+        ],
+        "key_features": [
+          "디지털 신분증",
+          "생체인증",
+          "QR 코드",
+          "정부 연동"
+        ],
+        "clone_tip": "민간 서비스로는 불가능, 정부 인증이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 5,
+        "profitability": 0,
+        "scalability": 3,
+        "overall": 8.5
+      },
+      "tags": [
+        "#정부서비스",
+        "#B2C",
+        "#디지털전환"
+      ],
+      "verdict": "혁신적이지만 개인 개발자는 클론 불가능"
+    },
+    {
+      "rank": 4,
+      "name": "QR 스캐너",
+      "developer": "P & L Studio",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/NCMgeAAo4RdMYt4THbMRyY0T54OCavHgqZ-B6HIbYGj_6zbDjcdTvF_czQLUoDQHyoIqpUlz0xSlmCG2uagwYA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree",
+      "idea_summary": "QR코드 스캔과 생성을 위한 유틸리티 [추론]",
+      "analysis": {
+        "problem": "QR코드 사용 증가에 따른 빠르고 정확한 스캔 필요 [확인]",
+        "solution": "카메라로 QR코드를 빠르게 인식하고 다양한 형태로 생성 [추론]",
+        "target_user": "QR코드를 자주 사용하는 모든 연령층 [추론]",
+        "unique_point": "스캔 속도와 정확도, 다양한 QR코드 생성 옵션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기본 카메라 앱",
+          "타 QR 스캐너들"
+        ],
+        "timing_reason": "코로나 이후 QR코드 사용 급증 [확인]",
+        "growth_potential": "결제 연동과 마케팅 도구로 확장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 프리미엄 기능 [추론]",
+        "pricing_suggestion": "무료+광고 또는 월 1,500원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "80-150만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Camera2 API",
+          "ZXing"
+        ],
+        "key_features": [
+          "QR 스캔",
+          "바코드 인식",
+          "QR 생성",
+          "히스토리"
+        ],
+        "clone_tip": "배치 스캔 기능으로 여러 QR코드 동시 처리하면 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 1,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 4.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "기본 도구지만 경쟁 치열, 차별화 어려움"
+    },
+    {
+      "rank": 5,
+      "name": "PDF 리더 - HWP 뷰어",
+      "developer": "Studio Rankvn",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/YoT-RV6zPMaQKRjdv-qQiu3_DNOYOfOFt_UTHaMw6JkT3irD64-WBwBW7seIBEIBMD0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.pdf.reader.pdfviewer.editor.pdfscanner",
+      "idea_summary": "한국 특화 문서 뷰어 (PDF+HWP) [추론]",
+      "analysis": {
+        "problem": "한국에서 많이 쓰이는 HWP 파일을 모바일에서 보기 어려운 문제 [확인]",
+        "solution": "PDF와 HWP를 모두 지원하는 통합 문서 뷰어 [추론]",
+        "target_user": "업무용 문서를 다루는 한국 직장인과 공무원 [추론]",
+        "unique_point": "한국 사무환경에 특화된 HWP 파일 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "한글과컴퓨터 뷰어",
+          "WPS Office"
+        ],
+        "timing_reason": "재택근무 증가로 모바일 문서 작업 증가 [추론]",
+        "growth_potential": "한국 기업 대상 B2B 솔루션으로 확장 [추론]"
+      },
+      "business": {
+        "monetization": "기업용 라이선스와 고급 편집 기능 [추론]",
+        "pricing_suggestion": "개인 월 2,000원, 기업용 별도 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "500-700만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "HWP SDK",
+          "PDFium"
+        ],
+        "key_features": [
+          "HWP 뷰어",
+          "PDF 뷰어",
+          "편집 기능",
+          "클라우드 연동"
+        ],
+        "clone_tip": "한컴과의 라이선스 협력 또는 오픈소스 HWP 라이브러리 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#로컬라이즈"
+      ],
+      "verdict": "한국 시장 특화 앱, HWP 지원이 차별점"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "건강 관리와 생산성 도구에 대한 관심이 높아지고 있으며, 기존 서비스의 불편함을 해결하는 니치 앱들이 부상하고 있다 [추론]. 특히 구독 관리와 감정 추적 같은 개인 관리 도구의 수요가 증가하는 추세다 [추론].",
+    "trend_details": [
+      "위치 기반 서비스 확산",
+      "개인 데이터 관리 도구 증가",
+      "모바일 문서 작업 환경 개선"
+    ],
+    "hot_categories": [
+      "건강 및 피트니스",
+      "생산성",
+      "금융"
+    ],
+    "opportunity": "기존 대형 서비스가 놓친 세밀한 사용자 니즈를 파악하여 특화된 솔루션 제공 [추론]",
+    "action_item": "사용자 행동 패턴을 분석하여 자동화할 수 있는 반복 작업 발굴하기 [추론]"
+  }
+}
