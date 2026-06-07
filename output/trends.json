@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-06-06T15:06:39.819Z",
+  "generatedAt": "2026-06-07T15:06:59.111Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "여행",
+      "currentCount": 6,
+      "previousCount": 3,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "WC Finder - Find public WCs",
+        "Yen Sense: Yen to USD",
+        "NatureLens",
+        "Ebike Point",
+        "Smart Packer",
+        "BenchMrk"
+      ],
+      "avgScore": 7
+    },
     {
       "category": "소셜 네트워킹",
       "currentCount": 1,
@@ -27,6 +43,18 @@
         "Spotli"
       ],
       "avgScore": 7.25
+    },
+    {
+      "category": "엔터테인먼트",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DramaBox - 미니시리즈 스트리밍 플레이어"
+      ],
+      "avgScore": 8
     },
     {
       "category": "음악",
@@ -107,21 +135,80 @@
       "avgScore": 7.8
     },
     {
-      "category": "여행",
-      "currentCount": 4,
-      "previousCount": 3,
-      "changePercent": 33,
+      "category": "생산성",
+      "currentCount": 21,
+      "previousCount": 19,
+      "changePercent": 11,
       "changeDirection": "up",
       "apps": [
-        "NatureLens",
-        "Ebike Point",
-        "Smart Packer",
-        "BenchMrk"
+        "setlog",
+        "PDF 리더 및 뷰어",
+        "PDF 리더 - HWP 뷰어",
+        "setlog",
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+        "Youthy: Youth Club Management",
+        "Amber: Study, Focus, and Sleep",
+        "PDF 리더 및 뷰어",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 리더: 뷰어·편집기",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더 - 모든 PDF 편집",
+        "Owlory",
+        "setlog",
+        "문서 리더 & 스캔",
+        "PDF 리더: 뷰어·편집기",
+        "Humanizer: AI Text Rewriter",
+        "PhoneDeck",
+        "setlog",
+        "문서 리더 & 스캔",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ],
-      "avgScore": 7.7
+      "avgScore": 7.176190476190477
     }
   ],
   "decliningCategories": [
+    {
+      "category": "유틸리티",
+      "currentCount": 6,
+      "previousCount": 7,
+      "changePercent": -14,
+      "changeDirection": "down",
+      "apps": [
+        "대한민국 모바일 신분증",
+        "QR 스캐너",
+        "ApronBoard",
+        "Gas Prices USA & Fuel Station",
+        "CareerKit",
+        "QR 코드 및 바코드 스캐너"
+      ],
+      "avgScore": 7.2
+    },
+    {
+      "category": "교육",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "COSMOS: Solar System Explorer",
+        "듀오링고(Duolingo): 언어 학습"
+      ],
+      "avgScore": 8.350000000000001
+    },
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 4,
+      "previousCount": 7,
+      "changePercent": -43,
+      "changeDirection": "down",
+      "apps": [
+        "HeartPressure",
+        "DahliaCare: Smart Skin Tracker",
+        "Fitpins | Workout Spots Map",
+        "Capy: Earn Back Your Time"
+      ],
+      "avgScore": 8.225
+    },
     {
       "category": "라이프스타일",
       "currentCount": 4,
@@ -129,12 +216,12 @@
       "changePercent": -43,
       "changeDirection": "down",
       "apps": [
+        "Moodmap: Mood Tracker",
         "Tinted: Color Analysis",
         "宠物火化",
-        "크린토피아",
-        "SoundMosaic"
+        "크린토피아"
       ],
-      "avgScore": 7.65
+      "avgScore": 7.875
     },
     {
       "category": "비즈니스",
@@ -179,9 +266,32 @@
         "Great Weather"
       ],
       "avgScore": 6.7
+    },
+    {
+      "category": "게임",
+      "currentCount": 1,
+      "previousCount": 3,
+      "changePercent": -67,
+      "changeDirection": "down",
+      "apps": [
+        "Lawgivers II LITE"
+      ],
+      "avgScore": 7.8
     }
   ],
   "stableCategories": [
+    {
+      "category": "금융",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Subside: 구독·가계부 관리",
+        "토스"
+      ],
+      "avgScore": 8.5
+    },
     {
       "category": "음식 및 음료",
       "currentCount": 4,
@@ -208,116 +318,6 @@
         "QR 스캐너 & 모든 바코드"
       ],
       "avgScore": 6.766666666666667
-    },
-    {
-      "category": "엔터테인먼트",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "유틸리티",
-      "currentCount": 6,
-      "previousCount": 6,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "ApronBoard",
-        "Gas Prices USA & Fuel Station",
-        "CareerKit",
-        "QR 코드 및 바코드 스캐너",
-        "QR 코드 및 바코드 스캐너",
-        "QR 스캐너"
-      ],
-      "avgScore": 6.966666666666666
-    },
-    {
-      "category": "생산성",
-      "currentCount": 20,
-      "previousCount": 20,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "setlog",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "Youthy: Youth Club Management",
-        "Amber: Study, Focus, and Sleep",
-        "PDF 리더 및 뷰어",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 리더: 뷰어·편집기",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더 - 모든 PDF 편집",
-        "Owlory",
-        "setlog",
-        "문서 리더 & 스캔",
-        "PDF 리더: 뷰어·편집기",
-        "Humanizer: AI Text Rewriter",
-        "PhoneDeck",
-        "setlog",
-        "문서 리더 & 스캔",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "setlog",
-        "문서 리더 & 스캔"
-      ],
-      "avgScore": 7.25
-    },
-    {
-      "category": "건강 및 피트니스",
-      "currentCount": 5,
-      "previousCount": 5,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "DahliaCare: Smart Skin Tracker",
-        "Fitpins | Workout Spots Map",
-        "Capy: Earn Back Your Time",
-        "Women Weight Lifting: Tracker",
-        "BodyScanner"
-      ],
-      "avgScore": 8.180000000000001
-    },
-    {
-      "category": "교육",
-      "currentCount": 3,
-      "previousCount": 3,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "COSMOS: Solar System Explorer",
-        "듀오링고(Duolingo): 언어 학습",
-        "PictoPlanning By Cedmad"
-      ],
-      "avgScore": 8.166666666666668
-    },
-    {
-      "category": "게임",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Lawgivers II LITE",
-        "Liminal Dreams -短編脱出-"
-      ],
-      "avgScore": 7.4
-    },
-    {
-      "category": "금융",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "토스",
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
-      ],
-      "avgScore": 8.4
     }
   ],
   "hotKeywords": [
@@ -326,6 +326,15 @@
       "category": "tag",
       "count": 39,
       "apps": [
+        "HeartPressure",
+        "Subside: 구독·가계부 관리",
+        "WC Finder - Find public WCs",
+        "Moodmap: Mood Tracker",
+        "Yen Sense: Yen to USD",
+        "setlog",
+        "PDF 리더 및 뷰어",
+        "QR 스캐너",
+        "PDF 리더 - HWP 뷰어",
         "Whatspoppin: Dublin Nightlife",
         "Florist Pro",
         "초대장 만들기 RSVP 카드 제작 Pro KR",
@@ -333,7 +342,6 @@
         "ApronBoard",
         "Smart Packer",
         "Inventaire Congélateur Glacko",
-        "setlog",
         "Youthy: Youth Club Management",
         "Amber: Study, Focus, and Sleep",
         "BenchMrk",
@@ -352,13 +360,7 @@
         "Humanizer: AI Text Rewriter",
         "PhoneDeck",
         "QR 코드 및 바코드 스캐너",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "Liminal Dreams -短編脱出-",
-        "Women Weight Lifting: Tracker",
-        "SoundMosaic",
-        "PictoPlanning By Cedmad",
-        "BodyScanner",
-        "QR 스캐너"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
@@ -366,6 +368,14 @@
       "category": "tag",
       "count": 38,
       "apps": [
+        "HeartPressure",
+        "Subside: 구독·가계부 관리",
+        "WC Finder - Find public WCs",
+        "Moodmap: Mood Tracker",
+        "Yen Sense: Yen to USD",
+        "setlog",
+        "대한민국 모바일 신분증",
+        "QR 스캐너",
         "Whatspoppin: Dublin Nightlife",
         "초대장 만들기 RSVP 카드 제작 Pro KR",
         "Ebike Point",
@@ -383,7 +393,6 @@
         "COSMOS: Solar System Explorer",
         "Fitpins | Workout Spots Map",
         "Great Weather",
-        "setlog",
         "동영상 다운로더: HD 플레이어",
         "건강보험25시",
         "Cinematic Video Editor",
@@ -394,19 +403,31 @@
         "PhoneDeck",
         "문서 리더 & 스캔",
         "QR 코드 및 바코드 스캐너",
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "Liminal Dreams -短編脱出-",
-        "Women Weight Lifting: Tracker",
-        "SoundMosaic",
-        "BodyScanner",
-        "QR 스캐너",
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
+        "DramaBox - 미니시리즈 스트리밍 플레이어"
+      ]
+    },
+    {
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 13,
+      "apps": [
+        "PDF 리더 및 뷰어",
+        "PDF 리더 - HWP 뷰어",
+        "Florist Pro",
+        "Jynth – Physics Analog Synth",
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+        "Youthy: Youth Club Management",
+        "PDF뷰어, PDF리더 그리고 파일열기",
+        "PDF 리더: 뷰어·편집기",
+        "문서 리더 & 스캔",
+        "Humanizer: AI Text Rewriter",
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 14,
+      "count": 13,
       "apps": [
         "NatureLens",
         "동영상 다운로더: HD 플레이어",
@@ -417,35 +438,16 @@
         "DahliaCare: Smart Skin Tracker",
         "Owlory",
         "듀오링고(Duolingo): 언어 학습",
-        "Humanizer: AI Text Rewriter",
-        "SoundMosaic"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 13,
-      "apps": [
-        "Florist Pro",
-        "Jynth – Physics Analog Synth",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "Youthy: Youth Club Management",
-        "PDF 리더 및 뷰어",
-        "PDF뷰어, PDF리더 그리고 파일열기",
-        "PDF 리더: 뷰어·편집기",
-        "문서 리더 & 스캔",
-        "Humanizer: AI Text Rewriter",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PictoPlanning By Cedmad"
+        "Humanizer: AI Text Rewriter"
       ]
     },
     {
       "keyword": "생산성",
-      "category": "productivity",
-      "count": 11,
+      "category": "tag",
+      "count": 12,
       "apps": [
-        "Amber: Study, Focus, and Sleep",
         "PDF 리더 및 뷰어",
+        "Amber: Study, Focus, and Sleep",
         "PDF뷰어, PDF리더 그리고 파일열기",
         "PDF 리더: 뷰어·편집기",
         "PDF 뷰어 - PDF Reader & PDF 편집",
@@ -458,8 +460,9 @@
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 9,
+      "count": 10,
       "apps": [
+        "HeartPressure",
         "UltraGuard VPN: Fast & Secure",
         "ApronBoard",
         "Smart Packer",
@@ -474,7 +477,7 @@
     {
       "keyword": "편집",
       "category": "creator",
-      "count": 8,
+      "count": 9,
       "apps": [
         "PDF 리더 및 뷰어",
         "PDF 리더: 뷰어·편집기",
@@ -482,6 +485,18 @@
         "PDF 리더 - 모든 PDF 편집",
         "Cinematic Video Editor",
         "Spotli"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "QR 스캐너",
+        "동영상 다운로더: HD 플레이어",
+        "QR 스캐너 & 모든 바코드",
+        "Gas Prices USA & Fuel Station",
+        "QR 코드 및 바코드 스캐너"
       ]
     },
     {
@@ -497,6 +512,17 @@
       ]
     },
     {
+      "keyword": "위치기반",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "WC Finder - Find public WCs",
+        "패스오더 - 카페 가는 길, 미리주문",
+        "Fitpins | Workout Spots Map",
+        "Gas Prices USA & Fuel Station"
+      ]
+    },
+    {
       "keyword": "니치마켓",
       "category": "tag",
       "count": 4,
@@ -505,17 +531,6 @@
         "ManaVault",
         "Rangiin | Sitar Synth + AUv3",
         "宠物火化"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "동영상 다운로더: HD 플레이어",
-        "QR 스캐너 & 모든 바코드",
-        "Gas Prices USA & Fuel Station",
-        "QR 코드 및 바코드 스캐너"
       ]
     },
     {
@@ -529,13 +544,12 @@
       ]
     },
     {
-      "keyword": "위치기반",
+      "keyword": "핀테크",
       "category": "tag",
       "count": 3,
       "apps": [
-        "패스오더 - 카페 가는 길, 미리주문",
-        "Fitpins | Workout Spots Map",
-        "Gas Prices USA & Fuel Station"
+        "Subside: 구독·가계부 관리",
+        "토스"
       ]
     },
     {
@@ -576,22 +590,20 @@
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 3,
+      "keyword": "여행",
+      "category": "tag",
+      "count": 2,
       "apps": [
-        "Cinematic Video Editor",
-        "Lawgivers II LITE",
-        "Women Weight Lifting: Tracker"
+        "Yen Sense: Yen to USD",
+        "Smart Packer"
       ]
     },
     {
-      "keyword": "핀테크",
-      "category": "fintech",
-      "count": 3,
+      "keyword": "피트니스",
+      "category": "tag",
+      "count": 2,
       "apps": [
-        "토스",
-        "삼쩜삼-세금ㆍ병원비 환급, 휴대폰 지원금, 앱테크"
+        "setlog"
       ]
     },
     {
@@ -602,15 +614,6 @@
         "NatureLens",
         "Owlory"
       ]
-    },
-    {
-      "keyword": "교육",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "NatureLens",
-        "듀오링고(Duolingo): 언어 학습"
-      ]
     }
   ],
   "pricingTrends": {
@@ -619,36 +622,36 @@
         "count": 27,
         "percent": 39,
         "examples": [
-          "Whatspoppin: Dublin Nightlife",
-          "초대장 만들기 RSVP 카드 제작 Pro KR",
-          "NatureLens"
+          "WC Finder - Find public WCs",
+          "Yen Sense: Yen to USD",
+          "대한민국 모바일 신분증"
         ]
       },
       "freemium": {
-        "count": 55,
-        "percent": 79,
+        "count": 54,
+        "percent": 77,
         "examples": [
-          "Whatspoppin: Dublin Nightlife",
-          "초대장 만들기 RSVP 카드 제작 Pro KR",
-          "NatureLens"
+          "HeartPressure",
+          "Subside: 구독·가계부 관리",
+          "WC Finder - Find public WCs"
         ]
       },
       "subscription": {
-        "count": 33,
-        "percent": 47,
+        "count": 32,
+        "percent": 46,
         "examples": [
-          "Florist Pro",
-          "초대장 만들기 RSVP 카드 제작 Pro KR",
-          "UltraGuard VPN: Fast & Secure"
+          "HeartPressure",
+          "Subside: 구독·가계부 관리",
+          "Moodmap: Mood Tracker"
         ]
       },
       "onetime": {
         "count": 7,
         "percent": 10,
         "examples": [
+          "PDF 리더 및 뷰어",
           "ApronBoard",
-          "Jynth – Physics Analog Synth",
-          "Amber: Study, Focus, and Sleep"
+          "Jynth – Physics Analog Synth"
         ]
       },
       "unknown": {
@@ -659,12 +662,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 55,
-      "percent": 79,
+      "count": 54,
+      "percent": 77,
       "examples": [
-        "Whatspoppin: Dublin Nightlife",
-        "초대장 만들기 RSVP 카드 제작 Pro KR",
-        "NatureLens"
+        "HeartPressure",
+        "Subside: 구독·가계부 관리",
+        "WC Finder - Find public WCs"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -672,9 +675,21 @@
   "techTrends": {
     "trends": [
       {
+        "tech": "ar_vr",
+        "count": 18,
+        "percent": 26,
+        "apps": [
+          "HeartPressure",
+          "Moodmap: Mood Tracker",
+          "UltraGuard VPN: Fast & Secure",
+          "ApronBoard",
+          "Smart Packer"
+        ]
+      },
+      {
         "tech": "ai",
-        "count": 19,
-        "percent": 27,
+        "count": 15,
+        "percent": 21,
         "apps": [
           "NatureLens",
           "QR 스캐너 & 모든 바코드",
@@ -684,27 +699,15 @@
         ]
       },
       {
-        "tech": "ar_vr",
-        "count": 16,
-        "percent": 23,
-        "apps": [
-          "UltraGuard VPN: Fast & Secure",
-          "ApronBoard",
-          "Smart Packer",
-          "Tinted: Color Analysis",
-          "setlog"
-        ]
-      },
-      {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "PDF 리더 및 뷰어",
           "DramaBox - 미니시리즈 스트리밍 플레이어",
           "동영상 다운로더: HD 플레이어",
           "PDF 리더 및 뷰어",
-          "PDF 리더: 뷰어·편집기",
-          "PDF 뷰어 - PDF Reader & PDF 편집"
+          "PDF 리더: 뷰어·편집기"
         ]
       },
       {
@@ -720,28 +723,30 @@
         ]
       },
       {
-        "tech": "fintech",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "건강보험25시",
-          "토스"
-        ]
-      },
-      {
         "tech": "subscription",
-        "count": 2,
-        "percent": 3,
+        "count": 3,
+        "percent": 4,
         "apps": [
+          "Subside: 구독·가계부 관리",
           "이디야멤버스",
           "Youthy: Youth Club Management"
         ]
       },
       {
         "tech": "blockchain",
-        "count": 1,
-        "percent": 1,
+        "count": 2,
+        "percent": 3,
         "apps": [
+          "대한민국 모바일 신분증",
+          "토스"
+        ]
+      },
+      {
+        "tech": "fintech",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "건강보험25시",
           "토스"
         ]
       },
@@ -763,22 +768,34 @@
       }
     ],
     "dominant": {
-      "tech": "ai",
-      "count": 19,
-      "percent": 27,
+      "tech": "ar_vr",
+      "count": 18,
+      "percent": 26,
       "apps": [
-        "NatureLens",
-        "QR 스캐너 & 모든 바코드",
-        "Smart Packer",
-        "Tinted: Color Analysis",
-        "Inventaire Congélateur Glacko"
+        "HeartPressure",
+        "Moodmap: Mood Tracker",
+        "UltraGuard VPN: Fast & Secure",
+        "ApronBoard",
+        "Smart Packer"
       ]
     },
     "emerging": [
       {
+        "tech": "ar_vr",
+        "count": 18,
+        "percent": 26,
+        "apps": [
+          "HeartPressure",
+          "Moodmap: Mood Tracker",
+          "UltraGuard VPN: Fast & Secure",
+          "ApronBoard",
+          "Smart Packer"
+        ]
+      },
+      {
         "tech": "ai",
-        "count": 19,
-        "percent": 27,
+        "count": 15,
+        "percent": 21,
         "apps": [
           "NatureLens",
           "QR 스캐너 & 모든 바코드",
@@ -788,27 +805,15 @@
         ]
       },
       {
-        "tech": "ar_vr",
-        "count": 16,
-        "percent": 23,
-        "apps": [
-          "UltraGuard VPN: Fast & Secure",
-          "ApronBoard",
-          "Smart Packer",
-          "Tinted: Color Analysis",
-          "setlog"
-        ]
-      },
-      {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "PDF 리더 및 뷰어",
           "DramaBox - 미니시리즈 스트리밍 플레이어",
           "동영상 다운로더: HD 플레이어",
           "PDF 리더 및 뷰어",
-          "PDF 리더: 뷰어·편집기",
-          "PDF 뷰어 - PDF Reader & PDF 편집"
+          "PDF 리더: 뷰어·편집기"
         ]
       }
     ]
@@ -827,6 +832,13 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "그래픽 및 디자인"
+    },
+    {
+      "type": "rising_category",
+      "title": "엔터테인먼트 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "엔터테인먼트"
     },
     {
       "type": "rising_category",
@@ -878,33 +890,27 @@
       "category": "쇼핑"
     },
     {
-      "type": "rising_category",
-      "title": "여행 카테고리 급부상",
-      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "여행"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "27%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "21%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "1인 개발자 친화적 환경이 조성되고 있으며, AI 기능 통합(27%)과 freemium 모델(79%)이 주요 차별화 요소로 부상하고 있습니다. 소셜, 그래픽디자인, 음악 등 다양한 카테고리에서 100% 성장률을 보이지만 진입 장벽이 낮은 블루오션 상태입니다.",
+    "trend_summary": "AR/VR(26%)과 AI(21%) 기술이 앱 시장을 주도하며, freemium 모델(77%)이 가장 선호받고 있습니다. 여행, 소셜 네트워킹, 그래픽 디자인 등 다양한 카테고리가 100% 성장하며 새로운 기회를 창출하고 있습니다.",
     "trend_details": [
-      "1인 개발가능 태그가 39회로 최다 언급되며 솔로 개발자 시장 확대",
-      "AI 기능 통합률 27%로 미적용 영역에서 차별화 기회 존재",
-      "freemium 모델 79% 채택으로 사용자 확보 후 수익화 전략 일반화"
+      "1인 개발자 친화적 앱이 39회 언급되며 솔로 개발 트렌드 확산",
+      "freemium 모델이 77%로 수익화의 주요 전략으로 자리잡음",
+      "AR/VR과 AI 기술 통합이 필수가 되어가는 추세"
     ],
     "hot_categories": [
-      "그래픽 및 디자인",
-      "음악"
+      "여행",
+      "소셜 네트워킹",
+      "그래픽 및 디자인"
     ],
-    "opportunity": "AI 기능을 결합한 창작 도구 카테고리(그래픽디자인, 음악)에서 freemium 모델로 1인 개발자가 진입할 수 있는 블루오션 기회",
-    "action_item": "AI 기반 그래픽 편집 또는 음악 제작 도구를 freemium 모델로 개발하여 창작자 타겟 시장 진입",
-    "weekly_theme": "AI 창작 도구"
+    "opportunity": "AI 미적용 카테고리에 AI 기능을 통합하거나 앱 수가 적은 급성장 카테고리(소셜 네트워킹, 그래픽 디자인)에 진입하는 것이 가장 유망합니다.",
+    "action_item": "여행이나 그래픽 디자인 카테고리에서 AI 기능이 포함된 freemium 모델의 1인 개발 가능한 앱을 기획하세요.",
+    "weekly_theme": "AI 융합 기회"
   }
 }
