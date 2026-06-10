@@ -1,0 +1,624 @@
+{
+  "date": "2026-06-11",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Face Guard Video",
+      "developer": "yoshifumi kondo",
+      "category": "사진 및 비디오",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/84/2e/ba842eda-d0c8-a58c-1479-21943d79fcdb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/face-guard-video/id6766192310?uo=2",
+      "idea_summary": "동영상 속 얼굴을 자동으로 블러처리하는 프라이버시 보호 앱",
+      "analysis": {
+        "problem": "동영상에서 개인정보 보호가 필요한 얼굴 노출 문제 [추론]",
+        "solution": "AI 기반 자동 얼굴 인식 및 블러 처리 기능 [추론]",
+        "target_user": "콘텐츠 크리에이터, 교육자, 일반 사용자 [추론]",
+        "unique_point": "동영상 특화 얼굴 블러링 자동화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Blur Video",
+          "Video Privacy Editor"
+        ],
+        "timing_reason": "개인정보보호 규제 강화와 콘텐츠 제작 증가 [추론]",
+        "growth_potential": "프라이버시 의식 증가로 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 구매 [추론]",
+        "pricing_suggestion": "월 3,000원 구독 또는 15,000원 일회성 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3,000만원 [추론]",
+        "tech_stack": [
+          "Core ML",
+          "Vision Framework",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "얼굴 인식",
+          "실시간 블러링",
+          "배치 처리"
+        ],
+        "clone_tip": "iOS Vision Framework 활용하여 MVP 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#프라이버시"
+      ],
+      "verdict": "개인정보보호 트렌드에 맞는 실용적 솔루션",
+      "deep_report_id": "ios-face-guard-video-1781103775813"
+    },
+    {
+      "rank": 2,
+      "name": "Hooklings: 코바늘 & 뜨개질",
+      "developer": "Impala Studios",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/0c/84/ef0c84a6-ff64-0a30-5bd3-9fa6e9c9e1db/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/hooklings-%EC%BD%94%EB%B0%94%EB%8A%98-%EB%9C%A8%EA%B0%9C%EC%A7%88/id6774098375?uo=2",
+      "idea_summary": "코바늘과 뜨개질을 위한 종합 관리 도구",
+      "analysis": {
+        "problem": "뜨개질 프로젝트 관리와 패턴 추적의 어려움 [추론]",
+        "solution": "디지털 뜨개질 프로젝트 매니저와 패턴 라이브러리 [추론]",
+        "target_user": "뜨개질 취미를 가진 20-60대 여성 [추론]",
+        "unique_point": "한국어 지원 뜨개질 전용 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Ravelry",
+          "KnitPro"
+        ],
+        "timing_reason": "팬데믹 이후 홈크래프트 취미 인기 증가 [추론]",
+        "growth_potential": "국내 뜨개질 커뮤니티 성장 잠재력 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 패턴, 구독 서비스 [추론]",
+        "pricing_suggestion": "월 2,000원 또는 패턴당 1,000원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2,000만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "패턴 관리",
+          "프로젝트 추적",
+          "커뮤니티"
+        ],
+        "clone_tip": "기본 프로젝트 트래커로 시작하여 점진적 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓"
+      ],
+      "verdict": "니치하지만 충성도 높은 타겟 시장"
+    },
+    {
+      "rank": 3,
+      "name": "RepScan",
+      "developer": "Syllas AI LLC",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/ce/81/73ce8148-0c1b-f521-18d7-b56bbfde4ae1/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/repscan/id6770093263?uo=2",
+      "idea_summary": "AI 기반 운동 폼 분석 및 반복 수 자동 카운팅",
+      "analysis": {
+        "problem": "운동 시 정확한 폼과 반복 수 측정의 어려움 [추론]",
+        "solution": "카메라를 통한 AI 기반 운동 동작 인식과 카운팅 [추론]",
+        "target_user": "홈트레이닝 하는 피트니스 초보자와 중급자 [추론]",
+        "unique_point": "실시간 폼 교정과 자동 카운팅 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "Nike Training"
+        ],
+        "timing_reason": "홈트레이닝 증가와 AI 기술 접근성 향상 [추론]",
+        "growth_potential": "피트니스 앱 시장 확대와 AI 트렌드 [추측]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 5,000원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "5,000만원 [추론]",
+        "tech_stack": [
+          "Core ML",
+          "Vision Framework",
+          "ARKit"
+        ],
+        "key_features": [
+          "동작 인식",
+          "실시간 피드백",
+          "운동 기록"
+        ],
+        "clone_tip": "간단한 카운터로 시작 후 AI 기능 점진적 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "AI 헬스케어 트렌드의 실용적 구현"
+    },
+    {
+      "rank": 4,
+      "name": "Hot Truck Map",
+      "developer": "Hot Truck Map LLC",
+      "category": "음식 및 음료",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/fc/e2/56fce2d1-7f88-1f25-28a9-15d190766e2b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/hot-truck-map/id6774819599?uo=2",
+      "idea_summary": "푸드트럭 위치와 메뉴를 실시간으로 찾는 지도 앱",
+      "analysis": {
+        "problem": "이동하는 푸드트럭 위치 파악의 어려움 [추론]",
+        "solution": "실시간 GPS 기반 푸드트럭 위치 추적과 메뉴 정보 [추론]",
+        "target_user": "푸드트럭을 찾는 일반인과 푸드트럭 운영자 [추론]",
+        "unique_point": "양방향 플랫폼으로 구매자와 판매자 연결 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Food Truck Finder",
+          "Roaming Hunger"
+        ],
+        "timing_reason": "푸드트럭 문화 확산과 로컬 비즈니스 성장 [추론]",
+        "growth_potential": "국내 푸드트럭 시장 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "푸드트럭 등록비, 광고, 배달 수수료 [추론]",
+        "pricing_suggestion": "트럭당 월 30,000원, 광고비 별도 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-7개월 [추론]",
+        "estimated_cost": "2,500만원 [추론]",
+        "tech_stack": [
+          "MapKit",
+          "Core Location",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간 지도",
+          "알림 시스템",
+          "리뷰 기능"
+        ],
+        "clone_tip": "기본 지도 기능부터 시작하여 커뮤니티 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B2C",
+        "#로컬"
+      ],
+      "verdict": "로컬 비즈니스와 소비자를 연결하는 실용적 솔루션"
+    },
+    {
+      "rank": 5,
+      "name": "Tipbook: Tip Tracker",
+      "developer": "MICHAL HANTL",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/30/ac/eb30acdc-672b-5699-d518-8d8c320deee0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tipbook-tip-tracker/id6775181511?uo=2",
+      "idea_summary": "서비스업 종사자를 위한 팁 수입 추적 관리 도구",
+      "analysis": {
+        "problem": "서비스업 팁 수입의 체계적 관리 어려움 [추론]",
+        "solution": "일별 팁 기록, 통계 분석, 세금 계산 도구 [추론]",
+        "target_user": "배달기사, 서빙 직원, 미용사 등 팁 받는 직업군 [추론]",
+        "unique_point": "팁 특화 가계부 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Mint",
+          "Money Manager"
+        ],
+        "timing_reason": "긱 이코노미 확산과 팁 문화 일반화 [추론]",
+        "growth_potential": "서비스업 종사자 증가 추세 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독, 세금 보고서 유료 [추론]",
+        "pricing_suggestion": "월 2,000원 또는 연 20,000원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1,500만원 [추론]",
+        "tech_stack": [
+          "SwiftUI",
+          "Core Data",
+          "Charts"
+        ],
+        "key_features": [
+          "수입 기록",
+          "통계 차트",
+          "세금 계산"
+        ],
+        "clone_tip": "간단한 수입 기록부터 시작하여 분석 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓"
+      ],
+      "verdict": "서비스업 종사자를 위한 특화된 재무 관리 도구"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "챗봇 AI: 스마트 AI 어시스턴트",
+      "developer": "GONG INTERNATIONAL AGENCY PTE LTD",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/fAakrJ2Q743G4986tsGlxuz2nStof8rHN1Ga7oknj8GUnWCCMPRCfnyOzrNwPHnPJQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.aichat.ask.chatbot.app",
+      "idea_summary": "일상 업무를 도와주는 AI 챗봇 어시스턴트",
+      "analysis": {
+        "problem": "복잡한 AI 서비스에 대한 접근성 부족 [추론]",
+        "solution": "사용하기 쉬운 AI 챗봇 인터페이스 제공 [추론]",
+        "target_user": "AI 서비스가 필요한 일반 사용자 [추론]",
+        "unique_point": "한국어 최적화 AI 어시스턴트 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Claude"
+        ],
+        "timing_reason": "AI 대중화와 모바일 AI 서비스 수요 증가 [추론]",
+        "growth_potential": "AI 서비스 시장 급성장 [확인]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독, 토큰 기반 과금 [추론]",
+        "pricing_suggestion": "월 10,000원 프리미엄 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "3,000만원 [추론]",
+        "tech_stack": [
+          "OpenAI API",
+          "Kotlin",
+          "Retrofit"
+        ],
+        "key_features": [
+          "자연어 처리",
+          "다국어 지원",
+          "대화 기록"
+        ],
+        "clone_tip": "기존 AI API 활용하여 UI/UX에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI"
+      ],
+      "verdict": "AI 트렌드에 편승한 접근성 좋은 서비스",
+      "deep_report_id": "android-챗봇-ai-스마트-ai-어시스턴트-1781103861937"
+    },
+    {
+      "rank": 2,
+      "name": "사진 복구 - 파일 복원",
+      "developer": "Zentechno",
+      "category": "도구",
+      "icon": "https://play-lh.googleusercontent.com/k8H-b7YPAPHUILWmwDdhDOfAWB1x4Cxml28sHjKU_m7le9stixNN1Q4yGtgJY3RcJILO8qN8ZcTb-haTY-TO",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.photosrecovery.videorecovery.file.restore",
+      "idea_summary": "삭제된 사진과 파일을 복구하는 도구",
+      "analysis": {
+        "problem": "실수로 삭제한 중요한 파일 복구 필요 [추론]",
+        "solution": "파일 시스템 스캔을 통한 삭제 파일 복구 [추론]",
+        "target_user": "파일을 실수로 삭제한 일반 사용자 [추론]",
+        "unique_point": "모바일 특화 파일 복구 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Recuva",
+          "DiskDigger"
+        ],
+        "timing_reason": "디지털 데이터 증가와 실수 삭제 빈발 [추론]",
+        "growth_potential": "데이터 보안 의식 향상과 함께 성장 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 복구 기능, 광고 [추론]",
+        "pricing_suggestion": "월 3,000원 또는 일회성 10,000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "4,000만원 [추론]",
+        "tech_stack": [
+          "Native Android",
+          "File System API"
+        ],
+        "key_features": [
+          "파일 스캔",
+          "미리보기",
+          "선택적 복구"
+        ],
+        "clone_tip": "기본 파일 검색부터 시작하여 복구 알고리즘 개선 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "실용적이지만 기술적 제약이 있는 도구"
+    },
+    {
+      "rank": 3,
+      "name": "PDF 리더 & PDF 편집",
+      "developer": "LemonCat Studio",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/cUL8AYNfaCozN1-9slrawcghwK7uyNv2BeS67nc6yOK4ceGekgpDOCUqvJlfs0_k_5vXoEBMPtqqVcohPKbsEj0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.pdf.scanner.editor",
+      "idea_summary": "PDF 읽기와 편집을 한 번에 해결하는 올인원 앱",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집의 불편함 [추론]",
+        "solution": "모바일 최적화된 PDF 뷰어와 편집기 [추론]",
+        "target_user": "모바일로 문서 작업하는 직장인, 학생 [추론]",
+        "unique_point": "모바일 터치 인터페이스 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS Office"
+        ],
+        "timing_reason": "원격근무 증가와 모바일 생산성 툴 수요 [추론]",
+        "growth_potential": "모바일 오피스 시장 성장 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 편집 기능, 구독 [추론]",
+        "pricing_suggestion": "월 5,000원 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-10개월 [추론]",
+        "estimated_cost": "5,000만원 [추론]",
+        "tech_stack": [
+          "PDF Libraries",
+          "Kotlin",
+          "Canvas API"
+        ],
+        "key_features": [
+          "PDF 렌더링",
+          "주석 기능",
+          "텍스트 편집"
+        ],
+        "clone_tip": "PDF.js 기반으로 뷰어부터 구현 후 편집 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "경쟁이 치열하지만 꾸준한 수요가 있는 영역"
+    },
+    {
+      "rank": 4,
+      "name": "NetShort - 인기 드라마 및 TV 프로그램",
+      "developer": "NETSTORY PTE. LTD.",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/ZL5yS20EujtVmUMMNHEnH9AI4NoqjUfjkolH7h44Ap0R2w3Vv1GF3zMGhB1KepyjCcH2a63rbbSl_PIwYxpr",
+      "app_url": "https://play.google.com/store/apps/details?id=com.netshort.abroad",
+      "idea_summary": "숏폼으로 편집된 드라마 하이라이트 스트리밍",
+      "analysis": {
+        "problem": "긴 드라마 시청 시간 부담 [추론]",
+        "solution": "주요 장면만 모은 숏폼 드라마 콘텐츠 [추론]",
+        "target_user": "짧은 시간에 드라마를 즐기려는 젊은 층 [추론]",
+        "unique_point": "기존 콘텐츠의 숏폼 재편집 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "YouTube Shorts",
+          "TikTok"
+        ],
+        "timing_reason": "숏폼 콘텐츠 트렌드와 빠른 소비 패턴 [추론]",
+        "growth_potential": "숏폼 시장 급성장 [확인]"
+      },
+      "business": {
+        "monetization": "구독, 광고, PPV [추론]",
+        "pricing_suggestion": "월 8,000원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "10-12개월 [추론]",
+        "estimated_cost": "8,000만원 [추론]",
+        "tech_stack": [
+          "ExoPlayer",
+          "Kotlin",
+          "CDN"
+        ],
+        "key_features": [
+          "스트리밍",
+          "개인화",
+          "다운로드"
+        ],
+        "clone_tip": "저작권 문제로 오리지널 콘텐츠부터 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#저작권주의",
+        "#B2C",
+        "#엔터테인먼트"
+      ],
+      "verdict": "트렌드에 맞지만 저작권 이슈 존재하는 모델"
+    },
+    {
+      "rank": 5,
+      "name": "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+      "developer": "Start Up",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/1XWr0rMYTGA55d93vVVN_I0aFFhJBNaMzrB44avAe2LrvuXHpvJ-K2kRmK49348rZvquVLjstNVl29o7XmJ0Trc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.alldocument.reader.pdf.viewer",
+      "idea_summary": "한국 특화 문서 포맷을 지원하는 통합 뷰어",
+      "analysis": {
+        "problem": "모바일에서 HWP 등 한국 문서 포맷 지원 부족 [추론]",
+        "solution": "PDF, HWP, DOC 등 다양한 포맷 지원 뷰어 [추론]",
+        "target_user": "한국 문서를 다루는 직장인, 공무원, 학생 [추론]",
+        "unique_point": "HWP 포맷 네이티브 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Polaris Office",
+          "Microsoft Office"
+        ],
+        "timing_reason": "모바일 오피스 사용 증가와 한국 문서 포맷 필요성 [추론]",
+        "growth_potential": "국내 시장에서 안정적 수요 [추측]"
+      },
+      "business": {
+        "monetization": "광고 제거, 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 3,000원 광고 제거 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "4,000만원 [추론]",
+        "tech_stack": [
+          "HWP SDK",
+          "PDF Libraries",
+          "Kotlin"
+        ],
+        "key_features": [
+          "다중 포맷 지원",
+          "텍스트 검색",
+          "인쇄"
+        ],
+        "clone_tip": "PDF부터 시작하여 HWP 라이브러리 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#로컬라이제이션"
+      ],
+      "verdict": "국내 시장 특화된 실용적 도구"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 개인 도구와 프라이버시 보호 앱이 주목받고 있으며, 니치 마켓 타겟팅이 증가하는 추세 [추론]",
+    "trend_details": [
+      "AI 통합 헬스케어 도구",
+      "개인정보보호 강화 앱",
+      "취미 특화 관리 도구",
+      "로컬 비즈니스 연결 플랫폼"
+    ],
+    "hot_categories": [
+      "건강 및 피트니스",
+      "생산성",
+      "라이프스타일"
+    ],
+    "opportunity": "AI와 프라이버시를 결합한 개인 맞춤형 도구 개발 [추론]",
+    "action_item": "소규모 타겟 시장에서 충성도 높은 사용자 확보 전략 수립 [추론]"
+  }
+}
