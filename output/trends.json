@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T15:06:39.382Z",
+  "generatedAt": "2026-06-12T15:06:07.516Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -7,40 +7,28 @@
   "risingCategories": [
     {
       "category": "엔터테인먼트",
-      "currentCount": 4,
+      "currentCount": 5,
       "previousCount": 1,
-      "changePercent": 300,
+      "changePercent": 400,
       "changeDirection": "up",
       "apps": [
+        "SyncPlay - 舞台用ビデオ同期ツール",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "Vitrine: Miniature Painting",
         "NetShort - 인기 드라마 및 TV 프로그램",
         "DramaBox - 미니시리즈 스트리밍 플레이어"
       ],
-      "avgScore": 7.7
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
-      "changeDirection": "up",
-      "apps": [
-        "Hot Truck Map",
-        "RecipeVault Meal Prep",
-        "패스오더 - 카페 가는 길, 미리주문",
-        "Inventaire Congélateur Glacko",
-        "이디야멤버스"
-      ],
-      "avgScore": 7.6
+      "avgScore": 7.56
     },
     {
       "category": "도구",
-      "currentCount": 6,
+      "currentCount": 8,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "QR 스캐너",
+        "QR 코드 & 바코드 스캐너",
         "사진 복구 - 파일 복원",
         "사진 복구 - 파일 복원",
         "setlog",
@@ -48,23 +36,19 @@
         "동영상 다운로더: HD 플레이어",
         "QR 스캐너 & 모든 바코드"
       ],
-      "avgScore": 6.8500000000000005
+      "avgScore": 6.762499999999999
     },
     {
-      "category": "여행",
-      "currentCount": 6,
-      "previousCount": 3,
+      "category": "사진 및 비디오",
+      "currentCount": 2,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "TripMate",
-        "WC Finder - Find public WCs",
-        "Yen Sense: Yen to USD",
-        "NatureLens",
-        "Ebike Point",
-        "Smart Packer"
+        "Face Guard Video",
+        "Cozy Wallpapers"
       ],
-      "avgScore": 7.033333333333334
+      "avgScore": 6.65
     },
     {
       "category": "그래픽 및 디자인",
@@ -113,26 +97,31 @@
       "avgScore": 8
     },
     {
-      "category": "자동차",
+      "category": "비즈니스",
       "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "헤이딜러 - 인증중고차, 내차팔기"
+        "Florist Pro"
       ],
       "avgScore": 7.8
     },
     {
-      "category": "음식 주문",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "여행",
+      "currentCount": 6,
+      "previousCount": 4,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "이삭토스트"
+        "Flights Collector",
+        "TripMate",
+        "WC Finder - Find public WCs",
+        "Yen Sense: Yen to USD",
+        "NatureLens",
+        "Ebike Point"
       ],
-      "avgScore": 7.5
+      "avgScore": 6.933333333333334
     },
     {
       "category": "금융",
@@ -146,16 +135,34 @@
         "Subside: 구독·가계부 관리"
       ],
       "avgScore": 7.933333333333334
+    },
+    {
+      "category": "건강 및 피트니스",
+      "currentCount": 7,
+      "previousCount": 5,
+      "changePercent": 40,
+      "changeDirection": "up",
+      "apps": [
+        "NutriCise AI",
+        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+        "RepScan",
+        "Daily Deen: Muslim Habits & AI",
+        "런데이",
+        "Calorie Crush: Fitness Tracker",
+        "HeartPressure"
+      ],
+      "avgScore": 7.885714285714286
     }
   ],
   "decliningCategories": [
     {
       "category": "생산성",
-      "currentCount": 19,
-      "previousCount": 25,
-      "changePercent": -24,
+      "currentCount": 18,
+      "previousCount": 24,
+      "changePercent": -25,
       "changeDirection": "down",
       "apps": [
+        "setlog",
         "Tipbook: Tip Tracker",
         "챗봇 AI: 스마트 AI 어시스턴트",
         "PDF 리더 & PDF 편집",
@@ -172,11 +179,9 @@
         "ChatGPT",
         "setlog",
         "PDF 리더 및 뷰어",
-        "PDF 리더 - HWP 뷰어",
-        "setlog",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
+        "PDF 리더 - HWP 뷰어"
       ],
-      "avgScore": 7.226315789473683
+      "avgScore": 7.277777777777776
     },
     {
       "category": "라이프스타일",
@@ -185,45 +190,53 @@
       "changePercent": -50,
       "changeDirection": "down",
       "apps": [
+        "Ayumap - Walk & Journey Map",
         "Hooklings: 코바늘 & 뜨개질",
-        "Moodmap: Mood Tracker",
-        "Tinted: Color Analysis"
+        "Moodmap: Mood Tracker"
       ],
-      "avgScore": 7.6000000000000005
+      "avgScore": 7.1000000000000005
     }
   ],
   "stableCategories": [
     {
-      "category": "사진 및 비디오",
-      "currentCount": 2,
-      "previousCount": 2,
+      "category": "참고",
+      "currentCount": 1,
+      "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Face Guard Video",
-        "Cozy Wallpapers"
+        "주얼리 식별: 감정"
       ],
-      "avgScore": 6.65
+      "avgScore": 7.8
     },
     {
-      "category": "건강 및 피트니스",
-      "currentCount": 5,
-      "previousCount": 5,
+      "category": "의료",
+      "currentCount": 1,
+      "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "RepScan",
-        "Daily Deen: Muslim Habits & AI",
-        "런데이",
-        "Calorie Crush: Fitness Tracker",
-        "HeartPressure"
+        "건강보험25시"
       ],
-      "avgScore": 7.62
+      "avgScore": 6.5
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 3,
+      "previousCount": 3,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Hot Truck Map",
+        "RecipeVault Meal Prep",
+        "패스오더 - 카페 가는 길, 미리주문"
+      ],
+      "avgScore": 7.8999999999999995
     },
     {
       "category": "유틸리티",
-      "currentCount": 7,
-      "previousCount": 7,
+      "currentCount": 6,
+      "previousCount": 6,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
@@ -232,40 +245,26 @@
         "사진 복구",
         "LensHunt Pro",
         "대한민국 모바일 신분증",
-        "QR 스캐너",
-        "ApronBoard"
+        "QR 스캐너"
       ],
-      "avgScore": 6.857142857142857
-    },
-    {
-      "category": "비즈니스",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Florist Pro"
-      ],
-      "avgScore": 7.8
-    },
-    {
-      "category": "음악",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Jynth – Physics Analog Synth"
-      ],
-      "avgScore": 6.8
+      "avgScore": 6.833333333333333
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 47,
+      "count": 52,
       "apps": [
+        "Flights Collector",
+        "NutriCise AI",
+        "Ayumap - Walk & Journey Map",
+        "주얼리 식별: 감정",
+        "SyncPlay - 舞台用ビデオ同期ツール",
+        "setlog",
+        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+        "QR 스캐너",
+        "QR 코드 & 바코드 스캐너",
         "Face Guard Video",
         "Hooklings: 코바늘 & 뜨개질",
         "RepScan",
@@ -278,7 +277,6 @@
         "Gosu Chef",
         "PDFChat AI",
         "Daily Deen: Muslim Habits & AI",
-        "setlog",
         "Calorie Crush: Fitness Tracker",
         "Vitrine: Miniature Painting",
         "PromptLume",
@@ -299,22 +297,26 @@
         "Moodmap: Mood Tracker",
         "Yen Sense: Yen to USD",
         "PDF 리더 및 뷰어",
-        "QR 스캐너",
         "PDF 리더 - HWP 뷰어",
         "Whatspoppin: Dublin Nightlife",
         "Florist Pro",
         "초대장 만들기 RSVP 카드 제작 Pro KR",
-        "Ebike Point",
-        "ApronBoard",
-        "Smart Packer",
-        "Inventaire Congélateur Glacko"
+        "Ebike Point"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 40,
+      "count": 45,
       "apps": [
+        "Flights Collector",
+        "NutriCise AI",
+        "Ayumap - Walk & Journey Map",
+        "주얼리 식별: 감정",
+        "setlog",
+        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+        "QR 스캐너",
+        "QR 코드 & 바코드 스캐너",
         "Face Guard Video",
         "Hooklings: 코바늘 & 뜨개질",
         "RepScan",
@@ -329,7 +331,6 @@
         "Vitrine: Miniature Painting",
         "Cozy Wallpapers",
         "금일 뉴스",
-        "setlog",
         "Claude by Anthropic",
         "LensHunt Pro",
         "Padel: Score Tracker",
@@ -345,13 +346,9 @@
         "Moodmap: Mood Tracker",
         "Yen Sense: Yen to USD",
         "대한민국 모바일 신분증",
-        "QR 스캐너",
         "Whatspoppin: Dublin Nightlife",
         "초대장 만들기 RSVP 카드 제작 Pro KR",
-        "Ebike Point",
-        "ApronBoard",
-        "Smart Packer",
-        "Tinted: Color Analysis"
+        "Ebike Point"
       ]
     },
     {
@@ -359,6 +356,8 @@
       "category": "ai",
       "count": 24,
       "apps": [
+        "NutriCise AI",
+        "주얼리 식별: 감정",
         "Face Guard Video",
         "RepScan",
         "챗봇 AI: 스마트 AI 어시스턴트",
@@ -371,26 +370,49 @@
         "ChatGPT",
         "NatureLens",
         "동영상 다운로더: HD 플레이어",
-        "QR 스캐너 & 모든 바코드",
-        "Smart Packer",
-        "Tinted: Color Analysis",
-        "Inventaire Congélateur Glacko"
+        "QR 스캐너 & 모든 바코드"
       ]
     },
     {
       "keyword": "B2B",
       "category": "tag",
-      "count": 9,
+      "count": 8,
       "apps": [
+        "SyncPlay - 舞台用ビデオ同期ツール",
         "Room Media Wall",
         "PromptLume",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "Votera",
         "PDF 리더 및 뷰어",
         "PDF 리더 - HWP 뷰어",
-        "Florist Pro",
-        "Jynth – Physics Analog Synth",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
+        "Florist Pro"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "productivity",
+      "count": 8,
+      "apps": [
+        "setlog",
+        "PDF 리더 & PDF 편집",
+        "PDFChat AI",
+        "문서 뷰어: PDF, Word",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너",
+        "PDF 리더 및 뷰어"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 8,
+      "apps": [
+        "QR 스캐너",
+        "QR 코드 & 바코드 스캐너",
+        "사진 복구 - 파일 복원",
+        "사진 복구",
+        "동영상 다운로더: HD 플레이어",
+        "QR 스캐너 & 모든 바코드"
       ]
     },
     {
@@ -407,53 +429,15 @@
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 7,
-      "apps": [
-        "PDF 리더 & PDF 편집",
-        "PDFChat AI",
-        "문서 뷰어: PDF, Word",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너",
-        "PDF 리더 및 뷰어"
-      ]
-    },
-    {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 6,
-      "apps": [
-        "Face Guard Video",
-        "Dartore: Darts calculator app",
-        "HeartPressure",
-        "UltraGuard VPN: Fast & Secure",
-        "ApronBoard",
-        "Smart Packer"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "사진 복구 - 파일 복원",
-        "사진 복구",
-        "QR 스캐너",
-        "동영상 다운로더: HD 플레이어",
-        "QR 스캐너 & 모든 바코드"
-      ]
-    },
-    {
       "keyword": "헬스케어",
       "category": "health",
-      "count": 5,
+      "count": 6,
       "apps": [
+        "NutriCise AI",
         "RepScan",
         "런데이",
         "Calorie Crush: Fitness Tracker",
-        "RecipeVault Meal Prep",
-        "setlog"
+        "RecipeVault Meal Prep"
       ]
     },
     {
@@ -467,23 +451,63 @@
       ]
     },
     {
-      "keyword": "라이프스타일",
-      "category": "tag",
+      "keyword": "프로",
+      "category": "subscription",
       "count": 4,
       "apps": [
-        "Gosu Chef",
-        "RecipeVault Meal Prep",
-        "ApronBoard",
-        "Inventaire Congélateur Glacko"
+        "Ayumap - Walk & Journey Map",
+        "Hooklings: 코바늘 & 뜨개질",
+        "NetShort - 인기 드라마 및 TV 프로그램"
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
+      "keyword": "피트니스",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+        "setlog"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 4,
+      "apps": [
+        "Face Guard Video",
+        "Dartore: Darts calculator app",
+        "HeartPressure",
+        "UltraGuard VPN: Fast & Secure"
+      ]
+    },
+    {
+      "keyword": "여행",
+      "category": "tag",
       "count": 3,
       "apps": [
-        "Hooklings: 코바늘 & 뜨개질",
-        "NetShort - 인기 드라마 및 TV 프로그램"
+        "Flights Collector",
+        "TripMate",
+        "Yen Sense: Yen to USD"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "SyncPlay - 舞台用ビデオ同期ツール",
+        "Face Guard Video",
+        "동영상 다운로더: HD 플레이어"
+      ]
+    },
+    {
+      "keyword": "디지털전환",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "건강보험25시",
+        "디지털온누리",
+        "대한민국 모바일 신분증"
       ]
     },
     {
@@ -506,24 +530,6 @@
       ]
     },
     {
-      "keyword": "여행",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "TripMate",
-        "Yen Sense: Yen to USD",
-        "Smart Packer"
-      ]
-    },
-    {
-      "keyword": "피트니스",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "setlog"
-      ]
-    },
-    {
       "keyword": "핀테크",
       "category": "tag",
       "count": 3,
@@ -534,30 +540,21 @@
       ]
     },
     {
+      "keyword": "전문도구",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "SyncPlay - 舞台用ビデオ同期ツール",
+        "LensHunt Pro"
+      ]
+    },
+    {
       "keyword": "자동화",
       "category": "productivity",
       "count": 2,
       "apps": [
         "Face Guard Video",
         "Florist Pro"
-      ]
-    },
-    {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 2,
-      "apps": [
-        "Face Guard Video",
-        "동영상 다운로더: HD 플레이어"
-      ]
-    },
-    {
-      "keyword": "B2B2C",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Hot Truck Map",
-        "패스오더 - 카페 가는 길, 미리주문"
       ]
     }
   ],
@@ -567,52 +564,52 @@
         "count": 16,
         "percent": 23,
         "examples": [
-          "Padel: Score Tracker",
-          "Dartore: Darts calculator app",
-          "WC Finder - Find public WCs"
+          "QR 스캐너",
+          "QR 코드 & 바코드 스캐너",
+          "건강보험25시"
         ]
       },
       "freemium": {
-        "count": 54,
-        "percent": 77,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "Face Guard Video",
-          "Hooklings: 코바늘 & 뜨개질",
-          "RepScan"
+          "Flights Collector",
+          "NutriCise AI",
+          "Ayumap - Walk & Journey Map"
         ]
       },
       "subscription": {
-        "count": 37,
-        "percent": 53,
+        "count": 40,
+        "percent": 57,
         "examples": [
-          "Face Guard Video",
-          "Hooklings: 코바늘 & 뜨개질",
-          "RepScan"
+          "Flights Collector",
+          "NutriCise AI",
+          "Ayumap - Walk & Journey Map"
         ]
       },
       "onetime": {
         "count": 12,
         "percent": 17,
         "examples": [
-          "Face Guard Video",
-          "Tipbook: Tip Tracker",
-          "사진 복구 - 파일 복원"
+          "SyncPlay - 舞台用ビデオ同期ツール",
+          "QR 코드 & 바코드 스캐너",
+          "Face Guard Video"
         ]
       },
       "unknown": {
-        "count": 5,
-        "percent": 7,
+        "count": 3,
+        "percent": 4,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 54,
-      "percent": 77,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "Face Guard Video",
-        "Hooklings: 코바늘 & 뜨개질",
-        "RepScan"
+        "Flights Collector",
+        "NutriCise AI",
+        "Ayumap - Walk & Journey Map"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -620,39 +617,39 @@
   "techTrends": {
     "trends": [
       {
-        "tech": "ar_vr",
-        "count": 18,
-        "percent": 26,
+        "tech": "ai",
+        "count": 19,
+        "percent": 27,
         "apps": [
-          "Face Guard Video",
-          "RepScan",
-          "Tipbook: Tip Tracker",
-          "PDF 리더 & PDF 편집",
-          "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
+          "NutriCise AI",
+          "주얼리 식별: 감정",
+          "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+          "QR 스캐너",
+          "QR 코드 & 바코드 스캐너"
         ]
       },
       {
-        "tech": "ai",
-        "count": 17,
-        "percent": 24,
+        "tech": "ar_vr",
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "setlog",
           "Face Guard Video",
           "RepScan",
-          "챗봇 AI: 스마트 AI 어시스턴트",
-          "PDFChat AI",
-          "Daily Deen: Muslim Habits & AI"
+          "Tipbook: Tip Tracker",
+          "PDF 리더 & PDF 편집"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "SyncPlay - 舞台用ビデオ同期ツール",
           "Face Guard Video",
           "PDF 리더 & PDF 편집",
           "NetShort - 인기 드라마 및 TV 프로그램",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너"
+          "PDF 뷰어 - PDF Reader & PDF 편집"
         ]
       },
       {
@@ -660,11 +657,11 @@
         "count": 5,
         "percent": 7,
         "apps": [
+          "Ayumap - Walk & Journey Map",
           "Hooklings: 코바늘 & 뜨개질",
           "NetShort - 인기 드라마 및 TV 프로그램",
           "NetShort - 인기 드라마 및 TV 프로그램",
-          "Subside: 구독·가계부 관리",
-          "이디야멤버스"
+          "Subside: 구독·가계부 관리"
         ]
       },
       {
@@ -672,10 +669,28 @@
         "count": 4,
         "percent": 6,
         "apps": [
+          "setlog",
           "PDF 뷰어 - PDF Reader & PDF 편집",
           "Votera",
-          "Florist Pro",
-          "Smart Packer"
+          "Florist Pro"
+        ]
+      },
+      {
+        "tech": "health",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "NutriCise AI",
+          "RepScan"
+        ]
+      },
+      {
+        "tech": "fintech",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "건강보험25시",
+          "Nume - Your AI CFO"
         ]
       },
       {
@@ -694,71 +709,55 @@
         "apps": [
           "대한민국 모바일 신분증"
         ]
-      },
-      {
-        "tech": "health",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "RepScan"
-        ]
-      },
-      {
-        "tech": "fintech",
-        "count": 1,
-        "percent": 1,
-        "apps": [
-          "Nume - Your AI CFO"
-        ]
       }
     ],
     "dominant": {
-      "tech": "ar_vr",
-      "count": 18,
-      "percent": 26,
+      "tech": "ai",
+      "count": 19,
+      "percent": 27,
       "apps": [
-        "Face Guard Video",
-        "RepScan",
-        "Tipbook: Tip Tracker",
-        "PDF 리더 & PDF 편집",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
+        "NutriCise AI",
+        "주얼리 식별: 감정",
+        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+        "QR 스캐너",
+        "QR 코드 & 바코드 스캐너"
       ]
     },
     "emerging": [
       {
-        "tech": "ar_vr",
-        "count": 18,
-        "percent": 26,
+        "tech": "ai",
+        "count": 19,
+        "percent": 27,
         "apps": [
-          "Face Guard Video",
-          "RepScan",
-          "Tipbook: Tip Tracker",
-          "PDF 리더 & PDF 편집",
-          "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
+          "NutriCise AI",
+          "주얼리 식별: 감정",
+          "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+          "QR 스캐너",
+          "QR 코드 & 바코드 스캐너"
         ]
       },
       {
-        "tech": "ai",
-        "count": 17,
-        "percent": 24,
+        "tech": "ar_vr",
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "setlog",
           "Face Guard Video",
           "RepScan",
-          "챗봇 AI: 스마트 AI 어시스턴트",
-          "PDFChat AI",
-          "Daily Deen: Muslim Habits & AI"
+          "Tipbook: Tip Tracker",
+          "PDF 리더 & PDF 편집"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "SyncPlay - 舞台用ビデオ同期ツール",
           "Face Guard Video",
           "PDF 리더 & PDF 편집",
           "NetShort - 인기 드라마 및 TV 프로그램",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너"
+          "PDF 뷰어 - PDF Reader & PDF 편집"
         ]
       }
     ]
@@ -766,10 +765,10 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "엔터테인먼트 카테고리 급부상",
-      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "사진 및 비디오 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "엔터테인먼트"
+      "category": "사진 및 비디오"
     },
     {
       "type": "rising_category",
@@ -801,17 +800,10 @@
     },
     {
       "type": "rising_category",
-      "title": "자동차 카테고리 급부상",
+      "title": "비즈니스 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "자동차"
-    },
-    {
-      "type": "rising_category",
-      "title": "음식 주문 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "음식 주문"
+      "category": "비즈니스"
     },
     {
       "type": "rising_category",
@@ -823,25 +815,26 @@
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "24%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "27%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "엔터테인먼트 카테고리가 300% 급성장하며 경쟁이 적은 블루오션을 형성하고 있습니다. AI 기능 통합(24%)과 AR/VR 기술(26%)이 새로운 차별화 요소로 떠오르며, freemium 모델(77%)이 수익화 표준이 되고 있습니다.",
+    "trend_summary": "엔터테인먼트 카테고리가 400% 급성장하며 시장을 주도하고 있고, AI 통합과 크리에이터 도구가 핵심 트렌드로 부상했습니다. Freemium 모델이 79%를 차지하며 수익화 주류로 자리잡았습니다.",
     "trend_details": [
-      "엔터테인먼트 앱 300% 급성장하지만 경쟁 앱 수는 단 4개",
-      "AI 기능 통합률 24%로 미적용 영역에서 차별화 기회 존재",
-      "freemium 모델 77% 채택으로 무료+프리미엄 전략 필수",
-      "1인개발가능 태그 47회 언급으로 솔로 개발자 친화적 시장 형성"
+      "1인 개발자 친화적 앱이 52회 언급되며 솔로 개발 트렌드 확산",
+      "AI 기능 탑재 앱이 27%로 차별화 요소로 정착",
+      "B2C 시장이 B2B 대비 5.6배 높은 관심도로 소비자 중심 앱 선호",
+      "AR/VR 기술이 19%로 차세대 인터페이스로 주목",
+      "Subscription 모델과 Freemium 조합이 57%+79% 중복으로 안정적 수익 구조 형성"
     ],
     "hot_categories": [
       "엔터테인먼트",
-      "그래픽 및 디자인"
+      "도구"
     ],
-    "opportunity": "엔터테인먼트나 그래픽 디자인 분야에서 AI 기능을 통합한 freemium 앱으로 경쟁이 적은 시장 선점 가능",
-    "action_item": "엔터테인먼트 또는 그래픽 디자인 카테고리에서 AI 기반 핵심 기능 1개를 포함한 MVP를 30일 내 개발하라",
-    "weekly_theme": "AI 엔터테인먼트"
+    "opportunity": "사진/비디오와 그래픽/디자인 카테고리는 100% 성장했지만 앱 수가 적어 AI 기능을 접목한 크리에이터 도구로 진입하기 최적입니다.",
+    "action_item": "사진 편집이나 그래픽 디자인에 AI 자동화 기능을 추가한 freemium 앱을 개발하여 급성장 카테고리에 진입하세요.",
+    "weekly_theme": "AI 크리에이터"
   }
 }
