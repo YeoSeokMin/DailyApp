@@ -1,0 +1,626 @@
+{
+  "date": "2026-06-14",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "PeakSpan live",
+      "developer": "OMDA Global s.r.o.",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/9a/85/b19a85d8-40a0-83ea-cd79-4385114a7aea/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/peakspan-live/id6774748827?uo=2",
+      "idea_summary": "실시간 운동 라이브 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "홈트레이닝 시 동기부여 부족과 올바른 자세 확인 어려움 [추론]",
+        "solution": "실시간 라이브 운동 세션과 인터랙티브 피드백 제공 [추론]",
+        "target_user": "20-40대 홈트레이닝 선호하는 직장인 [추론]",
+        "unique_point": "실시간 라이브 운동 세션과 즉시 피드백 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nike Training Club",
+          "Peloton Digital"
+        ],
+        "timing_reason": "코로나 이후 홈피트니스 시장 급성장 [추론]",
+        "growth_potential": "라이브 피트니스 시장 연평균 30% 성장 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독료 및 프리미엄 라이브 클래스 [추론]",
+        "pricing_suggestion": "월 9,900원 기본, 19,900원 프리미엄 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "WebRTC",
+          "Firebase"
+        ],
+        "key_features": [
+          "라이브 스트리밍",
+          "실시간 채팅",
+          "운동 기록"
+        ],
+        "clone_tip": "WebRTC 기술과 실시간 통신 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#구독모델"
+      ],
+      "verdict": "라이브 피트니스는 블루오션, 기술 구현 도전적",
+      "deep_report_id": "ios-peakspan-live-1781363145092"
+    },
+    {
+      "rank": 2,
+      "name": "YASETOMO",
+      "developer": "TSUNEHARA HIROCHIKA",
+      "category": "건강 및 피트니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/93/35/1b93351c-cd70-6876-b097-eb686b547578/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/yasetomo/id6778745720?uo=2",
+      "idea_summary": "AI 기반 개인 맞춤 다이어트 코치",
+      "analysis": {
+        "problem": "개인별 체질과 생활패턴을 고려한 다이어트 계획 부재 [추론]",
+        "solution": "AI 분석으로 개인 맞춤 식단과 운동 플랜 제공 [추론]",
+        "target_user": "다이어트를 시도하는 20-40대 여성 [추론]",
+        "unique_point": "일본식 세심한 개인 맞춤화와 AI 분석 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyFitnessPal",
+          "눔"
+        ],
+        "timing_reason": "개인화 헬스케어와 AI 기술 성숙 [추론]",
+        "growth_potential": "디지털 헬스케어 시장 연 25% 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독과 개인 코칭 서비스 [추론]",
+        "pricing_suggestion": "월 12,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "TensorFlow",
+          "Cloud Functions"
+        ],
+        "key_features": [
+          "AI 분석",
+          "개인화 추천",
+          "진행률 추적"
+        ],
+        "clone_tip": "AI 모델 학습 데이터 확보가 핵심 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#AI활용",
+        "#헬스케어"
+      ],
+      "verdict": "경쟁 치열하지만 개인화가 차별점"
+    },
+    {
+      "rank": 3,
+      "name": "Coach Flow App",
+      "developer": "Igor Rodionov",
+      "category": "비즈니스",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/eb/3b/3feb3bf6-2143-a842-bfac-827babd424a3/AppIcon-0-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/coach-flow-app/id6759304116?uo=2",
+      "idea_summary": "코칭 세션 관리 올인원 플랫폼",
+      "analysis": {
+        "problem": "개인 코치들의 클라이언트 관리와 세션 스케줄링 복잡성 [추론]",
+        "solution": "예약부터 결제까지 코칭 업무 전체 자동화 [추론]",
+        "target_user": "개인 코치, 컨설턴트, 강사 [추론]",
+        "unique_point": "코칭 특화된 CRM과 자동화 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Calendly",
+          "Acuity Scheduling"
+        ],
+        "timing_reason": "1인 창업과 개인 서비스업 급증 [추론]",
+        "growth_potential": "개인 서비스업 디지털화 트렌드 [추론]"
+      },
+      "business": {
+        "monetization": "월 구독료와 거래 수수료 [추론]",
+        "pricing_suggestion": "월 29,900원 프로 플랜 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "React",
+          "Node.js",
+          "PostgreSQL"
+        ],
+        "key_features": [
+          "스케줄링",
+          "결제 연동",
+          "클라이언트 관리"
+        ],
+        "clone_tip": "기존 SaaS 도구들과 차별화된 UX 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#B2B",
+        "#SaaS",
+        "#1인개발가능"
+      ],
+      "verdict": "틈새 시장이지만 충성도 높은 사용자층"
+    },
+    {
+      "rank": 4,
+      "name": "ZotMeet",
+      "developer": "ICSSC",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/33/1f/d2331f5a-d70d-7431-0053-48f8582501cc/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/zotmeet/id6773529198?uo=2",
+      "idea_summary": "대학생 스터디 매칭 플랫폼",
+      "analysis": {
+        "problem": "같은 수업 듣는 학생들끼리 스터디 그룹 찾기 어려움 [추론]",
+        "solution": "수업별 스터디 그룹 자동 매칭 서비스 [추론]",
+        "target_user": "대학생, 특히 온라인 수업 수강생 [추론]",
+        "unique_point": "수업 데이터 기반 자동 매칭 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "StudyBlue",
+          "학습 커뮤니티"
+        ],
+        "timing_reason": "온라인 교육 확산과 학습 고립감 증가 [추론]",
+        "growth_potential": "에듀테크 시장 지속 성장세 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 매칭과 스터디 도구 구독 [추론]",
+        "pricing_suggestion": "월 4,900원 학생 할인가 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "1000-2000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "알고리즘"
+        ],
+        "key_features": [
+          "매칭 알고리즘",
+          "채팅",
+          "일정 관리"
+        ],
+        "clone_tip": "대학별 수업 데이터 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#교육",
+        "#매칭",
+        "#학생타겟"
+      ],
+      "verdict": "학생 시장의 확장성 제한적이지만 충성도 높음"
+    },
+    {
+      "rank": 5,
+      "name": "Phoder: Photo Organize Cleanup",
+      "developer": "Yuan Ding",
+      "category": "사진 및 비디오",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/8c/c3/e38cc3fa-24db-503b-4512-016d7ded0c2b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/phoder-photo-organize-cleanup/id6776930198?uo=2",
+      "idea_summary": "AI 기반 사진 자동 정리 도구",
+      "analysis": {
+        "problem": "스마트폰 사진 폴더 관리와 중복 사진 정리 번거로움 [추론]",
+        "solution": "AI로 사진 분류, 중복 제거, 자동 앨범 생성 [추론]",
+        "target_user": "사진을 많이 찍는 일반 사용자 [추론]",
+        "unique_point": "머신러닝 기반 지능형 사진 분류 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Photos",
+          "Apple Photos"
+        ],
+        "timing_reason": "스마트폰 저장공간 부족 문제 심화 [추론]",
+        "growth_potential": "사진 관리 앱 시장 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능과 클라우드 저장공간 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000-3500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "CloudKit"
+        ],
+        "key_features": [
+          "이미지 분석",
+          "중복 탐지",
+          "자동 분류"
+        ],
+        "clone_tip": "이미지 인식 모델 최적화가 성능 좌우 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#유틸리티",
+        "#AI활용",
+        "#구독모델"
+      ],
+      "verdict": "필수 기능이지만 대기업 경쟁 치열"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "목표 설정과 달성 과정 기록 앱",
+      "analysis": {
+        "problem": "목표 설정 후 지속적인 추진과 진행 상황 관리 어려움 [추론]",
+        "solution": "체계적인 목표 세분화와 일일 진행상황 로깅 [추론]",
+        "target_user": "자기계발에 관심 있는 20-30대 직장인 [추론]",
+        "unique_point": "목표를 세부 액션으로 나누어 체계적 관리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "Notion"
+        ],
+        "timing_reason": "목표 달성과 자기계발 트렌드 확산 [추론]",
+        "growth_potential": "생산성 앱 시장 꾸준한 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독과 템플릿 판매 [추론]",
+        "pricing_suggestion": "월 4,900원 프리미엄 플랜 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "800-1500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "SQLite",
+          "Chart.js"
+        ],
+        "key_features": [
+          "목표 설정",
+          "진행률 시각화",
+          "리마인더"
+        ],
+        "clone_tip": "사용자 동기부여 UX 디자인이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#생산성",
+        "#자기계발",
+        "#1인개발가능"
+      ],
+      "verdict": "심플하지만 꾸준한 사용자층 확보 가능",
+      "deep_report_id": "android-setlog-1781363236333"
+    },
+    {
+      "rank": 2,
+      "name": "PDF 뷰어 - PDF Reader & PDF 편집",
+      "developer": "QR Code Scanner.",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/p7UjieGX-cpDqr86d_L1vUW7v-5z_61vbkxF5GapbMTbJQsYHxhJURNdPg1t0ns81a3EWAb-ZnPb5sNpzf6C",
+      "app_url": "https://play.google.com/store/apps/details?id=pdf.pdfreader.viewer.editor.free",
+      "idea_summary": "올인원 PDF 관리 도구",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집과 관리 기능 제한적 [확인]",
+        "solution": "뷰어, 편집, 주석, 서명 등 통합 기능 제공 [추론]",
+        "target_user": "업무용 문서를 다루는 모든 직장인 [추론]",
+        "unique_point": "무료 앱 중 편집 기능까지 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS Office"
+        ],
+        "timing_reason": "원격근무 증가로 모바일 문서 작업 필요 [추론]",
+        "growth_potential": "문서 디지털화 트렌드 지속 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료모델과 프리미엄 구독 [추론]",
+        "pricing_suggestion": "월 3,900원 광고 제거 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-7개월 [추론]",
+        "estimated_cost": "2500-4000만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "PDF.js",
+          "Canvas API"
+        ],
+        "key_features": [
+          "PDF 렌더링",
+          "편집 도구",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "PDF 렌더링 성능과 편집 기능 구현 복잡 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#생산성",
+        "#문서편집",
+        "#필수도구"
+      ],
+      "verdict": "시장 포화지만 여전히 수요 있는 영역"
+    },
+    {
+      "rank": 3,
+      "name": "QR 스캐너",
+      "developer": "P & L Studio",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/NCMgeAAo4RdMYt4THbMRyY0T54OCavHgqZ-B6HIbYGj_6zbDjcdTvF_czQLUoDQHyoIqpUlz0xSlmCG2uagwYA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree",
+      "idea_summary": "빠르고 정확한 QR 코드 스캐너",
+      "analysis": {
+        "problem": "기본 카메라 앱 QR 인식 속도와 정확도 부족 [추론]",
+        "solution": "최적화된 스캔 엔진과 히스토리 관리 기능 [추론]",
+        "target_user": "QR 코드를 자주 사용하는 모든 연령층 [추론]",
+        "unique_point": "빠른 인식 속도와 스캔 히스토리 보관 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기본 카메라 앱",
+          "다양한 QR 앱들"
+        ],
+        "timing_reason": "디지털 결제와 디지털 메뉴 확산 [추론]",
+        "growth_potential": "QR 코드 사용 확산으로 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 1,900원 광고 제거 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-800만원 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "ML Kit",
+          "SQLite"
+        ],
+        "key_features": [
+          "QR 인식",
+          "히스토리",
+          "생성 도구"
+        ],
+        "clone_tip": "카메라 최적화와 빠른 인식 속도 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#유틸리티",
+        "#필수앱",
+        "#간단구현"
+      ],
+      "verdict": "단순하지만 높은 사용 빈도로 안정적 수익"
+    },
+    {
+      "rank": 4,
+      "name": "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+      "developer": "Start Up",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/1XWr0rMYTGA55d93vVVN_I0aFFhJBNaMzrB44avAe2LrvuXHpvJ-K2kRmK49348rZvquVLjstNVl29o7XmJ0Trc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.alldocument.reader.pdf.viewer",
+      "idea_summary": "한국형 문서 전용 뷰어",
+      "analysis": {
+        "problem": "HWP 등 한국 고유 문서 포맷 모바일 지원 부족 [확인]",
+        "solution": "HWP, PDF 등 다양한 문서 포맷 통합 뷰어 [추론]",
+        "target_user": "한국의 직장인, 학생, 공무원 [추론]",
+        "unique_point": "HWP 파일 모바일 최적화 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "한컴오피스 뷰어",
+          "MS Office"
+        ],
+        "timing_reason": "공공기관 디지털화와 모바일 업무 증가 [추론]",
+        "growth_potential": "한국 시장 특수성으로 꾸준한 수요 [추론]"
+      },
+      "business": {
+        "monetization": "광고와 프리미엄 편집 기능 [추론]",
+        "pricing_suggestion": "월 2,900원 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-8개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Java",
+          "HWP SDK",
+          "PDF 라이브러리"
+        ],
+        "key_features": [
+          "다중 포맷 지원",
+          "문서 변환",
+          "클라우드 연동"
+        ],
+        "clone_tip": "HWP 파일 파싱 기술 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 6.9
+      },
+      "tags": [
+        "#로컬라이제이션",
+        "#B2B",
+        "#필수도구"
+      ],
+      "verdict": "한국 시장 한정이지만 강한 니즈 존재"
+    },
+    {
+      "rank": 5,
+      "name": "QR 코드 & 바코드 스캐너",
+      "developer": "SolaraSoft",
+      "category": "유틸리티",
+      "icon": "https://play-lh.googleusercontent.com/_Ko_nKPGVB_QjJGGkX9kIvrQvsgKJSEdqLk8LzTe-dxz7Hj0NPGOr0qgcw2RhWbedcI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.solara.qrcodescanner",
+      "idea_summary": "QR과 바코드 통합 스캐너",
+      "analysis": {
+        "problem": "QR 코드와 바코드를 위한 별도 앱 사용 불편 [추론]",
+        "solution": "QR, 바코드, 데이터매트릭스 등 통합 인식 [추론]",
+        "target_user": "쇼핑과 비즈니스에서 코드를 자주 스캔하는 사용자 [추론]",
+        "unique_point": "다양한 코드 타입 통합 지원과 가격 비교 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "개별 스캐너 앱들",
+          "쇼핑 앱 내장 기능"
+        ],
+        "timing_reason": "O2O 커머스와 디지털 결제 확산 [추론]",
+        "growth_potential": "코드 기반 서비스 증가로 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고와 쇼핑 제휴 수수료 [추론]",
+        "pricing_suggestion": "월 1,900원 광고 제거 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1200만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Vision API",
+          "상품 DB"
+        ],
+        "key_features": [
+          "다중 코드 인식",
+          "상품 정보",
+          "가격 비교"
+        ],
+        "clone_tip": "상품 정보 API 연동과 수익화 모델 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.1
+      },
+      "tags": [
+        "#쇼핑",
+        "#유틸리티",
+        "#제휴수익"
+      ],
+      "verdict": "기본 기능에 쇼핑 연계로 수익화 가능"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "실시간 라이브 서비스와 AI 개인화 기능이 주요 트렌드로 부상하고 있음 [추론]. 특히 홈피트니스와 개인 코칭 분야에서 혁신적 접근이 두드러짐 [추론].",
+    "trend_details": [
+      "라이브 스트리밍 기반 피트니스 서비스",
+      "AI 개인 맞춤화 헬스케어",
+      "1인 비즈니스 지원 도구",
+      "모바일 문서 편집 고도화",
+      "코드 기반 서비스 확산"
+    ],
+    "hot_categories": [
+      "건강 및 피트니스",
+      "생산성",
+      "비즈니스"
+    ],
+    "opportunity": "실시간 인터랙션과 AI 개인화를 결합한 서비스 영역에 블루오션 존재 [추론]",
+    "action_item": "라이브 커머스처럼 실시간성을 활용한 새로운 서비스 모델 탐색 필요 [추론]"
+  }
+}
