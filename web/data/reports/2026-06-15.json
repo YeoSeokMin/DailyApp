@@ -1,0 +1,624 @@
+{
+  "date": "2026-06-15",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "ChatPort: Text Message Export",
+      "developer": "Aman Singhal",
+      "category": "유틸리티",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/be/af/0c/beaf0c8b-58b8-7d6b-0948-d7631c63e480/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/chatport-text-message-export/id6776283199?uo=2",
+      "idea_summary": "문자메시지 데이터 백업 및 내보내기 솔루션",
+      "analysis": {
+        "problem": "문자메시지 데이터 백업 및 이전 시 어려움 [추론]",
+        "solution": "간편한 문자메시지 내보내기 및 백업 기능 제공 [추론]",
+        "target_user": "폰 교체나 데이터 백업 필요한 일반 사용자 [추론]",
+        "unique_point": "문자메시지 특화 백업 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 백업앱",
+          "클라우드 백업 서비스"
+        ],
+        "timing_reason": "개인 데이터 보호 및 백업 니즈 증가 [추론]",
+        "growth_potential": "틈새시장이지만 꾸준한 수요 [추측]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 프리미엄 기능 [추론]",
+        "pricing_suggestion": "일회성 구매 2-5달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "iOS SDK",
+          "데이터 처리",
+          "파일 포맷"
+        ],
+        "key_features": [
+          "메시지 읽기",
+          "데이터 변환",
+          "파일 내보내기"
+        ],
+        "clone_tip": "iOS 메시지 접근 권한 및 다양한 포맷 지원 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "틈새 시장이지만 명확한 니즈가 있는 앱",
+      "deep_report_id": "ios-chatport-text-message-export-1781449391488"
+    },
+    {
+      "rank": 2,
+      "name": "Tabreakr",
+      "developer": "Curiospry Technologies Private Limited",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/cf/09/81cf099b-def8-b73d-5a5c-7e687869a1cf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tabreakr/id6777893369?uo=2",
+      "idea_summary": "탭 관리 및 브라우징 효율성 향상 도구",
+      "analysis": {
+        "problem": "브라우저 탭 과다로 인한 집중력 저하 및 메모리 문제 [추론]",
+        "solution": "탭 정리 및 관리 도구 제공 [추론]",
+        "target_user": "웹 워크 중심의 지식근로자 및 학생 [추론]",
+        "unique_point": "탭 정리에 특화된 생산성 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "브라우저 확장프로그램",
+          "일반 생산성 앱"
+        ],
+        "timing_reason": "재택근무 증가로 웹 기반 업무 확산 [추론]",
+        "growth_potential": "생산성 도구 시장 확장 중 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델 또는 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 구독 3-5달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "웹뷰",
+          "데이터베이스",
+          "알림 시스템"
+        ],
+        "key_features": [
+          "탭 모니터링",
+          "정리 알고리즘",
+          "통계 제공"
+        ],
+        "clone_tip": "브라우저 API 활용 및 사용 패턴 분석 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#생산성"
+      ],
+      "verdict": "재택근무 시대 맞춤형 생산성 도구"
+    },
+    {
+      "rank": 3,
+      "name": "Flower Language: Bouquet",
+      "developer": "Phuc Pham",
+      "category": "라이프스타일",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/70/2c/49702ca2-a9b2-7411-8ba0-487c2ae9463c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/flower-language-bouquet/id6778891811?uo=2",
+      "idea_summary": "꽃말과 부케 조합으로 감정 표현 가이드",
+      "analysis": {
+        "problem": "꽃 선물 시 의미 전달의 어려움 [추론]",
+        "solution": "꽃말 기반 부케 추천 및 가이드 제공 [추론]",
+        "target_user": "꽃 선물을 자주 하는 20-40대 [추론]",
+        "unique_point": "꽃말 교육과 실용적 부케 가이드 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "꽃 주문 앱",
+          "선물 추천 앱"
+        ],
+        "timing_reason": "개인적 의미 부여 트렌드 증가 [추론]",
+        "growth_potential": "틈새시장이지만 충성도 높은 사용자층 [추측]"
+      },
+      "business": {
+        "monetization": "앱 내 구매 및 꽃집 제휴 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 기능 월 2달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "데이터베이스",
+          "UI/UX",
+          "이미지 처리"
+        ],
+        "key_features": [
+          "꽃말 DB",
+          "부케 시뮬레이터",
+          "추천 알고리즘"
+        ],
+        "clone_tip": "풍부한 꽃말 데이터베이스 구축이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#라이프스타일"
+      ],
+      "verdict": "독특한 아이디어로 틈새시장 공략 가능"
+    },
+    {
+      "rank": 4,
+      "name": "ClipCode",
+      "developer": "Karan Soni",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/5e/1b/955e1bbb-b5d5-2ee6-8e1b-c73ff87d3c91/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/clipcode/id6770105307?uo=2",
+      "idea_summary": "클립보드 관리 및 코드 스니펫 도구",
+      "analysis": {
+        "problem": "개발자의 코드 스니펫 관리 및 클립보드 효율성 [추론]",
+        "solution": "스마트 클립보드 관리 및 코드 정리 기능 [추론]",
+        "target_user": "개발자 및 프로그래머 [추론]",
+        "unique_point": "코드 특화 클립보드 관리 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 클립보드 매니저",
+          "코드 에디터"
+        ],
+        "timing_reason": "개발자 도구 시장 확장 및 생산성 중시 [추론]",
+        "growth_potential": "개발자 커뮤니티 중심 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 구매 [추론]",
+        "pricing_suggestion": "월 구독 5달러 또는 일회성 20달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400-600만원 [추론]",
+        "tech_stack": [
+          "클립보드 API",
+          "텍스트 파싱",
+          "동기화"
+        ],
+        "key_features": [
+          "코드 하이라이팅",
+          "스니펫 관리",
+          "검색 기능"
+        ],
+        "clone_tip": "다양한 프로그래밍 언어 지원이 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2B",
+        "#개발도구"
+      ],
+      "verdict": "개발자 타겟 틈새시장 도구로 안정적"
+    },
+    {
+      "rank": 5,
+      "name": "Origami: Folding Guide",
+      "developer": "Phuc Pham",
+      "category": "교육",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/e1/23/d4e123d8-bf5d-4579-6749-08de7cf6a2ac/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/origami-folding-guide/id6779290061?uo=2",
+      "idea_summary": "단계별 종이접기 학습 가이드 앱",
+      "analysis": {
+        "problem": "종이접기 학습 시 단계별 이해의 어려움 [추론]",
+        "solution": "시각적이고 단계별 종이접기 가이드 제공 [추론]",
+        "target_user": "아이들 및 종이접기 취미생활자 [추론]",
+        "unique_point": "디지털 인터랙티브 종이접기 교육 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "유튜브 영상",
+          "종이접기 책"
+        ],
+        "timing_reason": "집콕문화와 아날로그 취미 재조명 [추론]",
+        "growth_potential": "교육용 앱 시장에서 틈새 확보 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 패턴 판매 또는 광고 [추론]",
+        "pricing_suggestion": "기본 무료, 고급 패턴 월 3달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "400-700만원 [추론]",
+        "tech_stack": [
+          "애니메이션",
+          "3D 뷰",
+          "단계별 UI"
+        ],
+        "key_features": [
+          "3D 가이드",
+          "단계별 진행",
+          "난이도별 분류"
+        ],
+        "clone_tip": "직관적인 3D 애니메이션이 핵심 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육"
+      ],
+      "verdict": "교육용 틈새시장, 수익성은 제한적"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "PDF 리더 및 뷰어",
+      "developer": "Lumio Tech",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/uGlPhXIo9ZUdmyjk3UaBxKIcx9A0Nptu8pbsceENAdPuNrMsBAGGhYwZKd2YFVbZhGY",
+      "app_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.editor",
+      "idea_summary": "올인원 PDF 처리 솔루션",
+      "analysis": {
+        "problem": "모바일에서 PDF 파일 처리의 불편함 [확인]",
+        "solution": "통합 PDF 읽기, 편집, 변환 기능 [추론]",
+        "target_user": "문서 작업이 많은 직장인 및 학생 [추론]",
+        "unique_point": "모바일 최적화된 PDF 올인원 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "WPS Office"
+        ],
+        "timing_reason": "모바일 업무 환경 확산 [추론]",
+        "growth_potential": "기본 기능이지만 꾸준한 수요 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 또는 광고 [추론]",
+        "pricing_suggestion": "월 구독 5달러 또는 일회성 15달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-1200만원 [추론]",
+        "tech_stack": [
+          "PDF 라이브러리",
+          "파일 시스템",
+          "클라우드 연동"
+        ],
+        "key_features": [
+          "PDF 렌더링",
+          "편집 도구",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "PDF 처리 라이브러리 선택과 성능 최적화 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "기본 니즈지만 경쟁 치열한 시장",
+      "deep_report_id": "android-pdf-리더-및-뷰어-1781449453480"
+    },
+    {
+      "rank": 2,
+      "name": "실시간 TV - KBS, MBC, SBS, JTBC",
+      "developer": "realTV",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/UTrupscr9msQFzy0NreBoKk7QqoJWtmc24kb31XZSKn4oDTh3zNSeJ5csxEkG1uIgw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tv.real",
+      "idea_summary": "통합 실시간 TV 스트리밍 서비스",
+      "analysis": {
+        "problem": "각 방송사별 앱 설치의 번거로움 [추론]",
+        "solution": "주요 방송사 통합 실시간 스트리밍 [추측]",
+        "target_user": "실시간 방송 시청을 원하는 일반 사용자 [추론]",
+        "unique_point": "한국 주요 방송사 통합 제공 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "각 방송사 공식 앱",
+          "wavve",
+          "티빙"
+        ],
+        "timing_reason": "OTT 확산과 실시간 방송 니즈 [추론]",
+        "growth_potential": "저작권 이슈로 불안정한 시장 [추측]"
+      },
+      "business": {
+        "monetization": "광고 수익 또는 구독 모델 [추측]",
+        "pricing_suggestion": "월 구독 5000원 또는 광고 기반 [추측]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추측]",
+        "estimated_cost": "2000만원 이상 [추측]",
+        "tech_stack": [
+          "스트리밍 기술",
+          "CDN",
+          "저작권 관리"
+        ],
+        "key_features": [
+          "실시간 스트리밍",
+          "EPG",
+          "녹화 기능"
+        ],
+        "clone_tip": "저작권 협상과 스트리밍 인프라가 핵심 [추측]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 1,
+        "profitability": 4,
+        "scalability": 2,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발불가능",
+        "#B2C",
+        "#리스크높음"
+      ],
+      "verdict": "수요는 높지만 저작권 리스크 존재"
+    },
+    {
+      "rank": 3,
+      "name": "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+      "developer": "Start Up",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/1XWr0rMYTGA55d93vVVN_I0aFFhJBNaMzrB44avAe2LrvuXHpvJ-K2kRmK49348rZvquVLjstNVl29o7XmJ0Trc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bupavon.alldocument.reader.pdf.viewer",
+      "idea_summary": "한국 특화 문서 뷰어 (HWP 지원)",
+      "analysis": {
+        "problem": "한국 문서 포맷 호환성 문제 [확인]",
+        "solution": "HWP 등 한국 특화 문서 포맷 지원 [추론]",
+        "target_user": "한국 직장인 및 공공기관 이용자 [추론]",
+        "unique_point": "HWP 파일 모바일 지원 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "한글과컴퓨터 뷰어",
+          "일반 PDF 뷰어"
+        ],
+        "timing_reason": "모바일 업무 환경에서 HWP 니즈 [추론]",
+        "growth_potential": "한국 시장 특화로 안정적 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 또는 프리미엄 기능 [추론]",
+        "pricing_suggestion": "기본 무료, 고급 기능 월 3000원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "1000-1500만원 [추론]",
+        "tech_stack": [
+          "문서 파싱 라이브러리",
+          "렌더링 엔진"
+        ],
+        "key_features": [
+          "HWP 렌더링",
+          "PDF 지원",
+          "클라우드 연동"
+        ],
+        "clone_tip": "HWP 파싱 기술 확보가 핵심 장벽 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#한국특화"
+      ],
+      "verdict": "한국 시장 특화로 안정적 수요"
+    },
+    {
+      "rank": 4,
+      "name": "문서 뷰어: PDF, Word",
+      "developer": "SolaraSoft",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/sD9qCV-jv_nYRunW_Q_8C0jHnfBqlKJlZ5JOlvgyV-Iy5L2PcxGz0GpBCgQDg68LdDiPjE8grYhmcP1BbOoxYA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.solara.alldocumentreader.officepdfwordexcel",
+      "idea_summary": "올인원 오피스 문서 뷰어",
+      "analysis": {
+        "problem": "다양한 문서 포맷 호환성 이슈 [확인]",
+        "solution": "통합 문서 뷰어로 편의성 제공 [추론]",
+        "target_user": "다양한 문서 포맷을 다루는 사용자 [추론]",
+        "unique_point": "오피스 전 포맷 지원 통합 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "WPS Office",
+          "Microsoft Office 모바일"
+        ],
+        "timing_reason": "모바일 워크 환경 확산 [추론]",
+        "growth_potential": "기본 니즈지만 경쟁 치열 [추측]"
+      },
+      "business": {
+        "monetization": "광고 및 프리미엄 기능 [추론]",
+        "pricing_suggestion": "월 구독 5달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "1500-2000만원 [추론]",
+        "tech_stack": [
+          "다양한 문서 파싱 라이브러리",
+          "렌더링"
+        ],
+        "key_features": [
+          "멀티 포맷 지원",
+          "편집 기능",
+          "클라우드"
+        ],
+        "clone_tip": "각 문서 포맷별 라이브러리 통합이 복잡 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발어려움",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "필수 도구지만 대기업 경쟁 치열"
+    },
+    {
+      "rank": 5,
+      "name": "PDF 리더: 뷰어·편집기",
+      "developer": "Stackwise Studio",
+      "category": "생산성",
+      "icon": "https://play-lh.googleusercontent.com/fwiNwX4Nx9e1_nbvH_RrIXwfdOgUmG9ripgLh59y-npgKRm2zNjxfZBNkmqMG5K9Is2UjBNm4OZOJSgP2cAuSQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pdfreader.pdf.viewer.pdfeditor",
+      "idea_summary": "경량화된 PDF 전용 도구",
+      "analysis": {
+        "problem": "무거운 PDF 앱들의 성능 이슈 [추론]",
+        "solution": "빠르고 가벼운 PDF 전용 솔루션 [추론]",
+        "target_user": "간단한 PDF 작업 사용자 [추론]",
+        "unique_point": "성능 최적화된 PDF 전용 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Reader",
+          "다양한 PDF 앱"
+        ],
+        "timing_reason": "모바일 퍼포먼스 중시 트렌드 [추론]",
+        "growth_potential": "차별화 어려운 포화 시장 [추측]"
+      },
+      "business": {
+        "monetization": "광고 또는 프리미엄 버전 [추론]",
+        "pricing_suggestion": "일회성 구매 10달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-800만원 [추론]",
+        "tech_stack": [
+          "PDF.js",
+          "최적화 기술"
+        ],
+        "key_features": [
+          "고속 렌더링",
+          "기본 편집",
+          "주석"
+        ],
+        "clone_tip": "성능 최적화와 UI/UX가 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "포화 시장이지만 성능 최적화로 틈새 공략"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "실용성과 생산성 도구가 주류를 이루는 가운데, 독창적 아이디어보다는 기존 문제의 새로운 해결책이 주목받고 있음. iOS는 창의적 틈새시장, Android는 기본 니즈 충족 앱이 대세임.",
+    "trend_details": [
+      "문자메시지 백업 등 데이터 관리 니즈 증가",
+      "브라우징 효율성 도구 부상",
+      "꽃말 등 감성적 가치 부여 트렌드",
+      "개발자 도구 시장 확장",
+      "PDF 등 문서 처리 앱 포화"
+    ],
+    "hot_categories": [
+      "생산성",
+      "유틸리티",
+      "교육"
+    ],
+    "opportunity": "데이터 백업/관리 및 개발자 전용 도구 영역",
+    "action_item": "기존 솔루션의 UX 개선과 틈새 사용자층 발굴"
+  }
+}
