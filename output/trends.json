@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T15:05:55.327Z",
+  "generatedAt": "2026-06-15T15:05:46.949Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -21,8 +21,8 @@
     {
       "category": "건강 및 피트니스",
       "currentCount": 8,
-      "previousCount": 4,
-      "changePercent": 100,
+      "previousCount": 3,
+      "changePercent": 167,
       "changeDirection": "up",
       "apps": [
         "PeakSpan live",
@@ -35,6 +35,20 @@
         "Calorie Crush: Fitness Tracker"
       ],
       "avgScore": 7.9625
+    },
+    {
+      "category": "엔터테인먼트",
+      "currentCount": 4,
+      "previousCount": 2,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "실시간 TV - KBS, MBC, SBS, JTBC",
+        "SyncPlay - 舞台用ビデオ同期ツール",
+        "NetShort - 인기 드라마 및 TV 프로그램",
+        "Vitrine: Miniature Painting"
+      ],
+      "avgScore": 6.7
     },
     {
       "category": "금융",
@@ -101,20 +115,6 @@
       "avgScore": 8.5
     },
     {
-      "category": "엔터테인먼트",
-      "currentCount": 4,
-      "previousCount": 2,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "SyncPlay - 舞台用ビデオ同期ツール",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Vitrine: Miniature Painting",
-        "NetShort - 인기 드라마 및 TV 프로그램"
-      ],
-      "avgScore": 7.4
-    },
-    {
       "category": "뉴스",
       "currentCount": 1,
       "previousCount": 0,
@@ -126,36 +126,50 @@
       "avgScore": 7
     },
     {
-      "category": "스포츠",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
+      "category": "교육",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Padel: Score Tracker",
-        "Dartore: Darts calculator app"
+        "Origami: Folding Guide",
+        "ZotMeet",
+        "AI HandSpeak"
       ],
-      "avgScore": 7
+      "avgScore": 6.8999999999999995
     },
     {
       "category": "유틸리티",
       "currentCount": 7,
-      "previousCount": 6,
-      "changePercent": 17,
+      "previousCount": 5,
+      "changePercent": 40,
       "changeDirection": "up",
       "apps": [
+        "ChatPort: Text Message Export",
         "QR 스캐너",
         "QR 코드 & 바코드 스캐너",
         "순공 - 순수한 공부",
         "Gosu Chef",
         "Room Media Wall",
-        "사진 복구",
-        "LensHunt Pro"
+        "사진 복구"
       ],
       "avgScore": 6.985714285714286
     }
   ],
   "decliningCategories": [
+    {
+      "category": "라이프스타일",
+      "currentCount": 3,
+      "previousCount": 4,
+      "changePercent": -25,
+      "changeDirection": "down",
+      "apps": [
+        "Flower Language: Bouquet",
+        "Ayumap - Walk & Journey Map",
+        "Hooklings: 코바늘 & 뜨개질"
+      ],
+      "avgScore": 6.6000000000000005
+    },
     {
       "category": "음악",
       "currentCount": 1,
@@ -168,41 +182,6 @@
       "avgScore": 7.1
     },
     {
-      "category": "라이프스타일",
-      "currentCount": 2,
-      "previousCount": 4,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Ayumap - Walk & Journey Map",
-        "Hooklings: 코바늘 & 뜨개질"
-      ],
-      "avgScore": 6.65
-    },
-    {
-      "category": "음식 및 음료",
-      "currentCount": 2,
-      "previousCount": 4,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Hot Truck Map",
-        "RecipeVault Meal Prep"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "그래픽 및 디자인",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "PromptLume"
-      ],
-      "avgScore": 8.1
-    },
-    {
       "category": "여행",
       "currentCount": 2,
       "previousCount": 6,
@@ -213,6 +192,17 @@
         "TripMate"
       ],
       "avgScore": 7.300000000000001
+    },
+    {
+      "category": "음식 및 음료",
+      "currentCount": 1,
+      "previousCount": 5,
+      "changePercent": -80,
+      "changeDirection": "down",
+      "apps": [
+        "Hot Truck Map"
+      ],
+      "avgScore": 7
     }
   ],
   "stableCategories": [
@@ -228,18 +218,6 @@
       "avgScore": 7.6
     },
     {
-      "category": "교육",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "ZotMeet",
-        "AI HandSpeak"
-      ],
-      "avgScore": 7.35
-    },
-    {
       "category": "참고",
       "currentCount": 1,
       "previousCount": 1,
@@ -251,12 +229,29 @@
       "avgScore": 7.8
     },
     {
-      "category": "생산성",
-      "currentCount": 19,
-      "previousCount": 21,
-      "changePercent": -10,
+      "category": "그래픽 및 디자인",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
+        "PromptLume"
+      ],
+      "avgScore": 8.1
+    },
+    {
+      "category": "생산성",
+      "currentCount": 20,
+      "previousCount": 21,
+      "changePercent": -5,
+      "changeDirection": "stable",
+      "apps": [
+        "Tabreakr",
+        "ClipCode",
+        "PDF 리더 및 뷰어",
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+        "문서 뷰어: PDF, Word",
+        "PDF 리더: 뷰어·편집기",
         "setlog",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
@@ -270,22 +265,23 @@
         "setlog",
         "문서 뷰어: PDF, Word",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "Claude by Anthropic",
-        "Votera",
-        "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너",
-        "PDF 리더: 뷰어·편집기",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "ChatGPT"
+        "Claude by Anthropic"
       ],
-      "avgScore": 7.326315789473684
+      "avgScore": 7.220000000000001
     }
   ],
   "hotKeywords": [
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 51,
+      "count": 49,
       "apps": [
+        "ChatPort: Text Message Export",
+        "Tabreakr",
+        "Flower Language: Bouquet",
+        "ClipCode",
+        "Origami: Folding Guide",
+        "PDF 리더: 뷰어·편집기",
         "PeakSpan live",
         "YASETOMO",
         "Coach Flow App",
@@ -323,21 +319,22 @@
         "Nume - Your AI CFO",
         "Cozy Wallpapers",
         "금일 뉴스",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "LensHunt Pro",
-        "Padel: Score Tracker",
-        "Votera",
-        "Dartore: Darts calculator app",
-        "RecipeVault Meal Prep",
-        "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너",
-        "PDF 리더: 뷰어·편집기"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
       ]
     },
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 44,
+      "count": 43,
       "apps": [
+        "ChatPort: Text Message Export",
+        "Flower Language: Bouquet",
+        "Origami: Folding Guide",
+        "PDF 리더 및 뷰어",
+        "실시간 TV - KBS, MBC, SBS, JTBC",
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+        "문서 뷰어: PDF, Word",
+        "PDF 리더: 뷰어·편집기",
         "PeakSpan live",
         "AI HandSpeak",
         "Flags: Tax Residency Tracker",
@@ -363,27 +360,18 @@
         "사진 복구 - 파일 복원",
         "PDF 리더 & PDF 편집",
         "NetShort - 인기 드라마 및 TV 프로그램",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
         "Gosu Chef",
         "Calorie Crush: Fitness Tracker",
         "Vitrine: Miniature Painting",
         "Cozy Wallpapers",
         "금일 뉴스",
-        "Claude by Anthropic",
-        "LensHunt Pro",
-        "Padel: Score Tracker",
-        "Dartore: Darts calculator app",
-        "RecipeVault Meal Prep",
-        "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너",
-        "PDF 리더: 뷰어·편집기",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "ChatGPT"
+        "Claude by Anthropic"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 24,
+      "count": 22,
       "apps": [
         "YASETOMO",
         "Phoder: Photo Organize Cleanup",
@@ -399,15 +387,30 @@
         "Vitrine: Miniature Painting",
         "PromptLume",
         "Nume - Your AI CFO",
-        "Claude by Anthropic",
-        "ChatGPT"
+        "Claude by Anthropic"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "productivity",
+      "count": 13,
+      "apps": [
+        "Tabreakr",
+        "PDF 리더 및 뷰어",
+        "문서 뷰어: PDF, Word",
+        "PDF 리더: 뷰어·편집기",
+        "setlog",
+        "PDF 뷰어 - PDF Reader & PDF 편집",
+        "PDF 리더 & PDF 편집",
+        "PDFChat AI"
       ]
     },
     {
       "keyword": "유틸리티",
       "category": "tag",
-      "count": 9,
+      "count": 10,
       "apps": [
+        "ChatPort: Text Message Export",
         "Phoder: Photo Organize Cleanup",
         "QR 스캐너",
         "QR 코드 & 바코드 스캐너",
@@ -417,57 +420,44 @@
       ]
     },
     {
-      "keyword": "생산성",
+      "keyword": "B2B",
       "category": "tag",
       "count": 9,
       "apps": [
-        "setlog",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더 & PDF 편집",
-        "PDFChat AI",
-        "문서 뷰어: PDF, Word",
-        "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "tag",
-      "count": 8,
-      "apps": [
-        "YASETOMO",
-        "튼튼머니",
-        "NutriCise AI",
-        "RepScan",
-        "런데이",
-        "Calorie Crush: Fitness Tracker",
-        "RecipeVault Meal Prep"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 8,
-      "apps": [
+        "Tabreakr",
+        "ClipCode",
         "Coach Flow App",
         "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
         "Crosstask",
         "SyncPlay - 舞台用ビデオ同期ツール",
         "Room Media Wall",
         "PromptLume",
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "Votera"
+        "PDF 뷰어 - PDF Reader & PDF 편집"
+      ]
+    },
+    {
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 7,
+      "apps": [
+        "YASETOMO",
+        "튼튼머니",
+        "NutriCise AI",
+        "RepScan",
+        "런데이",
+        "Calorie Crush: Fitness Tracker"
       ]
     },
     {
       "keyword": "편집",
       "category": "creator",
-      "count": 7,
+      "count": 6,
       "apps": [
+        "PDF 리더 및 뷰어",
+        "PDF 리더: 뷰어·편집기",
         "PDF 뷰어 - PDF Reader & PDF 편집",
         "PDF 리더 & PDF 편집",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "PDF뷰어 & PDF 리더: 편집기, 변환기, 스캐너",
-        "PDF 리더: 뷰어·편집기"
+        "NetShort - 인기 드라마 및 TV 프로그램"
       ]
     },
     {
@@ -489,22 +479,13 @@
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 4,
+      "keyword": "1인개발어려움",
+      "category": "tag",
+      "count": 3,
       "apps": [
-        "Ayumap - Walk & Journey Map",
-        "Hooklings: 코바늘 & 뜨개질",
-        "NetShort - 인기 드라마 및 TV 프로그램"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Cozy Wallpapers"
+        "PDF 리더 및 뷰어",
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+        "문서 뷰어: PDF, Word"
       ]
     },
     {
@@ -512,6 +493,7 @@
       "category": "creator",
       "count": 3,
       "apps": [
+        "실시간 TV - KBS, MBC, SBS, JTBC",
         "PeakSpan live",
         "NetShort - 인기 드라마 및 TV 프로그램"
       ]
@@ -547,12 +529,40 @@
       ]
     },
     {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 3,
+      "apps": [
+        "Ayumap - Walk & Journey Map",
+        "Hooklings: 코바늘 & 뜨개질",
+        "NetShort - 인기 드라마 및 TV 프로그램"
+      ]
+    },
+    {
       "keyword": "피트니스",
       "category": "tag",
       "count": 3,
       "apps": [
         "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
         "setlog"
+      ]
+    },
+    {
+      "keyword": "라이프스타일",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Flower Language: Bouquet",
+        "Gosu Chef"
+      ]
+    },
+    {
+      "keyword": "교육",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Origami: Folding Guide",
+        "ZotMeet"
       ]
     },
     {
@@ -563,62 +573,44 @@
         "PeakSpan live",
         "Phoder: Photo Organize Cleanup"
       ]
-    },
-    {
-      "keyword": "AI활용",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "YASETOMO",
-        "Phoder: Photo Organize Cleanup"
-      ]
-    },
-    {
-      "keyword": "자동화",
-      "category": "productivity",
-      "count": 2,
-      "apps": [
-        "Coach Flow App",
-        "Face Guard Video"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 13,
-        "percent": 19,
+        "count": 14,
+        "percent": 20,
         "examples": [
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "AI HandSpeak",
-          "Flags: Tax Residency Tracker"
+          "Flower Language: Bouquet",
+          "Origami: Folding Guide",
+          "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
         ]
       },
       "freemium": {
-        "count": 54,
-        "percent": 77,
+        "count": 53,
+        "percent": 76,
         "examples": [
-          "PeakSpan live",
-          "YASETOMO",
-          "ZotMeet"
+          "ChatPort: Text Message Export",
+          "Tabreakr",
+          "Flower Language: Bouquet"
         ]
       },
       "subscription": {
         "count": 44,
         "percent": 63,
         "examples": [
-          "PeakSpan live",
-          "YASETOMO",
-          "Coach Flow App"
+          "Tabreakr",
+          "ClipCode",
+          "PDF 리더 및 뷰어"
         ]
       },
       "onetime": {
-        "count": 11,
-        "percent": 16,
+        "count": 14,
+        "percent": 20,
         "examples": [
-          "SyncPlay - 舞台用ビデオ同期ツール",
-          "QR 코드 & 바코드 스캐너",
-          "Face Guard Video"
+          "ChatPort: Text Message Export",
+          "Flower Language: Bouquet",
+          "ClipCode"
         ]
       },
       "unknown": {
@@ -629,12 +621,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 54,
-      "percent": 77,
+      "count": 53,
+      "percent": 76,
       "examples": [
-        "PeakSpan live",
-        "YASETOMO",
-        "ZotMeet"
+        "ChatPort: Text Message Export",
+        "Tabreakr",
+        "Flower Language: Bouquet"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -643,8 +635,8 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 25,
-        "percent": 36,
+        "count": 22,
+        "percent": 31,
         "apps": [
           "YASETOMO",
           "Phoder: Photo Organize Cleanup",
@@ -654,9 +646,21 @@
         ]
       },
       {
+        "tech": "creator",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "PDF 리더 및 뷰어",
+          "실시간 TV - KBS, MBC, SBS, JTBC",
+          "PDF 리더: 뷰어·편집기",
+          "PeakSpan live",
+          "PDF 뷰어 - PDF Reader & PDF 편집"
+        ]
+      },
+      {
         "tech": "ar_vr",
-        "count": 12,
-        "percent": 17,
+        "count": 10,
+        "percent": 14,
         "apps": [
           "setlog",
           "setlog",
@@ -666,27 +670,15 @@
         ]
       },
       {
-        "tech": "creator",
-        "count": 12,
-        "percent": 17,
-        "apps": [
-          "PeakSpan live",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "전체 복구 - 사진, 동영상",
-          "SyncPlay - 舞台用ビデオ同期ツール",
-          "Face Guard Video"
-        ]
-      },
-      {
         "tech": "productivity",
         "count": 5,
         "percent": 7,
         "apps": [
+          "Tabreakr",
           "Coach Flow App",
           "Crosstask",
           "setlog",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "Votera"
+          "PDF 뷰어 - PDF Reader & PDF 편집"
         ]
       },
       {
@@ -701,17 +693,6 @@
         ]
       },
       {
-        "tech": "subscription",
-        "count": 4,
-        "percent": 6,
-        "apps": [
-          "Ayumap - Walk & Journey Map",
-          "Hooklings: 코바늘 & 뜨개질",
-          "NetShort - 인기 드라마 및 TV 프로그램",
-          "NetShort - 인기 드라마 및 TV 프로그램"
-        ]
-      },
-      {
         "tech": "fintech",
         "count": 3,
         "percent": 4,
@@ -719,6 +700,16 @@
           "모바일 건강보험증",
           "건강보험25시",
           "Nume - Your AI CFO"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "Ayumap - Walk & Journey Map",
+          "Hooklings: 코바늘 & 뜨개질",
+          "NetShort - 인기 드라마 및 TV 프로그램"
         ]
       },
       {
@@ -733,8 +724,8 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 25,
-      "percent": 36,
+      "count": 22,
+      "percent": 31,
       "apps": [
         "YASETOMO",
         "Phoder: Photo Organize Cleanup",
@@ -745,27 +736,27 @@
     },
     "emerging": [
       {
+        "tech": "creator",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "PDF 리더 및 뷰어",
+          "실시간 TV - KBS, MBC, SBS, JTBC",
+          "PDF 리더: 뷰어·편집기",
+          "PeakSpan live",
+          "PDF 뷰어 - PDF Reader & PDF 편집"
+        ]
+      },
+      {
         "tech": "ar_vr",
-        "count": 12,
-        "percent": 17,
+        "count": 10,
+        "percent": 14,
         "apps": [
           "setlog",
           "setlog",
           "setlog",
           "Face Guard Video",
           "RepScan"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 12,
-        "percent": 17,
-        "apps": [
-          "PeakSpan live",
-          "PDF 뷰어 - PDF Reader & PDF 편집",
-          "전체 복구 - 사진, 동영상",
-          "SyncPlay - 舞台用ビデオ同期ツール",
-          "Face Guard Video"
         ]
       }
     ]
@@ -777,6 +768,13 @@
       "description": "200% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "사진 및 비디오"
+    },
+    {
+      "type": "rising_category",
+      "title": "엔터테인먼트 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "엔터테인먼트"
     },
     {
       "type": "rising_category",
@@ -808,13 +806,6 @@
     },
     {
       "type": "rising_category",
-      "title": "엔터테인먼트 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "엔터테인먼트"
-    },
-    {
-      "type": "rising_category",
       "title": "뉴스 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -822,32 +813,32 @@
     },
     {
       "type": "rising_category",
-      "title": "스포츠 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "교육 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "스포츠"
+      "category": "교육"
     },
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "36%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "31%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "AI 통합이 필수 트렌드가 되었고(36%), 프리미엄 모델(77%)이 주류를 차지하고 있습니다. 사진/비디오 카테고리는 200% 급성장했지만 앱 수가 적어 블루오션으로 보입니다.",
+    "trend_summary": "사진 및 비디오 카테고리가 200% 급성장하며 가장 뜨거운 영역으로 부상했고, AI 기능이 31%의 앱에 통합되어 필수 요소로 자리잡고 있습니다. Freemium 모델이 76%로 주류 수익화 전략이 되었습니다.",
     "trend_details": [
-      "AI 기능 통합이 전체 앱의 36%까지 확산되며 필수 요소로 자리잡음",
-      "프리미엄 모델(77%)과 구독 모델(63%)이 주요 수익화 전략으로 부상",
-      "1인 개발 가능한 앱에 대한 관심이 51회로 최고치 기록"
+      "사진/비디오 카테고리 200% 폭증으로 블루오션 형성",
+      "AI 기능 통합이 차별화 핵심 요소로 확산",
+      "Freemium + 구독 모델이 수익화 표준으로 정착"
     ],
     "hot_categories": [
       "사진 및 비디오",
       "건강 및 피트니스"
     ],
-    "opportunity": "사진/비디오 카테고리는 200% 성장했지만 경쟁 앱이 3개뿐이어서 AI 기반 창작 도구로 진입하기 좋은 타이밍입니다.",
-    "action_item": "기존 사진/영상 편집 앱에 AI 기능을 추가하거나 새로운 AI 창작 도구를 프리미엄 모델로 출시하세요.",
-    "weekly_theme": "AI 창작도구"
+    "opportunity": "사진/비디오 카테고리에서 AI 기능을 통합한 1인 개발 가능한 크리에이터 도구 개발이 가장 유망합니다.",
+    "action_item": "AI 기반 사진 편집이나 동영상 제작 도구를 freemium 모델로 기획하고 B2C 타겟으로 MVP 개발을 시작하세요.",
+    "weekly_theme": "AI 크리에이터"
   }
 }

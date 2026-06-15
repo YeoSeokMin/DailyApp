@@ -1,0 +1,633 @@
+{
+  "date": "2026-06-16",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Gnomes and Knights",
+      "developer": "RouteBuddies Limited",
+      "category": "게임",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/e1/6e/8ee16e10-9dbc-b16b-680a-cb76d338c653/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gnomes-and-knights/id6775515496?uo=2",
+      "idea_summary": "판타지 전략 게임으로 노움과 기사 조합",
+      "analysis": {
+        "problem": "기존 전략 게임의 복잡함과 긴 플레이 시간 문제 해결 [추론]",
+        "solution": "간단하면서도 전략적 깊이를 가진 판타지 전투 시스템 제공 [추론]",
+        "target_user": "캐주얼 전략 게임을 선호하는 20-40대 게이머 [추론]",
+        "unique_point": "노움과 기사라는 독특한 캐릭터 조합으로 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Clash Royale",
+          "Plants vs Zombies"
+        ],
+        "timing_reason": "모바일 전략 게임 시장 성장과 캐주얼화 트렌드 [추론]",
+        "growth_potential": "중간 수준의 성장 가능성, 틈새 시장 공략 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 모델과 인앱 구매 조합 [추론]",
+        "pricing_suggestion": "무료 다운로드 후 캐릭터/아이템 유료 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "Unity",
+          "C#",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간 전투",
+          "캐릭터 수집",
+          "업그레이드 시스템"
+        ],
+        "clone_tip": "간단한 턴제 전투부터 시작해 점진적 복잡성 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게임"
+      ],
+      "verdict": "틈새 전략 게임 시장 공략에 적합한 아이템",
+      "deep_report_id": "ios-gnomes-and-knights-1781535774319"
+    },
+    {
+      "rank": 2,
+      "name": "Dtecto",
+      "developer": "RICARDO ANDRES MEDINA SERRA",
+      "category": "스포츠",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/b6/1c/44b61c42-19e2-099d-5c2c-2d06fe4bb4a0/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/dtecto/id6771476782?uo=2",
+      "idea_summary": "스포츠 동작 분석과 개선을 위한 AI 도구",
+      "analysis": {
+        "problem": "스포츠 동작 분석의 전문성 부족과 비용 문제 해결 [추론]",
+        "solution": "AI 기반 동작 분석으로 개인 맞춤형 피드백 제공 [추론]",
+        "target_user": "운동을 즐기는 일반인과 아마추어 선수 [추론]",
+        "unique_point": "AI 동작 분석을 통한 즉시 피드백 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Coach's Eye",
+          "Hudl"
+        ],
+        "timing_reason": "AI 기술 발전과 개인 맞춤 피트니스 트렌드 [추론]",
+        "growth_potential": "높은 성장 가능성, 피트니스 시장 확대 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델 중심의 프리미엄 서비스 [추론]",
+        "pricing_suggestion": "월 9.99달러 구독 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "5000-8000만원 [추론]",
+        "tech_stack": [
+          "TensorFlow",
+          "OpenCV",
+          "React Native"
+        ],
+        "key_features": [
+          "동작 분석",
+          "AI 피드백",
+          "진행률 추적"
+        ],
+        "clone_tip": "기본 동작 인식부터 시작해 점진적 AI 모델 고도화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#피트니스"
+      ],
+      "verdict": "AI 트렌드와 개인 맞춤 피트니스 수요에 부합"
+    },
+    {
+      "rank": 3,
+      "name": "NellyTrack",
+      "developer": "Monthe Tchamaleu Blondel Wilfried",
+      "category": "금융",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/bf/24/68bf2478-08d7-ae7d-abb8-b1b29dd49727/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/nellytrack/id6769390583?uo=2",
+      "idea_summary": "개인 금융 관리와 지출 추적 도구",
+      "analysis": {
+        "problem": "복잡한 개인 재정 관리와 지출 패턴 파악 어려움 해결 [추론]",
+        "solution": "직관적인 UI로 간편한 수입/지출 추적 및 분석 제공 [추론]",
+        "target_user": "금융 관리가 필요한 20-40대 직장인 [추론]",
+        "unique_point": "간단한 인터페이스로 복잡한 금융 데이터 시각화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Mint",
+          "YNAB",
+          "Toshl"
+        ],
+        "timing_reason": "개인 재정 관리 의식 증가와 금융 앱 수요 성장 [추론]",
+        "growth_potential": "안정적인 성장 가능성, 필수 앱 영역 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델과 프리미엄 기능 유료화 [추론]",
+        "pricing_suggestion": "월 4.99달러 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-10개월 [추론]",
+        "estimated_cost": "2000-4000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "MongoDB"
+        ],
+        "key_features": [
+          "자동 분류",
+          "시각화 차트",
+          "예산 알림"
+        ],
+        "clone_tip": "기본 수입/지출 기록부터 시작해 점진적 분석 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크"
+      ],
+      "verdict": "검증된 시장에서 차별화된 UX로 경쟁 가능"
+    },
+    {
+      "rank": 4,
+      "name": "ScoreBox: Sports IPTV",
+      "developer": "Dark Forest Studios LLC",
+      "category": "스포츠",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/13/8e/6f138e5c-3347-334c-9029-0932be02028c/App_Icon-marketing.lsr/283x170bb.png",
+      "app_url": "https://apps.apple.com/kr/app/scorebox-sports-iptv/id6774886350?uo=2",
+      "idea_summary": "스포츠 경기 점수와 IPTV 연동 서비스",
+      "analysis": {
+        "problem": "스포츠 팬들의 실시간 경기 정보와 스트리밍 접근성 문제 [추론]",
+        "solution": "통합된 플랫폼에서 점수 추적과 IPTV 스트리밍 제공 [추론]",
+        "target_user": "스포츠를 즐겨 보는 20-50대 남성 위주 [추론]",
+        "unique_point": "점수 추적과 스트리밍을 하나의 앱에서 통합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ESPN",
+          "TheScore",
+          "Yahoo Sports"
+        ],
+        "timing_reason": "스포츠 스트리밍 시장 확대와 모바일 중심 소비 [추론]",
+        "growth_potential": "지역별 라이선스 문제로 제한적 성장 [추측]"
+      },
+      "business": {
+        "monetization": "구독 모델과 광고 수익 결합 [추론]",
+        "pricing_suggestion": "월 9.99달러 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "10-15개월 [추론]",
+        "estimated_cost": "4000-7000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "FFmpeg",
+          "WebRTC"
+        ],
+        "key_features": [
+          "실시간 스코어",
+          "스트리밍",
+          "알림 시스템"
+        ],
+        "clone_tip": "스포츠 데이터 API 연동부터 시작해 점진적 스트리밍 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#라이선스필요",
+        "#B2C",
+        "#스포츠"
+      ],
+      "verdict": "라이선스 확보가 핵심인 틈새 시장 아이템"
+    },
+    {
+      "rank": 5,
+      "name": "Finding Space",
+      "developer": "DARREN DAVID SKUDDER",
+      "category": "스포츠",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/13/91/5913912d-d148-449a-7637-eae25eef351d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/finding-space/id6762052800?uo=2",
+      "idea_summary": "운동 공간과 파트너 매칭 플랫폼",
+      "analysis": {
+        "problem": "운동할 장소와 함께할 사람을 찾기 어려운 문제 해결 [추론]",
+        "solution": "지역 기반 운동 공간과 운동 파트너 매칭 서비스 [추론]",
+        "target_user": "혼자 운동하기 어려워하는 20-30대 직장인 [추론]",
+        "unique_point": "공간과 사람을 동시에 매칭하는 통합 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Meetup",
+          "ClassPass",
+          "Strava"
+        ],
+        "timing_reason": "코로나 이후 야외 운동 선호도 증가와 소셜 피트니스 트렌드 [추론]",
+        "growth_potential": "지역 확산에 따른 네트워크 효과로 높은 성장 [추론]"
+      },
+      "business": {
+        "monetization": "매칭 수수료와 프리미엄 멤버십 [추론]",
+        "pricing_suggestion": "매칭당 2-5달러 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-12개월 [추론]",
+        "estimated_cost": "3000-5000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Firebase",
+          "Google Maps API"
+        ],
+        "key_features": [
+          "지도 기반 검색",
+          "매칭 시스템",
+          "리뷰 시스템"
+        ],
+        "clone_tip": "지역 한정으로 시작해 점진적 확산 전략 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜"
+      ],
+      "verdict": "소셜 피트니스 트렌드에 부합한 유망 아이템"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "DramaWave",
+      "developer": "SKYWORK AI PTE.LTD.",
+      "category": "엔터테인먼트",
+      "icon": "https://play-lh.googleusercontent.com/qdfS5KciqnG6lP2HCxKT-CoeWrGdXsxe2sQgRR_-X-G_MVG5WZljSIesMUPkAkic0cjxgsp7gA6WMNXaq-lA6iU",
+      "app_url": "https://play.google.com/store/apps/details?id=com.dramawave.app",
+      "idea_summary": "단편 드라마와 역전극 전문 스트리밍",
+      "analysis": {
+        "problem": "긴 드라마 시청 시간 부담과 새로운 콘텐츠 갈증 해결 [추론]",
+        "solution": "짧은 단편 드라마와 반전이 있는 스토리 제공 [추론]",
+        "target_user": "바쁜 일상 속 짧은 콘텐츠를 선호하는 20-40대 [추론]",
+        "unique_point": "단편과 역전극에 특화된 틈새 콘텐츠 전략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TikTok",
+          "YouTube Shorts",
+          "Reels"
+        ],
+        "timing_reason": "숏폼 콘텐츠 트렌드와 드라마 시장의 세분화 [추론]",
+        "growth_potential": "콘텐츠 확보에 따른 중간 수준 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "구독 모델과 광고 수익 결합 [추론]",
+        "pricing_suggestion": "월 6.99달러 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "12-18개월 [추론]",
+        "estimated_cost": "5000-8000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "AWS",
+          "CDN"
+        ],
+        "key_features": [
+          "스트리밍",
+          "추천 알고리즘",
+          "소셜 기능"
+        ],
+        "clone_tip": "콘텐츠 라이선스 확보가 핵심, 자체 제작도 고려 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#콘텐츠의존",
+        "#B2C",
+        "#엔터"
+      ],
+      "verdict": "콘텐츠 확보가 관건인 틈새 스트리밍 서비스",
+      "deep_report_id": "android-dramawave-1781535858791"
+    },
+    {
+      "rank": 2,
+      "name": "GPS 지도 음성 내비게이션",
+      "developer": "MINDBYTE STUDIOS PRIVATE LIMITED",
+      "category": "지도/내비게이션",
+      "icon": "https://play-lh.googleusercontent.com/_WCCgniyNQcvNZpM7ouLP603_XaFG6E53DTvJ4SBGQFmgtYj71siEiBfDwZdAhfNpgDYnGwq-LMzhANGgvtZ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.voicenavigation.gpslocation.routefinder.mapdirection",
+      "idea_summary": "음성 중심의 GPS 내비게이션 서비스",
+      "analysis": {
+        "problem": "기존 내비게이션의 복잡한 UI와 시각적 의존도 문제 [추론]",
+        "solution": "음성 인식과 음성 안내에 특화된 간편 내비게이션 [추론]",
+        "target_user": "운전 중 시각적 방해 최소화를 원하는 드라이버 [추론]",
+        "unique_point": "음성 상호작용에 특화된 핸즈프리 내비게이션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Maps",
+          "Waze",
+          "Apple Maps"
+        ],
+        "timing_reason": "음성 AI 발전과 핸즈프리 트렌드 확산 [추론]",
+        "growth_potential": "대기업 경쟁으로 제한적 성장 가능성 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능과 광고 수익 [추론]",
+        "pricing_suggestion": "월 3.99달러 프리미엄 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "10-15개월 [추론]",
+        "estimated_cost": "4000-7000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Google Maps API",
+          "Speech Recognition"
+        ],
+        "key_features": [
+          "음성 인식",
+          "핸즈프리 조작",
+          "음성 안내"
+        ],
+        "clone_tip": "기본 내비게이션부터 시작해 점진적 음성 기능 강화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 4.8
+      },
+      "tags": [
+        "#대기업경쟁",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "차별화 어려운 레드오션 시장"
+    },
+    {
+      "rank": 3,
+      "name": "첫화면날씨",
+      "developer": "weather screen team",
+      "category": "날씨",
+      "icon": "https://play-lh.googleusercontent.com/FzdeDoyMQKnkZWeZQ79yJslXc9RTEHbiXEU8SEV8-l1v4vIuqrle58Efe7efo8gdeluJRgseK5IvaUkt26PnUw",
+      "app_url": "https://play.google.com/store/apps/details?id=weather.forecast.rain.radar",
+      "idea_summary": "위젯 중심의 첫 화면 날씨 정보 앱",
+      "analysis": {
+        "problem": "날씨 확인을 위해 앱을 실행하는 번거로움 해결 [추론]",
+        "solution": "첫 화면에서 바로 확인 가능한 위젯과 미세먼지 정보 [추론]",
+        "target_user": "빠른 날씨 정보가 필요한 모든 연령층 [추론]",
+        "unique_point": "위젯 최적화와 미세먼지 정보 통합 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Weather Channel",
+          "AccuWeather",
+          "네이버 날씨"
+        ],
+        "timing_reason": "미세먼지 관심 증가와 편리한 정보 접근 수요 [추론]",
+        "growth_potential": "기본 앱 대체재로 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익과 프리미엄 위젯 판매 [추론]",
+        "pricing_suggestion": "월 1.99달러 광고 제거 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1000-2000만원 [추론]",
+        "tech_stack": [
+          "Android",
+          "Weather API",
+          "Widget Framework"
+        ],
+        "key_features": [
+          "위젯",
+          "미세먼지",
+          "푸시 알림"
+        ],
+        "clone_tip": "공공 API 활용으로 빠른 프로토타입 개발 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "간단하지만 안정적인 수요가 있는 기본 유틸리티"
+    },
+    {
+      "rank": 4,
+      "name": "Listen Card Music Share",
+      "developer": "子宇 刘",
+      "category": "음악",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/04/03/70040338-5713-85c0-8ee5-de59eb1905a4/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%E5%90%AC%E8%A7%81%E5%8D%A1%E7%89%87-%E6%9B%B4%E9%85%B7%E7%9A%84%E9%9F%B3%E4%B9%90%E5%88%86%E4%BA%AB%E6%96%B9%E5%BC%8F/id6775013959?uo=2",
+      "idea_summary": "음악을 카드 형태로 시각화해서 공유",
+      "analysis": {
+        "problem": "음악 공유의 단조로움과 시각적 임팩트 부족 문제 [추론]",
+        "solution": "음악을 예쁜 카드 디자인으로 변환하여 SNS 공유 최적화 [추론]",
+        "target_user": "음악을 자주 공유하는 10-30대 SNS 활성 유저 [추론]",
+        "unique_point": "음악 공유를 시각적 콘텐츠로 변환하는 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Spotify",
+          "Apple Music",
+          "SoundCloud"
+        ],
+        "timing_reason": "SNS 중심 문화와 시각적 콘텐츠 선호도 증가 [추론]",
+        "growth_potential": "바이럴 가능성이 높은 소셜 기능으로 빠른 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 디자인 템플릿과 광고 수익 [추론]",
+        "pricing_suggestion": "월 2.99달러 프리미엄 템플릿 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-8개월 [추론]",
+        "estimated_cost": "2000-3000만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Canvas API",
+          "Music API"
+        ],
+        "key_features": [
+          "카드 디자인",
+          "SNS 연동",
+          "템플릿 에디터"
+        ],
+        "clone_tip": "기본 카드 생성 기능부터 시작해 점진적 디자인 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜"
+      ],
+      "verdict": "창의적이고 바이럴 가능성 높은 음악 소셜 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Habit Tracker SLOX",
+      "developer": "SEOKWON YANG",
+      "category": "생산성",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/03/01/500301cd-c625-211a-1d97-b20296c63213/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/habit-tracker-slox/id6777753750?uo=2",
+      "idea_summary": "습관 형성과 추적을 위한 간단한 도구",
+      "analysis": {
+        "problem": "습관 형성의 어려움과 지속적인 동기 부여 부족 [추론]",
+        "solution": "간단한 체크리스트와 시각적 진행률로 습관 관리 [추론]",
+        "target_user": "자기계발에 관심 있는 20-40대 직장인 학생 [추론]",
+        "unique_point": "SLOX만의 간결한 UI와 효과적인 알림 시스템 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Habitica",
+          "Streaks",
+          "Way of Life"
+        ],
+        "timing_reason": "자기계발 트렌드와 생산성 앱 수요 증가 [추론]",
+        "growth_potential": "검증된 시장에서 UX 차별화로 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능과 고급 분석 유료화 [추론]",
+        "pricing_suggestion": "월 3.99달러 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500-2500만원 [추론]",
+        "tech_stack": [
+          "React Native",
+          "SQLite",
+          "Push Notification"
+        ],
+        "key_features": [
+          "습관 추적",
+          "통계 분석",
+          "알림 시스템"
+        ],
+        "clone_tip": "기본 체크리스트부터 시작해 점진적 분석 기능 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성"
+      ],
+      "verdict": "검증된 니즈에 기반한 안정적인 생산성 앱"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기술 활용과 소셜 피트니스 트렌드가 두드러지며, 숏폼 콘텐츠와 개인화된 서비스 수요가 증가하고 있습니다 [추론]",
+    "trend_details": [
+      "AI 동작 분석 피트니스 앱",
+      "음성 중심 인터페이스",
+      "소셜 매칭 플랫폼",
+      "시각적 콘텐츠 공유 도구"
+    ],
+    "hot_categories": [
+      "피트니스",
+      "생산성",
+      "소셜"
+    ],
+    "opportunity": "AI와 소셜 기능을 결합한 개인 맞춤형 서비스 영역에서 기회 발견 [추론]",
+    "action_item": "기존 서비스에 AI 기능과 소셜 요소를 추가하여 차별화 시도"
+  }
+}
