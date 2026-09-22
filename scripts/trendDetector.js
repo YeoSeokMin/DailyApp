@@ -393,7 +393,7 @@ function detectOpportunities(changes, techTrends, pricingTrends) {
  */
 function callClaudeCLI(prompt) {
   return new Promise((resolve, reject) => {
-    const claude = spawn('claude', ['--model', 'claude-sonnet-4-20250514', '--print'], {
+    const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print'], {
       shell: true,
       stdio: ['pipe', 'pipe', 'pipe']
     });
@@ -478,7 +478,7 @@ JSON만 출력하세요.`;
         apiKey: process.env.ANTHROPIC_API_KEY
       });
       const response = await anthropic.messages.create({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-sonnet-4-6',
         max_tokens: 1000,
         messages: [{ role: 'user', content: prompt }]
       });

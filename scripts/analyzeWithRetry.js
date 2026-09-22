@@ -19,7 +19,7 @@ const { buildPrompt, presets } = require('../prompts/promptBuilder');
 const CONFIG = {
   minQualityScore: 7,           // 최소 품질 점수
   maxRetries: 3,                // 최대 재시도 횟수
-  model: 'claude-sonnet-4-20250514',
+  model: 'claude-sonnet-4-6',
   maxTokens: 8000,
   retryDelay: 1000              // 재시도 전 대기 (ms)
 };

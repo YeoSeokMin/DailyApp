@@ -11,6 +11,8 @@
 
 const store = require('app-store-scraper');
 const gplay = require('google-play-scraper');
+// ★Apple 신규앱 피드 동결(2026-07-09~) 대응 — 차트 신규 진입 방식
+const { collectIOSChartNew } = require('./iosChartNew');
 const fs = require('fs').promises;
 const path = require('path');
 
@@ -251,7 +253,7 @@ async function collectAndroid() {
  */
 async function main() {
   console.log('🚀 앱 데이터 수집 시작 - ' + new Date().toLocaleString('ko-KR'));
-  console.log(`📅 기준: iOS/Android 모두 최근 ${NEW_APP_DAYS_IOS}일 이내 출시`);
+  console.log(`📅 기준: iOS=차트 신규 진입(전일 대비) / Android=최근 ${NEW_APP_DAYS_ANDROID}일 출시`);
   console.log(`🌍 대상 국가: ${COUNTRIES.map(c => c.name).join(', ')}`);
   console.log('');
 
@@ -260,7 +262,12 @@ async function main() {
   await fs.mkdir(outputDir, { recursive: true });
 
   // iOS & Android 앱 수집 (순차 실행 - API 안정성)
-  const iosApps = await collectIOS();
+  // ★iOS: Apple 의 NEW_*_IOS 컬렉션이 2026-07-09 이후 동결되어(실측: 최신 74일 전)
+  //   '최근 N일 출시' 수집이 불가능하다. 살아있는 공식 top-free/top-paid 피드를
+  //   매일 스냅샷해 '차트 신규 진입'을 대신 쓴다. 구 collectIOS() 는 미사용.
+  const _t = new Date();
+  const _todayStr = `${_t.getFullYear()}${String(_t.getMonth() + 1).padStart(2, '0')}${String(_t.getDate()).padStart(2, '0')}`;
+  const iosApps = await collectIOSChartNew(COUNTRIES, _todayStr);
   const androidApps = await collectAndroid();
 
   // 국가별 통계 계산
@@ -272,7 +279,7 @@ async function main() {
   const result = {
     수집일시: getKSTString(),
     날짜: `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${today.getDate()}일`,
-    수집기준: { iOS: `최근 ${NEW_APP_DAYS_IOS}일`, Android: `최근 ${NEW_APP_DAYS_ANDROID}일` },
+    수집기준: { iOS: '차트 신규 진입(전일 대비)', Android: `최근 ${NEW_APP_DAYS_ANDROID}일` },
     지원국가: COUNTRIES.map(c => c.code),
     // 기존 호환용 (한국 앱)
     iOS앱: iosApps.kr || [],

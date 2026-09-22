@@ -58,3 +58,9 @@ prompts/modules/
 
 .vercel
 .env*.local
+
+# iOS 차트 스냅샷 (매일 갱신, 30일 자동 정리)
+output/ios_chart/
+
+# 루트 reports/ 는 생성물 (정식 경로는 web/data/reports/)
+reports/

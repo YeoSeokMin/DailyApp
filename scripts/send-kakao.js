@@ -133,6 +133,9 @@ function createSummary(report) {
     });
     if (report.ios.length > 3) text += `   ...외 ${report.ios.length - 3}개\n`;
     text += '\n';
+  } else if (report.data_status?.ios === 'unavailable') {
+    // 수집 0건을 명시 — 조용히 빠지면 버그인지 실제로 없는지 구분이 안 된다
+    text += '🍎 iOS: 신규 앱 없음 (수집 소스 정지)\n\n';
   }
 
   // Android 앱
@@ -200,6 +203,22 @@ async function main() {
   try {
     const data = await fs.readFile(REPORT_FILE, 'utf-8');
     report = JSON.parse(data);
+
+    // ★2026-09-22: 낡은 리포트 발송 차단.
+    //   2026-06-16~09-22(98일) 동안 analyze 가 죽었는데도 파이프라인이 그대로 진행돼
+    //   6월 리포트가 매일 카톡으로 나갔다. 날짜가 오늘이 아니면 보내지 않는다.
+    {
+      const today = new Date().toISOString().split('T')[0];
+      const rd = report && report.date;
+      if (rd !== today) {
+        console.error('');
+        console.error('🚨 발송 중단 — 리포트가 오늘 날짜가 아닙니다');
+        console.error(`   리포트 날짜: ${rd || '(없음)'}`);
+        console.error(`   오늘        : ${today}`);
+        console.error('   분석 단계가 실패했을 가능성이 큽니다. 낡은 내용을 보내지 않습니다.');
+        process.exit(1);
+      }
+    }
   } catch {
     throw new Error('리포트 파일이 없습니다. npm run analyze를 실행하세요.');
   }

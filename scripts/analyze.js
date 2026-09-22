@@ -121,7 +121,7 @@ async function analyzeWithAPI(prompt) {
   console.log('  🌐 Anthropic API 호출 중...');
 
   const response = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: 'claude-sonnet-4-6',
     max_tokens: 8000,
     messages: [{ role: 'user', content: prompt }]
   });
@@ -149,7 +149,7 @@ async function analyzeWithCLI(prompt) {
   console.log(`  📨 명령 길이: ${instruction.length}자`);
 
   return new Promise((resolve, reject) => {
-    const claude = spawn('claude', ['--model', 'claude-sonnet-4-20250514', '--print'], {
+    const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print'], {
       shell: true,
       stdio: ['pipe', 'pipe', 'pipe']
     });
@@ -405,6 +405,13 @@ async function main() {
 
   console.log(`   iOS: ${iosApps.length}개 / Android: ${androidApps.length}개`);
 
+  // ★수집 0건 플랫폼 표시 (2026-09-22: Apple NEW_FREE_IOS 피드가 7/9 이후 정지 →
+  //   iOS 0건인데 AI가 아는 앱으로 채워 넣어 가짜 리포트가 카톡으로 나가던 문제)
+  const IOS_UNAVAILABLE = iosApps.length === 0;
+  const ANDROID_UNAVAILABLE = androidApps.length === 0;
+  if (IOS_UNAVAILABLE) console.log('   ⚠️ iOS 수집 0건 — 조작 방지 모드');
+  if (ANDROID_UNAVAILABLE) console.log('   ⚠️ Android 수집 0건 — 조작 방지 모드');
+
   // 4. 프롬프트 구성 (제외 목록 포함)
   // 영어 요약이 있으면 영어로 전달 (토큰 절감)
   const hasEnglishSummary = iosApps[0]?.summary_en || androidApps[0]?.summary_en;
@@ -444,6 +451,18 @@ async function main() {
   }
 
   let fullPrompt = promptTemplate + '\n' + JSON.stringify(cleanedData, null, 2);
+
+  // ★입력이 0건인 플랫폼을 지어내지 못하게 명시
+  const emptyPlatforms = [];
+  if (IOS_UNAVAILABLE) emptyPlatforms.push('ios');
+  if (ANDROID_UNAVAILABLE) emptyPlatforms.push('android');
+  if (emptyPlatforms.length > 0) {
+    fullPrompt += '\n\n[중요 — 데이터 없음 처리]\n'
+      + `오늘 수집된 앱이 0건인 플랫폼: ${emptyPlatforms.join(', ')}\n`
+      + `해당 플랫폼의 JSON 배열은 반드시 빈 배열 [] 로 출력하라.\n`
+      + '네가 알고 있는 앱으로 채우지 마라. 위 입력 데이터에 없는 앱은 절대 출력하지 마라.\n';
+  }
+
   fullPrompt += '\n\n---\n\n위 앱들을 분석하고 아래에 JSON을 출력하세요 (설명 없이 바로 {로 시작):\n';
   console.log(`   프롬프트: ${(fullPrompt.length / 1024).toFixed(1)}KB`);
   console.log('');
@@ -536,11 +555,35 @@ async function main() {
     const iosCount = report.ios?.length || 0;
     const androidCount = report.android?.length || 0;
 
-    if (iosCount === 0 || androidCount === 0) {
-      throw new Error(`분석 결과 앱이 비어 있습니다 (iOS: ${iosCount}, Android: ${androidCount})`);
+    // ★결정론적 방어 — 프롬프트 지시를 무시하고 지어냈으면 여기서 잘라낸다.
+    report.data_status = report.data_status || {};
+    if (IOS_UNAVAILABLE) {
+      if (iosCount > 0) {
+        console.log(`  🚨 조작 감지: iOS 입력 0건인데 결과 ${iosCount}건 → 강제로 비움`);
+      }
+      report.ios = [];
+      report.data_status.ios = 'unavailable';
+    }
+    if (ANDROID_UNAVAILABLE) {
+      if (androidCount > 0) {
+        console.log(`  🚨 조작 감지: Android 입력 0건인데 결과 ${androidCount}건 → 강제로 비움`);
+      }
+      report.android = [];
+      report.data_status.android = 'unavailable';
     }
 
-    if (iosCount < MIN_APPS || androidCount < MIN_APPS) {
+    // 입력이 있었는데 결과가 비었을 때만 실패로 본다
+    if ((!IOS_UNAVAILABLE && (report.ios?.length || 0) === 0) ||
+        (!ANDROID_UNAVAILABLE && (report.android?.length || 0) === 0)) {
+      throw new Error(`분석 결과 앱이 비어 있습니다 (iOS: ${report.ios?.length || 0}, Android: ${report.android?.length || 0})`);
+    }
+
+    // 양쪽 다 수집 0건이면 리포트를 낼 이유가 없다
+    if (IOS_UNAVAILABLE && ANDROID_UNAVAILABLE) {
+      throw new Error('iOS/Android 모두 수집 0건 — 리포트를 생성하지 않습니다');
+    }
+
+    if ((!IOS_UNAVAILABLE && iosCount < MIN_APPS) || (!ANDROID_UNAVAILABLE && androidCount < MIN_APPS)) {
       console.log(`  ⚠️ 경고: 앱 개수 부족 (iOS: ${iosCount}, Android: ${androidCount})`);
       console.log(`     최소 ${MIN_APPS}개씩 필요합니다.`);
     }

@@ -16,7 +16,7 @@ const os = require('os');
 
 // Codex CLI 설정
 const CODEX_CONFIG = {
-  model: 'gpt-5',
+  model: 'gpt-5.6-luna',
   reasoningEffort: 'low',  // gpt-5는 xhigh 미지원, low로 충분
   timeout: 120000  // 2분 타임아웃
 };

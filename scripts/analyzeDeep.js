@@ -52,7 +52,7 @@ async function callClaude(prompt) {
 
     try {
       const response = await client.messages.create({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-sonnet-4-6',
         max_tokens: 8000,
         messages: [{ role: 'user', content: prompt }]
       });
@@ -70,7 +70,7 @@ async function callClaude(prompt) {
     const { spawn } = require('child_process');
 
     return new Promise((resolve, reject) => {
-      const claude = spawn('claude', ['--model', 'claude-sonnet-4-20250514', '--print'], {
+      const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print'], {
         shell: true,
         stdio: ['pipe', 'pipe', 'pipe']
       });
