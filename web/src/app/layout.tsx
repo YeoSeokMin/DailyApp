@@ -13,8 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "오늘의 앱 아이디어",
-  description: "매일 발굴하는 숨겨진 보석 앱들 - iOS & Android 신규 앱 중 아이디어가 좋은 TOP 10",
+  // ★metadataBase 가 없으면 OG/canonical 이 상대경로로 나가 크롤러가 해석하지 못한다
+  metadataBase: new URL("https://dailyapp.opcodey.com"),
+  title: {
+    default: "오늘의 앱 아이디어 — 매일 발굴하는 iOS·Android 신규 앱",
+    template: "%s | 오늘의 앱 아이디어",
+  },
+  description:
+    "매일 한국·미국·일본 앱스토어의 신규 출시 앱을 수집해 수익 구조·기술 난이도·시장 기회로 분석합니다. 개인 개발자가 만들 만한 앱 아이디어를 찾는 리포트.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    locale: "ko_KR",
+    url: "https://dailyapp.opcodey.com",
+    siteName: "오늘의 앱 아이디어",
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({
