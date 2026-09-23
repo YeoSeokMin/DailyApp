@@ -1,22 +1,79 @@
 {
-  "generatedAt": "2026-09-22T15:14:02.441Z",
+  "generatedAt": "2026-09-23T15:14:44.549Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "교육",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
+      "category": "Productivity",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Origami: Folding Guide",
-        "ZotMeet",
-        "AI HandSpeak"
+        "노그미 (Nogmi)"
       ],
-      "avgScore": 6.8999999999999995
+      "avgScore": 8
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 3,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "VibeShort: AI Short Dramas",
+        "Loopit - Make Playables",
+        "CharaPu - Stories Are Up to You"
+      ],
+      "avgScore": 7.933333333333334
+    },
+    {
+      "category": "Education",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "국시마스터 (Exam Master)"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Lifestyle",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "조구만 일력 (Joguman Daily Calendar)",
+        "공군 PTSD 알람 (Air Force PTSD Alarm)"
+      ],
+      "avgScore": 6
+    },
+    {
+      "category": "News",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CrimeRadar: Dispatch Alerts",
+        "Aha! Issues - 잠금화면 뉴스 요약"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Weather",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Weather Tone"
+      ],
+      "avgScore": 6.5
     },
     {
       "category": "게임",
@@ -30,20 +87,6 @@
       "avgScore": 6.5
     },
     {
-      "category": "금융",
-      "currentCount": 4,
-      "previousCount": 2,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "NellyTrack",
-        "Flags: Tax Residency Tracker",
-        "튼튼머니",
-        "디지털온누리"
-      ],
-      "avgScore": 7.7250000000000005
-    },
-    {
       "category": "지도/내비게이션",
       "currentCount": 1,
       "previousCount": 0,
@@ -53,6 +96,42 @@
         "GPS 지도 음성 내비게이션"
       ],
       "avgScore": 4.8
+    },
+    {
+      "category": "날씨",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "첫화면날씨"
+      ],
+      "avgScore": 6
+    },
+    {
+      "category": "음악",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Listen Card Music Share",
+        "Evoka: Music & Emotion"
+      ],
+      "avgScore": 7.05
+    },
+    {
+      "category": "교육",
+      "currentCount": 3,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Origami: Folding Guide",
+        "ZotMeet",
+        "AI HandSpeak"
+      ],
+      "avgScore": 6.8999999999999995
     },
     {
       "category": "사진 및 비디오",
@@ -80,7 +159,7 @@
     {
       "category": "의료",
       "currentCount": 2,
-      "previousCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
@@ -101,38 +180,15 @@
       "avgScore": 8.5
     },
     {
-      "category": "유틸리티",
-      "currentCount": 7,
-      "previousCount": 4,
-      "changePercent": 75,
+      "category": "참고",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "ChatPort: Text Message Export",
-        "QR 스캐너",
-        "QR 코드 & 바코드 스캐너",
-        "순공 - 순수한 공부",
-        "Gosu Chef",
-        "Room Media Wall",
-        "사진 복구"
+        "주얼리 식별: 감정"
       ],
-      "avgScore": 6.985714285714286
-    },
-    {
-      "category": "건강 및 피트니스",
-      "currentCount": 7,
-      "previousCount": 4,
-      "changePercent": 75,
-      "changeDirection": "up",
-      "apps": [
-        "PeakSpan live",
-        "YASETOMO",
-        "NutriCise AI",
-        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
-        "RepScan",
-        "Daily Deen: Muslim Habits & AI",
-        "런데이"
-      ],
-      "avgScore": 8.028571428571428
+      "avgScore": 7.8
     },
     {
       "category": "스포츠",
@@ -177,10 +233,24 @@
   ],
   "decliningCategories": [
     {
+      "category": "도구",
+      "currentCount": 4,
+      "previousCount": 5,
+      "changePercent": -20,
+      "changeDirection": "down",
+      "apps": [
+        "전체 복구 - 사진, 동영상",
+        "QR 스캐너",
+        "QR 코드 & 바코드 스캐너",
+        "사진 복구 - 파일 복원"
+      ],
+      "avgScore": 6.8500000000000005
+    },
+    {
       "category": "생산성",
-      "currentCount": 19,
+      "currentCount": 16,
       "previousCount": 22,
-      "changePercent": -14,
+      "changePercent": -27,
       "changeDirection": "down",
       "apps": [
         "Habit Tracker SLOX",
@@ -198,38 +268,23 @@
         "Tipbook: Tip Tracker",
         "챗봇 AI: 스마트 AI 어시스턴트",
         "PDF 리더 & PDF 편집",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "PDFChat AI",
-        "setlog",
-        "문서 뷰어: PDF, Word"
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
       ],
-      "avgScore": 7.121052631578948
+      "avgScore": 7.03125
     },
     {
-      "category": "도구",
+      "category": "유틸리티",
       "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
+      "previousCount": 7,
+      "changePercent": -43,
       "changeDirection": "down",
       "apps": [
-        "전체 복구 - 사진, 동영상",
+        "ChatPort: Text Message Export",
         "QR 스캐너",
         "QR 코드 & 바코드 스캐너",
-        "사진 복구 - 파일 복원"
+        "순공 - 순수한 공부"
       ],
-      "avgScore": 6.8500000000000005
-    },
-    {
-      "category": "여행",
-      "currentCount": 2,
-      "previousCount": 6,
-      "changePercent": -67,
-      "changeDirection": "down",
-      "apps": [
-        "Flights Collector",
-        "TripMate"
-      ],
-      "avgScore": 7.300000000000001
+      "avgScore": 7.0249999999999995
     },
     {
       "category": "음식 및 음료",
@@ -241,31 +296,47 @@
         "Hot Truck Map"
       ],
       "avgScore": 7
+    },
+    {
+      "category": "여행",
+      "currentCount": 1,
+      "previousCount": 7,
+      "changePercent": -86,
+      "changeDirection": "down",
+      "apps": [
+        "Flights Collector"
+      ],
+      "avgScore": 7.4
     }
   ],
   "stableCategories": [
     {
-      "category": "날씨",
-      "currentCount": 1,
-      "previousCount": 1,
+      "category": "금융",
+      "currentCount": 3,
+      "previousCount": 3,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "첫화면날씨"
+        "NellyTrack",
+        "Flags: Tax Residency Tracker",
+        "튼튼머니"
       ],
-      "avgScore": 6
+      "avgScore": 7.7
     },
     {
-      "category": "음악",
-      "currentCount": 2,
-      "previousCount": 2,
+      "category": "건강 및 피트니스",
+      "currentCount": 5,
+      "previousCount": 5,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Listen Card Music Share",
-        "Evoka: Music & Emotion"
+        "PeakSpan live",
+        "YASETOMO",
+        "NutriCise AI",
+        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+        "RepScan"
       ],
-      "avgScore": 7.05
+      "avgScore": 8.18
     },
     {
       "category": "비즈니스",
@@ -277,75 +348,21 @@
         "Coach Flow App"
       ],
       "avgScore": 7.6
-    },
-    {
-      "category": "참고",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "주얼리 식별: 감정"
-      ],
-      "avgScore": 7.8
     }
   ],
   "hotKeywords": [
     {
-      "keyword": "1인개발가능",
-      "category": "tag",
-      "count": 46,
-      "apps": [
-        "Gnomes and Knights",
-        "NellyTrack",
-        "Finding Space",
-        "첫화면날씨",
-        "Listen Card Music Share",
-        "Habit Tracker SLOX",
-        "ChatPort: Text Message Export",
-        "Tabreakr",
-        "Flower Language: Bouquet",
-        "ClipCode",
-        "Origami: Folding Guide",
-        "PDF 리더: 뷰어·편집기",
-        "PeakSpan live",
-        "YASETOMO",
-        "Coach Flow App",
-        "setlog",
-        "AI HandSpeak",
-        "Flags: Tax Residency Tracker",
-        "순공 - 순수한 공부",
-        "Crosstask",
-        "Evoka: Music & Emotion",
-        "전체 복구 - 사진, 동영상",
-        "튼튼머니",
-        "Flights Collector",
-        "NutriCise AI",
-        "Ayumap - Walk & Journey Map",
-        "주얼리 식별: 감정",
-        "SyncPlay - 舞台用ビデオ同期ツール",
-        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
-        "QR 스캐너",
-        "QR 코드 & 바코드 스캐너",
-        "Face Guard Video",
-        "Hooklings: 코바늘 & 뜨개질",
-        "RepScan",
-        "Hot Truck Map",
-        "Tipbook: Tip Tracker",
-        "챗봇 AI: 스마트 AI 어시스턴트",
-        "사진 복구 - 파일 복원",
-        "PDF 리더 & PDF 편집",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "Gosu Chef",
-        "PDFChat AI",
-        "Daily Deen: Muslim Habits & AI"
-      ]
-    },
-    {
       "keyword": "B2C",
       "category": "tag",
-      "count": 46,
+      "count": 52,
       "apps": [
+        "노그미 (Nogmi)",
+        "VibeShort: AI Short Dramas",
+        "국시마스터 (Exam Master)",
+        "조구만 일력 (Joguman Daily Calendar)",
+        "Loopit - Make Playables",
+        "CrimeRadar: Dispatch Alerts",
+        "Weather Tone",
         "Gnomes and Knights",
         "Dtecto",
         "NellyTrack",
@@ -388,15 +405,73 @@
         "챗봇 AI: 스마트 AI 어시스턴트",
         "사진 복구 - 파일 복원",
         "PDF 리더 & PDF 편집",
-        "NetShort - 인기 드라마 및 TV 프로그램",
-        "Gosu Chef"
+        "NetShort - 인기 드라마 및 TV 프로그램"
+      ]
+    },
+    {
+      "keyword": "1인개발가능",
+      "category": "tag",
+      "count": 47,
+      "apps": [
+        "노그미 (Nogmi)",
+        "국시마스터 (Exam Master)",
+        "조구만 일력 (Joguman Daily Calendar)",
+        "공군 PTSD 알람 (Air Force PTSD Alarm)",
+        "Weather Tone",
+        "Gnomes and Knights",
+        "NellyTrack",
+        "Finding Space",
+        "첫화면날씨",
+        "Listen Card Music Share",
+        "Habit Tracker SLOX",
+        "ChatPort: Text Message Export",
+        "Tabreakr",
+        "Flower Language: Bouquet",
+        "ClipCode",
+        "Origami: Folding Guide",
+        "PDF 리더: 뷰어·편집기",
+        "PeakSpan live",
+        "YASETOMO",
+        "Coach Flow App",
+        "setlog",
+        "AI HandSpeak",
+        "Flags: Tax Residency Tracker",
+        "순공 - 순수한 공부",
+        "Crosstask",
+        "Evoka: Music & Emotion",
+        "전체 복구 - 사진, 동영상",
+        "튼튼머니",
+        "Flights Collector",
+        "NutriCise AI",
+        "Ayumap - Walk & Journey Map",
+        "주얼리 식별: 감정",
+        "SyncPlay - 舞台用ビデオ同期ツール",
+        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
+        "QR 스캐너",
+        "QR 코드 & 바코드 스캐너",
+        "Face Guard Video",
+        "Hooklings: 코바늘 & 뜨개질",
+        "RepScan",
+        "Hot Truck Map",
+        "Tipbook: Tip Tracker",
+        "챗봇 AI: 스마트 AI 어시스턴트",
+        "사진 복구 - 파일 복원",
+        "PDF 리더 & PDF 편집",
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 17,
+      "count": 21,
       "apps": [
+        "노그미 (Nogmi)",
+        "VibeShort: AI Short Dramas",
+        "조구만 일력 (Joguman Daily Calendar)",
+        "공군 PTSD 알람 (Air Force PTSD Alarm)",
+        "Loopit - Make Playables",
+        "CharaPu - Stories Are Up to You",
+        "Aha! Issues - 잠금화면 뉴스 요약",
         "Dtecto",
         "YASETOMO",
         "Phoder: Photo Organize Cleanup",
@@ -406,15 +481,13 @@
         "주얼리 식별: 감정",
         "Face Guard Video",
         "RepScan",
-        "챗봇 AI: 스마트 AI 어시스턴트",
-        "PDFChat AI",
-        "Daily Deen: Muslim Habits & AI"
+        "챗봇 AI: 스마트 AI 어시스턴트"
       ]
     },
     {
       "keyword": "생산성",
       "category": "productivity",
-      "count": 13,
+      "count": 11,
       "apps": [
         "Habit Tracker SLOX",
         "Tabreakr",
@@ -423,14 +496,13 @@
         "PDF 리더: 뷰어·편집기",
         "setlog",
         "PDF 뷰어 - PDF Reader & PDF 편집",
-        "PDF 리더 & PDF 편집",
-        "PDFChat AI"
+        "PDF 리더 & PDF 편집"
       ]
     },
     {
       "keyword": "유틸리티",
       "category": "tag",
-      "count": 11,
+      "count": 10,
       "apps": [
         "GPS 지도 음성 내비게이션",
         "첫화면날씨",
@@ -439,52 +511,45 @@
         "QR 스캐너",
         "QR 코드 & 바코드 스캐너",
         "전체 복구 - 사진, 동영상",
-        "사진 복구 - 파일 복원",
-        "사진 복구"
+        "사진 복구 - 파일 복원"
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 8,
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 9,
       "apps": [
-        "Finding Space",
+        "VibeShort: AI Short Dramas",
+        "조구만 일력 (Joguman Daily Calendar)",
+        "공군 PTSD 알람 (Air Force PTSD Alarm)",
+        "Loopit - Make Playables",
+        "CharaPu - Stories Are Up to You",
+        "Aha! Issues - 잠금화면 뉴스 요약",
+        "DramaWave",
         "Listen Card Music Share",
-        "setlog",
-        "TripMate"
+        "NetShort - 인기 드라마 및 TV 프로그램"
       ]
     },
     {
-      "keyword": "B2B",
+      "keyword": "AI활용",
       "category": "tag",
       "count": 7,
       "apps": [
-        "Tabreakr",
-        "ClipCode",
-        "Coach Flow App",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "Crosstask",
-        "SyncPlay - 舞台用ビデオ同期ツール",
-        "Room Media Wall"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "tag",
-      "count": 6,
-      "apps": [
+        "노그미 (Nogmi)",
+        "Loopit - Make Playables",
+        "CharaPu - Stories Are Up to You",
+        "Aha! Issues - 잠금화면 뉴스 요약",
+        "Dtecto",
         "YASETOMO",
-        "튼튼머니",
-        "NutriCise AI",
-        "RepScan",
-        "런데이"
+        "Phoder: Photo Organize Cleanup"
       ]
     },
     {
       "keyword": "스트리밍",
       "category": "creator",
-      "count": 5,
+      "count": 6,
       "apps": [
+        "VibeShort: AI Short Dramas",
         "ScoreBox: Sports IPTV",
         "DramaWave",
         "실시간 TV - KBS, MBC, SBS, JTBC",
@@ -493,13 +558,51 @@
       ]
     },
     {
-      "keyword": "매칭",
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 6,
+      "apps": [
+        "조구만 일력 (Joguman Daily Calendar)",
+        "공군 PTSD 알람 (Air Force PTSD Alarm)",
+        "CharaPu - Stories Are Up to You",
+        "CrimeRadar: Dispatch Alerts",
+        "Listen Card Music Share",
+        "Face Guard Video"
+      ]
+    },
+    {
+      "keyword": "소셜",
       "category": "social",
-      "count": 5,
+      "count": 6,
       "apps": [
         "Finding Space",
-        "ZotMeet",
-        "TripMate"
+        "Listen Card Music Share",
+        "setlog"
+      ]
+    },
+    {
+      "keyword": "B2B",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "Tabreakr",
+        "ClipCode",
+        "Coach Flow App",
+        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
+        "Crosstask",
+        "SyncPlay - 舞台用ビデオ同期ツール"
+      ]
+    },
+    {
+      "keyword": "글로벌",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "VibeShort: AI Short Dramas",
+        "Loopit - Make Playables",
+        "CharaPu - Stories Are Up to You",
+        "Flags: Tax Residency Tracker",
+        "Crosstask"
       ]
     },
     {
@@ -515,33 +618,44 @@
       ]
     },
     {
-      "keyword": "AI활용",
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "YASETOMO",
+        "튼튼머니",
+        "NutriCise AI",
+        "RepScan"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 4,
+      "apps": [
+        "Loopit - Make Playables",
+        "전체 복구 - 사진, 동영상",
+        "SyncPlay - 舞台用ビデオ同期ツール",
+        "Face Guard Video"
+      ]
+    },
+    {
+      "keyword": "구독모델",
       "category": "tag",
       "count": 3,
       "apps": [
-        "Dtecto",
-        "YASETOMO",
+        "노그미 (Nogmi)",
+        "PeakSpan live",
         "Phoder: Photo Organize Cleanup"
       ]
     },
     {
-      "keyword": "피트니스",
-      "category": "tag",
+      "keyword": "매칭",
+      "category": "social",
       "count": 3,
       "apps": [
-        "Dtecto",
-        "런데이 - 즐겁게 달리기/만보기/계단/등산 코칭 PT",
-        "setlog"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "DramaWave",
-        "Listen Card Music Share",
-        "NetShort - 인기 드라마 및 TV 프로그램"
+        "Finding Space",
+        "ZotMeet"
       ]
     },
     {
@@ -555,36 +669,6 @@
       ]
     },
     {
-      "keyword": "필수도구",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "PDF 뷰어 - PDF Reader & PDF 편집",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "문서 뷰어: PDF, Word"
-      ]
-    },
-    {
-      "keyword": "글로벌",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Flags: Tax Residency Tracker",
-        "Crosstask",
-        "Daily Deen: Muslim Habits & AI"
-      ]
-    },
-    {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "전체 복구 - 사진, 동영상",
-        "SyncPlay - 舞台用ビデオ同期ツール",
-        "Face Guard Video"
-      ]
-    },
-    {
       "keyword": "프로",
       "category": "subscription",
       "count": 3,
@@ -595,67 +679,67 @@
       ]
     },
     {
-      "keyword": "핀테크",
+      "keyword": "IAP",
       "category": "tag",
       "count": 2,
       "apps": [
-        "NellyTrack",
-        "디지털온누리"
+        "VibeShort: AI Short Dramas",
+        "CharaPu - Stories Are Up to You"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 15,
-        "percent": 21,
+        "count": 24,
+        "percent": 34,
         "examples": [
-          "Gnomes and Knights",
-          "Flower Language: Bouquet",
-          "Origami: Folding Guide"
+          "노그미 (Nogmi)",
+          "VibeShort: AI Short Dramas",
+          "조구만 일력 (Joguman Daily Calendar)"
         ]
       },
       "freemium": {
-        "count": 55,
-        "percent": 79,
+        "count": 56,
+        "percent": 80,
         "examples": [
-          "Gnomes and Knights",
-          "Dtecto",
-          "NellyTrack"
+          "노그미 (Nogmi)",
+          "VibeShort: AI Short Dramas",
+          "조구만 일력 (Joguman Daily Calendar)"
         ]
       },
       "subscription": {
-        "count": 40,
-        "percent": 57,
+        "count": 39,
+        "percent": 56,
         "examples": [
-          "Dtecto",
-          "NellyTrack",
-          "ScoreBox: Sports IPTV"
+          "노그미 (Nogmi)",
+          "국시마스터 (Exam Master)",
+          "Loopit - Make Playables"
         ]
       },
       "onetime": {
-        "count": 15,
-        "percent": 21,
+        "count": 16,
+        "percent": 23,
         "examples": [
-          "Gnomes and Knights",
-          "NellyTrack",
-          "Habit Tracker SLOX"
+          "국시마스터 (Exam Master)",
+          "조구만 일력 (Joguman Daily Calendar)",
+          "Weather Tone"
         ]
       },
       "unknown": {
-        "count": 5,
-        "percent": 7,
+        "count": 4,
+        "percent": 6,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 55,
-      "percent": 79,
+      "count": 56,
+      "percent": 80,
       "examples": [
-        "Gnomes and Knights",
-        "Dtecto",
-        "NellyTrack"
+        "노그미 (Nogmi)",
+        "VibeShort: AI Short Dramas",
+        "조구만 일력 (Joguman Daily Calendar)"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -664,50 +748,38 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 19,
-        "percent": 27,
+        "count": 24,
+        "percent": 34,
         "apps": [
-          "Dtecto",
-          "YASETOMO",
-          "Phoder: Photo Organize Cleanup",
-          "QR 스캐너",
-          "AI HandSpeak"
+          "노그미 (Nogmi)",
+          "VibeShort: AI Short Dramas",
+          "조구만 일력 (Joguman Daily Calendar)",
+          "공군 PTSD 알람 (Air Force PTSD Alarm)",
+          "Loopit - Make Playables"
         ]
       },
       {
         "tech": "creator",
-        "count": 12,
-        "percent": 17,
+        "count": 16,
+        "percent": 23,
         "apps": [
-          "ScoreBox: Sports IPTV",
-          "DramaWave",
-          "PDF 리더 및 뷰어",
-          "실시간 TV - KBS, MBC, SBS, JTBC",
-          "PDF 리더: 뷰어·편집기"
+          "VibeShort: AI Short Dramas",
+          "조구만 일력 (Joguman Daily Calendar)",
+          "Loopit - Make Playables",
+          "CharaPu - Stories Are Up to You",
+          "ScoreBox: Sports IPTV"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 11,
-        "percent": 16,
+        "count": 13,
+        "percent": 19,
         "apps": [
-          "Listen Card Music Share",
-          "setlog",
-          "setlog",
-          "setlog",
-          "Face Guard Video"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 5,
-        "percent": 7,
-        "apps": [
-          "Finding Space",
-          "Listen Card Music Share",
-          "ZotMeet",
-          "setlog",
-          "TripMate"
+          "조구만 일력 (Joguman Daily Calendar)",
+          "공군 PTSD 알람 (Air Force PTSD Alarm)",
+          "CharaPu - Stories Are Up to You",
+          "CrimeRadar: Dispatch Alerts",
+          "Listen Card Music Share"
         ]
       },
       {
@@ -719,6 +791,17 @@
           "Tabreakr",
           "Coach Flow App",
           "Crosstask",
+          "setlog"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 4,
+        "percent": 6,
+        "apps": [
+          "Finding Space",
+          "Listen Card Music Share",
+          "ZotMeet",
           "setlog"
         ]
       },
@@ -753,51 +836,39 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 19,
-      "percent": 27,
+      "count": 24,
+      "percent": 34,
       "apps": [
-        "Dtecto",
-        "YASETOMO",
-        "Phoder: Photo Organize Cleanup",
-        "QR 스캐너",
-        "AI HandSpeak"
+        "노그미 (Nogmi)",
+        "VibeShort: AI Short Dramas",
+        "조구만 일력 (Joguman Daily Calendar)",
+        "공군 PTSD 알람 (Air Force PTSD Alarm)",
+        "Loopit - Make Playables"
       ]
     },
     "emerging": [
       {
-        "tech": "ai",
-        "count": 19,
-        "percent": 27,
-        "apps": [
-          "Dtecto",
-          "YASETOMO",
-          "Phoder: Photo Organize Cleanup",
-          "QR 스캐너",
-          "AI HandSpeak"
-        ]
-      },
-      {
         "tech": "creator",
-        "count": 12,
-        "percent": 17,
+        "count": 16,
+        "percent": 23,
         "apps": [
-          "ScoreBox: Sports IPTV",
-          "DramaWave",
-          "PDF 리더 및 뷰어",
-          "실시간 TV - KBS, MBC, SBS, JTBC",
-          "PDF 리더: 뷰어·편집기"
+          "VibeShort: AI Short Dramas",
+          "조구만 일력 (Joguman Daily Calendar)",
+          "Loopit - Make Playables",
+          "CharaPu - Stories Are Up to You",
+          "ScoreBox: Sports IPTV"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 11,
-        "percent": 16,
+        "count": 13,
+        "percent": 19,
         "apps": [
-          "Listen Card Music Share",
-          "setlog",
-          "setlog",
-          "setlog",
-          "Face Guard Video"
+          "조구만 일력 (Joguman Daily Calendar)",
+          "공군 PTSD 알람 (Air Force PTSD Alarm)",
+          "CharaPu - Stories Are Up to You",
+          "CrimeRadar: Dispatch Alerts",
+          "Listen Card Music Share"
         ]
       }
     ]
@@ -805,10 +876,45 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "교육 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Productivity 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "교육"
+      "category": "Productivity"
+    },
+    {
+      "type": "rising_category",
+      "title": "Entertainment 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Entertainment"
+    },
+    {
+      "type": "rising_category",
+      "title": "Education 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Education"
+    },
+    {
+      "type": "rising_category",
+      "title": "Lifestyle 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Lifestyle"
+    },
+    {
+      "type": "rising_category",
+      "title": "News 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "News"
+    },
+    {
+      "type": "rising_category",
+      "title": "Weather 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Weather"
     },
     {
       "type": "rising_category",
@@ -819,17 +925,31 @@
     },
     {
       "type": "rising_category",
-      "title": "금융 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "금융"
-    },
-    {
-      "type": "rising_category",
       "title": "지도/내비게이션 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "지도/내비게이션"
+    },
+    {
+      "type": "rising_category",
+      "title": "날씨 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "날씨"
+    },
+    {
+      "type": "rising_category",
+      "title": "음악 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "음악"
+    },
+    {
+      "type": "rising_category",
+      "title": "교육 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "교육"
     },
     {
       "type": "rising_category",
@@ -861,6 +981,13 @@
     },
     {
       "type": "rising_category",
+      "title": "참고 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "참고"
+    },
+    {
+      "type": "rising_category",
       "title": "스포츠 카테고리 급부상",
       "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -883,24 +1010,26 @@
     {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "27%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "34%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "교육·금융·사진 카테고리가 100% 이상 급성장하며 새로운 진입 기회가 열리고 있고, freemium+구독 모델(79%/57%)이 인디 앱의 수익화 표준으로 자리잡았습니다. AI 기능을 탑재한 앱이 27%에 달하며 기술 차별화의 핵심 요소로 부상했습니다.",
+    "trend_summary": "이번 주는 Productivity, Entertainment, Education 등 다수 카테고리가 100% 급성장하며 시장 전반에 걸쳐 새로운 수요가 폭발하고 있습니다. AI 기능을 탑재한 앱이 전체의 34%를 차지하며 기술 트렌드를 주도하고, '1인개발가능' 태그가 47회로 두 번째로 많이 언급되어 인디 개발자 친화적 시장 환경이 형성되고 있습니다. Freemium 모델이 80%로 압도적 주류이며 구독 모델도 56%로 수익화 다변화가 진행 중입니다.",
     "trend_details": [
-      "교육 카테고리 200% 급성장 — 앱 수가 아직 3개에 불과해 선점 여지가 크고, AI 튜터링·맞춤 학습 결합 시 강력한 차별화 가능",
-      "freemium + 구독 조합이 사실상 표준 — 무료 진입장벽을 낮추되 월정액으로 LTV를 확보하는 구조가 인디에게도 최적 수익 모델로 검증됨",
-      "AR/VR(16%)·AI(27%)가 함께 성장 — 단순 기능 추가가 아닌 핵심 UX로 AI를 내재화한 앱이 상위 트렌드를 주도"
+      "AI 기능 통합이 전체 앱의 34%에 달하며 표준화되는 추세로, AI 미적용 틈새 카테고리에서 오히려 차별화 가능",
+      "Freemium(80%) + 구독(56%) 조합이 지배적 수익 모델로 자리잡아 무료 진입 후 전환 전략이 핵심",
+      "AR/VR(19%), 크리에이터 도구(23%) 등 콘텐츠 생산 관련 기술 스택이 급부상하며 새로운 앱 카테고리 창출 중"
     ],
     "hot_categories": [
-      "교육",
-      "금융"
+      "Productivity",
+      "Entertainment",
+      "Education",
+      "Lifestyle"
     ],
-    "opportunity": "AI 기능이 아직 적용되지 않은 교육·금융 카테고리에서 1인 개발 가능한 freemium 앱으로 빠르게 선점하는 것이 가장 유망한 기회입니다.",
-    "action_item": "교육 또는 금융 틈새 주제를 하나 정해, Claude/GPT API를 활용한 핵심 AI 기능 1개를 포함한 MVP를 2주 내 freemium 모델로 출시하세요.",
-    "weekly_theme": "AI 교육 선점"
+    "opportunity": "AI를 접목한 1인 개발 가능한 Productivity 또는 Education 앱이 경쟁 앱 수가 적은 지금 진입하면 선점 효과를 극대화할 수 있습니다.",
+    "action_item": "기존 아이디어에 AI 기능(요약·분류·추천 중 하나)을 붙여 Freemium 모델로 Productivity 또는 Education 카테고리에 MVP를 2주 내 출시하세요.",
+    "weekly_theme": "AI 1인개발 선점"
   }
 }
