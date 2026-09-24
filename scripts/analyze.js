@@ -11,6 +11,7 @@
 require('dotenv').config();
 
 const { spawn } = require('child_process');
+const { CLAUDE_LEAN_FLAGS } = require('./claudeLean');
 const fs = require('fs').promises;
 const path = require('path');
 
@@ -144,13 +145,14 @@ async function analyzeWithCLI(prompt) {
   await fs.writeFile(absPath, prompt, 'utf-8');
   console.log(`  📁 프롬프트 파일 저장: ${absPath}`);
 
-  // 짧은 명령을 stdin으로 전달 (100자 미만이라 대용량 stdin 버그 해당 없음)
-  const instruction = `Read the file "${absPath}" and follow all instructions in it exactly. Output only the JSON result, starting with { and ending with }.`;
-  console.log(`  📨 명령 길이: ${instruction.length}자`);
+  // ★2026-09-24: 프롬프트를 stdin 으로 직접 넘긴다(도구 없이 호출).
+  //   예전엔 "파일을 Read 해라"로 우회해서 Read 도구와 프로젝트 권한 설정을 켜 둬야 했다.
+  //   리눅스에선 대용량 stdin 문제 없음(35.8KB 실측). 위 임시 파일은 디버깅용으로만 남긴다.
+  const instruction = `${prompt}\n\nOutput only the JSON result, starting with { and ending with }.`;
 
   return new Promise((resolve, reject) => {
-    const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print'], {
-      shell: true,
+    const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print', ...CLAUDE_LEAN_FLAGS], {
+      shell: false,
       stdio: ['pipe', 'pipe', 'pipe']
     });
 
@@ -162,8 +164,8 @@ async function analyzeWithCLI(prompt) {
       if (settled) return;
       settled = true;
       claude.kill();
-      reject(new Error('타임아웃: 10분 초과'));
-    }, 10 * 60 * 1000);
+      reject(new Error('타임아웃: 15분 초과'));
+    }, 15 * 60 * 1000);
 
     const safeResolve = (value) => {
       if (settled) return;
@@ -198,7 +200,7 @@ async function analyzeWithCLI(prompt) {
 
     claude.on('error', safeReject);
 
-    // 짧은 명령을 stdin으로 전달
+    // 프롬프트 전체를 stdin으로 전달
     claude.stdin.write(instruction);
     claude.stdin.end();
   });

@@ -116,11 +116,16 @@ async function getValidToken() {
   return accessToken;
 }
 
+// KST 기준 YYYY-MM-DD. toISOString() 은 UTC 라 파이프라인이 도는 00시대(KST)엔 전날이 나온다.
+function kstToday() {
+  return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul' }).format(new Date());
+}
+
 /**
  * 리포트 요약 생성
  */
 function createSummary(report) {
-  const date = report.date || new Date().toISOString().split('T')[0];
+  const date = report.date || kstToday();
 
   let text = `📱 오늘의 앱 아이디어\n${date}\n\n`;
 
@@ -208,7 +213,7 @@ async function main() {
     //   2026-06-16~09-22(98일) 동안 analyze 가 죽었는데도 파이프라인이 그대로 진행돼
     //   6월 리포트가 매일 카톡으로 나갔다. 날짜가 오늘이 아니면 보내지 않는다.
     {
-      const today = new Date().toISOString().split('T')[0];
+      const today = kstToday();
       const rd = report && report.date;
       if (rd !== today) {
         console.error('');

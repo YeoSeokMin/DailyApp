@@ -68,10 +68,11 @@ async function callClaude(prompt) {
   } else {
     // CLI 모드 (로컬)
     const { spawn } = require('child_process');
+    const { CLAUDE_LEAN_FLAGS } = require('./claudeLean');
 
     return new Promise((resolve, reject) => {
-      const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print'], {
-        shell: true,
+      const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print', ...CLAUDE_LEAN_FLAGS], {
+        shell: false,
         stdio: ['pipe', 'pipe', 'pipe']
       });
 

@@ -14,6 +14,7 @@ require('dotenv').config();
 const fs = require('fs').promises;
 const path = require('path');
 const { spawn } = require('child_process');
+const { CLAUDE_LEAN_FLAGS } = require('./claudeLean');
 const Anthropic = require('@anthropic-ai/sdk');
 
 const REPORTS_DIR = path.join(__dirname, '../web/data/reports');
@@ -393,8 +394,8 @@ function detectOpportunities(changes, techTrends, pricingTrends) {
  */
 function callClaudeCLI(prompt) {
   return new Promise((resolve, reject) => {
-    const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print'], {
-      shell: true,
+    const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print', ...CLAUDE_LEAN_FLAGS], {
+      shell: false,
       stdio: ['pipe', 'pipe', 'pipe']
     });
 
