@@ -62,5 +62,5 @@ prompts/modules/
 # iOS 차트 스냅샷 (매일 갱신, 30일 자동 정리)
 output/ios_chart/
 
-# 루트 reports/ 는 생성물 (정식 경로는 web/data/reports/)
-reports/
+# 루트 reports/ 는 생성물 (정식 경로는 web/data/reports/). ★앞의 / 필수 — 없으면 web/data/reports/ 까지 무시된다
+/reports/

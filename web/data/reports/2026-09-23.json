@@ -1,0 +1,689 @@
+{
+  "date": "2026-09-23",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "노그미 (Nogmi)",
+      "developer": "You Dohyuk",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/3e/0c/393e0c91-5d1c-6f18-e03e-4296b8bb9ab2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%85%B8%EA%B7%B8%EB%AF%B8-nogmi-%EB%85%B9%EC%9D%8C-%EC%A0%84%EC%82%AC-%EC%9A%94%EC%95%BD/id6775334158",
+      "idea_summary": "녹음→전사→요약 AI 원스톱 노트 앱",
+      "analysis": {
+        "problem": "회의·강의·인터뷰 등 구술 정보를 체계적으로 기록·정리하는 것이 어렵고 시간이 많이 소요됨 [추론]",
+        "solution": "녹음 즉시 AI 전사 및 요약을 자동 처리해 정리 부담 제거 [추론]",
+        "target_user": "직장인, 대학생, 콘텐츠 제작자, 기자 등 정보 기록 필요군 [추론]",
+        "unique_point": "한국어 특화 AI 전사+요약 원스톱 처리로 국산 경쟁 앱 대비 편의성 우위 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "네이버 클로바노트",
+          "Apple 메모 앱 받아쓰기"
+        ],
+        "timing_reason": "Whisper 등 오픈소스 음성 전사 기술 성숙, LLM 요약 비용 하락으로 개인 개발자도 고품질 구현 가능 [추론]",
+        "growth_potential": "AI 생산성 툴 수요 지속 증가, 한국어 특화 공백 시장 존재해 성장 여지 큼 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본+프리미엄 구독 (월정액, 전사 시간·요약 횟수 제한 해제) [추론]",
+        "pricing_suggestion": "월 4,900~9,900원 구독, 연간 할인 제공 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "500~1,200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "AVFoundation",
+          "OpenAI Whisper API",
+          "GPT-4o API",
+          "CoreData"
+        ],
+        "key_features": [
+          "실시간 녹음 및 파형 시각화",
+          "AI 자동 전사(한국어 최적화)",
+          "섹션별 AI 요약",
+          "키워드 태깅",
+          "공유·내보내기"
+        ],
+        "clone_tip": "Whisper API로 전사, GPT-4o로 요약 파이프라인 구성. 처음엔 정확도보다 UX에 집중하고, 무료 tier 3회/일로 전환율 측정할 것 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI활용",
+        "#구독모델"
+      ],
+      "verdict": "한국어 AI 전사 시장 공백 狙격, 타이밍 최적·수익성 검증된 카테고리",
+      "deep_report_id": "ios-노그미-nogmi-1790089810817"
+    },
+    {
+      "rank": 2,
+      "name": "VibeShort: AI Short Dramas",
+      "developer": "AGILE QUADRANT MEDIA LIMITED",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/f9/2e/5bf92e8c-128d-e63a-9ed7-f4585db67861/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/vibeshort-ai-short-dramas/id6758667154",
+      "idea_summary": "AI 개인화 숏폼 드라마 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "짧은 여가 시간에 맞는 고품질 스낵형 드라마 콘텐츠가 부족함 [추론]",
+        "solution": "AI 취향 분석 기반 단편 드라마 추천·스트리밍 서비스 제공 [추론]",
+        "target_user": "15~35세 스마트폰 헤비유저, 숏폼 콘텐츠 소비 세대 [추론]",
+        "unique_point": "틱톡식 UX + 드라마 서사 결합, AI 개인화로 이탈 최소화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DramaBox",
+          "ShortMax",
+          "Reels(Meta)",
+          "TikTok 시리즈"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 폭발적 증가, 세로형 드라마 포맷이 글로벌 트렌드로 자리잡음 [추론]",
+        "growth_potential": "글로벌 숏드라마 시장 고성장 중, 아시아 시장 특히 수요 강함 [추론]"
+      },
+      "business": {
+        "monetization": "코인/포인트 IAP(에피소드 잠금 해제) + 광고 지원 무료 시청 [추론]",
+        "pricing_suggestion": "에피소드당 소액 결제(100~300원) + 월정액 무제한 옵션 병행 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1,500~4,000만원 (콘텐츠 확보 비용 별도) [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "HLS 스트리밍",
+          "Firebase",
+          "추천 알고리즘 ML"
+        ],
+        "key_features": [
+          "세로형 드라마 스트리밍",
+          "AI 개인화 추천",
+          "에피소드 잠금/코인 시스템",
+          "오프라인 다운로드",
+          "자막 지원"
+        ],
+        "clone_tip": "콘텐츠 없이 시작 불가. 초기엔 퍼블릭 도메인 단편이나 인디 창작자와 수익 분배 계약으로 시드 콘텐츠 확보 후 플레이어 UX에 집중할 것 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#콘텐츠플랫폼",
+        "#B2C",
+        "#글로벌",
+        "#IAP"
+      ],
+      "verdict": "숏드라마 골드러시, 플레이어 UX와 콘텐츠 수급이 성패 좌우"
+    },
+    {
+      "rank": 3,
+      "name": "국시마스터 (Exam Master)",
+      "developer": "Nexture Creative",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/0f/ea/400fea1e-f764-2428-2c5e-a812024d92f6/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EA%B5%AD%EC%8B%9C%EB%A7%88%EC%8A%A4%ED%84%B0/id6761680549",
+      "idea_summary": "한국 국가자격시험 통합 학습 플랫폼",
+      "analysis": {
+        "problem": "간호사·의사·약사 등 국가시험 준비 자료가 분산되어 있고 모바일 최적화 학습 도구 부족 [추론]",
+        "solution": "다양한 국가자격시험 문제·해설·모의고사를 한 앱에서 제공 [추론]",
+        "target_user": "각종 국가자격증 취득 준비생 (의료·법률·금융 계열 중심) [추론]",
+        "unique_point": "여러 종목 국가시험을 단일 앱에서 커버하는 통합 수험 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "에듀윌",
+          "해커스 자격증",
+          "이패스코리아"
+        ],
+        "timing_reason": "자격증 취득 수요 지속 증가, 모바일 학습 전환 가속화 [추론]",
+        "growth_potential": "수험생 시장은 안정적 수요, 문제 DB 확충 시 강한 락인 효과 기대 [추론]"
+      },
+      "business": {
+        "monetization": "콘텐츠별 유료 구독 또는 시험 종목 단건 구매 [추론]",
+        "pricing_suggestion": "월 9,900원 또는 시험 종목별 29,000~59,000원 단건 판매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "700~2,000만원 (문제 DB 구축 포함) [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreData",
+          "CloudKit",
+          "StoreKit2"
+        ],
+        "key_features": [
+          "OX·객관식 문제 풀이 엔진",
+          "오답 노트 자동 생성",
+          "시험 시뮬레이션 모드",
+          "학습 통계 대시보드",
+          "오프라인 지원"
+        ],
+        "clone_tip": "공개된 기출문제(공공데이터포털)로 시드 DB 구성 후 특정 시험 1개에 집중해 론칭, 검증 후 종목 확대 전략이 유효 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크",
+        "#국내특화"
+      ],
+      "verdict": "안정적 수요 보장, 문제 DB 품질이 경쟁력의 핵심"
+    },
+    {
+      "rank": 4,
+      "name": "조구만 일력 (Joguman Daily Calendar)",
+      "developer": "Joguman, Inc.",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/aa/2d/d5aa2d93-141c-52ca-5687-b3437438f20f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%A1%B0%EA%B5%AC%EB%A7%8C-%EC%9D%BC%EB%A0%A5/id6752803014",
+      "idea_summary": "감성 캐릭터 IP 기반 수집형 하루달력",
+      "analysis": {
+        "problem": "일상에서 감성적 충전과 소소한 즐거움을 줄 수 있는 캐릭터 기반 생활 앱 부재 [추론]",
+        "solution": "조구만 캐릭터 일러스트·명언·콜렉터블 콘텐츠로 구성된 하루 달력 앱 [확인]",
+        "target_user": "20~30대 감성 소비 여성, 조구만 IP 팬덤 [추론]",
+        "unique_point": "자체 IP 캐릭터와 달력 기능 결합, 수집 요소로 재방문 유도 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "네이버 캘린더",
+          "일반 달력 앱",
+          "카카오 프렌즈 기반 앱"
+        ],
+        "timing_reason": "캐릭터 IP 기반 앱 상품화 트렌드 확산, 감성 라이프스타일 앱 수요 지속 [추론]",
+        "growth_potential": "기존 IP 팬덤 기반 안정적 초기 유저 확보 가능, 굿즈 연계 시 부가 수익 기대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마·스티커 IAP, IP 굿즈 커머스 연계 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 테마 팩 3,300~6,600원 단건 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~800만원 (일러스트 외주 포함) [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "EventKit",
+          "Lottie Animation",
+          "StoreKit2"
+        ],
+        "key_features": [
+          "하루 1페이지 캐릭터 일러스트",
+          "오늘의 명언 카드",
+          "수집형 캘린더 스티커",
+          "일정 간단 기록",
+          "잠금화면 위젯"
+        ],
+        "clone_tip": "독자 IP 없이 클론 시 저작권 문제 발생. 퍼블릭 도메인 일러스트 또는 직접 제작 캐릭터로 차별화. 달력 기능은 EventKit으로 빠르게 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#IP활용",
+        "#B2C",
+        "#감성앱",
+        "#1인개발가능"
+      ],
+      "verdict": "독자 IP가 핵심 자산, 팬덤 보유 시 낮은 기술 장벽으로 빠른 론칭 가능"
+    },
+    {
+      "rank": 5,
+      "name": "공군 PTSD 알람 (Air Force PTSD Alarm)",
+      "developer": "SANGSANGLYEOG",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/9c/98/f89c9896-58b0-e820-8b77-8a0d46ea4608/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EA%B3%B5%EA%B5%B0-ptsd-%EC%95%8C%EB%9E%8C/id6812858705",
+      "idea_summary": "공군 장병 PTSD 자가 관리 알람 앱",
+      "analysis": {
+        "problem": "현역·전역 공군 장병의 PTSD 증상을 정기적으로 자가 점검할 수 있는 전용 도구 부재 [추론]",
+        "solution": "정기 알람으로 PTSD 자가진단 리마인더 및 기록 관리 제공 [추론]",
+        "target_user": "대한민국 공군 현역 및 전역 장병 [확인]",
+        "unique_point": "군 특화 멘탈헬스 틈새 시장, 공군 특성에 맞춘 맞춤형 콘텐츠 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Woebot",
+          "마음이음(보훈처)",
+          "일반 명상 앱"
+        ],
+        "timing_reason": "군 정신건강 인식 제고 사회 분위기, 장병 스마트폰 보급 확대로 접근성 향상 [추론]",
+        "growth_potential": "시장 규모 매우 한정적이나 블루오션. 전군 확대 또는 소방·경찰 등 유사 직군으로 확장 시 가능성 있음 [추측]"
+      },
+      "business": {
+        "monetization": "무료 (공익 목적 추정), 향후 기관 B2B 계약 가능성 [추론]",
+        "pricing_suggestion": "무료 배포로 신뢰 구축 후 기관(국방부·보훈처) B2B 라이선스 전환 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~3개월 [추론]",
+        "estimated_cost": "200~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "UserNotifications",
+          "HealthKit",
+          "CoreData"
+        ],
+        "key_features": [
+          "맞춤형 알람 스케줄러",
+          "PTSD 자가진단 체크리스트",
+          "증상 기록 타임라인",
+          "위기 시 상담 연결 링크"
+        ],
+        "clone_tip": "공인된 PTSD 척도(PCL-5 등)를 기반으로 체크리스트 구성. 군 커뮤니티(부대 카페, 전역자 카페)를 통한 바이럴이 유일한 배포 채널 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 1,
+        "competition": 5,
+        "profitability": 1,
+        "scalability": 2,
+        "overall": 5.8
+      },
+      "tags": [
+        "#틈새시장",
+        "#공익앱",
+        "#1인개발가능",
+        "#B2G가능성"
+      ],
+      "verdict": "극소 시장이지만 경쟁자 없는 블루오션, 포트폴리오·사회 기여 목적에 적합"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Loopit - Make Playables",
+      "developer": "SeedLeap Intelligent Technology Co., Ltd.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/gIU9I2UL58QAd9PuZxQy8G9Ib1ZzyL6EzO4q6n7cCeSohS3x5SEoMusmU_umX-6HblVjGNbZK7ecpHYJBmHi",
+      "app_url": "https://play.google.com/store/apps/details?id=com.seedleap.loopitapp",
+      "idea_summary": "AI로 인터랙티브 플레이어블 콘텐츠 생성",
+      "analysis": {
+        "problem": "기술 지식 없는 일반 사용자가 인터랙티브 미디어(미니게임·퍼즐·장난감)를 만들기 어려움 [추론]",
+        "solution": "AI가 사용자 아이디어를 플레이 가능한 인터랙티브 콘텐츠로 자동 변환 [추론]",
+        "target_user": "소셜미디어 크리에이터, 밈 제작자, 캐주얼 게임 팬 [추론]",
+        "unique_point": "단순 영상이 아닌 '플레이어블' 콘텐츠 생성이라는 새로운 창작 카테고리 개척 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Canva",
+          "CapCut",
+          "Tenor GIF 메이커"
+        ],
+        "timing_reason": "생성 AI의 인터랙티브 콘텐츠 적용이 초기 단계로 선점 기회 존재 [추론]",
+        "growth_potential": "소셜 플랫폼의 인터랙티브 포맷 지원 확대 시 폭발적 성장 가능, 크리에이터 이코노미 편승 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본+프리미엄 생성 횟수·고급 템플릿 구독 [추론]",
+        "pricing_suggestion": "월 6,900원 구독, 무료 5회/일 제한으로 유입 후 전환 유도 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5~10개월 [추론]",
+        "estimated_cost": "2,000~5,000만원 (AI 파이프라인 개발 포함) [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "WebGL/Canvas",
+          "생성형 AI API",
+          "Firebase"
+        ],
+        "key_features": [
+          "텍스트→인터랙티브 콘텐츠 AI 생성",
+          "플레이어블 미니게임 템플릿",
+          "소셜 공유 기능",
+          "공개 갤러리"
+        ],
+        "clone_tip": "AI 파이프라인이 핵심 난관. GPT-4o + 코드 생성으로 간단한 Canvas 기반 인터랙티브 요소부터 시작. 처음엔 템플릿 기반으로 사용성 검증 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI활용",
+        "#크리에이터툴",
+        "#글로벌",
+        "#B2C"
+      ],
+      "verdict": "플레이어블 콘텐츠 생성이라는 신개념 카테고리, AI 기술력이 진입 장벽",
+      "deep_report_id": "android-loopit-make-playables-1790089916073"
+    },
+    {
+      "rank": 2,
+      "name": "CharaPu - Stories Are Up to You",
+      "developer": "キャラぷ (wrtn Technologies)",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/tSjZWtOqky5iXLPZ9bx8rqeFu_UWV6T-OtCreh7NoKRLFRtXMPAqTN5p5BSBofEALujYM6Klc5hG-fetXwyqRA",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.wrtn.character",
+      "idea_summary": "AI 캐릭터와 협력해 스토리를 함께 쓰는 앱",
+      "analysis": {
+        "problem": "단방향 콘텐츠 소비를 넘어 능동적으로 스토리에 참여하고 싶은 욕구를 충족하는 앱 부재 [추론]",
+        "solution": "AI 캐릭터와 대화하며 사용자 선택에 따라 분기하는 스토리를 협력 창작 [추론]",
+        "target_user": "소설·만화·애니메이션 팬, 롤플레이 창작 취미를 가진 10~30대 [추론]",
+        "unique_point": "단순 AI 챗봇이 아닌 사용자가 스토리 방향을 결정하는 공동 창작 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "NovelAI"
+        ],
+        "timing_reason": "LLM 기반 롤플레이 앱 급성장 중, 일본·한국의 만화·애니 팬덤 수요 강함 [추론]",
+        "growth_potential": "AI 캐릭터 엔터테인먼트 시장 초기 성장 단계, IP 확장 시 강한 락인 효과 [추론]"
+      },
+      "business": {
+        "monetization": "코인 기반 IAP (대화 횟수·프리미엄 캐릭터 잠금 해제) [추론]",
+        "pricing_suggestion": "무료 일일 한도 제공 후 코인 팩 1,100~11,000원 구간 판매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1,000~3,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "LLM API (GPT-4o/Claude)",
+          "Firebase Realtime DB",
+          "스트리밍 응답"
+        ],
+        "key_features": [
+          "AI 캐릭터 설정 커스터마이저",
+          "분기형 스토리 선택지",
+          "감정 표현 이모트 시스템",
+          "스토리 저장·공유",
+          "캐릭터 성장 기록"
+        ],
+        "clone_tip": "LLM 시스템 프롬프트로 캐릭터 페르소나 고정이 핵심 기술. 스트리밍 응답으로 대화 몰입감 확보. 초기에 3~5개 시그니처 캐릭터에 집중해 완성도 높일 것 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AI활용",
+        "#엔터테인먼트",
+        "#글로벌",
+        "#IAP"
+      ],
+      "verdict": "AI 캐릭터 롤플레이 붐 타이밍 최적, 한·일 팬덤 문화와 궁합 탁월"
+    },
+    {
+      "rank": 3,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "News",
+      "icon": "https://play-lh.googleusercontent.com/3b7_a7m50wFj68Afd6q0bhq2HPTWQlgeViv9B9tEbhChS3h4nVTo-HotZF4OmShKwT2_zhNAr3alwYRWBjiC_g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "실시간 경찰 디스패치 기반 동네 범죄 알람",
+      "analysis": {
+        "problem": "내 주변에서 발생하는 범죄·긴급상황 정보를 실시간으로 파악하기 어려움 [추론]",
+        "solution": "경찰 무선 디스패치 공개 데이터를 실시간 지도 기반 알람으로 시각화 [추론]",
+        "target_user": "치안 의식이 높은 미국 성인, 특히 부모·야간 근무자·이민자 [추론]",
+        "unique_point": "경찰 디스패치 원천 데이터 실시간 연동으로 미디어 필터 없는 직접 정보 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen App",
+          "Neighbors by Ring",
+          "Nextdoor"
+        ],
+        "timing_reason": "지역 치안 불안 증가, 공공 안전 앱 수요 지속 상승, 개인 안전 의식 강화 [추론]",
+        "growth_potential": "미국 외 도시 데이터 확장 시 글로벌 적용 가능, 보험사·부동산과 B2B 연계 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료+프리미엄 구독(반경 확장·알람 필터·히스토리) [추론]",
+        "pricing_suggestion": "월 4.99달러 프리미엄, 무료 기본으로 DAU 확보 후 전환 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "800~2,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google Maps SDK",
+          "경찰 디스패치 공개 API",
+          "Firebase Cloud Messaging",
+          "Geofencing API"
+        ],
+        "key_features": [
+          "실시간 사건 지도 시각화",
+          "반경 알람 설정",
+          "사건 유형 필터",
+          "히스토리 조회",
+          "위험 지역 히트맵"
+        ],
+        "clone_tip": "미국 경찰 디스패치 공개 피드(Broadcastify, 각 시 공공 데이터)가 핵심 데이터 소스. 한국은 유사 공공 데이터 부재로 직접 클론 어려움. 동네 안전 정보 대안 소스 발굴 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#공공안전",
+        "#B2C",
+        "#미국시장",
+        "#위치기반"
+      ],
+      "verdict": "공공 데이터 활용 실시간 안전 정보, 미국 시장 특화로 국내 적용엔 데이터 확보가 과제"
+    },
+    {
+      "rank": 4,
+      "name": "Aha! Issues - 잠금화면 뉴스 요약",
+      "developer": "Aha! Topics",
+      "category": "News",
+      "icon": "https://play-lh.googleusercontent.com/IfqMGRSJ49UDOSlkP5DmDj_p14UrxkMyh_R1DRR8hBPGDPnC2UYYygv9O2HuAUKg84bqldoPn3etMrOsc0foIg",
+      "app_url": "https://play.google.com/store/apps/details?id=net.ahanews.kr",
+      "idea_summary": "잠금화면에서 바로 보는 주요 이슈 한줄 요약",
+      "analysis": {
+        "problem": "뉴스를 확인하기 위해 앱을 열고 기사를 탐색하는 마찰 비용이 큼 [추론]",
+        "solution": "잠금화면에 주요 이슈 AI 요약을 직접 표시해 제로 탭 뉴스 소비 실현 [추론]",
+        "target_user": "바쁜 20~40대 직장인, 빠른 정보 소비를 선호하는 스마트폰 헤비유저 [추론]",
+        "unique_point": "잠금화면이라는 최전방 UX 진입점 선점, 요약형 콘텐츠로 인지 부하 최소화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google 뉴스",
+          "Flipboard",
+          "네이버 뉴스"
+        ],
+        "timing_reason": "AI 요약 기술 성숙, 정보 과부하로 인한 큐레이션 수요 증가 [추론]",
+        "growth_potential": "잠금화면 광고·스폰서 콘텐츠 수익화 모델로 확장, DAU 높으면 광고 단가 프리미엄 가능 [추론]"
+      },
+      "business": {
+        "monetization": "잠금화면 광고+스폰서 뉴스 카드 [추론]",
+        "pricing_suggestion": "완전 무료로 DAU 극대화 후 잠금화면 광고 수익화 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "400~900만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "잠금화면 Overlay API",
+          "뉴스 RSS/API",
+          "LLM 요약 API"
+        ],
+        "key_features": [
+          "잠금화면 위젯 뉴스 카드",
+          "AI 이슈 한줄 요약",
+          "카테고리 커스터마이징",
+          "알람 연동 업데이트",
+          "상세 기사 링크"
+        ],
+        "clone_tip": "Android 잠금화면 Overlay 권한 처리가 핵심 기술 허들. 뉴스 소스는 Google News RSS나 NewsAPI로 시작, GPT-4o-mini로 요약 비용 최소화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#뉴스",
+        "#잠금화면",
+        "#AI활용",
+        "#광고수익"
+      ],
+      "verdict": "잠금화면 진입점이 차별화 핵심, Android 권한 UX만 잘 해결하면 빠른 확산 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Weather Tone",
+      "developer": "TrueMe Global",
+      "category": "Weather",
+      "icon": "https://play-lh.googleusercontent.com/STUB5zrN4omIMW53i_O7eIJIbrDQ3H23vm-oAFoIy2UzsCNe8PzgRU2s03xQc6U8Ebrkb8CL5jU13m6kV8ZK",
+      "app_url": "https://play.google.com/store/apps/details?id=com.weathertone.weteforecast",
+      "idea_summary": "날씨를 소리와 감성 무드로 전달하는 날씨 앱",
+      "analysis": {
+        "problem": "기존 날씨 앱이 숫자·아이콘 중심이라 감각적 이해와 감성적 연결이 부족함 [추론]",
+        "solution": "날씨 상태를 사운드스케이프·무드·색감으로 감각적으로 표현해 직관적 날씨 인지 제공 [추론]",
+        "target_user": "20~40대 감성 지향 스마트폰 사용자, 사운드 민감 사용자 [추론]",
+        "unique_point": "날씨 정보 전달 방식 자체를 청각·감성으로 재정의한 독창적 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기상청 앱",
+          "Weather Channel",
+          "AccuWeather",
+          "iOS 기본 날씨"
+        ],
+        "timing_reason": "감성 소비 트렌드 확산, 기능 중심 앱에서 경험 중심 앱으로 사용자 기대 이동 [추론]",
+        "growth_potential": "날씨 앱 시장은 성숙하나 감성 차별화로 틈새 팬덤 확보 가능, 수익화 한계 존재 [추추측]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료+프리미엄 사운드팩·테마 IAP [추론]",
+        "pricing_suggestion": "완전 무료로 사용자 확보, 사운드/테마 팩 2,200~4,400원 단건 판매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~3개월 [추론]",
+        "estimated_cost": "200~600만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "날씨 API (OpenWeatherMap)",
+          "ExoPlayer",
+          "Lottie Animation"
+        ],
+        "key_features": [
+          "날씨 연동 사운드스케이프 자동 재생",
+          "무드 색감 배경 변화",
+          "날씨별 한줄 감성 코멘트",
+          "잠금화면 위젯",
+          "알람 사운드 연동"
+        ],
+        "clone_tip": "OpenWeatherMap API로 날씨 데이터, Freesound.org 공개 오디오로 사운드팩 초기 구성. 1~2주면 MVP 가능. 차별화는 사운드 품질과 감성 카피라이팅에 달림 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#감성앱",
+        "#1인개발가능",
+        "#빠른MVP",
+        "#B2C"
+      ],
+      "verdict": "가장 빠른 클론 가능 아이디어, 수익보다 포트폴리오·브랜딩 목적에 적합"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 AI를 활용한 콘텐츠 창작 도구와 인터랙티브 엔터테인먼트가 주요 흐름을 이끌었으며, 잠금화면·알람 등 OS 진입점을 선점하는 생활 밀착형 앱들도 두드러진 성과를 보였다. 특히 AI 캐릭터 롤플레이와 숏폼 드라마 스트리밍이 엔터테인먼트의 새로운 축으로 부상 중이다.",
+    "trend_details": [
+      "AI 기반 인터랙티브 콘텐츠 생성(Loopit): 단순 소비에서 플레이어블 창작으로 패러다임 전환 시작",
+      "AI 캐릭터 공동 창작(CharaPu): 일방적 AI 챗봇을 넘어 사용자 주도 스토리텔링 포맷 성장",
+      "숏폼 드라마 플랫폼(VibeShort): 세로형 드라마 포맷의 글로벌 확산이 콘텐츠 스타트업에 기회 제공",
+      "잠금화면 선점 앱(Aha! Issues): 뉴스·정보 소비의 제로탭 진입점으로 잠금화면 UI 재조명",
+      "AI 생산성 원스톱(Nogmi): 녹음-전사-요약 파이프라인이 한국어 특화 공백 시장으로 부상"
+    ],
+    "hot_categories": [
+      "AI 엔터테인먼트",
+      "AI 생산성",
+      "숏폼 콘텐츠",
+      "공공 안전"
+    ],
+    "opportunity": "한국어 특화 AI 생산성 도구(전사·요약·회의록)와 AI 캐릭터 기반 인터랙티브 엔터테인먼트가 가장 즉각적인 기회 영역. 두 카테고리 모두 기술 진입 장벽이 낮고 수익화 검증이 된 유사 해외 사례 다수 존재",
+    "action_item": "Nogmi 클론으로 한국어 AI 회의록 앱 MVP 검증: OpenAI Whisper API + GPT-4o-mini로 전사·요약 파이프라인 구성, 무료 3회/일 제한 모델로 TestFlight 배포 후 전환율 측정"
+  },
+  "data_status": {}
+}

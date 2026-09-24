@@ -1,0 +1,689 @@
+{
+  "date": "2026-09-24",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Retro Phone Camera - Camera from the Past",
+      "developer": "Jihoon Choi",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/ce/02/66ce028d-3968-888e-8c99-18c01d1a0dd3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EA%B7%B8%EB%95%8C%ED%8F%B0%EC%B9%B4-%EA%B7%B8-%EC%8B%9C%EC%A0%88-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6811546596",
+      "idea_summary": "레트로 피처폰 카메라 효과로 향수 감성 재현",
+      "analysis": {
+        "problem": "현대 스마트폰 카메라는 너무 선명해 2000년대 피처폰 특유의 감성을 재현하기 어려움 [추론]",
+        "solution": "구형 휴대폰 카메라 특유의 저화질·색감·날짜 스탬프·셔터음을 정밀 시뮬레이션 [확인]",
+        "target_user": "피처폰 시절을 경험한 MZ세대(20-35세) 및 Y2K 감성을 소비하는 10대 [추론]",
+        "unique_point": "단순 빈티지 필터가 아닌 특정 구형 폰 모델별 카메라 효과를 정밀 재현 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "HUJI Cam",
+          "Dazz Cam",
+          "1998 Cam",
+          "Kuni Cam"
+        ],
+        "timing_reason": "레트로·Y2K 트렌드가 MZ세대 SNS 콘텐츠 소비를 중심으로 강세 지속 중 [추론]",
+        "growth_potential": "SNS 바이럴 특성이 강한 카테고리로 입소문 확산 시 빠른 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 필터 팩 인앱 구매 또는 구독 방식 [추론]",
+        "pricing_suggestion": "무료 기본 + 필터 팩 1,200-2,500원 개별 판매 또는 월 3,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1,500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreImage",
+          "Metal",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "구형 폰 카메라 필터 시뮬레이션",
+          "날짜·타임스탬프 오버레이",
+          "저해상도 노이즈 효과",
+          "모델별 셔터음 재현"
+        ],
+        "clone_tip": "CoreImage + Metal 파이프라인으로 노이즈·블러·색상 왜곡 구현, 특정 폰 모델별 프리셋이 차별화 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#레트로트렌드",
+        "#카메라앱"
+      ],
+      "verdict": "Y2K 감성 정확히 겨냥한 틈새 카메라앱, SNS 바이럴 가능성 높음",
+      "deep_report_id": "ios-retro-phone-camera-camera-from-the-past-1790176261665"
+    },
+    {
+      "rank": 2,
+      "name": "Generative AI Passport Exam Vocabulary Flashcards | FujiCert",
+      "developer": "Motohiro Fujita",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/d2/32/43d232d7-5bab-5de1-3831-1f31c6593dd8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E7%94%9F%E6%88%90ai%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88%E8%A9%A6%E9%A8%93%E7%94%A8%E8%AA%9E%E6%9A%97%E8%A8%98%E3%82%AB%E3%83%BC%E3%83%89-fujicert/id6783598645",
+      "idea_summary": "일본 생성 AI 패스포트 자격증 용어 플래시카드",
+      "analysis": {
+        "problem": "일본 생성 AI 패스포트 자격증 시험 전용 학습 도구가 없어 시험 준비가 비효율적 [추론]",
+        "solution": "출제 빈도 높은 용어를 플래시카드로 반복 학습하는 최소화된 자격증 앱 [확인]",
+        "target_user": "일본 생성 AI 패스포트 자격증 취득을 목표로 하는 직장인·IT 학습자 [추론]",
+        "unique_point": "신생 AI 자격증이라는 블루오션을 선점한 초세분화 틈새 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Anki",
+          "Quizlet",
+          "일반 자격증 대비 앱"
+        ],
+        "timing_reason": "일본 AI 패스포트 자격증 시험 수요 급증, AI 자격증 붐이 전 세계로 확산 중 [추론]",
+        "growth_potential": "AI 자격증 시장 성장에 따라 한국·미국 등 유사 자격증으로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 다운로드 또는 전체 문제 세트 인앱 구매 잠금 해제 [추론]",
+        "pricing_suggestion": "일회성 유료 480-980엔 또는 기본 무료 + 프리미엄 문제 세트 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "200-600 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "플래시카드 학습 모드",
+          "스페이스드 리피티션 알고리즘",
+          "정답률 트래킹",
+          "출제 빈도별 분류"
+        ],
+        "clone_tip": "자격증 콘텐츠 확보가 핵심, 한국 AICE·AI 전문가 자격증 등에 동일 모델 즉시 적용 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI자격증",
+        "#에듀테크",
+        "#일본시장"
+      ],
+      "verdict": "AI 자격증 붐 타이밍 완벽, 콘텐츠만 있으면 1인 개발 즉시 클론 가능"
+    },
+    {
+      "rank": 3,
+      "name": "Kingboard - Spell Checker and AI Translation Keyboard",
+      "developer": "Dong sub Park",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/30/bf/6a30bf80-911d-5164-33fa-22e5b54befa6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%82%B9%EB%B3%B4%EB%93%9C-%EB%A7%9E%EC%B6%A4%EB%B2%95-%EA%B2%80%EC%82%AC%EA%B8%B0-%EB%B2%88%EC%97%AD-ai-%ED%82%A4%EB%B3%B4%EB%93%9C/id6762074672",
+      "idea_summary": "맞춤법 교정·번역·AI 글쓰기 통합 키보드",
+      "analysis": {
+        "problem": "한국어 모바일 입력 시 맞춤법 오류와 번역을 위해 앱을 반복 전환해야 하는 불편 [추론]",
+        "solution": "키보드 레벨에서 맞춤법 검사·번역·AI 문장 완성을 앱 전환 없이 통합 제공 [확인]",
+        "target_user": "한국어 문서 작성·번역이 잦은 직장인, 학생, 콘텐츠 작성자 [추론]",
+        "unique_point": "앱 전환 없이 키보드 내에서 맞춤법·번역·AI 작성을 원스톱 처리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Gboard",
+          "SwiftKey",
+          "네이버 스마트보드",
+          "삼성 키보드"
+        ],
+        "timing_reason": "AI 글쓰기 보조 도구 수요 급증, 키보드 레벨 AI 통합은 아직 차별화 포인트 [추론]",
+        "growth_potential": "한국 시장 안착 후 다국어 지원 확장 시 글로벌 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 AI 기능 월정액 구독 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 월 2,900-4,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1,000-3,000 [추론]",
+        "tech_stack": [
+          "Swift",
+          "UIKit",
+          "Keyboard Extension API",
+          "OpenAI API",
+          "국립국어원 맞춤법 API"
+        ],
+        "key_features": [
+          "키보드 확장 UI",
+          "실시간 맞춤법 교정",
+          "원터치 번역",
+          "AI 문장 완성 제안"
+        ],
+        "clone_tip": "iOS Keyboard Extension 구현이 진입 장벽이자 차별점, 국립국어원 오픈 API로 맞춤법 검사 무료 연동 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#B2C",
+        "#한국시장특화",
+        "#AI도구",
+        "#키보드앱"
+      ],
+      "verdict": "한국어 특화 AI 키보드, Keyboard Extension 허들 넘으면 네이버·카카오 대비 AI 기능 차별화 가능"
+    },
+    {
+      "rank": 4,
+      "name": "EarthScope: GPS Map Camera",
+      "developer": "EINMOB LIMITED",
+      "category": "Navigation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/b3/a1/88b3a1d3-7d77-b6b2-3d9e-2238d25e82c3/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/earthscope-gps-map-camera/id6787098655",
+      "idea_summary": "GPS 좌표·지도를 사진에 실시간 오버레이하는 카메라",
+      "analysis": {
+        "problem": "사진 촬영 시 정확한 위치 정보와 지도를 동시에 기록하고 공유하기 어려움 [추론]",
+        "solution": "카메라 뷰파인더에 GPS 좌표·지명·지도 미니뷰를 실시간 오버레이하여 촬영 [확인]",
+        "target_user": "등산가, 여행자, 야외 활동 기록을 즐기는 20-45세 액티비티 유저 [추론]",
+        "unique_point": "촬영과 동시에 지도·GPS 정보가 사진에 통합되어 별도 위치 태깅 불필요 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GPS Map Camera",
+          "Timestamp Camera",
+          "Photo GPS"
+        ],
+        "timing_reason": "아웃도어·등산 활동 증가 및 SNS 위치 인증 문화 확산으로 수요 지속 성장 [추론]",
+        "growth_potential": "글로벌 아웃도어·여행 시장 규모와 함께 꾸준한 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 오버레이 스타일 인앱 구매 또는 유료 앱 판매 [추론]",
+        "pricing_suggestion": "무료 기본 + 프리미엄 스타일 팩 일회성 2,500-4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1,500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "MapKit",
+          "CoreLocation",
+          "AVFoundation",
+          "CoreImage"
+        ],
+        "key_features": [
+          "실시간 GPS 좌표 오버레이",
+          "지도 미니뷰 합성",
+          "고도·방위 표시",
+          "다양한 오버레이 테마"
+        ],
+        "clone_tip": "MapKit + CoreLocation + AVFoundation 조합으로 구현 가능, 오버레이 커스터마이징 UI 다양성이 유료 전환 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#아웃도어",
+        "#카메라앱"
+      ],
+      "verdict": "등산·여행 기록 니즈에 딱 맞는 실용앱, UI 차별화로 경쟁 극복 가능"
+    },
+    {
+      "rank": 5,
+      "name": "Dashcam Viewer for Tesla",
+      "developer": "Daily Prompt",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/6e/f5/886ef5cf-5045-643f-104a-6a5ea3f112db/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/dashcam-viewer-for-tesla/id6758488182",
+      "idea_summary": "테슬라 블랙박스·센트리모드 영상 전용 뷰어",
+      "analysis": {
+        "problem": "테슬라 TeslaCam·센트리모드 영상을 스마트폰에서 편리하게 확인할 방법이 없음 [추론]",
+        "solution": "테슬라 블랙박스 영상 파일을 아이폰에서 직접 불러와 멀티카메라 동시 재생·관리 [확인]",
+        "target_user": "테슬라 차량 오너 (전 세계 테슬라 보급 증가 추세) [추론]",
+        "unique_point": "테슬라 전용 파일 포맷과 멀티카메라 레이아웃에 최적화된 전용 뷰어 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TeslaUSB",
+          "Sentry View",
+          "Tesla 차량 내장 디스플레이"
+        ],
+        "timing_reason": "테슬라 누적 판매 증가로 잠재 사용자 기반이 지속 확대 중 [추론]",
+        "growth_potential": "테슬라 보급 확산에 비례하여 사용자 기반 자동 성장 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 다운로드 또는 프리미엄 기능 인앱 구매 [추론]",
+        "pricing_suggestion": "일회성 유료 3,900-6,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1,500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "AVPlayer",
+          "Files Framework",
+          "UIKit"
+        ],
+        "key_features": [
+          "멀티카메라 동시 동기화 재생",
+          "이벤트별 영상 자동 분류",
+          "타임라인 스크러빙",
+          "USB/WiFi 파일 불러오기"
+        ],
+        "clone_tip": "테슬라 블랙박스 mp4 클립 파일 구조 파악 후 AVFoundation으로 다중 스트림 동기화 재생 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#테슬라",
+        "#니치마켓"
+      ],
+      "verdict": "테슬라 오너 초집중 타겟, 명확한 니즈와 높은 구매 전환율 기대"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Fallcent - Lowest Price Alerts, Price Comparison, Cashback Shopping, Hot Deals",
+      "developer": "Fallcent",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/PtB6uKLbszcI6wg2-lRxn4Yr6JBPFe52MF3gN87xsuyPm14s3mUzITjgpQC02VrdgE4P6NscNe9ZYazuql4_QQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.deaguowl.fallcent",
+      "idea_summary": "최저가 알림·가격 비교·캐시백 통합 절약 쇼핑 앱",
+      "analysis": {
+        "problem": "온라인 쇼핑 시 최저가 추적·쇼핑몰 비교·캐시백 혜택을 한 곳에서 관리하기 어려움 [추론]",
+        "solution": "가격 추적, 쇼핑몰 간 최저가 비교, 캐시백 자동 연동, 핫딜 알림을 하나의 앱에서 제공 [확인]",
+        "target_user": "가성비 쇼핑을 중시하는 20-40대 온라인 쇼핑 이용자 [추론]",
+        "unique_point": "가격 비교 + 캐시백 + 실시간 알림을 통합한 올인원 절약 쇼핑 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "에누리",
+          "다나와",
+          "어시스트",
+          "ShopSavvy"
+        ],
+        "timing_reason": "고물가 지속으로 소비자 가격 민감도가 높아져 절약 쇼핑 앱 수요 증가 중 [추론]",
+        "growth_potential": "커머스 시장 규모에 비례하여 성장 가능하며 제휴 수익 기반으로 확장 용이 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 커미션(CPA/CPS), 광고, 프리미엄 알림 구독 [추론]",
+        "pricing_suggestion": "무료 + 광고 제거 구독 월 1,900원 + 쇼핑 제휴 수익 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2,000-5,000 [추론]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "Room DB",
+          "WorkManager",
+          "Firebase",
+          "Retrofit"
+        ],
+        "key_features": [
+          "상품 URL 등록 후 가격 자동 추적",
+          "쇼핑몰 간 최저가 실시간 비교",
+          "가격 하락 시 푸시 알림",
+          "캐시백 자동 적립 연동"
+        ],
+        "clone_tip": "핵심은 쇼핑몰 제휴 API 또는 크롤링으로 가격 이력 DB 구축, 백엔드 인프라 선행 구축 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#B2C",
+        "#커머스",
+        "#절약앱",
+        "#제휴수익모델"
+      ],
+      "verdict": "고물가 타이밍에 절약 니즈 정확 공략, 제휴 수익 모델로 지속 성장 가능한 구조",
+      "deep_report_id": "android-fallcent-lowest-price-alerts-price-comparison-cash-1790176366651"
+    },
+    {
+      "rank": 2,
+      "name": "Athler, The Standard in Men's Fashion",
+      "developer": "Team Bind",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/a0ftKbGLzUiHz4jUQZy5TE_BsBNzxLpB5Ans9i25eplv7P4WTETogyUNk3aJ7Sr43RIm2FhSmyub8oQ0Mmy9AQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.athler",
+      "idea_summary": "남성 패션 전문 큐레이션 및 스타일링 쇼핑 앱",
+      "analysis": {
+        "problem": "남성들이 패션 코디 정보를 체계적으로 탐색하고 구매로 이어갈 전용 플랫폼이 부족 [추론]",
+        "solution": "남성 패션 전문 큐레이션, 스타일링 인스피레이션, 쇼핑 추천을 통합 제공 [확인]",
+        "target_user": "패션에 관심 있는 20-35세 남성, 특히 MZ세대 남성 [추론]",
+        "unique_point": "여성 중심의 패션 앱 시장에서 남성 전용 커뮤니티·큐레이션에 집중 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "무신사",
+          "29CM 남성관",
+          "하이버",
+          "스타일쉐어 남성"
+        ],
+        "timing_reason": "MZ세대 남성의 패션·그루밍 관심도 급증, 남성 패션 커머스 시장 고성장세 [추론]",
+        "growth_potential": "남성 패션 앱 시장은 아직 여성 대비 언더서비스, 충성 유저 확보 후 커머스 연결 시 고성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "커머스 제휴 커미션, 브랜드 광고, 프리미엄 스타일링 서비스 [추론]",
+        "pricing_suggestion": "무료 + 브랜드 광고·상품 제휴 커미션 기반 수익 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "2,000-6,000 [추론]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "Retrofit",
+          "Glide",
+          "Firebase",
+          "RecyclerView"
+        ],
+        "key_features": [
+          "스타일 피드 큐레이션",
+          "아이템별 쇼핑 링크 연결",
+          "사용자 스타일 저장·공유",
+          "카테고리·스타일별 탐색 필터"
+        ],
+        "clone_tip": "초기 콘텐츠 큐레이션 품질이 핵심, 무신사 등 오픈 제휴 API로 상품 데이터 확보 후 UI 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#패션",
+        "#남성타겟",
+        "#커머스"
+      ],
+      "verdict": "남성 패션 블루오션 공략, 커머스 연결까지 성공하면 고성장 가능한 모델"
+    },
+    {
+      "rank": 3,
+      "name": "Orzo: Past Questions, Exams, CBT Certifications, TOEIC",
+      "developer": "Sling Inc",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/xyisvj429spTIAeM2Hg18pR4CdG8WkdE_BZ1RwAAZYQAgjCQEZuWzp_x916crmzyJsVmgHUYjKB0Bcotek4LxA",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.slingcorp.orzocsat",
+      "idea_summary": "자격증·TOEIC 기출문제 CBT 통합 학습 플랫폼",
+      "analysis": {
+        "problem": "다양한 자격증 시험의 기출문제를 한 앱에서 CBT 형식으로 효율적으로 풀기 어려움 [추론]",
+        "solution": "여러 자격증·시험 기출문제를 CBT 모드로 통합 제공하는 올인원 학습 앱 [확인]",
+        "target_user": "각종 자격증 취득 준비 중인 20-40대 직장인·취업 준비생 [추론]",
+        "unique_point": "단일 앱에서 다수 시험 종류를 커버하는 통합형 기출 학습 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "큐넷",
+          "에듀윌 앱",
+          "해커스 앱",
+          "산업인력공단 앱"
+        ],
+        "timing_reason": "자격증 취득 트렌드 지속 상승과 CBT 시험 방식 전환 확산으로 관련 앱 수요 증가 [추론]",
+        "growth_potential": "국내 자격증 시장 규모 크며 해외 자격증 시험으로 확장 가능성 있음 [추론]"
+      },
+      "business": {
+        "monetization": "구독(월정액 전체 콘텐츠 이용) 또는 자격증별 유료 콘텐츠 구매 [추론]",
+        "pricing_suggestion": "월 4,900-9,900원 구독 또는 자격증별 3,900원 개별 구매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2,000-5,000 [추론]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "Room DB",
+          "Firebase",
+          "ViewModel",
+          "LiveData"
+        ],
+        "key_features": [
+          "CBT 모드 문제 풀기",
+          "오답 노트 자동 정리",
+          "시험별 기출문제 분류",
+          "성적 추이 분석 그래프"
+        ],
+        "clone_tip": "기출문제 데이터 확보가 핵심 경쟁력, 공개 기출 수집 + 사용자 기여(UGC) 방식으로 콘텐츠 축적 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#B2C",
+        "#에듀테크",
+        "#자격증",
+        "#한국시장"
+      ],
+      "verdict": "검증된 에듀테크 모델, 콘텐츠 다양성과 CBT UX 품질이 성패를 좌우"
+    },
+    {
+      "rank": 4,
+      "name": "LunaSpeak: AI Speaking Coach",
+      "developer": "Growly",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/RXIacN98T02LWRLgklOMpirUk4AUb51CILipC0ZLu2yoWdf6RcMewIzjIcrvYBDNkotZKde2HCwdlW9YlmWkzg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.growly.lunaspeak",
+      "idea_summary": "AI가 실시간 피드백 제공하는 영어 말하기 코치 앱",
+      "analysis": {
+        "problem": "영어 스피킹 연습을 원어민 수준 피드백을 받으며 언제 어디서나 할 수 없음 [추론]",
+        "solution": "AI가 실시간 대화 상대가 되어 발음·문법·표현을 즉각 교정하는 개인화 스피킹 코치 [확인]",
+        "target_user": "영어 말하기 실력 향상을 원하는 10-35세 학생·직장인 [추론]",
+        "unique_point": "원어민 강사 없이 AI로 개인화된 스피킹 피드백과 반복 연습이 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Elsa Speak",
+          "Speak",
+          "Duolingo",
+          "Babbel"
+        ],
+        "timing_reason": "LLM·음성 AI 기술 성숙으로 자연스러운 AI 회화 코치 구현이 실용적 수준에 도달 [추론]",
+        "growth_potential": "글로벌 영어 학습 시장 규모 방대, AI 스피킹 코치 세그먼트 고성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "구독(월·연간 프리미엄) [추론]",
+        "pricing_suggestion": "월 9,900-14,900원 또는 연 69,000-99,000원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "3,000-8,000 [추론]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "WebSocket",
+          "STT API",
+          "OpenAI Realtime API",
+          "TTS"
+        ],
+        "key_features": [
+          "실시간 AI 대화 세션",
+          "발음 정확도 분석",
+          "문법·표현 즉각 교정",
+          "학습 진도 트래킹"
+        ],
+        "clone_tip": "OpenAI Realtime API + STT 파이프라인 구축이 핵심, 영어 외 한국어·일본어 코치로 확장 가능한 구조 설계 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.3
+      },
+      "tags": [
+        "#B2C",
+        "#AI교육",
+        "#언어학습",
+        "#글로벌시장"
+      ],
+      "verdict": "AI 스피킹 코치 시장 급성장, 피드백 품질 차별화로 Elsa·Speak 대항 가능"
+    },
+    {
+      "rank": 5,
+      "name": "zeta - AI Characters, Roleplay Chat with Your Favorite Characters",
+      "developer": "Scatter Lab, Inc.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/7BHCCDafgblr3UBNNx-ELJ_Ni1mA_iesxlPnyAQXXR1AeHtjwgNLmSRqWXlJg7EhKuE5__EvkoRmycKTQ3X_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger",
+      "idea_summary": "커스텀 AI 캐릭터와 몰입형 롤플레이 대화 앱",
+      "analysis": {
+        "problem": "좋아하는 캐릭터·페르소나와 실제처럼 대화하고 싶은 욕구를 충족하기 어려움 [추론]",
+        "solution": "커스터마이징 가능한 AI 캐릭터와 몰입감 있는 롤플레이 대화 경험 제공 [확인]",
+        "target_user": "애니·게임·소설 팬덤의 10-25세 MZ세대 [추론]",
+        "unique_point": "이루다 개발사 Scatter Lab의 대화 AI 기술력 + 한국 감성 캐릭터 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "Janitor AI",
+          "NovelAI"
+        ],
+        "timing_reason": "생성 AI 대화 기술 성숙과 글로벌 팬덤 문화 결합, 한국·일본 콘텐츠 IP 활용 기회 확대 [추론]",
+        "growth_potential": "글로벌 AI 소셜 엔터테인먼트 시장 고성장 중, IP 라이선싱으로 추가 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독(프리미엄 대화·캐릭터 잠금 해제), 캐릭터 코인 인앱 구매 [추론]",
+        "pricing_suggestion": "월 7,900-12,900원 구독 또는 캐릭터 코인 패키지 3,000-15,000원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "5,000-15,000 [추론]",
+        "tech_stack": [
+          "Android",
+          "Kotlin",
+          "LLM API",
+          "Firebase",
+          "WebSocket",
+          "Room DB"
+        ],
+        "key_features": [
+          "AI 캐릭터 생성·커스터마이징",
+          "실시간 롤플레이 대화",
+          "대화 히스토리 영속 저장",
+          "감정 표현 UI 애니메이션"
+        ],
+        "clone_tip": "시스템 프롬프트 엔지니어링으로 캐릭터 일관성 유지가 핵심, 초기에는 소수 고품질 캐릭터에 집중 후 사용자 생성 캐릭터 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.9
+      },
+      "tags": [
+        "#B2C",
+        "#AI엔터",
+        "#팬덤",
+        "#소셜AI"
+      ],
+      "verdict": "Character.AI 대항마 가능성, 한국 감성 AI와 글로벌 IP 결합이 차별화 포인트"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘의 핵심 트렌드는 AI 기반 언어·스피킹 교육 앱의 강세와 틈새 자격증 시험 준비 앱의 급증이다. 고물가 소비심리를 겨냥한 절약 쇼핑 앱과 테슬라·Y2K 등 특정 서브컬처를 타겟한 초집중 니치앱이 동시에 부상하고 있다.",
+    "trend_details": [
+      "AI 스피킹 코치 앱 경쟁 심화 - LunaSpeak, SpeakUp AI 등 음성 AI 교육 앱 다수 등장 [추론]",
+      "일본 초세분화 자격증 앱 급증 - 생성 AI 패스포트, 급여계산 실무, 호흡치료사 등 1인 개발 틈새 앱 [확인]",
+      "고물가 절약 쇼핑 앱 수요 증가 - Fallcent 등 가격 비교·캐시백 통합 앱으로 소비자 절약 니즈 공략 [추론]",
+      "레트로·Y2K 카메라 앱 지속 성장 - MZ세대 향수 자극 콘텐츠 소비 트렌드 강세 [추론]",
+      "특정 플랫폼 전용 유틸리티 증가 - 테슬라 블랙박스 뷰어 등 기기 특화 앱이 충성 고객 확보에 유리 [추론]"
+    ],
+    "hot_categories": [
+      "AI 언어교육",
+      "틈새 자격증 준비",
+      "절약 쇼핑",
+      "레트로 카메라",
+      "니치 유틸리티"
+    ],
+    "opportunity": "AI 스피킹 코치는 기술 성숙도와 시장 수요가 동시에 갖춰진 최고 기회 영역이다. 특히 영어 외 한국어·일본어 발음 교정 및 비즈니스 스피킹 특화 AI 코치 시장은 경쟁이 덜하며, 국내 개발자가 언어·문화 우위를 살릴 수 있다. [추론]",
+    "action_item": "OpenAI Realtime API + STT 조합으로 AI 스피킹 코치 프로토타입을 1주일 내 구현하고, Elsa Speak·Speak 앱 스토어 리뷰에서 사용자 불만 포인트 3개를 추출하여 차별화 포인트를 구체화한다."
+  },
+  "data_status": {}
+}
