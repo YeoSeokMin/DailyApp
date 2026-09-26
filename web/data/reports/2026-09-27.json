@@ -1,0 +1,668 @@
+{
+  "date": "2026-09-27",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "SpellSynth: Retro Vocal Synth",
+      "developer": "Chih Han Lin",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/66/d1/3d66d113-38e2-aeb7-3a52-090ca18d65d7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/spellsynth-retro-vocal-synth/id6762822700",
+      "idea_summary": "레트로 보컬 사운드를 직접 합성하는 모바일 신디사이저",
+      "analysis": {
+        "problem": "레트로 보컬 톤 생성에 특화된 모바일 전용 도구가 시장에 부재함 [추론]",
+        "solution": "합성기 기반 레트로 보컬 사운드 생성 및 조합 기능을 모바일에서 제공 [확인]",
+        "target_user": "인디 뮤지션, 비트메이커, Lo-fi 및 레트로 음악 제작에 관심 있는 아마추어 [추론]",
+        "unique_point": "보컬 합성에만 집중한 레트로 신디사이저로 범용 DAW 앱과 차별화된 틈새 포지션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GarageBand",
+          "Korg Gadget",
+          "Moog Model D"
+        ],
+        "timing_reason": "Lo-fi 힙합과 레트로 음악 트렌드가 지속 성장하며 틈새 음악 제작 도구 수요 증가 [추론]",
+        "growth_potential": "음악 제작 인구 확대와 인디 뮤지션 증가로 틈새 신디사이저 앱 수요 꾸준히 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 IAP 방식의 프리셋 팩 판매 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리셋 팩 IAP(₩3,900~₩9,900) 전략 권장 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "500~1500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AudioKit",
+          "Core Audio",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "레트로 보컬 합성 엔진",
+          "프리셋 저장/불러오기",
+          "MIDI 지원",
+          "WAV 내보내기"
+        ],
+        "clone_tip": "AudioKit 오픈소스 프레임워크 활용 시 DSP 구현 부담을 대폭 줄이고 UI 완성도에 집중 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#음악",
+        "#틈새시장"
+      ],
+      "verdict": "Lo-fi 트렌드 탑승한 보컬 신디사이저, 니치하지만 충성 유저 확보 가능",
+      "deep_report_id": "ios-spellsynth-retro-vocal-synth-1790435542592"
+    },
+    {
+      "rank": 2,
+      "name": "GR Snap - Ricoh GR Image Sync",
+      "developer": "Techflow Studio Limited",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/75/8e/c7758efc-b621-406a-d34f-aa83391b7127/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gr-snap-%EB%A6%AC%EC%BD%94-gr-image-sync/id6768040383",
+      "idea_summary": "Ricoh GR 카메라 전용 Wi-Fi 이미지 동기화 앱",
+      "analysis": {
+        "problem": "Ricoh GR 카메라의 공식 전송 앱이 기능 부족해 이미지 전송 UX가 불편함 [추론]",
+        "solution": "iOS 기기와 Ricoh GR 카메라 간 Wi-Fi 기반 빠른 이미지 동기화 기능 제공 [확인]",
+        "target_user": "Ricoh GR 시리즈 카메라 보유자, 스트리트 포토그래퍼 [추론]",
+        "unique_point": "GR 시리즈에 최적화된 전용 앱으로 공식 앱 대비 향상된 전송 속도와 UX 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Ricoh Image Sync (공식)",
+          "ImageSync for GR"
+        ],
+        "timing_reason": "Ricoh GR IIIx HDF 등 최신 기종 출시로 GR 카메라 신규 사용자 기반 지속 확대 [추론]",
+        "growth_potential": "GR 카메라 팬덤 특화 앱으로 소규모이나 안정적 유료 시장 형성 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 일회성 구매 방식 [추론]",
+        "pricing_suggestion": "1회 구매 유료 앱($4.99~$9.99)이 카메라 액세서리 구매 성향 유저층에 적합 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~800 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Network Framework",
+          "Bonjour",
+          "Photos API"
+        ],
+        "key_features": [
+          "Wi-Fi 자동 연결",
+          "이미지 일괄 동기화",
+          "촬영 즉시 전송",
+          "RAW 파일 지원"
+        ],
+        "clone_tip": "Ricoh GR의 HTTP API를 분석해 공식 SDK 없이도 전송 기능 구현 가능, 카메라 전용 앱 전략이 리뷰 평점에 유리 [추측]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#카메라",
+        "#니치"
+      ],
+      "verdict": "GR 카메라 팬덤 대상 확실한 수요, 시장 규모는 작지만 충성도 높음"
+    },
+    {
+      "rank": 3,
+      "name": "Exposr - Food Product Scanner",
+      "developer": "Nagia LLC",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/9e/e8/6b9ee88d-f5fd-cbb4-3c5e-65422a25e1a7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/exposr-food-product-scanner/id6752903766",
+      "idea_summary": "바코드 스캔으로 식품 성분·알레르겐 즉시 분석",
+      "analysis": {
+        "problem": "식품 라벨의 복잡한 성분 정보를 소비자가 즉각 해독하기 어렵고 알레르겐 확인이 번거로움 [확인]",
+        "solution": "바코드 스캔 한 번으로 성분 분석, 알레르겐 경고, 영양 등급을 즉시 제공 [확인]",
+        "target_user": "알레르기 보유자, 건강 의식 높은 소비자, 특정 식이요법(비건·글루텐프리) 실천자 [추론]",
+        "unique_point": "성분 투명성과 알레르겐 안전에 특화된 심층 분석으로 일반 칼로리 트래킹 앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Yuka",
+          "Open Food Facts",
+          "Fooducate"
+        ],
+        "timing_reason": "식품 성분 투명성에 대한 소비자 관심 급증 및 식품 알레르기 인구 증가 추세 [추론]",
+        "growth_potential": "건강 및 식품 안전 의식 트렌드에 힘입어 글로벌 확장 잠재력 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델(상세 성분 분석, 개인화 알림, 제품 대안 추천) [추론]",
+        "pricing_suggestion": "월 $2.99~$4.99 구독, 연간 할인 제공으로 전환율 극대화 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "500~1200 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Vision Framework",
+          "Open Food Facts API",
+          "Core Data"
+        ],
+        "key_features": [
+          "바코드 스캔",
+          "성분 분석 리포트",
+          "알레르겐 필터 설정",
+          "제품 대안 추천"
+        ],
+        "clone_tip": "Open Food Facts 무료 DB(250만+ 제품 수록)를 활용하면 초기 데이터 구축 비용 절감 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스",
+        "#구독모델"
+      ],
+      "verdict": "건강 트렌드와 정확히 맞아 떨어지는 실용 앱, 글로벌 확장성 우수"
+    },
+    {
+      "rank": 4,
+      "name": "Cat Work Hours: Work Recording App",
+      "developer": "rikuto nishioka",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/1c/09/b31c092a-f112-1306-2290-5f54c6cb87d1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E3%81%AD%E3%81%93%E5%8B%A4%E6%80%A0-%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B%E3%81%AB%E3%82%83%E3%83%BC/id6801066427",
+      "idea_summary": "귀여운 고양이 테마로 업무 시간 기록을 게이미피케이션",
+      "analysis": {
+        "problem": "기존 업무 시간 기록 앱이 딱딱하고 지루해 지속적으로 사용하기 어려움 [추론]",
+        "solution": "고양이 캐릭터 테마와 귀여운 UI로 근태 기록에 감성적 재미 요소를 부여 [추론]",
+        "target_user": "프리랜서, 재택근무자, 귀여운 디자인을 선호하는 일본 직장인 [추론]",
+        "unique_point": "작업 기록 앱에 고양이 캐릭터 테마를 결합한 독특한 감성 접근으로 습관 형성 유도 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Toggl Track",
+          "Clockify",
+          "Hours Time Tracking"
+        ],
+        "timing_reason": "재택근무 확산으로 자기관리형 시간 추적 앱 수요 증가, 일본 kawaii 문화 앱 선호 트렌드 [추론]",
+        "growth_potential": "일본·아시아 시장 중심으로 성장 가능하며 귀여운 디자인이 SNS 바이럴 유도에 유리 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본 + IAP 방식의 캐릭터/테마 언락 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 캐릭터 및 테마 팩 ₩1,200~₩3,900 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~3개월 [추론]",
+        "estimated_cost": "200~500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "WidgetKit"
+        ],
+        "key_features": [
+          "출퇴근 기록",
+          "작업별 시간 추적",
+          "고양이 캐릭터 리액션",
+          "주간 리포트"
+        ],
+        "clone_tip": "SwiftUI + Core Data 조합으로 빠른 MVP 구현 가능, 캐릭터 애니메이션은 Lottie 파일 활용 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#일본시장"
+      ],
+      "verdict": "귀여운 디자인으로 차별화된 시간 기록 앱, 일본/아시아 시장 유효"
+    },
+    {
+      "rank": 5,
+      "name": "Shopot - AI Shopping Assistant",
+      "developer": "Levit Incorporation",
+      "category": "Shopping",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/fd/37/6bfd3785-d6f1-6bbd-3674-85c27be9339f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%87%BC%ED%8F%AC%ED%8A%B8-ai-%EC%87%BC%ED%95%91%EB%B9%84%EC%84%9C/id6757226599",
+      "idea_summary": "AI 비서와 대화하며 쇼핑 추천·비교하는 앱",
+      "analysis": {
+        "problem": "다수의 쇼핑몰에서 원하는 상품 발견과 가격 비교에 많은 시간이 소요됨 [추론]",
+        "solution": "AI 쇼핑 비서가 자연어로 상품 검색, 비교, 추천을 원스톱 제공 [확인]",
+        "target_user": "온라인 쇼핑 빈도가 높은 20~40대, 빠른 의사결정을 선호하는 소비자 [추론]",
+        "unique_point": "대화형 AI 비서로 쇼핑 과정을 간소화하는 새로운 UX 패러다임 제시 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "네이버 쇼핑",
+          "쿠팡",
+          "Amazon"
+        ],
+        "timing_reason": "LLM 기반 대화형 AI의 대중화로 쇼핑 어시스턴트 앱 전성기가 도래한 시점 [추론]",
+        "growth_potential": "AI 쇼핑 어시스턴트 시장은 초기 단계로 선점 시 높은 성장 가능성 보유 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 수수료(CPA) 및 광고 노출 수익 [추론]",
+        "pricing_suggestion": "소비자에게 무료 제공하고 제휴 파트너사 수수료로 수익화하는 구조 권장 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "500~1500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "LLM API",
+          "쇼핑 제휴 API",
+          "Core ML"
+        ],
+        "key_features": [
+          "자연어 상품 검색",
+          "멀티 쇼핑몰 가격 비교",
+          "AI 맞춤 추천",
+          "구매 링크 연동"
+        ],
+        "clone_tip": "OpenAI API + 쿠팡 파트너스·네이버 쇼핑 API 조합으로 MVP 빠르게 구축 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#쇼핑",
+        "#AI"
+      ],
+      "verdict": "AI 쇼핑 어시스턴트 초기 시장, 제휴 수수료 모델로 수익화 가능"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "SpeakUp AI - Language Learning",
+      "developer": "Growly",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/q9zztoFKGy3TDVjJR023Ta4BudhNeX8EUh0JHNp2ZoeGbtPQzToa2MqF5Fi5L3rp_iQVTSrcdRfP2LhKMNBy",
+      "app_url": "https://play.google.com/store/apps/details?id=com.growly.speakup.ai",
+      "idea_summary": "AI와 실시간 대화로 외국어 스피킹 실력 향상",
+      "analysis": {
+        "problem": "외국어 말하기 연습 파트너 찾기 어렵고 회화 학원은 비용 부담이 큼 [추론]",
+        "solution": "AI와의 실시간 대화를 통해 언제든지 스피킹 연습 및 즉각 피드백 제공 [확인]",
+        "target_user": "영어 및 외국어 학습자, 취업 준비생, 해외 여행·거주 준비자 [추론]",
+        "unique_point": "AI 회화 파트너가 발음·문법·표현을 실시간 교정하는 인터랙티브 학습 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Speak",
+          "Elsa Speak"
+        ],
+        "timing_reason": "LLM 기술 발전으로 자연스러운 AI 회화 구현이 가능해진 최적의 시점 도래 [추론]",
+        "growth_potential": "글로벌 언어 학습 시장 규모는 연 수십조 원대로 AI 기반 앱의 점유율 확대 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "월·연간 구독 모델 [추론]",
+        "pricing_suggestion": "월 $9.99~$14.99 구독, 7일 무료 체험으로 전환 유도 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "800~2000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "OpenAI Realtime API",
+          "Google STT/TTS",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 실시간 대화",
+          "발음 평가",
+          "문법 교정 피드백",
+          "학습 진도 트래킹"
+        ],
+        "clone_tip": "OpenAI Realtime API 활용 시 자연스러운 AI 대화 구현 가능, 언어별 페르소나 프롬프트 튜닝이 품질의 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#B2C",
+        "#구독모델",
+        "#교육",
+        "#글로벌"
+      ],
+      "verdict": "거대한 언어 학습 시장 공략, AI 대화 품질이 경쟁력의 핵심",
+      "deep_report_id": "android-speakup-ai-language-learning-1790435627213"
+    },
+    {
+      "rank": 2,
+      "name": "Volume Control Sound Launcher",
+      "developer": "AtomApplications",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/vxaA3YWsjgqrBTjjrVL7QV_cOQjMg-728iGgJuYk8n2fyD1uejY15wQoBBgMygcbaexDhwq1Z8cjaqlD2X3t",
+      "app_url": "https://play.google.com/store/apps/details?id=com.soundcontroller.loudspeaker.volume.manager.android",
+      "idea_summary": "Android 다중 오디오 스트림을 한 화면에서 즉시 제어",
+      "analysis": {
+        "problem": "Android 기본 볼륨 버튼은 하나의 오디오 스트림만 조절해 세밀한 멀티 스트림 제어가 불편함 [추론]",
+        "solution": "미디어·알림·통화·시스템 등 모든 오디오 스트림을 런처 방식으로 한 화면에서 통합 제어 [추론]",
+        "target_user": "멀티태스킹 Android 파워 유저, 스트림별 볼륨을 독립 제어하고 싶은 음악 청취자 [추론]",
+        "unique_point": "볼륨 제어를 런처 인터페이스로 제공해 접근성과 편의성을 동시에 극대화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Volume Control+",
+          "Audio Manager Pro",
+          "Precise Volume"
+        ],
+        "timing_reason": "스마트폰의 다양한 오디오 앱 사용 증가로 스트림별 볼륨 관리 수요 지속 [추론]",
+        "growth_potential": "Android 전용 유틸리티로 안정적 사용자 기반 형성 가능하며 글로벌 출시 용이 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 + 광고 제거 IAP [추론]",
+        "pricing_suggestion": "무료 광고 버전 + 광고 제거 일회성 결제 ₩2,900 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~300 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "AudioManager API",
+          "Android Widget API",
+          "AdMob"
+        ],
+        "key_features": [
+          "다중 오디오 스트림 슬라이더",
+          "빠른 설정 위젯",
+          "볼륨 프로파일 저장",
+          "볼륨 예약 설정"
+        ],
+        "clone_tip": "Android AudioManager API로 핵심 기능 구현 가능, 개발 난이도 낮아 1인 개발 첫 프로젝트로 적합 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#Android전용"
+      ],
+      "verdict": "구현 난이도 낮고 범용 수요 있는 유틸리티, 빠른 MVP 출시 적합"
+    },
+    {
+      "rank": 3,
+      "name": "AI Hairstyle Try On & Color",
+      "developer": "Vit Corp.",
+      "category": "Lifestyle",
+      "icon": "https://play-lh.googleusercontent.com/H6IdrlOO6cByiL34vZppBSYU-IgsFr4dnvSqR5AcCmEI96OUoDg7gp7aK0smQ2wQVuNaQxYV2HVZ1XKdsDv1Ig",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tryon.haircolor.aihairstyle",
+      "idea_summary": "AI로 내 사진에서 헤어스타일·색상 가상 체험",
+      "analysis": {
+        "problem": "미용실 방문 전 헤어스타일 변경 결과를 예측할 수 없어 실패에 대한 두려움이 존재함 [추론]",
+        "solution": "사진 업로드 후 AI가 다양한 헤어스타일과 색상을 가상으로 시뮬레이션하여 미리 체험 [확인]",
+        "target_user": "헤어스타일 변경을 고려 중인 여성, 뷰티에 관심 높은 10~30대 [추론]",
+        "unique_point": "헤어 영역에 특화된 AI 트라이온으로 범용 뷰티 앱 대비 시술별 정밀도 향상 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "YouCam Makeup",
+          "Perfect Corp",
+          "Facetune"
+        ],
+        "timing_reason": "생성형 AI의 이미지 합성 정밀도가 실용적 트라이온 수준에 도달한 최적의 시점 [추론]",
+        "growth_potential": "뷰티 테크 시장의 AI 트라이온 수요 급증 중, 미용실 예약 앱과의 제휴 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧 기반 IAP 또는 월간 구독 [추론]",
+        "pricing_suggestion": "기본 무료(월 5회 제한) + 월 $3.99~$6.99 무제한 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "800~2000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "MediaPipe",
+          "Stable Diffusion",
+          "TensorFlow Lite"
+        ],
+        "key_features": [
+          "얼굴 감지 및 헤어 영역 분리",
+          "AI 스타일 합성",
+          "색상 팔레트 선택",
+          "Before/After 비교"
+        ],
+        "clone_tip": "MediaPipe Face Mesh로 헤어 영역 마스킹 후 인페인팅 모델 적용하는 파이프라인이 핵심 구현 경로 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#B2C",
+        "#뷰티",
+        "#AI",
+        "#구독모델"
+      ],
+      "verdict": "뷰티 테크 트라이온 트렌드 적중, AI 합성 품질이 핵심 경쟁력"
+    },
+    {
+      "rank": 4,
+      "name": "DramaVibe",
+      "developer": "Level Prestige",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/TvL7zbvuN1tUX9BAjzfI-nhlFmgq4a4CbWZ7GOPsuMLYRuymSCqqKFi3ScmTGg9YmqDgTq1iul4LL7-_hsyhnQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.dramavibe.stream",
+      "idea_summary": "세로형 숏폼 드라마 전용 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "짧은 시간에 완결되는 고품질 드라마 콘텐츠를 모바일에서 소비할 전용 플랫폼이 부족함 [추론]",
+        "solution": "세로 화면에 최적화된 숏폼 드라마를 에피소드 단위로 스트리밍 제공 [추론]",
+        "target_user": "모바일 숏폼 영상에 익숙한 10~30대, 드라마를 즐기나 긴 시간 투자가 어려운 직장인 [추론]",
+        "unique_point": "세로형 숏폼에 특화된 드라마 전용 플랫폼으로 TikTok과 Netflix 사이의 중간 포지션 점유 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Reelshort",
+          "DramaBox",
+          "ShortMax"
+        ],
+        "timing_reason": "TikTok 이후 세로형 숏폼 소비가 일상화되며 드라마 장르까지 확대되는 시점 [추론]",
+        "growth_potential": "숏폼 드라마 시장은 북미·동남아시아에서 빠르게 성장 중이며 글로벌 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "에피소드별 코인 구매 또는 월정액 구독 병행 [추론]",
+        "pricing_suggestion": "무료 첫 에피소드 + 코인 결제 방식, 무제한 월 구독($9.99) 동시 운영 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "2000~5000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "콘텐츠 CDN"
+        ],
+        "key_features": [
+          "세로형 드라마 스트리밍",
+          "에피소드별 잠금 해제",
+          "오프라인 다운로드",
+          "자막 지원"
+        ],
+        "clone_tip": "콘텐츠 확보가 최대 과제이므로 웹소설 IP 제휴 또는 해외 기제작 콘텐츠 라이선스 획득을 기술 개발보다 우선 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#엔터테인먼트",
+        "#숏폼",
+        "#콘텐츠"
+      ],
+      "verdict": "숏폼 드라마 트렌드 정확히 겨냥, 콘텐츠 확보가 성패를 가름"
+    },
+    {
+      "rank": 5,
+      "name": "Nexus - AI Video Generator",
+      "developer": "DQL TechLab",
+      "category": "Photo & Video",
+      "icon": "https://play-lh.googleusercontent.com/7TuZaSZL2CY3ETKEVTeR6agOQAHMWp3UqLwcRXGSpebEZVLKAAsDOOd3FatIfxcB-_PCXwru2idNSibpvUBWCQ",
+      "app_url": "https://play.google.com/store/apps/details?id=ai.photogenerator.aivideo.aivideogenerator.aiart",
+      "idea_summary": "텍스트/이미지 프롬프트로 AI 영상 즉시 생성",
+      "analysis": {
+        "problem": "영상 제작에 전문 기술과 고가 장비가 필요해 일반인의 진입 장벽이 높음 [추론]",
+        "solution": "텍스트 또는 이미지 프롬프트를 입력하면 AI가 자동으로 영상을 생성하여 전달 [확인]",
+        "target_user": "SNS 콘텐츠 크리에이터, 마케터, 영상 제작 입문자 [추론]",
+        "unique_point": "전문 편집 기술 없이 프롬프트만으로 영상 콘텐츠 제작을 민주화하는 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Runway",
+          "Pika",
+          "CapCut AI"
+        ],
+        "timing_reason": "Runway Gen-3, Kling AI 등 영상 생성 모델의 품질이 실용 수준에 도달한 시점 [추론]",
+        "growth_potential": "영상 콘텐츠 소비 폭발적 증가와 AI 민주화 트렌드로 대규모 시장 형성 가능 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧 기반 IAP 또는 월간 구독 [추론]",
+        "pricing_suggestion": "무료 체험(월 5회) + 크레딧 팩($4.99~$19.99) 또는 무제한 월 구독($12.99) [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "500~1500 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Runway API",
+          "Kling AI API",
+          "Firebase",
+          "FFmpeg"
+        ],
+        "key_features": [
+          "텍스트-투-비디오 생성",
+          "이미지-투-비디오 변환",
+          "스타일 선택",
+          "소셜 공유"
+        ],
+        "clone_tip": "Runway·Pika·Kling AI API를 래핑해 모바일 UI만 구현하는 방식으로 개발 기간 단축 및 빠른 출시 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI",
+        "#영상"
+      ],
+      "verdict": "AI 영상 생성 대중화 시대, API 래핑만으로도 빠른 시장 진입 가능"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "2026년 9월 27일 앱 시장은 AI를 단일 페인포인트에 접목한 버티컬 솔루션과 숏폼 콘텐츠 플랫폼이 두드러진다. 언어 학습·식품 분석·헤어 트라이온 등 기존에 불편했던 영역을 AI로 해결하는 특화 앱들이 강세를 보이며, 세로형 숏폼 드라마라는 새로운 콘텐츠 포맷도 빠르게 성장 중이다.",
+    "trend_details": [
+      "AI 스피킹 코치 앱 급증: LLM 기반 자연어 처리 발전으로 실용적 AI 대화 상대 구현이 가능해짐",
+      "식품 성분 투명성 앱 수요 증가: 건강 의식이 높아진 소비자들이 바코드 스캔으로 성분을 직접 확인하려는 트렌드",
+      "AI 뷰티 트라이온 앱 성장: 생성형 AI 이미지 합성 품질 향상으로 실용적 가상 체험이 가능해진 시점",
+      "세로형 숏폼 드라마 플랫폼 부상: TikTok 이후 세로 영상 소비 습관이 드라마 장르까지 확산",
+      "레트로 음악 제작 틈새 도구 성장: 인디 뮤지션 증가와 Lo-fi 트렌드가 맞물려 특화 신디사이저 수요 형성"
+    ],
+    "hot_categories": [
+      "Education",
+      "AI Tools",
+      "Entertainment",
+      "Health & Fitness"
+    ],
+    "opportunity": "단일 페인포인트를 AI로 해결하는 버티컬 SaaS형 앱 — 언어 학습·뷰티·식품 안전 분야에서 인디 개발자도 공개 API 활용으로 빠르게 진입 가능한 기회 존재",
+    "action_item": "OpenAI·Runway·MediaPipe 등 공개 AI API를 래핑한 버티컬 앱 MVP를 1~3개월 내 출시하고, 특정 커뮤니티(언어 학습자·뷰티 관심층·알레르기 환자)를 초기 타겟으로 그로스해킹 전략 수립"
+  },
+  "data_status": {}
+}
