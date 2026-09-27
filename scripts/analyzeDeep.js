@@ -36,6 +36,16 @@ function generateAppId(platform, appName) {
   return `${platform}-${safeName}-${timestamp}`;
 }
 
+// ★CLI 는 인증 만료·모델 은퇴 때 exit 0 + 빈 출력을 낸다 → 2~6월에 빈 리포트("\r\n") 63개가 저장됐다.
+//   저장 전에 검사해서 빈/너무 짧은 결과는 실패로 처리한다(deep_report_id: null).
+const MIN_DEEP_REPORT_CHARS = 500;
+function assertUsableReport(report) {
+  const len = String(report || '').trim().length;
+  if (len < MIN_DEEP_REPORT_CHARS) {
+    throw new Error(`빈/짧은 결과 (${len}자) — 저장 안 함`);
+  }
+}
+
 /**
  * Anthropic API로 분석 (타임아웃 포함)
  */
@@ -208,6 +218,8 @@ async function analyzeAllDeep(apps, platform) {
         )
       ]);
 
+      assertUsableReport(report);
+
       // 즉시 저장 (실패해도 이미 저장된 건 유지)
       await fs.writeFile(deepPath, report, 'utf8');
       // 웹 폴더에도 저장 (Vercel 배포용)
@@ -260,6 +272,7 @@ async function analyzeOne(appName, platform = 'ios') {
     await fs.mkdir(DEEP_REPORTS_DIR, { recursive: true });
     await fs.mkdir(WEB_REPORTS_DIR, { recursive: true });
     const report = await analyzeDeep(app, platform);
+    assertUsableReport(report);
     await fs.writeFile(deepPath, report, 'utf8');
     // 웹 폴더에도 저장
     const webPath = path.join(WEB_REPORTS_DIR, `${appId}.md`);

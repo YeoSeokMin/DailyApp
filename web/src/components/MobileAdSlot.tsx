@@ -101,7 +101,7 @@ export default function MobileAdSlot({ slotId }: MobileAdSlotProps) {
         </div>
       )}
 
-      <div className="xl:hidden pixel-box w-full overflow-hidden my-4">
+      <div data-ad-slot={slotId} className="xl:hidden pixel-box w-full overflow-hidden my-4">
         {slot?.imageUrl ? (
           <div className="relative h-[100px]" style={{ background: 'var(--pixel-highlight)' }}>
             <div

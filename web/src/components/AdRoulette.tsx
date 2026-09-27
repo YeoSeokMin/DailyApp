@@ -68,6 +68,16 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
     }
   };
 
+  // 라벨대로 당첨 슬롯으로 스크롤한다 (예전엔 닫기만 했다).
+  // 데스크톱 사이드바와 모바일 슬롯이 같은 ID 로 둘 다 렌더되므로 화면에 보이는 쪽을 고른다.
+  const goToWinnerSlot = () => {
+    onClose();
+    if (!existingWinSlot) return;
+    const target = Array.from(document.querySelectorAll<HTMLElement>(`[data-ad-slot="${existingWinSlot}"]`))
+      .find(el => el.offsetParent !== null);
+    target?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  };
+
   const handleLaterUpload = () => {
     if (onLaterUpload) {
       onLaterUpload();
@@ -92,7 +102,7 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
             🎰 무료 광고 룰렛
           </h2>
           <p className="text-sm mt-1" style={{ color: 'var(--foreground)', opacity: 0.6 }}>
-            당첨 확률 0.1% | 하루 1회
+            당첨 확률 0.1% | 슬롯마다 하루 1회 (자정 초기화)
           </p>
         </div>
 
@@ -212,7 +222,7 @@ export default function AdRoulette({ slotId, onWin, onClose, onLaterUpload }: Ad
             </>
           ) : result === 'existing' ? (
             <button
-              onClick={onClose}
+              onClick={goToWinnerSlot}
               className="flex-1 px-4 py-2 pixel-btn"
               style={{ background: 'var(--pixel-highlight)', color: 'var(--foreground)' }}
             >

@@ -1,4 +1,5 @@
 import AppCard from '@/components/AppCard';
+import Link from 'next/link';
 import DateSelector from '@/components/DateSelector';
 import AdSidebar from '@/components/AdSidebar';
 import MobileAdSlot from '@/components/MobileAdSlot';
@@ -49,6 +50,12 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-2">
+              <Link
+                href="/deep"
+                className="px-3 py-2 text-sm pixel-btn whitespace-nowrap"
+              >
+                🔬 심층 분석
+              </Link>
               <DateSelector dates={availableDates} currentDate={date} />
               <ThemeToggle />
             </div>

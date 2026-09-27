@@ -26,6 +26,7 @@ export default function AnonymousChat() {
   const [nickname, setNickname] = useState('');
   const [input, setInput] = useState('');
   const [sending, setSending] = useState(false);
+  const [sendError, setSendError] = useState('');
   const [isAtBottom, setIsAtBottom] = useState(false);
   const [initialLoaded, setInitialLoaded] = useState(false);
   const messagesContainerRef = useRef<HTMLDivElement>(null);
@@ -135,6 +136,7 @@ export default function AnonymousChat() {
     if (!input.trim() || sending || !nickname) return;
 
     setSending(true);
+    setSendError('');
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
@@ -150,9 +152,12 @@ export default function AnonymousChat() {
         setInput('');
         await fetchMessages();
         setTimeout(scrollToBottom, 100);
+      } else {
+        setSendError(data.message || '메시지를 보내지 못했습니다.');
       }
     } catch (error) {
       console.error('Failed to send message:', error);
+      setSendError('메시지를 보내지 못했습니다.');
     } finally {
       setSending(false);
     }
@@ -242,6 +247,11 @@ export default function AnonymousChat() {
           {sending ? '...' : '전송'}
         </button>
       </form>
+      {sendError && (
+        <p role="alert" className="mt-2 text-xs" style={{ color: '#e94560' }}>
+          {sendError}
+        </p>
+      )}
     </div>
   );
 }

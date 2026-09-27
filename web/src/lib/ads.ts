@@ -27,9 +27,10 @@ export function hashIp(ip: string): string {
   return crypto.createHash('sha256').update(ip + 'dailyapp-salt').digest('hex').substring(0, 16);
 }
 
-// 오늘 날짜 (YYYY-MM-DD)
+// 오늘 날짜 (YYYY-MM-DD, KST) — 도전 횟수·당첨 상태는 한국 자정에 초기화
+//   (예전 toISOString 은 UTC 라 오전 9시에 초기화됐다. Vercel 런타임 TZ 는 UTC 라 Intl 로 명시)
 export function getToday(): string {
-  return new Date().toISOString().split('T')[0];
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul' }).format(new Date());
 }
 
 // 광고 슬롯 데이터 읽기

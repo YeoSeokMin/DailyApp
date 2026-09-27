@@ -21,6 +21,7 @@ export default function FeedbackButton({ appName, section = 'overall' }: Feedbac
   const [content, setContent] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState('');
   const [modalPos, setModalPos] = useState({ top: 0, right: 0 });
   const [mounted, setMounted] = useState(false);
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -44,6 +45,7 @@ export default function FeedbackButton({ appName, section = 'overall' }: Feedbac
     if (!selectedType || !content.trim()) return;
 
     setSubmitting(true);
+    setError('');
     try {
       const res = await fetch('/api/feedback', {
         method: 'POST',
@@ -65,9 +67,12 @@ export default function FeedbackButton({ appName, section = 'overall' }: Feedbac
           setSelectedType('');
           setContent('');
         }, 2000);
+      } else {
+        setError('신고를 보내지 못했습니다. 잠시 후 다시 시도해주세요.');
       }
     } catch (err) {
       console.error('피드백 제출 실패:', err);
+      setError('신고를 보내지 못했습니다. 잠시 후 다시 시도해주세요.');
     } finally {
       setSubmitting(false);
     }
@@ -162,6 +167,11 @@ export default function FeedbackButton({ appName, section = 'overall' }: Feedbac
                 {submitting ? '...' : '신고'}
               </button>
             </div>
+            {error && (
+              <p role="alert" className="mt-2 text-xs" style={{ color: '#e94560' }}>
+                {error}
+              </p>
+            )}
           </div>
         </>,
         document.body

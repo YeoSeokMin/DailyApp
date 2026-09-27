@@ -78,7 +78,7 @@ export default function AdSlot({ slotId, imageUrl, linkUrl, position }: AdSlotPr
         </div>
       )}
 
-      <div className="pixel-box w-[160px] h-[300px] overflow-hidden">
+      <div data-ad-slot={slotId} className="pixel-box w-[160px] h-[300px] overflow-hidden">
         {imageUrl ? (
           <div className="relative w-full h-full" style={{ background: 'var(--pixel-highlight)' }}>
             <div

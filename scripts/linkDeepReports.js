@@ -13,7 +13,10 @@ const deepDir = path.join(__dirname, '../reports/deep');
 const report = JSON.parse(fs.readFileSync(reportPath, 'utf-8'));
 
 // 심층 분석 파일들 스캔
-const files = fs.readdirSync(deepDir).filter(f => f.endsWith('.md'));
+// 빈 파일(CLI 가 빈 출력을 낸 날의 잔재)은 연결하지 않는다 — analyzeDeep.js 의 MIN_DEEP_REPORT_CHARS 와 같은 기준
+const files = fs.readdirSync(deepDir)
+  .filter(f => f.endsWith('.md'))
+  .filter(f => fs.readFileSync(path.join(deepDir, f), 'utf-8').trim().length >= 500);
 
 // 파일명에서 앱 이름 추출하여 매핑 (가장 최신 파일 사용)
 const deepMap = {};

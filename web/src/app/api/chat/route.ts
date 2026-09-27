@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { kv } from '@vercel/kv';
 import { getPusher, CHAT_CHANNEL, CHAT_EVENT } from '@/lib/pusher';
+import { containsBannedWord } from '@/lib/chatFilter';
 
 const CHAT_KEY = 'chat:messages';
 const MAX_MESSAGES = 50;
@@ -83,7 +84,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { nickname, message } = body;
 
-    if (!message || !message.trim()) {
+    if (typeof message !== 'string' || !message.trim()) {
       return NextResponse.json(
         { success: false, message: '메시지를 입력하세요.' },
         { status: 400 }
@@ -97,9 +98,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // 닉네임은 클라이언트가 보내는 값이라 함께 검사한다
+    if (containsBannedWord(message, typeof nickname === 'string' ? nickname : '')) {
+      return NextResponse.json(
+        { success: false, message: '금칙어가 포함된 메시지는 보낼 수 없습니다.' },
+        { status: 400 }
+      );
+    }
+
     const chatMessage: ChatMessage = {
       id: Date.now().toString(),
-      nickname: nickname?.trim() || '익명',
+      nickname: (typeof nickname === 'string' && nickname.trim().slice(0, 20)) || '익명',
       message: message.trim(),
       timestamp: Date.now()
     };
