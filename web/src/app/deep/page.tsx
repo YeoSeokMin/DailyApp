@@ -47,7 +47,7 @@ export default async function DeepIndexPage() {
             <Link href={`/deep/${r.id}`} className="font-medium hover:underline">
               {r.appName}
             </Link>
-            {r.summary && <p className="mt-1 line-clamp-2 text-sm text-gray-600">{r.summary.slice(0, 160)}</p>}
+            {r.summary && <p className="mt-1 line-clamp-2 text-sm text-gray-600 dark:text-gray-300">{r.summary.slice(0, 160)}</p>}
             <time className="mt-1 block text-xs text-gray-400" dateTime={r.updatedAt.toISOString()}>
               {r.updatedAt.toISOString().slice(0, 10)}
             </time>
@@ -61,18 +61,18 @@ export default async function DeepIndexPage() {
     <main className="mx-auto max-w-3xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <nav className="mb-6 text-sm text-gray-500">
+      <nav className="mb-6 text-sm text-gray-500 dark:text-gray-400">
         <Link href="/" className="hover:underline">오늘의 앱 아이디어</Link>
         <span className="mx-2">/</span>
-        <span className="text-gray-700">심층 분석</span>
+        <span className="text-gray-700 dark:text-gray-200">심층 분석</span>
       </nav>
 
       <header className="mb-8 border-b pb-6">
         <h1 className="text-3xl font-bold">앱 심층 분석 리포트</h1>
-        <p className="mt-3 text-gray-600">
+        <p className="mt-3 text-gray-600 dark:text-gray-300">
           매일 수집한 신규 앱을 수익 구조·기술 난이도·시장 기회 관점에서 분석합니다.
-          근거가 확인된 사실은 <code className="rounded bg-gray-100 px-1">[확인]</code>,
-          해석은 <code className="rounded bg-gray-100 px-1">[추론]</code>으로 구분해 표기합니다.
+          근거가 확인된 사실은 <code className="rounded bg-gray-100 px-1 dark:bg-white/10">[확인]</code>,
+          해석은 <code className="rounded bg-gray-100 px-1 dark:bg-white/10">[추론]</code>으로 구분해 표기합니다.
         </p>
         <p className="mt-2 text-sm text-gray-400">총 {reports.length}건</p>
       </header>

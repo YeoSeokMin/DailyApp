@@ -63,15 +63,31 @@ function extractMeta(md: string): { appName: string; summary: string } {
   return { appName, summary };
 }
 
+/**
+ * ★라우트 params 는 퍼센트 인코딩된 채로 들어올 수 있다(한글 등 비ASCII ID).
+ *   그대로 파일명으로 쓰면 없는 파일이라 비ASCII ID 리포트 89건이 전부 404 였다.
+ */
+export function decodeDeepReportId(id: string): string {
+  try {
+    return decodeURIComponent(id);
+  } catch {
+    return id;
+  }
+}
+
 export function getDeepReportIds(): string[] {
-  return safeReadDir().map((f) => f.replace(/\.md$/, ''));
+  return safeReadDir()
+    .map((f) => f.replace(/\.md$/, ''))
+    .filter((id) => getDeepReportRaw(id) !== null);
 }
 
 export function getDeepReportRaw(id: string): string | null {
   // 경로 조작 방지 — API 라우트와 같은 기준
   if (!id || /[\/\\]/.test(id) || id.includes('..')) return null;
   try {
-    return fs.readFileSync(path.join(deepDir, `${id}.md`), 'utf-8');
+    const md = fs.readFileSync(path.join(deepDir, `${id}.md`), 'utf-8');
+    // ★2~6월 생성분 63건이 빈 파일("\r\n")이다 — 없는 리포트로 취급(빈 페이지·빈 모달 방지)
+    return md.trim() ? md : null;
   } catch {
     return null;
   }

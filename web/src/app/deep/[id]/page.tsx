@@ -8,7 +8,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { marked } from 'marked';
-import { getDeepReportIds, getDeepReportMeta, getDeepReportRaw } from '@/lib/deepReports';
+import { decodeDeepReportId, getDeepReportIds, getDeepReportMeta, getDeepReportRaw } from '@/lib/deepReports';
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -27,7 +27,7 @@ function clamp(s: string, min: number, max: number, pad: string): string {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
-  const { id } = await params;
+  const id = decodeDeepReportId((await params).id);
   const meta = getDeepReportMeta(id);
   if (!meta) return { title: '리포트를 찾을 수 없습니다' };
 
@@ -62,7 +62,7 @@ function renderMarkdown(md: string): string {
 }
 
 export default async function DeepReportPage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
+  const id = decodeDeepReportId((await params).id);
   const meta = getDeepReportMeta(id);
   const raw = getDeepReportRaw(id);
   if (!meta || !raw) notFound();
@@ -87,29 +87,29 @@ export default async function DeepReportPage({ params }: { params: Promise<{ id:
     <main className="mx-auto max-w-3xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <nav className="mb-6 text-sm text-gray-500">
+      <nav className="mb-6 text-sm text-gray-500 dark:text-gray-400">
         <Link href="/" className="hover:underline">오늘의 앱 아이디어</Link>
         <span className="mx-2">/</span>
         <Link href="/deep" className="hover:underline">심층 분석</Link>
         <span className="mx-2">/</span>
-        <span className="text-gray-700">{meta.appName}</span>
+        <span className="text-gray-700 dark:text-gray-200">{meta.appName}</span>
       </nav>
 
       <header className="mb-8 border-b pb-6">
-        <div className="mb-2 inline-block rounded bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600">{platform}</div>
+        <div className="mb-2 inline-block rounded bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600 dark:bg-white/10 dark:text-gray-300">{platform}</div>
         <h1 className="text-3xl font-bold leading-tight">{meta.appName} 심층 분석 리포트</h1>
-        {meta.summary && <p className="mt-3 text-gray-600">{meta.summary.slice(0, 240)}</p>}
+        {meta.summary && <p className="mt-3 text-gray-600 dark:text-gray-300">{meta.summary.slice(0, 240)}</p>}
         <time className="mt-3 block text-sm text-gray-400" dateTime={meta.updatedAt.toISOString()}>
           {meta.updatedAt.toISOString().slice(0, 10)}
         </time>
       </header>
 
       <article
-        className="deep-report prose prose-slate max-w-none"
+        className="deep-report deep-md"
         dangerouslySetInnerHTML={{ __html: html }}
       />
 
-      <footer className="mt-12 border-t pt-6 text-sm text-gray-500">
+      <footer className="mt-12 border-t pt-6 text-sm text-gray-500 dark:text-gray-400">
         <Link href="/deep" className="hover:underline">← 다른 심층 분석 보기</Link>
       </footer>
     </main>

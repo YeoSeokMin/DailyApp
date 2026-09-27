@@ -574,6 +574,17 @@ async function main() {
       report.data_status.android = 'unavailable';
     }
 
+    // ★app_url 은 AI 가 입력값을 옮겨 적는 필드라 "미확인"·"정보 없음" 이 섞여 들어왔다(웹에서 상대경로 404 링크).
+    //   URL 이 아니면 수집 원본에서 이름으로 복원하고, 못 찾으면 비운다(웹은 빈 값이면 링크를 숨긴다).
+    for (const [list, src] of [[report.ios, iosApps], [report.android, androidApps]]) {
+      for (const app of list || []) {
+        if (/^https?:\/\//.test(app.app_url || '')) continue;
+        const hit = src.find(s => s.url && [s.name, s.name_en].includes(app.name));
+        console.log(`  ⚠️ app_url 이 URL 아님: ${app.name} "${app.app_url}" → ${hit ? '원본 복원' : '비움'}`);
+        app.app_url = hit ? hit.url : '';
+      }
+    }
+
     // 입력이 있었는데 결과가 비었을 때만 실패로 본다
     if ((!IOS_UNAVAILABLE && (report.ios?.length || 0) === 0) ||
         (!ANDROID_UNAVAILABLE && (report.android?.length || 0) === 0)) {

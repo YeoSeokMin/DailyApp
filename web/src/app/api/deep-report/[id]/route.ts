@@ -24,6 +24,7 @@ export async function GET(
 
     // 파일 읽기
     const content = await fs.readFile(filePath, 'utf-8');
+    if (!content.trim()) throw new Error('Empty report'); // 빈 파일("\r\n")은 없는 리포트로
 
     return new NextResponse(content, {
       status: 200,

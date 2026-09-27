@@ -593,15 +593,18 @@ export default function AppCard({ app, platform }: AppCardProps) {
             >
               {app.category}
             </span>
-            <a
-              href={app.app_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block mt-2 text-sm font-bold hover:opacity-80"
-              style={{ color: platformColor }}
-            >
-              스토어에서 보기 →
-            </a>
+            {/* AI 가 app_url 에 "미확인"·"정보 없음" 을 넣은 리포트가 있어 상대경로 404 링크가 됐다 */}
+            {/^https?:\/\//.test(app.app_url || '') && (
+              <a
+                href={app.app_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mt-2 text-sm font-bold hover:opacity-80"
+                style={{ color: platformColor }}
+              >
+                스토어에서 보기 →
+              </a>
+            )}
           </div>
         </div>
 
