@@ -1,0 +1,665 @@
+{
+  "date": "2026-09-28",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Both: Dual Camera",
+      "developer": "Dongwoo Ha",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/d6/11/3fd6113b-107b-3574-5d66-e645a567e80c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/both-%EB%93%80%EC%96%BC-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6760682696",
+      "idea_summary": "전후면 카메라를 동시에 촬영해 한 장에 담는 앱",
+      "analysis": {
+        "problem": "셀피와 주변 환경을 동시에 기록하고 싶지만 기존 카메라 앱은 한 방향만 촬영 가능 [추론]",
+        "solution": "전면·후면 카메라를 동시 활성화해 하나의 프레임에 두 시점을 합성 촬영 [확인]",
+        "target_user": "SNS 콘텐츠 제작자, 여행 기록을 즐기는 MZ세대 [추론]",
+        "unique_point": "별도 하드웨어 없이 소프트웨어만으로 BeReal 방식의 듀얼 뷰 동시 촬영 구현 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BeReal",
+          "Frontback"
+        ],
+        "timing_reason": "BeReal 이후 진정성 있는 동시 시점 촬영 트렌드가 지속 성장 중 [추론]",
+        "growth_potential": "SNS 콘텐츠 다양화 수요와 함께 카메라 앱 시장 내 틈새 포지셔닝 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 레이아웃·필터 IAP 또는 구독 모델 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 구독 전략 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "500~1,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "AVCaptureMultiCamSession",
+          "Core Image"
+        ],
+        "key_features": [
+          "전후면 동시 촬영",
+          "레이아웃 커스터마이징",
+          "SNS 원터치 공유"
+        ],
+        "clone_tip": "AVCaptureMultiCamSession API 활용 시 동시 멀티캠 구현 가능, iPhone XS 이상에서만 지원되므로 최소 기기 요구사항 명시 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#카메라앱",
+        "#SNS"
+      ],
+      "verdict": "BeReal로 검증된 듀얼캠 니즈를 인디 개발자가 공략 가능한 참신한 카메라 앱",
+      "deep_report_id": "ios-both-dual-camera-1790521819782"
+    },
+    {
+      "rank": 2,
+      "name": "JigRipper",
+      "developer": "Séisionnach LLC",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/7a/0e/a27a0e74-73a8-b5ce-7def-12ef640789e2/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/jigripper/id6801636460",
+      "idea_summary": "아일랜드 전통 음악 곡명 식별·악보·녹음 분석 오프라인 앱",
+      "analysis": {
+        "problem": "아일랜드 전통 음악 세션 중 들은 곡의 이름과 악보를 빠르게 찾기 어려움 [추론]",
+        "solution": "오프라인 음악 인식으로 곡명 식별, 악보 표시, 녹음 분석을 한 앱에서 제공 [확인]",
+        "target_user": "아일랜드 전통 음악(세션) 참여자, 켈틱 음악 학습자 및 연주자 [추론]",
+        "unique_point": "Shazam이 커버하지 못하는 특정 전통 장르에 특화된 오프라인 음악 인식 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Shazam",
+          "SoundHound",
+          "The Session(웹 커뮤니티)"
+        ],
+        "timing_reason": "전통 음악 디지털 아카이빙 및 커뮤니티 온라인화 흐름에 맞춰 니즈 증가 [추론]",
+        "growth_potential": "아일랜드·영국·북미 켈틱 디아스포라 커뮤니티 타겟의 충성도 높은 버티컬 시장 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱($4.99~$9.99) 또는 악보 데이터베이스 구독 [추론]",
+        "pricing_suggestion": "일회성 유료 앱으로 진입장벽 낮추고 악보 팩 IAP 추가 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 (음악 DB 구축 포함) [추론]",
+        "estimated_cost": "2,000~5,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "AVFoundation",
+          "MusicXML"
+        ],
+        "key_features": [
+          "오프라인 곡명 인식",
+          "악보 표시",
+          "녹음 분석",
+          "세션 튜닝 보조"
+        ],
+        "clone_tip": "특정 장르 특화 DB가 핵심 해자, 범용 음악 인식보다 도메인 특화 ML 모델 및 전통 악보 데이터 확보가 관건 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#버티컬마켓",
+        "#음악앱",
+        "#오프라인ML",
+        "#니치마켓"
+      ],
+      "verdict": "전통 음악 특화 틈새시장에서 강력한 커뮤니티 해자를 구축할 수 있는 고충성도 앱"
+    },
+    {
+      "rank": 3,
+      "name": "When Was It?",
+      "developer": "HyunWoo Lee",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/1c/fc/711cfc54-f626-a6a0-7d57-168c27b79e19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E3%81%84%E3%81%A4%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%A3%E3%81%91/id6801866888",
+      "idea_summary": "계정·알림 없이 반복 활동의 마지막 수행 시점만 기록",
+      "analysis": {
+        "problem": "약 복용, 화분 물주기, 세차 등 반복 활동을 마지막으로 한 시점을 기억하기 어려움 [추론]",
+        "solution": "할 일 목록, 알림, 계정 가입 없이 단순히 마지막으로 한 시점만 기록하는 초미니멀 앱 [확인]",
+        "target_user": "복잡한 투두 앱 대신 초간단 기록을 원하는 미니멀리스트 [추론]",
+        "unique_point": "태스크 관리 기능을 모두 제거하고 마지막 수행 시점 추적에만 완전히 집중한 단일 목적 설계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Last Time(앱)",
+          "Streaks",
+          "Bear Habit Tracker"
+        ],
+        "timing_reason": "앱 과부하와 미니멀리즘 트렌드 확산으로 단 하나의 문제만 해결하는 도구에 대한 수요 증가 [추론]",
+        "growth_potential": "단순하지만 범용적인 사용 사례로 넓은 사용자층 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱($0.99~$2.99) 또는 팁 기반 인앱 후원 [추론]",
+        "pricing_suggestion": "일회성 소액 유료($1.99)로 진입 장벽 최소화 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "200~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "활동 등록",
+          "마지막 수행일 표시",
+          "경과 시간 계산",
+          "홈스크린 위젯"
+        ],
+        "clone_tip": "SwiftUI + Core Data만으로 1인 개발 완결 가능, WidgetKit 홈스크린 위젯 지원 시 사용성 대폭 향상 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#미니멀앱",
+        "#생산성",
+        "#B2C"
+      ],
+      "verdict": "1인 개발자에게 최적인 초간단 개념, 위젯 지원으로 차별화하면 충분히 경쟁력 있음"
+    },
+    {
+      "rank": 4,
+      "name": "Plezy: Media Server Client",
+      "developer": "Edvard Wikhall",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/ee/e7/c3eee722-3383-1a23-7129-d0ffff3840a9/plezy-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/plezy-media-server-client/id6754315964",
+      "idea_summary": "다양한 미디어 서버를 하나의 앱으로 통합 스트리밍",
+      "analysis": {
+        "problem": "Plex, Jellyfin 등 다양한 미디어 서버를 각각 별도 앱으로 관리해야 하는 불편함 [추론]",
+        "solution": "영화, TV쇼, 음악, 라이브 TV 및 오프라인 다운로드를 하나의 클라이언트로 통합 스트리밍 [확인]",
+        "target_user": "홈미디어 서버 운영자, NAS 사용자, OTT 대신 자체 서버를 구축하는 코드커터 [추론]",
+        "unique_point": "특정 서버 플랫폼에 종속되지 않는 멀티 미디어 서버 통합 클라이언트 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Plex",
+          "Infuse",
+          "VLC",
+          "Jellyfin 공식 앱"
+        ],
+        "timing_reason": "OTT 구독 피로감으로 인한 자체 미디어 서버 구축 수요 꾸준히 증가 [추론]",
+        "growth_potential": "코드커터 트렌드 지속으로 홈서버 사용자 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱($4.99~$9.99) 또는 프리미엄 코덱 지원 구독 [추론]",
+        "pricing_suggestion": "일회성 유료 구매($6.99)로 진입 후 고급 코덱 지원 IAP 추가 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1,500~3,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVKit",
+          "FFmpeg",
+          "Plex API",
+          "Jellyfin API"
+        ],
+        "key_features": [
+          "멀티서버 연결",
+          "스트리밍 재생",
+          "오프라인 다운로드",
+          "라이브 TV"
+        ],
+        "clone_tip": "Plex/Jellyfin 공개 REST API 활용 시 개발 기간 단축 가능, 코덱 호환성과 자막 지원이 사용자 만족도 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#미디어앱",
+        "#홈서버",
+        "#코드커터",
+        "#B2C"
+      ],
+      "verdict": "OTT 구독 피로 시대에 홈미디어 서버 사용자를 공략하는 실용적 통합 클라이언트 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Mecha Chameleon",
+      "developer": "民林 孙",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/1d/26/4e1d2657-947d-89c2-2326-4d9ebdd5b96d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%A9%94%EC%B1%A0%EC%B9%B4%EB%A9%9C%EB%A0%88%EC%98%A8/id6792712229",
+      "idea_summary": "메카 디자인과 카멜레온 색상 변신을 결합한 엔터테인먼트 앱",
+      "analysis": {
+        "problem": "기존 캐주얼 엔터테인먼트 앱의 캐릭터 다양성 및 색상 변화 상호작용 콘텐츠 부족 [추측]",
+        "solution": "카멜레온 변신 메커니즘을 활용한 독특한 시각적 인터랙티브 엔터테인먼트 경험 제공 [추측]",
+        "target_user": "독특한 비주얼 캐릭터 콘텐츠를 즐기는 10~30대 캐주얼 사용자 [추측]",
+        "unique_point": "메카닉 디자인 감성과 카멜레온 색상 변환을 결합한 독창적 비주얼 콘셉트 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "기타 캐주얼 캐릭터 앱",
+          "AR 엔터테인먼트 앱"
+        ],
+        "timing_reason": "캐릭터 IP 기반 캐주얼 앱의 수익화 모델이 검증되면서 관련 시장 성장 중 [추측]",
+        "growth_potential": "캐릭터 IP 확장 및 굿즈 연계 가능성 있으나 현재 시장 데이터 부족 [추측]"
+      },
+      "business": {
+        "monetization": "캐릭터 스킨 IAP 또는 광고 기반 수익 [추측]",
+        "pricing_suggestion": "무료 + 코스튬·색상 팩 IAP 방식 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "500~1,500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SpriteKit",
+          "SceneKit"
+        ],
+        "key_features": [
+          "색상 변신 캐릭터 인터랙션",
+          "커스터마이징 시스템",
+          "애니메이션 효과"
+        ],
+        "clone_tip": "기술 난도보다 아트 퀄리티가 성패를 좌우, 독창적 캐릭터 디자인 확보가 핵심이므로 일러스트레이터 협업 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#캐릭터앱",
+        "#엔터테인먼트",
+        "#B2C",
+        "#아트드리븐"
+      ],
+      "verdict": "독창적 비주얼 콘셉트는 강점이나 수익화 모델 구체화와 아트 퀄리티 확보가 관건"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "AI Organizer - Smart Organization",
+      "developer": "LuminousByte",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/Awkm8yVOqH9J6ZjpMEfISHIrzY2CIDY5Fb1mH0YH-P-LUjzKQ6nc3mYWYmsJ3aiku4VRQLOXIdD3dLtSAVM6iw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.luminousbyte.cleaner.storage.ai",
+      "idea_summary": "AI로 스마트폰 파일·사진·콘텐츠를 자동 분류·정리",
+      "analysis": {
+        "problem": "스마트폰 내 파일, 사진, 문서가 뒤섞여 정리에 시간이 많이 소요됨 [추론]",
+        "solution": "AI 기반으로 저장된 파일·정보·개인 콘텐츠를 자동으로 분류하고 스마트하게 정리 [추론]",
+        "target_user": "디지털 정리에 어려움을 겪는 일반 Android 스마트폰 사용자 [추론]",
+        "unique_point": "단순 스토리지 클리너를 넘어 AI 기반 스마트 분류·정리 기능 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Files by Google",
+          "SD Maid",
+          "CCleaner for Android"
+        ],
+        "timing_reason": "온디바이스 AI 기능 보편화로 파일 자동 분류·정리 수요 증가 [추론]",
+        "growth_potential": "스마트폰 저장 용량 증가와 함께 효율적 관리 도구 수요 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 기본 기능 + 월 2,900원 프리미엄 구독 전략 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "1,000~2,500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "TensorFlow Lite",
+          "ML Kit",
+          "Room DB"
+        ],
+        "key_features": [
+          "AI 파일 분류",
+          "중복 파일 감지",
+          "스토리지 시각화 분석",
+          "자동 정리 제안"
+        ],
+        "clone_tip": "Google ML Kit 이미지 분류 API 활용 시 사진 자동 분류 구현 비용 절감 가능, Google의 'Files by Google'과의 차별화를 위해 AI 분류 정확도에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#AI활용",
+        "#유틸리티",
+        "#B2C",
+        "#안드로이드특화"
+      ],
+      "verdict": "온디바이스 AI 트렌드에 올라탄 파일 정리 앱, 대형 경쟁사 존재가 가장 큰 리스크",
+      "deep_report_id": "android-ai-organizer-smart-organization-1790521911378"
+    },
+    {
+      "rank": 2,
+      "name": "Chips - Lowest Price Alerts and Affiliate Shopping Rewards",
+      "developer": "NBT Inc.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/6Ck4Kj05cPdj_1yN59roAEVjysBRBKaeDjcs9YANt4V2PULD0UGQQVBT7myxJcNSc2i-3USNe5RhixR8epSY",
+      "app_url": "https://play.google.com/store/apps/details?id=today.chips",
+      "idea_summary": "최저가 가격 하락 알림과 제휴 쇼핑 리워드를 결합한 스마트 쇼핑 앱",
+      "analysis": {
+        "problem": "원하는 상품의 최저가 타이밍을 놓치고 쇼핑 시 현금 보상 기회를 충분히 활용하지 못함 [추론]",
+        "solution": "가격 하락 실시간 알림과 제휴 링크 리워드를 결합해 절약과 현금 보상을 동시에 제공 [확인]",
+        "target_user": "가격 비교를 즐기는 스마트 쇼핑족, 20~40대 절약 지향 소비자 [추론]",
+        "unique_point": "가격 추적과 제휴 리워드를 동시에 제공하는 투트랙 절약 전략으로 사용자 락인 강화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "에누리",
+          "다나와",
+          "네이버 가격비교",
+          "CamelCamelCamel"
+        ],
+        "timing_reason": "물가 상승으로 절약 소비 트렌드가 강화되면서 가격 비교 및 리워드 앱 수요 급증 [추론]",
+        "growth_potential": "제휴 마케팅 생태계 확장과 함께 수익 모델 안정화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 링크 커미션 + 프리미엄 가격 알림 구독 [추론]",
+        "pricing_suggestion": "무료 제공으로 사용자 확보 후 제휴 커미션으로 수익 창출 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "1,000~2,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Retrofit",
+          "Firebase",
+          "쿠팡 파트너스 API",
+          "11번가 파트너스 API"
+        ],
+        "key_features": [
+          "상품 가격 실시간 추적",
+          "가격 하락 푸시 알림",
+          "제휴 쇼핑 링크 생성",
+          "리워드 적립 및 출금"
+        ],
+        "clone_tip": "국내 주요 쇼핑몰 파트너스 API와 가격 크롤링을 조합해 구현 가능, 제휴 수익이 주 BM이므로 가맹 파트너사 확대가 핵심 성장 동력 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#제휴수익",
+        "#쇼핑앱",
+        "#B2C",
+        "#1인개발가능"
+      ],
+      "verdict": "물가 상승기에 검증된 비즈니스 모델, 파트너스 API 연동 완성 시 안정적 수익 구조 확보"
+    },
+    {
+      "rank": 3,
+      "name": "Tabling",
+      "developer": "테이블링(주)",
+      "category": "Food and Dining",
+      "icon": "https://play-lh.googleusercontent.com/lv2Vt51X31m6NsY1My71O48nobswb2_s_RU1iiAitDJDOO7mmdSn9HR15fd1d-gs__JkrXuj_11c4OtI-Lrl1A",
+      "app_url": "https://play.google.com/store/apps/details?id=com.mealant.tabling",
+      "idea_summary": "식당 예약·원격 웨이팅 통합 관리 O2O 플랫폼",
+      "analysis": {
+        "problem": "인기 식당 방문 시 현장 대기 및 예약을 별도로 관리해야 하는 불편함 [추론]",
+        "solution": "식당 검색, 예약, 원격 웨이팅 등록을 하나의 앱에서 통합 관리 및 호출 알림 제공 [확인]",
+        "target_user": "외식을 즐기는 20~40대 한국 소비자, 맛집 탐방족 [추론]",
+        "unique_point": "현장에 직접 가지 않고 앱으로 원격 대기 번호를 받고 호출 시 방문하는 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "캐치테이블",
+          "네이버 예약",
+          "카카오 예약"
+        ],
+        "timing_reason": "외식 문화 고도화와 웨이팅 문화 정착으로 디지털 예약 플랫폼 수요 지속 증가 [추론]",
+        "growth_potential": "가맹 식당 수 증가와 함께 네트워크 효과로 성장 가속화 기대 [추론]"
+      },
+      "business": {
+        "monetization": "식당 측 B2B SaaS 구독료 + 예약 건당 수수료 [추론]",
+        "pricing_suggestion": "소비자 무료 + 식당 측 월 구독 과금 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 (B2B 관리자 앱 + B2C 소비자 앱 듀얼 개발) [추론]",
+        "estimated_cost": "3,000~8,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Node.js",
+          "PostgreSQL",
+          "Firebase",
+          "Google Maps Platform"
+        ],
+        "key_features": [
+          "식당 검색 및 지도",
+          "온라인 예약 시스템",
+          "원격 웨이팅 번호 관리",
+          "순서 도착 푸시 알림"
+        ],
+        "clone_tip": "B2C 앱보다 식당용 B2B 관리자 앱 완성도가 사업 성패 좌우, 초기 오프라인 식당 파트너십 영업이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2B2C",
+        "#O2O",
+        "#식음료",
+        "#한국시장"
+      ],
+      "verdict": "검증된 한국 외식 예약 시장, B2B 영업력이 있다면 확장성 높은 플랫폼 비즈니스 구축 가능"
+    },
+    {
+      "rank": 4,
+      "name": "Neko Attendance: Work Records, Meow",
+      "developer": "NCP Tech",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/HTR-3BYVQ_z6dXKboYL8QHkFUmqc9Dzkv0whDfM17l3yH_YFJJDN0bLWAj4asdfltP0g7zkebHlMVNbI_k-h",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ccya.nekokintai",
+      "idea_summary": "고양이 테마로 귀엽게 근태·업무시간을 기록하는 앱",
+      "analysis": {
+        "problem": "딱딱하고 지루한 근태 기록 앱에 대한 피로감, 프리랜서·재택근무자의 자율적 기록 니즈 [추론]",
+        "solution": "고양이 캐릭터 테마를 적용해 출퇴근 기록, 근무시간, 업무 활동을 귀엽고 재미있게 추적 [확인]",
+        "target_user": "고양이를 좋아하는 프리랜서, 재택근무자, 20~30대 직장인 [추론]",
+        "unique_point": "캐릭터 감성을 업무 도구에 접목해 기록 행동에 대한 심리적 저항감 감소 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Toggl Track",
+          "Clockify",
+          "아이오 출퇴근부"
+        ],
+        "timing_reason": "재택·하이브리드 근무 일상화로 개인 근태 자율 관리 도구 수요 지속 증가 [추론]",
+        "growth_potential": "캐릭터 IP 확장 및 일본·한국 캐릭터 감성 시장 특성상 팬덤 형성 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 또는 고양이 스킨 IAP [추론]",
+        "pricing_suggestion": "기본 무료 + 고양이 스킨·통계 내보내기 월 구독 1,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "500~1,200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Room DB",
+          "WorkManager"
+        ],
+        "key_features": [
+          "출퇴근 체크인/아웃",
+          "근무시간 자동 계산",
+          "급여 계산기",
+          "고양이 리액션 애니메이션"
+        ],
+        "clone_tip": "핵심 기능 자체는 단순하나 고양이 일러스트 퀄리티가 앱의 핵심 경쟁력, 전문 캐릭터 디자이너 협업 강력 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#캐릭터앱",
+        "#생산성",
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "고양이 감성으로 딱딱한 근태 앱 시장에 도전, 아트 퀄리티 투자가 성패를 좌우"
+    },
+    {
+      "rank": 5,
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "운동·독서·학습 등 일상 활동을 최소 UI로 빠르게 로깅",
+      "analysis": {
+        "problem": "운동, 독서, 학습 등 일상 활동을 복잡한 앱 없이 간단하고 빠르게 기록하고 싶은 니즈 [추론]",
+        "solution": "활동, 메모, 진행상황을 최소한의 UI로 빠르게 로깅하고 추적 [추론]",
+        "target_user": "자기계발에 관심 있는 20~30대, 기록 습관 형성을 원하는 사용자 [추론]",
+        "unique_point": "과도한 기능을 배제하고 로깅 행위 자체의 속도와 편의성에 집중한 미니멀 설계 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "Day One",
+          "Loop Habit Tracker"
+        ],
+        "timing_reason": "자기계발 앱 시장 과포화로 단순하고 빠른 로깅 도구에 대한 역반응 수요 증가 [추론]",
+        "growth_potential": "습관 추적 앱 시장은 꾸준히 성장 중이나 경쟁 강도가 높아 차별화 포인트 강화 필요 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 또는 일회성 유료 앱 [추론]",
+        "pricing_suggestion": "기본 무료 + 데이터 내보내기·통계 등 프리미엄 월 1,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~3개월 [추론]",
+        "estimated_cost": "300~700만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Room DB"
+        ],
+        "key_features": [
+          "빠른 로그 입력",
+          "카테고리 분류",
+          "진행상황 시각화 차트",
+          "데이터 내보내기"
+        ],
+        "clone_tip": "Jetpack Compose로 빠르게 프로토타입 제작 가능, 차별화는 입력 속도 UX와 홈스크린 위젯 지원에서 결정 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#미니멀앱",
+        "#생산성",
+        "#B2C"
+      ],
+      "verdict": "1인 개발자가 빠르게 출시 가능한 구조이나 경쟁이 치열해 명확한 차별화 포인트 필수"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 특정 버티컬에 집중한 틈새 전문 앱과 캐릭터 감성으로 차별화한 생산성 도구가 두드러진다. 단 하나의 문제만 해결하는 초미니멀 설계와 AI 유틸리티 접목이 공통 키워드로 부상하고 있다.",
+    "trend_details": [
+      "BeReal 이후 동시 시점 촬영 수요가 다양한 카메라 앱으로 파생되는 트렌드 지속 [추론]",
+      "아일랜드 전통 음악처럼 초특화 버티컬 앱이 충성도 높은 커뮤니티를 기반으로 틈새시장 장악 [추론]",
+      "OTT 구독 피로감으로 홈미디어 서버 클라이언트 앱 수요 꾸준히 증가 [추론]",
+      "고양이 등 캐릭터 감성을 생산성 도구에 접목해 기록 앱의 심리적 진입장벽 완화 [추론]",
+      "물가 상승기에 가격 비교와 제휴 리워드를 결합한 투트랙 쇼핑 앱 수요 증가 [추론]"
+    ],
+    "hot_categories": [
+      "Photo & Video",
+      "Productivity",
+      "Shopping"
+    ],
+    "opportunity": "대형 플랫폼이 진입하기 어려운 특정 문화·장르 특화 버티컬 앱에서 충성도 높은 커뮤니티를 형성하거나, 캐릭터 감성과 미니멀 UX를 결합해 기존 앱의 피로감을 해소하는 틈새 공략 [추론]",
+    "action_item": "'마지막으로 한 게 언제?'처럼 단 하나의 문제만 해결하는 초미니멀 앱을 1~2개월 안에 출시해 App Store 특정 키워드 SEO를 먼저 선점하라 [추론]"
+  },
+  "data_status": {}
+}
