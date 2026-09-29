@@ -1,35 +1,99 @@
 {
-  "generatedAt": "2026-09-27T15:13:42.955Z",
+  "generatedAt": "2026-09-29T15:15:26.446Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Music",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "SpellSynth: Retro Vocal Synth",
-        "Beat Blocks: Rhythm Practice"
-      ],
-      "avgScore": 7.65
-    },
-    {
       "category": "Photo & Video",
-      "currentCount": 4,
+      "currentCount": 5,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "Both: Dual Camera",
         "GR Snap - Ricoh GR Image Sync",
         "Nexus - AI Video Generator",
         "IIWII",
         "Retro Phone Camera - Camera from the Past"
       ],
-      "avgScore": 7.425000000000001
+      "avgScore": 7.5
+    },
+    {
+      "category": "Music",
+      "currentCount": 3,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "JigRipper",
+        "SpellSynth: Retro Vocal Synth",
+        "Beat Blocks: Rhythm Practice"
+      ],
+      "avgScore": 7.6000000000000005
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 8,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "When Was It?",
+        "AI Organizer - Smart Organization",
+        "Neko Attendance: Work Records, Meow",
+        "setlog",
+        "Cat Work Hours: Work Recording App",
+        "Sync: Plan & Actual",
+        "TimeCue",
+        "노그미 (Nogmi)"
+      ],
+      "avgScore": 7.324999999999999
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 9,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Plezy: Media Server Client",
+        "Mecha Chameleon",
+        "DramaVibe",
+        "KyaraPu",
+        "Peekie: Mystery Deduction Game",
+        "zeta - AI Characters, Roleplay Chat with Your Favorite Characters",
+        "VibeShort: AI Short Dramas",
+        "Loopit - Make Playables",
+        "CharaPu - Stories Are Up to You"
+      ],
+      "avgScore": 7.477777777777778
+    },
+    {
+      "category": "Shopping",
+      "currentCount": 4,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Chips - Lowest Price Alerts and Affiliate Shopping Rewards",
+        "Shopot - AI Shopping Assistant",
+        "Fallcent - Lowest Price Alerts, Price Comparison, Cashback Shopping, Hot Deals",
+        "Athler, The Standard in Men's Fashion"
+      ],
+      "avgScore": 7.75
+    },
+    {
+      "category": "Food and Dining",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Tabling"
+      ],
+      "avgScore": 7.8
     },
     {
       "category": "Health & Fitness",
@@ -41,33 +105,6 @@
         "Exposr - Food Product Scanner"
       ],
       "avgScore": 7.8
-    },
-    {
-      "category": "Productivity",
-      "currentCount": 4,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Cat Work Hours: Work Recording App",
-        "Sync: Plan & Actual",
-        "TimeCue",
-        "노그미 (Nogmi)"
-      ],
-      "avgScore": 7.675
-    },
-    {
-      "category": "Shopping",
-      "currentCount": 3,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Shopot - AI Shopping Assistant",
-        "Fallcent - Lowest Price Alerts, Price Comparison, Cashback Shopping, Hot Deals",
-        "Athler, The Standard in Men's Fashion"
-      ],
-      "avgScore": 7.833333333333333
     },
     {
       "category": "Education",
@@ -114,23 +151,6 @@
         "공군 PTSD 알람 (Air Force PTSD Alarm)"
       ],
       "avgScore": 6.82
-    },
-    {
-      "category": "Entertainment",
-      "currentCount": 7,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "DramaVibe",
-        "KyaraPu",
-        "Peekie: Mystery Deduction Game",
-        "zeta - AI Characters, Roleplay Chat with Your Favorite Characters",
-        "VibeShort: AI Short Dramas",
-        "Loopit - Make Playables",
-        "CharaPu - Stories Are Up to You"
-      ],
-      "avgScore": 7.828571428571428
     },
     {
       "category": "Finance",
@@ -267,6 +287,19 @@
       "avgScore": 6.5
     },
     {
+      "category": "스포츠",
+      "currentCount": 3,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Dtecto",
+        "ScoreBox: Sports IPTV",
+        "Finding Space"
+      ],
+      "avgScore": 7.266666666666667
+    },
+    {
       "category": "지도/내비게이션",
       "currentCount": 1,
       "previousCount": 0,
@@ -287,73 +320,9 @@
         "첫화면날씨"
       ],
       "avgScore": 6
-    },
-    {
-      "category": "스포츠",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "Dtecto",
-        "ScoreBox: Sports IPTV",
-        "Finding Space"
-      ],
-      "avgScore": 7.266666666666667
     }
   ],
   "decliningCategories": [
-    {
-      "category": "엔터테인먼트",
-      "currentCount": 2,
-      "previousCount": 4,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "DramaWave",
-        "실시간 TV - KBS, MBC, SBS, JTBC"
-      ],
-      "avgScore": 6.25
-    },
-    {
-      "category": "라이프스타일",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Flower Language: Bouquet"
-      ],
-      "avgScore": 6.5
-    },
-    {
-      "category": "교육",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Origami: Folding Guide"
-      ],
-      "avgScore": 6
-    },
-    {
-      "category": "생산성",
-      "currentCount": 7,
-      "previousCount": 19,
-      "changePercent": -63,
-      "changeDirection": "down",
-      "apps": [
-        "Habit Tracker SLOX",
-        "Tabreakr",
-        "ClipCode",
-        "PDF 리더 및 뷰어",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "문서 뷰어: PDF, Word",
-        "PDF 리더: 뷰어·편집기"
-      ],
-      "avgScore": 6.971428571428571
-    },
     {
       "category": "금융",
       "currentCount": 1,
@@ -366,15 +335,26 @@
       "avgScore": 7.2
     },
     {
-      "category": "유틸리티",
+      "category": "엔터테인먼트",
       "currentCount": 1,
-      "previousCount": 7,
-      "changePercent": -86,
+      "previousCount": 4,
+      "changePercent": -75,
       "changeDirection": "down",
       "apps": [
-        "ChatPort: Text Message Export"
+        "DramaWave"
       ],
-      "avgScore": 7
+      "avgScore": 6.5
+    },
+    {
+      "category": "생산성",
+      "currentCount": 1,
+      "previousCount": 20,
+      "changePercent": -95,
+      "changeDirection": "down",
+      "apps": [
+        "Habit Tracker SLOX"
+      ],
+      "avgScore": 7.2
     }
   ],
   "stableCategories": [
@@ -396,6 +376,14 @@
       "category": "tag",
       "count": 64,
       "apps": [
+        "Both: Dual Camera",
+        "When Was It?",
+        "Plezy: Media Server Client",
+        "Mecha Chameleon",
+        "AI Organizer - Smart Organization",
+        "Chips - Lowest Price Alerts and Affiliate Shopping Rewards",
+        "Neko Attendance: Work Records, Meow",
+        "setlog",
         "SpellSynth: Retro Vocal Synth",
         "GR Snap - Ricoh GR Image Sync",
         "Exposr - Food Product Scanner",
@@ -451,22 +439,19 @@
         "GPS 지도 음성 내비게이션",
         "첫화면날씨",
         "Listen Card Music Share",
-        "Habit Tracker SLOX",
-        "ChatPort: Text Message Export",
-        "Flower Language: Bouquet",
-        "Origami: Folding Guide",
-        "PDF 리더 및 뷰어",
-        "실시간 TV - KBS, MBC, SBS, JTBC",
-        "문서뷰어 - PDF 파일 읽기, HWP 파일 뷰어",
-        "문서 뷰어: PDF, Word",
-        "PDF 리더: 뷰어·편집기"
+        "Habit Tracker SLOX"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 41,
+      "count": 40,
       "apps": [
+        "Both: Dual Camera",
+        "When Was It?",
+        "Chips - Lowest Price Alerts and Affiliate Shopping Rewards",
+        "Neko Attendance: Work Records, Meow",
+        "setlog",
         "SpellSynth: Retro Vocal Synth",
         "GR Snap - Ricoh GR Image Sync",
         "Exposr - Food Product Scanner",
@@ -501,20 +486,15 @@
         "Finding Space",
         "첫화면날씨",
         "Listen Card Music Share",
-        "Habit Tracker SLOX",
-        "ChatPort: Text Message Export",
-        "Tabreakr",
-        "Flower Language: Bouquet",
-        "ClipCode",
-        "Origami: Folding Guide",
-        "PDF 리더: 뷰어·편집기"
+        "Habit Tracker SLOX"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 24,
+      "count": 25,
       "apps": [
+        "AI Organizer - Smart Organization",
         "Shopot - AI Shopping Assistant",
         "SpeakUp AI - Language Learning",
         "AI Hairstyle Try On & Color",
@@ -539,8 +519,10 @@
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 18,
+      "count": 20,
       "apps": [
+        "AI Organizer - Smart Organization",
+        "Chips - Lowest Price Alerts and Affiliate Shopping Rewards",
         "SpeakUp AI - Language Learning",
         "Antizuck Smart Glasses Scanner",
         "Orbit Tab",
@@ -564,8 +546,10 @@
     {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 15,
+      "count": 17,
       "apps": [
+        "Mecha Chameleon",
+        "AI Organizer - Smart Organization",
         "DramaVibe",
         "Nexus - AI Video Generator",
         "Peekie: Mystery Deduction Game",
@@ -585,17 +569,42 @@
     {
       "keyword": "생산성",
       "category": "tag",
-      "count": 13,
+      "count": 11,
       "apps": [
+        "When Was It?",
+        "Neko Attendance: Work Records, Meow",
+        "setlog",
         "Cat Work Hours: Work Recording App",
         "Sync: Plan & Actual",
         "TimeCue",
         "WakeBox",
-        "Habit Tracker SLOX",
-        "Tabreakr",
-        "PDF 리더 및 뷰어",
-        "문서 뷰어: PDF, Word",
-        "PDF 리더: 뷰어·편집기"
+        "Habit Tracker SLOX"
+      ]
+    },
+    {
+      "keyword": "스트리밍",
+      "category": "creator",
+      "count": 6,
+      "apps": [
+        "Plezy: Media Server Client",
+        "DramaVibe",
+        "Liltie - Daily One-Song Music Diary",
+        "VibeShort: AI Short Dramas",
+        "ScoreBox: Sports IPTV",
+        "DramaWave"
+      ]
+    },
+    {
+      "keyword": "AI활용",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "AI Organizer - Smart Organization",
+        "노그미 (Nogmi)",
+        "Loopit - Make Playables",
+        "CharaPu - Stories Are Up to You",
+        "Aha! Issues - 잠금화면 뉴스 요약",
+        "Dtecto"
       ]
     },
     {
@@ -612,19 +621,6 @@
       ]
     },
     {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 6,
-      "apps": [
-        "DramaVibe",
-        "Liltie - Daily One-Song Music Diary",
-        "VibeShort: AI Short Dramas",
-        "ScoreBox: Sports IPTV",
-        "DramaWave",
-        "실시간 TV - KBS, MBC, SBS, JTBC"
-      ]
-    },
-    {
       "keyword": "소셜",
       "category": "social",
       "count": 6,
@@ -635,27 +631,27 @@
       ]
     },
     {
+      "keyword": "엔터테인먼트",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "Mecha Chameleon",
+        "DramaVibe",
+        "KyaraPu",
+        "MiSing: Sing Anywhere, Anytime",
+        "CharaPu - Stories Are Up to You"
+      ]
+    },
+    {
       "keyword": "유틸리티",
       "category": "tag",
       "count": 5,
       "apps": [
+        "AI Organizer - Smart Organization",
         "Volume Control Sound Launcher",
         "Orbit Tab",
         "GPS 지도 음성 내비게이션",
-        "첫화면날씨",
-        "ChatPort: Text Message Export"
-      ]
-    },
-    {
-      "keyword": "AI활용",
-      "category": "tag",
-      "count": 5,
-      "apps": [
-        "노그미 (Nogmi)",
-        "Loopit - Make Playables",
-        "CharaPu - Stories Are Up to You",
-        "Aha! Issues - 잠금화면 뉴스 요약",
-        "Dtecto"
+        "첫화면날씨"
       ]
     },
     {
@@ -670,17 +666,6 @@
       ]
     },
     {
-      "keyword": "엔터테인먼트",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "DramaVibe",
-        "KyaraPu",
-        "MiSing: Sing Anywhere, Anytime",
-        "CharaPu - Stories Are Up to You"
-      ]
-    },
-    {
       "keyword": "영상",
       "category": "creator",
       "count": 4,
@@ -688,17 +673,6 @@
         "Nexus - AI Video Generator",
         "Dashcam Viewer for Tesla",
         "Loopit - Make Playables"
-      ]
-    },
-    {
-      "keyword": "B2B",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Cashmore",
-        "CatchTable",
-        "Tabreakr",
-        "ClipCode"
       ]
     },
     {
@@ -724,6 +698,26 @@
       ]
     },
     {
+      "keyword": "카메라앱",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Both: Dual Camera",
+        "Retro Phone Camera - Camera from the Past",
+        "EarthScope: GPS Map Camera"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 3,
+      "apps": [
+        "JigRipper",
+        "RIZZ - Anonymous School Voting",
+        "Athler, The Standard in Men's Fashion"
+      ]
+    },
+    {
       "keyword": "일본시장",
       "category": "tag",
       "count": 3,
@@ -731,16 +725,6 @@
         "Cat Work Hours: Work Recording App",
         "KyaraPu",
         "Generative AI Passport Exam Vocabulary Flashcards | FujiCert"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "Nexus - AI Video Generator",
-        "PDF 리더 및 뷰어",
-        "PDF 리더: 뷰어·편집기"
       ]
     },
     {
@@ -757,39 +741,39 @@
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 36,
-        "percent": 51,
+        "count": 40,
+        "percent": 57,
         "examples": [
-          "SpellSynth: Retro Vocal Synth",
-          "Cat Work Hours: Work Recording App",
-          "Shopot - AI Shopping Assistant"
+          "Both: Dual Camera",
+          "Mecha Chameleon",
+          "AI Organizer - Smart Organization"
         ]
       },
       "freemium": {
-        "count": 54,
-        "percent": 77,
+        "count": 53,
+        "percent": 76,
         "examples": [
-          "SpellSynth: Retro Vocal Synth",
-          "Exposr - Food Product Scanner",
-          "Cat Work Hours: Work Recording App"
+          "Both: Dual Camera",
+          "JigRipper",
+          "Plezy: Media Server Client"
         ]
       },
       "subscription": {
-        "count": 42,
-        "percent": 60,
+        "count": 45,
+        "percent": 64,
         "examples": [
-          "Exposr - Food Product Scanner",
-          "SpeakUp AI - Language Learning",
-          "AI Hairstyle Try On & Color"
+          "Both: Dual Camera",
+          "JigRipper",
+          "Plezy: Media Server Client"
         ]
       },
       "onetime": {
-        "count": 27,
-        "percent": 39,
+        "count": 26,
+        "percent": 37,
         "examples": [
-          "SpellSynth: Retro Vocal Synth",
-          "GR Snap - Ricoh GR Image Sync",
-          "Volume Control Sound Launcher"
+          "JigRipper",
+          "When Was It?",
+          "Plezy: Media Server Client"
         ]
       },
       "unknown": {
@@ -800,12 +784,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 54,
-      "percent": 77,
+      "count": 53,
+      "percent": 76,
       "examples": [
-        "SpellSynth: Retro Vocal Synth",
-        "Exposr - Food Product Scanner",
-        "Cat Work Hours: Work Recording App"
+        "Both: Dual Camera",
+        "JigRipper",
+        "Plezy: Media Server Client"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -814,66 +798,67 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 21,
-        "percent": 30,
+        "count": 23,
+        "percent": 33,
         "apps": [
+          "JigRipper",
+          "AI Organizer - Smart Organization",
           "Shopot - AI Shopping Assistant",
           "SpeakUp AI - Language Learning",
-          "AI Hairstyle Try On & Color",
-          "Nexus - AI Video Generator",
-          "KyaraPu"
+          "AI Hairstyle Try On & Color"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 17,
-        "percent": 24,
+        "count": 19,
+        "percent": 27,
         "apps": [
+          "AI Organizer - Smart Organization",
+          "Chips - Lowest Price Alerts and Affiliate Shopping Rewards",
           "SpeakUp AI - Language Learning",
           "Antizuck Smart Glasses Scanner",
-          "KyaraPu",
-          "Liltie - Daily One-Song Music Diary",
-          "AI Tutor: Language Learning"
+          "KyaraPu"
         ]
       },
       {
         "tech": "creator",
-        "count": 16,
-        "percent": 23,
+        "count": 15,
+        "percent": 21,
         "apps": [
+          "Plezy: Media Server Client",
+          "AI Organizer - Smart Organization",
           "DramaVibe",
           "Nexus - AI Video Generator",
-          "Peekie: Mystery Deduction Game",
-          "RIZZ - Anonymous School Voting",
-          "Generative AI Passport Exam Vocabulary Flashcards | FujiCert"
-        ]
-      },
-      {
-        "tech": "productivity",
-        "count": 4,
-        "percent": 6,
-        "apps": [
-          "Sync: Plan & Actual",
-          "TimeCue",
-          "Habit Tracker SLOX",
-          "Tabreakr"
+          "Peekie: Mystery Deduction Game"
         ]
       },
       {
         "tech": "social",
-        "count": 3,
-        "percent": 4,
+        "count": 4,
+        "percent": 6,
         "apps": [
+          "JigRipper",
           "RIZZ - Anonymous School Voting",
           "Finding Space",
           "Listen Card Music Share"
         ]
       },
       {
-        "tech": "subscription",
-        "count": 2,
-        "percent": 3,
+        "tech": "productivity",
+        "count": 3,
+        "percent": 4,
         "apps": [
+          "Sync: Plan & Actual",
+          "TimeCue",
+          "Habit Tracker SLOX"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 3,
+        "percent": 4,
+        "apps": [
+          "Plezy: Media Server Client",
           "Roaming도깨비 eSIM",
           "TimeCue"
         ]
@@ -885,43 +870,51 @@
         "apps": [
           "AutoSnore: Snoring Recorder"
         ]
+      },
+      {
+        "tech": "fintech",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "Neko Attendance: Work Records, Meow"
+        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 21,
-      "percent": 30,
+      "count": 23,
+      "percent": 33,
       "apps": [
+        "JigRipper",
+        "AI Organizer - Smart Organization",
         "Shopot - AI Shopping Assistant",
         "SpeakUp AI - Language Learning",
-        "AI Hairstyle Try On & Color",
-        "Nexus - AI Video Generator",
-        "KyaraPu"
+        "AI Hairstyle Try On & Color"
       ]
     },
     "emerging": [
       {
         "tech": "ar_vr",
-        "count": 17,
-        "percent": 24,
+        "count": 19,
+        "percent": 27,
         "apps": [
+          "AI Organizer - Smart Organization",
+          "Chips - Lowest Price Alerts and Affiliate Shopping Rewards",
           "SpeakUp AI - Language Learning",
           "Antizuck Smart Glasses Scanner",
-          "KyaraPu",
-          "Liltie - Daily One-Song Music Diary",
-          "AI Tutor: Language Learning"
+          "KyaraPu"
         ]
       },
       {
         "tech": "creator",
-        "count": 16,
-        "percent": 23,
+        "count": 15,
+        "percent": 21,
         "apps": [
+          "Plezy: Media Server Client",
+          "AI Organizer - Smart Organization",
           "DramaVibe",
           "Nexus - AI Video Generator",
-          "Peekie: Mystery Deduction Game",
-          "RIZZ - Anonymous School Voting",
-          "Generative AI Passport Exam Vocabulary Flashcards | FujiCert"
+          "Peekie: Mystery Deduction Game"
         ]
       }
     ]
@@ -936,10 +929,17 @@
     },
     {
       "type": "rising_category",
-      "title": "Photo & Video 카테고리 급부상",
+      "title": "Shopping 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Photo & Video"
+      "category": "Shopping"
+    },
+    {
+      "type": "rising_category",
+      "title": "Food and Dining 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Food and Dining"
     },
     {
       "type": "rising_category",
@@ -947,20 +947,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Health & Fitness"
-    },
-    {
-      "type": "rising_category",
-      "title": "Productivity 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Productivity"
-    },
-    {
-      "type": "rising_category",
-      "title": "Shopping 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Shopping"
     },
     {
       "type": "rising_category",
@@ -1048,6 +1034,13 @@
     },
     {
       "type": "rising_category",
+      "title": "스포츠 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "스포츠"
+    },
+    {
+      "type": "rising_category",
       "title": "지도/내비게이션 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1061,36 +1054,29 @@
       "category": "날씨"
     },
     {
-      "type": "rising_category",
-      "title": "스포츠 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "스포츠"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "30%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "33%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "이번 주는 Music, Photo & Video, Productivity 등 다수 카테고리에서 앱 수가 동시에 급증하며 전반적인 시장 활성화가 감지됩니다. AI(30%)와 AR/VR(24%) 기술 통합이 주류가 되는 가운데, freemium 모델(77%)이 수익화의 표준으로 자리잡고 있습니다. '1인개발가능' 키워드가 41회로 높게 집계되어 인디 개발자 친화적인 틈새시장에 대한 관심이 뚜렷합니다.",
+    "trend_summary": "이번 주는 Entertainment, Productivity, Photo & Video 등 주요 카테고리가 일제히 100% 급상승하며 앱 시장 전반이 활성화되었습니다. AI(33%)와 AR/VR(27%) 기술 탑재 앱이 빠르게 늘어나고 있으며, '1인개발가능' 키워드가 40회로 높은 관심을 받아 인디 개발자에게 유리한 환경이 형성되고 있습니다. Freemium(76%)과 구독(64%) 모델이 주류로 자리잡으며 수익화 전략의 방향도 뚜렷해졌습니다.",
     "trend_details": [
-      "AI 기능이 전체 앱의 30%에 탑재되며 기본 스펙화되는 중 — AI 미도입 카테고리에서의 선점이 역설적으로 차별화 포인트",
-      "freemium(77%) + subscription(60%) 조합이 수익 모델의 황금 공식으로 부상, 무료 진입 후 구독 전환 퍼널 설계가 필수",
-      "Photo & Video(4개), Productivity(4개), Shopping(3개) 카테고리가 동시에 100% 급등 — 크리에이터 도구와 생산성 앱 수요가 맞물려 폭발적 성장 중"
+      "AI 기능 탑재가 앱의 기본 스펙으로 자리잡는 중 — 33%의 앱이 이미 AI를 포함하며, 미적용 카테고리에서의 AI 도입이 빠른 차별화 수단이 됨",
+      "Freemium + 구독 조합이 지배적 수익 모델로 부상 — 무료 진입 장벽을 낮추면서 구독으로 전환하는 이중 구조가 76%/64%로 사실상 표준화",
+      "1인 개발 가능 앱에 대한 수요 급증 — 관련 키워드가 40회로 2위를 기록하며, 복잡한 팀 없이도 실현 가능한 틈새 솔루션에 대한 시장 기대가 높아짐"
     ],
     "hot_categories": [
-      "Photo & Video",
+      "Entertainment",
       "Productivity",
       "Music",
-      "Health & Fitness",
+      "Photo & Video",
       "Shopping"
     ],
-    "opportunity": "AI + 크리에이터 도구 조합(Photo & Video 또는 Music 카테고리)에서 freemium 모델로 출시 시, 경쟁 앱 수가 적은 지금이 가장 빠른 초기 트랙션 확보 시점입니다.",
-    "action_item": "Productivity 또는 Photo & Video 카테고리에서 AI 기능 1개를 핵심으로 한 MVP를 freemium 모델로 설계하고, '1인개발가능' 범위의 기능 세트로 2주 내 첫 빌드를 목표로 잡으세요.",
-    "weekly_theme": "AI 크리에이터 도구"
+    "opportunity": "Music과 Language Learning 등 앱 수가 적으면서 100% 급상승한 카테고리에 AI 기능을 결합하면, 경쟁 밀도가 낮은 상태에서 차별화된 진입이 가능합니다.",
+    "action_item": "Language Learning 또는 Music 카테고리에서 AI 피드백 기능(발음 교정, 멜로디 제안 등)을 탑재한 Freemium 앱을 기획하고, 최소 기능(MVP)을 2주 내 프로토타입으로 제작해보세요.",
+    "weekly_theme": "AI 틈새 진입"
   }
 }
