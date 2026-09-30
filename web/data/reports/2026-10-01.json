@@ -1,0 +1,679 @@
+{
+  "date": "2026-10-01",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "DoseWeek: Injection Management and GLP-1 Tracking",
+      "developer": "Wonyoung Choi",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/b5/39/53b539de-9478-4b49-c64f-987df1dd5a4a/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/doseweek-%EC%A3%BC%EC%82%AC-%EA%B4%80%EB%A6%AC-glp-1-%EA%B8%B0%EB%A1%9D/id6803027741",
+      "idea_summary": "GLP-1 주사 스케줄·투약 이력 전문 트래커",
+      "analysis": {
+        "problem": "오젬픽·위고비 등 GLP-1 계열 주사제 복용자가 투약 일정·용량·부작용을 체계적으로 관리할 도구가 없음 [추론]",
+        "solution": "주사 날짜·용량·부작용을 기록하고 다음 투약 리마인더와 진행 그래프를 제공 [추론]",
+        "target_user": "GLP-1 약물 처방을 받은 비만·당뇨 환자, 주로 30-60대 [추론]",
+        "unique_point": "범용 약물 트래커가 아닌 GLP-1 용량 단계·펜 잔량 등 특화 기능에 집중한 수직화 전략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Medisafe",
+          "MyTherapy",
+          "RxMindMe"
+        ],
+        "timing_reason": "오젬픽·위고비 전 세계 수요 급증으로 전용 관리 앱 니즈가 지금 막 형성되는 시점 [추론]",
+        "growth_potential": "GLP-1 시장이 2030년 1,000억 달러 규모 전망이므로 충성 사용자층 조기 확보 시 높은 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본 + 프리미엄 구독(상세 리포트·데이터 내보내기) [추론]",
+        "pricing_suggestion": "월 3,900~6,900원 구독, 투약 기간에 맞춰 장기 구독 유도 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~800만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "HealthKit",
+          "UserNotifications",
+          "CoreData"
+        ],
+        "key_features": [
+          "주사 기록 입력 UI",
+          "용량 단계 추적",
+          "리마인더 알림",
+          "진행 그래프"
+        ],
+        "clone_tip": "HealthKit 연동으로 체중·혈당 데이터와 연계하면 차별화 포인트 확보 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#니치마켓"
+      ],
+      "verdict": "GLP-1 붐 시기에 등장한 완벽한 타이밍의 의료 특화 트래커",
+      "deep_report_id": "ios-doseweek-injection-management-and-glp-1-tracking-1790781594253"
+    },
+    {
+      "rank": 2,
+      "name": "Daymirror – Plan vs. Reality 10-Minute Planner",
+      "developer": "HWIHO KIM",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/c5/42/8dc542fa-cd25-38fa-fcf1-36e48e8efa65/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/daymirror-%EA%B3%84%ED%9A%8D%EA%B3%BC-%EC%8B%A4%EC%A0%9C-10%EB%B6%84-%ED%94%8C%EB%9E%98%EB%84%88/id6811468895",
+      "idea_summary": "계획과 실제를 비교하는 10분 일일 플래너",
+      "analysis": {
+        "problem": "계획과 실제 행동의 괴리를 인식하지 못해 생산성이 떨어지고 자기계발 루틴이 유지되지 않는 문제 [추론]",
+        "solution": "하루 10분 내 계획 입력 후 실제 결과와 비교 분석해 자기인식을 높이는 구조 제공 [추론]",
+        "target_user": "자기 관리에 관심 있는 20-40대 직장인·학생 [추론]",
+        "unique_point": "단순 할일 관리가 아닌 계획 대비 실제 비교에 집중한 차별화된 플래닝 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "Todoist",
+          "Any.do",
+          "Routine – Habit Planner"
+        ],
+        "timing_reason": "자기계발·생산성 트렌드 지속 확대 및 AI 자기분석 수요 증가 시점 [추론]",
+        "growth_potential": "반성 기반 플래닝 니즈가 글로벌 공통 요구여서 국제 확장 가능성 보유 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 IAP [추론]",
+        "pricing_suggestion": "월 2,900~4,900원 구독 또는 일회성 구매 6,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "500~1500만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "CoreData",
+          "WidgetKit",
+          "Swift Charts"
+        ],
+        "key_features": [
+          "계획 입력 UI",
+          "실제 기록 비교 화면",
+          "주간 달성률 리포트",
+          "홈 위젯"
+        ],
+        "clone_tip": "Swift Charts 프레임워크로 계획-실제 비교 시각화를 빠르게 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#자기계발"
+      ],
+      "verdict": "계획-실제 갭 시각화로 기존 플래너와 차별화된 접근법"
+    },
+    {
+      "rank": 3,
+      "name": "AGAIN. Rehearsal Notes",
+      "developer": "Trevor Lawrence",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/27/0f/f8270fd0-23f4-d055-8b24-784e29173d3e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/again-rehearsal-notes/id6815274096",
+      "idea_summary": "연주자·단원 위한 리허설 노트 전문 관리 앱",
+      "analysis": {
+        "problem": "오케스트라·밴드·합창단 연주자들이 지휘자 지시사항과 리허설 메모를 분산 관리해 효율이 낮음 [추론]",
+        "solution": "악보 위치·마디 번호·파트별로 구조화된 리허설 노트를 작성하고 세션별로 기록 관리 [추론]",
+        "target_user": "클래식·재즈·밴드 등 앙상블 연주자 및 음악 전공 학생 [추론]",
+        "unique_point": "범용 노트앱이 아닌 음악 리허설에 특화된 마디·파트·지시어 분류 구조 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "GoodNotes",
+          "forScore",
+          "Evernote"
+        ],
+        "timing_reason": "음악 교육 디지털화 및 스마트 악보 앱 시장 확대 추세 [추론]",
+        "growth_potential": "음악 교육·앙상블 커뮤니티 대상 니치 시장으로 충성도 높은 사용자층 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 구매 또는 연간 구독 [추론]",
+        "pricing_suggestion": "일회성 구매 9,900~14,900원 또는 연간 구독 9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "400~1000만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "CoreData",
+          "PDFKit",
+          "CloudKit"
+        ],
+        "key_features": [
+          "곡별 노트 구조화",
+          "마디 번호 태깅",
+          "리허설 세션 기록",
+          "iCloud 동기화"
+        ],
+        "clone_tip": "PDFKit으로 악보 뷰어와 노트를 연동하면 앱 가치 대폭 향상, 아이패드 최적화 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#음악",
+        "#니치마켓"
+      ],
+      "verdict": "음악 연주자 전용 리허설 노트로 좁지만 충성도 높은 시장 공략"
+    },
+    {
+      "rank": 4,
+      "name": "Receipt Roll – Aesthetic Receipt Camera",
+      "developer": "studio hevv",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/0e/da/d50eda38-6662-ee43-9cc1-dfcdbf31c3eb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/receipt-roll-%EC%98%81%EC%88%98%EC%A6%9D-%EA%B0%90%EC%84%B1-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6793950109",
+      "idea_summary": "영수증을 감성 사진으로 남기는 레트로 카메라 앱",
+      "analysis": {
+        "problem": "일상의 소소한 소비와 경험을 기억하고 싶지만 영수증은 그냥 버려지는 현실 [추론]",
+        "solution": "영수증을 감성적인 필름 카메라 스타일로 촬영해 추억으로 보관하는 특화 카메라 제공 [추론]",
+        "target_user": "감성 사진·일상 기록에 관심 있는 10-20대 여성 SNS 사용자 [추론]",
+        "unique_point": "단순 영수증 스캔이 아닌 미적 경험 중심의 소비 기억화라는 독특한 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Huji Cam",
+          "1998 Cam",
+          "VSCO",
+          "Dazz Cam"
+        ],
+        "timing_reason": "레트로·필름 감성 카메라 트렌드 지속 및 일상 기록 문화 확산 [추론]",
+        "growth_potential": "인스타그램·틱톡 SNS 공유 콘텐츠로 바이럴 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본 + 프리미엄 필터·프레임 IAP 또는 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 팩 3,900~7,900원 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "200~600만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "AVFoundation",
+          "CoreImage",
+          "Metal"
+        ],
+        "key_features": [
+          "레트로 필터 카메라 UI",
+          "영수증 특화 프레임",
+          "갤러리 저장",
+          "SNS 공유"
+        ],
+        "clone_tip": "Metal 셰이더로 레트로 필름 효과 구현, 영수증 비율에 최적화된 자동 크롭 UI가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사진",
+        "#감성앱"
+      ],
+      "verdict": "영수증을 추억으로 만드는 독특한 포지셔닝의 감성 카메라 앱"
+    },
+    {
+      "rank": 5,
+      "name": "Alarrrm – Date-Specific Reminder Alarm",
+      "developer": "Hiroaki Abe",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/11/02/fc110265-fb3e-87c9-8a29-887e9d4cae43/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/alarrrm-%EB%82%A0%EC%A7%9C-%EC%A7%80%EC%A0%95-%EC%95%8C%EB%9E%8C-%EB%AF%B8%EB%9E%98-%EC%9D%BC%EC%A0%95%EC%9D%84-%EB%86%93%EC%B9%98%EC%A7%80-%EC%95%8A%EA%B2%8C/id6758154426",
+      "idea_summary": "미래 특정 날짜에 알람을 설정하는 날짜 지정 리마인더",
+      "analysis": {
+        "problem": "기본 알람앱은 매일 반복 또는 당일 설정만 가능해 몇 달 후 특정 날짜 알람 설정이 불편함 [추론]",
+        "solution": "달력에서 미래 날짜를 선택해 알람과 메모를 저장하는 단순하고 직관적인 앱 제공 [추론]",
+        "target_user": "갱신일·납기일·기념일 등 미래 일정 알림이 필요한 전 연령대 사용자 [추론]",
+        "unique_point": "캘린더와 알람의 결합이지만 극도로 단순화한 UI로 원터치 미래 알람 설정 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기본 시계앱 알람",
+          "Apple Reminders",
+          "Due – Reminders & Timers",
+          "Fantastical"
+        ],
+        "timing_reason": "디지털 일정 관리 수요 꾸준히 증가, 복잡한 기능 없는 단순 UX 선호 트렌드 [추론]",
+        "growth_potential": "전 연령대 사용 가능한 범용성으로 글로벌 확장 용이 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 구매 또는 광고 기반 무료 [추론]",
+        "pricing_suggestion": "일회성 구매 1,200~3,900원 또는 광고 제거 IAP 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~300만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "UserNotifications",
+          "EventKit"
+        ],
+        "key_features": [
+          "날짜 선택 캘린더 UI",
+          "알람 저장·편집",
+          "푸시 알림",
+          "홈화면 위젯"
+        ],
+        "clone_tip": "UNCalendarNotificationTrigger로 수백 개 미래 알람 등록 가능, iOS 알림 64개 제한 우회 로직 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#알람"
+      ],
+      "verdict": "단순하지만 기본 알람앱이 해결 못 하는 미래 날짜 알람 문제를 해결"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Moongchip – Phone Group Buying & Quote Comparison",
+      "developer": "뭉칩",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/vQPSGdocTksbBdQmGCVA05PlDBKwdeq2ukvO1mgG95kAGHZq-qMJRuturfF-w4nIKkI442_hL1qdibdtLi32",
+      "app_url": "https://play.google.com/store/apps/details?id=com.moongcheap.app",
+      "idea_summary": "스마트폰 구매 견적 비교·공동구매 플랫폼",
+      "analysis": {
+        "problem": "통신사·대리점마다 스마트폰 가격이 달라 최저가 구매 경로 파악이 어렵고 협상력이 없음 [추론]",
+        "solution": "여러 대리점 견적을 한 번에 비교하고 공동구매로 추가 할인을 제공하는 플랫폼 [추론]",
+        "target_user": "스마트폰 교체를 고려 중인 20-40대 한국 소비자 [추론]",
+        "unique_point": "단순 가격 비교를 넘어 공동구매 집단 협상력으로 추가 할인을 실현하는 차별화된 가치 제안 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "뽐뿌",
+          "세티즌",
+          "SK텔레콤 T공식앱",
+          "KT 공식앱"
+        ],
+        "timing_reason": "고가 스마트폰 시장에서 가성비 구매에 대한 한국 소비자 관심 지속 및 공동구매 플랫폼 성장 [추론]",
+        "growth_potential": "공동구매 모델을 태블릿·노트북 등 다른 전자기기 카테고리로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "대리점·통신사 리드 연결 수수료 또는 광고비 [추론]",
+        "pricing_suggestion": "소비자 무료, 대리점 리드 연결 건당 수수료 또는 월 구독형 광고 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1000~3000만원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "Firebase",
+          "REST API",
+          "Room DB"
+        ],
+        "key_features": [
+          "견적 요청 폼",
+          "대리점 매칭 알고리즘",
+          "가격 비교 UI",
+          "공동구매 모집 기능"
+        ],
+        "clone_tip": "핵심은 대리점 파트너십 네트워크 확보 — 기술보다 영업 역량이 더 중요한 비즈니스 모델 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#한국특화",
+        "#커머스",
+        "#공동구매"
+      ],
+      "verdict": "한국 통신 시장 특성을 파고든 스마트폰 공동구매·견적 비교 플랫폼",
+      "deep_report_id": "android-moongchip-phone-group-buying-quote-comparison-1790781713023"
+    },
+    {
+      "rank": 2,
+      "name": "Momo: AI Photo & Video Maker",
+      "developer": "ScaleUp",
+      "category": "Photo & Video",
+      "icon": "https://play-lh.googleusercontent.com/3RVSenhV9EDcbWlQEnK8gzKm0H1R8mO6CIEhnRjz1frPd8zs6MAEfmQWDrauqexvTe1Wciju-YBnZ5Afcxo95Q",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scaleup.dreame",
+      "idea_summary": "AI가 자동으로 사진·영상을 편집·생성하는 미디어 앱",
+      "analysis": {
+        "problem": "일반 사용자가 고품질 SNS 콘텐츠를 만들기 어렵고 편집에 많은 시간이 소요됨 [추론]",
+        "solution": "AI가 자동으로 최적 편집·템플릿 적용·효과 생성을 수행해 편집 지식 없이도 전문가급 결과물 제공 [추론]",
+        "target_user": "SNS 콘텐츠 제작에 관심 있는 10-30대 일반 사용자 [추론]",
+        "unique_point": "AI 자동화로 복잡한 편집 과정을 없애고 결과물 품질을 보장하는 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CapCut",
+          "Adobe Express",
+          "Canva",
+          "InShot"
+        ],
+        "timing_reason": "생성형 AI 대중화로 AI 편집 도구 수요 폭발적 증가 시점 [추론]",
+        "growth_potential": "글로벌 SNS 사용 증가와 AI 콘텐츠 생성 트렌드로 빠른 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 + 프리미엄 구독(고급 AI 기능·워터마크 제거) [추론]",
+        "pricing_suggestion": "월 9,900원 또는 연간 69,000원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "2000~8000만원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "TensorFlow Lite",
+          "OpenCV",
+          "Firebase",
+          "Stable Diffusion API"
+        ],
+        "key_features": [
+          "AI 자동 편집",
+          "템플릿 라이브러리",
+          "BGM 자동 매칭",
+          "SNS 내보내기"
+        ],
+        "clone_tip": "Google ML Kit으로 온디바이스 AI 처리 구현해 서버 비용 절감, 초기 개발 가속화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7
+      },
+      "tags": [
+        "#B2C",
+        "#AI",
+        "#사진편집",
+        "#콘텐츠제작"
+      ],
+      "verdict": "AI 편집 자동화로 콘텐츠 크리에이터 진입 장벽을 낮춘 미디어 생성 앱"
+    },
+    {
+      "rank": 3,
+      "name": "Pocket FM: Audio Dramas",
+      "developer": "PocketFM",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/WpXQtLSdj7RatTG5mQ8ssNoy7sfEZle2pqVCEd2Ab6EQ2Prnw0jGS8uFOpP48ocfXa2VoNfyOvR3I89xFL9F",
+      "app_url": "https://play.google.com/store/apps/details?id=com.radio.pocketfm",
+      "idea_summary": "웹소설 IP 기반 연속 오디오 드라마 구독 플랫폼",
+      "analysis": {
+        "problem": "이동 중·멀티태스킹 시 영상 시청이 어렵지만 오디오로 즐길 고품질 스토리 콘텐츠가 부족함 [추론]",
+        "solution": "웹소설 기반 연속 오디오 드라마를 에피소드 단위로 스트리밍하고 코인 또는 구독으로 수익화 [추론]",
+        "target_user": "통근·가사·운동 중 콘텐츠를 소비하는 20-50대 직장인 [추론]",
+        "unique_point": "팟캐스트가 아닌 웹소설 IP 기반 오디오 드라마로 강한 스토리 중독성 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Spotify",
+          "Audible",
+          "Storytel",
+          "Kukufm"
+        ],
+        "timing_reason": "오디오 콘텐츠 시장 성장 및 웹소설 IP의 오디오화 트렌드 가속 [추론]",
+        "growth_potential": "인도·동남아·중남미 등 신흥 시장에서 빠른 성장 잠재력 보유 [추론]"
+      },
+      "business": {
+        "monetization": "코인 기반 에피소드 구매 또는 월정액 구독 [추론]",
+        "pricing_suggestion": "에피소드당 코인 결제 100-500원 또는 월 구독 9,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "3000~1억원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "Stripe",
+          "AWS S3"
+        ],
+        "key_features": [
+          "오디오 스트리밍 플레이어",
+          "에피소드 목록·구독 UI",
+          "오프라인 다운로드",
+          "코인 결제 시스템"
+        ],
+        "clone_tip": "콘텐츠 IP 확보가 기술보다 핵심 — 기존 웹소설 작가와 계약 또는 자체 제작으로 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2C",
+        "#오디오",
+        "#콘텐츠",
+        "#구독"
+      ],
+      "verdict": "웹소설 IP를 오디오 드라마화한 강한 중독성의 오디오 구독 플랫폼"
+    },
+    {
+      "rank": 4,
+      "name": "Rip Rush: Card Collector Arena",
+      "developer": "Emerald Myth Studio Limited",
+      "category": "Games",
+      "icon": "https://play-lh.googleusercontent.com/Ri8alXmC1vmMiscaUryX8GxwuFnOWz_Mv9ruifCu_7FcCJ1du3oWR1muPE01zDSBmMJ3WhK5xXEyjO2kny7yXBQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.emeraldmyth.riprush.and",
+      "idea_summary": "콜렉터블 카드 개봉·배틀 아레나 결합 모바일 게임",
+      "analysis": {
+        "problem": "실물 TCG의 카드 수집 경험을 즐기고 싶지만 비용과 공간 제약으로 접근이 어려운 게이머의 니즈 [추론]",
+        "solution": "디지털 카드 수집과 PvP 배틀 아레나를 결합해 전략적이고 수집 욕구를 자극하는 경험 제공 [추론]",
+        "target_user": "TCG에 관심 있는 10-30대 모바일 게이머 [추론]",
+        "unique_point": "카드 개봉(Rip)의 흥분감과 배틀 아레나 전략성을 하나의 앱에 결합한 혼합 장르 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Hearthstone",
+          "Marvel Snap",
+          "Magic: The Gathering Arena",
+          "Legends of Runeterra"
+        ],
+        "timing_reason": "모바일 카드 게임 시장 지속 성장 및 가벼운 TCG 경험 수요 증가 [추론]",
+        "growth_potential": "e스포츠 연계 및 IP 라이선싱으로 확장 가능성 있음 [추론]"
+      },
+      "business": {
+        "monetization": "카드 팩 IAP, 배틀 패스, 시즌 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 월 배틀 패스 9,900원, 카드 팩 1,200~9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "8~18개월 [추론]",
+        "estimated_cost": "3000~1억원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "Unity",
+          "Firebase",
+          "PlayFab"
+        ],
+        "key_features": [
+          "카드 팩 개봉 애니메이션",
+          "덱 빌딩 시스템",
+          "PvP 배틀 매칭",
+          "랭킹 리더보드"
+        ],
+        "clone_tip": "카드 개봉 애니메이션 품질이 핵심 리텐션 요소 — Unity 기반 파티클 효과 투자 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#B2C",
+        "#게임",
+        "#TCG",
+        "#수집"
+      ],
+      "verdict": "카드 개봉의 짜릿함과 배틀 전략성을 모바일로 재현한 수집형 TCG"
+    },
+    {
+      "rank": 5,
+      "name": "Rips by Triumph",
+      "developer": "Triumph Labs Inc.",
+      "category": "Sports",
+      "icon": "https://play-lh.googleusercontent.com/-2Y50Q1M8UMEBKHENK9RQJgL_XspRv3_aRmQZzkY_DZ0FX9wtoEvtYtXZavrzHXodJkxUeKHvOTrT-0iigJM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.triumpharcade.tcg",
+      "idea_summary": "스포츠 팬 대상 실물 카드 개봉 체험·수집 앱",
+      "analysis": {
+        "problem": "스포츠 카드 수집 팬들이 실물 팩 개봉의 흥분감을 온라인에서 경험하고 공유하기 어려움 [추론]",
+        "solution": "디지털 카드 팩 개봉 경험과 선수 카드 수집·트레이딩을 모바일에서 제공 [추측]",
+        "target_user": "MLB·NBA·NFL 등 스포츠 카드 수집에 관심 있는 10-30대 팬 [추측]",
+        "unique_point": "스포츠 팬덤과 TCG 메커니즘을 결합해 수집 욕구와 팬 정체성을 동시에 충족 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Topps BUNT",
+          "Panini Dunk",
+          "Sorare",
+          "NFL SuperDraft"
+        ],
+        "timing_reason": "스포츠 NFT 버블 이후 실물 카드 디지털 경험으로 수요 이동하는 시점 [추측]",
+        "growth_potential": "글로벌 스포츠 카드 시장 성장세 지속으로 디지털 확장 여지 있음 [추론]"
+      },
+      "business": {
+        "monetization": "카드 팩 IAP 또는 구독, 카드 트레이딩 수수료 [추론]",
+        "pricing_suggestion": "팩 단위 IAP 1,200~9,900원, 월 구독 9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "2000~6000만원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "Unity",
+          "Firebase",
+          "Stripe"
+        ],
+        "key_features": [
+          "카드 팩 개봉 애니메이션",
+          "컬렉션 관리 UI",
+          "선수 카드 정보",
+          "트레이딩 시스템"
+        ],
+        "clone_tip": "선수 공식 라이선스 없이 시작하려면 자체 IP 캐릭터로 시작 후 IP 확보 단계적 진행 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#B2C",
+        "#스포츠",
+        "#수집",
+        "#게이미피케이션"
+      ],
+      "verdict": "스포츠 팬덤과 카드 수집 재미를 모바일로 연결한 게이미피케이션 앱"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘의 핵심 트렌드는 의료·건강 버티컬 특화와 감성 기록 문화의 확산이다. 범용 앱이 아닌 특정 약물·특정 상황에 수직 특화된 앱들이 타이밍과 차별성 모두에서 높은 평가를 받는 흐름이 뚜렷하다.",
+    "trend_details": [
+      "GLP-1·의료 특화 앱 부상 — 오젬픽·위고비 수요 급증으로 처방약 전용 트래커 앱 니즈가 형성되는 중, 의료 버티컬 앱 기회 확대 [추론]",
+      "감성 소비 기록 — 영수증·일상 소비를 미적으로 보관하는 앱들이 Z세대 중심으로 확산, 기능보다 경험을 파는 앱 전략 유효 [추론]",
+      "계획-실제 비교 플래닝 — 단순 할일 관리를 넘어 자기 인식·성장 트래킹으로 진화하는 생산성 앱 카테고리 확장 [추론]",
+      "한국 특화 커머스 심화 — 공동구매·견적 비교 등 한국 소비 문화와 통신 시장 구조에 최적화된 버티컬 커머스 앱 성장세 [추론]",
+      "오디오 드라마 구독 — 웹소설 IP 기반 오디오 드라마가 새로운 구독 수익 모델로 자리잡으며 팟캐스트와 차별화 [추론]"
+    ],
+    "hot_categories": [
+      "헬스케어·의료 특화",
+      "감성 사진·일상 기록",
+      "생산성·자기계발",
+      "오디오 콘텐츠",
+      "한국 특화 커머스"
+    ],
+    "opportunity": "GLP-1 계열 약물 외에도 인슐린·항암제·면역억제제 등 투약 복잡도가 높은 처방약 특화 트래커 앱 기회가 열려 있음 — 약물 카테고리별로 세분화할수록 충성도 높은 사용자층 조기 확보 가능 [추론]",
+    "action_item": "본인 또는 주변의 만성질환·처방약 관리 불편 사례를 수집해 특화 트래커 아이디어를 검증하고, 먼저 하나의 약물 카테고리에 집중한 뒤 확장하는 수직화 전략으로 시작할 것 [추론]"
+  },
+  "data_status": {}
+}
