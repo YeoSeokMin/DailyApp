@@ -135,6 +135,10 @@ async function analyzeWithAPI(prompt) {
  * - 대용량 stdin 버그 우회: 프롬프트를 파일 저장 후 Claude에게 파일 읽기 지시
  * - ref: https://github.com/anthropics/claude-code/issues/7263
  */
+// ★2026-09-29 분석이 15분을 넘겨 그날 리포트가 통째로 빠졌다(평소 7~10분, 출력 ~3만 토큰).
+//   제한을 25분으로 늘리고, 시간 초과·CLI 오류는 아래 루프에서 1회 재시도한다.
+const ANALYZE_TIMEOUT_MIN = Number(process.env.ANALYZE_TIMEOUT_MIN || 25);
+
 async function analyzeWithCLI(prompt) {
   console.log('  ⏳ Claude CLI 응답 대기 중...');
   const byteSize = Buffer.byteLength(prompt, 'utf-8');
@@ -164,8 +168,8 @@ async function analyzeWithCLI(prompt) {
       if (settled) return;
       settled = true;
       claude.kill();
-      reject(new Error('타임아웃: 15분 초과'));
-    }, 15 * 60 * 1000);
+      reject(new Error(`타임아웃: ${ANALYZE_TIMEOUT_MIN}분 초과`));
+    }, ANALYZE_TIMEOUT_MIN * 60 * 1000);
 
     const safeResolve = (value) => {
       if (settled) return;
@@ -483,9 +487,20 @@ async function main() {
       attempts++;
       console.log(`   시도 ${attempts}/${maxAttempts}`);
 
-      const result = ANTHROPIC_API_KEY
-        ? await analyzeWithAPI(fullPrompt)
-        : await analyzeWithCLI(fullPrompt);
+      let result;
+      try {
+        result = ANTHROPIC_API_KEY
+          ? await analyzeWithAPI(fullPrompt)
+          : await analyzeWithCLI(fullPrompt);
+      } catch (callError) {
+        // 시간 초과·CLI 비정상 종료도 빈 응답과 같이 재시도 기회를 준다
+        console.error(`  ❌ 분석 호출 실패: ${callError.message}`);
+        if (attempts < maxAttempts) {
+          console.log('  🔄 호출 실패로 재시도...');
+          continue;
+        }
+        throw callError;
+      }
 
       const trimmedResult = (result || '').trim();
       if (!trimmedResult) {
