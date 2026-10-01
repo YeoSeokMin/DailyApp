@@ -1,0 +1,686 @@
+{
+  "date": "2026-10-02",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Embroidery Grove Companion",
+      "developer": "Cassie Edgar",
+      "category": "Graphics & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/b5/03/efb50376-fd9f-7125-4ba7-7ba803e8ba06/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/embroidery-grove-companion/id6799726353",
+      "idea_summary": "자수 프로젝트 전용 계획·재료·진행도 관리 앱",
+      "analysis": {
+        "problem": "자수 취미인들은 실 색상 코드, 도안, 진행도를 종이나 범용 메모 앱으로 관리해야 해 비효율이 큼 [추론]",
+        "solution": "프로젝트별 재료 목록, 진행 상태, 패턴 첨부를 통합 관리하는 자수 전용 컴패니언 앱 제공 [확인]",
+        "target_user": "크로스스티치·자수 취미를 즐기는 20~50대 여성, 온라인 자수 커뮤니티 활성 참여자 [추론]",
+        "unique_point": "자수 공예에만 특화된 프로젝트 관리 기능으로 일반 노트 앱 대비 압도적 편의성 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Stitchboard",
+          "Thread Art",
+          "Needlework Journal"
+        ],
+        "timing_reason": "코로나 이후 손공예 붐이 정착되며 자수 인구가 꾸준히 증가하는 시점 [추론]",
+        "growth_potential": "동일 포맷으로 뜨개질·퀼팅 등 인접 공예 앱으로 확장 시 포트폴리오 수익 분산 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 프리미엄 기능 잠금 방식으로 추정 [추측]",
+        "pricing_suggestion": "기본 무료(3개 프로젝트 제한) + 무제한 프리미엄 구독 $2.99/월 또는 일회 구매 $5.99 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "200~500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreData",
+          "CloudKit"
+        ],
+        "key_features": [
+          "프로젝트 생성·관리",
+          "실 색상 코드 트래킹",
+          "진행률 기록",
+          "패턴 이미지 첨부",
+          "재료 쇼핑 목록"
+        ],
+        "clone_tip": "동일 템플릿으로 뜨개질·퀼팅·도예 등 공예 장르별 전용 앱 반복 출시 가능, 포트폴리오 전략 유효 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓",
+        "#공예취미"
+      ],
+      "verdict": "자수 전용 앱, 충성 유저 확보 용이한 니치 아이템이나 시장 규모 제한적",
+      "deep_report_id": "ios-embroidery-grove-companion-1790867726842"
+    },
+    {
+      "rank": 2,
+      "name": "M8 Music Tracker",
+      "developer": "Dirtywave",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/dd/57/27dd5702-bb3d-d2d4-2cb5-b05c44d35a8f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/m8-music-tracker/id6806721202",
+      "idea_summary": "Dirtywave M8 하드웨어 트래커 전용 공식 모바일 컴패니언",
+      "analysis": {
+        "problem": "M8 하드웨어 뮤직 트래커 사용자들이 프로젝트 파일·샘플을 모바일에서 관리하거나 백업할 수단이 없었음 [추론]",
+        "solution": "M8 기기와 직접 연동해 프로젝트 파일 관리, 샘플 정리, 설정 백업을 모바일에서 처리 [확인]",
+        "target_user": "Dirtywave M8 하드웨어 트래커를 보유한 전문 및 취미 전자음악 프로듀서 [확인]",
+        "unique_point": "특정 하드웨어 기기 전용 공식 앱으로 사실상 경쟁자 없는 독점 포지션 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "M8WebDisplay(비공식)",
+          "Files 일반 파일관리 앱"
+        ],
+        "timing_reason": "M8 기기 판매 지속 증가와 트래커 음악 글로벌 커뮤니티 성장 [추론]",
+        "growth_potential": "하드웨어 판매량 연동 고착 사용자 기반, 신규 M8 모델 출시마다 업데이트 수요 발생 [추론]"
+      },
+      "business": {
+        "monetization": "하드웨어 생태계 강화 목적 무료 공식 앱으로 운영 추정 [추측]",
+        "pricing_suggestion": "기본 무료 + 클라우드 백업·협업 기능 프리미엄 구독 $2.99/월 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "700~1500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Bluetooth",
+          "USB 통신",
+          "파일시스템 API"
+        ],
+        "key_features": [
+          "M8 기기 유선/무선 연결",
+          "프로젝트 파일 전송·관리",
+          "샘플 라이브러리 정리",
+          "설정 백업·복원",
+          "펌웨어 업데이트"
+        ],
+        "clone_tip": "하드웨어 기기 제조사 협력 후 공식 컴패니언 앱 개발 계약 모델 적용 가능; 특정 신디사이저·MIDI 컨트롤러 제조사 접촉 추천 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 7
+      },
+      "tags": [
+        "#하드웨어연동",
+        "#B2C",
+        "#음악제작",
+        "#독점포지션"
+      ],
+      "verdict": "하드웨어 전용 공식 앱, 완전 블루오션이나 시장 크기 자체가 소규모"
+    },
+    {
+      "rank": 3,
+      "name": "TerraGrid: MGRS Military GPS Navigation",
+      "developer": "Enes Furkan Bayram",
+      "category": "Navigation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/94/c2/8294c205-75ae-02f3-128d-c13bc0524ca4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/terragrid-mgrs%E8%BB%8D%E7%94%A8gps%E3%83%8A%E3%83%93/id6807886879",
+      "idea_summary": "군용 MGRS 좌표계 전문 GPS 내비게이션 앱",
+      "analysis": {
+        "problem": "군인·탐험가·사냥꾼 등 전문 야외 활동자들이 표준 위도/경도 대신 MGRS 군용 좌표계를 지원하는 내비게이션을 찾지 못함 [추론]",
+        "solution": "MGRS 좌표계를 전면 지원하는 GPS 내비게이션으로 군사·야외활동 전문가 특화 포지셔닝 [확인]",
+        "target_user": "군 관계자, 에어소프트·밀심 동호인, 등산·트레킹·사냥 전문 야외활동 마니아 [추론]",
+        "unique_point": "대다수 내비게이션 앱이 MGRS를 지원하지 않아 전문 사용자에게 사실상 필수 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "OsmAnd",
+          "Gaia GPS",
+          "onX Hunt",
+          "CalTopo"
+        ],
+        "timing_reason": "밀리터리 스타일 취미(에어소프트, 서바이벌 게임) 인구 증가와 야외활동 전문화 트렌드 [추론]",
+        "growth_potential": "글로벌 군사·야외활동 마니아 대상 영어권 확장 및 오프라인 지도팩 판매로 수익 다변화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 기본 무료+프리미엄 지도팩 인앱구매 방식 [추측]",
+        "pricing_suggestion": "전문가 타겟 일회 구매 $4.99~9.99 또는 기본 무료+지역별 오프라인 지도팩 $2.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "400~900 [추론]",
+        "tech_stack": [
+          "Swift",
+          "MapKit",
+          "CoreLocation",
+          "MGRS 좌표변환 라이브러리",
+          "오프라인 지도 타일"
+        ],
+        "key_features": [
+          "MGRS 좌표 실시간 표시·입력",
+          "오프라인 지형도",
+          "웨이포인트 저장·공유",
+          "경로 트래킹",
+          "고도·나침반 통합"
+        ],
+        "clone_tip": "MGRS 외 UTM·군사 그리드 등 다양한 전문 좌표계 추가 지원으로 전문가 시장 점유율 확대 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#야외활동",
+        "#군사·밀심"
+      ],
+      "verdict": "군용 좌표 특화 내비게이션, 전문 수요 명확하고 1인 개발로 충분히 구현 가능"
+    },
+    {
+      "rank": 4,
+      "name": "Telemarketing Manager Practical Exam",
+      "developer": "SUIN CHOI",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/af/b9/4aafb9c2-5b3a-89a4-7e2e-4d01b1b8337e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%85%94%EB%A0%88%EB%A7%88%EC%BC%80%ED%8C%85%EA%B4%80%EB%A6%AC%EC%82%AC-%EC%8B%A4%EA%B8%B0-%EA%B8%B0%EC%B6%9C-%EA%B3%B5%EB%B6%80/id6793096822",
+      "idea_summary": "텔레마케팅관리사 실기 기출문제 전용 모바일 학습 앱",
+      "analysis": {
+        "problem": "텔레마케팅관리사 실기 시험 준비용 전용 모바일 학습 도구가 없어 수험생들이 책이나 범용 앱에 의존 [추론]",
+        "solution": "텔레마케팅관리사 실기 기출문제를 모바일로 풀이하고 오답을 자동 관리하는 전용 앱 제공 [확인]",
+        "target_user": "텔레마케팅관리사 자격증 취득을 준비하는 한국 직장인·취업준비생 [추론]",
+        "unique_point": "단일 자격증 초특화 앱으로 해당 시험 응시자에게 최적화된 학습 도구 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "에듀윌 자격증 앱",
+          "큐넷 공식 앱",
+          "자격증 마스터"
+        ],
+        "timing_reason": "한국의 지속적인 자격증 취득 열풍과 모바일 스터디 선호도 증가 [추론]",
+        "growth_potential": "동일 포맷으로 타 자격증 앱 연속 출시 시 포트폴리오 기반 패시브 수익 구조 형성 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 기본 무료+기출 문제집 팩 인앱 구매 방식 [추측]",
+        "pricing_suggestion": "기본 무료(일부 기출 제공) + 전체 기출 풀세트 인앱 구매 2,900~4,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6주 [추론]",
+        "estimated_cost": "50~200 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreData"
+        ],
+        "key_features": [
+          "기출문제 풀이 모드",
+          "오답 노트 자동 생성",
+          "학습 진도 대시보드",
+          "타이머 시험 모드",
+          "해설 제공"
+        ],
+        "clone_tip": "앱 하나의 템플릿으로 10개 이상 자격증 앱 양산 가능; 기출 데이터 수집 후 반복 출시 전략이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 4,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#자격증",
+        "#한국시장",
+        "#포트폴리오전략"
+      ],
+      "verdict": "단순하지만 명확한 수요, 포트폴리오 확장 전략과 결합 시 안정적 패시브 수익원"
+    },
+    {
+      "rank": 5,
+      "name": "Compliance Camera",
+      "developer": "ILLUMINATION",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/d4/8c/44d48c1a-ecba-0be4-0ce8-3d2b8388f49b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E3%82%B3%E3%83%B3%E3%83%97%E3%83%A9%E3%82%AB%E3%83%A1%E3%83%A9/id6808181221",
+      "idea_summary": "현장 규정 준수 증거 사진 촬영·보관 전문 B2B 카메라 앱",
+      "analysis": {
+        "problem": "건설·제조 현장에서 안전·품질 컴플라이언스 증거 사진을 위변조 없이 체계적으로 보관하는 전용 도구 부재 [추론]",
+        "solution": "타임스탬프·GPS 위치·메타데이터가 자동 삽입된 컴플라이언스 인증 사진 촬영 및 분류·관리 기능 제공 [추론]",
+        "target_user": "건설·제조·물류 현장의 안전관리자, 품질검사관, 일본 기업 컴플라이언스 담당자 [추론]",
+        "unique_point": "법적 증거력을 갖춘 메타데이터 포함 사진 촬영에 특화된 B2B 포지셔닝으로 일반 카메라 앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "SafetyCulture iAuditor",
+          "Fieldwire",
+          "Fulcrum"
+        ],
+        "timing_reason": "일본 기업 DX 가속화와 현장 문서화 디지털화 의무화 수요 급증 [추론]",
+        "growth_potential": "B2B SaaS 구독 전환 시 기업 고객 대상 높은 LTV 달성 가능 [추론]"
+      },
+      "business": {
+        "monetization": "기업 구독 SaaS 또는 유료 앱 판매 방식 [추측]",
+        "pricing_suggestion": "개인 무료 + 팀·기업 구독 $9.99~29.99/월, 일본 기업 특성상 연간 계약 영업 유효 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~800 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "CoreLocation",
+          "Firebase Storage",
+          "PDF 보고서 생성"
+        ],
+        "key_features": [
+          "위변조 방지 타임스탬프 삽입",
+          "GPS 자동 태깅",
+          "사진 카테고리 분류",
+          "현장 보고서 PDF 생성",
+          "클라우드 팀 공유"
+        ],
+        "clone_tip": "건설 현장 안전점검·부동산 감정·보험 손해사정 등 특정 업종 버티컬로 특화하면 B2B 영업 효율 극대화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#B2B",
+        "#기업솔루션",
+        "#현장관리",
+        "#일본DX"
+      ],
+      "verdict": "현장 컴플라이언스 사진 특화 B2B 앱, 기업 구독 전환 시 수익성 높음"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Fraud Countermeasures by NTT TownPage",
+      "developer": "NTTタウンページ株式会社",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/v1jiBmkcc7KP46w6-oo44-Ct1NVmDDrQA0X63q04lHba39VUUl5F30o8zbAov5wUtEwe8j0J4TkaCAYS2dhO2aQ",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.co.ntt_tp.sagitaisaku",
+      "idea_summary": "일본 전화 사기 번호 실시간 식별·차단 보안 앱",
+      "analysis": {
+        "problem": "일본에서 오레오레 사기·보이스피싱 피해가 연간 수백억 엔 규모로 특히 노인층 피해 심각 [확인]",
+        "solution": "NTT 타운페이지의 방대한 전화번호 DB를 기반으로 수상한 발신 번호를 실시간 식별하고 경고 제공 [추론]",
+        "target_user": "전화 사기에 취약한 일본 중장년·노년층 및 부모를 걱정하는 자녀 세대 [추론]",
+        "unique_point": "NTT 타운페이지의 공신력 있는 전화번호 DB 활용으로 글로벌 앱 대비 일본 내 정확도 우위 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Whoscall",
+          "Truecaller",
+          "Hiya"
+        ],
+        "timing_reason": "일본 정부의 전화 사기 근절 캠페인 강화와 노령화 사회 진입으로 수요 급증 [추론]",
+        "growth_potential": "일본 노인층 스마트폰 보급 확대와 정부 지원 연계로 성장 지속 가능 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료(공공 서비스 성격) + 프리미엄 상세 조회 구독 또는 통신사 번들 [추측]",
+        "pricing_suggestion": "기본 무료 + 월 $1.99~2.99 상세 번호 조회 구독 또는 통신사 제휴 번들 패키지 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "800~2000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Telephony API",
+          "전화번호 DB REST API",
+          "머신러닝 패턴 분류",
+          "Firebase"
+        ],
+        "key_features": [
+          "발신번호 실시간 식별",
+          "사기 의심 번호 경고 팝업",
+          "사용자 신고 기능",
+          "차단 목록 관리",
+          "DB 자동 업데이트"
+        ],
+        "clone_tip": "한국의 경우 금융감독원 공개 사기번호 데이터 + 사용자 집단 신고 데이터 결합 모델로 동일 콘셉트 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#공공안전",
+        "#일본시장",
+        "#노인보호"
+      ],
+      "verdict": "일본 전화사기 방지 특화 앱, 사회적 필요성 높고 공신력 있는 DB가 핵심 자산",
+      "deep_report_id": "android-fraud-countermeasures-by-ntt-townpage-1790867817853"
+    },
+    {
+      "rank": 2,
+      "name": "M3 DigiKar Smart Medical Card",
+      "developer": "M3 DigiKar, Inc.",
+      "category": "Medical",
+      "icon": "https://play-lh.googleusercontent.com/z-urjLH0PvHGvMZyTSQAJhVNQGDa27siK4r6q_EcnUH03zA3nJ_PCBGptNmgGglR_vggT9JUuZ5cqRiXjQNDVg",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.digikar.smart.app",
+      "idea_summary": "디지털 진찰권·예약·QR 체크인 통합 스마트 의료 앱(일본)",
+      "analysis": {
+        "problem": "일본 병원 방문 시 종이 진찰권 관리, 수기 예약, 대기 등 아날로그 프로세스로 환자와 병원 모두 비효율 [추론]",
+        "solution": "디지털 진찰권으로 종이 카드 대체, QR 기반 병원 체크인 및 진료 예약을 모바일에서 통합 처리 [확인]",
+        "target_user": "정기적으로 병원을 방문하는 일본 환자, 특히 복수 클리닉을 다니는 만성질환자 및 고령자 [추론]",
+        "unique_point": "M3의 의료 플랫폼 인프라(일본 최대 의사 커뮤니티)를 활용한 진찰권 디지털화 표준 선점 시도 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "LINE Healthcare",
+          "CLINICS",
+          "アイチケット広場"
+        ],
+        "timing_reason": "일본 정부의 의료 DX 추진 정책과 마이넘버 카드 의료 연동 의무화 가속화 [추론]",
+        "growth_potential": "참여 의료기관 확산 시 네트워크 효과로 플랫폼 지배력 강화, 의약품·보험 등 인접 서비스 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "환자 앱 무료 + 의원·병원 대상 B2B SaaS 구독 월정액(B2B2C 구조) [추론]",
+        "pricing_suggestion": "환자 앱 완전 무료 + 의료기관 월 구독료 ¥5,000~20,000 청구하는 B2B2C 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "1500~4000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "QR 코드 생성",
+          "의료데이터 보안 암호화"
+        ],
+        "key_features": [
+          "디지털 진찰권 발급·보관",
+          "진료 예약 관리",
+          "병원 QR 체크인",
+          "복수 병원 통합 관리",
+          "진료 이력 기록"
+        ],
+        "clone_tip": "한국의 경우 건강보험심사평가원 API 연동 디지털 진찰권 앱 개발 가능; 개인정보보호법·의료법 사전 검토 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2B2C",
+        "#헬스테크",
+        "#일본시장",
+        "#의료DX"
+      ],
+      "verdict": "일본 의료 DX 정책 직접 수혜 앱, B2B2C 모델로 높은 수익성과 확장성 기대"
+    },
+    {
+      "rank": 3,
+      "name": "Apartment i - Essential Apartment Living",
+      "developer": "(주)아파트아이",
+      "category": "Lifestyle",
+      "icon": "https://play-lh.googleusercontent.com/a3euALjh_jXUuwWPsMmZhV8aWPwC5S19WSPV26Btu6uyXontxqpIVH6dYCcgjZgKg8973BIv81LDs0uABAeecQ",
+      "app_url": "https://play.google.com/store/apps/details?id=aptip.app",
+      "idea_summary": "아파트 관리비·공지·커뮤니티 통합 입주민 전용 플랫폼",
+      "analysis": {
+        "problem": "아파트 입주민들이 관리비 확인, 공지 수신, 하자보수 접수를 분산된 채널로 처리하는 불편함 [추론]",
+        "solution": "관리비 납부, 공지사항, 커뮤니티 소통, 하자보수 접수를 하나의 앱으로 통합 처리 [확인]",
+        "target_user": "한국 아파트 단지 입주민, 관리 업무를 디지털로 처리하고 싶은 30~50대 세대주 [추론]",
+        "unique_point": "입주민과 관리사무소 간 양방향 소통 채널을 단일 앱으로 통합한 올인원 주거 관리 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "아파트너",
+          "호갱노노 단지관리",
+          "카카오 아파트"
+        ],
+        "timing_reason": "한국 아파트 스마트 단지 전환 가속화와 관리 디지털화 수요 증가 [추론]",
+        "growth_potential": "전국 단지 확산 시 네트워크 효과, 이사·인테리어 광고 등 인접 서비스 수익 연계 가능 [추론]"
+      },
+      "business": {
+        "monetization": "입주민 앱 무료 + 아파트 관리사무소·건설사 대상 B2B 구독 월정액 [추론]",
+        "pricing_suggestion": "입주민 완전 무료 + 관리사무소 단지별 월 구독료 30~100만원 B2B 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "600~1500 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "토스페이먼츠 결제 API",
+          "FCM 푸시 알림"
+        ],
+        "key_features": [
+          "관리비 조회·납부",
+          "공지사항 수신",
+          "하자보수 민원 접수",
+          "커뮤니티 게시판",
+          "방문차량 등록"
+        ],
+        "clone_tip": "오피스텔·주상복합 등 유사 주거 형태 확장 가능; 빌라·다세대 주택 특화 버전은 경쟁 약한 블루오션 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#B2B2C",
+        "#프롭테크",
+        "#한국시장",
+        "#아파트"
+      ],
+      "verdict": "한국 아파트 입주민 특화 플랫폼, 경쟁 강하지만 틈새 주거 유형으로 진입 가능"
+    },
+    {
+      "rank": 4,
+      "name": "Hanako Grandma Stickers",
+      "developer": "Tank Game Inc.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/Ewlt0MJ148hcmhkj3oUdFTMLotph0n6AbIr_9MGHWLcm1ckS_okhiPm_lQp9qxsxSMlwLhvvbsxMV-OKvx9Xfxk",
+      "app_url": "https://play.google.com/store/apps/details?id=com.getsticker.wasticker.wastickerapp.stickerpack.blondgirl",
+      "idea_summary": "유머러스한 일본 할머니 캐릭터 메신저 스티커 팩 앱",
+      "analysis": {
+        "problem": "일본 메시지 앱 사용자들이 문화적으로 공감 가능한 개성 있는 로컬 캐릭터 스티커를 찾기 어려움 [추론]",
+        "solution": "유머러스한 할머니 캐릭터 하나코를 전면에 내세운 WhatsApp·LINE 호환 스티커 팩 제공 [확인]",
+        "target_user": "일본 메신저 앱 사용자, 특히 독특하고 웃긴 스티커를 즐기는 10~40대 [추론]",
+        "unique_point": "할머니 캐릭터라는 독특한 페르소나로 기존 귀여운 캐릭터 일색인 스티커 시장에서 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "LINE 공식 스티커 스토어",
+          "Sticker.ly",
+          "WASticker 앱들"
+        ],
+        "timing_reason": "메신저 스티커 시장은 포화 상태지만 독특한 캐릭터 콘셉트는 바이럴 가능성 항상 존재 [추론]",
+        "growth_potential": "하나코 캐릭터 확장(이모지, 굿즈, 2탄 스티커팩) 및 해외 유사 캐릭터 콘셉트 앱으로 복제 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본팩 + 프리미엄 스티커팩 인앱 구매 또는 광고 삽입 [추측]",
+        "pricing_suggestion": "기본 무료(일부 스티커) + 프리미엄 팩 $0.99~1.99 인앱 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4주 [추론]",
+        "estimated_cost": "50~150 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "WhatsApp Sticker API",
+          "이미지 에셋 관리"
+        ],
+        "key_features": [
+          "WhatsApp 스티커팩 추가",
+          "캐릭터별 감정 표현 스티커",
+          "애니메이션 스티커(선택)",
+          "무료·유료 팩 구분"
+        ],
+        "clone_tip": "개성 있는 캐릭터 콘셉트(아저씨, 고양이 집사 등)를 잡고 WhatsApp 스티커 앱으로 빠르게 출시; 일러스트레이터와 협업하면 3주 내 MVP 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#일본시장",
+        "#캐릭터",
+        "#초간단MVP"
+      ],
+      "verdict": "독특한 할머니 캐릭터 스티커 앱, 개발 난이도 최저 단기 MVP 연습용으로 최적"
+    },
+    {
+      "rank": 5,
+      "name": "FreeReels - Popular Short Korean-Japanese Dramas",
+      "developer": "SKYWORK AI PTE.LTD.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/1ybMEp7xw4kTY-K7ocih3vcbTEyCEqaxerVB6tDT8WcE3k5zCRR-jhKwS6Ct0UXIorczCIat3wTV0QLiuoLPdbY",
+      "app_url": "https://play.google.com/store/apps/details?id=com.freereels.app",
+      "idea_summary": "반전·로맨스 중심 한국·일본 숏폼 드라마 스트리밍 앱",
+      "analysis": {
+        "problem": "틱톡·유튜브 숏폼에 익숙한 시청자들이 긴 드라마 대신 5~10분 분량의 스낵형 드라마 콘텐츠를 원함 [추론]",
+        "solution": "한국·일본 드라마 특유의 반전·복수·로맨스 스토리를 숏폼 에피소드로 제작·스트리밍 [확인]",
+        "target_user": "한국·일본 드라마 팬인 동남아·글로벌 20~40대 여성, 짧은 여가 시간에 콘텐츠를 소비하는 직장인 [추론]",
+        "unique_point": "한국·일본 드라마 장르 특화 숏폼 플랫폼으로 TikTok이나 YouTube와 달리 스토리 연속성 있는 시리즈 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ReelShort",
+          "ShortMax",
+          "Dramabox"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 트렌드와 한류 콘텐츠 글로벌 수요 동시 폭발 [추론]",
+        "growth_potential": "동남아·중동·남미 한류 팬덤 시장 확장 가능, 광고·코인 결제 이중 수익 구조 적합 [추론]"
+      },
+      "business": {
+        "monetization": "일부 에피소드 무료 + 이후 회차 코인 결제(IAP) 방식 [추론]",
+        "pricing_suggestion": "첫 3화 무료 + 이후 코인 구매 모델($0.99~4.99 코인팩), 구독권 $9.99/월 병행 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6~10개월 [추론]",
+        "estimated_cost": "1500~5000(콘텐츠 제작비 포함) [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "코인 결제 시스템",
+          "CDN 동영상 스트리밍"
+        ],
+        "key_features": [
+          "세로형 숏폼 드라마 플레이어",
+          "시리즈·에피소드 구조",
+          "코인 IAP 결제",
+          "오프라인 다운로드",
+          "자막 다국어 지원"
+        ],
+        "clone_tip": "플랫폼 자체보다 콘텐츠 확보가 진입 장벽; 한국 웹드라마 제작사와 독점 계약이 핵심 차별화 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2C",
+        "#한류콘텐츠",
+        "#숏폼",
+        "#글로벌시장",
+        "#구독모델"
+      ],
+      "verdict": "한류 숏폼 드라마 플랫폼, 타이밍·시장 크기 최상이나 콘텐츠 확보가 핵심 관문"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 앱 트렌드는 특정 하드웨어·직군·공예 취미에 초특화된 니치 버티컬 앱과, 공공 데이터 및 신뢰 인프라를 활용한 생활 안전·의료 플랫폼 두 축으로 수렴된다. 인디 개발자에게는 대형 플랫폼이 진입하지 않는 초소형 버티컬을 집중 공략하거나, 정부 DX 정책 수혜 B2B2C 모델로 수익성을 확보하는 전략이 현실적 대안으로 확인된다.",
+    "trend_details": [
+      "하드웨어 컴패니언 앱: 특정 하드웨어 기기 전용 모바일 앱이 독점적 포지션을 형성하는 신규 카테고리 등장; 기기 제조사 협력 시 대체불가 앱 확보 가능 [추론]",
+      "자격증·시험 앱 초특화: 단일 자격증 전용 학습 앱이 범용 교육 앱 대비 높은 전환율의 타겟 수요 확보, 포트폴리오 반복 출시 전략 유효 [추론]",
+      "공공 데이터 안전 앱: 경찰 디스패치·전화사기 데이터 등 공공 DB를 가공한 지역 안전 솔루션 수요 지속 증가 [추론]",
+      "의료 DX 플랫폼 확산: 일본을 중심으로 진찰권·예약 등 병원 방문 프로세스 디지털화 가속화, 정부 정책과 맞물려 B2B2C 수익 구조 안정적 [추론]",
+      "숏폼 드라마 한류: 한국·일본 IP 기반 5~10분 분량 숏폼 드라마 플랫폼이 동남아·글로벌 팬덤을 타겟으로 급성장 [추론]"
+    ],
+    "hot_categories": [
+      "공공안전·사기방지",
+      "자격증 특화 교육",
+      "하드웨어 컴패니언",
+      "의료 DX 플랫폼",
+      "숏폼 드라마"
+    ],
+    "opportunity": "한국 공공데이터포털(data.go.kr) API를 활용한 생활 밀착형 앱(사기번호 DB, 아파트 공시지가, 의료기관 정보 등)은 낮은 데이터 수집 비용으로 진입 장벽을 낮출 수 있으며, 특정 자격증·공예·하드웨어 등 초니치 시장을 연속 공략하는 포트폴리오 전략이 인디 개발자의 가장 현실적인 수익 경로 [추론]",
+    "action_item": "보유 역량에 맞는 자격증 앱 1개를 선택해 기출 데이터 수집 후 6주 내 MVP 출시; 성공 검증 후 동일 템플릿으로 5~10개 자격증 앱으로 확장하는 포트폴리오 전략 즉시 실행 [추론]"
+  },
+  "data_status": {}
+}
