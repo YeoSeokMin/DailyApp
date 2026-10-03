@@ -1,0 +1,706 @@
+{
+  "date": "2026-10-04",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "6d998c958f8b912f7ca1081c",
+      "name": "산로그 -등산 일기, 산행 일기, 등산 랭킹",
+      "developer": "SPROUTGROWLABS",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/24/fc/9f24fc3d-4158-6183-0380-5bcd90d0c041/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%82%B0%EB%A1%9C%EA%B7%B8-%EB%93%B1%EC%82%B0-%EC%9D%BC%EA%B8%B0-%EC%82%B0%ED%96%89-%EC%9D%BC%EA%B8%B0-%EB%93%B1%EC%82%B0-%EB%9E%AD%ED%82%B9/id6766181275",
+      "idea_summary": "등산 기록 + 소셜 랭킹으로 등산 게이미피케이션",
+      "analysis": {
+        "problem": "등산객이 산행 기록을 체계적으로 관리하고 타 사용자와 성취를 비교할 전용 플랫폼 부재 [추론]",
+        "solution": "GPS 기반 산행 일기, 루트·고도 기록, 사진 첨부, 사용자 간 랭킹 비교 통합 제공 [추론]",
+        "target_user": "20-60대 한국 등산 애호가, 인증샷 문화 즐기는 SNS 활성 사용자 [추론]",
+        "unique_point": "단순 기록 앱을 넘어 커뮤니티 랭킹 시스템으로 소셜 동기부여를 강화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "트랭글",
+          "AllTrails",
+          "Komoot",
+          "스트라바"
+        ],
+        "timing_reason": "포스트 코로나 아웃도어 활동 급증과 등산 인구 증가로 전용 기록 앱 수요 상승 [추론]",
+        "growth_potential": "국내 등산 인구 약 1800만 명 기반, 일본·대만 등 아시아 등산 문화권 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(상세 통계, 오프라인 맵) 또는 일회성 인앱결제 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 월 3,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1000-2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Location",
+          "MapKit",
+          "CloudKit",
+          "Firebase"
+        ],
+        "key_features": [
+          "GPS 경로 기록",
+          "고도 프로필 차트",
+          "사진 갤러리",
+          "사용자 랭킹",
+          "산 정보 DB"
+        ],
+        "clone_tip": "공공 산악 데이터 활용으로 초기 DB 구축 비용 절감; 랭킹은 Firebase Realtime DB로 구현 용이 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#한국시장특화",
+        "#헬스피트니스"
+      ],
+      "verdict": "등산 게이미피케이션으로 국내 1800만 등산 인구를 겨냥한 틈새 공략 앱",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "c74bd236e14cf8c5d3f37c1b",
+      "name": "Tulle - 웨딩 필름 카메라",
+      "developer": "Oube",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/1c/bc/ff1cbcb9-18ad-743c-1d72-7d93f940ee6d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tulle-%EC%9B%A8%EB%94%A9-%ED%95%84%EB%A6%84-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6816757597",
+      "idea_summary": "웨딩·커플 전용 필름 감성 카메라 앱",
+      "analysis": {
+        "problem": "필름 카메라 앱은 많지만 웨딩·커플 촬영에 특화된 로맨틱 감성 필터 앱이 부재 [추론]",
+        "solution": "웨딩과 커플 사진에 최적화된 필름 효과, 빈티지 색감, 날짜 스탬프 전용 기능 제공 [추론]",
+        "target_user": "20-30대 예비 신부 및 커플, 웨딩 셀프촬영 원하는 일반 사용자 [추론]",
+        "unique_point": "범용 필름 카메라가 아닌 웨딩·로맨스 전용으로 버티컬화한 니치 포토 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Huji Cam",
+          "Filmborn",
+          "Afterlight"
+        ],
+        "timing_reason": "필름 레트로 감성 트렌드 지속 + 웨딩 셀프촬영 증가로 전용 도구 수요 상승 [추론]",
+        "growth_potential": "커플 일상 촬영으로 확장 시 연간 꾸준한 사용 유지 가능하며 글로벌 웨딩 시장 공략 여지 있음 [추론]"
+      },
+      "business": {
+        "monetization": "무료 앱 + 웨딩 시즌 한정 프리미엄 필터팩 인앱결제 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 필터팩 2,900-4,900원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Image",
+          "AVFoundation",
+          "Metal"
+        ],
+        "key_features": [
+          "웨딩 전용 필름 필터",
+          "소프트 포커스 효과",
+          "날짜·장소 스탬프",
+          "커플 촬영 타이머"
+        ],
+        "clone_tip": "Core Image + Metal 셰이더로 고품질 필름 그레인 구현; 웨딩 플래너 앱과 제휴 마케팅으로 초기 사용자 확보 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓",
+        "#포토앱"
+      ],
+      "verdict": "웨딩 버티컬로 필름 카메라 시장을 파고든 감성 니치 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "c937a367f0e3d6956dd12d16",
+      "name": "JAM Legio",
+      "developer": "Jam with Latin",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/82/2b/1f822bc1-23e7-6f1e-6249-6944e2f6f3ce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/jam-legio/id6797884645",
+      "idea_summary": "Duolingo가 포기한 라틴어 학습 전문 앱",
+      "analysis": {
+        "problem": "Duolingo가 2021년 라틴어 코스를 종료하면서 모바일 기반 라틴어 학습 앱 공백이 발생 [추론]",
+        "solution": "구조화된 레슨, 연습 문제, 게임화된 학습 경험으로 라틴어 학습 지원 [추론]",
+        "target_user": "고전 문학·언어 학습자, 신학생, 법학·의학 어원 탐구자, 서양 고전 관심 학습자 [추론]",
+        "unique_point": "극단적 니치인 라틴어 전용으로 대형 플레이어가 떠난 블루오션 시장 점유 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo(라틴어 미지원)",
+          "Memrise",
+          "Lingua Latina 앱"
+        ],
+        "timing_reason": "Duolingo 라틴어 코스 종료 이후 대체 앱 수요 지속; 클래식 교육 부흥 트렌드 [추론]",
+        "growth_potential": "영어권 고교·대학 라틴어 필수 수강 과목 기반으로 꾸준한 신규 수요 존재 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(심화 레슨, 오프라인 학습) [추론]",
+        "pricing_suggesting": "월 4.99달러 또는 연간 29.99달러 교육 앱 표준 가격대 [추론]",
+        "pricing_suggestion": "월 4.99달러 또는 연간 29.99달러 교육 앱 표준 가격대 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "AVFoundation",
+          "Firebase"
+        ],
+        "key_features": [
+          "단어 플래시카드",
+          "문법 레슨",
+          "발음 가이드",
+          "진도 추적",
+          "스트릭 시스템"
+        ],
+        "clone_tip": "라틴어 외 산스크리트어·고대 그리스어 등 사어(死語) 시장 동일 구조 확장 가능; 언어 콘텐츠 DB화로 멀티랭귀지 전환 용이 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#블루오션"
+      ],
+      "verdict": "죽은 언어 학습이라는 극니치 블루오션, 작지만 충성도 높은 시장",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "source_id": "132c92c2cf955f78c48d2446",
+      "name": "CineLoupe",
+      "developer": "KOTETSU, Corp.",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/be/3b/b5be3b4b-cdf9-b177-f523-0d1291184494/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/cineloupe/id6813713797",
+      "idea_summary": "모바일 시네마틱 촬영 전문 도구",
+      "analysis": {
+        "problem": "모바일 크리에이터가 전문적 시네마틱 영상 제작을 위해 여러 앱을 조합해야 하는 불편함 [추론]",
+        "solution": "시네마틱 LUT, 전문 노출·포커스 컨트롤, 색보정 도구를 하나의 앱에 통합 제공 [추론]",
+        "target_user": "유튜브·숏폼 크리에이터, 영상 제작 입문자, 시네마틱 감성 추구하는 일본·아시아 크리에이터 [추론]",
+        "unique_point": "시네마틱 영상 제작에만 집중한 버티컬 전문화 모바일 카메라 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Filmic Pro",
+          "Moment",
+          "Cinema P3",
+          "ProCam MK II"
+        ],
+        "timing_reason": "숏폼 콘텐츠 폭발적 성장과 크리에이터 이코노미 확대로 고품질 모바일 촬영 도구 수요 지속 증가 [추론]",
+        "growth_potential": "글로벌 크리에이터 시장 성장에 따라 전 세계 영상 제작자 대상 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 프리미엄 LUT팩 인앱결제 [추론]",
+        "pricing_suggestion": "앱 3.99-9.99달러 유료 + 프리미엄 LUT팩 인앱결제로 수익 다변화 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1000-2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Metal",
+          "Core Image"
+        ],
+        "key_features": [
+          "시네마틱 LUT 실시간 적용",
+          "수동 노출·포커스 조정",
+          "로그 촬영 모드",
+          "파형 모니터",
+          "클립 속도 조절"
+        ],
+        "clone_tip": "Metal 셰이더로 실시간 LUT 적용 구현이 핵심; Apple ProRes 지원 여부가 전문 크리에이터 유입 관건 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#B2C",
+        "#크리에이터툴",
+        "#포토비디오",
+        "#일본"
+      ],
+      "verdict": "크리에이터 이코노미 성장에 올라탄 시네마틱 모바일 카메라",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "source_id": "720c06489ec4be55e8484c69",
+      "name": "연락처 정리: 중복 병합 삭제",
+      "developer": "Mikhail Altunin",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/61/e0/1d61e025-d8d8-83a2-c49a-9dd6caac67f2/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%97%B0%EB%9D%BD%EC%B2%98-%EC%A0%95%EB%A6%AC-%EC%A4%91%EB%B3%B5-%EB%B3%91%ED%95%A9-%EC%82%AD%EC%A0%9C/id6755306887",
+      "idea_summary": "중복 연락처 자동 탐지·병합으로 연락처 정리 자동화",
+      "analysis": {
+        "problem": "장기 스마트폰 사용자의 연락처에 수백 개 중복·불완전 항목이 누적되지만 수동 정리는 매우 번거로움 [추론]",
+        "solution": "이름·번호·이메일 기반 중복 자동 탐지 후 일괄 병합 또는 삭제 기능 제공 [추론]",
+        "target_user": "장기 스마트폰 사용자, 비즈니스 연락처가 많은 30-50대 직장인 [추론]",
+        "unique_point": "iOS 네이티브 연락처 API를 활용한 자동화로 수동 정리 없이 원클릭 연락처 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CleanMaster Contacts",
+          "Contacts+",
+          "Simpler Contacts"
+        ],
+        "timing_reason": "스마트폰 보급 10년 이상 경과로 누적 중복 연락처 문제를 가진 사용자 기반이 충분히 형성됨 [추론]",
+        "growth_potential": "스마트폰 전체 사용자를 잠재 고객으로 하는 범용 유틸리티로 꾸준한 신규 유입 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본 기능 + 대용량 연락처 처리 프리미엄 일회성 인앱결제 [추론]",
+        "pricing_suggestion": "무료 체험(최대 10개 병합) + 프리미엄 일회성 결제 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Contacts Framework",
+          "Core Data"
+        ],
+        "key_features": [
+          "중복 자동 탐지 알고리즘",
+          "일괄 병합",
+          "선택적 삭제",
+          "백업 내보내기",
+          "iCloud 동기화"
+        ],
+        "clone_tip": "iOS CNContactStore API로 빠른 접근 가능; 퍼지 문자열 매칭으로 유사 이름 중복도 탐지하면 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#유틸리티"
+      ],
+      "verdict": "범용 유틸리티로 빠른 개발과 안정적 수익이 가능한 검증된 카테고리",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "b1785cfa5e794f4ad880e178",
+      "name": "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+      "developer": "Scatter Lab, Inc.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/7BHCCDafgblr3UBNNx-ELJ_Ni1mA_iesxlPnyAQXXR1AeHtjwgNLmSRqWXlJg7EhKuE5__EvkoRmycKTQ3X_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger",
+      "idea_summary": "커스터마이즈 가능한 AI 캐릭터 롤플레이 대화 플랫폼",
+      "analysis": {
+        "problem": "원하는 개성의 AI 캐릭터를 직접 만들어 깊이 있는 롤플레이를 즐길 수 있는 모바일 플랫폼 부재 [추론]",
+        "solution": "커스텀 AI 페르소나 설정, 다양한 롤플레이 시나리오, 감성 대화 AI 엔진 제공 [추론]",
+        "target_user": "10-30대 MZ세대, 애니·게임·소설 팬덤, 감성적 AI 동반자 원하는 사용자 [추론]",
+        "unique_point": "이루다 개발사 Scatter Lab의 감성 AI 기술력을 바탕으로 한 롤플레이 특화 멀티캐릭터 챗봇 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "Janitor AI",
+          "이루다"
+        ],
+        "timing_reason": "LLM 상용화로 AI 캐릭터 품질이 실용 수준 도달; 사회적 고립감 증가로 AI 동반자 수요 급성장 [추론]",
+        "growth_potential": "AI 챗봇 시장 연 40% 이상 성장 중이며 한국·일본·동남아 감성 콘텐츠 소비 시장에서 강한 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(무제한 대화, 고급 캐릭터 기능) + 캐릭터 꾸미기 인앱결제 [추론]",
+        "pricing_suggestion": "월 9,900원 구독 + 캐릭터 코스튬·배경 개별 구매로 ARPU 극대화 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "3000-8000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "OpenAI API / 자체 LLM",
+          "Firebase",
+          "WebSocket",
+          "Room DB"
+        ],
+        "key_features": [
+          "AI 캐릭터 커스터마이징",
+          "감성 롤플레이 대화",
+          "캐릭터 메모리 시스템",
+          "멀티턴 맥락 유지",
+          "시나리오 설정"
+        ],
+        "clone_tip": "OpenAI API + 시스템 프롬프트 엔지니어링으로 MVP 빠른 구현 가능; 캐릭터 메모리가 리텐션 핵심이므로 Vector DB 도입 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI",
+        "#B2C",
+        "#글로벌확장가능",
+        "#구독모델"
+      ],
+      "verdict": "AI 캐릭터 롤플레이 시장 핵심 플레이어; 한국 AI 기술력이 글로벌 경쟁력 뒷받침",
+      "country": "jp",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "6d80267839b9d3fbcbf505b2",
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "category": "Personalization",
+      "icon": "https://play-lh.googleusercontent.com/hmQoUQolIwD8zpuOSJqphdcoOWob65kcRdGGz0uGOi-vBAU8YBHyYe-XkLq414QuUh4EJWInpAoXugjGwTn4",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "디지털 취약계층을 위한 극단적 심플 안드로이드 런처",
+      "analysis": {
+        "problem": "고령자·디지털 취약계층이 복잡한 안드로이드 기본 홈 화면을 사용하기 어려워 스마트폰 활용도가 낮음 [추론]",
+        "solution": "큰 아이콘, 고대비 UI, 단순화된 앱 구성으로 접근성을 높인 대체 런처 제공 [추론]",
+        "target_user": "60대 이상 고령 사용자, 스마트폰 초보자, 디지털 디톡스를 원하는 젊은 사용자 [추론]",
+        "unique_point": "복잡성 제거에만 집중한 극단적 미니멀 런처로 시니어 및 디지털 초보자 시장 특화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Launcher for Seniors",
+          "Big Launcher",
+          "Simple Launcher"
+        ],
+        "timing_reason": "초고령화 사회 진입과 디지털 포용 정책 강화로 시니어 특화 앱 수요 지속 증가 [추론]",
+        "growth_potential": "한국·일본 등 고령화 속도 빠른 아시아 시장에서 강한 성장 가능성; 가족이 설치해주는 선물형 앱 패턴 [추론]"
+      },
+      "business": {
+        "monetization": "광고 없는 일회성 유료 앱 또는 가족 구독 플랜 [추론]",
+        "pricing_suggestion": "일회성 결제 2,900원으로 가족이 선물하기 좋은 가격대 설정 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Launcher API",
+          "Room DB"
+        ],
+        "key_features": [
+          "대형 앱 아이콘 그리드",
+          "긴급 연락처 위젯",
+          "폰트 크기 조절",
+          "단순화된 앱 서랍",
+          "야간 모드"
+        ],
+        "clone_tip": "ACTION_MAIN + CATEGORY_HOME 인텐트 필터로 런처 등록; 시니어 UX 리서치가 개발만큼 중요하므로 실제 고령 사용자 테스트 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#시니어",
+        "#접근성"
+      ],
+      "verdict": "고령화 사회 필수 앱; 가족이 부모님께 설치해주는 선물형 유틸리티로 바이럴 잠재력",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "source_id": "1aee67569461c5d758ca8917",
+      "name": "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+      "developer": "Fallcent",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/PtB6uKLbszcI6wg2-lRxn4Yr6JBPFe52MF3gN87xsuyPm14s3mUzITjgpQC02VrdgE4P6NscNe9ZYazuql4_QQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.deaguowl.fallcent",
+      "idea_summary": "상품 가격 실시간 추적 + 제휴 리워드 스마트 쇼핑",
+      "analysis": {
+        "problem": "온라인 쇼핑 시 원하는 상품 가격이 언제 내릴지 알 수 없어 최적 구매 타이밍 포착이 어려움 [추론]",
+        "solution": "상품 URL 등록 시 가격 변동 추적, 목표가 도달 알림, 쇼핑몰 간 가격 비교 제공 [추론]",
+        "target_user": "가성비 추구 스마트 쇼퍼, 대형 가전·의류 구매 계획 중인 20-40대 [추론]",
+        "unique_point": "가격 추적 + 제휴 마케팅 리워드 결합으로 사용자와 앱 모두 이익을 얻는 윈윈 구조 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "에누리",
+          "다나와",
+          "네이버쇼핑",
+          "Honey"
+        ],
+        "timing_reason": "고물가 지속으로 소비자 가격 민감도 상승; 모바일 쇼핑 비중이 PC를 추월하면서 모바일 전용 가격 추적 도구 수요 증가 [추론]",
+        "growth_potential": "제휴 마케팅 수익 모델로 사용자 증가가 곧 수익 증가로 연결되는 스케일러블 구조 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 링크 커미션 수익(CPA/CPS) + 프리미엄 알림 기능 구독 [추론]",
+        "pricing_suggestion": "앱 무료 제공 후 제휴 링크 수익 운영; 프리미엄 구독(무제한 알림) 월 1,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1000-2000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jsoup (웹 스크래핑)",
+          "Firebase Cloud Messaging",
+          "Room DB",
+          "Retrofit"
+        ],
+        "key_features": [
+          "상품 URL 가격 추적",
+          "목표가 알림",
+          "가격 히스토리 차트",
+          "멀티 쇼핑몰 비교",
+          "위시리스트"
+        ],
+        "clone_tip": "스크래핑 대신 쿠팡 파트너스 등 공식 제휴 프로그램 API 우선 통합; HTML 구조 변경에 취약한 스크래핑 의존도 최소화 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#B2C",
+        "#커머스",
+        "#제휴마케팅",
+        "#알림앱"
+      ],
+      "verdict": "고물가 시대 가격 추적 수요와 제휴 수익 모델 결합으로 안정적 수익 구조 확보 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "78bad9c3e972c3f4594c4158",
+      "name": "FileRecover Pro",
+      "developer": "Gnurt",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/sk4q3KWV4wmfZVuuW9N_P6Vl754j4oFW3jHvW5G7DUJFOwO7FIDH8CAUykMEoTgldPiMG4XJMNg2_VY2tvSf",
+      "app_url": "https://play.google.com/store/apps/details?id=com.filerecover.pro",
+      "idea_summary": "실수로 삭제한 파일 복구 전문 안드로이드 유틸리티",
+      "analysis": {
+        "problem": "실수로 중요 사진·영상·문서를 삭제했을 때 안드로이드에서 쉽게 복구할 방법이 없음 [추론]",
+        "solution": "삭제된 파일 저장 공간 스캔 후 복구 가능한 파일 목록 제시 및 선택 복원 기능 제공 [추론]",
+        "target_user": "실수로 중요 파일을 삭제한 모든 안드로이드 사용자, 특히 사진·영상 관리에 취약한 30-50대 [추론]",
+        "unique_point": "파일 복구라는 단일 기능에 집중하여 긴급 상황에서의 높은 결제 전환율 확보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DiskDigger",
+          "Dr.Fone",
+          "Recuva(PC 전용)"
+        ],
+        "timing_reason": "안드로이드 사용자의 사진 백업 습관 부재로 파일 복구 수요 지속; 긴급 유틸리티 특성상 결제 전환율 높음 [추론]",
+        "growth_potential": "전 세계 안드로이드 사용자 30억 명을 잠재 시장으로 하는 범용 유틸리티 [추론]"
+      },
+      "business": {
+        "monetization": "무료 스캔 후 파일 복구는 유료 인앱결제 (긴급 수요 기반 높은 전환율) [추론]",
+        "pricing_suggestion": "복구 1회 3,900원 또는 무제한 복구 9,900원 일회성 결제; 위기 상황에서 가격 저항 낮음 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "700-1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Storage Access Framework",
+          "MediaStore API",
+          "Native C++"
+        ],
+        "key_features": [
+          "삭제 파일 깊은 스캔",
+          "파일 유형별 필터",
+          "미리보기 후 선택 복원",
+          "복구 후 백업 가이드"
+        ],
+        "clone_tip": "안드로이드 11+ 스코프 스토리지 정책으로 깊은 복구 제한; 앱 전용 공간 및 사용자 선택 폴더 내 복구로 제한하고 기대 관리 명확히 해야 부정 리뷰 방지 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#B2C",
+        "#유틸리티",
+        "#글로벌",
+        "#긴급수요"
+      ],
+      "verdict": "긴급 수요 기반 높은 결제 전환율; 안드로이드 스코프 스토리지 제약 극복이 기술적 과제",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "1c9b49334fffb22e0f036ef6",
+      "name": "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+      "developer": "KAUCHE, Inc.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/JlFBqCUQAm4I540IYJQoNUb0ChrVuvGj6ezhTrFOo6P0znipd3dqSsNinHFoL3O_esVRjcpP6VKVu6YXdIJyrg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.kauche.kauche",
+      "idea_summary": "소셜 피드 기반 일본 소셜 커머스 플랫폼",
+      "analysis": {
+        "problem": "온라인 쇼핑이 개인화·고립화되면서 친구·팔로워의 취향을 참고하거나 함께 쇼핑하는 경험이 단절됨 [추론]",
+        "solution": "친구 위시리스트 공유, 소셜 피드 기반 상품 디스커버리, 공동 쇼핑 경험 제공 [추론]",
+        "target_user": "20-30대 트렌디한 일본 소비자, SNS 쇼핑 피드에 익숙한 패션·뷰티 관심층 [추론]",
+        "unique_point": "쇼핑에 SNS 소셜 레이어를 더해 상품 발견부터 구매까지 친구와 함께하는 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Pinterest 쇼핑",
+          "인스타그램 쇼핑",
+          "ZOZOTOWN",
+          "Meili"
+        ],
+        "timing_reason": "Z세대의 SNS 기반 상품 발견 행동 패턴과 소셜 커머스 융합 트렌드가 일본에서도 본격화 [추론]",
+        "growth_potential": "일본 이커머스 시장 내 소셜 커머스 점유율이 아직 낮아 성장 여지 충분 [추측]"
+      },
+      "business": {
+        "monetization": "입점 브랜드 수수료 + 광고 피드 노출 수익 [추론]",
+        "pricing_suggestion": "판매 수수료 5-10% + 프리미엄 브랜드 피드 노출 월정액으로 B2B2C 수익 구조 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-9개월 [추론]",
+        "estimated_cost": "2000-5000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "GraphQL",
+          "Stripe / 결제 API",
+          "Algolia"
+        ],
+        "key_features": [
+          "소셜 피드 기반 상품 디스커버리",
+          "위시리스트 공유",
+          "친구 활동 알림",
+          "인앱 결제 연동",
+          "브랜드 입점 어드민"
+        ],
+        "clone_tip": "소셜 커머스는 닭-달걀 문제 존재; 초기에 특정 패션 니치 커뮤니티 집중 공략으로 네트워크 효과 시드 확보 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.1
+      },
+      "tags": [
+        "#B2C",
+        "#소셜커머스",
+        "#일본시장",
+        "#네트워크효과"
+      ],
+      "verdict": "일본 Z세대 소셜 쇼핑 시장 선점 기회; 네트워크 효과 형성이 성패 관건",
+      "country": "jp"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기반 감성 캐릭터 챗봇과 하이퍼-니치 버티컬 앱이 오늘의 핵심 트렌드로 부상했다. 범용 앱보다 특정 사용자 집단의 페인포인트를 정밀 겨냥한 앱들이 충성도 높은 사용자를 확보하는 패턴이 두드러진다.",
+    "trend_details": [
+      "AI 캐릭터 롤플레이 플랫폼 성장: LLM 상용화로 감성적 AI 동반자 앱 품질이 실용 수준 도달, Character.AI 후발주자들이 니치 사용자층 공략 중",
+      "하이퍼-니치 버티컬화: 등산 다이어리+랭킹, 웨딩 전용 필름카메라, 라틴어 전용 학습앱 등 대형 플레이어가 수익성 부족으로 외면한 극소 시장 공략 앱 등장",
+      "시니어 접근성 런처: 초고령화 사회 심화로 고령자·디지털 취약계층 대상 심플 UX 앱 수요 증가",
+      "고물가 대응 가격 추적 앱: 인플레이션 지속으로 소비자 가격 민감도 상승하며 실시간 가격 알림 앱 사용 증가",
+      "소셜 커머스 재부상: 일본·아시아 시장에서 소셜 피드 기반 상품 발견 패턴이 Z세대 중심으로 확산 중"
+    ],
+    "hot_categories": [
+      "AI/챗봇",
+      "Photo & Video",
+      "Utilities",
+      "Shopping",
+      "Education"
+    ],
+    "opportunity": "AI 캐릭터 앱은 Character.AI 등 선발주자가 있으나 특정 언어·문화권(한국어·일본어)에 특화된 버티컬 AI 동반자 앱은 현지화 미흡으로 틈새 공략 가능; 라틴어처럼 대형 플레이어가 떠난 교육 니치 시장도 기회 영역",
+    "action_item": "하이퍼-니치 앱 기획 시 'Duolingo가 포기한 언어', '대기업이 수익성 이유로 철수한 취미 커뮤니티' 등 검증된 수요가 있으나 공급이 비어있는 시장을 우선 탐색할 것"
+  },
+  "data_status": {}
+}

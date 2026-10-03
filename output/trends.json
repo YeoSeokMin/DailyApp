@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T15:16:25.020Z",
+  "generatedAt": "2026-10-03T15:15:07.397Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -41,42 +41,14 @@
       "avgScore": 7.314285714285714
     },
     {
-      "category": "Utilities",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
-      "changeDirection": "up",
-      "apps": [
-        "Fraud Countermeasures by NTT TownPage",
-        "Volume Control Sound Launcher",
-        "Antizuck Smart Glasses Scanner",
-        "Orbit Tab",
-        "Easy Homescreen"
-      ],
-      "avgScore": 7.5200000000000005
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
-      "changeDirection": "up",
-      "apps": [
-        "Apartment i - Essential Apartment Living",
-        "Alarrrm – Date-Specific Reminder Alarm",
-        "AI Hairstyle Try On & Color",
-        "Liltie - Daily One-Song Music Diary",
-        "WakeBox"
-      ],
-      "avgScore": 7.12
-    },
-    {
       "category": "Entertainment",
-      "currentCount": 9,
-      "previousCount": 4,
-      "changePercent": 125,
+      "currentCount": 10,
+      "previousCount": 5,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+        "MiniDrama - Exclusive Short Drama Platform",
         "Hanako Grandma Stickers",
         "FreeReels - Popular Short Korean-Japanese Dramas",
         "Pocket FM: Audio Dramas",
@@ -84,8 +56,51 @@
         "Plezy: Media Server Client",
         "Mecha Chameleon",
         "DramaVibe",
-        "KyaraPu",
-        "Peekie: Mystery Deduction Game"
+        "KyaraPu"
+      ],
+      "avgScore": 6.890000000000001
+    },
+    {
+      "category": "Safety",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CrimeRadar: Dispatch Alerts"
+      ],
+      "avgScore": 8.5
+    },
+    {
+      "category": "Services Marketplace",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Social",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Stamps - Seasonal Greetings"
+      ],
+      "avgScore": 5.5
+    },
+    {
+      "category": "Fashion",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Asler - The Standard in Men's Fashion"
       ],
       "avgScore": 7
     },
@@ -130,18 +145,6 @@
       "avgScore": 7.6
     },
     {
-      "category": "Medical",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "M3 DigiKar Smart Medical Card",
-        "AutoSnore: Snoring Recorder"
-      ],
-      "avgScore": 7.5
-    },
-    {
       "category": "Health & Fitness",
       "currentCount": 3,
       "previousCount": 0,
@@ -179,16 +182,15 @@
     },
     {
       "category": "Finance",
-      "currentCount": 3,
-      "previousCount": 0,
+      "currentCount": 2,
+      "previousCount": 1,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
         "Feed Household Ledger Pro",
-        "Cashmore",
-        "FDNY Retirement Planner"
+        "Cashmore"
       ],
-      "avgScore": 7.233333333333333
+      "avgScore": 7.1
     },
     {
       "category": "Books",
@@ -200,18 +202,6 @@
         "ReadMore - Clean Reading Records"
       ],
       "avgScore": 5.8
-    },
-    {
-      "category": "Social Networking",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Bump – Connect With Friends Map",
-        "RIZZ - Anonymous School Voting"
-      ],
-      "avgScore": 7.4
     },
     {
       "category": "Collectibles",
@@ -258,39 +248,6 @@
       "avgScore": 7.8
     },
     {
-      "category": "Language Learning",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "AI Tutor: Language Learning"
-      ],
-      "avgScore": 8.2
-    },
-    {
-      "category": "Music and Karaoke",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "MiSing: Sing Anywhere, Anytime"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Rewards and Savings",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Receipt Challenge by Kurashiru"
-      ],
-      "avgScore": 7.5
-    },
-    {
       "category": "Shopping",
       "currentCount": 3,
       "previousCount": 2,
@@ -302,29 +259,92 @@
         "Shopot - AI Shopping Assistant"
       ],
       "avgScore": 7.6000000000000005
-    }
-  ],
-  "decliningCategories": [
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 4,
+      "previousCount": 3,
+      "changePercent": 33,
+      "changeDirection": "up",
+      "apps": [
+        "Fraud Countermeasures by NTT TownPage",
+        "Volume Control Sound Launcher",
+        "Antizuck Smart Glasses Scanner",
+        "Orbit Tab"
+      ],
+      "avgScore": 7.45
+    },
     {
       "category": "Education",
-      "currentCount": 2,
+      "currentCount": 5,
       "previousCount": 4,
-      "changePercent": -50,
-      "changeDirection": "down",
+      "changePercent": 25,
+      "changeDirection": "up",
       "apps": [
+        "Thai Vocabulary Book | Thai Language Proficiency Test",
+        "Non-Life Insurance University Course: Law Unit Question Book",
+        "Business Career Certification Level 3 Logistics Exam Preparation",
         "Telemarketing Manager Practical Exam",
         "SpeakUp AI - Language Learning"
       ],
-      "avgScore": 7
+      "avgScore": 6.8
     }
   ],
-  "stableCategories": [],
+  "decliningCategories": [],
+  "stableCategories": [
+    {
+      "category": "Lifestyle",
+      "currentCount": 4,
+      "previousCount": 4,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Future Anticipation App",
+        "Apartment i - Essential Apartment Living",
+        "Alarrrm – Date-Specific Reminder Alarm",
+        "AI Hairstyle Try On & Color"
+      ],
+      "avgScore": 6.95
+    },
+    {
+      "category": "Medical",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "M3 DigiKar Smart Medical Card"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "Social Networking",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Bump – Connect With Friends Map"
+      ],
+      "avgScore": 7.8
+    }
+  ],
   "hotKeywords": [
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 64,
+      "count": 65,
       "apps": [
+        "Future Anticipation App",
+        "Thai Vocabulary Book | Thai Language Proficiency Test",
+        "Non-Life Insurance University Course: Law Unit Question Book",
+        "Business Career Certification Level 3 Logistics Exam Preparation",
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+        "CrimeRadar: Dispatch Alerts",
+        "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts",
+        "Stamps - Seasonal Greetings",
+        "Asler - The Standard in Men's Fashion",
+        "MiniDrama - Exclusive Short Drama Platform",
         "Embroidery Grove Companion",
         "M8 Music Tracker",
         "TerraGrid: MGRS Military GPS Navigation",
@@ -379,23 +399,20 @@
         "Cashmore",
         "Roaming도깨비 eSIM",
         "CatchTable",
-        "TimeCue",
-        "Liltie - Daily One-Song Music Diary",
-        "Peekie: Mystery Deduction Game",
-        "AutoSnore: Snoring Recorder",
-        "RIZZ - Anonymous School Voting",
-        "Easy Homescreen",
-        "AI Tutor: Language Learning",
-        "MiSing: Sing Anywhere, Anytime",
-        "Receipt Challenge by Kurashiru",
-        "WakeBox"
+        "TimeCue"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 39,
+      "count": 38,
       "apps": [
+        "Future Anticipation App",
+        "Thai Vocabulary Book | Thai Language Proficiency Test",
+        "Non-Life Insurance University Course: Law Unit Question Book",
+        "Business Career Certification Level 3 Logistics Exam Preparation",
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+        "Stamps - Seasonal Greetings",
         "Embroidery Grove Companion",
         "TerraGrid: MGRS Military GPS Navigation",
         "Telemarketing Manager Practical Exam",
@@ -427,21 +444,18 @@
         "Orbit Tab",
         "Beat Blocks: Rhythm Practice",
         "IIWII",
-        "TimeCue",
-        "Liltie - Daily One-Song Music Diary",
-        "FDNY Retirement Planner",
-        "AutoSnore: Snoring Recorder",
-        "RIZZ - Anonymous School Voting",
-        "Easy Homescreen",
-        "AI Tutor: Language Learning",
-        "WakeBox"
+        "TimeCue"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 22,
+      "count": 23,
       "apps": [
+        "Thai Vocabulary Book | Thai Language Proficiency Test",
+        "Business Career Certification Level 3 Logistics Exam Preparation",
+        "CrimeRadar: Dispatch Alerts",
+        "Asler - The Standard in Men's Fashion",
         "TerraGrid: MGRS Military GPS Navigation",
         "Telemarketing Manager Practical Exam",
         "M3 DigiKar Smart Medical Card",
@@ -460,17 +474,16 @@
         "SpeakUp AI - Language Learning",
         "Antizuck Smart Glasses Scanner",
         "Orbit Tab",
-        "KyaraPu",
-        "Liltie - Daily One-Song Music Diary",
-        "AI Tutor: Language Learning",
-        "WakeBox"
+        "KyaraPu"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 17,
+      "count": 16,
       "apps": [
+        "Thai Vocabulary Book | Thai Language Proficiency Test",
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
         "AGAIN. Rehearsal Notes",
         "Momo: AI Photo & Video Maker",
         "Crack – Web Novels and AI Chat",
@@ -479,9 +492,7 @@
         "SpeakUp AI - Language Learning",
         "AI Hairstyle Try On & Color",
         "Nexus - AI Video Generator",
-        "KyaraPu",
-        "Liltie - Daily One-Song Music Diary",
-        "AI Tutor: Language Learning"
+        "KyaraPu"
       ]
     },
     {
@@ -489,21 +500,21 @@
       "category": "creator",
       "count": 11,
       "apps": [
+        "Thai Vocabulary Book | Thai Language Proficiency Test",
+        "MiniDrama - Exclusive Short Drama Platform",
         "FreeReels - Popular Short Korean-Japanese Dramas",
         "Momo: AI Photo & Video Maker",
         "Pocket FM: Audio Dramas",
         "Mecha Chameleon",
         "AI Organizer - Smart Organization",
         "DramaVibe",
-        "Nexus - AI Video Generator",
-        "Peekie: Mystery Deduction Game",
-        "RIZZ - Anonymous School Voting"
+        "Nexus - AI Video Generator"
       ]
     },
     {
       "keyword": "생산성",
       "category": "productivity",
-      "count": 11,
+      "count": 10,
       "apps": [
         "Daymirror – Plan vs. Reality 10-Minute Planner",
         "When Was It?",
@@ -511,8 +522,66 @@
         "setlog",
         "Cat Work Hours: Work Recording App",
         "Sync: Plan & Actual",
-        "TimeCue",
-        "WakeBox"
+        "TimeCue"
+      ]
+    },
+    {
+      "keyword": "엔터테인먼트",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+        "MiniDrama - Exclusive Short Drama Platform",
+        "Crack – Web Novels and AI Chat",
+        "Mecha Chameleon",
+        "DramaVibe",
+        "KyaraPu"
+      ]
+    },
+    {
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 5,
+      "apps": [
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+        "M3 DigiKar Smart Medical Card",
+        "Apartment i - Essential Apartment Living",
+        "ReadMore - Clean Reading Records",
+        "JigRipper"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+        "Momo: AI Photo & Video Maker",
+        "Pocket FM: Audio Dramas",
+        "Nexus - AI Video Generator"
+      ]
+    },
+    {
+      "keyword": "스트리밍",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "MiniDrama - Exclusive Short Drama Platform",
+        "FreeReels - Popular Short Korean-Japanese Dramas",
+        "Pocket FM: Audio Dramas",
+        "Plezy: Media Server Client",
+        "DramaVibe"
+      ]
+    },
+    {
+      "keyword": "구독",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "MiniDrama - Exclusive Short Drama Platform",
+        "Compliance Camera",
+        "Pocket FM: Audio Dramas",
+        "Plezy: Media Server Client"
       ]
     },
     {
@@ -540,61 +609,35 @@
       ]
     },
     {
-      "keyword": "커뮤니티",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "M3 DigiKar Smart Medical Card",
-        "Apartment i - Essential Apartment Living",
-        "ReadMore - Clean Reading Records",
-        "JigRipper",
-        "RIZZ - Anonymous School Voting"
-      ]
-    },
-    {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 5,
-      "apps": [
-        "FreeReels - Popular Short Korean-Japanese Dramas",
-        "Pocket FM: Audio Dramas",
-        "Plezy: Media Server Client",
-        "DramaVibe",
-        "Liltie - Daily One-Song Music Diary"
-      ]
-    },
-    {
-      "keyword": "글로벌",
+      "keyword": "교육",
       "category": "tag",
-      "count": 5,
+      "count": 4,
       "apps": [
-        "Laleuca Looper",
-        "CrownCards – Trading Cards",
-        "SpeakUp AI - Language Learning",
-        "Easy Homescreen",
-        "AI Tutor: Language Learning"
+        "Thai Vocabulary Book | Thai Language Proficiency Test",
+        "Non-Life Insurance University Course: Law Unit Question Book",
+        "Business Career Certification Level 3 Logistics Exam Preparation",
+        "SpeakUp AI - Language Learning"
+      ]
+    },
+    {
+      "keyword": "수집",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+        "Rip Rush: Card Collector Arena",
+        "Rips by Triumph",
+        "CrownCards – Trading Cards"
       ]
     },
     {
       "keyword": "소셜",
-      "category": "social",
-      "count": 5,
-      "apps": [
-        "Feed Household Ledger Pro",
-        "Bump – Connect With Friends Map",
-        "RIZZ - Anonymous School Voting"
-      ]
-    },
-    {
-      "keyword": "엔터테인먼트",
       "category": "tag",
-      "count": 5,
+      "count": 4,
       "apps": [
-        "Crack – Web Novels and AI Chat",
-        "Mecha Chameleon",
-        "DramaVibe",
-        "KyaraPu",
-        "MiSing: Sing Anywhere, Anytime"
+        "Stamps - Seasonal Greetings",
+        "Feed Household Ledger Pro",
+        "Bump – Connect With Friends Map"
       ]
     },
     {
@@ -609,16 +652,6 @@
       ]
     },
     {
-      "keyword": "구독",
-      "category": "subscription",
-      "count": 4,
-      "apps": [
-        "Compliance Camera",
-        "Pocket FM: Audio Dramas",
-        "Plezy: Media Server Client"
-      ]
-    },
-    {
       "keyword": "구독모델",
       "category": "tag",
       "count": 4,
@@ -627,16 +660,6 @@
         "Exposr - Food Product Scanner",
         "SpeakUp AI - Language Learning",
         "AI Hairstyle Try On & Color"
-      ]
-    },
-    {
-      "keyword": "헬스케어",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "DoseWeek: Injection Management and GLP-1 Tracking",
-        "My Personal Doctor – Telemedicine and Affordable Clinics",
-        "AutoSnore: Snoring Recorder"
       ]
     },
     {
@@ -651,63 +674,52 @@
       ]
     },
     {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "Momo: AI Photo & Video Maker",
-        "Pocket FM: Audio Dramas",
-        "Nexus - AI Video Generator"
-      ]
-    },
-    {
-      "keyword": "한국",
+      "keyword": "자격증",
       "category": "tag",
-      "count": 4,
+      "count": 3,
       "apps": [
-        "Liltie - Daily One-Song Music Diary",
-        "Peekie: Mystery Deduction Game",
-        "AutoSnore: Snoring Recorder",
-        "RIZZ - Anonymous School Voting"
+        "Non-Life Insurance University Course: Law Unit Question Book",
+        "Business Career Certification Level 3 Logistics Exam Preparation",
+        "Telemarketing Manager Practical Exam"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 47,
-        "percent": 67,
+        "count": 48,
+        "percent": 69,
         "examples": [
-          "Embroidery Grove Companion",
-          "M8 Music Tracker",
-          "TerraGrid: MGRS Military GPS Navigation"
+          "CrimeRadar: Dispatch Alerts",
+          "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts",
+          "Stamps - Seasonal Greetings"
         ]
       },
       "freemium": {
-        "count": 49,
-        "percent": 70,
+        "count": 48,
+        "percent": 69,
         "examples": [
-          "Embroidery Grove Companion",
-          "M8 Music Tracker",
-          "TerraGrid: MGRS Military GPS Navigation"
+          "Future Anticipation App",
+          "CrimeRadar: Dispatch Alerts",
+          "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts"
         ]
       },
       "subscription": {
-        "count": 55,
-        "percent": 79,
+        "count": 52,
+        "percent": 74,
         "examples": [
-          "Embroidery Grove Companion",
-          "M8 Music Tracker",
-          "Compliance Camera"
+          "Future Anticipation App",
+          "Business Career Certification Level 3 Logistics Exam Preparation",
+          "CrimeRadar: Dispatch Alerts"
         ]
       },
       "onetime": {
-        "count": 28,
-        "percent": 40,
+        "count": 32,
+        "percent": 46,
         "examples": [
-          "Embroidery Grove Companion",
-          "TerraGrid: MGRS Military GPS Navigation",
-          "Telemarketing Manager Practical Exam"
+          "Future Anticipation App",
+          "Thai Vocabulary Book | Thai Language Proficiency Test",
+          "Non-Life Insurance University Course: Law Unit Question Book"
         ]
       },
       "unknown": {
@@ -718,12 +730,12 @@
     },
     "dominant": {
       "model": "subscription",
-      "count": 55,
-      "percent": 79,
+      "count": 52,
+      "percent": 74,
       "examples": [
-        "Embroidery Grove Companion",
-        "M8 Music Tracker",
-        "Compliance Camera"
+        "Future Anticipation App",
+        "Business Career Certification Level 3 Logistics Exam Preparation",
+        "CrimeRadar: Dispatch Alerts"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -732,26 +744,26 @@
     "trends": [
       {
         "tech": "ar_vr",
-        "count": 22,
-        "percent": 31,
+        "count": 23,
+        "percent": 33,
         "apps": [
-          "TerraGrid: MGRS Military GPS Navigation",
-          "Telemarketing Manager Practical Exam",
-          "M3 DigiKar Smart Medical Card",
-          "Apartment i - Essential Apartment Living",
-          "FreeReels - Popular Short Korean-Japanese Dramas"
+          "Thai Vocabulary Book | Thai Language Proficiency Test",
+          "Business Career Certification Level 3 Logistics Exam Preparation",
+          "CrimeRadar: Dispatch Alerts",
+          "Asler - The Standard in Men's Fashion",
+          "TerraGrid: MGRS Military GPS Navigation"
         ]
       },
       {
         "tech": "ai",
-        "count": 15,
-        "percent": 21,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "Thai Vocabulary Book | Thai Language Proficiency Test",
+          "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
           "Fraud Countermeasures by NTT TownPage",
           "AGAIN. Rehearsal Notes",
-          "Momo: AI Photo & Video Maker",
-          "Crack – Web Novels and AI Chat",
-          "JigRipper"
+          "Momo: AI Photo & Video Maker"
         ]
       },
       {
@@ -759,11 +771,23 @@
         "count": 9,
         "percent": 13,
         "apps": [
+          "Thai Vocabulary Book | Thai Language Proficiency Test",
+          "MiniDrama - Exclusive Short Drama Platform",
           "FreeReels - Popular Short Korean-Japanese Dramas",
           "Momo: AI Photo & Video Maker",
-          "Pocket FM: Audio Dramas",
-          "Plezy: Media Server Client",
-          "AI Organizer - Smart Organization"
+          "Pocket FM: Audio Dramas"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+          "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts",
+          "Apartment i - Essential Apartment Living",
+          "Feed Household Ledger Pro",
+          "ReadMore - Clean Reading Records"
         ]
       },
       {
@@ -779,18 +803,6 @@
         ]
       },
       {
-        "tech": "social",
-        "count": 6,
-        "percent": 9,
-        "apps": [
-          "Apartment i - Essential Apartment Living",
-          "Feed Household Ledger Pro",
-          "ReadMore - Clean Reading Records",
-          "Bump – Connect With Friends Map",
-          "JigRipper"
-        ]
-      },
-      {
         "tech": "productivity",
         "count": 3,
         "percent": 4,
@@ -801,46 +813,46 @@
         ]
       },
       {
-        "tech": "health",
+        "tech": "fintech",
         "count": 2,
         "percent": 3,
         "apps": [
-          "My Personal Doctor – Telemedicine and Affordable Clinics",
-          "AutoSnore: Snoring Recorder"
+          "Non-Life Insurance University Course: Law Unit Question Book",
+          "Neko Attendance: Work Records, Meow"
         ]
       },
       {
-        "tech": "fintech",
+        "tech": "health",
         "count": 1,
         "percent": 1,
         "apps": [
-          "Neko Attendance: Work Records, Meow"
+          "My Personal Doctor – Telemedicine and Affordable Clinics"
         ]
       }
     ],
     "dominant": {
       "tech": "ar_vr",
-      "count": 22,
-      "percent": 31,
+      "count": 23,
+      "percent": 33,
       "apps": [
-        "TerraGrid: MGRS Military GPS Navigation",
-        "Telemarketing Manager Practical Exam",
-        "M3 DigiKar Smart Medical Card",
-        "Apartment i - Essential Apartment Living",
-        "FreeReels - Popular Short Korean-Japanese Dramas"
+        "Thai Vocabulary Book | Thai Language Proficiency Test",
+        "Business Career Certification Level 3 Logistics Exam Preparation",
+        "CrimeRadar: Dispatch Alerts",
+        "Asler - The Standard in Men's Fashion",
+        "TerraGrid: MGRS Military GPS Navigation"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 15,
-        "percent": 21,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "Thai Vocabulary Book | Thai Language Proficiency Test",
+          "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
           "Fraud Countermeasures by NTT TownPage",
           "AGAIN. Rehearsal Notes",
-          "Momo: AI Photo & Video Maker",
-          "Crack – Web Novels and AI Chat",
-          "JigRipper"
+          "Momo: AI Photo & Video Maker"
         ]
       },
       {
@@ -848,11 +860,23 @@
         "count": 9,
         "percent": 13,
         "apps": [
+          "Thai Vocabulary Book | Thai Language Proficiency Test",
+          "MiniDrama - Exclusive Short Drama Platform",
           "FreeReels - Popular Short Korean-Japanese Dramas",
           "Momo: AI Photo & Video Maker",
-          "Pocket FM: Audio Dramas",
-          "Plezy: Media Server Client",
-          "AI Organizer - Smart Organization"
+          "Pocket FM: Audio Dramas"
+        ]
+      },
+      {
+        "tech": "social",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
+          "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts",
+          "Apartment i - Essential Apartment Living",
+          "Feed Household Ledger Pro",
+          "ReadMore - Clean Reading Records"
         ]
       },
       {
@@ -872,6 +896,34 @@
   "opportunities": [
     {
       "type": "rising_category",
+      "title": "Safety 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Safety"
+    },
+    {
+      "type": "rising_category",
+      "title": "Services Marketplace 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Services Marketplace"
+    },
+    {
+      "type": "rising_category",
+      "title": "Social 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Social"
+    },
+    {
+      "type": "rising_category",
+      "title": "Fashion 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Fashion"
+    },
+    {
+      "type": "rising_category",
       "title": "Graphics & Design 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -883,13 +935,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Navigation"
-    },
-    {
-      "type": "rising_category",
-      "title": "Medical 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Medical"
     },
     {
       "type": "rising_category",
@@ -928,13 +973,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Social Networking 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social Networking"
-    },
-    {
-      "type": "rising_category",
       "title": "Collectibles 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -963,55 +1001,32 @@
     },
     {
       "type": "rising_category",
-      "title": "Language Learning 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Language Learning"
-    },
-    {
-      "type": "rising_category",
-      "title": "Music and Karaoke 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Music and Karaoke"
-    },
-    {
-      "type": "rising_category",
-      "title": "Rewards and Savings 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Rewards and Savings"
-    },
-    {
-      "type": "rising_category",
       "title": "Shopping 카테고리 급부상",
       "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Shopping"
     },
     {
-      "type": "tech_trend",
-      "title": "AI 기능 통합 트렌드",
-      "description": "21%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "type": "rising_category",
+      "title": "Utilities 카테고리 급부상",
+      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "tech": "ai"
+      "category": "Utilities"
     }
   ],
   "insight": {
-    "trend_summary": "Productivity(+700%)와 Photo & Video(+600%) 카테고리가 폭발적으로 성장하며 AI·AR 기술과의 융합이 핵심 동력으로 부상했다. 구독 모델(79%)이 수익화의 주류로 자리잡은 가운데, 1인 개발 가능 태그가 39회로 높은 빈도를 기록해 인디 개발자 친화적 기회가 확대되고 있다. Graphics & Design, Health & Fitness, Language Learning 등 다수 틈새 카테고리가 100% 급상승했지만 경쟁 앱 수가 적어 선점 여지가 크다.",
+    "trend_summary": "생산성(+700%)과 사진·영상(+600%) 카테고리가 폭발적으로 성장하며 AI·AR 기술과 결합한 앱들이 시장을 주도하고 있습니다. 구독 모델(74%)이 가장 보편적인 수익화 전략으로 자리잡았고, '1인개발가능' 태그가 38회로 높게 나타나 인디 개발자 친화적 환경이 형성되고 있습니다. Safety, Services Marketplace 등 소수 앱만 존재하는 틈새 카테고리에서 선점 기회가 다수 포착됩니다.",
     "trend_details": [
-      "Productivity 카테고리 +700% 급상승: AI 기능을 접목한 생산성 도구가 주도하며, 1인 개발자도 진입 가능한 세부 니치(집중력, 루틴 관리, 자동화)에서 기회 집중",
-      "AR 기술이 전체 앱의 31%에 탑재되며 Photo & Video·Entertainment 카테고리 성장을 견인, AR 미적용 틈새 카테고리에 AR을 더하는 것만으로 차별화 가능",
-      "구독 모델 채택률 79%로 최고치: 무료 시작 후 구독 전환(freemium→subscription) 구조가 인디 개발자의 안정적 수익 확보 표준 패턴으로 정착"
+      "Productivity 카테고리 +700% 급성장: AI 기반 생산성 도구 수요가 폭발적으로 증가하며 8개 앱이 동시에 부상",
+      "AR/VR 기술이 전체 트렌드 앱의 33%를 차지하며 주류 기술로 진입, Photo & Video 카테고리와 결합해 시너지 창출",
+      "구독(74%) + 프리미엄(69%) 복합 모델이 표준화되고 있으며, 무료 진입 후 구독 전환 전략이 인디 개발자에게 가장 현실적인 수익 구조로 부상"
     ],
     "hot_categories": [
       "Productivity",
-      "Photo & Video",
-      "Health & Fitness",
-      "Language Learning"
+      "Photo & Video"
     ],
-    "opportunity": "Language Learning·Health & Fitness·Graphics & Design 등 100% 급상승했지만 경쟁 앱이 희박한 틈새 카테고리에 AI 또는 AR 기능을 결합한 구독 기반 앱을 출시하면 낮은 경쟁 강도와 높은 성장세를 동시에 누릴 수 있다.",
-    "action_item": "이번 주 안에 Language Learning 또는 Health & Fitness 카테고리에서 AI 기능(맞춤 추천·분석) 한 가지를 핵심으로 하는 freemium 구독 앱의 MVP 기획서를 작성하고, 일본 시장(5회 언급) 출시를 첫 타깃으로 설정하라.",
-    "weekly_theme": "AI 틈새 구독"
+    "opportunity": "Safety 및 Services Marketplace 카테고리는 100% 성장에도 불구하고 앱 수가 극히 적어, AI나 AR 기술을 접목한 첫 진입자가 카테고리를 선점할 수 있는 블루오션 구간입니다.",
+    "action_item": "AI 또는 AR 기능을 핵심으로 한 생산성 앱을 프리미엄(무료+구독) 모델로 기획하고, '1인개발가능' 범위 내에서 Safety 또는 Services Marketplace 카테고리에 MVP를 출시해 선점 포지션을 확보하세요.",
+    "weekly_theme": "AI 생산성 선점"
   }
 }
