@@ -29,62 +29,22 @@ const BATCH_SIZE = 50;
  * codex exec -m o4-mini --ephemeral -o tmpFile "prompt"
  */
 async function callCodex(prompt) {
-  return new Promise((resolve, reject) => {
-    const tmpFile = path.join(os.tmpdir(), `codex_out_${Date.now()}.txt`);
+  const { runCli } = require('./cli-process.cjs');
+  const result = await runCli(process.env.CODEX_CLI_PATH || 'codex', [
+    'exec', '-m', CODEX_CONFIG.model, '-c', `model_reasoning_effort="${CODEX_CONFIG.reasoningEffort}"`,
+    '-s', 'read-only', '--ephemeral', '--skip-git-repo-check', '--json', '-'
+  ], prompt, { timeout: CODEX_CONFIG.timeout, app: 'dailyapp' });
+  if (!result.success) throw new Error(result.error);
+  let message = '';
+  for (const line of result.output.split('\n')) {
+    let event;
+    try { event = JSON.parse(line); } catch { continue; }
+    if (event.type === 'error' || event.type === 'turn.failed') throw new Error('Codex analysis failed');
+    if (event.type === 'item.completed' && event.item?.type === 'agent_message') message = event.item.text || '';
+  }
+  if (!message.trim()) throw new Error('Codex returned no message');
+  return message;
 
-    // 프롬프트를 stdin으로 전달 (- 플래그)
-    const args = [
-      'exec',
-      '-m', CODEX_CONFIG.model,
-      '-c', `model_reasoning_effort="${CODEX_CONFIG.reasoningEffort}"`,
-      '--ephemeral',
-      '--skip-git-repo-check',
-      '-o', tmpFile,
-      '-'  // stdin에서 프롬프트 읽기
-    ];
-
-    const child = spawn('codex', args, {
-      shell: true,
-      stdio: ['pipe', 'pipe', 'pipe'],
-      timeout: CODEX_CONFIG.timeout
-    });
-
-    // stdin으로 프롬프트 전달
-    child.stdin.write(prompt);
-    child.stdin.end();
-
-    let stderr = '';
-
-    child.stderr.on('data', (data) => {
-      stderr += data.toString();
-    });
-
-    child.on('close', (code) => {
-      try {
-        if (fs.existsSync(tmpFile)) {
-          const result = fs.readFileSync(tmpFile, 'utf-8').trim();
-          fs.unlinkSync(tmpFile);  // cleanup
-          resolve(result);
-        } else if (code === 0) {
-          resolve('');
-        } else {
-          reject(new Error(`Codex 종료 코드 ${code}: ${stderr.substring(0, 300)}`));
-        }
-      } catch (error) {
-        reject(error);
-      }
-    });
-
-    child.on('error', (error) => {
-      reject(new Error(`Codex 실행 실패: ${error.message}`));
-    });
-
-    // 타임아웃
-    setTimeout(() => {
-      child.kill();
-      reject(new Error('Codex 타임아웃'));
-    }, CODEX_CONFIG.timeout);
-  });
 }
 
 /**

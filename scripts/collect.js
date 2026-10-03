@@ -1,3 +1,4 @@
+const { saveCollection, kstDate } = require('./runFiles');
 /**
  * collect.js
  *
@@ -9,7 +10,6 @@
  * - Android: NEW_FREE 컬렉션에서 3일 이내 출시 앱
  */
 
-const store = require('app-store-scraper');
 const gplay = require('google-play-scraper');
 // ★Apple 신규앱 피드 동결(2026-07-09~) 대응 — 차트 신규 진입 방식
 const { collectIOSChartNew } = require('./iosChartNew');
@@ -125,64 +125,6 @@ function isNewApp(releaseDate, days) {
 }
 
 /**
- * iOS 앱스토어에서 신규 앱 수집 (app-store-scraper) - 단일 국가
- */
-async function collectIOSByCountry(country) {
-  const allApps = new Map();
-  let totalScanned = 0;
-
-  try {
-    const apps = await store.list({
-      collection: store.collection.NEW_FREE_IOS,
-      country: country.code,
-      num: 200
-    });
-
-    for (const app of apps) {
-      totalScanned++;
-      if (!allApps.has(app.id) && isNewApp(app.released, NEW_APP_DAYS_IOS)) {
-        allApps.set(app.id, {
-          id: String(app.id),
-          name: app.title,
-          developer: app.developer,
-          icon: app.icon,
-          category: translateCategory(app.primaryGenre || app.genre || ''),
-          url: app.url,
-          releaseDate: formatDateKO(app.released),
-          description: app.description || '',
-          country: country.code
-        });
-      }
-    }
-  } catch (error) {
-    console.error(`  ❌ iOS(${country.name}) 수집 실패:`, error.message);
-  }
-
-  return Array.from(allApps.values());
-}
-
-/**
- * iOS 앱스토어에서 신규 앱 수집 - 다국가
- */
-async function collectIOS() {
-  console.log('🍎 iOS 신규 앱 수집 시작... (최근 ' + NEW_APP_DAYS_IOS + '일 이내)');
-  const result = {};
-  let totalApps = 0;
-
-  for (const country of COUNTRIES) {
-    console.log(`  📍 ${country.name}(${country.code.toUpperCase()}) 수집 중...`);
-    const apps = await collectIOSByCountry(country);
-    result[country.code] = apps;
-    totalApps += apps.length;
-    console.log(`     → ${apps.length}개 발견`);
-    await sleep(500); // API 레이트 리밋 방지
-  }
-
-  console.log(`  ✅ iOS 총: ${totalApps}개 신규 앱`);
-  return result;
-}
-
-/**
  * 대기 함수
  */
 function sleep(ms) {
@@ -198,6 +140,7 @@ async function collectAndroidByCountry(country) {
   try {
     // NEW_FREE 컬렉션에서 신규 무료 앱 가져오기
     const apps = await gplay.list({
+      requestOptions: { cache: false },
       collection: gplay.collection.NEW_FREE,
       country: country.code,
       lang: country.lang,
@@ -277,6 +220,7 @@ async function main() {
   // 기존 형식 호환을 위해 한국 앱을 기본으로 설정
   const today = new Date();
   const result = {
+    collection_date: process.env.PIPELINE_DATE || kstDate(),
     수집일시: getKSTString(),
     날짜: `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${today.getDate()}일`,
     수집기준: { iOS: '차트 신규 진입(전일 대비)', Android: `최근 ${NEW_APP_DAYS_ANDROID}일` },
@@ -290,7 +234,7 @@ async function main() {
   };
 
   const outputPath = path.join(outputDir, 'collected_apps.json');
-  await fs.writeFile(outputPath, JSON.stringify(result, null, 2), 'utf-8');
+  await saveCollection(result);
 
   console.log('');
   console.log('═'.repeat(50));

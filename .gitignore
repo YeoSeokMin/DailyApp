@@ -64,3 +64,11 @@ output/ios_chart/
 
 # 루트 reports/ 는 생성물 (정식 경로는 web/data/reports/). ★앞의 / 필수 — 없으면 web/data/reports/ 까지 무시된다
 /reports/
+
+# Per-run inputs, responses and progress
+output/runs/
+output/last-success.json
+output/.pipeline.lock
+
+# Release marker is local deployment state
+.release-ready

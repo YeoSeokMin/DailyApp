@@ -1,3 +1,5 @@
+import { randomUUID } from 'node:crypto';
+import { readSubmission, storeSubmission } from '@/lib/submissionGuard';
 import { NextRequest, NextResponse } from 'next/server';
 import { kv } from '@vercel/kv';
 
@@ -20,21 +22,22 @@ interface Feedback {
 }
 
 function generateId() {
-  return `fb_web_${Date.now()}_${Math.random().toString(36).slice(2, 11)}`;
+  return `fb_web_${randomUUID()}`;
 }
 
-// 관리자 키: x-admin-key 헤더 권장 (쿼리 ?key= 는 채팅 DELETE 와 같은 방식이라 함께 허용)
+// 관리자 키는 로그에 남지 않도록 헤더로 받습니다.
 function isAdmin(request: NextRequest): boolean {
-  const key = request.headers.get('x-admin-key') || new URL(request.url).searchParams.get('key');
+  const key = request.headers.get('x-admin-key');
   return !!process.env.ADMIN_KEY && key === process.env.ADMIN_KEY;
 }
 
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
+    let body;
+    try { body = await readSubmission(request); } catch { return NextResponse.json({ success: false, error: 'invalid_request' }, { status: 400 }); }
     const { appName, category, section, content, severity } = body;
 
-    if (typeof appName !== 'string' || !appName.trim() || !CATEGORIES.includes(category) ||
+    if (typeof appName !== 'string' || !appName.trim() || (typeof category !== 'string' || !CATEGORIES.includes(category)) ||
         typeof content !== 'string' || !content.trim()) {
       return NextResponse.json({
         success: false,
@@ -49,13 +52,13 @@ export async function POST(request: NextRequest) {
       category,
       section: typeof section === 'string' && section ? section.slice(0, 50) : 'overall',
       content: content.trim().slice(0, 200),
-      severity: Number.isInteger(severity) && severity >= 1 && severity <= 5 ? severity : 3,
+      severity: typeof severity === 'number' && Number.isInteger(severity) && severity >= 1 && severity <= 5 ? severity : 3,
       resolved: false,
       source: 'web',
     };
 
-    await kv.lpush(FEEDBACK_KEY, feedback);
-    await kv.ltrim(FEEDBACK_KEY, 0, MAX_FEEDBACKS - 1);
+    const blocked = await storeSubmission(request, 'feedback', feedback, JSON.stringify([feedback.appName, feedback.category, feedback.content]));
+    if (blocked) return blocked;
 
     return NextResponse.json({
       success: true,

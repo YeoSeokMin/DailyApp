@@ -8,7 +8,7 @@
  * - 시장 갭 분석
  */
 
-const store = require('app-store-scraper');
+const store = require('./appleStore');
 const gplay = require('google-play-scraper');
 
 // 카테고리 매핑 (한글 → 영문)
@@ -49,7 +49,7 @@ async function searchIOS({ term, category, country = 'kr', limit = 20 }) {
     } else if (category) {
       const categoryEn = CATEGORY_MAP[category] || category;
       return await store.list({
-        category: store.category[categoryEn.toUpperCase().replace(/ /g, '_')] || 6014,
+        category: store.category[categoryEn.toUpperCase().replace(/ & /g, '_AND_').replace(/ /g, '_')] || 6014,
         collection: store.collection.TOP_FREE_IOS,
         country,
         num: limit
@@ -69,6 +69,7 @@ async function searchAndroid({ term, category, country = 'kr', limit = 20 }) {
   try {
     if (term) {
       return await gplay.search({
+        requestOptions: { cache: false },
         term,
         country,
         num: limit,
@@ -77,7 +78,8 @@ async function searchAndroid({ term, category, country = 'kr', limit = 20 }) {
     } else if (category) {
       const categoryEn = CATEGORY_MAP[category] || category;
       return await gplay.list({
-        category: gplay.category[categoryEn.toUpperCase().replace(/ /g, '_')] || 'APPLICATION',
+        requestOptions: { cache: false },
+        category: gplay.category[categoryEn.toUpperCase().replace(/ & /g, '_AND_').replace(/ /g, '_')] || 'APPLICATION',
         collection: gplay.collection.TOP_FREE,
         country,
         num: limit

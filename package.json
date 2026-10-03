@@ -9,7 +9,8 @@
     "save": "node scripts/save-report.js",
     "kakao:auth": "node scripts/kakao-auth.js",
     "kakao:send": "node scripts/send-kakao.js",
-    "daily": "npm run collect && npm run analyze && npm run save && npm run kakao:send"
+    "daily": "bash run-pipeline.sh",
+    "test:reliability": "node --test tests/*.test.cjs"
   },
   "keywords": [
     "app",
@@ -22,11 +23,13 @@
   "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.71.2",
-    "app-store-scraper": "^0.18.0",
     "axios": "^1.6.0",
     "cheerio": "^1.1.2",
     "dotenv": "^16.3.0",
     "google-play-scraper": "^9.1.0",
-    "puppeteer-core": "^24.34.0"
+    "puppeteer-core": "25.12.0"
+  },
+  "engines": {
+    "node": ">=24.21.0 <25"
   }
 }

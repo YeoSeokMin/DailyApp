@@ -15,7 +15,7 @@ async function main() {
   console.log('═'.repeat(50));
 
   const projectDir = path.join(__dirname, '..');
-  const reportPath = path.join(projectDir, 'output', 'report.json');
+  const reportPath = process.env.REPORT_OUTPUT || path.join(projectDir, 'output', 'report.json');
 
   // 1. 리포트 읽기
   let report;
@@ -49,6 +49,7 @@ async function main() {
   const dateStr = report.date ||
     `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
 
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(dateStr) || new Date(dateStr).toISOString().slice(0, 10) !== dateStr) throw new Error('Invalid report date');
   // 4. 출력 디렉토리 확인/생성
   const outputDir = path.join(projectDir, 'web', 'data', 'reports');
   await fs.mkdir(outputDir, { recursive: true });

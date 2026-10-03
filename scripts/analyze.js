@@ -1,3 +1,5 @@
+const { identifyApps, validateReport } = require('./sourceValidation');
+const { atomicJSON } = require('./runFiles');
 /**
  * analyze.js
  *
@@ -97,6 +99,7 @@ function cleanAppData(apps, limit) {
   return apps
     .slice(0, limit)
     .map(app => ({
+      source_id: app.source_id,
       name: app.name,
       developer: app.developer || '',
       category: app.category || '',
@@ -154,60 +157,12 @@ async function analyzeWithCLI(prompt) {
   //   리눅스에선 대용량 stdin 문제 없음(35.8KB 실측). 위 임시 파일은 디버깅용으로만 남긴다.
   const instruction = `${prompt}\n\nOutput only the JSON result, starting with { and ending with }.`;
 
-  return new Promise((resolve, reject) => {
-    const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print', ...CLAUDE_LEAN_FLAGS], {
-      shell: false,
-      stdio: ['pipe', 'pipe', 'pipe']
-    });
-
-    let stdout = '';
-    let stderr = '';
-    let settled = false;
-
-    const timeoutId = setTimeout(() => {
-      if (settled) return;
-      settled = true;
-      claude.kill();
-      reject(new Error(`타임아웃: ${ANALYZE_TIMEOUT_MIN}분 초과`));
-    }, ANALYZE_TIMEOUT_MIN * 60 * 1000);
-
-    const safeResolve = (value) => {
-      if (settled) return;
-      settled = true;
-      clearTimeout(timeoutId);
-      resolve(value);
-    };
-
-    const safeReject = (error) => {
-      if (settled) return;
-      settled = true;
-      clearTimeout(timeoutId);
-      reject(error);
-    };
-
-    claude.stdout.on('data', data => stdout += data.toString());
-    claude.stderr.on('data', data => stderr += data.toString());
-
-    claude.on('close', code => {
-      const trimmedStderr = stderr.trim();
-      if (trimmedStderr) {
-        console.log(`  ⚠️ Claude stderr: ${trimmedStderr.substring(0, 500)}`);
-      }
-
-      if (code === 0) {
-        console.log(`  ✅ Claude 응답 수신 완료 (${stdout.length}자)`);
-        safeResolve(stdout);
-      } else {
-        safeReject(new Error(`Claude 종료 코드 ${code}: ${trimmedStderr || 'stderr 없음'}`));
-      }
-    });
-
-    claude.on('error', safeReject);
-
-    // 프롬프트 전체를 stdin으로 전달
-    claude.stdin.write(instruction);
-    claude.stdin.end();
-  });
+  const { runCli } = require('./cli-process.cjs');
+  const result = await runCli(process.env.CLAUDE_CLI_PATH || 'claude',
+    ['--model', 'claude-sonnet-4-6', '--print', ...CLAUDE_LEAN_FLAGS], instruction,
+    { timeout: ANALYZE_TIMEOUT_MIN * 60000, app: 'dailyapp' });
+  if (!result.success) throw new Error(result.error);
+  return result.output;
 }
 
 /**
@@ -310,8 +265,8 @@ async function main() {
   console.log('═'.repeat(50));
 
   const projectDir = path.join(__dirname, '..');
-  const inputPath = path.join(projectDir, 'output', 'collected_apps.json');
-  const outputPath = path.join(projectDir, 'output', 'report.json');
+  const inputPath = process.env.COLLECTED_INPUT || path.join(projectDir, 'output', 'collected_apps.json');
+  const outputPath = process.env.REPORT_OUTPUT || path.join(projectDir, 'output', 'report.json');
   const promptPath = path.join(__dirname, 'prompt.txt');
   const reportsDir = path.join(projectDir, 'web', 'data', 'reports');
 
@@ -365,6 +320,8 @@ async function main() {
     allAndroidApps = appData.Android앱 || [];
   }
 
+  allIosApps = identifyApps(allIosApps, 'ios');
+  allAndroidApps = identifyApps(allAndroidApps, 'android');
   let iosApps = [];
   let androidApps = [];
 
@@ -429,6 +386,7 @@ async function main() {
       date: appData.날짜,
       exclude_apps: excludeList.length > 0 ? excludeList : [],
       iOS_apps: iosApps.map(app => ({
+        source_id: app.source_id,
         name: app.name_en || app.name,
         developer: app.developer,
         category: app.category_en || app.category,
@@ -438,6 +396,7 @@ async function main() {
         llm_score: app.llmScore || 0
       })),
       Android_apps: androidApps.map(app => ({
+        source_id: app.source_id,
         name: app.name_en || app.name,
         developer: app.developer,
         category: app.category_en || app.category,
@@ -470,6 +429,8 @@ async function main() {
   }
 
   fullPrompt += '\n\n---\n\n위 앱들을 분석하고 아래에 JSON을 출력하세요 (설명 없이 바로 {로 시작):\n';
+  fullPrompt += '\nEvery selected app MUST include source_id copied exactly from the input. Select only provided IDs for that platform. Never invent an ID or app.\n';
+  if (process.env.PIPELINE_RUN_DIR) await fs.writeFile(path.join(process.env.PIPELINE_RUN_DIR, 'prompt.txt'), fullPrompt, 'utf8');
   console.log(`   프롬프트: ${(fullPrompt.length / 1024).toFixed(1)}KB`);
   console.log('');
 
@@ -524,7 +485,8 @@ async function main() {
       console.log('📊 결과 파싱 중...');
 
       try {
-        report = extractJSON(result);
+        report = validateReport(extractJSON(result), { ios: iosApps, android: androidApps }, appData.collection_date);
+        if (process.env.PIPELINE_RUN_DIR) await fs.writeFile(path.join(process.env.PIPELINE_RUN_DIR, `response-${attempts}.txt`), result, 'utf8');
         console.log('  ✅ JSON 파싱 성공');
       } catch (parseError) {
         console.error('  ⚠️ JSON 파싱 실패:', parseError.message);
@@ -572,34 +534,6 @@ async function main() {
     const iosCount = report.ios?.length || 0;
     const androidCount = report.android?.length || 0;
 
-    // ★결정론적 방어 — 프롬프트 지시를 무시하고 지어냈으면 여기서 잘라낸다.
-    report.data_status = report.data_status || {};
-    if (IOS_UNAVAILABLE) {
-      if (iosCount > 0) {
-        console.log(`  🚨 조작 감지: iOS 입력 0건인데 결과 ${iosCount}건 → 강제로 비움`);
-      }
-      report.ios = [];
-      report.data_status.ios = 'unavailable';
-    }
-    if (ANDROID_UNAVAILABLE) {
-      if (androidCount > 0) {
-        console.log(`  🚨 조작 감지: Android 입력 0건인데 결과 ${androidCount}건 → 강제로 비움`);
-      }
-      report.android = [];
-      report.data_status.android = 'unavailable';
-    }
-
-    // ★app_url 은 AI 가 입력값을 옮겨 적는 필드라 "미확인"·"정보 없음" 이 섞여 들어왔다(웹에서 상대경로 404 링크).
-    //   URL 이 아니면 수집 원본에서 이름으로 복원하고, 못 찾으면 비운다(웹은 빈 값이면 링크를 숨긴다).
-    for (const [list, src] of [[report.ios, iosApps], [report.android, androidApps]]) {
-      for (const app of list || []) {
-        if (/^https?:\/\//.test(app.app_url || '')) continue;
-        const hit = src.find(s => s.url && [s.name, s.name_en].includes(app.name));
-        console.log(`  ⚠️ app_url 이 URL 아님: ${app.name} "${app.app_url}" → ${hit ? '원본 복원' : '비움'}`);
-        app.app_url = hit ? hit.url : '';
-      }
-    }
-
     // 입력이 있었는데 결과가 비었을 때만 실패로 본다
     if ((!IOS_UNAVAILABLE && (report.ios?.length || 0) === 0) ||
         (!ANDROID_UNAVAILABLE && (report.android?.length || 0) === 0)) {
@@ -617,7 +551,7 @@ async function main() {
     }
 
     // 9. 저장
-    await fs.writeFile(outputPath, JSON.stringify(report, null, 2), 'utf-8');
+    await atomicJSON(outputPath, report);
 
     console.log('');
     console.log('═'.repeat(50));
@@ -666,7 +600,7 @@ async function main() {
         }
 
         // 업데이트된 리포트 저장
-        await fs.writeFile(outputPath, JSON.stringify(report, null, 2), 'utf-8');
+        await atomicJSON(outputPath, report);
         console.log('\n✅ 심층 분석 완료! 리포트 업데이트됨');
       } catch (deepError) {
         console.log('  ⚠️ 심층 분석 스킵:', deepError.message);

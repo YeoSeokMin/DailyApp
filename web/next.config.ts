@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  outputFileTracingIncludes: { '/api/report-status': ['./data/reports/*.json'] },
   images: {
     remotePatterns: [
       {

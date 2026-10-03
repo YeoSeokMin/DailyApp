@@ -80,36 +80,11 @@ async function callClaude(prompt) {
     const { spawn } = require('child_process');
     const { CLAUDE_LEAN_FLAGS } = require('./claudeLean');
 
-    return new Promise((resolve, reject) => {
-      const claude = spawn('claude', ['--model', 'claude-sonnet-4-6', '--print', ...CLAUDE_LEAN_FLAGS], {
-        shell: false,
-        stdio: ['pipe', 'pipe', 'pipe']
-      });
-
-      let stdout = '';
-      let stderr = '';
-
-      claude.stdout.on('data', data => stdout += data.toString());
-      claude.stderr.on('data', data => stderr += data.toString());
-
-      claude.on('close', code => {
-        if (code === 0) {
-          resolve(stdout);
-        } else {
-          reject(new Error(`Claude CLI 실패: ${stderr}`));
-        }
-      });
-
-      claude.on('error', reject);
-      claude.stdin.write(prompt);
-      claude.stdin.end();
-
-      // 4.5분 타임아웃 (앱당 5분 중 여유 확보)
-      setTimeout(() => {
-        claude.kill();
-        reject(new Error('CLI 타임아웃 (4.5분 초과)'));
-      }, 270000);
-    });
+    const { runCli } = require('./cli-process.cjs');
+    const result = await runCli(process.env.CLAUDE_CLI_PATH || 'claude',
+      ['--model', 'claude-sonnet-4-6', '--print', ...CLAUDE_LEAN_FLAGS], prompt, { timeout: 270000, app: 'dailyapp' });
+    if (!result.success) throw new Error(result.error);
+    return result.output;
   }
 }
 

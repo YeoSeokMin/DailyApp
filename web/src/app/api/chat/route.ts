@@ -1,3 +1,5 @@
+import { randomUUID } from 'node:crypto';
+import { readSubmission, storeSubmission } from '@/lib/submissionGuard';
 import { NextRequest, NextResponse } from 'next/server';
 import { kv } from '@vercel/kv';
 import { getPusher, CHAT_CHANNEL, CHAT_EVENT } from '@/lib/pusher';
@@ -35,7 +37,7 @@ export async function DELETE(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     const messageId = searchParams.get('id');
-    const adminKey = searchParams.get('key');
+    const adminKey = request.headers.get('x-admin-key');
 
     // 관리자 키 검증
     if (!process.env.ADMIN_KEY || adminKey !== process.env.ADMIN_KEY) {
@@ -81,7 +83,8 @@ export async function DELETE(request: NextRequest) {
 // 메시지 전송
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.json();
+    let body;
+    try { body = await readSubmission(request); } catch { return NextResponse.json({ success: false, error: 'invalid_request' }, { status: 400 }); }
     const { nickname, message } = body;
 
     if (typeof message !== 'string' || !message.trim()) {
@@ -107,17 +110,14 @@ export async function POST(request: NextRequest) {
     }
 
     const chatMessage: ChatMessage = {
-      id: Date.now().toString(),
+      id: randomUUID(),
       nickname: (typeof nickname === 'string' && nickname.trim().slice(0, 20)) || '익명',
       message: message.trim(),
       timestamp: Date.now()
     };
 
-    // 리스트 앞에 추가
-    await kv.lpush(CHAT_KEY, chatMessage);
-
-    // 최대 개수 유지
-    await kv.ltrim(CHAT_KEY, 0, MAX_MESSAGES - 1);
+    const blocked = await storeSubmission(request, 'chat', chatMessage, chatMessage.message);
+    if (blocked) return blocked;
 
     // Pusher로 실시간 전송
     try {

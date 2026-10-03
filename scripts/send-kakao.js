@@ -15,7 +15,7 @@ const KAKAO_REST_API_KEY = process.env.KAKAO_REST_API_KEY;
 const KAKAO_CLIENT_SECRET = process.env.KAKAO_CLIENT_SECRET;
 const SITE_URL = process.env.SITE_URL || 'https://web-ten-delta-23.vercel.app';
 const ENV_FILE = path.join(__dirname, '..', '.env');
-const REPORT_FILE = path.join(__dirname, '..', 'output', 'report.json');
+const REPORT_FILE = process.env.REPORT_OUTPUT || path.join(__dirname, '..', 'output', 'report.json');
 
 if (!KAKAO_REST_API_KEY) {
   console.error('❌ KAKAO_REST_API_KEY가 .env에 설정되지 않았습니다.');

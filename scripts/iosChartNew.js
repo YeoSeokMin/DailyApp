@@ -18,7 +18,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const https = require('https');
 
-const SNAPSHOT_DIR = path.join(__dirname, '..', 'output', 'ios_chart');
+const SNAPSHOT_DIR = path.join(process.env.DAILYAPP_STATE_DIR || path.join(__dirname, '..', 'output'), 'ios_chart');
 const FEEDS = ['top-free', 'top-paid'];
 const LIMIT = 100;
 const FETCH_GAP_MS = 1500;          // 503 방지 — 1.5초 간격이면 안정적(실측)

@@ -1,0 +1,4 @@
+APP_ID=dailyapp
+APP_KIND=cron
+APP_PORT=0
+TIMESTAMP_NAME=dailyapp
