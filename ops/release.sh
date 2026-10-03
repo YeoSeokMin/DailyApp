@@ -89,7 +89,8 @@ start_release() {
     *)
       export APP_RELEASE="$release" APP_KIND APP_ID APP_PORT
       node "$SCRIPT_DIR/pm2-config.cjs" > "$RELEASE_ROOT/process.json" || return
-      pm2 startOrReload "$RELEASE_ROOT/process.json" --only "$APP_ID" --update-env
+      export PM2_MODULE_PATH="$(dirname "$(dirname "$(readlink -f "$(command -v pm2)")")")"
+      node "$SCRIPT_DIR/pm2-apply.cjs" "$RELEASE_ROOT/process.json"
       ;;
   esac
 }
