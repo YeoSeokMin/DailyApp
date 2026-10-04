@@ -1,0 +1,699 @@
+{
+  "date": "2026-10-05",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Auday - All-Day Watch Recorder",
+      "developer": "航江 郭",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/9f/72/f59f7212-81dd-6610-2eda-d290bd370b51/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/auday-all-day-watch-recorder/id6814210373",
+      "source_id": "fcd642ec5be384535e113bf4",
+      "idea_summary": "애플워치로 하루 전체 활동을 자동 타임라인 기록",
+      "analysis": {
+        "problem": "Apple Watch 착용자들이 하루 활동 흐름을 체계적으로 기록하고 복기하기 어렵다 [추론]",
+        "solution": "Apple Watch 상시 착용 패턴을 활용해 하루 전 구간 활동을 자동 타임라인으로 기록 [추론]",
+        "target_user": "Apple Watch 착용 중인 자기관리·생산성 관심 20-40대 [추론]",
+        "unique_point": "스마트워치를 단순 피트니스 트래커가 아닌 전일 라이프로그 기기로 전환하는 차별적 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Daylio",
+          "Apple Health"
+        ],
+        "timing_reason": "Apple Watch 시리즈 10 이후 배터리 개선으로 전일 착용률 증가, 라이프로그 수요 확대 [추론]",
+        "growth_potential": "Apple Watch 글로벌 누적 사용자 2억 명 이상 추정, 라이프로그 시장 꾸준히 성장 중 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 IAP 방식 추정 [추측]",
+        "pricing_suggestion": "월 2.99달러 구독 또는 9.99달러 일회성 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WatchKit",
+          "HealthKit",
+          "CoreData"
+        ],
+        "key_features": [
+          "워치 활동 자동 타임라인",
+          "일간 요약 뷰",
+          "활동 태그 및 메모",
+          "아이폰 동기화"
+        ],
+        "clone_tip": "HealthKit 데이터를 타임라인 UI로 시각화하는 것이 핵심, watchOS 백그라운드 태스크 처리 사전 숙지 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#애플워치"
+      ],
+      "verdict": "Apple Watch 생태계 특화 라이프로그, 틈새지만 충성 유저 확보 가능",
+      "country": "jp",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "Prettier(프리티어) - 더 예쁘게 찍히는 카메라",
+      "developer": "Dongwoo Ha",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/0d/69/fd0d69b2-79f5-a24f-46ec-22348c14f550/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/prettier-%ED%94%84%EB%A6%AC%ED%8B%B0%EC%96%B4-%EB%8D%94-%EC%98%88%EC%81%98%EA%B2%8C-%EC%B0%8D%ED%9E%88%EB%8A%94-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6769776776",
+      "source_id": "7c4168e80cf882e174cb4468",
+      "idea_summary": "AI로 더 예쁘게 찍히는 뷰티 카메라",
+      "analysis": {
+        "problem": "일반 카메라 앱은 조명·각도 보정 없이 실물을 그대로 담아 SNS용 인물 사진 품질이 낮다 [추론]",
+        "solution": "AI 기반 실시간 피부 보정·조명 최적화·각도 가이드로 자연스러운 뷰티 결과물 자동 생성 [추론]",
+        "target_user": "SNS 활동 활발한 10-30대 여성, 셀피 및 인물 사진 빈도 높은 사용자 [추론]",
+        "unique_point": "단순 필터가 아닌 AI 보정으로 자연스러운 결과물을 즉각 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BeautyPlus",
+          "Snow",
+          "AirBrush",
+          "Facetune"
+        ],
+        "timing_reason": "온디바이스 AI 추론 성능 향상으로 실시간 뷰티 보정 품질 대폭 개선된 시점 [추론]",
+        "growth_potential": "글로벌 뷰티 카메라 시장 연 10% 이상 성장 추세, 아시아 시장 공략 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 필터 IAP 또는 구독 모델 추정 [추측]",
+        "pricing_suggestion": "연 14.99달러 구독 또는 필터 팩 개별 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "500-2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreML",
+          "Vision Framework",
+          "ARKit",
+          "Metal"
+        ],
+        "key_features": [
+          "실시간 AI 피부 보정",
+          "조명 최적화",
+          "뷰티 필터",
+          "셀피 구도 가이드"
+        ],
+        "clone_tip": "Vision Framework 얼굴 인식 + CoreML 보정 모델 조합으로 온디바이스 처리, Metal로 실시간 렌더링 성능 확보 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#SNS",
+        "#뷰티"
+      ],
+      "verdict": "경쟁 치열하나 한국 인디 감각으로 아시아 여성 유저 공략 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "Echo - SSH + Mosh Client",
+      "developer": "Replay Software Limited",
+      "category": "Developer Tools",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5e/f5/29/5ef5299f-08af-3aa6-a497-cf2cd5526d0c/App_Icon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/echo-ssh-mosh-client/id6758669847",
+      "source_id": "a3ef7ac1f85cace4c149fb60",
+      "idea_summary": "iOS에서 SSH·Mosh로 원격 서버 안정 접속",
+      "analysis": {
+        "problem": "iOS에서 안정적이고 직관적인 SSH/Mosh 터미널 클라이언트 선택지가 제한적이다 [추론]",
+        "solution": "SSH와 Mosh 프로토콜을 모두 지원하는 iOS 네이티브 터미널로 이동 중에도 안정적 서버 접속 제공 [추론]",
+        "target_user": "iOS 기기를 개발 보조 도구로 사용하는 개발자·시스템 관리자·DevOps 엔지니어 [추론]",
+        "unique_point": "Mosh 프로토콜 지원으로 불안정 네트워크에서도 세션 유지, Termius 대비 경량·간결한 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Termius",
+          "Prompt 3",
+          "ShellFish",
+          "a-Shell"
+        ],
+        "timing_reason": "원격 근무 확산과 iOS 개발 생태계 성숙으로 모바일 터미널 수요 지속 증가 [추론]",
+        "growth_potential": "개발자 도구 앱은 소규모지만 고LTV 유저 확보 가능, 구독 전환율 높음 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 일회성 구매 또는 프리미엄 구독 추정 [추측]",
+        "pricing_suggestion": "9.99달러 일회성 구매 또는 월 2.99달러 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "1000-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "libssh2",
+          "mosh 오픈소스",
+          "Network.framework"
+        ],
+        "key_features": [
+          "SSH 연결 관리",
+          "Mosh 세션 지원",
+          "키보드 커스터마이징",
+          "호스트 즐겨찾기",
+          "키 파일 인증"
+        ],
+        "clone_tip": "libssh2 C 라이브러리를 Swift로 래핑하는 것이 핵심, Mosh는 공식 오픈소스 라이브러리 활용 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#개발자도구",
+        "#B2B2C"
+      ],
+      "verdict": "개발자 타겟 고LTV 틈새 앱, Mosh 지원이 핵심 차별점",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "서브 카메라",
+      "developer": "DAIN JUN",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/2e/51/572e512e-e844-efcf-9d4d-17d8e83be65b/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%84%9C%EB%B8%8C-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6770336562",
+      "source_id": "df012eaa6f0e6095ea7ace79",
+      "idea_summary": "구형 아이폰을 보조 카메라로 즉시 재활용",
+      "analysis": {
+        "problem": "구형 스마트폰이 서랍에 방치되고, 멀티앵글 촬영에 별도 카메라 장비 구매가 필요하다 [추론]",
+        "solution": "기존 보유 iOS 기기를 Wi-Fi/Bluetooth로 연결해 보조 카메라로 즉시 활용, 멀티뷰 촬영 지원 [추론]",
+        "target_user": "유튜버·콘텐츠 크리에이터·스트리머 중 추가 카메라 구매를 원하지 않는 1인 미디어 [추론]",
+        "unique_point": "별도 하드웨어 없이 유휴 iOS 기기를 즉시 카메라로 전환하는 저비용 멀티캠 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "EpocCam",
+          "Apple Continuity Camera",
+          "DroidCam"
+        ],
+        "timing_reason": "Apple Continuity Camera 기능으로 iOS 기기를 카메라로 활용하는 인식 확산, 크리에이터 경제 성장 [추론]",
+        "growth_potential": "1인 미디어 시장 성장에 따라 저비용 멀티캠 수요 꾸준히 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 고급 기능 IAP 추정 [추측]",
+        "pricing_suggestion": "4.99달러 일회성 구매, 4K·다중기기 연결은 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "300-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "MultipeerConnectivity",
+          "WebRTC"
+        ],
+        "key_features": [
+          "iOS 기기 간 카메라 스트리밍",
+          "저지연 전송",
+          "해상도 조절",
+          "원격 셔터"
+        ],
+        "clone_tip": "MultipeerConnectivity로 P2P 연결 후 AVFoundation으로 카메라 스트림 전송, 지연 최소화는 WebRTC 도입 검토 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#크리에이터",
+        "#B2C"
+      ],
+      "verdict": "구형 폰 재활용 니즈와 크리에이터 경제를 동시 공략하는 영리한 틈새앱",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "픽앤팝 - 내 손안의 가챠&쿠지샵",
+      "developer": "JoyToy",
+      "category": "Shopping",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/08/84/93/08849326-ca4b-0119-49d0-cc6821fa069a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%94%BD%EC%95%A4%ED%8C%9D-%EB%82%B4-%EC%86%90%EC%95%88%EC%9D%98-%EA%B0%80%EC%B1%A0-%EC%BF%A0%EC%A7%80%EC%83%B5/id6752372089",
+      "source_id": "105600b1ff452e3e82cf3f19",
+      "idea_summary": "랜덤 뽑기 쇼핑의 게임화로 수집 욕구 자극",
+      "analysis": {
+        "problem": "기존 이커머스는 수집형 굿즈 구매의 기대감과 흥미를 살리지 못하고 단순 구매 경험에 그친다 [추론]",
+        "solution": "가챠·복권 방식의 랜덤 뽑기 쇼핑 경험을 앱으로 구현해 수집형 아이템 구매에 게임적 요소를 결합 [추론]",
+        "target_user": "캐릭터 굿즈·피규어·수집품에 관심 있는 10-30대, 가챠 문화에 친숙한 사용자 [추론]",
+        "unique_point": "쇼핑과 게임화를 결합한 가챠 커머스 포맷, 구매 자체가 엔터테인먼트 경험으로 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "랜덤박스 앱류",
+          "일본 가챠 앱류",
+          "포켓몬카드 뽑기 서비스"
+        ],
+        "timing_reason": "MZ세대의 랜덤박스·가챠 문화 확산, 오프라인 뽑기 시장의 온라인화 트렌드 [추론]",
+        "growth_potential": "글로벌 블라인드박스 시장 수백억 달러 규모, 국내외 온라인 전환 수요 지속 성장 [추측]"
+      },
+      "business": {
+        "monetization": "가챠 아이템 구매 IAP 및 커머스 수수료 [추론]",
+        "pricing_suggestion": "뽑기 1회 500-5000원, 번들 패키지 할인 제공 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "1000-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "StoreKit 2",
+          "Firebase"
+        ],
+        "key_features": [
+          "랜덤 뽑기 애니메이션",
+          "수집 아이템 인벤토리",
+          "결제 연동",
+          "아이템 교환"
+        ],
+        "clone_tip": "StoreKit 2로 IAP 구현, 랜덤 확률 로직은 조작 방지를 위해 서버 사이드 처리 필수, 뽑기 애니메이션이 핵심 UX [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#가챠커머스",
+        "#B2C",
+        "#수집"
+      ],
+      "verdict": "수익성 높은 가챠 커머스, 규제 리스크와 아이템 소싱이 핵심 허들",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Suno 수노 - AI 음악 & 노래",
+      "developer": "Suno, Inc",
+      "category": "Music Creation",
+      "icon": "https://play-lh.googleusercontent.com/lIxYxKnQwksOzWMmNqWK3x3S5W7fDIVW9c5XWG9QF9KPHk5oZbsZcJKzWiKA-YOU7QiENwviQuyqXUkLPBaxNA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.suno.android",
+      "source_id": "81cf7fc274d56d5ae8e0ca8f",
+      "idea_summary": "텍스트 한 줄로 완성도 높은 노래를 즉시 생성",
+      "analysis": {
+        "problem": "음악 제작에는 전문 지식·악기·DAW 숙련이 필요해 일반인의 진입 장벽이 극도로 높다 [확인]",
+        "solution": "텍스트 프롬프트만으로 보컬·반주·구성을 갖춘 완성 노래를 수 초 내 AI 생성 [확인]",
+        "target_user": "음악적 배경 없이 창작 욕구가 있는 크리에이터, 콘텐츠 제작자, 음악 팬 전반 [추론]",
+        "unique_point": "보컬 포함 완성형 노래 생성이라는 점에서 기존 AI 작곡 도구와 차별화, 진입 장벽 제로 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Udio",
+          "Soundraw",
+          "Boomy",
+          "AIVA"
+        ],
+        "timing_reason": "생성 AI 대중화 시점과 맞물려 비전문가 음악 창작 수요 폭발적 증가 [확인]",
+        "growth_potential": "AI 음악 생성 시장 연평균 28% 이상 성장 전망, 크리에이터 이코노미 확장과 동반 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(무제한 생성·상업적 사용권) [확인]",
+        "pricing_suggestion": "월 8-24달러 티어별 구독, 무료 플랜으로 유입 후 유료 전환 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12개월 이상 [추론]",
+        "estimated_cost": "5000만원 이상 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Python",
+          "PyTorch",
+          "Transformer 모델",
+          "Cloud GPU"
+        ],
+        "key_features": [
+          "텍스트-음악 생성",
+          "장르·분위기 지정",
+          "노래 편집",
+          "공유 및 다운로드",
+          "라이선스 관리"
+        ],
+        "clone_tip": "핵심 AI 모델 자체 개발은 현실적으로 어려움, Meta MusicGen 등 오픈소스 모델 파인튜닝 후 API 래핑 방식으로 MVP 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 9
+      },
+      "tags": [
+        "#AI",
+        "#음악창작",
+        "#B2C",
+        "#크리에이터"
+      ],
+      "verdict": "AI 음악 생성 카테고리 선두, 기술 장벽 높으나 시장 잠재력 최상",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
+      "developer": "Macarong Factory Inc.",
+      "category": "Automotive",
+      "icon": "https://play-lh.googleusercontent.com/UI1edLUevtm7v10CMgOJGaKBOh9Sjh4cL_0BOBK5fBChxGFtkgCb1rpSj82_Ql3TLQ5nBqJxxdxj04B5Yc3J6f0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.nbdproject.macarong",
+      "source_id": "c83a2e8fbb724a528b723a95",
+      "idea_summary": "내 차 유지보수를 한 앱에서 기록·예약 통합 관리",
+      "analysis": {
+        "problem": "자동차 유지보수 이력이 영수증·메모·기억에 분산되어 적시 점검을 놓치는 경우가 많다 [추론]",
+        "solution": "엔진오일·타이어·세차·수리 등 모든 정비 기록을 통합 관리하고 서비스 예약까지 원스톱 제공 [추론]",
+        "target_user": "자가용 보유 20-50대, 차량 관리에 관심 있지만 체계적 기록 도구가 없던 드라이버 [추론]",
+        "unique_point": "정비 기록·예약·비용 관리를 하나의 앱에 통합한 포괄적 차량 관리 솔루션 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "카닥",
+          "AlfaDocs",
+          "Fuelly",
+          "Drivvo"
+        ],
+        "timing_reason": "차량 보유 비용 증가로 유지보수 비용 최적화 니즈 증가, 모바일 예약 문화 확산 [추론]",
+        "growth_potential": "국내 등록 자동차 2500만 대 이상, 차량 관리 앱 시장 꾸준한 성장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 정비소 B2B 광고·예약 수수료 추정 [추측]",
+        "pricing_suggestion": "개인 무료 기본 기능, 월 2.99달러 프리미엄, 정비소 파트너 수수료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "1000-3000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Jetpack",
+          "Room DB",
+          "Firebase",
+          "Google Maps API"
+        ],
+        "key_features": [
+          "차량 등록 및 관리",
+          "정비 기록 로그",
+          "다음 점검 알림",
+          "비용 통계",
+          "정비소 예약"
+        ],
+        "clone_tip": "Room DB로 차량·정비 데이터 로컬 저장 후 Firebase 동기화, 점검 알림 스케줄러가 핵심 리텐션 도구 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#자동차",
+        "#B2C"
+      ],
+      "verdict": "명확한 니즈 해결, 자가용 보유자라면 누구나 필요한 실용 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "캐치테이블",
+      "developer": "주식회사 와드",
+      "category": "Food and Dining",
+      "icon": "https://play-lh.googleusercontent.com/-XAp3u_yr0HZD1W9OFhppuWrRZz6CA2PCxGzKVk7lSvOJ3bQVi-Yqg2Gwy9csaAb5zMlIUiQm-IuCp_hH1gJAA",
+      "app_url": "https://play.google.com/store/apps/details?id=co.kr.catchtable.android.catchtable_app",
+      "source_id": "a520d1a5c5474f14d1ef4174",
+      "idea_summary": "웨이팅 없이 프리미엄 맛집 예약 성공률 극대화",
+      "analysis": {
+        "problem": "인기 레스토랑은 당일 예약이 어렵고 긴 웨이팅으로 식사 경험 만족도가 저하된다 [추론]",
+        "solution": "실시간 예약 현황 확인 및 빠른 선점, 웨이팅 알림으로 인기 맛집 방문 성공률 향상 [추론]",
+        "target_user": "특별한 날 프리미엄 다이닝을 원하는 20-40대, 미식가, 데이트·접대 식사 계획자 [추론]",
+        "unique_point": "국내 파인다이닝·인기 레스토랑에 특화된 예약 플랫폼, 단순 지도 앱 대비 예약 성공에 집중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "네이버 예약",
+          "테이블링",
+          "식신",
+          "포잉"
+        ],
+        "timing_reason": "코로나 이후 외식 수요 회복과 함께 프리미엄 다이닝 문화 확산, 모바일 예약 문화 정착 [추론]",
+        "growth_potential": "국내 외식 시장 100조 원 이상, 온라인 예약 전환율 지속 증가 추세 [추론]"
+      },
+      "business": {
+        "monetization": "식당 파트너 구독 수수료 및 예약당 수수료 [추론]",
+        "pricing_suggestion": "레스토랑 SaaS 월 구독 + 예약당 수수료 혼합 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "3000-8000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Jetpack",
+          "Firebase",
+          "Google Maps API",
+          "결제 SDK"
+        ],
+        "key_features": [
+          "실시간 예약 가능 현황",
+          "웨이팅 알림",
+          "메뉴 및 리뷰 조회",
+          "예약 관리",
+          "결제 연동"
+        ],
+        "clone_tip": "인기 레스토랑과의 파트너십이 핵심, 기술보다 BD가 더 중요. 특정 지역·카테고리 버티컬로 집중 시작 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#O2O",
+        "#외식",
+        "#B2B2C"
+      ],
+      "verdict": "강력한 수요 확인된 시장, 식당 파트너 네트워크가 핵심 해자",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
+      "developer": "브릿지웍스",
+      "category": "Rewards and Shopping",
+      "icon": "https://play-lh.googleusercontent.com/zrfZundKRFG4VQau3Rv1_S69V7l0jo644I1klaM2DLeH7OTN7JM34P_qQlSe4rPnW6RiPUNDeVeIcxFso-76ZQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bridgeworks.cashmore",
+      "source_id": "82b09e347af633246fc5dd01",
+      "idea_summary": "영수증 촬영만으로 현금 캐시백 즉시 적립",
+      "analysis": {
+        "problem": "소비자는 구매 데이터를 제공하는데도 별다른 혜택을 받지 못하고, 영수증은 쓰레기로 버려진다 [추론]",
+        "solution": "일상 구매 영수증을 촬영 업로드하면 현금 캐시백과 리워드를 제공해 소비 데이터 가치를 소비자에게 환원 [추론]",
+        "target_user": "절약 습관을 가진 20-40대, 소비 기록에 관심 있는 주부·직장인 [추론]",
+        "unique_point": "영수증 업로드만으로 즉시 현금화 가능한 리워드 제공, 진입 장벽 최소화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "캐시워크",
+          "토스 리워드",
+          "Fetch Rewards",
+          "Ibotta"
+        ],
+        "timing_reason": "유통·마케팅사의 소비자 구매 데이터 수요 증가, 리워드 앱 수익성 검증 완료 [추론]",
+        "growth_potential": "영수증 기반 리워드 모델은 광고주·유통사 B2B 수익으로 확장 가능, 국내외 성공 사례 다수 [추론]"
+      },
+      "business": {
+        "monetization": "광고주·유통사 소비 데이터 판매 수수료 및 제휴 마케팅 수수료 [추론]",
+        "pricing_suggestion": "소비자 무료, B2B 데이터 분석 서비스 유료화 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "1000-3000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ML Kit OCR",
+          "Firebase",
+          "Python 데이터 처리",
+          "REST API"
+        ],
+        "key_features": [
+          "영수증 OCR 스캔",
+          "구매 내역 자동 분류",
+          "리워드 적립",
+          "현금 출금",
+          "소비 통계"
+        ],
+        "clone_tip": "Google ML Kit OCR로 영수증 텍스트 추출, 파싱 로직이 핵심. B2B 데이터 수익화 파이프라인을 초기부터 설계해야 수익 구조 완성 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#리워드",
+        "#B2B2C",
+        "#데이터수익화"
+      ],
+      "verdict": "검증된 수익 모델, OCR 정확도와 B2B 파트너십이 성패 좌우",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "로밍도깨비 eSIM – 데이터가 필요한 순간",
+      "developer": "Uangel Rokebi",
+      "category": "Travel and Connectivity",
+      "icon": "https://play-lh.googleusercontent.com/kxWL_PEXyiWxQK_NligRcFH-JKYHS72DTjXU2uVsJYrVSfygpTijqIgPWJ0Rv7wppPoNQE6_x1s8ERFUaSoP2g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.rokebiesim",
+      "source_id": "edbf4134c8d86d0a7c261171",
+      "idea_summary": "해외 여행 중 eSIM으로 즉시 데이터 개통",
+      "analysis": {
+        "problem": "해외 여행 시 로밍 요금 과다, 현지 유심 구매 번거로움, 데이터 부족 등의 불편이 지속된다 [추론]",
+        "solution": "앱에서 eSIM 데이터 플랜을 즉시 구매·설치해 공항 도착 전부터 현지 데이터 사용 가능하게 함 [추론]",
+        "target_user": "해외 여행 빈도 높은 20-50대 한국인, 출장·어학연수·장기 여행자 [추론]",
+        "unique_point": "국내 도깨비 브랜드 활용으로 친근감 형성, 국내 여행자 특화 요금제 및 한국어 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Airalo",
+          "Holafly",
+          "SKT T로밍",
+          "KT 로밍"
+        ],
+        "timing_reason": "eSIM 지원 기기 보급 확대, 해외여행 수요 회복 및 꾸준한 증가세 [추론]",
+        "growth_potential": "글로벌 eSIM 시장 연 20% 이상 고성장, 한국 해외여행 수요 지속 증가 [추론]"
+      },
+      "business": {
+        "monetization": "데이터 플랜 판매 마진 및 통신사 파트너 수수료 [추론]",
+        "pricing_suggestion": "국가별 다양한 플랜 제공, 번들 할인 및 충전식 크레딧 모델 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "2000-5000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Jetpack",
+          "eSIM API",
+          "결제 SDK",
+          "Firebase"
+        ],
+        "key_features": [
+          "국가별 eSIM 플랜 탐색",
+          "즉시 eSIM 설치",
+          "데이터 잔량 모니터링",
+          "결제 연동",
+          "고객 지원"
+        ],
+        "clone_tip": "eSIM 발급은 GSMA 표준 API 및 통신사 파트너십 필요, Airalo 같은 eSIM 도매 플랫폼 제휴로 인프라 단축 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#여행",
+        "#eSIM",
+        "#B2C",
+        "#한국시장"
+      ],
+      "verdict": "해외여행 필수 앱 포지셔닝 가능, 통신사 파트너십 확보가 핵심",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 생성 도구의 모바일화와 특정 니즈에 집중한 버티컬 앱이 동시에 부상하고 있다. 범용 플랫폼보다 구체적 문제를 정밀 해결하는 앱이 높은 리텐션과 수익성을 기록하는 흐름이 뚜렷하다.",
+    "trend_details": [
+      "AI 음악·창작 도구의 모바일 대중화: Suno처럼 전문가 영역이던 창작 도구가 일반인 대상 앱으로 진화, 비전문가 창작 수요 폭발 [추론]",
+      "Apple Watch 생태계 특화 앱 증가: Auday처럼 웨어러블 기기를 중심으로 한 라이프로그·헬스 앱 니즈 확대 [추론]",
+      "영수증·소비 데이터 리워드 모델 확산: 소비자에게 데이터 가치를 환원하는 방식으로 B2B 수익화를 동시에 달성하는 구조 [추론]",
+      "eSIM 여행 앱 성장: 해외여행 수요 회복과 eSIM 기기 보급 확대가 맞물려 여행 연결성 앱 시장 고성장 [추론]"
+    ],
+    "hot_categories": [
+      "AI 창작 도구",
+      "웨어러블 연계 라이프로그",
+      "리워드 커머스",
+      "여행 테크",
+      "버티컬 자동차 관리"
+    ],
+    "opportunity": "AI를 특정 버티컬에 결합한 전문화 앱: 음악에 국한하지 않고 AI를 차량 진단·영수증 분석·뷰티 보정 등 구체적 일상 니즈에 적용한 버티컬 AI 앱이 블루오션 [추론]",
+    "action_item": "보유한 구형 iOS 기기를 Secondary Camera처럼 재활용하는 아이디어나 Auday 유형의 Apple Watch 라이프로그 앱 MVP를 SwiftUI로 1인 개발 시작, 저비용 빠른 검증 가능"
+  },
+  "data_status": {}
+}
