@@ -1,0 +1,675 @@
+{
+  "date": "2026-10-06",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "gyeop - 포즈가이드",
+      "developer": "Inha Jo",
+      "category": "Photo & Video",
+      "source_id": "6fb8db22b21de7c57db93111",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/3d/be/093dbe38-b9c5-7a34-0b92-2936ab6c7328/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gyeop-%ED%8F%AC%EC%A6%88%EA%B0%80%EC%9D%B4%EB%93%9C/id6804659040",
+      "idea_summary": "SNS 촬영을 위한 포즈 가이드 레퍼런스 앱",
+      "analysis": {
+        "problem": "SNS 사진 촬영 시 포즈가 어색하고 레퍼런스를 찾기 불편함 [추론]",
+        "solution": "다양한 포즈 가이드와 시각적 참고자료를 한 곳에 제공 [확인]",
+        "target_user": "20-30대 SNS 활성 사용자, 특히 사진 촬영을 즐기는 여성 [추론]",
+        "unique_point": "포즈 가이드에 특화된 사진 보조 앱으로 SNS 콘텐츠 제작자를 직접 타겟 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Pinterest",
+          "Instagram Reels"
+        ],
+        "timing_reason": "숏폼 콘텐츠 폭발적 성장으로 개인 콘텐츠 제작 수요 급증 [추론]",
+        "growth_potential": "글로벌 SNS 사용자 기반으로 국제 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "구독 또는 프리미엄 포즈 팩 인앱결제 방식 [추론]",
+        "pricing_suggestion": "월 2.99-4.99달러 구독 또는 포즈 카테고리 팩 별도 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1000 [추론]",
+        "tech_stack": [
+          "Swift",
+          "UIKit",
+          "Firebase"
+        ],
+        "key_features": [
+          "포즈 카테고리 분류",
+          "즐겨찾기 기능",
+          "포즈 검색",
+          "카메라 오버레이"
+        ],
+        "clone_tip": "자체 큐레이션 포즈 DB 구축 후 카메라 오버레이 기능 추가 시 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#콘텐츠크리에이터"
+      ],
+      "verdict": "SNS 시대 포즈 가이드 니즈를 정확히 겨냥한 틈새 앱, 글로벌 확장 잠재력 있음",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "Haptic Interval Timer",
+      "developer": "FatCouple OÜ",
+      "category": "Utilities",
+      "source_id": "64d8512665650a3930760b04",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/9b/ee/469bee50-3ced-7d89-648a-766cfa9c65da/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/haptic-interval-timer/id6804729626",
+      "idea_summary": "진동 피드백으로 운동 인터벌을 알려주는 타이머",
+      "analysis": {
+        "problem": "운동 중 화면을 보지 않고 타이밍을 인지하기 어려움 [추론]",
+        "solution": "커스터마이즈 가능한 햅틱 진동으로 인터벌 타이밍 제공 [확인]",
+        "target_user": "HIIT 트레이닝, 러닝, 수영 등 활동적인 운동을 즐기는 피트니스 애호가 [추론]",
+        "unique_point": "시각·청각 알림 대신 햅틱에 특화된 인터벌 타이머로 조용한 환경에서도 사용 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Interval Timer by Deltaworks",
+          "Seconds Pro",
+          "SmartGym"
+        ],
+        "timing_reason": "웨어러블 기기 보급 및 홈트레이닝 문화 정착으로 피트니스 앱 수요 지속 성장 [추론]",
+        "growth_potential": "Apple Watch 연동 및 글로벌 피트니스 시장 공략 시 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 프리미엄 기능 인앱결제 방식 [추론]",
+        "pricing_suggestion": "3.99달러 일회성 구매 또는 프리미엄 기능 1.99달러 인앱결제 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-600 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreHaptics",
+          "WatchKit"
+        ],
+        "key_features": [
+          "커스텀 인터벌 설정",
+          "햅틱 패턴 커스터마이즈",
+          "사전 설정 운동 템플릿",
+          "Apple Watch 연동"
+        ],
+        "clone_tip": "iOS CoreHaptics API 활용하면 구현 난이도 낮음, Apple Watch 연동으로 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#피트니스"
+      ],
+      "verdict": "간단하지만 명확한 니즈 해결, CoreHaptics 활용한 1인 개발 입문 프로젝트로 적합",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "와이파이 렌즈",
+      "developer": "Taejin Kim",
+      "category": "Utilities",
+      "source_id": "40ca6dcfa5c8734b96ab1738",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/19/6a/27196afe-95f8-63a9-6126-b6b48df73c3d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%99%80%EC%9D%B4%ED%8C%8C%EC%9D%B4-%EB%A0%8C%EC%A6%88/id6816278907",
+      "idea_summary": "주변 와이파이 신호 강도와 채널을 시각화하는 분석 앱",
+      "analysis": {
+        "problem": "가정·사무실 와이파이 품질 저하 원인을 파악하기 어려움 [추론]",
+        "solution": "주변 네트워크 신호 강도, 채널 분포, 연결 품질을 시각적으로 분석 [확인]",
+        "target_user": "홈 네트워크 최적화를 원하는 IT 관심 사용자 및 소규모 사업자 [추론]",
+        "unique_point": "직관적인 UI로 비전문가도 와이파이 환경 문제를 즉시 파악 가능한 분석 도구 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Network Analyzer",
+          "WiFi SweetSpots",
+          "NetSpot"
+        ],
+        "timing_reason": "스마트홈 기기 증가로 와이파이 채널 간섭 문제가 빈번해져 분석 도구 수요 증가 [추론]",
+        "growth_potential": "IoT 기기 확산에 따라 홈 네트워크 관리 도구 시장 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 고급 분석 기능 프리미엄 인앱결제 방식 [추론]",
+        "pricing_suggestion": "프리미엄 버전 4.99달러 또는 월 0.99달러 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-800 [추론]",
+        "tech_stack": [
+          "Swift",
+          "NetworkExtension",
+          "Charts framework"
+        ],
+        "key_features": [
+          "신호 강도 실시간 측정",
+          "채널 분포 시각화",
+          "네트워크 품질 스코어",
+          "히트맵 생성"
+        ],
+        "clone_tip": "iOS NetworkExtension 프레임워크로 와이파이 정보 접근 가능하나 권한 제한 있어 기능 설계 시 주의 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "명확한 문제 해결 유틸리티, iOS 권한 제약 극복이 핵심 과제",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "Manager for Scooters",
+      "developer": "Radoslaw Marciniak",
+      "category": "Travel",
+      "source_id": "60a14d09e13d4cec0e3da8f2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/5e/c2/2a5ec264-4bb3-9438-9765-d5316676cb88/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/manager-for-scooters/id6778099993",
+      "idea_summary": "전동 스쿠터 유지보수와 주행 정보를 통합 관리하는 앱",
+      "analysis": {
+        "problem": "전동 킥보드·스쿠터 사용자들이 유지보수 일정과 주행 기록을 체계적으로 관리하기 어려움 [추론]",
+        "solution": "스쿠터 관련 이동 정보, 유지보수 기록, 사용 통계를 통합 관리 [확인]",
+        "target_user": "전동 스쿠터를 일상 교통 수단으로 사용하는 20-40대 도시 거주자 [추론]",
+        "unique_point": "자동차 관리 앱 패러다임을 스쿠터에 특화 적용한 마이크로모빌리티 관리 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Acty - Vehicle Management",
+          "OBD 기반 차량 관리 앱"
+        ],
+        "timing_reason": "글로벌 도시 마이크로모빌리티 시장 급성장, 전동 스쿠터 사용자 급증 [추론]",
+        "growth_potential": "마이크로모빌리티 시장 확대에 따라 잠재 사용자 풀 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 기본 무료 후 프리미엄 기능 인앱결제 [추론]",
+        "pricing_suggestion": "2.99달러 일회성 구매 또는 프리미엄 기능 연 9.99달러 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "400-700 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreData",
+          "MapKit"
+        ],
+        "key_features": [
+          "주행 기록 트래킹",
+          "유지보수 알림",
+          "배터리 관리",
+          "비용 추적"
+        ],
+        "clone_tip": "자동차 관리 앱 클론 후 스쿠터·킥보드에 특화된 항목으로 커스터마이즈하면 빠른 MVP 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#마이크로모빌리티"
+      ],
+      "verdict": "성장하는 마이크로모빌리티 시장 틈새 공략, 시장 규모 제한이 단점",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "name": "Moza - 모자이크, 블러, 가리기",
+      "developer": "Coffee Inc.",
+      "category": "Photo & Video",
+      "source_id": "aa478a69f9e20a479f7492f8",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/21/08/2221080a-ba4a-b078-c44d-a17a02531f9e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/moza-%EB%AA%A8%EC%9E%90%EC%9D%B4%ED%81%AC-%EB%B8%94%EB%9F%AC-%EA%B0%80%EB%A6%AC%EA%B8%B0/id6757701471",
+      "idea_summary": "사진 내 민감 정보를 모자이크·블러로 간편하게 처리하는 앱",
+      "analysis": {
+        "problem": "SNS 공유 전 사진 내 민감 정보(얼굴, 번호판, 주소 등)를 가려야 하는 불편함 [추론]",
+        "solution": "모자이크, 블러, 커버 효과를 직관적으로 적용하여 사진 내 민감 영역 처리 [확인]",
+        "target_user": "SNS 활성 사용자, 개인정보 보호에 민감한 20-40대 [추론]",
+        "unique_point": "복잡한 편집 도구 없이 개인정보 보호 기능만 집중 제공하는 단일 목적 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Snapseed",
+          "TouchRetouch",
+          "Blur Photo Editor Background"
+        ],
+        "timing_reason": "개인정보보호 의식 고조와 SNS 공유 문화 확산으로 사진 편집 보안 도구 수요 증가 [추론]",
+        "growth_potential": "개인정보보호법 강화 트렌드와 맞물려 꾸준한 수요 예상 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 고급 효과 또는 자동 감지 기능 프리미엄 인앱결제 [추론]",
+        "pricing_suggestion": "월 1.99달러 구독 또는 프리미엄 기능 3.99달러 일회성 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-600 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Image",
+          "Vision framework"
+        ],
+        "key_features": [
+          "모자이크 효과",
+          "가우시안 블러",
+          "스티커 커버",
+          "자동 얼굴·번호판 감지"
+        ],
+        "clone_tip": "Vision framework로 자동 얼굴 감지 구현 후 수동 터치 영역 처리 기능 결합하면 완성도 높아짐 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#프라이버시"
+      ],
+      "verdict": "개인정보보호 트렌드에 부합하는 실용 도구, 자동 감지 기능으로 차별화 가능",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+      "developer": "Fallcent",
+      "category": "Shopping",
+      "source_id": "1aee67569461c5d758ca8917",
+      "icon": "https://play-lh.googleusercontent.com/PtB6uKLbszcI6wg2-lRxn4Yr6JBPFe52MF3gN87xsuyPm14s3mUzITjgpQC02VrdgE4P6NscNe9ZYazuql4_QQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.deaguowl.fallcent",
+      "idea_summary": "가격 추적·비교·제휴 리워드를 통합한 스마트 쇼핑 도우미",
+      "analysis": {
+        "problem": "온라인 최저가 탐색, 가격 변동 추적, 제휴 쿠폰 관리가 분산되어 비효율적 [추론]",
+        "solution": "최저가 알림, 가격 비교, 제휴 쇼핑 보상을 하나의 앱에서 통합 제공 [확인]",
+        "target_user": "가성비 쇼핑을 중시하는 20-40대 온라인 쇼핑 활성 사용자 [추론]",
+        "unique_point": "최저가 알림과 제휴 리워드 적립을 동시에 제공하는 올인원 쇼핑 보조 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "에누리",
+          "다나와",
+          "네이버 가격비교"
+        ],
+        "timing_reason": "고물가 지속으로 가성비 소비 트렌드 강화, 이커머스 시장 제휴 마케팅 성장 [추론]",
+        "growth_potential": "제휴 쇼핑 수수료 기반 수익 모델로 사용자 확대 시 안정적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 쇼핑 수수료(CPA/CPS) 수익 모델 기반 [추론]",
+        "pricing_suggestion": "사용자 무료 서비스, 제휴 커미션으로 수익화 후 프리미엄 알림 기능 유료화 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1000-2000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Retrofit",
+          "Room DB",
+          "Firebase"
+        ],
+        "key_features": [
+          "가격 변동 알림",
+          "멀티 쇼핑몰 가격 비교",
+          "제휴 링크 자동 변환",
+          "핫딜 큐레이션"
+        ],
+        "clone_tip": "쿠팡 파트너스, 네이버 제휴, 11번가 제휴 API 연동부터 시작, 가격 크롤링은 각 쇼핑몰 이용약관 확인 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#이커머스",
+        "#제휴마케팅"
+      ],
+      "verdict": "높은 실용성과 제휴 수익 모델 검증된 앱, 국내 쇼핑몰 API 확보가 관건",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "애슬러, 남성 패션의 기준",
+      "developer": "Team Bind",
+      "category": "Shopping",
+      "source_id": "7a80d208c70607ad41ffb4f4",
+      "icon": "https://play-lh.googleusercontent.com/QBhWYEwR04UwrpXA4lfkIzPN4LgJkTA03FbAKCIcPqd1IglQl-TE9yRgTJTNGtgu6R7GhVLdO1nKOwEVEPhA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.athler",
+      "idea_summary": "남성 패션 전문 큐레이션 쇼핑 플랫폼",
+      "analysis": {
+        "problem": "남성 사용자를 위한 전용 패션 큐레이션 서비스가 부족하고 기존 플랫폼이 여성 중심 [추론]",
+        "solution": "남성 패션 제품 큐레이션, 스타일링 영감, 편리한 쇼핑 서비스 통합 제공 [확인]",
+        "target_user": "패션에 관심 있는 20-35세 남성으로 스타일에 투자할 의향이 있는 사용자 [추론]",
+        "unique_point": "남성 패션 전용 큐레이션에 집중한 버티컬 커머스 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "무신사",
+          "29CM",
+          "W컨셉"
+        ],
+        "timing_reason": "MZ세대 남성의 패션 관심도 상승과 그루밍 시장 성장으로 남성 패션 앱 수요 증가 [추론]",
+        "growth_potential": "남성 패션 시장 성장에 따라 충성 고객층 확보 시 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "커머스 거래 수수료 및 브랜드 입점 수수료 [추론]",
+        "pricing_suggestion": "사용자 무료, 셀러 수수료 3-10% 및 프리미엄 노출 광고 수익화 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "1500-3000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "Stripe"
+        ],
+        "key_features": [
+          "스타일 큐레이션 피드",
+          "브랜드 필터",
+          "위시리스트",
+          "코디 추천"
+        ],
+        "clone_tip": "무신사처럼 에디터 큐레이션으로 시작 후 마켓플레이스로 확장하는 전략이 초기 리스크 낮음 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2C",
+        "#패션",
+        "#버티컬커머스"
+      ],
+      "verdict": "남성 패션 버티컬 틈새 공략, 무신사와의 경쟁이 최대 도전 과제",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "현지뉴스",
+      "developer": "Apps Skyline",
+      "category": "News",
+      "source_id": "86bc779e1f2297426a2f5e31",
+      "icon": "https://play-lh.googleusercontent.com/E0S5sn4fZdMCFFSo4Z8MjNYkwX0p0cTwAeBytIhbnyuGsMX419Wi-fsOkn4ZYF2434vBwE5PTSoHUhRrkzlFuQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.localnews.android.kr.apps",
+      "idea_summary": "사용자 주변 지역의 뉴스와 커뮤니티 정보를 모아주는 앱",
+      "analysis": {
+        "problem": "내 동네·지역 소식을 한 곳에서 편리하게 보기 어렵고 분산된 채널 탐색이 불편 [추론]",
+        "solution": "사용자 위치 기반 지역 뉴스와 커뮤니티 정보를 자동 집약해 제공 [확인]",
+        "target_user": "자신의 생활권 정보에 관심 있는 30-50대 지역 거주자 [추론]",
+        "unique_point": "위치 기반 하이퍼로컬 뉴스 집약 서비스로 전국 단위 뉴스앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "네이버 뉴스",
+          "카카오뷰",
+          "당근마켓 동네생활"
+        ],
+        "timing_reason": "하이퍼로컬 서비스 트렌드 확산과 지역 커뮤니티 정보 수요 증가 [추론]",
+        "growth_potential": "지역 기반 광고 시장 성장과 함께 지역 상권 연계 수익화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "위치 기반 지역 광고 및 커뮤니티 프리미엄 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 광고 없는 프리미엄 월 1.99달러 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "700-1200 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google Maps API",
+          "RSS 파싱",
+          "Firebase"
+        ],
+        "key_features": [
+          "위치 기반 뉴스 필터",
+          "지역 뉴스 소스 집약",
+          "푸시 알림 설정",
+          "커뮤니티 게시판"
+        ],
+        "clone_tip": "지역 언론사 RSS 피드 집약 + 위치 API 결합으로 낮은 비용에 MVP 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#하이퍼로컬"
+      ],
+      "verdict": "지역 정보 집약 명확한 니즈, 당근마켓 등 강자 대비 차별화 전략 필요",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "MiSing - 언제 어디서나, 마음껏 노래해!",
+      "developer": "M&E Times Co.,Ltd.",
+      "category": "Music",
+      "source_id": "f8b866400f539f9a328e017e",
+      "icon": "https://play-lh.googleusercontent.com/BtRB3p-rArsqynp7EWZrKf8yDgY7m8qZ9LhwkGHVksIIrl_YlAOxV5aNjp75Vo0eQGZyLxL-tLjO5hMJ49r0qkc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.karaoke.pocket",
+      "idea_summary": "언제 어디서나 노래방처럼 즐길 수 있는 모바일 노래 앱",
+      "analysis": {
+        "problem": "노래방을 가지 않고 집이나 이동 중에 자유롭게 노래 연습 및 감상이 어려움 [추론]",
+        "solution": "카라오케 스타일 노래 서비스로 녹음, 공연, 엔터테인먼트 기능 제공 [확인]",
+        "target_user": "음악을 즐기고 노래를 취미로 하는 10-40대, 특히 아시아 시장 사용자 [추론]",
+        "unique_point": "장소 제약 없이 노래방 경험을 제공하는 모바일 카라오케 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Smule",
+          "StarMaker",
+          "TJ 노래방 앱",
+          "JOYSOUND"
+        ],
+        "timing_reason": "코로나 이후 홈 엔터테인먼트 정착과 아시아 카라오케 문화 디지털화 가속 [추론]",
+        "growth_potential": "동남아시아 카라오케 시장 성장세와 함께 글로벌 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 및 코인 기반 곡 구매 인앱결제 방식 [추론]",
+        "pricing_suggestion": "월 4.99달러 구독 또는 곡당 코인 구매 방식 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "2000-4000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "음악 라이선스 API",
+          "Firebase"
+        ],
+        "key_features": [
+          "가사 싱크 재생",
+          "음정 조절",
+          "녹음 및 공유",
+          "소셜 랭킹"
+        ],
+        "clone_tip": "음악 저작권 라이선스 확보가 최대 장벽, CCL 공개 음원으로 시작 후 점진적 확장 전략 추천 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#B2C",
+        "#음악",
+        "#아시아시장"
+      ],
+      "verdict": "카라오케 문화 강한 아시아 시장 공략 앱, 음악 저작권 확보가 성패를 가름",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "Nexus - AI Video Generator",
+      "developer": "DQL TechLab",
+      "category": "Photo & Video",
+      "source_id": "9df1de866afaf9e4ac4c01ee",
+      "icon": "https://play-lh.googleusercontent.com/7TuZaSZL2CY3ETKEVTeR6agOQAHMWp3UqLwcRXGSpebEZVLKAAsDOOd3FatIfxcB-_PCXwru2idNSibpvUBWCQ",
+      "app_url": "https://play.google.com/store/apps/details?id=ai.photogenerator.aivideo.aivideogenerator.aiart",
+      "idea_summary": "텍스트 프롬프트로 AI가 영상을 생성하는 크리에이티브 도구",
+      "analysis": {
+        "problem": "전문 지식 없이 고품질 AI 생성 영상을 만드는 것이 어렵고 접근성이 낮음 [추론]",
+        "solution": "텍스트 입력, 이미지, 개념 등 다양한 입력으로 AI 비디오 자동 생성 [확인]",
+        "target_user": "콘텐츠 크리에이터, 마케터, SNS 영상 제작에 관심 있는 20-35대 [추론]",
+        "unique_point": "모바일에서 간편하게 접근 가능한 AI 비디오 생성 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Runway",
+          "Pika Labs",
+          "CapCut AI",
+          "Sora"
+        ],
+        "timing_reason": "AI 생성 영상 기술 급성장과 숏폼 콘텐츠 수요 증가로 최적의 타이밍 [추론]",
+        "growth_potential": "AI 기술 발전에 따른 품질 개선과 크리에이터 이코노미 성장에 편승 가능 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧 기반 생성 횟수 제한 + 구독 무제한 서비스 [추론]",
+        "pricing_suggestion": "월 9.99달러 구독 또는 50크레딧 4.99달러 패키지 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "1500-3000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Stable Diffusion API",
+          "Runway API",
+          "Firebase"
+        ],
+        "key_features": [
+          "텍스트-투-비디오 생성",
+          "이미지-투-비디오 변환",
+          "스타일 선택",
+          "편집 도구"
+        ],
+        "clone_tip": "자체 AI 모델 개발 대신 Runway, Replicate 등 AI API 활용하면 개발 비용·기간 대폭 단축 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2C",
+        "#AI생성",
+        "#크리에이터"
+      ],
+      "verdict": "AI 비디오 시장 성장세 탑승 가능하나 글로벌 대형 플레이어와의 경쟁이 최대 리스크",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "2026년 10월 현재 AI 생성 도구와 개인화 버티컬 유틸리티 앱이 동시에 부상하는 양극화 트렌드가 뚜렷하다. 인플레이션 지속으로 가성비 쇼핑 도구와 틈새 콘텐츠 제작 보조 앱에 대한 수요가 동시에 높아지고 있다.",
+    "trend_details": [
+      "AI 기반 콘텐츠 생성 앱 증가 — 텍스트·이미지·영상 생성 도구 모바일 접근성 확대 [추론]",
+      "마이크로모빌리티 관련 관리 앱 등장 — 전동 킥보드·스쿠터 사용자 대상 틈새 서비스 증가 [추론]",
+      "개인정보 보호 특화 앱 증가 — 사진 블러·모자이크 등 프라이버시 도구 수요 상승 [추론]",
+      "하이퍼로컬 서비스 확대 — 지역 기반 뉴스 및 커뮤니티 정보 집약 서비스 성장 [추론]",
+      "피트니스 햅틱 활용 도구 등장 — 시각·청각 외 촉각 피드백 기반 운동 보조 앱 신규 출현 [추론]",
+      "남성 패션 버티컬 커머스 성장 — MZ세대 남성 패션 관심도 상승에 따른 전용 플랫폼 등장 [추론]"
+    ],
+    "hot_categories": [
+      "AI 생성 도구",
+      "프라이버시 유틸리티",
+      "가성비 쇼핑",
+      "피트니스 도구",
+      "하이퍼로컬 뉴스"
+    ],
+    "opportunity": "가성비 소비 트렌드와 AI 도구 대중화가 교차하는 지점 — AI 기반 가격 비교 및 쇼핑 최적화 앱 영역에 공백이 존재하며 SNS 콘텐츠 제작 보조 도구의 버티컬화 기회도 유망함 [추론]",
+    "action_item": "포즈 가이드 + AR 오버레이 결합처럼 단일 문제에 집중하는 버티컬 미니앱 형태로 MVP를 1-2개월 내 출시하고, SNS 크리에이터 커뮤니티에서 초기 피드백을 수집하는 린 스타트업 전략을 즉시 실행할 것"
+  },
+  "data_status": {}
+}
