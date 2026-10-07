@@ -1,30 +1,18 @@
 {
-  "generatedAt": "2026-10-06T15:12:22.009Z",
+  "generatedAt": "2026-10-07T15:13:12.840Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Health & Fitness",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "산로그 -등산 일기, 산행 일기, 등산 랭킹",
-        "DoseWeek: Injection Management and GLP-1 Tracking",
-        "My Personal Doctor – Telemedicine and Affordable Clinics"
-      ],
-      "avgScore": 7.633333333333333
-    },
-    {
       "category": "Photo & Video",
-      "currentCount": 10,
+      "currentCount": 11,
       "previousCount": 5,
-      "changePercent": 100,
+      "changePercent": 120,
       "changeDirection": "up",
       "apps": [
+        "CALM: Cinema Lighting Matcher",
         "gyeop - 포즈가이드",
         "Moza - 모자이크, 블러, 가리기",
         "Nexus - AI Video Generator",
@@ -36,7 +24,51 @@
         "Receipt Roll – Aesthetic Receipt Camera",
         "Momo: AI Photo & Video Maker"
       ],
-      "avgScore": 6.99
+      "avgScore": 7.0636363636363635
+    },
+    {
+      "category": "AI Photo and Video Editing",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Vidix-AI Photo Video Generator"
+      ],
+      "avgScore": 8
+    },
+    {
+      "category": "Alarm and Sleep",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "WakeBox"
+      ],
+      "avgScore": 7.3
+    },
+    {
+      "category": "Health and Fitness",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "setlog"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Cashback and Rewards",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ"
+      ],
+      "avgScore": 7.2
     },
     {
       "category": "Developer Tools",
@@ -160,30 +192,6 @@
       "avgScore": 6.5
     },
     {
-      "category": "Navigation",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "TerraGrid: MGRS Military GPS Navigation",
-        "BusGo Bus Arrival Alerts"
-      ],
-      "avgScore": 7.6
-    },
-    {
-      "category": "Games",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Rip Rush: Card Collector Arena",
-        "WePlay – Party Games"
-      ],
-      "avgScore": 6.65
-    },
-    {
       "category": "Sports",
       "currentCount": 1,
       "previousCount": 0,
@@ -193,43 +201,6 @@
         "Rips by Triumph"
       ],
       "avgScore": 6.5
-    },
-    {
-      "category": "Books",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "ReadMore - Clean Reading Records"
-      ],
-      "avgScore": 5.8
-    },
-    {
-      "category": "Collectibles",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "CrownCards – Trading Cards"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Music",
-      "currentCount": 5,
-      "previousCount": 3,
-      "changePercent": 67,
-      "changeDirection": "up",
-      "apps": [
-        "MiSing - 언제 어디서나, 마음껏 노래해!",
-        "M8 Music Tracker",
-        "AGAIN. Rehearsal Notes",
-        "Laleuca Looper",
-        "Practice Farm: Songs in Every Key"
-      ],
-      "avgScore": 6.8
     },
     {
       "category": "Shopping",
@@ -250,6 +221,35 @@
   ],
   "decliningCategories": [
     {
+      "category": "Utilities",
+      "currentCount": 5,
+      "previousCount": 6,
+      "changePercent": -17,
+      "changeDirection": "down",
+      "apps": [
+        "Wonder Mail - Inbox Cleaner",
+        "Haptic Interval Timer",
+        "와이파이 렌즈",
+        "FileRecover Pro",
+        "Fraud Countermeasures by NTT TownPage"
+      ],
+      "avgScore": 7.1
+    },
+    {
+      "category": "Music",
+      "currentCount": 4,
+      "previousCount": 5,
+      "changePercent": -20,
+      "changeDirection": "down",
+      "apps": [
+        "Beat Blocks - Rhythm Practice",
+        "MiSing - 언제 어디서나, 마음껏 노래해!",
+        "M8 Music Tracker",
+        "AGAIN. Rehearsal Notes"
+      ],
+      "avgScore": 7.175
+    },
+    {
       "category": "Lifestyle",
       "currentCount": 4,
       "previousCount": 5,
@@ -265,9 +265,9 @@
     },
     {
       "category": "Entertainment",
-      "currentCount": 7,
-      "previousCount": 9,
-      "changePercent": -22,
+      "currentCount": 6,
+      "previousCount": 10,
+      "changePercent": -40,
       "changeDirection": "down",
       "apps": [
         "zeta - AIキャラ・あなたの推しとロールプレイチャット",
@@ -275,24 +275,23 @@
         "MiniDrama - Exclusive Short Drama Platform",
         "Hanako Grandma Stickers",
         "FreeReels - Popular Short Korean-Japanese Dramas",
-        "Pocket FM: Audio Dramas",
-        "Crack – Web Novels and AI Chat"
+        "Pocket FM: Audio Dramas"
       ],
-      "avgScore": 7.057142857142858
+      "avgScore": 6.983333333333334
     },
     {
-      "category": "Utilities",
+      "category": "Productivity",
       "currentCount": 4,
-      "previousCount": 6,
-      "changePercent": -33,
+      "previousCount": 8,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "Haptic Interval Timer",
-        "와이파이 렌즈",
-        "FileRecover Pro",
-        "Fraud Countermeasures by NTT TownPage"
+        "언제했지 - 마지막으로 한 날",
+        "TimeCue – Reminders & Alerts",
+        "연락처 정리: 중복 병합 삭제",
+        "Daymirror – Plan vs. Reality 10-Minute Planner"
       ],
-      "avgScore": 7
+      "avgScore": 7.5
     },
     {
       "category": "News",
@@ -304,32 +303,21 @@
         "현지뉴스"
       ],
       "avgScore": 6.5
-    },
-    {
-      "category": "Finance",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Feed Household Ledger Pro"
-      ],
-      "avgScore": 6.2
-    },
-    {
-      "category": "Productivity",
-      "currentCount": 2,
-      "previousCount": 8,
-      "changePercent": -75,
-      "changeDirection": "down",
-      "apps": [
-        "연락처 정리: 중복 병합 삭제",
-        "Daymirror – Plan vs. Reality 10-Minute Planner"
-      ],
-      "avgScore": 7.5
     }
   ],
   "stableCategories": [
+    {
+      "category": "Navigation",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "EarthScope: GPS Map Camera",
+        "TerraGrid: MGRS Military GPS Navigation"
+      ],
+      "avgScore": 7.15
+    },
     {
       "category": "Travel",
       "currentCount": 1,
@@ -351,6 +339,18 @@
         "캐치테이블"
       ],
       "avgScore": 7.5
+    },
+    {
+      "category": "Health & Fitness",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "산로그 -등산 일기, 산행 일기, 등산 랭킹",
+        "DoseWeek: Injection Management and GLP-1 Tracking"
+      ],
+      "avgScore": 7.85
     },
     {
       "category": "Education",
@@ -379,15 +379,15 @@
       "avgScore": 7.8
     },
     {
-      "category": "Social Networking",
+      "category": "Games",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Bump – Connect With Friends Map"
+        "Rip Rush: Card Collector Arena"
       ],
-      "avgScore": 7.8
+      "avgScore": 6.5
     }
   ],
   "hotKeywords": [
@@ -396,6 +396,16 @@
       "category": "tag",
       "count": 64,
       "apps": [
+        "언제했지 - 마지막으로 한 날",
+        "CALM: Cinema Lighting Matcher",
+        "Beat Blocks - Rhythm Practice",
+        "Wonder Mail - Inbox Cleaner",
+        "EarthScope: GPS Map Camera",
+        "Vidix-AI Photo Video Generator",
+        "TimeCue – Reminders & Alerts",
+        "WakeBox",
+        "setlog",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
         "gyeop - 포즈가이드",
         "Haptic Interval Timer",
         "와이파이 렌즈",
@@ -448,17 +458,7 @@
         "Momo: AI Photo & Video Maker",
         "Pocket FM: Audio Dramas",
         "Rip Rush: Card Collector Arena",
-        "Rips by Triumph",
-        "BusGo Bus Arrival Alerts",
-        "Laleuca Looper",
-        "Practice Farm: Songs in Every Key",
-        "Feed Household Ledger Pro",
-        "ReadMore - Clean Reading Records",
-        "Bump – Connect With Friends Map",
-        "CrownCards – Trading Cards",
-        "Crack – Web Novels and AI Chat",
-        "WePlay – Party Games",
-        "My Personal Doctor – Telemedicine and Affordable Clinics"
+        "Rips by Triumph"
       ]
     },
     {
@@ -466,6 +466,11 @@
       "category": "tag",
       "count": 35,
       "apps": [
+        "언제했지 - 마지막으로 한 날",
+        "Beat Blocks - Rhythm Practice",
+        "EarthScope: GPS Map Camera",
+        "TimeCue – Reminders & Alerts",
+        "setlog",
         "gyeop - 포즈가이드",
         "Haptic Interval Timer",
         "와이파이 렌즈",
@@ -495,19 +500,16 @@
         "Daymirror – Plan vs. Reality 10-Minute Planner",
         "AGAIN. Rehearsal Notes",
         "Receipt Roll – Aesthetic Receipt Camera",
-        "Alarrrm – Date-Specific Reminder Alarm",
-        "BusGo Bus Arrival Alerts",
-        "Laleuca Looper",
-        "Practice Farm: Songs in Every Key",
-        "Feed Household Ledger Pro",
-        "ReadMore - Clean Reading Records"
+        "Alarrrm – Date-Specific Reminder Alarm"
       ]
     },
     {
       "keyword": "AR",
       "category": "ar_vr",
-      "count": 17,
+      "count": 15,
       "apps": [
+        "EarthScope: GPS Map Camera",
+        "WakeBox",
         "Thai Vocabulary Book | Thai Language Proficiency Test",
         "Business Career Certification Level 3 Logistics Exam Preparation",
         "CrimeRadar: Dispatch Alerts",
@@ -520,18 +522,16 @@
         "AGAIN. Rehearsal Notes",
         "Alarrrm – Date-Specific Reminder Alarm",
         "Moongchip – Phone Group Buying & Quote Comparison",
-        "Rip Rush: Card Collector Arena",
-        "BusGo Bus Arrival Alerts",
-        "Practice Farm: Songs in Every Key",
-        "CrownCards – Trading Cards",
-        "WePlay – Party Games"
+        "Rip Rush: Card Collector Arena"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 12,
+      "count": 14,
       "apps": [
+        "Wonder Mail - Inbox Cleaner",
+        "Vidix-AI Photo Video Generator",
         "Nexus - AI Video Generator",
         "Prettier(프리티어) - 더 예쁘게 찍히는 카메라",
         "Suno 수노 - AI 음악 & 노래",
@@ -539,8 +539,48 @@
         "Thai Vocabulary Book | Thai Language Proficiency Test",
         "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
         "AGAIN. Rehearsal Notes",
+        "Momo: AI Photo & Video Maker"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 7,
+      "apps": [
+        "Wonder Mail - Inbox Cleaner",
+        "Haptic Interval Timer",
+        "Auday - All-Day Watch Recorder",
+        "Echo - SSH + Mosh Client",
+        "Embroidery Grove Companion",
+        "M8 Music Tracker",
+        "M3 DigiKar Smart Medical Card"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 7,
+      "apps": [
+        "Vidix-AI Photo Video Generator",
+        "Nexus - AI Video Generator",
+        "CineLoupe",
+        "FileRecover Pro",
+        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
         "Momo: AI Photo & Video Maker",
-        "Crack – Web Novels and AI Chat"
+        "Pocket FM: Audio Dramas"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "tag",
+      "count": 7,
+      "apps": [
+        "Vidix-AI Photo Video Generator",
+        "Nexus - AI Video Generator",
+        "서브 카메라",
+        "Suno 수노 - AI 음악 & 노래",
+        "CineLoupe",
+        "Momo: AI Photo & Video Maker"
       ]
     },
     {
@@ -557,66 +597,62 @@
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 6,
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 5,
       "apps": [
-        "Haptic Interval Timer",
-        "Auday - All-Day Watch Recorder",
-        "Echo - SSH + Mosh Client",
+        "CALM: Cinema Lighting Matcher",
+        "Tulle - 웨딩 필름 카메라",
         "Embroidery Grove Companion",
-        "M8 Music Tracker",
-        "M3 DigiKar Smart Medical Card"
+        "DoseWeek: Injection Management and GLP-1 Tracking",
+        "AGAIN. Rehearsal Notes"
+      ]
+    },
+    {
+      "keyword": "생산성",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "Wonder Mail - Inbox Cleaner",
+        "TimeCue – Reminders & Alerts",
+        "연락처 정리: 중복 병합 삭제",
+        "Daymirror – Plan vs. Reality 10-Minute Planner"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "Wonder Mail - Inbox Cleaner",
+        "와이파이 렌즈",
+        "연락처 정리: 중복 병합 삭제",
+        "FileRecover Pro",
+        "Alarrrm – Date-Specific Reminder Alarm"
+      ]
+    },
+    {
+      "keyword": "일본시장",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+        "Fraud Countermeasures by NTT TownPage",
+        "M3 DigiKar Smart Medical Card",
+        "Hanako Grandma Stickers"
       ]
     },
     {
       "keyword": "커뮤니티",
       "category": "social",
-      "count": 6,
+      "count": 5,
       "apps": [
         "현지뉴스",
         "산로그 -등산 일기, 산행 일기, 등산 랭킹",
         "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
         "M3 DigiKar Smart Medical Card",
-        "Apartment i - Essential Apartment Living",
-        "ReadMore - Clean Reading Records"
-      ]
-    },
-    {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 6,
-      "apps": [
-        "Nexus - AI Video Generator",
-        "CineLoupe",
-        "FileRecover Pro",
-        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
-        "Momo: AI Photo & Video Maker",
-        "Pocket FM: Audio Dramas"
-      ]
-    },
-    {
-      "keyword": "크리에이터",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "Nexus - AI Video Generator",
-        "서브 카메라",
-        "Suno 수노 - AI 음악 & 노래",
-        "CineLoupe",
-        "Momo: AI Photo & Video Maker"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 6,
-      "apps": [
-        "산로그 -등산 일기, 산행 일기, 등산 랭킹",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Stamps - Seasonal Greetings",
-        "Feed Household Ledger Pro",
-        "Bump – Connect With Friends Map"
+        "Apartment i - Essential Apartment Living"
       ]
     },
     {
@@ -634,36 +670,12 @@
     {
       "keyword": "수집",
       "category": "tag",
-      "count": 5,
+      "count": 4,
       "apps": [
         "픽앤팝 - 내 손안의 가챠&쿠지샵",
         "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
         "Rip Rush: Card Collector Arena",
-        "Rips by Triumph",
-        "CrownCards – Trading Cards"
-      ]
-    },
-    {
-      "keyword": "니치마켓",
-      "category": "tag",
-      "count": 5,
-      "apps": [
-        "Tulle - 웨딩 필름 카메라",
-        "Embroidery Grove Companion",
-        "DoseWeek: Injection Management and GLP-1 Tracking",
-        "AGAIN. Rehearsal Notes",
-        "Practice Farm: Songs in Every Key"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "와이파이 렌즈",
-        "연락처 정리: 중복 병합 삭제",
-        "FileRecover Pro",
-        "Alarrrm – Date-Specific Reminder Alarm"
+        "Rips by Triumph"
       ]
     },
     {
@@ -678,17 +690,6 @@
       ]
     },
     {
-      "keyword": "일본시장",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Fraud Countermeasures by NTT TownPage",
-        "M3 DigiKar Smart Medical Card",
-        "Hanako Grandma Stickers"
-      ]
-    },
-    {
       "keyword": "구독",
       "category": "tag",
       "count": 4,
@@ -696,6 +697,16 @@
         "MiniDrama - Exclusive Short Drama Platform",
         "Compliance Camera",
         "Pocket FM: Audio Dramas"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 3,
+      "apps": [
+        "TimeCue – Reminders & Alerts",
+        "Manager for Scooters",
+        "DoseWeek: Injection Management and GLP-1 Tracking"
       ]
     },
     {
@@ -709,61 +720,52 @@
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "tag",
+      "keyword": "소셜",
+      "category": "social",
       "count": 3,
       "apps": [
-        "연락처 정리: 중복 병합 삭제",
-        "Daymirror – Plan vs. Reality 10-Minute Planner"
-      ]
-    },
-    {
-      "keyword": "커머스",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "Asler - The Standard in Men's Fashion",
-        "Moongchip – Phone Group Buying & Quote Comparison"
+        "산로그 -등산 일기, 산행 일기, 등산 랭킹",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+        "Stamps - Seasonal Greetings"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 40,
-        "percent": 57,
+        "count": 39,
+        "percent": 56,
         "examples": [
-          "와이파이 렌즈",
-          "Manager for Scooters",
-          "Moza - 모자이크, 블러, 가리기"
+          "Beat Blocks - Rhythm Practice",
+          "Vidix-AI Photo Video Generator",
+          "TimeCue – Reminders & Alerts"
         ]
       },
       "freemium": {
         "count": 50,
         "percent": 71,
         "examples": [
-          "gyeop - 포즈가이드",
-          "Haptic Interval Timer",
-          "와이파이 렌즈"
+          "언제했지 - 마지막으로 한 날",
+          "CALM: Cinema Lighting Matcher",
+          "Beat Blocks - Rhythm Practice"
         ]
       },
       "subscription": {
-        "count": 46,
-        "percent": 66,
+        "count": 45,
+        "percent": 64,
         "examples": [
-          "gyeop - 포즈가이드",
-          "와이파이 렌즈",
-          "Moza - 모자이크, 블러, 가리기"
+          "언제했지 - 마지막으로 한 날",
+          "Beat Blocks - Rhythm Practice",
+          "Wonder Mail - Inbox Cleaner"
         ]
       },
       "onetime": {
-        "count": 37,
-        "percent": 53,
+        "count": 39,
+        "percent": 56,
         "examples": [
-          "Haptic Interval Timer",
-          "Manager for Scooters",
-          "Moza - 모자이크, 블러, 가리기"
+          "언제했지 - 마지막으로 한 날",
+          "CALM: Cinema Lighting Matcher",
+          "Wonder Mail - Inbox Cleaner"
         ]
       },
       "unknown": {
@@ -777,9 +779,9 @@
       "count": 50,
       "percent": 71,
       "examples": [
-        "gyeop - 포즈가이드",
-        "Haptic Interval Timer",
-        "와이파이 렌즈"
+        "언제했지 - 마지막으로 한 날",
+        "CALM: Cinema Lighting Matcher",
+        "Beat Blocks - Rhythm Practice"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -791,47 +793,35 @@
         "count": 20,
         "percent": 29,
         "apps": [
-          "와이파이 렌즈",
-          "Prettier(프리티어) - 더 예쁘게 찍히는 카메라",
-          "Thai Vocabulary Book | Thai Language Proficiency Test",
-          "Business Career Certification Level 3 Logistics Exam Preparation",
-          "CrimeRadar: Dispatch Alerts"
+          "EarthScope: GPS Map Camera",
+          "TimeCue – Reminders & Alerts",
+          "WakeBox",
+          "setlog",
+          "와이파이 렌즈"
         ]
       },
       {
         "tech": "ai",
-        "count": 11,
-        "percent": 16,
+        "count": 14,
+        "percent": 20,
         "apps": [
-          "Nexus - AI Video Generator",
-          "Prettier(프리티어) - 더 예쁘게 찍히는 카메라",
-          "Suno 수노 - AI 음악 & 노래",
-          "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
-          "zeta - AIキャラ・あなたの推しとロールプレイチャット"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "현지뉴스",
-          "산로그 -등산 일기, 산행 일기, 등산 랭킹",
-          "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-          "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
-          "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts"
+          "CALM: Cinema Lighting Matcher",
+          "Wonder Mail - Inbox Cleaner",
+          "Vidix-AI Photo Video Generator",
+          "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+          "Nexus - AI Video Generator"
         ]
       },
       {
         "tech": "creator",
-        "count": 8,
-        "percent": 11,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "Vidix-AI Photo Video Generator",
           "Nexus - AI Video Generator",
           "서브 카메라",
           "CineLoupe",
-          "Thai Vocabulary Book | Thai Language Proficiency Test",
-          "MiniDrama - Exclusive Short Drama Platform"
+          "Thai Vocabulary Book | Thai Language Proficiency Test"
         ]
       },
       {
@@ -847,20 +837,25 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 2,
-        "percent": 3,
+        "tech": "social",
+        "count": 7,
+        "percent": 10,
         "apps": [
-          "연락처 정리: 중복 병합 삭제",
-          "Momo: AI Photo & Video Maker"
+          "CALM: Cinema Lighting Matcher",
+          "현지뉴스",
+          "산로그 -등산 일기, 산행 일기, 등산 랭킹",
+          "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+          "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen"
         ]
       },
       {
-        "tech": "health",
-        "count": 1,
-        "percent": 1,
+        "tech": "productivity",
+        "count": 3,
+        "percent": 4,
         "apps": [
-          "My Personal Doctor – Telemedicine and Affordable Clinics"
+          "TimeCue – Reminders & Alerts",
+          "연락처 정리: 중복 병합 삭제",
+          "Momo: AI Photo & Video Maker"
         ]
       },
       {
@@ -877,11 +872,11 @@
       "count": 20,
       "percent": 29,
       "apps": [
-        "와이파이 렌즈",
-        "Prettier(프리티어) - 더 예쁘게 찍히는 카메라",
-        "Thai Vocabulary Book | Thai Language Proficiency Test",
-        "Business Career Certification Level 3 Logistics Exam Preparation",
-        "CrimeRadar: Dispatch Alerts"
+        "EarthScope: GPS Map Camera",
+        "TimeCue – Reminders & Alerts",
+        "WakeBox",
+        "setlog",
+        "와이파이 렌즈"
       ]
     },
     "emerging": [
@@ -890,47 +885,35 @@
         "count": 20,
         "percent": 29,
         "apps": [
-          "와이파이 렌즈",
-          "Prettier(프리티어) - 더 예쁘게 찍히는 카메라",
-          "Thai Vocabulary Book | Thai Language Proficiency Test",
-          "Business Career Certification Level 3 Logistics Exam Preparation",
-          "CrimeRadar: Dispatch Alerts"
+          "EarthScope: GPS Map Camera",
+          "TimeCue – Reminders & Alerts",
+          "WakeBox",
+          "setlog",
+          "와이파이 렌즈"
         ]
       },
       {
         "tech": "ai",
-        "count": 11,
-        "percent": 16,
+        "count": 14,
+        "percent": 20,
         "apps": [
-          "Nexus - AI Video Generator",
-          "Prettier(프리티어) - 더 예쁘게 찍히는 카메라",
-          "Suno 수노 - AI 음악 & 노래",
-          "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
-          "zeta - AIキャラ・あなたの推しとロールプレイチャット"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "현지뉴스",
-          "산로그 -등산 일기, 산행 일기, 등산 랭킹",
-          "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-          "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
-          "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts"
+          "CALM: Cinema Lighting Matcher",
+          "Wonder Mail - Inbox Cleaner",
+          "Vidix-AI Photo Video Generator",
+          "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+          "Nexus - AI Video Generator"
         ]
       },
       {
         "tech": "creator",
-        "count": 8,
-        "percent": 11,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "Vidix-AI Photo Video Generator",
           "Nexus - AI Video Generator",
           "서브 카메라",
           "CineLoupe",
-          "Thai Vocabulary Book | Thai Language Proficiency Test",
-          "MiniDrama - Exclusive Short Drama Platform"
+          "Thai Vocabulary Book | Thai Language Proficiency Test"
         ]
       },
       {
@@ -944,16 +927,49 @@
           "캐치테이블",
           "Embroidery Grove Companion"
         ]
+      },
+      {
+        "tech": "social",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "CALM: Cinema Lighting Matcher",
+          "현지뉴스",
+          "산로그 -등산 일기, 산행 일기, 등산 랭킹",
+          "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+          "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen"
+        ]
       }
     ]
   },
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "Health & Fitness 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "AI Photo and Video Editing 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Health & Fitness"
+      "category": "AI Photo and Video Editing"
+    },
+    {
+      "type": "rising_category",
+      "title": "Alarm and Sleep 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Alarm and Sleep"
+    },
+    {
+      "type": "rising_category",
+      "title": "Health and Fitness 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Health and Fitness"
+    },
+    {
+      "type": "rising_category",
+      "title": "Cashback and Rewards 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Cashback and Rewards"
     },
     {
       "type": "rising_category",
@@ -1034,55 +1050,27 @@
     },
     {
       "type": "rising_category",
-      "title": "Navigation 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Navigation"
-    },
-    {
-      "type": "rising_category",
-      "title": "Games 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Games"
-    },
-    {
-      "type": "rising_category",
       "title": "Sports 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Sports"
-    },
-    {
-      "type": "rising_category",
-      "title": "Books 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Books"
-    },
-    {
-      "type": "rising_category",
-      "title": "Collectibles 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Collectibles"
     }
   ],
   "insight": {
-    "trend_summary": "Health & Fitness 카테고리가 200% 급성장하며 웰니스 앱 수요가 폭발적으로 증가하고 있고, AR/VR 기술이 전체 앱의 29%에 적용될 만큼 주류 기술로 자리잡고 있습니다. AI와 크리에이터 도구의 결합이 새로운 수익 모델을 만들어내는 가운데, freemium 전략(71%)이 시장 표준으로 굳어지고 있습니다.",
+    "trend_summary": "Photo & Video 카테고리가 120% 급증하며 AI 기반 영상 편집 수요가 폭발적으로 확대되고 있습니다. AR/VR 기술이 전체 앱의 29%를 차지하며 크리에이터 도구와 결합한 새로운 시장이 형성 중입니다. Freemium+구독 모델의 조합이 수익화 표준으로 자리잡고 있어 1인 개발자에게도 지속 수익 구조 설계가 가능해졌습니다.",
     "trend_details": [
-      "Health & Fitness 200% 급성장: 경쟁 앱 수가 적어 1인 개발자도 빠르게 선점 가능한 블루오션",
-      "AR 기술 대중화: 전체 앱 29%가 AR 탑재, 더 이상 대형 팀 전유물이 아닌 인디 개발자 접근 가능 영역",
-      "Freemium + Subscription 이중 모델: 71%/66% 채택률로 무료 진입 후 구독 전환 전략이 수익 최적화의 공식으로 정착"
+      "AI Photo & Video Editing 카테고리가 100% 성장했지만 앱 수가 극히 적어 경쟁 진입 장벽이 낮은 블루오션 상태",
+      "AR 기술이 전체 트렌드 앱의 29%에 탑재되며 카메라 기반 인터랙션이 앱 차별화의 핵심 요소로 부상",
+      "Alarm & Sleep, Health & Fitness 등 일상 루틴 카테고리가 동시에 100% 급등하며 웰니스 앱 수요 전반이 확대 중"
     ],
     "hot_categories": [
-      "Health & Fitness",
       "Photo & Video",
-      "Developer Tools",
-      "Music Creation"
+      "AI Photo and Video Editing",
+      "Health and Fitness",
+      "Alarm and Sleep"
     ],
-    "opportunity": "Health & Fitness 카테고리는 200% 성장에도 진입 앱 수가 3개에 불과해, AR 또는 AI 기능을 접목한 개인 맞춤형 웰니스 앱으로 빠른 선점이 가능한 최적의 진입 타이밍입니다.",
-    "action_item": "AR 기능을 활용한 간단한 Health & Fitness 앱 프로토타입을 이번 주 내로 제작하고, freemium 모델로 출시해 초기 사용자 피드백을 수집하세요.",
-    "weekly_theme": "AR 헬스케어 선점"
+    "opportunity": "AI 영상 편집 기능을 탑재한 크리에이터용 틈새 앱은 경쟁 앱이 거의 없는 상태에서 폭발적 수요를 맞이할 수 있는 가장 유망한 진입 기회입니다.",
+    "action_item": "카메라 필터 또는 AI 편집 기능 1개를 핵심으로 한 Photo & Video 앱 MVP를 프리미엄 구독 모델로 2주 내 출시 준비하세요.",
+    "weekly_theme": "AI 크리에이터 도구"
   }
 }

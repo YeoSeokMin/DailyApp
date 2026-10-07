@@ -1,0 +1,723 @@
+{
+  "date": "2026-10-08",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "하루테이프 - 빈티지 캠코더",
+      "developer": "soyoung park",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/51/cc/cb51cce0-8a80-e483-c588-441380ac4658/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%95%98%EB%A3%A8%ED%85%8C%EC%9D%B4%ED%94%84-%EB%B9%88%ED%8B%B0%EC%A7%80-%EC%BA%A0%EC%BD%94%EB%8D%94/id6794555717",
+      "source_id": "1e01eb0c71cb2b053d22f7b2",
+      "idea_summary": "빈티지 캠코더 감성 사진·영상 제작 카메라 앱",
+      "analysis": {
+        "problem": "Z세대가 디지털 사진보다 레트로·아날로그 감성 콘텐츠를 원하지만 자연스러운 빈티지 필터 앱이 부족함 [추론]",
+        "solution": "빈티지 캠코더 스타일의 필터와 타임스탬프·VHS 노이즈 효과를 실시간으로 사진·영상에 적용 [확인]",
+        "target_user": "레트로 감성을 선호하는 10~25세 Z세대 및 SNS 콘텐츠 제작자 [추론]",
+        "unique_point": "단순 색감 필터를 넘어 캠코더 특유의 스캔라인·타임코드·테이프 질감을 통합 구현한 몰입감 있는 레트로 촬영 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Huji Cam",
+          "Dazz Cam",
+          "1998 Cam"
+        ],
+        "timing_reason": "Y2K·레트로 트렌드가 전 세계적으로 지속 확산 중이며 숏폼 플랫폼에서 빈티지 감성 영상 수요 급증 [추론]",
+        "growth_potential": "SNS 필터 트렌드 주기와 연동되어 신규 유저 유입 지속 가능, 한국·일본·동남아 시장 확장 여지 큼 [추론]"
+      },
+      "business": {
+        "monetization": "인앱 구매(프리미엄 필터팩) 및 구독 모델 혼합 방식 [추론]",
+        "pricing_suggestion": "기본 무료 + 월 2,900~4,900원 프리미엄 구독으로 전체 레트로 필터팩 잠금 해제 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "500~1,200만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "CoreImage",
+          "AVFoundation",
+          "Metal"
+        ],
+        "key_features": [
+          "실시간 빈티지 필터 적용",
+          "타임스탬프 오버레이",
+          "VHS 노이즈·스캔라인 효과",
+          "필름 그레인 텍스처",
+          "영상 저장 및 SNS 공유"
+        ],
+        "clone_tip": "Metal 셰이더로 스캔라인·글리치 효과 구현, AVFoundation으로 실시간 프리뷰 처리가 핵심. CoreImage 필터 체인으로 빠른 프로토타입 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#Z세대",
+        "#레트로트렌드",
+        "#카메라앱"
+      ],
+      "verdict": "레트로 트렌드 타이밍 최적, 인디 개발자 진입에 적합한 감성 카메라 앱",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "bluefie - 애니메틱한 색감 카메라앱",
+      "developer": "ARTTIC CO., LTD.",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/8f/fe/8c8ffe5d-48c7-7e0c-eb06-c726539b17fc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/bluefie-%EC%95%A0%EB%8B%88%EB%A9%94%ED%8B%B1%ED%95%9C-%EC%83%89%EA%B0%90-%EC%B9%B4%EB%A9%94%EB%9D%BC%EC%95%B1/id6743655954",
+      "source_id": "9ee24f1cb9d56f2fa3349b44",
+      "idea_summary": "애니메이션 동적 색감 효과를 실시간 적용하는 카메라 앱",
+      "analysis": {
+        "problem": "일반 정적 사진 필터로는 애니메이션·일러스트 감성의 생동감 있는 사진 연출이 불가능함 [추론]",
+        "solution": "정적 필터 대신 애니메이션화된 색감 효과를 카메라 촬영 중 실시간으로 적용해 독특한 결과물 생성 [확인]",
+        "target_user": "애니메이션·만화 감성을 좋아하는 10~30대, 인스타그램·틱톡에서 개성 있는 콘텐츠를 제작하는 사용자 [추론]",
+        "unique_point": "단순 색감 보정이 아닌 카메라 촬영 중 움직이는 동적 애니메이션 효과를 실시간으로 구현하는 차별화된 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Meitu",
+          "Snow",
+          "BeautyPlus",
+          "Anime Camera"
+        ],
+        "timing_reason": "AI 이미지 생성 트렌드와 애니메이션 감성 SNS 콘텐츠 수요가 동시에 성장 중 [추론]",
+        "growth_potential": "일본·동남아 등 애니메이션 문화 강세 시장에서 높은 확장 잠재력 존재 [추론]"
+      },
+      "business": {
+        "monetization": "인앱 구매(프리미엄 효과팩) 및 광고 제거 구독 혼합 [추론]",
+        "pricing_suggestion": "기본 무료 + 월 1,990~3,900원 프리미엄 플랜으로 전체 애니메이션 효과 잠금 해제 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "600~1,500만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "CoreImage",
+          "Metal",
+          "Vision Framework",
+          "CoreML"
+        ],
+        "key_features": [
+          "애니메이션 스타일 실시간 필터",
+          "동적 색감 이펙트 라이브러리",
+          "촬영 후 편집 기능",
+          "효과 강도 조절 슬라이더",
+          "SNS 공유"
+        ],
+        "clone_tip": "Metal 셰이더를 활용한 실시간 색상 변환 파이프라인 구축이 핵심. CoreML로 스타일 트랜스퍼를 적용하면 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#애니감성",
+        "#SNS카메라",
+        "#일본시장"
+      ],
+      "verdict": "애니메이션 감성 카메라 틈새시장, 일본·동남아 진출 시 큰 잠재력",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "국시마스터",
+      "developer": "Nexture Creative",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/eb/be/8debbe41-051c-a066-2253-49707cb10d73/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EA%B5%AD%EC%8B%9C%EB%A7%88%EC%8A%A4%ED%84%B0/id6761680549",
+      "source_id": "f06e1c2a3f56bd7cd8f51d7c",
+      "idea_summary": "한국 의사 국가고시 전용 기출 학습 앱",
+      "analysis": {
+        "problem": "의사 국가면허시험 준비 수험생이 기출문제를 단원별로 체계적으로 반복 학습할 효율적인 모바일 도구가 부족함 [추론]",
+        "solution": "기출문제 DB와 단원별 학습 시스템을 결합해 언제 어디서나 스마트폰으로 국시 준비를 가능하게 함 [확인]",
+        "target_user": "의과대학 본과 3~4학년 및 의사 국가고시 수험생 [추론]",
+        "unique_point": "의사 국시에 수직 특화된 기출문제 DB, 오답 집중 복습 및 실전 모의고사 모드 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "에듀윌 국시",
+          "Anki",
+          "퀴즐렛"
+        ],
+        "timing_reason": "의대 정원 증원 정책 시행으로 수험생 수 증가 예상, 모바일 학습 수요 지속 상승 [추론]",
+        "growth_potential": "국시 수험생 규모는 한정적이나 지불 의사가 강하고 충성도 높은 사용자층 안정적 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 연간 구독 모델 [추론]",
+        "pricing_suggestion": "월 9,900~19,900원 또는 연간 59,000~99,000원 구독으로 전체 기출 DB 접근 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 (기출문제 DB 구축 포함) [추론]",
+        "estimated_cost": "800~2,000만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "Core Data",
+          "CloudKit",
+          "StoreKit"
+        ],
+        "key_features": [
+          "기출문제 단원별 분류 학습",
+          "오답 노트 자동 생성",
+          "실전 모의고사 타이머 모드",
+          "성적 통계 분석 차트",
+          "오프라인 학습 지원"
+        ],
+        "clone_tip": "특정 자격증 시험에 수직 특화하는 접근이 핵심. 기출문제의 합법적 수집·DB 구축에 집중하고 저작권 확인 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크",
+        "#틈새시장",
+        "#수험앱"
+      ],
+      "verdict": "좁지만 지불 의사 강한 수험생 시장, 수직 특화로 안정적 수익 구조 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "NostalgicPod",
+      "developer": "Jesus manuel Curreri",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/88/f4/e388f465-1f66-1a79-3d91-9f2b988f5b5e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/nostalgicpod/id6781631808",
+      "source_id": "bcd580f86ef966a2acf69c17",
+      "idea_summary": "레트로 오디오 기기 감성 UI로 음악을 듣는 뮤직 플레이어",
+      "analysis": {
+        "problem": "현대 스트리밍 앱의 획일화된 UI에 피로감을 느끼고, 워크맨·iPod 같은 레트로 기기 감성으로 음악을 즐기고 싶은 니즈 존재 [추론]",
+        "solution": "빈티지 포터블 오디오 기기 감성의 UI와 레트로 사운드 이펙트로 차별화된 음악 청취 경험 제공 [추측]",
+        "target_user": "레트로·Y2K 감성에 관심 있는 20~35세 음악 마니아, 개성 있는 앱 UI를 선호하는 사용자 [추측]",
+        "unique_point": "단순 재생 기능이 아닌 빈티지 오디오 기기를 소환하는 인터페이스 자체가 차별화된 경험이자 콘텐츠 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Apple Music",
+          "Spotify",
+          "Vinyly",
+          "Boom: Bass Booster & Equalizer"
+        ],
+        "timing_reason": "Y2K 레트로 트렌드 글로벌 확산, 개성 있는 오디오 경험 및 틈새 뮤직 앱 수요 증가 [추론]",
+        "growth_potential": "충성도 높은 레트로 음악 커뮤니티 타겟 가능, 글로벌 확장 잠재력 존재 [추측]"
+      },
+      "business": {
+        "monetization": "원타임 프리미엄 구매 또는 인앱 구매로 추가 레트로 스킨·이퀄라이저 프리셋 제공 [추측]",
+        "pricing_suggestion": "원타임 2,900~5,900원 또는 월 990원 구독으로 전체 스킨·이펙트 잠금 해제 [추측]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~800만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "AVFoundation",
+          "MediaPlayer Framework",
+          "StoreKit"
+        ],
+        "key_features": [
+          "레트로 UI 테마 (워크맨·카세트·CD 플레이어 스킨)",
+          "로컬 음악 라이브러리 연동",
+          "빈티지 이퀄라이저",
+          "테이프 되감기 애니메이션 효과"
+        ],
+        "clone_tip": "MediaPlayer Framework로 로컬 음악 라이브러리 접근 후 SwiftUI로 커스텀 레트로 인터페이스 구현. 스킨 다양화로 IAP 수익 확대 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#레트로감성",
+        "#음악앱",
+        "#Y2K"
+      ],
+      "verdict": "개발 난이도 낮고 빠른 출시 가능, 레트로 감성 틈새 뮤직 앱으로 차별화",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "name": "PrinTodo",
+      "developer": "yedam lim",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/a8/c4/e5a8c4b1-adc5-bbda-1774-17bd3ce8002e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/printodo/id6782047379",
+      "source_id": "406f8eba75bb35bf37c576ae",
+      "idea_summary": "프린트·스티커 감성 디자인의 일상 할일 관리 앱",
+      "analysis": {
+        "problem": "기존 투두 앱들이 지나치게 기능 중심이라 다이어리·스티커 문화를 즐기는 사용자의 감성적 니즈를 충족시키지 못함 [추론]",
+        "solution": "프린트·스티커 감성의 비주얼 UI로 할일 목록을 시각적으로 즐겁게 관리할 수 있는 환경 제공 [추측]",
+        "target_user": "다이어리 꾸미기(다꾸) 문화를 즐기는 10~25세 여성, 감성적 라이프스타일 콘텐츠 소비자 [추측]",
+        "unique_point": "생산성 도구에 물리적 다꾸 감성을 디지털로 구현해 할일 관리 자체를 취미처럼 즐길 수 있게 함 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "Things 3",
+          "Notion",
+          "Stickies"
+        ],
+        "timing_reason": "아날로그·다꾸 감성의 디지털화 트렌드 지속, 개성 있는 생산성 도구 수요 증가 [추론]",
+        "growth_potential": "한국·일본 감성 앱 시장 내 충성 유저 확보 가능하나 글로벌 확장은 문화적 특수성으로 제한적 [추측]"
+      },
+      "business": {
+        "monetization": "인앱 구매(프리미엄 스티커·테마팩) 및 광고 제거 결제 [추론]",
+        "pricing_suggestion": "기본 무료 + 스티커팩 개당 990~2,900원 IAP 또는 월 1,990원 프리미엄 구독 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "200~600만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "Core Data",
+          "CloudKit",
+          "StoreKit"
+        ],
+        "key_features": [
+          "감성 UI 할일 목록 관리",
+          "스티커·테마 커스터마이징",
+          "완료 체크 애니메이션",
+          "iCloud 동기화",
+          "반복 할일 설정"
+        ],
+        "clone_tip": "SwiftUI로 커스텀 체크박스 애니메이션과 스티커 오버레이 구현에 집중. Core Data로 로컬 저장, StoreKit으로 스티커팩 IAP 구성 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 5.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#라이프스타일",
+        "#다꾸감성",
+        "#생산성"
+      ],
+      "verdict": "개발 난이도 가장 낮고 빠른 출시 가능, 한국·일본 감성 앱 틈새시장 공략",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Bump (バンプ) - 友達とつながるマップ",
+      "developer": "amoamoamo",
+      "category": "Social Networking",
+      "icon": "https://play-lh.googleusercontent.com/gm8PPTHUZDnBaRxAaBGrCmHs9LFn1S7XZaBD_yxGIASMDq4rwpua1MEdeMK36Jbd4imGBN7xkkUK9uPXeQp-Qw",
+      "app_url": "https://play.google.com/store/apps/details?id=co.amo.android.location",
+      "source_id": "239e0301e72736f0d615561d",
+      "idea_summary": "지도 위에서 주변 친구를 실시간 발견·연결하는 소셜 앱",
+      "analysis": {
+        "problem": "친구들과 만날 때 각자 위치 공유가 번거롭고 실시간으로 누가 근처에 있는지 파악하기 어려움 [추론]",
+        "solution": "지도 위에 친구들의 실시간 위치를 시각화하고 근처 친구 발견 시 즉시 연결·대화 가능한 환경 제공 [확인]",
+        "target_user": "대학생·20대 초반, 친구들과 자주 만나는 활동적인 소셜 라이프를 즐기는 사용자 [추론]",
+        "unique_point": "단순 위치 공유를 넘어 '지도 위에서의 만남'이라는 소셜 경험을 중심으로 구성된 친구 연결 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Zenly (서비스 종료)",
+          "Snapchat Map",
+          "Find My Friends",
+          "Life360"
+        ],
+        "timing_reason": "Zenly 서비스 종료(2023) 이후 지도 기반 친구 위치 공유 앱 시장 공백이 지속되며 대체 수요 강하게 존재 [추론]",
+        "growth_potential": "Zenly 이탈 사용자 흡수 가능, 10~20대 소셜 앱 시장에서 바이럴 성장 잠재력 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(광고 제거, 위치 히스토리 연장, 커스텀 아바타) 및 향후 광고 모델 [추론]",
+        "pricing_suggestion": "기본 무료 + 월 2,900~4,900원 프리미엄으로 확장 기능 제공 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "800~2,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Android",
+          "Google Maps SDK",
+          "Firebase Realtime Database",
+          "WebSocket",
+          "FCM"
+        ],
+        "key_features": [
+          "실시간 친구 위치 지도 표시",
+          "근처 친구 도착 알림",
+          "위치 기반 채팅",
+          "프라이버시 설정 (위치 공유 ON/OFF)",
+          "친구 초대 링크"
+        ],
+        "clone_tip": "Firebase Realtime Database로 실시간 위치 동기화 구현이 핵심. 프라이버시 설정 세분화가 사용자 신뢰 확보에 필수적 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#소셜앱",
+        "#B2C",
+        "#Zenly대체",
+        "#지도기반",
+        "#바이럴성장"
+      ],
+      "verdict": "Zenly 공백 노린 최적 타이밍, 소셜 바이럴 성장 잠재력 가장 높은 앱",
+      "country": "jp",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "에이블리 - 초개인화 AI 쇼핑",
+      "developer": "ABLY Corp., Inc.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/f3_h1bkvsNzfMnaauo-4V3EBPMHQj4ljNvkA2puxQv0tMnZnoh_65NIVusULm7_9JKkFehmo6NwJvb4s_dDgtFA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.banhala.android",
+      "source_id": "8042b6afdd78de3bdaca46b4",
+      "idea_summary": "AI 초개인화 알고리즘으로 패션 상품을 추천하는 쇼핑 플랫폼",
+      "analysis": {
+        "problem": "수많은 패션 상품 중 자신에게 맞는 스타일을 찾는 데 시간이 오래 걸리고 기존 추천 시스템의 개인화 수준이 낮음 [추론]",
+        "solution": "AI 기반 개인화 알고리즘으로 사용자 취향·체형·예산을 학습해 점점 정교해지는 초개인화 패션 추천 제공 [확인]",
+        "target_user": "20~35세 패션에 관심 많은 여성, 모바일 커머스를 적극 활용하는 스마트 쇼퍼 [추론]",
+        "unique_point": "단순 쇼핑몰이 아닌 사용할수록 개인 스타일 프로필이 정교해지는 AI 추천 엔진 중심의 커머스 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "무신사",
+          "지그재그",
+          "W컨셉",
+          "29CM"
+        ],
+        "timing_reason": "AI 개인화 기술 고도화와 모바일 패션 커머스 성장이 맞물려 차별화된 경험 수요 급증 [추론]",
+        "growth_potential": "한국 패션 커머스 시장 내 AI 차별화로 점유율 확대 가능, 동남아 시장 확장 잠재력 존재 [추론]"
+      },
+      "business": {
+        "monetization": "판매 수수료(커머스 플랫폼 GMV 기반), 프리미엄 입점 광고, 브랜드 협업 [추론]",
+        "pricing_suggestion": "소비자 무료, 셀러 수수료 및 광고 기반 수익 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 (플랫폼 전체 구축 포함) [추론]",
+        "estimated_cost": "2,000~5,000만원 이상 [추론]",
+        "tech_stack": [
+          "Kotlin/Android",
+          "Python (ML)",
+          "TensorFlow/PyTorch",
+          "Firebase",
+          "AWS S3"
+        ],
+        "key_features": [
+          "AI 스타일 추천 피드",
+          "상품 카탈로그 및 검색",
+          "개인 스타일 프로필 학습",
+          "셀러 입점 관리 시스템",
+          "구매·결제 플로우"
+        ],
+        "clone_tip": "추천 엔진 구축보다 특정 니치(예: 빈티지, 플러스사이즈) 패션에 집중한 수직적 커머스로 시작하면 초기 개발 범위 대폭 축소 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.2
+      },
+      "tags": [
+        "#커머스플랫폼",
+        "#B2C",
+        "#AI추천",
+        "#패션테크",
+        "#한국시장"
+      ],
+      "verdict": "AI 개인화 패션 커머스, 초기 투자 규모 크나 시장 규모와 수익성 모두 높음",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "DealSeek: Coupons & Discounts",
+      "developer": "DealSeek LLC",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/-BloZ64DbcUpLcfM6c9mHB_WvgynNPrT0Oe2Mbh6h82K5YermHsnB_CL0H4lNDTNXpz_shjM9XzrYgT1TRij",
+      "app_url": "https://play.google.com/store/apps/details?id=com.dealseekorg.dealseek",
+      "source_id": "f8b2b904fd6df32a5aed3827",
+      "idea_summary": "여러 쇼핑몰 쿠폰·할인 정보를 한 곳에서 비교하는 절약 앱",
+      "analysis": {
+        "problem": "각 쇼핑몰마다 흩어진 쿠폰과 프로모션 정보를 직접 찾아야 해 시간 낭비가 크고 최적 할인가를 놓치는 경우 많음 [추론]",
+        "solution": "여러 쇼핑몰의 쿠폰·프로모션·할인 정보를 집약해 사용자가 한 곳에서 쉽게 비교하고 바로 적용 가능하게 제공 [확인]",
+        "target_user": "절약에 민감한 25~45세 소비자, 온라인 쇼핑을 자주 하며 가성비를 중시하는 사용자 [추론]",
+        "unique_point": "단일 쇼핑몰 앱이 아닌 크로스채널 쿠폰 통합 검색으로 쇼핑 전 최대 절약 가능성을 한 화면에서 제시 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey (PayPal)",
+          "Rakuten",
+          "RetailMeNot",
+          "쿠팡 쿠폰"
+        ],
+        "timing_reason": "고물가 경제 지속으로 절약 니즈 전 세계적 증가, 스마트 소비 트렌드 확산 [추론]",
+        "growth_potential": "글로벌 e커머스 성장과 함께 쿠폰 플랫폼 수요 지속 증가 예상, 제휴 네트워크 확장 시 수익 비례 성장 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 커미션(Affiliate), 쿠폰 노출 광고, 프리미엄 쿠폰 알림 구독 [추론]",
+        "pricing_suggestion": "기본 무료 + 제휴 수익 모델 중심, 프리미엄 즉시 알림 서비스 월 990~1,990원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "400~1,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Android",
+          "Retrofit",
+          "Room DB",
+          "Firebase",
+          "Python 크롤러"
+        ],
+        "key_features": [
+          "멀티 쇼핑몰 쿠폰 통합 검색",
+          "쿠폰 만료 임박 알림 (FCM)",
+          "카테고리·쇼핑몰별 필터",
+          "즐겨찾기 쿠폰 저장",
+          "할인율 정렬"
+        ],
+        "clone_tip": "제휴 마케팅 API(CJ Affiliate, 링크프라이스 등) 연동과 쿠폰 데이터 크롤링 파이프라인 구축이 핵심. 특정 국가나 카테고리 특화로 시작 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#절약앱",
+        "#제휴수익",
+        "#고물가"
+      ],
+      "verdict": "고물가 시대 절약 수요 명확, 제휴 수익 모델로 안정적 수익화 가능한 실용 앱",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "name": "GPS Location Flow & Tracker",
+      "developer": "Karyaku Dev",
+      "category": "Navigation",
+      "icon": "https://play-lh.googleusercontent.com/RgCiuAug5FcjlwcMwGQlQGYvrVM1_BwqsRlrpZx9hLPQOQGIiDjRQi4h8NSH18a8Ki2DMJQ-8nAXKEbAEtUlSQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gps.cati.flow",
+      "source_id": "d41bc29ad1348e5174f54180",
+      "idea_summary": "GPS 이동 경로를 자동 기록하고 시각적으로 분석하는 트래커 앱",
+      "analysis": {
+        "problem": "하이킹·사이클링·여행 중 이동 경로를 자동으로 기록하고 나중에 시각적으로 확인하고 싶은 라이프로깅 니즈 존재 [추론]",
+        "solution": "GPS로 이동 경로를 백그라운드에서 자동 기록하고 시간대별 트래킹 데이터를 지도에 시각화해 분석 제공 [확인]",
+        "target_user": "아웃도어 활동을 즐기는 30~50대, 여행 경로를 기록하고 싶은 여행자, 운동량 데이터 관리 관심자 [추론]",
+        "unique_point": "내비게이션이 아닌 '이미 다녀온 경로의 시각화와 데이터 분석'에 초점을 맞춘 라이프로그 트래커 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Strava",
+          "Wikiloc",
+          "ViewRanger",
+          "OsmAnd"
+        ],
+        "timing_reason": "야외 활동 인구 증가, 헬스·아웃도어 기록 문화 확산, 라이프로깅 트렌드 지속 [추론]",
+        "growth_potential": "아웃도어 스포츠 앱 시장 꾸준한 성장 중, 특정 활동(트레킹·자전거 등) 특화로 차별화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 + 프리미엄 구독(무제한 트래킹 기록, 상세 데이터 분석, PDF 내보내기) [추론]",
+        "pricing_suggestion": "기본 무료 + 월 2,900~5,900원 프리미엄으로 고급 통계 분석 및 내보내기 기능 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "400~900만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Android",
+          "Google Maps SDK",
+          "Mapbox",
+          "Room DB",
+          "WorkManager"
+        ],
+        "key_features": [
+          "백그라운드 GPS 경로 자동 기록",
+          "이동 경로 지도 시각화",
+          "속도·거리·고도·소요시간 측정",
+          "경로 기록 저장 및 공유",
+          "활동 통계 분석 차트"
+        ],
+        "clone_tip": "WorkManager로 백그라운드 GPS 수집 구현이 핵심. Mapbox는 Google Maps 대비 커스텀 경로 시각화 자유도가 높아 차별화에 유리 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#아웃도어",
+        "#GPS트래커",
+        "#라이프로그"
+      ],
+      "verdict": "아웃도어 기록 수요 견고하나 Strava 등 강자 존재, 특화 스포츠 틈새 공략 필요",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "name": "FreeDrama: Short Drama & Reels",
+      "developer": "Kuku Technologies Limited",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/naDFm8LzFy2OVyMrUf5vZDWlSSANqLWpjkf6oD_9Itm4UOh0NJXfKg5ruiheKxFb42nlo4Q9RSVrMZDiCfG8mw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.drama.free",
+      "source_id": "091a6358b08f8cb43e1a5cfc",
+      "idea_summary": "모바일 세로 화면 최적화 숏폼 드라마 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "기존 OTT는 에피소드가 길어 짧은 시간에 몰입감 있는 드라마 콘텐츠를 즐기기 어렵고 통근·이동 중 활용이 불편함 [추론]",
+        "solution": "1~3분 분량의 세로형 숏폼 드라마를 연속 시청할 수 있는 모바일 전용 스트리밍 플랫폼 제공 [확인]",
+        "target_user": "통근·이동 중 짧은 시간에 몰입감 있는 콘텐츠를 원하는 20~40대 직장인 및 드라마 소비 활성 사용자 [추론]",
+        "unique_point": "기존 드라마의 숏폼 편집이 아닌 모바일 세로 화면에 처음부터 최적화된 오리지널 숏폼 드라마 형식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ReelShort",
+          "DramaBox",
+          "ShortMax",
+          "틱톡 시리즈"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 폭발적 성장 지속, 중국발 숏드라마 앱의 글로벌 확산으로 시장 카테고리 자체가 형성 [추론]",
+        "growth_potential": "글로벌 숏드라마 시장 2024~2026년 급성장 중, 한국·일본 드라마 IP를 활용한 차별화 진출 기회 존재 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 시청 + 코인/티켓 시스템으로 유료 에피소드 잠금 해제 [추론]",
+        "pricing_suggestion": "에피소드당 100~300원 코인 시스템 또는 월 5,900~9,900원 무제한 구독 플랜 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5~8개월 (플랫폼 구축 기준, 콘텐츠 제작 기간 별도) [추론]",
+        "estimated_cost": "1,000~3,000만원 (플랫폼 개발만, 콘텐츠 제작비 별도) [추론]",
+        "tech_stack": [
+          "Kotlin/Android",
+          "ExoPlayer",
+          "Firebase",
+          "AWS S3/CloudFront",
+          "Stripe/IAP"
+        ],
+        "key_features": [
+          "세로형 숏드라마 스트리밍 플레이어",
+          "에피소드 잠금 해제 결제 시스템",
+          "오프라인 저장 기능",
+          "드라마 시리즈 구독 알림",
+          "코인 충전·사용 시스템"
+        ],
+        "clone_tip": "플랫폼 기술보다 특정 장르(로맨스·복수극)에 특화한 오리지널 콘텐츠 IP 확보가 성공 관건. ExoPlayer로 세로 영상 최적화 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#콘텐츠플랫폼",
+        "#B2C",
+        "#숏드라마",
+        "#글로벌시장",
+        "#코인수익모델"
+      ],
+      "verdict": "숏드라마 시장 폭발 성장 타이밍, 콘텐츠 IP 확보가 핵심 성공 요인",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "레트로·Y2K 감성 카메라 앱이 Z세대 중심으로 강세를 보이고, Zenly 이후 공백이 된 지도 기반 친구 연결 소셜 앱 시장에서 새로운 기회가 열려 있다. 숏폼 드라마 플랫폼은 글로벌 시장에서 폭발적으로 성장하며 모바일 엔터테인먼트의 새로운 카테고리로 자리잡고 있다.",
+    "trend_details": [
+      "Y2K·레트로 감성 카메라 앱 수요 지속 증가, VHS·빈티지 필름 효과 차별화 경쟁 심화",
+      "Zenly 서비스 종료(2023) 이후 지도 기반 친구 위치 공유 앱 시장 공백이 3년째 지속",
+      "고물가 기조 지속으로 쿠폰·가격비교·절약 앱 사용자 전 세계적 급증",
+      "숏폼 드라마(숏드라마) 시장 글로벌 폭발적 성장, 한국·일본 IP 콘텐츠 수요 특히 높음",
+      "AI 개인화 패션 커머스 플랫폼 기술 고도화, 초개인화 추천 엔진이 쇼핑 앱 차별화의 핵심 키워드로 부상"
+    ],
+    "hot_categories": [
+      "Photo & Video",
+      "Social Networking",
+      "Shopping",
+      "Entertainment",
+      "Education"
+    ],
+    "opportunity": "Zenly 공백을 노린 지도 기반 소셜 앱과 레트로 감성 카메라 앱이 인디 개발자에게 현실적인 최우선 진입 기회. 숏폼 드라마 플랫폼은 콘텐츠 IP만 확보하면 급성장 시장에 빠르게 합류 가능하며 수익화 모델이 검증된 상태.",
+    "action_item": "레트로 카메라 앱 프로토타입 제작 시작 (Metal 셰이더 학습) 또는 Firebase Realtime DB 기반 지도 소셜 앱 MVP 설계 착수. 두 방향 모두 2개월 내 프로토타입 완성 현실적."
+  },
+  "data_status": {}
+}
