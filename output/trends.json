@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:27:40.540Z",
+  "generatedAt": "2026-10-10T15:12:10.898Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
@@ -24,19 +24,48 @@
       "avgScore": 7.1875
     },
     {
-      "category": "Education",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
+      "category": "Calendar",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "국시마스터",
-        "JAM Legio",
-        "Thai Vocabulary Book | Thai Language Proficiency Test",
-        "Non-Life Insurance University Course: Law Unit Question Book",
-        "Business Career Certification Level 3 Logistics Exam Preparation"
+        "TimeTree タイムツリー - カレンダーやメモの共有"
       ],
-      "avgScore": 6.76
+      "avgScore": 7.8
+    },
+    {
+      "category": "Food and Beverage",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "ジハンピ"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Cloud Storage",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Linkex - 写真・動画バックアップ"
+      ],
+      "avgScore": 6.2
+    },
+    {
+      "category": "Identity Verification",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "TRUSTDOCK（トラストドック）｜公的身分証で本人確認"
+      ],
+      "avgScore": 7.5
     },
     {
       "category": "Streaming Entertainment",
@@ -173,56 +202,14 @@
       "avgScore": 7.2
     },
     {
-      "category": "Safety",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "CrimeRadar: Dispatch Alerts"
-      ],
-      "avgScore": 8.5
-    },
-    {
-      "category": "Services Marketplace",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "Social",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Stamps - Seasonal Greetings"
-      ],
-      "avgScore": 5.5
-    },
-    {
-      "category": "Fashion",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Asler - The Standard in Men's Fashion"
-      ],
-      "avgScore": 7
-    },
-    {
       "category": "Photo & Video",
-      "currentCount": 11,
+      "currentCount": 13,
       "previousCount": 7,
-      "changePercent": 57,
+      "changePercent": 86,
       "changeDirection": "up",
       "apps": [
+        "GR Snap - 리코 GR Image Sync",
+        "Both: 듀얼 카메라",
         "네몽 - 카드뉴스 캐러셀",
         "하루테이프 - 빈티지 캠코더",
         "bluefie - 애니메틱한 색감 카메라앱",
@@ -235,37 +222,53 @@
         "Tulle - 웨딩 필름 카메라",
         "CineLoupe"
       ],
-      "avgScore": 7.154545454545455
-    }
-  ],
-  "decliningCategories": [
-    {
-      "category": "Lifestyle",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
-      "changeDirection": "down",
-      "apps": [
-        "종쳤다: 학교 종소리 알람",
-        "PrinTodo",
-        "Auday - All-Day Watch Recorder",
-        "Future Anticipation App"
-      ],
-      "avgScore": 6.775
+      "avgScore": 7.092307692307693
     },
     {
       "category": "Utilities",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
-      "changeDirection": "down",
+      "currentCount": 6,
+      "previousCount": 4,
+      "changePercent": 50,
+      "changeDirection": "up",
       "apps": [
+        "널스메이트 - 간호사를 위한 AI 업무 파트너",
+        "AdoClean",
         "Wonder Mail - Inbox Cleaner",
         "Haptic Interval Timer",
         "와이파이 렌즈",
         "FileRecover Pro"
       ],
-      "avgScore": 7
+      "avgScore": 7.083333333333333
+    }
+  ],
+  "decliningCategories": [
+    {
+      "category": "Lifestyle",
+      "currentCount": 3,
+      "previousCount": 4,
+      "changePercent": -25,
+      "changeDirection": "down",
+      "apps": [
+        "종쳤다: 학교 종소리 알람",
+        "PrinTodo",
+        "Auday - All-Day Watch Recorder"
+      ],
+      "avgScore": 6.7
+    },
+    {
+      "category": "Music",
+      "currentCount": 5,
+      "previousCount": 7,
+      "changePercent": -29,
+      "changeDirection": "down",
+      "apps": [
+        "AlbumDeck: 3D 앨범 커버",
+        "Super 606 Drums - Drum Machine",
+        "NostalgicPod",
+        "Beat Blocks - Rhythm Practice",
+        "MiSing - 언제 어디서나, 마음껏 노래해!"
+      ],
+      "avgScore": 6.779999999999999
     },
     {
       "category": "Health & Fitness",
@@ -295,46 +298,43 @@
       "avgScore": 7.6
     },
     {
+      "category": "Education",
+      "currentCount": 2,
+      "previousCount": 5,
+      "changePercent": -60,
+      "changeDirection": "down",
+      "apps": [
+        "국시마스터",
+        "JAM Legio"
+      ],
+      "avgScore": 6.9
+    },
+    {
       "category": "Entertainment",
-      "currentCount": 5,
-      "previousCount": 9,
-      "changePercent": -44,
+      "currentCount": 3,
+      "previousCount": 10,
+      "changePercent": -70,
       "changeDirection": "down",
       "apps": [
         "Beadfall: Fidget Beads & ASMR",
         "FreeDrama: Short Drama & Reels",
-        "zeta - AIキャラ・あなたの推しとロールプレイチャット",
-        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
-        "MiniDrama - Exclusive Short Drama Platform"
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット"
       ],
-      "avgScore": 7.3
-    },
+      "avgScore": 7.666666666666667
+    }
+  ],
+  "stableCategories": [
     {
       "category": "Social Networking",
       "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
-      "changeDirection": "down",
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
       "apps": [
         "Bump (バンプ) - 友達とつながるマップ"
       ],
       "avgScore": 8
     },
-    {
-      "category": "Music",
-      "currentCount": 3,
-      "previousCount": 7,
-      "changePercent": -57,
-      "changeDirection": "down",
-      "apps": [
-        "NostalgicPod",
-        "Beat Blocks - Rhythm Practice",
-        "MiSing - 언제 어디서나, 마음껏 노래해!"
-      ],
-      "avgScore": 6.8
-    }
-  ],
-  "stableCategories": [
     {
       "category": "Navigation",
       "currentCount": 2,
@@ -374,8 +374,14 @@
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 67,
+      "count": 63,
       "apps": [
+        "Both: 듀얼 카메라",
+        "AlbumDeck: 3D 앨범 커버",
+        "Super 606 Drums - Drum Machine",
+        "AdoClean",
+        "TimeTree タイムツリー - カレンダーやメモの共有",
+        "Linkex - 写真・動画バックアップ",
         "노그미(Nogmi): 녹음·전사·요약",
         "종쳤다: 학교 종소리 알람",
         "FitToCal - 운동 캘린더 동기화",
@@ -431,24 +437,18 @@
         "zeta - AIキャラ・あなたの推しとロールプレイチャット",
         "Easy Homescreen",
         "FileRecover Pro",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Future Anticipation App",
-        "Thai Vocabulary Book | Thai Language Proficiency Test",
-        "Non-Life Insurance University Course: Law Unit Question Book",
-        "Business Career Certification Level 3 Logistics Exam Preparation",
-        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
-        "CrimeRadar: Dispatch Alerts",
-        "Soomgo - Find Moving, Cleaning, Hobby, Interior Experts",
-        "Stamps - Seasonal Greetings",
-        "Asler - The Standard in Men's Fashion",
-        "MiniDrama - Exclusive Short Drama Platform"
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 37,
+      "count": 35,
       "apps": [
+        "GR Snap - 리코 GR Image Sync",
+        "Both: 듀얼 카메라",
+        "AlbumDeck: 3D 앨범 커버",
+        "AdoClean",
         "종쳤다: 학교 종소리 알람",
         "FitToCal - 운동 캘린더 동기화",
         "Beadfall: Fidget Beads & ASMR",
@@ -479,20 +479,15 @@
         "Tulle - 웨딩 필름 카메라",
         "JAM Legio",
         "연락처 정리: 중복 병합 삭제",
-        "Easy Homescreen",
-        "Future Anticipation App",
-        "Thai Vocabulary Book | Thai Language Proficiency Test",
-        "Non-Life Insurance University Course: Law Unit Question Book",
-        "Business Career Certification Level 3 Logistics Exam Preparation",
-        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen",
-        "Stamps - Seasonal Greetings"
+        "Easy Homescreen"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 14,
+      "count": 13,
       "apps": [
+        "널스메이트 - 간호사를 위한 AI 업무 파트너",
         "노그미(Nogmi): 녹음·전사·요약",
         "Migoo - すべてのタスクにAIチーム",
         "에이블리 - 초개인화 AI 쇼핑",
@@ -501,9 +496,21 @@
         "Nexus - AI Video Generator",
         "Prettier(프리티어) - 더 예쁘게 찍히는 카메라",
         "Suno 수노 - AI 음악 & 노래",
-        "zeta - AIキャラ・あなたの推しとロールプレイチャット",
-        "Thai Vocabulary Book | Thai Language Proficiency Test",
-        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen"
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "creator",
+      "count": 9,
+      "apps": [
+        "Both: 듀얼 카메라",
+        "네몽 - 카드뉴스 캐러셀",
+        "Vidix-AI Photo Video Generator",
+        "Nexus - AI Video Generator",
+        "서브 카메라",
+        "Suno 수노 - AI 음악 & 노래",
+        "CineLoupe"
       ]
     },
     {
@@ -517,34 +524,6 @@
         "Wonder Mail - Inbox Cleaner",
         "TimeCue – Reminders & Alerts",
         "연락처 정리: 중복 병합 삭제"
-      ]
-    },
-    {
-      "keyword": "크리에이터",
-      "category": "creator",
-      "count": 8,
-      "apps": [
-        "네몽 - 카드뉴스 캐러셀",
-        "Vidix-AI Photo Video Generator",
-        "Nexus - AI Video Generator",
-        "서브 카메라",
-        "Suno 수노 - AI 음악 & 노래",
-        "CineLoupe"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 8,
-      "apps": [
-        "네몽 - 카드뉴스 캐러셀",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "하루테이프 - 빈티지 캠코더",
-        "NostalgicPod",
-        "FreeDrama: Short Drama & Reels",
-        "gyeop - 포즈가이드",
-        "Thai Vocabulary Book | Thai Language Proficiency Test",
-        "MiniDrama - Exclusive Short Drama Platform"
       ]
     },
     {
@@ -563,42 +542,31 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 7,
-      "apps": [
-        "맥스워크-리워드에 미친 만보기, 걷기의 가치를 최대로!",
-        "EarthScope: GPS Map Camera",
-        "WakeBox",
-        "Thai Vocabulary Book | Thai Language Proficiency Test",
-        "Business Career Certification Level 3 Logistics Exam Preparation",
-        "CrimeRadar: Dispatch Alerts",
-        "Asler - The Standard in Men's Fashion"
-      ]
-    },
-    {
       "keyword": "영상",
       "category": "creator",
-      "count": 6,
+      "count": 7,
       "apps": [
+        "Both: 듀얼 카메라",
+        "Linkex - 写真・動画バックアップ",
         "하루테이프 - 빈티지 캠코더",
         "Vidix-AI Photo Video Generator",
         "Nexus - AI Video Generator",
         "CineLoupe",
-        "FileRecover Pro",
-        "Maku Collection MINI: Japanese National Railways 0 Series Shinkansen"
+        "FileRecover Pro"
       ]
     },
     {
-      "keyword": "교육",
-      "category": "tag",
-      "count": 5,
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 7,
       "apps": [
-        "종쳤다: 학교 종소리 알람",
-        "JAM Legio",
-        "Thai Vocabulary Book | Thai Language Proficiency Test",
-        "Non-Life Insurance University Course: Law Unit Question Book",
-        "Business Career Certification Level 3 Logistics Exam Preparation"
+        "Both: 듀얼 카메라",
+        "네몽 - 카드뉴스 캐러셀",
+        "DramaWave -인기 단편/한일 드라마, 역전극!",
+        "하루테이프 - 빈티지 캠코더",
+        "NostalgicPod",
+        "FreeDrama: Short Drama & Reels",
+        "gyeop - 포즈가이드"
       ]
     },
     {
@@ -606,10 +574,67 @@
       "category": "creator",
       "count": 5,
       "apps": [
+        "AlbumDeck: 3D 앨범 커버",
         "DramaWave -인기 단편/한일 드라마, 역전극!",
         "NostalgicPod",
-        "FreeDrama: Short Drama & Reels",
-        "MiniDrama - Exclusive Short Drama Platform"
+        "FreeDrama: Short Drama & Reels"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "AdoClean",
+        "Wonder Mail - Inbox Cleaner",
+        "와이파이 렌즈",
+        "연락처 정리: 중복 병합 삭제",
+        "FileRecover Pro"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 5,
+      "apps": [
+        "TimeTree タイムツリー - カレンダーやメモの共有",
+        "Linkex - 写真・動画バックアップ",
+        "Bump (バンプ) - 友達とつながるマップ",
+        "산로그 -등산 일기, 산행 일기, 등산 랭킹",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 4,
+      "apps": [
+        "TimeTree タイムツリー - カレンダーやメモの共有",
+        "FitToCal - 운동 캘린더 동기화",
+        "TimeCue – Reminders & Alerts",
+        "Manager for Scooters"
+      ]
+    },
+    {
+      "keyword": "일본시장",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "ジハンピ",
+        "bluefie - 애니메틱한 색감 카메라앱",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+      ]
+    },
+    {
+      "keyword": "구독모델",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Linkex - 写真・動画バックアップ",
+        "노그미(Nogmi): 녹음·전사·요약",
+        "Migoo - すべてのタスクにAIチーム",
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット"
       ]
     },
     {
@@ -624,45 +649,13 @@
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 4,
-      "apps": [
-        "Bump (バンプ) - 友達とつながるマップ",
-        "산로그 -등산 일기, 산행 일기, 등산 랭킹",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Stamps - Seasonal Greetings"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "Wonder Mail - Inbox Cleaner",
-        "와이파이 렌즈",
-        "연락처 정리: 중복 병합 삭제",
-        "FileRecover Pro"
-      ]
-    },
-    {
-      "keyword": "구독모델",
+      "keyword": "틈새시장",
       "category": "tag",
       "count": 3,
       "apps": [
-        "노그미(Nogmi): 녹음·전사·요약",
-        "Migoo - すべてのタスクにAIチーム",
-        "zeta - AIキャラ・あなたの推しとロールプレイチャット"
-      ]
-    },
-    {
-      "keyword": "일정",
-      "category": "productivity",
-      "count": 3,
-      "apps": [
-        "FitToCal - 운동 캘린더 동기화",
-        "TimeCue – Reminders & Alerts",
-        "Manager for Scooters"
+        "GR Snap - 리코 GR Image Sync",
+        "종쳤다: 학교 종소리 알람",
+        "국시마스터"
       ]
     },
     {
@@ -686,6 +679,16 @@
       ]
     },
     {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 3,
+      "apps": [
+        "맥스워크-리워드에 미친 만보기, 걷기의 가치를 최대로!",
+        "EarthScope: GPS Map Camera",
+        "WakeBox"
+      ]
+    },
+    {
       "keyword": "리워드",
       "category": "tag",
       "count": 3,
@@ -694,70 +697,60 @@
         "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
         "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크"
       ]
-    },
-    {
-      "keyword": "일본시장",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "bluefie - 애니메틱한 색감 카메라앱",
-        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
-      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 40,
-        "percent": 57,
+        "count": 43,
+        "percent": 61,
         "examples": [
-          "노그미(Nogmi): 녹음·전사·요약",
-          "종쳤다: 학교 종소리 알람",
-          "FitToCal - 운동 캘린더 동기화"
+          "Both: 듀얼 카메라",
+          "AlbumDeck: 3D 앨범 커버",
+          "AdoClean"
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 51,
+        "percent": 73,
         "examples": [
-          "노그미(Nogmi): 녹음·전사·요약",
-          "종쳤다: 학교 종소리 알람",
-          "FitToCal - 운동 캘린더 동기화"
+          "Both: 듀얼 카메라",
+          "AlbumDeck: 3D 앨범 커버",
+          "AdoClean"
         ]
       },
       "subscription": {
-        "count": 45,
-        "percent": 64,
+        "count": 44,
+        "percent": 63,
         "examples": [
-          "노그미(Nogmi): 녹음·전사·요약",
-          "FitToCal - 운동 캘린더 동기화",
-          "네몽 - 카드뉴스 캐러셀"
+          "널스메이트 - 간호사를 위한 AI 업무 파트너",
+          "Both: 듀얼 카메라",
+          "TimeTree タイムツリー - カレンダーやメモの共有"
         ]
       },
       "onetime": {
-        "count": 36,
-        "percent": 51,
+        "count": 34,
+        "percent": 49,
         "examples": [
-          "Beadfall: Fidget Beads & ASMR",
-          "하루테이프 - 빈티지 캠코더",
-          "bluefie - 애니메틱한 색감 카메라앱"
+          "GR Snap - 리코 GR Image Sync",
+          "AlbumDeck: 3D 앨범 커버",
+          "Super 606 Drums - Drum Machine"
         ]
       },
       "unknown": {
-        "count": 1,
-        "percent": 1,
+        "count": 2,
+        "percent": 3,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 51,
+      "percent": 73,
       "examples": [
-        "노그미(Nogmi): 녹음·전사·요약",
-        "종쳤다: 학교 종소리 알람",
-        "FitToCal - 운동 캘린더 동기화"
+        "Both: 듀얼 카메라",
+        "AlbumDeck: 3D 앨범 커버",
+        "AdoClean"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -769,23 +762,11 @@
         "count": 15,
         "percent": 21,
         "apps": [
+          "널스메이트 - 간호사를 위한 AI 업무 파트너",
+          "TRUSTDOCK（トラストドック）｜公的身分証で本人確認",
           "노그미(Nogmi): 녹음·전사·요약",
           "Migoo - すべてのタスクにAIチーム",
-          "bluefie - 애니메틱한 색감 카메라앱",
-          "에이블리 - 초개인화 AI 쇼핑",
-          "CALM: Cinema Lighting Matcher"
-        ]
-      },
-      {
-        "tech": "ar_vr",
-        "count": 11,
-        "percent": 16,
-        "apps": [
-          "혈압·혈당 건강관리",
-          "EarthScope: GPS Map Camera",
-          "TimeCue – Reminders & Alerts",
-          "WakeBox",
-          "setlog"
+          "bluefie - 애니메틱한 색감 카메라앱"
         ]
       },
       {
@@ -793,23 +774,47 @@
         "count": 10,
         "percent": 14,
         "apps": [
+          "Both: 듀얼 카메라",
+          "Linkex - 写真・動画バックアップ",
           "네몽 - 카드뉴스 캐러셀",
           "DramaWave -인기 단편/한일 드라마, 역전극!",
-          "하루테이프 - 빈티지 캠코더",
-          "FreeDrama: Short Drama & Reels",
-          "Vidix-AI Photo Video Generator"
+          "하루테이프 - 빈티지 캠코더"
+        ]
+      },
+      {
+        "tech": "ar_vr",
+        "count": 8,
+        "percent": 11,
+        "apps": [
+          "TimeTree タイムツリー - カレンダーやメモの共有",
+          "혈압·혈당 건강관리",
+          "EarthScope: GPS Map Camera",
+          "TimeCue – Reminders & Alerts",
+          "WakeBox"
         ]
       },
       {
         "tech": "social",
-        "count": 7,
-        "percent": 10,
+        "count": 6,
+        "percent": 9,
         "apps": [
+          "TimeTree タイムツリー - カレンダーやメモの共有",
           "Bump (バンプ) - 友達とつながるマップ",
           "CALM: Cinema Lighting Matcher",
           "현지뉴스",
-          "산로그 -등산 일기, 산행 일기, 등산 랭킹",
-          "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+          "산로그 -등산 일기, 산행 일기, 등산 랭킹"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 6,
+        "percent": 9,
+        "apps": [
+          "널스메이트 - 간호사를 위한 AI 업무 파트너",
+          "TimeTree タイムツリー - カレンダーやメモの共有",
+          "노그미(Nogmi): 녹음·전사·요약",
+          "Migoo - すべてのタスクにAIチーム",
+          "TimeCue – Reminders & Alerts"
         ]
       },
       {
@@ -825,23 +830,11 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 4,
-        "percent": 6,
-        "apps": [
-          "노그미(Nogmi): 녹음·전사·요약",
-          "Migoo - すべてのタスクにAIチーム",
-          "TimeCue – Reminders & Alerts",
-          "연락처 정리: 중복 병합 삭제"
-        ]
-      },
-      {
         "tech": "fintech",
-        "count": 2,
-        "percent": 3,
+        "count": 1,
+        "percent": 1,
         "apps": [
-          "에이블리 - 초개인화 AI 쇼핑",
-          "Non-Life Insurance University Course: Law Unit Question Book"
+          "에이블리 - 초개인화 AI 쇼핑"
         ]
       }
     ],
@@ -850,11 +843,11 @@
       "count": 15,
       "percent": 21,
       "apps": [
+        "널스메이트 - 간호사를 위한 AI 업무 파트너",
+        "TRUSTDOCK（トラストドック）｜公的身分証で本人確認",
         "노그미(Nogmi): 녹음·전사·요약",
         "Migoo - すべてのタスクにAIチーム",
-        "bluefie - 애니메틱한 색감 카메라앱",
-        "에이블리 - 초개인화 AI 쇼핑",
-        "CALM: Cinema Lighting Matcher"
+        "bluefie - 애니메틱한 색감 카메라앱"
       ]
     },
     "emerging": [
@@ -863,23 +856,11 @@
         "count": 15,
         "percent": 21,
         "apps": [
+          "널스메이트 - 간호사를 위한 AI 업무 파트너",
+          "TRUSTDOCK（トラストドック）｜公的身分証で本人確認",
           "노그미(Nogmi): 녹음·전사·요약",
           "Migoo - すべてのタスクにAIチーム",
-          "bluefie - 애니메틱한 색감 카메라앱",
-          "에이블리 - 초개인화 AI 쇼핑",
-          "CALM: Cinema Lighting Matcher"
-        ]
-      },
-      {
-        "tech": "ar_vr",
-        "count": 11,
-        "percent": 16,
-        "apps": [
-          "혈압·혈당 건강관리",
-          "EarthScope: GPS Map Camera",
-          "TimeCue – Reminders & Alerts",
-          "WakeBox",
-          "setlog"
+          "bluefie - 애니메틱한 색감 카메라앱"
         ]
       },
       {
@@ -887,28 +868,56 @@
         "count": 10,
         "percent": 14,
         "apps": [
+          "Both: 듀얼 카메라",
+          "Linkex - 写真・動画バックアップ",
           "네몽 - 카드뉴스 캐러셀",
           "DramaWave -인기 단편/한일 드라마, 역전극!",
-          "하루테이프 - 빈티지 캠코더",
-          "FreeDrama: Short Drama & Reels",
-          "Vidix-AI Photo Video Generator"
+          "하루테이프 - 빈티지 캠코더"
         ]
       },
       {
-        "tech": "social",
-        "count": 7,
-        "percent": 10,
+        "tech": "ar_vr",
+        "count": 8,
+        "percent": 11,
         "apps": [
-          "Bump (バンプ) - 友達とつながるマップ",
-          "CALM: Cinema Lighting Matcher",
-          "현지뉴스",
-          "산로그 -등산 일기, 산행 일기, 등산 랭킹",
-          "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+          "TimeTree タイムツリー - カレンダーやメモの共有",
+          "혈압·혈당 건강관리",
+          "EarthScope: GPS Map Camera",
+          "TimeCue – Reminders & Alerts",
+          "WakeBox"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Calendar 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Calendar"
+    },
+    {
+      "type": "rising_category",
+      "title": "Food and Beverage 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Food and Beverage"
+    },
+    {
+      "type": "rising_category",
+      "title": "Cloud Storage 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Cloud Storage"
+    },
+    {
+      "type": "rising_category",
+      "title": "Identity Verification 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Identity Verification"
+    },
     {
       "type": "rising_category",
       "title": "Streaming Entertainment 카테고리 급부상",
@@ -994,34 +1003,6 @@
       "category": "Personalization"
     },
     {
-      "type": "rising_category",
-      "title": "Safety 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Safety"
-    },
-    {
-      "type": "rising_category",
-      "title": "Services Marketplace 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Services Marketplace"
-    },
-    {
-      "type": "rising_category",
-      "title": "Social 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social"
-    },
-    {
-      "type": "rising_category",
-      "title": "Fashion 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Fashion"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
       "description": "21%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
@@ -1030,20 +1011,21 @@
     }
   ],
   "insight": {
-    "trend_summary": "쇼핑(+167%)과 교육(+150%) 카테고리가 급성장하며 B2C 앱 수요가 폭발적으로 증가하고 있습니다. AI 기능 통합(21%)과 AR/VR(16%)이 차별화 핵심 기술로 부상하며, freemium 모델(74%)이 수익화의 주류로 자리잡고 있습니다. 경쟁이 적은 Health, Streaming, AI 편집 카테고리에서 1인 개발자의 빠른 진입 기회가 열리고 있습니다.",
+    "trend_summary": "쇼핑 카테고리가 167% 급상승하며 B2C 앱 수요가 폭발적으로 증가하고 있고, AI 기능을 탑재한 앱이 전체의 21%를 차지하며 크리에이터 도구와 결합된 형태가 주목받고 있습니다. 1인 개발 가능 태그가 35회로 높은 관심을 받아, 소규모 팀도 시장 진입이 충분히 가능한 환경이 조성되고 있습니다.",
     "trend_details": [
-      "쇼핑·교육 카테고리 동반 급상승: 경기 불확실성 속 절약·자기계발 수요가 앱 소비로 전환되는 흐름",
-      "AI 기능이 선택이 아닌 기본값으로: 상위 트렌드 앱의 21%가 AI 탑재, 미적용 앱과의 격차 확대 중",
-      "freemium + subscription 조합이 수익화 공식으로 정착: 무료 진입 후 프로 구독 전환이 주류 BM"
+      "Shopping 카테고리 167% 급상승 — B2C 소비자 직접 타겟 앱의 수요가 가장 빠르게 성장 중",
+      "AI + 크리에이터 도구 융합 — 영상, 콘텐츠, 스트리밍 키워드가 동반 상승하며 AI 기반 크리에이터 워크플로우 앱이 핵심 트렌드로 부상",
+      "Freemium 모델 우세 (73%) — 무료 진입 후 구독 전환 구조가 시장 표준으로 자리잡으며, 온타임 결제(49%)보다 반복 수익 모델 선호도가 높아짐"
     ],
     "hot_categories": [
       "Shopping",
-      "Education",
-      "Health and Fitness",
-      "AI Photo and Video Editing"
+      "AI Photo and Video Editing",
+      "Calendar",
+      "Food and Beverage",
+      "Developer Tools"
     ],
-    "opportunity": "Health and Fitness 및 AI Photo/Video Editing 카테고리는 성장률 100%에도 앱 수가 적어, AI 기능을 결합한 1인 개발 앱이 빠르게 상위 노출을 차지할 수 있는 블루오션 구간입니다.",
-    "action_item": "Health & Fitness 또는 AI 영상 편집 영역에서 freemium 모델로 MVP를 출시하고, '1인개발가능' 태그와 AI 기능을 전면에 내세워 Product Hunt 등 커뮤니티에 즉시 등록하세요.",
-    "weekly_theme": "AI 헬스 freemium"
+    "opportunity": "AI 기능이 아직 적용되지 않은 Calendar, Food and Beverage, Cloud Storage 등 급부상 카테고리에서 AI를 접목한 1인 개발 앱으로 선점 진입하는 것이 가장 유망합니다.",
+    "action_item": "크리에이터 대상 AI 기반 콘텐츠 일정 관리 앱을 Freemium 모델로 빠르게 프로토타입 제작해 Product Hunt에 론칭하세요.",
+    "weekly_theme": "AI 크리에이터 도구"
   }
 }

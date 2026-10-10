@@ -1,0 +1,705 @@
+{
+  "date": "2026-10-11",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Yours - 마음이 담긴 손편지",
+      "developer": "ARON Co., Ltd.",
+      "category": "Social Networking",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/2b/ef/e22beffe-09d2-acb8-70b5-689d6c575fe2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/yours-%EB%A7%88%EC%9D%8C%EC%9D%B4-%EB%8B%B4%EA%B8%B4-%EC%86%90%ED%8E%B8%EC%A7%80/id6797037957",
+      "source_id": "e504311d0e0847f4b016b18d",
+      "idea_summary": "디지털 시대 손편지 감성으로 진심 연결",
+      "analysis": {
+        "problem": "디지털 메시지 범람으로 진심 어린 소통이 희박해지는 문제 [추론]",
+        "solution": "손편지 형태의 감성 메시지를 디지털로 작성·전송하는 소셜 앱 [추론]",
+        "target_user": "감성 소통을 중시하는 20-30대, 장거리 연인·친구 [추론]",
+        "unique_point": "단순 메신저가 아닌 손편지 쓰기 경험과 감성 연출에 집중한 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Slowly",
+          "Bond - Send Real Letters",
+          "TouchNote"
+        ],
+        "timing_reason": "AI·자동화 피로감으로 아날로그 감성 소비 수요가 증가하는 시점 [추론]",
+        "growth_potential": "글로벌 펜팔 및 감성 소셜 니즈 확대로 꾸준한 성장 기대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 편지지·스티커 IAP 및 월정액 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 감성 에셋 팩 1,200원~3,900원 IAP 또는 월 4,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~4개월 [추론]",
+        "estimated_cost": "500~800 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Graphics",
+          "UIKit",
+          "Firebase"
+        ],
+        "key_features": [
+          "손글씨 감성 편지 작성 에디터",
+          "편지지·스탬프·스티커 에셋 상점",
+          "상대방에게 편지 전송 및 수신 알림",
+          "편지함 보관 기능"
+        ],
+        "clone_tip": "핵심은 편지지 커스터마이징 에디터 UX에 집중하고, 감성 에셋 팩을 수익화 포인트로 활용하면 1인 개발 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#감성소셜",
+        "#글로벌"
+      ],
+      "verdict": "아날로그 감성 소셜의 디지털 재현, 에셋 IAP로 수익화 용이",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "티포: 직장인 데스크 펫",
+      "developer": "TrailService",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/99/d7/d199d7f9-dd14-44ee-bbcc-1b93182617fc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%8B%B0%ED%8F%AC-%EC%A7%81%EC%9E%A5%EC%9D%B8-%EB%8D%B0%EC%8A%A4%ED%81%AC-%ED%8E%AB/id6812648617",
+      "source_id": "02433cc15042725606a7aa64",
+      "idea_summary": "직장인 화면 위 함께하는 귀여운 데스크 펫",
+      "analysis": {
+        "problem": "재택·사무 근무 중 정서적 허전함과 단조로움을 해소할 수단 부족 [추론]",
+        "solution": "스마트폰 화면 위에 생동감 있는 가상 펫을 키우며 소소한 즐거움 제공 [추론]",
+        "target_user": "재택근무자 및 사무직 직장인, 특히 25-40대 [추론]",
+        "unique_point": "직장인 페르소나에 특화된 데스크 펫으로 업무 맥락 연동 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Tamagotchi Smart",
+          "My Tamagotchi Forever",
+          "Pou"
+        ],
+        "timing_reason": "재택근무 정착 및 직장인 번아웃 증가로 소소한 힐링 앱 수요 상승 [추론]",
+        "growth_potential": "직장인 커뮤니티 바이럴 잠재력 높고 글로벌 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 펫 스킨·아이템 IAP 및 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 펫 스킨 팩 1,900원~3,900원, 월 3,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~600 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SpriteKit",
+          "Core Animation",
+          "Firebase"
+        ],
+        "key_features": [
+          "다양한 펫 캐릭터 및 애니메이션",
+          "업무 시간대 인식 반응 행동",
+          "펫 성장·육성 시스템",
+          "아이템 꾸미기 상점"
+        ],
+        "clone_tip": "SpriteKit으로 캐릭터 애니메이션 구현에 집중하고, 펫 스킨 IAP를 핵심 수익원으로 설계하면 1인 개발로 충분히 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#힐링앱",
+        "#직장인"
+      ],
+      "verdict": "직장인 힐링 니즈 정조준, 캐릭터 IP 확장 가능성 보유",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "Sync: Plan & Actual",
+      "developer": "037",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/63/04/ef6304ff-d1b1-811e-cac2-15a2ad00c30b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/sync-plan-actual/id6808510515",
+      "source_id": "ac9b902392986812779a56a5",
+      "idea_summary": "계획 대비 실적을 한눈에 비교하는 생산성 앱",
+      "analysis": {
+        "problem": "할일 앱은 많지만 계획과 실제 수행 결과를 체계적으로 비교·분석하는 도구가 부재 [추론]",
+        "solution": "동일 화면에서 계획 일정과 실제 수행 내역을 비교 추적하고 갭을 시각화 [추론]",
+        "target_user": "목표 관리에 진지한 직장인, 프리랜서, 학생 (20-40대) [추론]",
+        "unique_point": "단순 할일 체크가 아닌 계획-실적 차이 분석에 특화된 차별화된 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "Todoist",
+          "Things 3",
+          "TickTick"
+        ],
+        "timing_reason": "자기계발·목표달성 문화 확산과 성과 추적에 대한 관심 증가 [추론]",
+        "growth_potential": "글로벌 생산성 앱 시장 내 계획-실적 특화 니치 포지션으로 안정적 성장 기대 [추론]"
+      },
+      "business": {
+        "monetization": "월정액 구독 프리미엄 기능 언락 방식 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4,900원~6,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~700 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "Swift Charts"
+        ],
+        "key_features": [
+          "계획 일정 입력 화면",
+          "실제 수행 기록 입력",
+          "계획 vs 실적 비교 대시보드",
+          "주간·월간 갭 분석 리포트"
+        ],
+        "clone_tip": "SwiftUI + Swift Charts로 비교 대시보드 구현에 집중하고, 데이터 시각화 품질이 핵심 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#목표관리"
+      ],
+      "verdict": "계획-실적 갭 분석 니치 포지션으로 생산성 앱 레드오션 차별화",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "VibeShort: AI Short Dramas",
+      "developer": "AGILE QUADRANT MEDIA LIMITED",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c4/fd/63/c4fd63e4-d798-f4e8-7b4f-8d429183935a/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/vibeshort-ai-short-dramas/id6758667154",
+      "source_id": "74cb28bd6a2027a685617313",
+      "idea_summary": "AI 생성 숏폼 드라마 전문 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "짧은 여가 시간에 맞는 몰입감 있는 드라마 콘텐츠 수요 지속 증가 [추론]",
+        "solution": "AI로 제작된 짧은 에피소드 드라마를 모바일에 최적화해 스트리밍 [추론]",
+        "target_user": "10-30대 모바일 동영상 소비 중심 사용자, 특히 여성 [추론]",
+        "unique_point": "AI 생성 콘텐츠로 기존 대비 빠르고 저렴한 콘텐츠 공급 구조 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ReelShort",
+          "DramaBox",
+          "BlinkDrama",
+          "ShortMax"
+        ],
+        "timing_reason": "숏폼 드라마 글로벌 붐과 AI 콘텐츠 생성 기술 성숙이 맞물린 최적 타이밍 [추론]",
+        "growth_potential": "숏드라마 시장 고속 성장 중이며 AI 생산성 활용 시 콘텐츠 확장 속도에서 경쟁 우위 [추론]"
+      },
+      "business": {
+        "monetization": "코인 IAP 구매 및 월정액 구독 혼합 모델 [추론]",
+        "pricing_suggestion": "에피소드별 코인 소모 방식, 월 9,900원~12,900원 무제한 구독 옵션 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "1,000~2,000 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "AWS S3",
+          "AI 영상 생성 API",
+          "Stripe"
+        ],
+        "key_features": [
+          "숏드라마 시리즈 스트리밍 플레이어",
+          "에피소드별 코인 결제 시스템",
+          "장르별 콘텐츠 탐색 피드",
+          "다음화 자동 연결 재생"
+        ],
+        "clone_tip": "AI 영상 생성 API(Runway, Sora 등)와 연동하여 콘텐츠 제작 비용을 낮추고, 코인 IAP 과금 구조를 먼저 설계하는 것이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#B2C",
+        "#AI콘텐츠",
+        "#숏폼드라마",
+        "#글로벌"
+      ],
+      "verdict": "AI 숏드라마 급성장 시장 진입, 콘텐츠 수급 전략이 성패 좌우",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "name": "Digi Voices",
+      "developer": "Fatih ONDER",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/db/7a/5bdb7ae3-346c-11e5-5deb-a49f4959b2b3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/digi-voices/id6784621588",
+      "source_id": "6e174fecff26c28a6fad1646",
+      "idea_summary": "텍스트를 다양한 디지털 음성으로 즉시 변환 재생",
+      "analysis": {
+        "problem": "텍스트를 직접 읽기 어려운 상황이나 접근성 필요 사용자를 위한 편리한 TTS 도구 부재 [추론]",
+        "solution": "입력한 텍스트를 다양한 디지털 음성으로 변환해 재생하는 TTS 유틸리티 앱 [추론]",
+        "target_user": "시각 장애인, 언어 학습자, 텍스트 음독이 필요한 전문직 사용자 [추론]",
+        "unique_point": "간단한 UI와 다양한 음성 선택지로 접근성과 사용 편의성 극대화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Natural Reader",
+          "Voice Dream Reader",
+          "Speechify",
+          "Balabolka"
+        ],
+        "timing_reason": "AI TTS 기술 고도화로 자연스러운 음성 품질 구현이 가능해진 시점 [추론]",
+        "growth_potential": "접근성 의무화 법제화 흐름과 오디오 콘텐츠 소비 증가로 꾸준한 수요 유지 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 음성 팩 IAP 및 광고 제거 유료화 [추론]",
+        "pricing_suggestion": "기본 무료(광고 포함), 프리미엄 월 2,900원~4,900원 구독 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "150~350 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "AVSpeechSynthesizer",
+          "AdMob"
+        ],
+        "key_features": [
+          "텍스트 입력 화면",
+          "음성 종류 및 속도 선택",
+          "재생·일시정지·구간 반복 컨트롤",
+          "텍스트 파일 불러오기"
+        ],
+        "clone_tip": "iOS 내장 AVSpeechSynthesizer로 빠르게 MVP 구현 가능하며, ElevenLabs 등 AI TTS API 연동으로 고품질 음성 차별화 추가 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#접근성",
+        "#유틸리티"
+      ],
+      "verdict": "빠른 구현 가능한 TTS 유틸리티, 접근성 시장 니즈 안정적",
+      "country": "jp"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
+      "developer": "Brave Mobile",
+      "category": "Services Marketplace",
+      "icon": "https://play-lh.googleusercontent.com/IqiqcQKcqPZKbQU5HkiXV6TDoNHVS7fzClKe2bdICLLD2AGTtRsWsh7AVO6SmbQtQ2gtaJMZkGdU2gIxgLRPiA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.soomgo",
+      "source_id": "a7afc6e3c1fd0484875fd6b9",
+      "idea_summary": "이사부터 취미까지 전문가 매칭 O2O 플랫폼",
+      "analysis": {
+        "problem": "전문가 서비스 탐색·비교·예약이 분산되어 원스톱 해결이 어려운 문제 [추론]",
+        "solution": "고객의 서비스 요청에 전문가가 견적을 제안하는 역경매 방식의 매칭 플랫폼 [추론]",
+        "target_user": "이사·청소·인테리어·레슨 등 전문 서비스가 필요한 20-50대 한국 사용자 [추론]",
+        "unique_point": "고객 요청에 여러 전문가가 견적 경쟁하는 역경매 방식으로 비교 편의성 극대화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "크몽",
+          "탈잉",
+          "당근마켓 알바",
+          "TaskRabbit"
+        ],
+        "timing_reason": "긱이코노미 확산과 1인 가구 증가로 소규모 전문 서비스 수요 지속 성장 [추론]",
+        "growth_potential": "카테고리 확장과 해외 O2O 시장 진출 가능성으로 장기 성장 잠재력 보유 [추론]"
+      },
+      "business": {
+        "monetization": "전문가 유료 견적 크레딧 판매 및 거래 수수료 [추론]",
+        "pricing_suggestion": "고객 무료, 전문가 견적 제안 시 크레딧 차감 1,000원~5,000원/건 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~9개월 [추론]",
+        "estimated_cost": "2,000~4,000 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Node.js",
+          "PostgreSQL",
+          "Firebase",
+          "Google Maps API"
+        ],
+        "key_features": [
+          "서비스 요청 게시 및 카테고리 분류",
+          "전문가 프로필 및 리뷰 시스템",
+          "역경매 견적 제안 및 선택 화면",
+          "채팅 기반 커뮤니케이션",
+          "결제 및 크레딧 관리"
+        ],
+        "clone_tip": "반려동물 서비스·악기 레슨 등 니치 카테고리에 집중한 버티컬 플랫폼으로 먼저 론칭하면 1인 팀도 초기 진입 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#B2C",
+        "#O2O",
+        "#마켓플레이스",
+        "#한국"
+      ],
+      "verdict": "검증된 O2O 매칭 모델, 버티컬 특화 진입으로 클론 가능",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "헤이딜러 - 인증중고차, 내차팔기, [번호판]시세",
+      "developer": "HeyDealer",
+      "category": "Automotive Marketplace",
+      "icon": "https://play-lh.googleusercontent.com/0PZN-InNu9ZsNsGdZclV6deVlI4icd77Q-DpL_gEd99-BU5El88FeUILgmaaM7I0y6WrEpYrgkBgvwghW0y_VA",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.perfectree.heydealer",
+      "source_id": "ad05b9544a9e7fe8a74d328c",
+      "idea_summary": "딜러 역경매로 내 차를 최고가에 파는 중고차 앱",
+      "analysis": {
+        "problem": "중고차 판매 시 적정 가격을 모르고 딜러에게 불리한 조건으로 거래되는 문제 [추론]",
+        "solution": "차량 정보 입력 후 여러 딜러가 경쟁 입찰하는 방식으로 최고 가격에 판매 [추론]",
+        "target_user": "중고차 판매를 원하는 30-50대 차량 보유자 [추론]",
+        "unique_point": "소비자 중심의 딜러 역경매 구조로 정보 비대칭 해소 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "엔카",
+          "KB차차차",
+          "SK엔카다이렉트",
+          "카카오모빌리티"
+        ],
+        "timing_reason": "중고차 시장 디지털화 가속과 소비자 정보력 향상으로 투명 거래 플랫폼 수요 증가 [추론]",
+        "growth_potential": "전기차 확산에 따른 교체 수요 증가로 중고차 거래 시장 규모 지속 확대 기대 [추론]"
+      },
+      "business": {
+        "monetization": "딜러 광고 수수료 및 거래 성사 건당 중개 수수료 [추론]",
+        "pricing_suggestion": "소비자 무료, 딜러 월정액 플랜 또는 거래 성사 수수료 0.5%~1% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~10개월 [추론]",
+        "estimated_cost": "2,500~5,000 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Spring Boot",
+          "MySQL",
+          "AWS",
+          "카카오 API"
+        ],
+        "key_features": [
+          "차량 정보 및 사진 등록",
+          "딜러 실시간 입찰 현황 화면",
+          "견적 비교 및 선택",
+          "딜러 평점 및 리뷰",
+          "안전 거래 완료 처리"
+        ],
+        "clone_tip": "특정 차종(전기차·수입차) 버티컬에 집중하거나, 중고 가전·오토바이 등 유사 역경매 모델을 다른 카테고리에 적용 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#마켓플레이스",
+        "#자동차",
+        "#한국"
+      ],
+      "verdict": "정보 비대칭 해소하는 역경매 모델, 타 카테고리 적용 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "News and Safety",
+      "icon": "https://play-lh.googleusercontent.com/3b7_a7m50wFj68Afd6q0bhq2HPTWQlgeViv9B9tEbhChS3h4nVTo-HotZF4OmShKwT2_zhNAr3alwYRWBjiC_g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "source_id": "df5662bec0fbbf1fc3dda789",
+      "idea_summary": "로컬 경찰 무선 기반 실시간 주변 사건사고 알림",
+      "analysis": {
+        "problem": "내 주변에서 발생하는 사건·사고 정보를 실시간으로 파악하기 어려운 문제 [추론]",
+        "solution": "경찰 무선(dispatch) 데이터를 파싱하여 사용자 위치 기반 실시간 사건 알림 제공 [추론]",
+        "target_user": "치안 정보에 민감한 미국 거주 성인, 특히 부모와 안전 의식 높은 30-60대 [추론]",
+        "unique_point": "경찰 디스패치 데이터를 일반 사용자에게 접근 가능한 형태로 가공·제공하는 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "Neighbors by Ring",
+          "Nextdoor"
+        ],
+        "timing_reason": "공공 안전 데이터 개방 확대와 지역 커뮤니티 안전 관심 증가 [추론]",
+        "growth_potential": "미국 내 안전 앱 수요는 안정적이며, 글로벌 공공 데이터 수집 확장 시 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 서비스 및 프리미엄 구독(알림 범위 확장) [추론]",
+        "pricing_suggestion": "기본 무료(광고), 프리미엄 월 $2.99~$4.99 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "700~1,500 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Google Maps API",
+          "공공 경찰 데이터 API",
+          "AdMob"
+        ],
+        "key_features": [
+          "GPS 기반 주변 사건 지도 표시",
+          "실시간 푸시 알림",
+          "사건 카테고리 필터링",
+          "사건 상세 정보 피드"
+        ],
+        "clone_tip": "미국 공공 경찰 디스패치 데이터를 활용하고, 한국 적용 시 국민신문고·경찰청 공공데이터 API 연동을 검토할 것 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#안전",
+        "#로컬데이터",
+        "#미국"
+      ],
+      "verdict": "공공 데이터 활용 실시간 안전 앱, 한국 버전 개발 가능성 있음",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "name": "아파트아이 - 아파트 생활 필수 앱",
+      "developer": "(주)아파트아이",
+      "category": "Home Management",
+      "icon": "https://play-lh.googleusercontent.com/a3euALjh_jXUuwWPsMmZhV8aWPwC5S19WSPV26Btu6uyXontxqpIVH6dYCcgjZgKg8973BIv81LDs0uABAeecQ",
+      "app_url": "https://play.google.com/store/apps/details?id=aptip.app",
+      "source_id": "4381139cf6a6bf379009cd90",
+      "idea_summary": "아파트 주민 납부·공지·서비스 통합 관리 앱",
+      "analysis": {
+        "problem": "아파트 관리비 납부·공지 확인·시설 예약이 각각 분산되어 불편 [추론]",
+        "solution": "아파트 단지 맞춤형 관리비 납부·공지·커뮤니티·서비스 예약 원스톱 제공 [추론]",
+        "target_user": "한국 아파트 거주자 전체, 특히 관리 업무를 담당하는 세대주 30-60대 [추론]",
+        "unique_point": "아파트 단지별 맞춤화와 관리소 B2B 연계로 전국 단지 네트워크 구축 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "아파트앱",
+          "아파트너",
+          "아이파크앱",
+          "힐스테이트 앱"
+        ],
+        "timing_reason": "한국 아파트 거주 비율이 높고 스마트 주거 디지털화 수요가 증가하는 시점 [추론]",
+        "growth_potential": "전국 아파트 단지 수가 많아 B2B 계약 확대 시 안정적 성장 기대 [추론]"
+      },
+      "business": {
+        "monetization": "관리소 B2B 월정액 구독 및 입주민 편의 서비스 수수료 [추론]",
+        "pricing_suggestion": "관리소 월 30~100만원 B2B 계약, 입주민 무료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5~8개월 [추론]",
+        "estimated_cost": "1,500~3,000 [추론]",
+        "tech_stack": [
+          "React Native",
+          "Spring Boot",
+          "MySQL",
+          "Firebase",
+          "결제 모듈"
+        ],
+        "key_features": [
+          "관리비 내역 조회 및 납부",
+          "단지 공지사항 피드",
+          "시설 예약 시스템",
+          "민원 접수 및 처리 현황",
+          "세대 커뮤니티 게시판"
+        ],
+        "clone_tip": "특정 지역 아파트 단지 1~2곳을 무료로 도입하여 레퍼런스 확보 후 B2B 영업으로 확산하는 전략이 효과적 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2B",
+        "#B2C",
+        "#주거관리",
+        "#한국"
+      ],
+      "verdict": "한국 아파트 문화 특화 B2B 플랫폼, 단지 확보가 핵심 과제",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "PHOTOISM - 포토이즘",
+      "developer": "Seobuk Co., Ltd.",
+      "category": "Photography",
+      "icon": "https://play-lh.googleusercontent.com/b3iRtRElDL7XiuFd7Gs9SLqnCIFwxKHNWcQ71IBO_XsU95LNDCAw9JwqgtIK8y6PM1S1MU7Sdi9YlATY5e6fsw",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.co.photoism",
+      "source_id": "340013f96ac1feb9c403f1d6",
+      "idea_summary": "브랜드 포토부스 경험을 앱으로 확장한 셀프 포토",
+      "analysis": {
+        "problem": "포토부스 방문 없이도 브랜드 감성의 포토부스 사진을 찍고 싶은 수요 [추론]",
+        "solution": "스마트폰으로 브랜드 포토부스 감성의 셀프 사진 촬영 및 인화 연계 서비스 제공 [추론]",
+        "target_user": "인생네컷·포토그레이 등 포토부스를 즐기는 10-25대 여성 사용자 [추론]",
+        "unique_point": "오프라인 포토부스 브랜드 IP를 앱으로 연장하여 온·오프라인 경험 통합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "인생네컷 앱",
+          "포토그레이",
+          "하루필름",
+          "셀픽스"
+        ],
+        "timing_reason": "포토부스 문화의 Z세대 확산과 디지털-물리 경험 융합 트렌드 [추론]",
+        "growth_potential": "K-포토부스 트렌드의 해외 확산과 함께 글로벌 시장 진출 잠재력 보유 [추론]"
+      },
+      "business": {
+        "monetization": "프레임·필터 IAP, 인화 연계 서비스 수수료, 브랜드 콜라보 광고 [추론]",
+        "pricing_suggestion": "앱 무료, 프리미엄 프레임 팩 1,200원~3,900원 IAP, 인화 연계 시 건당 수수료 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "500~1,200 [추론]",
+        "tech_stack": [
+          "Flutter",
+          "TensorFlow Lite",
+          "Camera2 API",
+          "Firebase",
+          "결제 모듈"
+        ],
+        "key_features": [
+          "다양한 포토부스 스타일 프레임",
+          "실시간 카메라 필터 적용",
+          "4컷 연속 촬영 모드",
+          "사진 저장 및 SNS 공유",
+          "인화 서비스 연동"
+        ],
+        "clone_tip": "핵심은 포토부스 감성의 고품질 프레임 디자인에 있으며, 4컷 촬영 + 프레임 IAP 모델로 1인 개발도 충분히 출시 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#포토부스",
+        "#Z세대"
+      ],
+      "verdict": "K-포토부스 감성 앱, 프레임 IAP 수익화와 브랜드 콜라보 기회",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 AI 콘텐츠 소비(숏드라마)와 오프라인 감성의 디지털화(손편지·포토부스)가 동시에 부상하고 있다. O2O 역경매 서비스 매칭과 공공 데이터 기반 로컬 안전 앱도 인디 개발자가 노릴 수 있는 검증된 틈새 시장을 형성 중이다.",
+    "trend_details": [
+      "AI 생성 숏폼 드라마 플랫폼의 급성장: 코인 IAP + 구독 혼합 수익 모델이 표준으로 자리잡는 중 [추론]",
+      "아날로그 감성 소셜 앱 부상: 디지털 피로감 반작용으로 손편지·포토부스 등 감성 앱 수요 증가 [추론]",
+      "로컬 공공 데이터 활용 안전 앱: 경찰 디스패치 등 공공 API를 활용한 지역 밀착 서비스 가능성 확대 [추론]",
+      "O2O 역경매 마켓플레이스 확산: 정보 비대칭 해소 모델이 자동차·전문 서비스 등 다양한 카테고리로 적용 가능 [추론]"
+    ],
+    "hot_categories": [
+      "숏폼 드라마",
+      "감성 소셜",
+      "O2O 마켓플레이스",
+      "로컬 안전",
+      "포토·카메라"
+    ],
+    "opportunity": "공공 데이터(경찰·행정)를 활용한 로컬 안전 및 생활 정보 앱은 한국 시장에서 아직 미개척 상태이며, 인디 개발자가 공공 API로 빠르게 진입 가능한 블루오션 영역 [추론]",
+    "action_item": "AI TTS 또는 공공 데이터 API를 활용한 1~2개월 MVP 앱을 먼저 출시하고, 사용자 반응을 기반으로 구독·IAP 수익화 모델을 린하게 검증하는 접근 권장"
+  },
+  "data_status": {}
+}
