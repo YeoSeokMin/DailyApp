@@ -1,0 +1,697 @@
+{
+  "date": "2026-10-13",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
+      "source_id": "50533d99b1edc5896e596083",
+      "developer": "Singularity Co., Ltd.",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/97/1f/6a971f2f-4023-5dcb-2d45-1777dc6fe39c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%9C%A0%EB%8B%88%EB%B8%8C-ai-%EA%B0%95%EC%9D%98-%EB%85%B9%EC%9D%8C-pdf-%EC%9A%94%EC%95%BD-%ED%80%B4%EC%A6%88/id6754797367",
+      "idea_summary": "AI가 강의 녹음·PDF 요약·퀴즈를 자동 생성",
+      "analysis": {
+        "problem": "대학생들은 긴 강의를 필기하고 복습하는 데 과도한 시간을 소비한다 [추론]",
+        "solution": "AI가 강의를 실시간 녹음·전사하고 PDF를 요약하며 퀴즈를 자동 생성해 학습 효율을 높인다 [확인]",
+        "target_user": "대학생 및 수험생, 특히 효율적 학습을 원하는 20대 초중반 [추론]",
+        "unique_point": "녹음-전사-요약-퀴즈 생성을 하나의 앱에서 원스톱 처리하는 통합 학습 워크플로우 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "Notion AI",
+          "Quizlet"
+        ],
+        "timing_reason": "GPT 기반 AI 요약 기술이 고도화되며 교육 분야 AI 수요가 폭발적으로 증가하는 시점 [추론]",
+        "growth_potential": "글로벌 EdTech 시장 성장과 AI 학습 도구 수요 증가로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델(프리미엄) 또는 IAP 방식으로 추가 기능 제공 [추론]",
+        "pricing_suggestion": "무료 기본 기능 + 월 5,000~9,900원 구독으로 무제한 녹음 및 고급 퀴즈 제공 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~10개월 [추론]",
+        "estimated_cost": "3,000~6,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "OpenAI Whisper API",
+          "GPT-4 API",
+          "Firebase",
+          "PDFKit"
+        ],
+        "key_features": [
+          "실시간 강의 녹음 및 전사",
+          "PDF 업로드 및 AI 요약",
+          "자동 퀴즈 생성",
+          "학습 노트 정리"
+        ],
+        "clone_tip": "Whisper API로 전사, GPT로 요약·퀴즈 생성 파이프라인 구성이 핵심이며 PDF 파싱은 PDFKit 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI교육",
+        "#대학생",
+        "#B2C",
+        "#구독모델"
+      ],
+      "verdict": "AI 학습 워크플로우 통합 앱, 대학생 시장 공략 가능성 높음",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "플로우 - AI 가계부",
+      "source_id": "37210dbe10fdefa44284f6c5",
+      "developer": "Haeseong Jung",
+      "category": "Finance",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/63/43/1f634343-1105-7154-ab87-1ee7766bf5aa/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%94%8C%EB%A1%9C%EC%9A%B0-ai-%EA%B0%80%EA%B3%84%EB%B6%80/id6759516732",
+      "idea_summary": "AI가 지출을 자동 분류하고 재정 인사이트 제공",
+      "analysis": {
+        "problem": "수동 가계부 작성은 번거롭고 지속하기 어려워 대부분 중도 포기한다 [추론]",
+        "solution": "AI가 거래 내역을 자동 분류하고 소비 패턴을 분석해 맞춤형 재정 인사이트를 제공한다 [확인]",
+        "target_user": "가계 지출 관리에 관심 있는 20~40대 직장인 및 가정주부 [추론]",
+        "unique_point": "AI 기반 자동 분류와 직관적 인사이트로 기존 수동 가계부의 진입 장벽을 낮춤 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "뱅크샐러드",
+          "토스 가계부",
+          "Money Manager"
+        ],
+        "timing_reason": "개인 재정 관리에 대한 관심 증가와 AI 자동화 기술의 접목이 맞물린 시점 [추론]",
+        "growth_potential": "퍼스널 파이낸스 앱 시장은 지속 성장 중이며 AI 차별화로 충성 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델로 고급 분석 기능 제공 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 3,900~6,900원 구독으로 AI 분석 및 목표 설정 기능 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~7개월 [추론]",
+        "estimated_cost": "2,000~4,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "GPT API",
+          "Charts 라이브러리",
+          "Firebase"
+        ],
+        "key_features": [
+          "거래 내역 자동 분류",
+          "소비 패턴 분석",
+          "예산 목표 설정",
+          "AI 재정 인사이트"
+        ],
+        "clone_tip": "카테고리 자동 분류는 GPT API 활용, 초기에는 수동 입력 지원 후 OCR 영수증 스캔 순으로 기능 점진 확장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#AI가계부",
+        "#퍼스널파이낸스",
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "경쟁 치열하나 AI 자동화로 차별화 가능한 필수 생활 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "킹보드 - 맞춤법 검사기·번역 AI 키보드",
+      "source_id": "0bde4bdec6cfb1d52d7932fa",
+      "developer": "Dong sub Park",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/3d/89/a13d8924-1dc7-e592-4fe0-1ec036330ba8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%82%B9%EB%B3%B4%EB%93%9C-%EB%A7%9E%EC%B6%A4%EB%B2%95-%EA%B2%80%EC%82%AC%EA%B8%B0-%EB%B2%88%EC%97%AD-ai-%ED%82%A4%EB%B3%B4%EB%93%9C/id6762074672",
+      "idea_summary": "맞춤법 검사와 번역을 내장한 AI 키보드",
+      "analysis": {
+        "problem": "모바일 타이핑 중 맞춤법 오류 교정과 번역을 위해 앱을 전환해야 하는 불편함이 있다 [추론]",
+        "solution": "키보드 레벨에서 실시간 맞춤법 검사와 텍스트 번역을 제공해 앱 전환 없이 교정 가능하게 한다 [확인]",
+        "target_user": "글쓰기가 잦은 직장인, 학생, 다국어 커뮤니케이션이 필요한 사용자 [추론]",
+        "unique_point": "iOS 커스텀 키보드 확장으로 모든 앱에서 동작하는 인라인 AI 교정·번역 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Gboard",
+          "SwiftKey",
+          "Grammarly Keyboard"
+        ],
+        "timing_reason": "AI 언어 모델의 경량화로 저지연 API 교정이 실용화되며 키보드 AI 통합 시점이 무르익음 [추론]",
+        "growth_potential": "키보드 앱은 설치 후 이탈률이 낮아 리텐션 강점이 있으며 글로벌 다국어 시장 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 또는 인앱구매로 고급 번역 언어 및 AI 교정 기능 제공 [추론]",
+        "pricing_suggestion": "무료 기본(한국어 교정) + 월 2,900~4,900원으로 다국어 번역 및 문체 교정 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "1,500~3,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "UIKit",
+          "Custom Keyboard Extension",
+          "OpenAI API",
+          "국립국어원 맞춤법 API"
+        ],
+        "key_features": [
+          "실시간 맞춤법 검사",
+          "인라인 번역",
+          "문체 교정 제안",
+          "다국어 지원"
+        ],
+        "clone_tip": "iOS Custom Keyboard Extension API 활용, 앱 전환 없는 인라인 UX가 핵심 가치이며 맞춤법 교정은 국립국어원 API 또는 GPT 연동 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AI키보드",
+        "#맞춤법",
+        "#번역",
+        "#1인개발가능"
+      ],
+      "verdict": "진입장벽 높은 키보드 시장이지만 AI 교정 특화로 틈새 공략 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "YoungPhoto - エモい構図カメラ",
+      "source_id": "7804bbfc64b05b9effbf2dae",
+      "developer": "Seungyun Kim",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/7c/8c/107c8c92-a699-9680-c9f5-33ee18e4c0f5/Ophoto-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/youngphoto-%E3%82%A8%E3%83%A2%E3%81%84%E6%A7%8B%E5%9B%B3%E3%82%AB%E3%83%A1%E3%83%A9/id6763737180",
+      "idea_summary": "감성 구도를 실시간으로 안내하는 감정 중심 카메라 앱",
+      "analysis": {
+        "problem": "일반 사용자는 사진 구도를 잡는 방법을 몰라 감성적인 사진을 찍기 어렵다 [추론]",
+        "solution": "감성적 구도 가이드를 실시간으로 제공해 누구나 분위기 있는 사진을 찍을 수 있도록 돕는다 [확인]",
+        "target_user": "감성 사진에 관심 있는 10~30대, 특히 SNS 콘텐츠를 즐기는 사용자 [추론]",
+        "unique_point": "기술적 기능보다 감정과 분위기를 강조하는 감성 중심의 카메라 UX 접근 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Halide",
+          "Lightroom Mobile"
+        ],
+        "timing_reason": "숏폼 콘텐츠 문화 확산으로 감성 사진 수요가 급증하는 시점 [추론]",
+        "growth_potential": "SNS 기반 감성 콘텐츠 트렌드가 지속되는 한 꾸준한 수요 예상 [추론]"
+      },
+      "business": {
+        "monetization": "인앱구매 또는 구독으로 프리미엄 필터와 구도 팩 제공 [추론]",
+        "pricing_suggestion": "무료 기본 + 일회성 구매 9,900원 또는 월 2,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "1,500~3,500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Core Image",
+          "Metal"
+        ],
+        "key_features": [
+          "감성 구도 가이드 오버레이",
+          "감정 테마 필터",
+          "실시간 프리뷰",
+          "SNS 공유"
+        ],
+        "clone_tip": "AVFoundation으로 커스텀 카메라 뷰 구현, 구도 가이드는 단순 오버레이 레이어로 가능하며 필터 퀄리티와 감성 브랜딩이 성패 좌우 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#감성카메라",
+        "#SNS콘텐츠",
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "SNS 감성 트렌드에 올라탄 카메라 앱, 필터 퀄리티가 성패 좌우",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "name": "Band Session Note",
+      "source_id": "b01af530455fdd277c62ceaa",
+      "developer": "sung ju KIM",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/61/81/146181bb-218b-eab9-c783-16819f464d3b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/band-session-note/id6781333991",
+      "idea_summary": "밴드 합주 기록과 곡 정보를 체계적으로 관리",
+      "analysis": {
+        "problem": "밴드 세션 노트, 곡 정보, 연습 기록을 체계적으로 관리할 전용 도구가 없다 [추론]",
+        "solution": "밴드 합주 노트와 곡 세부 정보, 세션 관련 정보를 하나의 앱에서 체계적으로 정리한다 [확인]",
+        "target_user": "아마추어 및 세미프로 밴드 멤버, 정기적으로 음악 세션을 진행하는 뮤지션 [추론]",
+        "unique_point": "밴드·세션 특화 노트 앱으로 일반 메모 앱 대비 음악 워크플로우에 최적화된 UX 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "GoodNotes",
+          "SetlistHelper"
+        ],
+        "timing_reason": "아마추어 밴드 문화가 확산되고 음악 취미 인구가 증가하는 트렌드와 맞물림 [추론]",
+        "growth_potential": "틈새 시장이지만 충성도 높은 사용자 확보 가능하며 글로벌 뮤지션 커뮤니티로 확장 여지 있음 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 다운로드 또는 프리미엄 인앱구매로 무제한 세션 저장 제공 [추론]",
+        "pricing_suggestion": "무료 기본(세션 10개 제한) + 일회성 구매 4,900원으로 무제한 해제 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "500~1,500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Data",
+          "CloudKit",
+          "UIKit"
+        ],
+        "key_features": [
+          "세션 노트 작성 및 편집",
+          "곡 목록 및 악보 링크 관리",
+          "멤버별 역할 기록",
+          "iCloud 동기화"
+        ],
+        "clone_tip": "Core Data + CloudKit 동기화 구조로 시작, 밴드 멤버 간 공유 기능을 Collaboration 포인트로 추가하면 바이럴 확산 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#뮤지션",
+        "#틈새시장",
+        "#B2C"
+      ],
+      "verdict": "좁은 타겟이지만 높은 충성도의 뮤지션 틈새 시장 공략 앱",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+      "source_id": "b1785cfa5e794f4ad880e178",
+      "developer": "Scatter Lab, Inc.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/7BHCCDafgblr3UBNNx-ELJ_Ni1mA_iesxlPnyAQXXR1AeHtjwgNLmSRqWXlJg7EhKuE5__EvkoRmycKTQ3X_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger",
+      "idea_summary": "AI 캐릭터와 롤플레이·스토리 인터랙티브 채팅",
+      "analysis": {
+        "problem": "사용자들이 원하는 AI 캐릭터와 감성적 대화나 맞춤형 스토리를 즐길 플랫폼이 부족하다 [추론]",
+        "solution": "AI 캐릭터 커스터마이징, 롤플레이, 인터랙티브 스토리텔링, AI 이미지 생성을 통합 제공한다 [확인]",
+        "target_user": "AI 캐릭터 챗 및 롤플레이에 관심 있는 10~30대, 팬덤·스토리 문화에 익숙한 사용자 [추론]",
+        "unique_point": "Scatter Lab의 한국어 감성 AI 기반으로 자연스러운 대화 품질과 스토리 생성 경험 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "Janitor AI"
+        ],
+        "timing_reason": "AI 대화 모델 고도화와 Gen Z의 AI 관계 형성 트렌드가 맞물리는 시점 [추론]",
+        "growth_potential": "글로벌 AI 컴패니언 앱 시장이 빠르게 성장 중이며 한국 감성 특화로 아시아 시장 공략 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 또는 코인 기반 IAP로 프리미엄 캐릭터 및 이미지 생성 기능 제공 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 9,900원 구독 또는 코인 패키지 인앱구매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8~12개월 [추론]",
+        "estimated_cost": "5,000~10,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Jetpack",
+          "LLM API",
+          "Stable Diffusion API",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 캐릭터 생성 및 커스터마이징",
+          "롤플레이 대화",
+          "인터랙티브 스토리",
+          "AI 이미지 생성"
+        ],
+        "clone_tip": "초기에는 LLM fine-tuning 없이 프롬프트 엔지니어링으로 캐릭터 페르소나 구현 후 점진 고도화, 이미지 생성은 Stable Diffusion API 연동 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#AI캐릭터",
+        "#롤플레이",
+        "#Gen-Z",
+        "#B2C",
+        "#구독"
+      ],
+      "verdict": "AI 컴패니언 시장 고성장, Character.AI와 경쟁하는 한국 감성 특화 앱",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "Easy Homescreen",
+      "source_id": "6d80267839b9d3fbcbf505b2",
+      "developer": "Homescreen Apps",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/hmQoUQolIwD8zpuOSJqphdcoOWob65kcRdGGz0uGOi-vBAU8YBHyYe-XkLq414QuUh4EJWInpAoXugjGwTn4",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "어르신·디지털 소외계층을 위한 단순화 홈스크린",
+      "analysis": {
+        "problem": "스마트폰의 복잡한 UI는 노인이나 디지털 취약 계층에게 높은 사용 장벽이 된다 [추론]",
+        "solution": "큰 글씨, 단순한 레이아웃, 주요 기능 단축키로 스마트폰 접근성을 높인 런처를 제공한다 [확인]",
+        "target_user": "60세 이상 고령자, 디지털 소외계층, 이들을 위한 앱을 찾는 보호자 및 가족 [추론]",
+        "unique_point": "복잡성을 제거하고 필수 기능만 크고 명확하게 제공하는 접근성 중심 런처 설계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Simple Launcher",
+          "Big Launcher",
+          "Wiser"
+        ],
+        "timing_reason": "고령화 사회 진전과 시니어 스마트폰 보급률 증가로 디지털 접근성 도구 수요가 확대되는 시점 [추론]",
+        "growth_potential": "고령 인구 증가 트렌드로 시니어 테크 시장은 장기적으로 지속 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 다운로드 또는 인앱구매로 추가 단축키 및 테마 제공 [추론]",
+        "pricing_suggestion": "무료 기본 + 일회성 구매 2,900~4,900원으로 프리미엄 기능 해제 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "500~2,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Launcher API",
+          "AccessibilityService",
+          "Room DB"
+        ],
+        "key_features": [
+          "대형 아이콘 및 텍스트 홈스크린",
+          "단순화된 앱 단축키",
+          "긴급연락처 바로가기",
+          "폰트 크기 조절"
+        ],
+        "clone_tip": "Android Launcher API로 홈스크린 교체 구현, 접근성 테스트가 핵심이며 실제 시니어 사용자와 반복 UX 테스트 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#시니어테크",
+        "#접근성",
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "고령화 사회 핵심 수혜 앱, 시니어 대상 마케팅 채널 확보가 관건",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "name": "GoWish - Your Digital Wishlist",
+      "source_id": "936e2259f7eb10414f7fc3e4",
+      "developer": "Ønskeskyen ApS",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/svf9YSJNLEa7vHsPmA26miTYJNGJdJzwZasTKYVkIM1zqa9ME6PANpUAbFy6AOSF9JHcwDDTgK-87UtaMUvdmjg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gowish.app",
+      "idea_summary": "가족·친구와 공유하는 디지털 위시리스트 앱",
+      "analysis": {
+        "problem": "생일이나 명절에 원하는 선물을 전달하기 어렵고 중복 선물 문제가 자주 발생한다 [추론]",
+        "solution": "위시리스트를 생성하고 가족·친구와 공유해 원하는 선물을 쉽게 전달하고 중복을 방지한다 [확인]",
+        "target_user": "선물 주고받기가 잦은 20~50대, 특히 가족 단위 사용자 [추론]",
+        "unique_point": "덴마크 기반 앱으로 북유럽 감성의 간결한 UI와 그룹 위시리스트 공유 경험 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Amazon Wish List",
+          "Giftster",
+          "Elfster"
+        ],
+        "timing_reason": "선물 경제의 개인화 트렌드와 가족 커뮤니케이션 앱 수요 증가 시점 [추론]",
+        "growth_potential": "연중 기념일·명절 시즌 반복 사용으로 꾸준한 리텐션 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 제휴 쇼핑 커미션으로 수익화 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 1,900~3,900원 프리미엄으로 그룹 공유 및 가격 알림 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "1,000~2,500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase Firestore",
+          "Retrofit",
+          "Glide",
+          "Cloud Functions"
+        ],
+        "key_features": [
+          "위시리스트 생성 및 편집",
+          "링크 공유 및 소셜 연동",
+          "선물 예약(중복 방지)",
+          "그룹 위시리스트"
+        ],
+        "clone_tip": "Firebase Firestore로 실시간 공유 위시리스트 구현, OG 태그 파싱을 통한 링크 미리보기가 UX 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#위시리스트",
+        "#선물",
+        "#소셜커머스",
+        "#1인개발가능"
+      ],
+      "verdict": "단순하지만 반복 사용 유도 가능한 선물 시즌 필수 앱",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "name": "WakeBox",
+      "source_id": "5b1a5997576b297b8767b6e5",
+      "developer": "BLYTHEWOOD NY LLC",
+      "category": "Health and Fitness",
+      "icon": "https://play-lh.googleusercontent.com/yMHZppNDXIR5pYy_6uZN55QkE8aOhgAhc624wiIgXMwvXIVZ4Wh3NzHh6o11hETTPfe5PYwTCRvU8AwFD69ey_8",
+      "app_url": "https://play.google.com/store/apps/details?id=com.wake.box.ryan",
+      "idea_summary": "걷기·건강 활동에 실제 리워드를 지급하는 헬스케어 앱",
+      "analysis": {
+        "problem": "운동 습관 형성이 어렵고 건강 관리 앱의 사용자 이탈률이 높다 [추론]",
+        "solution": "걷기 등 건강 활동 달성 시 실제 보상을 제공해 지속적인 건강 습관 형성을 돕는다 [확인]",
+        "target_user": "건강 관리에 관심 있는 30~60대, 리워드 기반 동기 부여가 필요한 사용자 [추론]",
+        "unique_point": "MoneyWalk에서 AHEALTH로 리브랜딩하며 걷기 리워드를 종합 건강 관리 플랫폼으로 확장 중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "HealthyWage",
+          "Stepbet"
+        ],
+        "timing_reason": "헬스케어 게이미피케이션 트렌드와 웰니스 경제 성장이 맞물리는 시점 [추론]",
+        "growth_potential": "건강 보험사, 기업 복지 B2B 파트너십으로 수익 다각화 및 규모 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익, 제휴 파트너 리워드 마진, 프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 기본 + 월 3,900~5,900원 프리미엄으로 고급 건강 분석 및 추가 리워드 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5~8개월 [추론]",
+        "estimated_cost": "2,500~5,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google Fit API",
+          "Room DB",
+          "Firebase",
+          "리워드 포인트 시스템"
+        ],
+        "key_features": [
+          "만보기 및 활동 추적",
+          "리워드 포인트 적립",
+          "건강 목표 설정",
+          "파트너 혜택 교환"
+        ],
+        "clone_tip": "Google Fit API로 걸음 수 집계, 리워드 어뷰징 방지 로직이 핵심이며 초기 파트너사 확보가 앱 성패를 좌우 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#헬스케어",
+        "#리워드",
+        "#게이미피케이션",
+        "#B2C"
+      ],
+      "verdict": "리워드로 건강 습관 형성 유도, B2B 파트너십 확보 시 수익성 급상승",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "name": "Pocket FM: Audio Dramas",
+      "source_id": "c1b5c6b2054b17ba81cbc5ca",
+      "developer": "PocketFM",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/WpXQtLSdj7RatTG5mQ8ssNoy7sfEZle2pqVCEd2Ab6EQ2Prnw0jGS8uFOpP48ocfXa2VoNfyOvR3I89xFL9F",
+      "app_url": "https://play.google.com/store/apps/details?id=com.radio.pocketfm",
+      "idea_summary": "시리즈형 오디오 드라마·소설을 스트리밍하는 플랫폼",
+      "analysis": {
+        "problem": "눈을 사용할 수 없는 이동 중이나 운동 중에도 즐길 수 있는 스토리 콘텐츠가 부족하다 [추론]",
+        "solution": "시리얼 형식의 오디오 드라마와 픽션 스토리를 스트리밍으로 제공해 청각 엔터테인먼트 수요를 충족한다 [확인]",
+        "target_user": "통근·운동 중 콘텐츠를 소비하는 20~50대, 특히 오디오북·드라마 선호 사용자 [추론]",
+        "unique_point": "시리즈 연재 형식으로 청취자의 귀환을 유도하는 오디오 드라마 특화 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Audible",
+          "Spotify Audiobooks",
+          "Naver AudioClip"
+        ],
+        "timing_reason": "팟캐스트 및 오디오 콘텐츠 시장이 지속 성장하며 오디오 드라마 장르가 주목받는 시점 [추론]",
+        "growth_potential": "인도·동남아·한국 등 아시아 시장에서 오디오 스토리 소비 인구 급증 추세 [추론]"
+      },
+      "business": {
+        "monetization": "구독 모델 및 코인 기반 IAP로 프리미엄 에피소드 잠금 해제 [추론]",
+        "pricing_suggestion": "무료 기본 에피소드 + 월 5,900~9,900원 구독으로 전체 시리즈 무제한 청취 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~10개월 [추론]",
+        "estimated_cost": "3,000~7,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "AWS S3(오디오 스토리지)",
+          "Stripe/결제 API"
+        ],
+        "key_features": [
+          "오디오 스트리밍 플레이어",
+          "시리즈 구독 및 에피소드 잠금 해제",
+          "오프라인 다운로드",
+          "크리에이터 콘텐츠 업로드"
+        ],
+        "clone_tip": "ExoPlayer로 오디오 스트리밍 구현, 초기에는 자체 제작 콘텐츠로 시작 후 크리에이터 플랫폼으로 확장하는 순서가 효율적 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.6
+      },
+      "tags": [
+        "#오디오드라마",
+        "#구독모델",
+        "#콘텐츠플랫폼",
+        "#B2C"
+      ],
+      "verdict": "오디오 콘텐츠 시장 성장세 수혜, 초기 콘텐츠 수급이 최대 과제",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI를 활용한 생산성·학습·엔터테인먼트 도구가 강세를 보이며, 사용자 일상의 마찰을 제거하는 방향으로 앱 생태계가 진화하고 있다. 뮤지션·시니어·오디오 청취자 등 특정 타겟을 깊이 파고드는 버티컬 앱의 클론 가능성이 높다.",
+    "trend_details": [
+      "AI 기반 교육 도구(강의 녹음·요약·퀴즈 자동화)의 수요가 대학생 중심으로 급증 [추론]",
+      "AI 캐릭터 채팅 및 롤플레이 플랫폼이 Gen Z를 중심으로 빠르게 성장 중 [추론]",
+      "시니어 접근성 도구 시장이 고령화 트렌드에 따라 장기 성장 구조를 형성 [추론]",
+      "건강 리워드 앱의 게이미피케이션 전략이 운동 습관 형성에 효과적임을 시장이 검증 [추론]",
+      "오디오 드라마 플랫폼이 멀티태스킹 중 콘텐츠 소비 수요를 흡수하며 성장 중 [추론]"
+    ],
+    "hot_categories": [
+      "AI 교육",
+      "AI 엔터테인먼트",
+      "시니어 테크",
+      "헬스케어 리워드",
+      "오디오 콘텐츠"
+    ],
+    "opportunity": "인디 개발자가 집중할 가장 큰 기회는 'AI + 특정 직군·취미 특화 도구'로, Band Session Note처럼 좁은 타겟에 깊은 가치를 제공하는 버티컬 앱이 경쟁 회피와 충성도 확보에 유리하다 [추론]",
+    "action_item": "오늘 당장 본인이 속한 커뮤니티(직업군, 취미)에서 '전용 앱이 없어 불편한 것' 3가지를 적어보고, 그 중 AI 자동화로 마찰을 제거할 수 있는 것을 첫 번째 MVP 후보로 선정하라 [추론]"
+  },
+  "data_status": {}
+}
