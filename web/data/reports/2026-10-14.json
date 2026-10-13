@@ -1,0 +1,698 @@
+{
+  "date": "2026-10-14",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "b944db38d0606f1d1ab4872a",
+      "name": "백지복습",
+      "developer": "Woojin Han",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/51/02/8851029d-4782-f7c3-8cc4-16ff712f5a74/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%B0%B1%EC%A7%80%EB%B3%B5%EC%8A%B5/id6818032127",
+      "idea_summary": "백지에 직접 써보는 능동적 회상으로 장기 기억 강화",
+      "analysis": {
+        "problem": "단순 반복 읽기는 장기 기억 형성에 비효율적이며 학습자가 기억했는지 확인할 방법이 없음 [추론]",
+        "solution": "학습 내용을 백지 상태에서 직접 떠올려 입력하는 Active Recall 방식으로 기억 강화 [확인]",
+        "target_user": "시험을 준비하는 학생 및 새로운 지식을 장기 보존하려는 자기계발러 [추론]",
+        "unique_point": "플래시카드 방식이 아닌 백지에서 직접 써보는 차별화된 회상 훈련 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Anki",
+          "Quizlet",
+          "RemNote"
+        ],
+        "timing_reason": "인지과학 기반 학습법에 대한 관심 증가, AI 시대에도 기억력 중요성 재조명 [추론]",
+        "growth_potential": "한국·일본 수험생 시장과 글로벌 평생학습 트렌드로 지속 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(고급 통계, 무제한 복습 세트) 또는 IAP [추론]",
+        "pricing_suggestion": "무료 기본 제공 후 월 2,900~4,900원 구독으로 전환 유도 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "200~400 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "백지 자유 입력 화면",
+          "복습 일정 자동 스케줄링",
+          "회상 성공률 통계",
+          "카테고리 분류"
+        ],
+        "clone_tip": "에빙하우스 망각 곡선 알고리즘을 복습 주기에 적용하면 Anki와 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#학습과학"
+      ],
+      "verdict": "검증된 학습 방법론을 앱으로 구현, 수험생 시장 공략에 적합한 1인 개발 앱",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "fb5a9b0a374cc66e4dd65415",
+      "name": "사우너 - 사우나 기록 & 심박수",
+      "developer": "StackWorks LLC",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/d4/e7/11d4e76c-e2e5-9535-0977-de0a4fc4692e/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%82%AC%EC%9A%B0%EB%84%88-%EC%82%AC%EC%9A%B0%EB%82%98-%EA%B8%B0%EB%A1%9D-%EC%8B%AC%EB%B0%95%EC%88%98/id6755998688",
+      "idea_summary": "사우나 세션·온도·심박수를 통합 추적하는 웰니스 로그앱",
+      "analysis": {
+        "problem": "사우나를 정기 이용하는 사람들이 세션 시간, 온도, 신체 반응을 체계적으로 기록할 전용 도구가 없음 [추론]",
+        "solution": "세션별 입실 시간, 온도 입력, Apple Watch 연동 심박수를 기록하고 트렌드를 시각화 [확인]",
+        "target_user": "피트니스·웰니스에 관심 있는 사우나 정기 이용자, 건강 자기추적을 즐기는 성인 [추론]",
+        "unique_point": "범용 건강앱이 커버하지 않는 사우나 특화 트래킹으로 완전한 블루오션 니치 공략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Apple Health",
+          "Sauna Times(정보 없음)",
+          "Gyroflow(정보 없음)"
+        ],
+        "timing_reason": "전 세계적 웰니스 붐과 핀란드식·한국 찜질방 문화 글로벌 확산 트렌드 [추론]",
+        "growth_potential": "사우나 시장 성장과 헬스케어 자기추적 니즈 확대로 지속 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(세션 히스토리 무제한, 심박 분석 리포트) [추론]",
+        "pricing_suggestion": "월 2,000~3,500원 구독 또는 일회성 3,900원 유료 앱 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~3개월 [추론]",
+        "estimated_cost": "300~600 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "HealthKit",
+          "WatchKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "세션 타이머",
+          "Apple Watch 심박 자동 기록",
+          "온도 수동 입력",
+          "히스토리 차트"
+        ],
+        "clone_tip": "HealthKit의 HKWorkoutSession으로 사우나를 커스텀 운동으로 등록하면 Apple Watch 연동 자연스러움 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웰니스",
+        "#니치마켓",
+        "#블루오션"
+      ],
+      "verdict": "사우나 전용 앱은 경쟁 거의 없는 블루오션, 웰니스 커뮤니티 바이럴 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "3265126e90602e7f0f4c05be",
+      "name": "GLIMR: Strum Any Sound",
+      "developer": "Joseph Musselman",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c2/27/eb/c227eb2e-bba2-7d5e-9fac-715a2ccac331/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/glimr-strum-any-sound/id6818844637",
+      "idea_summary": "일상의 모든 소리를 기타처럼 스트럼 연주 가능한 악기로 변환",
+      "analysis": {
+        "problem": "음악 창작의 진입장벽이 높고 기존 악기 앱은 미리 만들어진 사운드만 사용 가능 [추론]",
+        "solution": "마이크로 포착한 임의의 소리를 실시간 피치 매핑하여 현악기처럼 스트럼 연주 가능하게 변환 [확인]",
+        "target_user": "음악에 관심 있는 일반인, 사운드 실험을 즐기는 크리에이터, 숏폼 콘텐츠 제작자 [추론]",
+        "unique_point": "세상의 모든 소리가 악기 소재가 되는 개념 자체가 전에 없던 파격적 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GarageBand",
+          "Loopy HD",
+          "Keezy"
+        ],
+        "timing_reason": "틱톡·릴스 등 숏폼 오디오 크리에이티브 콘텐츠 수요 증가와 맞물린 타이밍 [추론]",
+        "growth_potential": "소셜미디어 크리에이터와 연계 시 바이럴 가능성 존재, 교육 시장 확장도 가능 [추측]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 IAP(추가 이펙트·루프팩) [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 사운드팩 1,900~3,900원 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "400~800 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Core Audio",
+          "Accelerate Framework"
+        ],
+        "key_features": [
+          "실시간 오디오 캡처",
+          "스트럼 제스처 인식",
+          "피치 쉬프트 이펙트",
+          "루프 녹음"
+        ],
+        "clone_tip": "AVFoundation의 AVAudioEngine + Accelerate FFT로 실시간 피치 매핑 구현, 오픈소스 SoundpipeAudioKit 활용 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#크리에이티브",
+        "#B2C",
+        "#음악",
+        "#바이럴가능"
+      ],
+      "verdict": "세상에 없던 악기 개념, 기술 난이도 높지만 SNS 바이럴 잠재력 최상위",
+      "country": "jp"
+    },
+    {
+      "rank": 4,
+      "source_id": "36d49e5cdc0f0994be97e1b6",
+      "name": "지구를 건너 - 디데이 위젯",
+      "developer": "ZIPPERS",
+      "category": "Medical",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/84/84/f08484d1-f7a6-385a-8f46-7c0cc0f2b1bc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%A7%80%EA%B5%AC%EB%A5%BC-%EA%B1%B4%EB%84%88-%EB%94%94%EB%8D%B0%EC%9D%B4-%EC%9C%84%EC%A0%AF/id6811855866",
+      "idea_summary": "수면 중 코골이를 자동 감지·녹음해 수면 건강 데이터 제공",
+      "analysis": {
+        "problem": "코골이 여부와 심각도를 본인이 인지하기 어려워 수면 무호흡 등 건강 문제 방치 위험 [추론]",
+        "solution": "스마트폰 마이크로 수면 중 소음 임계값 초과 시 자동 녹음 후 코골이 패턴 분석 제공 [확인]",
+        "target_user": "코골이가 의심되는 성인, 수면의 질을 개선하려는 사람, 파트너 코골이로 불편한 이용자 [추론]",
+        "unique_point": "임계값 초과 소리만 선별 녹음하여 저장 공간을 최적화하고 수면 품질 통계 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "SnoreLab",
+          "Sleep Cycle",
+          "ShutEye"
+        ],
+        "timing_reason": "수면 건강 관심 급증 및 수면 무호흡 자가 진단 수요 증가 [추론]",
+        "growth_potential": "헬스케어 자가 모니터링 트렌드와 연계, 의료 기관 데이터 연계 서비스로 확장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "구독 모델(고급 분석, 무제한 녹음 히스토리) [추론]",
+        "pricing_suggestion": "월 2,900원 또는 연 19,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~600 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Core ML",
+          "HealthKit"
+        ],
+        "key_features": [
+          "소음 dB 임계값 설정",
+          "자동 녹음 시작·종료",
+          "야간 녹음 클립 목록",
+          "수면 통계 차트"
+        ],
+        "clone_tip": "AVAudioRecorder의 meteringEnabled로 dB 레벨 폴링, 임계값 초과 시 클립 저장하는 로직이 핵심 구현 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#수면건강"
+      ],
+      "verdict": "코골이 자가진단 수요 명확하고 수익 모델 검증됨, 안정적인 인디 앱 후보",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "7abac16042106ff3d6ae6713",
+      "name": "카네 Kane - 간편한 가계부",
+      "developer": "sangku oh",
+      "category": "Finance",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/46/4b/88464bc6-284e-7cea-6c18-3ed762411e95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%B9%B4%EB%84%A4-kane-%EA%B0%84%ED%8E%B8%ED%95%9C-%EA%B0%80%EA%B3%84%EB%B6%80/id6757577312",
+      "idea_summary": "불필요한 기능 없이 수입·지출 기록에만 집중한 미니멀 가계부",
+      "analysis": {
+        "problem": "기존 가계부 앱은 기능이 과도해 학습 비용이 높고 꾸준히 사용하기 어려움 [추론]",
+        "solution": "UI를 극단적으로 단순화하여 수입·지출 입력 마찰을 최소화하고 빠른 기록에 집중 [확인]",
+        "target_user": "가계부 관리를 시작하고 싶지만 복잡한 앱에 좌절한 20~40대 직장인 [추론]",
+        "unique_point": "극단적 단순함 자체가 USP로, 복잡한 기능 경쟁이 아닌 사용 지속률로 승부 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "뱅크샐러드",
+          "Money Manager",
+          "Wallet by BudgetBakers"
+        ],
+        "timing_reason": "복잡한 AI 가계부가 늘면서 오히려 심플함에 대한 역반응 수요 증가 [추론]",
+        "growth_potential": "한국 및 아시아 시장 개인 재무 관리 앱 수요 꾸준, 간결함으로 충성 유저 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 구매 또는 소액 IAP(테마, 백업 기능) [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 기능 일회성 2,900원 잠금 해제 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4주 [추론]",
+        "estimated_cost": "100~250 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "원탭 수입·지출 입력",
+          "월별 요약 차트",
+          "카테고리 태그",
+          "CSV 내보내기"
+        ],
+        "clone_tip": "SwiftUI + Core Data 조합으로 1인 개발 최적, 위젯 지원 추가 시 차별화 포인트 확보 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#핀테크",
+        "#미니멀"
+      ],
+      "verdict": "진입 쉽고 수요 검증된 시장, 단순함 자체가 경쟁력인 첫 앱으로 적합",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "5d3cb4e648e46d9fcb595b19",
+      "name": "AHEALTH - formerly MoneyWalk",
+      "developer": "Gravity Ltd",
+      "category": "Health & Fitness",
+      "icon": "https://play-lh.googleusercontent.com/31YSDUvKDVaNAodv1jk6DTOHI2RMHWYlpX_SPMOcIC_Y0z--9xcDVeH5cOla9QTEn1KZ6KOyODb_TSCS0IkB",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tracerofficial",
+      "idea_summary": "걷기 활동에 건강 보험 연계 실질 리워드를 지급하는 앱",
+      "analysis": {
+        "problem": "운동 동기 부여가 어렵고 건강 관리 행동과 금전적 인센티브를 연결하는 서비스가 부족 [추론]",
+        "solution": "만보기 걸음 수 추적 후 걸음에 비례한 리워드(포인트·보험 혜택 등)를 지급하여 운동 습관화 유도 [확인]",
+        "target_user": "운동 습관을 만들고 싶은 20~50대 직장인, 건강 관리와 금전 혜택을 함께 원하는 보험 가입자 [추론]",
+        "unique_point": "건강 보험사와의 B2B 제휴로 실질적 금전 인센티브를 걷기와 연결하는 차별화 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "StepBet",
+          "캐시워크",
+          "토스 걷기"
+        ],
+        "timing_reason": "국민건강보험 연계 디지털 헬스케어 정책 확대 및 예방 의학 트렌드 강화 [추론]",
+        "growth_potential": "보험사 B2B 제휴 확장 시 지속 가능한 수익 모델 구축 가능하며 기업 복지 시장도 공략 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고, 보험사·기업 B2B 제휴 수수료, 프리미엄 구독(상세 건강 리포트) [추론]",
+        "pricing_suggestion": "무료 기본 + 월 3,900원 프리미엄(심층 건강 분석 리포트) [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "500~1000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Health Connect API",
+          "Firebase",
+          "Room DB",
+          "WorkManager"
+        ],
+        "key_features": [
+          "걸음 수 자동 감지",
+          "리워드 포인트 시스템",
+          "건강 통계 대시보드",
+          "보험사 API 연동"
+        ],
+        "clone_tip": "Android Health Connect API로 걸음 수 데이터 취득, 리워드 로직은 서버사이드에서 관리하여 어뷰징 방지 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#B2B가능",
+        "#B2C",
+        "#헬스케어",
+        "#리워드",
+        "#보험연계"
+      ],
+      "verdict": "걷기 리워드 모델 검증 완료, B2B 보험 제휴로 수익성과 확장성 모두 최상위",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "5bbd6aac26e313fb49683871",
+      "name": "詐欺対策 by NTTタウンページ",
+      "developer": "NTTタウンページ株式会社",
+      "category": "Utilities & Safety",
+      "icon": "https://play-lh.googleusercontent.com/v1jiBmkcc7KP46w6-oo44-Ct1NVmDDrQA0X63q04lHba39VUUl5F30o8zbAov5wUtEwe8j0J4TkaCAYS2dhO2aQ",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.co.ntt_tp.sagitaisaku",
+      "idea_summary": "발신자 번호 DB 자동 조회로 보이스피싱·스팸 전화 사전 차단",
+      "analysis": {
+        "problem": "보이스피싱 및 스팸 전화 피해가 증가하며 특히 고령층이 취약하지만 수신 전화 사전 식별이 어려움 [확인]",
+        "solution": "NTT 타운페이지 전화번호 DB와 AI 위험도 분류를 결합하여 수신 전화의 사기 가능성 사전 경고 [추론]",
+        "target_user": "보이스피싱 피해 우려가 있는 일본 스마트폰 사용자, 특히 60대 이상 고령층 [추론]",
+        "unique_point": "NTT 타운페이지의 방대한 전화번호 DB를 활용한 높은 정확도의 스팸 탐지 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "후후(Whoo)",
+          "T전화 스팸차단",
+          "후스콜"
+        ],
+        "timing_reason": "일본·한국에서 보이스피싱 피해액이 매년 증가하며 관련 앱 수요 급증 [확인]",
+        "growth_potential": "고령화 사회에서 보호 수요 지속 증가, 기업 솔루션 및 해외 시장 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고, 프리미엄 구독(실시간 최신 DB 업데이트 및 자동 차단) [추론]",
+        "pricing_suggestion": "무료 기본 + 월 300~500엔 프리미엄 자동 차단 기능 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "600~1200 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Telecom API",
+          "CallScreeningService",
+          "Firebase",
+          "REST API"
+        ],
+        "key_features": [
+          "수신 전화 자동 번호 조회",
+          "위험도 팝업 알림",
+          "번호 신고 기능",
+          "차단 목록 관리"
+        ],
+        "clone_tip": "Android CallScreeningService API로 수신 전화 가로채기 구현, 번호 DB는 공공 개방 API 또는 크라우드소싱으로 초기 구축 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#안전",
+        "#일본시장",
+        "#고령화대응"
+      ],
+      "verdict": "보이스피싱 사회문제 직접 해결, 일본·한국 공통 수요로 클론 후 현지화 가치 높음",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "source_id": "1aee67569461c5d758ca8917",
+      "name": "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+      "developer": "Fallcent",
+      "category": "Shopping & Price Comparison",
+      "icon": "https://play-lh.googleusercontent.com/PtB6uKLbszcI6wg2-lRxn4Yr6JBPFe52MF3gN87xsuyPm14s3mUzITjgpQC02VrdgE4P6NscNe9ZYazuql4_QQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.deaguowl.fallcent",
+      "idea_summary": "가격 추적·최저가 알림·캐시백을 통합한 쇼핑 절약 도우미",
+      "analysis": {
+        "problem": "상품 가격이 언제 내려갈지 알 수 없고, 여러 쇼핑몰을 일일이 비교하는 것이 번거로움 [추론]",
+        "solution": "상품 URL 등록 시 가격 히스토리 추적, 최저가 도달 시 푸시 알림, 제휴 캐시백 경유 구매 통합 제공 [확인]",
+        "target_user": "온라인 쇼핑을 자주 하며 최저가 구매와 추가 혜택을 원하는 20~40대 [추론]",
+        "unique_point": "가격 추적 + 최저가 알림 + 캐시백을 단일 앱에서 제공하는 올인원 절약 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey(PayPal)",
+          "CamelCamelCamel",
+          "에누리",
+          "다나와"
+        ],
+        "timing_reason": "지속적 물가 상승으로 소비자의 가격 민감도 증가, 절약 앱 수요 급증 [추론]",
+        "growth_potential": "제휴 커머스 수익 모델은 사용자 증가에 따라 협상력 강화 및 안정적 성장 [추론]"
+      },
+      "business": {
+        "monetization": "어필리에이트 커미션(제휴 링크 경유 구매 시 수수료), 프리미엄 알림 기능 IAP [추론]",
+        "pricing_suggestion": "앱 무료 제공 + 제휴 수익, 프리미엄 즉시 알림 월 990원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "400~800 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Retrofit",
+          "Room DB",
+          "WorkManager",
+          "Firebase FCM"
+        ],
+        "key_features": [
+          "상품 URL 가격 추적",
+          "최저가 푸시 알림",
+          "캐시백 경유 쇼핑 링크",
+          "가격 히스토리 차트"
+        ],
+        "clone_tip": "가격 데이터는 쇼핑몰 공개 상품 API 또는 파싱으로 수집, 쿠팡·네이버쇼핑 파트너스 제휴 우선 진행 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#커머스",
+        "#어필리에이트",
+        "#절약"
+      ],
+      "verdict": "물가 상승 시대 절약 니즈와 정확히 맞아떨어지는 타이밍, 제휴 수익 모델 안정적",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "c83a2e8fbb724a528b723a95",
+      "name": "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
+      "developer": "Macarong Factory Inc.",
+      "category": "Automotive",
+      "icon": "https://play-lh.googleusercontent.com/UI1edLUevtm7v10CMgOJGaKBOh9Sjh4cL_0BOBK5fBChxGFtkgCb1rpSj82_Ql3TLQ5nBqJxxdxj04B5Yc3J6f0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.nbdproject.macarong",
+      "idea_summary": "차량 유지보수 이력·비용·다음 점검 일정을 통합 관리하는 마이카 앱",
+      "analysis": {
+        "problem": "오일 교환, 타이어 교체, 세차 등 차량 유지보수 일정을 기억하고 체계적으로 기록하기 어려움 [추론]",
+        "solution": "차량별 정비 이력, 비용 통계, 다음 점검 일정 알림을 한 앱에서 통합 관리 [확인]",
+        "target_user": "자가용을 보유한 20~50대 운전자, 차량 관리에 꼼꼼한 사용자 [추론]",
+        "unique_point": "단순 일정 관리를 넘어 정비 비용 통계 및 정비소 예약 서비스 연계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Drivvo",
+          "Auto Care - Car Maintenance",
+          "클리어카"
+        ],
+        "timing_reason": "전기차 전환 시대에도 차량 유지보수 수요는 지속, EV 충전 관리 기능으로 확장 가능 [추론]",
+        "growth_potential": "차량 보유자는 안정적 앱 사용층, 정비소 B2B 예약 연계 시 수익 확대 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(다중 차량 관리, 알림 무제한), 정비소 예약 제휴 수수료 [추론]",
+        "pricing_suggestion": "무료 차량 1대 관리 + 월 1,900원 멀티카 프리미엄 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~600 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room DB",
+          "Firebase FCM",
+          "WorkManager",
+          "MPAndroidChart"
+        ],
+        "key_features": [
+          "차량 등록",
+          "정비 이력 기록",
+          "다음 점검 푸시 알림",
+          "비용 통계 차트"
+        ],
+        "clone_tip": "Room DB에 차량-정비 이력 스키마 설계 후 WorkManager로 주기적 점검 알림 구현이 핵심, 1인 개발 2개월 내 MVP 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#자동차",
+        "#유지보수"
+      ],
+      "verdict": "검증된 니즈·1인 개발 적합, 정비소 제휴 연계로 수익성 개선 경로 명확",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "edbf4134c8d86d0a7c261171",
+      "name": "로밍도깨비 eSIM – 데이터가 필요한 순간",
+      "developer": "Uangel Rokebi",
+      "category": "Travel & Connectivity",
+      "icon": "https://play-lh.googleusercontent.com/kxWL_PEXyiWxQK_NligRcFH-JKYHS72DTjXU2uVsJYrVSfygpTijqIgPWJ0Rv7wppPoNQE6_x1s8ERFUaSoP2g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.rokebiesim",
+      "idea_summary": "해외여행 목적지별 eSIM 데이터 플랜을 앱에서 즉시 구매·개통",
+      "analysis": {
+        "problem": "해외 로밍 비용이 비싸고 현지 유심 구매가 번거로우며 도착 전 연결성 확보가 어려움 [추론]",
+        "solution": "여행 목적지별 최적 eSIM 데이터 플랜을 앱 내에서 즉시 구매하고 QR 스캔으로 개통 [확인]",
+        "target_user": "해외여행을 자주 다니는 한국인 여행자 및 해외 출장자 [추론]",
+        "unique_point": "국내 여행자에 최적화된 UX와 카카오페이·토스 등 국내 결제 수단 지원 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Airalo",
+          "eSIM+",
+          "KT로밍",
+          "SK로밍"
+        ],
+        "timing_reason": "eSIM 지원 스마트폰 보급 확대와 해외 여행 수요 지속 회복으로 eSIM 시장 급성장 중 [추론]",
+        "growth_potential": "eSIM 시장 자체가 고성장 구간이며 한국 출국자 수 증가와 맞물려 지속 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "데이터 플랜 판매(eSIM 도매 마진), 다국가 패키지 프리미엄 요금제 [추론]",
+        "pricing_suggestion": "단일 국가 플랜 3,900~19,900원, 글로벌 멀티패키지 29,900원 이상 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "800~1500 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "GSMA RSP eSIM API",
+          "Firebase",
+          "카카오페이 SDK",
+          "토스페이먼츠 SDK"
+        ],
+        "key_features": [
+          "국가별 플랜 조회",
+          "eSIM QR 코드 발급",
+          "개통 상태 실시간 확인",
+          "국내 결제 수단 연동"
+        ],
+        "clone_tip": "GSMA RSP 규격의 eSIM 도매 공급사(eSIM Access, BICS 등)와 계약이 선결 과제, 기술보다 파트너십이 진입장벽 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#B2C",
+        "#여행",
+        "#eSIM",
+        "#핀테크"
+      ],
+      "verdict": "eSIM 시장 급성장 타이밍 최적, 도매 계약 성사 시 높은 수익성과 확장성 확보",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정 앱들은 웰니스 자기추적, 보안·안전, 절약이라는 세 가지 생존형 니즈를 중심으로 수렴되며 복잡한 AI 기능보다 명확한 단일 문제 해결에 집중한 앱들이 고득점을 받았다. 인디 개발자 관점에서 초니치 헬스 트래킹과 eSIM·가격 비교 등 인프라형 도구가 수익성과 확장성 모두에서 두드러진다.",
+    "trend_details": [
+      "사우나·코골이 등 초니치 헬스 트래킹이 범용 건강앱의 빈틈을 공략하는 틈새 전략 부상",
+      "보이스피싱·스팸 방어 앱이 고령화 사회와 맞물려 동아시아 시장에서 수요 급증",
+      "물가 상승 환경에서 가격 비교·캐시백 통합 앱의 사용자 관심이 구조적으로 증가",
+      "eSIM 지원 기기 보급 확대로 여행 연결성 앱 시장이 새로운 고성장 구간 진입",
+      "극단적 단순함을 USP로 내세운 앱이 기능 경쟁 대신 사용 지속률로 역설적 차별화"
+    ],
+    "hot_categories": [
+      "Health & Fitness",
+      "Safety & Security",
+      "Shopping & Savings",
+      "Travel & eSIM",
+      "Education"
+    ],
+    "opportunity": "초니치 헬스 트래킹(수면·사우나·특정 루틴 기록) 분야는 대기업이 관심 갖지 않는 빈틈으로, 1인 개발자가 특정 커뮤니티(사우나 동호회, 수면 개선 커뮤니티)를 직접 공략하면 낮은 광고비로 초기 사용자 확보 가능",
+    "action_item": "본인이 직접 불편함을 느끼는 건강 루틴 하나를 골라 1주일 내 SwiftUI 또는 Jetpack Compose로 데이터 입력·조회 기능만 담은 MVP 프로토타입 제작 시작"
+  },
+  "data_status": {}
+}
