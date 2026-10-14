@@ -1,27 +1,69 @@
 {
-  "generatedAt": "2026-10-13T15:12:12.935Z",
+  "generatedAt": "2026-10-14T15:09:47.674Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Utilities",
-      "currentCount": 8,
+      "category": "Productivity",
+      "currentCount": 5,
       "previousCount": 2,
-      "changePercent": 300,
+      "changePercent": 150,
       "changeDirection": "up",
       "apps": [
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "Easy Homescreen",
-        "Digi Voices",
-        "널스메이트 - 간호사를 위한 AI 업무 파트너",
-        "AdoClean",
-        "Wonder Mail - Inbox Cleaner",
-        "Haptic Interval Timer",
-        "와이파이 렌즈"
+        "Sync: Plan & Actual",
+        "노그미(Nogmi): 녹음·전사·요약",
+        "Migoo - すべてのタスクにAIチーム",
+        "언제했지 - 마지막으로 한 날",
+        "TimeCue – Reminders & Alerts"
       ],
-      "avgScore": 7.0875
+      "avgScore": 7.640000000000001
+    },
+    {
+      "category": "Finance",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "카네 Kane - 간편한 가계부",
+        "플로우 - AI 가계부"
+      ],
+      "avgScore": 7.25
+    },
+    {
+      "category": "Utilities & Safety",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "詐欺対策 by NTTタウンページ"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "Shopping & Price Comparison",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Travel & Connectivity",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "로밍도깨비 eSIM – 데이터가 필요한 순간"
+      ],
+      "avgScore": 8.2
     },
     {
       "category": "Health and Fitness",
@@ -182,46 +224,20 @@
       "avgScore": 7.2
     },
     {
-      "category": "Travel",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
+      "category": "Utilities",
+      "currentCount": 6,
+      "previousCount": 4,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Manager for Scooters"
+        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
+        "Easy Homescreen",
+        "Digi Voices",
+        "널스메이트 - 간호사를 위한 AI 업무 파트너",
+        "AdoClean",
+        "Wonder Mail - Inbox Cleaner"
       ],
-      "avgScore": 6.5
-    },
-    {
-      "category": "News",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "현지뉴스"
-      ],
-      "avgScore": 6.5
-    },
-    {
-      "category": "Photo & Video",
-      "currentCount": 10,
-      "previousCount": 8,
-      "changePercent": 25,
-      "changeDirection": "up",
-      "apps": [
-        "YoungPhoto - エモい構図カメラ",
-        "GR Snap - 리코 GR Image Sync",
-        "Both: 듀얼 카메라",
-        "네몽 - 카드뉴스 캐러셀",
-        "하루테이프 - 빈티지 캠코더",
-        "bluefie - 애니메틱한 색감 카메라앱",
-        "CALM: Cinema Lighting Matcher",
-        "gyeop - 포즈가이드",
-        "Moza - 모자이크, 블러, 가리기",
-        "Nexus - AI Video Generator"
-      ],
-      "avgScore": 7.160000000000001
+      "avgScore": 7.2
     },
     {
       "category": "Music",
@@ -230,53 +246,22 @@
       "changePercent": 20,
       "changeDirection": "up",
       "apps": [
+        "GLIMR: Strum Any Sound",
         "Band Session Note",
         "AlbumDeck: 3D 앨범 커버",
         "Super 606 Drums - Drum Machine",
         "NostalgicPod",
-        "Beat Blocks - Rhythm Practice",
-        "MiSing - 언제 어디서나, 마음껏 노래해!"
+        "Beat Blocks - Rhythm Practice"
       ],
-      "avgScore": 6.783333333333334
-    },
-    {
-      "category": "Shopping",
-      "currentCount": 6,
-      "previousCount": 5,
-      "changePercent": 20,
-      "changeDirection": "up",
-      "apps": [
-        "GoWish - Your Digital Wishlist",
-        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
-        "에이블리 - 초개인화 AI 쇼핑",
-        "DealSeek: Coupons & Discounts",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "애슬러, 남성 패션의 기준"
-      ],
-      "avgScore": 7.216666666666668
+      "avgScore": 6.916666666666668
     }
   ],
   "decliningCategories": [
     {
-      "category": "Productivity",
-      "currentCount": 5,
-      "previousCount": 6,
-      "changePercent": -17,
-      "changeDirection": "down",
-      "apps": [
-        "Sync: Plan & Actual",
-        "노그미(Nogmi): 녹음·전사·요약",
-        "Migoo - すべてのタスクにAIチーム",
-        "언제했지 - 마지막으로 한 날",
-        "TimeCue – Reminders & Alerts"
-      ],
-      "avgScore": 7.640000000000001
-    },
-    {
       "category": "Entertainment",
       "currentCount": 6,
-      "previousCount": 9,
-      "changePercent": -33,
+      "previousCount": 7,
+      "changePercent": -14,
       "changeDirection": "down",
       "apps": [
         "제타(zeta) - 상상이 현실이 되는 AI 채팅",
@@ -289,6 +274,50 @@
       "avgScore": 7.6000000000000005
     },
     {
+      "category": "Photo & Video",
+      "currentCount": 7,
+      "previousCount": 10,
+      "changePercent": -30,
+      "changeDirection": "down",
+      "apps": [
+        "YoungPhoto - エモい構図カメラ",
+        "GR Snap - 리코 GR Image Sync",
+        "Both: 듀얼 카메라",
+        "네몽 - 카드뉴스 캐러셀",
+        "하루테이프 - 빈티지 캠코더",
+        "bluefie - 애니메틱한 색감 카메라앱",
+        "CALM: Cinema Lighting Matcher"
+      ],
+      "avgScore": 7.242857142857142
+    },
+    {
+      "category": "Shopping",
+      "currentCount": 4,
+      "previousCount": 6,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "GoWish - Your Digital Wishlist",
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+        "에이블리 - 초개인화 AI 쇼핑",
+        "DealSeek: Coupons & Discounts"
+      ],
+      "avgScore": 7.075
+    },
+    {
+      "category": "Education",
+      "currentCount": 3,
+      "previousCount": 5,
+      "changePercent": -40,
+      "changeDirection": "down",
+      "apps": [
+        "백지복습",
+        "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
+        "국시마스터"
+      ],
+      "avgScore": 7.766666666666667
+    },
+    {
       "category": "Lifestyle",
       "currentCount": 2,
       "previousCount": 4,
@@ -299,42 +328,43 @@
         "PrinTodo"
       ],
       "avgScore": 6.15
-    },
-    {
-      "category": "Education",
-      "currentCount": 2,
-      "previousCount": 5,
-      "changePercent": -60,
-      "changeDirection": "down",
-      "apps": [
-        "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-        "국시마스터"
-      ],
-      "avgScore": 7.75
-    },
-    {
-      "category": "Health & Fitness",
-      "currentCount": 1,
-      "previousCount": 3,
-      "changePercent": -67,
-      "changeDirection": "down",
-      "apps": [
-        "FitToCal - 운동 캘린더 동기화"
-      ],
-      "avgScore": 7.2
     }
   ],
   "stableCategories": [
     {
-      "category": "Finance",
+      "category": "Health & Fitness",
+      "currentCount": 3,
+      "previousCount": 3,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "사우너 - 사우나 기록 & 심박수",
+        "AHEALTH - formerly MoneyWalk",
+        "FitToCal - 운동 캘린더 동기화"
+      ],
+      "avgScore": 7.733333333333333
+    },
+    {
+      "category": "Medical",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "플로우 - AI 가계부"
+        "지구를 건너 - 디데이 위젯"
       ],
-      "avgScore": 7.5
+      "avgScore": 7.6
+    },
+    {
+      "category": "Automotive",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약"
+      ],
+      "avgScore": 7
     },
     {
       "category": "Services Marketplace",
@@ -366,6 +396,16 @@
       "category": "tag",
       "count": 64,
       "apps": [
+        "백지복습",
+        "사우너 - 사우나 기록 & 심박수",
+        "GLIMR: Strum Any Sound",
+        "지구를 건너 - 디데이 위젯",
+        "카네 Kane - 간편한 가계부",
+        "AHEALTH - formerly MoneyWalk",
+        "詐欺対策 by NTTタウンページ",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
+        "로밍도깨비 eSIM – 데이터가 필요한 순간",
         "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
         "플로우 - AI 가계부",
         "YoungPhoto - エモい構図カメラ",
@@ -418,24 +458,19 @@
         "Vidix-AI Photo Video Generator",
         "TimeCue – Reminders & Alerts",
         "setlog",
-        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
-        "gyeop - 포즈가이드",
-        "Haptic Interval Timer",
-        "와이파이 렌즈",
-        "Manager for Scooters",
-        "Moza - 모자이크, 블러, 가리기",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "애슬러, 남성 패션의 기준",
-        "현지뉴스",
-        "MiSing - 언제 어디서나, 마음껏 노래해!",
-        "Nexus - AI Video Generator"
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 37,
+      "count": 36,
       "apps": [
+        "백지복습",
+        "사우너 - 사우나 기록 & 심박수",
+        "지구를 건너 - 디데이 위젯",
+        "카네 Kane - 간편한 가계부",
+        "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
         "플로우 - AI 가계부",
         "킹보드 - 맞춤법 검사기·번역 AI 키보드",
         "YoungPhoto - エモい構図カメラ",
@@ -466,13 +501,7 @@
         "Beat Blocks - Rhythm Practice",
         "EarthScope: GPS Map Camera",
         "TimeCue – Reminders & Alerts",
-        "setlog",
-        "gyeop - 포즈가이드",
-        "Haptic Interval Timer",
-        "와이파이 렌즈",
-        "Manager for Scooters",
-        "Moza - 모자이크, 블러, 가리기",
-        "현지뉴스"
+        "setlog"
       ]
     },
     {
@@ -480,6 +509,7 @@
       "category": "ai",
       "count": 13,
       "apps": [
+        "詐欺対策 by NTTタウンページ",
         "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
         "플로우 - AI 가계부",
         "킹보드 - 맞춤법 검사기·번역 AI 키보드",
@@ -490,8 +520,7 @@
         "Migoo - すべてのタスクにAIチーム",
         "에이블리 - 초개인화 AI 쇼핑",
         "Wonder Mail - Inbox Cleaner",
-        "Vidix-AI Photo Video Generator",
-        "Nexus - AI Video Generator"
+        "Vidix-AI Photo Video Generator"
       ]
     },
     {
@@ -510,7 +539,7 @@
     {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 9,
+      "count": 8,
       "apps": [
         "Pocket FM: Audio Dramas",
         "VibeShort: AI Short Dramas",
@@ -519,8 +548,7 @@
         "DramaWave -인기 단편/한일 드라마, 역전극!",
         "하루테이프 - 빈티지 캠코더",
         "NostalgicPod",
-        "FreeDrama: Short Drama & Reels",
-        "gyeop - 포즈가이드"
+        "FreeDrama: Short Drama & Reels"
       ]
     },
     {
@@ -537,16 +565,26 @@
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 6,
+      "keyword": "헬스케어",
+      "category": "tag",
+      "count": 5,
       "apps": [
-        "Migoo - すべてのタスクにAIチーム",
-        "에이블리 - 초개인화 AI 쇼핑",
-        "DealSeek: Coupons & Discounts",
-        "GPS Location Flow & Tracker",
-        "Wonder Mail - Inbox Cleaner",
-        "Haptic Interval Timer"
+        "지구를 건너 - 디데이 위젯",
+        "AHEALTH - formerly MoneyWalk",
+        "WakeBox",
+        "혈압·혈당 건강관리"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 5,
+      "apps": [
+        "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
+        "Sync: Plan & Actual",
+        "TimeTree タイムツリー - カレンダーやメモの共有",
+        "FitToCal - 운동 캘린더 동기화",
+        "TimeCue – Reminders & Alerts"
       ]
     },
     {
@@ -586,38 +624,37 @@
       ]
     },
     {
-      "keyword": "일정",
-      "category": "productivity",
+      "keyword": "프로",
+      "category": "subscription",
       "count": 5,
       "apps": [
-        "Sync: Plan & Actual",
-        "TimeTree タイムツリー - カレンダーやメモの共有",
-        "FitToCal - 운동 캘린더 동기화",
-        "TimeCue – Reminders & Alerts",
-        "Manager for Scooters"
+        "Migoo - すべてのタスクにAIチーム",
+        "에이블리 - 초개인화 AI 쇼핑",
+        "DealSeek: Coupons & Discounts",
+        "GPS Location Flow & Tracker",
+        "Wonder Mail - Inbox Cleaner"
       ]
     },
     {
-      "keyword": "크리에이터",
-      "category": "creator",
-      "count": 5,
+      "keyword": "리워드",
+      "category": "tag",
+      "count": 4,
       "apps": [
-        "Both: 듀얼 카메라",
-        "네몽 - 카드뉴스 캐러셀",
-        "Vidix-AI Photo Video Generator",
-        "Nexus - AI Video Generator"
+        "AHEALTH - formerly MoneyWalk",
+        "WakeBox",
+        "맥스워크-리워드에 미친 만보기, 걷기의 가치를 최대로!",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ"
       ]
     },
     {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 5,
+      "keyword": "일본시장",
+      "category": "tag",
+      "count": 4,
       "apps": [
-        "Both: 듀얼 카메라",
-        "Linkex - 写真・動画バックアップ",
-        "하루테이프 - 빈티지 캠코더",
-        "Vidix-AI Photo Video Generator",
-        "Nexus - AI Video Generator"
+        "詐欺対策 by NTTタウンページ",
+        "ジハンピ",
+        "bluefie - 애니메틱한 색감 카메라앱",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ"
       ]
     },
     {
@@ -654,82 +691,73 @@
       ]
     },
     {
-      "keyword": "유틸리티",
-      "category": "tag",
+      "keyword": "크리에이터",
+      "category": "creator",
       "count": 4,
       "apps": [
-        "Digi Voices",
-        "AdoClean",
-        "Wonder Mail - Inbox Cleaner",
-        "와이파이 렌즈"
+        "Both: 듀얼 카메라",
+        "네몽 - 카드뉴스 캐러셀",
+        "Vidix-AI Photo Video Generator"
       ]
     },
     {
-      "keyword": "헬스케어",
-      "category": "health",
-      "count": 3,
+      "keyword": "영상",
+      "category": "creator",
+      "count": 4,
       "apps": [
-        "WakeBox",
-        "혈압·혈당 건강관리"
+        "Both: 듀얼 카메라",
+        "Linkex - 写真・動画バックアップ",
+        "하루테이프 - 빈티지 캠코더",
+        "Vidix-AI Photo Video Generator"
       ]
     },
     {
-      "keyword": "리워드",
+      "keyword": "핀테크",
       "category": "tag",
       "count": 3,
       "apps": [
-        "WakeBox",
-        "맥스워크-리워드에 미친 만보기, 걷기의 가치를 최대로!",
-        "レシチャレ by クラシル レシートがお金に変わる節約アプリ"
-      ]
-    },
-    {
-      "keyword": "한국",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-        "헤이딜러 - 인증중고차, 내차팔기, [번호판]시세",
-        "아파트아이 - 아파트 생활 필수 앱"
+        "카네 Kane - 간편한 가계부",
+        "로밍도깨비 eSIM – 데이터가 필요한 순간",
+        "TRUSTDOCK（トラストドック）｜公的身分証で本人確認"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 54,
-        "percent": 77,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-          "플로우 - AI 가계부",
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드"
+          "백지복습",
+          "GLIMR: Strum Any Sound",
+          "카네 Kane - 간편한 가계부"
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 53,
+        "percent": 76,
         "examples": [
-          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-          "플로우 - AI 가계부",
-          "YoungPhoto - エモい構図カメラ"
+          "백지복습",
+          "사우너 - 사우나 기록 & 심박수",
+          "GLIMR: Strum Any Sound"
         ]
       },
       "subscription": {
         "count": 48,
         "percent": 69,
         "examples": [
-          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-          "플로우 - AI 가계부",
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드"
+          "백지복습",
+          "사우너 - 사우나 기록 & 심박수",
+          "지구를 건너 - 디데이 위젯"
         ]
       },
       "onetime": {
-        "count": 30,
-        "percent": 43,
+        "count": 29,
+        "percent": 41,
         "examples": [
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-          "YoungPhoto - エモい構図カメラ",
-          "Band Session Note"
+          "사우너 - 사우나 기록 & 심박수",
+          "GLIMR: Strum Any Sound",
+          "카네 Kane - 간편한 가계부"
         ]
       },
       "unknown": {
@@ -740,12 +768,12 @@
     },
     "dominant": {
       "model": "free",
-      "count": 54,
-      "percent": 77,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-        "플로우 - AI 가계부",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드"
+        "백지복습",
+        "GLIMR: Strum Any Sound",
+        "카네 Kane - 간편한 가계부"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -754,14 +782,14 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 16,
-        "percent": 23,
+        "count": 17,
+        "percent": 24,
         "apps": [
+          "지구를 건너 - 디데이 위젯",
+          "詐欺対策 by NTTタウンページ",
           "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
           "플로우 - AI 가계부",
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-          "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-          "VibeShort: AI Short Dramas"
+          "킹보드 - 맞춤법 검사기·번역 AI 키보드"
         ]
       },
       {
@@ -769,17 +797,29 @@
         "count": 12,
         "percent": 17,
         "apps": [
+          "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
           "플로우 - AI 가계부",
           "킹보드 - 맞춤법 검사기·번역 AI 키보드",
           "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+          "Sync: Plan & Actual"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 9,
+        "percent": 13,
+        "apps": [
+          "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
+          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
+          "플로우 - AI 가계부",
           "Sync: Plan & Actual",
-          "CrimeRadar: Dispatch Alerts"
+          "널스메이트 - 간호사를 위한 AI 업무 파트너"
         ]
       },
       {
         "tech": "creator",
-        "count": 10,
-        "percent": 14,
+        "count": 9,
+        "percent": 13,
         "apps": [
           "Pocket FM: Audio Dramas",
           "VibeShort: AI Short Dramas",
@@ -789,78 +829,67 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-          "플로우 - AI 가계부",
-          "Sync: Plan & Actual",
-          "널스메이트 - 간호사를 위한 AI 업무 파트너",
-          "TimeTree タイムツリー - カレンダーやメモの共有"
-        ]
-      },
-      {
         "tech": "social",
         "count": 7,
         "percent": 10,
         "apps": [
+          "사우너 - 사우나 기록 & 심박수",
           "Yours - 마음이 담긴 손편지",
           "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
           "아파트아이 - 아파트 생활 필수 앱",
-          "TimeTree タイムツリー - カレンダーやメモの共有",
-          "Bump (バンプ) - 友達とつながるマップ"
-        ]
-      },
-      {
-        "tech": "subscription",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "DealSeek: Coupons & Discounts",
-          "Haptic Interval Timer"
+          "TimeTree タイムツリー - カレンダーやメモの共有"
         ]
       },
       {
         "tech": "health",
-        "count": 1,
-        "percent": 1,
+        "count": 2,
+        "percent": 3,
         "apps": [
+          "지구를 건너 - 디데이 위젯",
           "WakeBox"
         ]
       },
       {
         "tech": "fintech",
+        "count": 2,
+        "percent": 3,
+        "apps": [
+          "AHEALTH - formerly MoneyWalk",
+          "에이블리 - 초개인화 AI 쇼핑"
+        ]
+      },
+      {
+        "tech": "subscription",
         "count": 1,
         "percent": 1,
         "apps": [
-          "에이블리 - 초개인화 AI 쇼핑"
+          "DealSeek: Coupons & Discounts"
         ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 16,
-      "percent": 23,
+      "count": 17,
+      "percent": 24,
       "apps": [
+        "지구를 건너 - 디데이 위젯",
+        "詐欺対策 by NTTタウンページ",
         "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
         "플로우 - AI 가계부",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "VibeShort: AI Short Dramas"
+        "킹보드 - 맞춤법 검사기·번역 AI 키보드"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 16,
-        "percent": 23,
+        "count": 17,
+        "percent": 24,
         "apps": [
+          "지구를 건너 - 디데이 위젯",
+          "詐欺対策 by NTTタウンページ",
           "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
           "플로우 - AI 가계부",
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-          "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-          "VibeShort: AI Short Dramas"
+          "킹보드 - 맞춤법 검사기·번역 AI 키보드"
         ]
       },
       {
@@ -868,17 +897,29 @@
         "count": 12,
         "percent": 17,
         "apps": [
+          "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
           "플로우 - AI 가계부",
           "킹보드 - 맞춤법 검사기·번역 AI 키보드",
           "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+          "Sync: Plan & Actual"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 9,
+        "percent": 13,
+        "apps": [
+          "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
+          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
+          "플로우 - AI 가계부",
           "Sync: Plan & Actual",
-          "CrimeRadar: Dispatch Alerts"
+          "널스메이트 - 간호사를 위한 AI 업무 파트너"
         ]
       },
       {
         "tech": "creator",
-        "count": 10,
-        "percent": 14,
+        "count": 9,
+        "percent": 13,
         "apps": [
           "Pocket FM: Audio Dramas",
           "VibeShort: AI Short Dramas",
@@ -888,32 +929,48 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-          "플로우 - AI 가계부",
-          "Sync: Plan & Actual",
-          "널스메이트 - 간호사를 위한 AI 업무 파트너",
-          "TimeTree タイムツリー - カレンダーやメモの共有"
-        ]
-      },
-      {
         "tech": "social",
         "count": 7,
         "percent": 10,
         "apps": [
+          "사우너 - 사우나 기록 & 심박수",
           "Yours - 마음이 담긴 손편지",
           "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
           "아파트아이 - 아파트 생활 필수 앱",
-          "TimeTree タイムツリー - カレンダーやメモの共有",
-          "Bump (バンプ) - 友達とつながるマップ"
+          "TimeTree タイムツリー - カレンダーやメモの共有"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Finance 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Finance"
+    },
+    {
+      "type": "rising_category",
+      "title": "Utilities & Safety 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Utilities & Safety"
+    },
+    {
+      "type": "rising_category",
+      "title": "Shopping & Price Comparison 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Shopping & Price Comparison"
+    },
+    {
+      "type": "rising_category",
+      "title": "Travel & Connectivity 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Travel & Connectivity"
+    },
     {
       "type": "rising_category",
       "title": "Health and Fitness 카테고리 급부상",
@@ -1013,42 +1070,28 @@
       "category": "Cashback and Rewards"
     },
     {
-      "type": "rising_category",
-      "title": "Travel 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Travel"
-    },
-    {
-      "type": "rising_category",
-      "title": "News 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "News"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "23%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "24%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Utilities 카테고리가 300% 급등하며 실용적 도구에 대한 수요가 폭발적으로 증가했고, AI·AR 기술이 앱의 핵심 차별화 요소로 자리잡고 있습니다. 1인 개발 가능 태그가 37회로 높은 관심을 보이며, 소규모 개발자도 시장에서 충분히 경쟁력을 가질 수 있는 환경이 형성되고 있습니다.",
+    "trend_summary": "Productivity 카테고리가 150% 급성장하며 시장을 주도하고 있으며, AI 기능을 탑재한 앱이 전체의 24%를 차지해 기술 기반 차별화가 핵심 전략으로 부상했습니다. 1인 개발 가능 태그가 36회로 높은 관심을 받고 있어, 인디 개발자에게 유리한 시장 환경이 형성되고 있습니다.",
     "trend_details": [
-      "Utilities 카테고리 300% 급성장: 단순하지만 일상에서 반복 사용되는 실용 도구 앱의 수요가 폭증하며 인디 개발자에게 가장 뜨거운 시장으로 부상",
-      "AI 기능이 23%의 앱에 탑재되며 차별화 필수 요소로 정착, 아직 AI를 도입하지 않은 카테고리에서 선점 효과를 노릴 수 있는 골든타임",
-      "Freemium(74%)과 Subscription(69%) 모델이 Free(77%)와 함께 공존하며, 무료 진입 후 구독 전환 전략이 수익화의 정석으로 굳어지는 추세"
+      "Productivity 앱 수요 폭발: 5개 앱이 동시에 150% 상승하며 생산성·일정 관리 도구에 대한 강한 수요 신호 발생",
+      "AI 통합이 기본값으로: 전체 앱의 24%가 AI 기능 포함, AI 없는 카테고리에서 AI 접목 시 선점 효과 기대",
+      "구독 모델이 대세: freemium(76%)·subscription(69%) 조합이 주류, 무료 진입 후 구독 전환 전략이 수익화 황금 공식으로 자리잡음"
     ],
     "hot_categories": [
-      "Utilities",
-      "Health and Fitness",
+      "Productivity",
+      "Finance",
       "AI Photo and Video Editing",
-      "Alarm and Sleep"
+      "Health and Fitness"
     ],
-    "opportunity": "Health and Fitness와 AI Photo/Video Editing 카테고리는 100% 성장에도 경쟁 앱 수가 적어, AI 기능을 접목한 1인 개발 규모의 앱으로 빠르게 진입할 수 있는 최적의 블루오션입니다.",
-    "action_item": "기존 Utilities 아이디어에 AI 자동화 기능 하나를 추가하고, Free+Subscription 이중 모델로 이번 주 안에 MVP 기획을 완성하세요.",
-    "weekly_theme": "AI 실용 도구"
+    "opportunity": "Finance·Utilities·Shopping 등 100% 급성장했지만 아직 앱 수가 적은 카테고리에 AI 기능을 결합한 틈새 앱으로 선점 진입하는 것이 가장 유망합니다.",
+    "action_item": "구독 모델 기반의 AI 생산성 도구(일정·메모·자동화)를 freemium으로 출시하고, '1인개발가능' 태그와 함께 B2C 타깃 마케팅을 즉시 시작하세요.",
+    "weekly_theme": "AI 생산성 선점"
   }
 }

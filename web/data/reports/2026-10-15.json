@@ -1,0 +1,696 @@
+{
+  "date": "2026-10-15",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "7d382d9f06eac5f4676d4d8d",
+      "name": "Bloom: Monitor Breast Health",
+      "developer": "Royal Labs LLC",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/41/9a/2d419a6d-b2f7-34de-0ba8-2956a2a9c112/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/bloom-monitor-breast-health/id6767201315",
+      "idea_summary": "여성 유방 건강 자가 추적 및 검진 일정 관리 앱",
+      "analysis": {
+        "problem": "여성들이 유방 건강 증상을 체계적으로 기록하고 검진 일정을 관리할 전용 도구가 없음 [추론]",
+        "solution": "증상 트래킹, 검진 일정 알림, 건강 기록 관리를 하나의 앱에서 제공 [추론]",
+        "target_user": "20-60대 여성, 특히 건강 예방 관리에 관심 높은 30-50대 [추론]",
+        "unique_point": "일반 건강 앱이 아닌 유방 건강에만 집중한 수직 특화 헬스케어 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Clue",
+          "MySymptoms",
+          "Apple Health"
+        ],
+        "timing_reason": "여성 헬스케어 앱 시장 급성장, 예방 의료 관심 증가 추세와 맞물림 [추론]",
+        "growth_potential": "여성 건강 전문 수직 앱 니치 시장에서 구독 기반 안정적 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 — 상세 건강 리포트 및 의료진 공유 기능 잠금 [추론]",
+        "pricing_suggestion": "월 4,900원 또는 연 39,000원 구독 모델 권장 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "HealthKit",
+          "Core Data",
+          "UserNotifications"
+        ],
+        "key_features": [
+          "증상 기록 및 히스토리 뷰",
+          "검진 일정 알림",
+          "건강 트렌드 차트",
+          "의료진 리포트 내보내기"
+        ],
+        "clone_tip": "HealthKit 연동으로 기존 건강 데이터 활용, 증상 DB는 Core Data로 로컬 저장 후 iCloud 백업 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#여성헬스케어",
+        "#구독모델"
+      ],
+      "verdict": "여성 예방 건강 관리 수요 정조준, 수직 특화로 충성도 높은 유저 확보 가능",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "b69a105dc9b660ecb2d21302",
+      "name": "bearbell - 곰방울",
+      "developer": "Harim Jang",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/59/18/a9/5918a9e8-dda4-b117-cff1-fe574192adfc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/bearbell-%EA%B3%B0%EB%B0%A9%EC%9A%B8/id6819491691",
+      "idea_summary": "케틀벨 운동에 특화된 운동 기록 및 진도 트래킹 앱",
+      "analysis": {
+        "problem": "케틀벨 전용 트래킹 앱이 거의 없어 일반 운동 앱으로 불편하게 기록하는 유저가 많음 [추론]",
+        "solution": "케틀벨 전용 운동 데이터베이스, 중량·세트·횟수 기록, 진도 트래킹 제공 [추론]",
+        "target_user": "케틀벨 운동 애호가, 홈트레이너, CrossFit 입문자 [추론]",
+        "unique_point": "케틀벨 특화 운동 DB와 곰 캐릭터 기반의 친근한 UX 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Strong",
+          "Hevy",
+          "StrongLifts 5x5"
+        ],
+        "timing_reason": "홈트레이닝 정착과 케틀벨 인기 지속 상승으로 특화 앱 수요 증가 [추론]",
+        "growth_potential": "니치 피트니스 앱은 충성 커뮤니티 형성 후 구독 전환율이 높음 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 업그레이드 또는 프리미엄 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 고급 분석 기능 일회성 9,900원 또는 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "HealthKit"
+        ],
+        "key_features": [
+          "케틀벨 운동 데이터베이스",
+          "세트/중량/횟수 기록",
+          "진도 차트",
+          "커스텀 루틴 생성"
+        ],
+        "clone_tip": "Core Data 기반 운동 기록 스키마 설계가 핵심, 케틀벨 특화 운동 DB는 20-30개 운동으로 MVP 시작 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#피트니스",
+        "#니치마켓"
+      ],
+      "verdict": "국내 인디 개발자가 만든 케틀벨 특화 앱, 니치 피트니스 앱 모델의 교과서적 사례",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "331eb761aba88970cf1b050b",
+      "name": "理由で解く 柔道整復師",
+      "developer": "Kazuhiro Kurosawa",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/f3/09/b4f3096f-0b9e-9a10-05e4-b0986a54e66d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E7%90%86%E7%94%B1%E3%81%A7%E8%A7%A3%E3%81%8F-%E6%9F%94%E9%81%93%E6%95%B4%E5%BE%A9%E5%B8%AB/id6799858485",
+      "idea_summary": "정답 이유를 설명하는 추론 기반 유도정복사 시험 준비 앱",
+      "analysis": {
+        "problem": "자격증 시험 앱들이 단순 암기 방식이라 실전 이해력이 부족한 합격자가 배출됨 [추론]",
+        "solution": "정답의 이유를 해설하는 추론 기반 학습으로 개념 이해도 근본적 향상 [추론]",
+        "target_user": "일본 유도정복사(柔道整復師) 국가시험 준비생 [확인]",
+        "unique_point": "단순 O/X 암기가 아닌 왜 그 답인가를 설명하는 이유 기반 학습 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 의료 자격증 시험 앱",
+          "Anki",
+          "메디컬 시험 준비 교재"
+        ],
+        "timing_reason": "일본 의료 보조 자격증 수요 지속 증가, 디지털 학습 전환 가속 [추론]",
+        "growth_potential": "동일 방식으로 간호사, 물리치료사 등 타 의료 자격증으로 확장 시 포트폴리오 전략 유효 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 과목별 IAP 콘텐츠 판매 [추론]",
+        "pricing_suggestion": "앱 기본 무료, 과목별 콘텐츠 팩 1,200-2,400엔 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "이유 해설 포함 문제은행",
+          "오답노트 자동 생성",
+          "진도 트래킹",
+          "시험 모드 타이머"
+        ],
+        "clone_tip": "한국 특정 자격증(임상심리사, 작업치료사 등)에 동일 방식 적용 가능, 전문 콘텐츠 수집이 핵심 난관 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크",
+        "#자격증"
+      ],
+      "verdict": "좁은 시장이지만 경쟁 없는 블루오션, 자격증 시리즈로 확장 시 포트폴리오 효과 유효",
+      "country": "jp"
+    },
+    {
+      "rank": 4,
+      "source_id": "94fb61d97eb5127bb2425e58",
+      "name": "play_music_theory",
+      "developer": "TALA RAE SCHLOSSBERG",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/29/b9/df29b936-e9af-8232-7446-0dd51225e02e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/play-music-theory/id6800616114",
+      "idea_summary": "읽는 이론이 아닌 직접 플레이하며 배우는 음악 이론 학습",
+      "analysis": {
+        "problem": "음악 이론은 추상적이고 지루해서 초보자가 중도 포기하는 경우가 많음 [추론]",
+        "solution": "인터랙티브 연습과 게임화 요소로 음악 이론을 직접 플레이하며 학습 [추론]",
+        "target_user": "음악 입문자, 악기 독학자, 음악에 관심 있는 10-30대 [추론]",
+        "unique_point": "읽는 이론서가 아닌 직접 연주하며 체험하는 음악 이론 학습 패러다임 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Musictheory.net",
+          "Tenuto",
+          "Theory Lessons",
+          "Yousician"
+        ],
+        "timing_reason": "K-pop 등 음악 관심 글로벌 확산, 독학 음악 학습 앱 수요 지속 증가 [추론]",
+        "growth_potential": "다언어 지원 시 글로벌 음악 학습 시장에서 큰 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 단계별 유료 콘텐츠 잠금 해제 [추론]",
+        "pricing_suggestion": "기본 무료, 전체 콘텐츠 월 6,900원 또는 일회성 19,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "AVFoundation",
+          "Core Audio"
+        ],
+        "key_features": [
+          "인터랙티브 악보 연습",
+          "음정 및 화음 식별 훈련",
+          "리듬 탭 훈련",
+          "학습 진도 트래킹"
+        ],
+        "clone_tip": "AVFoundation으로 음정 인식 구현이 기술적 핵심, 초기엔 기초 이론 10개 주제 MVP로 출시 후 확장 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#뮤직에듀",
+        "#글로벌"
+      ],
+      "verdict": "음악 이론의 플레이화, 글로벌 다언어 지원 시 성장 여지 충분",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "2729b29e00bfb830cdb11dee",
+      "name": "Bevnap: Cocktail Recipes",
+      "developer": "Lemel Software, LLC",
+      "category": "Food & Drink",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/1a/a2/a91aa249-c96c-974f-7db4-089b3fed7a4a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/bevnap-cocktail-recipes/id6744274650",
+      "idea_summary": "가진 재료로 만들 수 있는 칵테일을 빠르게 찾는 홈 바텐딩 앱",
+      "analysis": {
+        "problem": "홈 바텐더들이 가진 재료로 만들 수 있는 칵테일을 빠르게 찾기 어려움 [추론]",
+        "solution": "재료 기반 칵테일 레시피 검색, 단계별 제조 가이드, 음료 영감 제공 [추론]",
+        "target_user": "홈 파티 주최자, 칵테일 취미를 가진 25-45세 성인 [추론]",
+        "unique_point": "깔끔한 UX와 재료 중심 역방향 검색으로 홈 바텐딩 접근성 극대화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Cocktail Flow",
+          "Highball",
+          "Cocktail Party"
+        ],
+        "timing_reason": "홈 엔터테이닝 문화 확산, MZ세대 홈 바텐딩 관심 증가 [추론]",
+        "growth_potential": "주류 커머스 연계(재료 구매 링크, 도구 판매) 시 수익화 강화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 레시피 구독 또는 주류 파트너십 제휴 광고 [추론]",
+        "pricing_suggestion": "무료 기본, 프리미엄 레시피 라이브러리 월 3,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "300-600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CloudKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "재료 기반 역검색 필터",
+          "단계별 제조 가이드",
+          "즐겨찾기 저장",
+          "재료 쇼핑리스트 생성"
+        ],
+        "clone_tip": "초기 DB는 공개 칵테일 API(TheCocktailDB) 활용 후 독자 레시피 추가, 재료 필터 로직이 킬러 기능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#푸드앤드링크",
+        "#라이프스타일"
+      ],
+      "verdict": "구현 난이도 낮은 레시피 앱, 칵테일 특화 니치로 취향 커뮤니티 팬층 형성 가능",
+      "country": "us"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "62973c4690118a2551419376",
+      "name": "Rips by Triumph",
+      "developer": "Triumph Labs Inc.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/-2Y50Q1M8UMEBKHENK9RQJgL_XspRv3_aRmQZzkY_DZ0FX9wtoEvtYtXZavrzHXodJkxUeKHvOTrT-0iigJM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.triumpharcade.tcg",
+      "idea_summary": "디지털 트레이딩카드 팩 개봉 후 현금화 또는 실물 카드 수령 선택",
+      "analysis": {
+        "problem": "트레이딩카드 수집가들이 디지털 편의성과 실물 소유 욕구를 동시에 충족할 방법이 없음 [추론]",
+        "solution": "디지털 팩 개봉 경험 제공 후 현금 전환 또는 실물 카드 배송 옵션 선택 가능 [추론]",
+        "target_user": "포켓몬·스포츠 카드 수집가, 15-35세 남성 컬렉터 [추론]",
+        "unique_point": "디지털 팩 개봉 흥미 + 실물 교환 옵션으로 디지털-피지컬 간의 갭 해소 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Whatnot",
+          "TCGPlayer",
+          "eBay 트레이딩카드 섹션"
+        ],
+        "timing_reason": "트레이딩카드 수집 시장 글로벌 급성장, 디지털 컬렉터블 시장 성숙기 진입 [추론]",
+        "growth_potential": "포켓몬, 스포츠, 애니메이션 카드 종류 확장 시 대형 플랫폼 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "팩 구매 수수료, 실물 카드 배송 마진, 마켓플레이스 거래 수수료 [추론]",
+        "pricing_suggestion": "팩 단위 1,000-10,000원, 실물 배송 시 추가 비용 부과 구조 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "800-2000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "Stripe",
+          "Lottie",
+          "물류 파트너 API"
+        ],
+        "key_features": [
+          "디지털 팩 개봉 애니메이션",
+          "카드 컬렉션 관리",
+          "현금 전환 시스템",
+          "실물 카드 배송 연동"
+        ],
+        "clone_tip": "팩 개봉 애니메이션이 핵심 UX — Lottie로 구현 가능; 실물 연동은 수집카드 도매상 파트너십 계약이 선행 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#B2C",
+        "#컬렉터블",
+        "#디지털피지컬",
+        "#고수익모델"
+      ],
+      "verdict": "디지털-실물 연결 트레이딩카드 플랫폼, 수집 시장 성장세와 맞물려 수익 잠재력 최고 수준",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "1aee67569461c5d758ca8917",
+      "name": "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+      "developer": "Fallcent",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/PtB6uKLbszcI6wg2-lRxn4Yr6JBPFe52MF3gN87xsuyPm14s3mUzITjgpQC02VrdgE4P6NscNe9ZYazuql4_QQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.deaguowl.fallcent",
+      "idea_summary": "최저가 알림 + 레퍼럴 리워드가 결합된 바이럴 쇼핑 가격 추적기",
+      "analysis": {
+        "problem": "온라인 쇼핑 중 원하는 상품의 가격 하락 시점을 실시간으로 알기 어려움 [추론]",
+        "solution": "가격 추적과 최저가 알림에 레퍼럴 리워드 시스템을 결합해 성장 엔진 내재화 [추론]",
+        "target_user": "가격에 민감한 온라인 쇼핑 애호가, 20-40대 알뜰 소비자 [추론]",
+        "unique_point": "가격 추적 기능에 레퍼럴 리워드를 결합해 유저가 자발적으로 바이럴 확산 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Keepa",
+          "Honey",
+          "CamelCamelCamel",
+          "칩스"
+        ],
+        "timing_reason": "고물가 지속으로 가격 비교·절약 앱 수요 강세 유지 [추론]",
+        "growth_potential": "레퍼럴 구조로 자체 바이럴 성장 가능, 다양한 쇼핑몰 연동 확장 시 MAU 폭발 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "어필리에이트 커미션, 프리미엄 실시간 알림 구독 [추론]",
+        "pricing_suggestion": "무료 기본, 즉시 알림 강화 프리미엄 월 2,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "500-1200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "WorkManager",
+          "Retrofit",
+          "가격 추적 API"
+        ],
+        "key_features": [
+          "상품 URL 가격 추적 등록",
+          "최저가 도달 푸시 알림",
+          "가격 히스토리 차트",
+          "레퍼럴 코드 공유 시스템"
+        ],
+        "clone_tip": "가격 스크래핑은 공식 파트너 API 또는 제휴 우선 검토(법적 리스크 관리 필수), WorkManager로 백그라운드 주기 가격 체크 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#B2C",
+        "#쇼핑테크",
+        "#바이럴구조",
+        "#어필리에이트"
+      ],
+      "verdict": "가격 추적 + 레퍼럴 결합으로 성장 엔진 내재화, 쇼핑 앱 중 클론 가치 최상위권",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "dc06f2402e0eaf45f207fec3",
+      "name": "Draw Music: Sketch to Sound",
+      "developer": "Banix Studio",
+      "category": "Music",
+      "icon": "https://play-lh.googleusercontent.com/b-kUnFvQ0riMTiRi5E5JLoxwcN-ufKANESt-UERHbNBTg0EZlnn_LC6f0UZrXYp-aRohMNefHpxCEguNlzkx_Q",
+      "app_url": "https://play.google.com/store/apps/details?id=com.banix.drawsound.drawmusic",
+      "idea_summary": "손으로 그린 스케치가 즉시 음악으로 변환되는 창의적 음악 생성 앱",
+      "analysis": {
+        "problem": "음악 지식이 없는 사람들이 음악적 창의성을 표현할 쉽고 직관적인 방법이 없음 [추론]",
+        "solution": "드로잉 인터페이스를 통해 그림을 그리면 실시간으로 음악이 생성되는 새로운 상호작용 [추론]",
+        "target_user": "창의적인 어린이, 음악 비전공 성인, 아트-뮤직 융합에 관심 있는 사용자 [추론]",
+        "unique_point": "그림 그리기라는 직관적 행위를 음악 생성 인터페이스로 전환한 전혀 새로운 패러다임 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Chrome Music Lab",
+          "GarageBand",
+          "Blob Opera"
+        ],
+        "timing_reason": "AI 창작 도구 확산으로 비전통적 음악 생성 방식에 대한 관심 급증 [추론]",
+        "growth_potential": "초등학교 음악 수업 연계 B2B 에듀테크 확장 시 새로운 수익원 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 무료 버전 + 고급 음향 효과 및 악기 팩 IAP [추론]",
+        "pricing_suggestion": "무료 기본, 프리미엄 음향 팩 2,900-5,900원 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "400-800만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Canvas API",
+          "MediaPlayer",
+          "오디오 합성 라이브러리"
+        ],
+        "key_features": [
+          "자유 드로잉 캔버스",
+          "선/도형을 음정 및 리듬으로 변환",
+          "음악 실시간 재생",
+          "다양한 음색 선택"
+        ],
+        "clone_tip": "드로잉 좌표를 주파수/음정으로 매핑하는 알고리즘이 핵심, 초기엔 x축=음정·y축=옥타브 단순 매핑으로 빠른 프로토타이핑 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#창의도구",
+        "#뮤직테크"
+      ],
+      "verdict": "드로잉으로 음악 만들기라는 독창적 아이디어, SNS 바이럴 가능성 높은 엔터테인먼트 앱",
+      "country": "jp"
+    },
+    {
+      "rank": 4,
+      "source_id": "9789effb3be47eeb82576722",
+      "name": "마블워크",
+      "developer": "Thezooomkorea Co., Ltd.",
+      "category": "Health and Fitness",
+      "icon": "https://play-lh.googleusercontent.com/pNhr59vSZ73uI4894WErHI4_GwqpBPeqBsTaY99lQP_im0d_AAYE5YkGE25IPJakvRB5ijWmrbzEtS2tpiUppvQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.thezooomkr.marblewalk",
+      "idea_summary": "구슬 게임 테마로 걷기를 게임화한 리워드 만보기 앱",
+      "analysis": {
+        "problem": "일반 만보기 앱은 단순 수치 기록에 그쳐 장기적 걷기 동기부여가 지속되지 않음 [추론]",
+        "solution": "구슬 굴리기 진행 테마의 게임 진척도와 리워드로 걷기 습관 형성 지원 [추론]",
+        "target_user": "건강 관리에 관심 있는 한국 성인, 게임적 동기를 선호하는 20-50대 [추론]",
+        "unique_point": "구슬 굴리기 게임 진행 테마가 주는 독특한 시각적 보상 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "캐시워크",
+          "맥스워크",
+          "StepBet"
+        ],
+        "timing_reason": "걷기 리워드 앱 시장 이미 검증 완료, 차별화된 게임 요소로 진입 적기 [추론]",
+        "growth_potential": "스폰서 광고 및 리워드 파트너십 확대 시 수익 구조 강화, 글로벌 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익, 리워드 스폰서십, 프리미엄 게임 아이템 IAP [추론]",
+        "pricing_suggestion": "무료 기본, 광고 제거 또는 특별 게임 아이템 IAP 1,900-4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google Fit API",
+          "Firebase",
+          "게임 물리 애니메이션 라이브러리"
+        ],
+        "key_features": [
+          "걸음 수 측정 및 구슬 진행도 연동",
+          "게임형 미션 시스템",
+          "리워드 포인트 누적",
+          "친구 경쟁 리더보드"
+        ],
+        "clone_tip": "Google Fit API로 걸음 데이터 획득, 구슬 이동 물리 시뮬레이션에 Box2D 또는 커스텀 애니메이션 활용으로 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#헬스게이미피케이션",
+        "#리워드앱",
+        "#한국시장"
+      ],
+      "verdict": "걷기 앱의 게이미피케이션, 구슬 테마 독특한 시각 정체성으로 한국 리워드 앱 시장 도전",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "82b09e347af633246fc5dd01",
+      "name": "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
+      "developer": "브릿지웍스",
+      "category": "Finance",
+      "icon": "https://play-lh.googleusercontent.com/zrfZundKRFG4VQau3Rv1_S69V7l0jo644I1klaM2DLeH7OTN7JM34P_qQlSe4rPnW6RiPUNDeVeIcxFso-76ZQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bridgeworks.cashmore",
+      "idea_summary": "영수증 스캔만으로 결제 수단 무관 캐시백을 지급하는 리워드 앱",
+      "analysis": {
+        "problem": "일상 구매에서 캐시백을 받으려면 특정 카드나 앱 결제를 해야 하는 진입 장벽이 있음 [추론]",
+        "solution": "어디서 무엇으로 결제해도 영수증 스캔 한 번으로 캐시백 리워드 제공 [추론]",
+        "target_user": "일상 소비에서 절약을 원하는 한국 성인, 알뜰 소비 성향 20-40대 [추론]",
+        "unique_point": "결제 수단 및 쇼핑몰 무관 영수증 기반 캐시백으로 진입 장벽 최소화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "캐시워크",
+          "Fetch Rewards",
+          "Receipt Hog",
+          "시럽"
+        ],
+        "timing_reason": "영수증 데이터의 소비 분석 가치 상승, 리테일 마케팅 데이터 수요 증가 [추론]",
+        "growth_potential": "영수증 데이터 기반 소비 인사이트 B2B 판매로 수익 다각화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "리테일 파트너십 광고, 소비 데이터 분석 B2B 판매, 프리미엄 캐시백 구독 [추론]",
+        "pricing_suggestion": "사용자에게는 무료 제공, 수익은 B2B 데이터 파트너십 및 광고 중심 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "800-2000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google ML Kit OCR",
+          "Firebase",
+          "Retrofit",
+          "영수증 파싱 AI 모델"
+        ],
+        "key_features": [
+          "영수증 카메라 스캔 및 OCR 인식",
+          "구매 항목 자동 분류",
+          "캐시백 포인트 누적",
+          "포인트 환급 및 출금"
+        ],
+        "clone_tip": "Google ML Kit OCR로 영수증 텍스트 인식 구현, 영수증 파싱 정확도가 사용자 경험 전체를 좌우하는 핵심 기술 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#핀테크",
+        "#리워드앱",
+        "#OCR기술"
+      ],
+      "verdict": "영수증 OCR 캐시백으로 결제 수단 무관 리워드 제공, 데이터 비즈니스 확장성 우수",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "2026년 10월 오늘의 앱 트렌드는 수직 특화(Vertical Niche)와 디지털-피지컬 융합이 핵심이다. 범용 앱을 대체하는 특정 도구·신체 부위·자격증 특화 앱들이 충성도 높은 유저층을 형성하며, 디지털 경험에 실물 가치를 연결하는 하이브리드 커머스 모델이 부상하고 있다.",
+    "trend_details": [
+      "여성 건강, 케틀벨 등 수직 특화 헬스케어 앱이 일반 건강 앱 대비 높은 리텐션 기록 [추론]",
+      "디지털 팩 개봉 + 실물 교환 같은 디지털-피지컬 하이브리드 커머스 모델 부상 [추론]",
+      "레퍼럴 리워드를 내재화한 쇼핑 앱이 광고비 없이 바이럴 성장 구조 구축 [추론]",
+      "영수증 OCR 기반 캐시백이 결제 수단 무관 리워드 시장의 새로운 표준으로 자리잡는 중 [추론]",
+      "이유 기반 학습 방식이 단순 암기 중심 자격증 앱의 대안으로 에듀테크 시장에서 주목 [추론]",
+      "걷기 앱의 게이미피케이션이 한국 리워드 앱 시장에서 차별화 수단으로 지속 검증 중 [추론]"
+    ],
+    "hot_categories": [
+      "Health & Fitness (수직 특화)",
+      "Shopping/Rewards (리워드 + 가격추적)",
+      "Music/Creative (드로잉·이론 학습)",
+      "Digital-Physical Commerce (컬렉터블)"
+    ],
+    "opportunity": "특정 운동 도구(케틀벨, 폼롤러, 저항밴드)나 특정 신체 부위에 특화된 헬스케어 앱은 경쟁이 적으면서 충성도 높은 커뮤니티를 형성할 수 있는 블루오션 [추론]",
+    "action_item": "보유 전문 지식 기반으로 아직 전용 앱이 없는 특정 자격증 또는 특화 운동 기구 트래킹 앱 기획 시작 — 기술 난이도 낮고 경쟁 없는 니치 시장부터 빠르게 MVP 출시"
+  },
+  "data_status": {}
+}
