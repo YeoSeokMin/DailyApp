@@ -1,10 +1,25 @@
 {
-  "generatedAt": "2026-10-16T15:17:24.730Z",
+  "generatedAt": "2026-10-17T15:21:12.679Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "Health & Fitness",
+      "currentCount": 5,
+      "previousCount": 1,
+      "changePercent": 400,
+      "changeDirection": "up",
+      "apps": [
+        "Bloom: Monitor Breast Health",
+        "bearbell - 곰방울",
+        "사우너 - 사우나 기록 & 심박수",
+        "AHEALTH - formerly MoneyWalk",
+        "FitToCal - 운동 캘린더 동기화"
+      ],
+      "avgScore": 7.68
+    },
     {
       "category": "Health and Fitness",
       "currentCount": 4,
@@ -20,19 +35,66 @@
       "avgScore": 7.075
     },
     {
-      "category": "Health & Fitness",
-      "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
+      "category": "Music",
+      "currentCount": 8,
+      "previousCount": 4,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "Bloom: Monitor Breast Health",
-        "bearbell - 곰방울",
-        "사우너 - 사우나 기록 & 심박수",
-        "AHEALTH - formerly MoneyWalk",
-        "FitToCal - 운동 캘린더 동기화"
+        "Blueprint 4-Track",
+        "Undersong",
+        "play_music_theory",
+        "Draw Music: Sketch to Sound",
+        "GLIMR: Strum Any Sound",
+        "Band Session Note",
+        "AlbumDeck: 3D 앨범 커버",
+        "Super 606 Drums - Drum Machine"
       ],
-      "avgScore": 7.68
+      "avgScore": 7.1
+    },
+    {
+      "category": "Sports",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Sheep Esports: LoL Live Scores"
+      ],
+      "avgScore": 6.8
+    },
+    {
+      "category": "Music and Creativity",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Suno 수노 - AI 음악 & 노래"
+      ],
+      "avgScore": 8.2
+    },
+    {
+      "category": "Fashion Shopping",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "4910 | 패션이 쉬워지는 순간"
+      ],
+      "avgScore": 6.8
+    },
+    {
+      "category": "Music and Karaoke",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "MiSing - 언제 어디서나, 마음껏 노래해!"
+      ],
+      "avgScore": 6.5
     },
     {
       "category": "Food & Drink",
@@ -90,18 +152,6 @@
         "로밍도깨비 eSIM – 데이터가 필요한 순간"
       ],
       "avgScore": 8.2
-    },
-    {
-      "category": "Social Networking",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Yours - 마음이 담긴 손편지",
-        "Bump (バンプ) - 友達とつながるマップ"
-      ],
-      "avgScore": 7.9
     },
     {
       "category": "Automotive Marketplace",
@@ -203,66 +253,48 @@
       "avgScore": 8
     },
     {
-      "category": "Music",
-      "currentCount": 7,
-      "previousCount": 4,
-      "changePercent": 75,
+      "category": "Productivity",
+      "currentCount": 4,
+      "previousCount": 3,
+      "changePercent": 33,
       "changeDirection": "up",
       "apps": [
-        "play_music_theory",
-        "Draw Music: Sketch to Sound",
-        "GLIMR: Strum Any Sound",
-        "Band Session Note",
-        "AlbumDeck: 3D 앨범 커버",
-        "Super 606 Drums - Drum Machine",
-        "NostalgicPod"
+        "setlog",
+        "Sync: Plan & Actual",
+        "노그미(Nogmi): 녹음·전사·요약",
+        "Migoo - すべてのタスクにAIチーム"
       ],
-      "avgScore": 7.042857142857144
+      "avgScore": 7.35
     }
   ],
   "decliningCategories": [
     {
       "category": "Education",
       "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
+      "previousCount": 6,
+      "changePercent": -33,
       "changeDirection": "down",
       "apps": [
+        "給与計算実務能力検定2級　試験対策",
         "理由で解く 柔道整復師",
         "백지복습",
-        "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-        "국시마스터"
+        "유니브 AI - 강의 녹음·PDF 요약·퀴즈"
       ],
-      "avgScore": 7.625
+      "avgScore": 7.5
     },
     {
-      "category": "Productivity",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
+      "category": "Shopping",
+      "currentCount": 4,
+      "previousCount": 7,
+      "changePercent": -43,
       "changeDirection": "down",
       "apps": [
-        "Sync: Plan & Actual",
-        "노그미(Nogmi): 녹음·전사·요약",
-        "Migoo - すべてのタスクにAIチーム"
+        "Rips by Triumph",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "GoWish - Your Digital Wishlist",
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립"
       ],
-      "avgScore": 7.733333333333333
-    },
-    {
-      "category": "Photo & Video",
-      "currentCount": 6,
-      "previousCount": 11,
-      "changePercent": -45,
-      "changeDirection": "down",
-      "apps": [
-        "YoungPhoto - エモい構図カメラ",
-        "GR Snap - 리코 GR Image Sync",
-        "Both: 듀얼 카메라",
-        "네몽 - 카드뉴스 캐러셀",
-        "하루테이프 - 빈티지 캠코더",
-        "bluefie - 애니메틱한 색감 카메라앱"
-      ],
-      "avgScore": 7.1499999999999995
+      "avgScore": 7.7
     },
     {
       "category": "Lifestyle",
@@ -271,39 +303,42 @@
       "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "종쳤다: 학교 종소리 알람",
-        "PrinTodo"
+        "공군 PTSD 알람",
+        "종쳤다: 학교 종소리 알람"
       ],
       "avgScore": 6.15
     },
     {
-      "category": "Navigation",
-      "currentCount": 1,
-      "previousCount": 2,
-      "changePercent": -50,
+      "category": "Photo & Video",
+      "currentCount": 4,
+      "previousCount": 11,
+      "changePercent": -64,
       "changeDirection": "down",
       "apps": [
-        "GPS Location Flow & Tracker"
+        "YoungPhoto - エモい構図カメラ",
+        "GR Snap - 리코 GR Image Sync",
+        "Both: 듀얼 카메라",
+        "네몽 - 카드뉴스 캐러셀"
       ],
-      "avgScore": 6.4
+      "avgScore": 6.975
     }
   ],
   "stableCategories": [
     {
-      "category": "Shopping",
+      "category": "Entertainment",
       "currentCount": 6,
       "previousCount": 6,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Rips by Triumph",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "GoWish - Your Digital Wishlist",
-        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
-        "에이블리 - 초개인화 AI 쇼핑",
-        "DealSeek: Coupons & Discounts"
+        "Vigloo 비글루 - 숏드라마",
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+        "Pocket FM: Audio Dramas",
+        "티포: 직장인 데스크 펫",
+        "VibeShort: AI Short Dramas",
+        "Beadfall: Fidget Beads & ASMR"
       ],
-      "avgScore": 7.466666666666666
+      "avgScore": 7.683333333333334
     },
     {
       "category": "Medical",
@@ -343,20 +378,15 @@
       "avgScore": 7.140000000000001
     },
     {
-      "category": "Entertainment",
-      "currentCount": 6,
-      "previousCount": 6,
+      "category": "Social Networking",
+      "currentCount": 1,
+      "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "Pocket FM: Audio Dramas",
-        "티포: 직장인 데스크 펫",
-        "VibeShort: AI Short Dramas",
-        "Beadfall: Fidget Beads & ASMR",
-        "FreeDrama: Short Drama & Reels"
+        "Yours - 마음이 담긴 손편지"
       ],
-      "avgScore": 7.6000000000000005
+      "avgScore": 7.8
     },
     {
       "category": "Services Marketplace",
@@ -374,8 +404,17 @@
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 64,
+      "count": 63,
       "apps": [
+        "Blueprint 4-Track",
+        "Sheep Esports: LoL Live Scores",
+        "Undersong",
+        "給与計算実務能力検定2級　試験対策",
+        "Vigloo 비글루 - 숏드라마",
+        "Suno 수노 - AI 음악 & 노래",
+        "setlog",
+        "4910 | 패션이 쉬워지는 순간",
+        "MiSing - 언제 어디서나, 마음껏 노래해!",
         "Bloom: Monitor Breast Health",
         "bearbell - 곰방울",
         "理由で解く 柔道整復師",
@@ -428,24 +467,19 @@
         "Migoo - すべてのタスクにAIチーム",
         "맥스워크-리워드에 미친 만보기, 걷기의 가치를 최대로!",
         "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
-        "혈압·혈당 건강관리",
-        "하루테이프 - 빈티지 캠코더",
-        "bluefie - 애니메틱한 색감 카메라앱",
-        "국시마스터",
-        "NostalgicPod",
-        "PrinTodo",
-        "Bump (バンプ) - 友達とつながるマップ",
-        "에이블리 - 초개인화 AI 쇼핑",
-        "DealSeek: Coupons & Discounts",
-        "GPS Location Flow & Tracker",
-        "FreeDrama: Short Drama & Reels"
+        "혈압·혈당 건강관리"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 37,
+      "count": 35,
       "apps": [
+        "Blueprint 4-Track",
+        "Sheep Esports: LoL Live Scores",
+        "Undersong",
+        "給与計算実務能力検定2級　試験対策",
+        "setlog",
         "Bloom: Monitor Breast Health",
         "bearbell - 곰방울",
         "理由で解く 柔道整復師",
@@ -475,21 +509,15 @@
         "종쳤다: 학교 종소리 알람",
         "FitToCal - 운동 캘린더 동기화",
         "Beadfall: Fidget Beads & ASMR",
-        "혈압·혈당 건강관리",
-        "하루테이프 - 빈티지 캠코더",
-        "bluefie - 애니메틱한 색감 카메라앱",
-        "국시마스터",
-        "NostalgicPod",
-        "PrinTodo",
-        "DealSeek: Coupons & Discounts",
-        "GPS Location Flow & Tracker"
+        "혈압·혈당 건강관리"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 11,
+      "count": 12,
       "apps": [
+        "Suno 수노 - AI 음악 & 노래",
         "Bevnap: Cocktail Recipes",
         "詐欺対策 by NTTタウンページ",
         "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
@@ -499,23 +527,7 @@
         "VibeShort: AI Short Dramas",
         "널스메이트 - 간호사를 위한 AI 업무 파트너",
         "노그미(Nogmi): 녹음·전사·요약",
-        "Migoo - すべてのタスクにAIチーム",
-        "에이블리 - 초개인화 AI 쇼핑"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 8,
-      "apps": [
-        "Pocket FM: Audio Dramas",
-        "VibeShort: AI Short Dramas",
-        "Both: 듀얼 카메라",
-        "네몽 - 카드뉴스 캐러셀",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "하루테이프 - 빈티지 캠코더",
-        "NostalgicPod",
-        "FreeDrama: Short Drama & Reels"
+        "Migoo - すべてのタスクにAIチーム"
       ]
     },
     {
@@ -523,10 +535,10 @@
       "category": "productivity",
       "count": 8,
       "apps": [
+        "setlog",
         "Sync: Plan & Actual",
         "노그미(Nogmi): 녹음·전사·요약",
-        "Migoo - すべてのタスクにAIチーム",
-        "PrinTodo"
+        "Migoo - すべてのタスクにAIチーム"
       ]
     },
     {
@@ -534,12 +546,52 @@
       "category": "creator",
       "count": 7,
       "apps": [
+        "Undersong",
+        "Vigloo 비글루 - 숏드라마",
         "Pocket FM: Audio Dramas",
         "VibeShort: AI Short Dramas",
         "AlbumDeck: 3D 앨범 커버",
+        "DramaWave -인기 단편/한일 드라마, 역전극!"
+      ]
+    },
+    {
+      "keyword": "글로벌",
+      "category": "tag",
+      "count": 7,
+      "apps": [
+        "Suno 수노 - AI 음악 & 노래",
+        "play_music_theory",
+        "Yours - 마음이 담긴 손편지",
+        "VibeShort: AI Short Dramas",
+        "Beadfall: Fidget Beads & ASMR",
         "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "NostalgicPod",
-        "FreeDrama: Short Drama & Reels"
+        "Migoo - すべてのタスクにAIチーム"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 6,
+      "apps": [
+        "Sheep Esports: LoL Live Scores",
+        "Bloom: Monitor Breast Health",
+        "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
+        "Sync: Plan & Actual",
+        "TimeTree タイムツリー - カレンダーやメモの共有",
+        "FitToCal - 운동 캘린더 동기화"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 6,
+      "apps": [
+        "Vigloo 비글루 - 숏드라마",
+        "Pocket FM: Audio Dramas",
+        "VibeShort: AI Short Dramas",
+        "Both: 듀얼 카메라",
+        "네몽 - 카드뉴스 캐러셀",
+        "DramaWave -인기 단편/한일 드라마, 역전극!"
       ]
     },
     {
@@ -568,28 +620,26 @@
       ]
     },
     {
-      "keyword": "글로벌",
-      "category": "tag",
-      "count": 6,
+      "keyword": "커뮤니티",
+      "category": "social",
+      "count": 5,
       "apps": [
-        "play_music_theory",
-        "Yours - 마음이 담긴 손편지",
-        "VibeShort: AI Short Dramas",
-        "Beadfall: Fidget Beads & ASMR",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "Migoo - すべてのタスクにAIチーム"
+        "Undersong",
+        "Bevnap: Cocktail Recipes",
+        "사우너 - 사우나 기록 & 심박수",
+        "아파트아이 - 아파트 생활 필수 앱"
       ]
     },
     {
-      "keyword": "일정",
-      "category": "productivity",
+      "keyword": "한국",
+      "category": "tag",
       "count": 5,
       "apps": [
-        "Bloom: Monitor Breast Health",
-        "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
-        "Sync: Plan & Actual",
-        "TimeTree タイムツリー - カレンダーやメモの共有",
-        "FitToCal - 운동 캘린더 동기화"
+        "Vigloo 비글루 - 숏드라마",
+        "4910 | 패션이 쉬워지는 순간",
+        "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
+        "헤이딜러 - 인증중고차, 내차팔기, [번호판]시세",
+        "아파트아이 - 아파트 생활 필수 앱"
       ]
     },
     {
@@ -626,46 +676,23 @@
       ]
     },
     {
-      "keyword": "틈새시장",
+      "keyword": "음악",
       "category": "tag",
-      "count": 4,
-      "apps": [
-        "Band Session Note",
-        "GR Snap - 리코 GR Image Sync",
-        "종쳤다: 학교 종소리 알람",
-        "국시마스터"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 4,
-      "apps": [
-        "Yours - 마음이 담긴 손편지",
-        "TimeTree タイムツリー - カレンダーやメモの共有",
-        "Linkex - 写真・動画バックアップ",
-        "Bump (バンプ) - 友達とつながるマップ"
-      ]
-    },
-    {
-      "keyword": "프로",
-      "category": "subscription",
-      "count": 4,
-      "apps": [
-        "Migoo - すべてのタスクにAIチーム",
-        "에이블리 - 초개인화 AI 쇼핑",
-        "DealSeek: Coupons & Discounts",
-        "GPS Location Flow & Tracker"
-      ]
-    },
-    {
-      "keyword": "커뮤니티",
-      "category": "social",
       "count": 3,
       "apps": [
-        "Bevnap: Cocktail Recipes",
-        "사우너 - 사우나 기록 & 심박수",
-        "아파트아이 - 아파트 생활 필수 앱"
+        "Undersong",
+        "MiSing - 언제 어디서나, 마음껏 노래해!",
+        "GLIMR: Strum Any Sound"
+      ]
+    },
+    {
+      "keyword": "일본시장",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "給与計算実務能力検定2級　試験対策",
+        "詐欺対策 by NTTタウンページ",
+        "ジハンピ"
       ]
     },
     {
@@ -679,23 +706,23 @@
       ]
     },
     {
-      "keyword": "일본시장",
+      "keyword": "틈새시장",
       "category": "tag",
       "count": 3,
       "apps": [
-        "詐欺対策 by NTTタウンページ",
-        "ジハンピ",
-        "bluefie - 애니메틱한 색감 카메라앱"
+        "Band Session Note",
+        "GR Snap - 리코 GR Image Sync",
+        "종쳤다: 학교 종소리 알람"
       ]
     },
     {
-      "keyword": "한국",
-      "category": "tag",
+      "keyword": "소셜",
+      "category": "social",
       "count": 3,
       "apps": [
-        "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-        "헤이딜러 - 인증중고차, 내차팔기, [번호판]시세",
-        "아파트아이 - 아파트 생활 필수 앱"
+        "Yours - 마음이 담긴 손편지",
+        "TimeTree タイムツリー - カレンダーやメモの共有",
+        "Linkex - 写真・動画バックアップ"
       ]
     }
   ],
@@ -705,36 +732,36 @@
         "count": 57,
         "percent": 81,
         "examples": [
-          "bearbell - 곰방울",
-          "理由で解く 柔道整復師",
-          "play_music_theory"
+          "Blueprint 4-Track",
+          "Sheep Esports: LoL Live Scores",
+          "給与計算実務能力検定2級　試験対策"
         ]
       },
       "freemium": {
-        "count": 54,
-        "percent": 77,
+        "count": 53,
+        "percent": 76,
         "examples": [
-          "Bloom: Monitor Breast Health",
-          "bearbell - 곰방울",
-          "理由で解く 柔道整復師"
+          "Blueprint 4-Track",
+          "Sheep Esports: LoL Live Scores",
+          "Undersong"
         ]
       },
       "subscription": {
-        "count": 47,
-        "percent": 67,
+        "count": 45,
+        "percent": 64,
         "examples": [
-          "Bloom: Monitor Breast Health",
-          "bearbell - 곰방울",
-          "play_music_theory"
+          "Blueprint 4-Track",
+          "Sheep Esports: LoL Live Scores",
+          "Undersong"
         ]
       },
       "onetime": {
-        "count": 27,
-        "percent": 39,
+        "count": 23,
+        "percent": 33,
         "examples": [
-          "bearbell - 곰방울",
-          "理由で解く 柔道整復師",
-          "play_music_theory"
+          "Blueprint 4-Track",
+          "給与計算実務能力検定2級　試験対策",
+          "bearbell - 곰방울"
         ]
       },
       "unknown": {
@@ -748,9 +775,9 @@
       "count": 57,
       "percent": 81,
       "examples": [
-        "bearbell - 곰방울",
-        "理由で解く 柔道整復師",
-        "play_music_theory"
+        "Blueprint 4-Track",
+        "Sheep Esports: LoL Live Scores",
+        "給与計算実務能力検定2級　試験対策"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -759,13 +786,25 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 15,
-        "percent": 21,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "Suno 수노 - AI 음악 & 노래",
           "Bevnap: Cocktail Recipes",
           "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
           "지구를 건너 - 디데이 위젯",
-          "詐欺対策 by NTTタウンページ",
+          "詐欺対策 by NTTタウンページ"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "Sheep Esports: LoL Live Scores",
+          "setlog",
+          "Bloom: Monitor Breast Health",
+          "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
           "유니브 AI - 강의 녹음·PDF 요약·퀴즈"
         ]
       },
@@ -782,39 +821,27 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "Bloom: Monitor Breast Health",
-          "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
-          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-          "플로우 - AI 가계부",
-          "Sync: Plan & Actual"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "Pocket FM: Audio Dramas",
-          "VibeShort: AI Short Dramas",
-          "Both: 듀얼 카메라",
-          "Linkex - 写真・動画バックアップ",
-          "네몽 - 카드뉴스 캐러셀"
-        ]
-      },
-      {
         "tech": "social",
         "count": 7,
         "percent": 10,
         "apps": [
+          "Undersong",
           "Bevnap: Cocktail Recipes",
           "사우너 - 사우나 기록 & 심박수",
           "Yours - 마음이 담긴 손편지",
-          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-          "아파트아이 - 아파트 생활 필수 앱"
+          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Vigloo 비글루 - 숏드라마",
+          "Pocket FM: Audio Dramas",
+          "VibeShort: AI Short Dramas",
+          "Both: 듀얼 카메라",
+          "Linkex - 写真・動画バックアップ"
         ]
       },
       {
@@ -828,44 +855,47 @@
       },
       {
         "tech": "fintech",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "AHEALTH - formerly MoneyWalk",
-          "에이블리 - 초개인화 AI 쇼핑"
-        ]
-      },
-      {
-        "tech": "subscription",
         "count": 1,
         "percent": 1,
         "apps": [
-          "DealSeek: Coupons & Discounts"
+          "AHEALTH - formerly MoneyWalk"
         ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 15,
-      "percent": 21,
+      "count": 14,
+      "percent": 20,
       "apps": [
+        "Suno 수노 - AI 음악 & 노래",
         "Bevnap: Cocktail Recipes",
         "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
         "지구를 건너 - 디데이 위젯",
-        "詐欺対策 by NTTタウンページ",
-        "유니브 AI - 강의 녹음·PDF 요약·퀴즈"
+        "詐欺対策 by NTTタウンページ"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 15,
-        "percent": 21,
+        "count": 14,
+        "percent": 20,
         "apps": [
+          "Suno 수노 - AI 음악 & 노래",
           "Bevnap: Cocktail Recipes",
           "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
           "지구를 건너 - 디데이 위젯",
-          "詐欺対策 by NTTタウンページ",
+          "詐欺対策 by NTTタウンページ"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "Sheep Esports: LoL Live Scores",
+          "setlog",
+          "Bloom: Monitor Breast Health",
+          "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
           "유니브 AI - 강의 녹음·PDF 요약·퀴즈"
         ]
       },
@@ -882,39 +912,27 @@
         ]
       },
       {
-        "tech": "productivity",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "Bloom: Monitor Breast Health",
-          "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
-          "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
-          "플로우 - AI 가계부",
-          "Sync: Plan & Actual"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 8,
-        "percent": 11,
-        "apps": [
-          "Pocket FM: Audio Dramas",
-          "VibeShort: AI Short Dramas",
-          "Both: 듀얼 카메라",
-          "Linkex - 写真・動画バックアップ",
-          "네몽 - 카드뉴스 캐러셀"
-        ]
-      },
-      {
         "tech": "social",
         "count": 7,
         "percent": 10,
         "apps": [
+          "Undersong",
           "Bevnap: Cocktail Recipes",
           "사우너 - 사우나 기록 & 심박수",
           "Yours - 마음이 담긴 손편지",
-          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-          "아파트아이 - 아파트 생활 필수 앱"
+          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Vigloo 비글루 - 숏드라마",
+          "Pocket FM: Audio Dramas",
+          "VibeShort: AI Short Dramas",
+          "Both: 듀얼 카메라",
+          "Linkex - 写真・動画バックアップ"
         ]
       }
     ]
@@ -926,6 +944,34 @@
       "description": "300% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Health and Fitness"
+    },
+    {
+      "type": "rising_category",
+      "title": "Sports 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Sports"
+    },
+    {
+      "type": "rising_category",
+      "title": "Music and Creativity 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Music and Creativity"
+    },
+    {
+      "type": "rising_category",
+      "title": "Fashion Shopping 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Fashion Shopping"
+    },
+    {
+      "type": "rising_category",
+      "title": "Music and Karaoke 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Music and Karaoke"
     },
     {
       "type": "rising_category",
@@ -961,13 +1007,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Travel & Connectivity"
-    },
-    {
-      "type": "rising_category",
-      "title": "Social Networking 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social Networking"
     },
     {
       "type": "rising_category",
@@ -1033,27 +1072,28 @@
       "category": "Streaming Entertainment"
     },
     {
-      "type": "tech_trend",
-      "title": "AI 기능 통합 트렌드",
-      "description": "21%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "type": "rising_category",
+      "title": "Productivity 카테고리 급부상",
+      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "tech": "ai"
+      "category": "Productivity"
     }
   ],
   "insight": {
-    "trend_summary": "헬스케어 카테고리가 300% 급상승하며 가장 뜨거운 시장으로 부상했고, AI 기능 통합이 21%의 앱에서 확인되며 기술 트렌드를 주도하고 있습니다. '1인개발가능' 키워드가 37회로 높은 관심을 받고 있어 인디 개발자에게 우호적인 시장 분위기가 형성되고 있습니다.",
+    "trend_summary": "헬스&피트니스 카테고리가 400% 급등하며 웰니스 앱 수요가 폭발적으로 증가하고 있다. AI와 구독 모델의 결합이 주류로 자리잡으며, 1인 개발 가능한 B2C 앱에 대한 관심이 압도적으로 높다. 경쟁이 적은 틈새 카테고리에서 AI를 활용한 생산성·헬스케어 앱의 진입 기회가 열려 있다.",
     "trend_details": [
-      "Health & Fitness 카테고리 300% 급상승, 진입 앱 수 적어 블루오션 기회 존재",
-      "AI 기능 탑재 앱이 21%로 빠르게 확산 중이며, 미적용 카테고리에서의 차별화 여지 큼",
-      "구독 모델(67%)과 프리미엄(77%) 전략이 수익화 주류로 자리잡으며 무료 앱 대비 LTV 우위 확인"
+      "Health & Fitness 카테고리 400% 급등 — 경쟁 앱 수가 적어 선점 효과 기대",
+      "AI 기술 트렌드 20% 점유, 헬스케어·생산성·크리에이터 키워드와 결합 시 시너지 극대화",
+      "구독 모델(64%)과 freemium(76%) 병행 전략이 수익화 표준으로 정착"
     ],
     "hot_categories": [
       "Health & Fitness",
-      "Finance",
-      "Food & Drink"
+      "Music",
+      "Productivity",
+      "Sports"
     ],
-    "opportunity": "헬스케어 분야에 AI 기능을 접목한 구독 기반 앱은 경쟁이 적고 성장률이 높아 인디 개발자에게 가장 유망한 진입 지점입니다.",
-    "action_item": "헬스케어 또는 피트니스 니치 문제를 하나 정의하고, AI 코칭 또는 트래킹 기능을 포함한 MVP를 구독 모델로 2주 내 프로토타이핑하세요.",
-    "weekly_theme": "AI 헬스케어 구독"
+    "opportunity": "AI를 접목한 헬스케어·피트니스 앱을 구독 모델로 출시하면, 급성장 중인 카테고리에서 낮은 경쟁 강도로 빠른 초기 트랙션을 확보할 수 있다.",
+    "action_item": "헬스케어 또는 피트니스 틈새 문제 하나를 정해 AI 기반 개인화 기능을 핵심으로 한 MVP를 freemium + 구독 구조로 2주 내 프로토타입까지 제작한다.",
+    "weekly_theme": "AI 웰니스 구독"
   }
 }
