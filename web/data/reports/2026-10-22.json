@@ -1,0 +1,681 @@
+{
+  "date": "2026-10-22",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "UMAWALK-歩いて競走馬を育てる-",
+      "developer": "Switch Media LLC",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/95/28/e195283d-ed6b-16bb-5c06-d2bdc6afc143/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/umawalk-%E6%AD%A9%E3%81%84%E3%81%A6%E7%AB%B6%E8%B5%B0%E9%A6%AC%E3%82%92%E8%82%B2%E3%81%A6%E3%82%8B/id6816302336",
+      "source_id": "bc4d6798a81104ed3fd127d5",
+      "idea_summary": "걸음수로 경주마를 육성·레이싱하는 피트니스 게임",
+      "analysis": {
+        "problem": "단순 걷기 앱은 게임적 보상 루프가 없어 장기 동기부여가 약하다 [추론]",
+        "solution": "걸음수를 경주마 성장 재화로 전환해 육성·레이싱 게임 루프와 결합 [추론]",
+        "target_user": "경마 문화에 친숙한 일본 20-40대 남성, 게임과 건강을 동시에 추구하는 사용자 [추측]",
+        "unique_point": "경마 IP와 피트니스를 결합한 일본 특화 크로스오버 포맷으로 대체재가 거의 없음 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Walkr",
+          "Pokemon GO",
+          "Habitica"
+        ],
+        "timing_reason": "웨어러블 보급 성숙과 피트니스 게임화 트렌드가 동시에 교차하는 시점 [추론]",
+        "growth_potential": "일본 경마 팬덤과 피트니스 시장 교차점에서 높은 충성도 유저 확보 기대 [추측]"
+      },
+      "business": {
+        "monetization": "말 외형·능력치 강화 IAP 및 프리미엄 레이싱 콘텐츠 [추측]",
+        "pricing_suggestion": "기본 무료, 강화 아이템 IAP 500-2000엔 구간 책정 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "5-8개월 [추론]",
+        "estimated_cost": "2000-4000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "SpriteKit 또는 Unity",
+          "Firebase"
+        ],
+        "key_features": [
+          "걸음수 실시간 동기화",
+          "말 육성 시스템",
+          "레이싱 미니게임",
+          "랭킹 시스템"
+        ],
+        "clone_tip": "HealthKit 걸음 데이터를 게임 재화로 변환하는 공식을 먼저 설계하고 SpriteKit으로 게임 루프를 붙이면 핵심 구조 완성 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#게임화피트니스",
+        "#일본시장",
+        "#IAP수익"
+      ],
+      "verdict": "경마 IP와 걷기 결합, 독창적 리텐션 루프로 장기 사용자 이탈 방지 기대",
+      "country": "jp",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "언제했지 - 마지막으로 한 날",
+      "developer": "HyunWoo Lee",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/bd/30/d0bd30a1-a540-108c-cbf7-aa890089279d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%96%B8%EC%A0%9C%ED%96%88%EC%A7%80-%EB%A7%88%EC%A7%80%EB%A7%89%EC%9C%BC%EB%A1%9C-%ED%95%9C-%EB%82%A0/id6801866888",
+      "source_id": "4c3f06083907417945acd86f",
+      "idea_summary": "반복 루틴의 마지막 수행 날짜만 단순 추적하는 앱",
+      "analysis": {
+        "problem": "정수기 필터 교체, 약 복용, 청소 등 비정기 반복 작업의 마지막 수행 시점을 기억하기 어렵다 [추론]",
+        "solution": "작업별 마지막 수행 날짜를 탭 한 번으로 기록하고 경과 시간을 직관적으로 표시 [확인]",
+        "target_user": "가사 관리자, 자기관리에 관심 있는 20-40대 직장인 [추론]",
+        "unique_point": "할일 관리가 아닌 마지막 수행 날짜 단일 개념에만 집중한 극단적 단순화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Streaks",
+          "Last Time",
+          "Done - A Daily Tracker"
+        ],
+        "timing_reason": "미니멀리즘 앱 트렌드와 1인 개발자 생산성 도구 붐이 겹친 시점 [추론]",
+        "growth_potential": "단순 유스케이스로 글로벌 확장 용이하며 위젯 추가 시 DAU 상승 여지 [추측]"
+      },
+      "business": {
+        "monetization": "항목 수 제한 해제 및 위젯 기능 프리미엄 1회 결제 [추측]",
+        "pricing_suggestion": "무료 기본, 프리미엄 영구 구매 3300-5500원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "200-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreData",
+          "WidgetKit"
+        ],
+        "key_features": [
+          "작업 추가·삭제",
+          "마지막 날짜 기록",
+          "경과일 표시",
+          "홈 화면 위젯"
+        ],
+        "clone_tip": "CoreData + WidgetKit 조합으로 1인 개발 2주 내 MVP 완성 가능, 위젯 디자인 차별화가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#미니멀앱",
+        "#B2C"
+      ],
+      "verdict": "극단적 단순화로 차별화, 2주 내 클론 가능한 이상적인 1인 개발 아이템",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "Both: 듀얼 카메라",
+      "developer": "Dongwoo Ha",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/d6/11/3fd6113b-107b-3574-5d66-e645a567e80c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/both-%EB%93%80%EC%96%BC-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6760682696",
+      "source_id": "034554cb75a2b6f22e83a46a",
+      "idea_summary": "전후면 카메라를 동시 촬영해 두 시점을 한 화면에",
+      "analysis": {
+        "problem": "리액션 촬영과 여행 동행 기록 시 두 시점을 동시에 담는 것이 기본 카메라 앱으로 불가능하다 [추론]",
+        "solution": "iOS AVCaptureMultiCamSession으로 전면·후면 카메라를 동시 구동해 PIP 또는 분할 화면으로 저장 [추론]",
+        "target_user": "숏폼 리액션 콘텐츠를 제작하는 유튜버·틱토커·MZ 세대 SNS 이용자 [추론]",
+        "unique_point": "멀티 카메라 단일 목적 앱으로 기본 카메라 앱이 제공하지 않는 동시 촬영에 집중 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Duel Camera",
+          "Filmic Pro",
+          "Camera+"
+        ],
+        "timing_reason": "숏폼 리액션 콘텐츠 포맷이 폭발적으로 성장해 양방향 동시 촬영 수요 급증 [추론]",
+        "growth_potential": "글로벌 크리에이터 시장 확대와 함께 지속 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "고화질 저장·편집 기능 프리미엄 구독 또는 1회 구매 [추측]",
+        "pricing_suggestion": "무료 기본, 프리미엄 영구 구매 9900원 또는 월 구독 2200원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Metal",
+          "CoreImage"
+        ],
+        "key_features": [
+          "전후면 동시 캡처",
+          "PIP 레이아웃 조정",
+          "실시간 프리뷰",
+          "영상 저장"
+        ],
+        "clone_tip": "AVCaptureMultiCamSession은 iPhone XS 이상 전용, 분할 화면 비율 조절 UI만 차별화해도 신규 앱 성립 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#크리에이터도구",
+        "#카메라앱",
+        "#숏폼"
+      ],
+      "verdict": "리액션 콘텐츠 트렌드에 정확히 대응, 크리에이터 특화 기능 추가 시 성장 가속",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+      "developer": "Nuncha",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/a5/b0/2da5b091-0a58-3851-1e52-a98ddf244c06/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/shutterfinder-%EB%B9%9B-%EA%B9%9C%EB%B9%A1%EC%9E%84-%ED%94%8C%EB%A6%AC%EC%BB%A4-%EC%B8%A1%EC%A0%95%EA%B8%B0/id6760565737",
+      "source_id": "05884698bb3bfc235a2a1030",
+      "idea_summary": "조명 플리커를 실시간 측정해 최적 셔터스피드 추천",
+      "analysis": {
+        "problem": "형광등·LED 조명 아래 촬영 시 빛 깜빡임으로 영상에 밴딩(줄무늬) 현상이 발생한다 [확인]",
+        "solution": "카메라 센서로 광원 플리커 주파수를 FFT 분석해 실시간 측정하고 안전 셔터스피드 추천 [추론]",
+        "target_user": "사진작가, 영상 PD, 유튜버, 현장 조명 담당자 등 촬영 전문가 [추론]",
+        "unique_point": "플리커 측정 단일 기능에 집중한 전문 측정 도구로 직접 경쟁 앱이 거의 없음 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Flicker Free",
+          "일반 노출계 앱"
+        ],
+        "timing_reason": "LED 조명 급속 보급으로 플리커 문제가 증가하고 동영상 촬영 인구가 폭발적으로 늘어난 시점 [추론]",
+        "growth_potential": "전문 촬영 시장은 소규모이나 충성도 높은 유료 전환율 기대 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 직접 판매 또는 고급 분석 기능 IAP [추측]",
+        "pricing_suggestion": "단일 유료 앱 4400-8800원 책정 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-3개월 [추론]",
+        "estimated_cost": "300-800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Accelerate(FFT)",
+          "CoreImage"
+        ],
+        "key_features": [
+          "카메라 프레임 밝기 분석",
+          "FFT 주파수 검출",
+          "플리커 Hz 표시",
+          "셔터스피드 추천"
+        ],
+        "clone_tip": "AVCaptureVideoOutput 프레임에 Accelerate 프레임워크 FFT 적용으로 밝기 주기 고속 분석 가능, 수학 공식은 공개 논문에서 참고 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 6.8
+      },
+      "tags": [
+        "#틈새시장",
+        "#촬영전문가",
+        "#1인개발가능"
+      ],
+      "verdict": "경쟁 없는 초틈새 블루오션, 시장 규모 제한적이나 전문가 유료 전환율 높음",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "크레페",
+      "developer": "COOKIEPLACE Inc.",
+      "category": "Graphics & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/4e/d0/584ed053-06df-b233-94a4-0bf42b6f8606/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%81%AC%EB%A0%88%ED%8E%98/id6753073065",
+      "source_id": "e3f45be5e3c3482cd595851f",
+      "idea_summary": "감성 비주얼 아트 제작·공유 크리에이티브 디자인 앱",
+      "analysis": {
+        "problem": "일반 사용자가 전문 디자인 도구 없이 감각적인 비주얼 콘텐츠를 제작하기 어렵다 [추론]",
+        "solution": "레이어·스티커·텍스트 조합으로 비전문가도 완성도 높은 그래픽을 직관적으로 제작 [추론]",
+        "target_user": "SNS 콘텐츠 제작에 관심 있는 한국 10-30대 여성 크리에이터 [추측]",
+        "unique_point": "COOKIEPLACE 감성 디자인 자산과 한국 미감 특화 템플릿으로 Canva 대비 차별화 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Canva",
+          "PicsArt",
+          "Adobe Express"
+        ],
+        "timing_reason": "숏폼 콘텐츠 붐으로 개인 비주얼 창작 수요가 지속 성장 중 [추론]",
+        "growth_potential": "감성 템플릿 지속 업데이트와 소셜 공유 기능으로 충성 커뮤니티 형성 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 템플릿·스티커 팩 IAP 또는 월 구독 [추측]",
+        "pricing_suggestion": "무료 기본, 월 구독 3300원 또는 아이템 개별 구매 990-3300원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "2000-5000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreGraphics",
+          "Metal"
+        ],
+        "key_features": [
+          "레이어 편집",
+          "텍스트 스타일링",
+          "스티커 팩",
+          "소셜 공유"
+        ],
+        "clone_tip": "CoreGraphics 직접 구현으로 퍼포먼스 확보, 감성 템플릿 큐레이션 퀄리티가 기술 역량보다 성패에 더 중요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#크리에이터",
+        "#디자인툴",
+        "#B2C"
+      ],
+      "verdict": "Canva와 경쟁 치열하나 한국 감성 특화 틈새로 충성 유저 형성 가능",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Whatnot: Shop, Sell, Connect",
+      "developer": "Whatnot Inc.",
+      "category": "Live Commerce & Social Shopping",
+      "icon": "https://play-lh.googleusercontent.com/wEQOqpC90lbIWelqnb2fXpU-84meB6VUpYe4fNLX3EUg6QGTtYGLFS-LZzcjs7WUvn4HScPbgwO7vfVp3uogPA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.whatnot_mobile",
+      "source_id": "c4fb923134efe732b57c92de",
+      "idea_summary": "라이브 경매 기반 소셜 쇼핑 커뮤니티 플랫폼",
+      "analysis": {
+        "problem": "수집품·빈티지 제품 거래 시 가격 투명성 부족과 커뮤니티 신뢰가 낮다 [추론]",
+        "solution": "라이브 스트리밍 경매로 실시간 가격 결정과 커뮤니티 상호작용을 동시에 제공 [확인]",
+        "target_user": "수집품·트레이딩카드·빈티지 의류에 관심 있는 18-35세 미국 사용자 [추론]",
+        "unique_point": "라이브 경매와 커뮤니티 신뢰 시스템 결합으로 eBay를 소셜화한 차별화 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "eBay",
+          "StockX",
+          "NTWRK",
+          "Poshmark"
+        ],
+        "timing_reason": "라이브 커머스가 아시아에서 서구권으로 본격 확산 중이며 수집품 시장 붐이 지속 [추론]",
+        "growth_potential": "수집품 카테고리 확장 및 글로벌 진출로 대형 플랫폼 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "판매 거래 수수료 8-12% [추론]",
+        "pricing_suggestion": "플랫폼 수수료 모델 유지, 판매자 프리미엄 구독 노출 기능 추가 가능 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "8-18개월 [추론]",
+        "estimated_cost": "5000만원-2억원 이상 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "WebRTC 또는 Agora SDK",
+          "Stripe",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간 경매 시스템",
+          "라이브 스트리밍",
+          "결제 연동",
+          "판매자 평점 시스템"
+        ],
+        "clone_tip": "Agora SDK로 라이브 스트리밍 구현, Firebase Realtime DB로 경매 입찰 로직 MVP 구성 가능하나 사기 방지 신뢰 시스템이 장기 성공의 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.8
+      },
+      "tags": [
+        "#라이브커머스",
+        "#플랫폼비즈니스",
+        "#미국시장"
+      ],
+      "verdict": "라이브 경매 커머스 선점자, 높은 기술 장벽이지만 성공 시 대형 플랫폼 성장 가능",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+      "developer": "NBT Inc.",
+      "category": "Shopping & Price Comparison",
+      "icon": "https://play-lh.googleusercontent.com/6Ck4Kj05cPdj_1yN59roAEVjysBRBKaeDjcs9YANt4V2PULD0UGQQVBT7myxJcNSc2i-3USNe5RhixR8epSY",
+      "app_url": "https://play.google.com/store/apps/details?id=today.chips",
+      "source_id": "ef4ac1dfc4dc802caf0b79f8",
+      "idea_summary": "최저가 알림·비교·캐시백을 한 앱에서 제공하는 쇼핑 도우미",
+      "analysis": {
+        "problem": "원하는 상품 가격이 언제 내릴지 모르고 여러 쇼핑몰 가격 비교가 번거롭다 [추론]",
+        "solution": "상품 저장 시 가격 하락 알림, 다중 쇼핑몰 가격 비교, 캐시백 연동을 단일 앱에서 해결 [추론]",
+        "target_user": "가격에 민감한 20-40대 온라인 쇼핑 이용자 [추론]",
+        "unique_point": "가격 추적·비교·캐시백을 단일 앱에서 처리하는 올인원 쇼핑 어시스턴트 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "에누리",
+          "다나와",
+          "Honey",
+          "꿀딜"
+        ],
+        "timing_reason": "쿠팡·네이버 외 다채널 쇼핑 확산으로 가격 비교 수요가 지속 증가 [추론]",
+        "growth_potential": "제휴 커머스 확대와 개인화 추천으로 수익 확장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "제휴 CPA 커미션 및 캐시백 스프레드 [추론]",
+        "pricing_suggestion": "완전 무료 앱으로 사용자 확보 후 제휴 수익 모델로 운영 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "1000-3000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Python(가격 크롤링)",
+          "Firebase",
+          "Retrofit"
+        ],
+        "key_features": [
+          "상품 URL 저장",
+          "가격 히스토리 추적",
+          "가격 하락 푸시 알림",
+          "캐시백 연동"
+        ],
+        "clone_tip": "쇼핑몰 공식 파트너 API 또는 CJ제휴·링크프라이스 연동으로 합법적 가격 데이터 확보가 법적 안전의 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#쇼핑앱",
+        "#제휴수익",
+        "#B2C"
+      ],
+      "verdict": "검증된 수익 모델이나 국내 경쟁 치열, 특정 카테고리 버티컬 진입 전략 추천",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "Weather Tone",
+      "developer": "TrueMe Global",
+      "category": "Weather & Personalization",
+      "icon": "https://play-lh.googleusercontent.com/STUB5zrN4omIMW53i_O7eIJIbrDQ3H23vm-oAFoIy2UzsCNe8PzgRU2s03xQc6U8Ebrkb8CL5jU13m6kV8ZK",
+      "app_url": "https://play.google.com/store/apps/details?id=com.weathertone.weteforecast",
+      "source_id": "eb0009342a27f2663c9bb4a8",
+      "idea_summary": "날씨를 감정 톤과 무드로 표현하는 감성 날씨 앱",
+      "analysis": {
+        "problem": "기존 날씨 앱은 수치와 아이콘 나열로 날씨의 감각적 분위기를 전달하지 못한다 [추론]",
+        "solution": "날씨 데이터를 무드·컬러 톤·분위기 비주얼로 변환해 감성적이고 직관적으로 전달 [추론]",
+        "target_user": "감성적 UI에 반응하는 10-30대 여성, 에스테틱 라이프스타일 앱 애호가 [추측]",
+        "unique_point": "날씨 정보를 감정적 경험으로 재해석한 에스테틱 우선 날씨 앱으로 기능보다 감성 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Weather Channel",
+          "AccuWeather",
+          "Carrot Weather"
+        ],
+        "timing_reason": "감성 앱 트렌드와 개인화 경험 수요 증가로 에스테틱 날씨 앱 시장이 서서히 형성 중 [추측]",
+        "growth_potential": "위젯 커스터마이징과 감성 테마 판매로 소규모 충성 커뮤니티 형성 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 무드 테마 팩 IAP 및 광고 제거 구독 [추측]",
+        "pricing_suggestion": "무료 기본, 프리미엄 테마 팩 개당 1100-2200원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "500-1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "OpenWeatherMap API",
+          "Lottie",
+          "Jetpack Compose"
+        ],
+        "key_features": [
+          "날씨 무드 변환 로직",
+          "감성 애니메이션",
+          "컬러 테마 시스템",
+          "홈 위젯"
+        ],
+        "clone_tip": "OpenWeatherMap 무료 API + Lottie 애니메이션으로 빠르게 MVP 구현, 기술보다 디자인 감각이 경쟁력의 90% [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#감성앱",
+        "#날씨",
+        "#1인개발가능"
+      ],
+      "verdict": "기술 난이도 낮고 디자인 차별화 가능, 1인 개발자에게 추천하는 감성 도구",
+      "country": "jp"
+    },
+    {
+      "rank": 4,
+      "name": "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
+      "developer": "weather screen team",
+      "category": "Weather",
+      "icon": "https://play-lh.googleusercontent.com/FzdeDoyMQKnkZWeZQ79yJslXc9RTEHbiXEU8SEV8-l1v4vIuqrle58Efe7efo8gdeluJRgseK5IvaUkt26PnUw",
+      "app_url": "https://play.google.com/store/apps/details?id=weather.forecast.rain.radar",
+      "source_id": "8e93bbf3e004fc4b55fd9916",
+      "idea_summary": "미세먼지·강수예보 특화 한국형 첫화면 날씨 앱",
+      "analysis": {
+        "problem": "한국 사용자는 미세먼지·강수·자외선 등 복합 날씨 정보를 첫눈에 파악하고 싶으나 기존 앱이 이를 충족 못한다 [추론]",
+        "solution": "미세먼지 농도, 강수 레이더, 시간별 예보를 첫 화면에 집약해 직관적으로 제공 [추론]",
+        "target_user": "미세먼지 민감 한국 사용자, 야외 활동이 많은 30-50대 [추론]",
+        "unique_point": "한국 공공 기상·에어코리아 API 특화 연동과 미세먼지 중심 UX 설계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기상청 앱",
+          "날씨야",
+          "애플 날씨"
+        ],
+        "timing_reason": "한국 미세먼지 문제 만성화로 상시 날씨 체크 수요가 안정적으로 유지 [추론]",
+        "growth_potential": "홈 위젯 다변화와 맞춤 알림으로 DAU 지속 성장 여지 [추론]"
+      },
+      "business": {
+        "monetization": "배너 광고 및 광고 제거 프리미엄 구독 [추측]",
+        "pricing_suggestion": "무료+광고 기본, 광고 제거 월 990원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "500-1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "기상청 오픈API",
+          "에어코리아 API",
+          "Retrofit",
+          "MPAndroidChart"
+        ],
+        "key_features": [
+          "실시간 미세먼지 수치",
+          "강수 레이더",
+          "시간별 예보",
+          "홈 위젯"
+        ],
+        "clone_tip": "기상청 오픈API와 에어코리아 API 모두 무료 사용 가능, 국내 사용자 UX에 집중하면 충분히 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#한국특화",
+        "#날씨앱",
+        "#광고수익"
+      ],
+      "verdict": "한국 미세먼지 수요 기반 안정적 사용자 확보, 광고 모델로 수익화 용이한 검증 아이템",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "TimeCue – Reminders & Alerts",
+      "developer": "Classified Prime LLc",
+      "category": "Productivity & Reminders",
+      "icon": "https://play-lh.googleusercontent.com/DBzI0zfKQTekEJMXZsIP4iZZ9uGXD4s4gB4EkAiCAKgMCLICgJcMyoVNWCCqiFd-3mZ-Yc8IF5_1M5ZvalAmzA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.reminder.alert.timecue",
+      "source_id": "a10dae15d078462ef518139f",
+      "idea_summary": "유연한 반복 패턴과 카테고리 분류를 갖춘 스마트 리마인더",
+      "analysis": {
+        "problem": "기본 알람 앱은 정해진 시간 단순 알림만 지원해 유연한 반복 패턴과 컨텍스트 알림이 어렵다 [추론]",
+        "solution": "사용자 정의 반복 패턴, 카테고리별 알림 분류, 다중 알림 동시 관리를 제공 [추론]",
+        "target_user": "복약 관리, 업무 마감, 루틴 관리가 필요한 20-50대 직장인·학생 [추론]",
+        "unique_point": "유연한 반복 패턴과 카테고리 분류가 결합된 단순 인터페이스의 리마인더 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Google Keep 리마인더",
+          "Todoist",
+          "Any.do"
+        ],
+        "timing_reason": "생산성 앱 시장 지속 성장과 개인 루틴 관리 수요 꾸준히 증가 [추론]",
+        "growth_potential": "스마트워치 연동과 위젯 강화로 일상 필수 앱 포지션 가능 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 또는 광고 제거 1회 구매 [추측]",
+        "pricing_suggestion": "무료 기본, 프리미엄 월 1100원 또는 연 6600원 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-3개월 [추론]",
+        "estimated_cost": "300-800만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room DB",
+          "WorkManager",
+          "Jetpack Compose"
+        ],
+        "key_features": [
+          "커스텀 반복 알림",
+          "카테고리 분류",
+          "알림 스누즈",
+          "홈 위젯"
+        ],
+        "clone_tip": "Android WorkManager로 정확한 알림 스케줄링 구현, Room DB로 알림 데이터 관리, 1인 개발 2-4주 MVP 완성 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#생산성",
+        "#리마인더"
+      ],
+      "verdict": "경쟁 많은 시장이나 단순 구현으로 빠른 출시 가능, 복약·루틴 등 틈새 타겟 필요",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정 앱들은 기존 카테고리를 비틀거나 단일 기능에 집중하는 두 가지 전략으로 차별화에 성공했다. 피트니스 게임화(UMAWALK), 초단순 생산성(When Did I Do It?), 감성 날씨 재해석(Weather Tone) 등 대형 플랫폼이 놓친 좁은 틈새를 1인 개발자가 공략하는 흐름이 뚜렷하다.",
+    "trend_details": [
+      "피트니스와 게임의 크로스오버 가속: 걸음수를 게임 재화로 전환하는 메카닉이 장기 리텐션에 효과적임이 UMAWALK 등 복수 사례로 입증되고 있다",
+      "기능 단순화 역설: 복잡한 할일 관리 앱이 아닌 마지막으로 한 날 하나만 추적하는 극단적 단순함이 오히려 강한 유저 호응을 얻는 미니멀리즘 트렌드 지속",
+      "라이브 커머스 서구권 확산: 아시아에서 검증된 라이브 경매 커머스가 Whatnot을 통해 미국 수집품 시장에 성공적으로 현지화되는 단계",
+      "성숙 카테고리 감성 재해석: 날씨처럼 포화된 카테고리에서도 UI와 감성을 재해석하면 신규 진입이 가능함을 Weather Tone이 보여줌",
+      "크리에이터 특화 도구 세분화: 전후면 동시 촬영(Both Camera), 플리커 측정(ShutterFinder) 등 숏폼 크리에이터의 구체적 페인포인트를 해결하는 초특화 카메라 도구 증가"
+    ],
+    "hot_categories": [
+      "Health & Fitness (게임화)",
+      "Photo & Video (크리에이터 특화)",
+      "Live Commerce",
+      "Minimal Productivity",
+      "Weather (감성화)"
+    ],
+    "opportunity": "1인 개발자에게 가장 매력적인 기회는 When Did I Do It? 스타일의 단일 개념 생산성 앱 — 개발 기간 2-4주, 글로벌 출시 가능, 차별화는 아이디어 하나로 충분하며 WidgetKit 연동 시 DAU 급상승 가능",
+    "action_item": "본인의 일상 불편 중 날짜·시간 추적이 필요한 유스케이스 하나를 찾아 이번 주 SwiftUI 또는 Jetpack Compose로 단일 기능 MVP를 만들어 App Store에 제출해볼 것"
+  },
+  "data_status": {}
+}
