@@ -1,0 +1,690 @@
+{
+  "date": "2026-10-23",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "뭉게 - 텍스트로 스토리 꾸미기",
+      "developer": "Stacklog Lab",
+      "category": "Photo & Video",
+      "source_id": "36704aa914c47cc6166339c2",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/c7/5b/52c75ba6-37cb-e8c4-124b-60c5793ac178/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%AD%89%EA%B2%8C-%ED%85%8D%EC%8A%A4%ED%8A%B8%EB%A1%9C-%EC%8A%A4%ED%86%A0%EB%A6%AC-%EA%BE%B8%EB%AF%B8%EA%B8%B0/id6811491086",
+      "idea_summary": "사진에 감성 텍스트를 더해 SNS 스토리를 꾸미는 앱",
+      "analysis": {
+        "problem": "인스타그램·틱톡 기본 텍스트 도구는 스타일 옵션이 매우 제한적임 [추론]",
+        "solution": "다양한 폰트·레이아웃·색상으로 사진 위 텍스트를 자유롭게 커스터마이즈 [확인]",
+        "target_user": "SNS를 활발히 사용하는 10~30대 크리에이터 및 일반 사용자 [추론]",
+        "unique_point": "텍스트 스타일링 특화 스토리 제작 도구로 범용 편집 앱 대비 집중된 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Unfold",
+          "Canva",
+          "Over"
+        ],
+        "timing_reason": "숏폼 콘텐츠와 비주얼 SNS 사용이 급증하는 트렌드와 맞물림 [추론]",
+        "growth_potential": "크리에이터 경제 성장과 함께 글로벌 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 폰트·스티커 팩 인앱결제 또는 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 팩 월 3~5달러 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~4개월 [추론]",
+        "estimated_cost": "500~800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Text",
+          "Core Image",
+          "UIKit"
+        ],
+        "key_features": [
+          "텍스트 레이아웃 편집기",
+          "폰트 라이브러리",
+          "사진 레이어 편집",
+          "소셜 공유"
+        ],
+        "clone_tip": "Core Text 기반 텍스트 렌더링으로 커스터마이즈 자유도를 높이고 폰트 번들은 오픈소스 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#크리에이터툴",
+        "#SNS"
+      ],
+      "verdict": "SNS 감성 콘텐츠 수요와 맞는 가볍고 클론하기 좋은 앱",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "Run Receipt",
+      "developer": "冀 黄",
+      "category": "Health & Fitness",
+      "source_id": "c377f3674298278ff4430078",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8c/0a/be/8c0abec6-6447-df6f-3fcb-7b15a7a630ef/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/run-receipt/id6759910078",
+      "idea_summary": "러닝 기록을 영수증 스타일로 시각화해 SNS에 공유하는 앱",
+      "analysis": {
+        "problem": "기존 러닝 앱 기록 화면이 단조로워 SNS 공유 욕구를 충분히 자극하지 못함 [추론]",
+        "solution": "운동 데이터를 영수증 디자인으로 변환해 감성적으로 기록하고 공유 가능 [추론]",
+        "target_user": "러닝을 즐기며 SNS에 일상을 공유하는 20~40대 [추론]",
+        "unique_point": "운동 데이터를 영수증 스타일로 재해석한 독창적 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Nike Run Club",
+          "Strava",
+          "Runkeeper"
+        ],
+        "timing_reason": "레트로 감성과 SNS 기록 문화가 동시에 유행하는 시기 [추론]",
+        "growth_potential": "러닝 인구 증가와 SNS 공유 문화 결합으로 바이럴 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 영수증 템플릿·테마 팩 인앱결제 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 팩 1~3달러 1회성 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "Core Graphics",
+          "UIKit"
+        ],
+        "key_features": [
+          "GPS 러닝 트래킹",
+          "영수증 디자인 생성기",
+          "HealthKit 연동",
+          "소셜 공유"
+        ],
+        "clone_tip": "HealthKit으로 데이터 수집하고 Core Graphics로 영수증 레이아웃 렌더링이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#피트니스",
+        "#SNS공유"
+      ],
+      "verdict": "레트로 감성과 러닝 문화 결합, 바이럴 잠재력 높은 틈새 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "Peekie:AI 스토리 & 추리 게임",
+      "developer": "Intelli Future INC",
+      "category": "Entertainment",
+      "source_id": "66edf9ed9f86e2661c6ddcad",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/9f/ec/9c9feca2-ec9e-d859-d9c3-03708e77a985/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/peekie-ai-%EC%8A%A4%ED%86%A0%EB%A6%AC-%EC%B6%94%EB%A6%AC-%EA%B2%8C%EC%9E%84/id6792978953",
+      "idea_summary": "AI가 실시간 생성하는 인터랙티브 추리·미스터리 스토리 게임",
+      "analysis": {
+        "problem": "기존 추리 게임은 고정된 스토리로 반복 플레이 가치가 낮음 [추론]",
+        "solution": "AI가 동적으로 스토리를 생성하고 사용자 선택에 반응하는 추리 게임 제공 [확인]",
+        "target_user": "추리·미스터리 장르를 좋아하는 10~30대 모바일 게임 유저 [추론]",
+        "unique_point": "매번 다른 AI 생성 스토리로 무한 재플레이 가치를 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "AI Dungeon",
+          "Detective Case Files",
+          "Her Story"
+        ],
+        "timing_reason": "생성형 AI 콘텐츠 소비가 폭발적으로 증가하는 시기 [추론]",
+        "growth_potential": "AI 스토리텔링 게임 시장 초기 단계로 선점 효과 기대 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일일 스토리 횟수 제한 후 구독 또는 크레딧 인앱결제 [추론]",
+        "pricing_suggestion": "월 4~8달러 구독 또는 크레딧 팩 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "800~1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "OpenAI API",
+          "Firebase",
+          "Core Data"
+        ],
+        "key_features": [
+          "AI 스토리 생성",
+          "선택지 기반 내러티브 분기",
+          "추리 퍼즐 시스템",
+          "진행도 저장"
+        ],
+        "clone_tip": "LLM API로 스토리 생성하고 선택지 분기는 트리 구조로 관리하면 확장 용이 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#게임",
+        "#스토리텔링"
+      ],
+      "verdict": "AI 스토리 게임 트렌드를 타는 앱, LLM API 비용 관리가 관건",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "WordScreen - 켜자마자 영어 공부 ON",
+      "developer": "Cheol Kim",
+      "category": "Productivity",
+      "source_id": "e625c43092e3d76c708d38a3",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a6/2d/09/a62d09dc-945c-53fe-ebce-8d65a789eabf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/wordscreen-%EC%BC%9C%EC%9E%90%EB%A7%88%EC%9E%90-%EC%98%81%EC%96%B4-%EA%B3%B5%EB%B6%80-on/id6781601630",
+      "idea_summary": "잠금 해제할 때마다 영어 단어를 자동 노출하는 수동 학습 앱",
+      "analysis": {
+        "problem": "영어 단어 학습에 별도 시간을 내기 어렵고 꾸준한 습관 형성이 힘듦 [추론]",
+        "solution": "기기 잠금 해제 시 영어 단어를 자동 표시해 유휴 시간을 학습으로 전환 [추론]",
+        "target_user": "영어 공부를 원하지만 시간이 부족한 한국 학생 및 직장인 [추론]",
+        "unique_point": "잠금 화면이라는 유휴 시간을 학습 공간으로 전환하는 마이크로러닝 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Anki",
+          "Memrise"
+        ],
+        "timing_reason": "마이크로러닝과 습관 형성 앱이 주목받는 시기 [추론]",
+        "growth_potential": "한국 외 글로벌 언어 학습자 대상으로 다국어 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 제거 또는 추가 언어 팩 인앱결제, 월구독 [추론]",
+        "pricing_suggestion": "기본 무료(광고 포함), 프리미엄 월 2~4달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WidgetKit",
+          "UserNotifications",
+          "Core Data"
+        ],
+        "key_features": [
+          "잠금화면 위젯",
+          "단어 데이터베이스",
+          "학습 진도 추적",
+          "간격 반복 알고리즘"
+        ],
+        "clone_tip": "iOS 16+ WidgetKit으로 잠금화면 위젯 구현, 단어 DB는 오픈소스 Wiktionary 데이터 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#마이크로러닝"
+      ],
+      "verdict": "낮은 개발 난이도에 높은 필요성, 한국 인디 개발자가 클론하기 최적",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "Deck-Man: Cassette Player",
+      "developer": "Squircle Apps LLP",
+      "category": "Music",
+      "source_id": "cc6298e036a32848a124e152",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/b9/14/8fb9148a-6c3a-446f-8c2b-9a6f129cc013/deck-man-icon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/deck-man-cassette-player/id6817070335",
+      "idea_summary": "카세트 플레이어 UI로 음악을 감상하는 레트로 뮤직 앱",
+      "analysis": {
+        "problem": "디지털 음악 스트리밍에서 아날로그 카세트 경험의 향수를 재현하기 어려움 [추론]",
+        "solution": "카세트 플레이어의 물리적 조작감을 시뮬레이션하는 레트로 UI 음악 앱 [확인]",
+        "target_user": "레트로 문화를 좋아하는 20~40대 및 아날로그 감성을 추구하는 음악 애호가 [추론]",
+        "unique_point": "실제 카세트 조작 경험을 재현한 몰입형 레트로 인터페이스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Capo",
+          "Vinyls",
+          "Retro Music Player"
+        ],
+        "timing_reason": "Y2K·레트로 트렌드가 MZ세대에게 강하게 부활 중인 시기 [추론]",
+        "growth_potential": "레트로 감성 소비 트렌드 지속 및 굿즈·콜라보 확장 가능성 존재 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 카세트 스킨 팩 1회 구매 또는 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 스킨 팩 2~5달러 1회 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Core Animation",
+          "SceneKit"
+        ],
+        "key_features": [
+          "카세트 릴 회전 애니메이션",
+          "로컬 음악 재생",
+          "EQ 설정",
+          "스킨 커스터마이즈"
+        ],
+        "clone_tip": "Core Animation으로 카세트 릴 회전 구현, AVFoundation으로 로컬 음악 연동하면 1인 개발 충분 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 2,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#레트로",
+        "#뮤직"
+      ],
+      "verdict": "레트로 감성 니치 마켓 겨냥, 수익성보다 바이럴 잠재력에 기대하는 앱",
+      "country": "jp"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+      "developer": "Fallcent",
+      "category": "Shopping",
+      "source_id": "1aee67569461c5d758ca8917",
+      "icon": "https://play-lh.googleusercontent.com/PtB6uKLbszcI6wg2-lRxn4Yr6JBPFe52MF3gN87xsuyPm14s3mUzITjgpQC02VrdgE4P6NscNe9ZYazuql4_QQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.deaguowl.fallcent",
+      "idea_summary": "상품 가격 변동 추적 및 최저가 알림 전문 쇼핑 도우미",
+      "analysis": {
+        "problem": "온라인 쇼핑 시 최저가 타이밍을 놓치는 경우가 빈번함 [추론]",
+        "solution": "원하는 상품의 가격 변동을 추적하고 최저가 도달 시 즉시 알림 발송 [추론]",
+        "target_user": "온라인 쇼핑을 자주 하며 절약을 중시하는 20~40대 소비자 [추론]",
+        "unique_point": "단순하고 직관적인 UI에 집중한 경량 가격 추적 전문 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey",
+          "CamelCamelCamel",
+          "ShopSavvy"
+        ],
+        "timing_reason": "경기 침체와 물가 상승으로 가격 비교 수요가 증가하는 시기 [추론]",
+        "growth_potential": "글로벌 이커머스 플랫폼과 제휴 확대 시 수익화 가속 가능 [추론]"
+      },
+      "business": {
+        "monetization": "어필리에이트 커미션 및 프리미엄 알림 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 기능 월 2~4달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~4개월 [추론]",
+        "estimated_cost": "500~800만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Retrofit",
+          "Firebase",
+          "WorkManager"
+        ],
+        "key_features": [
+          "가격 크롤링 엔진",
+          "가격 변동 히스토리 그래프",
+          "푸시 알림",
+          "위시리스트 관리"
+        ],
+        "clone_tip": "WorkManager로 백그라운드 가격 크롤링 구현, 쇼핑몰 robots.txt 및 이용약관 확인 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#쇼핑",
+        "#절약"
+      ],
+      "verdict": "타이밍과 필요성이 높은 앱, 어필리에이트 수익 모델로 수익화 현실적",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
+      "developer": "Brave Mobile",
+      "category": "Services Marketplace",
+      "source_id": "a7afc6e3c1fd0484875fd6b9",
+      "icon": "https://play-lh.googleusercontent.com/IqiqcQKcqPZKbQU5HkiXV6TDoNHVS7fzClKe2bdICLLD2AGTtRsWsh7AVO6SmbQtQ2gtaJMZkGdU2gIxgLRPiA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.soomgo",
+      "idea_summary": "이사·청소·인테리어 전문가 연결 한국형 서비스 마켓플레이스",
+      "analysis": {
+        "problem": "신뢰할 수 있는 생활 서비스 전문가를 찾고 가격을 비교하기 어려움 [추론]",
+        "solution": "전문가와 의뢰인을 연결해 견적을 비교하고 서비스를 예약하는 통합 플랫폼 [확인]",
+        "target_user": "이사·청소·인테리어·취미 강습이 필요한 한국 성인 전반 [추론]",
+        "unique_point": "다양한 생활 서비스를 하나의 앱에서 비교·예약 가능한 통합 O2O 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "크몽",
+          "TaskRabbit",
+          "당근마켓 서비스"
+        ],
+        "timing_reason": "1인 가구 증가와 생활 서비스 아웃소싱 수요가 폭발적으로 증가 중 [추론]",
+        "growth_potential": "서비스 카테고리 확장 및 B2B 시장 진출로 스케일업 가능 [추론]"
+      },
+      "business": {
+        "monetization": "전문가 수수료 10~20%, 프리미엄 노출 광고, 구독형 전문가 플랜 [추론]",
+        "pricing_suggestion": "사용자 무료, 전문가 매칭 수수료 및 프리미엄 노출 월정액 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~9개월 [추론]",
+        "estimated_cost": "1500~3000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "Google Maps API",
+          "PG 결제 API"
+        ],
+        "key_features": [
+          "전문가 프로필 시스템",
+          "견적 요청 및 응답",
+          "리뷰 및 평점 시스템",
+          "실시간 채팅"
+        ],
+        "clone_tip": "특정 서비스 카테고리 버티컬로 시작해 신뢰도 구축 후 확장하는 전략 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#마켓플레이스",
+        "#B2C",
+        "#O2O",
+        "#한국시장"
+      ],
+      "verdict": "높은 수익성과 확장성, 초기 신뢰도 구축 전략이 성공 관건",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "CrimeRadar: Dispatch Alerts",
+      "developer": "Scoopz LLC",
+      "category": "News & Safety",
+      "source_id": "df5662bec0fbbf1fc3dda789",
+      "icon": "https://play-lh.googleusercontent.com/3b7_a7m50wFj68Afd6q0bhq2HPTWQlgeViv9B9tEbhChS3h4nVTo-HotZF4OmShKwT2_zhNAr3alwYRWBjiC_g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "idea_summary": "경찰 무전 데이터 기반 지역 범죄·긴급상황 실시간 알림 앱",
+      "analysis": {
+        "problem": "주변 지역의 범죄·사고·재난 정보를 실시간으로 파악하기 어려움 [추론]",
+        "solution": "경찰 무전 공개 데이터를 파싱해 지역 긴급상황을 이해하기 쉬운 형태로 알림 [추론]",
+        "target_user": "주거 안전에 관심 많은 미국 성인, 특히 가족이 있는 30~50대 [추론]",
+        "unique_point": "경찰 무전 데이터를 시민이 이해할 수 있는 형태로 가공·전달 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "Neighbors by Ring",
+          "Nextdoor"
+        ],
+        "timing_reason": "지역 안전에 대한 관심과 실시간 하이퍼로컬 정보 수요가 증가하는 시기 [추론]",
+        "growth_potential": "미국 외 공공 데이터 개방 국가로 글로벌 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독으로 상세 알림 범위 및 범죄 히트맵 지도 제공 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 3~6달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "800~1200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google Maps API",
+          "Firebase",
+          "WebSocket"
+        ],
+        "key_features": [
+          "실시간 경찰 무전 파싱",
+          "지역 필터 지도",
+          "긴급상황 푸시 알림",
+          "사건 히스토리"
+        ],
+        "clone_tip": "미국 Broadcastify 등 공개 경찰 무전 API 활용, 한국은 공공데이터포털 재난안전 API로 대체 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#안전",
+        "#B2C",
+        "#공공데이터",
+        "#미국시장"
+      ],
+      "verdict": "공공 데이터 활용 안전 앱, 한국 공공데이터 API로 로컬 클론 가능",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "name": "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+      "developer": "Kurashiru, Inc.",
+      "category": "Shopping Rewards",
+      "source_id": "d395fa61b0fcabe77aaee5b4",
+      "icon": "https://play-lh.googleusercontent.com/xhqPL7C99bGFHHoGDhgouqWLXLiThILoc4AJXpnp3uVu2HDq9SH7pg2nOvf5H51yndXdSs6pSa7SUm1tNa9p",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.hops",
+      "idea_summary": "영수증 업로드로 리워드를 받는 일본 쇼핑 절약 앱",
+      "analysis": {
+        "problem": "쇼핑 후 영수증이 그냥 버려지며 소비자에게 별다른 추가 혜택이 없음 [추론]",
+        "solution": "영수증 사진을 업로드하면 OCR로 인식 후 포인트·리워드를 지급 [추론]",
+        "target_user": "절약에 관심 있는 일본 주부 및 20~50대 소비자 [추론]",
+        "unique_point": "레시피 앱(쿠라시루)과 영수증 리워드를 결합한 크로스 서비스 전략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "キャッシュビー",
+          "CODE",
+          "Scan Receipts"
+        ],
+        "timing_reason": "물가 상승으로 소비자의 절약 수요가 높아지는 시기 [추론]",
+        "growth_potential": "식품·유통업체와 제휴 마케팅 데이터로 B2B 수익화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "소매업체 제휴 마케팅 수수료 및 구매 데이터 인사이트 B2B 판매 [추론]",
+        "pricing_suggestion": "사용자 무료, 업체 제휴 수수료 모델 운영 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "600~1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ML Kit OCR",
+          "Firebase",
+          "Room Database"
+        ],
+        "key_features": [
+          "영수증 OCR 인식",
+          "포인트 적립 시스템",
+          "리워드 교환소",
+          "쇼핑 지출 통계"
+        ],
+        "clone_tip": "Google ML Kit로 OCR 구현 비용 최소화, 리워드 시스템은 업체 제휴 계약이 선행되어야 함 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2C",
+        "#리워드",
+        "#일본시장",
+        "#OCR"
+      ],
+      "verdict": "영수증 데이터로 B2B 수익화 가능, 업체 제휴 확보가 핵심 선결 조건",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "name": "하이루오 AI: AI 동영상 생성 툴",
+      "developer": "MiniMax AI",
+      "category": "Artificial Intelligence",
+      "source_id": "3caceeb1b1b20e94666f7e02",
+      "icon": "https://play-lh.googleusercontent.com/MGeFpDNeR14yfmWdTXPAeZY7OYx5bDjYKVUhTmQKBbew5ci83NMaTpwrztk1mD8Ts1VAjfKkC-BhlhrBcMVEuWU",
+      "app_url": "https://play.google.com/store/apps/details?id=ai.hailuo.video",
+      "idea_summary": "텍스트·이미지를 AI 비디오로 변환하는 모바일 생성 앱",
+      "analysis": {
+        "problem": "고품질 AI 비디오 생성 도구가 주로 데스크톱 기반이라 모바일 접근성이 낮음 [추론]",
+        "solution": "텍스트 프롬프트와 이미지를 입력하면 AI가 고품질 비디오를 모바일에서 생성 [추론]",
+        "target_user": "콘텐츠 크리에이터, SNS 사용자, AI 도구에 관심 있는 20~40대 [추론]",
+        "unique_point": "MiniMax 자체 비디오 생성 모델을 모바일 앱으로 쉽게 접근 가능하게 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sora",
+          "Runway ML",
+          "Pika Labs"
+        ],
+        "timing_reason": "AI 비디오 생성 시장이 급속도로 성장 중인 초기 단계 [추론]",
+        "growth_potential": "모바일 AI 비디오 생성 시장 선점 효과와 함께 글로벌 크리에이터 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "월간 크레딧 구독 및 추가 크레딧 인앱결제 [추론]",
+        "pricing_suggestion": "기본 무료 크레딧 제공 후 프리미엄 월 10~20달러 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "자체 AI 모델 개발은 인디 개발자에게 비현실적 수준 [추론]",
+        "estimated_cost": "자체 모델 학습 시 수억~수십억원 이상, API 래핑은 500~1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "AI 비디오 생성 API",
+          "FFmpeg",
+          "Cloud Storage"
+        ],
+        "key_features": [
+          "텍스트-비디오 생성",
+          "이미지-비디오 생성",
+          "비디오 편집 기능",
+          "크레딧 관리 시스템"
+        ],
+        "clone_tip": "독자 모델보다 Runway API나 Stability AI API 래핑 앱으로 접근하는 것이 현실적 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI",
+        "#B2C",
+        "#크리에이터툴",
+        "#비디오생성"
+      ],
+      "verdict": "AI 비디오 시장 핫이슈, 인디 개발자는 기존 API 래핑으로 접근하는 것이 현실적",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 AI 활용 콘텐츠 생성 도구와 생활 밀착형 절약·안전 앱이 두드러졌다. 잠금화면·영수증 등 기존 유휴 자원에 새로운 가치를 덧씌우는 마이크로 가치 창출 패턴과 레트로 감성 UI의 재유행이 공통 흐름으로 나타난다.",
+    "trend_details": [
+      "AI 비디오·스토리 생성 앱의 모바일화 가속",
+      "잠금화면·영수증 등 유휴 자원을 활용한 마이크로 가치 창출",
+      "레트로·아날로그 감성 UI 재유행 (카세트 플레이어, 영수증 스타일 기록)",
+      "물가 상승에 따른 가격 추적 및 절약 앱 수요 증가",
+      "공공 데이터 기반 지역 안전 정보 앱 성장",
+      "서비스 마켓플레이스 O2O 수요 지속 확대"
+    ],
+    "hot_categories": [
+      "AI 생성 도구",
+      "마이크로러닝",
+      "쇼핑 절약·가격 추적",
+      "레트로 감성",
+      "지역 안전·공공데이터"
+    ],
+    "opportunity": "한국 시장에서 최저가 알림 전문 앱이 파편화되어 있어 단일 플랫폼으로 통합한 가격 추적 앱의 기회가 존재하며, 잠금화면 마이크로러닝 방식은 영어 외 한국사·코딩·자격증 등 다른 학습 도메인으로 확장 가능하다.",
+    "action_item": "iOS WidgetKit 기반 잠금화면 마이크로러닝 앱 프로토타입을 1주일 내 제작하고 특정 자격증 도메인으로 버티컬 런칭 타당성을 검토할 것"
+  },
+  "data_status": {}
+}

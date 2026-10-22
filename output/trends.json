@@ -1,15 +1,30 @@
 {
-  "generatedAt": "2026-10-21T15:13:05.794Z",
+  "generatedAt": "2026-10-22T15:10:56.769Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
+      "category": "Health & Fitness",
+      "currentCount": 5,
+      "previousCount": 1,
+      "changePercent": 400,
+      "changeDirection": "up",
+      "apps": [
+        "UMAWALK-歩いて競走馬を育てる-",
+        "Bloom: Monitor Breast Health",
+        "bearbell - 곰방울",
+        "사우너 - 사우나 기록 & 심박수",
+        "AHEALTH - formerly MoneyWalk"
+      ],
+      "avgScore": 7.8
+    },
+    {
       "category": "Education",
       "currentCount": 5,
-      "previousCount": 2,
-      "changePercent": 150,
+      "previousCount": 1,
+      "changePercent": 400,
       "changeDirection": "up",
       "apps": [
         "JLPT Tango Plus - 일본어 단어장",
@@ -19,6 +34,74 @@
         "유니브 AI - 강의 녹음·PDF 요약·퀴즈"
       ],
       "avgScore": 7.359999999999999
+    },
+    {
+      "category": "Graphics & Design",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "크레페",
+        "VirtuCamera 2"
+      ],
+      "avgScore": 7.25
+    },
+    {
+      "category": "Live Commerce & Social Shopping",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Whatnot: Shop, Sell, Connect"
+      ],
+      "avgScore": 8.8
+    },
+    {
+      "category": "Shopping & Price Comparison",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Weather & Personalization",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Weather Tone"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Weather",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Productivity & Reminders",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "TimeCue – Reminders & Alerts"
+      ],
+      "avgScore": 7
     },
     {
       "category": "Weather and Safety",
@@ -76,17 +159,6 @@
       "avgScore": 6
     },
     {
-      "category": "Graphics & Design",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "VirtuCamera 2"
-      ],
-      "avgScore": 7.5
-    },
-    {
       "category": "Medical",
       "currentCount": 2,
       "previousCount": 0,
@@ -97,30 +169,6 @@
         "지구를 건너 - 디데이 위젯"
       ],
       "avgScore": 7.699999999999999
-    },
-    {
-      "category": "Social Networking",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Bump (バンプ) - 友達とつながるマップ",
-        "Yours - 마음이 담긴 손편지"
-      ],
-      "avgScore": 7.8
-    },
-    {
-      "category": "Photography",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
-        "PHOTOISM - 포토이즘"
-      ],
-      "avgScore": 6.9
     },
     {
       "category": "Creativity",
@@ -178,20 +226,6 @@
       "avgScore": 6.5
     },
     {
-      "category": "Health & Fitness",
-      "currentCount": 4,
-      "previousCount": 2,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Bloom: Monitor Breast Health",
-        "bearbell - 곰방울",
-        "사우너 - 사우나 기록 & 심박수",
-        "AHEALTH - formerly MoneyWalk"
-      ],
-      "avgScore": 7.8
-    },
-    {
       "category": "Food & Drink",
       "currentCount": 1,
       "previousCount": 0,
@@ -227,17 +261,6 @@
       "avgScore": 7.8
     },
     {
-      "category": "Shopping & Price Comparison",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜"
-      ],
-      "avgScore": 7.5
-    },
-    {
       "category": "Travel & Connectivity",
       "currentCount": 1,
       "previousCount": 0,
@@ -247,65 +270,6 @@
         "로밍도깨비 eSIM – 데이터가 필요한 순간"
       ],
       "avgScore": 8.2
-    },
-    {
-      "category": "Services Marketplace",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Automotive Marketplace",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "헤이딜러 - 인증중고차, 내차팔기, [번호판]시세"
-      ],
-      "avgScore": 7.8
-    },
-    {
-      "category": "News and Safety",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "CrimeRadar: Dispatch Alerts"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "Home Management",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "아파트아이 - 아파트 생활 필수 앱"
-      ],
-      "avgScore": 7.2
-    },
-    {
-      "category": "Entertainment",
-      "currentCount": 5,
-      "previousCount": 3,
-      "changePercent": 67,
-      "changeDirection": "up",
-      "apps": [
-        "Vigloo 비글루 - 숏드라마",
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "Pocket FM: Audio Dramas",
-        "티포: 직장인 데스크 펫",
-        "VibeShort: AI Short Dramas"
-      ],
-      "avgScore": 7.82
     },
     {
       "category": "Music",
@@ -327,19 +291,46 @@
   ],
   "decliningCategories": [
     {
-      "category": "Utilities",
+      "category": "Shopping",
       "currentCount": 5,
       "previousCount": 6,
       "changePercent": -17,
       "changeDirection": "down",
       "apps": [
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "Rips by Triumph",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "GoWish - Your Digital Wishlist"
+      ],
+      "avgScore": 7.76
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 3,
+      "previousCount": 4,
+      "changePercent": -25,
+      "changeDirection": "down",
+      "apps": [
+        "Vigloo 비글루 - 숏드라마",
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+        "Pocket FM: Audio Dramas"
+      ],
+      "avgScore": 7.866666666666667
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 4,
+      "previousCount": 6,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
         "Specs: 시스템 정보 위젯 모니터",
         "Scrolly - 오토웹스크롤러",
         "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "Easy Homescreen",
-        "Digi Voices"
+        "Easy Homescreen"
       ],
-      "avgScore": 6.540000000000001
+      "avgScore": 6.625
     },
     {
       "category": "Lifestyle",
@@ -366,19 +357,30 @@
       "avgScore": 7.4
     },
     {
-      "category": "Shopping",
-      "currentCount": 5,
-      "previousCount": 8,
-      "changePercent": -37,
+      "category": "Social Networking",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "Rips by Triumph",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "GoWish - Your Digital Wishlist"
+        "Bump (バンプ) - 友達とつながるマップ"
       ],
-      "avgScore": 7.76
+      "avgScore": 7.8
+    },
+    {
+      "category": "Photo & Video",
+      "currentCount": 5,
+      "previousCount": 11,
+      "changePercent": -55,
+      "changeDirection": "down",
+      "apps": [
+        "Both: 듀얼 카메라",
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+        "BlendMotion",
+        "N x N: 당신이 사랑한 순간들",
+        "YoungPhoto - エモい構図カメラ"
+      ],
+      "avgScore": 7.08
     },
     {
       "category": "Productivity",
@@ -387,23 +389,10 @@
       "changePercent": -60,
       "changeDirection": "down",
       "apps": [
-        "setlog",
-        "Sync: Plan & Actual"
+        "언제했지 - 마지막으로 한 날",
+        "setlog"
       ],
-      "avgScore": 6.7
-    },
-    {
-      "category": "Photo & Video",
-      "currentCount": 3,
-      "previousCount": 13,
-      "changePercent": -77,
-      "changeDirection": "down",
-      "apps": [
-        "BlendMotion",
-        "N x N: 당신이 사랑한 순간들",
-        "YoungPhoto - エモい構図カメラ"
-      ],
-      "avgScore": 7.133333333333333
+      "avgScore": 6.85
     }
   ],
   "stableCategories": [
@@ -417,6 +406,17 @@
         "パーク.log -TDL/TDS-"
       ],
       "avgScore": 6.5
+    },
+    {
+      "category": "Photography",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱"
+      ],
+      "avgScore": 7
     },
     {
       "category": "Automotive",
@@ -434,8 +434,11 @@
     {
       "keyword": "B2C",
       "category": "tag",
-      "count": 66,
+      "count": 59,
       "apps": [
+        "언제했지 - 마지막으로 한 날",
+        "크레페",
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
         "Beat Blocks - Rhythm Practice",
         "JLPT Tango Plus - 일본어 단어장",
         "Specs: 시스템 정보 위젯 모니터",
@@ -489,24 +492,18 @@
         "제타(zeta) - 상상이 현실이 되는 AI 채팅",
         "Easy Homescreen",
         "WakeBox",
-        "Pocket FM: Audio Dramas",
-        "Yours - 마음이 담긴 손편지",
-        "티포: 직장인 데스크 펫",
-        "Sync: Plan & Actual",
-        "VibeShort: AI Short Dramas",
-        "Digi Voices",
-        "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-        "헤이딜러 - 인증중고차, 내차팔기, [번호판]시세",
-        "CrimeRadar: Dispatch Alerts",
-        "아파트아이 - 아파트 생활 필수 앱",
-        "PHOTOISM - 포토이즘"
+        "Pocket FM: Audio Dramas"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 42,
+      "count": 41,
       "apps": [
+        "언제했지 - 마지막으로 한 날",
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+        "Weather Tone",
+        "TimeCue – Reminders & Alerts",
         "Beat Blocks - Rhythm Practice",
         "JLPT Tango Plus - 일본어 단어장",
         "Specs: 시스템 정보 위젯 모니터",
@@ -543,18 +540,13 @@
         "YoungPhoto - エモい構図カメラ",
         "Band Session Note",
         "Easy Homescreen",
-        "GoWish - Your Digital Wishlist",
-        "Yours - 마음이 담긴 손편지",
-        "티포: 직장인 데스크 펫",
-        "Sync: Plan & Actual",
-        "Digi Voices",
-        "PHOTOISM - 포토이즘"
+        "GoWish - Your Digital Wishlist"
       ]
     },
     {
       "keyword": "글로벌",
       "category": "tag",
-      "count": 12,
+      "count": 10,
       "apps": [
         "Artmate: Drawing Together",
         "Migoo - すべてのタスクにAIチーム",
@@ -565,15 +557,13 @@
         "Nexus - AI Video Generator",
         "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
         "Suno 수노 - AI 음악 & 노래",
-        "play_music_theory",
-        "Yours - 마음이 담긴 손편지",
-        "VibeShort: AI Short Dramas"
+        "play_music_theory"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 11,
+      "count": 10,
       "apps": [
         "Migoo - すべてのタスクにAIチーム",
         "Nexus - AI Video Generator",
@@ -583,8 +573,7 @@
         "유니브 AI - 강의 녹음·PDF 요약·퀴즈",
         "플로우 - AI 가계부",
         "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "VibeShort: AI Short Dramas"
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅"
       ]
     },
     {
@@ -592,13 +581,26 @@
       "category": "social",
       "count": 8,
       "apps": [
+        "Whatnot: Shop, Sell, Connect",
         "Artmate: Drawing Together",
         "VirtuCamera 2",
         "BlendMotion",
         "Undersong",
         "Bevnap: Cocktail Recipes",
-        "사우너 - 사우나 기록 & 심박수",
-        "아파트아이 - 아파트 생활 필수 앱"
+        "사우너 - 사우나 기록 & 심박수"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 6,
+      "apps": [
+        "Both: 듀얼 카메라",
+        "크레페",
+        "BlendMotion",
+        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
+        "Vigloo 비글루 - 숏드라마",
+        "Pocket FM: Audio Dramas"
       ]
     },
     {
@@ -614,60 +616,57 @@
       ]
     },
     {
-      "keyword": "한국",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "N x N: 당신이 사랑한 순간들",
-        "Vigloo 비글루 - 숏드라마",
-        "4910 | 패션이 쉬워지는 순간",
-        "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-        "헤이딜러 - 인증중고차, 내차팔기, [번호판]시세",
-        "아파트아이 - 아파트 생활 필수 앱"
-      ]
-    },
-    {
       "keyword": "소셜",
       "category": "social",
       "count": 5,
       "apps": [
+        "Whatnot: Shop, Sell, Connect",
         "Artmate: Drawing Together",
         "Bump (バンプ) - 友達とつながるマップ",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Yours - 마음이 담긴 손편지"
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+      ]
+    },
+    {
+      "keyword": "일본시장",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "UMAWALK-歩いて競走馬を育てる-",
+        "特務機関NERV防災",
+        "給与計算実務能力検定2級　試験対策",
+        "詐欺対策 by NTTタウンページ"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "creator",
+      "count": 4,
+      "apps": [
+        "Both: 듀얼 카메라",
+        "크레페",
+        "BlendMotion",
+        "Nexus - AI Video Generator"
+      ]
+    },
+    {
+      "keyword": "스트리밍",
+      "category": "creator",
+      "count": 4,
+      "apps": [
+        "Whatnot: Shop, Sell, Connect",
+        "Undersong",
+        "Vigloo 비글루 - 숏드라마",
+        "Pocket FM: Audio Dramas"
       ]
     },
     {
       "keyword": "생산성",
-      "category": "productivity",
-      "count": 5,
-      "apps": [
-        "Migoo - すべてのタスクにAIチーム",
-        "setlog",
-        "Sync: Plan & Actual"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 5,
-      "apps": [
-        "BlendMotion",
-        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
-        "Vigloo 비글루 - 숏드라마",
-        "Pocket FM: Audio Dramas",
-        "VibeShort: AI Short Dramas"
-      ]
-    },
-    {
-      "keyword": "AR",
-      "category": "ar_vr",
+      "category": "tag",
       "count": 4,
       "apps": [
-        "Artmate: Drawing Together",
-        "bearbell - 곰방울",
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "CrimeRadar: Dispatch Alerts"
+        "TimeCue – Reminders & Alerts",
+        "Migoo - すべてのタスクにAIチーム",
+        "setlog"
       ]
     },
     {
@@ -682,55 +681,43 @@
       ]
     },
     {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+        "BlendMotion",
+        "Nexus - AI Video Generator"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 3,
+      "apps": [
+        "Artmate: Drawing Together",
+        "bearbell - 곰방울",
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅"
+      ]
+    },
+    {
+      "keyword": "한국",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "N x N: 당신이 사랑한 순간들",
+        "Vigloo 비글루 - 숏드라마",
+        "4910 | 패션이 쉬워지는 순간"
+      ]
+    },
+    {
       "keyword": "일정",
       "category": "productivity",
-      "count": 4,
+      "count": 3,
       "apps": [
         "Sheep Esports: LoL Live Scores",
         "Bloom: Monitor Breast Health",
-        "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
-        "Sync: Plan & Actual"
-      ]
-    },
-    {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "Undersong",
-        "Vigloo 비글루 - 숏드라마",
-        "Pocket FM: Audio Dramas",
-        "VibeShort: AI Short Dramas"
-      ]
-    },
-    {
-      "keyword": "유틸리티",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Specs: 시스템 정보 위젯 모니터",
-        "Scrolly - 오토웹스크롤러",
-        "Digi Voices"
-      ]
-    },
-    {
-      "keyword": "안전",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "特務機関NERV防災",
-        "詐欺対策 by NTTタウンページ",
-        "CrimeRadar: Dispatch Alerts"
-      ]
-    },
-    {
-      "keyword": "일본시장",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "特務機関NERV防災",
-        "給与計算実務能力検定2級　試験対策",
-        "詐欺対策 by NTTタウンページ"
+        "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약"
       ]
     },
     {
@@ -754,50 +741,51 @@
       ]
     },
     {
-      "keyword": "협업",
-      "category": "productivity",
+      "keyword": "카메라앱",
+      "category": "tag",
       "count": 2,
       "apps": [
-        "Artmate: Drawing Together"
+        "Both: 듀얼 카메라",
+        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 53,
-        "percent": 76,
+        "count": 52,
+        "percent": 74,
         "examples": [
-          "Beat Blocks - Rhythm Practice",
-          "Specs: 시스템 정보 위젯 모니터",
-          "Scrolly - 오토웹스크롤러"
+          "UMAWALK-歩いて競走馬を育てる-",
+          "언제했지 - 마지막으로 한 날",
+          "Both: 듀얼 카메라"
         ]
       },
       "freemium": {
-        "count": 56,
-        "percent": 80,
+        "count": 58,
+        "percent": 83,
         "examples": [
-          "Beat Blocks - Rhythm Practice",
-          "JLPT Tango Plus - 일본어 단어장",
-          "Auday - All-Day Watch Recorder"
+          "UMAWALK-歩いて競走馬を育てる-",
+          "언제했지 - 마지막으로 한 날",
+          "Both: 듀얼 카메라"
         ]
       },
       "subscription": {
-        "count": 49,
-        "percent": 70,
+        "count": 48,
+        "percent": 69,
         "examples": [
-          "Beat Blocks - Rhythm Practice",
-          "JLPT Tango Plus - 일본어 단어장",
-          "Auday - All-Day Watch Recorder"
+          "Both: 듀얼 카메라",
+          "크레페",
+          "Whatnot: Shop, Sell, Connect"
         ]
       },
       "onetime": {
-        "count": 28,
-        "percent": 40,
+        "count": 30,
+        "percent": 43,
         "examples": [
-          "Beat Blocks - Rhythm Practice",
-          "JLPT Tango Plus - 일본어 단어장",
-          "Specs: 시스템 정보 위젯 모니터"
+          "언제했지 - 마지막으로 한 날",
+          "Both: 듀얼 카메라",
+          "ShutterFinder: 빛 깜빡임 · 플리커 측정기"
         ]
       },
       "unknown": {
@@ -808,12 +796,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 56,
-      "percent": 80,
+      "count": 58,
+      "percent": 83,
       "examples": [
-        "Beat Blocks - Rhythm Practice",
-        "JLPT Tango Plus - 일본어 단어장",
-        "Auday - All-Day Watch Recorder"
+        "UMAWALK-歩いて競走馬を育てる-",
+        "언제했지 - 마지막으로 한 날",
+        "Both: 듀얼 카메라"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -822,8 +810,8 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 13,
-        "percent": 19,
+        "count": 12,
+        "percent": 17,
         "apps": [
           "Migoo - すべてのタスクにAIチーム",
           "AutoSnore: 코골이 녹음기",
@@ -834,20 +822,20 @@
       },
       {
         "tech": "social",
-        "count": 11,
-        "percent": 16,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "Whatnot: Shop, Sell, Connect",
           "Artmate: Drawing Together",
           "VirtuCamera 2",
           "BlendMotion",
-          "Bump (バンプ) - 友達とつながるマップ",
-          "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+          "Bump (バンプ) - 友達とつながるマップ"
         ]
       },
       {
         "tech": "productivity",
-        "count": 9,
-        "percent": 13,
+        "count": 8,
+        "percent": 11,
         "apps": [
           "Artmate: Drawing Together",
           "Migoo - すべてのタスクにAIチーム",
@@ -858,26 +846,26 @@
       },
       {
         "tech": "ar_vr",
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
           "Artmate: Drawing Together",
           "bearbell - 곰방울",
           "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
-          "플로우 - AI 가계부",
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드"
+          "플로우 - AI 가계부"
         ]
       },
       {
         "tech": "creator",
-        "count": 6,
-        "percent": 9,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "Both: 듀얼 카메라",
+          "Whatnot: Shop, Sell, Connect",
           "BlendMotion",
           "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
-          "Nexus - AI Video Generator",
-          "Vigloo 비글루 - 숏드라마",
-          "Pocket FM: Audio Dramas"
+          "Nexus - AI Video Generator"
         ]
       },
       {
@@ -897,12 +885,20 @@
         "apps": [
           "AHEALTH - formerly MoneyWalk"
         ]
+      },
+      {
+        "tech": "subscription",
+        "count": 1,
+        "percent": 1,
+        "apps": [
+          "UMAWALK-歩いて競走馬を育てる-"
+        ]
       }
     ],
     "dominant": {
       "tech": "ai",
-      "count": 13,
-      "percent": 19,
+      "count": 12,
+      "percent": 17,
       "apps": [
         "Migoo - すべてのタスクにAIチーム",
         "AutoSnore: 코골이 녹음기",
@@ -914,8 +910,8 @@
     "emerging": [
       {
         "tech": "ai",
-        "count": 13,
-        "percent": 19,
+        "count": 12,
+        "percent": 17,
         "apps": [
           "Migoo - すべてのタスクにAIチーム",
           "AutoSnore: 코골이 녹음기",
@@ -926,20 +922,20 @@
       },
       {
         "tech": "social",
-        "count": 11,
-        "percent": 16,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "Whatnot: Shop, Sell, Connect",
           "Artmate: Drawing Together",
           "VirtuCamera 2",
           "BlendMotion",
-          "Bump (バンプ) - 友達とつながるマップ",
-          "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+          "Bump (バンプ) - 友達とつながるマップ"
         ]
       },
       {
         "tech": "productivity",
-        "count": 9,
-        "percent": 13,
+        "count": 8,
+        "percent": 11,
         "apps": [
           "Artmate: Drawing Together",
           "Migoo - すべてのタスクにAIチーム",
@@ -950,19 +946,73 @@
       },
       {
         "tech": "ar_vr",
-        "count": 8,
-        "percent": 11,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
           "Artmate: Drawing Together",
           "bearbell - 곰방울",
           "마이클 - 차량관리, 엔진오일, 타이어, 세차, 예약",
-          "플로우 - AI 가계부",
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드"
+          "플로우 - AI 가계부"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Both: 듀얼 카메라",
+          "Whatnot: Shop, Sell, Connect",
+          "BlendMotion",
+          "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
+          "Nexus - AI Video Generator"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Graphics & Design 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Graphics & Design"
+    },
+    {
+      "type": "rising_category",
+      "title": "Live Commerce & Social Shopping 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Live Commerce & Social Shopping"
+    },
+    {
+      "type": "rising_category",
+      "title": "Shopping & Price Comparison 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Shopping & Price Comparison"
+    },
+    {
+      "type": "rising_category",
+      "title": "Weather & Personalization 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Weather & Personalization"
+    },
+    {
+      "type": "rising_category",
+      "title": "Weather 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Weather"
+    },
+    {
+      "type": "rising_category",
+      "title": "Productivity & Reminders 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Productivity & Reminders"
+    },
     {
       "type": "rising_category",
       "title": "Weather and Safety 카테고리 급부상",
@@ -1000,31 +1050,10 @@
     },
     {
       "type": "rising_category",
-      "title": "Graphics & Design 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Graphics & Design"
-    },
-    {
-      "type": "rising_category",
       "title": "Medical 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Medical"
-    },
-    {
-      "type": "rising_category",
-      "title": "Social Networking 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Social Networking"
-    },
-    {
-      "type": "rising_category",
-      "title": "Photography 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Photography"
     },
     {
       "type": "rising_category",
@@ -1063,13 +1092,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Health & Fitness 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health & Fitness"
-    },
-    {
-      "type": "rising_category",
       "title": "Food & Drink 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -1091,62 +1113,27 @@
     },
     {
       "type": "rising_category",
-      "title": "Shopping & Price Comparison 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Shopping & Price Comparison"
-    },
-    {
-      "type": "rising_category",
       "title": "Travel & Connectivity 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Travel & Connectivity"
-    },
-    {
-      "type": "rising_category",
-      "title": "Services Marketplace 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Services Marketplace"
-    },
-    {
-      "type": "rising_category",
-      "title": "Automotive Marketplace 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Automotive Marketplace"
-    },
-    {
-      "type": "rising_category",
-      "title": "News and Safety 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "News and Safety"
-    },
-    {
-      "type": "rising_category",
-      "title": "Home Management 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Home Management"
     }
   ],
   "insight": {
-    "trend_summary": "Education 카테고리가 150% 급상승하며 가장 뜨거운 성장세를 보이고, AI·소셜·헬스케어가 기술 트렌드를 주도하고 있습니다. '1인개발가능' 태그가 42회로 높은 관심을 받고 있어 인디 개발자에게 우호적인 시장 환경이 형성되고 있습니다. 프리미엄 모델(80%)과 구독(70%)이 지배적이며, 무료 진입 후 유료 전환 전략이 표준으로 자리잡고 있습니다.",
+    "trend_summary": "Health & Fitness와 Education 카테고리가 400% 급등하며 웰니스와 학습 수요가 폭발적으로 증가하고 있습니다. '1인개발가능' 태그가 41회로 높은 관심을 받으며 인디 개발자 친화적 시장이 형성 중이고, AI와 소셜 기능의 결합이 새로운 표준으로 자리잡고 있습니다.",
     "trend_details": [
-      "Education 카테고리 150% 급성장: 5개 앱이 동시에 주목받으며 AI 기반 학습 도구 수요 폭발",
-      "AI+소셜 융합 트렌드: 기술 스택 상위가 AI(19%)·소셜(16%)로, 두 기술을 결합한 앱이 시장 주도",
-      "1인개발 친화 시장 확대: '1인개발가능' 키워드 42회로 복잡한 팀 없이 런칭 가능한 틈새 카테고리 다수 부상"
+      "Health & Fitness와 Education이 나란히 400% 급상승하며 자기계발 앱 시장이 2026년 하반기 최대 성장 섹터로 부상",
+      "freemium(83%) + subscription(69%) 조합이 주류 수익 모델로 정착되어, 무료 진입 후 구독 전환 전략이 인디 개발자에게 가장 현실적인 수익화 경로",
+      "AR/VR(10%)과 AI(17%)가 동시에 상위권을 차지하며 기술 심화 트렌드가 가속화되고, 일본 시장 키워드가 4회 등장해 글로벌 특히 아시아 시장 진출 수요 확인"
     ],
     "hot_categories": [
+      "Health & Fitness",
       "Education",
-      "Artificial Intelligence",
-      "Health and Rewards",
-      "Social Creativity"
+      "AI",
+      "Graphics & Design"
     ],
-    "opportunity": "Weather and Safety·Health & Fitness·Social Creativity 등 100% 성장했지만 앱 수가 극히 적은 카테고리에서 AI를 접목한 단순 MVP로 선점 가능성이 높습니다.",
-    "action_item": "Education 또는 Health 카테고리에서 AI 기능을 핵심으로 하는 프리미엄 모델 앱을 2주 내 MVP로 제작해 App Store에 출시하세요.",
-    "weekly_theme": "AI 교육 선점"
+    "opportunity": "Graphics & Design, Weather, Productivity 등 100% 급등했음에도 앱 수가 적은 니치 카테고리에서 AI 기능을 결합한 freemium 앱을 빠르게 출시하면 선점 효과를 누릴 수 있습니다.",
+    "action_item": "Health & Fitness 또는 Education 카테고리에서 '1인개발가능' 범위의 AI 기반 개인화 기능을 핵심으로 한 freemium 앱 MVP를 2주 내 출시 목표로 기획하세요.",
+    "weekly_theme": "AI 웰니스 선점"
   }
 }
