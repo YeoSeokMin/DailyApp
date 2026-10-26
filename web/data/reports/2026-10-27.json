@@ -1,0 +1,721 @@
+{
+  "date": "2026-10-27",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "알림함: 지난 알림 다시 보기",
+      "developer": "HAKJAE KIM",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/3c/32/463c32ab-42c1-a9c9-8a2e-71d23b6934e1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%95%8C%EB%A6%BC%ED%95%A8-%EC%A7%80%EB%82%9C-%EC%95%8C%EB%A6%BC-%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EA%B8%B0/id6815765181",
+      "source_id": "41093b1b826e849edec047c1",
+      "idea_summary": "삭제된 iOS 알림을 검색·재확인하는 알림 히스토리 유틸리티",
+      "analysis": {
+        "problem": "실수로 지운 알림을 다시 볼 방법이 없어 중요한 정보를 놓친다 [확인]",
+        "solution": "수신된 모든 알림을 자동 저장하고 앱별로 분류된 검색 가능한 히스토리를 제공한다 [추론]",
+        "target_user": "알림이 많아 중요 메시지를 놓치는 20~50대 스마트폰 헤비 유저 [추론]",
+        "unique_point": "iOS 전용 Notification Service Extension을 활용해 알림 기록을 영구 보존하는 특화 유틸리티 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "iOS 기본 알림 센터",
+          "Android 내장 알림 히스토리"
+        ],
+        "timing_reason": "앱 알림 수 폭발적 증가로 알림 관리 피로도가 보편화되었으며 iOS에는 공식 알림 히스토리가 없음 [추론]",
+        "growth_potential": "AI 기반 알림 요약·중요도 분류 기능 추가 시 프리미엄 유틸리티로 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본 기능 + 히스토리 보관 기간 연장 프리미엄 구독 추정 [추론]",
+        "pricing_suggestion": "무료(7일 보관) + 프리미엄 무제한 보관 월 1,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "200~400만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Notification Service Extension",
+          "CoreData"
+        ],
+        "key_features": [
+          "알림 자동 저장",
+          "앱별 분류",
+          "키워드 검색",
+          "시간순 히스토리",
+          "알림 재알림 기능"
+        ],
+        "clone_tip": "Notification Service Extension 권한 획득이 핵심 기술 난관이며 앱 스토어 심사 시 개인정보 정책 명확히 기재 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#글로벌출시가능"
+      ],
+      "verdict": "모든 iPhone 사용자가 공감하는 페인포인트 해결, 넓은 시장과 낮은 경쟁이 매력",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "Sync: Plan & Actual",
+      "developer": "037",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/63/04/ef6304ff-d1b1-811e-cac2-15a2ad00c30b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/sync-plan-actual/id6808510515",
+      "source_id": "ac9b902392986812779a56a5",
+      "idea_summary": "계획 대비 실제 결과를 실시간 비교 추적하는 성과 모니터링 도구",
+      "analysis": {
+        "problem": "목표를 세워도 계획값과 실제값을 체계적으로 비교할 전용 도구가 없어 생산성 개선이 어렵다 [추론]",
+        "solution": "계획값과 실제값을 나란히 입력하고 갭을 시각화해 성과 패턴을 파악하게 한다 [추론]",
+        "target_user": "자기 관리에 관심 있는 20~40대 직장인 및 프리랜서, OKR을 개인에 적용하려는 사용자 [추론]",
+        "unique_point": "단순 할일 관리가 아닌 Plan vs Actual 갭 분석에만 집중한 명확한 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "Todoist",
+          "TickTick",
+          "목표 관리 앱 시리즈"
+        ],
+        "timing_reason": "개인 OKR·KPI 자기관리 트렌드 확산과 성과 측정 문화의 대중화 [추론]",
+        "growth_potential": "팀 단위 B2B 협업 기능 추가 시 SMB 시장까지 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 유료 구매 추정 [추론]",
+        "pricing_suggesting": "무료 기본 + 고급 차트·리포트 월 3,900~5,900원 구독 [추론]",
+        "pricing_suggestion": "무료 기본 + 고급 차트·리포트 월 3,900~5,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~4개월 [추론]",
+        "estimated_cost": "500~1,000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreData",
+          "CloudKit",
+          "Charts 라이브러리"
+        ],
+        "key_features": [
+          "계획 항목 입력",
+          "실제값 기록",
+          "갭 시각화 차트",
+          "주간·월간 리포트",
+          "알림 리마인더"
+        ],
+        "clone_tip": "CSV 내보내기와 iCloud 동기화 추가 시 경쟁력 대폭 상승, 위젯 지원으로 홈화면 접근성 확보 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#자기관리"
+      ],
+      "verdict": "Plan vs Actual 특화 포지셔닝이 명확한 틈새 생산성 앱, 클론 난이도 낮고 시리즈화 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "열린 족보이야기(모바일)",
+      "developer": "SANGHYUN KIM",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/99/59/2c9959c6-24cd-a334-00c3-23ded514f203/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%97%B4%EB%A6%B0-%EC%A1%B1%EB%B3%B4%EC%9D%B4%EC%95%BC%EA%B8%B0-%EB%AA%A8%EB%B0%94%EC%9D%BC/id6801232830",
+      "source_id": "5929bc9bad1b6e3e34c1f79a",
+      "idea_summary": "가족 족보를 스토리 형태로 탐색·공유하는 모바일 족보 플랫폼",
+      "analysis": {
+        "problem": "전통 족보 기록은 고령자 중심이고 모바일로 접근하거나 스토리로 공유할 방법이 없다 [추론]",
+        "solution": "가족 관계와 이야기를 모바일에서 시각적 트리로 탐색하고 스토리텔링 형식으로 공유한다 [추론]",
+        "target_user": "가족 역사에 관심 있는 30~60대 한국인 및 뿌리 찾기에 관심 있는 해외 교포 [추론]",
+        "unique_point": "딱딱한 족보 데이터를 스토리텔링 포맷으로 재해석한 독창적 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "MyHeritage",
+          "Ancestry",
+          "FamilySearch",
+          "네이버 족보 서비스"
+        ],
+        "timing_reason": "DNA 검사 트렌드 및 가족 뿌리 찾기 관심 증가, 인구 고령화로 가족사 보존 니즈 확대 [추론]",
+        "growth_potential": "글로벌 한국 디아스포라 및 유교 문화권(중국·일본·베트남) 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 가족 구성원 수·사진 용량 기반 IAP 추정 [추론]",
+        "pricing_suggestion": "기본 무료(5명) + 무제한 가족 트리 월 4,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "700~1,500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Firebase",
+          "그래프 시각화 라이브러리",
+          "CloudKit"
+        ],
+        "key_features": [
+          "가족 트리 시각화",
+          "구성원 스토리 입력",
+          "사진 업로드",
+          "관계 탐색",
+          "가족 공유 링크"
+        ],
+        "clone_tip": "AI로 오래된 사진·문서에서 인물 정보를 자동 추출하는 기능 추가 시 강력한 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#문화",
+        "#한국"
+      ],
+      "verdict": "족보·가족사를 스토리로 풀어낸 한국 문화 특화 앱, 해외 교포 시장에 잠재력 있음",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "損保大学課程 法律単位 問題集 損害保険大学課程専門コース",
+      "developer": "株式会社キイロ乃カモ",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d9/bf/36/d9bf3695-f5d5-b60f-6882-a0dfd511fa8a/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E6%90%8D%E4%BF%9D%E5%A4%A7%E5%AD%A6%E8%AA%B2%E7%A8%8B-%E6%B3%95%E5%BE%8B%E5%8D%98%E4%BD%8D-%E5%95%8F%E9%A1%8C%E9%9B%86-%E6%90%8D%E5%AE%B3%E4%BF%9D%E9%99%BA%E5%A4%A7%E5%AD%A6%E8%AA%B2%E7%A8%8B%E5%B0%82%E9%96%80%E3%82%B3%E3%83%BC%E3%82%B9/id6763822017",
+      "source_id": "dfa6312354c06573f82bbc8c",
+      "idea_summary": "일본 손해보험대학 법률 단위 시험 전용 모바일 문제집",
+      "analysis": {
+        "problem": "일본 손해보험대학 법률 단위라는 특정 자격 시험을 위한 디지털 학습 자료가 부재하다 [추론]",
+        "solution": "해당 시험 전용 문제집을 모바일로 제공해 언제 어디서나 반복 연습을 가능하게 한다 [추론]",
+        "target_user": "일본 손해보험업계 종사자 및 損保大学 과정 이수 중인 20~50대 직장인 [추론]",
+        "unique_point": "단일 자격시험 하나에만 집중하는 극도로 좁은 버티컬 에듀테크 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Anki",
+          "Quizlet",
+          "일본 기타 자격증 앱"
+        ],
+        "timing_reason": "일본 보험업계 디지털화 및 자격증 취득 의무 강화 추세 [추론]",
+        "growth_potential": "동일 패턴으로 일본 내 다른 보험·금융 자격증 앱 시리즈화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 문제 팩 IAP 추정 [추론]",
+        "pricing_suggestion": "기본 30문제 무료 + 전체 문제 980엔 일회성 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreData",
+          "JSON 문제 데이터"
+        ],
+        "key_features": [
+          "문제 출제 모드",
+          "오답 노트 자동 생성",
+          "정답률 통계",
+          "시험 모드 타이머",
+          "복습 알림"
+        ],
+        "clone_tip": "한국 공인중개사·손해사정사·전기기사 등 응시자 1만명 이상 자격증에 동일 패턴 즉시 적용 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크",
+        "#틈새시장",
+        "#일본"
+      ],
+      "verdict": "초틈새 자격증 앱의 교과서적 사례, 시리즈화 전략으로 한국·일본 모두 수익화 가능",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "name": "Flipcorder: Retro Camcorder",
+      "developer": "Lotus Apps, LLC",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/ce/de/46cedeaa-55a0-339d-53a1-4320407f4e1f/AppIcon-0-0-1x_U007ephone-0-0-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/flipcorder-retro-camcorder/id6818168418",
+      "source_id": "43175e2c38e812a8ef09cbb7",
+      "idea_summary": "2000년대 플립폰 캠코더 감성의 빈티지 영상 촬영 앱",
+      "analysis": {
+        "problem": "현대 스마트폰 영상은 지나치게 선명하고 매끄러워 레트로·Y2K 감성 영상을 만들기 어렵다 [추론]",
+        "solution": "2000년대 플립폰 캠코더 스타일의 비주얼 이펙트(스캔라인, 색수차, 타임스탬프)를 실시간 적용한다 [추론]",
+        "target_user": "Y2K·레트로 감성을 선호하는 10~30대 SNS 크리에이터 및 숏폼 콘텐츠 제작자 [추론]",
+        "unique_point": "일반적인 VHS 레트로가 아닌 '플립폰 캠코더'라는 특정 기기 미학에 집중한 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VHS Cam",
+          "Huji Cam",
+          "Dazz Cam",
+          "1998 Cam"
+        ],
+        "timing_reason": "Z세대의 Y2K 레트로 트렌드 지속 및 TikTok·릴스에서 빈티지 영상 포맷 수요 증가 [추론]",
+        "growth_potential": "SNS 바이럴 효과로 빠른 유저 획득 가능, 추가 이펙트 팩 IAP로 수익 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본 이펙트 + 프리미엄 필터 팩 IAP 또는 구독 추정 [추론]",
+        "pricing_suggestion": "무료 앱 + 프리미엄 이펙트 팩 월 2,900원 구독 또는 팩당 1,900원 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Metal",
+          "Core Image"
+        ],
+        "key_features": [
+          "실시간 레트로 비디오 필터",
+          "타임스탬프 오버레이",
+          "스캔라인·노이즈 이펙트",
+          "저해상도 시뮬레이션",
+          "음성 왜곡"
+        ],
+        "clone_tip": "Metal 셰이더로 VHS 노이즈·색수차 구현이 핵심 기술, GitHub 오픈소스 Metal 필터 레퍼런스 적극 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#포토비디오",
+        "#Y2K",
+        "#SNS바이럴"
+      ],
+      "verdict": "Y2K 감성 타이밍은 좋으나 레트로 카메라 앱 경쟁이 치열해 틈새 미학 차별화 필수",
+      "country": "us"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Suno 수노 - AI 음악 & 노래",
+      "developer": "Suno, Inc",
+      "category": "Music",
+      "icon": "https://play-lh.googleusercontent.com/lIxYxKnQwksOzWMmNqWK3x3S5W7fDIVW9c5XWG9QF9KPHk5oZbsZcJKzWiKA-YOU7QiENwviQuyqXUkLPBaxNA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.suno.android",
+      "source_id": "81cf7fc274d56d5ae8e0ca8f",
+      "idea_summary": "텍스트 프롬프트만으로 보컬·악기 포함 완성된 노래를 생성하는 AI 작곡 앱",
+      "analysis": {
+        "problem": "음악 지식이 없는 일반인은 자신만의 오리지널 음악을 만들 수 없다 [확인]",
+        "solution": "텍스트 설명을 입력하면 AI가 보컬과 악기가 포함된 완성된 노래를 수 초 내에 생성한다 [확인]",
+        "target_user": "음악 제작에 관심 있는 비전문가 크리에이터, 유튜버, 팟캐스터, 게임 개발자 [추론]",
+        "unique_point": "가사·멜로디·보컬 모두를 AI가 생성하는 end-to-end 완성형 음악 생성 능력 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Udio",
+          "Loudly",
+          "AIVA",
+          "Soundraw",
+          "Boomy"
+        ],
+        "timing_reason": "생성형 AI 기술 성숙과 크리에이터 이코노미 폭발적 성장이 맞물린 최적의 시장 타이밍 [추론]",
+        "growth_potential": "유튜브·TikTok 플랫폼 직접 연동 및 B2B 음악 라이선싱으로 대규모 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "크레딧 기반 구독 모델(월 정액제) [확인]",
+        "pricing_suggestion": "기본 무료(월 제한 크레딧) + 프로 월 $8~$24 구독 티어 유지 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 (AI 모델 포함 시) [추론]",
+        "estimated_cost": "5,000만원 이상 [추론]",
+        "tech_stack": [
+          "Python",
+          "PyTorch",
+          "Android Kotlin",
+          "클라우드 GPU 인프라",
+          "Transformer 모델"
+        ],
+        "key_features": [
+          "텍스트 기반 음악 생성",
+          "장르·분위기 선택",
+          "가사 편집",
+          "음악 공유 및 공개",
+          "크레딧 시스템"
+        ],
+        "clone_tip": "자체 모델 학습보다 Replicate·Hugging Face API 래퍼 앱으로 MVP 먼저 검증 후 점진적 고도화 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 9
+      },
+      "tags": [
+        "#AI",
+        "#B2C",
+        "#크리에이터이코노미",
+        "#글로벌"
+      ],
+      "verdict": "AI 음악 생성 선두주자, 기술 장벽 높으나 크리에이터 이코노미에서 최고 수익 잠재력",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "Vigloo 비글루 - 숏드라마",
+      "developer": "SpoonLabs",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/2yuOK7JnKxx8st7vNK_hx-1egk_ppu6CV3H_PR7pdiTsEQkJziVIOxdOenjLNOfuT5Jhf1xa0cI1WxIWF56NNw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.vigloo",
+      "source_id": "2af887fe02c11c97737a6cc9",
+      "idea_summary": "세로 화면에 최적화된 3~10분 숏폼 에피소드 드라마 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "기존 드라마는 회당 30~60분이라 이동 중 모바일로 소비하기 불편하다 [추론]",
+        "solution": "세로 포맷으로 제작된 3~10분 분량의 단편 에피소드 드라마를 스트리밍한다 [추론]",
+        "target_user": "이동 중 짧은 콘텐츠를 소비하는 10~30대 모바일 헤비 유저 [추론]",
+        "unique_point": "TikTok 세로 포맷을 드라마 스토리텔링에 접목한 숏폼 드라마 전용 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "FreeDrama",
+          "릴스·쇼츠 드라마",
+          "왓챠",
+          "티빙 숏폼"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 급증과 세로 스크린 포맷 대중화가 맞물린 시장 형성 시점 [추론]",
+        "growth_potential": "오리지널 콘텐츠 확대 및 글로벌 K-드라마 팬덤 활용 해외 진출 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 시청 + 프리미엄 구독 또는 에피소드별 IAP 추정 [추론]",
+        "pricing_suggestion": "광고 포함 무료 + 광고 제거 월 5,900원 또는 시즌 패스 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "1,500~4,000만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "Jetpack Compose",
+          "ExoPlayer",
+          "Firebase",
+          "CDN 스트리밍"
+        ],
+        "key_features": [
+          "세로 영상 스트리밍",
+          "에피소드 목록 및 시리즈",
+          "구독·결제",
+          "추천 알고리즘",
+          "오프라인 다운로드"
+        ],
+        "clone_tip": "기술보다 콘텐츠 공급이 핵심, 초기 인디 드라마 제작팀 20~30팀 파트너십 우선 확보 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#엔터테인먼트",
+        "#숏폼드라마",
+        "#스트리밍",
+        "#글로벌"
+      ],
+      "verdict": "숏폼 드라마 트렌드 최전선, 콘텐츠 수급 전략이 기술보다 성패를 좌우하는 플랫폼 비즈니스",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "애슬러, 남성 패션의 기준",
+      "developer": "Team Bind",
+      "category": "Fashion",
+      "icon": "https://play-lh.googleusercontent.com/QBhWYEwR04UwrpXA4lfkIzPN4LgJkTA03FbAKCIcPqd1IglQl-TE9yRgTJTNGtgu6R7GhVLdO1nKOwEVEPhA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.athler",
+      "source_id": "7a80d208c70607ad41ffb4f4",
+      "idea_summary": "MZ 남성 전용 패션 큐레이션 쇼핑 플랫폼",
+      "analysis": {
+        "problem": "남성 패션 플랫폼은 여성 중심으로 설계되어 남성이 원하는 큐레이션·스타일링 정보를 얻기 어렵다 [추론]",
+        "solution": "남성 의류·브랜드·스타일 트렌드를 전문적으로 큐레이션해 원스톱 쇼핑 경험을 제공한다 [추론]",
+        "target_user": "패션에 관심 있는 20~35세 남성, 자신에게 맞는 스타일을 찾고 싶은 MZ 남성 [추론]",
+        "unique_point": "남성 패션이라는 언더서브드 시장에 집중한 버티컬 큐레이션 쇼핑몰 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "무신사",
+          "29CM",
+          "에이블리 남성관",
+          "지그재그 남성"
+        ],
+        "timing_reason": "MZ 남성의 그루밍·패션 소비 증가 및 남성 패션 전용 플랫폼 공백 [추론]",
+        "growth_potential": "뷰티·스포츠·라이프스타일 카테고리로 확장 및 남성 개인화 AI 스타일리스트 기능 추가 가능 [추론]"
+      },
+      "business": {
+        "monetization": "입점 브랜드 판매 수수료 및 광고 수익 추정 [추론]",
+        "pricing_suggestion": "플랫폼 수수료 10~15% + 프리미엄 브랜드 광고 구좌 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "1,000~3,000만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "결제 SDK",
+          "이미지 CDN"
+        ],
+        "key_features": [
+          "큐레이션 피드",
+          "브랜드·상품 검색",
+          "위시리스트",
+          "코디 추천",
+          "결제 연동"
+        ],
+        "clone_tip": "초기에는 자체 커머스 없이 외부 쇼핑몰 딥링크 연결 + 큐레이션 콘텐츠에만 집중해 린 출시 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2C",
+        "#커머스",
+        "#남성패션",
+        "#큐레이션"
+      ],
+      "verdict": "남성 전용 포지셔닝이 명확하나 무신사 등 강자와의 차별화 전략 수립이 생존의 관건",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "캐치테이블",
+      "developer": "주식회사 와드",
+      "category": "Food & Dining",
+      "icon": "https://play-lh.googleusercontent.com/-XAp3u_yr0HZD1W9OFhppuWrRZz6CA2PCxGzKVk7lSvOJ3bQVi-Yqg2Gwy9csaAb5zMlIUiQm-IuCp_hH1gJAA",
+      "app_url": "https://play.google.com/store/apps/details?id=co.kr.catchtable.android.catchtable_app",
+      "source_id": "a520d1a5c5474f14d1ef4174",
+      "idea_summary": "인기 레스토랑 예약·웨이팅을 통합 관리하는 프리미엄 다이닝 예약 플랫폼",
+      "analysis": {
+        "problem": "인기 레스토랑은 예약이 어렵고 현장 웨이팅 관리가 불편해 미식가의 외식 경험이 저하된다 [확인]",
+        "solution": "레스토랑 발견부터 예약·웨이팅 등록·알림까지 다이닝 전 과정을 하나의 앱으로 통합한다 [확인]",
+        "target_user": "프리미엄 외식을 즐기는 20~40대 도시 거주자 및 파인다이닝 경험을 원하는 미식가 [추론]",
+        "unique_point": "단순 예약이 아닌 웨이팅 관리와 프리미엄 레스토랑 특화 큐레이션의 결합 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "네이버 예약",
+          "카카오 예약",
+          "식신",
+          "포잉"
+        ],
+        "timing_reason": "외식 문화 고급화 및 파인다이닝·오마카세 수요 지속 증가 [추론]",
+        "growth_potential": "B2B 레스토랑 관리 SaaS 및 해외 한식 레스토랑 글로벌 예약 서비스 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "레스토랑 구독·수수료 + 소비자 프리미엄 멤버십 추정 [추론]",
+        "pricing_suggestion": "레스토랑 월 구독 19~49만원 + 소비자 프리미엄 멤버십 월 3,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5~8개월 [추론]",
+        "estimated_cost": "2,000~5,000만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "Jetpack Compose",
+          "Node.js 백엔드",
+          "Firebase",
+          "결제 SDK"
+        ],
+        "key_features": [
+          "레스토랑 검색·발견",
+          "실시간 예약",
+          "웨이팅 등록·알림",
+          "리뷰",
+          "프리미엄 큐레이션"
+        ],
+        "clone_tip": "기술보다 레스토랑 파트너십이 핵심, 특정 도시 프리미엄 레스토랑 20~30개 독점 계약 먼저 확보 후 출시 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#B2B",
+        "#O2O",
+        "#푸드테크",
+        "#한국"
+      ],
+      "verdict": "검증된 레스토랑 예약 모델이나 네이버·카카오와의 경쟁 극복이 핵심 과제",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "MiSing - 언제 어디서나, 마음껏 노래해!",
+      "developer": "M&E Times Co.,Ltd.",
+      "category": "Music & Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/BtRB3p-rArsqynp7EWZrKf8yDgY7m8qZ9LhwkGHVksIIrl_YlAOxV5aNjp75Vo0eQGZyLxL-tLjO5hMJ49r0qkc",
+      "app_url": "https://play.google.com/store/apps/details?id=com.karaoke.pocket",
+      "source_id": "f8b866400f539f9a328e017e",
+      "idea_summary": "장소·시간 제약 없이 즉시 노래 부를 수 있는 포켓 노래방 앱",
+      "analysis": {
+        "problem": "노래방은 비용·이동·예약의 제약이 있어 노래를 즐기고 싶을 때 즉시 이용하기 어렵다 [추론]",
+        "solution": "스마트폰 하나로 MR 반주에 맞춰 언제 어디서나 노래 부르고 녹음·공유할 수 있는 환경을 제공한다 [추론]",
+        "target_user": "노래를 좋아하는 10~40대 사용자, 연습이 필요한 아마추어 보컬, 이동 중 즐기는 노래 팬 [추론]",
+        "unique_point": "포켓 노래방 컨셉으로 즉흥적 노래 욕구를 즉시 충족하는 모바일 우선 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Smule",
+          "StarMaker",
+          "TJ노래방 앱",
+          "WeSing"
+        ],
+        "timing_reason": "1인 콘텐츠 소비 증가 및 집콕·혼자 즐기는 문화 정착으로 개인 노래방 수요 지속 [추론]",
+        "growth_potential": "AI 음정 보정 기능과 소셜 듀엣 기능 추가 시 글로벌 노래방 문화권 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 또는 곡별 IAP 추정 [추론]",
+        "pricing_suggestion": "무료 기본(일 3곡) + 무제한 월 4,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "800~2,000만원 [추론]",
+        "tech_stack": [
+          "Android Kotlin",
+          "Jetpack Compose",
+          "ExoPlayer",
+          "저지연 오디오 처리 라이브러리",
+          "음악 저작권 API"
+        ],
+        "key_features": [
+          "MR 반주 재생",
+          "실시간 보컬 이펙트",
+          "녹음 및 SNS 공유",
+          "곡 검색",
+          "점수 채점 시스템"
+        ],
+        "clone_tip": "음원 저작권 확보가 최대 비용·법률 리스크, 초기엔 저작권 만료 곡 또는 인디 아티스트 제휴로 시작 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#B2C",
+        "#엔터테인먼트",
+        "#음악",
+        "#모바일노래방",
+        "#아시아"
+      ],
+      "verdict": "노래방 문화 강한 한국·아시아 시장 적합, Smule 등 글로벌 경쟁자 대비 현지화 차별화 필수",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정 앱들은 AI 기반 창작 민주화(Suno)와 극도로 좁은 버티컬 시장 집중(자격증 앱)이라는 두 가지 대비되는 성공 전략을 동시에 보여준다. 숏폼 드라마·레트로 카메라 등 포맷 혁신도 여전히 새로운 수요를 만들고 있다.",
+    "trend_details": [
+      "AI 음악 생성 도구(Suno)가 비전문가의 창작 진입장벽을 허물며 크리에이터 이코노미 확대를 가속화하고 있다 [추론]",
+      "일본 손해보험대학 자격증처럼 응시자 1만명 이하의 극초틈새 에듀테크가 낮은 경쟁 속에 안정적 수익을 내는 패턴이 반복된다 [추론]",
+      "Vigloo 같은 세로 포맷 숏폼 드라마가 TikTok 포맷 경험에 익숙한 10~30대의 새로운 스토리 소비 채널로 부상하고 있다 [추론]",
+      "플립폰·VHS 등 Y2K 레트로 미학을 활용한 카메라·영상 앱이 Z세대 SNS 크리에이터 시장에서 꾸준히 신규 진입에 성공하고 있다 [추론]",
+      "Notification Box처럼 OS의 미해결 불편함을 서드파티 앱으로 해결하는 유틸리티 앱이 글로벌 보편적 수요로 낮은 마케팅 비용에 유저 획득이 가능하다 [추론]"
+    ],
+    "hot_categories": [
+      "AI 창작 도구",
+      "버티컬 에듀테크(자격증)",
+      "숏폼 드라마",
+      "레트로 카메라",
+      "OS 유틸리티"
+    ],
+    "opportunity": "국내 응시자 1만명 이상의 틈새 자격증(공인중개사·손해사정사·전기기사·위험물취급자 등)별 전용 문제집 앱 시리즈화: 낮은 개발 비용(앱당 100~300만원)으로 복수 앱 포트폴리오 구축 시 안정적 장기 수익 확보 가능 [추론]",
+    "action_item": "Notification Box 클론 MVP를 Notification Service Extension으로 1~2개월 내 제작 후 앱스토어 출시 테스트 진행, 동시에 국내 응시자 5만명 이상 자격증 3개를 선정해 문제 데이터 수집 및 법적 검토 착수할 것"
+  },
+  "data_status": {}
+}
