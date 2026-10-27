@@ -1,0 +1,699 @@
+{
+  "date": "2026-10-28",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "b20de7b89086e0c7cc9519b3",
+      "name": "دربونة - تطبيق الملاحة العراقي",
+      "developer": "HAQIBAT ELMOMEN",
+      "category": "Navigation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/d8/62/15d862f8-7873-303f-ab21-4db1334409c7/AppIcon-0-1x_U007epad-0-11-0-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/%D8%AF%D8%B1%D8%A8%D9%88%D9%86%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A/id6823260015",
+      "idea_summary": "이라크 전용 로컬 맞춤형 내비게이션",
+      "analysis": {
+        "problem": "구글 맵 등 글로벌 내비게이션 앱이 이라크 현지 도로·POI 데이터를 충분히 커버하지 못함 [추론]",
+        "solution": "이라크 전역 현지 지도 데이터 기반의 맞춤형 경로 안내와 POI 정보 제공 [추론]",
+        "target_user": "이라크 거주자, 현지 여행자, 물류·배달 종사자 등 이라크 내 이동이 잦은 사용자 [추론]",
+        "unique_point": "글로벌 앱 사각지대인 이라크 로컬 도로·상권 데이터에 특화하여 현지 독점적 위치 확보 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Maps",
+          "Waze",
+          "HERE Maps"
+        ],
+        "timing_reason": "중동 디지털 전환 가속과 이라크 경제 재건으로 현지 특화 디지털 서비스 수요 급증 [추론]",
+        "growth_potential": "이라크 스마트폰 보급 확대와 함께 현지 앱 시장 성장 잠재력이 높음 [추론]"
+      },
+      "business": {
+        "monetization": "인앱 광고 또는 프리미엄 구독 모델 [추측]",
+        "pricing_suggestion": "무료 기본 제공 후 오프라인 지도·광고 제거 유료 구독 구조 권장 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "2000-5000 [추론]",
+        "tech_stack": [
+          "React Native",
+          "OpenStreetMap",
+          "Mapbox SDK",
+          "HERE Maps API"
+        ],
+        "key_features": [
+          "오프라인 지도 다운로드",
+          "실시간 경로 안내",
+          "현지 POI 데이터베이스",
+          "아랍어 UI 지원"
+        ],
+        "clone_tip": "OpenStreetMap 오픈 데이터를 활용해 글로벌 앱 사각지대인 저개발 국가 특정 지역 내비게이션을 구축하면 낮은 경쟁으로 로컬 독점 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#지역특화",
+        "#B2C",
+        "#1인개발가능",
+        "#중동시장"
+      ],
+      "verdict": "글로벌 앱 사각지대 이라크 전용 내비로 로컬 독점 가능성 충분",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "a5c6479ec32b9c7aefce3b64",
+      "name": "下水道管理技術認定試験　試験対策",
+      "developer": "RUMAHSAKU CORP.",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/8d/3a/068d3ac7-83b4-a93a-408e-7613f92d8281/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E4%B8%8B%E6%B0%B4%E9%81%93%E7%AE%A1%E7%90%86%E6%8A%80%E8%A1%93%E8%AA%8D%E5%AE%9A%E8%A9%A6%E9%A8%93-%E8%A9%A6%E9%A8%93%E5%AF%BE%E7%AD%96/id6760534706",
+      "idea_summary": "일본 하수도 관리 자격증 전문 수험 앱",
+      "analysis": {
+        "problem": "일본 하수도 관리 기술 인정 시험을 위한 모바일 전용 학습 자료가 극히 부족 [추론]",
+        "solution": "시험 전용 문제은행과 학습 콘텐츠를 모바일로 언제든 접근 가능하게 제공 [확인]",
+        "target_user": "일본 하수도 관리 기술 인정 시험 응시 예정인 인프라·토목 업계 종사자 [추론]",
+        "unique_point": "경쟁 앱이 거의 없는 극히 니치한 국가 자격증에 특화하여 해당 분야 독점적 위치 선점 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "스터디플러스",
+          "Quizlet",
+          "일반 자격증 학습 앱"
+        ],
+        "timing_reason": "일본 노후 인프라 갱신 사업 확대로 하수도 관련 자격증 취득 수요 증가 [추론]",
+        "growth_potential": "자격증 응시 인원 규모는 작으나 경쟁 없는 니치 시장에서 안정적 수익 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 단일 판매 또는 인앱 문제 팩 구매 [추론]",
+        "pricing_suggestion": "일본 자격증 앱 평균 시세인 600-1,200엔 단일 유료 앱으로 출시 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-3개월 [추론]",
+        "estimated_cost": "300-800 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "문제은행 랜덤 출제",
+          "오답 노트 자동 생성",
+          "시험 시뮬레이션 모드",
+          "학습 진도 추적"
+        ],
+        "clone_tip": "특정 국가의 비주류 자격증 시험 앱은 경쟁이 거의 없어 콘텐츠만 확보하면 단기간에 틈새 시장을 독점하는 인디 개발자의 교과서적 모델 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#니치마켓",
+        "#B2C",
+        "#일본시장"
+      ],
+      "verdict": "극히 좁은 틈새지만 경쟁 제로, 동일 구조 다과목 시리즈 확장 가능",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "source_id": "30466034297e8159fd235f8e",
+      "name": "Running Writings Lab",
+      "developer": "Running Writings",
+      "category": "Sports",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/6a/e7/506ae71b-23f7-24e4-04b4-81dd910e380a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/running-writings-lab/id6807671361",
+      "idea_summary": "달리기 훈련 추적과 저널링을 결합한 러너 앱",
+      "analysis": {
+        "problem": "러너들이 훈련 기록과 러닝 경험을 글로 남기고 커뮤니티와 공유할 통합 플랫폼이 없음 [추론]",
+        "solution": "달리기 퍼포먼스 추적과 저널링·글쓰기 기능을 하나의 앱에서 통합 제공 [추론]",
+        "target_user": "달리기를 즐기면서 자신의 여정을 기록하고 다른 러너들과 공유하고 싶은 열정적인 러너 [추론]",
+        "unique_point": "스포츠 트래킹과 스토리텔링을 결합해 Strava와 미디엄 사이의 빈 포지션을 공략하는 독특한 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Strava",
+          "Nike Run Club",
+          "Garmin Connect",
+          "Medium"
+        ],
+        "timing_reason": "러닝 인구의 꾸준한 증가와 자기계발 콘텐츠 소비 트렌드가 맞물린 적절한 타이밍 [추론]",
+        "growth_potential": "열정적인 러닝 커뮤니티를 기반으로 충성 유저층 형성 가능하나 확장 한계 존재 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 기능 제공 (고급 훈련 분석, 무제한 저널 등) [추론]",
+        "pricing_suggestion": "월 4.99달러 구독 또는 연 39.99달러 플랜 권장 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "800-2000 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "HealthKit",
+          "CoreLocation",
+          "CloudKit"
+        ],
+        "key_features": [
+          "GPS 러닝 트래킹",
+          "저널 및 글쓰기 에디터",
+          "훈련 계획 수립",
+          "커뮤니티 피드"
+        ],
+        "clone_tip": "HealthKit 연동으로 러닝 데이터 수집 후 텍스트 에디터를 결합하면 MVP 구현 가능, 특정 스포츠 커뮤니티 타겟팅과 콘텐츠 큐레이션이 성패를 가름 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#커뮤니티",
+        "#B2C",
+        "#스포츠"
+      ],
+      "verdict": "Strava와 미디엄 사이 빈 포지션, 러너 라이터 커뮤니티 공략 가능",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "source_id": "bcd580f86ef966a2acf69c17",
+      "name": "NostalgicPod",
+      "developer": "Jesus manuel Curreri",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/70/e2/5c70e278-0c12-4e63-6045-10fe4e4b798a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/nostalgicpod/id6781631808",
+      "idea_summary": "향수 감성 기반 복고 음악 큐레이션 청취 앱",
+      "analysis": {
+        "problem": "알고리즘 추천 중심의 스트리밍 앱들이 향수·레트로 감성에 특화된 청취 경험을 제공하지 못함 [추론]",
+        "solution": "향수를 불러일으키는 복고 음악과 팟캐스트 콘텐츠를 테마별로 큐레이션하여 감성적 청취 경험 제공 [추론]",
+        "target_user": "80-90년대 음악 등 레트로 감성을 그리워하는 20-50대 사용자 [추측]",
+        "unique_point": "스트리밍 알고리즘이 아닌 향수·감성 테마 기반 수동 큐레이션으로 차별화된 감성 청취 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Spotify",
+          "Apple Music",
+          "Podcast 전용 앱들"
+        ],
+        "timing_reason": "Y2K·레트로 트렌드 부활과 노스탤지어 마케팅 성장으로 복고 콘텐츠 수요 증가 [추론]",
+        "growth_potential": "레트로 트렌드가 지속되는 한 충성 사용자층 유지 가능하나 시장 확장성은 제한적 [추론]"
+      },
+      "business": {
+        "monetization": "인앱 구독 또는 광고 기반 수익화 [추측]",
+        "pricing_suggestion": "무료 체험 후 월 2.99-4.99달러 구독 모델 추천 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "500-1500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "AVFoundation",
+          "Spotify API 또는 Apple Music API"
+        ],
+        "key_features": [
+          "테마별 복고 음악 큐레이션",
+          "연도별 플레이리스트",
+          "레트로 감성 UI 디자인",
+          "팟캐스트 통합"
+        ],
+        "clone_tip": "Spotify 또는 Apple Music API로 음악 스트리밍을 연결하고 특정 감성·연도 테마의 큐레이션 레이어를 얹으면 차별화 가능, UI 레트로 감성 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#레트로",
+        "#감성앱"
+      ],
+      "verdict": "레트로 트렌드 편승 가능하나 대형 스트리밍과 경쟁이 핵심 과제",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "source_id": "848cd60af354d99837c26555",
+      "name": "損保大学課程 税務単位 問題集 損害保険大学課程専門コース",
+      "developer": "株式会社キイロ乃カモ",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/41/e6/30/41e63096-316b-1696-596c-3569673d5f56/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E6%90%8D%E4%BF%9D%E5%A4%A7%E5%AD%A6%E8%AA%B2%E7%A8%8B-%E7%A8%8E%E5%8B%99%E5%8D%98%E4%BD%8D-%E5%95%8F%E9%A1%8C%E9%9B%86-%E6%90%8D%E5%AE%B3%E4%BF%9D%E9%99%BA%E5%A4%A7%E5%AD%A6%E8%AA%B2%E7%A8%8B%E5%B0%82%E9%96%80%E3%82%B3%E3%83%BC%E3%82%B9/id6790034925",
+      "idea_summary": "손해보험 전문 세무 단위 자격증 문제집 앱",
+      "analysis": {
+        "problem": "손해보험 대학 과정 전문 코스 세무 단위 시험 준비를 위한 전용 모바일 앱 부재 [추론]",
+        "solution": "세무 단위 시험에만 특화된 문제은행과 학습 자료를 모바일로 제공 [확인]",
+        "target_user": "일본 손해보험 대학 과정 전문 코스 세무 단위 시험 응시 예정인 보험 업계 종사자 [추론]",
+        "unique_point": "손해보험 대학 과정 내에서도 세무 단위에만 집중하는 초특화 앱으로 경쟁자 사실상 전무 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "일반 자격증 학습 앱",
+          "スタディプラス"
+        ],
+        "timing_reason": "일본 보험 업계의 디지털 전환과 보험 설계사의 모바일 학습 수요 증가 [추론]",
+        "growth_potential": "응시 인원이 제한적이나 동일 개발사가 다른 보험 과목으로 확장하면 시리즈화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 단일 판매 또는 인앱 문제 팩 판매 [추론]",
+        "pricing_suggestion": "일본 전문 자격증 앱 시세인 480-980엔 단일 유료 앱 권장 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "200-500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "문제 랜덤 출제",
+          "오답 복습 기능",
+          "정답률 통계",
+          "시험 시뮬레이션 모드"
+        ],
+        "clone_tip": "인디 개발자가 가장 쉽게 진입 가능한 모델, 특정 국가 비인기 자격증 시험 콘텐츠만 확보하면 기술 난이도 낮고 경쟁 없는 시장 독점 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 1,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 5.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#니치마켓",
+        "#B2C",
+        "#일본시장"
+      ],
+      "verdict": "초소형 틈새지만 경쟁 제로, 시리즈 확장으로 포트폴리오 구축 가능",
+      "country": "jp"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "67e1282069f7271538f14266",
+      "name": "SpeakUp AI - 언어 학습",
+      "developer": "Growly",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/q9zztoFKGy3TDVjJR023Ta4BudhNeX8EUh0JHNp2ZoeGbtPQzToa2MqF5Fi5L3rp_iQVTSrcdRfP2LhKMNBy",
+      "app_url": "https://play.google.com/store/apps/details?id=com.growly.speakup.ai",
+      "idea_summary": "AI 실시간 음성 대화로 외국어 말하기 집중 훈련",
+      "analysis": {
+        "problem": "기존 언어 학습 앱이 읽기·쓰기 중심이라 실제 말하기 능력 향상에 근본적 한계 존재 [추론]",
+        "solution": "AI와의 실시간 음성 대화 연습으로 회화 능력과 발음을 부담 없이 집중 훈련 [추론]",
+        "target_user": "영어 등 외국어 회화 능력 향상이 필요한 학생, 직장인, 취업 준비생 [추론]",
+        "unique_point": "AI 튜터와의 부담 없는 실시간 말하기 연습으로 원어민 강사 비용 없이 회화 훈련 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Speak",
+          "ELSA Speak",
+          "Cambly"
+        ],
+        "timing_reason": "AI 음성 처리 기술 성숙과 원어민 회화 수업 비용 부담 증가로 AI 언어 코칭 수요 급증 [추론]",
+        "growth_potential": "글로벌 언어 학습 시장의 지속 성장과 AI 튜터 트렌드로 높은 성장 잠재력 보유 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 모델 (무료 일정 횟수 제공 후 유료 전환) [추론]",
+        "pricing_suggestion": "월 9.99달러 또는 연 59.99달러 구독, 무료 체험 5회 제공 진입 장벽 낮춤 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "2000-6000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Jetpack",
+          "OpenAI Realtime API",
+          "Google Speech-to-Text",
+          "WebRTC"
+        ],
+        "key_features": [
+          "AI 실시간 음성 대화",
+          "발음 교정 피드백",
+          "레벨별 시나리오 대화",
+          "학습 진도 추적"
+        ],
+        "clone_tip": "OpenAI Realtime API와 STT/TTS 통합이 핵심, 비즈니스 영어·여행 회화·IELTS 준비 등 특정 목적 특화로 차별화하면 인디 개발자도 충분히 경쟁력 확보 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#글로벌",
+        "#구독모델"
+      ],
+      "verdict": "AI 회화 학습 수요 폭발적, 특화 목적·언어로 차별화가 승패 결정",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "a9f297912a9618cf7d195a31",
+      "name": "DramaWave -인기 단편/한일 드라마, 역전극!",
+      "developer": "SKYWORK AI PTE.LTD.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/qdfS5KciqnG6lP2HCxKT-CoeWrGdXsxe2sQgRR_-X-G_MVG5WZljSIesMUPkAkic0cjxgsp7gA6WMNXaq-lA6iU",
+      "app_url": "https://play.google.com/store/apps/details?id=com.dramawave.app",
+      "idea_summary": "한일 콘텐츠 특화 숏드라마 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "한국·일본 단편 드라마를 한 곳에서 쉽게 즐길 수 있는 전문 숏드라마 플랫폼 부재 [추론]",
+        "solution": "한일 단편 드라마·역전극 장르에 특화된 스트리밍 서비스와 코인 기반 에피소드 잠금 해제 제공 [추론]",
+        "target_user": "K-드라마·일본 드라마 팬, 짧은 시간에 드라마를 즐기고 싶은 글로벌 20-40대 [추론]",
+        "unique_point": "한국·일본 콘텐츠에 장르를 집중하여 글로벌 한류 팬덤을 타겟팅한 명확한 차별화 전략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ReelShort",
+          "Vigloo",
+          "Webtoon",
+          "Netflix"
+        ],
+        "timing_reason": "한류 콘텐츠의 글로벌 인기와 숏폼 드라마 시장 폭발적 성장이 맞물린 최적의 타이밍 [추론]",
+        "growth_potential": "K-콘텐츠 글로벌 팬덤 확대와 숏드라마 시장 지속 성장으로 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 시청 + 코인·포인트로 프리미엄 에피소드 잠금 해제 IAP 병행 [추론]",
+        "pricing_suggestion": "에피소드 잠금 해제 코인 패키지 1.99-9.99달러 + 월정액 구독 옵션 병행 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "3000-8000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Jetpack",
+          "ExoPlayer",
+          "Firebase",
+          "AWS CloudFront CDN"
+        ],
+        "key_features": [
+          "숏드라마 스트리밍",
+          "코인 결제 시스템",
+          "에피소드 연속 재생",
+          "다국어 자막 지원"
+        ],
+        "clone_tip": "콘텐츠 확보가 가장 큰 진입 장벽, 특정 국가 인디 제작사와 독점 파트너십 체결로 차별화 콘텐츠 확보가 핵심 성공 요인 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#한류",
+        "#B2C",
+        "#콘텐츠",
+        "#글로벌"
+      ],
+      "verdict": "한류 팬덤 + 숏드라마 트렌드 교차점, 독점 콘텐츠 수급이 핵심 과제",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "847218fe51a1d60122d3b67f",
+      "name": "Kalshi: Trade Sports & Events",
+      "developer": "KalshiEX LLC",
+      "category": "Finance",
+      "icon": "https://play-lh.googleusercontent.com/xqqztHYjICcovxgfuUeVvD-nrTrJS3xHisZXn7fycgdfm-D7RYxwFeu0jGBjp1rUm_X57YryaotZD-IBLuQdqjg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.kalshi.mobile",
+      "idea_summary": "CFTC 규제 기반 합법적 스포츠·이벤트 예측 거래",
+      "analysis": {
+        "problem": "스포츠 및 현실 이벤트 결과에 대한 합법적이고 규제된 예측 거래 시장이 미국에서 부재 [추론]",
+        "solution": "CFTC 규제를 받는 합법적 이벤트 계약 거래소에서 스포츠·선거·경제 이벤트 계약 거래 제공 [추론]",
+        "target_user": "스포츠·정치·경제 이벤트에 관심 있는 미국 성인 투자자 및 스포츠 팬 [추론]",
+        "unique_point": "미국 CFTC 공식 규제 인가를 받은 이벤트 계약 거래소로 법적 합법성과 신뢰성을 동시에 확보 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PredictIt",
+          "Polymarket",
+          "각종 스포츠 베팅 앱"
+        ],
+        "timing_reason": "미국 스포츠 베팅 합법화 확대와 예측 시장에 대한 투자자 관심 급증 [추론]",
+        "growth_potential": "CFTC 인가 선점 사업자로서 예측 시장 성장과 함께 강한 해자 형성 가능 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료(거래액의 일정 %) 기반 수익 모델 [추론]",
+        "pricing_suggestion": "거래 수수료 1-5% 구조로 거래량 확대에 따른 자연스러운 수익 성장 설계 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12-24개월 (규제 승인 포함) [추론]",
+        "estimated_cost": "10000이상 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Jetpack",
+          "WebSocket",
+          "REST API",
+          "금융 보안 모듈"
+        ],
+        "key_features": [
+          "실시간 이벤트 계약 거래",
+          "포트폴리오 관리",
+          "실시간 시세 차트",
+          "입출금 기능"
+        ],
+        "clone_tip": "금융 규제 승인이 가장 큰 진입 장벽으로 인디 개발자에게 직접 클론보다 특정 국가 예측 시장 API 연동 방식이나 규제 샌드박스 활용을 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#핀테크",
+        "#B2C",
+        "#미국시장",
+        "#규제이슈"
+      ],
+      "verdict": "예측 시장 선점자, 규제 장벽 높아 인디 클론은 신중한 접근 필요",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "source_id": "9c45745146b34ad21ec36c9c",
+      "name": "XTranslator Live: AI",
+      "developer": "AI Translator",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/shNURncyj9WCfLxVPfMFuSzyxSQmY_233PN0JEeQuUJAbOzNVeEvssPL-FuxlLna4ystLdWMoqFi3OjXkgQ4kQ",
+      "app_url": "https://play.google.com/store/apps/details?id=fc.com.ai.translate.live.voice.camera.pdf.doc",
+      "idea_summary": "음성·카메라·PDF 통합 AI 멀티모달 실시간 번역",
+      "analysis": {
+        "problem": "음성, 문서, 이미지 등 다양한 형태의 번역이 각기 다른 앱에 분산되어 해외 상황 대응에 불편 [추론]",
+        "solution": "음성, 카메라, 텍스트, PDF·문서 번역을 하나의 앱에서 AI 기반으로 통합 처리 [추론]",
+        "target_user": "해외 여행자, 다국어 비즈니스 종사자, 외국어 문서를 자주 다루는 직장인 [추론]",
+        "unique_point": "멀티모달(음성+카메라+문서) 번역을 단일 앱에서 통합 처리하는 올인원 번역 솔루션 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Translate",
+          "DeepL",
+          "Papago",
+          "Microsoft Translator"
+        ],
+        "timing_reason": "AI 번역 품질 향상과 글로벌 이동성 회복으로 번역 앱 수요 지속 증가 [추론]",
+        "growth_potential": "번역 앱 시장은 포화 상태이나 PDF·문서 번역 등 특정 기능 특화로 차별화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 광고 기반 + PDF 번역 등 고급 기능 인앱 구매 또는 구독 [추론]",
+        "pricing_suggestion": "월 2.99-4.99달러 구독 또는 PDF 번역 등 고급 기능 단건 결제 2.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "1000-3000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Jetpack",
+          "Google ML Kit",
+          "DeepL API",
+          "Google Cloud Vision API"
+        ],
+        "key_features": [
+          "실시간 카메라 AR 번역",
+          "음성 실시간 통역",
+          "PDF·문서 번역",
+          "오프라인 번역 지원"
+        ],
+        "clone_tip": "Google ML Kit의 번역·OCR API 활용으로 기본 기능 빠르게 구현 가능, PDF 번역 정확도와 레이아웃 유지가 경쟁력 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 1,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#글로벌",
+        "#AI활용"
+      ],
+      "verdict": "구글 번역과 정면 경쟁 불가, PDF·문서 특화 틈새 전략으로 차별화 필수",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "091a6358b08f8cb43e1a5cfc",
+      "name": "FreeDrama: Short Drama & Reels",
+      "developer": "Kuku Technologies Limited",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/naDFm8LzFy2OVyMrUf5vZDWlSSANqLWpjkf6oD_9Itm4UOh0NJXfKg5ruiheKxFb42nlo4Q9RSVrMZDiCfG8mw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.drama.free",
+      "idea_summary": "코인 결제 없는 완전 무료 단편 드라마 플랫폼",
+      "analysis": {
+        "problem": "대부분의 숏드라마 앱이 코인·결제 시스템으로 진입 장벽을 만들어 사용자 이탈률이 높음 [추론]",
+        "solution": "광고 기반 완전 무료 모델로 단편 드라마와 릴스 콘텐츠를 제한 없이 제공 [추론]",
+        "target_user": "비용 부담 없이 단편 드라마를 즐기고 싶은 글로벌 모바일 동영상 소비자 [추론]",
+        "unique_point": "코인 결제 없는 완전 무료 단편 드라마 플랫폼으로 접근성과 초기 사용자 획득 속도를 극대화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ReelShort",
+          "DramaWave",
+          "Vigloo",
+          "TikTok"
+        ],
+        "timing_reason": "숏폼 드라마 콘텐츠 소비 급증과 유료 코인 모델에 대한 사용자 피로감이 무료 플랫폼의 기회 창출 [추론]",
+        "growth_potential": "무료 모델로 빠른 사용자 확보 가능하나 광고 수익 단가 확보가 지속 수익화의 관건 [추론]"
+      },
+      "business": {
+        "monetization": "인스트림 광고 및 배너 광고 기반 수익화 [추론]",
+        "pricing_suggesting": "완전 무료 유지 + 광고 제거 구독 월 1.99달러 옵션 추가 권장 [추론]",
+        "pricing_suggestion": "완전 무료 유지 + 광고 제거 구독 월 1.99달러 옵션 추가 권장 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "2000-5000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "AdMob",
+          "AWS CloudFront CDN"
+        ],
+        "key_features": [
+          "숏드라마 스트리밍",
+          "무한 스크롤 피드",
+          "AdMob 광고 통합",
+          "오프라인 에피소드 다운로드"
+        ],
+        "clone_tip": "ExoPlayer + AdMob 조합으로 기본 무료 스트리밍 앱 구현 가능, 콘텐츠 라이선스 계약이 가장 큰 진입 장벽이므로 인디 제작사 파트너십 우선 확보 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2C",
+        "#콘텐츠",
+        "#글로벌",
+        "#무료모델"
+      ],
+      "verdict": "무료 모델로 빠른 유저 확보 가능, 광고 수익화와 콘텐츠 수급이 핵심",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘의 앱 트렌드는 글로벌 대형 앱이 진출하지 않는 로컬 특화 틈새 시장 공략과 AI 기반 실용 도구의 강세가 두드러진다. AI 언어 학습과 숏드라마 콘텐츠 플랫폼이 인디 개발자에게 가장 현실적이고 즉시 실행 가능한 기회 영역으로 부상하고 있다. [추론]",
+    "trend_details": [
+      "글로벌 내비게이션 앱의 사각지대인 중동·아프리카 등 신흥 시장 로컬 특화 앱의 성장 가능성 [추론]",
+      "AI 음성 처리 기술 성숙으로 AI 튜터·실시간 번역 등 언어 서비스 앱의 MVP 개발 진입 장벽이 크게 하락 [추론]",
+      "한류 콘텐츠 글로벌 수요와 숏폼 드라마 소비 트렌드가 맞물려 K-콘텐츠 특화 스트리밍 앱 기회 확대 [추론]",
+      "일본·한국 등 특정 국가 비주류 자격증 전문 앱이 경쟁 없는 니치 시장에서 안정적 수익 모델로 주목 [추론]",
+      "숏드라마 플랫폼에서 코인 결제 유료 모델에 대한 사용자 피로감이 증가하며 완전 무료 광고 모델의 경쟁력 부각 [추론]"
+    ],
+    "hot_categories": [
+      "AI 언어 학습",
+      "숏드라마 스트리밍",
+      "로컬 내비게이션",
+      "틈새 자격증 교육",
+      "멀티모달 번역"
+    ],
+    "opportunity": "AI 실시간 음성 대화 기술을 활용한 특화 목적(비즈니스 영어, IELTS, 여행 회화 등) AI 회화 코칭 앱과, 글로벌 앱이 진출하지 않은 중동·동남아 신흥 국가 로컬 서비스가 가장 유망한 기회 영역 [추론]",
+    "action_item": "OpenAI Realtime API를 활용한 특정 목적 특화 AI 회화 앱(예: 비즈니스 영어 인터뷰 연습)의 MVP를 2-3개월 내 제작하고 Product Hunt 런칭으로 초기 시장 검증 시작 [추론]"
+  },
+  "data_status": {}
+}
