@@ -1,0 +1,687 @@
+{
+  "date": "2026-10-30",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "10b392e3635822f34873a1e5",
+      "name": "VirtuCamera 2",
+      "developer": "The Weird Byte SL",
+      "category": "Graphics & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/06/52/eb06527a-554c-2154-991c-19578f93d062/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/virtucamera-2/id6761327593",
+      "idea_summary": "아이폰을 3D 소프트웨어 실시간 카메라 컨트롤러로 변환",
+      "analysis": {
+        "problem": "3D 씬 촬영 시 별도 입력 장치가 필요해 워크플로우가 단절되고 비용이 높음 [추론]",
+        "solution": "아이폰 자이로스코프로 Cinema 4D, Blender 등 3D 소프트웨어의 카메라를 실시간 물리 제어 [확인]",
+        "target_user": "3D 아티스트, VFX 프리랜서, 건축 시각화 전문가 등 전문 3D 제작자 [추론]",
+        "unique_point": "스마트폰 모션 센서로 3D 소프트웨어 카메라를 직접 조종하는 전례 없는 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "SpaceMouse (3Dconnexion)",
+          "Cinemagraph Pro",
+          "DJI Mimo"
+        ],
+        "timing_reason": "원격 3D 작업 증가와 AI 콘텐츠 생산 붐으로 전문 모바일 제작 보조 도구 수요 상승 [추론]",
+        "growth_potential": "VFX·게임 산업 성장과 함께 전문 제작 보조 도구 시장 확대 예상 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 지원 소프트웨어별 플러그인 구독 모델 [추론]",
+        "pricing_suggestion": "전문가 타겟 일회성 $29.99 또는 월 구독 $9.99~$14.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "3000~6000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreMotion",
+          "WebSocket",
+          "ARKit"
+        ],
+        "key_features": [
+          "실시간 자이로 데이터 전송",
+          "3D 소프트웨어 플러그인 연동",
+          "카메라 경로 녹화",
+          "멀티 소프트웨어 지원"
+        ],
+        "clone_tip": "Cinema 4D 공개 API + WebSocket으로 MVP 구현 가능. 먼저 단일 소프트웨어만 지원하는 버전으로 시작 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#전문가툴",
+        "#B2B가능",
+        "#니치마켓"
+      ],
+      "verdict": "전문 3D 제작자 니치 공략 가능한 독창적 모바일 입력 도구",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "c199d7a2050459854a5e378c",
+      "name": "Chromagraph Camera",
+      "developer": "Chromatic Applications LLC",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/1a/34/9d1a3404-c26d-6a84-bcee-41e567a7b9fc/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/chromagraph-camera/id6803329435",
+      "idea_summary": "표준 필터를 넘어선 시네마틱 컬러·텍스처 레이어 카메라",
+      "analysis": {
+        "problem": "기본 카메라 앱 필터는 단순 색조 보정 수준으로 영화적 분위기 연출이 불가능 [추론]",
+        "solution": "색상 그레이딩과 필름 텍스처를 실시간 레이어로 조합해 촬영 즉시 시네마틱 결과물 구현 [추론]",
+        "target_user": "영상미에 민감한 20~35세 크리에이터, 인플루언서, 사진·영상 애호가 [추론]",
+        "unique_point": "단순 필터가 아닌 색상+텍스처 레이어 조합 방식으로 실제 필름 룩앤필 구현 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Halide Mark II",
+          "Filmic Pro"
+        ],
+        "timing_reason": "숏폼 콘텐츠 확산으로 일반 사용자의 영상 퀄리티 기대치가 크게 상승 [추론]",
+        "growth_potential": "크리에이터 이코노미 성장과 함께 고품질 촬영 도구 수요 지속 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 추가 룩 팩 인앱결제, 광고 제거 유료화 [추론]",
+        "pricing_suggestion": "기본 무료, 추가 필터팩 $1.99~$4.99, 올인원 번들 $9.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "1500~3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Metal",
+          "Core Image",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "실시간 LUT 적용",
+          "필름 그레인 텍스처 레이어",
+          "커스텀 컬러 그레이딩",
+          "RAW 촬영 지원"
+        ],
+        "clone_tip": "Metal 셰이더로 커스텀 LUT 실시간 렌더링 구현 가능. 무료 LUT 10개로 MVP 출시 후 프리미엄 팩 추가 전략 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#크리에이터",
+        "#B2C",
+        "#1인개발가능"
+      ],
+      "verdict": "크리에이터 타겟 시네마틱 카메라, 필터팩 인앱결제 수익화 적합",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "source_id": "23c813a268c87ecba6e52be1",
+      "name": "종쳤다: 학교 종소리 알람",
+      "developer": "Logogram LC.",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/e0/be/9de0be94-73b5-31b8-f229-3af10d702ba1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%A2%85%EC%B3%A4%EB%8B%A4-%ED%95%99%EA%B5%90-%EC%A2%85%EC%86%8C%EB%A6%AC-%EC%95%8C%EB%9E%8C/id6813399387",
+      "idea_summary": "학교 종소리와 방송음으로 기상하는 향수 자극 알람 앱",
+      "analysis": {
+        "problem": "단조로운 알람 소리에 무감각해져 기상 동기 부여가 떨어지는 문제 [추론]",
+        "solution": "학교 수업 시작·종례 종소리 및 교내 방송 사운드로 알람을 구성해 색다른 기상 경험 제공 [확인]",
+        "target_user": "현재 학생 및 학창 시절 향수를 가진 20~40대, 개성 있는 알람을 원하는 사용자 [추론]",
+        "unique_point": "학교 종소리라는 강한 향수 트리거를 알람 사운드로 활용한 감성 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "기본 시계 앱",
+          "알라미",
+          "Alarmy"
+        ],
+        "timing_reason": "레트로·향수 콘텐츠 트렌드 지속과 함께 개성 있는 알람 앱 수요 꾸준히 존재 [추론]",
+        "growth_potential": "니치 마켓이지만 한국 학생 및 향수 타겟 사용자 기반으로 안정적 수요 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 사운드 팩 인앱결제, 광고 기반 무료 + 광고 제거 유료화 [추론]",
+        "pricing_suggestion": "기본 무료, 추가 사운드 팩 ₩1,200~₩3,900, 광고 제거 ₩2,400 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "300~800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "UserNotifications",
+          "SwiftUI"
+        ],
+        "key_features": [
+          "커스텀 사운드 알람",
+          "요일별 반복 설정",
+          "학교 방송 사운드 라이브러리",
+          "스누즈 기능"
+        ],
+        "clone_tip": "iOS UserNotifications + AVAudioPlayer 조합으로 1인 MVP 1개월 내 가능. 사운드 라이선스 확보가 핵심 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#향수마케팅"
+      ],
+      "verdict": "저비용 1인 개발 가능한 한국 학생 타겟 니치 알람앱",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "cdd63c69b5c039c42ebac290",
+      "name": "ARCQ SPL - SPL Meter",
+      "developer": "JRB LAB",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/85/fa/a885fab7-3f64-1e4b-e26e-4b2510dbf78b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/arcq-spl-spl-meter/id6782095826",
+      "idea_summary": "아이폰 마이크로 환경 음압을 정밀 측정하는 SPL 미터",
+      "analysis": {
+        "problem": "소음 환경 측정을 위해 고가의 별도 장비가 필요하며 일반인 접근 장벽이 높음 [추론]",
+        "solution": "아이폰 내장 마이크를 활용해 주변 소음 데시벨을 실시간 측정·모니터링 제공 [확인]",
+        "target_user": "음향 엔지니어, 환경·건축 분야 종사자, 소음 민감 환경 거주자, 음악가 [추론]",
+        "unique_point": "전문 SPL 장비 없이 스마트폰만으로 현장 소음 수치 즉시 확인 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Decibel X",
+          "NIOSH SLM",
+          "Sound Meter"
+        ],
+        "timing_reason": "소음 공해 인식 증가 및 재택근무 환경 품질에 대한 관심 고조 [추론]",
+        "growth_potential": "환경 측정 앱 시장은 소규모이나 전문 사용자층의 지속적 수요 존재 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료, 프로 기능(데이터 내보내기, 장기 기록, 고급 분석) 유료 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프로 구독 월 $2.99~$4.99 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "500~1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Accelerate",
+          "Charts"
+        ],
+        "key_features": [
+          "실시간 dB 측정",
+          "피크 레벨 감지",
+          "시간대별 데이터 기록",
+          "CSV 내보내기",
+          "위젯 지원"
+        ],
+        "clone_tip": "AVAudioRecorder의 peakPowerForChannel API로 핵심 기능 구현 가능. 정확도보다 UX 완성도와 데이터 시각화에 집중 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#유틸리티",
+        "#전문가툴"
+      ],
+      "verdict": "전문 측정 도구의 스마트폰 민주화, 소규모 니치지만 실용성 명확",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "2eb7057e39afe61160b49e7d",
+      "name": "ROLLIE'S: 35mm Film Camera",
+      "developer": "마야크루",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/f2/40/20f240b5-43ad-4062-fb1e-518bdb88b956/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/rollies-35mm-film-camera/id6805318319",
+      "idea_summary": "바디·렌즈·필름 조합 시스템으로 아날로그 카메라 완벽 시뮬레이션",
+      "analysis": {
+        "problem": "필름 카메라 감성을 원하지만 실제 필름 카메라는 비용·불편함이 크고 접근성이 낮음 [추론]",
+        "solution": "35mm 카메라 바디, 렌즈, 필름 스톡을 자유 조합해 실제 필름 카메라 촬영 경험 디지털 구현 [확인]",
+        "target_user": "아날로그 감성 선호 MZ세대, 사진 취미를 가진 20~30대, 레트로 트렌드 추종자 [추론]",
+        "unique_point": "단순 필터가 아닌 바디+렌즈+필름 3중 조합 시스템으로 실제 카메라 조작 경험 재현 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Huji Cam",
+          "VSCO",
+          "Lomo'Instant"
+        ],
+        "timing_reason": "Z세대 아날로그 레트로 트렌드 지속과 필름 카메라 부활 문화 확산 중 [추론]",
+        "growth_potential": "레트로 트렌드 기반 지속 성장 가능하나 유사 앱 포화로 차별화 필요 [추론]"
+      },
+      "business": {
+        "monetization": "추가 카메라 바디·렌즈·필름 팩 인앱결제, 기본 무료 모델 [추론]",
+        "pricing_suggesting": "기본 무료, 프리미엄 팩 ₩1,200~₩4,900, 전체 팩 번들 ₩9,900 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 팩 ₩1,200~₩4,900, 전체 팩 번들 ₩9,900 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "1000~2500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Metal",
+          "Core Image",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "바디·렌즈·필름 조합 시스템",
+          "필름 그레인 효과",
+          "현상 대기 시뮬레이션",
+          "36컷 롤 개념 구현"
+        ],
+        "clone_tip": "Metal 셰이더로 필름 스톡별 LUT 구현. 현상 대기 메커니즘이 재방문 훅으로 작동하므로 반드시 포함 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#레트로감성",
+        "#B2C",
+        "#1인개발가능",
+        "#한국개발사"
+      ],
+      "verdict": "MZ 레트로 트렌드 타겟 필름 카메라 앱, 인앱결제 수익화 구조 명확",
+      "country": "us"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "f350a21a3ddf78b0281cc08a",
+      "name": "Hark Pro",
+      "developer": "Hark Labs Inc.",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/G19oMNQ1dz7av_pnbvUA7WR5LtaG-2mhdoMeVy7zWwcDcQiVp_sQoNf5I8Q_wHxHm1HWdT1B9ZXbmvc2pdoTjQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hark.android",
+      "idea_summary": "음성 녹음·AI 전사·팀 협업을 하나로 통합한 프로 오디오 도구",
+      "analysis": {
+        "problem": "회의·인터뷰·강의 내용의 녹음, 텍스트 변환, 공유 과정이 여러 앱에 분산되어 비효율적 [추론]",
+        "solution": "고품질 오디오 녹음, AI 자동 전사, 팀 협업 기능을 단일 앱으로 통합 제공 [추론]",
+        "target_user": "기자, 연구원, 비즈니스 미팅 담당자, 팟캐스터 등 오디오 기반 업무 종사자 [추론]",
+        "unique_point": "녹음-전사-협업을 원스톱으로 처리하는 통합 오디오 워크플로우 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "Rev Voice Recorder",
+          "Notion AI"
+        ],
+        "timing_reason": "AI 전사 기술 성숙과 원격 협업 문화 정착으로 오디오 기반 업무 도구 수요 급증 [추론]",
+        "growth_potential": "AI 협업 툴 시장 지속 성장 중이며 오디오 특화 니치 공략 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (고용량 저장, 고급 전사, 팀 기능) 모델 [추론]",
+        "pricing_suggestion": "무료 기본, 프로 월 $9.99, 팀 월 사용자당 $7.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "2000~5000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Whisper API",
+          "WebSocket",
+          "Firebase"
+        ],
+        "key_features": [
+          "고음질 녹음",
+          "AI 자동 전사",
+          "화자 분리",
+          "팀 공유 및 코멘트",
+          "전문 검색 기능"
+        ],
+        "clone_tip": "OpenAI Whisper API로 전사 기능 빠르게 구현 가능. 차별화는 팀 협업 UX와 화자 분리 정확도에서 결정됨 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2B가능",
+        "#SaaS",
+        "#AI활용"
+      ],
+      "verdict": "AI 전사+협업 통합으로 비즈니스 사용자 공략 가능한 실용 생산성 도구",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "ed419c323a4034b364b8dfea",
+      "name": "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ",
+      "developer": "Timee, inc.",
+      "category": "Employment",
+      "icon": "https://play-lh.googleusercontent.com/m9AiCCDbmbZ56w7L6MDUTlJ0ejMexJcMyNYBqUySz2VcIxEoKXZHWmnSON2s7TKxfJc2V5RjfxTLs8YN2Ykg",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.co.taimee",
+      "idea_summary": "하루 단위 초단기 알바를 즉시 매칭하는 일본 긱 이코노미 플랫폼",
+      "analysis": {
+        "problem": "단기 아르바이트 구직 과정이 복잡하고 즉흥적인 당일 인력 수요와 공급을 연결하기 어려움 [추론]",
+        "solution": "1일 단위 알바 매칭 플랫폼으로 당일·익일 즉시 근무 가능한 일자리를 실시간 연결 [확인]",
+        "target_user": "일본 대학생, 프리랜서, 부업 희망 직장인, 단기 인력이 필요한 소상공인 [추론]",
+        "unique_point": "하루 단위 초단기 매칭과 즉시 지급 시스템으로 기존 구인구직 플랫폼과 명확히 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "バイトル (Baitoru)",
+          "マイナビバイト",
+          "シェアフル",
+          "Indeed Japan"
+        ],
+        "timing_reason": "일본의 만성적 노동력 부족 심화와 긱 이코노미 성장으로 초단기 노동 시장 급격히 확대 [추론]",
+        "growth_potential": "일본 성공 모델 기반으로 한국·동남아 등 아시아 시장 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "구인 사업주 대상 월정액 게시 수수료 또는 채용 성사 건당 수수료 [추론]",
+        "pricing_suggestion": "구직자 무료, 사업주 채용 성사 건당 수수료 또는 월정액 구독 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "4000~8000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Node.js",
+          "PostgreSQL",
+          "Firebase",
+          "Google Maps API"
+        ],
+        "key_features": [
+          "위치 기반 알바 탐색",
+          "즉시 지원 및 확정",
+          "당일 지급 연동",
+          "평점 시스템",
+          "사업주·구직자 채팅"
+        ],
+        "clone_tip": "한국판 클론 시 알바천국·잡코리아가 미개척한 당일 매칭 니치 공략 가능. 노무법·전자금융법 사전 검토 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#긱이코노미",
+        "#마켓플레이스",
+        "#B2B2C"
+      ],
+      "verdict": "일본 검증 모델의 한국·아시아 확장 잠재력이 가장 높은 초단기 매칭 플랫폼",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "source_id": "5627c1373d5bb87c09263900",
+      "name": "Nice Weather",
+      "developer": "Znd Digital",
+      "category": "Weather",
+      "icon": "https://play-lh.googleusercontent.com/yd17ZArDqX5KF1s-RzYYL0nkBR_ZO6TzxVt-IjKZanA8jHnYWbEoh_NL0IZYicVsbk-BRJ6YBGrudGb9uOib",
+      "app_url": "https://play.google.com/store/apps/details?id=com.weather.realinfo.really",
+      "idea_summary": "감각적 UI로 날씨 정보를 아름답게 전달하는 디자인 중심 날씨 앱",
+      "analysis": {
+        "problem": "기존 날씨 앱은 정보 과부하 또는 지나치게 단조로운 디자인으로 매일 보고 싶은 앱이 되지 못함 [추론]",
+        "solution": "심미성 중심의 시각 디자인과 직관적 UI로 날씨 정보를 아름답고 빠르게 전달 [추론]",
+        "target_user": "디자인 감각 있는 20~40대, 날씨 정보를 매일 확인하는 스마트폰 일반 사용자 [추론]",
+        "unique_point": "정확도보다 심미성 중심 포지셔닝으로 홈 화면에 놓고 싶은 날씨 앱 지향 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Weather Channel",
+          "AccuWeather",
+          "Carrot Weather",
+          "1Weather"
+        ],
+        "timing_reason": "Android 홈 화면 위젯 활용 일상화로 아름다운 날씨 위젯 앱 수요 꾸준히 존재 [추론]",
+        "growth_potential": "날씨 앱은 성숙 시장이나 디자인 차별화로 충성 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료, 광고 제거 유료 업그레이드, 프리미엄 위젯 테마 판매 [추론]",
+        "pricing_suggestion": "무료+광고, 프리미엄 연간 $3.99~$7.99 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "800~2000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "OpenWeatherMap API",
+          "Lottie"
+        ],
+        "key_features": [
+          "현재 날씨 및 7일 예보",
+          "홈 화면 위젯",
+          "강수 알림",
+          "대기질 표시",
+          "날씨 애니메이션"
+        ],
+        "clone_tip": "OpenWeatherMap 무료 API + Lottie 애니메이션 조합으로 MVP 빠르게 제작 가능. 위젯 완성도가 리텐션을 결정 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티"
+      ],
+      "verdict": "성숙 시장에서 디자인으로 차별화, 1인 포트폴리오 앱으로도 적합",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "6fe43cafb22f4d98a9832321",
+      "name": "Koupon: Real Deals & Codes",
+      "developer": "Koupon",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/87eWxJ9f18SO_WDLyo09lZCnSzz9X4VQjdE2zxHjVYikbusUcEfOVEluTP7w2-EMCrLDKaUo65Q98z8jjufsbA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.kouponai",
+      "idea_summary": "AI가 검증된 쿠폰·할인코드를 자동으로 찾아주는 쇼핑 절약 앱",
+      "analysis": {
+        "problem": "온라인 쇼핑 시 유효한 할인 코드를 직접 검색·검증하는 과정이 번거롭고 만료된 코드가 많음 [추론]",
+        "solution": "AI가 쇼핑몰별 유효한 쿠폰·프로모션 코드를 자동 수집·검증해 사용자에게 제공 [추론]",
+        "target_user": "온라인 쇼핑 활성 사용자, 절약에 관심 있는 20~40대 소비자 [추론]",
+        "unique_point": "AI 기반 쿠폰 유효성 검증으로 만료 코드 노출을 최소화한 신뢰도 높은 할인 서비스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey (PayPal)",
+          "Rakuten",
+          "RetailMeNot"
+        ],
+        "timing_reason": "고물가 지속으로 소비자 절약 의식 고조, AI 기반 쇼핑 보조 도구 수요 급증 [추론]",
+        "growth_potential": "이커머스 성장과 함께 절약 도구 시장도 확대되나 대형 플레이어 경쟁 치열 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 수수료 (쿠폰 사용 시 리테일러로부터 수수료), 프리미엄 알림 기능 유료화 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 알림 서비스 월 $2.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "1500~3500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Python (크롤링)",
+          "Firebase",
+          "Affiliate API"
+        ],
+        "key_features": [
+          "쿠폰 자동 수집 및 검증",
+          "카테고리별 탐색",
+          "즐겨찾기 쇼핑몰 알림",
+          "절약 금액 트래킹"
+        ],
+        "clone_tip": "쿠폰 수집은 스크래핑+제휴 API 조합으로 시작. 초기 리테일러 파트너십이 데이터 품질을 결정하는 핵심 변수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#쇼핑절약",
+        "#B2C",
+        "#제휴수익"
+      ],
+      "verdict": "고물가 절약 트렌드에 부합, 제휴 수수료 기반 수익 모델 실행 가능",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "source_id": "da641f1f72627722cd859006",
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "Social Networking",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "부담 없는 일상 업데이트 공유로 소규모 네트워크 소통 지향 소셜 플랫폼",
+      "analysis": {
+        "problem": "기존 SNS는 팔로워 수와 반응에 의존하는 구조로 진솔한 근황 공유가 부담스럽고 피로감을 줌 [추론]",
+        "solution": "과시 없이 일상 업데이트를 선택적으로 공유하고 가까운 사람들과 소통하는 마이크로 소셜 플랫폼 제공 [추론]",
+        "target_user": "SNS 피로감을 느끼는 10~30대, 소규모 친밀 네트워크 소통을 선호하는 사용자 [추론]",
+        "unique_point": "대규모 공개 피드 대신 선택적 공유와 소규모 네트워크 중심 소통 설계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BeReal",
+          "Instagram Close Friends",
+          "Path (서비스 종료)"
+        ],
+        "timing_reason": "SNS 피로감 증가와 프라이버시 중심 소셜 트렌드에 부합하는 시점 [추론]",
+        "growth_potential": "소셜 앱은 네트워크 효과가 핵심으로 초기 사용자 확보 전략이 생존 관건 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독, 브랜드 파트너십, 향후 광고 도입 [추론]",
+        "pricing_suggestion": "무료 기본, 프리미엄 월 ₩3,900~₩6,900 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "2000~5000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "WebSocket",
+          "Jetpack Compose"
+        ],
+        "key_features": [
+          "포스트 작성 및 피드",
+          "선택적 공개 범위 설정",
+          "실시간 알림",
+          "프로필 및 팔로우",
+          "댓글·반응"
+        ],
+        "clone_tip": "Firebase Realtime DB로 MVP 빠르게 구현 가능. 소셜 앱은 기능보다 바이럴 전략이 성패를 결정 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#소셜",
+        "#B2C",
+        "#네트워크효과"
+      ],
+      "verdict": "SNS 피로감 대안 포지셔닝 가능하나 초기 네트워크 확보가 핵심 과제",
+      "country": "jp"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정된 앱들은 전문 창작 도구의 모바일 민주화와 AI 기반 업무 자동화 두 축을 중심으로 분포한다. 특히 Timee와 같이 기존 플랫폼이 커버하지 못한 초단기 노동 시장을 공략하는 버티컬 마켓플레이스가 가장 높은 수익 잠재력을 보인다.",
+    "trend_details": [
+      "3D·영상 창작 도구의 스마트폰 연동 확대: VirtuCamera 2처럼 전문 소프트웨어와 모바일 기기를 연결하는 브릿지 앱 트렌드 가속화 [추론]",
+      "아날로그·레트로 감성 카메라 앱 지속 성장: ROLLIE'S와 Chromagraph 등 필름 룩앤필 카메라 앱이 MZ세대 향수 정서를 공략 [추론]",
+      "AI 음성 전사 기반 협업 도구 확산: 회의·인터뷰 녹음을 텍스트로 자동화하는 Hark Pro 류 앱이 비즈니스 시장에서 성장 [추론]",
+      "초단기 긱 이코노미 매칭 플랫폼 부상: 일본 Timee의 1일 단위 알바 매칭 모델이 아시아 전역 확장 가능성 시사 [추론]",
+      "고물가 시대 절약 도구 수요 증가: AI 기반 쿠폰 검증 앱 Koupon처럼 소비자 지출 최적화 도구에 대한 관심 지속 [추론]"
+    ],
+    "hot_categories": [
+      "Photo & Video",
+      "Productivity",
+      "Employment"
+    ],
+    "opportunity": "한국 시장에서 1일 단위 초단기 알바 매칭 앱의 공백이 존재하며, Timee 모델의 한국 로컬라이징이 유망한 기회 영역으로 판단됨 [추론]",
+    "action_item": "Timee 앱의 한국 시장 적용 가능성 검토 시작 — 알바천국·잡코리아가 미개척한 당일 매칭 니치를 타겟으로 노동법 준수 MVP 기획 착수"
+  },
+  "data_status": {}
+}
