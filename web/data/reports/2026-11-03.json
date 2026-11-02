@@ -1,0 +1,693 @@
+{
+  "date": "2026-11-03",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Both: 듀얼 카메라",
+      "developer": "Dongwoo Ha",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/d6/11/3fd6113b-107b-3574-5d66-e645a567e80c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/both-%EB%93%80%EC%96%BC-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6760682696",
+      "source_id": "034554cb75a2b6f22e83a46a",
+      "idea_summary": "전후면 카메라를 동시에 녹화하는 듀얼 카메라 앱",
+      "analysis": {
+        "problem": "브이로그·리액션 영상 제작 시 전후면 동시 촬영이 불가능해 편집이 복잡해짐 [추론]",
+        "solution": "전후면 카메라를 동시 녹화하여 별도 편집 없이 듀얼뷰 영상을 생성 [확인]",
+        "target_user": "쇼츠·릴스 크리에이터, 브이로거, SNS 콘텐츠 제작자 [추론]",
+        "unique_point": "BeReal과 달리 영상 중심으로 전후면을 동시 녹화하는 크리에이터 특화 워크플로우 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BeReal",
+          "Filmic Pro",
+          "InShot"
+        ],
+        "timing_reason": "쇼츠·릴스 중심 숏폼 영상 제작 수요가 폭발적으로 증가하는 시점 [추론]",
+        "growth_potential": "글로벌 크리에이터 이코노미 성장과 함께 지속 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 또는 인앱결제 방식 [추측]",
+        "pricing_suggestion": "기본 무료, 고화질·편집 기능 월 2,900~4,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation Multi-Camera API",
+          "Metal"
+        ],
+        "key_features": [
+          "전후면 동시 녹화",
+          "화면 분할 레이아웃 선택",
+          "영상 저장 및 공유",
+          "녹화 중 전환 효과"
+        ],
+        "clone_tip": "iOS 13+ AVCaptureMultiCamSession API 활용이 핵심; 레이아웃 커스터마이징과 영상 압축 최적화에 집중할 것 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#크리에이터툴",
+        "#숏폼"
+      ],
+      "verdict": "숏폼 붐 타이밍에 최적화된 크리에이터 특화 듀얼 카메라",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "推シラセ - 推し活・推しの最新情報",
+      "developer": "Ryusei Okamoto",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/3e/8f/bf3e8fe7-5084-7c4a-4a19-9509eacf9976/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E6%8E%A8%E3%82%B7%E3%83%A9%E3%82%BB-%E6%8E%A8%E3%81%97%E6%B4%BB-%E6%8E%A8%E3%81%97%E3%81%AE%E6%9C%80%E6%96%B0%E6%83%85%E5%A0%B1/id6818704437",
+      "source_id": "dfb9e4ec47232842e0906d18",
+      "idea_summary": "오시(추앙 아이돌) 팬활동 통합 관리 앱",
+      "analysis": {
+        "problem": "팬들이 좋아하는 아티스트의 공지·기념일·굿즈 마감 정보를 여러 플랫폼에서 개별 확인해야 함 [추론]",
+        "solution": "아티스트별 공식 업데이트, 마감일, 기념일, 소비 내역, 팬 활동을 한 곳에 집계 [확인]",
+        "target_user": "일본 아이돌 문화(오시카츠) 팬, 글로벌 K-pop 팬덤 사용자 [추론]",
+        "unique_point": "단순 뉴스 피드를 넘어 팬 소비 추적·기념일 관리까지 포함한 팬활동 올인원 매니저 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Twitter/X",
+          "Instagram",
+          "Weverse"
+        ],
+        "timing_reason": "오시카츠 문화가 일본을 넘어 글로벌로 확산되며 전문 팬활동 툴 수요 증가 [추론]",
+        "growth_potential": "K-pop·J-pop 글로벌 팬덤 확장으로 다국어 지원 시 대규모 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(팬 기능 확장), 아티스트 공식 굿즈 제휴 수수료 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 490~980엔 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "200~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Firebase",
+          "RSS/API 파싱",
+          "Push Notification"
+        ],
+        "key_features": [
+          "아티스트별 업데이트 피드",
+          "기념일·마감 캘린더",
+          "팬 소비 내역 기록",
+          "푸시 알림"
+        ],
+        "clone_tip": "SNS 공식 계정 RSS 및 오픈 API 통합이 핵심; 한국어 K-pop 버전으로 제작하면 더 큰 시장 공략 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#팬덤",
+        "#일본시장"
+      ],
+      "verdict": "글로벌 K-pop·J-pop 팬덤을 겨냥한 팬활동 통합 관리 앱",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "name": "VU303",
+      "developer": "Dariusz Chynek",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/60/8c/9d608c74-cb1d-22ad-e5be-126867f5a252/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/vu303/id6820495772",
+      "source_id": "e54a2c1dc08e4a82f3ba3552",
+      "idea_summary": "모바일 샘플링·패드 시퀀서 비트메이킹 앱",
+      "analysis": {
+        "problem": "모바일 비트메이킹 앱이 너무 단순하거나 전문적인 앱은 복잡한 UI로 진입장벽이 높음 [추론]",
+        "solution": "샘플링, 패드 시퀀서, 이펙트, 패턴 편곡, MIDI 컨트롤을 통합한 프로급 비트메이킹 워크플로우 [확인]",
+        "target_user": "모바일 음악 제작자, 힙합·일렉트로닉 비트메이커, 홈 프로듀서 [추론]",
+        "unique_point": "인디 개발자가 만든 레트로 감성 UI와 직관적 워크플로우로 기존 앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Koala Sampler",
+          "GarageBand",
+          "Groovepad"
+        ],
+        "timing_reason": "틱톡·유튜브 플랫폼에서 인디 비트메이커 수요가 지속 증가하는 중 [추론]",
+        "growth_potential": "크로스 플랫폼 확장 및 커뮤니티 비트 공유 기능 추가 시 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 인앱 사운드팩 판매 [추측]",
+        "pricing_suggestion": "원타임 구매 9,900~14,900원 또는 사운드팩 IAP 추가 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "500~1,500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVAudioEngine",
+          "Core Audio",
+          "CoreMIDI"
+        ],
+        "key_features": [
+          "샘플 임포트 및 패드 배치",
+          "스텝 시퀀서",
+          "리얼타임 이펙트",
+          "MIDI 외부 기기 연동",
+          "패턴 편곡"
+        ],
+        "clone_tip": "오디오 엔진 구축이 가장 어려운 파트; 오픈소스 AudioKit 라이브러리 활용으로 개발 기간 단축 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#인디개발",
+        "#B2C",
+        "#음악제작",
+        "#폴란드"
+      ],
+      "verdict": "프로급 비트메이킹을 모바일에서 구현한 인디 음악 도구",
+      "country": "jp"
+    },
+    {
+      "rank": 4,
+      "name": "GR Snap - 리코 GR Image Sync",
+      "developer": "Techflow Studio Limited",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/41/7b/06417b79-ae89-3215-987d-1875964c450b/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gr-snap-%EB%A6%AC%EC%BD%94-gr-image-sync/id6768040383",
+      "source_id": "ab4e6cdc5657905df4a8845a",
+      "idea_summary": "Ricoh GR 카메라 전용 원격 촬영·관리 컴패니언 앱",
+      "analysis": {
+        "problem": "리코 GR 카메라의 공식 앱이 기능 부족하고 UI가 불편해 사용자들이 대안을 찾음 [추론]",
+        "solution": "사진 전송, 원격 촬영, 지오태깅, 편집, 공유 기능을 통합 제공 [확인]",
+        "target_user": "Ricoh GR III·IIIx 사용자, 스트리트 포토그래퍼, 카메라 마니아 [추론]",
+        "unique_point": "특정 카메라 브랜드에 특화된 서드파티 컴패니언 앱으로 공식 앱의 부족함을 정확히 채움 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Ricoh 공식 앱",
+          "Lightroom Mobile",
+          "Cascable Pro"
+        ],
+        "timing_reason": "Ricoh GR 시리즈가 스트리트 포토그래퍼들 사이에서 컬트적 인기를 지속 유지 [추론]",
+        "growth_potential": "GR 신제품 출시 시 사용자 기반 자동 확장, 타 카메라 브랜드로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 일회성 구매 또는 프리미엄 편집 기능 구독 [추측]",
+        "pricing_suggestion": "원타임 4,900~9,900원, 고급 편집 기능 구독 별도 가능 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "200~600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WiFi HTTP 카메라 API",
+          "Core Location",
+          "Photos Framework"
+        ],
+        "key_features": [
+          "WiFi 사진 전송",
+          "원격 라이브뷰 촬영",
+          "GPS 지오태깅",
+          "기본 편집 도구",
+          "SNS 공유"
+        ],
+        "clone_tip": "Ricoh GR 카메라 API는 HTTP 기반으로 공개되어 구현 난이도 낮음; 동일 방식으로 타 브랜드 카메라 컴패니언 앱 제작 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#카메라",
+        "#니치마켓"
+      ],
+      "verdict": "GR 카메라 마니아의 불편을 정확히 해결한 니치 컴패니언 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
+      "developer": "Qdan Inc.",
+      "category": "Entertainment",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/c9/06/79c9062a-a564-14eb-0e7c-c2d9ae26b117/AppIcon-kuron_do-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E7%A9%BA%E8%AB%96%E9%81%93-%E3%83%89%E3%83%AD%E3%83%83%E3%82%BB%E3%83%AB%E3%83%9E%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%95%E3%82%93%E3%81%AE%E5%85%AC%E5%BC%8F%E3%82%86%E3%82%8B%E3%82%B2%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6758662999",
+      "source_id": "83579141215d7f5edb060fa8",
+      "idea_summary": "문구 조합으로 황당한 토론 주제를 생성하는 파티 게임",
+      "analysis": {
+        "problem": "모임에서 어색한 침묵을 깨거나 재미있는 대화를 유도할 도구가 부족함 [추론]",
+        "solution": "단어·문구 조합으로 황당하고 웃긴 토론 주제를 자동 생성해 즉석 파티 게임으로 활용 [확인]",
+        "target_user": "친구 모임, 파티, 사내 아이스브레이킹 등 소규모 그룹 활동 참가자 [추론]",
+        "unique_point": "유명 인터넷 방송 캐릭터 공식 연계로 초기 팬덤 확보 및 신뢰도 보유 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Jackbox Party Pack",
+          "We're Not Really Strangers",
+          "Truth or Dare 앱"
+        ],
+        "timing_reason": "포스트 팬데믹 오프라인 모임 문화 활성화와 디지털 파티 게임 수요가 동시에 증가 [추론]",
+        "growth_potential": "다국어 버전 출시 및 커스텀 토론 주제팩 판매로 수익화 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "기본 무료 제공, 추가 토론 주제팩 인앱결제 [추측]",
+        "pricing_suggestion": "기본 무료, 주제팩 1,200~2,400원 개별 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data"
+        ],
+        "key_features": [
+          "랜덤 문구 조합 알고리즘",
+          "주제 카테고리 선택",
+          "토론 타이머",
+          "결과 공유 기능"
+        ],
+        "clone_tip": "기술 난이도 매우 낮고 콘텐츠(단어 DB)가 핵심 자산; 한국 인터넷 방송 IP 협업으로 한국어 버전 제작 시 빠른 유저 확보 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#파티게임",
+        "#IP활용"
+      ],
+      "verdict": "IP 연계로 초기 팬덤을 확보한 가벼운 파티 게임 앱",
+      "country": "jp"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "Draw Music: Sketch to Sound",
+      "developer": "Banix Studio",
+      "category": "Music",
+      "icon": "https://play-lh.googleusercontent.com/b-kUnFvQ0riMTiRi5E5JLoxwcN-ufKANESt-UERHbNBTg0EZlnn_LC6f0UZrXYp-aRohMNefHpxCEguNlzkx_Q",
+      "app_url": "https://play.google.com/store/apps/details?id=com.banix.drawsound.drawmusic",
+      "source_id": "dc06f2402e0eaf45f207fec3",
+      "idea_summary": "스케치 드로잉으로 음악을 만드는 인터랙티브 창작 앱",
+      "analysis": {
+        "problem": "음악 창작은 악기 연주 능력이나 기술적 지식이 없으면 진입장벽이 매우 높음 [추론]",
+        "solution": "화면에 그림을 그리면 스케치가 인터랙티브 사운드와 음악 구성으로 실시간 변환됨 [확인]",
+        "target_user": "어린이 및 청소년, 시각 예술과 음악을 동시에 즐기려는 창의적 사용자 [추론]",
+        "unique_point": "드로잉이라는 직관적 인터페이스를 음악 창작에 적용한 완전히 새로운 인터랙션 패러다임 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Chrome Music Lab",
+          "GarageBand",
+          "Incredibox"
+        ],
+        "timing_reason": "AI 기반 창의 도구 붐과 어린이 STEAM 교육 수요가 동시에 성장 중 [추론]",
+        "growth_potential": "교육 기관 B2B 라이선스 및 AI 기능 추가 시 폭발적 성장 잠재력 보유 [추론]"
+      },
+      "business": {
+        "monetization": "교육 기관 라이선스, 프리미엄 사운드팩 IAP, 광고 제거 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 2,900원 또는 교육 기관 연간 라이선스 별도 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "400~900만원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "Canvas API",
+          "Oboe(오디오 엔진)",
+          "ML Kit"
+        ],
+        "key_features": [
+          "터치 드로잉 인식",
+          "드로잉-사운드 매핑 엔진",
+          "인터랙티브 실시간 재생",
+          "녹음 및 저장",
+          "공유 기능"
+        ],
+        "clone_tip": "드로잉 경로(속도·방향·길이)를 음정·리듬으로 매핑하는 알고리즘이 핵심 차별점; Chrome Music Lab 오픈소스 참고 후 모바일에 최적화할 것 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 5,
+        "profitability": 3,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#크리에이티브툴"
+      ],
+      "verdict": "드로잉으로 음악 창작하는 완전히 새로운 접근법의 창의 교육 앱",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "오늘도 - 돈 버는 건강 습관, 만보기",
+      "developer": "Hills Inc.",
+      "category": "Health & Fitness",
+      "icon": "https://play-lh.googleusercontent.com/vUUVKFKXRa1flEhZL1q-AZt31oMu9cztT0CcRJzCG1F0dsiy9npdP0m6aYvohbFASwCnNm6l01_ZduNTEcin",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hills.heyday",
+      "source_id": "d6f7e345830c0c1bbf52d499",
+      "idea_summary": "걷기·건강 습관에 포인트 리워드를 제공하는 동기부여 앱",
+      "analysis": {
+        "problem": "운동과 건강 습관 유지는 외적 동기부여가 없으면 장기 지속이 어려움 [추론]",
+        "solution": "걷기와 건강 습관 달성 시 포인트 및 실질적 인센티브를 보상으로 제공해 지속적 동기 부여 [확인]",
+        "target_user": "건강 관리에 관심 있는 20~40대, 리워드 기반 동기부여가 필요한 사용자 [추론]",
+        "unique_point": "단순 만보기를 넘어 실제 리워드 연계로 건강 행동 변화를 유도하는 행동경제학 기반 설계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "StepBet",
+          "Samsung Health"
+        ],
+        "timing_reason": "건강 관리와 앱테크(앱으로 리워드 획득) 트렌드가 동시에 주목받는 시점 [추론]",
+        "growth_potential": "광고주 및 헬스케어 파트너십 통해 리워드 생태계 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고주 리워드 제휴, 프리미엄 구독(고급 추적 기능), 제휴 포인트 운영 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 1,900~3,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~700만원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "Google Fit API",
+          "Firebase",
+          "Room Database"
+        ],
+        "key_features": [
+          "만보기 및 활동 추적",
+          "포인트 적립 시스템",
+          "리워드 목록 및 교환",
+          "습관 달성 뱃지",
+          "친구 랭킹"
+        ],
+        "clone_tip": "Google Fit API로 걸음 수 수집은 간단; 수익화를 위한 광고주·파트너십 영업이 기술 개발보다 더 중요한 핵심 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#앱테크"
+      ],
+      "verdict": "건강 행동을 리워드로 연결해 지속성을 높인 행동 변화 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+      "developer": "NBT Inc.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/6Ck4Kj05cPdj_1yN59roAEVjysBRBKaeDjcs9YANt4V2PULD0UGQQVBT7myxJcNSc2i-3USNe5RhixR8epSY",
+      "app_url": "https://play.google.com/store/apps/details?id=today.chips",
+      "source_id": "ef4ac1dfc4dc802caf0b79f8",
+      "idea_summary": "가격 알림·캐시백·추천 리워드를 통합한 스마트 절약 앱",
+      "analysis": {
+        "problem": "온라인 쇼핑 시 최저가 타이밍을 놓치거나 캐시백 기회를 모르고 지나침 [추론]",
+        "solution": "가격 변동 알림, 추천인 쇼핑, 캐시백 기회를 한 앱에서 통합 제공 [확인]",
+        "target_user": "절약에 관심 있는 온라인 쇼핑 사용자, 20~40대 가성비 추구 소비자 [추론]",
+        "unique_point": "가격 추적·캐시백·소셜 추천을 하나의 플로우로 통합한 올인원 절약 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey",
+          "Rakuten",
+          "CamelCamelCamel"
+        ],
+        "timing_reason": "고물가 시대에 절약 앱 수요 급증, 소셜 커머스와 캐시백 트렌드 결합 시점 [추론]",
+        "growth_potential": "파트너 쇼핑몰 확대 및 소셜 기능 강화로 네트워크 효과 창출 가능 [추론]"
+      },
+      "business": {
+        "monetization": "제휴사 어필리에이트 수수료, 프리미엄 가격 추적 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 1,900~2,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "400~1,000만원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "Retrofit",
+          "Firebase",
+          "WorkManager"
+        ],
+        "key_features": [
+          "상품 가격 추적 및 알림",
+          "캐시백 기회 탐색",
+          "추천인 링크 생성",
+          "쇼핑 히스토리",
+          "절약 금액 통계"
+        ],
+        "clone_tip": "국내 주요 쇼핑몰 API 연동이 핵심; 쿠팡·네이버쇼핑 파트너 프로그램 가입으로 어필리에이트 수익 즉시 확보 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#쇼핑",
+        "#어필리에이트"
+      ],
+      "verdict": "고물가 시대에 최적화된 가격 추적·캐시백 통합 절약 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "올웨이즈 - 올팜으로 키우는 신선 농작물",
+      "developer": "Levit Inc.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/HwL-Q1cLjmBC2kj6jWdk9ale-w6Bt0zQRsYyO1mawGfP-Cf6OfmkI2mw_5yTscli1CZYV5uhBHWChHmwo2u3",
+      "app_url": "https://play.google.com/store/apps/details?id=com.ilevit.alwayz.android",
+      "source_id": "ac49b31949c522f66cbab53f",
+      "idea_summary": "농장 키우기 게임과 소셜 공동구매를 결합한 커머스 앱",
+      "analysis": {
+        "problem": "일반 쇼핑 앱은 재방문 동기가 약하고 사용자 리텐션 유지가 어려움 [추론]",
+        "solution": "소셜 커머스·공동구매에 농장 키우기 캐주얼 게임 메커니즘을 결합해 일일 재방문 유도 [확인]",
+        "target_user": "가성비 쇼핑에 관심 있는 20~40대, 게임과 쇼핑을 동시에 즐기는 사용자 [추론]",
+        "unique_point": "핀둬둬 모델을 한국화한 게임화 커머스로 중독성 있는 리텐션 메커니즘 구현 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Temu",
+          "Pinduoduo",
+          "Coupang"
+        ],
+        "timing_reason": "국내 C-커머스 대항마 필요성과 게임화 커머스 트렌드의 교차점 [추론]",
+        "growth_potential": "농산물 직거래 및 신선식품 카테고리 확장으로 차별화된 성장 경로 보유 [추론]"
+      },
+      "business": {
+        "monetization": "상품 판매 수수료, 광고 노출, 프리미엄 농장 아이템 IAP [추론]",
+        "pricing_suggestion": "앱 자체 무료, 인게임 아이템 500~3,000원, 판매 수수료 10~15% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "700~2,000만원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "Firebase",
+          "Unity(게임 파트)",
+          "결제 PG 연동"
+        ],
+        "key_features": [
+          "농장 키우기 미니게임",
+          "공동구매 상품 목록",
+          "친구 초대 보상",
+          "신선식품 배송 연계",
+          "포인트 시스템"
+        ],
+        "clone_tip": "게임 파트는 Unity로 별도 개발 후 네이티브 앱에 임베드하는 방식이 효율적; 초기 MVP는 게임 없이 소셜 커머스만으로 시작 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#소셜커머스",
+        "#게임화",
+        "#한국시장"
+      ],
+      "verdict": "게임 리텐션으로 재방문을 유도하는 한국형 소셜 커머스 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "GoWish - Your Digital Wishlist",
+      "developer": "Ønskeskyen ApS",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/svf9YSJNLEa7vHsPmA26miTYJNGJdJzwZasTKYVkIM1zqa9ME6PANpUAbFy6AOSF9JHcwDDTgK-87UtaMUvdmjg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gowish.app",
+      "source_id": "936e2259f7eb10414f7fc3e4",
+      "idea_summary": "선물 위시리스트를 쉽게 만들고 공유하는 소셜 위시리스트 앱",
+      "analysis": {
+        "problem": "생일·명절 선물 준비 시 받는 사람이 원하는 것을 모르거나 선물이 겹치는 문제가 발생함 [추론]",
+        "solution": "디지털 위시리스트를 생성하고 가족·친구와 공유해 선물 중복 방지 및 니즈 파악 [확인]",
+        "target_user": "선물 문화가 발달한 북유럽·서구권 사용자, 가족 간 선물 조율이 필요한 사람들 [추론]",
+        "unique_point": "덴마크에서 출발한 위시리스트 앱으로 선물 공유의 소셜 메커니즘에 집중한 깔끔한 설계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Amazon Wish List",
+          "Universal Wishlist",
+          "Giftster"
+        ],
+        "timing_reason": "디지털 소비 트래킹과 소셜 선물 문화가 성장하며 전용 플랫폼 수요 증가 [추론]",
+        "growth_potential": "소셜 그래프 확장 및 쇼핑몰 제휴 어필리에이트 연동으로 수익화 강화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "쇼핑몰 제휴 어필리에이트 수수료, 프리미엄 위시리스트 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 1,500~2,500원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "200~500만원 [추론]",
+        "tech_stack": [
+          "Android/Kotlin",
+          "Firebase",
+          "Web Scraping(상품 정보 파싱)",
+          "딥링크"
+        ],
+        "key_features": [
+          "위시리스트 생성 및 관리",
+          "URL 상품 추가(공유 확장)",
+          "친구·가족 공유",
+          "선물 예약 기능",
+          "구매 완료 표시"
+        ],
+        "clone_tip": "Share Sheet 확장 기능을 구현해 어느 쇼핑 앱에서든 상품을 위시리스트에 추가할 수 있게 하는 것이 핵심 UX [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#선물",
+        "#소셜"
+      ],
+      "verdict": "선물 문화의 소셜 문제를 깔끔하게 해결한 덴마크발 위시리스트 앱",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정된 앱들은 창의적 인터랙션(그림→음악, 전후면 동시 녹화→영상)과 팬덤·커뮤니티 중심 특화 서비스가 두드러진다. 건강 리워드, 소셜 커머스, 위시리스트 등 일상 행동에 게임화와 보상 메커니즘을 더한 앱들이 강세를 보인다.",
+    "trend_details": [
+      "드로잉→음악 변환처럼 기존 인터랙션을 완전히 재해석한 크리에이티브 툴 부상 [추론]",
+      "오시카츠(oshi culture) 등 팬덤 특화 앱이 일본·한국을 넘어 글로벌로 확산 중 [추론]",
+      "걷기·건강 습관에 실제 리워드를 연계한 행동경제학 기반 앱 지속 증가 [추론]",
+      "게임 메커니즘(농장, 포인트)을 커머스에 접목한 게임화 쇼핑 앱 확산 [추론]",
+      "특정 하드웨어 전용 서드파티 컴패니언 앱의 니치마켓 공략 패턴 증가 [추론]"
+    ],
+    "hot_categories": [
+      "크리에이티브 툴",
+      "팬덤 앱",
+      "헬스테크 리워드",
+      "소셜 커머스"
+    ],
+    "opportunity": "일본·한국 오시카츠 팬덤 시장은 글로벌 K-pop 팬덤과 결합 시 폭발적 성장 잠재력 보유; 팬활동 통합 관리 앱의 한국어 버전 출시가 유망 [추론]",
+    "action_item": "Draw Music처럼 '기존 일상 행동(그리기)→새로운 결과(음악)'의 인터랙션 역전 공식을 자신의 도메인에 적용해보기 — 어떤 행동을 음악·영상·데이터로 변환할 수 있는지 브레인스토밍 [추론]"
+  },
+  "data_status": {}
+}
