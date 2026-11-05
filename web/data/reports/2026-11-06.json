@@ -1,0 +1,687 @@
+{
+  "date": "2026-11-06",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "b01af530455fdd277c62ceaa",
+      "name": "Band Session Note: 손글씨 악보",
+      "developer": "sung ju KIM",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/d8/6f/9cd86f50-aace-c79a-baff-03184435e045/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/band-session-note-%EC%86%90%EA%B8%80%EC%94%A8-%EC%95%85%EB%B3%B4/id6781333991",
+      "idea_summary": "뮤지션을 위한 손글씨 악보 세션 노트 앱",
+      "analysis": {
+        "problem": "밴드 연습·공연 준비 시 악보와 세션 노트를 체계적으로 관리할 뮤지션 전용 도구가 부족함 [추론]",
+        "solution": "Apple PencilKit 기반 손글씨 입력으로 악보를 직접 그리고 세션별 노트를 통합 관리하는 뮤지션 전용 앱 [추론]",
+        "target_user": "밴드 활동을 하는 아마추어 및 세미프로 뮤지션, 음악 레슨 수강생 [추론]",
+        "unique_point": "일반 필기 앱과 달리 음악 세션 흐름에 최적화된 UI와 악보·코드 차트 전용 레이아웃 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GoodNotes",
+          "Noteshelf",
+          "ForScore"
+        ],
+        "timing_reason": "iPad와 Apple Pencil 보급 확대로 디지털 손글씨 수요 증가, 뮤지션들의 디지털 전환 가속화 [추론]",
+        "growth_potential": "음악 교육 시장과 인디 밴드 커뮤니티 성장에 따라 니치 마켓에서 충성도 높은 유저 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "1회성 유료 앱 또는 프리미엄 구독 모델로 추정 [추론]",
+        "pricing_suggestion": "월 2,900원 구독 또는 9,900원 1회 결제로 뮤지션 타겟 가격 책정 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "PencilKit",
+          "Core Data",
+          "PDFKit"
+        ],
+        "key_features": [
+          "손글씨 악보 작성",
+          "세션 노트 관리",
+          "연습 일정 계획",
+          "PDF 내보내기"
+        ],
+        "clone_tip": "PencilKit으로 손글씨 입력 구현 후 오선지·코드 차트 커스텀 뷰를 추가하면 차별화 가능, PDFKit으로 악보 내보내기 연동 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#음악",
+        "#니치마켓"
+      ],
+      "verdict": "뮤지션 니치를 공략하는 손글씨 악보 노트, 충성도 높은 유저층 확보 가능",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "3bd3ff79d876317dd1664584",
+      "name": "Beat Blocks - Rhythm Practice",
+      "developer": "Charles Sekel",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/00/9b/d8009be2-2751-766d-f11a-2cc8925891c2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/beat-blocks-rhythm-practice/id6764073025",
+      "idea_summary": "블록 기반 인터랙티브 리듬 연습 음악 교육 앱",
+      "analysis": {
+        "problem": "리듬 감각을 키우기 위한 체계적이고 즐거운 연습 도구가 부족하며 기존 메트로놈 앱은 단조로워 지속 사용이 어려움 [추론]",
+        "solution": "블록 시각화를 활용한 인터랙티브 방식으로 리듬 패턴을 연습하는 게이미피케이션 음악 교육 앱 [추론]",
+        "target_user": "드럼·기타·피아노 등 악기를 배우는 초중급 뮤지션, 음악 교육을 받는 어린이 및 청소년 [추론]",
+        "unique_point": "리듬 연습을 블록 기반 시각적 패턴으로 표현해 직관적이고 게임처럼 즐길 수 있는 접근법 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Yousician",
+          "Simply Piano",
+          "GarageBand"
+        ],
+        "timing_reason": "음악 교육 앱 시장 성장과 게이미피케이션 학습 트렌드 확산으로 적합한 타이밍 [추론]",
+        "growth_potential": "음악 교육 디지털화 가속으로 성장 여지 있으나 경쟁이 치열한 시장 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 모델 또는 추가 연습 패킷 인앱 구매로 추정 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 콘텐츠 월 2,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "250~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "SpriteKit",
+          "Core Audio"
+        ],
+        "key_features": [
+          "블록 기반 리듬 패턴 시각화",
+          "인터랙티브 비트 입력",
+          "정확도 피드백",
+          "난이도별 연습 세트"
+        ],
+        "clone_tip": "SpriteKit으로 블록 애니메이션 구현, AVFoundation으로 오디오 타이밍 측정, 리듬 정확도 측정 알고리즘 개발이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#음악교육",
+        "#게이미피케이션"
+      ],
+      "verdict": "리듬 연습을 게임처럼 즐기는 앱, 음악 교육 시장에서 차별화된 접근",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "1c30a292226e20aaa547a258",
+      "name": "Brim: 화면 끝까지 브라우징",
+      "developer": "seokyong kim",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/05/23/bd05235b-a9e5-1185-1f0c-7a06bbb49424/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/brim-%ED%99%94%EB%A9%B4-%EB%81%9D%EA%B9%8C%EC%A7%80-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95/id6830004679",
+      "idea_summary": "화면 끝까지 콘텐츠를 확장하는 엣지 브라우징 앱",
+      "analysis": {
+        "problem": "기존 모바일 브라우저는 콘텐츠와 UI 요소가 화면 중앙에 집중되어 화면 끝 공간이 비효율적으로 활용됨 [추론]",
+        "solution": "화면 엣지까지 콘텐츠와 컨트롤을 확장해 더 넓은 브라우징 경험을 제공하는 커스텀 브라우저 앱 [추론]",
+        "target_user": "생산성을 중시하는 파워 유저, 화면 활용도를 극대화하려는 iOS 사용자 [추론]",
+        "unique_point": "화면 엣지를 활용한 독특한 브라우징 인터페이스로 기존 브라우저와 차별화된 UX 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Safari",
+          "Chrome for iOS",
+          "Firefox for iOS"
+        ],
+        "timing_reason": "아이폰 화면 크기 증가 트렌드와 엣지 제스처 활용 UX 패턴 확산으로 타이밍 적합 [추론]",
+        "growth_potential": "파워 유저 중심 소규모 충성 유저층 형성 가능, 대형 브라우저 대비 차별화된 니치 포지셔닝 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 유료 앱 또는 인앱 구독 방식으로 추정 [추론]",
+        "pricing_suggestion": "3,900원~5,900원 1회 결제 또는 월 1,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "200~400만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WebKit",
+          "UIKit",
+          "SafariServices"
+        ],
+        "key_features": [
+          "화면 엣지 확장 브라우징",
+          "엣지 제스처 컨트롤",
+          "풀스크린 콘텐츠 표시",
+          "탭 관리"
+        ],
+        "clone_tip": "WebKit 기반 커스텀 브라우저를 구현하고 UIScreenEdgePanGestureRecognizer로 엣지 인터랙션 처리, SafariViewController 대신 WKWebView로 풀 커스터마이징 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#UX혁신"
+      ],
+      "verdict": "화면 활용도를 극대화하는 독특한 브라우저, 파워 유저층 입소문 기대 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "e7e983b73479e451c98f6b9a",
+      "name": "日とと記",
+      "developer": "ASO APPS",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/eb/7b/77eb7b20-6db5-e24a-a03d-db4f53f52a66/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E6%97%A5%E3%81%A8%E3%81%A8%E8%A8%98/id6813769408",
+      "idea_summary": "도트 디자인의 심플한 미니멀 일상 기록 다이어리",
+      "analysis": {
+        "problem": "기존 다이어리 앱은 기능이 과도하게 많거나 복잡해 매일 꾸준히 기록하기 어려움 [추론]",
+        "solution": "도트 UI와 가벼운 인터페이스로 일상의 순간을 부담 없이 기록하는 미니멀 다이어리 앱 [추론]",
+        "target_user": "일상을 간단히 기록하고 싶은 20~30대 여성, 미니멀 라이프스타일을 추구하는 일본·한국 사용자 [추론]",
+        "unique_point": "도트 그리드 디자인을 활용한 미니멀한 UI로 과도한 기능 없이 순수한 기록 경험에 집중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Diary - Journal & Notes",
+          "Momento"
+        ],
+        "timing_reason": "미니멀리즘 트렌드와 디지털 웰빙 관심 증가로 가볍고 단순한 앱에 대한 수요 증가 [추론]",
+        "growth_potential": "일본과 한국의 미니멀 라이프스타일 트렌드와 맞물려 아시아 시장에서 성장 가능성 있음 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마 및 스티커 인앱 구매 또는 광고 기반으로 추정 [추론]",
+        "pricing_suggestion": "무료 기본, 프리미엄 테마 팩 1,200~2,400원 단건 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~250만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "일일 메모 작성",
+          "도트 캘린더 뷰",
+          "감정 태깅",
+          "iCloud 동기화"
+        ],
+        "clone_tip": "SwiftUI로 빠르게 구현 가능한 1인 개발 최적 앱, 도트 그리드 커스텀 뷰와 CalendarView 구현이 핵심이며 2개월 내 출시 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#미니멀",
+        "#라이프스타일"
+      ],
+      "verdict": "미니멀 다이어리 니치 공략, 1인 개발자가 빠르게 클론하기 최적인 앱",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "source_id": "7abac16042106ff3d6ae6713",
+      "name": "카네 Kane - 간편한 가계부",
+      "developer": "sangku oh",
+      "category": "Finance",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/31/7c/37317c4e-a89d-9719-75c8-f0faacca1f28/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%B9%B4%EB%84%A4-kane-%EA%B0%84%ED%8E%B8%ED%95%9C-%EA%B0%80%EA%B3%84%EB%B6%80/id6757577312",
+      "idea_summary": "심플한 UX로 가정 수입·지출을 쉽게 관리하는 가계부",
+      "analysis": {
+        "problem": "기존 가계부 앱은 기능이 복잡하거나 자동 연동 설정이 어려워 꾸준한 사용이 힘듦 [추론]",
+        "solution": "불필요한 기능을 제거하고 직관적인 UI로 가정의 수입과 지출을 간편하게 기록·분석하는 미니멀 가계부 앱 [추론]",
+        "target_user": "가정 재정을 간단히 관리하고 싶은 30~40대 직장인 및 주부 [추론]",
+        "unique_point": "복잡한 자동 연동 없이 수동 입력 중심으로 가정 예산 관리에 집중하는 심플한 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "뱅크샐러드",
+          "토스",
+          "Moneytree"
+        ],
+        "timing_reason": "고물가 시대에 가계 지출 관리 관심 증가, 복잡한 금융 앱 피로감으로 미니멀 가계부 수요 증가 [추론]",
+        "growth_potential": "한국과 일본의 가계부 앱 시장은 꾸준한 수요가 있으나 대형 플레이어와의 경쟁이 과제 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 또는 1회성 유료 앱으로 추정 [추론]",
+        "pricing_suggestion": "월 1,900원 구독 또는 4,900원 1회 결제 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~3개월 [추론]",
+        "estimated_cost": "150~300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "Swift Charts"
+        ],
+        "key_features": [
+          "수입·지출 입력",
+          "월별 예산 설정",
+          "카테고리별 분류",
+          "지출 차트 분석"
+        ],
+        "clone_tip": "Swift Charts로 지출 분석 뷰 구현, Core Data로 로컬 저장, 1인 개발 2개월 내 완성 가능하며 iCloud 동기화 추가 시 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#금융",
+        "#가계부"
+      ],
+      "verdict": "고물가 시대 꼭 필요한 심플 가계부, 대형 경쟁자 틈새에서 UX로 승부 가능",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "81cf7fc274d56d5ae8e0ca8f",
+      "name": "Suno - AI Music & Songs Maker",
+      "developer": "Suno, Inc",
+      "category": "Music",
+      "icon": "https://play-lh.googleusercontent.com/lIxYxKnQwksOzWMmNqWK3x3S5W7fDIVW9c5XWG9QF9KPHk5oZbsZcJKzWiKA-YOU7QiENwviQuyqXUkLPBaxNA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.suno.android",
+      "idea_summary": "텍스트 프롬프트 하나로 완성된 오리지널 음악을 AI로 생성",
+      "analysis": {
+        "problem": "음악 제작은 전문 지식과 고비용 장비가 필요해 일반인이 창의적인 음악을 직접 만들기 어려움 [추론]",
+        "solution": "텍스트 프롬프트 입력만으로 보컬·멜로디·가사까지 완성된 AI 생성 음악을 즉시 제공하는 앱 [확인]",
+        "target_user": "음악을 만들고 싶지만 전문 지식이 없는 20~40대 크리에이터, 콘텐츠 제작자, 소셜미디어 사용자 [추론]",
+        "unique_point": "단순 비트 생성을 넘어 보컬과 완성된 곡 구조까지 AI가 엔드-투-엔드로 자동 생성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Udio",
+          "Soundraw",
+          "Mubert"
+        ],
+        "timing_reason": "생성형 AI 붐과 크리에이터 이코노미 성장으로 AI 음악 생성 수요 폭발적 증가 [추론]",
+        "growth_potential": "숏폼 콘텐츠 플랫폼 확산과 크리에이터 수 증가로 배경음악 수요 지속 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "월간 크레딧 기반 음악 생성 횟수를 제한하는 프리미엄 구독 모델 [확인]",
+        "pricing_suggestion": "무료 플랜(제한적), 프로 월 $8~10 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 (AI 모델 훈련 포함) [추론]",
+        "estimated_cost": "5000만원 이상 [추론]",
+        "tech_stack": [
+          "Python",
+          "PyTorch",
+          "React Native",
+          "AWS/GCP"
+        ],
+        "key_features": [
+          "텍스트-투-뮤직 AI 생성",
+          "장르 및 스타일 선택",
+          "생성 곡 편집",
+          "소셜 공유"
+        ],
+        "clone_tip": "핵심 AI 모델 개발보다 Meta MusicGen 등 오픈소스 음악 생성 모델을 활용한 모바일 UX 레이어 구현에 집중하면 비용 절감 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#AI",
+        "#B2C",
+        "#크리에이터",
+        "#음악생성"
+      ],
+      "verdict": "AI 음악 생성 선두주자, 크리에이터 이코노미와 완벽한 타이밍의 만남",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "bd709df62e8efdeecdd09c10",
+      "name": "チャデポ - 充電と歩数でポイ活",
+      "developer": "株式会社ホットセラー",
+      "category": "Lifestyle",
+      "icon": "https://play-lh.googleusercontent.com/F6Rqv6zxZ8-QAF84ftEcrt5d10lkpzdcbW-7s5LZYhNvCzASeSxN9jGZzKraI5Fjy7o2RLoVNsWBll9YlWnd-g",
+      "app_url": "https://play.google.com/store/apps/details?id=jp.chadepo.chadepo",
+      "idea_summary": "충전과 걷기라는 일상 행동으로 포인트를 적립하는 리워드 앱",
+      "analysis": {
+        "problem": "스마트폰 충전과 걷기는 매일 하는 행동이지만 아무런 보상이 없어 추가적인 가치 창출 기회를 놓치고 있음 [추론]",
+        "solution": "기기 충전 횟수와 일일 걸음 수를 추적해 포인트를 적립하고 현금이나 상품권으로 교환 가능한 리워드 앱 [추론]",
+        "target_user": "소소한 혜택을 좋아하는 일본의 20~50대 스마트폰 사용자, 걷기 운동을 즐기는 건강 의식 있는 사용자 [추론]",
+        "unique_point": "충전이라는 완전히 새로운 행동 트리거에 리워드를 결합한 독창적인 접근으로 경쟁 앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "StepBet",
+          "Miles"
+        ],
+        "timing_reason": "일본의 포인트 경제(포인트 카드 문화) 뿌리 깊은 소비 패턴과 건강 앱 성장 트렌드가 맞물림 [추론]",
+        "growth_potential": "일본 포인트 앱 시장 성숙도와 걷기 리워드 트렌드로 중기 성장 예상, 아시아 시장 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 시청과 포인트 획득 연동 및 제휴 마케팅 기반 수익 구조로 추정 [추론]",
+        "pricing_suggestion": "무료 앱, 광고 없는 프리미엄 버전 월 300~500엔 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "400~800만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Sensor API",
+          "Firebase",
+          "Google Fit API"
+        ],
+        "key_features": [
+          "충전 감지 및 포인트 적립",
+          "만보기 걸음 수 추적",
+          "포인트 현황 대시보드",
+          "리워드 교환 시스템"
+        ],
+        "clone_tip": "Android BroadcastReceiver로 충전 이벤트 감지, Google Fit API로 걸음 수 연동, 포인트 적립 로직은 Firebase Functions로 서버사이드 구현 추천 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#리워드",
+        "#일본시장"
+      ],
+      "verdict": "충전이라는 독창적 트리거의 리워드 앱, 일본 포인트 문화와 최적의 궁합",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "source_id": "7b544c1be36a3a7b3aabbd96",
+      "name": "Haystack News: Local TV News",
+      "developer": "Haystack News",
+      "category": "News",
+      "icon": "https://play-lh.googleusercontent.com/seV-WipwWqxOJBztnUD9udxKCim5BKYfAT0v5-MCFT64UONRef8HyioDWM-MqgyhSy4JEZzbqJf-yqhyFzRZuQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.haystack.android",
+      "idea_summary": "전국 지역 TV 뉴스를 개인화해 스트리밍하는 OTT 뉴스 플랫폼",
+      "analysis": {
+        "problem": "지역 TV 뉴스는 지역 거주자에게 중요하지만 디지털로 개인화된 형태로 접근하기 어려움 [추론]",
+        "solution": "미국 전역의 지역 TV 방송국 뉴스를 집약하여 사용자 위치와 관심사에 맞게 개인화 스트리밍 제공 [추론]",
+        "target_user": "지역 뉴스에 관심 있는 미국 35~65세 성인, 지방 선거 및 로컬 이슈를 추적하는 커뮤니티 의식 있는 시민 [추론]",
+        "unique_point": "지역 TV 방송국 콘텐츠를 디지털 OTT 형태로 집약한 유일한 지역 뉴스 플랫폼 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "NewsBreak",
+          "SmartNews",
+          "Flipboard"
+        ],
+        "timing_reason": "지역 뉴스 미디어의 디지털 전환 가속화와 케이블TV 코드커팅 트렌드로 OTT 지역뉴스 수요 증가 [추론]",
+        "growth_potential": "미국 케이블TV 해지 트렌드와 지역 뉴스 플랫폼 부재 시장 공략으로 중장기 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 서비스로 추정, 프리미엄 광고 없는 구독 옵션 가능 [추론]",
+        "pricing_suggestion": "광고 무료 기본, 프리미엄 월 $3.99 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 (파트너십 협상 포함) [추론]",
+        "estimated_cost": "2000~5000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "AWS CloudFront"
+        ],
+        "key_features": [
+          "지역 방송국 뉴스 스트리밍",
+          "위치 기반 뉴스 개인화",
+          "다음 방송 스케줄",
+          "관심 토픽 설정"
+        ],
+        "clone_tip": "1인 개발보다 소규모 팀 프로젝트 적합, 방송국 콘텐츠 파트너십이 핵심 장벽이므로 먼저 무료 RSS 기반 지역 뉴스 애그리게이터로 시작 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#B2C",
+        "#미국시장",
+        "#미디어",
+        "#지역뉴스"
+      ],
+      "verdict": "케이블TV 코드커팅 트렌드 수혜 지역 뉴스 플랫폼, 콘텐츠 파트너십이 핵심 성공 요인",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "source_id": "541c06693fc7d7c947bb18c0",
+      "name": "スタンプ · 季節だより",
+      "developer": "Neku Avatar Studio",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/wJwZ1eZOJrcLtGABuKzARLFOysmDQVlQSMIqeEYbHvfSTk04ZjlSWm6klYy76ZGpMK0SdetxyCbje7tS_scDQgA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.getsticker.wasticker.wastickerapp.stickerpack.sushicat",
+      "idea_summary": "계절별 디지털 스탬프로 메시지를 꾸미는 그리팅 앱",
+      "analysis": {
+        "problem": "소셜 메시지에서 감정을 더 풍부하게 표현하고 싶지만 기본 이모지만으로는 표현력에 한계가 있음 [추론]",
+        "solution": "계절과 행사에 맞는 디지털 스탬프와 그리팅 스티커를 제공해 메시지와 소셜 커뮤니케이션을 풍성하게 [추론]",
+        "target_user": "소셜 메시지를 꾸미기 좋아하는 10~30대 여성, 명절과 기념일에 특별한 인사를 보내고 싶은 사용자 [추론]",
+        "unique_point": "계절성 테마를 중심으로 한 큐레이션된 스탬프 컬렉션으로 WhatsApp 스티커 호환성 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "WhatsApp Stickers",
+          "LINE Stickers",
+          "Giphy"
+        ],
+        "timing_reason": "글로벌 메시징 앱 사용자 증가와 스티커 커스터마이징 수요 지속 성장 [추론]",
+        "growth_potential": "WhatsApp 사용자 많은 동남아·인도·라틴아메리카 등 신흥 시장에서 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 스탬프 팩 인앱 구매 또는 구독 모델로 추정 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 스탬프 팩 1,200~2,400원 단건 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "WhatsApp Sticker API",
+          "Firebase Storage",
+          "Lottie"
+        ],
+        "key_features": [
+          "계절별 스탬프 컬렉션",
+          "WhatsApp 스티커 팩 연동",
+          "커스텀 메시지 오버레이",
+          "계절 캘린더"
+        ],
+        "clone_tip": "WhatsApp Sticker API로 비교적 쉽게 구현 가능한 1인 개발 적합 앱, 디자인 퀄리티가 성패를 좌우하므로 Lottie 애니메이션 스티커로 차별화 추천 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#스티커",
+        "#메시징"
+      ],
+      "verdict": "1인 개발자 진입 용이, 디자인 퀄리티와 계절 큐레이션이 차별화 핵심",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "source_id": "86e37809841d63f9b7677efc",
+      "name": "Tarova: 아스트랄 타로 & 조디악",
+      "developer": "AI Translator",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/3N1N6Y-V6lm0Iu0FhPYyhO6RqIFz2s_9lNN9kMZq0rPT1NwmrTxJkPj2s6YweMIv5YDLvMeNoWfEOLJ1iW9q",
+      "app_url": "https://play.google.com/store/apps/details?id=fc.daily.future.guidance.astrology.zodiac.horoscope",
+      "idea_summary": "AI 기반 타로 리딩과 별자리 운세를 결합한 영적 엔터테인먼트",
+      "analysis": {
+        "problem": "타로와 점성술에 관심 있는 사람들이 전문 리더에게 접근하기 어렵고 비용이 높으며 개인화 수준도 낮음 [추론]",
+        "solution": "AI를 활용해 개인화된 타로 카드 리딩과 별자리 인사이트를 언제 어디서나 즉시 제공하는 엔터테인먼트 앱 [추론]",
+        "target_user": "영적 웰빙과 자기계발에 관심 있는 20~40대 여성, 타로와 점성술에 호기심 있는 사용자 [추론]",
+        "unique_point": "AI 개인화와 타로·점성술의 결합으로 단순 운세 앱을 넘어 대화형 영적 가이던스 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Co-Star",
+          "The Pattern",
+          "Sanctuary"
+        ],
+        "timing_reason": "MZ세대의 영적 웰빙 관심 증가와 AI 개인화 기술 발전으로 점성술 앱 시장 성장 [추론]",
+        "growth_potential": "글로벌 점성술·타로 시장의 디지털화 가속으로 AI 개인화 서비스 수요 지속 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 추가 리딩 세션 인앱 구매로 추정 [추론]",
+        "pricing_suggestion": "일일 무료 리딩, 무제한 리딩 월 4,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~600만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "GPT API",
+          "Firebase",
+          "Lottie"
+        ],
+        "key_features": [
+          "AI 타로 카드 리딩",
+          "별자리 일일 운세",
+          "개인 차트 분석",
+          "리딩 히스토리"
+        ],
+        "clone_tip": "GPT API에 타로 카드 해석 프롬프트를 엔지니어링하면 AI 리딩 엔진을 빠르게 구현 가능, 카드 뒤집기 애니메이션은 Lottie 활용 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#엔터테인먼트",
+        "#AI"
+      ],
+      "verdict": "MZ세대 영적 웰빙 트렌드에 올라탄 AI 타로 앱, 구독 모델로 안정적 수익 가능",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 AI 창작 도구와 미니멀 UX를 결합한 앱들이 두드러지며, 복잡한 기능보다 명확한 단일 목적에 집중하는 앱이 주목받고 있다. 기존 행동(충전·걷기)에 리워드를 결합하는 새로운 수익화 패턴과 지역 미디어의 OTT 전환도 주요 트렌드로 확인된다.",
+    "trend_details": [
+      "AI 음악 생성 도구의 모바일 대중화 가속 - 텍스트만으로 완성된 곡 생성",
+      "미니멀 UX 가계부·다이어리 앱 증가 - 과도한 기능 피로감 반동",
+      "리워드 앱의 새로운 일상 행동 트리거 발굴 - 충전·걸음을 넘어 다양한 행동 리워드화",
+      "지역 미디어의 OTT 플랫폼화 가속 - 케이블TV 코드커팅 세대를 위한 디지털 지역 뉴스",
+      "AI 개인화와 엔터테인먼트 결합 - 타로·점성술 등 영적 웰빙 카테고리 AI화"
+    ],
+    "hot_categories": [
+      "Music",
+      "Lifestyle",
+      "Finance"
+    ],
+    "opportunity": "AI 개인화와 미니멀 UX를 결합한 니치 버티컬 앱 영역 - 특정 직군(뮤지션, 작가, 요리사 등)의 전문 워크플로를 단순화하는 도구",
+    "action_item": "리워드 앱에 새로운 일상 행동 트리거(충전, 수면, 명상, 독서 등)를 결합한 아이디어를 검증하고, MVP를 1인 개발 2개월 내 출시하는 계획 수립"
+  },
+  "data_status": {}
+}
