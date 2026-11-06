@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-11-05T15:28:26.161Z",
+  "generatedAt": "2026-11-06T15:20:34.090Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "News",
+      "currentCount": 2,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Haystack News: Local TV News",
+        "Snap뉴스"
+      ],
+      "avgScore": 7.15
+    },
     {
       "category": "Photography",
       "currentCount": 1,
@@ -39,17 +51,6 @@
       "avgScore": 6.8
     },
     {
-      "category": "News",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Snap뉴스"
-      ],
-      "avgScore": 7
-    },
-    {
       "category": "Graphics & Design",
       "currentCount": 2,
       "previousCount": 1,
@@ -71,18 +72,6 @@
         "CrimeRadar: Dispatch Alerts"
       ],
       "avgScore": 8
-    },
-    {
-      "category": "Navigation",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "دربونة - تطبيق الملاحة العراقي",
-        "دربونة - تطبيق الملاحة العراقي"
-      ],
-      "avgScore": 7.75
     },
     {
       "category": "Services",
@@ -141,34 +130,6 @@
       "avgScore": 8
     },
     {
-      "category": "Sports",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Running Writings Lab"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Entertainment",
-      "currentCount": 7,
-      "previousCount": 4,
-      "changePercent": 75,
-      "changeDirection": "up",
-      "apps": [
-        "VibeShort: AI Dramas & Reels",
-        "DramaBox - Stream Drama Shorts",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
-        "ColdTrace: 미제 사건의 미스터리",
-        "zeta - AIキャラ・あなたの推しとロールプレイチャット",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "FreeDrama: Short Drama & Reels"
-      ],
-      "avgScore": 7.571428571428571
-    },
-    {
       "category": "Shopping",
       "currentCount": 10,
       "previousCount": 6,
@@ -189,64 +150,96 @@
       "avgScore": 7.3
     },
     {
-      "category": "Utilities",
-      "currentCount": 6,
-      "previousCount": 5,
-      "changePercent": 20,
-      "changeDirection": "up",
-      "apps": [
-        "Rupteur Sensor",
-        "Foldometer: Fold Angle Gauge",
-        "Dashcam Viewer: for Tesla",
-        "WakeBox",
-        "ARCQ SPL - SPL Meter",
-        "XTranslator Live: AI"
-      ],
-      "avgScore": 6.583333333333333
-    },
-    {
       "category": "Music",
-      "currentCount": 7,
+      "currentCount": 9,
       "previousCount": 6,
-      "changePercent": 17,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
+        "Band Session Note: 손글씨 악보",
+        "Beat Blocks - Rhythm Practice",
+        "Suno - AI Music & Songs Maker",
         "GLIMR: Strum Any Sound",
         "VU303",
         "Draw Music: Sketch to Sound",
         "Materia - Additive Synth",
         "Practice Farm: 연습곡, 어떤 조로든",
-        "Bionic Tape",
-        "NostalgicPod"
+        "Bionic Tape"
       ],
-      "avgScore": 7.042857142857143
+      "avgScore": 7.377777777777778
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 6,
+      "previousCount": 4,
+      "changePercent": 50,
+      "changeDirection": "up",
+      "apps": [
+        "Brim: 화면 끝까지 브라우징",
+        "Rupteur Sensor",
+        "Foldometer: Fold Angle Gauge",
+        "Dashcam Viewer: for Tesla",
+        "WakeBox",
+        "ARCQ SPL - SPL Meter"
+      ],
+      "avgScore": 6.633333333333334
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 7,
+      "previousCount": 6,
+      "changePercent": 17,
+      "changeDirection": "up",
+      "apps": [
+        "スタンプ · 季節だより",
+        "Tarova: 아스트랄 타로 & 조디악",
+        "VibeShort: AI Dramas & Reels",
+        "DramaBox - Stream Drama Shorts",
+        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
+        "ColdTrace: 미제 사건의 미스터리",
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット"
+      ],
+      "avgScore": 7.257142857142857
     }
   ],
   "decliningCategories": [
     {
-      "category": "Finance",
-      "currentCount": 2,
-      "previousCount": 3,
-      "changePercent": -33,
-      "changeDirection": "down",
-      "apps": [
-        "Freecash: Earn Money",
-        "Kalshi: Trade Sports & Events"
-      ],
-      "avgScore": 7.4
-    },
-    {
       "category": "Lifestyle",
-      "currentCount": 3,
-      "previousCount": 7,
-      "changePercent": -57,
+      "currentCount": 5,
+      "previousCount": 6,
+      "changePercent": -17,
       "changeDirection": "down",
       "apps": [
+        "日とと記",
+        "チャデポ - 充電と歩数でポイ活",
         "LottaPaws - Collection Tracker",
         "推シラセ - 推し活・推しの最新情報",
         "종쳤다: 학교 종소리 알람"
       ],
-      "avgScore": 7.066666666666666
+      "avgScore": 7.06
+    },
+    {
+      "category": "Finance",
+      "currentCount": 2,
+      "previousCount": 4,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "카네 Kane - 간편한 가계부",
+        "Freecash: Earn Money"
+      ],
+      "avgScore": 6.9
+    },
+    {
+      "category": "Education",
+      "currentCount": 1,
+      "previousCount": 6,
+      "changePercent": -83,
+      "changeDirection": "down",
+      "apps": [
+        "더퍼스트클래스"
+      ],
+      "avgScore": 6.8
     }
   ],
   "stableCategories": [
@@ -264,20 +257,6 @@
         "호글 - HWP HWPX 한글뷰어"
       ],
       "avgScore": 7.68
-    },
-    {
-      "category": "Education",
-      "currentCount": 4,
-      "previousCount": 4,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "더퍼스트클래스",
-        "下水道管理技術認定試験　試験対策",
-        "損保大学課程 税務単位 問題集 損害保険大学課程専門コース",
-        "SpeakUp AI - 언어 학습"
-      ],
-      "avgScore": 6.825
     },
     {
       "category": "Photo & Video",
@@ -304,6 +283,17 @@
       "apps": [
         "오늘도 - 돈 버는 건강 습관, 만보기",
         "PlainWalk − 散歩で白地図を描くアプリ"
+      ],
+      "avgScore": 8
+    },
+    {
+      "category": "Navigation",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "دربونة - تطبيق الملاحة العراقي"
       ],
       "avgScore": 8
     },
@@ -336,6 +326,16 @@
       "category": "tag",
       "count": 65,
       "apps": [
+        "Band Session Note: 손글씨 악보",
+        "Beat Blocks - Rhythm Practice",
+        "Brim: 화면 끝까지 브라우징",
+        "日とと記",
+        "카네 Kane - 간편한 가계부",
+        "Suno - AI Music & Songs Maker",
+        "チャデポ - 充電と歩数でポイ活",
+        "Haystack News: Local TV News",
+        "スタンプ · 季節だより",
+        "Tarova: 아스트랄 타로 & 조디악",
         "노그미(Nogmi): 녹음·전사·요약",
         "GLIMR: Strum Any Sound",
         "LottaPaws - Collection Tracker",
@@ -388,23 +388,22 @@
         "라이프캐치 - 놓친보험금, 차사고위로금 정확한 청구대행",
         "Bump (バンプ) - 友達とつながるマップ",
         "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Rips by Triumph",
-        "下水道管理技術認定試験　試験対策",
-        "Running Writings Lab",
-        "NostalgicPod",
-        "損保大学課程 税務単位 問題集 損害保険大学課程専門コース",
-        "SpeakUp AI - 언어 학습",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "Kalshi: Trade Sports & Events",
-        "XTranslator Live: AI",
-        "FreeDrama: Short Drama & Reels"
+        "Rips by Triumph"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 40,
+      "count": 42,
       "apps": [
+        "Band Session Note: 손글씨 악보",
+        "Beat Blocks - Rhythm Practice",
+        "Brim: 화면 끝까지 브라우징",
+        "日とと記",
+        "카네 Kane - 간편한 가계부",
+        "チャデポ - 充電と歩数でポイ活",
+        "スタンプ · 季節だより",
+        "Tarova: 아스트랄 타로 & 조디악",
         "노그미(Nogmi): 녹음·전사·요약",
         "GLIMR: Strum Any Sound",
         "LottaPaws - Collection Tracker",
@@ -437,20 +436,16 @@
         "Nice Weather",
         "PlainWalk − 散歩で白地図を描くアプリ",
         "AutoSnore: 코골이 녹음기",
-        "Practice Farm: 연습곡, 어떤 조로든",
-        "دربونة - تطبيق الملاحة العراقي",
-        "下水道管理技術認定試験　試験対策",
-        "Running Writings Lab",
-        "NostalgicPod",
-        "損保大学課程 税務単位 問題集 損害保険大学課程専門コース",
-        "XTranslator Live: AI"
+        "Practice Farm: 연습곡, 어떤 조로든"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 13,
+      "count": 15,
       "apps": [
+        "Suno - AI Music & Songs Maker",
+        "Tarova: 아스트랄 타로 & 조디악",
         "노그미(Nogmi): 녹음·전사·요약",
         "피클: 나만의 AI 에이전트",
         "VibeShort: AI Dramas & Reels",
@@ -460,16 +455,15 @@
         "zeta - AIキャラ・あなたの推しとロールプレイチャット",
         "Hark Pro",
         "Koupon: Real Deals & Codes",
-        "PlainWalk − 散歩で白地図を描くアプリ",
-        "SpeakUp AI - 언어 학습",
-        "XTranslator Live: AI"
+        "PlainWalk − 散歩で白地図を描くアプリ"
       ]
     },
     {
       "keyword": "소셜",
       "category": "social",
-      "count": 10,
+      "count": 11,
       "apps": [
+        "スタンプ · 季節だより",
         "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
         "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
         "올웨이즈 - 올팜으로 키우는 신선 농작물",
@@ -480,24 +474,11 @@
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 9,
-      "apps": [
-        "VibeShort: AI Dramas & Reels",
-        "더퍼스트클래스",
-        "DramaBox - Stream Drama Shorts",
-        "下水道管理技術認定試験　試験対策",
-        "NostalgicPod",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "FreeDrama: Short Drama & Reels"
-      ]
-    },
-    {
       "keyword": "프로",
       "category": "subscription",
-      "count": 7,
+      "count": 8,
       "apps": [
+        "スタンプ · 季節だより",
         "Snap뉴스",
         "VU303",
         "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
@@ -508,29 +489,62 @@
       ]
     },
     {
-      "keyword": "니치마켓",
-      "category": "tag",
+      "keyword": "AR",
+      "category": "ar_vr",
       "count": 6,
       "apps": [
-        "Foldometer: Fold Angle Gauge",
-        "Dashcam Viewer: for Tesla",
-        "GR Snap - 리코 GR Image Sync",
-        "VirtuCamera 2",
-        "下水道管理技術認定試験　試験対策",
-        "損保大学課程 税務単位 問題集 損害保険大学課程専門コース"
+        "Tarova: 아스트랄 타로 & 조디악",
+        "Freecash: Earn Money",
+        "CrimeRadar: Dispatch Alerts",
+        "ARCQ SPL - SPL Meter",
+        "Hark Pro",
+        "Practice Farm: 연습곡, 어떤 조로든"
       ]
     },
     {
-      "keyword": "글로벌",
+      "keyword": "니치마켓",
       "category": "tag",
-      "count": 6,
+      "count": 5,
       "apps": [
-        "DealSeek: Coupons & Discounts",
-        "DramaBox - Stream Drama Shorts",
-        "SpeakUp AI - 언어 학습",
-        "DramaWave -인기 단편/한일 드라마, 역전극!",
-        "XTranslator Live: AI",
-        "FreeDrama: Short Drama & Reels"
+        "Band Session Note: 손글씨 악보",
+        "Foldometer: Fold Angle Gauge",
+        "Dashcam Viewer: for Tesla",
+        "GR Snap - 리코 GR Image Sync",
+        "VirtuCamera 2"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "Brim: 화면 끝까지 브라우징",
+        "Haystack News: Local TV News",
+        "VibeShort: AI Dramas & Reels",
+        "더퍼스트클래스",
+        "DramaBox - Stream Drama Shorts"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "Brim: 화면 끝까지 브라우징",
+        "Pocket Mac Lab",
+        "Rupteur Sensor",
+        "ARCQ SPL - SPL Meter",
+        "Nice Weather"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "Suno - AI Music & Songs Maker",
+        "Both: 듀얼 카메라",
+        "Chromagraph Camera"
       ]
     },
     {
@@ -546,26 +560,25 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 5,
+      "keyword": "구독",
+      "category": "subscription",
+      "count": 4,
       "apps": [
-        "Freecash: Earn Money",
-        "CrimeRadar: Dispatch Alerts",
-        "ARCQ SPL - SPL Meter",
-        "Hark Pro",
-        "Practice Farm: 연습곡, 어떤 조로든"
+        "Tarova: 아스트랄 타로 & 조디악",
+        "피클: 나만의 AI 에이전트",
+        "VibeShort: AI Dramas & Reels",
+        "더퍼스트클래스"
       ]
     },
     {
-      "keyword": "유틸리티",
+      "keyword": "엔터테인먼트",
       "category": "tag",
       "count": 4,
       "apps": [
-        "Pocket Mac Lab",
-        "Rupteur Sensor",
-        "ARCQ SPL - SPL Meter",
-        "Nice Weather"
+        "Tarova: 아스트랄 타로 & 조디악",
+        "VibeShort: AI Dramas & Reels",
+        "DramaBox - Stream Drama Shorts",
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット"
       ]
     },
     {
@@ -576,17 +589,6 @@
         "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
         "DealSeek: Coupons & Discounts",
         "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립"
-      ]
-    },
-    {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "VibeShort: AI Dramas & Reels",
-        "DramaBox - Stream Drama Shorts",
-        "NostalgicPod",
-        "DramaWave -인기 단편/한일 드라마, 역전극!"
       ]
     },
     {
@@ -603,32 +605,21 @@
     {
       "keyword": "일본시장",
       "category": "tag",
-      "count": 4,
+      "count": 3,
       "apps": [
+        "チャデポ - 充電と歩数でポイ活",
         "推シラセ - 推し活・推しの最新情報",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "下水道管理技術認定試験　試験対策",
-        "損保大学課程 税務単位 問題集 損害保険大学課程専門コース"
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
       ]
     },
     {
-      "keyword": "구독",
-      "category": "tag",
+      "keyword": "스트리밍",
+      "category": "creator",
       "count": 3,
       "apps": [
-        "피클: 나만의 AI 에이전트",
+        "Haystack News: Local TV News",
         "VibeShort: AI Dramas & Reels",
-        "더퍼스트클래스"
-      ]
-    },
-    {
-      "keyword": "엔터테인먼트",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "VibeShort: AI Dramas & Reels",
-        "DramaBox - Stream Drama Shorts",
-        "zeta - AIキャラ・あなたの推しとロールプレイチャット"
+        "DramaBox - Stream Drama Shorts"
       ]
     },
     {
@@ -642,15 +633,6 @@
       ]
     },
     {
-      "keyword": "크리에이터",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "Both: 듀얼 카메라",
-        "Chromagraph Camera"
-      ]
-    },
-    {
       "keyword": "편집",
       "category": "creator",
       "count": 3,
@@ -659,60 +641,69 @@
         "GR Snap - 리코 GR Image Sync",
         "NickyFilm - 진짜 필름 감성 카메라"
       ]
+    },
+    {
+      "keyword": "음악교육",
+      "category": "tag",
+      "count": 2,
+      "apps": [
+        "Beat Blocks - Rhythm Practice",
+        "Practice Farm: 연습곡, 어떤 조로든"
+      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 50,
-        "percent": 71,
+        "count": 51,
+        "percent": 73,
         "examples": [
-          "노그미(Nogmi): 녹음·전사·요약",
-          "GLIMR: Strum Any Sound",
-          "LottaPaws - Collection Tracker"
+          "Beat Blocks - Rhythm Practice",
+          "日とと記",
+          "Suno - AI Music & Songs Maker"
         ]
       },
       "freemium": {
-        "count": 52,
-        "percent": 74,
+        "count": 57,
+        "percent": 81,
         "examples": [
-          "노그미(Nogmi): 녹음·전사·요약",
-          "GLIMR: Strum Any Sound",
-          "LottaPaws - Collection Tracker"
+          "Band Session Note: 손글씨 악보",
+          "Beat Blocks - Rhythm Practice",
+          "Brim: 화면 끝까지 브라우징"
         ]
       },
       "subscription": {
-        "count": 48,
-        "percent": 69,
+        "count": 50,
+        "percent": 71,
         "examples": [
-          "노그미(Nogmi): 녹음·전사·요약",
-          "GLIMR: Strum Any Sound",
-          "LottaPaws - Collection Tracker"
+          "Band Session Note: 손글씨 악보",
+          "Beat Blocks - Rhythm Practice",
+          "Brim: 화면 끝까지 브라우징"
         ]
       },
       "onetime": {
-        "count": 31,
-        "percent": 44,
+        "count": 33,
+        "percent": 47,
         "examples": [
-          "GLIMR: Strum Any Sound",
-          "Pocket Mac Lab",
-          "Rupteur Sensor"
+          "Band Session Note: 손글씨 악보",
+          "Beat Blocks - Rhythm Practice",
+          "Brim: 화면 끝까지 브라우징"
         ]
       },
       "unknown": {
-        "count": 1,
-        "percent": 1,
+        "count": 0,
+        "percent": 0,
         "examples": []
       }
     },
     "dominant": {
       "model": "freemium",
-      "count": 52,
-      "percent": 74,
+      "count": 57,
+      "percent": 81,
       "examples": [
-        "노그미(Nogmi): 녹음·전사·요약",
-        "GLIMR: Strum Any Sound",
-        "LottaPaws - Collection Tracker"
+        "Band Session Note: 손글씨 악보",
+        "Beat Blocks - Rhythm Practice",
+        "Brim: 화면 끝까지 브라우징"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -724,35 +715,35 @@
         "count": 16,
         "percent": 23,
         "apps": [
+          "Suno - AI Music & Songs Maker",
+          "Tarova: 아스트랄 타로 & 조디악",
           "노그미(Nogmi): 녹음·전사·요약",
           "피클: 나만의 AI 에이전트",
-          "VibeShort: AI Dramas & Reels",
-          "Frame(프레임) - AI 셀카 & 포즈 카메라",
-          "Snap뉴스"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 12,
-        "percent": 17,
-        "apps": [
-          "VibeShort: AI Dramas & Reels",
-          "더퍼스트클래스",
-          "Dashcam Viewer: for Tesla",
-          "DramaBox - Stream Drama Shorts",
-          "Both: 듀얼 카메라"
+          "VibeShort: AI Dramas & Reels"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 9,
-        "percent": 13,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "Brim: 화면 끝까지 브라우징",
+          "카네 Kane - 간편한 가계부",
+          "Tarova: 아스트랄 타로 & 조디악",
           "Rupteur Sensor",
-          "Foldometer: Fold Angle Gauge",
-          "Freecash: Earn Money",
-          "WakeBox",
-          "CrimeRadar: Dispatch Alerts"
+          "Foldometer: Fold Angle Gauge"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "Brim: 화면 끝까지 브라우징",
+          "Suno - AI Music & Songs Maker",
+          "Haystack News: Local TV News",
+          "VibeShort: AI Dramas & Reels",
+          "더퍼스트클래스"
         ]
       },
       {
@@ -760,23 +751,23 @@
         "count": 9,
         "percent": 13,
         "apps": [
+          "スタンプ · 季節だより",
           "올웨이즈 - 올팜으로 키우는 신선 농작물",
           "GoWish - Your Digital Wishlist",
           "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ",
-          "setlog"
+          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ"
         ]
       },
       {
         "tech": "subscription",
-        "count": 6,
-        "percent": 9,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "スタンプ · 季節だより",
+          "Tarova: 아스트랄 타로 & 조디악",
           "Snap뉴스",
           "VU303",
-          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-          "VirtuCamera 2",
-          "Hark Pro"
+          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기"
         ]
       },
       {
@@ -800,11 +791,10 @@
       },
       {
         "tech": "fintech",
-        "count": 2,
-        "percent": 3,
+        "count": 1,
+        "percent": 1,
         "apps": [
-          "라이프캐치 - 놓친보험금, 차사고위로금 정확한 청구대행",
-          "損保大学課程 税務単位 問題集 損害保険大学課程専門コース"
+          "라이프캐치 - 놓친보험금, 차사고위로금 정확한 청구대행"
         ]
       }
     ],
@@ -813,11 +803,11 @@
       "count": 16,
       "percent": 23,
       "apps": [
+        "Suno - AI Music & Songs Maker",
+        "Tarova: 아스트랄 타로 & 조디악",
         "노그미(Nogmi): 녹음·전사·요약",
         "피클: 나만의 AI 에이전트",
-        "VibeShort: AI Dramas & Reels",
-        "Frame(프레임) - AI 셀카 & 포즈 카메라",
-        "Snap뉴스"
+        "VibeShort: AI Dramas & Reels"
       ]
     },
     "emerging": [
@@ -826,35 +816,35 @@
         "count": 16,
         "percent": 23,
         "apps": [
+          "Suno - AI Music & Songs Maker",
+          "Tarova: 아스트랄 타로 & 조디악",
           "노그미(Nogmi): 녹음·전사·요약",
           "피클: 나만의 AI 에이전트",
-          "VibeShort: AI Dramas & Reels",
-          "Frame(프레임) - AI 셀카 & 포즈 카메라",
-          "Snap뉴스"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 12,
-        "percent": 17,
-        "apps": [
-          "VibeShort: AI Dramas & Reels",
-          "더퍼스트클래스",
-          "Dashcam Viewer: for Tesla",
-          "DramaBox - Stream Drama Shorts",
-          "Both: 듀얼 카메라"
+          "VibeShort: AI Dramas & Reels"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 9,
-        "percent": 13,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "Brim: 화면 끝까지 브라우징",
+          "카네 Kane - 간편한 가계부",
+          "Tarova: 아스트랄 타로 & 조디악",
           "Rupteur Sensor",
-          "Foldometer: Fold Angle Gauge",
-          "Freecash: Earn Money",
-          "WakeBox",
-          "CrimeRadar: Dispatch Alerts"
+          "Foldometer: Fold Angle Gauge"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "Brim: 화면 끝까지 브라우징",
+          "Suno - AI Music & Songs Maker",
+          "Haystack News: Local TV News",
+          "VibeShort: AI Dramas & Reels",
+          "더퍼스트클래스"
         ]
       },
       {
@@ -862,16 +852,35 @@
         "count": 9,
         "percent": 13,
         "apps": [
+          "スタンプ · 季節だより",
           "올웨이즈 - 올팜으로 키우는 신선 농작물",
           "GoWish - Your Digital Wishlist",
           "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ",
-          "setlog"
+          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 8,
+        "percent": 11,
+        "apps": [
+          "スタンプ · 季節だより",
+          "Tarova: 아스트랄 타로 & 조디악",
+          "Snap뉴스",
+          "VU303",
+          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "News 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "News"
+    },
     {
       "type": "rising_category",
       "title": "Photography 카테고리 급부상",
@@ -895,13 +904,6 @@
     },
     {
       "type": "rising_category",
-      "title": "News 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "News"
-    },
-    {
-      "type": "rising_category",
       "title": "Graphics & Design 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -913,13 +915,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Safety"
-    },
-    {
-      "type": "rising_category",
-      "title": "Navigation 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Navigation"
     },
     {
       "type": "rising_category",
@@ -957,13 +952,6 @@
       "category": "Shopping and Collectibles"
     },
     {
-      "type": "rising_category",
-      "title": "Sports 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Sports"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
       "description": "23%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
@@ -972,21 +960,21 @@
     }
   ],
   "insight": {
-    "trend_summary": "이번 주는 Photography, Travel, Books 등 다양한 카테고리가 동시에 급부상하며 니치 시장 진입 기회가 넓어졌습니다. B2C와 1인개발 가능 태그가 압도적으로 많아 소규모 팀이나 개인 개발자에게 유리한 환경이 형성되고 있습니다. AI 기능을 탑재한 앱이 23%에 달하며 기술 차별화의 핵심 요소로 자리잡고 있습니다.",
+    "trend_summary": "이번 주는 News, Photography, Travel 등 콘텐츠 소비형 카테고리가 일제히 100% 급등하며 사용자들의 정보·경험 탐색 수요가 뚜렷하게 증가했습니다. AI 기능을 탑재한 앱이 전체의 23%에 달하며 기술 차별화의 핵심 수단으로 자리잡았고, freemium 모델(81%)이 수익화의 주류 전략으로 굳어지고 있습니다.",
     "trend_details": [
-      "Photography·Travel·Books·News 등 콘텐츠 소비 카테고리가 일제히 100% 급등하며 개인 창작자와 여행자를 타겟한 앱 수요가 증가 중",
-      "AI 기능 탑재 앱이 전체의 23%를 차지하며 주류로 편입되고 있고, AR/VR(13%)도 꾸준히 성장해 멀티모달 UX가 핵심 경쟁력으로 부상",
-      "Freemium(74%)과 구독(69%) 모델이 Free(71%)보다 높은 채택률을 보이며, 단순 무료 앱보다 수익화 구조를 갖춘 앱이 시장에서 더 선택받는 추세"
+      "News·Books·Travel 카테고리가 동시에 100% 급등 — 사용자들이 AI 기반 큐레이션과 개인화 콘텐츠 소비에 집중하고 있음",
+      "AI 기능 탑재 앱 비율 23%, AR/VR 17%로 기술 접목이 앱 경쟁력의 기본 조건으로 부상 중",
+      "freemium(81%)·subscription(71%) 조합이 주류 수익 모델로 정착, 일회성 결제(47%)는 상대적으로 하락세"
     ],
     "hot_categories": [
+      "News",
       "Photography",
       "Graphics & Design",
       "Travel",
-      "Books",
-      "Social Networking"
+      "Books"
     ],
-    "opportunity": "AI 기능이 아직 적용되지 않은 Photography·Travel 카테고리에서 1인 개발 가능한 AI 기반 니치 앱을 출시하면 경쟁이 낮은 블루오션 선점이 가능합니다.",
-    "action_item": "Photography 또는 Travel 카테고리에서 AI 기능(사진 보정, 여행 일정 추천 등)을 Freemium 모델로 탑재한 MVP를 2주 내 출시해 빠르게 시장 반응을 검증하세요.",
-    "weekly_theme": "AI 니치 정복"
+    "opportunity": "AI 기능이 아직 적용되지 않은 News·Books·Travel 카테고리는 앱 수가 적고 성장률이 높아, AI 큐레이션이나 개인화 기능을 더한 니치 앱으로 선점할 수 있는 최적의 진입 타이밍입니다.",
+    "action_item": "Travel 또는 News 카테고리에서 '1인개발가능' 태그 조건에 맞는 AI 큐레이션 기능을 핵심으로 하는 freemium 앱 프로토타입을 이번 주 안에 기획하고 랜딩 페이지를 공개해 초기 수요를 검증하세요.",
+    "weekly_theme": "AI 콘텐츠 큐레이션"
   }
 }

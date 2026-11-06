@@ -1,0 +1,710 @@
+{
+  "date": "2026-11-07",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "40e08b3a3339b0f68462290f",
+      "name": "PulseOSC: VRChat 실시간 심박수 표시",
+      "developer": "清源 欧阳",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/83/64/b483649a-8b8e-b3e4-7038-76ec6f808515/PulseOSC-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/pulseosc-vrchat-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%8B%AC%EB%B0%95%EC%88%98-%ED%91%9C%EC%8B%9C/id6757429299",
+      "idea_summary": "VRChat 아바타에 실시간 심박수 오버레이 표시",
+      "analysis": {
+        "problem": "VRChat 사용자가 현실 생체 데이터를 가상 아바타에 반영할 수 없어 몰입감이 부족함 [추론]",
+        "solution": "OSC 프로토콜로 Apple Watch 심박수를 VRChat 아바타 파라미터에 실시간 전송 [확인]",
+        "target_user": "VRChat을 즐기는 메타버스 사용자, 아바타 개성을 극대화하려는 20-30대 [추론]",
+        "unique_point": "생체신호와 메타버스 아바타를 연동하는 초특화 니치 앱으로 경쟁자 거의 없음 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "HRtoVRChat (오픈소스)",
+          "VRCFaceTracking"
+        ],
+        "timing_reason": "VRChat MAU 증가 및 메타버스 아바타 커스터마이제이션 트렌드 성숙기 [추론]",
+        "growth_potential": "VR 헤드셋 보급 확대와 함께 메타버스 생체 연동 수요 점진적 증가 예상 [추측]"
+      },
+      "business": {
+        "monetization": "앱스토어 무료 배포, 추후 프리미엄 기능 추가 가능성 [추측]",
+        "pricing_suggestion": "기본 무료 + 고급 파라미터 매핑 유료화 월 ₩3,900 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "200-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "HealthKit",
+          "OSC Protocol",
+          "Network Framework"
+        ],
+        "key_features": [
+          "Apple Watch 심박수 읽기",
+          "OSC 메시지 전송",
+          "VRChat 연결 설정 UI",
+          "실시간 모니터링 대시보드"
+        ],
+        "clone_tip": "Apple HealthKit + UDP OSC 라이브러리 조합으로 핵심 기능 구현 가능. VRChat OSC 문서 공개되어 있어 프로토콜 파악 용이 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 5,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#니치마켓",
+        "#메타버스"
+      ],
+      "verdict": "VRChat 니치 시장 완전 독점. 시장 규모 작지만 블루오션",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "a78fda2d5b2905500c4fffbe",
+      "name": "Miniature Studio",
+      "developer": "Jake Ellis",
+      "category": "Graphics & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/1f/04/261f0457-1dab-3fe5-a010-0d2a16ba2ebe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/miniature-studio/id6821610088",
+      "idea_summary": "사진을 미니어처 모형 장면으로 변환하는 편집 스튜디오",
+      "analysis": {
+        "problem": "일반 사진을 미니어처 틸트시프트 효과로 창의적으로 변환하기 어렵고 전문 도구는 복잡함 [추론]",
+        "solution": "미니어처 특화 시각 편집 효과와 조명, 배경 조합으로 쉽게 미니어처 스타일 연출 [확인]",
+        "target_user": "SNS 콘텐츠 크리에이터, 사진 편집 취미 보유 20-40대 [추론]",
+        "unique_point": "틸트시프트를 넘어 미니어처 장면 연출에 특화된 전용 스튜디오 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Snapseed",
+          "VSCO",
+          "Focos"
+        ],
+        "timing_reason": "AI 이미지 생성 붐으로 창의적 사진 변환 도구 수요 증가 [추론]",
+        "growth_potential": "레트로·미니어처 미학 트렌드 지속 및 SNS 콘텐츠 차별화 수요 꾸준함 [추론]"
+      },
+      "business": {
+        "monetization": "앱스토어 유료 판매 또는 인앱구매 방식 [추측]",
+        "pricing_suggestion": "일회성 구매 $2.99-4.99 또는 프리미엄 필터 팩 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Image",
+          "Metal",
+          "Vision Framework"
+        ],
+        "key_features": [
+          "틸트시프트 효과",
+          "미니어처 조명 조정",
+          "피사계 심도 편집",
+          "배경 교체",
+          "레이어 합성"
+        ],
+        "clone_tip": "Core Image CIDepthOfField 필터 + Metal 셰이더로 고품질 미니어처 효과 구현. 차별화는 UI/UX와 프리셋 품질에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#포토앱",
+        "#크리에이터툴"
+      ],
+      "verdict": "창의적 사진 변환 니치. 인디 개발자가 접근하기 좋은 규모",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "source_id": "2393513e436829d9b0bb071f",
+      "name": "Log to LUT",
+      "developer": "ilkyu choi",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/57/f7/8857f739-798d-8a15-37f8-f1caf42a9cc3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/log-to-lut/id6757588493",
+      "idea_summary": "로그 영상을 LUT 색보정 워크플로우로 즉시 변환",
+      "analysis": {
+        "problem": "촬영 현장에서 로그 영상을 실시간으로 모니터링하거나 LUT 적용 결과를 미리보기 어려움 [추론]",
+        "solution": "로그 프로파일 영상을 선택한 LUT으로 실시간 변환하여 색보정 워크플로우를 모바일에서 완결 [확인]",
+        "target_user": "독립 영화감독, 유튜버, 1인 콘텐츠 크리에이터 등 LUT 색보정을 사용하는 비디오그래퍼 [추론]",
+        "unique_point": "로그 to LUT 변환에만 집중한 단일 목적 도구로 복잡한 편집 앱 없이 현장 활용 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DaVinci Resolve Mobile",
+          "LUT Robot",
+          "Luma Fusion"
+        ],
+        "timing_reason": "iPhone 15/16 Pro Log 촬영 기능 탑재로 일반 크리에이터의 로그 촬영 급증 [추론]",
+        "growth_potential": "iPhone Pro Log 촬영 사용자 증가로 경량 색보정 도구 수요 지속 성장 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 LUT 팩 인앱구매 [추측]",
+        "pricing_suggestion": "앱 $4.99 일회성 + 프리미엄 LUT 팩 $1.99-2.99 별도 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "300-700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Image",
+          "Metal",
+          "AVFoundation",
+          "ColorSync"
+        ],
+        "key_features": [
+          "Log 프로파일 선택",
+          "LUT 파일 임포트",
+          "실시간 미리보기",
+          "LUT 강도 조절",
+          "영상 내보내기"
+        ],
+        "clone_tip": "Core Image CIColorCube 필터로 LUT 적용 구현 가능. .cube 파일 파싱 로직이 핵심이며 공개 샘플 코드 다수 존재 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#크리에이터툴",
+        "#영상편집"
+      ],
+      "verdict": "iPhone Log 촬영 확산에 완벽히 올라탄 타이밍 최적 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "a2ec85f879c8e7527d32923d",
+      "name": "ImpulseDie - Symbiotic Drum",
+      "developer": "Diego Capoccitti",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/5f/d4/535fd4bc-5d46-117f-1956-defe3243ba64/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/impulsedie-symbiotic-drum/id6819227334",
+      "idea_summary": "충격 기반 인터랙션으로 공생 리듬 생성하는 드럼 악기",
+      "analysis": {
+        "problem": "일반 드럼 앱은 단순 타건 반응에 그쳐 사용자와 악기 간 상호작용이 단방향적임 [추론]",
+        "solution": "임펄스(충격) 기반 인터랙션으로 사용자 연주 패턴에 반응해 진화하는 공생 리듬 생성 [확인]",
+        "target_user": "실험적 음악에 관심 있는 뮤지션, 사운드 아티스트, 음악 앱 탐색자 [추론]",
+        "unique_point": "단순 재생이 아닌 사용자 액션과 공생하며 발전하는 알고리즘 기반 드럼 악기 개념 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DM1 - The Drum Machine",
+          "Patterning 3",
+          "Groovebox"
+        ],
+        "timing_reason": "AI 생성 음악 도구 붐으로 인터랙티브 알고리즘 악기에 대한 관심 증가 [추론]",
+        "growth_potential": "실험 음악 니치 시장은 소규모이나 AUv3 플러그인 확장 시 DAW 사용자 접근 가능 [추측]"
+      },
+      "business": {
+        "monetization": "유료 앱 또는 기본 무료 + 추가 음원 팩 인앱구매 [추측]",
+        "pricing_suggested": "$3.99-6.99 일회성 구매 [추론]",
+        "pricing_suggestion": "$3.99-6.99 일회성 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "500-1200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AudioKit",
+          "AVAudioEngine",
+          "CoreMotion",
+          "Metal"
+        ],
+        "key_features": [
+          "임펄스 감지 엔진",
+          "알고리즘 리듬 생성기",
+          "실시간 오디오 처리",
+          "터치/모션 인터랙션",
+          "MIDI 출력"
+        ],
+        "clone_tip": "AudioKit 프레임워크로 오디오 엔진 구축. 핵심 차별점인 공생 알고리즘 설계에 개발 시간 집중 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#음악앱",
+        "#실험적"
+      ],
+      "verdict": "독창적 컨셉이나 니치 중 니치. 포트폴리오·실험용으로 가치 있음",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "source_id": "86e6221ab05331afe2fe63bc",
+      "name": "まもるくん：スマホ置き忘れ防止",
+      "developer": "KAZUTO MATSUBARA",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/bc/07/9ebc07db-0861-8832-c4d8-9df5f1027c18/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E3%81%BE%E3%82%82%E3%82%8B%E3%81%8F%E3%82%93-%E3%82%B9%E3%83%9E%E3%83%9B%E7%BD%AE%E3%81%8D%E5%BF%98%E3%82%8C%E9%98%B2%E6%AD%A2/id6789723496",
+      "idea_summary": "자리를 떠날 때 스마트폰 置き忘れ 방지 즉각 알림",
+      "analysis": {
+        "problem": "자리를 떠날 때 스마트폰을 두고 오는 사고가 빈번하고 기존 솔루션은 별도 태그 기기가 필요함 [추론]",
+        "solution": "블루투스 거리 감지 또는 위치 기반으로 폰이 일정 거리 이상 멀어지면 즉각 알림 발송 [추론]",
+        "target_user": "건망증이 있거나 출퇴근 중 물건 분실이 걱정되는 직장인, 고령층 [추론]",
+        "unique_point": "일본 시장 특화 명칭과 UX로 현지 사용자 신뢰 확보, 단일 기능에 집중한 심플함 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "AirTag (Apple)",
+          "Tile",
+          "Find My"
+        ],
+        "timing_reason": "스마트폰 의존도 증가로 분실 불안감 높아지고 별도 하드웨어 없는 소프트웨어 솔루션 수요 존재 [추론]",
+        "growth_potential": "고령화 사회 일본 및 한국에서 건망증 방지 앱 수요 꾸준히 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "무료 앱 + 광고 또는 프리미엄 기능 구독 [추측]",
+        "pricing_suggestion": "무료 기본 + 월 ₩1,900 프리미엄(다중 기기, 위치 히스토리) [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1개월 [추론]",
+        "estimated_cost": "150-300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreBluetooth",
+          "CoreLocation",
+          "UserNotifications",
+          "BackgroundTasks"
+        ],
+        "key_features": [
+          "블루투스 연결 모니터링",
+          "위치 이탈 감지",
+          "즉각 알림",
+          "감지 반경 설정",
+          "배터리 절약 모드"
+        ],
+        "clone_tip": "CoreBluetooth RSSI 모니터링 + 백그라운드 위치 업데이트 조합. 1인 개발자 1-2주 MVP 가능한 가장 간단한 구조 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#시니어친화"
+      ],
+      "verdict": "구현 쉽고 수요 명확. Apple AirTag 무료 대안으로 포지셔닝 가능",
+      "country": "jp"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "dd4449fafbec5ade0bbc4550",
+      "name": "OG.com: Rip Cards,Trade Events",
+      "developer": "OG Markets Limited",
+      "category": "Collectibles Marketplace",
+      "icon": "https://play-lh.googleusercontent.com/s1K_ZyJJ4a2vhAEY05w7sZghvbU8k3ziFPlun16kPO7GdyZzOlsN_CG0vI2w8Xi6ji51cH64HZ1ZexSlnoRh8g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.og.app.android",
+      "idea_summary": "트레이딩카드 오픈·거래·이벤트 통합 수집가 플랫폼",
+      "analysis": {
+        "problem": "트레이딩 카드 수집가가 카드 오픈, 거래, 이벤트 참여를 각기 다른 플랫폼에서 해야 하는 불편함 [추론]",
+        "solution": "카드 리핑(개봉), 트레이딩, 이벤트를 하나의 앱에서 커뮤니티와 함께 즐기는 통합 플랫폼 [확인]",
+        "target_user": "포켓몬, 스포츠 카드, TCG 등 트레이딩 카드 수집에 열정적인 10-30대 [추론]",
+        "unique_point": "카드 개봉 경험의 디지털화 + 커뮤니티 이벤트 연동으로 수집 문화 전반을 앱 내 완결 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TCGPlayer",
+          "eBay",
+          "Whatnot",
+          "StockX"
+        ],
+        "timing_reason": "포켓몬 카드, 스포츠 카드 수집 붐이 2020년대 중반까지 지속되며 디지털 플랫폼 수요 증가 [추론]",
+        "growth_potential": "글로벌 트레이딩 카드 시장 성장세와 Z세대 수집 문화 확산으로 성장 여지 충분 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료, 이벤트 참가비, 프리미엄 멤버십 [추론]",
+        "pricing_suggestion": "거래 수수료 5-10% + 프리미엄 멤버십 월 $9.99 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "3000-8000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "Stripe",
+          "WebRTC",
+          "Elasticsearch"
+        ],
+        "key_features": [
+          "카드 카탈로그 DB",
+          "실시간 경매/거래",
+          "라이브 카드 오픈 스트리밍",
+          "이벤트 스케줄러",
+          "가격 추적"
+        ],
+        "clone_tip": "특정 카드 종류(포켓몬 or K-pop 포토카드)로 버티컬 집중. Firebase Realtime DB로 실시간 거래 구현 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.5
+      },
+      "tags": [
+        "#팀개발권장",
+        "#B2C",
+        "#마켓플레이스",
+        "#수집가"
+      ],
+      "verdict": "트레이딩카드 붐 올라탄 통합 플랫폼. 초기 콘텐츠·셀러 확보가 성패 열쇠",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "c4fb923134efe732b57c92de",
+      "name": "Whatnot: Shop, Sell, Connect",
+      "developer": "Whatnot Inc.",
+      "category": "Live Commerce",
+      "icon": "https://play-lh.googleusercontent.com/wEQOqpC90lbIWelqnb2fXpU-84meB6VUpYe4fNLX3EUg6QGTtYGLFS-LZzcjs7WUvn4HScPbgwO7vfVp3uogPA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.whatnot_mobile",
+      "idea_summary": "라이브 경매 기반 수집품 쇼핑 소셜 커머스",
+      "analysis": {
+        "problem": "수집품 판매자가 실시간으로 바이어와 소통하며 경매하는 플랫폼이 부재함 [추론]",
+        "solution": "라이브 스트리밍 + 실시간 경매를 결합한 소셜 커머스로 수집품 거래 경험 혁신 [확인]",
+        "target_user": "수집품 판매자 및 구매자, 라이브 쇼핑을 선호하는 25-40대 [추론]",
+        "unique_point": "라이브 스트리밍과 경매를 결합한 엔터테인먼트형 쇼핑 경험으로 중독성 높은 참여 유도 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "eBay Live",
+          "Amazon Live",
+          "NTWRK",
+          "Popshop Live"
+        ],
+        "timing_reason": "라이브 커머스 글로벌 확산과 수집품 시장 성장이 맞물린 최적 타이밍 [추론]",
+        "growth_potential": "라이브 커머스 시장 고성장 중이며 수집품 외 카테고리 확장 여지 존재 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료 8-12%, 판매자 프리미엄 도구 구독 [추론]",
+        "pricing_suggestion": "판매자 수수료 모델 유지, 구매자 무료 접근으로 네트워크 효과 극대화 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "12개월 이상 [추론]",
+        "estimated_cost": "1억원 이상 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "WebRTC",
+          "Agora SDK",
+          "Stripe",
+          "Redis",
+          "AWS"
+        ],
+        "key_features": [
+          "라이브 스트리밍",
+          "실시간 경매 엔진",
+          "결제 에스크로",
+          "채팅",
+          "수집품 카탈로그"
+        ],
+        "clone_tip": "한국 K-pop 굿즈·포토카드 버티컬로 좁혀서 시작. Agora SDK로 라이브 구현, 초기 셀러 10명 직접 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 1,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.2
+      },
+      "tags": [
+        "#팀개발필요",
+        "#B2C",
+        "#라이브커머스",
+        "#마켓플레이스"
+      ],
+      "verdict": "라이브 커머스 강자. 클론 난이도 높으나 버티컬 특화 버전은 현실적",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "source_id": "ddc0df211840edde028d3fad",
+      "name": "TextNow: Call + Text Unlimited",
+      "developer": "TextNow, Inc.",
+      "category": "Communication",
+      "icon": "https://play-lh.googleusercontent.com/dhPBaff_7shT1IF0fV0P1R0psaYknV9ppvu1IyNrj3f1uXET9F56C_7w5OvfT16nKdKIGJG8Q86QI0YsjU6tIA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.enflick.android.TextNow",
+      "idea_summary": "무료 가상번호 기반 무제한 통화 및 문자 서비스",
+      "analysis": {
+        "problem": "해외 거주자, 개인정보 보호 필요자, 저소득층이 별도 전화번호 없이 통신하기 어려움 [추론]",
+        "solution": "인터넷 기반 무료 미국 가상번호 제공으로 Wi-Fi만으로 무제한 통화·문자 가능 [확인]",
+        "target_user": "미국 내 무약정 통신 원하는 사용자, 해외 여행자, 프라이버시 중시 사용자 [추론]",
+        "unique_point": "완전 무료 가상번호 + 광고 기반 모델로 선불 요금제 없이 미국 번호 취득 가능 [확인]"
+      },
+      "market": {
+        "competitors": [
+          "Google Voice",
+          "Hushed",
+          "Burner",
+          "Talkatone"
+        ],
+        "timing_reason": "개인정보 보호 의식 증가와 eSIM 보급으로 가상번호 서비스 수요 꾸준히 성장 [추론]",
+        "growth_potential": "글로벌 디지털 노마드 증가와 프라이버시 규제 강화로 가상번호 니즈 확대 예상 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익 + 프리미엄 구독(광고 제거, 추가 번호) + 국제전화 크레딧 판매 [확인]",
+        "pricing_suggestion": "$9.99/월 프리미엄, 국제전화 크레딧 $5-20 패키지 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 [추론]",
+        "estimated_cost": "5000만원-1억원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "WebRTC",
+          "SIP Protocol",
+          "Twilio API",
+          "Firebase"
+        ],
+        "key_features": [
+          "가상번호 발급",
+          "VoIP 통화",
+          "SMS/MMS",
+          "번호 이동",
+          "다중 번호 관리"
+        ],
+        "clone_tip": "Twilio API로 번호 발급 및 통화 라우팅 구현. 수익은 광고+프리미엄 하이브리드 모델이 핵심이며 Twilio 단가 관리가 수익성 좌우 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#팀개발권장",
+        "#B2C",
+        "#통신",
+        "#프라이버시"
+      ],
+      "verdict": "안정적 수요의 성숙 시장. Twilio 의존성 비용 구조 사전 검증 필수",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "source_id": "fec721de512307e0962c3579",
+      "name": "AidPDF-Edit",
+      "developer": "upstreamstudio",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/xNEYyA27Dy6V9fqDYiTEe3cn7i33XWlXN4FRoHwZHelWjNPGDYQX_gbmfuSiv7fb7E9jhJ4Ukb2moK9hyQMX0w8",
+      "app_url": "https://play.google.com/store/apps/details?id=com.aidpdf.pdfeditor",
+      "idea_summary": "AI 보조 PDF 편집·주석·변환 올인원 모바일 도구",
+      "analysis": {
+        "problem": "모바일에서 PDF 편집, 주석, 변환을 하나의 앱으로 처리하기 어렵고 기존 앱은 구독료가 비쌈 [추론]",
+        "solution": "AI 기반 텍스트 인식, 편집, 주석, 변환을 통합한 모바일 PDF 올인원 솔루션 제공 [확인]",
+        "target_user": "문서 작업이 많은 직장인, 학생, 계약서 처리 필요한 프리랜서 [추론]",
+        "unique_point": "AI 보조 기능으로 텍스트 추출·편집 정확도 향상, 경쟁사 대비 합리적 가격대 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Adobe Acrobat",
+          "PDF Expert",
+          "Smallpdf",
+          "iLovePDF"
+        ],
+        "timing_reason": "재택근무 정착과 디지털 문서화 가속으로 모바일 PDF 편집 수요 지속 증가 [추론]",
+        "growth_potential": "AI OCR 기술 발전으로 모바일 PDF 편집 품질 향상되어 고가 경쟁사 대체 수요 흡수 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 구매 [추측]",
+        "pricing_suggestion": "$4.99/월 또는 $29.99/년 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-6개월 [추론]",
+        "estimated_cost": "1000-3000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "iText7",
+          "ML Kit",
+          "Google Drive API",
+          "Room DB"
+        ],
+        "key_features": [
+          "PDF 텍스트 편집",
+          "주석 및 전자 서명",
+          "OCR 텍스트 추출",
+          "PDF-Word 변환",
+          "클라우드 동기화"
+        ],
+        "clone_tip": "iText7 오픈소스 라이브러리로 PDF 조작 엔진 구축. ML Kit OCR로 AI 텍스트 인식 추가. 가격 차별화가 핵심 경쟁력 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#생산성",
+        "#문서편집"
+      ],
+      "verdict": "Adobe Acrobat 독점에 도전하는 가성비 대안. 명확한 차별점 없으면 매몰 위험",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "source_id": "6d80267839b9d3fbcbf505b2",
+      "name": "Easy Homescreen",
+      "developer": "Homescreen Apps",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/hmQoUQolIwD8zpuOSJqphdcoOWob65kcRdGGz0uGOi-vBAU8YBHyYe-XkLq414QuUh4EJWInpAoXugjGwTn4",
+      "app_url": "https://play.google.com/store/apps/details?id=easy.launcher",
+      "idea_summary": "고령층·기술 약자를 위한 초단순 홈스크린 런처",
+      "analysis": {
+        "problem": "스마트폰 UI가 복잡해 고령층, 기술 비숙련자, 시각장애인이 기본 기능 사용에 어려움을 겪음 [추론]",
+        "solution": "대형 아이콘, 단순 레이아웃, 직관적 위젯으로 구성된 접근성 최우선 홈스크린 런처 제공 [확인]",
+        "target_user": "60대 이상 시니어, 기술 약자, 단순한 폰 환경을 원하는 모든 사용자 [추론]",
+        "unique_point": "설치·설정 없이 바로 사용 가능한 초단순 UX와 가족이 원격으로 세팅 가능한 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Launcher for Seniors",
+          "Simple Launcher",
+          "Big Launcher",
+          "Wiser"
+        ],
+        "timing_reason": "고령화 사회 가속과 디지털 소외 계층 지원 필요성 증가로 접근성 앱 수요 성장 [추론]",
+        "growth_potential": "글로벌 고령화로 시니어 스마트폰 사용자 꾸준히 증가, 가족 추천 바이럴 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 가족 케어 구독 플랜 [추측]",
+        "pricing_suggestion": "$2.99 일회성 구매 또는 $1.99/월 가족 플랜(원격 관리 포함) [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-2개월 [추론]",
+        "estimated_cost": "200-500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Launcher API",
+          "Accessibility Service",
+          "Firebase Analytics"
+        ],
+        "key_features": [
+          "대형 앱 아이콘",
+          "즐겨찾기 연락처 위젯",
+          "SOS 긴급 버튼",
+          "폰트 크기 조절",
+          "원격 설정 지원"
+        ],
+        "clone_tip": "Android Launcher API로 홈스크린 교체 구현. 핵심은 UX 단순성. 1인 개발 2-4주 MVP 가능하며 시니어 가족 대상 마케팅이 획득 비용 절감 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#접근성",
+        "#시니어"
+      ],
+      "verdict": "고령화 사회 필수 앱. 구현 쉽고 가족 추천 바이럴로 성장 가능",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 초특화 니치(VRChat 생체 연동, 트레이딩카드 플랫폼)와 접근성 도구(시니어 런처, PDF 편집)가 공존하는 흐름이 뚜렷하다. 인디 개발자에게는 AI·라이브 커머스 대신 단일 문제를 명확히 해결하는 소규모 버티컬 앱이 현실적 기회다.",
+    "trend_details": [
+      "메타버스 주변 도구 성장: VRChat 아바타 생체 연동 등 VR 생태계 서드파티 앱 확산 [추론]",
+      "트레이딩 카드 디지털화: OG.com, Whatnot 등 수집품 라이브 거래 플랫폼 주류화 [추론]",
+      "iPhone Log 촬영 대중화: iPhone Pro 로그 촬영 보급으로 경량 색보정 도구 수요 급증 [추론]",
+      "고령층 접근성 앱: 고령화 사회 대응 시니어 특화 UI/UX 앱 꾸준한 성장 [추론]",
+      "단일 목적 유틸리티 선호: 복잡한 슈퍼앱보다 한 가지 문제만 해결하는 미니 앱 사용자 선호 증가 [추론]"
+    ],
+    "hot_categories": [
+      "수집품 마켓플레이스",
+      "크리에이터 도구",
+      "접근성·시니어",
+      "메타버스 주변 앱"
+    ],
+    "opportunity": "iPhone Pro Log 촬영 사용자 급증에 맞춘 경량 색보정 도구, 또는 K-pop 포토카드 특화 라이브 거래 앱 같은 버티컬 마켓플레이스 [추론]",
+    "action_item": "Log to LUT 컨셉으로 'iPhone Log → 즉시 SNS 공유' 원스톱 앱 MVP를 2주 내 프로토타입 제작 후 크리에이터 커뮤니티에서 반응 테스트"
+  },
+  "data_status": {}
+}
