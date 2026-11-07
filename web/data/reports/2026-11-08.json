@@ -1,0 +1,700 @@
+{
+  "date": "2026-11-08",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "0afb1bb5edd85a6d53c7a042",
+      "name": "언제오나(버스)",
+      "developer": "jongin park",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/d4/0d/67d40da3-1ad8-39da-85a9-1fa07774e737/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%96%B8%EC%A0%9C%EC%98%A4%EB%82%98-%EB%B2%84%EC%8A%A4/id6827533466",
+      "idea_summary": "실시간 버스 도착 추적 & 일상 대중교통 계획",
+      "analysis": {
+        "problem": "대중교통 이용자가 버스 도착 시간을 실시간으로 파악하지 못해 대기 시간 낭비와 연결 환승 실패가 반복되는 문제 [추론]",
+        "solution": "버스 도착 정보 실시간 조회와 일일 이동 계획 수립을 하나의 앱에서 통합 처리 [확인]",
+        "target_user": "매일 대중교통을 이용하는 한국 직장인 및 학생, 주로 20-40대 [추론]",
+        "unique_point": "단순 도착 조회를 넘어 일상적 이동 루틴 계획까지 연동하는 통합 사용성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "카카오맵",
+          "네이버지도",
+          "티머니 GO",
+          "서울버스 공식 앱"
+        ],
+        "timing_reason": "도시 대중교통 의존도 증가와 개인화 모빌리티 경험 수요 성장 [추론]",
+        "growth_potential": "한국 대중교통 의존 도시권 중심 성장 가능하나 대형 지도 플랫폼과의 경쟁이 주요 도전과제 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(알림, 즐겨찾기 무제한) 또는 광고 기반 수익 가능 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 기능 월 1,900~3,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~800만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "공공 버스정보 API",
+          "CoreLocation",
+          "Push Notification"
+        ],
+        "key_features": [
+          "실시간 버스 도착 조회",
+          "즐겨찾기 노선 등록",
+          "일일 이동 계획 수립",
+          "도착 알림 푸시"
+        ],
+        "clone_tip": "서울시 공공 API(topis.seoul.go.kr) 무료 활용으로 데이터 비용 절감 가능하며, iOS WidgetKit 홈화면 위젯 지원으로 UX 차별화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#한국특화",
+        "#대중교통"
+      ],
+      "verdict": "대형 지도앱과 차별화된 대중교통 특화 UX로 니치 공략 가능",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "1af291fa7b5f875bd293564e",
+      "name": "Reel: 4트랙 레코더",
+      "developer": "TUGKAN MUTLU",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/9b/5f/079b5f9b-04ce-b795-1927-d43e0bcfe54b/ReelIcon2026-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/reel-4%ED%8A%B8%EB%9E%99-%EB%A0%88%EC%BD%94%EB%8D%94/id6760545075",
+      "idea_summary": "4트랙 멀티레이어 오디오 녹음 및 모바일 믹싱",
+      "analysis": {
+        "problem": "뮤지션들이 이동 중 즉흥적 아이디어를 멀티트랙으로 빠르게 캡처하고 레이어링하기 어려운 문제 [추론]",
+        "solution": "4개의 독립 오디오 트랙으로 녹음, 레이어링, 믹싱을 모바일에서 간단히 수행 [확인]",
+        "target_user": "싱어송라이터, 아마추어 음악인, 밴드 연습 중 아이디어를 즉시 기록하려는 뮤지션 (18-40대) [추론]",
+        "unique_point": "복잡한 DAW 없이 4트랙 아날로그 레코더 감성을 모바일에서 재현한 미니멀 UI [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GarageBand",
+          "BandLab",
+          "Loopy HD",
+          "4Track Studio"
+        ],
+        "timing_reason": "모바일 음악 제작 시장 확대와 1인 창작자 증가 트렌드 가속 [추론]",
+        "growth_potential": "글로벌 음악 창작 커뮤니티 타겟으로 인디 뮤지션 니치에서 충성도 높은 유저 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 고급 이펙트/내보내기 IAP 방식 [추론]",
+        "pricing_suggestion": "기본 무료 + 고급 이펙트/WAV 내보내기 일회성 9,900원 또는 월 2,900~4,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "500~1,500만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "AVFoundation",
+          "Core Audio",
+          "AudioKit 오픈소스"
+        ],
+        "key_features": [
+          "4트랙 독립 녹음",
+          "트랙 레이어링 및 믹싱",
+          "루프 재생",
+          "WAV/MP3 내보내기"
+        ],
+        "clone_tip": "AudioKit 오픈소스 프레임워크 활용 시 Core Audio 직접 구현 대비 개발 기간 약 50% 단축 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#뮤지션",
+        "#글로벌"
+      ],
+      "verdict": "미니멀 4트랙 레코더로 아이디어 캡처 니치 공략, 오디오 기술 역량 필요",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "acc8a4e733cb0b136c7982bf",
+      "name": "Practice Farm: 練習曲、どの調でも",
+      "developer": "Nicholas Mahon",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/96/84/889684d0-a0cd-ca13-b0c9-4063d6454a7f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/practice-farm-%E7%B7%B4%E7%BF%92%E6%9B%B2-%E3%81%A9%E3%81%AE%E8%AA%BF%E3%81%A7%E3%82%82/id6806470752",
+      "idea_summary": "모든 조성으로 연습곡 자동 전조 뮤지션 훈련 앱",
+      "analysis": {
+        "problem": "악기 연주자들이 연습곡을 모든 12개 조성에서 익히기 위해 별도 악보를 찾거나 직접 전조해야 하는 불편함 [추론]",
+        "solution": "에튜드와 연습 곡을 원하는 조성으로 자동 전조하여 체계적인 전조 연습 지원 [확인]",
+        "target_user": "재즈/클래식 악기 연주자, 음악학교 학생, 프로 뮤지션 (15-35세) [추론]",
+        "unique_point": "어떤 조성에서도 동일한 연습곡을 즉시 연주할 수 있도록 하는 전조 특화 연습 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "iReal Pro",
+          "Musicnotes",
+          "Noteflight",
+          "forScore"
+        ],
+        "timing_reason": "음악 교육 앱 시장 성장 및 개인화 연습 도구 수요 증가 [추론]",
+        "growth_potential": "글로벌 음악 교육 시장 타겟으로 일본, 한국, 북미 뮤지션 커뮤니티 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 또는 곡 팩별 IAP 방식 [추론]",
+        "pricing_suggestion": "기본 무료(제한 곡 수) + 전체 라이브러리 접근 월 3,900~6,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "700~2,000만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "MusicKit",
+          "AVFoundation",
+          "MusicXML 파싱"
+        ],
+        "key_features": [
+          "12개 전조 자동 변환",
+          "연습곡 라이브러리",
+          "메트로놈 연동",
+          "학습 진도 추적"
+        ],
+        "clone_tip": "MusicXML 표준 형식 활용 시 악보 데이터 처리가 용이하며, 오픈소스 악보(IMSLP) 활용으로 저작권 비용 절감 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#음악교육",
+        "#글로벌"
+      ],
+      "verdict": "전조 연습 특화 니치로 뮤지션 충성 유저 확보 가능한 교육 앱",
+      "country": "jp"
+    },
+    {
+      "rank": 4,
+      "source_id": "9c0a3171cc042defdf67cdae",
+      "name": "폴럽 이글루 - 나만의 스티커 제작소",
+      "developer": "POLUV",
+      "category": "Graphics & Design",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/6e/d0/fa6ed006-67f3-e776-4dab-10dd4a8b6cf8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%8F%B4%EB%9F%BD-%EC%9D%B4%EA%B8%80%EB%A3%A8-%EB%82%98%EB%A7%8C%EC%9D%98-%EC%8A%A4%ED%8B%B0%EC%BB%A4-%EC%A0%9C%EC%9E%91%EC%86%8C/id6748637585",
+      "idea_summary": "창의적 도구로 나만의 스티커를 직접 제작하는 워크숍",
+      "analysis": {
+        "problem": "소셜 미디어와 메신저에서 자신만의 개성 있는 스티커를 쉽게 만들고 싶으나 디자인 도구가 복잡한 문제 [추론]",
+        "solution": "창의적 일러스트 도구와 커스텀 에셋으로 개인화된 스티커를 손쉽게 제작하는 워크숍 환경 제공 [확인]",
+        "target_user": "Z세대 및 MZ세대 창작 취미 사용자, SNS 활성 이용자 (15-30세) [추론]",
+        "unique_point": "단순 스티커 팩 구매가 아닌 나만의 스티커를 직접 창작하는 메이커 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sticker Maker Studio",
+          "Canva",
+          "PicsArt",
+          "Moji Edit"
+        ],
+        "timing_reason": "개인화 콘텐츠 소비 트렌드와 SNS 스티커 문화 확산 [추론]",
+        "growth_potential": "한국 MZ세대 커스텀 굿즈 선호도와 맞물려 성장 가능하며 B2B 굿즈 제작 연계도 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 디자인 에셋 IAP 또는 구독 방식 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 일러스트 팩 1,100~3,300원 IAP 또는 월 2,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "500~1,200만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "PencilKit",
+          "Core Image",
+          "WebP 출력"
+        ],
+        "key_features": [
+          "드래그앤드롭 스티커 편집",
+          "일러스트 에셋 라이브러리",
+          "배경 제거",
+          "카카오톡/iMessage 스티커 내보내기"
+        ],
+        "clone_tip": "Apple PencilKit으로 손그림 지원 추가 시 차별화 가능하며, 카카오 이모티콘 스튜디오 연동 추가 시 국내 유통 채널 확보 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#한국특화",
+        "#크리에이터"
+      ],
+      "verdict": "MZ세대 개인화 창작 니즈 충족, 카카오 이모티콘 연동으로 국내 확산 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "39a23eea76e0b66bb07fa88e",
+      "name": "Dicter - 평생 기억되는 나만의 단어장",
+      "developer": "SeungHyeon Lee",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/6b/9c/816b9c74-2668-c6cf-fc25-b5ba9625e304/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/dicter-%ED%8F%89%EC%83%9D-%EA%B8%B0%EC%96%B5%EB%90%98%EB%8A%94-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%8B%A8%EC%96%B4%EC%9E%A5/id6753685328",
+      "idea_summary": "장기 기억 기반 완전 개인화 단어장 앱",
+      "analysis": {
+        "problem": "언어 학습자들이 직접 접한 단어를 체계적으로 기록하고 장기 기억으로 전환하기 어려운 문제 [추론]",
+        "solution": "개인화된 단어 목록 구축과 간격 반복(Spaced Repetition) 방식으로 장기 기억 지원 [추론]",
+        "target_user": "영어·일본어 등 외국어 학습 중인 한국 학생 및 직장인 (20-40대) [추론]",
+        "unique_point": "앱 제공 단어장이 아닌 사용자가 직접 경험한 단어 중심의 완전 개인화 단어 학습 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Anki",
+          "Quizlet",
+          "네이버 단어장",
+          "Memrise"
+        ],
+        "timing_reason": "AI 보조 언어 학습 시장 성장 및 개인화 학습 도구 수요 증가 [추론]",
+        "growth_potential": "글로벌 언어 학습 시장에서 개인화 특화 앱으로 성장 가능하며 AI 단어 추천 기능 추가 시 경쟁력 강화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(AI 기능, 클라우드 동기화 무제한) 방식 [추론]",
+        "pricing_suggestion": "기본 무료(단어 300개 제한) + 무제한 + AI 기능 월 2,900~4,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "200~600만원 [추론]",
+        "tech_stack": [
+          "Swift/SwiftUI",
+          "Core Data",
+          "CloudKit",
+          "SM-2 간격반복 알고리즘"
+        ],
+        "key_features": [
+          "개인 단어 추가 및 관리",
+          "간격 반복 복습 시스템",
+          "퀴즈 모드",
+          "iCloud 동기화"
+        ],
+        "clone_tip": "오픈소스 SM-2 간격반복 알고리즘 적용으로 핵심 기능 빠르게 구현 가능하며, Apple WidgetKit 홈화면 단어 노출 위젯 추가 시 리텐션 대폭 향상 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#교육",
+        "#글로벌"
+      ],
+      "verdict": "언어 학습 시장 경쟁 치열하나 개인화 특화와 간격반복으로 차별화 가능한 1인 개발 적합 앱",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "239e0301e72736f0d615561d",
+      "name": "Bump (バンプ) - 友達とつながるマップ",
+      "developer": "amoamoamo",
+      "category": "Social Networking",
+      "icon": "https://play-lh.googleusercontent.com/gm8PPTHUZDnBaRxAaBGrCmHs9LFn1S7XZaBD_yxGIASMDq4rwpua1MEdeMK36Jbd4imGBN7xkkUK9uPXeQp-Qw",
+      "app_url": "https://play.google.com/store/apps/details?id=co.amo.android.location",
+      "idea_summary": "소셜 지도 기반 친구 위치 공유 연결 앱",
+      "analysis": {
+        "problem": "친구들과 실시간 위치를 소셜하게 공유하고 싶으나 기존 메신저 위치 공유는 번거롭고 소셜 맥락이 부족한 문제 [추론]",
+        "solution": "소셜 지도 위에서 친구 위치를 한눈에 보고 상호작용하는 소셜 경험 제공 [확인]",
+        "target_user": "10-20대 친구 그룹 중심 소셜 앱 이용자, 약속 조율이 잦은 MZ세대 [추론]",
+        "unique_point": "단순 위치 공유가 아닌 소셜 지도 레이어 위에서 친구들과 실시간 상호작용하는 새로운 소셜 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Zenly (서비스 종료)",
+          "Snap Map",
+          "Life360",
+          "Find My Friends"
+        ],
+        "timing_reason": "Zenly 서비스 종료 이후 소셜 지도 앱 시장 공백 발생, 대체 앱 수요 급증 [추론]",
+        "growth_potential": "Zenly 종료로 생긴 시장 공백 직접 공략 가능하며 10-20대 소셜 지도 앱 수요는 지속적으로 존재 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독(고급 프라이버시 옵션, 테마) 또는 광고 기반 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 월 1,900~3,900원 구독 [추론]",
+        "revenue_potential": "중상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1,000~3,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Jetpack Compose",
+          "Google Maps SDK",
+          "Firebase Realtime DB",
+          "WebSocket"
+        ],
+        "key_features": [
+          "실시간 위치 공유",
+          "소셜 지도 UI",
+          "친구 초대 시스템",
+          "프라이버시 모드(흐림 처리)"
+        ],
+        "clone_tip": "Firebase Realtime Database로 실시간 위치 동기화 구현 비용 최소화 가능하며, 프라이버시 모드 완성도가 사용자 불안 해소와 바이럴 확산의 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#소셜",
+        "#B2C",
+        "#글로벌",
+        "#Zenly대체"
+      ],
+      "verdict": "Zenly 종료 공백 노리는 소셜 지도 앱, 타이밍 최적 - 초기 사용자 확보가 성패 결정",
+      "country": "jp",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "8e9985714eb5e2256f5fb5e1",
+      "name": "reTONE — 古いスマホを音楽プレーヤーに",
+      "developer": "Iida Piano Co., Ltd.",
+      "category": "Music Player",
+      "icon": "https://play-lh.googleusercontent.com/3vtOFT5VD4l1VIQSnB2uy_u6umLn45wMXSfc_xUaaPhLqKVr7EAj2Yt5gs5zlb2zrZBWzZ1OdQHdgxgNKFhm",
+      "app_url": "https://play.google.com/store/apps/details?id=audio.musicos.home",
+      "idea_summary": "구형 스마트폰을 오프라인 전용 음악 플레이어로 재활용",
+      "analysis": {
+        "problem": "서랍 속에 방치된 구형 스마트폰 활용 불가 문제와 스트리밍 없이 고음질 오프라인 음악 감상 환경 구축의 어려움 [추론]",
+        "solution": "구형 안드로이드 폰을 오프라인 전용 음악 플레이어로 변환하는 전용 앱 제공 [확인]",
+        "target_user": "구형 스마트폰 보유자, 고음질 오프라인 음악 감상을 선호하는 오디오파일 (25-50대) [추론]",
+        "unique_point": "디바이스 재활용이라는 친환경 가치와 스트리밍 불필요한 완전 오프라인 음악 감상 경험을 결합한 독창적 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Poweramp",
+          "Neutron Music Player",
+          "AIMP",
+          "USB Audio Player Pro"
+        ],
+        "timing_reason": "전자폐기물 감소 트렌드, 구독 스트리밍 피로감 증가, 하이파이 오디오 관심 성장 [추론]",
+        "growth_potential": "오디오파일 커뮤니티와 친환경 소비 트렌드 맞물려 성장 가능하며 일본, 한국 고음질 음악 시장에서 반응 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 고음질 코덱/EQ 프리미엄 IAP [추론]",
+        "pricing_suggestion": "기본 무료 + 고급 EQ/코덱 지원 일회성 9,900~14,900원 또는 월 2,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "400~1,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Media3/ExoPlayer",
+          "MediaStore API",
+          "Android Auto 연동"
+        ],
+        "key_features": [
+          "로컬 음악 파일 관리",
+          "고음질 오디오 재생(FLAC/ALAC)",
+          "미니멀 플레이어 UI",
+          "구형 기기 배터리 최적화 모드"
+        ],
+        "clone_tip": "ExoPlayer(현 Media3) 기반으로 구현 시 다양한 오디오 코덱 지원이 용이하며, 구형 기기 배터리 최적화 처리가 핵심 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#친환경",
+        "#오디오"
+      ],
+      "verdict": "구형폰 재활용이라는 독창적 USP로 오디오파일 니치 시장 공략 가능",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "source_id": "1aee67569461c5d758ca8917",
+      "name": "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+      "developer": "Fallcent",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/PtB6uKLbszcI6wg2-lRxn4Yr6JBPFe52MF3gN87xsuyPm14s3mUzITjgpQC02VrdgE4P6NscNe9ZYazuql4_QQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.deaguowl.fallcent",
+      "idea_summary": "가격 추적, 최저가 비교, 캐시백 통합 쇼핑 절약 도구",
+      "analysis": {
+        "problem": "소비자들이 여러 쇼핑몰 가격을 일일이 비교하고 가격 하락 시점을 파악하지 못해 최적가 구매 기회를 놓치는 문제 [추론]",
+        "solution": "가격 추적, 비교 쇼핑, 캐시백 링크, 핫딜 알림을 통합 제공하는 올인원 쇼핑 절약 도구 [확인]",
+        "target_user": "절약 지향 쇼핑객, 온라인 쇼핑 헤비유저 (20-40대) [추론]",
+        "unique_point": "단순 가격 비교를 넘어 가격 이력 추적 + 캐시백 + 핫딜 알림을 한 앱에서 통합 처리 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "폴센트",
+          "에누리",
+          "다나와",
+          "Google Shopping"
+        ],
+        "timing_reason": "고물가 시대 절약 소비 트렌드 강화 및 e-커머스 시장 성숙 [추론]",
+        "growth_potential": "고물가 환경 지속으로 절약 도구 수요 증가, 제휴 마케팅 수익과 사용자 증가 선순환 구조 가능 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 마케팅(어필리에이트 링크), 광고, 프리미엄 알림 기능 [추론]",
+        "pricing_suggestion": "기본 무료 + 고급 알림/분석 월 1,900~2,900원 프리미엄, 주 수익은 제휴 커미션 [추론]",
+        "revenue_potential": "중상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "800~2,500만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Jetpack Compose",
+          "웹 스크래핑/크롤링",
+          "Firebase Cloud Messaging",
+          "Affiliate API 연동"
+        ],
+        "key_features": [
+          "상품별 가격 이력 그래프",
+          "가격 하락 알림",
+          "캐시백 링크 생성",
+          "멀티 쇼핑몰 동시 비교"
+        ],
+        "clone_tip": "쿠팡 파트너스 등 국내 주요 쇼핑몰 제휴 프로그램 연동이 수익화 핵심이며, 가격 데이터 수집은 공개 API 우선 활용 후 스크래핑 보완 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#쇼핑",
+        "#절약",
+        "#제휴수익"
+      ],
+      "verdict": "고물가 타이밍 최적, 제휴 수익 모델로 무료 서비스 유지 가능한 실용 앱",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "67e1282069f7271538f14266",
+      "name": "SpeakUp AI - 언어 학습",
+      "developer": "Growly",
+      "category": "Education",
+      "icon": "https://play-lh.googleusercontent.com/q9zztoFKGy3TDVjJR023Ta4BudhNeX8EUh0JHNp2ZoeGbtPQzToa2MqF5Fi5L3rp_iQVTSrcdRfP2LhKMNBy",
+      "app_url": "https://play.google.com/store/apps/details?id=com.growly.speakup.ai",
+      "idea_summary": "AI 대화 연습으로 외국어 말하기 실력 향상 앱",
+      "analysis": {
+        "problem": "외국어 학습자들이 실제 말하기 연습 기회를 얻기 어렵고 원어민 튜터 비용이 과도하게 비싼 문제 [추론]",
+        "solution": "AI와의 실제 대화를 통해 발음, 리스닝, 말하기를 체계적으로 연습하는 플랫폼 제공 [확인]",
+        "target_user": "외국어 말하기 실력 향상을 원하는 학생 및 직장인 (15-40세), 글로벌 대상 [추론]",
+        "unique_point": "AI 대화 상대를 통해 언제 어디서나 부담 없이 외국어 말하기 연습 가능한 접근성과 비용 혁신 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "Speak",
+          "Pimsleur",
+          "Cambly",
+          "iTalki"
+        ],
+        "timing_reason": "LLM 기술 발전으로 AI 대화 품질이 대폭 향상되어 외국어 말하기 교육 시장의 AI 전환 가속화 [추론]",
+        "growth_potential": "글로벌 언어 교육 시장 AI 전환 가속으로 성장 여지 크나, Duolingo 등 대형 플레이어와의 경쟁이 도전과제 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독(AI 대화 횟수 무제한, 발음 교정, 개인화 커리큘럼) [추론]",
+        "pricing_suggestion": "기본 무료(일일 대화 제한) + 프리미엄 월 9,900~14,900원 구독, 연간 플랜 할인 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1,000~3,500만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Jetpack Compose",
+          "OpenAI API 또는 Claude API",
+          "Google STT/TTS",
+          "Firebase"
+        ],
+        "key_features": [
+          "AI 대화 시뮬레이션",
+          "발음 교정 피드백",
+          "학습 진도 추적",
+          "상황별 대화 시나리오"
+        ],
+        "clone_tip": "초기에는 단일 언어(영어)에만 집중하고 발음 교정 정확도를 최대한 높이는 것이 Duolingo와의 차별화 핵심이며, Claude API 활용 시 자연스러운 대화 품질 확보 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 7.9
+      },
+      "tags": [
+        "#AI",
+        "#B2C",
+        "#교육",
+        "#글로벌"
+      ],
+      "verdict": "AI 말하기 교육 시장 성장세 뚜렷, 경쟁 치열하나 AI 품질 차별화로 돌파 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "f350a21a3ddf78b0281cc08a",
+      "name": "Hark Pro",
+      "developer": "Hark Labs Inc.",
+      "category": "Communication",
+      "icon": "https://play-lh.googleusercontent.com/G19oMNQ1dz7av_pnbvUA7WR5LtaG-2mhdoMeVy7zWwcDcQiVp_sQoNf5I8Q_wHxHm1HWdT1B9ZXbmvc2pdoTjQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.hark.android",
+      "idea_summary": "전문 오디오 커뮤니케이션 및 음성 협업 도구",
+      "analysis": {
+        "problem": "팀 협업에서 텍스트 기반 커뮤니케이션의 한계를 보완할 비동기 음성 메시지 및 오디오 협업 도구 부재 [추측]",
+        "solution": "전문 오디오 커뮤니케이션, 녹음, 청취, 음성 협업 기능을 통합 제공하는 프로 도구 [추측]",
+        "target_user": "원격 협업 팀, 팟캐스터, 음성 콘텐츠 제작자 및 비동기 커뮤니케이션 선호 직장인 [추측]",
+        "unique_point": "텍스트 채팅을 대체하는 비동기 음성 중심 협업 커뮤니케이션 플랫폼 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "Yac",
+          "Loom (음성)",
+          "Slack 허들",
+          "Marco Polo"
+        ],
+        "timing_reason": "원격 근무 정착으로 비동기 커뮤니케이션 도구 수요 지속, 텍스트 피로감 증가 [추론]",
+        "growth_potential": "원격 근무 비동기 협업 시장 성장으로 중장기 성장 가능하나 기존 협업 도구 생태계와의 연동이 성패 결정 [추측]"
+      },
+      "business": {
+        "monetization": "팀 플랜 구독(B2B SaaS) 또는 개인 프리미엄 구독 [추측]",
+        "pricing_suggestion": "기본 무료(제한 기능) + 팀 플랜 사용자당 월 5,000~15,000원 구독 [추측]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1,000~3,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin/Jetpack Compose",
+          "WebRTC",
+          "Firebase",
+          "오디오 압축 코덱"
+        ],
+        "key_features": [
+          "비동기 음성 메시지 녹음/재생",
+          "오디오 스레드 관리",
+          "팀 채널 관리",
+          "속도 조절 재생"
+        ],
+        "clone_tip": "WebRTC 오픈소스 활용으로 실시간/비동기 오디오 전송 구현 가능하며, Slack 대비 음성 특화 UX로 니치 포지셔닝 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.5
+      },
+      "tags": [
+        "#B2B",
+        "#협업",
+        "#오디오",
+        "#원격근무"
+      ],
+      "verdict": "비동기 음성 협업 니치 시장 타겟, 정보 부족으로 실제 기능 검증 후 평가 필요",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정 앱들은 AI 기반 교육 도구와 소셜 연결 앱이 강세를 보이며, 개인화 학습 경험과 Zenly 종료 이후 소셜 지도 공백 선점이 주요 기회로 부상했다. 구형 디바이스 재활용(reTONE)처럼 친환경 가치와 실용성을 결합한 참신한 니치 아이디어도 주목할 만하다.",
+    "trend_details": [
+      "AI 대화 기반 언어 말하기 학습 급성장 — LLM 품질 향상으로 원어민 대체 수준 AI 튜터 현실화",
+      "소셜 지도 앱 시장 공백 지속 — Zenly 종료 이후 10-20대 위치 기반 소셜 연결 앱 수요 미충족",
+      "고물가 대응 절약 쇼핑 도구 수요 증가 — 가격 비교 + 캐시백 + 알림 통합 실용 앱 가치 부각",
+      "구형 스마트폰 재활용 니치 — 전자폐기물 감소 트렌드와 오디오파일 수요 맞물린 블루오션",
+      "음악 창작 도구 모바일화 가속 — 멀티트랙 레코더, 전조 연습 등 프로 뮤지션 도구의 모바일 대중화"
+    ],
+    "hot_categories": [
+      "AI 교육",
+      "소셜 네트워킹",
+      "음악 창작",
+      "쇼핑 절약",
+      "디바이스 재활용"
+    ],
+    "opportunity": "AI 말하기 교육과 소셜 지도 앱 두 카테고리의 시장 타이밍이 가장 좋음 — AI 말하기 교육은 LLM 성숙으로 품질 임계점 도달, 소셜 지도는 Zenly 공백으로 선점 기회 열려 있음",
+    "action_item": "소셜 지도 앱 MVP 개발 시 Firebase Realtime DB + Google Maps SDK 조합으로 2-3개월 내 프로토타입 구현 후 대학생 커뮤니티(에브리타임, 디스코드)에서 초기 100명 사용자 확보 테스트 시작"
+  },
+  "data_status": {}
+}

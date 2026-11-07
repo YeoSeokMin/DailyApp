@@ -1,10 +1,63 @@
 {
-  "generatedAt": "2026-11-06T15:20:34.090Z",
+  "generatedAt": "2026-11-07T15:28:22.816Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
+    {
+      "category": "Graphics & Design",
+      "currentCount": 3,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Miniature Studio",
+        "AltoPaint: Oil & Gouache",
+        "VirtuCamera 2"
+      ],
+      "avgScore": 7.6000000000000005
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 8,
+      "previousCount": 4,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "まもるくん：スマホ置き忘れ防止",
+        "Easy Homescreen",
+        "Brim: 화면 끝까지 브라우징",
+        "Rupteur Sensor",
+        "Foldometer: Fold Angle Gauge",
+        "Dashcam Viewer: for Tesla",
+        "WakeBox",
+        "ARCQ SPL - SPL Meter"
+      ],
+      "avgScore": 6.7875000000000005
+    },
+    {
+      "category": "Collectibles Marketplace",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "OG.com: Rip Cards,Trade Events"
+      ],
+      "avgScore": 8.5
+    },
+    {
+      "category": "Live Commerce",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "Whatnot: Shop, Sell, Connect"
+      ],
+      "avgScore": 8.2
+    },
     {
       "category": "News",
       "currentCount": 2,
@@ -51,18 +104,6 @@
       "avgScore": 6.8
     },
     {
-      "category": "Graphics & Design",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "AltoPaint: Oil & Gouache",
-        "VirtuCamera 2"
-      ],
-      "avgScore": 7.65
-    },
-    {
       "category": "Safety",
       "currentCount": 1,
       "previousCount": 0,
@@ -96,93 +137,32 @@
       "avgScore": 8.5
     },
     {
-      "category": "Social Networking",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "setlog",
-        "Bump (バンプ) - 友達とつながるマップ"
-      ],
-      "avgScore": 7.15
-    },
-    {
-      "category": "Insurance Services",
+      "category": "Weather",
       "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "라이프캐치 - 놓친보험금, 차사고위로금 정확한 청구대행"
+        "Nice Weather"
       ],
-      "avgScore": 8.8
+      "avgScore": 6.5
     },
     {
-      "category": "Shopping and Collectibles",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "Rips by Triumph"
-      ],
-      "avgScore": 8
-    },
-    {
-      "category": "Shopping",
-      "currentCount": 10,
-      "previousCount": 6,
-      "changePercent": 67,
-      "changeDirection": "up",
-      "apps": [
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "DealSeek: Coupons & Discounts",
-        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
-        "올웨이즈 - 올팜으로 키우는 신선 농작물",
-        "GoWish - Your Digital Wishlist",
-        "ショッピングリズム - 買い物リスト・日用品管理",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "Koupon: Real Deals & Codes",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
-      ],
-      "avgScore": 7.3
-    },
-    {
-      "category": "Music",
-      "currentCount": 9,
-      "previousCount": 6,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "Band Session Note: 손글씨 악보",
-        "Beat Blocks - Rhythm Practice",
-        "Suno - AI Music & Songs Maker",
-        "GLIMR: Strum Any Sound",
-        "VU303",
-        "Draw Music: Sketch to Sound",
-        "Materia - Additive Synth",
-        "Practice Farm: 연습곡, 어떤 조로든",
-        "Bionic Tape"
-      ],
-      "avgScore": 7.377777777777778
-    },
-    {
-      "category": "Utilities",
-      "currentCount": 6,
+      "category": "Photo & Video",
+      "currentCount": 7,
       "previousCount": 4,
-      "changePercent": 50,
+      "changePercent": 75,
       "changeDirection": "up",
       "apps": [
-        "Brim: 화면 끝까지 브라우징",
-        "Rupteur Sensor",
-        "Foldometer: Fold Angle Gauge",
-        "Dashcam Viewer: for Tesla",
-        "WakeBox",
-        "ARCQ SPL - SPL Meter"
+        "Log to LUT",
+        "Frame(프레임) - AI 셀카 & 포즈 카메라",
+        "Both: 듀얼 카메라",
+        "GR Snap - 리코 GR Image Sync",
+        "NickyFilm - 진짜 필름 감성 카메라",
+        "Chromagraph Camera",
+        "ROLLIE'S: 35mm Film Camera"
       ],
-      "avgScore": 6.633333333333334
+      "avgScore": 7.271428571428572
     },
     {
       "category": "Entertainment",
@@ -244,47 +224,78 @@
   ],
   "stableCategories": [
     {
-      "category": "Productivity",
-      "currentCount": 5,
-      "previousCount": 5,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "노그미(Nogmi): 녹음·전사·요약",
-        "Pocket Mac Lab",
-        "피클: 나만의 AI 에이전트",
-        "Hark Pro",
-        "호글 - HWP HWPX 한글뷰어"
-      ],
-      "avgScore": 7.68
-    },
-    {
-      "category": "Photo & Video",
-      "currentCount": 6,
-      "previousCount": 6,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "Frame(프레임) - AI 셀카 & 포즈 카메라",
-        "Both: 듀얼 카메라",
-        "GR Snap - 리코 GR Image Sync",
-        "NickyFilm - 진짜 필름 감성 카메라",
-        "Chromagraph Camera",
-        "ROLLIE'S: 35mm Film Camera"
-      ],
-      "avgScore": 7.183333333333334
-    },
-    {
       "category": "Health & Fitness",
       "currentCount": 2,
       "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "오늘도 - 돈 버는 건강 습관, 만보기",
-        "PlainWalk − 散歩で白地図を描くアプリ"
+        "PulseOSC: VRChat 실시간 심박수 표시",
+        "오늘도 - 돈 버는 건강 습관, 만보기"
       ],
-      "avgScore": 8
+      "avgScore": 7.25
+    },
+    {
+      "category": "Music",
+      "currentCount": 8,
+      "previousCount": 8,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "ImpulseDie - Symbiotic Drum",
+        "Band Session Note: 손글씨 악보",
+        "Beat Blocks - Rhythm Practice",
+        "Suno - AI Music & Songs Maker",
+        "GLIMR: Strum Any Sound",
+        "VU303",
+        "Draw Music: Sketch to Sound",
+        "Materia - Additive Synth"
+      ],
+      "avgScore": 7.425
+    },
+    {
+      "category": "Communication",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "TextNow: Call + Text Unlimited"
+      ],
+      "avgScore": 7.8
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 5,
+      "previousCount": 5,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "AidPDF-Edit",
+        "노그미(Nogmi): 녹음·전사·요약",
+        "Pocket Mac Lab",
+        "피클: 나만의 AI 에이전트",
+        "Hark Pro"
+      ],
+      "avgScore": 7.640000000000001
+    },
+    {
+      "category": "Shopping",
+      "currentCount": 8,
+      "previousCount": 8,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "DealSeek: Coupons & Discounts",
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+        "올웨이즈 - 올팜으로 키우는 신선 농작물",
+        "GoWish - Your Digital Wishlist",
+        "ショッピングリズム - 買い物リスト・日用品管理",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "Koupon: Real Deals & Codes"
+      ],
+      "avgScore": 7.25
     },
     {
       "category": "Navigation",
@@ -298,26 +309,15 @@
       "avgScore": 8
     },
     {
-      "category": "Weather",
+      "category": "Social Networking",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "Nice Weather"
+        "setlog"
       ],
       "avgScore": 6.5
-    },
-    {
-      "category": "Medical",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "AutoSnore: 코골이 녹음기"
-      ],
-      "avgScore": 7.8
     }
   ],
   "hotKeywords": [
@@ -326,6 +326,16 @@
       "category": "tag",
       "count": 65,
       "apps": [
+        "PulseOSC: VRChat 실시간 심박수 표시",
+        "Miniature Studio",
+        "Log to LUT",
+        "ImpulseDie - Symbiotic Drum",
+        "まもるくん：スマホ置き忘れ防止",
+        "OG.com: Rip Cards,Trade Events",
+        "Whatnot: Shop, Sell, Connect",
+        "TextNow: Call + Text Unlimited",
+        "AidPDF-Edit",
+        "Easy Homescreen",
         "Band Session Note: 손글씨 악보",
         "Beat Blocks - Rhythm Practice",
         "Brim: 화면 끝까지 브라우징",
@@ -379,23 +389,21 @@
         "ROLLIE'S: 35mm Film Camera",
         "Nice Weather",
         "Koupon: Real Deals & Codes",
-        "setlog",
-        "PlainWalk − 散歩で白地図を描くアプリ",
-        "AutoSnore: 코골이 녹음기",
-        "Practice Farm: 연습곡, 어떤 조로든",
-        "호글 - HWP HWPX 한글뷰어",
-        "Bionic Tape",
-        "라이프캐치 - 놓친보험금, 차사고위로금 정확한 청구대행",
-        "Bump (バンプ) - 友達とつながるマップ",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Rips by Triumph"
+        "setlog"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 42,
+      "count": 45,
       "apps": [
+        "PulseOSC: VRChat 실시간 심박수 표시",
+        "Miniature Studio",
+        "Log to LUT",
+        "ImpulseDie - Symbiotic Drum",
+        "まもるくん：スマホ置き忘れ防止",
+        "AidPDF-Edit",
+        "Easy Homescreen",
         "Band Session Note: 손글씨 악보",
         "Beat Blocks - Rhythm Practice",
         "Brim: 화면 끝까지 브라우징",
@@ -433,17 +441,16 @@
         "종쳤다: 학교 종소리 알람",
         "ARCQ SPL - SPL Meter",
         "ROLLIE'S: 35mm Film Camera",
-        "Nice Weather",
-        "PlainWalk − 散歩で白地図を描くアプリ",
-        "AutoSnore: 코골이 녹음기",
-        "Practice Farm: 연습곡, 어떤 조로든"
+        "Nice Weather"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 15,
+      "count": 16,
       "apps": [
+        "まもるくん：スマホ置き忘れ防止",
+        "AidPDF-Edit",
         "Suno - AI Music & Songs Maker",
         "Tarova: 아스트랄 타로 & 조디악",
         "노그미(Nogmi): 녹음·전사·요약",
@@ -454,30 +461,16 @@
         "AltoPaint: Oil & Gouache",
         "zeta - AIキャラ・あなたの推しとロールプレイチャット",
         "Hark Pro",
-        "Koupon: Real Deals & Codes",
-        "PlainWalk − 散歩で白地図を描くアプリ"
-      ]
-    },
-    {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 11,
-      "apps": [
-        "スタンプ · 季節だより",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
-        "올웨이즈 - 올팜으로 키우는 신선 농작물",
-        "GoWish - Your Digital Wishlist",
-        "setlog",
-        "Bump (バンプ) - 友達とつながるマップ",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+        "Koupon: Real Deals & Codes"
       ]
     },
     {
       "keyword": "프로",
       "category": "subscription",
-      "count": 8,
+      "count": 10,
       "apps": [
+        "PulseOSC: VRChat 실시간 심박수 표시",
+        "Log to LUT",
         "スタンプ · 季節だより",
         "Snap뉴스",
         "VU303",
@@ -489,23 +482,25 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 6,
+      "keyword": "소셜",
+      "category": "social",
+      "count": 9,
       "apps": [
-        "Tarova: 아스트랄 타로 & 조디악",
-        "Freecash: Earn Money",
-        "CrimeRadar: Dispatch Alerts",
-        "ARCQ SPL - SPL Meter",
-        "Hark Pro",
-        "Practice Farm: 연습곡, 어떤 조로든"
+        "Whatnot: Shop, Sell, Connect",
+        "スタンプ · 季節だより",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+        "올웨이즈 - 올팜으로 키우는 신선 농작물",
+        "GoWish - Your Digital Wishlist",
+        "setlog"
       ]
     },
     {
       "keyword": "니치마켓",
       "category": "tag",
-      "count": 5,
+      "count": 6,
       "apps": [
+        "PulseOSC: VRChat 실시간 심박수 표시",
         "Band Session Note: 손글씨 악보",
         "Foldometer: Fold Angle Gauge",
         "Dashcam Viewer: for Tesla",
@@ -514,10 +509,50 @@
       ]
     },
     {
+      "keyword": "편집",
+      "category": "creator",
+      "count": 6,
+      "apps": [
+        "Miniature Studio",
+        "Log to LUT",
+        "AidPDF-Edit",
+        "Both: 듀얼 카메라",
+        "GR Snap - 리코 GR Image Sync",
+        "NickyFilm - 진짜 필름 감성 카메라"
+      ]
+    },
+    {
+      "keyword": "유틸리티",
+      "category": "tag",
+      "count": 6,
+      "apps": [
+        "まもるくん：スマホ置き忘れ防止",
+        "Brim: 화면 끝까지 브라우징",
+        "Pocket Mac Lab",
+        "Rupteur Sensor",
+        "ARCQ SPL - SPL Meter",
+        "Nice Weather"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 6,
+      "apps": [
+        "OG.com: Rip Cards,Trade Events",
+        "Tarova: 아스트랄 타로 & 조디악",
+        "Freecash: Earn Money",
+        "CrimeRadar: Dispatch Alerts",
+        "ARCQ SPL - SPL Meter",
+        "Hark Pro"
+      ]
+    },
+    {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 5,
+      "count": 6,
       "apps": [
+        "OG.com: Rip Cards,Trade Events",
         "Brim: 화면 끝까지 브라우징",
         "Haystack News: Local TV News",
         "VibeShort: AI Dramas & Reels",
@@ -526,15 +561,39 @@
       ]
     },
     {
-      "keyword": "유틸리티",
+      "keyword": "워크플로우",
+      "category": "productivity",
+      "count": 5,
+      "apps": [
+        "Log to LUT",
+        "Both: 듀얼 카메라",
+        "VU303",
+        "VirtuCamera 2",
+        "Hark Pro"
+      ]
+    },
+    {
+      "keyword": "구독",
+      "category": "subscription",
+      "count": 5,
+      "apps": [
+        "AidPDF-Edit",
+        "Tarova: 아스트랄 타로 & 조디악",
+        "피클: 나만의 AI 에이전트",
+        "VibeShort: AI Dramas & Reels",
+        "더퍼스트클래스"
+      ]
+    },
+    {
+      "keyword": "생산성",
       "category": "tag",
       "count": 5,
       "apps": [
-        "Brim: 화면 끝까지 브라우징",
+        "AidPDF-Edit",
         "Pocket Mac Lab",
-        "Rupteur Sensor",
-        "ARCQ SPL - SPL Meter",
-        "Nice Weather"
+        "피클: 나만의 AI 에이전트",
+        "WakeBox",
+        "Hark Pro"
       ]
     },
     {
@@ -548,26 +607,36 @@
       ]
     },
     {
-      "keyword": "생산성",
-      "category": "tag",
-      "count": 5,
+      "keyword": "영상",
+      "category": "creator",
+      "count": 4,
       "apps": [
-        "Pocket Mac Lab",
-        "피클: 나만의 AI 에이전트",
-        "WakeBox",
-        "Hark Pro",
-        "호글 - HWP HWPX 한글뷰어"
+        "Log to LUT",
+        "Dashcam Viewer: for Tesla",
+        "Both: 듀얼 카메라",
+        "NickyFilm - 진짜 필름 감성 카메라"
       ]
     },
     {
-      "keyword": "구독",
-      "category": "subscription",
+      "keyword": "마켓플레이스",
+      "category": "tag",
       "count": 4,
       "apps": [
-        "Tarova: 아스트랄 타로 & 조디악",
-        "피클: 나만의 AI 에이전트",
+        "OG.com: Rip Cards,Trade Events",
+        "Whatnot: Shop, Sell, Connect",
+        "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
+        "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ"
+      ]
+    },
+    {
+      "keyword": "스트리밍",
+      "category": "creator",
+      "count": 4,
+      "apps": [
+        "Whatnot: Shop, Sell, Connect",
+        "Haystack News: Local TV News",
         "VibeShort: AI Dramas & Reels",
-        "더퍼스트클래스"
+        "DramaBox - Stream Drama Shorts"
       ]
     },
     {
@@ -582,112 +651,62 @@
       ]
     },
     {
+      "keyword": "크리에이터툴",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Miniature Studio",
+        "Log to LUT",
+        "Both: 듀얼 카메라"
+      ]
+    },
+    {
       "keyword": "쇼핑",
       "category": "tag",
-      "count": 4,
+      "count": 3,
       "apps": [
         "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
         "DealSeek: Coupons & Discounts",
         "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립"
-      ]
-    },
-    {
-      "keyword": "워크플로우",
-      "category": "productivity",
-      "count": 4,
-      "apps": [
-        "Both: 듀얼 카메라",
-        "VU303",
-        "VirtuCamera 2",
-        "Hark Pro"
-      ]
-    },
-    {
-      "keyword": "일본시장",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "チャデポ - 充電と歩数でポイ活",
-        "推シラセ - 推し活・推しの最新情報",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
-      ]
-    },
-    {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "Haystack News: Local TV News",
-        "VibeShort: AI Dramas & Reels",
-        "DramaBox - Stream Drama Shorts"
-      ]
-    },
-    {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "Dashcam Viewer: for Tesla",
-        "Both: 듀얼 카메라",
-        "NickyFilm - 진짜 필름 감성 카메라"
-      ]
-    },
-    {
-      "keyword": "편집",
-      "category": "creator",
-      "count": 3,
-      "apps": [
-        "Both: 듀얼 카메라",
-        "GR Snap - 리코 GR Image Sync",
-        "NickyFilm - 진짜 필름 감성 카메라"
-      ]
-    },
-    {
-      "keyword": "음악교육",
-      "category": "tag",
-      "count": 2,
-      "apps": [
-        "Beat Blocks - Rhythm Practice",
-        "Practice Farm: 연습곡, 어떤 조로든"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 51,
-        "percent": 73,
+        "count": 47,
+        "percent": 67,
         "examples": [
-          "Beat Blocks - Rhythm Practice",
-          "日とと記",
-          "Suno - AI Music & Songs Maker"
+          "PulseOSC: VRChat 실시간 심박수 표시",
+          "ImpulseDie - Symbiotic Drum",
+          "まもるくん：スマホ置き忘れ防止"
         ]
       },
       "freemium": {
-        "count": 57,
-        "percent": 81,
+        "count": 58,
+        "percent": 83,
         "examples": [
-          "Band Session Note: 손글씨 악보",
-          "Beat Blocks - Rhythm Practice",
-          "Brim: 화면 끝까지 브라우징"
+          "PulseOSC: VRChat 실시간 심박수 표시",
+          "Miniature Studio",
+          "Log to LUT"
         ]
       },
       "subscription": {
         "count": 50,
         "percent": 71,
         "examples": [
-          "Band Session Note: 손글씨 악보",
-          "Beat Blocks - Rhythm Practice",
-          "Brim: 화면 끝까지 브라우징"
+          "まもるくん：スマホ置き忘れ防止",
+          "Whatnot: Shop, Sell, Connect",
+          "TextNow: Call + Text Unlimited"
         ]
       },
       "onetime": {
-        "count": 33,
-        "percent": 47,
+        "count": 36,
+        "percent": 51,
         "examples": [
-          "Band Session Note: 손글씨 악보",
-          "Beat Blocks - Rhythm Practice",
-          "Brim: 화면 끝까지 브라우징"
+          "PulseOSC: VRChat 실시간 심박수 표시",
+          "Miniature Studio",
+          "Log to LUT"
         ]
       },
       "unknown": {
@@ -698,12 +717,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 57,
-      "percent": 81,
+      "count": 58,
+      "percent": 83,
       "examples": [
-        "Band Session Note: 손글씨 악보",
-        "Beat Blocks - Rhythm Practice",
-        "Brim: 화면 끝까지 브라우징"
+        "PulseOSC: VRChat 실시간 심박수 표시",
+        "Miniature Studio",
+        "Log to LUT"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -711,70 +730,72 @@
   "techTrends": {
     "trends": [
       {
-        "tech": "ai",
+        "tech": "creator",
         "count": 16,
         "percent": 23,
         "apps": [
+          "Miniature Studio",
+          "Log to LUT",
+          "OG.com: Rip Cards,Trade Events",
+          "Whatnot: Shop, Sell, Connect",
+          "AidPDF-Edit"
+        ]
+      },
+      {
+        "tech": "ai",
+        "count": 14,
+        "percent": 20,
+        "apps": [
+          "まもるくん：スマホ置き忘れ防止",
+          "AidPDF-Edit",
           "Suno - AI Music & Songs Maker",
           "Tarova: 아스트랄 타로 & 조디악",
-          "노그미(Nogmi): 녹음·전사·요약",
-          "피클: 나만의 AI 에이전트",
-          "VibeShort: AI Dramas & Reels"
+          "노그미(Nogmi): 녹음·전사·요약"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 12,
-        "percent": 17,
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "PulseOSC: VRChat 실시간 심박수 표시",
+          "OG.com: Rip Cards,Trade Events",
           "Brim: 화면 끝까지 브라우징",
           "카네 Kane - 간편한 가계부",
-          "Tarova: 아스트랄 타로 & 조디악",
-          "Rupteur Sensor",
-          "Foldometer: Fold Angle Gauge"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 11,
-        "percent": 16,
-        "apps": [
-          "Brim: 화면 끝까지 브라우징",
-          "Suno - AI Music & Songs Maker",
-          "Haystack News: Local TV News",
-          "VibeShort: AI Dramas & Reels",
-          "더퍼스트클래스"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "スタンプ · 季節だより",
-          "올웨이즈 - 올팜으로 키우는 신선 농작물",
-          "GoWish - Your Digital Wishlist",
-          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ"
+          "Tarova: 아스트랄 타로 & 조디악"
         ]
       },
       {
         "tech": "subscription",
+        "count": 10,
+        "percent": 14,
+        "apps": [
+          "PulseOSC: VRChat 실시간 심박수 표시",
+          "Log to LUT",
+          "スタンプ · 季節だより",
+          "Tarova: 아스트랄 타로 & 조디악",
+          "Snap뉴스"
+        ]
+      },
+      {
+        "tech": "social",
         "count": 8,
         "percent": 11,
         "apps": [
+          "OG.com: Rip Cards,Trade Events",
+          "Whatnot: Shop, Sell, Connect",
           "スタンプ · 季節だより",
-          "Tarova: 아스트랄 타로 & 조디악",
-          "Snap뉴스",
-          "VU303",
-          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기"
+          "올웨이즈 - 올팜으로 키우는 신선 농작물",
+          "GoWish - Your Digital Wishlist"
         ]
       },
       {
         "tech": "productivity",
-        "count": 3,
-        "percent": 4,
+        "count": 5,
+        "percent": 7,
         "apps": [
+          "Log to LUT",
+          "まもるくん：スマホ置き忘れ防止",
           "VU303",
           "ショッピングリズム - 買い物リスト・日用品管理",
           "Hark Pro"
@@ -782,98 +803,110 @@
       },
       {
         "tech": "health",
-        "count": 2,
-        "percent": 3,
-        "apps": [
-          "WakeBox",
-          "AutoSnore: 코골이 녹음기"
-        ]
-      },
-      {
-        "tech": "fintech",
         "count": 1,
         "percent": 1,
         "apps": [
-          "라이프캐치 - 놓친보험금, 차사고위로금 정확한 청구대행"
+          "WakeBox"
         ]
       }
     ],
     "dominant": {
-      "tech": "ai",
+      "tech": "creator",
       "count": 16,
       "percent": 23,
       "apps": [
-        "Suno - AI Music & Songs Maker",
-        "Tarova: 아스트랄 타로 & 조디악",
-        "노그미(Nogmi): 녹음·전사·요약",
-        "피클: 나만의 AI 에이전트",
-        "VibeShort: AI Dramas & Reels"
+        "Miniature Studio",
+        "Log to LUT",
+        "OG.com: Rip Cards,Trade Events",
+        "Whatnot: Shop, Sell, Connect",
+        "AidPDF-Edit"
       ]
     },
     "emerging": [
       {
-        "tech": "ai",
+        "tech": "creator",
         "count": 16,
         "percent": 23,
         "apps": [
+          "Miniature Studio",
+          "Log to LUT",
+          "OG.com: Rip Cards,Trade Events",
+          "Whatnot: Shop, Sell, Connect",
+          "AidPDF-Edit"
+        ]
+      },
+      {
+        "tech": "ai",
+        "count": 14,
+        "percent": 20,
+        "apps": [
+          "まもるくん：スマホ置き忘れ防止",
+          "AidPDF-Edit",
           "Suno - AI Music & Songs Maker",
           "Tarova: 아스트랄 타로 & 조디악",
-          "노그미(Nogmi): 녹음·전사·요약",
-          "피클: 나만의 AI 에이전트",
-          "VibeShort: AI Dramas & Reels"
+          "노그미(Nogmi): 녹음·전사·요약"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 12,
-        "percent": 17,
+        "count": 13,
+        "percent": 19,
         "apps": [
+          "PulseOSC: VRChat 실시간 심박수 표시",
+          "OG.com: Rip Cards,Trade Events",
           "Brim: 화면 끝까지 브라우징",
           "카네 Kane - 간편한 가계부",
-          "Tarova: 아스트랄 타로 & 조디악",
-          "Rupteur Sensor",
-          "Foldometer: Fold Angle Gauge"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 11,
-        "percent": 16,
-        "apps": [
-          "Brim: 화면 끝까지 브라우징",
-          "Suno - AI Music & Songs Maker",
-          "Haystack News: Local TV News",
-          "VibeShort: AI Dramas & Reels",
-          "더퍼스트클래스"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "スタンプ · 季節だより",
-          "올웨이즈 - 올팜으로 키우는 신선 농작물",
-          "GoWish - Your Digital Wishlist",
-          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기",
-          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ"
+          "Tarova: 아스트랄 타로 & 조디악"
         ]
       },
       {
         "tech": "subscription",
+        "count": 10,
+        "percent": 14,
+        "apps": [
+          "PulseOSC: VRChat 실시간 심박수 표시",
+          "Log to LUT",
+          "スタンプ · 季節だより",
+          "Tarova: 아스트랄 타로 & 조디악",
+          "Snap뉴스"
+        ]
+      },
+      {
+        "tech": "social",
         "count": 8,
         "percent": 11,
         "apps": [
+          "OG.com: Rip Cards,Trade Events",
+          "Whatnot: Shop, Sell, Connect",
           "スタンプ · 季節だより",
-          "Tarova: 아스트랄 타로 & 조디악",
-          "Snap뉴스",
-          "VU303",
-          "숨고 - 이사, 청소, 취미, 인테리어 전문가 찾기"
+          "올웨이즈 - 올팜으로 키우는 신선 농작물",
+          "GoWish - Your Digital Wishlist"
         ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Graphics & Design 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Graphics & Design"
+    },
+    {
+      "type": "rising_category",
+      "title": "Collectibles Marketplace 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Collectibles Marketplace"
+    },
+    {
+      "type": "rising_category",
+      "title": "Live Commerce 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Live Commerce"
+    },
     {
       "type": "rising_category",
       "title": "News 카테고리 급부상",
@@ -904,13 +937,6 @@
     },
     {
       "type": "rising_category",
-      "title": "Graphics & Design 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Graphics & Design"
-    },
-    {
-      "type": "rising_category",
       "title": "Safety 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -932,49 +958,27 @@
     },
     {
       "type": "rising_category",
-      "title": "Social Networking 카테고리 급부상",
+      "title": "Weather 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Social Networking"
-    },
-    {
-      "type": "rising_category",
-      "title": "Insurance Services 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Insurance Services"
-    },
-    {
-      "type": "rising_category",
-      "title": "Shopping and Collectibles 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Shopping and Collectibles"
-    },
-    {
-      "type": "tech_trend",
-      "title": "AI 기능 통합 트렌드",
-      "description": "23%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
-      "confidence": "high",
-      "tech": "ai"
+      "category": "Weather"
     }
   ],
   "insight": {
-    "trend_summary": "이번 주는 News, Photography, Travel 등 콘텐츠 소비형 카테고리가 일제히 100% 급등하며 사용자들의 정보·경험 탐색 수요가 뚜렷하게 증가했습니다. AI 기능을 탑재한 앱이 전체의 23%에 달하며 기술 차별화의 핵심 수단으로 자리잡았고, freemium 모델(81%)이 수익화의 주류 전략으로 굳어지고 있습니다.",
+    "trend_summary": "Graphics & Design과 Utilities 카테고리가 100% 급상승하며 크리에이터 도구와 실용적 유틸리티 수요가 폭발적으로 증가하고 있습니다. AI(20%)와 AR/VR(19%) 기술이 빠르게 앱에 통합되고 있으며, '1인개발가능' 태그가 45회로 높은 관심을 받아 인디 개발자에게 유리한 시장 환경이 형성되고 있습니다. Freemium 모델(83%)이 주류를 이루며 구독형 수익화가 안정적인 전략으로 자리잡고 있습니다.",
     "trend_details": [
-      "News·Books·Travel 카테고리가 동시에 100% 급등 — 사용자들이 AI 기반 큐레이션과 개인화 콘텐츠 소비에 집중하고 있음",
-      "AI 기능 탑재 앱 비율 23%, AR/VR 17%로 기술 접목이 앱 경쟁력의 기본 조건으로 부상 중",
-      "freemium(81%)·subscription(71%) 조합이 주류 수익 모델로 정착, 일회성 결제(47%)는 상대적으로 하락세"
+      "AI 기능 탑재 앱이 전체의 20%를 차지하며 차별화 필수 요소로 부상 — 단순 도구보다 AI 보조 기능 탑재 앱이 주목받는 추세",
+      "Collectibles Marketplace와 Live Commerce 등 니치 커머스 카테고리가 앱 수 적음에도 100% 성장, 선점 경쟁이 낮은 블루오션 구간",
+      "Freemium(83%) + 구독(71%) 조합이 수익화 황금 공식으로 정착 — 무료 진입 후 프리미엄 전환 흐름이 시장 표준이 됨"
     ],
     "hot_categories": [
-      "News",
-      "Photography",
       "Graphics & Design",
-      "Travel",
-      "Books"
+      "Utilities",
+      "Live Commerce",
+      "Collectibles Marketplace"
     ],
-    "opportunity": "AI 기능이 아직 적용되지 않은 News·Books·Travel 카테고리는 앱 수가 적고 성장률이 높아, AI 큐레이션이나 개인화 기능을 더한 니치 앱으로 선점할 수 있는 최적의 진입 타이밍입니다.",
-    "action_item": "Travel 또는 News 카테고리에서 '1인개발가능' 태그 조건에 맞는 AI 큐레이션 기능을 핵심으로 하는 freemium 앱 프로토타입을 이번 주 안에 기획하고 랜딩 페이지를 공개해 초기 수요를 검증하세요.",
-    "weekly_theme": "AI 콘텐츠 큐레이션"
+    "opportunity": "AI 기능을 접목한 1인 개발 가능한 Graphics & Design 또는 Utilities 앱이 가장 유망하며, 경쟁자가 적은 니치 카테고리(Collectibles, Live Commerce)는 빠른 선점이 가능한 구간입니다.",
+    "action_item": "현재 보유한 아이디어 중 AI 기능(이미지 생성, 자동화, 추천) 하나를 붙일 수 있는 Utility 또는 Design 앱을 Freemium 모델로 2주 내 MVP 출시하세요.",
+    "weekly_theme": "AI 크리에이터 도구"
   }
 }
