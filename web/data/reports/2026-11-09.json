@@ -1,0 +1,702 @@
+{
+  "date": "2026-11-09",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "4e36a4f2589f0c4fa4599acb",
+      "name": "Aside: 온디바이스 AI 채팅",
+      "developer": "Dinh Quang Trung",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/7b/2d/ac7b2dad-fb12-c732-6089-125fd22b8fd4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/aside-%EC%98%A8%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4-ai-%EC%B1%84%ED%8C%85/id6771574702",
+      "idea_summary": "클라우드 없이 기기 내에서 처리되는 프라이버시 AI",
+      "analysis": {
+        "problem": "AI 채팅 사용 시 개인 대화 데이터가 클라우드 서버로 전송되어 프라이버시 위험이 발생함 [추론]",
+        "solution": "온디바이스 LLM을 활용해 인터넷 연결 없이 기기 내에서만 AI 처리를 완결함 [추론]",
+        "target_user": "프라이버시에 민감한 20-40대 기술 사용자, 오프라인 환경에서 AI가 필요한 직군 [추론]",
+        "unique_point": "완전한 오프라인 동작과 데이터 무전송으로 보안성 최고 수준 보장 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Claude",
+          "Gemini",
+          "Llama local runners"
+        ],
+        "timing_reason": "온디바이스 AI 모델 경량화 기술 성숙으로 모바일 로컬 LLM 실행이 현실화된 시점 [추론]",
+        "growth_potential": "프라이버시 규제 강화 및 데이터 주권 의식 성장으로 온디바이스 AI 수요 급증 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 고급 모델 접근 일회성 구매 방식 [추론]",
+        "pricing_suggestion": "무료 기본 + 고급 모델/기능 구독 월 $4.99-$9.99 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 (LLM 통합 및 최적화 포함) [추론]",
+        "estimated_cost": "2000-5000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core ML",
+          "llama.cpp",
+          "Metal GPU"
+        ],
+        "key_features": [
+          "온디바이스 LLM 실행",
+          "대화 히스토리 로컬 저장",
+          "모델 선택 기능",
+          "오프라인 완전 동작"
+        ],
+        "clone_tip": "llama.cpp 또는 MLC-LLM 프레임워크로 iOS에서 경량 모델 실행, Core ML 변환으로 추론 속도 최적화 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.2
+      },
+      "tags": [
+        "#프라이버시AI",
+        "#온디바이스",
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "프라이버시 AI 니즈 정확히 타겟, 온디바이스 LLM 붐 타이밍 최적",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "b659f544323e67bb80b6d62f",
+      "name": "Yondo Todoリストをロック画面に。シンプルタスク管理",
+      "developer": "Ryunosuke Nagase",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/cf/c4/8dcfc49d-4f4a-5301-1597-1a149ff7d664/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/yondo-todo%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E3%83%AD%E3%83%83%E3%82%AF%E7%94%BB%E9%9D%A2%E3%81%AB-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/id6770345898",
+      "idea_summary": "잠금화면에 할 일 목록을 직접 표시하는 최소주의 태스크 매니저",
+      "analysis": {
+        "problem": "할 일 확인을 위해 매번 앱을 열어야 하는 마찰이 태스크 관리 의지를 약화시킴 [추론]",
+        "solution": "iOS 잠금화면 위젯에 할 일 목록을 직접 표시해 앱 진입 없이 즉시 확인 가능하게 함 [추론]",
+        "target_user": "단순하고 빠른 태스크 관리를 선호하는 20-30대 직장인 및 학생 [추론]",
+        "unique_point": "잠금화면 직접 표시로 앱 열기 없이 태스크를 즉시 확인하는 최소 마찰 UX 구현 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Todoist",
+          "Things 3",
+          "TickTick",
+          "Apple Reminders"
+        ],
+        "timing_reason": "iOS 16부터 잠금화면 위젯 API가 공식 개방되어 새로운 UX 패러다임이 가능해짐 [확인]",
+        "growth_potential": "생산성 앱 포화 시장 속 UX 차별화로 틈새 충성 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 일회성 구매 또는 소액 구독 모델 [추론]",
+        "pricing_suggestion": "무료 기본 + 프리미엄 일회성 $2.99-$4.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 (1인 개발 가능) [추론]",
+        "estimated_cost": "300-800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "WidgetKit",
+          "Core Data"
+        ],
+        "key_features": [
+          "잠금화면 위젯 표시",
+          "빠른 태스크 추가",
+          "완료 체크",
+          "간단한 카테고리 분류"
+        ],
+        "clone_tip": "WidgetKit으로 잠금화면 위젯 구현, Core Data 로컬 저장, 위젯 탭 시 앱 딥링크 연동 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#생산성",
+        "#iOS전용",
+        "#미니멀"
+      ],
+      "verdict": "잠금화면 위젯 활용 차별화, 1인 개발자 클론 타겟으로 최적",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "source_id": "fcd642ec5be384535e113bf4",
+      "name": "Auday - All-Day Watch Recorder",
+      "developer": "航江 郭",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/59/86/16598649-2ac0-d904-d7f7-343effcae90e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/auday-all-day-watch-recorder/id6814210373",
+      "idea_summary": "Apple Watch로 하루 종일 주변 소리를 자동 녹음하는 라이프로그 앱",
+      "analysis": {
+        "problem": "중요한 순간의 대화나 소리를 미처 기록하지 못해 나중에 되살릴 수 없는 아쉬움 [추론]",
+        "solution": "Apple Watch를 활용해 하루 종일 연속 오디오 녹음으로 패시브 라이프로그를 생성함 [추론]",
+        "target_user": "자기 기록 습관을 가진 20-40대 퀀티파이드 셀프 관심자 및 회의가 잦은 직장인 [추론]",
+        "unique_point": "스마트폰 없이 Apple Watch 단독으로 하루 종일 패시브 녹음 가능한 독특한 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Whisper Memos",
+          "Otter.ai",
+          "Rev Voice Recorder",
+          "Rewind AI"
+        ],
+        "timing_reason": "Apple Watch 성능 향상으로 독립 앱 실행이 가능해졌으며 AI 전사 기술도 성숙함 [추론]",
+        "growth_potential": "라이프로그 및 개인 AI 메모리 트렌드 성장으로 수요 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "저장 용량 및 AI 전사 기능 제공하는 구독 기반 수익화 [추론]",
+        "pricing_suggestion": "월 $4.99-$9.99 구독으로 무제한 녹음 및 AI 요약 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "800-2000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WatchKit",
+          "AVFoundation",
+          "Whisper API"
+        ],
+        "key_features": [
+          "백그라운드 오디오 녹음",
+          "Watch 독립 실행",
+          "자동 전사",
+          "일별 오디오 요약"
+        ],
+        "clone_tip": "WatchKit 독립 앱으로 AVAudioRecorder 활용, 배터리 최적화와 저장 공간 관리가 핵심 도전 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#AppleWatch",
+        "#라이프로그",
+        "#1인개발가능",
+        "#B2C"
+      ],
+      "verdict": "Apple Watch 패시브 라이프로깅, 니치하지만 충성도 높은 유저층 확보 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "ac9b902392986812779a56a5",
+      "name": "Sync: 계획과 실행 · 시간기록 플래너",
+      "developer": "037",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/91/c1/4391c14f-8803-31dd-4b3b-96601dc32fe6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/sync-%EA%B3%84%ED%9A%8D%EA%B3%BC-%EC%8B%A4%ED%96%89-%EC%8B%9C%EA%B0%84%EA%B8%B0%EB%A1%9D-%ED%94%8C%EB%9E%98%EB%84%88/id6808510515",
+      "idea_summary": "계획-실행-시간기록을 단일 워크플로우로 통합한 올인원 플래너",
+      "analysis": {
+        "problem": "계획 도구, 태스크 관리, 시간 추적을 각각 다른 앱으로 사용해 흐름이 단절되는 문제 [추론]",
+        "solution": "계획 작성부터 실행, 시간 기록까지 하나의 앱에서 연속적으로 처리 가능하게 함 [추론]",
+        "target_user": "생산성 최적화에 관심 있는 20-40대 프리랜서, 직장인, 창업자 [추론]",
+        "unique_point": "GTD 방법론과 타임 트래킹을 단일 워크플로우로 통합해 컨텍스트 스위칭을 최소화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Notion",
+          "Todoist",
+          "Toggl",
+          "TickTick",
+          "Structured"
+        ],
+        "timing_reason": "재택근무 보편화로 개인 시간 관리 중요성이 높아지며 통합 도구 수요가 증가함 [추론]",
+        "growth_potential": "생산성 앱 시장 지속 성장, 올인원 도구 선호 트렌드로 중기 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "월/연 구독 모델로 고급 기능 및 클라우드 동기화 제공 [추론]",
+        "pricing_suggestion": "무료 기본 + 프로 월 $5.99-$9.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4-8개월 [추론]",
+        "estimated_cost": "1000-3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "CloudKit"
+        ],
+        "key_features": [
+          "일정 계획 블록",
+          "태스크 체크리스트",
+          "타이머 기반 시간 기록",
+          "주간 리뷰 대시보드"
+        ],
+        "clone_tip": "SwiftUI로 블록 기반 일정 UI 구현, Core Data + CloudKit으로 멀티 디바이스 동기화 지원 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#생산성",
+        "#올인원",
+        "#구독모델",
+        "#B2C"
+      ],
+      "verdict": "경쟁 치열하지만 통합 워크플로우 차별화로 충성 사용자 확보 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "2dd45b9436f05a55ec14595a",
+      "name": "Kanji Dictionary & Trainer",
+      "developer": "Nikolaev Alex",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/22/22/ea22225f-88b6-952c-144f-8815d3a26110/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/kanji-dictionary-trainer/id6831665579",
+      "idea_summary": "한자 사전 참조와 반복 트레이닝을 통합한 일본어 학습 앱",
+      "analysis": {
+        "problem": "일본어 한자 학습 시 사전 참조와 암기 연습이 분리되어 학습 흐름이 끊기는 문제 [추론]",
+        "solution": "한자 사전 검색과 플래시카드 연습, 퀴즈를 단일 앱에서 통합 제공함 [추론]",
+        "target_user": "일본어를 학습하는 비일본인, 특히 JLPT 준비 중인 전 세계 학습자 [추론]",
+        "unique_point": "레퍼런스 사전과 반복 학습 트레이닝이 하나의 앱에 통합된 올인원 한자 학습 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "WaniKani",
+          "Anki",
+          "Jisho",
+          "Kanji Study"
+        ],
+        "timing_reason": "애니메이션, 게임 등 일본 문화 콘텐츠의 글로벌 인기로 일본어 학습자 수 꾸준히 증가 [추론]",
+        "growth_potential": "글로벌 일본어 학습자 커뮤니티 성장과 함께 꾸준한 수요 유지 예상 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 프리미엄 구매 또는 구독 모델 [추론]",
+        "pricing_suggestion": "무료 기초 한자 + 프리미엄 전 레벨 일회성 $4.99-$9.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "SQLite"
+        ],
+        "key_features": [
+          "한자 검색",
+          "획순 애니메이션",
+          "플래시카드",
+          "JLPT 레벨별 학습 커리큘럼"
+        ],
+        "clone_tip": "JMdict/KANJIDIC 공개 데이터베이스 활용으로 한자 데이터 구축 비용 절감, SRS 알고리즘으로 복습 주기 최적화 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#교육",
+        "#일본어학습",
+        "#1인개발가능",
+        "#글로벌"
+      ],
+      "verdict": "일본 문화 인기 지속으로 안정적 수요, 공개 DB 활용으로 클론 용이",
+      "country": "jp"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "82b09e347af633246fc5dd01",
+      "name": "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
+      "developer": "브릿지웍스",
+      "category": "Finance",
+      "icon": "https://play-lh.googleusercontent.com/zrfZundKRFG4VQau3Rv1_S69V7l0jo644I1klaM2DLeH7OTN7JM34P_qQlSe4rPnW6RiPUNDeVeIcxFso-76ZQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bridgeworks.cashmore",
+      "idea_summary": "영수증 촬영으로 현금 보상을 받는 오프라인 쇼핑 캐시백 앱",
+      "analysis": {
+        "problem": "오프라인 구매는 온라인처럼 자동 캐시백 혜택을 받기 어렵고 소비 기록도 남지 않는 문제 [추론]",
+        "solution": "영수증 사진 촬영 및 OCR 분석으로 오프라인 구매에도 캐시백 보상을 제공함 [추론]",
+        "target_user": "오프라인 쇼핑을 즐기는 절약 지향 20-50대 소비자 [추론]",
+        "unique_point": "영수증 기반 오프라인 구매 인증으로 기존 온라인 전용 캐시백 앱과 명확히 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Ibotta",
+          "Fetch Rewards",
+          "Receipt Hog",
+          "캐시워크"
+        ],
+        "timing_reason": "온/오프라인 통합 소비 데이터 가치 증가와 광고주의 소비자 행동 데이터 수요 급증 [추론]",
+        "growth_potential": "브랜드 소비 데이터 익명 집계 판매와 광고 수익으로 B2B 확장 가능성 존재 [추론]"
+      },
+      "business": {
+        "monetization": "브랜드 광고 수익 및 소비 데이터 익명 집계 판매 [추론]",
+        "pricing_suggestion": "사용자 무료 + 브랜드/리테일러 대상 B2B 수익화 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-9개월 (OCR 정확도 최적화 포함) [추론]",
+        "estimated_cost": "2000-5000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google ML Kit",
+          "OCR",
+          "Firebase",
+          "Python 백엔드"
+        ],
+        "key_features": [
+          "영수증 OCR 스캔",
+          "구매 데이터 자동 파싱",
+          "포인트 적립 시스템",
+          "현금 출금 기능"
+        ],
+        "clone_tip": "Google ML Kit OCR로 영수증 텍스트 추출, 초기 브랜드 파트너십 확보가 수익화 핵심 성공 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.6
+      },
+      "tags": [
+        "#핀테크",
+        "#오프라인캐시백",
+        "#OCR",
+        "#데이터비즈니스"
+      ],
+      "verdict": "영수증 OCR로 오프라인 캐시백 차별화, B2B 데이터 수익화로 확장성 우수",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "d46e312a4d6a6e5d478d6147",
+      "name": "퀸잇, 멋진 어른들의 라이프스타일링샵",
+      "developer": "라포랩스",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/O3NAbZ2Ye7Z8oPpcxqMuMDVVcMemyMv1sfyA3iEXGAkxl1YQkTq3HEY1X6J0sfJtbvI3JONal872Ig42L3Ej",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.rapportlabs.damoa",
+      "idea_summary": "50대 이상 시니어를 위한 큐레이션 라이프스타일 쇼핑 플랫폼",
+      "analysis": {
+        "problem": "기존 쇼핑 앱은 젊은 층 중심 UI/UX로 시니어 사용자의 니즈와 취향을 반영하지 못함 [추론]",
+        "solution": "50대 이상 타겟 패션 및 라이프스타일 큐레이션과 시니어 친화적 UX를 전문적으로 제공함 [추론]",
+        "target_user": "소비력 있는 50-70대 시니어 여성, 스타일에 관심 있는 중장년층 [추론]",
+        "unique_point": "시니어 타겟 전문 쇼핑 플랫폼으로 고령화 사회의 언더서브드 버티컬 커머스 시장 선점 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "쿠팡",
+          "지그재그",
+          "에이블리",
+          "W컨셉"
+        ],
+        "timing_reason": "한국 고령화 가속과 액티브 시니어(5060) 소비력 증가로 시니어 커머스 시장 급성장 중 [추론]",
+        "growth_potential": "베이비부머 세대의 모바일 전환 완료로 시니어 이커머스 시장 2030년까지 급성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "입점 브랜드 커미션 및 타겟 광고 수익 [추론]",
+        "pricing_suggestion": "무료 앱 + 셀러 수수료 15-25% 모델 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-12개월 (큐레이션 시스템 포함) [추론]",
+        "estimated_cost": "3000-8000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "Elasticsearch"
+        ],
+        "key_features": [
+          "큰 폰트 및 버튼 UI",
+          "시니어 친화적 내비게이션",
+          "스타일 큐레이션 피드",
+          "간편 결제 연동"
+        ],
+        "clone_tip": "Android Accessibility API 최대 활용, 큰 버튼과 명확한 텍스트가 핵심 차별화, 시니어 UX 연구 선행 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.9
+      },
+      "tags": [
+        "#시니어커머스",
+        "#블루오션",
+        "#한국시장",
+        "#이커머스"
+      ],
+      "verdict": "고령화 사회 필수 서비스, 시니어 커머스 선점으로 장기 고성장 기회",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "a520d1a5c5474f14d1ef4174",
+      "name": "캐치테이블",
+      "developer": "주식회사 와드",
+      "category": "Food and Dining",
+      "icon": "https://play-lh.googleusercontent.com/-XAp3u_yr0HZD1W9OFhppuWrRZz6CA2PCxGzKVk7lSvOJ3bQVi-Yqg2Gwy9csaAb5zMlIUiQm-IuCp_hH1gJAA",
+      "app_url": "https://play.google.com/store/apps/details?id=co.kr.catchtable.android.catchtable_app",
+      "idea_summary": "핫한 맛집 예약과 웨이팅을 모바일로 간편하게 해결하는 레스토랑 예약 앱",
+      "analysis": {
+        "problem": "인기 레스토랑의 예약이 어렵고 현장 웨이팅은 시간 낭비가 심한 문제 [추론]",
+        "solution": "레스토랑 발견, 예약, 웨이팅 등록을 하나의 앱에서 통합 처리함 [추론]",
+        "target_user": "외식을 즐기는 20-40대 도시 거주자, 특별한 다이닝 경험을 추구하는 소비자 [추론]",
+        "unique_point": "예약 불가 레스토랑에 대한 모바일 웨이팅 등록 기능으로 오프라인 대기 문제 해결 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "네이버 예약",
+          "카카오 맵 예약",
+          "식신",
+          "망고플레이트"
+        ],
+        "timing_reason": "외식 문화 고급화와 MZ세대의 경험 소비 트렌드 확산으로 프리미엄 레스토랑 예약 수요 증가 [추론]",
+        "growth_potential": "O2O 외식 시장 성장과 함께 예약 플랫폼 확장 가능성 존재 [추론]"
+      },
+      "business": {
+        "monetization": "레스토랑 입점 수수료 및 프리미엄 예약 서비스 수익화 [추론]",
+        "pricing_suggestion": "사용자 무료 + 레스토랑 대상 B2B SaaS 월정액 또는 예약당 수수료 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6-10개월 (레스토랑 파트너 연동 포함) [추론]",
+        "estimated_cost": "3000-7000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "Google Maps API",
+          "Spring Boot 백엔드"
+        ],
+        "key_features": [
+          "레스토랑 검색 및 필터",
+          "실시간 예약",
+          "모바일 웨이팅 등록",
+          "예약 알림 및 리마인더"
+        ],
+        "clone_tip": "초기 특정 지역/카테고리로 범위 제한 후 파트너 레스토랑 직접 영업, MVP는 예약 기능만으로 시작 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#O2O",
+        "#푸드테크",
+        "#한국시장",
+        "#B2B2C"
+      ],
+      "verdict": "명확한 수요와 B2B 수익 구조, 초기 지역 집중 전략으로 클론 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "da641f1f72627722cd859006",
+      "name": "setlog",
+      "developer": "newchat",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/gXIkdW_gZMwzlqS_9KSV0WmkLEYWfSDqwV3dGuE5aSUXz-J6C-h9OVH6CzVxi-JROz10sny1gXq5vAvU-_Rjqp0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newchat.setlog",
+      "idea_summary": "일상 활동과 루틴을 최소한의 마찰로 기록하는 미니멀 로그 앱",
+      "analysis": {
+        "problem": "일상의 작은 활동들이 기록되지 않아 패턴 파악과 자기 성찰이 어려운 문제 [추론]",
+        "solution": "최소한의 UI로 개인 활동, 메모, 루틴을 로그 형태로 즉각적이고 간결하게 기록함 [추론]",
+        "target_user": "자기 추적과 성찰에 관심 있는 20-30대 셀프 모니터링 지향 사용자 [추론]",
+        "unique_point": "복잡한 설정 없이 즉각적이고 간결한 로깅에만 집중한 극도의 미니멀 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Notion",
+          "Bear",
+          "Obsidian",
+          "Reflect"
+        ],
+        "timing_reason": "자기 계발 트렌드와 퀀티파이드 셀프 관심 증가로 개인 로그 앱 수요 성장 중 [추론]",
+        "growth_potential": "일본 개발사로 아시아 시장 집중 공략 시 추가 성장 가능성 존재 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 기능 구독 또는 일회성 잠금 해제 방식 [추론]",
+        "pricing_suggestion": "무료 기본 + 프리미엄 월 $2.99-$4.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 (1인 개발 가능) [추론]",
+        "estimated_cost": "300-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Room Database",
+          "Firebase Analytics"
+        ],
+        "key_features": [
+          "빠른 로그 입력",
+          "타임라인 뷰",
+          "카테고리 태깅",
+          "주간/월간 패턴 리뷰"
+        ],
+        "clone_tip": "Jetpack Compose로 미니멀 UI 빠르게 구현, Room DB로 로컬 저장, 홈 화면 위젯으로 접근성 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#라이프로그",
+        "#미니멀",
+        "#포트폴리오"
+      ],
+      "verdict": "1인 개발자가 단기간 구현 가능, 충성도 높은 니치 유저층 확보 가능",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "source_id": "5627c1373d5bb87c09263900",
+      "name": "Nice Weather",
+      "developer": "Znd Digital",
+      "category": "Weather",
+      "icon": "https://play-lh.googleusercontent.com/yd17ZArDqX5KF1s-RzYYL0nkBR_ZO6TzxVt-IjKZanA8jHnYWbEoh_NL0IZYicVsbk-BRJ6YBGrudGb9uOib",
+      "app_url": "https://play.google.com/store/apps/details?id=com.weather.realinfo.really",
+      "idea_summary": "광고 없는 심플하고 아름다운 UI로 날씨를 직관적으로 보여주는 미니멀 날씨 앱",
+      "analysis": {
+        "problem": "대부분의 날씨 앱은 과도한 광고와 복잡한 UI로 핵심 날씨 정보 파악이 불편한 문제 [추론]",
+        "solution": "미니멀하고 시각적으로 아름다운 디자인으로 날씨 정보를 광고 없이 직관적으로 제공함 [추론]",
+        "target_user": "깔끔한 UI를 선호하는 20-40대 디자인 감도 높은 스마트폰 사용자 [추론]",
+        "unique_point": "광고 없는 클린 경험과 시각적으로 뛰어난 날씨 표현 방식으로 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Weather Channel",
+          "AccuWeather",
+          "1Weather",
+          "Weather Underground"
+        ],
+        "timing_reason": "미니멀리즘 디자인 트렌드와 광고 피로감 증가로 클린 UI 앱 수요가 꾸준히 증가 중 [추론]",
+        "growth_potential": "날씨 앱 시장은 성숙했지만 UX 차별화로 꾸준한 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 제거 프리미엄 일회성 구매 또는 유료 앱 판매 [추론]",
+        "pricing_suggestion": "무료(광고 포함) + 광고 제거 일회성 $1.99-$2.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-3개월 (1인 개발 가능) [추론]",
+        "estimated_cost": "200-600만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "OpenWeatherMap API",
+          "Retrofit"
+        ],
+        "key_features": [
+          "현재 날씨 표시",
+          "7일 예보",
+          "강수 확률 그래프",
+          "위치 기반 자동 업데이트"
+        ],
+        "clone_tip": "OpenWeatherMap 무료 API로 날씨 데이터 수집, Lottie 애니메이션으로 날씨 아이콘 차별화, 위젯 필수 추가 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 5,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#미니멀디자인",
+        "#날씨",
+        "#포트폴리오"
+      ],
+      "verdict": "경쟁 치열하지만 첫 수익화 경험 및 포트폴리오용 클론 타겟으로 최적",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정된 앱들은 프라이버시 AI, 오프라인 데이터 수익화, 언더서브드 세대 타겟이라는 세 가지 흐름을 보여준다. 클라우드 의존 탈피와 특정 세대를 겨냥한 버티컬 서비스가 주요 기회 영역으로 부상하고 있다.",
+    "trend_details": [
+      "온디바이스 AI 확산: 클라우드 없이 기기에서 직접 AI 처리하는 프라이버시 중심 앱이 급증하고 있음 [추론]",
+      "미니멀 UX 반동: 기능 과부하와 광고 피로에 지친 사용자들이 단순하고 집중된 도구를 선호하는 경향 강화 [추론]",
+      "시니어 버티컬 커머스: 고령화 사회에서 5060 세대를 전문 타겟으로 하는 쇼핑 플랫폼 블루오션 [추론]",
+      "오프라인 데이터 디지털화: 영수증 OCR 등으로 오프라인 소비 행동을 디지털화해 B2B 데이터 가치 창출 [추론]",
+      "잠금화면/위젯 UX 패러다임: iOS/Android 위젯 API 성숙으로 앱 없이 접근하는 새로운 UX 패러다임 확산 [추론]"
+    ],
+    "hot_categories": [
+      "Productivity",
+      "AI/Privacy",
+      "Senior Commerce",
+      "Fintech/Cashback"
+    ],
+    "opportunity": "온디바이스 AI와 특정 버티컬의 결합: 프라이버시를 보장하면서 특정 도메인(법률, 의료, 금융)에 특화된 로컬 AI 도구와, 고령화 사회의 시니어 디지털 서비스가 가장 큰 기회 영역 [추론]",
+    "action_item": "llama.cpp 또는 MLC-LLM 프레임워크로 iOS 온디바이스 LLM 실행 프로토타입 1주 내 제작 후, 특정 니치 도메인(법률 Q&A, 의료 증상 체크 등) MVP로 빠르게 검증할 것"
+  },
+  "data_status": {}
+}
