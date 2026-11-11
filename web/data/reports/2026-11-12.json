@@ -1,0 +1,696 @@
+{
+  "date": "2026-11-12",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "Amatda(아맞다) - 내 목소리 알람",
+      "developer": "DongJin Lee",
+      "category": "Lifestyle",
+      "source_id": "a617f6481c66f4e26346d667",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/4b/4e/f94b4eed-ed3d-68b6-d112-a599b85965c5/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/amatda-%EC%95%84%EB%A7%9E%EB%8B%A4-%EB%82%B4-%EB%AA%A9%EC%86%8C%EB%A6%AC-%EC%95%8C%EB%9E%8C/id6828733586",
+      "idea_summary": "자신의 목소리로 만드는 개인화 알람",
+      "analysis": {
+        "problem": "기존 알람은 비인격적이어서 무시하기 쉬워 중요 일정을 놓치는 문제 [추론]",
+        "solution": "본인 목소리로 녹음한 맞춤 메시지를 알람으로 재생하여 준수율 향상 [확인]",
+        "target_user": "복약·약속·업무 리마인더가 필요한 20-40대 직장인 및 학생 [추론]",
+        "unique_point": "본인 목소리 활용으로 심리적 친숙함과 각성 효과를 동시에 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Alarmy",
+          "Sleep Cycle",
+          "Clock (iOS 기본)"
+        ],
+        "timing_reason": "AI 개인화 트렌드 속 목소리 기반 감성 UX 수요 증가 [추론]",
+        "growth_potential": "알람 앱 성숙 시장이나 개인화 니치로 충성 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "IAP로 고급 녹음 편집·알람 수 확장 기능 잠금 해제 [추론]",
+        "pricing_suggestion": "기본 무료 + 고급 기능 IAP 2,900-4,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "UserNotifications"
+        ],
+        "key_features": [
+          "목소리 녹음",
+          "알람 스케줄링",
+          "커스텀 메시지 재생",
+          "반복 알람 설정"
+        ],
+        "clone_tip": "iOS UserNotifications + AVFoundation 조합으로 핵심 기능 2개월 내 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#라이프스타일",
+        "#한국개발자"
+      ],
+      "verdict": "본인 목소리 알람으로 준수율 높이는 참신한 니치 앱, 인디 개발자 도전 적합",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "Chord Lab: Chord Synth",
+      "developer": "Daniel Albano",
+      "category": "Music",
+      "source_id": "df15c18d5fb56b0b5937c115",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e6/f7/7a/e6f77a99-1043-06e7-56e3-98cacbb516b3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/chord-lab-chord-synth/id6832087760",
+      "idea_summary": "코드 탐색·재생·합성 통합 음악 학습 도구",
+      "analysis": {
+        "problem": "화성학 초보자가 코드를 직접 듣고 실험할 직관적 인터랙티브 도구가 없는 문제 [추론]",
+        "solution": "코드를 탐색하고 즉시 소리로 합성해 청각 피드백으로 화성학을 체험 학습 [확인]",
+        "target_user": "기타·피아노 입문자, 작곡 학습 중인 20-35세 뮤지션 지망생 [추론]",
+        "unique_point": "단순 악보 표시 대신 실시간 코드 합성으로 청각 피드백을 통한 체험 학습 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GarageBand",
+          "Yousician",
+          "ChordU"
+        ],
+        "timing_reason": "AI 음악 생성 트렌드로 음악 이론 학습 수요 동반 상승 [추론]",
+        "growth_potential": "음악 교육 앱 시장 성장세, 화성학 니치에서 충성 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "IAP로 고급 코드 팩·신디사이저 프리셋·조성 모드 판매 [추론]",
+        "pricing_suggestion": "기본 무료 + 고급 코드 팩 2,900-9,900원 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVAudioEngine",
+          "AudioKit",
+          "SwiftUI"
+        ],
+        "key_features": [
+          "코드 라이브러리",
+          "실시간 오디오 합성",
+          "인터랙티브 피아노 UI",
+          "코드 진행 플레이어"
+        ],
+        "clone_tip": "AudioKit 프레임워크로 복잡한 오디오 합성 구현 난이도 감소, SwiftUI로 빠른 UI 개발 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.9
+      },
+      "tags": [
+        "#음악교육",
+        "#B2C",
+        "#IAP",
+        "#미국개발자"
+      ],
+      "verdict": "화성학 입문자를 위한 인터랙티브 코드 합성 도구, AI 음악 트렌드와 맞물려 타이밍 좋음",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "name": "Velvet Film",
+      "developer": "HYEBIN JO",
+      "category": "Photo and Video",
+      "source_id": "4b60e94d53f78b8cd22188bc",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/15/c0/ad15c0b7-d084-ffe7-d6b8-8a8903e601ad/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/velvet-film/id6826756305",
+      "idea_summary": "시네마틱 필름 감성의 사진·영상 필터 앱",
+      "analysis": {
+        "problem": "디지털 사진의 무결점 느낌에서 벗어나 아날로그 필름 감성을 원하는 창작자 수요 [추론]",
+        "solution": "시네마틱 필름 스타일 LUT·필터와 효과를 사진·영상에 적용하는 카메라 앱 [확인]",
+        "target_user": "필름 감성을 추구하는 10-30대 MZ세대, SNS 콘텐츠 차별화를 원하는 크리에이터 [추론]",
+        "unique_point": "벨벳이라는 고급 감성 브랜딩과 시네마틱 톤 중심의 차별화된 필터 품질 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Lightroom Mobile",
+          "Halide"
+        ],
+        "timing_reason": "아날로그 레트로 감성 콘텐츠 트렌드 지속, SNS 콘텐츠 차별화 욕구 증가 [추론]",
+        "growth_potential": "필터 카메라 경쟁 치열하나 고품질 니치 필터로 충성 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "IAP로 프리미엄 필터 팩 판매 또는 월간 구독 [추론]",
+        "pricing_suggestion": "월 3,900원 구독 또는 필터 팩 2,900-6,900원 일회성 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "400-800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Core Image",
+          "Metal",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "시네마틱 LUT 필터",
+          "실시간 카메라 미리보기",
+          "사진·영상 편집",
+          "필터 강도 조절"
+        ],
+        "clone_tip": "Core Image + Metal 셰이더로 고품질 필름 LUT 구현, 필터 품질이 핵심 차별화 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사진편집",
+        "#한국개발자"
+      ],
+      "verdict": "레트로 필름 감성 카메라, MZ 타겟 SNS 시장 공략 가능하나 경쟁 심해 품질 차별화 필수",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "murmur daily",
+      "developer": "REUBEN LEWIS HOLMES",
+      "category": "Lifestyle",
+      "source_id": "14ed166e75852afb9cd4349c",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/93/f6/dd93f60d-6946-6fc3-97c0-5a638d91fcbc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/murmur-daily/id6789626561",
+      "idea_summary": "완벽한 일기 대신 가벼운 하루 한 줄 메모",
+      "analysis": {
+        "problem": "복잡한 일기 앱은 진입 장벽이 높아 꾸준한 반성·기록 습관 형성이 어려운 문제 [추론]",
+        "solution": "최소한의 UI로 매일 짧은 생각과 관찰을 간단하게 기록하는 저마찰 저널링 경험 제공 [확인]",
+        "target_user": "마음챙김·자기반성 습관을 기르려는 20-40대, 미니멀한 UX를 선호하는 사용자 [추론]",
+        "unique_point": "murmur(중얼거림) 콘셉트로 완벽한 일기 대신 가벼운 일상 메모를 장려하는 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Day One",
+          "Reflectly",
+          "Momento"
+        ],
+        "timing_reason": "번아웃·정신건강 관심 증가로 간단한 마음챙김 도구 수요 고조 [추론]",
+        "growth_potential": "웰니스·마음챙김 앱 시장 성장세, 미니멀 저널링 니치에서 차별화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독으로 무제한 항목·클라우드 동기화·테마 제공 [추론]",
+        "pricing_suggestion": "월 2,900원 또는 연간 14,900원 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1-3개월 [추론]",
+        "estimated_cost": "200-500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreData",
+          "CloudKit"
+        ],
+        "key_features": [
+          "간단한 텍스트 입력",
+          "날짜별 기록 조회",
+          "알림 리마인더",
+          "감성 테마"
+        ],
+        "clone_tip": "SwiftUI + CoreData로 MVP 1개월 내 구현 가능, 단순한 UX 설계가 핵심 경쟁력 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웰니스",
+        "#영국개발자"
+      ],
+      "verdict": "저마찰 저널링으로 번아웃 세대 공략, 단순한 UX가 핵심이라 인디 개발자에게 최적",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "name": "Autoscripts Userscripts",
+      "developer": "Lim Sangjin",
+      "category": "Productivity",
+      "source_id": "89a4c5d44adcee0a4f08fc99",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/51/b0/1a51b0ed-8d64-a2b6-e2f2-29747b643866/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/autoscripts-userscripts/id6775431941",
+      "idea_summary": "Safari에서 커스텀 유저스크립트 실행 관리",
+      "analysis": {
+        "problem": "iOS Safari에서 반복 작업 자동화나 웹 커스터마이징이 불가능해 파워유저 생산성이 제한되는 문제 [추론]",
+        "solution": "Safari 웹 익스텐션으로 Tampermonkey류 유저스크립트를 iOS에서 실행·관리 [확인]",
+        "target_user": "개발자, 파워유저, 웹 자동화 경험이 있는 20-40대 테크 사용자 [추론]",
+        "unique_point": "iOS Safari에서 Tampermonkey/Greasemonkey 경험을 제공하는 희소한 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Userscripts (iOS)",
+          "Stay",
+          "Hyperweb"
+        ],
+        "timing_reason": "개발자 도구 모바일 확장 트렌드와 iOS 웹 익스텐션 API 성숙 [추론]",
+        "growth_potential": "파워유저 니치로 규모는 작으나 충성도 높은 유료 전환율 기대 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 구매 또는 IAP로 고급 스크립트 기능 해제 [추론]",
+        "pricing_suggestion": "일회성 4,900-9,900원 또는 연간 구독 7,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "300-700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Safari Web Extensions API",
+          "JavaScript",
+          "WebKit"
+        ],
+        "key_features": [
+          "유저스크립트 편집기",
+          "Safari 익스텐션 연동",
+          "스크립트 On/Off 토글",
+          "자동 업데이트"
+        ],
+        "clone_tip": "Safari Web Extension API 활용, JavaScript 인젝션 메커니즘 구현이 핵심 기술 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 2,
+        "overall": 7.1
+      },
+      "tags": [
+        "#개발자도구",
+        "#파워유저",
+        "#B2C",
+        "#한국개발자"
+      ],
+      "verdict": "iOS Safari 유저스크립트 니치의 희소한 앱, 파워유저 타겟으로 높은 유료 전환 기대",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+      "developer": "NBT Inc.",
+      "category": "Shopping",
+      "source_id": "ef4ac1dfc4dc802caf0b79f8",
+      "icon": "https://play-lh.googleusercontent.com/6Ck4Kj05cPdj_1yN59roAEVjysBRBKaeDjcs9YANt4V2PULD0UGQQVBT7myxJcNSc2i-3USNe5RhixR8epSY",
+      "app_url": "https://play.google.com/store/apps/details?id=today.chips",
+      "idea_summary": "최저가 추적 알림 + 쇼핑 리워드 통합 앱",
+      "analysis": {
+        "problem": "원하는 상품의 가격 변동을 실시간 추적하고 최적 구매 시점을 파악하기 어려운 불편함 [추론]",
+        "solution": "가격 추적 알림과 쇼핑 리워드를 결합해 현명한 소비를 돕는 올인원 플랫폼 [확인]",
+        "target_user": "온라인 쇼핑을 자주 하는 20-40대 가성비 추구 소비자 [추론]",
+        "unique_point": "가격 알림과 캐시백 리워드 결합으로 단순 가격 비교 앱 대비 체류 동기 강화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey",
+          "Rakuten",
+          "ShopSavvy"
+        ],
+        "timing_reason": "인플레이션 지속으로 가성비 소비 트렌드 강화, 스마트 쇼핑 도구 수요 급증 [추론]",
+        "growth_potential": "커머스 연계 리워드 모델은 광고·제휴 수익 모두 확보 가능한 높은 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 커미션, 광고, 프리미엄 알림 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료 + 고급 알림 월 2,900원, 주요 수익은 제휴 커미션 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "600-1200만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "WorkManager",
+          "Retrofit",
+          "Room DB"
+        ],
+        "key_features": [
+          "가격 추적 크롤링",
+          "푸시 알림",
+          "리워드 포인트 시스템",
+          "쇼핑 히스토리",
+          "제휴 링크 연동"
+        ],
+        "clone_tip": "가격 크롤링은 공개 API 활용, 리워드 시스템은 Firebase로 구현 가능하나 제휴 파트너십 확보가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.3
+      },
+      "tags": [
+        "#커머스",
+        "#B2C",
+        "#리워드",
+        "#미국개발자"
+      ],
+      "verdict": "가격 추적+리워드 통합 모델로 높은 수익성, 파트너십 확보가 성공의 핵심 조건",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "CoinScope: AI Identifier",
+      "developer": "speakapps.net",
+      "category": "Reference",
+      "source_id": "10f9cbd5a8a36c32169a0736",
+      "icon": "https://play-lh.googleusercontent.com/aC0Nd44SaG8s0DtmWDp48JWm8dOtLhD39mbuURnfF4mNTzIrlkZEuIvNWt16G-GKy8Ci7ufktZcpgkqyuomZXA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.identify.track.coinscope",
+      "idea_summary": "AI 카메라로 동전 종류와 가치를 즉시 식별",
+      "analysis": {
+        "problem": "동전 수집가나 여행자가 보유 동전의 종류·가치를 전문 지식 없이 알기 어려운 문제 [추론]",
+        "solution": "카메라로 동전을 촬영하면 AI가 즉시 종류와 가치 정보를 제공하는 간편한 식별 도구 [확인]",
+        "target_user": "동전 수집가, 외화 보유 여행자, 중고 거래 관심자, 20-60대 취미 활동층 [추론]",
+        "unique_point": "AI 이미지 인식으로 전문 감정 지식 없이도 즉시 동전 정보 획득 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Coinoscope",
+          "PCGS CoinFacts",
+          "NGC Coin"
+        ],
+        "timing_reason": "AI 이미지 인식 기술 성숙으로 모바일 식별 앱의 정확도 대폭 향상 [추론]",
+        "growth_potential": "동전 수집 시장은 소규모이나 AI 정확도 향상과 글로벌 여행 증가로 완만한 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 또는 무제한 스캔 IAP, 광고 [추론]",
+        "pricing_suggestion": "월 4,900원 구독 또는 무제한 스캔 팩 9,900원 일회성 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "TensorFlow Lite",
+          "Firebase ML Kit",
+          "CameraX",
+          "Room DB"
+        ],
+        "key_features": [
+          "카메라 스캔",
+          "AI 동전 인식",
+          "가치 데이터베이스",
+          "컬렉션 관리",
+          "검색"
+        ],
+        "clone_tip": "Firebase ML Kit로 온디바이스 AI 구현, 동전 데이터베이스(국가·연도·가치) 구축이 핵심 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#AI활용",
+        "#B2C",
+        "#니치시장",
+        "#취미"
+      ],
+      "verdict": "AI 동전 식별로 명확한 니치 공략, 수집가 커뮤니티 타겟 시 높은 충성도 기대",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "name": "Rips by Triumph",
+      "developer": "Triumph Labs Inc.",
+      "category": "Social Networking",
+      "source_id": "62973c4690118a2551419376",
+      "icon": "https://play-lh.googleusercontent.com/-2Y50Q1M8UMEBKHENK9RQJgL_XspRv3_aRmQZzkY_DZ0FX9wtoEvtYtXZavrzHXodJkxUeKHvOTrT-0iigJM",
+      "app_url": "https://play.google.com/store/apps/details?id=com.triumpharcade.tcg",
+      "idea_summary": "트레이딩 카드 개봉 경험 중심 소셜 커뮤니티",
+      "analysis": {
+        "problem": "TCG 커뮤니티가 여러 플랫폼에 분산되어 카드 개봉 경험을 공유하고 발견하기 불편한 문제 [추론]",
+        "solution": "카드 개봉(Rips) 순간을 소셜 미디어처럼 공유하고 TCG 콘텐츠를 발견하는 전용 플랫폼 [추론]",
+        "target_user": "포켓몬, 유희왕, Magic the Gathering 등 TCG 카드 수집·게임 팬 15-35세 [추론]",
+        "unique_point": "카드 개봉 순간을 소셜 콘텐츠화하는 TCG 전용 커뮤니티 경험 제공 [추측]"
+      },
+      "market": {
+        "competitors": [
+          "TCGPlayer",
+          "CardTrader",
+          "Whatnot"
+        ],
+        "timing_reason": "TCG 시장 급성장과 언박싱 콘텐츠 소비 트렌드가 맞물린 최적 타이밍 [추론]",
+        "growth_potential": "글로벌 TCG 시장 성장세 지속, 커뮤니티 플랫폼 선점 시 높은 성장 잠재력 [추론]"
+      },
+      "business": {
+        "monetization": "플랫폼 거래 수수료, 프리미엄 구독, 광고 [추론]",
+        "pricing_suggestion": "거래 수수료 3-5% + 프리미엄 기능 구독 월 4,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "700-1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase Realtime DB",
+          "Retrofit",
+          "Glide",
+          "ExoPlayer"
+        ],
+        "key_features": [
+          "카드 스캔·인식",
+          "소셜 피드",
+          "컬렉션 관리",
+          "거래 기능",
+          "라이브 개봉 스트리밍"
+        ],
+        "clone_tip": "Firebase Realtime DB로 소셜 피드 구현, 카드 OCR은 외부 API 활용해 개발 기간 단축 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#커뮤니티",
+        "#B2C",
+        "#TCG",
+        "#미국개발자"
+      ],
+      "verdict": "TCG 붐에 올라탄 소셜 플랫폼, 커뮤니티 선점 시 높은 성장 가능성 보유",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "name": "NetShort - 人気短編ドラマ",
+      "developer": "NETSTORY PTE. LTD.",
+      "category": "Entertainment",
+      "source_id": "82a22395b64678a5c28d19d5",
+      "icon": "https://play-lh.googleusercontent.com/ZL5yS20EujtVmUMMNHEnH9AI4NoqjUfjkolH7h44Ap0R2w3Vv1GF3zMGhB1KepyjCcH2a63rbbSl_PIwYxpr",
+      "app_url": "https://play.google.com/store/apps/details?id=com.netshort.abroad",
+      "idea_summary": "모바일 최적화 1-3분 단편 드라마 스트리밍",
+      "analysis": {
+        "problem": "짧은 이동 시간에 완결성 있는 드라마 에피소드를 소비하기 어려운 문제 [추론]",
+        "solution": "1-3분 분량 단편 드라마를 에피소드 형태로 제공하는 모바일 세로 화면 최적화 스트리밍 [확인]",
+        "target_user": "대중교통 이용자, 짧은 여가 시간에 엔터테인먼트를 원하는 20-40대 [추론]",
+        "unique_point": "숏폼 드라마라는 새로운 콘텐츠 포맷으로 OTT와 숏폼 사이의 갭을 공략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ReelShort",
+          "DramaBox",
+          "ShortTV"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 폭발적 성장과 모바일 엔터테인먼트 수요 증가 [추론]",
+        "growth_potential": "숏폼 드라마 시장 급성장 중, 글로벌 진출 시 높은 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "에피소드 단위 코인 구매(IAP) 또는 무제한 구독 [추론]",
+        "pricing_suggestion": "에피소드당 100-500원 코인 소비 + 월 구독 7,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "5-8개월 [추론]",
+        "estimated_cost": "1000-3000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "Retrofit",
+          "Hilt"
+        ],
+        "key_features": [
+          "세로 영상 스트리밍",
+          "에피소드 잠금 해제",
+          "코인 시스템",
+          "오프라인 다운로드",
+          "자동재생"
+        ],
+        "clone_tip": "ExoPlayer로 세로 영상 최적화 필수, 기술보다 콘텐츠 수급이 더 큰 진입 장벽 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#콘텐츠",
+        "#B2C",
+        "#엔터테인먼트",
+        "#싱가포르"
+      ],
+      "verdict": "숏폼 드라마 시장 급성장 중, 콘텐츠 수급 능력이 기술보다 더 중요한 성공 요인",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "name": "Wishlist Maker - Listful",
+      "developer": "Listful",
+      "category": "Shopping",
+      "source_id": "33656a99e776e8f82c3454d8",
+      "icon": "https://play-lh.googleusercontent.com/Vmkc2blGIhKuCGdWkKcAJA05JkagsX_wIfBbYZZ6wXa5kzOvEG-XjK7VtRMNdbwNRvBv4Mtms4LUBTl4wZhV",
+      "app_url": "https://play.google.com/store/apps/details?id=com.happywishlist.app",
+      "idea_summary": "온라인 쇼핑몰 연동 공유 위시리스트 메이커",
+      "analysis": {
+        "problem": "원하는 선물 목록을 가족·친구와 공유하거나 여러 쇼핑몰 아이템을 한 곳에 모으기 불편한 문제 [추론]",
+        "solution": "다양한 온라인 쇼핑몰 아이템을 추가하고 공유 가능한 위시리스트를 생성·관리 [확인]",
+        "target_user": "생일·크리스마스 등 선물 시즌에 위시리스트를 공유하고 싶은 20-40대 [추론]",
+        "unique_point": "여러 쇼핑몰 아이템을 한 위시리스트에 통합하고 링크로 간편 공유 가능한 편의성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GoWish",
+          "Amazon Wish List",
+          "Giftster"
+        ],
+        "timing_reason": "명절·시즌 선물 문화 디지털화와 SNS 공유 문화 확산 [추론]",
+        "growth_potential": "선물 시즌 반복 사용으로 안정적 사용자 유지, 커머스 연동 확대로 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "IAP로 무제한 위시리스트·아이템 수 확장, 제휴 커미션 [추론]",
+        "pricing_suggestion": "기본 무료 + 프리미엄 월 1,900원 또는 연간 9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "300-700만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "Retrofit",
+          "Glide",
+          "Room DB"
+        ],
+        "key_features": [
+          "URL 아이템 추가",
+          "위시리스트 공유 링크",
+          "아이템 예약(중복 선물 방지)",
+          "카테고리 분류"
+        ],
+        "clone_tip": "URL 파싱으로 상품 정보 자동 추출 구현이 핵심, Firebase Realtime DB로 공유 기능 빠르게 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#선물",
+        "#쇼핑"
+      ],
+      "verdict": "선물 시즌 반복 사용으로 안정적 리텐션, URL 파싱 기반 상품 추가 구현이 핵심 과제",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "2026년 11월 AI 이미지 인식 기반 니치 식별 도구와 취미 커뮤니티 플랫폼이 동시에 부상하고 있다. 대형 플랫폼보다 특정 문제를 깊이 해결하는 초집중 인디 앱들이 충성 사용자를 확보하는 흐름이 뚜렷하다.",
+    "trend_details": [
+      "AI 이미지 인식을 활용한 취미 아이템 식별 앱(동전, 식물, 보석 등)의 다양한 니치 적용 증가 [추론]",
+      "본인 목소리·개인 데이터를 활용한 하이퍼 개인화 알람·리마인더 앱 등장 [추론]",
+      "TCG(트레이딩 카드 게임) 붐과 연계된 소셜 커뮤니티 플랫폼 성장 [추론]",
+      "숏폼 드라마 콘텐츠의 아시아 시장 급성장 및 글로벌 확산 가속 [추론]",
+      "번아웃 세대 대상 저마찰 미니멀 웰니스·저널링 앱 수요 증가 [추론]"
+    ],
+    "hot_categories": [
+      "AI 개인화 도구",
+      "니치 취미 커뮤니티",
+      "숏폼 엔터테인먼트",
+      "웰니스·마음챙김"
+    ],
+    "opportunity": "AI 이미지 인식 API를 활용한 취미 수집품 식별 앱(우표, 피규어, 레코드판 등)은 충성도 높은 니치 사용자층이 존재하며 인디 개발자가 단기간에 MVP를 출시하기 적합한 영역 [추론]",
+    "action_item": "Google Vision API 또는 TensorFlow Lite를 활용해 본인이 관심 있는 수집품 식별 앱의 프로토타입을 2주 내에 제작하고 관련 커뮤니티(레딧, 디시인사이드)에서 반응을 테스트해볼 것 [추론]"
+  },
+  "data_status": {}
+}
