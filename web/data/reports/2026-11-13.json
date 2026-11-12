@@ -1,0 +1,700 @@
+{
+  "date": "2026-11-13",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "공군 PTSD 알람",
+      "developer": "SANGSANGLYEOG",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/9c/98/f89c9896-58b0-e820-8b77-8a0d46ea4608/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EA%B3%B5%EA%B5%B0-ptsd-%EC%95%8C%EB%9E%8C/id6812858705",
+      "source_id": "c1eaa272ce6f1c3e2d8c4c55",
+      "idea_summary": "군 복무자를 위한 PTSD 대처 알람 앱",
+      "analysis": {
+        "problem": "군 복무 중 혹은 전역 후 PTSD를 겪는 장병들이 접근 가능한 대처 도구가 부족함 [추론]",
+        "solution": "PTSD 알람, 증상 기록, 대처 가이드를 통합한 모바일 지원 도구 제공 [확인]",
+        "target_user": "대한민국 공군 복무자 및 전역자, PTSD 관리가 필요한 군인 [추론]",
+        "unique_point": "군 특화 정신건강 앱으로 일반 명상 앱 대비 군 복무 맥락에 최적화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Calm",
+          "Headspace",
+          "PTSD Coach (VA)"
+        ],
+        "timing_reason": "군 복무자 정신건강 인식 증가와 모바일 헬스케어 트렌드가 맞물린 시점 [추론]",
+        "growth_potential": "군 특화 니즈로 충성도 높은 소규모 타겟 시장 형성 가능 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본 제공, 프리미엄 콘텐츠 구독 가능성 [추론]",
+        "pricing_suggestion": "무료 진입 후 월 3,900원 구독 전환 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "UserNotifications",
+          "CoreData"
+        ],
+        "key_features": [
+          "PTSD 알람 스케줄링",
+          "증상 기록 다이어리",
+          "대처 가이드 콘텐츠",
+          "정기 리마인더"
+        ],
+        "clone_tip": "알람+일기+콘텐츠 조합은 소방관, 경찰 등 타 고위험 직군 버전으로 확장 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#군특화"
+      ],
+      "verdict": "군 복무자 정신건강 니즈를 정확히 겨냥한 틈새 앱, 타 직군 확장 가능성 보유",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "리드모어 - 독서 기록을 깔끔하게",
+      "developer": "Jieun Baek",
+      "category": "Books",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/fb/a1/9afba15f-099e-2c2b-46a9-3632c8f3501f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%A6%AC%EB%93%9C%EB%AA%A8%EC%96%B4-%EB%8F%85%EC%84%9C-%EA%B8%B0%EB%A1%9D%EC%9D%84-%EA%B9%94%EB%81%94%ED%95%98%EA%B2%8C/id6757908839",
+      "source_id": "8ee1e5efe44080be9e913da4",
+      "idea_summary": "독서 기록을 깔끔하게 정리하는 미니멀 북트래커",
+      "analysis": {
+        "problem": "독서가들이 읽은 책, 진행 상황, 감상을 한 곳에 깔끔하게 정리하기 어려움 [추론]",
+        "solution": "최소한의 UI로 도서 등록, 독서 진행률, 개인 리뷰를 체계적으로 기록 [확인]",
+        "target_user": "독서 습관을 체계화하고 싶은 20~40대 독서 애호가 [추론]",
+        "unique_point": "소셜 기능 없이 개인 기록에 집중한 미니멀리즘 접근으로 Goodreads 대안 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Goodreads",
+          "StoryGraph",
+          "Bookly"
+        ],
+        "timing_reason": "디지털 미니멀리즘 트렌드와 독서 붐이 겹치며 복잡한 Goodreads 대안 수요 증가 [추론]",
+        "growth_potential": "독서 앱 시장 꾸준한 성장세, 미니멀 디자인 선호 타겟 충성도 높음 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 프리미엄 구매 또는 구독 모델 [추론]",
+        "pricing_suggestion": "무료 50권 제한 후 일회성 구매 9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreData",
+          "CloudKit"
+        ],
+        "key_features": [
+          "도서 검색 및 등록",
+          "독서 진행률 트래킹",
+          "개인 리뷰 작성",
+          "월별 독서 통계"
+        ],
+        "clone_tip": "Open Library API 연동으로 도서 메타데이터 자동완성, iOS 위젯 지원으로 차별화 추천 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#미니멀앱",
+        "#독서"
+      ],
+      "verdict": "1인 개발자 입문 프로젝트로 최적, 완성도 높은 UX로 충성 유저 확보 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "フリマ王コピー出品",
+      "developer": "Villness Inc.",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/4d/9f/364d9f39-a6f0-dbb5-d012-29abf74e038e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%9E%E7%8E%8B%E3%82%B3%E3%83%94%E3%83%BC%E5%87%BA%E5%93%81/id6761459488",
+      "source_id": "f5965d51882032e77d4a6e6b",
+      "idea_summary": "일본 플리마켓 판매자의 상품 등록 복사를 자동화하는 도구",
+      "analysis": {
+        "problem": "메루카리 등 일본 플리마켓 판매자가 유사 상품 반복 등록 시 시간을 낭비함 [추론]",
+        "solution": "기존 상품 등록 정보를 원클릭으로 복사해 새 등록에 즉시 활용 [추론]",
+        "target_user": "메루카리 파워셀러, 부업으로 C2C 중고거래를 하는 일본 판매자 [추론]",
+        "unique_point": "일본 C2C 마켓 특화 생산성 도구로 반복 작업 자동화에 집중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "메루카리 공식 앱",
+          "라쿠마",
+          "PayPayフリマ"
+        ],
+        "timing_reason": "일본 중고거래 시장 연간 성장 중이며 판매자 효율화 니즈 증가 [추론]",
+        "growth_potential": "일본 메루카리 활성 판매자 수백만 명 대상 틈새 생산성 도구 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 월 구독 [추론]",
+        "pricing_suggestion": "유료 앱 480엔 일회성 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "URLSession",
+          "WebKit"
+        ],
+        "key_features": [
+          "상품 정보 자동 복사",
+          "템플릿 저장 및 관리",
+          "카테고리 자동 매핑",
+          "이미지 재활용"
+        ],
+        "clone_tip": "당근마켓, 번개장터 한국판으로 클론 가능하며 판매자 커뮤니티 타겟 마케팅 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#일본시장",
+        "#생산성"
+      ],
+      "verdict": "플리마켓 판매자 특화 틈새 생산성 앱, 한국 C2C 플랫폼 버전 클론 시 즉시 적용 가능",
+      "country": "jp"
+    },
+    {
+      "rank": 4,
+      "name": "Unison Analyzer",
+      "developer": "kouhei matsumura",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/6c/95/966c951b-fc3e-4046-1d89-d2be7f06c997/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/unison-analyzer/id6798979926",
+      "source_id": "b63a9d015d1fc5ba6fe27e6b",
+      "idea_summary": "유니즌 연주의 음정 편차를 실시간 시각화하는 뮤직 분석 도구",
+      "analysis": {
+        "problem": "합주 연습 시 유니즌 연주의 음정 편차를 실시간으로 시각화할 전용 도구가 없음 [추론]",
+        "solution": "마이크 입력을 통해 복수 음원의 유니즌 편차와 피치 특성을 실시간 분석 [추론]",
+        "target_user": "앙상블 음악가, 합창단 지휘자, 음악 교육자 및 고급 학생 [추론]",
+        "unique_point": "일반 튜너와 달리 유니즌 편차 분석에만 특화된 전문 뮤직 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "GuitarTuna",
+          "Cleartune",
+          "insTuner"
+        ],
+        "timing_reason": "모바일 오디오 처리 성능 향상으로 정밀 음향 분석이 가능해진 시점 [추론]",
+        "growth_potential": "음악 교육 시장 꾸준한 성장, 전문 뮤지션 대상 충성 사용자 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 고급 분석 기능 프리미엄 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 고급 분석 기능 월 1,200엔 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Accelerate",
+          "Core ML"
+        ],
+        "key_features": [
+          "실시간 피치 감지",
+          "유니즌 편차 시각화",
+          "음정 히스토리 기록",
+          "앙상블 멀티 채널 모드"
+        ],
+        "clone_tip": "합창단·오케스트라 연습용으로 특화, AVFoundation 오디오 처리 역량과 DSP 기초 지식 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#음악전문",
+        "#B2C",
+        "#일본시장",
+        "#틈새도구"
+      ],
+      "verdict": "합주 연습의 실질적 문제를 해결하는 전문가용 틈새 도구, 음악 교육 B2B 확장 가능",
+      "country": "jp"
+    },
+    {
+      "rank": 5,
+      "name": "GR Snap - 리코 GR Image Sync",
+      "developer": "Techflow Studio Limited",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/41/7b/06417b79-ae89-3215-987d-1875964c450b/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/gr-snap-%EB%A6%AC%EC%BD%94-gr-image-sync/id6768040383",
+      "source_id": "ab4e6cdc5657905df4a8845a",
+      "idea_summary": "리코 GR 카메라 사진을 모바일로 빠르게 동기화하는 전용 앱",
+      "analysis": {
+        "problem": "리코 GR 카메라 공식 앱의 UX가 불편하거나 기능이 부족해 사용자 불만 존재 [추론]",
+        "solution": "리코 GR 카메라와 스마트폰 간 이미지 동기화를 최적화한 써드파티 컴패니언 앱 [확인]",
+        "target_user": "리코 GR IIIx·GR III 사용자, 스트리트 포토그래피 애호가 [추론]",
+        "unique_point": "리코 GR 카메라 전용 최적화 경험으로 공식 앱의 UX 한계를 보완 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Ricoh Image Sync (공식)",
+          "Cascable Pro",
+          "Shutter Snitch"
+        ],
+        "timing_reason": "리코 GR 시리즈 인기 지속, 써드파티 카메라 컴패니언 앱 수요 증가 [추론]",
+        "growth_potential": "GR 카메라 사용자 커뮤니티 충성도 높아 안정적 니치 시장 형성 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 일회성 구매 [추론]",
+        "pricing_suggestion": "일회성 구매 4,900원~9,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~600만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Network",
+          "Photos Framework",
+          "Wi-Fi Direct"
+        ],
+        "key_features": [
+          "카메라 Wi-Fi 자동 연결",
+          "이미지 자동 다운로드",
+          "RAW 파일 지원",
+          "빠른 편집 앱 연동"
+        ],
+        "clone_tip": "소니 Alpha, 후지필름 X 시리즈 등 타 카메라 브랜드 버전으로 확장 가능, 각 카메라 Wi-Fi API 문서 선행 연구 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 2,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.8
+      },
+      "tags": [
+        "#카메라특화",
+        "#B2C",
+        "#써드파티도구",
+        "#사진"
+      ],
+      "verdict": "리코 GR 팬덤의 실질적 니즈 해결, 카메라 브랜드별 버전으로 반복 클론 가능",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
+      "developer": "ironpig Inc.",
+      "category": "Photography",
+      "icon": "https://play-lh.googleusercontent.com/9cdhwMwXufq5bdUbmAx-8Q8UxpmNo6SCOi8bLbrasSY_OU_cW5WYYu7P6Dpe-s-UKwLoUmIuPt0ANoaQy41xnQ",
+      "app_url": "https://play.google.com/store/apps/details?id=io.ironpig.lovemoment",
+      "source_id": "63d9baaa3f465210678988cf",
+      "idea_summary": "연인과의 순간을 빈티지 감성으로 기록하는 카메라 앱",
+      "analysis": {
+        "problem": "일반 카메라 앱이 커플·연인 간 감성적 추억 기록 경험을 충분히 제공하지 못함 [추론]",
+        "solution": "빈티지 필름 감성 필터와 커플 추억 기록 기능을 결합한 카메라 경험 제공 [추론]",
+        "target_user": "연인이 있는 10~30대, 필름 카메라 감성을 좋아하는 MZ 세대 [추론]",
+        "unique_point": "커플·로맨스 감성에 특화된 빈티지 카메라로 단순 필터 앱과 명확히 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Huji Cam",
+          "Dazz Cam",
+          "Locket Widget"
+        ],
+        "timing_reason": "필름 카메라 복고 트렌드 지속, MZ 세대 감성 소비 증가 시점 [추론]",
+        "growth_potential": "MZ 세대 감성 소비 트렌드와 맞물려 SNS 바이럴 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "무료 기본 필터 제공, 프리미엄 필터팩 IAP 또는 구독 [추론]",
+        "pricing_suggestion": "무료 진입, 필터팩 개당 1,900원 또는 월 3,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "CameraX",
+          "OpenGL ES",
+          "Jetpack Compose"
+        ],
+        "key_features": [
+          "빈티지 필름 필터",
+          "날짜 타임스탬프 오버레이",
+          "커플 사진 앨범",
+          "커스텀 프레임"
+        ],
+        "clone_tip": "우정, 여행 등 특정 감성 타겟으로 버티컬 확장 가능, CameraX 필터 파이프라인 구현이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#카메라",
+        "#커플앱"
+      ],
+      "verdict": "빈티지 감성+커플 타겟 조합으로 SNS 바이럴 가능, 필터팩 IAP 수익화 모델 명확",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "피클: 나만의 AI 에이전트",
+      "developer": "Pickle, Inc.",
+      "category": "Productivity",
+      "icon": "https://play-lh.googleusercontent.com/e1xQjuYt0tGPtYMwiO_KKh8LMA03eb1lMY3wMREWooZ7UXgMLUXyHqcHJJFWEhHjsW5tmuQiiHQmBWF3PgmmAA",
+      "app_url": "https://play.google.com/store/apps/details?id=com.pickle.client",
+      "source_id": "54aaf679fbc77e392b56a6e7",
+      "idea_summary": "일상 결정을 도와주는 개인화된 AI 에이전트",
+      "analysis": {
+        "problem": "기존 AI 어시스턴트가 개인 맥락 없이 너무 일반적인 답변을 제공함 [추론]",
+        "solution": "사용자 취향과 습관을 학습해 개인화된 일상 결정을 지원하는 AI 에이전트 [추론]",
+        "target_user": "AI 얼리어답터, 생산성 향상을 원하는 25~40대 직장인 [추론]",
+        "unique_point": "단순 챗봇이 아닌 맥락 기억 기반 개인화 에이전트 접근 방식 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ChatGPT",
+          "Claude",
+          "Gemini",
+          "Notion AI"
+        ],
+        "timing_reason": "AI 에이전트 기술 성숙기 진입, 개인화 AI 수요 폭발적 증가 시점 [추론]",
+        "growth_potential": "AI 어시스턴트 시장 고성장 중, 차별화된 개인화로 충성 유저 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델 [추론]",
+        "pricing_suggestion": "월 9,900원~14,900원 구독, 무료 플랜 기능 제한 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "1,000~3,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "OpenAI API",
+          "Firebase",
+          "Room DB"
+        ],
+        "key_features": [
+          "대화 맥락 기억",
+          "일상 결정 추천",
+          "루틴 학습 및 패턴 분석",
+          "개인 프로필 구축"
+        ],
+        "clone_tip": "여행, 식사, 쇼핑 등 특정 도메인 버티컬 AI 에이전트로 집중하면 차별화 용이 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AI에이전트",
+        "#B2C",
+        "#구독",
+        "#생산성"
+      ],
+      "verdict": "AI 에이전트 트렌드 최전선, 대형 AI와의 경쟁이 최대 과제이나 개인화 깊이가 차별점",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "CrownCards - Trading Cards",
+      "developer": "CrownCards",
+      "category": "Collectibles",
+      "icon": "https://play-lh.googleusercontent.com/tSapEWmXKxxvHgJfz1pPnDzX2b6FY2oOupJ_cpSKhWARaVslUlkRbw0v_lUr2VgwLchxc4n1KUL3PONEVwZ3Du0",
+      "app_url": "https://play.google.com/store/apps/details?id=com.crowncards.app",
+      "source_id": "bf2d306bb54e2b535e8bb69f",
+      "idea_summary": "디지털 트레이딩 카드 수집·관리·거래 플랫폼",
+      "analysis": {
+        "problem": "트레이딩 카드 컬렉터들이 컬렉션을 체계적으로 관리하고 거래할 디지털 플랫폼이 부족 [추론]",
+        "solution": "트레이딩 카드 수집, 컬렉션 관리, 유저 간 교환·거래 기능을 모바일에서 통합 제공 [추론]",
+        "target_user": "포켓몬 카드, 스포츠 카드 등 TCG 컬렉터, 10~30대 카드 게임 팬 [추론]",
+        "unique_point": "디지털 카드 관리와 커뮤니티 거래를 결합한 컬렉터 중심 통합 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "TCGPlayer",
+          "CardTrader",
+          "eBay"
+        ],
+        "timing_reason": "트레이딩 카드 시장 글로벌 호황 지속, 모바일 관리 도구 수요 증가 [추론]",
+        "growth_potential": "TCG 시장 연간 10% 이상 성장 추세, 모바일 플랫폼 전환 수요 큼 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료, 프리미엄 컬렉션 관리 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 컬렉션 기능 월 4,900원, 거래 수수료 3~5% [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "1,000~2,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "Stripe",
+          "TCG APIs"
+        ],
+        "key_features": [
+          "카드 스캔 인식",
+          "컬렉션 목록 관리",
+          "시세 조회",
+          "유저 간 거래 기능"
+        ],
+        "clone_tip": "포켓몬 or 특정 TCG 하나에 집중한 버티컬 앱으로 시작, 카드 가격 API 연동이 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#컬렉터앱",
+        "#B2C",
+        "#마켓플레이스",
+        "#TCG"
+      ],
+      "verdict": "트레이딩 카드 호황기 최적 타이밍, 특정 카드 게임 버티컬 집중이 초기 성공 전략",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "name": "TifoLive: Football Scores",
+      "developer": "TRANSPORT HOSPITAL GAME",
+      "category": "Sports",
+      "icon": "https://play-lh.googleusercontent.com/uVfbFdnI9S_b4W3JShSf8wbmp4LJpHM5CsDfCCLKVJ9HxSD5pAcf4gc7K7ifTc2AHVgI41uLjdOSlQddq47ifw",
+      "app_url": "https://play.google.com/store/apps/details?id=com.t9livescore.tifo",
+      "source_id": "8839b05e288388f3b2318286",
+      "idea_summary": "축구 팬을 위한 경량화된 실시간 스코어 앱",
+      "analysis": {
+        "problem": "기존 스포츠 앱이 광고와 불필요한 기능으로 과부하되어 빠른 점수 확인이 불편함 [추론]",
+        "solution": "실시간 축구 경기 결과, 순위, 주요 통계를 가볍고 빠르게 제공 [확인]",
+        "target_user": "빠른 점수 확인을 원하는 15~45세 글로벌 축구 팬 [추론]",
+        "unique_point": "불필요한 기능 없이 스코어 확인에 집중한 경량 앱 접근 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ESPN",
+          "OneFootball",
+          "SofaScore",
+          "FotMob"
+        ],
+        "timing_reason": "모바일 스포츠 소비 증가, 가벼운 대안 앱 수요 꾸준 [추론]",
+        "growth_potential": "축구 팬덤 글로벌 규모 방대, 니치 UX 차별화로 충성 유저 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 앱, 광고 제거 프리미엄 일회성 구매 [추론]",
+        "pricing_suggestion": "무료 앱 광고 수익, 광고 제거 2,900원 일회성 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~800만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Retrofit",
+          "Football Data API",
+          "Firebase"
+        ],
+        "key_features": [
+          "실시간 경기 스코어",
+          "리그 순위표",
+          "경기 일정",
+          "즐겨찾기 팀 알림"
+        ],
+        "clone_tip": "농구, 야구 등 타 종목으로 버티컬 클론 가능, API-Football 또는 SportMonks API 연동으로 빠른 개발 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 1,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 6.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#스포츠",
+        "#글로벌"
+      ],
+      "verdict": "대형 경쟁자 많으나 경량 UX 차별화로 틈새 가능, 타 종목 버전 클론 반복 전략 유효",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "금줍줍: 만보기·게임 앱테크로 금한돈 벌기",
+      "developer": "ALBIX Inc.",
+      "category": "Rewards",
+      "icon": "https://play-lh.googleusercontent.com/31zD1pF-0iM00LD_wHaBy6ni2D1pWTkQFTu_1rviX0WcE72tutEosEviqKlsKrJJxLqaFPn5_C13V4fhnjl64g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.geumjubjub.reward.aos",
+      "source_id": "5772ad0eda60de5f31c56471",
+      "idea_summary": "걷기와 게임으로 금을 적립하는 웰니스 리워드 앱",
+      "analysis": {
+        "problem": "건강 앱 사용자가 꾸준한 운동 습관 유지를 위한 실질적 보상이 부족 [추론]",
+        "solution": "걷기, 미션, 게임 완료 시 금(Gold) 포인트를 적립해 실물 가치로 교환 가능 [추론]",
+        "target_user": "앱테크에 관심 있는 한국 20~50대, 운동 습관 형성을 원하는 사용자 [추론]",
+        "unique_point": "금 적립이라는 실물 자산 연계 보상으로 기존 포인트 앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "캐시워크",
+          "만보기 by 토스",
+          "TMAP 걷기",
+          "캐시슬라이드"
+        ],
+        "timing_reason": "앱테크 트렌드 지속, 금 가격 상승으로 금 적립 앱에 대한 관심 증가 [추론]",
+        "growth_potential": "한국 앱테크 시장 경쟁 치열하나 금 연계 차별화로 틈새 확보 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익, 제휴 파트너십, 프리미엄 미션 [추론]",
+        "pricing_suggestion": "무료 앱 광고 기반 수익화, 프리미엄 미션 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "500~1,500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Google Fit API",
+          "Firebase",
+          "Google AdMob"
+        ],
+        "key_features": [
+          "만보기 걷기 추적",
+          "금 포인트 적립",
+          "게임 미션",
+          "포인트 교환 샵"
+        ],
+        "clone_tip": "은, 달러 등 다른 실물 자산 연계로 클론 가능, Google Fit 연동으로 걷기 추적 간단히 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#앱테크",
+        "#B2C",
+        "#한국시장",
+        "#리워드"
+      ],
+      "verdict": "금 적립 차별화 포인트 명확, 앱테크 시장 경쟁 심화로 초기 사용자 획득 비용이 관건",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정 앱들은 특정 사용자 그룹을 정밀 타겟팅한 버티컬 특화 앱이 강세를 보였다. 대형 플랫폼이 채우지 못하는 군인 정신건강, 플리마켓 판매자 생산성, 카메라 브랜드 컴패니언 등 초특화 니즈가 인디 개발자 기회로 부상 중이다.",
+    "trend_details": [
+      "군인·전문직 등 특수 직군 대상 버티컬 헬스케어 앱 등장",
+      "빈티지·감성 카메라 앱의 커플·MZ 세대 세분화 타겟팅 가속",
+      "C2C 플리마켓 판매자 생산성 도구 틈새 시장 성장",
+      "AI 에이전트 개인화 경쟁 심화, 도메인 특화가 차별화 키",
+      "금·실물자산 연계 리워드 앱으로 한국 앱테크 시장 차별화 시도",
+      "특정 카메라 브랜드 써드파티 컴패니언 앱 수요 증가"
+    ],
+    "hot_categories": [
+      "버티컬 헬스케어",
+      "감성 카메라",
+      "AI 에이전트",
+      "C2C 생산성 도구",
+      "실물자산 리워드",
+      "카메라 컴패니언"
+    ],
+    "opportunity": "대형 플랫폼이 외면하는 특수 직군(군인, 소방관, 경찰) 대상 멘탈헬스 앱과 특정 카메라 브랜드 써드파티 컴패니언 앱이 블루오션으로 부상 중 [추론]",
+    "action_item": "리코 GR 또는 후지필름 카메라 사용자 커뮤니티(레딧 r/ricoh, 디스코드)를 조사해 공식 앱 불만 파악 후 써드파티 컴패니언 앱 MVP를 2주 내 프로토타입으로 제작 도전"
+  },
+  "data_status": {}
+}
