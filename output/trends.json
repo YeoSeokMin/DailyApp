@@ -1,27 +1,55 @@
 {
-  "generatedAt": "2026-11-12T15:12:09.184Z",
+  "generatedAt": "2026-11-13T15:18:19.741Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Lifestyle",
-      "currentCount": 8,
-      "previousCount": 3,
-      "changePercent": 167,
+      "category": "Education",
+      "currentCount": 3,
+      "previousCount": 1,
+      "changePercent": 200,
       "changeDirection": "up",
       "apps": [
-        "Amatda(아맞다) - 내 목소리 알람",
-        "murmur daily",
-        "DuoFridge",
-        "チャデポ - 充電と歩数でポイ活",
-        "Auday - All-Day Watch Recorder",
-        "언제오나(버스)",
-        "日とと記",
-        "チャデポ - 充電と歩数でポイ活"
+        "Kanji Dictionary & Trainer",
+        "Dicter - 평생 기억되는 나만의 단어장",
+        "SpeakUp AI - 언어 학습"
       ],
-      "avgScore": 7.225
+      "avgScore": 7.333333333333333
+    },
+    {
+      "category": "Collectibles",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CrownCards - Trading Cards"
+      ],
+      "avgScore": 7.5
+    },
+    {
+      "category": "Sports",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "TifoLive: Football Scores"
+      ],
+      "avgScore": 6.8
+    },
+    {
+      "category": "Rewards",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기"
+      ],
+      "avgScore": 7
     },
     {
       "category": "Photo and Video",
@@ -90,18 +118,6 @@
       "avgScore": 7
     },
     {
-      "category": "News",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "현지뉴스",
-        "Haystack News: Local TV News"
-      ],
-      "avgScore": 6.9
-    },
-    {
       "category": "Food and Dining",
       "currentCount": 1,
       "previousCount": 0,
@@ -158,25 +174,30 @@
       "avgScore": 8.2
     },
     {
-      "category": "Finance",
-      "currentCount": 3,
-      "previousCount": 2,
-      "changePercent": 50,
+      "category": "Lifestyle",
+      "currentCount": 7,
+      "previousCount": 5,
+      "changePercent": 40,
       "changeDirection": "up",
       "apps": [
-        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크",
-        "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
-        "카네 Kane - 간편한 가계부"
+        "공군 PTSD 알람",
+        "Amatda(아맞다) - 내 목소리 알람",
+        "murmur daily",
+        "DuoFridge",
+        "チャデポ - 充電と歩数でポイ活",
+        "Auday - All-Day Watch Recorder",
+        "언제오나(버스)"
       ],
-      "avgScore": 7.599999999999999
+      "avgScore": 7.271428571428571
     },
     {
       "category": "Productivity",
-      "currentCount": 6,
+      "currentCount": 7,
       "previousCount": 5,
-      "changePercent": 20,
+      "changePercent": 40,
       "changeDirection": "up",
       "apps": [
+        "피클: 나만의 AI 에이전트",
         "Autoscripts Userscripts",
         "Aside: 온디바이스 AI 채팅",
         "Yondo Todoリストをロック画面に。シンプルタスク管理",
@@ -184,55 +205,25 @@
         "setlog",
         "AidPDF-Edit"
       ],
-      "avgScore": 7.349999999999999
-    },
-    {
-      "category": "Music",
-      "currentCount": 8,
-      "previousCount": 7,
-      "changePercent": 14,
-      "changeDirection": "up",
-      "apps": [
-        "Chord Lab: Chord Synth",
-        "GigClick: Metronome, Setlist",
-        "Reel: 4트랙 레코더",
-        "Practice Farm: 練習曲、どの調でも",
-        "ImpulseDie - Symbiotic Drum",
-        "Band Session Note: 손글씨 악보",
-        "Beat Blocks - Rhythm Practice",
-        "Suno - AI Music & Songs Maker"
-      ],
-      "avgScore": 7.45
+      "avgScore": 7.414285714285714
     }
   ],
   "decliningCategories": [
     {
-      "category": "Education",
-      "currentCount": 3,
-      "previousCount": 4,
-      "changePercent": -25,
+      "category": "Music",
+      "currentCount": 6,
+      "previousCount": 9,
+      "changePercent": -33,
       "changeDirection": "down",
       "apps": [
-        "Kanji Dictionary & Trainer",
-        "Dicter - 평생 기억되는 나만의 단어장",
-        "SpeakUp AI - 언어 학습"
+        "Unison Analyzer",
+        "Chord Lab: Chord Synth",
+        "GigClick: Metronome, Setlist",
+        "Reel: 4트랙 레코더",
+        "Practice Farm: 練習曲、どの調でも",
+        "ImpulseDie - Symbiotic Drum"
       ],
-      "avgScore": 7.333333333333333
-    },
-    {
-      "category": "Entertainment",
-      "currentCount": 5,
-      "previousCount": 7,
-      "changePercent": -29,
-      "changeDirection": "down",
-      "apps": [
-        "NetShort - 人気短編ドラマ",
-        "Duo Aquarium",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
-        "スタンプ · 季節だより",
-        "Tarova: 아스트랄 타로 & 조디악"
-      ],
-      "avgScore": 7.24
+      "avgScore": 7.25
     },
     {
       "category": "Shopping",
@@ -257,26 +248,73 @@
       "changePercent": -50,
       "changeDirection": "down",
       "apps": [
+        "フリマ王コピー出品",
         "まもるくん：スマホ置き忘れ防止",
-        "Easy Homescreen",
-        "Brim: 화면 끝까지 브라우징"
+        "Easy Homescreen"
       ],
-      "avgScore": 7.1000000000000005
+      "avgScore": 7.333333333333333
     },
     {
       "category": "Photo & Video",
-      "currentCount": 2,
+      "currentCount": 3,
       "previousCount": 6,
-      "changePercent": -67,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
+        "GR Snap - 리코 GR Image Sync",
         "SharpStop Depth of Field Calc",
         "Log to LUT"
       ],
-      "avgScore": 7.5
+      "avgScore": 7.266666666666667
+    },
+    {
+      "category": "News",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "현지뉴스"
+      ],
+      "avgScore": 6.5
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 3,
+      "previousCount": 7,
+      "changePercent": -57,
+      "changeDirection": "down",
+      "apps": [
+        "NetShort - 人気短編ドラマ",
+        "Duo Aquarium",
+        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ"
+      ],
+      "avgScore": 7.800000000000001
     }
   ],
   "stableCategories": [
+    {
+      "category": "Books",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "리드모어 - 독서 기록을 깔끔하게"
+      ],
+      "avgScore": 7
+    },
+    {
+      "category": "Photography",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱"
+      ],
+      "avgScore": 8
+    },
     {
       "category": "Social Networking",
       "currentCount": 2,
@@ -288,6 +326,18 @@
         "Bump (バンプ) - 友達とつながるマップ"
       ],
       "avgScore": 8
+    },
+    {
+      "category": "Finance",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크",
+        "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크"
+      ],
+      "avgScore": 7.8999999999999995
     },
     {
       "category": "Health & Fitness",
@@ -331,6 +381,16 @@
       "category": "tag",
       "count": 55,
       "apps": [
+        "공군 PTSD 알람",
+        "리드모어 - 독서 기록을 깔끔하게",
+        "フリマ王コピー出品",
+        "Unison Analyzer",
+        "GR Snap - 리코 GR Image Sync",
+        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
+        "피클: 나만의 AI 에이전트",
+        "CrownCards - Trading Cards",
+        "TifoLive: Football Scores",
+        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기",
         "Amatda(아맞다) - 내 목소리 알람",
         "Chord Lab: Chord Synth",
         "Velvet Film",
@@ -375,23 +435,19 @@
         "Whatnot: Shop, Sell, Connect",
         "TextNow: Call + Text Unlimited",
         "AidPDF-Edit",
-        "Easy Homescreen",
-        "Band Session Note: 손글씨 악보",
-        "Beat Blocks - Rhythm Practice",
-        "Brim: 화면 끝까지 브라우징",
-        "日とと記",
-        "카네 Kane - 간편한 가계부",
-        "Suno - AI Music & Songs Maker",
-        "Haystack News: Local TV News",
-        "スタンプ · 季節だより",
-        "Tarova: 아스트랄 타로 & 조디악"
+        "Easy Homescreen"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 41,
+      "count": 38,
       "apps": [
+        "공군 PTSD 알람",
+        "리드모어 - 독서 기록을 깔끔하게",
+        "フリマ王コピー出品",
+        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
+        "TifoLive: Football Scores",
         "Amatda(아맞다) - 내 목소리 알람",
         "Velvet Film",
         "murmur daily",
@@ -424,21 +480,15 @@
         "ImpulseDie - Symbiotic Drum",
         "まもるくん：スマホ置き忘れ防止",
         "AidPDF-Edit",
-        "Easy Homescreen",
-        "Band Session Note: 손글씨 악보",
-        "Beat Blocks - Rhythm Practice",
-        "Brim: 화면 끝까지 브라우징",
-        "日とと記",
-        "카네 Kane - 간편한 가계부",
-        "スタンプ · 季節だより",
-        "Tarova: 아스트랄 타로 & 조디악"
+        "Easy Homescreen"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 16,
+      "count": 13,
       "apps": [
+        "피클: 나만의 AI 에이전트",
         "Chord Lab: Chord Synth",
         "murmur daily",
         "CoinScope: AI Identifier",
@@ -449,9 +499,7 @@
         "Kanji Dictionary & Trainer",
         "SpeakUp AI - 언어 학습",
         "まもるくん：スマホ置き忘れ防止",
-        "AidPDF-Edit",
-        "Suno - AI Music & Songs Maker",
-        "Tarova: 아스트랄 타로 & 조디악"
+        "AidPDF-Edit"
       ]
     },
     {
@@ -459,6 +507,7 @@
       "category": "ar_vr",
       "count": 9,
       "apps": [
+        "CrownCards - Trading Cards",
         "Autoscripts Userscripts",
         "Duo Aquarium",
         "SharpStop Depth of Field Calc",
@@ -466,8 +515,7 @@
         "Kanji Dictionary & Trainer",
         "Practice Farm: 練習曲、どの調でも",
         "Hark Pro",
-        "OG.com: Rip Cards,Trade Events",
-        "Tarova: 아스트랄 타로 & 조디악"
+        "OG.com: Rip Cards,Trade Events"
       ]
     },
     {
@@ -475,33 +523,34 @@
       "category": "social",
       "count": 8,
       "apps": [
+        "리드모어 - 독서 기록을 깔끔하게",
         "Rips by Triumph",
         "Duo Aquarium",
         "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
         "폴럽 이글루 - 나만의 스티커 제작소",
         "Bump (バンプ) - 友達とつながるマップ",
-        "Whatnot: Shop, Sell, Connect",
-        "スタンプ · 季節だより"
+        "Whatnot: Shop, Sell, Connect"
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
+      "keyword": "생산성",
+      "category": "productivity",
       "count": 7,
       "apps": [
-        "Rips by Triumph",
-        "NetShort - 人気短編ドラマ",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
-        "OG.com: Rip Cards,Trade Events",
-        "Brim: 화면 끝까지 브라우징",
-        "Haystack News: Local TV News"
+        "フリマ王コピー出品",
+        "피클: 나만의 AI 에이전트",
+        "Autoscripts Userscripts",
+        "Yondo Todoリストをロック画面に。シンプルタスク管理",
+        "Sync: 계획과 실행 · 시간기록 플래너",
+        "AidPDF-Edit"
       ]
     },
     {
       "keyword": "글로벌",
       "category": "tag",
-      "count": 6,
+      "count": 7,
       "apps": [
+        "TifoLive: Football Scores",
         "Kanji Dictionary & Trainer",
         "Reel: 4트랙 레코더",
         "Practice Farm: 練習曲、どの調でも",
@@ -515,43 +564,45 @@
       "category": "subscription",
       "count": 5,
       "apps": [
+        "리드모어 - 독서 기록을 깔끔하게",
         "Auday - All-Day Watch Recorder",
         "Hark Pro",
         "PulseOSC: VRChat 실시간 심박수 표시",
-        "Log to LUT",
-        "スタンプ · 季節だより"
-      ]
-    },
-    {
-      "keyword": "생산성",
-      "category": "productivity",
-      "count": 4,
-      "apps": [
-        "Autoscripts Userscripts",
-        "Yondo Todoリストをロック画面に。シンプルタスク管理",
-        "Sync: 계획과 실행 · 시간기록 플래너",
-        "AidPDF-Edit"
+        "Log to LUT"
       ]
     },
     {
       "keyword": "커뮤니티",
       "category": "social",
-      "count": 4,
+      "count": 5,
       "apps": [
+        "CrownCards - Trading Cards",
         "CoinScope: AI Identifier",
         "Rips by Triumph",
         "OG.com: Rip Cards,Trade Events"
       ]
     },
     {
-      "keyword": "스트리밍",
-      "category": "creator",
-      "count": 4,
+      "keyword": "한국시장",
+      "category": "tag",
+      "count": 5,
       "apps": [
+        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기",
+        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크",
+        "4910 | 패션이 쉬워지는 순간",
+        "퀸잇, 멋진 어른들의 라이프스타일링샵",
+        "캐치테이블"
+      ]
+    },
+    {
+      "keyword": "콘텐츠",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "Rips by Triumph",
         "NetShort - 人気短編ドラマ",
-        "reTONE — 古いスマホを音楽プレーヤーに",
-        "Whatnot: Shop, Sell, Connect",
-        "Haystack News: Local TV News"
+        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
+        "OG.com: Rip Cards,Trade Events"
       ]
     },
     {
@@ -565,24 +616,33 @@
       ]
     },
     {
-      "keyword": "한국시장",
-      "category": "tag",
-      "count": 4,
-      "apps": [
-        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크",
-        "4910 | 패션이 쉬워지는 순간",
-        "퀸잇, 멋진 어른들의 라이프스타일링샵",
-        "캐치테이블"
-      ]
-    },
-    {
-      "keyword": "라이프스타일",
+      "keyword": "일본시장",
       "category": "tag",
       "count": 3,
       "apps": [
-        "Amatda(아맞다) - 내 목소리 알람",
-        "DuoFridge",
-        "日とと記"
+        "フリマ王コピー出品",
+        "Unison Analyzer",
+        "特務機関NERV防災"
+      ]
+    },
+    {
+      "keyword": "마켓플레이스",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "CrownCards - Trading Cards",
+        "OG.com: Rip Cards,Trade Events",
+        "Whatnot: Shop, Sell, Connect"
+      ]
+    },
+    {
+      "keyword": "리워드",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기",
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+        "チャデポ - 充電と歩数でポイ活"
       ]
     },
     {
@@ -596,16 +656,6 @@
       ]
     },
     {
-      "keyword": "음악교육",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Chord Lab: Chord Synth",
-        "Practice Farm: 練習曲、どの調でも",
-        "Beat Blocks - Rhythm Practice"
-      ]
-    },
-    {
       "keyword": "미국개발자",
       "category": "tag",
       "count": 3,
@@ -616,71 +666,72 @@
       ]
     },
     {
-      "keyword": "리워드",
-      "category": "tag",
+      "keyword": "스트리밍",
+      "category": "creator",
       "count": 3,
       "apps": [
-        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
-        "チャデポ - 充電と歩数でポイ活"
+        "NetShort - 人気短編ドラマ",
+        "reTONE — 古いスマホを音楽プレーヤーに",
+        "Whatnot: Shop, Sell, Connect"
       ]
     },
     {
-      "keyword": "유틸리티",
+      "keyword": "교육",
       "category": "tag",
       "count": 3,
       "apps": [
-        "特務機関NERV防災",
-        "まもるくん：スマホ置き忘れ防止",
-        "Brim: 화면 끝까지 브라우징"
+        "Kanji Dictionary & Trainer",
+        "Dicter - 평생 기억되는 나만의 단어장",
+        "SpeakUp AI - 언어 학습"
       ]
     },
     {
-      "keyword": "미니멀",
-      "category": "tag",
+      "keyword": "편집",
+      "category": "creator",
       "count": 3,
       "apps": [
-        "Yondo Todoリストをロック画面に。シンプルタスク管理",
-        "setlog",
-        "日とと記"
+        "Miniature Studio",
+        "Log to LUT",
+        "AidPDF-Edit"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 45,
-        "percent": 69,
+        "count": 46,
+        "percent": 71,
         "examples": [
-          "Amatda(아맞다) - 내 목소리 알람",
-          "Chord Lab: Chord Synth",
-          "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립"
+          "공군 PTSD 알람",
+          "리드모어 - 독서 기록을 깔끔하게",
+          "Unison Analyzer"
         ]
       },
       "freemium": {
-        "count": 56,
-        "percent": 86,
+        "count": 54,
+        "percent": 83,
         "examples": [
-          "Amatda(아맞다) - 내 목소리 알람",
-          "Chord Lab: Chord Synth",
-          "Velvet Film"
+          "공군 PTSD 알람",
+          "리드모어 - 독서 기록을 깔끔하게",
+          "Unison Analyzer"
         ]
       },
       "subscription": {
-        "count": 47,
-        "percent": 72,
+        "count": 45,
+        "percent": 69,
         "examples": [
-          "Velvet Film",
-          "murmur daily",
-          "Autoscripts Userscripts"
+          "공군 PTSD 알람",
+          "리드모어 - 독서 기록을 깔끔하게",
+          "フリマ王コピー出品"
         ]
       },
       "onetime": {
-        "count": 29,
-        "percent": 45,
+        "count": 27,
+        "percent": 42,
         "examples": [
-          "Velvet Film",
-          "Autoscripts Userscripts",
-          "CoinScope: AI Identifier"
+          "리드모어 - 독서 기록을 깔끔하게",
+          "フリマ王コピー出品",
+          "Unison Analyzer"
         ]
       },
       "unknown": {
@@ -691,12 +742,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 56,
-      "percent": 86,
+      "count": 54,
+      "percent": 83,
       "examples": [
-        "Amatda(아맞다) - 내 목소리 알람",
-        "Chord Lab: Chord Synth",
-        "Velvet Film"
+        "공군 PTSD 알람",
+        "리드모어 - 독서 기록을 깔끔하게",
+        "Unison Analyzer"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -708,29 +759,29 @@
         "count": 16,
         "percent": 25,
         "apps": [
+          "Unison Analyzer",
+          "피클: 나만의 AI 에이전트",
           "Chord Lab: Chord Synth",
           "murmur daily",
-          "CoinScope: AI Identifier",
-          "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
-          "AHEALTH: Get Healthy Get Paid"
+          "CoinScope: AI Identifier"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 14,
-        "percent": 22,
+        "count": 12,
+        "percent": 18,
         "apps": [
+          "CrownCards - Trading Cards",
           "Autoscripts Userscripts",
           "Duo Aquarium",
           "SharpStop Depth of Field Calc",
-          "CrimeRadar: Dispatch Alerts",
-          "4910 | 패션이 쉬워지는 순간"
+          "CrimeRadar: Dispatch Alerts"
         ]
       },
       {
         "tech": "creator",
-        "count": 12,
-        "percent": 18,
+        "count": 9,
+        "percent": 14,
         "apps": [
           "Velvet Film",
           "Rips by Triumph",
@@ -741,8 +792,8 @@
       },
       {
         "tech": "social",
-        "count": 8,
-        "percent": 12,
+        "count": 7,
+        "percent": 11,
         "apps": [
           "CoinScope: AI Identifier",
           "Rips by Triumph",
@@ -753,26 +804,34 @@
       },
       {
         "tech": "productivity",
-        "count": 6,
-        "percent": 9,
+        "count": 7,
+        "percent": 11,
         "apps": [
+          "フリマ王コピー出品",
           "DuoFridge",
           "4910 | 패션이 쉬워지는 순간",
           "Sync: 계획과 실행 · 시간기록 플래너",
-          "Hark Pro",
-          "Log to LUT"
+          "Hark Pro"
         ]
       },
       {
         "tech": "subscription",
-        "count": 6,
-        "percent": 9,
+        "count": 5,
+        "percent": 8,
         "apps": [
+          "리드모어 - 독서 기록을 깔끔하게",
           "Auday - All-Day Watch Recorder",
           "Hark Pro",
           "PulseOSC: VRChat 실시간 심박수 표시",
-          "Log to LUT",
-          "スタンプ · 季節だより"
+          "Log to LUT"
+        ]
+      },
+      {
+        "tech": "health",
+        "count": 1,
+        "percent": 2,
+        "apps": [
+          "공군 PTSD 알람"
         ]
       }
     ],
@@ -781,11 +840,11 @@
       "count": 16,
       "percent": 25,
       "apps": [
+        "Unison Analyzer",
+        "피클: 나만의 AI 에이전트",
         "Chord Lab: Chord Synth",
         "murmur daily",
-        "CoinScope: AI Identifier",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
-        "AHEALTH: Get Healthy Get Paid"
+        "CoinScope: AI Identifier"
       ]
     },
     "emerging": [
@@ -794,29 +853,29 @@
         "count": 16,
         "percent": 25,
         "apps": [
+          "Unison Analyzer",
+          "피클: 나만의 AI 에이전트",
           "Chord Lab: Chord Synth",
           "murmur daily",
-          "CoinScope: AI Identifier",
-          "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
-          "AHEALTH: Get Healthy Get Paid"
+          "CoinScope: AI Identifier"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 14,
-        "percent": 22,
+        "count": 12,
+        "percent": 18,
         "apps": [
+          "CrownCards - Trading Cards",
           "Autoscripts Userscripts",
           "Duo Aquarium",
           "SharpStop Depth of Field Calc",
-          "CrimeRadar: Dispatch Alerts",
-          "4910 | 패션이 쉬워지는 순간"
+          "CrimeRadar: Dispatch Alerts"
         ]
       },
       {
         "tech": "creator",
-        "count": 12,
-        "percent": 18,
+        "count": 9,
+        "percent": 14,
         "apps": [
           "Velvet Film",
           "Rips by Triumph",
@@ -827,8 +886,8 @@
       },
       {
         "tech": "social",
-        "count": 8,
-        "percent": 12,
+        "count": 7,
+        "percent": 11,
         "apps": [
           "CoinScope: AI Identifier",
           "Rips by Triumph",
@@ -836,10 +895,50 @@
           "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
           "Bump (バンプ) - 友達とつながるマップ"
         ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 11,
+        "apps": [
+          "フリマ王コピー出品",
+          "DuoFridge",
+          "4910 | 패션이 쉬워지는 순간",
+          "Sync: 계획과 실행 · 시간기록 플래너",
+          "Hark Pro"
+        ]
       }
     ]
   },
   "opportunities": [
+    {
+      "type": "rising_category",
+      "title": "Education 카테고리 급부상",
+      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Education"
+    },
+    {
+      "type": "rising_category",
+      "title": "Collectibles 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Collectibles"
+    },
+    {
+      "type": "rising_category",
+      "title": "Sports 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Sports"
+    },
+    {
+      "type": "rising_category",
+      "title": "Rewards 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Rewards"
+    },
     {
       "type": "rising_category",
       "title": "Photo and Video 카테고리 급부상",
@@ -884,13 +983,6 @@
     },
     {
       "type": "rising_category",
-      "title": "News 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "News"
-    },
-    {
-      "type": "rising_category",
       "title": "Food and Dining 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -925,13 +1017,6 @@
       "category": "Live Commerce"
     },
     {
-      "type": "rising_category",
-      "title": "Finance 카테고리 급부상",
-      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Finance"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
       "description": "25%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
@@ -940,20 +1025,20 @@
     }
   ],
   "insight": {
-    "trend_summary": "Lifestyle 카테고리가 167% 급증하며 일상 밀착형 앱 수요가 폭발적으로 증가하고 있습니다. AI와 AR/VR 기술이 전체 앱의 47%에 통합되며 기술 융합이 가속화되고, 프리미엄(86%)과 구독(72%) 모델이 수익화의 주류로 자리잡고 있습니다.",
+    "trend_summary": "Education 카테고리가 200% 급성장하며 가장 뜨거운 기회로 부상했고, AI(25%)와 AR/VR(18%) 기술 통합이 앱 차별화의 핵심 수단으로 자리잡고 있습니다. '1인개발가능' 태그가 38회로 높은 관심을 받으며 인디 개발자 친화적 시장 환경이 형성되고 있습니다.",
     "trend_details": [
-      "Lifestyle 카테고리 167% 급상승 — 일상 루틴, 웰니스, 자기계발 앱에 대한 수요가 폭증하며 1인 개발자에게 가장 뜨거운 시장으로 부상",
-      "AI 기능 미통합 카테고리가 여전히 75% — Photo/Video, Reference, Weather 등 급부상 카테고리에 AI를 접목하면 즉각적인 차별화 가능",
-      "Weather & Emergency, Reference, AI+Entertainment 등 100% 성장했지만 앱 수가 극소수인 블루오션 카테고리 다수 포착"
+      "Education 카테고리 200% 급등 — 경쟁 앱 수가 적어 선점 진입 시 높은 가시성 확보 가능",
+      "AI 기능 탑재 앱이 전체의 25%로 증가하며, AI 미적용 카테고리에서 AI를 접목하면 즉각적인 차별화 효과 기대",
+      "Freemium 모델(83%)이 주류이며 구독(69%)과 조합한 하이브리드 수익 구조가 인디 앱의 표준으로 자리잡는 중"
     ],
     "hot_categories": [
-      "Lifestyle",
-      "Artificial Intelligence and Entertainment",
+      "Education",
       "Photo and Video",
-      "Weather and Emergency"
+      "Collectibles",
+      "Sports"
     ],
-    "opportunity": "Weather & Emergency, Reference, AI+Entertainment 카테고리는 100% 성장에도 경쟁 앱이 1개뿐이라 AI 기능을 접목한 첫 번째 완성도 높은 앱이 시장을 선점할 가능성이 높습니다.",
-    "action_item": "Lifestyle 또는 Reference 카테고리에서 AI 기능(요약, 개인화 추천)을 탑재한 프리미엄 모델 앱을 프로토타입으로 빠르게 출시해 선점 효과를 노리세요.",
-    "weekly_theme": "AI 융합 라이프스타일"
+    "opportunity": "AI 기능을 접목한 Education 앱은 경쟁이 희박한 블루오션으로, 1인 개발 가능한 범위에서 한국 시장을 타깃으로 빠르게 출시할 수 있는 최적의 기회 영역입니다.",
+    "action_item": "AI 튜터링 또는 학습 보조 기능을 탑재한 Freemium 교육 앱을 설계하고, '1인개발가능' + '한국시장' 태그로 타깃을 명확히 한 MVP를 2주 내 프로토타입으로 제작하세요.",
+    "weekly_theme": "AI 교육 선점"
   }
 }
