@@ -1,0 +1,704 @@
+{
+  "date": "2026-11-15",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "4c3f06083907417945acd86f",
+      "name": "언제했지 - 마지막으로 한 날",
+      "developer": "HyunWoo Lee",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/83/ce/4383ceca-9646-54d3-690a-9de0688f7128/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%96%B8%EC%A0%9C%ED%96%88%EC%A7%80-%EB%A7%88%EC%A7%80%EB%A7%89%EC%9C%BC%EB%A1%9C-%ED%95%9C-%EB%82%A0/id6801866888",
+      "idea_summary": "마지막으로 한 날짜만 추적하는 초간단 활동 로그",
+      "analysis": {
+        "problem": "약 복용, 청소, 운동 등 반복 활동의 마지막 수행 시점을 기억하지 못하는 일상적 문제 [확인]",
+        "solution": "버튼 하나로 활동 기록, 마지막 수행 이후 경과 시간을 직관적으로 표시 [추론]",
+        "target_user": "반복 가사, 건강 관리, 취미 활동을 추적하고 싶은 모든 연령대 성인 [추론]",
+        "unique_point": "날짜/시간 추적에만 집중한 단일 목적 앱으로 기능 과부하 없이 핵심 문제만 해결 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Last Time Tracker",
+          "Days Since",
+          "Streaks"
+        ],
+        "timing_reason": "미니멀 앱 트렌드와 단순함을 선호하는 사용자층 증가로 적절한 시점 [추론]",
+        "growth_potential": "틈새 시장이지만 충성도 높은 사용자 확보 가능, 위젯 지원으로 차별화 여지 있음 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 Pro 버전 구매 또는 소액 프리미엄 기능 잠금 해제 [추론]",
+        "pricing_suggestion": "기본 무료, Pro 버전 4,900원 일회성 구매로 위젯 등 고급 기능 제공 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "WidgetKit"
+        ],
+        "key_features": [
+          "활동 추가 및 타이머 기록",
+          "마지막 수행일 경과 시간 표시",
+          "홈 화면 위젯",
+          "알림 설정"
+        ],
+        "clone_tip": "초심플 UI가 핵심 경쟁력. WidgetKit 위젯과 iCloud 동기화만 잘 구현해도 충분히 차별화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 2,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#미니멀앱",
+        "#유틸리티"
+      ],
+      "verdict": "1~2주 내 MVP 출시 가능한 초심플 아이디어, 클론하기 가장 쉬운 앱",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "c9ec5c093c4fbf5b0d8a99fc",
+      "name": "Level:Routine",
+      "developer": "Mingoo Jung",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/df/f4/4ddff4cb-fccb-cac9-0933-67085e7246c9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/level-routine/id6831012638",
+      "idea_summary": "레벨 시스템으로 루틴·습관 관리를 게이미피케이션",
+      "analysis": {
+        "problem": "루틴과 습관을 꾸준히 유지하기 어렵고 기존 앱들은 복잡하거나 동기부여가 부족함 [추론]",
+        "solution": "레벨 기반 진행도 시스템으로 루틴, 습관, 반복 일정을 체계적으로 관리 [추론]",
+        "target_user": "생산성 향상을 원하는 20~40대 직장인 및 학생 [추론]",
+        "unique_point": "단순 체크리스트가 아닌 레벨업 시스템으로 루틴 완수에 지속적 동기를 부여 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Streaks",
+          "Habitica",
+          "Routinery",
+          "Habit - Daily Tracker"
+        ],
+        "timing_reason": "번아웃 시대에 체계적 자기관리 수요 급증, 게이미피케이션 트렌드 확산 중 [추론]",
+        "growth_potential": "생산성 앱 시장 꾸준히 성장 중이며 1인 개발자도 차별화된 UX로 경쟁 가능한 틈새 존재 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 Pro 버전 구매 [추론]",
+        "pricing_suggestion": "월 2,900~4,900원 구독 또는 9,900원 영구 구매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "300~800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "CloudKit",
+          "StoreKit"
+        ],
+        "key_features": [
+          "루틴 및 습관 생성 추적",
+          "레벨 및 경험치 시스템",
+          "알림 스케줄링",
+          "통계 및 진행도 시각화"
+        ],
+        "clone_tip": "핵심은 레벨 계산 알고리즘과 위젯 지원. SwiftUI로 빠르게 MVP 구현 가능하고 iCloud 동기화로 완성도 높일 것 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#게이미피케이션",
+        "#생산성"
+      ],
+      "verdict": "게이미피케이션 루틴 앱, 경쟁 치열하나 차별화된 레벨 UX로 틈새 공략 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "source_id": "49f3b0791a1d2e69b0c953cd",
+      "name": "Frame(프레임) - AI 셀카 & 포즈 카메라",
+      "developer": "JaeGwang Park",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/68/32/466832b1-7060-d95d-2e66-f9aca4631895/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/frame-%ED%94%84%EB%A0%88%EC%9E%84-ai-%EC%85%80%EC%B9%B4-%ED%8F%AC%EC%A6%88-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6749678065",
+      "idea_summary": "AI가 셀카 포즈와 프레임 구도를 실시간으로 제안",
+      "analysis": {
+        "problem": "혼자 셀카를 찍을 때 어떤 포즈와 구도를 취해야 할지 몰라 결과물 품질이 낮아지는 문제 [추론]",
+        "solution": "AI가 실시간으로 포즈 가이드, 프레이밍 아이디어, 창의적 인물 구도를 제안 [추론]",
+        "target_user": "SNS 활동이 활발한 15~30대 여성, 셀카 퀄리티를 높이고 싶은 사용자 [추론]",
+        "unique_point": "단순 필터나 보정이 아닌 촬영 전 AI 포즈 코칭으로 경쟁 카메라 앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BeautyPlus",
+          "Snow",
+          "YouCam Perfect",
+          "FaceApp"
+        ],
+        "timing_reason": "AI 카메라 기술 성숙과 SNS 콘텐츠 품질 경쟁 심화로 포즈 가이드 수요 증가 [추론]",
+        "growth_potential": "SNS 중심 세대의 셀카 문화와 AI 기술 결합으로 성장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "구독 기반 프리미엄 포즈 팩 및 고급 AI 기능 제공 [추론]",
+        "pricing_suggestion": "월 3,900~7,900원 구독, 무료 버전으로 기본 포즈 가이드 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "500~1,500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "ARKit",
+          "Vision Framework",
+          "Core ML",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "실시간 포즈 감지 및 가이드 오버레이",
+          "AI 구도 제안",
+          "셀프타이머 연동",
+          "포즈 라이브러리"
+        ],
+        "clone_tip": "Apple Vision Framework의 인체 포즈 감지 API 활용 시 AI 포즈 가이드 구현 난이도 크게 낮아짐 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#AI카메라",
+        "#B2C",
+        "#SNS",
+        "#셀카"
+      ],
+      "verdict": "AI 포즈 코칭 카메라, SNS 세대 타겟 명확하고 Apple API 활용으로 구현 현실적",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "d2c99d43b1bc9c9be2082595",
+      "name": "Clackity – Duo Flip Clock",
+      "developer": "Brian Lowen",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/35/d7/6235d7f2-534c-c58e-5120-47a7fa94d2e5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/clackity-duo-flip-clock/id6833613428",
+      "idea_summary": "두 iOS 기기가 동기화되어 하나의 플립 시계를 구성",
+      "analysis": {
+        "problem": "빈 iOS 기기를 데스크 인테리어로 활용하고 싶지만 단순 시계 앱은 매력이 없는 문제 [추론]",
+        "solution": "두 디바이스가 동기화되어 함께 하나의 플립 시계를 완성하는 독특한 인테리어 유틸리티 [추론]",
+        "target_user": "미니멀 데스크셋업을 즐기는 20~40대, 구형 iOS 기기를 활용하고 싶은 사용자 [추론]",
+        "unique_point": "두 개의 iOS 기기가 하나의 시계를 나눠 표시하는 세계 유일의 듀얼 디바이스 플립 시계 개념 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Fliqlo",
+          "Flip Clock",
+          "Clocks - Face and Widgets"
+        ],
+        "timing_reason": "홈오피스 및 데스크셋업 문화 성장으로 인테리어 유틸리티 앱 수요 증가 [추론]",
+        "growth_potential": "틈새 시장이지만 SNS 바이럴 가능성 높은 독창적 아이디어, 소규모 유료 수익 기대 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 판매 또는 인앱 테마 구매 [추론]",
+        "pricing_suggestion": "앱 자체 유료 판매 2,900~4,900원 또는 기본 무료+테마팩 구매 [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "150~400만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "MultipeerConnectivity",
+          "NearbyInteraction"
+        ],
+        "key_features": [
+          "플립 애니메이션 시계",
+          "듀얼 디바이스 실시간 동기화",
+          "디스플레이 커스터마이징",
+          "Always-On 화면 모드"
+        ],
+        "clone_tip": "MultipeerConnectivity 프레임워크로 두 기기 동기화 구현 가능, 플립 애니메이션 품질이 핵심 차별 요소 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 2,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 2,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#데스크셋업",
+        "#바이럴가능"
+      ],
+      "verdict": "독창성 최고, 시장 규모 작지만 SNS 바이럴로 초기 인지도 획득 가능한 개성 있는 앱",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "source_id": "8e434db6224b80fb6a9426b0",
+      "name": "유니플 Uniple: 둘이 직접 만드는 커플앱",
+      "developer": "UNIPLE Inc.",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/95/78/8b957896-e5dd-cd78-4f41-174112fce5df/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%9C%A0%EB%8B%88%ED%94%8C-uniple-%EB%91%98%EC%9D%B4-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%BB%A4%ED%94%8C%EC%95%B1/id6815487073",
+      "idea_summary": "커플이 직접 UI와 콘텐츠를 함께 만들어가는 프라이빗 앱",
+      "analysis": {
+        "problem": "기존 커플 앱은 개발사가 정해놓은 틀 안에서만 사용 가능해 개인화가 제한적 [추론]",
+        "solution": "커플이 앱 내 공간, 콘텐츠, 추억을 함께 직접 커스터마이징하며 만들어가는 프라이빗 플랫폼 [추론]",
+        "target_user": "장거리 연애 커플, 더 깊은 디지털 연결을 원하는 20~30대 연인 [추론]",
+        "unique_point": "커플이 앱 자체를 함께 커스터마이징한다는 메타 개념, 기존 커플 앱 대비 주체성 부여 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Between",
+          "Couple",
+          "LoveBird",
+          "Paired"
+        ],
+        "timing_reason": "장거리 연애 증가와 디지털 친밀감 도구에 대한 수요 지속 증가 [추론]",
+        "growth_potential": "커플 앱 시장은 충성도 높고 구독 전환율이 양호한 편, 한국 시장 집중 시 성과 기대 [추론]"
+      },
+      "business": {
+        "monetization": "커플 단위 월간 또는 연간 구독 [추론]",
+        "pricing_suggestion": "커플 당 월 4,900~9,900원 구독, 연간 결제 시 20% 할인 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "500~1,200만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Firebase Realtime DB",
+          "CloudKit",
+          "StoreKit"
+        ],
+        "key_features": [
+          "프라이빗 커플 공간 생성",
+          "공유 캘린더 및 추억 기록",
+          "실시간 메시지",
+          "앱 테마 커스터마이징"
+        ],
+        "clone_tip": "Firebase로 실시간 동기화 구현, 차별점은 커스터마이징 깊이에 있으므로 편집 기능 UX에 집중 투자 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.3
+      },
+      "tags": [
+        "#커플앱",
+        "#B2C",
+        "#구독모델",
+        "#라이프스타일"
+      ],
+      "verdict": "커플 커스터마이징 콘셉트로 차별화, Between 대체재로 한국 시장 공략 가능",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "dd4449fafbec5ade0bbc4550",
+      "name": "OG.com: Rip Cards,Trade Events",
+      "developer": "OG Markets Limited",
+      "category": "Sports Collectibles",
+      "icon": "https://play-lh.googleusercontent.com/s1K_ZyJJ4a2vhAEY05w7sZghvbU8k3ziFPlun16kPO7GdyZzOlsN_CG0vI2w8Xi6ji51cH64HZ1ZexSlnoRh8g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.og.app.android",
+      "idea_summary": "실시간 트레이딩 카드 리핑·이벤트·거래 통합 플랫폼",
+      "analysis": {
+        "problem": "트레이딩 카드 언박싱(리핑)을 혼자 하면 비용 부담과 커뮤니티 경험이 부재함 [추론]",
+        "solution": "라이브 카드 리핑 이벤트, 공동 구매, 거래를 하나의 플랫폼에 통합 제공 [추론]",
+        "target_user": "TCG 수집가, 포켓몬 및 스포츠 카드 팬, 15~35세 남성 위주 [추론]",
+        "unique_point": "리핑(언박싱) + 라이브 이벤트 참여 + 거래 마켓플레이스를 하나로 결합한 풀스택 TCG 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Whatnot",
+          "eBay",
+          "TCGPlayer",
+          "CardMarket"
+        ],
+        "timing_reason": "트레이딩 카드 시장의 폭발적 성장과 라이브 커머스 트렌드 결합으로 최적의 타이밍 [추론]",
+        "growth_potential": "글로벌 트레이딩 카드 시장 연간 10% 이상 성장 중이며 라이브 리핑 플랫폼 수요 지속 증가 [추론]"
+      },
+      "business": {
+        "monetization": "거래 수수료, 이벤트 참가비, 프리미엄 멤버십 [추론]",
+        "pricing_suggestion": "거래 수수료 5~10%, 프리미엄 멤버십 월 9,900원 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "2,000~5,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "WebRTC",
+          "Firebase",
+          "Stripe",
+          "AWS S3"
+        ],
+        "key_features": [
+          "라이브 스트리밍 리핑 방송",
+          "카드 거래 마켓플레이스",
+          "이벤트 참가 및 결제 시스템",
+          "배송 연동"
+        ],
+        "clone_tip": "WebRTC로 라이브 스트리밍 구현, 한국 TCG(예: 포켓몬 카드) 니치부터 시작해 커뮤니티 먼저 구축 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.3
+      },
+      "tags": [
+        "#라이브커머스",
+        "#B2C",
+        "#수집가",
+        "#TCG"
+      ],
+      "verdict": "TCG 라이브 리핑 플랫폼, 성장하는 카드 수집 시장 핵심 인프라 포지션 가능",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "4a86eeec955324a58612753f",
+      "name": "FlickReels - AI Story & Drama",
+      "developer": "FARSUNPTE.LTD.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/CmQ5EeRcDO_gIzXMTCcgdleypz8fJtQFX2q4rE5P_cmP5cTzV58rFoZy9m0VJueR9uME098gvcW3GBw6wFS-",
+      "app_url": "https://play.google.com/store/apps/details?id=com.zyhwplatform.shortplay",
+      "idea_summary": "AI 보조 단편 드라마 및 스토리 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "짧은 시간에 몰입할 수 있는 고품질 단편 드라마 콘텐츠 소비 니즈가 충족되지 않음 [추론]",
+        "solution": "AI 보조 스토리텔링 기반 단편 드라마 및 시리즈 콘텐츠를 플랫폼으로 제공 [추론]",
+        "target_user": "숏폼 콘텐츠를 즐기는 18~35세 엔터테인먼트 소비자 [추론]",
+        "unique_point": "AI를 활용한 콘텐츠 생성 및 보조로 대형 제작사 없이도 다양한 드라마 공급 가능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Reelshort",
+          "DramaBox",
+          "ShortMax",
+          "MoboReels"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 증가와 AI 콘텐츠 제작 기술 발전이 맞물린 최적 시점 [추론]",
+        "growth_potential": "숏폼 드라마 시장은 2024년 이후 급성장 중이며 글로벌 확장 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "코인 기반 에피소드 구매 또는 월정액 구독 [추론]",
+        "pricing_suggestion": "에피소드당 100~500코인, 코인팩 1,100~22,000원 범위로 판매 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "2,000~6,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "Claude API 또는 OpenAI API",
+          "CDN"
+        ],
+        "key_features": [
+          "숏폼 드라마 스트리밍 플레이어",
+          "AI 스토리 생성 파이프라인",
+          "에피소드 잠금 해제 결제",
+          "콘텐츠 큐레이션 피드"
+        ],
+        "clone_tip": "콘텐츠 수급이 최대 과제. 한국 또는 일본 웹소설을 AI로 드라마화하는 니치 버티컬로 차별화 추천 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8.1
+      },
+      "tags": [
+        "#숏폼드라마",
+        "#B2C",
+        "#AI콘텐츠",
+        "#엔터테인먼트"
+      ],
+      "verdict": "숏폼 드라마 시장 급성장 타이밍 포착, 콘텐츠 수급 전략이 성패 결정",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "source_id": "d46e312a4d6a6e5d478d6147",
+      "name": "퀸잇, 멋진 어른들의 라이프스타일링샵",
+      "developer": "라포랩스",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/O3NAbZ2Ye7Z8oPpcxqMuMDVVcMemyMv1sfyA3iEXGAkxl1YQkTq3HEY1X6J0sfJtbvI3JONal872Ig42L3Ej",
+      "app_url": "https://play.google.com/store/apps/details?id=kr.rapportlabs.damoa",
+      "idea_summary": "40~60대 스타일리시한 여성을 위한 큐레이션 패션 커머스",
+      "analysis": {
+        "problem": "40~60대 여성을 위한 세련된 패션 커머스 플랫폼이 부족하고 기존 플랫폼은 20대 위주로 설계됨 [추론]",
+        "solution": "중년 여성의 라이프스타일에 맞게 큐레이션된 의류 및 라이프스타일 상품 제공 [추론]",
+        "target_user": "패션에 관심 있고 구매력을 갖춘 40~65세 한국 여성 [추론]",
+        "unique_point": "언더서브드 시장(중년 여성 패션)을 명확히 타겟팅한 버티컬 커머스, 경쟁 플랫폼 없음 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "W컨셉",
+          "지그재그",
+          "에이블리",
+          "29CM"
+        ],
+        "timing_reason": "베이비부머 세대의 모바일 커머스 적응 가속화와 중년층 소비력 증가 트렌드 [추론]",
+        "growth_potential": "한국 40~60대 여성 소비자의 모바일 쇼핑 비중 지속 증가, 충성 고객 확보 용이한 세그먼트 [추론]"
+      },
+      "business": {
+        "monetization": "커머스 거래 수수료 및 입점 브랜드 광고 [추론]",
+        "pricing_suggestion": "거래 수수료 10~15%, 프리미엄 브랜드 프로모션 월정액 광고 병행 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1,500~4,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "결제 SDK",
+          "추천 알고리즘"
+        ],
+        "key_features": [
+          "큐레이션 상품 피드",
+          "사이즈 추천 시스템",
+          "리뷰 및 스타일링 콘텐츠",
+          "브랜드 입점 관리"
+        ],
+        "clone_tip": "중년 타겟 커머스의 핵심은 접근성 UX. 큰 글씨, 간편 결제 흐름, 직관적 사이즈 가이드에 집중 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 5,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#버티컬커머스",
+        "#B2C",
+        "#중년여성",
+        "#패션"
+      ],
+      "verdict": "언더서브드 중년 여성 패션 시장 선점, 충성 고객 기반으로 안정적 수익 창출 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "82b09e347af633246fc5dd01",
+      "name": "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
+      "developer": "BridgeWorks",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/zrfZundKRFG4VQau3Rv1_S69V7l0jo644I1klaM2DLeH7OTN7JM34P_qQlSe4rPnW6RiPUNDeVeIcxFso-76ZQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bridgeworks.cashmore",
+      "idea_summary": "영수증 스캔으로 캐시백 및 리워드를 제공하는 앱테크",
+      "analysis": {
+        "problem": "쇼핑 후 영수증은 버려지지만 그 소비 데이터에서 추가 혜택을 얻고 싶은 소비자 니즈 존재 [추론]",
+        "solution": "영수증 OCR 스캔으로 현금성 리워드를 지급하는 소비 데이터 기반 보상 플랫폼 [추론]",
+        "target_user": "앱테크(앱으로 소득 창출)에 관심 있는 20~40대 절약형 소비자 [추론]",
+        "unique_point": "플랫폼 중립적으로 모든 오프라인 구매 영수증에 적용 가능한 범용 캐시백 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "캐시슬라이드",
+          "Ibotta",
+          "Receipt Hog",
+          "Fetch Rewards"
+        ],
+        "timing_reason": "고물가 시대 소비자의 절약 니즈 급증과 OCR 기술 성숙으로 구현 비용 하락 [추론]",
+        "growth_potential": "앱테크 문화 확산으로 사용자 확보 용이, 광고주 데이터 판매로 B2B 수익원 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "리테일 파트너십 광고 수익, 익명화된 소비 데이터 분석 B2B 판매 [추론]",
+        "pricing_suggestion": "사용자에게 무료 제공, 수익은 광고주 및 데이터 파트너십으로 창출 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "800~2,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google ML Kit OCR",
+          "Firebase",
+          "결제 API",
+          "데이터 파이프라인"
+        ],
+        "key_features": [
+          "영수증 OCR 자동 파싱",
+          "리워드 적립 및 출금",
+          "파트너 광고 연동",
+          "소비 패턴 분석 대시보드"
+        ],
+        "clone_tip": "Google ML Kit OCR로 영수증 파싱 구현 가능, 초기 리워드 재원 확보와 파트너십이 비즈니스 핵심 과제 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#앱테크",
+        "#B2C",
+        "#OCR",
+        "#캐시백"
+      ],
+      "verdict": "고물가 절약 니즈 정확히 타겟팅, OCR 기술로 구현 가능하고 데이터 수익화까지 연결",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "9097798ecdb038c614972882",
+      "name": "GovAuctions.com - Shop Surplus",
+      "developer": "Auctions LLC",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/FytSQ9r0OswzT2yBnY0MuOi_oONSYfEo_5-zfCavWKVe7IZ3afxOIMF5Cm5FfZIlepSEssjfibN_PMRhAYV3",
+      "app_url": "https://play.google.com/store/apps/details?id=com.govauctions",
+      "idea_summary": "정부 잉여재산·압수물 경매를 모바일로 쉽게 접근",
+      "analysis": {
+        "problem": "정부 잉여재산 및 압수물 경매는 접근성이 낮고 일반인에게 거의 알려지지 않은 절약 구매 채널 [추론]",
+        "solution": "정부 경매 및 잉여 물자를 모바일 앱으로 쉽게 검색하고 입찰할 수 있는 플랫폼 제공 [추론]",
+        "target_user": "중고 및 희귀 물품 수집가, 가성비 구매를 선호하는 30~55세 소비자 [추론]",
+        "unique_point": "일반 경매와 달리 정부 공신력 있는 물품을 대폭 할인된 가격으로 구매 가능한 니치 채널 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "PropertyRoom",
+          "AuctionZip",
+          "GovPlanet",
+          "PublicSurplus"
+        ],
+        "timing_reason": "정부 디지털화 추진과 중고 거래 문화 확산으로 접근성 높아지는 시점 [추론]",
+        "growth_potential": "미국 외 각국 정부 잉여재산 플랫폼으로 확장 가능하나 각국 규제 대응 필요 [추측]"
+      },
+      "business": {
+        "monetization": "프리미엄 멤버십(경매 접근권 확장), 거래 수수료, 광고 [추론]",
+        "pricing_suggestion": "월 9.99달러 프리미엄 멤버십 또는 거래 수수료 5~8% 병행 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "1,000~3,000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Jetpack Compose",
+          "Firebase",
+          "정부 공공 API 연동",
+          "결제 SDK"
+        ],
+        "key_features": [
+          "경매 목록 검색 및 필터",
+          "실시간 입찰 시스템",
+          "낙찰 알림 설정",
+          "결제 및 배송 연동"
+        ],
+        "clone_tip": "한국은 공공데이터포털 API 활용으로 국유재산 경매 유사 서비스 구현 가능, 공공 데이터 연계가 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#니치커머스",
+        "#B2C",
+        "#경매",
+        "#공공데이터"
+      ],
+      "verdict": "정부 잉여재산 경매 모바일화, 한국 공공데이터포털 연계로 로컬 버전 클론 가능",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 기능의 카메라·콘텐츠 앱 통합이 가속화되며 촬영 과정 자체를 코칭하는 새로운 카테고리가 부상하고 있다. 특정 연령·라이프스타일을 타겟한 버티컬 커머스와 초심플 단일 기능 유틸리티 앱이 인디 개발자에게 현실적 기회를 제공한다.",
+    "trend_details": [
+      "AI 포즈 및 구도 가이드 등 촬영 과정에 AI를 직접 개입시키는 카메라 앱 카테고리 성장",
+      "40~60대 여성 등 기존 플랫폼이 외면한 연령층 타겟 버티컬 커머스 블루오션 확인",
+      "두 기기 동기화, 마지막 활동 추적 등 초심플 단일 기능 유틸리티의 틈새 성장 지속",
+      "트레이딩 카드 라이브 리핑 등 수집가 커뮤니티 기반 라이브 커머스 플랫폼 확산",
+      "AI 보조 숏폼 드라마 플랫폼의 글로벌 성장세 지속 및 아시아 콘텐츠 수요 증가"
+    ],
+    "hot_categories": [
+      "Photo & Video (AI Camera)",
+      "Shopping (Vertical Commerce)",
+      "Entertainment (Short Drama)",
+      "Productivity (Simple Utilities)"
+    ],
+    "opportunity": "언더서브드 연령·니치 타겟 버티컬 커머스와 AI 기반 콘텐츠 플랫폼이 최대 기회 영역. 한국은 공공데이터 API 활용 서비스와 중장년층 디지털 서비스 모두 성장 여지가 큼",
+    "action_item": "초심플 단일 기능 iOS 앱(예: 마지막 활동 추적)은 1~2주 내 MVP 출시 가능하므로 아이디어 검증 후 즉시 개발 착수 추천"
+  },
+  "data_status": {}
+}
