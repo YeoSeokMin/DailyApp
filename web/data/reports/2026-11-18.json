@@ -1,0 +1,692 @@
+{
+  "date": "2026-11-18",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+      "developer": "Nuncha",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/88/aa/8e88aa33-9be4-4eef-662f-4c4d7da246ad/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/shutterfinder-%EB%B9%9B-%EA%B9%9C%EB%B9%A1%EC%9E%84-%ED%94%8C%EB%A6%AC%EC%BB%A4-%EC%B8%A1%EC%A0%95%EA%B8%B0/id6760565737",
+      "source_id": "05884698bb3bfc235a2a1030",
+      "idea_summary": "촬영 환경의 광원 플리커를 실시간 측정",
+      "analysis": {
+        "problem": "LED·형광등 조명에서 발생하는 빛 깜빡임(플리커)이 영상·사진 품질을 저하시키는 문제 [추론]",
+        "solution": "스마트폰 카메라 센서를 활용해 조명 주파수 플리커를 실시간 측정하고 최적 셔터 스피드를 안내 [추론]",
+        "target_user": "영상 촬영 크리에이터, 사진작가, 방송·영화 현장 스태프 [추론]",
+        "unique_point": "일반 카메라 앱에 없는 플리커 측정 전용 도구로 iOS 기기 센서만으로 광원 주파수 분석 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Flicker Tester",
+          "LightMeter (노출 측정 앱)"
+        ],
+        "timing_reason": "유튜브·릴스·틱톡 등 영상 제작 인구 급증으로 조명 품질에 민감한 크리에이터 수요 증가 [추론]",
+        "growth_potential": "1인 미디어 시장 성장과 함께 전문 촬영 보조 도구 수요가 지속 증가할 것으로 예상 [추론]"
+      },
+      "business": {
+        "monetization": "유료 앱 판매 또는 프리미엄 기능 IAP [추론]",
+        "pricing_suggestion": "원타임 구매 $2.99~$4.99 또는 무료+프리미엄 측정 기능 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "200~500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "CoreImage",
+          "FFT 알고리즘"
+        ],
+        "key_features": [
+          "실시간 플리커 주파수 측정",
+          "최적 셔터 스피드 추천",
+          "측정 결과 기록 및 공유"
+        ],
+        "clone_tip": "AVFoundation의 카메라 프레임 데이터에 FFT(고속 푸리에 변환)를 적용해 플리커 주파수를 추출하는 것이 핵심 구현 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사진영상",
+        "#틈새시장"
+      ],
+      "verdict": "크리에이터 대상 초특화 도구, 니치 시장에서 충성 유저 확보 가능",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "Practice Farm: 연습곡, 어떤 조로든",
+      "developer": "Nicholas Mahon",
+      "category": "Music",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/96/84/889684d0-a0cd-ca13-b0c9-4063d6454a7f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/practice-farm-%EC%97%B0%EC%8A%B5%EA%B3%A1-%EC%96%B4%EB%96%A4-%EC%A1%B0%EB%A1%9C%EB%93%A0/id6806470752",
+      "source_id": "acc8a4e733cb0b136c7982bf",
+      "idea_summary": "원하는 키로 악곡을 조옮김해 연습",
+      "analysis": {
+        "problem": "악기 연주자가 특정 조(key)로 연습하려 할 때 원곡 악보를 직접 조옮김해야 하는 불편함 [추론]",
+        "solution": "원하는 키를 선택하면 악곡을 자동으로 트랜스포즈하여 반주와 함께 연습할 수 있도록 지원 [추론]",
+        "target_user": "기타·피아노 등 악기 학습자, 음악 교사, 세션 뮤지션 [추론]",
+        "unique_point": "단순 악보 뷰어가 아닌 임의 키 조옮김 연습에 특화된 인터랙티브 연습 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Ultimate Guitar (악보 앱)",
+          "Yousician (악기 학습)",
+          "GarageBand (DAW)"
+        ],
+        "timing_reason": "팬데믹 이후 홈 음악 학습 수요 지속, 취미 악기 인구 증가 추세 [추론]",
+        "growth_potential": "글로벌 음악 교육 시장은 꾸준히 성장 중이며 개인 맞춤형 연습 도구 수요 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "월정액 구독 또는 곡당 IAP [추론]",
+        "pricing_suggestion": "무료 기본 + 월 $2.99~$4.99 구독 또는 곡 팩 판매 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~700만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AudioKit",
+          "AVFoundation",
+          "MusicXML"
+        ],
+        "key_features": [
+          "키 선택 및 자동 트랜스포즈",
+          "반주 재생 기능",
+          "악보 표시",
+          "BPM 조절"
+        ],
+        "clone_tip": "AudioKit 프레임워크로 오디오 피치 쉬프팅 구현, MusicXML 파싱으로 악보 렌더링이 핵심. 곡 라이선스는 퍼블릭 도메인 악곡으로 시작 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#음악교육",
+        "#글로벌"
+      ],
+      "verdict": "음악 학습자 대상 명확한 니즈 해결, 구독 모델로 안정적 수익 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "링크룸 - 아바타 방 꾸미기",
+      "developer": "NEURAL ARCADE",
+      "category": "Social Networking",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/84/e5/8984e5db-81ea-4e57-a70c-fcf24a6a43dd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%A7%81%ED%81%AC%EB%A3%B8-%EC%95%84%EB%B0%94%ED%83%80-%EB%B0%A9-%EA%BE%B8%EB%AF%B8%EA%B8%B0/id6793755215",
+      "source_id": "f087765a551fa717e438508b",
+      "idea_summary": "아바타 방 꾸미기로 개성 표현하는 소셜 앱",
+      "analysis": {
+        "problem": "기존 SNS가 텍스트·사진 중심으로 자신을 개성 있게 표현하기 어려운 한계 [추론]",
+        "solution": "가상 방을 꾸미는 아바타 기반 소셜 플랫폼으로 개인 공간 표현과 소통을 결합 [추론]",
+        "target_user": "10~25세 MZ세대, 아이덴티티 표현에 관심 있는 모바일 소셜 유저 [추론]",
+        "unique_point": "방 인테리어 커스터마이징과 소셜 방문을 결합한 오프라인 감성의 디지털 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Zepeto (아바타 소셜)",
+          "Animal Crossing Pocket Camp (캐릭터 꾸미기)",
+          "Habbo Hotel (가상 방 소셜)"
+        ],
+        "timing_reason": "메타버스 열풍 이후 경량화된 아바타 소셜 앱 수요 재점화, 2D 소셜 앱의 레트로 감성 유행 [추론]",
+        "growth_potential": "MZ세대의 자기표현 욕구와 가상 공간 소비 트렌드가 지속되면 중장기 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "아이템·가구 IAP, 프리미엄 아바타 아이템 판매 [추론]",
+        "pricing_suggestion": "무료 기본 + 아이템 $0.99~$9.99 IAP, 월정액 $4.99 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "500~1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Unity 2D",
+          "Firebase",
+          "Node.js",
+          "WebSocket"
+        ],
+        "key_features": [
+          "아바타 커스터마이징",
+          "방 인테리어 편집",
+          "다른 유저 방 방문",
+          "채팅·소통 기능"
+        ],
+        "clone_tip": "Unity 2D로 방 꾸미기 렌더링, Firebase Realtime DB로 소셜 기능 구현이 현실적 접근법. 콜드스타트 해결을 위해 초기 커뮤니티 운영 전략 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#소셜",
+        "#B2C",
+        "#아이템과금",
+        "#MZ세대"
+      ],
+      "verdict": "아이템 과금으로 수익 가능성 높으나 소셜 앱의 콜드스타트 문제 극복이 관건",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "FitToCal - 운동 캘린더 동기화",
+      "developer": "Jungwoon Park",
+      "category": "Health & Fitness",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/72/5b/af725b90-7560-b46c-7b61-e23ef23274f5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/fittocal-%EC%9A%B4%EB%8F%99-%EC%BA%98%EB%A6%B0%EB%8D%94-%EB%8F%99%EA%B8%B0%ED%99%94/id6757972468",
+      "source_id": "431243859662543d8d46064e",
+      "idea_summary": "운동 일정을 iOS 캘린더에 자동 동기화",
+      "analysis": {
+        "problem": "운동 기록이 피트니스 앱과 캘린더 앱에 분산되어 일정 통합 관리가 어려운 문제 [추론]",
+        "solution": "운동 스케줄을 iOS 캘린더와 양방향 동기화하여 하나의 뷰에서 헬스와 일정을 통합 관리 [추론]",
+        "target_user": "규칙적인 운동 습관을 만들려는 직장인, 캘린더 중심으로 일정을 관리하는 사용자 [추론]",
+        "unique_point": "운동 앱과 캘린더 앱 사이의 데이터 사일로 문제를 해결하는 브릿지 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Strong (운동 기록)",
+          "Nike Training Club",
+          "Apple Fitness+"
+        ],
+        "timing_reason": "건강 관리와 생산성 앱의 융합 트렌드, Apple Health 생태계 확장 [추론]",
+        "growth_potential": "iOS 헬스케어 생태계와의 연동으로 Apple Watch 사용자 확대와 함께 성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 구매 또는 월정액 구독 [추론]",
+        "pricing_suggestion": "무료 기본(제한된 동기화) + 프리미엄 $1.99~$3.99/월 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "150~400만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "EventKit",
+          "HealthKit",
+          "CoreData"
+        ],
+        "key_features": [
+          "운동 일정 생성",
+          "iOS 캘린더 동기화",
+          "Apple Health 연동",
+          "운동 통계 뷰"
+        ],
+        "clone_tip": "EventKit으로 캘린더 연동, HealthKit으로 운동 데이터 읽기·쓰기 구현이 핵심. 1인 개발자도 2개월 내 MVP 출시 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#iOS생태계"
+      ],
+      "verdict": "iOS 생태계 내 명확한 갭 해결, 1인 개발자가 단기간에 출시할 수 있는 현실적인 아이디어",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "화참기",
+      "developer": "Dasom An",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/60/95/1f609518-076a-c679-1c2e-4c1409f4ac30/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%99%94%EC%B0%B8%EA%B8%B0/id6834194650",
+      "source_id": "c828f48f8c181e6c7fb6fa39",
+      "idea_summary": "순간 분노를 참도록 돕는 감정 조절 앱",
+      "analysis": {
+        "problem": "일상에서 순간적인 분노를 조절하지 못해 충동적인 행동이나 갈등이 발생하는 문제 [추론]",
+        "solution": "분노 감지 시 호흡·카운트다운·인지 재구성 등 즉각적인 감정 조절 기법을 단계적으로 안내 [추론]",
+        "target_user": "감정 기복이 심한 직장인·학생, 분노 조절에 어려움을 겪는 성인 [추론]",
+        "unique_point": "명상·마음챙김 앱과 달리 '분노'라는 특정 감정에 집중한 순간 대응 도구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Calm (명상)",
+          "Headspace (명상)",
+          "Bearable (감정 트래킹)"
+        ],
+        "timing_reason": "번아웃·정신 건강 이슈에 대한 사회적 관심 증가, 멘탈 웰니스 앱 시장 급성장 [추론]",
+        "growth_potential": "정신 건강 앱 시장이 성장 중이며 감정 특화 앱의 니치 포지셔닝으로 충성 유저 확보 가능 [추측]"
+      },
+      "business": {
+        "monetization": "무료 기본 + 프리미엄 콘텐츠 구독 [추론]",
+        "pricing_suggestion": "무료 앱 + 월 $1.99~$3.99 구독(고급 감정 조절 프로그램) [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~2개월 [추론]",
+        "estimated_cost": "100~300만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "CoreHaptics",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "분노 단계 선택",
+          "호흡 가이드 애니메이션",
+          "카운트다운 타이머",
+          "분노 일지 기록"
+        ],
+        "clone_tip": "SwiftUI 애니메이션과 CoreHaptics 진동 피드백으로 감정 조절 경험 구현, 개발 난이도 낮아 1인 개발 최적 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#멘탈웰니스",
+        "#한국인디"
+      ],
+      "verdict": "멘탈 웰니스 붐에 올라탄 감정 특화 앱, 1인 개발 최적의 낮은 기술 난이도",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "CrimeRadar by TownTalk",
+      "developer": "TownTalk Labs LLC",
+      "category": "News",
+      "icon": "https://play-lh.googleusercontent.com/3b7_a7m50wFj68Afd6q0bhq2HPTWQlgeViv9B9tEbhChS3h4nVTo-HotZF4OmShKwT2_zhNAr3alwYRWBjiC_g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "source_id": "df5662bec0fbbf1fc3dda789",
+      "idea_summary": "지역 범죄 정보를 지도 위에 실시간 시각화",
+      "analysis": {
+        "problem": "내가 사는 동네 또는 이동 경로의 범죄 발생 현황을 쉽게 파악하기 어려운 문제 [추론]",
+        "solution": "공개된 범죄 데이터를 수집해 지도 위에 시각화하고 위험 지역 알림을 제공 [추론]",
+        "target_user": "치안에 민감한 부모·여성·노인, 새로운 동네로 이사 예정인 사람, 미국 거주자 [추론]",
+        "unique_point": "범죄 유형별 필터링과 근처 위험 경보를 결합한 하이퍼로컬 안전 정보 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen (안전 알림)",
+          "Nextdoor (이웃 소셜)",
+          "SpotCrime (범죄 지도)"
+        ],
+        "timing_reason": "미국 도시 범죄 증가에 대한 시민 불안 고조, 하이퍼로컬 정보 앱 수요 증가 [추론]",
+        "growth_potential": "공공 범죄 데이터 개방 추세에 따라 미국 외 국가로 글로벌 확장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "광고 수익 또는 프리미엄 구독(상세 알림 기능) [추론]",
+        "pricing_suggestion": "무료 기본(광고) + 프리미엄 월 $2.99~$4.99(알림 반경 확장, 상세 리포트) [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "400~900만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google Maps SDK",
+          "Firebase",
+          "공공 범죄 데이터 API"
+        ],
+        "key_features": [
+          "범죄 발생 지도 시각화",
+          "유형별 필터",
+          "근처 범죄 알림",
+          "안전 경로 안내"
+        ],
+        "clone_tip": "미국 경찰청 공공 API(Crime Data Explorer 등)로 데이터 수집. 한국은 범죄 공개 데이터 접근이 제한적이므로 미국 타겟으로 접근 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#B2C",
+        "#하이퍼로컬",
+        "#안전",
+        "#미국시장"
+      ],
+      "verdict": "치안 불안 사회적 수요가 명확하며 공공 데이터 기반으로 비용 효율적 개발 가능",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+      "developer": "Scatter Lab, Inc.",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/7BHCCDafgblr3UBNNx-ELJ_Ni1mA_iesxlPnyAQXXR1AeHtjwgNLmSRqWXlJg7EhKuE5__EvkoRmycKTQ3X_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger",
+      "source_id": "b1785cfa5e794f4ad880e178",
+      "idea_summary": "AI 캐릭터와 대화·스토리·롤플레이 경험",
+      "analysis": {
+        "problem": "현실 인간 관계에서 충족되지 않는 감성적 대화, 판타지 스토리 체험 욕구 [추론]",
+        "solution": "다양한 AI 캐릭터와 자연어로 대화하고 사용자 주도 스토리를 만들어가는 인터랙티브 엔터테인먼트 [추론]",
+        "target_user": "AI 동반자 앱에 관심 있는 10~30대, 창작 스토리텔링을 즐기는 사용자 [추론]",
+        "unique_point": "Scatter Lab의 한국어 감성 AI 기술력을 기반으로 한국 정서에 맞는 AI 대화 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI (AI 캐릭터)",
+          "Replika (AI 동반자)",
+          "Janitor AI"
+        ],
+        "timing_reason": "LLM 기술 발전으로 자연스러운 AI 대화 가능, AI 동반자 앱 카테고리 급성장 [확인]",
+        "growth_potential": "AI 엔터테인먼트 시장은 LLM 발전과 함께 고성장 중이며 한국·아시아 감성 특화로 차별화 가능 [추론]"
+      },
+      "business": {
+        "monetization": "구독 또는 채팅 토큰 IAP [추론]",
+        "pricing_suggestion": "무료 제한 대화 + 월 $4.99~$9.99 구독(무제한 대화, 프리미엄 캐릭터) [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "700~2000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "OpenAI API 또는 자체 LLM",
+          "Firebase",
+          "WebSocket",
+          "Retrofit"
+        ],
+        "key_features": [
+          "AI 캐릭터 선택",
+          "자연어 대화",
+          "스토리 모드",
+          "감정 반응 UI"
+        ],
+        "clone_tip": "OpenAI API 또는 Claude API로 캐릭터 페르소나 설정이 핵심. 감성적 UI·UX와 세계관 구축에 집중 투자 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#B2C",
+        "#AI",
+        "#엔터테인먼트",
+        "#구독모델",
+        "#한국"
+      ],
+      "verdict": "AI 동반자 앱 급성장 카테고리에서 한국 감성 특화로 차별화, 높은 수익성 기대",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+      "developer": "Yessi · WellBit",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/r6-pagXw5c_HA4sYn8QofaAIW5t7qmw_6VlDhDTV-LQcCCtjZxYKCiwkEPzmJpKx8m7Yye7oos9MOf1l6hssbw",
+      "app_url": "https://play.google.com/store/apps/details?id=net.fidgetpop.malang",
+      "source_id": "f7ceba0943d54b5523ff64b0",
+      "idea_summary": "잠금화면을 도파민 유발 캐릭터·키캡으로 꾸미기",
+      "analysis": {
+        "problem": "스마트폰 잠금화면이 단조롭고 개성 표현의 공간으로 활용되지 못하는 문제 [추론]",
+        "solution": "귀여운 캐릭터와 커스텀 키캡으로 잠금화면을 꾸미고 인터랙티브한 도파민 콘텐츠 제공 [추론]",
+        "target_user": "캐릭터 IP에 관심 있는 10~20대 여성, 스마트폰 커스터마이징을 즐기는 사용자 [추론]",
+        "unique_point": "잠금화면 꾸미기와 캐릭터 IP를 결합해 단순 테마 앱을 넘어 인터랙티브 도파민 콘텐츠 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Zedge (벨소리·테마)",
+          "KLWP (커스텀 위젯)",
+          "Locket Widget (잠금화면 위젯)"
+        ],
+        "timing_reason": "K-캐릭터 IP 인기 상승, 스마트폰 개성 표현 트렌드, Android 잠금화면 커스터마이징 허용 확대 [추론]",
+        "growth_potential": "캐릭터 IP 라이선스 확장과 글로벌 K-팝·K-컬처 팬덤 타겟으로 성장 가능 [추측]"
+      },
+      "business": {
+        "monetization": "캐릭터 테마 팩 IAP, 프리미엄 구독 [추론]",
+        "pricing_suggestion": "무료 기본 테마 + 캐릭터 팩 $0.99~$3.99 IAP 또는 월 $1.99 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~700만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Launcher API",
+          "Lottie 애니메이션",
+          "Firebase"
+        ],
+        "key_features": [
+          "잠금화면 위젯 커스터마이징",
+          "캐릭터 테마 적용",
+          "인터랙티브 애니메이션",
+          "키보드 키캡 변경"
+        ],
+        "clone_tip": "Android 잠금화면 커스터마이징은 시스템 권한이 필요하므로 Accessibility Service 활용 방법 선행 연구 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#B2C",
+        "#캐릭터IP",
+        "#커스터마이징",
+        "#한국"
+      ],
+      "verdict": "캐릭터 IP와 잠금화면 꾸미기 결합, 10대 여성 타겟 충성 유저 확보 가능",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "DramaBox - 미니시리즈 스트리밍 플레이어",
+      "developer": "STORYMATRIX",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/GGi0g65ySR86svFuxny2J2FgfkTZuFlJcftmeAZ_bZ7sM86XfwUNL1h9omSyoRKha1c1-_BoFkUbyJz2VSXI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.storymatrix.drama",
+      "source_id": "1736cf85524c1f3189519b71",
+      "idea_summary": "모바일 최적화 세로형 단편 드라마 스트리밍",
+      "analysis": {
+        "problem": "긴 드라마 시리즈를 볼 시간이 없는 현대인의 짧은 여가 시간 충족 필요 [추론]",
+        "solution": "1~3분 분량의 세로형 단편 드라마 에피소드를 연속 스트리밍하는 모바일 퍼스트 플랫폼 [추론]",
+        "target_user": "통근·이동 중 짧은 콘텐츠를 소비하는 20~40대, 로맨스·판타지 장르 선호 여성 [추론]",
+        "unique_point": "틱톡 형식을 드라마 스토리텔링에 적용한 세로형 숏폼 드라마 전용 플랫폼 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ReelShort (숏폼 드라마)",
+          "DramaWave (한일 드라마)",
+          "NetShort"
+        ],
+        "timing_reason": "숏폼 콘텐츠 소비 트렌드가 드라마 장르로 확장, 중국발 숏폼 드라마 글로벌 성공 사례 증가 [추론]",
+        "growth_potential": "숏폼 드라마 시장 급성장 중이며 콘텐츠 현지화로 각국 시장 공략 가능 [추론]"
+      },
+      "business": {
+        "monetization": "에피소드당 토큰 구매 IAP, 월정액 구독 [추론]",
+        "pricing_suggestion": "무료 1~2화 + 에피소드 토큰 패키지 $0.99~$9.99 또는 월 $6.99~$9.99 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "500~1500만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "Stripe 결제 SDK",
+          "CDN"
+        ],
+        "key_features": [
+          "세로형 비디오 플레이어",
+          "에피소드 연속 재생",
+          "토큰 구매 시스템",
+          "장르별 콘텐츠 탐색"
+        ],
+        "clone_tip": "콘텐츠 수급이 최대 허들. 직접 제작 대신 웹소설 플랫폼과 제휴하거나 중국 숏폼 드라마 번역 라이선스 계약 모델 검토 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#숏폼드라마",
+        "#엔터테인먼트",
+        "#IAP"
+      ],
+      "verdict": "숏폼 드라마 시장 고성장 타이밍, 콘텐츠 수급 전략이 핵심 성패 요인",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "DealSeek: Coupons & Discounts",
+      "developer": "DealSeek LLC",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/-BloZ64DbcUpLcfM6c9mHB_WvgynNPrT0Oe2Mbh6h82K5YermHsnB_CL0H4lNDTNXpz_shjM9XzrYgT1TRij",
+      "app_url": "https://play.google.com/store/apps/details?id=com.dealseekorg.dealseek",
+      "source_id": "f8b2b904fd6df32a5aed3827",
+      "idea_summary": "쇼핑 중 최적 쿠폰·할인 코드 자동 발굴",
+      "analysis": {
+        "problem": "온라인 쇼핑 시 흩어져 있는 쿠폰·프로모션 코드를 직접 찾아야 하는 번거로움 [추론]",
+        "solution": "쇼핑 중 자동으로 작동하는 쿠폰 집계 엔진으로 최적 할인 코드를 탐색·적용 [추론]",
+        "target_user": "온라인 쇼핑을 자주 하는 절약 추구 소비자, 가격 비교에 적극적인 20~40대 [추론]",
+        "unique_point": "별도 검색 없이 쇼핑 플로우 내에서 자동으로 쿠폰을 찾아 적용하는 패시브 절약 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey (쿠폰 자동화, PayPal 인수)",
+          "Rakuten (캐시백)",
+          "Capital One Shopping"
+        ],
+        "timing_reason": "고물가·경기 불안으로 절약 소비 트렌드 강화, 커머스 앱 쿠폰 자동화 수요 증가 [추론]",
+        "growth_potential": "제휴 커미션 모델로 GMV 연동 수익 창출, 사용자 쇼핑 데이터로 타겟팅 광고 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 마케팅 커미션, 프리미엄 쿠폰 알림 구독 [추론]",
+        "pricing_suggestion": "무료 앱 + 쇼핑몰 제휴 커미션(CPS) 모델, 프리미엄 월 $1.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "400~1000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Accessibility Service",
+          "쿠폰 집계 API",
+          "Firebase",
+          "Retrofit"
+        ],
+        "key_features": [
+          "자동 쿠폰 감지·적용",
+          "쿠폰 코드 데이터베이스",
+          "쇼핑몰별 할인율 비교",
+          "알림 기능"
+        ],
+        "clone_tip": "쿠폰 데이터는 제휴 네트워크(CJ Affiliate, Impact 등) API로 수집. Android Accessibility Service로 쇼핑 앱 내 자동 쿠폰 적용 구현 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#B2C",
+        "#쇼핑",
+        "#절약",
+        "#제휴수익"
+      ],
+      "verdict": "고물가 시대 절약 욕구 직격, 제휴 커미션 모델로 무료 앱 수익화 가능",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정된 앱들은 AI 기반 엔터테인먼트·감정 특화 웰니스·초특화 도구라는 세 갈래 흐름으로 수렴한다. 인디 개발자에게는 대형 플랫폼이 채우지 못한 니치 영역—플리커 측정, 분노 조절, 범죄 지도—에서 충성 유저를 먼저 확보하는 전략이 유효하다.",
+    "trend_details": [
+      "AI 동반자·캐릭터 대화 앱(zeta) 카테고리가 LLM 발전과 함께 고성장 중이며 감성·언어 특화로 차별화 가능 [추론]",
+      "숏폼 드라마(DramaBox) 시장이 중국발 콘텐츠 모델을 기반으로 글로벌로 빠르게 확산 중 [추론]",
+      "초특화 측정·도구 앱(ShutterFinder, FitToCal)이 대형 앱의 빈틈을 파고드는 인디 개발 패턴으로 증가 [추론]",
+      "정신 건강·감정 조절 특화 앱(Hold Your Anger)이 명상 앱에서 더 세분화된 감정별 도구로 진화 중 [추론]",
+      "지역 기반 안전 정보(CrimeRadar) 앱이 하이퍼로컬 공공 데이터 활용으로 차별화된 위치 서비스 구현 [추론]"
+    ],
+    "hot_categories": [
+      "AI 엔터테인먼트",
+      "숏폼 드라마",
+      "멘탈 웰니스",
+      "초특화 도구",
+      "하이퍼로컬"
+    ],
+    "opportunity": "AI 캐릭터 대화 앱과 감정 특화 웰니스 앱의 교차 지점—사용자의 특정 감정 상태(분노, 불안)에 반응하는 AI 동반자—이 아직 개척되지 않은 블루오션으로 판단됨 [추측]",
+    "action_item": "오늘 당장 ShutterFinder 또는 FitToCal 유형의 초특화 iOS 도구 앱을 1개 선정해 2주 내 프로토타입 목표로 기술 스택(AVFoundation / EventKit) 학습 시작"
+  },
+  "data_status": {}
+}
