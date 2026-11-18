@@ -1,0 +1,704 @@
+{
+  "date": "2026-11-19",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "셀리 - 프롬프터 카메라",
+      "source_id": "412cfe11c99483ece062e520",
+      "developer": "Jaewon Song",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/2f/74/b12f74eb-8418-6ca2-c783-2438415c9e5c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%85%80%EB%A6%AC-%ED%94%84%EB%A1%AC%ED%94%84%ED%84%B0-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6833761065",
+      "idea_summary": "촬영과 대본 읽기를 하나의 카메라 앱으로 해결",
+      "analysis": {
+        "problem": "영상 크리에이터가 촬영 중 스크립트를 읽느라 카메라 렌즈와 눈을 맞추지 못하는 문제 [추론]",
+        "solution": "카메라 뷰파인더 위에 프롬프터를 오버레이해 눈맞춤을 유지하며 촬영 가능하게 함 [추론]",
+        "target_user": "유튜버, 틱톡커, 비즈니스 영상 제작자, 온라인 강사 등 1인 콘텐츠 크리에이터 [추론]",
+        "unique_point": "별도 하드웨어 프롬프터 없이 스마트폰 하나로 촬영과 스크립트 읽기를 동시 해결 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Teleprompter Premium",
+          "BigVU",
+          "iCue Teleprompter",
+          "Speeko"
+        ],
+        "timing_reason": "1인 크리에이터 경제 급성장과 숏폼 영상 콘텐츠 붐이 맞물린 최적 시점 [추론]",
+        "growth_potential": "글로벌 크리에이터 시장 확대로 지속 성장 가능하며 다국어 스크립트 지원으로 글로벌화 용이 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 모델(기본 무료, 고급 기능 구독) [추론]",
+        "pricing_suggestion": "월 4.99달러 또는 연 29.99달러 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "1~3개월 [추론]",
+        "estimated_cost": "500~1500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Core Text",
+          "UIKit"
+        ],
+        "key_features": [
+          "프롬프터 오버레이 카메라",
+          "스크립트 스크롤 속도 조절",
+          "텍스트 미러링",
+          "영상 저장"
+        ],
+        "clone_tip": "AVFoundation 카메라 레이어 위에 스크롤 텍스트 뷰를 오버레이하는 것이 핵심; 텍스트 반전과 속도 조절 UX에 집중하면 1인 개발로 충분히 완성 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#크리에이터툴",
+        "#구독모델"
+      ],
+      "verdict": "크리에이터 붐 타이밍 최적, 단순하지만 실용적인 1인 개발 적합 앱",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "What Plane?",
+      "source_id": "6caad0f57c5761bc29f16b51",
+      "developer": "David Wilkinson",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/d4/03/dfd403a3-6ebb-1c38-fa0f-ba2dde387891/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/what-plane/id6759160117",
+      "idea_summary": "GPS로 머리 위 비행기를 실시간 식별하는 유틸리티",
+      "analysis": {
+        "problem": "항공 팬 또는 호기심 있는 사용자가 머리 위를 지나는 비행기를 즉시 식별할 방법이 없는 문제 [추론]",
+        "solution": "기기 GPS 위치와 오픈 비행 데이터 API를 결합해 근처 항공기 정보를 실시간 표시 [추론]",
+        "target_user": "항공 애호가, 공항 근처 거주자, 하늘 관찰을 즐기는 호기심 많은 사용자 [추론]",
+        "unique_point": "별도 카메라 AR 없이 위치 기반으로 머리 위 비행기를 즉시 식별하는 간결한 UX [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Flightradar24",
+          "Plane Finder",
+          "FlightAware",
+          "Adsb.fi"
+        ],
+        "timing_reason": "여행 수요 완전 회복 이후 항공 관심 증가, 간결한 단일 기능 유틸리티 앱 수요 [추론]",
+        "growth_potential": "항공 애호가 커뮤니티 타겟으로 니치 충성 사용자층 형성 가능 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 광고 제거 인앱결제 [추론]",
+        "pricing_suggestion": "일회성 결제 2.99달러 또는 광고 제거 인앱결제 1.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "1000~2500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "CoreLocation",
+          "MapKit",
+          "OpenSky Network API",
+          "URLSession"
+        ],
+        "key_features": [
+          "GPS 기반 근처 항공기 목록",
+          "항공기 기종 및 항공사 상세 정보",
+          "실시간 위치 추적",
+          "고도·속도 데이터"
+        ],
+        "clone_tip": "OpenSky Network 무료 API로 항공기 데이터 수집 가능; 복잡한 AR 없이 목록 UI만으로도 충분히 출시 가능하며 기술 진입 장벽 낮음 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#항공취미",
+        "#유틸리티"
+      ],
+      "verdict": "니치 시장이지만 충성 유저 확보에 유리한 항공 식별 앱, 개발 난이도 낮음",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "name": "Offline Survival Kit",
+      "source_id": "b7502530c0cf9dd576f3eded",
+      "developer": "Daan Koeman",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/dd/f7/6bddf704-0199-7e0d-effe-7e35ad17cd1b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/offline-survival-kit/id6761713992",
+      "idea_summary": "인터넷 없이 쓰는 완전 오프라인 종합 생존 가이드",
+      "analysis": {
+        "problem": "재난·탐험·오지 여행 상황에서 인터넷이 없을 때 생존 정보에 접근하지 못하는 문제 [추론]",
+        "solution": "생존 가이드, 응급처치 체크리스트, 위기 대응 정보를 완전 오프라인으로 번들해 제공 [추론]",
+        "target_user": "야외 활동가, 재난 대비 관심층(프리퍼), 오지 여행자, 비상 대비 의식 있는 일반 사용자 [추론]",
+        "unique_point": "인터넷 연결 없이 완전히 작동하는 종합 생존 정보 데이터베이스 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "SAS Survival Guide",
+          "Army Survival Manual",
+          "iSurvive",
+          "Survival Guide Offline"
+        ],
+        "timing_reason": "기후변화 불안, 지정학적 불안정, 재난 대비 의식 증가로 최적 타이밍 [추론]",
+        "growth_potential": "글로벌 재난 대비 시장 지속 확대와 함께 꾸준한 성장 예상 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 앱 또는 콘텐츠 팩 추가 인앱결제 [추론]",
+        "pricing_suggestion": "일회성 결제 4.99달러, 지역별·주제별 콘텐츠 팩 1.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "800~2000 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SwiftUI",
+          "Core Data",
+          "SQLite"
+        ],
+        "key_features": [
+          "오프라인 생존 가이드",
+          "응급처치 체크리스트",
+          "식물·동물 식별 가이드",
+          "날씨별 대처법"
+        ],
+        "clone_tip": "콘텐츠 큐레이션이 핵심 경쟁력; Core Data에 미리 번들된 콘텐츠 저장으로 오프라인 완전 지원 가능하며 기술 난이도가 낮아 1인 개발 최적 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 5,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#오프라인앱",
+        "#재난대비"
+      ],
+      "verdict": "콘텐츠가 경쟁력의 전부; 개발 난이도 낮고 1인 개발 최적 카테고리",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "name": "킹보드 - 맞춤법 검사기·번역 AI 키보드",
+      "source_id": "0bde4bdec6cfb1d52d7932fa",
+      "developer": "Dong sub Park",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/b6/cd/16b6cdec-2834-f37e-12fc-93e5111a804e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%82%B9%EB%B3%B4%EB%93%9C-%EB%A7%9E%EC%B6%A4%EB%B2%95-%EA%B2%80%EC%82%AC%EA%B8%B0-%EB%B2%88%EC%97%AD-ai-%ED%82%A4%EB%B3%B4%EB%93%9C/id6762074672",
+      "idea_summary": "AI 맞춤법 교정과 번역을 내장한 한국어 키보드",
+      "analysis": {
+        "problem": "한국어 사용자가 타이핑 중 맞춤법 오류 교정과 번역을 위해 앱을 전환해야 하는 불편 [추론]",
+        "solution": "키보드 레이어에 AI 맞춤법 검사기와 번역 기능을 직접 통합해 전환 없이 사용 가능 [확인]",
+        "target_user": "글쓰기를 자주 하는 한국 직장인, 대학생, 번역이 필요한 비즈니스 사용자 [추론]",
+        "unique_point": "한국어 특화 AI 맞춤법 교정이 키보드 익스텐션 레이어에서 직접 실행되는 구조 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Gboard",
+          "SwiftKey",
+          "iOS 기본 키보드",
+          "네이버 맞춤법 검사기 웹"
+        ],
+        "timing_reason": "AI 도구의 일상화와 한국어 NLP 기술 고도화로 출시 최적 시점 [추론]",
+        "growth_potential": "한국 B2C 시장과 한국어 사용 글로벌 디아스포라 대상으로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 모델(기본 무료, 고급 AI 기능 유료) [추론]",
+        "pricing_suggestion": "월 2.99달러 또는 연 19.99달러 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "1500~4000 [추론]",
+        "tech_stack": [
+          "Swift",
+          "iOS Keyboard Extension",
+          "OpenAI API 또는 자체 NLP",
+          "URLSession"
+        ],
+        "key_features": [
+          "AI 한국어 맞춤법 교정",
+          "실시간 번역",
+          "커스텀 텍스트 어시스턴트",
+          "키보드 테마 커스터마이징"
+        ],
+        "clone_tip": "iOS Keyboard Extension은 메모리 제한이 엄격하므로 경량 AI API 호출 구조 필수; 첫 버전은 맞춤법 교정 단일 기능에 집중하고 이후 번역 추가 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#한국시장",
+        "#AI키보드",
+        "#구독모델"
+      ],
+      "verdict": "한국어 사용자 페인포인트 직접 해결; AI 타이밍 좋고 구독 수익 가능성 충분",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "Auday - All-Day Watch Recorder",
+      "source_id": "fcd642ec5be384535e113bf4",
+      "developer": "航江 郭",
+      "category": "Lifestyle",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/eb/ea/dfebea29-9378-f254-aecc-32b4162aee82/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/auday-all-day-watch-recorder/id6814210373",
+      "idea_summary": "애플워치로 하루 활동을 수동 입력 없이 자동 기록",
+      "analysis": {
+        "problem": "자기 계발 관심 사용자가 하루 활동을 수동 입력 없이 자동으로 기록하고 싶은 니즈 [추론]",
+        "solution": "애플워치 센서 데이터를 종일 패시브하게 수집해 활동 타임라인 로그를 자동 생성 [추론]",
+        "target_user": "자기 정량화(Quantified Self) 관심자, 생산성 중심 직장인, 웨어러블 활용 극대화를 원하는 사용자 [추론]",
+        "unique_point": "패시브 올데이 워치 레코딩으로 사용자 개입 없이 완전 자동 라이프로그 생성 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Gyroscope",
+          "Exist.io",
+          "Hevy",
+          "Apple Health"
+        ],
+        "timing_reason": "애플워치 보급 확대와 자기 계발·라이프로그 트렌드 맞물림 [추론]",
+        "growth_potential": "웨어러블 사용자 증가와 함께 니치 충성층 형성 가능하나 시장 규모 제한적 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 또는 일회성 유료 앱 [추론]",
+        "pricing_suggestion": "일회성 결제 9.99달러 또는 월 3.99달러 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "1200~3000 [추론]",
+        "tech_stack": [
+          "Swift",
+          "WatchKit",
+          "HealthKit",
+          "Core Data",
+          "SwiftUI"
+        ],
+        "key_features": [
+          "올데이 워치 활동 자동 기록",
+          "타임라인 뷰",
+          "활동 패턴 분석",
+          "일일 요약 리포트"
+        ],
+        "clone_tip": "HealthKit 권한 획득과 백그라운드 데이터 수집 구조가 핵심; watchOS 앱과 iOS 앱 간 데이터 동기화 설계를 초기부터 계획해야 함 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#웨어러블",
+        "#자기계발",
+        "#라이프로그"
+      ],
+      "verdict": "애플워치 생태계 활용 니치 앱; 충성 유저층 형성 가능하나 시장 크기 제한적",
+      "country": "kr"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "AHEALTH: Get Healthy Get Paid",
+      "source_id": "5d3cb4e648e46d9fcb595b19",
+      "developer": "Gravity Ltd",
+      "category": "Health and Fitness",
+      "icon": "https://play-lh.googleusercontent.com/31YSDUvKDVaNAodv1jk6DTOHI2RMHWYlpX_SPMOcIC_Y0z--9xcDVeH5cOla9QTEn1KZ6KOyODb_TSCS0IkB",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tracerofficial",
+      "idea_summary": "건강 목표 달성 시 실제 현금을 직접 보상하는 헬스앱",
+      "analysis": {
+        "problem": "사람들이 건강한 생활습관을 유지하는 데 외적 동기부여가 부족해 작심삼일로 끝나는 문제 [추론]",
+        "solution": "건강 활동 목표 달성 시 금전적 보상을 직접 제공하는 리워드 시스템으로 지속 동기 부여 [추론]",
+        "target_user": "재정적 인센티브에 반응하는 건강 관리 초보자, 다이어트 도전자, 금전 보상 선호 사용자 [추론]",
+        "unique_point": "건강 메트릭 달성과 실제 현금 보상을 직접 연결하는 명확한 가치 제안 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "HealthyWage",
+          "StepBet",
+          "Achievement"
+        ],
+        "timing_reason": "헬스테크 성장, 보험사 웰니스 연계 프로그램 트렌드, 게임화 동기부여 확산 [추론]",
+        "growth_potential": "보험사·기업 복지 연계 B2B2C 모델로 대규모 확장 가능성 존재 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익, 파트너십 보상 풀 운영, 프리미엄 구독(보상 배율 증가) [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 월 4.99달러로 보상 배율 2배 적용 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "2000~5000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Health Connect API",
+          "Firebase",
+          "결제 게이트웨이 API"
+        ],
+        "key_features": [
+          "건강 목표 설정 및 추적",
+          "활동 센서 연동",
+          "현금 보상 지급",
+          "리더보드 및 챌린지"
+        ],
+        "clone_tip": "보상 풀 재원 확보 비즈니스 모델이 가장 어려운 부분; 초기에는 광고 리워드 방식으로 시작하고 파트너십으로 확장하는 단계적 전략 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#B2C",
+        "#헬스테크",
+        "#리워드앱",
+        "#게임화"
+      ],
+      "verdict": "금전 보상 동기부여 모델 강력; 보상 재원 확보가 핵심 과제이나 성장 잠재력 최고",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "GoWish - Your Digital Wishlist",
+      "source_id": "936e2259f7eb10414f7fc3e4",
+      "developer": "Ønskeskyen ApS",
+      "category": "Wishlist",
+      "icon": "https://play-lh.googleusercontent.com/svf9YSJNLEa7vHsPmA26miTYJNGJdJzwZasTKYVkIM1zqa9ME6PANpUAbFy6AOSF9JHcwDDTgK-87UtaMUvdmjg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gowish.app",
+      "idea_summary": "선물 중복 방지 소셜 위시리스트 공유 플랫폼",
+      "analysis": {
+        "problem": "선물 행사에서 받는 사람이 원하지 않는 선물을 받거나 같은 선물이 여러 명에게 중복 증정되는 문제 [추론]",
+        "solution": "디지털 위시리스트를 생성해 가족·친구와 공유하고 누가 무엇을 살지 조율해 중복을 방지 [추론]",
+        "target_user": "생일·크리스마스 등 선물 행사가 잦은 가족 그룹, 커플, 친구 모임 [추론]",
+        "unique_point": "선물 예약 기능으로 중복 방지하는 소셜 조율 레이어가 일반 위시리스트와의 차별점 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Amazon Wish List",
+          "Giftster",
+          "Elfster",
+          "Wishlistr"
+        ],
+        "timing_reason": "디지털 선물 문화 확산과 비대면 선물 조율 수요 지속 증가 [추론]",
+        "growth_potential": "유럽 시장(덴마크 기반)에서 글로벌 확장 가능하며 시즌성 강한 반복 사용으로 리텐션 유리 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 가족 플랜 구독 또는 커머스 연계 제휴 수익 [추론]",
+        "pricing_suggestion": "기본 무료, 프리미엄 가족 플랜 월 2.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "1000~2500 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "Room Database",
+          "Jsoup(URL 상품 메타데이터 파싱)"
+        ],
+        "key_features": [
+          "위시리스트 생성 및 공유",
+          "선물 예약(중복 방지)",
+          "URL에서 상품 자동 추가",
+          "그룹 초대 관리"
+        ],
+        "clone_tip": "URL에서 상품 메타데이터 파싱 기능이 UX 핵심; 소셜 공유 딥링크를 초기부터 구현해 바이럴 성장 유도 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜앱",
+        "#시즌성"
+      ],
+      "verdict": "명확한 문제 해결, 시즌성 반복 사용으로 리텐션 유리; 1인 개발 적합 복잡도",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "name": "BlinkDrama: Short Dramas & TV",
+      "source_id": "b9650e9f6fbd97ed7ccc1ba7",
+      "developer": "Atlas Ventures Culture & Technology Limited",
+      "category": "Video Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/HyuhR0hMZWQRdOV6tPS6J84kdM0jXQraNMyTHSZgO00_DahHKmZtL8dW6V7yO9JUGAdX6Vj01CANK8EarUAUgj8",
+      "app_url": "https://play.google.com/store/apps/details?id=com.blink.drama.player",
+      "idea_summary": "모바일 최적화 세로형 단편 드라마 스트리밍 플랫폼",
+      "analysis": {
+        "problem": "이동 중 짧은 시간에 완결성 있는 드라마 콘텐츠를 소비하고 싶지만 기존 플랫폼은 에피소드가 너무 긴 문제 [추론]",
+        "solution": "1~5분 에피소드 단위의 세로형 드라마를 모바일 화면에 최적화해 연속 스트리밍 [추론]",
+        "target_user": "대중교통 이용자, 짧은 여가 시간에 엔터테인먼트를 원하는 20~40대 여성 [추론]",
+        "unique_point": "세로형 모바일 최적화 단편 드라마 포맷으로 틈새 시간 엔터테인먼트 공략 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DramaBox",
+          "ReelShort",
+          "Viki",
+          "Webtoon"
+        ],
+        "timing_reason": "틱톡식 세로형 숏폼 콘텐츠 소비 습관이 드라마 장르로 본격 확산되는 시점 [추론]",
+        "growth_potential": "숏폼 드라마 시장 고성장 중; 글로벌 콘텐츠 제작사 협력 시 대규모 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "에피소드 단위 코인 결제 또는 무제한 구독 모델 [추론]",
+        "pricing_suggestion": "에피소드당 코인 0.99달러 또는 월 9.99달러 무제한 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4~8개월 [추론]",
+        "estimated_cost": "3000~8000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "CDN(CloudFront)",
+          "Firebase",
+          "결제 SDK"
+        ],
+        "key_features": [
+          "세로형 비디오 스트리밍",
+          "에피소드 잠금 및 코인 결제",
+          "콘텐츠 추천 알고리즘",
+          "오프라인 다운로드"
+        ],
+        "clone_tip": "콘텐츠 확보가 최대 과제; 기술 플랫폼보다 독점 콘텐츠 파트너십이 경쟁력의 핵심. 초기엔 웹소설 원작 계약부터 시작하고 플랫폼 비용 최소화 권장 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#콘텐츠플랫폼",
+        "#숏폼드라마",
+        "#구독모델"
+      ],
+      "verdict": "숏폼 드라마 트렌드 타이밍 최고; 콘텐츠 확보가 성패 가름, 1인 개발에는 부담",
+      "country": "us"
+    },
+    {
+      "rank": 4,
+      "name": "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
+      "source_id": "8e93bbf3e004fc4b55fd9916",
+      "developer": "weather screen team",
+      "category": "Weather",
+      "icon": "https://play-lh.googleusercontent.com/FzdeDoyMQKnkZWeZQ79yJslXc9RTEHbiXEU8SEV8-l1v4vIuqrle58Efe7efo8gdeluJRgseK5IvaUkt26PnUw",
+      "app_url": "https://play.google.com/store/apps/details?id=weather.forecast.rain.radar",
+      "idea_summary": "미세먼지 포함 날씨를 홈화면 위젯으로 한눈에",
+      "analysis": {
+        "problem": "날씨와 미세먼지 정보를 앱을 열지 않고 홈화면에서 한눈에 빠르게 확인하고 싶은 니즈 [추론]",
+        "solution": "날씨 예보, 강수 확률, 미세먼지·대기질 수치를 커스터마이징 가능한 홈화면 위젯으로 통합 제공 [추론]",
+        "target_user": "미세먼지 걱정이 많은 한국 사용자, 위젯 기반 정보 접근을 선호하는 Android 사용자 [추론]",
+        "unique_point": "날씨와 대기질을 하나의 커스터마이징 위젯으로 통합해 별도 앱 실행 불필요 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Weather Channel",
+          "1Weather",
+          "Today Weather",
+          "에어비주얼(IQAir)"
+        ],
+        "timing_reason": "미세먼지 문제 지속과 Android 위젯 커스터마이징 트렌드 가속화 [추론]",
+        "growth_potential": "한국·동아시아 대기질 관심 시장에서 안정적 사용자 기반 구축 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 또는 광고 제거 인앱결제 [추론]",
+        "pricing_suggestion": "광고 무료, 광고 제거 일회성 1.99달러 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "1~3개월 [추론]",
+        "estimated_cost": "500~1500 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android AppWidget",
+          "OpenWeatherMap API",
+          "IQAir API"
+        ],
+        "key_features": [
+          "홈화면 날씨 위젯",
+          "미세먼지·대기질 지수 표시",
+          "강수 레이더",
+          "위젯 디자인 커스터마이징"
+        ],
+        "clone_tip": "OpenWeatherMap 무료 API와 IQAir 무료 티어 조합으로 빠른 MVP 가능; 위젯 디자인 커스터마이징이 차별화 포인트 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 5,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#위젯앱",
+        "#한국시장"
+      ],
+      "verdict": "경쟁 치열하나 대기질 특화로 한국 시장 공략 가능; 개발 진입 장벽 낮음",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "CleanX: 저장공간 정리",
+      "source_id": "43e6d1754e18a6c9a7ed93c7",
+      "developer": "TapSuite",
+      "category": "Utilities",
+      "icon": "https://play-lh.googleusercontent.com/vFmbE4JajN90jKYwm1Pi1C4xinFDtRedl2Q7qmUEkReZrlXYEHt3DMANsz90XRmGy90vPoeAoUeHjVNksNI-",
+      "app_url": "https://play.google.com/store/apps/details?id=com.xstudios.cleanx",
+      "idea_summary": "불필요한 파일과 중복 사진을 자동 탐지해 한 번에 정리",
+      "analysis": {
+        "problem": "Android 기기 사용자가 저장공간 부족으로 성능 저하를 겪으며 수동 정리에 시간을 낭비하는 문제 [추론]",
+        "solution": "불필요한 캐시, 중복 파일, 대용량 파일을 자동 탐지해 한 번에 삭제 가능한 UI 제공 [추론]",
+        "target_user": "저가형 Android 기기 사용자, 저장공간 관리에 어려움을 겪는 중장년층, 신흥 시장 사용자 [추론]",
+        "unique_point": "중복 파일 탐지와 스토리지 분석을 간단한 UI로 통합 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "CCleaner",
+          "Files by Google",
+          "SD Maid",
+          "Phone Cleaner"
+        ],
+        "timing_reason": "저가형 Android 기기 보급 지속으로 스토리지 관리 수요 꾸준히 존재 [추론]",
+        "growth_potential": "동남아·인도 등 신흥 Android 시장 사용자 증가로 완만한 성장 기대 [추론]"
+      },
+      "business": {
+        "monetization": "광고 기반 무료 또는 프리미엄 구독으로 고급 정리 기능 제공 [추론]",
+        "pricing_suggestion": "광고 무료, 프리미엄 월 1.99달러로 중복 사진 자동 삭제 기능 제공 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "800~2000 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Storage Access Framework",
+          "MediaStore API",
+          "WorkManager"
+        ],
+        "key_features": [
+          "중복 파일 탐지 및 삭제",
+          "캐시 일괄 정리",
+          "대용량 파일 목록",
+          "저장공간 사용 분석"
+        ],
+        "clone_tip": "Android 11+ 미디어 접근 권한 처리가 복잡; MediaStore API 중심으로 구현하고 All Files Access 권한 최소화해야 스토어 심사 통과 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 6
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#신흥시장"
+      ],
+      "verdict": "레드오션이지만 신흥 Android 시장 타겟 시 수익 가능; 차별화 UI·UX가 관건",
+      "country": "kr"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘은 AI 기능을 기존 유틸리티에 통합한 버티컬 특화 도구와, 건강 행동에 금전 보상을 연결하는 헬스리워드 모델이 주목받는 날이다. 복잡한 플랫폼보다 단일 문제를 명확히 해결하는 소규모 앱이 1인 개발자에게 실질적 기회를 제공하고 있다.",
+    "trend_details": [
+      "1인 크리에이터 경제 성장으로 콘텐츠 제작 보조 도구(프롬프터 카메라 등) 수요 급증",
+      "건강 활동에 실제 금전 보상을 연결하는 헬스리워드 앱 모델 본격화",
+      "완전 오프라인 작동 앱에 대한 재난·탐험 대비 관심층 수요 증가",
+      "AI 맞춤법·번역 기능이 키보드 레이어에 직접 통합되는 트렌드 가속화",
+      "세로형 숏폼 드라마 콘텐츠 플랫폼 경쟁 심화 및 시장 고성장 중"
+    ],
+    "hot_categories": [
+      "크리에이터 도구",
+      "헬스리워드",
+      "AI 유틸리티",
+      "오프라인 생존 앱",
+      "숏폼 드라마"
+    ],
+    "opportunity": "AI 기능을 단순 유틸리티에 통합한 버티컬 특화 앱(언어, 직종, 취미별 맞춤 도구)이 블루오션. 특히 한국어 특화 AI 도구는 국내 시장에서 강한 미충족 수요 존재.",
+    "action_item": "오늘의 액션: 기존 유틸리티(키보드, 카메라, 날씨 위젯)에 AI 레이어 한 겹 추가하는 MVP 기획 착수. 가장 빠른 클론 후보는 Sellie(프롬프터 카메라) — AVFoundation 카메라 위에 스크롤 텍스트 오버레이로 1~2개월 내 출시 가능."
+  },
+  "data_status": {}
+}

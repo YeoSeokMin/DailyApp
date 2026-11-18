@@ -1,17 +1,48 @@
 {
-  "generatedAt": "2026-11-17T15:20:29.559Z",
+  "generatedAt": "2026-11-18T15:13:53.374Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Shopping",
-      "currentCount": 12,
-      "previousCount": 4,
+      "category": "Social Networking",
+      "currentCount": 4,
+      "previousCount": 1,
+      "changePercent": 300,
+      "changeDirection": "up",
+      "apps": [
+        "링크룸 - 아바타 방 꾸미기",
+        "당근 - 당신 근처의 지역 생활 커뮤니티",
+        "Bump - 친구 지도",
+        "Rips by Triumph"
+      ],
+      "avgScore": 7.725
+    },
+    {
+      "category": "Photo & Video",
+      "currentCount": 6,
+      "previousCount": 2,
       "changePercent": 200,
       "changeDirection": "up",
       "apps": [
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+        "tomatolayer - 레퍼런스 구도 카메라",
+        "Frame(프레임) - AI 셀카 & 포즈 카메라",
+        "Ditera - 디더링 카메라",
+        "FARGLO: Color Grading",
+        "GR Snap - 리코 GR Image Sync"
+      ],
+      "avgScore": 7.3999999999999995
+    },
+    {
+      "category": "Shopping",
+      "currentCount": 11,
+      "previousCount": 5,
+      "changePercent": 120,
+      "changeDirection": "up",
+      "apps": [
+        "DealSeek: Coupons & Discounts",
         "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
         "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
         "Vinted: Shop & sell pre-loved",
@@ -21,40 +52,9 @@
         "GovAuctions.com - Shop Surplus",
         "Koupon: Real Deals & Codes",
         "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
-        "Wishlist Maker - Listful",
-        "GoWish - Your Digital Wishlist",
-        "GovAuctions.com - Shop Surplus"
+        "Wishlist Maker - Listful"
       ],
-      "avgScore": 7.566666666666666
-    },
-    {
-      "category": "Social Networking",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "당근 - 당신 근처의 지역 생활 커뮤니티",
-        "Bump - 친구 지도",
-        "Rips by Triumph"
-      ],
-      "avgScore": 7.766666666666667
-    },
-    {
-      "category": "Photo & Video",
-      "currentCount": 6,
-      "previousCount": 2,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "tomatolayer - 레퍼런스 구도 카메라",
-        "Frame(프레임) - AI 셀카 & 포즈 카메라",
-        "Ditera - 디더링 카메라",
-        "FARGLO: Color Grading",
-        "GR Snap - 리코 GR Image Sync",
-        "SharpStop Depth of Field Calc"
-      ],
-      "avgScore": 7.300000000000001
+      "avgScore": 7.545454545454546
     },
     {
       "category": "Health and Fitness",
@@ -66,18 +66,6 @@
         "setlog"
       ],
       "avgScore": 7.1
-    },
-    {
-      "category": "Health & Fitness",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "다들 평범한 세상에서 나만 스테이터스가 보인다",
-        "AHEALTH: Get Healthy Get Paid"
-      ],
-      "avgScore": 7.8
     },
     {
       "category": "Safety",
@@ -125,6 +113,17 @@
       "avgScore": 9
     },
     {
+      "category": "Books",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "리드모어 - 독서 기록을 깔끔하게"
+      ],
+      "avgScore": 7
+    },
+    {
       "category": "Collectibles",
       "currentCount": 1,
       "previousCount": 0,
@@ -169,68 +168,62 @@
       "avgScore": 7.2
     },
     {
-      "category": "Lifestyle",
-      "currentCount": 7,
-      "previousCount": 5,
-      "changePercent": 40,
-      "changeDirection": "up",
-      "apps": [
-        "유니플 Uniple: 둘이 직접 만드는 커플앱",
-        "Tarova: 아스트랄 타로 & 조디악",
-        "공군 PTSD 알람",
-        "Amatda(아맞다) - 내 목소리 알람",
-        "murmur daily",
-        "DuoFridge",
-        "チャデポ - 充電と歩数でポイ活"
-      ],
-      "avgScore": 7.385714285714286
-    },
-    {
       "category": "Entertainment",
-      "currentCount": 5,
-      "previousCount": 4,
-      "changePercent": 25,
+      "currentCount": 6,
+      "previousCount": 5,
+      "changePercent": 20,
       "changeDirection": "up",
       "apps": [
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
         "FlickReels - AI Story & Drama",
         "FreeReels -인기 단편/한일 드라마, 역전극",
-        "NetShort - 人気短編ドラマ",
-        "Duo Aquarium",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ"
+        "NetShort - 人気短編ドラマ"
       ],
-      "avgScore": 7.7
-    },
-    {
-      "category": "Music",
-      "currentCount": 8,
-      "previousCount": 7,
-      "changePercent": 14,
-      "changeDirection": "up",
-      "apps": [
-        "指先の楽器 – 手首で演奏",
-        "play_music_theory",
-        "Swan Glide",
-        "Konstrukt",
-        "Deck-Man: Cassette Player",
-        "Unison Analyzer",
-        "Chord Lab: Chord Synth",
-        "GigClick: Metronome, Setlist"
-      ],
-      "avgScore": 7.1125
+      "avgScore": 7.666666666666667
     }
   ],
   "decliningCategories": [
     {
-      "category": "Finance",
-      "currentCount": 2,
-      "previousCount": 3,
-      "changePercent": -33,
+      "category": "Lifestyle",
+      "currentCount": 6,
+      "previousCount": 7,
+      "changePercent": -14,
       "changeDirection": "down",
       "apps": [
-        "카네 Kane - 간편한 가계부",
-        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크"
+        "화참기",
+        "유니플 Uniple: 둘이 직접 만드는 커플앱",
+        "Tarova: 아스트랄 타로 & 조디악",
+        "공군 PTSD 알람",
+        "Amatda(아맞다) - 내 목소리 알람",
+        "murmur daily"
       ],
-      "avgScore": 7.35
+      "avgScore": 7.433333333333333
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 3,
+      "previousCount": 4,
+      "changePercent": -25,
+      "changeDirection": "down",
+      "apps": [
+        "Clackity – Duo Flip Clock",
+        "WakeBox",
+        "フリマ王コピー出品"
+      ],
+      "avgScore": 6.833333333333333
+    },
+    {
+      "category": "News",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "CrimeRadar by TownTalk"
+      ],
+      "avgScore": 7.6
     },
     {
       "category": "Productivity",
@@ -258,20 +251,48 @@
       "avgScore": 6.5
     },
     {
-      "category": "Utilities",
-      "currentCount": 3,
-      "previousCount": 7,
-      "changePercent": -57,
+      "category": "Finance",
+      "currentCount": 1,
+      "previousCount": 3,
+      "changePercent": -67,
       "changeDirection": "down",
       "apps": [
-        "Clackity – Duo Flip Clock",
-        "WakeBox",
-        "フリマ王コピー出品"
+        "카네 Kane - 간편한 가계부"
       ],
-      "avgScore": 6.833333333333333
+      "avgScore": 6.5
     }
   ],
   "stableCategories": [
+    {
+      "category": "Music",
+      "currentCount": 8,
+      "previousCount": 8,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "指先の楽器 – 手首で演奏",
+        "play_music_theory",
+        "Swan Glide",
+        "Konstrukt",
+        "Deck-Man: Cassette Player",
+        "Unison Analyzer",
+        "Chord Lab: Chord Synth"
+      ],
+      "avgScore": 7.175
+    },
+    {
+      "category": "Health & Fitness",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "FitToCal - 운동 캘린더 동기화",
+        "다들 평범한 세상에서 나만 스테이터스가 보인다"
+      ],
+      "avgScore": 7.5
+    },
     {
       "category": "Education",
       "currentCount": 4,
@@ -298,17 +319,6 @@
       "avgScore": 7.6
     },
     {
-      "category": "Books",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "리드모어 - 독서 기록을 깔끔하게"
-      ],
-      "avgScore": 7
-    },
-    {
       "category": "Photography",
       "currentCount": 1,
       "previousCount": 1,
@@ -326,6 +336,16 @@
       "category": "tag",
       "count": 69,
       "apps": [
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "링크룸 - 아바타 방 꾸미기",
+        "FitToCal - 운동 캘린더 동기화",
+        "화참기",
+        "CrimeRadar by TownTalk",
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "DealSeek: Coupons & Discounts",
         "複線図トレーニング｜第二種電気工事士",
         "損保一般試験対策",
         "指先の楽器 – 手首で演奏",
@@ -384,23 +404,18 @@
         "CoinScope: AI Identifier",
         "Rips by Triumph",
         "NetShort - 人気短編ドラマ",
-        "Wishlist Maker - Listful",
-        "Duo Aquarium",
-        "DuoFridge",
-        "GigClick: Metronome, Setlist",
-        "SharpStop Depth of Field Calc",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
-        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크",
-        "GoWish - Your Digital Wishlist",
-        "AHEALTH: Get Healthy Get Paid",
-        "チャデポ - 充電と歩数でポイ活"
+        "Wishlist Maker - Listful"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 35,
+      "count": 32,
       "apps": [
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "FitToCal - 운동 캘린더 동기화",
+        "화참기",
         "複線図トレーニング｜第二種電気工事士",
         "損保一般試験対策",
         "指先の楽器 – 手首で演奏",
@@ -428,21 +443,15 @@
         "Amatda(아맞다) - 내 목소리 알람",
         "Velvet Film",
         "murmur daily",
-        "Wishlist Maker - Listful",
-        "Duo Aquarium",
-        "DuoFridge",
-        "GigClick: Metronome, Setlist",
-        "SharpStop Depth of Field Calc",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ",
-        "GoWish - Your Digital Wishlist",
-        "チャデポ - 充電と歩数でポイ活"
+        "Wishlist Maker - Listful"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 11,
+      "count": 12,
       "apps": [
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
         "Frame(프레임) - AI 셀카 & 포즈 카메라",
         "FlickReels - AI Story & Drama",
         "AltoPaint: Oil & Watercolor",
@@ -452,22 +461,22 @@
         "피클: 나만의 AI 에이전트",
         "Chord Lab: Chord Synth",
         "murmur daily",
-        "CoinScope: AI Identifier",
-        "AHEALTH: Get Healthy Get Paid"
+        "CoinScope: AI Identifier"
       ]
     },
     {
       "keyword": "콘텐츠",
       "category": "creator",
-      "count": 8,
+      "count": 9,
       "apps": [
+        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
         "損保一般試験対策",
         "유니플 Uniple: 둘이 직접 만드는 커플앱",
         "FlickReels - AI Story & Drama",
         "FreeReels -인기 단편/한일 드라마, 역전극",
         "Rips by Triumph",
-        "NetShort - 人気短編ドラマ",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ"
+        "NetShort - 人気短編ドラマ"
       ]
     },
     {
@@ -475,14 +484,27 @@
       "category": "ar_vr",
       "count": 8,
       "apps": [
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "CrimeRadar by TownTalk",
         "Hanziary",
         "OG.com: Rip Cards,Trade Events",
         "FARGLO: Color Grading",
         "Tarova: 아스트랄 타로 & 조디악",
         "CrownCards - Trading Cards",
-        "Autoscripts Userscripts",
-        "Duo Aquarium",
-        "SharpStop Depth of Field Calc"
+        "Autoscripts Userscripts"
+      ]
+    },
+    {
+      "keyword": "소셜",
+      "category": "social",
+      "count": 7,
+      "apps": [
+        "링크룸 - 아바타 방 꾸미기",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+        "Bump - 친구 지도",
+        "Whatnot: Shop, Sell, Connect",
+        "리드모어 - 독서 기록을 깔끔하게",
+        "Rips by Triumph"
       ]
     },
     {
@@ -499,29 +521,28 @@
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
-      "count": 7,
-      "apps": [
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Bump - 친구 지도",
-        "Whatnot: Shop, Sell, Connect",
-        "리드모어 - 독서 기록을 깔끔하게",
-        "Rips by Triumph",
-        "Duo Aquarium",
-        "空論道｜ドロッセルマイヤーさんの公式ゆるゲーアプリ"
-      ]
-    },
-    {
       "keyword": "프로",
       "category": "subscription",
-      "count": 5,
+      "count": 6,
       "apps": [
+        "DealSeek: Coupons & Discounts",
         "play_music_theory",
         "Swan Glide",
         "うさポ by クラシル",
         "Koupon: Real Deals & Codes",
         "리드모어 - 독서 기록을 깔끔하게"
+      ]
+    },
+    {
+      "keyword": "스트리밍",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "Whatnot: Shop, Sell, Connect",
+        "FlickReels - AI Story & Drama",
+        "FreeReels -인기 단편/한일 드라마, 역전극",
+        "NetShort - 人気短編ドラマ"
       ]
     },
     {
@@ -548,142 +569,133 @@
       ]
     },
     {
-      "keyword": "스트리밍",
+      "keyword": "크리에이터",
       "category": "creator",
       "count": 4,
       "apps": [
-        "Whatnot: Shop, Sell, Connect",
-        "FlickReels - AI Story & Drama",
-        "FreeReels -인기 단편/한일 드라마, 역전극",
-        "NetShort - 人気短編ドラマ"
-      ]
-    },
-    {
-      "keyword": "라이브커머스",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Whatnot: Shop, Sell, Connect",
-        "OG.com: Rip Cards,Trade Events"
-      ]
-    },
-    {
-      "keyword": "한국시장",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Hanziary",
-        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기",
-        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크"
-      ]
-    },
-    {
-      "keyword": "미니멀앱",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "카네 Kane - 간편한 가계부",
-        "언제했지 - 마지막으로 한 날",
-        "리드모어 - 독서 기록을 깔끔하게"
-      ]
-    },
-    {
-      "keyword": "커플앱",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "유니플 Uniple: 둘이 직접 만드는 커플앱",
-        "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
-        "Duo Aquarium"
-      ]
-    },
-    {
-      "keyword": "라이프스타일",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "유니플 Uniple: 둘이 직접 만드는 커플앱",
-        "Amatda(아맞다) - 내 목소리 알람",
-        "DuoFridge"
-      ]
-    },
-    {
-      "keyword": "TCG",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "OG.com: Rip Cards,Trade Events",
-        "CrownCards - Trading Cards",
-        "Rips by Triumph"
-      ]
-    },
-    {
-      "keyword": "앱테크",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
-        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기",
-        "チャデポ - 充電と歩数でポイ活"
-      ]
-    },
-    {
-      "keyword": "크리에이터",
-      "category": "creator",
-      "count": 3,
-      "apps": [
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
         "FARGLO: Color Grading",
         "Suno - AI Music & Songs Maker"
       ]
     },
     {
-      "keyword": "AI활용",
+      "keyword": "엔터테인먼트",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "FlickReels - AI Story & Drama",
+        "NetShort - 人気短編ドラマ"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+        "FARGLO: Color Grading",
+        "Velvet Film"
+      ]
+    },
+    {
+      "keyword": "구독",
+      "category": "subscription",
+      "count": 3,
+      "apps": [
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "Tarova: 아스트랄 타로 & 조디악",
+        "피클: 나만의 AI 에이전트"
+      ]
+    },
+    {
+      "keyword": "음악교육",
       "category": "tag",
       "count": 3,
       "apps": [
-        "Tarova: 아스트랄 타로 & 조디악",
-        "Suno - AI Music & Songs Maker",
-        "CoinScope: AI Identifier"
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "play_music_theory",
+        "Chord Lab: Chord Synth"
+      ]
+    },
+    {
+      "keyword": "글로벌",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "Vinted: Shop & sell pre-loved",
+        "TifoLive: Football Scores"
+      ]
+    },
+    {
+      "keyword": "일정",
+      "category": "productivity",
+      "count": 3,
+      "apps": [
+        "FitToCal - 운동 캘린더 동기화",
+        "Level:Routine",
+        "Amatda(아맞다) - 내 목소리 알람"
+      ]
+    },
+    {
+      "keyword": "명상",
+      "category": "health",
+      "count": 3,
+      "apps": [
+        "화참기",
+        "Swan Glide",
+        "공군 PTSD 알람"
+      ]
+    },
+    {
+      "keyword": "쇼핑",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "DealSeek: Coupons & Discounts",
+        "Koupon: Real Deals & Codes",
+        "Wishlist Maker - Listful"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 46,
-        "percent": 66,
+        "count": 49,
+        "percent": 70,
         "examples": [
-          "複線図トレーニング｜第二種電気工事士",
-          "損保一般試験対策",
-          "指先の楽器 – 手首で演奏"
+          "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+          "Practice Farm: 연습곡, 어떤 조로든",
+          "링크룸 - 아바타 방 꾸미기"
         ]
       },
       "freemium": {
-        "count": 55,
-        "percent": 79,
+        "count": 57,
+        "percent": 81,
         "examples": [
-          "複線図トレーニング｜第二種電気工事士",
-          "損保一般試験対策",
-          "指先の楽器 – 手首で演奏"
+          "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+          "Practice Farm: 연습곡, 어떤 조로든",
+          "링크룸 - 아바타 방 꾸미기"
         ]
       },
       "subscription": {
-        "count": 44,
-        "percent": 63,
+        "count": 47,
+        "percent": 67,
         "examples": [
-          "複線図トレーニング｜第二種電気工事士",
-          "play_music_theory",
-          "캐치테이블"
+          "Practice Farm: 연습곡, 어떤 조로든",
+          "링크룸 - 아바타 방 꾸미기",
+          "FitToCal - 운동 캘린더 동기화"
         ]
       },
       "onetime": {
-        "count": 33,
-        "percent": 47,
+        "count": 32,
+        "percent": 46,
         "examples": [
-          "複線図トレーニング｜第二種電気工事士",
-          "指先の楽器 – 手首で演奏",
-          "play_music_theory"
+          "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+          "FitToCal - 운동 캘린더 동기화",
+          "DramaBox - 미니시리즈 스트리밍 플레이어"
         ]
       },
       "unknown": {
@@ -694,12 +706,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 55,
-      "percent": 79,
+      "count": 57,
+      "percent": 81,
       "examples": [
-        "複線図トレーニング｜第二種電気工事士",
-        "損保一般試験対策",
-        "指先の楽器 – 手首で演奏"
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "링크룸 - 아바타 방 꾸미기"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -711,11 +723,11 @@
         "count": 14,
         "percent": 20,
         "apps": [
+          "Practice Farm: 연습곡, 어떤 조로든",
+          "제타(zeta) - 상상이 현실이 되는 AI 채팅",
           "Frame(프레임) - AI 셀카 & 포즈 카메라",
           "FlickReels - AI Story & Drama",
-          "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
-          "AltoPaint: Oil & Watercolor",
-          "Tarova: 아스트랄 타로 & 조디악"
+          "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크"
         ]
       },
       {
@@ -723,47 +735,47 @@
         "count": 13,
         "percent": 19,
         "apps": [
+          "Practice Farm: 연습곡, 어떤 조로든",
+          "CrimeRadar by TownTalk",
           "Hanziary",
           "카네 Kane - 간편한 가계부",
-          "Vinted: Shop & sell pre-loved",
-          "Frame(프레임) - AI 셀카 & 포즈 카메라",
-          "Clackity – Duo Flip Clock"
+          "Vinted: Shop & sell pre-loved"
         ]
       },
       {
         "tech": "creator",
-        "count": 10,
-        "percent": 14,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+          "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
           "損保一般試験対策",
-          "Whatnot: Shop, Sell, Connect",
-          "유니플 Uniple: 둘이 직접 만드는 커플앱",
-          "FlickReels - AI Story & Drama",
-          "FARGLO: Color Grading"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 9,
-        "percent": 13,
-        "apps": [
-          "당근 - 당신 근처의 지역 생활 커뮤니티",
-          "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-          "tomatolayer - 레퍼런스 구도 카메라",
-          "Bump - 친구 지도",
           "Whatnot: Shop, Sell, Connect"
         ]
       },
       {
-        "tech": "subscription",
-        "count": 5,
-        "percent": 7,
+        "tech": "social",
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "링크룸 - 아바타 방 꾸미기",
+          "당근 - 당신 근처의 지역 생활 커뮤니티",
+          "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+          "tomatolayer - 레퍼런스 구도 카메라",
+          "Bump - 친구 지도"
+        ]
+      },
+      {
+        "tech": "subscription",
+        "count": 6,
+        "percent": 9,
+        "apps": [
+          "Practice Farm: 연습곡, 어떤 조로든",
           "Swan Glide",
           "うさポ by クラシル",
           "Tarova: 아스트랄 타로 & 조디악",
-          "Koupon: Real Deals & Codes",
-          "리드모어 - 독서 기록을 깔끔하게"
+          "Koupon: Real Deals & Codes"
         ]
       },
       {
@@ -771,9 +783,9 @@
         "count": 3,
         "percent": 4,
         "apps": [
+          "FitToCal - 운동 캘린더 동기화",
           "Level:Routine",
-          "フリマ王コピー出品",
-          "DuoFridge"
+          "フリマ王コピー出品"
         ]
       },
       {
@@ -798,11 +810,11 @@
       "count": 14,
       "percent": 20,
       "apps": [
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
         "Frame(프레임) - AI 셀카 & 포즈 카메라",
         "FlickReels - AI Story & Drama",
-        "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
-        "AltoPaint: Oil & Watercolor",
-        "Tarova: 아스트랄 타로 & 조디악"
+        "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크"
       ]
     },
     "emerging": [
@@ -811,11 +823,11 @@
         "count": 14,
         "percent": 20,
         "apps": [
+          "Practice Farm: 연습곡, 어떤 조로든",
+          "제타(zeta) - 상상이 현실이 되는 AI 채팅",
           "Frame(프레임) - AI 셀카 & 포즈 카메라",
           "FlickReels - AI Story & Drama",
-          "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크",
-          "AltoPaint: Oil & Watercolor",
-          "Tarova: 아스트랄 타로 & 조디악"
+          "캐시모어-영수증 현금 리워드, 돈버는앱, 캐시백 앱테크"
         ]
       },
       {
@@ -823,35 +835,35 @@
         "count": 13,
         "percent": 19,
         "apps": [
+          "Practice Farm: 연습곡, 어떤 조로든",
+          "CrimeRadar by TownTalk",
           "Hanziary",
           "카네 Kane - 간편한 가계부",
-          "Vinted: Shop & sell pre-loved",
-          "Frame(프레임) - AI 셀카 & 포즈 카메라",
-          "Clackity – Duo Flip Clock"
+          "Vinted: Shop & sell pre-loved"
         ]
       },
       {
         "tech": "creator",
-        "count": 10,
-        "percent": 14,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
+          "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+          "DramaBox - 미니시리즈 스트리밍 플레이어",
           "損保一般試験対策",
-          "Whatnot: Shop, Sell, Connect",
-          "유니플 Uniple: 둘이 직접 만드는 커플앱",
-          "FlickReels - AI Story & Drama",
-          "FARGLO: Color Grading"
+          "Whatnot: Shop, Sell, Connect"
         ]
       },
       {
         "tech": "social",
-        "count": 9,
-        "percent": 13,
+        "count": 8,
+        "percent": 11,
         "apps": [
+          "링크룸 - 아바타 방 꾸미기",
           "당근 - 당신 근처의 지역 생활 커뮤니티",
           "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
           "tomatolayer - 레퍼런스 구도 카메라",
-          "Bump - 친구 지도",
-          "Whatnot: Shop, Sell, Connect"
+          "Bump - 친구 지도"
         ]
       }
     ]
@@ -860,7 +872,7 @@
     {
       "type": "rising_category",
       "title": "Social Networking 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "description": "300% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Social Networking"
     },
@@ -870,13 +882,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Health and Fitness"
-    },
-    {
-      "type": "rising_category",
-      "title": "Health & Fitness 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Health & Fitness"
     },
     {
       "type": "rising_category",
@@ -908,6 +913,13 @@
     },
     {
       "type": "rising_category",
+      "title": "Books 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Books"
+    },
+    {
+      "type": "rising_category",
       "title": "Collectibles 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
@@ -936,20 +948,20 @@
     }
   ],
   "insight": {
-    "trend_summary": "쇼핑·소셜·사진 카테고리가 200% 급증하며 B2C 앱 수요가 폭발적으로 증가하고 있습니다. AI와 AR/VR 기술이 전체 앱의 약 40%를 차지하며 핵심 기술 트렌드로 자리잡았고, freemium 모델(79%)이 수익화 전략의 주류로 부상했습니다.",
+    "trend_summary": "소셜 네트워킹과 포토/비디오 카테고리가 각각 300%, 200% 급등하며 콘텐츠 창작과 커뮤니티 중심 앱이 강세를 보이고 있습니다. AI와 AR/VR 기술이 전체 앱의 약 40%에 적용되며 기술 융합이 가속화되고 있으며, 프리미엄 모델(freemium 81%)이 수익화의 주류로 자리잡고 있습니다.",
     "trend_details": [
-      "Shopping 카테고리 200% 급증: 12개 앱이 진입하며 B2C 커머스 수요가 견고하게 성장 중",
-      "AI·AR 기술 융합 가속: 전체 트렌드 앱의 39%가 AI 또는 AR/VR 기술을 채택하여 차별화 요소로 활용",
-      "1인 개발 가능 태그 35회 등장: 인디 개발자 친화적 아이디어가 시장에서 적극적으로 검증되는 추세"
+      "소셜 네트워킹 카테고리가 300% 급등했지만 진입 앱 수가 4개에 불과해 경쟁이 낮은 블루오션 상태",
+      "AI(20%)와 AR/VR(19%) 기술이 거의 동일한 비율로 채택되며 차세대 인터랙션의 양대 축으로 부상",
+      "'1인개발가능' 태그가 32회로 높은 관심을 받아 소규모 팀도 성공 가능한 앱 구조에 대한 수요 증가"
     ],
     "hot_categories": [
-      "Shopping",
       "Social Networking",
-      "Health & Fitness",
-      "Artificial Intelligence"
+      "Photo & Video",
+      "Health and Fitness",
+      "Safety"
     ],
-    "opportunity": "Social Networking과 Health & Fitness 카테고리는 200%·100% 급증에도 경쟁 앱 수가 3~2개에 불과해, AI 또는 커뮤니티 기능을 결합한 1인 개발 앱으로 빠르게 선점 가능한 블루오션이다.",
-    "action_item": "freemium + subscription 이중 모델을 기반으로, AI 기능을 탑재한 소셜 또는 헬스 카테고리 앱의 MVP를 설계하고 일본 시장(일본시장 태그 5회)을 첫 타깃 시장으로 설정하라.",
-    "weekly_theme": "AI 소셜 커머스"
+    "opportunity": "소셜 네트워킹 카테고리는 300% 성장에도 진입 앱이 4개뿐이라 AI 또는 AR 기능을 결합한 1인 개발 가능한 소셜 앱이 가장 빠른 시장 선점 기회를 제공합니다.",
+    "action_item": "소셜 또는 커뮤니티 기능에 AI 추천이나 AR 필터를 접목한 프리미엄 모델 앱의 MVP를 설계하고, 일본 시장(5회 언급)을 첫 타깃 시장으로 설정해 출시 준비를 시작하세요.",
+    "weekly_theme": "AI 소셜 커뮤니티"
   }
 }
