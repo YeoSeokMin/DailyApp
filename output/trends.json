@@ -1,37 +1,21 @@
 {
-  "generatedAt": "2026-11-22T15:13:57.300Z",
+  "generatedAt": "2026-11-23T15:28:37.358Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Education",
-      "currentCount": 5,
+      "category": "Reference",
+      "currentCount": 2,
       "previousCount": 1,
-      "changePercent": 400,
+      "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "G検定 対策 問題集 500問・解説・用語集",
-        "複線図トレーニング｜第二種電気工事士",
-        "損保一般試験対策",
-        "Hanziary",
-        "싸다보카: 영어 공부, 영단어, 회화, 어원, 발음"
+        "CoinScope: AI Identifier",
+        "CoinScope: AI Identifier"
       ],
-      "avgScore": 7.040000000000001
-    },
-    {
-      "category": "Social Networking",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "링크룸 - 아바타 방 꾸미기",
-        "당근 - 당신 근처의 지역 생활 커뮤니티",
-        "Bump - 친구 지도"
-      ],
-      "avgScore": 7.633333333333333
+      "avgScore": 7
     },
     {
       "category": "Travel",
@@ -58,21 +42,9 @@
       "avgScore": 6
     },
     {
-      "category": "Rewards",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기",
-        "うさポ by クラシル"
-      ],
-      "avgScore": 6.25
-    },
-    {
       "category": "Weather",
       "currentCount": 2,
-      "previousCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
@@ -172,27 +144,30 @@
       "avgScore": 7.5
     },
     {
-      "category": "Health & Fitness",
-      "currentCount": 2,
-      "previousCount": 1,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "FitToCal - 운동 캘린더 동기화",
-        "다들 평범한 세상에서 나만 스테이터스가 보인다"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "Safety",
+      "category": "Food and Dining",
       "currentCount": 1,
       "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
-        "詐欺対策 by NTTタウンページ"
+        "캐치테이블"
       ],
-      "avgScore": 6.5
+      "avgScore": 7.6
+    },
+    {
+      "category": "Utilities",
+      "currentCount": 5,
+      "previousCount": 3,
+      "changePercent": 67,
+      "changeDirection": "up",
+      "apps": [
+        "Sidefill: Safari用 横幅いっぱい表示",
+        "Dashcam Viewer: for Tesla",
+        "What Plane?",
+        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
+        "CleanX: 저장공간 정리"
+      ],
+      "avgScore": 6.88
     },
     {
       "category": "Music",
@@ -213,93 +188,152 @@
       "avgScore": 7.025
     },
     {
-      "category": "Utilities",
-      "currentCount": 4,
-      "previousCount": 3,
-      "changePercent": 33,
+      "category": "Social Networking",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
       "changeDirection": "up",
       "apps": [
-        "Dashcam Viewer: for Tesla",
-        "What Plane?",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "CleanX: 저장공간 정리"
+        "Scoopz: Real Life, Real Videos",
+        "링크룸 - 아바타 방 꾸미기",
+        "당근 - 당신 근처의 지역 생활 커뮤니티"
       ],
-      "avgScore": 6.9
+      "avgScore": 7.566666666666666
+    },
+    {
+      "category": "Education",
+      "currentCount": 3,
+      "previousCount": 2,
+      "changePercent": 50,
+      "changeDirection": "up",
+      "apps": [
+        "G検定 対策 問題集 500問・解説・用語集",
+        "複線図トレーニング｜第二種電気工事士",
+        "損保一般試験対策"
+      ],
+      "avgScore": 7
     }
   ],
   "decliningCategories": [
     {
-      "category": "Entertainment",
-      "currentCount": 4,
-      "previousCount": 5,
-      "changePercent": -20,
-      "changeDirection": "down",
-      "apps": [
-        "Untraced: Find the Suspect",
-        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
-        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
-        "DramaBox - 미니시리즈 스트리밍 플레이어"
-      ],
-      "avgScore": 7.45
-    },
-    {
-      "category": "Shopping",
-      "currentCount": 7,
-      "previousCount": 9,
-      "changePercent": -22,
-      "changeDirection": "down",
-      "apps": [
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "DealSeek: Coupons & Discounts",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Vinted: Shop & sell pre-loved",
-        "Whatnot: Shop, Sell, Connect"
-      ],
-      "avgScore": 7.542857142857143
-    },
-    {
       "category": "Lifestyle",
-      "currentCount": 5,
-      "previousCount": 8,
-      "changePercent": -37,
+      "currentCount": 6,
+      "previousCount": 7,
+      "changePercent": -14,
       "changeDirection": "down",
       "apps": [
+        "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
         "해군PTSD알람",
         "Open Chair Finder",
         "Offline Survival Kit",
         "Auday - All-Day Watch Recorder",
         "화참기"
       ],
-      "avgScore": 6.659999999999999
+      "avgScore": 6.75
+    },
+    {
+      "category": "Shopping",
+      "currentCount": 6,
+      "previousCount": 10,
+      "changePercent": -40,
+      "changeDirection": "down",
+      "apps": [
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "DealSeek: Coupons & Discounts",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
+      ],
+      "avgScore": 7.666666666666667
+    },
+    {
+      "category": "Productivity",
+      "currentCount": 2,
+      "previousCount": 4,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "PACE - 目標ペース管理・習慣トラッカー",
+        "Audoc: 문서·PDF 읽어주기"
+      ],
+      "avgScore": 7.4
     },
     {
       "category": "Photo & Video",
       "currentCount": 3,
-      "previousCount": 5,
-      "changePercent": -40,
+      "previousCount": 6,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
+        "FrameSmoother: 60fps 슬로모션",
         "셀리 - 프롬프터 카메라",
-        "ShutterFinder: 빛 깜빡임 · 플리커 측정기",
-        "tomatolayer - 레퍼런스 구도 카메라"
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기"
       ],
-      "avgScore": 7.7
+      "avgScore": 7.8
     },
     {
-      "category": "Productivity",
+      "category": "Rewards",
       "currentCount": 1,
-      "previousCount": 8,
-      "changePercent": -87,
+      "previousCount": 2,
+      "changePercent": -50,
       "changeDirection": "down",
       "apps": [
-        "Audoc: 문서·PDF 읽어주기"
+        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기"
       ],
-      "avgScore": 7.2
+      "avgScore": 6.5
+    },
+    {
+      "category": "Finance",
+      "currentCount": 1,
+      "previousCount": 2,
+      "changePercent": -50,
+      "changeDirection": "down",
+      "apps": [
+        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크"
+      ],
+      "avgScore": 7.5
     }
   ],
   "stableCategories": [
+    {
+      "category": "Health & Fitness",
+      "currentCount": 2,
+      "previousCount": 2,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Health Exporter & Shortcuts",
+        "FitToCal - 운동 캘린더 동기화"
+      ],
+      "avgScore": 7.35
+    },
+    {
+      "category": "Entertainment",
+      "currentCount": 5,
+      "previousCount": 5,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "Surume - PS4 PS3 PS2 VITA XBOX",
+        "Untraced: Find the Suspect",
+        "제타(zeta) - 상상이 현실이 되는 AI 채팅",
+        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+        "DramaBox - 미니시리즈 스트리밍 플레이어"
+      ],
+      "avgScore": 7.4
+    },
+    {
+      "category": "Artificial Intelligence",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "크랙 - 내가 주인공인 웹소설, AI 채팅"
+      ],
+      "avgScore": 8.5
+    },
     {
       "category": "Books",
       "currentCount": 1,
@@ -345,29 +379,6 @@
       "avgScore": 8
     },
     {
-      "category": "Finance",
-      "currentCount": 2,
-      "previousCount": 2,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크",
-        "카네 Kane - 간편한 가계부"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Reference",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "CoinScope: AI Identifier"
-      ],
-      "avgScore": 7
-    },
-    {
       "category": "News",
       "currentCount": 1,
       "previousCount": 1,
@@ -375,17 +386,6 @@
       "changeDirection": "stable",
       "apps": [
         "CrimeRadar by TownTalk"
-      ],
-      "avgScore": 7.6
-    },
-    {
-      "category": "Food and Dining",
-      "currentCount": 1,
-      "previousCount": 1,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "캐치테이블"
       ],
       "avgScore": 7.6
     }
@@ -396,6 +396,16 @@
       "category": "tag",
       "count": 55,
       "apps": [
+        "Health Exporter & Shortcuts",
+        "Surume - PS4 PS3 PS2 VITA XBOX",
+        "PACE - 目標ペース管理・習慣トラッカー",
+        "FrameSmoother: 60fps 슬로모션",
+        "Sidefill: Safari用 横幅いっぱい表示",
+        "크랙 - 내가 주인공인 웹소설, AI 채팅",
+        "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
+        "Scoopz: Real Life, Real Videos",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+        "CoinScope: AI Identifier",
         "해군PTSD알람",
         "Audoc: 문서·PDF 읽어주기",
         "Dashcam Viewer: for Tesla",
@@ -438,24 +448,20 @@
         "Swan Glide",
         "당근 - 당신 근처의 지역 생활 커뮤니티",
         "setlog",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "tomatolayer - 레퍼런스 구도 카메라",
-        "다들 평범한 세상에서 나만 스테이터스가 보인다",
-        "Hanziary",
-        "싸다보카: 영어 공부, 영단어, 회화, 어원, 발음",
-        "카네 Kane - 간편한 가계부",
-        "Bump - 친구 지도",
-        "Vinted: Shop & sell pre-loved",
-        "Whatnot: Shop, Sell, Connect",
-        "詐欺対策 by NTTタウンページ",
-        "うさポ by クラシル"
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 36,
+      "count": 37,
       "apps": [
+        "Health Exporter & Shortcuts",
+        "Surume - PS4 PS3 PS2 VITA XBOX",
+        "PACE - 目標ペース管理・習慣トラッカー",
+        "Sidefill: Safari用 横幅いっぱい表示",
+        "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
         "해군PTSD알람",
         "Audoc: 문서·PDF 읽어주기",
         "Dashcam Viewer: for Tesla",
@@ -486,19 +492,18 @@
         "指先の楽器 – 手首で演奏",
         "play_music_theory",
         "Swan Glide",
-        "setlog",
-        "tomatolayer - 레퍼런스 구도 카메라",
-        "다들 평범한 세상에서 나만 스테이터스가 보인다",
-        "Hanziary",
-        "싸다보카: 영어 공부, 영단어, 회화, 어원, 발음",
-        "카네 Kane - 간편한 가계부"
+        "setlog"
       ]
     },
     {
       "keyword": "AI",
       "category": "ai",
-      "count": 13,
+      "count": 17,
       "apps": [
+        "FrameSmoother: 60fps 슬로모션",
+        "크랙 - 내가 주인공인 웹소설, AI 채팅",
+        "Scoopz: Real Life, Real Videos",
+        "CoinScope: AI Identifier",
         "Audoc: 문서·PDF 읽어주기",
         "Untraced: Find the Suspect",
         "Suno - AI Music & Songs Maker",
@@ -506,51 +511,50 @@
         "Open Chair Finder",
         "G検定 対策 問題集 500問・解説・用語集",
         "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
-        "CoinScope: AI Identifier",
         "킹보드 - 맞춤법 검사기·번역 AI 키보드",
         "AHEALTH: Get Healthy Get Paid",
         "제타(zeta) - 상상이 현실이 되는 AI 채팅"
       ]
     },
     {
-      "keyword": "소셜",
-      "category": "social",
+      "keyword": "콘텐츠",
+      "category": "creator",
       "count": 8,
       "apps": [
-        "리드모어 - 독서 기록을 깔끔하게",
-        "Rips by Triumph",
-        "GoWish - Your Digital Wishlist",
-        "링크룸 - 아바타 방 꾸미기",
-        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
-        "Bump - 친구 지도",
-        "Whatnot: Shop, Sell, Connect"
-      ]
-    },
-    {
-      "keyword": "글로벌",
-      "category": "tag",
-      "count": 7,
-      "apps": [
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "TifoLive: Football Scores",
+        "크랙 - 내가 주인공인 웹소설, AI 채팅",
+        "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
         "Go Narrow: Study Antibiotics",
-        "피클: 나만의 AI 에이전트",
-        "CoinScope: AI Identifier",
-        "Practice Farm: 연습곡, 어떤 조로든",
-        "Vinted: Shop & sell pre-loved"
+        "Offline Survival Kit",
+        "BlinkDrama: Short Dramas & TV",
+        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+        "DramaBox - 미니시리즈 스트리밍 플레이어",
+        "損保一般試験対策"
       ]
     },
     {
       "keyword": "커뮤니티",
       "category": "social",
-      "count": 7,
+      "count": 8,
       "apps": [
+        "Scoopz: Real Life, Real Videos",
         "TifoLive: Football Scores",
         "아파트아이 - 아파트 생활 필수 앱",
         "RUB A DUB & CYPHER PLAYER",
         "Rips by Triumph",
-        "당근 - 당신 근처의 지역 생활 커뮤니티",
-        "Whatnot: Shop, Sell, Connect"
+        "당근 - 당신 근처의 지역 생활 커뮤니티"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 6,
+      "apps": [
+        "Sidefill: Safari用 横幅いっぱい表示",
+        "Go Narrow: Study Antibiotics",
+        "Lumap - 旅の写真を地図に",
+        "What Plane?",
+        "Practice Farm: 연습곡, 어떤 조로든",
+        "CrimeRadar by TownTalk"
       ]
     },
     {
@@ -558,12 +562,12 @@
       "category": "subscription",
       "count": 6,
       "apps": [
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
         "해군PTSD알람",
         "Auday - All-Day Watch Recorder",
         "DealSeek: Coupons & Discounts",
         "play_music_theory",
-        "Swan Glide",
-        "うさポ by クラシル"
+        "Swan Glide"
       ]
     },
     {
@@ -593,29 +597,61 @@
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
+      "keyword": "소셜",
+      "category": "social",
       "count": 6,
       "apps": [
-        "Go Narrow: Study Antibiotics",
-        "Lumap - 旅の写真を地図に",
-        "What Plane?",
-        "Practice Farm: 연습곡, 어떤 조로든",
-        "CrimeRadar by TownTalk",
-        "Hanziary"
+        "리드모어 - 독서 기록을 깔끔하게",
+        "Rips by Triumph",
+        "GoWish - Your Digital Wishlist",
+        "링크룸 - 아바타 방 꾸미기",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ"
       ]
     },
     {
-      "keyword": "콘텐츠",
-      "category": "creator",
+      "keyword": "글로벌",
+      "category": "tag",
       "count": 6,
       "apps": [
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "TifoLive: Football Scores",
         "Go Narrow: Study Antibiotics",
-        "Offline Survival Kit",
-        "BlinkDrama: Short Dramas & TV",
-        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
-        "DramaBox - 미니시리즈 스트리밍 플레이어",
-        "損保一般試験対策"
+        "피클: 나만의 AI 에이전트",
+        "CoinScope: AI Identifier",
+        "Practice Farm: 연습곡, 어떤 조로든"
+      ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "FrameSmoother: 60fps 슬로모션",
+        "Scoopz: Real Life, Real Videos",
+        "Dashcam Viewer: for Tesla",
+        "셀리 - 프롬프터 카메라",
+        "ShutterFinder: 빛 깜빡임 · 플리커 측정기"
+      ]
+    },
+    {
+      "keyword": "하이퍼로컬",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "Scoopz: Real Life, Real Videos",
+        "Open Chair Finder",
+        "CrimeRadar by TownTalk",
+        "당근 - 당신 근처의 지역 생활 커뮤니티"
+      ]
+    },
+    {
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "CoinScope: AI Identifier",
+        "RUB A DUB & CYPHER PLAYER",
+        "複線図トレーニング｜第二種電気工事士"
       ]
     },
     {
@@ -628,121 +664,91 @@
       ]
     },
     {
-      "keyword": "니치마켓",
-      "category": "tag",
-      "count": 4,
+      "keyword": "자동화",
+      "category": "productivity",
+      "count": 3,
       "apps": [
-        "RUB A DUB & CYPHER PLAYER",
-        "CoinScope: AI Identifier",
-        "複線図トレーニング｜第二種電気工事士",
-        "tomatolayer - 레퍼런스 구도 카메라"
+        "Health Exporter & Shortcuts",
+        "피클: 나만의 AI 에이전트"
       ]
     },
     {
-      "keyword": "영상",
-      "category": "creator",
+      "keyword": "헬스케어",
+      "category": "tag",
       "count": 3,
       "apps": [
-        "Dashcam Viewer: for Tesla",
+        "Health Exporter & Shortcuts",
+        "금줍줍: 만보기·게임 앱테크로 금한돈 벌기",
+        "FitToCal - 운동 캘린더 동기화"
+      ]
+    },
+    {
+      "keyword": "AI활용",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "FrameSmoother: 60fps 슬로모션",
+        "크랙 - 내가 주인공인 웹소설, AI 채팅",
+        "CoinScope: AI Identifier"
+      ]
+    },
+    {
+      "keyword": "크리에이터",
+      "category": "tag",
+      "count": 3,
+      "apps": [
+        "FrameSmoother: 60fps 슬로모션",
         "셀리 - 프롬프터 카메라",
         "ShutterFinder: 빛 깜빡임 · 플리커 측정기"
       ]
     },
     {
-      "keyword": "쇼핑테크",
+      "keyword": "유틸리티",
       "category": "tag",
       "count": 3,
       "apps": [
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜"
-      ]
-    },
-    {
-      "keyword": "명상",
-      "category": "health",
-      "count": 3,
-      "apps": [
-        "Suno - AI Music & Songs Maker",
-        "화참기",
-        "Swan Glide"
-      ]
-    },
-    {
-      "keyword": "워크플로우",
-      "category": "productivity",
-      "count": 3,
-      "apps": [
-        "Band Session Note: 손글씨 악보",
-        "RUB A DUB & CYPHER PLAYER",
-        "GigClick: Metronome, Setlist"
-      ]
-    },
-    {
-      "keyword": "MZ세대",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "CRT8: Analog Camera",
-        "링크룸 - 아바타 방 꾸미기",
-        "다들 평범한 세상에서 나만 스테이터스가 보인다"
-      ]
-    },
-    {
-      "keyword": "하이퍼로컬",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "Open Chair Finder",
-        "CrimeRadar by TownTalk",
-        "당근 - 당신 근처의 지역 생활 커뮤니티"
-      ]
-    },
-    {
-      "keyword": "자격증앱",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "G検定 対策 問題集 500問・解説・用語集",
-        "複線図トレーニング｜第二種電気工事士",
-        "損保一般試験対策"
+        "Sidefill: Safari用 横幅いっぱい表示",
+        "What Plane?",
+        "CleanX: 저장공간 정리"
       ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 52,
-        "percent": 74,
+        "count": 56,
+        "percent": 80,
         "examples": [
-          "해군PTSD알람",
-          "Dashcam Viewer: for Tesla",
-          "Untraced: Find the Suspect"
+          "Health Exporter & Shortcuts",
+          "Surume - PS4 PS3 PS2 VITA XBOX",
+          "PACE - 目標ペース管理・習慣トラッカー"
         ]
       },
       "freemium": {
-        "count": 54,
-        "percent": 77,
+        "count": 50,
+        "percent": 71,
         "examples": [
-          "해군PTSD알람",
-          "Audoc: 문서·PDF 읽어주기",
-          "Dashcam Viewer: for Tesla"
+          "Surume - PS4 PS3 PS2 VITA XBOX",
+          "PACE - 目標ペース管理・習慣トラッカー",
+          "크랙 - 내가 주인공인 웹소설, AI 채팅"
         ]
       },
       "subscription": {
-        "count": 48,
-        "percent": 69,
+        "count": 47,
+        "percent": 67,
         "examples": [
-          "Audoc: 문서·PDF 읽어주기",
-          "Untraced: Find the Suspect",
-          "리드모어 - 독서 기록을 깔끔하게"
+          "Health Exporter & Shortcuts",
+          "PACE - 目標ペース管理・習慣トラッカー",
+          "FrameSmoother: 60fps 슬로모션"
         ]
       },
       "onetime": {
-        "count": 30,
-        "percent": 43,
+        "count": 33,
+        "percent": 47,
         "examples": [
-          "해군PTSD알람",
-          "Dashcam Viewer: for Tesla",
-          "STATLAB - 실시간 산악 날씨"
+          "Health Exporter & Shortcuts",
+          "Surume - PS4 PS3 PS2 VITA XBOX",
+          "PACE - 目標ペース管理・習慣トラッカー"
         ]
       },
       "unknown": {
@@ -752,13 +758,13 @@
       }
     },
     "dominant": {
-      "model": "freemium",
-      "count": 54,
-      "percent": 77,
+      "model": "free",
+      "count": 56,
+      "percent": 80,
       "examples": [
-        "해군PTSD알람",
-        "Audoc: 문서·PDF 읽어주기",
-        "Dashcam Viewer: for Tesla"
+        "Health Exporter & Shortcuts",
+        "Surume - PS4 PS3 PS2 VITA XBOX",
+        "PACE - 目標ペース管理・習慣トラッカー"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -767,74 +773,73 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 13,
-        "percent": 19,
+        "count": 18,
+        "percent": 26,
         "apps": [
-          "Audoc: 문서·PDF 읽어주기",
-          "Untraced: Find the Suspect",
-          "Suno - AI Music & Songs Maker",
-          "피클: 나만의 AI 에이전트",
-          "Open Chair Finder"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 12,
-        "percent": 17,
-        "apps": [
-          "TifoLive: Football Scores",
-          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ",
-          "아파트아이 - 아파트 생활 필수 앱",
-          "RUB A DUB & CYPHER PLAYER",
-          "Rips by Triumph"
+          "FrameSmoother: 60fps 슬로모션",
+          "크랙 - 내가 주인공인 웹소설, AI 채팅",
+          "Scoopz: Real Life, Real Videos",
+          "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+          "CoinScope: AI Identifier"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 14,
+        "percent": 20,
         "apps": [
-          "Dashcam Viewer: for Tesla",
-          "Suno - AI Music & Songs Maker",
-          "Go Narrow: Study Antibiotics",
-          "셀리 - 프롬프터 카메라",
-          "Offline Survival Kit"
+          "FrameSmoother: 60fps 슬로모션",
+          "크랙 - 내가 주인공인 웹소설, AI 채팅",
+          "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
+          "Scoopz: Real Life, Real Videos",
+          "Dashcam Viewer: for Tesla"
         ]
       },
       {
-        "tech": "ar_vr",
-        "count": 8,
-        "percent": 11,
+        "tech": "social",
+        "count": 10,
+        "percent": 14,
         "apps": [
-          "Go Narrow: Study Antibiotics",
-          "Lumap - 旅の写真を地図に",
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-          "Practice Farm: 연습곡, 어떤 조로든",
-          "CrimeRadar by TownTalk"
+          "Scoopz: Real Life, Real Videos",
+          "TifoLive: Football Scores",
+          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ",
+          "아파트아이 - 아파트 생활 필수 앱",
+          "RUB A DUB & CYPHER PLAYER"
         ]
       },
       {
         "tech": "productivity",
-        "count": 6,
-        "percent": 9,
+        "count": 7,
+        "percent": 10,
         "apps": [
+          "Health Exporter & Shortcuts",
           "TifoLive: Football Scores",
           "Band Session Note: 손글씨 악보",
           "피클: 나만의 AI 에이전트",
-          "RUB A DUB & CYPHER PLAYER",
-          "GigClick: Metronome, Setlist"
+          "RUB A DUB & CYPHER PLAYER"
+        ]
+      },
+      {
+        "tech": "ar_vr",
+        "count": 6,
+        "percent": 9,
+        "apps": [
+          "Sidefill: Safari用 横幅いっぱい表示",
+          "Go Narrow: Study Antibiotics",
+          "Lumap - 旅の写真を地図に",
+          "킹보드 - 맞춤법 검사기·번역 AI 키보드",
+          "Practice Farm: 연습곡, 어떤 조로든"
         ]
       },
       {
         "tech": "subscription",
-        "count": 5,
-        "percent": 7,
+        "count": 4,
+        "percent": 6,
         "apps": [
           "해군PTSD알람",
           "킹보드 - 맞춤법 검사기·번역 AI 키보드",
           "Practice Farm: 연습곡, 어떤 조로든",
-          "Swan Glide",
-          "うさポ by クラシル"
+          "Swan Glide"
         ]
       },
       {
@@ -857,63 +862,63 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 13,
-      "percent": 19,
+      "count": 18,
+      "percent": 26,
       "apps": [
-        "Audoc: 문서·PDF 읽어주기",
-        "Untraced: Find the Suspect",
-        "Suno - AI Music & Songs Maker",
-        "피클: 나만의 AI 에이전트",
-        "Open Chair Finder"
+        "FrameSmoother: 60fps 슬로모션",
+        "크랙 - 내가 주인공인 웹소설, AI 채팅",
+        "Scoopz: Real Life, Real Videos",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+        "CoinScope: AI Identifier"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 13,
-        "percent": 19,
+        "count": 18,
+        "percent": 26,
         "apps": [
-          "Audoc: 문서·PDF 읽어주기",
-          "Untraced: Find the Suspect",
-          "Suno - AI Music & Songs Maker",
-          "피클: 나만의 AI 에이전트",
-          "Open Chair Finder"
-        ]
-      },
-      {
-        "tech": "social",
-        "count": 12,
-        "percent": 17,
-        "apps": [
-          "TifoLive: Football Scores",
-          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ",
-          "아파트아이 - 아파트 생활 필수 앱",
-          "RUB A DUB & CYPHER PLAYER",
-          "Rips by Triumph"
+          "FrameSmoother: 60fps 슬로모션",
+          "크랙 - 내가 주인공인 웹소설, AI 채팅",
+          "Scoopz: Real Life, Real Videos",
+          "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+          "CoinScope: AI Identifier"
         ]
       },
       {
         "tech": "creator",
-        "count": 11,
-        "percent": 16,
+        "count": 14,
+        "percent": 20,
         "apps": [
-          "Dashcam Viewer: for Tesla",
-          "Suno - AI Music & Songs Maker",
-          "Go Narrow: Study Antibiotics",
-          "셀리 - 프롬프터 카메라",
-          "Offline Survival Kit"
+          "FrameSmoother: 60fps 슬로모션",
+          "크랙 - 내가 주인공인 웹소설, AI 채팅",
+          "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
+          "Scoopz: Real Life, Real Videos",
+          "Dashcam Viewer: for Tesla"
         ]
       },
       {
-        "tech": "ar_vr",
-        "count": 8,
-        "percent": 11,
+        "tech": "social",
+        "count": 10,
+        "percent": 14,
         "apps": [
-          "Go Narrow: Study Antibiotics",
-          "Lumap - 旅の写真を地図に",
-          "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-          "Practice Farm: 연습곡, 어떤 조로든",
-          "CrimeRadar by TownTalk"
+          "Scoopz: Real Life, Real Videos",
+          "TifoLive: Football Scores",
+          "スキマバイトはタイミー｜単発バイト・短期バイト探しアプリ",
+          "아파트아이 - 아파트 생활 필수 앱",
+          "RUB A DUB & CYPHER PLAYER"
+        ]
+      },
+      {
+        "tech": "productivity",
+        "count": 7,
+        "percent": 10,
+        "apps": [
+          "Health Exporter & Shortcuts",
+          "TifoLive: Football Scores",
+          "Band Session Note: 손글씨 악보",
+          "피클: 나만의 AI 에이전트",
+          "RUB A DUB & CYPHER PLAYER"
         ]
       }
     ]
@@ -921,10 +926,10 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "Social Networking 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Reference 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Social Networking"
+      "category": "Reference"
     },
     {
       "type": "rising_category",
@@ -939,13 +944,6 @@
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Sports"
-    },
-    {
-      "type": "rising_category",
-      "title": "Rewards 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Rewards"
     },
     {
       "type": "rising_category",
@@ -1012,42 +1010,49 @@
     },
     {
       "type": "rising_category",
-      "title": "Health & Fitness 카테고리 급부상",
+      "title": "Food and Dining 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Health & Fitness"
+      "category": "Food and Dining"
     },
     {
       "type": "rising_category",
-      "title": "Safety 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Social Networking 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Safety"
+      "category": "Social Networking"
     },
     {
       "type": "rising_category",
-      "title": "Utilities 카테고리 급부상",
-      "description": "33% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Education 카테고리 급부상",
+      "description": "50% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Utilities"
+      "category": "Education"
+    },
+    {
+      "type": "tech_trend",
+      "title": "AI 기능 통합 트렌드",
+      "description": "26%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "confidence": "high",
+      "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Education 카테고리가 400% 급등하며 학습 앱 수요가 폭발적으로 증가하고 있고, AI(19%)와 소셜(17%) 기술이 앱의 핵심 차별화 요소로 자리잡고 있습니다. 프리미엄(77%)과 구독(69%) 모델이 높은 채택률을 보이며, 1인 개발 가능 태그가 36회로 인디 개발자 친화적 아이디어가 활발히 공유되고 있습니다.",
+    "trend_summary": "Reference, Travel, Sports, Weather 등 다양한 카테고리가 동시에 100% 급상승하며 틈새 시장 기회가 폭발적으로 열리고 있습니다. '1인개발가능' 태그가 37회로 높은 관심을 받으며 인디 개발자 친화적 아이디어가 주목받고 있고, AI 기능 통합(26%)과 Freemium 모델(71%)이 시장의 주류 전략으로 자리잡고 있습니다. B2C 중심의 구독 모델 앱이 증가하는 가운데, 소규모 카테고리의 선점 경쟁이 본격화되고 있습니다.",
     "trend_details": [
-      "Education 카테고리 400% 급등 — AI 튜터, 마이크로러닝, 언어학습 등 학습 앱의 황금기 도래",
-      "Social Networking 200% 성장에도 앱 수 적어 — 커뮤니티 기반 니치 소셜 앱의 블루오션",
-      "freemium + 구독 조합이 대세 — 무료로 유입 후 구독으로 전환하는 하이브리드 수익 모델이 표준화"
+      "Reference·Travel·Sports·Weather 카테고리 동시 100% 급상승 — 아직 앱 수가 적어 선점 가능성 높음",
+      "AI 기능 탑재 앱이 전체의 26%로 증가, 비AI 카테고리에 AI를 접목한 차별화 전략이 유효",
+      "Freemium(71%)·구독(67%) 모델이 무료(80%)와 함께 혼합 적용되며 수익화 다각화가 표준화"
     ],
     "hot_categories": [
-      "Education",
-      "Social Networking",
-      "Health & Fitness",
-      "AI Assistant",
-      "Travel"
+      "Reference",
+      "Travel",
+      "Sports",
+      "Weather",
+      "Health and Fitness"
     ],
-    "opportunity": "Education 카테고리의 400% 성장과 AI(19%) 트렌드를 결합한 1인 개발 가능한 AI 기반 마이크로러닝 앱이 가장 유망하다.",
-    "action_item": "한국 특화(6회) + AI + 교육 조합으로, 한국 커리큘럼에 맞춘 AI 학습 도우미 앱의 MVP를 freemium 모델로 2주 내 출시해보세요.",
-    "weekly_theme": "AI 교육 소셜"
+    "opportunity": "앱 수가 1~2개에 불과한 Reference·Travel·Sports 카테고리에 AI 기능을 결합한 한국 특화 앱을 Freemium 모델로 출시하면 초기 선점 효과를 극대화할 수 있습니다.",
+    "action_item": "급상승 카테고리(Reference, Travel, Sports) 중 본인의 도메인 지식과 겹치는 한 가지를 골라, AI 기능 하나를 핵심으로 한 MVP를 구독 모델로 2주 내 출시 계획을 수립하세요.",
+    "weekly_theme": "틈새 AI 선점"
   }
 }
