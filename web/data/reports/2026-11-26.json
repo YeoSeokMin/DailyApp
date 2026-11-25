@@ -1,0 +1,690 @@
+{
+  "date": "2026-11-26",
+  "ios": [
+    {
+      "rank": 1,
+      "name": "노그미: AI 녹음 노트",
+      "developer": "You Dohyuk",
+      "category": "Productivity",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/28/e6/9628e6da-25a6-1746-defe-925f03754222/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EB%85%B8%EA%B7%B8%EB%AF%B8-ai-%EB%85%B9%EC%9D%8C-%EB%85%B8%ED%8A%B8/id6775334158",
+      "source_id": "bdbaf06609f705039ef052d6",
+      "idea_summary": "AI로 음성 녹음을 구조화된 노트로 자동 변환",
+      "analysis": {
+        "problem": "회의·강의 후 음성을 수동으로 정리해야 하는 비효율 존재 [확인]",
+        "solution": "AI 음성 인식으로 녹음 → 구조화된 노트 자동 생성 파이프라인 제공 [추론]",
+        "target_user": "회의 多 직장인·학생, 한국어 사용자 [추론]",
+        "unique_point": "한국어 특화 AI 노트화 + 현지 인디 개발자의 UX 집중 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Otter.ai",
+          "Clova Note",
+          "Whisper Memos"
+        ],
+        "timing_reason": "LLM 기반 음성→텍스트 품질이 실용 수준에 도달한 2025~2026년 타이밍 [추론]",
+        "growth_potential": "AI 생산성 도구 수요 급성장, 한국어 특화로 로컬 경쟁 우위 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (무료 녹음 시간 제한 → 유료 무제한) [추론]",
+        "pricing_suggestion": "월 4,900~9,900원 구독 + 초과 사용량 IAP [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "iOS 단독 MVP 3~5개월 [추론]",
+        "estimated_cost": "1500~3000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "OpenAI Whisper API",
+          "GPT-4o",
+          "CoreData"
+        ],
+        "key_features": [
+          "실시간 녹음",
+          "AI 자동 요약·분류",
+          "키워드 추출",
+          "노트 편집·내보내기"
+        ],
+        "clone_tip": "Whisper API 전사 후 GPT 요약/분류 파이프라인 구성이 핵심, 한국어 프롬프트 품질이 실제 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#AI생산성",
+        "#한국어특화"
+      ],
+      "verdict": "AI 녹음 노트 시장 존재하나 한국어 특화 품질로 차별화 충분히 가능",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "tomatolayer - 레퍼런스 구도 카메라",
+      "developer": "Wonwoo Jun",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/07/1d/6b071d38-f7d4-0f60-043e-70f8368e5cc2/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/tomatolayer-%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4-%EA%B5%AC%EB%8F%84-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6831056897",
+      "source_id": "26e6b17713bd8fd2f8a86fe9",
+      "idea_summary": "레퍼런스 이미지 오버레이로 동일 구도 재현 카메라",
+      "analysis": {
+        "problem": "레퍼런스 사진과 동일한 구도·앵글 재현이 어렵고 반복 시도에 시간 낭비 [추론]",
+        "solution": "카메라 뷰파인더 위에 반투명 레퍼런스 이미지를 오버레이해 구도 가이드 실시간 제공 [추론]",
+        "target_user": "콘텐츠 크리에이터, 사진 작가, 영상 디렉터, 사진 학습자 [추론]",
+        "unique_point": "레퍼런스 구도 재현 특화 기능으로 카메라 앱 중 독보적 니치 포지션 점유 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Halide",
+          "ProCamera",
+          "Camera+"
+        ],
+        "timing_reason": "1인 SNS 콘텐츠 제작 인구 급증 및 레퍼런스 기반 창작 트렌드 확산 [추론]",
+        "growth_potential": "1인 크리에이터 시장 성장과 함께 니치 카메라 도구 수요 중기 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 구매 또는 고급 오버레이 기능 IAP [추론]",
+        "pricing_suggestion": "기본 무료 + 고급 오버레이 기능 3,900원 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~4개월 [추론]",
+        "estimated_cost": "500~1500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "CoreImage",
+          "Metal"
+        ],
+        "key_features": [
+          "카메라 뷰파인더 오버레이",
+          "투명도 조절",
+          "레퍼런스 이미지 갤러리",
+          "격자 가이드"
+        ],
+        "clone_tip": "AVFoundation 커스텀 카메라 뷰 구성 후 UIKit 레이어 오버레이 로직 구현, Metal 활용 시 성능 최적화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사진작가",
+        "#니치마켓"
+      ],
+      "verdict": "크리에이터 대상 명확한 니치 문제 해결, 인디 개발자 클론 난이도 낮음",
+      "country": "kr"
+    },
+    {
+      "rank": 3,
+      "name": "아띠모 - 사진 정리 · 밀착인화",
+      "developer": "jimin Ok",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/ae/92/87ae92ed-7ea0-8d77-c38b-9ebbdc264be5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%EC%95%84%EB%9D%A0%EB%AA%A8-%EC%82%AC%EC%A7%84-%EC%A0%95%EB%A6%AC-%EB%B0%80%EC%B0%A9%EC%9D%B8%ED%99%94/id6837598809",
+      "source_id": "8e60580b8aa554341521bd2a",
+      "idea_summary": "사진 정리와 무테 인화 연결을 하나의 앱으로 통합",
+      "analysis": {
+        "problem": "사진 정리 앱과 인화 서비스가 분리되어 있고 무테 인화 최적화 앱 부재 [추론]",
+        "solution": "사진 정리 + 무테 인화 주문 연결을 원스톱 워크플로우로 제공 [추론]",
+        "target_user": "사진 인화를 즐기는 20~30대 여성, 추억 보관에 관심 많은 사용자 [추론]",
+        "unique_point": "정리→인화 워크플로우 통합 및 무테(borderless) 인화 특화 포지셔닝 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Google Photos",
+          "Momento",
+          "Chatbooks"
+        ],
+        "timing_reason": "디지털 피로감으로 인한 실물 사진 인화 니즈 재부상 트렌드 [추론]",
+        "growth_potential": "피지컬 포토북·인화 시장 꾸준한 니치 수요 유지, 인화 서비스 연동 B2B 기회 존재 [추론]"
+      },
+      "business": {
+        "monetization": "인화 주문 중개 수수료 + 프리미엄 정리 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료 + 인화 주문 시 마진 수익 구조 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "1000~2500만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Photos Framework",
+          "Core Data",
+          "인화 파트너 API"
+        ],
+        "key_features": [
+          "사진 자동 분류",
+          "무테 인화 주문",
+          "앨범 편집",
+          "주문 추적"
+        ],
+        "clone_tip": "Photos Framework 사진 접근 후 스냅스·후지필름 등 인화 API 연동이 핵심, 무테 레이아웃 계산 로직 선행 개발 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사진인화",
+        "#워크플로우통합"
+      ],
+      "verdict": "정리+인화 통합 UX 차별점 명확, 인화 API 파트너십 확보가 성패 좌우",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "키냥: 기계식 키보드 타자 소리·키캡 꾸미기 테마",
+      "developer": "jeonghwan lee",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/8d/9d/1d8d9d55-c563-b17a-793f-c33b37a49cdb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/%ED%82%A4%EB%83%A5-%EA%B8%B0%EA%B3%84%EC%8B%9D-%ED%82%A4%EB%B3%B4%EB%93%9C-%ED%83%80%EC%9E%90-%EC%86%8C%EB%A6%AC-%ED%82%A4%EC%BA%A1-%EA%BE%B8%EB%AF%B8%EA%B8%B0-%ED%85%8C%EB%A7%88/id6821991160",
+      "source_id": "6dbef23068ceb099256d8ca7",
+      "idea_summary": "모바일 타이핑에 기계식 키보드 사운드·테마 적용",
+      "analysis": {
+        "problem": "기계식 키보드 마니아들이 모바일 타이핑에서 같은 감성 경험을 할 수 없는 불만 [추론]",
+        "solution": "커스텀 타이핑 사운드팩 + 키캡 테마로 모바일 키보드 경험 커스터마이징 제공 [추론]",
+        "target_user": "기계식 키보드 커뮤니티, 개인화 선호 MZ세대, 타이핑 감성 추구자 [추론]",
+        "unique_point": "키보드 사운드 + 키캡 비주얼 테마 결합으로 완성도 있는 커스터마이징 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Keycap",
+          "Fleksy",
+          "Typewise"
+        ],
+        "timing_reason": "기계식 키보드 커뮤니티 급성장 및 개인화 앱 트렌드와 맞물린 타이밍 [추론]",
+        "growth_potential": "커스터마이징 도구 시장은 충성 사용자 기반 강하여 반복 구매 가능성 높음 [추론]"
+      },
+      "business": {
+        "monetization": "사운드팩·테마 IAP + 프리미엄 구독 [추론]",
+        "pricing_suggestion": "기본 무료 + 테마팩 1,900~3,900원 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "500~1000만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Custom Keyboard Extension",
+          "UIKit"
+        ],
+        "key_features": [
+          "커스텀 타이핑 사운드",
+          "키캡 테마",
+          "사운드팩 다운로드",
+          "진동 햅틱 피드백"
+        ],
+        "clone_tip": "iOS Custom Keyboard Extension 구현, AVAudioEngine 저지연 사운드 처리가 핵심, App Store 키보드 확장 심사 정책 사전 확인 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 5,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#커스터마이징",
+        "#니치마켓"
+      ],
+      "verdict": "기계식 키보드 마니아 대상 명확한 니치, IAP 수익 모델로 1인 개발 적합",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "name": "山でこまったときに開くアプリ",
+      "developer": "ORANGEBEAR,K.K.",
+      "category": "Navigation",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/65/76/a7657648-b80e-7c83-f361-153d0cdd21ca/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/%E5%B1%B1%E3%81%A7%E3%81%93%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AB%E9%96%8B%E3%81%8F%E3%82%A2%E3%83%97%E3%83%AA/id6808117986",
+      "source_id": "c20d483e35a94e88266dac4c",
+      "idea_summary": "산악 조난 시 즉시 열어보는 긴급 대처 가이드 앱",
+      "analysis": {
+        "problem": "산악 조난 상황에서 당황하여 올바른 대처 방법을 모르는 문제 존재 [추론]",
+        "solution": "오프라인 작동 가능한 산악 긴급 상황별 대처 가이드 + 위치 정보 전송 기능 제공 [추론]",
+        "target_user": "등산객, 하이킹·트레킹 아웃도어 활동가, 일본·한국 중장년 등산 인구 [추론]",
+        "unique_point": "조난 순간 특화 단일 목적 앱으로 복잡성 없이 즉시 사용 가능한 UX 설계 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "산림청 등산안전 앱",
+          "Komoot",
+          "AllTrails"
+        ],
+        "timing_reason": "등산 인구 증가 및 산악 조난 사고 증가에 따른 안전 앱 수요 상승 [추론]",
+        "growth_potential": "일본·한국 등 등산 문화 강한 시장에서 안전 앱 카테고리 성장 가능성 [추론]"
+      },
+      "business": {
+        "monetization": "일회성 유료 구매 또는 프리미엄 고급 가이드 콘텐츠 IAP [추론]",
+        "pricing_suggestion": "유료 앱 600~1200엔 또는 무료+고급 가이드 콘텐츠 IAP [추론]",
+        "revenue_potential": "하"
+      },
+      "dev_insight": {
+        "estimated_period": "2~3개월 [추론]",
+        "estimated_cost": "300~800만원 [추론]",
+        "tech_stack": [
+          "Swift",
+          "MapKit",
+          "CoreLocation",
+          "Offline SQLite"
+        ],
+        "key_features": [
+          "오프라인 긴급 가이드",
+          "GPS 위치 공유",
+          "조난 신고 연결",
+          "날씨 연동"
+        ],
+        "clone_tip": "콘텐츠 품질(실제 산악 구조 전문가 협력)이 기술보다 중요, 오프라인 우선 설계 필수, 등산 커뮤니티 채널 바이럴 활용 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 5,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 3,
+        "competition": 4,
+        "profitability": 2,
+        "scalability": 2,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#아웃도어안전",
+        "#오프라인앱"
+      ],
+      "verdict": "명확한 단일 목적 안전 앱, 등산 커뮤니티 타겟 마케팅으로 한국·일본 시장 공략 가능",
+      "country": "jp"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "name": "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+      "developer": "Yessi · WellBit",
+      "category": "Lifestyle",
+      "icon": "https://play-lh.googleusercontent.com/r6-pagXw5c_HA4sYn8QofaAIW5t7qmw_6VlDhDTV-LQcCCtjZxYKCiwkEPzmJpKx8m7Yye7oos9MOf1l6hssbw",
+      "app_url": "https://play.google.com/store/apps/details?id=net.fidgetpop.malang",
+      "source_id": "f7ceba0943d54b5523ff64b0",
+      "idea_summary": "도파민 자극 귀여운 캐릭터·키캡으로 꾸미는 잠금화면",
+      "analysis": {
+        "problem": "기본 잠금화면의 단조로움과 개성 표현 욕구 미충족 [추론]",
+        "solution": "귀여운 캐릭터·키캡 컬렉션으로 잠금화면을 도파민 자극 커스터마이징 공간으로 변환 [추론]",
+        "target_user": "개인화·수집 좋아하는 10~20대 여성, 캐릭터 굿즈 팬 [추론]",
+        "unique_point": "피젯팝 감성의 도파민 디자인 + 잠금화면 특화로 타 커스터마이징 앱과 차별화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "ZEDGE",
+          "Widgetsmith",
+          "Lock Screen Maker"
+        ],
+        "timing_reason": "도파민 디자인 트렌드 및 MZ세대의 스마트폰 개인화 열풍 타이밍 [추론]",
+        "growth_potential": "캐릭터 IP 확장 및 시즌 한정 아이템 모델로 반복 수익 창출 가능 [추론]"
+      },
+      "business": {
+        "monetization": "캐릭터·테마 IAP + 구독 (신규 컬렉션 정기 출시) [추론]",
+        "pricing_suggestion": "기본 무료 + 테마팩 2,900~5,900원 또는 월 3,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "3~5개월 [추론]",
+        "estimated_cost": "1000~2000만원 (캐릭터 디자인 비용 포함) [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Android Live Wallpaper API",
+          "Firebase",
+          "Lottie Animation"
+        ],
+        "key_features": [
+          "캐릭터 잠금화면",
+          "키캡 수집 시스템",
+          "시즌 한정 테마",
+          "인터랙티브 애니메이션"
+        ],
+        "clone_tip": "Android Live Wallpaper + KeyguardManager API 활용, 캐릭터 디자인 품질이 성패 좌우, 시즌 컬렉션 운영 체계 사전 기획 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#B2C",
+        "#캐릭터IP",
+        "#개인화",
+        "#MZ여성"
+      ],
+      "verdict": "도파민 디자인 트렌드 타이밍 완벽, 캐릭터 디자이너 협업이 핵심 성공 조건",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "name": "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+      "developer": "Scatter Lab, Inc.",
+      "category": "Artificial Intelligence",
+      "icon": "https://play-lh.googleusercontent.com/7BHCCDafgblr3UBNNx-ELJ_Ni1mA_iesxlPnyAQXXR1AeHtjwgNLmSRqWXlJg7EhKuE5__EvkoRmycKTQ3X_",
+      "app_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger",
+      "source_id": "b1785cfa5e794f4ad880e178",
+      "idea_summary": "AI 캐릭터와 롤플레이·인터랙티브 스토리텔링 대화",
+      "analysis": {
+        "problem": "AI 대화 앱의 획일적 어시스턴트 경험, 캐릭터 감성·엔터테인먼트 요소 부재 [추론]",
+        "solution": "개성 있는 AI 캐릭터와 롤플레이 및 스토리텔링 중심의 대화 경험 제공 [추론]",
+        "target_user": "AI 캐릭터 대화에 관심 있는 10~30대, 엔터테인먼트·감성 추구 사용자 [추론]",
+        "unique_point": "Scatter Lab의 한국어 대화 AI 기술력 기반 캐릭터 특화 대화 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Character.AI",
+          "Replika",
+          "Janitor AI"
+        ],
+        "timing_reason": "LLM 기반 AI 캐릭터 시장 급성장과 한국어 AI 대화 품질 향상 타이밍 [추론]",
+        "growth_potential": "AI 엔터테인먼트 시장 성장세 강하나 경쟁 치열, 한국어 품질 우위로 국내 방어 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (대화 횟수 무제한, 고급 캐릭터 접근) + 캐릭터 IAP [추론]",
+        "pricing_suggestion": "월 9,900~19,900원 구독 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 (AI 모델 파인튜닝 포함) [추론]",
+        "estimated_cost": "5000만원~1억원 이상 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "LLM API",
+          "Firebase",
+          "WebSocket"
+        ],
+        "key_features": [
+          "AI 캐릭터 대화",
+          "롤플레이 모드",
+          "감정 반응 시스템",
+          "스토리 분기"
+        ],
+        "clone_tip": "GPT/Claude API로 캐릭터 페르소나 프롬프트 엔지니어링 집중, 1인 개발 시 모델 파인튜닝보다 프롬프트 품질이 현실적 접근법 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 2,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.9
+      },
+      "tags": [
+        "#B2C",
+        "#AI엔터테인먼트",
+        "#캐릭터대화",
+        "#구독모델"
+      ],
+      "verdict": "AI 캐릭터 대화 시장 성장 명확하나 경쟁 심화, 한국어 품질이 현지 경쟁 우위 핵심",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "name": "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+      "developer": "NBT Inc.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/6Ck4Kj05cPdj_1yN59roAEVjysBRBKaeDjcs9YANt4V2PULD0UGQQVBT7myxJcNSc2i-3USNe5RhixR8epSY",
+      "app_url": "https://play.google.com/store/apps/details?id=today.chips",
+      "source_id": "ef4ac1dfc4dc802caf0b79f8",
+      "idea_summary": "가격 추적 + 최저가 알림 + 리워드 결합 쇼핑 절약 앱",
+      "analysis": {
+        "problem": "원하는 상품 가격 변동을 수동으로 체크해야 하는 번거로움과 최저가 놓침 [추론]",
+        "solution": "상품 URL 등록 후 가격 추적·최저가 알림 + 리퍼럴 리워드로 절약 동기 부여 [추론]",
+        "target_user": "온라인 쇼핑 절약 추구 소비자, 체리피커, 20~40대 쇼핑앱 활성 사용자 [추론]",
+        "unique_point": "가격 추적 + 리워드 시스템 결합으로 사용자 충성도와 바이럴 효과 동시 추구 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey",
+          "에누리",
+          "다나와",
+          "Rakuten"
+        ],
+        "timing_reason": "고물가 시대 절약 소비 트렌드 및 쇼핑 리워드 앱 성장세 맞물림 [추론]",
+        "growth_potential": "이커머스 시장 지속 성장과 절약 소비 트렌드로 중기 성장 가능성 존재 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 쇼핑 수수료 (쿠팡파트너스 등) + 광고 + 프리미엄 알림 기능 구독 [추론]",
+        "pricing_suggestion": "기본 무료 + 고급 알림 기능 월 2,900원 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3~6개월 [추론]",
+        "estimated_cost": "1500~3000만원 (크롤링 인프라 포함) [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Python 크롤링 서버",
+          "Firebase",
+          "FCM Push Notification"
+        ],
+        "key_features": [
+          "상품 URL 가격 추적",
+          "최저가 푸시 알림",
+          "가격 히스토리 그래프",
+          "리워드 적립"
+        ],
+        "clone_tip": "가격 크롤링 안정성이 핵심 기술 과제, 쿠팡·네이버쇼핑 공식 API 활용 가능 여부 선행 조사 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 5,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.5
+      },
+      "tags": [
+        "#B2C",
+        "#쇼핑절약",
+        "#리워드",
+        "#이커머스"
+      ],
+      "verdict": "절약 트렌드 타이밍 좋으나 경쟁 강한 카테고리, 크롤링 안정성과 리워드 차별화가 성패",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "name": "CrimeRadar by TownTalk",
+      "developer": "TownTalk Labs LLC",
+      "category": "News",
+      "icon": "https://play-lh.googleusercontent.com/3b7_a7m50wFj68Afd6q0bhq2HPTWQlgeViv9B9tEbhChS3h4nVTo-HotZF4OmShKwT2_zhNAr3alwYRWBjiC_g",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newsbreak.crimeradar",
+      "source_id": "df5662bec0fbbf1fc3dda789",
+      "idea_summary": "지역 범죄 정보·안전 경보를 지도 위에 시각화",
+      "analysis": {
+        "problem": "주변 지역의 범죄·안전 현황을 쉽게 파악할 수 없는 정보 부재 [추론]",
+        "solution": "지역화된 범죄 데이터 집계 및 지도 기반 시각화·실시간 안전 경보 제공 [추론]",
+        "target_user": "미국 거주 주민, 이사 고려 중인 가족, 안전에 민감한 부모·여성 [추론]",
+        "unique_point": "지역 범죄 데이터 특화 버티컬 앱으로 일반 뉴스 앱과 차별화된 안전 정보 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Citizen",
+          "Neighbors by Ring",
+          "SpotCrime"
+        ],
+        "timing_reason": "지역 안전 정보 수요 증가 및 공개 범죄 데이터 접근성 향상 [추론]",
+        "growth_potential": "미국 외 한국·일본 등 안전 의식 높은 시장으로 확장 가능성 존재 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 구독 (고급 알림·상세 데이터 접근) + 지역 광고 [추론]",
+        "pricing_suggestion": "기본 무료 + 월 2.99~4.99달러 프리미엄 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "4~6개월 [추론]",
+        "estimated_cost": "2000~4000만원 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Google Maps API",
+          "공공 범죄 데이터 API",
+          "Firebase"
+        ],
+        "key_features": [
+          "지도 기반 범죄 시각화",
+          "지역 안전 점수",
+          "실시간 경보 알림",
+          "트렌드 분석"
+        ],
+        "clone_tip": "미국 경찰청 공개 API(crime data)와 Google Maps 조합이 핵심, 한국은 공공데이터포털 범죄 통계 활용 가능하나 실시간성 제한 사전 확인 필요 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#B2C",
+        "#로컬정보",
+        "#안전앱",
+        "#공공데이터활용"
+      ],
+      "verdict": "공공 범죄 데이터 기반 명확한 가치 제안, 미국 시장 타겟 시 Citizen이 강력한 경쟁 장벽",
+      "country": "us"
+    },
+    {
+      "rank": 5,
+      "name": "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+      "developer": "KAUCHE, Inc.",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/JlFBqCUQAm4I540IYJQoNUb0ChrVuvGj6ezhTrFOo6P0znipd3dqSsNinHFoL3O_esVRjcpP6VKVu6YXdIJyrg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.kauche.kauche",
+      "source_id": "1c9b49334fffb22e0f036ef6",
+      "idea_summary": "소셜 그룹 구매·엔터테인먼트 쇼핑 디스커버리 앱",
+      "analysis": {
+        "problem": "혼자 하는 온라인 쇼핑의 발견 경험 부족과 그룹 구매 혜택 미활용 [추론]",
+        "solution": "소셜 쇼핑 피드 + 그룹 구매 + 엔터테인먼트 요소 결합으로 쇼핑 발견 경험 혁신 [추론]",
+        "target_user": "소셜 쇼핑 선호 20~30대, 일본 MZ 소비자, 그룹 혜택 추구 사용자 [추론]",
+        "unique_point": "소셜+그룹구매+엔터테인먼트 삼각 결합으로 단순 쇼핑 앱을 넘어선 경험 제공 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Pinduoduo",
+          "TEMU",
+          "LINEショッピング"
+        ],
+        "timing_reason": "소셜 커머스 재부상 및 엔터테인먼트 쇼핑 트렌드(숏폼+쇼핑 융합) 타이밍 [추론]",
+        "growth_potential": "일본 소셜 커머스 시장 성장 초기 단계, 선점 효과 기대 가능 [추론]"
+      },
+      "business": {
+        "monetization": "쇼핑 중개 수수료 + 브랜드 프로모션 광고 + 프리미엄 멤버십 [추론]",
+        "pricing_suggestion": "기본 무료 + 거래 수수료 모델, 멤버십 월 980엔 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "6~12개월 [추론]",
+        "estimated_cost": "5000만원~2억원 (커머스 인프라 포함) [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "결제 API",
+          "추천 엔진"
+        ],
+        "key_features": [
+          "소셜 쇼핑 피드",
+          "그룹 구매",
+          "딜 발견",
+          "친구 초대 리워드"
+        ],
+        "clone_tip": "1인 개발 시 소셜 기능 단순화 필수, 특정 카테고리(뷰티·패션)에 집중한 버티컬 소셜 쇼핑으로 시작 추천 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 3,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 5,
+        "overall": 7.3
+      },
+      "tags": [
+        "#B2C",
+        "#소셜커머스",
+        "#그룹구매",
+        "#일본시장"
+      ],
+      "verdict": "소셜 커머스 모델 성공 사례 존재하나 초기 사용자 획득과 공급자 확보가 핵심 과제",
+      "country": "jp"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "AI 생산성 도구와 개인화 커스터마이징 앱이 오늘의 핵심 트렌드로 부상했으며, 니치 타겟(등산객·기계식 키보드 마니아·사진 작가)을 겨냥한 인디 앱이 두드러진다. 소셜 커머스와 AI 엔터테인먼트 대화 앱은 Android 플랫폼에서 한국·일본 시장을 중심으로 성장 기회를 보이고 있다.",
+    "trend_details": [
+      "AI 음성→노트 변환: LLM 품질 향상으로 한국어 특화 생산성 도구 시장 경쟁 가속화 [추론]",
+      "니치 카메라 도구: 레퍼런스 구도 재현·무테 인화 등 크리에이터 특화 서브카테고리 성장 [추론]",
+      "도파민 개인화: 귀여운 캐릭터·키캡 테마 등 MZ세대 감성 커스터마이징 앱 수요 지속 [추론]",
+      "안전 정보 버티컬: 지역 범죄·산악 조난 등 안전 특화 앱의 공공데이터 활용 가속화 [추론]",
+      "소셜 커머스 재부상: 그룹 구매+엔터테인먼트 결합 쇼핑 모델이 한국·일본 시장에서 재시도 중 [추론]"
+    ],
+    "hot_categories": [
+      "AI 생산성",
+      "니치 카메라 도구",
+      "개인화 커스터마이징",
+      "안전 앱",
+      "소셜 커머스"
+    ],
+    "opportunity": "한국어 특화 AI 생산성 도구와 오프라인 우선 설계의 안전·아웃도어 앱 영역에서 1인 인디 개발자가 대기업 대비 민첩하게 니치 시장을 선점할 기회 존재 [추론]",
+    "action_item": "AI 음성 녹음→노트 앱 MVP 개발 시 Whisper API + GPT-4o 파이프라인 프로토타입을 1주 내 구현해 한국어 품질 검증을 선행할 것 [추론]"
+  },
+  "data_status": {}
+}
