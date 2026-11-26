@@ -1,0 +1,713 @@
+{
+  "date": "2026-11-27",
+  "ios": [
+    {
+      "rank": 1,
+      "source_id": "7ea6379a6eaac369fe9ea1db",
+      "name": "Posera: 사진 포즈 가이드 카메라",
+      "developer": "Homer Street Labs Inc.",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/37/30/72373003-92ce-f268-833c-8878aa8a4901/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/posera-%EC%82%AC%EC%A7%84-%ED%8F%AC%EC%A6%88-%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%B9%B4%EB%A9%94%EB%9D%BC/id6781091663",
+      "idea_summary": "카메라 뷰에 포즈 가이드를 실시간 오버레이",
+      "analysis": {
+        "problem": "혼자 촬영 시 어떤 포즈를 취해야 할지 몰라 아쉬운 사진이 나오는 문제 [추론]",
+        "solution": "카메라 뷰파인더에 포즈 가이드를 실시간 오버레이하여 따라하게 유도 [추론]",
+        "target_user": "SNS 콘텐츠를 만드는 20-30대, 혼자 여행하는 사용자 [추론]",
+        "unique_point": "카메라 앱과 포즈 가이드를 하나로 통합한 실시간 오버레이 경험 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "SNOW",
+          "B612",
+          "Unfold"
+        ],
+        "timing_reason": "SNS 셀피 문화 확산과 AR 기술의 모바일 접근성 향상 [추론]",
+        "growth_potential": "셀피 문화가 강한 아시아 시장 중심으로 꾸준한 성장 가능성 존재 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 포즈 팩 IAP 또는 월 구독 [추론]",
+        "pricing_suggestion": "무료 기본 제공 후 프리미엄 포즈 라이브러리 월 $2.99-$4.99 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-4개월 [추론]",
+        "estimated_cost": "500-800 [추론]",
+        "tech_stack": [
+          "Swift",
+          "ARKit",
+          "Core ML",
+          "AVFoundation"
+        ],
+        "key_features": [
+          "실시간 포즈 오버레이",
+          "포즈 라이브러리",
+          "타이머 셔터",
+          "카테고리 필터"
+        ],
+        "clone_tip": "ARKit 포즈 오버레이가 핵심 기술; 포즈 콘텐츠 큐레이션 품질이 진짜 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#사진앱",
+        "#AR활용"
+      ],
+      "verdict": "SNS 셀피 문화와 AR 기술 결합, 아시아 시장 잠재력 높음",
+      "country": "kr",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "a3907dca14a7b122046f58af",
+      "name": "Wingboard｜Duo対応 片手・左右キーボード",
+      "developer": "Kanana Studio",
+      "category": "Utilities",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/ff/45/83ff45d1-7bc6-5f3b-b0ba-6e1dda14deff/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/wingboard-duo%E5%AF%BE%E5%BF%9C-%E7%89%87%E6%89%8B-%E5%B7%A6%E5%8F%B3%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89/id6826861752",
+      "idea_summary": "한손 모드와 좌우 분리 모드로 타이핑 최적화",
+      "analysis": {
+        "problem": "대화면 스마트폰에서 한 손으로 사용할 때 반대편 키에 엄지손가락이 닿지 않는 불편 [추론]",
+        "solution": "화면 한쪽으로 키보드를 축소하거나 좌우 분리 레이아웃을 제공해 한손 타이핑 가능 [추론]",
+        "target_user": "대형 스마트폰 사용자, 한 손으로 멀티태스킹하는 이동 중 직장인 [추론]",
+        "unique_point": "한손 모드와 듀오(좌우 분리) 모드를 동시 지원하는 혁신적 키보드 레이아웃 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Gboard",
+          "SwiftKey",
+          "Fleksy"
+        ],
+        "timing_reason": "6인치 이상 대화면 스마트폰 보급 확대로 한손 타이핑 불편 니즈 증가 [추론]",
+        "growth_potential": "폴더블폰 등 다양한 폼팩터 등장으로 커스텀 키보드 수요 지속 증가 예상 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 테마/레이아웃 IAP 또는 일회성 유료 앱 판매 [추론]",
+        "pricing_suggestion": "무료 기본 제공 후 프리미엄 테마 팩 $1.99-$3.99 IAP [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-3개월 [추론]",
+        "estimated_cost": "300-500 [추론]",
+        "tech_stack": [
+          "Swift",
+          "UIKit",
+          "Keyboard Extension API",
+          "Core Data"
+        ],
+        "key_features": [
+          "한손 모드",
+          "좌우 분리 모드",
+          "커스텀 테마",
+          "자동 교정",
+          "제스처 입력"
+        ],
+        "clone_tip": "iOS Keyboard Extension으로 구현; 키 레이아웃 최적화 알고리즘과 UX가 사용자 이탈 방지 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 3,
+        "scalability": 3,
+        "overall": 7.5
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#유틸리티",
+        "#키보드"
+      ],
+      "verdict": "대화면 시대의 실용적 타이핑 솔루션, 꾸준한 니즈 존재",
+      "country": "jp"
+    },
+    {
+      "rank": 3,
+      "source_id": "b2d115792841ca45b9d8d222",
+      "name": "nuan - フィルムカメラとRAW現像",
+      "developer": "25Re",
+      "category": "Photo & Video",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/0e/a2/bb0ea23c-de6d-2be2-75e2-ad0f0548f65c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/jp/app/nuan-%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%82%AB%E3%83%A1%E3%83%A9%E3%81%A8raw%E7%8F%BE%E5%83%8F/id6828605269",
+      "idea_summary": "필름 감성 촬영과 RAW 현상을 하나의 앱에서",
+      "analysis": {
+        "problem": "필름 감성을 원하면서도 화질 손실 없이 RAW 현상을 하고 싶은 상충된 니즈 [추론]",
+        "solution": "필름 카메라 촬영 경험과 RAW 현상 도구를 하나의 앱에서 제공하여 고품질 필름 감성 사진 완성 [추론]",
+        "target_user": "사진에 진지한 취미를 가진 20-40대 크리에이터 및 사진 애호가 [추론]",
+        "unique_point": "필름 감성과 RAW 화질 보존을 동시에 추구하는 프리미엄 카메라 앱 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "VSCO",
+          "Halide",
+          "Darkroom",
+          "Lightroom Mobile"
+        ],
+        "timing_reason": "필름 카메라 복고 트렌드 확산과 iPhone ProRAW 기능 보급 [추론]",
+        "growth_potential": "고퀄리티 모바일 사진 시장 지속 성장과 크리에이터 이코노미 확대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 필름 프리셋 팩 구독 또는 일회성 IAP [추론]",
+        "pricing_suggestion": "무료 기본 제공 후 프리미엄 필름 팩 월 구독 $3.99-$6.99 [추론]",
+        "revenue_potential": "중상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-6개월 [추론]",
+        "estimated_cost": "700-1200 [추론]",
+        "tech_stack": [
+          "Swift",
+          "AVFoundation",
+          "Core Image",
+          "Metal",
+          "ProRAW API"
+        ],
+        "key_features": [
+          "RAW 촬영",
+          "필름 시뮬레이션",
+          "현상 도구",
+          "색상 그레이딩",
+          "EXIF 정보 표시"
+        ],
+        "clone_tip": "AVFoundation ProRAW 지원이 기술 핵심; 필름 LUT 품질과 현상 UI가 경쟁력 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 2,
+        "market_size": 3,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 3,
+        "overall": 7.6
+      },
+      "tags": [
+        "#중급개발",
+        "#B2C",
+        "#사진앱",
+        "#필름감성",
+        "#RAW"
+      ],
+      "verdict": "필름+RAW 결합 니치 마켓 공략, 사진 마니아층 타겟",
+      "country": "jp"
+    },
+    {
+      "rank": 4,
+      "source_id": "23f8dfbb81400c41eb53c890",
+      "name": "Hanzumio: 신수와 배우는 중국어",
+      "developer": "佳琦 王",
+      "category": "Education",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/f2/08/d2f208b9-b06d-6862-05a2-51e982c38ac2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/kr/app/hanzumio-%EC%8B%A0%EC%88%98%EC%99%80-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%A4%91%EA%B5%AD%EC%96%B4/id6817229454",
+      "idea_summary": "귀여운 동물 캐릭터로 중국어 한자 연상 학습",
+      "analysis": {
+        "problem": "복잡한 중국어 한자 학습이 어렵고 지루하여 초보자가 쉽게 포기하는 문제 [추론]",
+        "solution": "귀여운 동물 캐릭터와 한자를 시각적으로 연결하여 연상 기억법으로 흥미롭게 학습 [추론]",
+        "target_user": "중국어를 처음 배우는 한국·일본 초보 학습자, 어린이부터 성인까지 [추론]",
+        "unique_point": "동물 캐릭터와 한자를 1대1 매핑한 직관적 연상 기억법 적용 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Duolingo",
+          "HelloChinese",
+          "Pleco",
+          "ChineseSkill"
+        ],
+        "timing_reason": "중국어 학습 수요 지속 증가 및 게임화(Gamification) 학습 트렌드 확산 [추론]",
+        "growth_potential": "한자문화권 학습 앱 시장의 꾸준한 수요와 아시아 교육 시장 성장 기대 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 콘텐츠 구독 또는 고급 학습 팩 IAP [추론]",
+        "pricing_suggestion": "무료 기본 콘텐츠 제공 후 전체 콘텐츠 월 구독 $4.99-$9.99 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-900 [추론]",
+        "tech_stack": [
+          "Swift",
+          "SpriteKit",
+          "Core Data",
+          "StoreKit"
+        ],
+        "key_features": [
+          "동물 연상 카드",
+          "퀴즈 모드",
+          "획순 연습",
+          "복습 알림",
+          "학습 진도 추적"
+        ],
+        "clone_tip": "연상 이미지 콘텐츠 큐레이션이 성패 결정; SRS 간격 반복 알고리즘으로 리텐션 향상 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#에듀테크",
+        "#중국어학습"
+      ],
+      "verdict": "게임화 학습 트렌드와 중국어 수요 결합, 아시아 시장 공략 적합",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "bdc636a6cf098d7e86e26e4d",
+      "name": "frenzy - friends only",
+      "developer": "Fire Apps Ltd",
+      "category": "Social Networking",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/34/b3/8d34b386-bc6e-2b94-75dd-5cc6110b4583/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+      "app_url": "https://apps.apple.com/us/app/frenzy-friends-only/id6753807741",
+      "idea_summary": "팔로워 경쟁 없는 진짜 친구들만의 프라이빗 SNS",
+      "analysis": {
+        "problem": "팔로워 수 경쟁과 퍼포먼스 압박으로 인한 SNS 피로도 증가 문제 [추론]",
+        "solution": "팔로워 수를 공개하지 않고 실제 친구만 접근 가능한 폐쇄형 소셜 네트워크 제공 [추론]",
+        "target_user": "SNS 피로감을 느끼는 MZ세대, 소수의 가까운 친구들과 소통하고 싶은 사용자 [추론]",
+        "unique_point": "지표 경쟁 없는 친밀한 소셜 경험에 집중한 미니멀리즘 SNS [추론]"
+      },
+      "market": {
+        "competitors": [
+          "BeReal",
+          "Poparazzi",
+          "Geneva",
+          "Cocoon"
+        ],
+        "timing_reason": "디지털 웰빙 트렌드와 SNS 반발 정서 확산, 개인정보 보호 의식 강화 [추론]",
+        "growth_potential": "틈새 시장이지만 충성 유저 확보 시 소그룹 B2B 소셜 기능으로 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 그룹 기능 구독 또는 소그룹 플랜 판매 [추론]",
+        "pricing_suggestion": "무료 기본 제공 후 프리미엄 기능 월 $2.99-$4.99 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-900 [추론]",
+        "tech_stack": [
+          "Swift",
+          "Firebase",
+          "WebSocket",
+          "CloudKit"
+        ],
+        "key_features": [
+          "친구 전용 피드",
+          "실시간 공유",
+          "프라이버시 설정",
+          "초대 코드 시스템",
+          "소그룹 채팅"
+        ],
+        "clone_tip": "초대 코드 기반 가입으로 바이럴 유도가 핵심; 단순하고 빠른 UX가 경쟁 우위 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 3,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.4
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜앱",
+        "#디지털웰빙"
+      ],
+      "verdict": "SNS 피로 시대의 대안, 충성 유저 확보가 성공 열쇠",
+      "country": "us"
+    }
+  ],
+  "android": [
+    {
+      "rank": 1,
+      "source_id": "5d3cb4e648e46d9fcb595b19",
+      "name": "AHEALTH: Get Healthy Get Paid",
+      "developer": "Gravity Ltd",
+      "category": "Health and Fitness",
+      "icon": "https://play-lh.googleusercontent.com/31YSDUvKDVaNAodv1jk6DTOHI2RMHWYlpX_SPMOcIC_Y0z--9xcDVeH5cOla9QTEn1KZ6KOyODb_TSCS0IkB",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tracerofficial",
+      "idea_summary": "건강 활동 완료 시 실제 현금 보상 지급",
+      "analysis": {
+        "problem": "건강 목표를 꾸준히 실천하기 어렵고 외적 동기부여가 부족한 문제 [추론]",
+        "solution": "운동·수면·식단 등 건강 활동 완료 시 실제 현금 또는 포인트를 지급하여 지속적 동기 강화 [추론]",
+        "target_user": "건강 관리와 부수입을 동시에 원하는 20-40대 직장인, 절약 지향 소비자 [추론]",
+        "unique_point": "건강 습관 형성에 실질적 금전 보상을 연결한 인센티브 기반 헬스케어 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Sweatcoin",
+          "Stepbet",
+          "Achievement",
+          "HealthyWage"
+        ],
+        "timing_reason": "헬스케어와 핀테크 융합 트렌드, 웰니스 경제 확산 및 보험사 예방 의료 투자 증가 [추론]",
+        "growth_potential": "보험사·헬스케어 기업과 B2B 파트너십으로 광고 이상의 수익 모델 확장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "광고 수익, 헬스케어 파트너 제휴 수수료, 프리미엄 미션 구독 [추론]",
+        "pricing_suggestion": "무료 앱 + 광고/파트너십 수익 모델, 프리미엄 미션 월 구독 $2.99 추가 [추론]",
+        "revenue_potential": "중상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-800 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Health Connect API",
+          "Firebase",
+          "Retrofit",
+          "Room DB"
+        ],
+        "key_features": [
+          "건강 활동 추적",
+          "보상 적립",
+          "미션 시스템",
+          "출금 기능",
+          "리더보드"
+        ],
+        "clone_tip": "Google Health Connect 연동으로 헬스 데이터 수집 간소화; 보상 인플레이션 방지 설계가 사업 지속성 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 4,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 8.1
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#헬스케어",
+        "#핀테크융합"
+      ],
+      "verdict": "건강+보상 결합으로 강력한 리텐션 유도, B2B 확장성 보유",
+      "country": "us",
+      "deep_report_id": null
+    },
+    {
+      "rank": 2,
+      "source_id": "936e2259f7eb10414f7fc3e4",
+      "name": "GoWish - Your Digital Wishlist",
+      "developer": "Ønskeskyen ApS",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/svf9YSJNLEa7vHsPmA26miTYJNGJdJzwZasTKYVkIM1zqa9ME6PANpUAbFy6AOSF9JHcwDDTgK-87UtaMUvdmjg",
+      "app_url": "https://play.google.com/store/apps/details?id=com.gowish.app",
+      "idea_summary": "원하는 선물 목록을 가족·친구와 쉽게 공유",
+      "analysis": {
+        "problem": "선물 고르기가 어렵고 중복 선물을 받거나 원하지 않는 선물을 받는 문제 [추론]",
+        "solution": "디지털 위시리스트를 생성하고 가족·친구와 공유하며 선물 중복 예약을 방지 [추론]",
+        "target_user": "생일·명절·크리스마스 선물을 주고받는 모든 연령대, 특히 가족 그룹 [추론]",
+        "unique_point": "북유럽에서 검증된 소셜 위시리스트 플랫폼의 직관적 UX와 선물 예약 충돌 방지 기능 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Elfster",
+          "Wishlistr",
+          "Amazon Wish List",
+          "Santa's Bag"
+        ],
+        "timing_reason": "이커머스 성장과 소셜 선물 문화 확산, 비대면 선물 주고받기 트렌드 [추론]",
+        "growth_potential": "쇼핑 플랫폼 연동과 어필리에이트 커머스 모델로 추가 수익 창출 가능 [추론]"
+      },
+      "business": {
+        "monetization": "프리미엄 그룹 기능 구독, 쇼핑 플랫폼 제휴 커미션 [추론]",
+        "pricing_suggestion": "무료 기본 제공 후 프리미엄 기능 월 $1.99-$3.99 구독 [추론]",
+        "revenue_potential": "중"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "400-700 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Firebase",
+          "Retrofit",
+          "Room DB",
+          "Deep Link API"
+        ],
+        "key_features": [
+          "위시리스트 생성",
+          "소셜 공유",
+          "선물 예약 기능",
+          "가격 추적",
+          "그룹 협업"
+        ],
+        "clone_tip": "소셜 공유 UX와 선물 예약 충돌 방지 로직이 핵심; 커머스 API 연동으로 어필리에이트 수익화 가능 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 3,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 3,
+        "scalability": 4,
+        "overall": 7.2
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#소셜커머스",
+        "#선물문화"
+      ],
+      "verdict": "북유럽 검증 모델, 선물 문화 강한 한국 시장 진입 가능성 존재",
+      "country": "us"
+    },
+    {
+      "rank": 3,
+      "source_id": "82b09e347af633246fc5dd01",
+      "name": "캐시모어-영수증 앱테크, 돈버는앱 현금 캐시백 리워드",
+      "developer": "BridgeWorks",
+      "category": "Finance",
+      "icon": "https://play-lh.googleusercontent.com/zrfZundKRFG4VQau3Rv1_S69V7l0jo644I1klaM2DLeH7OTN7JM34P_qQlSe4rPnW6RiPUNDeVeIcxFso-76ZQ",
+      "app_url": "https://play.google.com/store/apps/details?id=com.bridgeworks.cashmore",
+      "idea_summary": "영수증 촬영으로 현금 캐시백과 리워드 적립",
+      "analysis": {
+        "problem": "오프라인 쇼핑 후 혜택을 받지 못하고 구매 데이터가 소비자에게 돌아오지 않는 문제 [추론]",
+        "solution": "영수증 촬영으로 구매를 인증하면 캐시백 및 포인트를 지급하는 리워드 앱 [추론]",
+        "target_user": "절약을 원하는 20-40대 소비자, 주부, 가계 관리에 관심 있는 사용자 [추론]",
+        "unique_point": "오프라인 구매 데이터를 활용한 소비자-소매점 연결 리워드 모델 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Ibotta",
+          "Fetch Rewards",
+          "Receipt Hog",
+          "Rakuten"
+        ],
+        "timing_reason": "물가 상승으로 절약 앱 수요 급증 및 모바일 OCR 기술 성숙 [추론]",
+        "growth_potential": "소매 파트너십 확대와 구매 데이터 B2B 판매로 광고 외 수익 창출 가능 [추론]"
+      },
+      "business": {
+        "monetization": "소매 파트너 제휴 수수료, 구매 데이터 인사이트 B2B 판매 [추론]",
+        "pricing_suggestion": "무료 앱 + 파트너십·데이터 수익 모델 (소비자 완전 무료 제공) [추론]",
+        "revenue_potential": "중상"
+      },
+      "dev_insight": {
+        "estimated_period": "3-5개월 [추론]",
+        "estimated_cost": "500-900 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ML Kit OCR",
+          "Firebase",
+          "Retrofit",
+          "Room DB"
+        ],
+        "key_features": [
+          "영수증 OCR 스캔",
+          "캐시백 적립",
+          "파트너 오퍼",
+          "출금 기능",
+          "구매 내역 관리"
+        ],
+        "clone_tip": "ML Kit OCR로 영수증 파싱 구현 가능; 초기 소매 파트너 확보가 비즈니스 생존의 핵심 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 4,
+        "competition": 3,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.8
+      },
+      "tags": [
+        "#중급개발",
+        "#B2C",
+        "#핀테크",
+        "#리워드앱"
+      ],
+      "verdict": "절약 트렌드와 OCR 기술 결합, 파트너 확보 역량이 성패 좌우",
+      "country": "kr"
+    },
+    {
+      "rank": 4,
+      "source_id": "53189c2c86acd7003ff6974a",
+      "name": "ReelShort - 드라마 및 TV 스트리밍",
+      "developer": "NewLeaf Publishing",
+      "category": "Entertainment",
+      "icon": "https://play-lh.googleusercontent.com/mzo4PnyNudAfdPmD7kPGoX0-OWqPgngejYRmiEkva1WCPvLfnA5n7CQWYJErwFGnGw-cg4zBXf8JOVVtrKM0HmI",
+      "app_url": "https://play.google.com/store/apps/details?id=com.newleaf.app.android.victor",
+      "idea_summary": "웹소설 IP 기반 세로형 숏폼 드라마 스트리밍",
+      "analysis": {
+        "problem": "긴 드라마를 볼 시간이 없지만 스토리 콘텐츠를 짧은 시간에 소비하고 싶은 니즈 [추론]",
+        "solution": "1-2분 분량의 짧은 에피소드로 쪼개진 세로형 드라마를 스마트폰 최적화 형태로 스트리밍 [추론]",
+        "target_user": "출퇴근 시간을 활용하는 20-40대, 짧은 여가 시간에 콘텐츠를 소비하는 직장인 [추론]",
+        "unique_point": "웹소설 IP를 세로형 숏폼 드라마로 변환한 모바일 최적화 OTT 포맷 개척 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "DramaBox",
+          "FlexTV",
+          "Youku",
+          "틱톡 드라마"
+        ],
+        "timing_reason": "TikTok이 개척한 세로형 숏폼 소비 습관이 드라마 장르로 확장되는 트렌드 [추론]",
+        "growth_potential": "글로벌 숏폼 드라마 시장이 급성장 중이며 IP 확보 역량에 따라 고성장 가능 [추론]"
+      },
+      "business": {
+        "monetization": "에피소드 개별 코인 결제 또는 월정액 구독 모델 [추론]",
+        "pricing_suggestion": "무료 미리보기 + 에피소드당 코인 구매 또는 월 구독 $6.99-$9.99 [추론]",
+        "revenue_potential": "상"
+      },
+      "dev_insight": {
+        "estimated_period": "4-7개월 [추론]",
+        "estimated_cost": "800-1500 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "ExoPlayer",
+          "Firebase",
+          "AWS S3",
+          "In-App Billing API"
+        ],
+        "key_features": [
+          "세로형 비디오 플레이어",
+          "에피소드 목록",
+          "코인 결제 시스템",
+          "구독 관리",
+          "오프라인 저장"
+        ],
+        "clone_tip": "콘텐츠 IP 확보가 사업의 90%; 플레이어 UX는 TikTok 스와이프 방식으로 최적화 필수 [추론]"
+      },
+      "scores": {
+        "novelty": 3,
+        "necessity": 4,
+        "timing": 5,
+        "tech_difficulty": 3,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 5,
+        "scalability": 5,
+        "overall": 8
+      },
+      "tags": [
+        "#중급개발",
+        "#B2C",
+        "#엔터테인먼트",
+        "#숏폼드라마"
+      ],
+      "verdict": "숏폼 드라마 급성장 시장 진입, IP 확보가 비즈니스 핵심 과제",
+      "country": "kr"
+    },
+    {
+      "rank": 5,
+      "source_id": "f8b2b904fd6df32a5aed3827",
+      "name": "DealSeek: Coupons & Discounts",
+      "developer": "DealSeek LLC",
+      "category": "Shopping",
+      "icon": "https://play-lh.googleusercontent.com/pcsb/AEecphZ9shPwNgjrFhVcKXtxWxKDTkVrYHsflKS77hGj0oJ0teoQ0VuZHQL6CceIlBu7KXwQB-v1IAB2A8Bjekd1YCha8iy36b4",
+      "app_url": "https://play.google.com/store/apps/details?id=com.dealseekorg.dealseek",
+      "idea_summary": "AI가 쇼핑몰별 최신 쿠폰 코드를 자동 발굴",
+      "analysis": {
+        "problem": "온라인 쇼핑 시 사용 가능한 쿠폰을 찾는 데 시간을 낭비하거나 놓치는 문제 [추론]",
+        "solution": "쇼핑 사이트별 최신 쿠폰과 할인 코드를 자동 수집·검증하여 한곳에서 제공 [추론]",
+        "target_user": "온라인 쇼핑을 자주 하는 절약 지향적 20-40대 소비자 [추론]",
+        "unique_point": "실시간 쿠폰 유효성 검증으로 사용자의 쿠폰 탐색 시간을 절약하는 자동화 [추론]"
+      },
+      "market": {
+        "competitors": [
+          "Honey(PayPal)",
+          "RetailMeNot",
+          "Rakuten",
+          "Coupert"
+        ],
+        "timing_reason": "이커머스 성장과 경기 불황으로 절약 소비 트렌드가 강화되는 시점 [추론]",
+        "growth_potential": "어필리에이트 마케팅 시장 성장과 함께 쿠폰 중개 수수료 수익 확대 가능 [추론]"
+      },
+      "business": {
+        "monetization": "제휴 커미션(CPS), 프리미엄 딜 구독, 광고 수익 [추론]",
+        "pricing_suggestion": "무료 앱 + 어필리에이트 커미션 수익 모델, 프리미엄 알림 서비스 월 $1.99 추가 [추론]",
+        "revenue_potential": "중상"
+      },
+      "dev_insight": {
+        "estimated_period": "2-4개월 [추론]",
+        "estimated_cost": "400-700 [추론]",
+        "tech_stack": [
+          "Kotlin",
+          "Room DB",
+          "Retrofit",
+          "Firebase",
+          "WorkManager"
+        ],
+        "key_features": [
+          "쿠폰 검색",
+          "카테고리별 필터",
+          "유효기간 알림",
+          "즐겨찾기",
+          "실시간 유효성 검증"
+        ],
+        "clone_tip": "쿠폰 데이터 파트너십 또는 크롤링 파이프라인이 핵심 자산; 유효 쿠폰 검증 시스템이 사용자 신뢰 차별점 [추론]"
+      },
+      "scores": {
+        "novelty": 2,
+        "necessity": 4,
+        "timing": 4,
+        "tech_difficulty": 4,
+        "market_size": 5,
+        "competition": 2,
+        "profitability": 4,
+        "scalability": 4,
+        "overall": 7.3
+      },
+      "tags": [
+        "#1인개발가능",
+        "#B2C",
+        "#쇼핑",
+        "#절약앱"
+      ],
+      "verdict": "경쟁 치열하지만 절약 니즈 강력, 데이터 품질로 차별화 필요",
+      "country": "us"
+    }
+  ],
+  "daily_insight": {
+    "trend_summary": "오늘 선정된 앱들은 카메라·창작 도구의 고도화와 건강·소비에 보상을 연결하는 인센티브 모델이 주요 트렌드로 부상했다 [추론]. AI 및 AR 기술이 일상 앱에 접목되며 단순 유틸리티를 넘어 참여형 경험으로 진화하고 있다 [추론].",
+    "trend_details": [
+      "필름 감성 카메라와 RAW 현상 기능의 결합으로 고품질 모바일 사진 도구 수요 증가 [추론]",
+      "건강 활동에 실질적 금전 보상을 연결한 헬스케어-핀테크 융합 앱 성장 [추론]",
+      "SNS 피로도 증가로 인한 소규모 친밀 소셜 네트워크(Anti-SNS) 트렌드 확산 [추론]",
+      "웹소설 IP 기반 세로형 숏폼 드라마가 새로운 모바일 OTT 포맷으로 급성장 [추론]",
+      "절약 소비 트렌드에 맞춰 영수증 리워드, 쿠폰 자동화 등 스마트 쇼핑 보조 앱 증가 [추론]"
+    ],
+    "hot_categories": [
+      "Photo & Video",
+      "Health & Fitness",
+      "Entertainment",
+      "Social Networking",
+      "Shopping"
+    ],
+    "opportunity": "건강 보상 모델을 한국 시장에 맞게 커스터마이징하여 국민건강보험 또는 보험사와 B2B 파트너십 연계 가능성 존재 [추론]",
+    "action_item": "AHEALTH 모델을 참고하여 걷기·운동 보상 앱의 국내 MVP를 Health Connect + 간단한 포인트 시스템으로 2개월 내 개발 착수 [추론]"
+  },
+  "data_status": {}
+}

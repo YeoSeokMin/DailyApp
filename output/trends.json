@@ -1,39 +1,49 @@
 {
-  "generatedAt": "2026-11-25T15:25:07.664Z",
+  "generatedAt": "2026-11-26T15:16:23.520Z",
   "period": {
     "current": "최근 7일",
     "previous": "7-14일 전"
   },
   "risingCategories": [
     {
-      "category": "Health and Fitness",
-      "currentCount": 3,
-      "previousCount": 1,
-      "changePercent": 200,
-      "changeDirection": "up",
-      "apps": [
-        "WakeBox",
-        "On Pace: Steps vs Average",
-        "AHEALTH: Get Healthy Get Paid"
-      ],
-      "avgScore": 7.333333333333333
-    },
-    {
-      "category": "Utilities",
+      "category": "Productivity",
       "currentCount": 7,
       "previousCount": 3,
       "changePercent": 133,
       "changeDirection": "up",
       "apps": [
-        "DuctWise HVAC Duct Calculator",
-        "Desky - Desktop Mode Switching",
-        "Sidefill: Safari用 横幅いっぱい表示",
-        "Dashcam Viewer: for Tesla",
-        "What Plane?",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "CleanX: 저장공간 정리"
+        "노그미: AI 녹음 노트",
+        "Pocket Mac Lab",
+        "언제했지 - 마지막으로 한 날",
+        "setlog",
+        "AidPDF-Edit",
+        "PACE - 目標ペース管理・習慣トラッカー",
+        "Audoc: 문서·PDF 읽어주기"
       ],
-      "avgScore": 7.042857142857144
+      "avgScore": 7.085714285714286
+    },
+    {
+      "category": "Navigation",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "山でこまったときに開くアプリ"
+      ],
+      "avgScore": 7.2
+    },
+    {
+      "category": "Artificial Intelligence",
+      "currentCount": 2,
+      "previousCount": 1,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+        "크랙 - 내가 주인공인 웹소설, AI 채팅"
+      ],
+      "avgScore": 8.2
     },
     {
       "category": "Art & Design",
@@ -83,7 +93,7 @@
     {
       "category": "Reference",
       "currentCount": 2,
-      "previousCount": 1,
+      "previousCount": 0,
       "changePercent": 100,
       "changeDirection": "up",
       "apps": [
@@ -117,18 +127,6 @@
       "avgScore": 6
     },
     {
-      "category": "Weather",
-      "currentCount": 2,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "STATLAB - 실시간 산악 날씨",
-        "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨"
-      ],
-      "avgScore": 7.15
-    },
-    {
       "category": "Medical",
       "currentCount": 1,
       "previousCount": 0,
@@ -138,6 +136,17 @@
         "Go Narrow: Study Antibiotics"
       ],
       "avgScore": 7.9
+    },
+    {
+      "category": "Photo and Video",
+      "currentCount": 1,
+      "previousCount": 0,
+      "changePercent": 100,
+      "changeDirection": "up",
+      "apps": [
+        "CRT8: Analog Camera"
+      ],
+      "avgScore": 7
     },
     {
       "category": "AI Assistant",
@@ -193,66 +202,59 @@
         "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방"
       ],
       "avgScore": 7.5
-    },
-    {
-      "category": "Wishlist",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "GoWish - Your Digital Wishlist"
-      ],
-      "avgScore": 7
-    },
-    {
-      "category": "Video Entertainment",
-      "currentCount": 1,
-      "previousCount": 0,
-      "changePercent": 100,
-      "changeDirection": "up",
-      "apps": [
-        "BlinkDrama: Short Dramas & TV"
-      ],
-      "avgScore": 7.5
-    },
-    {
-      "category": "Productivity",
-      "currentCount": 6,
-      "previousCount": 4,
-      "changePercent": 50,
-      "changeDirection": "up",
-      "apps": [
-        "Pocket Mac Lab",
-        "언제했지 - 마지막으로 한 날",
-        "setlog",
-        "AidPDF-Edit",
-        "PACE - 目標ペース管理・習慣トラッカー",
-        "Audoc: 문서·PDF 읽어주기"
-      ],
-      "avgScore": 6.933333333333334
     }
   ],
   "decliningCategories": [
     {
-      "category": "Photo & Video",
-      "currentCount": 4,
+      "category": "Utilities",
+      "currentCount": 5,
       "previousCount": 6,
-      "changePercent": -33,
+      "changePercent": -17,
       "changeDirection": "down",
       "apps": [
+        "키냥: 기계식 키보드 타자 소리·키캡 꾸미기 테마",
+        "DuctWise HVAC Duct Calculator",
+        "Desky - Desktop Mode Switching",
+        "Sidefill: Safari用 横幅いっぱい表示",
+        "Dashcam Viewer: for Tesla"
+      ],
+      "avgScore": 7.2
+    },
+    {
+      "category": "Lifestyle",
+      "currentCount": 5,
+      "previousCount": 6,
+      "changePercent": -17,
+      "changeDirection": "down",
+      "apps": [
+        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+        "DuoFridge",
+        "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
+        "해군PTSD알람",
+        "Open Chair Finder"
+      ],
+      "avgScore": 6.74
+    },
+    {
+      "category": "Photo & Video",
+      "currentCount": 5,
+      "previousCount": 7,
+      "changePercent": -29,
+      "changeDirection": "down",
+      "apps": [
+        "tomatolayer - 레퍼런스 구도 카메라",
+        "아띠모 - 사진 정리 · 밀착인화",
         "ZineControl",
         "IIWII: Film Simulation Camera",
-        "FrameSmoother: 60fps 슬로모션",
-        "셀리 - 프롬프터 카메라"
+        "FrameSmoother: 60fps 슬로모션"
       ],
-      "avgScore": 7.275
+      "avgScore": 7.32
     },
     {
       "category": "Music",
       "currentCount": 5,
-      "previousCount": 8,
-      "changePercent": -37,
+      "previousCount": 7,
+      "changePercent": -29,
       "changeDirection": "down",
       "apps": [
         "Chord Lab",
@@ -264,10 +266,38 @@
       "avgScore": 6.9799999999999995
     },
     {
+      "category": "Shopping",
+      "currentCount": 6,
+      "previousCount": 9,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
+        "GovAuctions.com - Shop Surplus",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
+        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜"
+      ],
+      "avgScore": 7.383333333333333
+    },
+    {
+      "category": "Social Networking",
+      "currentCount": 2,
+      "previousCount": 3,
+      "changePercent": -33,
+      "changeDirection": "down",
+      "apps": [
+        "Bump: 마지막 소셜 네트워크",
+        "Scoopz: Real Life, Real Videos"
+      ],
+      "avgScore": 7.15
+    },
+    {
       "category": "Entertainment",
       "currentCount": 3,
-      "previousCount": 6,
-      "changePercent": -50,
+      "previousCount": 5,
+      "changePercent": -40,
       "changeDirection": "down",
       "apps": [
         "FreeReels -인기 단편/한일 드라마, 역전극",
@@ -275,18 +305,6 @@
         "Untraced: Find the Suspect"
       ],
       "avgScore": 7.233333333333333
-    },
-    {
-      "category": "Social Networking",
-      "currentCount": 2,
-      "previousCount": 4,
-      "changePercent": -50,
-      "changeDirection": "down",
-      "apps": [
-        "Bump: 마지막 소셜 네트워크",
-        "Scoopz: Real Life, Real Videos"
-      ],
-      "avgScore": 7.15
     },
     {
       "category": "Rewards",
@@ -298,20 +316,6 @@
         "금줍줍: 만보기·게임 앱테크로 금한돈 벌기"
       ],
       "avgScore": 6.5
-    },
-    {
-      "category": "Shopping",
-      "currentCount": 4,
-      "previousCount": 11,
-      "changePercent": -64,
-      "changeDirection": "down",
-      "apps": [
-        "GovAuctions.com - Shop Surplus",
-        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜",
-        "폴센트 - 최저가 알림ㆍ가격비교ㆍ경유쇼핑ㆍ핫딜"
-      ],
-      "avgScore": 7.375
     },
     {
       "category": "Education",
@@ -327,6 +331,17 @@
   ],
   "stableCategories": [
     {
+      "category": "News",
+      "currentCount": 1,
+      "previousCount": 1,
+      "changePercent": 0,
+      "changeDirection": "stable",
+      "apps": [
+        "CrimeRadar by TownTalk"
+      ],
+      "avgScore": 7.2
+    },
+    {
       "category": "Health & Fitness",
       "currentCount": 2,
       "previousCount": 2,
@@ -337,22 +352,6 @@
         "Health Exporter & Shortcuts"
       ],
       "avgScore": 7.25
-    },
-    {
-      "category": "Lifestyle",
-      "currentCount": 6,
-      "previousCount": 6,
-      "changePercent": 0,
-      "changeDirection": "stable",
-      "apps": [
-        "DuoFridge",
-        "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
-        "해군PTSD알람",
-        "Open Chair Finder",
-        "Offline Survival Kit",
-        "Auday - All-Day Watch Recorder"
-      ],
-      "avgScore": 6.716666666666666
     },
     {
       "category": "Graphics & Design",
@@ -366,15 +365,16 @@
       "avgScore": 7
     },
     {
-      "category": "Artificial Intelligence",
-      "currentCount": 1,
-      "previousCount": 1,
+      "category": "Health and Fitness",
+      "currentCount": 2,
+      "previousCount": 2,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "크랙 - 내가 주인공인 웹소설, AI 채팅"
+        "WakeBox",
+        "On Pace: Steps vs Average"
       ],
-      "avgScore": 8.5
+      "avgScore": 7
     },
     {
       "category": "Books",
@@ -388,15 +388,15 @@
       "avgScore": 5.8
     },
     {
-      "category": "Photo and Video",
+      "category": "Weather",
       "currentCount": 1,
       "previousCount": 1,
       "changePercent": 0,
       "changeDirection": "stable",
       "apps": [
-        "CRT8: Analog Camera"
+        "STATLAB - 실시간 산악 날씨"
       ],
-      "avgScore": 7
+      "avgScore": 7.8
     },
     {
       "category": "Finance",
@@ -416,6 +416,16 @@
       "category": "tag",
       "count": 54,
       "apps": [
+        "노그미: AI 녹음 노트",
+        "tomatolayer - 레퍼런스 구도 카메라",
+        "아띠모 - 사진 정리 · 밀착인화",
+        "키냥: 기계식 키보드 타자 소리·키캡 꾸미기 테마",
+        "山でこまったときに開くアプリ",
+        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+        "칩스 - 최저가 알림 · 경유 쇼핑으로 추가 적립",
+        "CrimeRadar by TownTalk",
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
         "PulseOSC: VRChatで心拍数表示",
         "Pocket Mac Lab",
         "언제했지 - 마지막으로 한 날",
@@ -458,24 +468,19 @@
         "GigClick: Metronome, Setlist",
         "삼쩜삼 - 세금/병원비 환급, 정부 혜택, 앱테크",
         "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
-        "Rips by Triumph",
-        "셀리 - 프롬프터 카메라",
-        "What Plane?",
-        "Offline Survival Kit",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "Auday - All-Day Watch Recorder",
-        "AHEALTH: Get Healthy Get Paid",
-        "GoWish - Your Digital Wishlist",
-        "BlinkDrama: Short Dramas & TV",
-        "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
-        "CleanX: 저장공간 정리"
+        "Rips by Triumph"
       ]
     },
     {
       "keyword": "1인개발가능",
       "category": "tag",
-      "count": 40,
+      "count": 37,
       "apps": [
+        "노그미: AI 녹음 노트",
+        "tomatolayer - 레퍼런스 구도 카메라",
+        "아띠모 - 사진 정리 · 밀착인화",
+        "키냥: 기계식 키보드 타자 소리·키캡 꾸미기 테마",
+        "山でこまったときに開くアプリ",
         "DuctWise HVAC Duct Calculator",
         "PulseOSC: VRChatで心拍数表示",
         "Pocket Mac Lab",
@@ -507,15 +512,7 @@
         "RUB A DUB & CYPHER PLAYER",
         "G検定 対策 問題集 500問・解説・用語集",
         "Lumap - 旅の写真を地図に",
-        "GigClick: Metronome, Setlist",
-        "셀리 - 프롬프터 카메라",
-        "What Plane?",
-        "Offline Survival Kit",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "Auday - All-Day Watch Recorder",
-        "GoWish - Your Digital Wishlist",
-        "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨",
-        "CleanX: 저장공간 정리"
+        "GigClick: Metronome, Setlist"
       ]
     },
     {
@@ -523,6 +520,8 @@
       "category": "ai",
       "count": 17,
       "apps": [
+        "노그미: AI 녹음 노트",
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット",
         "AltoPaint: Oil & Watercolor",
         "AidPDF-Edit",
         "FrameSmoother: 60fps 슬로모션",
@@ -535,16 +534,15 @@
         "피클: 나만의 AI 에이전트",
         "Open Chair Finder",
         "G検定 対策 問題集 500問・解説・用語集",
-        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "AHEALTH: Get Healthy Get Paid"
+        "시티즌코난 - 보이스피싱,스미싱,피싱아이즈,사기예방"
       ]
     },
     {
       "keyword": "커뮤니티",
       "category": "social",
-      "count": 9,
+      "count": 10,
       "apps": [
+        "山でこまったときに開くアプリ",
         "Pocket Mac Lab",
         "ZineControl",
         "Scoopz: Real Life, Real Videos",
@@ -559,26 +557,12 @@
       "category": "social",
       "count": 7,
       "apps": [
+        "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
         "PulseOSC: VRChatで心拍数表示",
         "Artmate: Drawing Together",
         "Bump: 마지막 소셜 네트워크",
         "리드모어 - 독서 기록을 깔끔하게",
-        "Rips by Triumph",
-        "GoWish - Your Digital Wishlist"
-      ]
-    },
-    {
-      "keyword": "콘텐츠",
-      "category": "creator",
-      "count": 7,
-      "apps": [
-        "ZineControl",
-        "FreeReels -인기 단편/한일 드라마, 역전극",
-        "크랙 - 내가 주인공인 웹소설, AI 채팅",
-        "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
-        "Go Narrow: Study Antibiotics",
-        "Offline Survival Kit",
-        "BlinkDrama: Short Dramas & TV"
+        "Rips by Triumph"
       ]
     },
     {
@@ -596,29 +580,16 @@
       ]
     },
     {
-      "keyword": "프로",
-      "category": "subscription",
+      "keyword": "워크플로우",
+      "category": "productivity",
       "count": 6,
       "apps": [
-        "PulseOSC: VRChatで心拍数表示",
-        "언제했지 - 마지막으로 한 날",
-        "setlog",
-        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
-        "해군PTSD알람",
-        "Auday - All-Day Watch Recorder"
-      ]
-    },
-    {
-      "keyword": "구독모델",
-      "category": "tag",
-      "count": 6,
-      "apps": [
-        "AidPDF-Edit",
-        "Audoc: 문서·PDF 읽어주기",
-        "Suno - AI Music & Songs Maker",
-        "셀리 - 프롬프터 카메라",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "BlinkDrama: Short Dramas & TV"
+        "아띠모 - 사진 정리 · 밀착인화",
+        "Pocket Mac Lab",
+        "ZineControl",
+        "Band Session Note: 손글씨 악보",
+        "RUB A DUB & CYPHER PLAYER",
+        "GigClick: Metronome, Setlist"
       ]
     },
     {
@@ -635,6 +606,52 @@
       ]
     },
     {
+      "keyword": "크리에이터",
+      "category": "creator",
+      "count": 5,
+      "apps": [
+        "tomatolayer - 레퍼런스 구도 카메라",
+        "ZineControl",
+        "Artmate: Drawing Together",
+        "FrameSmoother: 60fps 슬로모션"
+      ]
+    },
+    {
+      "keyword": "니치마켓",
+      "category": "tag",
+      "count": 5,
+      "apps": [
+        "tomatolayer - 레퍼런스 구도 카메라",
+        "키냥: 기계식 키보드 타자 소리·키캡 꾸미기 테마",
+        "CoinScope: AI Identifier",
+        "RUB A DUB & CYPHER PLAYER"
+      ]
+    },
+    {
+      "keyword": "AR",
+      "category": "ar_vr",
+      "count": 5,
+      "apps": [
+        "CrimeRadar by TownTalk",
+        "Artmate: Drawing Together",
+        "Sidefill: Safari用 横幅いっぱい表示",
+        "Go Narrow: Study Antibiotics",
+        "Lumap - 旅の写真を地図に"
+      ]
+    },
+    {
+      "keyword": "프로",
+      "category": "subscription",
+      "count": 5,
+      "apps": [
+        "PulseOSC: VRChatで心拍数表示",
+        "언제했지 - 마지막으로 한 날",
+        "setlog",
+        "レシチャレ by クラシル レシートがお金に変わる節約アプリ",
+        "해군PTSD알람"
+      ]
+    },
+    {
       "keyword": "생산성",
       "category": "productivity",
       "count": 5,
@@ -647,38 +664,37 @@
       ]
     },
     {
-      "keyword": "워크플로우",
-      "category": "productivity",
-      "count": 5,
-      "apps": [
-        "Pocket Mac Lab",
-        "ZineControl",
-        "Band Session Note: 손글씨 악보",
-        "RUB A DUB & CYPHER PLAYER",
-        "GigClick: Metronome, Setlist"
-      ]
-    },
-    {
-      "keyword": "크리에이터",
+      "keyword": "콘텐츠",
       "category": "creator",
       "count": 5,
       "apps": [
         "ZineControl",
-        "Artmate: Drawing Together",
-        "FrameSmoother: 60fps 슬로모션",
-        "셀리 - 프롬프터 카메라"
+        "FreeReels -인기 단편/한일 드라마, 역전극",
+        "크랙 - 내가 주인공인 웹소설, AI 채팅",
+        "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
+        "Go Narrow: Study Antibiotics"
       ]
     },
     {
-      "keyword": "AR",
-      "category": "ar_vr",
-      "count": 5,
+      "keyword": "협업",
+      "category": "productivity",
+      "count": 4,
       "apps": [
+        "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
         "Artmate: Drawing Together",
-        "Sidefill: Safari用 横幅いっぱい表示",
-        "Go Narrow: Study Antibiotics",
-        "Lumap - 旅の写真を地図に",
-        "What Plane?"
+        "DuoFridge",
+        "Band Session Note: 손글씨 악보"
+      ]
+    },
+    {
+      "keyword": "구독모델",
+      "category": "tag",
+      "count": 4,
+      "apps": [
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット",
+        "AidPDF-Edit",
+        "Audoc: 문서·PDF 읽어주기",
+        "Suno - AI Music & Songs Maker"
       ]
     },
     {
@@ -703,37 +719,6 @@
       ]
     },
     {
-      "keyword": "영상",
-      "category": "creator",
-      "count": 4,
-      "apps": [
-        "FrameSmoother: 60fps 슬로모션",
-        "Scoopz: Real Life, Real Videos",
-        "Dashcam Viewer: for Tesla",
-        "셀리 - 프롬프터 카메라"
-      ]
-    },
-    {
-      "keyword": "협업",
-      "category": "productivity",
-      "count": 3,
-      "apps": [
-        "Artmate: Drawing Together",
-        "DuoFridge",
-        "Band Session Note: 손글씨 악보"
-      ]
-    },
-    {
-      "keyword": "한국시장",
-      "category": "tag",
-      "count": 3,
-      "apps": [
-        "캐치테이블",
-        "킹보드 - 맞춤법 검사기·번역 AI 키보드",
-        "첫화면 날씨 - 날씨 미세먼지 날씨위젯 비 예보 날씨"
-      ]
-    },
-    {
       "keyword": "카메라앱",
       "category": "tag",
       "count": 3,
@@ -742,44 +727,54 @@
         "내가 당신을 사랑할 때 보이는 순간들: 빈티지 카메라앱",
         "CRT8: Analog Camera"
       ]
+    },
+    {
+      "keyword": "영상",
+      "category": "creator",
+      "count": 3,
+      "apps": [
+        "FrameSmoother: 60fps 슬로모션",
+        "Scoopz: Real Life, Real Videos",
+        "Dashcam Viewer: for Tesla"
+      ]
     }
   ],
   "pricingTrends": {
     "distribution": {
       "free": {
-        "count": 44,
-        "percent": 63,
+        "count": 47,
+        "percent": 67,
         "examples": [
-          "PulseOSC: VRChatで心拍数表示",
-          "언제했지 - 마지막으로 한 날",
-          "Artmate: Drawing Together"
+          "노그미: AI 녹음 노트",
+          "tomatolayer - 레퍼런스 구도 카메라",
+          "아띠모 - 사진 정리 · 밀착인화"
         ]
       },
       "freemium": {
-        "count": 51,
-        "percent": 73,
+        "count": 55,
+        "percent": 79,
         "examples": [
-          "DuctWise HVAC Duct Calculator",
-          "PulseOSC: VRChatで心拍数表示",
-          "Pocket Mac Lab"
+          "노그미: AI 녹음 노트",
+          "tomatolayer - 레퍼런스 구도 카메라",
+          "아띠모 - 사진 정리 · 밀착인화"
         ]
       },
       "subscription": {
         "count": 48,
         "percent": 69,
         "examples": [
-          "DuctWise HVAC Duct Calculator",
-          "Pocket Mac Lab",
-          "Artmate: Drawing Together"
+          "노그미: AI 녹음 노트",
+          "아띠모 - 사진 정리 · 밀착인화",
+          "키냥: 기계식 키보드 타자 소리·키캡 꾸미기 테마"
         ]
       },
       "onetime": {
-        "count": 35,
-        "percent": 50,
+        "count": 33,
+        "percent": 47,
         "examples": [
-          "DuctWise HVAC Duct Calculator",
-          "PulseOSC: VRChatで心拍数表示",
-          "Pocket Mac Lab"
+          "노그미: AI 녹음 노트",
+          "tomatolayer - 레퍼런스 구도 카메라",
+          "山でこまったときに開くアプリ"
         ]
       },
       "unknown": {
@@ -790,12 +785,12 @@
     },
     "dominant": {
       "model": "freemium",
-      "count": 51,
-      "percent": 73,
+      "count": 55,
+      "percent": 79,
       "examples": [
-        "DuctWise HVAC Duct Calculator",
-        "PulseOSC: VRChatで心拍数表示",
-        "Pocket Mac Lab"
+        "노그미: AI 녹음 노트",
+        "tomatolayer - 레퍼런스 구도 카메라",
+        "아띠모 - 사진 정리 · 밀착인화"
       ]
     },
     "insight": "구독 모델이 주류. 안정적 수익을 위한 구독 전환 전략이 중요."
@@ -804,68 +799,68 @@
     "trends": [
       {
         "tech": "ai",
-        "count": 18,
-        "percent": 26,
+        "count": 17,
+        "percent": 24,
         "apps": [
+          "노그미: AI 녹음 노트",
+          "zeta - AIキャラ・あなたの推しとロールプレイチャット",
           "AltoPaint: Oil & Watercolor",
           "AidPDF-Edit",
-          "FrameSmoother: 60fps 슬로모션",
-          "크랙 - 내가 주인공인 웹소설, AI 채팅",
-          "Scoopz: Real Life, Real Videos"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 13,
-        "percent": 19,
-        "apps": [
-          "ZineControl",
-          "FreeReels -인기 단편/한일 드라마, 역전극",
-          "AidPDF-Edit",
-          "FrameSmoother: 60fps 슬로모션",
-          "크랙 - 내가 주인공인 웹소설, AI 채팅"
+          "FrameSmoother: 60fps 슬로모션"
         ]
       },
       {
         "tech": "social",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "山でこまったときに開くアプリ",
+          "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
           "Pocket Mac Lab",
           "ZineControl",
-          "Artmate: Drawing Together",
-          "Bump: 마지막 소셜 네트워크",
-          "Scoopz: Real Life, Real Videos"
+          "Artmate: Drawing Together"
         ]
       },
       {
         "tech": "productivity",
-        "count": 10,
-        "percent": 14,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "아띠모 - 사진 정리 · 밀착인화",
+          "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
           "Pocket Mac Lab",
           "ZineControl",
-          "Artmate: Drawing Together",
-          "DuoFridge",
-          "Health Exporter & Shortcuts"
+          "Artmate: Drawing Together"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "tomatolayer - 레퍼런스 구도 카메라",
+          "ZineControl",
+          "FreeReels -인기 단편/한일 드라마, 역전극",
+          "AidPDF-Edit",
+          "FrameSmoother: 60fps 슬로모션"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 8,
-        "percent": 11,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "키냥: 기계식 키보드 타자 소리·키캡 꾸미기 테마",
+          "CrimeRadar by TownTalk",
           "PulseOSC: VRChatで心拍数表示",
           "Artmate: Drawing Together",
-          "캐치테이블",
-          "WakeBox",
-          "Sidefill: Safari用 横幅いっぱい表示"
+          "캐치테이블"
         ]
       },
       {
         "tech": "subscription",
-        "count": 6,
-        "percent": 9,
+        "count": 5,
+        "percent": 7,
         "apps": [
           "PulseOSC: VRChatで心拍数表示",
           "언제했지 - 마지막으로 한 날",
@@ -894,75 +889,75 @@
     ],
     "dominant": {
       "tech": "ai",
-      "count": 18,
-      "percent": 26,
+      "count": 17,
+      "percent": 24,
       "apps": [
+        "노그미: AI 녹음 노트",
+        "zeta - AIキャラ・あなたの推しとロールプレイチャット",
         "AltoPaint: Oil & Watercolor",
         "AidPDF-Edit",
-        "FrameSmoother: 60fps 슬로모션",
-        "크랙 - 내가 주인공인 웹소설, AI 채팅",
-        "Scoopz: Real Life, Real Videos"
+        "FrameSmoother: 60fps 슬로모션"
       ]
     },
     "emerging": [
       {
         "tech": "ai",
-        "count": 18,
-        "percent": 26,
+        "count": 17,
+        "percent": 24,
         "apps": [
+          "노그미: AI 녹음 노트",
+          "zeta - AIキャラ・あなたの推しとロールプレイチャット",
           "AltoPaint: Oil & Watercolor",
           "AidPDF-Edit",
-          "FrameSmoother: 60fps 슬로모션",
-          "크랙 - 내가 주인공인 웹소설, AI 채팅",
-          "Scoopz: Real Life, Real Videos"
-        ]
-      },
-      {
-        "tech": "creator",
-        "count": 13,
-        "percent": 19,
-        "apps": [
-          "ZineControl",
-          "FreeReels -인기 단편/한일 드라마, 역전극",
-          "AidPDF-Edit",
-          "FrameSmoother: 60fps 슬로모션",
-          "크랙 - 내가 주인공인 웹소설, AI 채팅"
+          "FrameSmoother: 60fps 슬로모션"
         ]
       },
       {
         "tech": "social",
-        "count": 11,
-        "percent": 16,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "山でこまったときに開くアプリ",
+          "カウシェ - テレビ等で紹介多数！ショッピングアプリ",
           "Pocket Mac Lab",
           "ZineControl",
-          "Artmate: Drawing Together",
-          "Bump: 마지막 소셜 네트워크",
-          "Scoopz: Real Life, Real Videos"
+          "Artmate: Drawing Together"
         ]
       },
       {
         "tech": "productivity",
-        "count": 10,
-        "percent": 14,
+        "count": 12,
+        "percent": 17,
         "apps": [
+          "아띠모 - 사진 정리 · 밀착인화",
+          "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
           "Pocket Mac Lab",
           "ZineControl",
-          "Artmate: Drawing Together",
-          "DuoFridge",
-          "Health Exporter & Shortcuts"
+          "Artmate: Drawing Together"
+        ]
+      },
+      {
+        "tech": "creator",
+        "count": 11,
+        "percent": 16,
+        "apps": [
+          "tomatolayer - 레퍼런스 구도 카메라",
+          "ZineControl",
+          "FreeReels -인기 단편/한일 드라마, 역전극",
+          "AidPDF-Edit",
+          "FrameSmoother: 60fps 슬로모션"
         ]
       },
       {
         "tech": "ar_vr",
-        "count": 8,
-        "percent": 11,
+        "count": 9,
+        "percent": 13,
         "apps": [
+          "키냥: 기계식 키보드 타자 소리·키캡 꾸미기 테마",
+          "CrimeRadar by TownTalk",
           "PulseOSC: VRChatで心拍数表示",
           "Artmate: Drawing Together",
-          "캐치테이블",
-          "WakeBox",
-          "Sidefill: Safari用 横幅いっぱい表示"
+          "캐치테이블"
         ]
       }
     ]
@@ -970,10 +965,17 @@
   "opportunities": [
     {
       "type": "rising_category",
-      "title": "Health and Fitness 카테고리 급부상",
-      "description": "200% 증가했지만 앱 수가 적어 진입 기회",
+      "title": "Navigation 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
-      "category": "Health and Fitness"
+      "category": "Navigation"
+    },
+    {
+      "type": "rising_category",
+      "title": "Artificial Intelligence 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Artificial Intelligence"
     },
     {
       "type": "rising_category",
@@ -1026,17 +1028,17 @@
     },
     {
       "type": "rising_category",
-      "title": "Weather 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Weather"
-    },
-    {
-      "type": "rising_category",
       "title": "Medical 카테고리 급부상",
       "description": "100% 증가했지만 앱 수가 적어 진입 기회",
       "confidence": "high",
       "category": "Medical"
+    },
+    {
+      "type": "rising_category",
+      "title": "Photo and Video 카테고리 급부상",
+      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
+      "confidence": "high",
+      "category": "Photo and Video"
     },
     {
       "type": "rising_category",
@@ -1074,42 +1076,29 @@
       "category": "Security"
     },
     {
-      "type": "rising_category",
-      "title": "Wishlist 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Wishlist"
-    },
-    {
-      "type": "rising_category",
-      "title": "Video Entertainment 카테고리 급부상",
-      "description": "100% 증가했지만 앱 수가 적어 진입 기회",
-      "confidence": "high",
-      "category": "Video Entertainment"
-    },
-    {
       "type": "tech_trend",
       "title": "AI 기능 통합 트렌드",
-      "description": "26%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
+      "description": "24%의 앱이 AI 기능 포함. AI 미적용 카테고리에서 차별화 기회",
       "confidence": "high",
       "tech": "ai"
     }
   ],
   "insight": {
-    "trend_summary": "Health & Fitness 카테고리가 200% 급등하며 웰니스 앱 수요가 폭발적으로 증가하고 있고, AI 기능을 탑재한 앱이 전체의 26%를 차지하며 기술 차별화의 핵심이 되고 있습니다. 1인 개발 가능(40회)과 B2C(54회) 키워드가 압도적으로 많아 소규모 개발자에게 유리한 시장 환경이 형성되고 있습니다.",
+    "trend_summary": "Productivity 카테고리가 133% 급등하며 생산성 도구 수요가 폭발적으로 증가하고 있고, AI 기능을 탑재한 앱이 전체의 24%를 차지하며 AI가 앱 개발의 핵심 요소로 자리잡았습니다. '1인개발가능' 태그가 37회로 높은 관심을 받고 있어, 소규모 팀이나 개인 개발자에게 유리한 니치 시장 진입 기회가 열려 있습니다.",
     "trend_details": [
-      "Health & Fitness 카테고리 200% 급등 — 경쟁 앱 수는 여전히 적어 선점 기회 존재",
-      "AI 기능 통합이 빠르게 확산 중이지만 아직 74%의 앱은 AI 미적용 상태로 차별화 여지가 큼",
-      "Freemium(73%) + 구독(69%) 조합이 수익화 주류로 자리잡으며 무료 진입 후 전환 전략이 표준화"
+      "Productivity 카테고리 133% 급등: 워크플로우 자동화와 AI 결합 생산성 도구에 대한 수요가 집중되고 있음",
+      "Freemium 모델이 79%로 가장 보편적이며, 무료 진입 후 구독 전환 전략이 인디 앱의 표준 수익 모델로 정착",
+      "AI·소셜·크리에이터 기술 스택이 각각 17~24% 비중으로 경쟁이 심화되는 반면, Navigation·Food·Art 등 버티컬 카테고리는 아직 선점 여지가 큼"
     ],
     "hot_categories": [
-      "Health and Fitness",
-      "Utilities",
-      "AI Assistant",
-      "Music & Audio"
+      "Productivity",
+      "Artificial Intelligence",
+      "Navigation",
+      "Food & Dining",
+      "Art & Design"
     ],
-    "opportunity": "AI를 접목한 헬스·피트니스 앱은 성장률과 기술 트렌드가 동시에 교차하는 가장 밀도 높은 기회 영역입니다.",
-    "action_item": "운동 루틴·식단·수면 중 하나를 AI로 개인화하는 간단한 헬스 앱을 Freemium 구조로 빠르게 프로토타이핑하세요.",
-    "weekly_theme": "AI 웰니스 선점"
+    "opportunity": "AI 기능이 아직 적용되지 않은 Navigation, Food & Dining, Art & Design 등 100% 급등 카테고리에서 AI를 접목한 소규모 버티컬 앱을 선점하면 경쟁이 낮은 상태에서 빠르게 초기 사용자를 확보할 수 있습니다.",
+    "action_item": "Freemium + 구독 모델을 기본 구조로, AI 기능을 하나 탑재한 Navigation 또는 Food & Dining 버티컬 앱의 MVP를 2주 내 출시하고 한국 특화 커뮤니티(커뮤니티 키워드 10회)를 통해 초기 피드백을 수집하세요.",
+    "weekly_theme": "AI 버티컬 선점"
   }
 }
